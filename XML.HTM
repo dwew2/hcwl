@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8" />
+<TITLE>Historical Corpus of the Welsh Language</TITLE>
+<LINK REL=STYLESHEET HREF="hcwl2.css" TYPE="text/css" />
+
+<script  type="text/JavaScript" language="JavaScript">
+<!-- 
+function date_eng(date)
+{
+  var d = date.getDate();
+  var m = date.getMonth() + 1;
+  var y = date.getYear();
+  var me = 
+    ( 1==m)?'January':( 2==m)?'February':(3==m)?'March':
+    ( 4==m)?'April':( 5==m)?'May':(6==m)?'June':
+    ( 7==m)?'July':( 8==m)?'August':(9==m)?'September':
+    (10==m)?'October':(11==m)?'November':'December';
+  return d + " " + me + " " + y;
+}
+
+function date_cym(date)
+{
+  var d = date.getDate();
+  var m = date.getMonth() + 1;
+  var y = date.getYear();
+  var me = 
+    ( 1==m)?'Ionawr':( 2==m)?'Chwefror':(3==m)?'Mawrth':
+    ( 4==m)?'Ebrill':( 5==m)?'Mai':(6==m)?'Mehefin':
+    ( 7==m)?'Gorfennaf':( 8==m)?'Awst':(9==m)?'Medi':
+    (10==m)?'Hydref':(11==m)?'Tachwedd':'Rhagfyr';
+  return d + " " + me + " " + y;
+}
+
+// -->
+</script>
+
+</HEAD>
+<BODY>
+
+<!-- 
+<H5 align="right"><A href="xml_cym.htm">CYMRAEG</A></H5>
+-->
+
+<H2>Overview of text encoding and processing</H2>
+
+<P>The main corpus files are transcribed and encoded using the markup scheme of the <a href="http://www.tei-c.org/" target="_blank">Text
+Encoding Initiative</a> (TEI) in its Extensible Markup Language (XML-)based
+version. TEI is an international standard for the representation of all kinds of literary and linguistic texts, and is used in a <A href="http://www.tei-c.org/applications/index-lang.html">large number of text-encoding projects</A> worldwide. TEI-files are designed for long-term preservation of the material. The text files are also available here in other formats, which may be of more practical use for particular purposes. However, these files are all derived from original XML-files in one way or another. The XML-files contain all the information that was encoded about the texts. In other files, some information not relevant to that particular use may have been removed.</P>
+
+<H3>Markup schemes</H3>
+
+<P>A markup scheme is necessary because, in transcribing a text, we usually want to record information beyond simply what words it contains. For instance, there is information about the structure of the text, where the page and line breaks are or what chapter divisions it contains. There may be annotations within the text, which need to be recorded as such, along with information about who is or was responsible for them, perhaps scribal corrections or marginal glosses. As editors, we will want to annotate the text in various ways, noting, for instance, places where we believe there to be an error on the part of the scribe or printer, and the nature of that error. For the purposes of research, we may also want to annotate the text in other ways. A markup language allows all of these thing to be done, and makes it clear precisely what information has been added and who added it. All of this information is recorded in a standardised format which can be processed reliably by a computer.</P> 
+
+<H3>The Text Encoding Initiative</H3>
+<P>TEI is a standard and very flexible markup language, and offers conventions for encoding a large number of possible features. Which of those features are used depends on the needs of the individal user, and not all features of TEI are used in the current project. TEI is independent of any particular piece of software or computer operating system. This means that we can be fairly sure that the corpus files will remain usable in the future.</P>
+
+<P>XML-TEI markup encodes structure rather than form (the way the text is displayed). For instance, two words in italics in a text will be marked up differently depending on the reason for the italics. A piece of text will be marked up as forming a paragraph, but whether the beginning of the paragraph is indented or the size of the indentation does not necessarily have to be recorded. As a consequence, an XML-TEI file will give information about the structure of the text, but need not give information about how to display it. Although it is possible to include such information within an XML-TEI file, we have generally chosen not to include such markup. That is, we have not recorded such details as the font used, the font size or the colour of ink used.</P>
+
+<P>XML-TEI uses a set of predefined <SPAN class="term">elements</SPAN> for encoding various textual features. Most of these elements come in pairs of <SPAN class="term">tags</SPAN>. Scribal additions, for instance, are marked up with the element <SPAN class="code">add</SPAN>:</P>
+
+<P><SPAN class="code">Here the scribe added
+&lt;add&gt;an&lt;/add&gt; indefinite article.</SPAN></P>
+
+<P>As in the example, all tags are enclosed in angled brackets. All elements need to have an end tag, marked out by having a forward slash after the opening bracket.<P>
+
+<P>Elements can have <SPAN class="term">attributes</SPAN>,
+which provide additional information in their <SPAN class="term">values</SPAN>. The place of the addition could be documented, for instance, by adding an attribute <SPAN class="code">place</SPAN> and an attribute value <SPAN class="code">supralinear</SPAN> to the opening tag <SPAN class="code">&lt;add&gt;</SPAN>:</P>
+
+<a name="addex" />
+<p><SPAN class="code">Here the scribe added &lt;add
+place=&quot;supralinear&quot;&gt;an&lt;/add&gt; indefinite article above the
+line.</SPAN></p>
+
+<P>Some elements are empty, that is, they mark points in a text, rather than stretches of text, and therefore cannot contain text content. One such empty element is the one for encoding line-breaks, <SPAN class="code">lb</SPAN>. These empty elements have the format <SPAN class="code">&lt;element/&gt;</SPAN>; thus a line-break is encoded as <SPAN class="code">&lt;lb/&gt;</SPAN>.</P>
+
+<P>A selection of the commonest elements used in the corpus are given below:</P>
+
+<TABLE>
+<tr><td><SPAN class="code">&lt;pb n=&quot;10&quot;/&gt;</SPAN></td><td>page number, with number specified</td></tr>
+<TR><TD><SPAN class="code">&lt;lb /&gt;</SPAN></TD><TD>line break, number not specified</TD></TR>
+<tr><td><span class="code">&lt;add place=&quot;supralinear&quot; resp=&quot;scribe&quot;&gt;addition&lt;/add&gt;</span></td><td valign="top">an addition (in this case above the line, by the scribe)</td></tr>
+<tr><td><span class="code">&lt;corr resp=&quot;transcr&quot; sic=&quottetun&quot;&gt;testun&lt;/corr&gt;</span></td><td valign="top">a correction (in this case, from &quot;tetun&quot; to &quot;testun&quot;, made by the transcriber/editor)</td></tr>
+<tr><td><span clas="code">&lt;del resp=&quot;scribe&quot;&gt;deletion&lt;/del&gt;</span></td><td>a deletion, in this case made by the scribe</td></tr>
+<tr><td><span class="code">&lt;orig reg=&quot;ysgrifennu&quot;&gt;sgwennu&lt;/orig&gt;</span></td><td>a regularisation: the text has &quot;sgwennu&quot;, but for some purposes we may need to know that it is a form of more standard &quot;ysgrifennu&quot;</td></tr>
+</TABLE>
+
+
+<H3>Stylesheets and secondary files</H3>
+<p>The XML-TEI file does not give detailed instructions about how much of this information is to be displayed, how it should be displayed, or what other use it may be put to. This means that the XML-TEI file of a text is not really meant to be used by the end user. For the researcher, the more useful files are secondary text files, generated from the TEI master file. These will contain the text is some other more useful format according to the needs of the user. An example would be an HTML file which allows the text to be viewed in a web browser in some appropriate format, for instance, with abbreviations written out in full inside curly brackets or in italics or in whatever format is required.</p>
+
+<p>These secondary files are generated by applying XSLT- (Extensible Stylesheet Language Transformation) stylesheets to the XML-TEI master file to create other files that can be displayed directly in a web browser or processed by concordance software.</P>
+
+<P>In this manner it is actually possible to generate various different output files by applying different XSLT-stylesheets to one and the same master file and, for instance, to generate both a diplomatic text file, an edited text file, and a text file meant to be used with a concordance program. The format of the output file is usually HTML (to be viewed in a web browser), but other formats (plain text, pdf, and XML) are also possible. Most of what you can see of the corpus has been generated in this way (although it may also have been processed further).</p>
+
+<p>How textual features such as scribal addtions or line-breaks are to be displayed is specified in an XSLT-stylesheet. Stylesheets are separate
+text files which contain instructions about what the stylesheet processor is to
+do with TEI elements when it encounters an element. In order to be executed, a
+stylesheet has to be linked to a TEI file (that is, there is a reference to the
+stylesheet at the beginning of the file). It takes only a matter of seconds to
+exchange one stylesheet for another and in this way generate a different
+display. Thus, according to need or preference, the scribal addition <a href="#addex">above</a> may be displayed in any of these ways (or others):</p>
+
+<table>
+<tr><td width="40"></td><td>Here the scribe added <sup><span style='color: #ff3300'>\</span></sup>an<sup><span style='color: #ff3300'>/</span></sup> indefinite article above the line.</span></td></tr>
+
+<tr><td width="40"></td><td>Here
+the scribe added <sup>an</sup> indefinite article above the line.</td></tr>
+
+<tr><td width="40"></td><td>Here
+the scribe added an<i>[+ note]</i> indefinite article above the line.</td></tr>
+
+<tr><td width="40"></td><td>Here
+the scribe added an indefinite article above the line. [that is, unmarked]</td></tr>
+</table>
+
+<p>Line-breaks can be
+reproduced as they are in the original, line-numbers can be inserted (by page
+or by text) if desired, or the line-breaks can be suppressed, thus generating a
+running text like <a href="chsm/chsm_running.htm">this one</a>. Both of these options have been used to display the corpus in different ways. XML-TEI in conjunction with stylesheet transformations is thus a very flexible tool and allows one and the same text to be edited in different formats with relatively little effort.</p>
+
+<h6 align="right">&copy; University of Cambridge 2004
+<br /><span class="cym">Diweddarwyd:&nbsp;<script language="JavaScript">
+<!--//
+document.write(date_cym(new Date(Date.parse(document.lastModified))));
+//-->
+</script></span>
+<br /><span class="eng">Last update:&nbsp;<script language="JavaScript">
+<!--//
+document.write(date_eng(new Date(Date.parse(document.lastModified))));
+// -->
+</script>
+</span></h6>
+
+</body>
+</html>

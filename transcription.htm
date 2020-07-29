@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8" />
+<title>Historical Corpus of the Welsh Language</title>
+<link REL=STYLESHEET HREF="hcwl2.css" TYPE="text/css" />
+
+<script  type="text/JavaScript" language="JavaScript">
+<!-- 
+function date_eng(date)
+{
+  var d = date.getDate();
+  var m = date.getMonth() + 1;
+  var y = date.getYear();
+  var me = 
+    ( 1==m)?'January':( 2==m)?'February':(3==m)?'March':
+    ( 4==m)?'April':( 5==m)?'May':(6==m)?'June':
+    ( 7==m)?'July':( 8==m)?'August':(9==m)?'September':
+    (10==m)?'October':(11==m)?'November':'December';
+  return d + " " + me + " " + y;
+}
+
+function date_cym(date)
+{
+  var d = date.getDate();
+  var m = date.getMonth() + 1;
+  var y = date.getYear();
+  var me = 
+    ( 1==m)?'Ionawr':( 2==m)?'Chwefror':(3==m)?'Mawrth':
+    ( 4==m)?'Ebrill':( 5==m)?'Mai':(6==m)?'Mehefin':
+    ( 7==m)?'Gorfennaf':( 8==m)?'Awst':(9==m)?'Medi':
+    (10==m)?'Hydref':(11==m)?'Tachwedd':'Rhagfyr';
+  return d + " " + me + " " + y;
+}
+
+// -->
+</script>
+
+</head>
+<body>
+
+<div>
+<h2>Manner of transcription</h2>
+
+<P>Basically, transcriptions in the TEI-files are - within limits - diplomatic, that is, features such as the spelling, capitalisation, punctuation, word division and the presence or absence of apostrophes are retained in the transcription as they were in the source. The structure of the source (division into pages, lines, stanzas, chapters, verses etc.) is also recorded.</P>
+
+<p>TEI-XML allows a &lsquo;dual&rsquo; transcription. That is, features may be recorded at two or more levels of analysis or representation. The TEI-files make some use of this, in order to allow texts to be displayed in different ways. This affects principally word division, apostrophes, and editorial corrections. Complete consistency in these matters is, as must be pointed out, a noble but ultimately unachievable goal.</p>
+
+<!--In theory it is possible to
+encode the texts so as to extend this flexible presentability to matters of
+capitalization, punctuation, word-separation etc. To do so would, however, be
+too time-consuming at the moment.-->
+
+<p>Note, however, that word separation has been normalised in one respect, namely that preverbal particles have generally been separated form the following verb where they have been written together in the original. Other very common variants, such as <span class="cited_text">ymhen<.span> ~ <span class="cited_text">ym mhen</span> remain unnormalized.</p>
+
+<p>The project does not aim to capture every single feature of the text at hand, instead concentrating on the actual text. For this reason, a number of features are not recorded. These include:</p>
+
+<ul>
+<LI>printers' marks</LI>
+<LI>catchwords (except in cases where the catchword on the first page does not correspond to the first word(s) of the following page)</LI>
+<LI>the size of the font or script</LI>
+<LI>the colour of the ink</LI>
+<LI>the dimensions or other features of the paper</LI>
+<li>details of the binding or other physical aspects of the book or manuscript</li>
+<LI>drawings or illustrations</LI>
+</ul>
+
+<p>Different letter-variants (for instance, long <i>s</i> [&#383;] versus round <i>s</i>, 'normal' <i>r</i> versus round, two-shaped <i>r</i> etc.) are not normally distinguished in the transcription. However, special letters, such as <i>d</i> with a stroke for <i>dd</i> or dotted letters, are retained in the transcription. Deciding whether a letter form is a letter variant or a special letter is sometimes difficult, and, in these cases, the policy adopted has usually been commented upon and justified in the notes to a particular text.</p>
+</div>
+
+<h6 align="right">&copy; University of Cambridge 2004
+<br /><span class="cym">Diweddarwyd:&nbsp;<script language="JavaScript">
+<!--//
+document.write(date_cym(new Date(Date.parse(document.lastModified))));
+//-->
+</script></span>
+<br /><span class="eng">Last update:&nbsp;<script language="JavaScript">
+<!--//
+document.write(date_eng(new Date(Date.parse(document.lastModified))));
+// -->
+</script>
+</span></h6>
+
+</body>
+</html>

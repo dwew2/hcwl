@@ -1,0 +1,409 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8" />
+<title>Corpws Hanesyddol yr Iaith Gymraeg 1500-1850 | Historical Corpus of the Welsh Language 1500-1850</title>
+<link REL=STYLESHEET HREF="hcwl2.css" TYPE="text/css" />
+
+<script  type="text/JavaScript" language="JavaScript">
+<!-- 
+function date_eng(date)
+{
+  var d = date.getDate();
+  var m = date.getMonth() + 1;
+  var y = date.getYear();
+  var me = 
+    ( 1==m)?'January':( 2==m)?'February':(3==m)?'March':
+    ( 4==m)?'April':( 5==m)?'May':(6==m)?'June':
+    ( 7==m)?'July':( 8==m)?'August':(9==m)?'September':
+    (10==m)?'October':(11==m)?'November':'December';
+  return d + " " + me + " " + y;
+}
+
+function date_cym(date)
+{
+  var d = date.getDate();
+  var m = date.getMonth() + 1;
+  var y = date.getYear();
+  var me = 
+    ( 1==m)?'Ionawr':( 2==m)?'Chwefror':(3==m)?'Mawrth':
+    ( 4==m)?'Ebrill':( 5==m)?'Mai':(6==m)?'Mehefin':
+    ( 7==m)?'Gorfennaf':( 8==m)?'Awst':(9==m)?'Medi':
+    (10==m)?'Hydref':(11==m)?'Tachwedd':'Rhagfyr';
+  return d + " " + me + " " + y;
+}
+
+// -->
+</script>
+</head>
+
+<body>
+<!--
+<H5 align="right"><A href="editorial_cym.htm">CYMRAEG</A></H5>
+-->
+<H2>Encoding principles</H2>
+
+<h3>1 Textual structure</h3>
+<h4>1.1 General textual structure</h4>
+<p>The text itself is enclosed within a text-element. All texts are marked with a unique idenitifying abbreviation, usually derived from the title, encoded as an id-attribute on the text-element. For instance, <span class="text">Drych y Pryf Oesoedd</span> opens with the following identifying tag:</p>
+
+<p>&lt;text id=&quot;DPO&quot;&gt;</p>
+
+<p>and ends with a corresponding closing text-tag (&lt;/text&gt;).</p>
+
+<p>Within the text-element, allows front material (title pages, prefaces etc.) to be represented within a front-element. Within the corpus, front-elements are sometimes used for front material from the original source (e.g. the title page of the original), but are not used for editorial front material, which is placed instead within the TEI-header. The one exception to this is editorially supplied cast lists in plays, which are placed within a front-element (see below).</p>
+
+<p>The main part of the text is enclosed within a body-element. Within the body element, the structure of the text is marked up, typically divided into paragraphs (p-elements) or more neutral divisions (div-elements). Other types of textual divisions are possible, the most important being:</p>
+
+<ul>
+<li>headings: &lt;head&gt; ... &lt;/head&gt;</li>
+<li>(original) summaries of the content of a passage: &lt;argument&gt; ... &lt;/argument&gt;</li>
+</ul>
+
+<p>The argument-element may bear a rend-attribute, indicating the visual rendition of the passage in question. The values &quot;small&quot; and &quot;italic&quot; have been used.</p>
+<!-- Small is used in the 1588 Bible; I'm not sure where or if italic has been used, but it is in the diplomatic stylesheets. -->
+
+<p>For poetry and drama, the &lt;lg&gt;...&lt;/lg&gt; and &lt;l&gt;...&lt;/l&gt; tags are used to delimit line groups (stanzas and similar divisions) and lines respectively. For example:</p>
+
+<p>&lt;lg&gt;
+&lt;l&gt;Dymuno rwy yrwan y truan di drai,&lt;/l&gt;
+&lt;l&gt;Gael fy nwy glocsen wr llawen beth llai:&lt;/l&gt;
+&lt;l&gt;Ni waeth geni wernen na derwen gwir yw,&lt;/l&gt;
+&lt;l&gt;Mae honno 'n ysgafnach a llonnach ei lliw.&lt;/l&gt;
+&lt;/lg&gt;</p>
+
+<p>Where an entire stanza is intended, the lg-element may have a rend-attribute (for instance &lt;lg rend=&quot;indented&quot;&gt;.</p>
+
+<p>In prose texts, lines are not delimited using the &lt;l&gt;...&lt;/l&gt; tag, but rather divisions between lines are marked using the &lt;lb/&gt; tag. The &lt;lb/&gt; tag precedes each new line. Note that this includes the first line of any text or piece of text. Prose within poetic texts is generally marked up as in prose texts, using the &lt;lb/&gt; element as the basic means of delimiting lines.</p>
+
+<p>In all texts, page breaks are marked using the &lt;pb&gt; tag. The page number is itself recorded as the n-attribute of the tag. For instance, the start of page 10 is represented as &lt;pb n=&quot;10&quot;/&gt;</p>
+
+
+
+<h4>1.2 Texts within texts</h4>
+<p>In many cases, there are 'texts within texts', for instance, one file may represent a selection of ballads from a number of different printed sources; or one file may include a number of stories or poems taken from a single source, where each story or poem is, in some sense, a text in its own right. In this case, the following markup is used. The entire text is surrounded by the &lt;text&gt; ... &lt;/text&gt; element. Within this the subtexts are grouped together using the &lt;group&gt; ... &lt;/group&gt; element, and then each subtext is itself surrounded by another &lt;text&gt; ... &lt;/text&gt; element. The opening text-tag of the entire text has an id-attibute which gives a standardised abbreviation for the text. For instance the text of &#145;Llyfr Gwyn Mechell&#146; is surrounded by the tag <SPAN class="code">&lt;text id=&quot;LlGM&quot;&gt;...&lt;/text&gt;</SPAN>, where &quot;LlGM&quot; is the standardised abbreviation for this text. Where a text contains subtexts, the opening text-tag of each subtext also has an id-attribute giving some form of standardised abbreviation, usually the standardised abbreviation for the whole text plus some form of identification for the individual subtext. For instance, poem no. 2 of &#145;Llyfr Gwyn Mechell&#146; is surrounded by the tag &lt;text id=&quot;LlGM02&quot;&gt;...&lt;/text&gt;. Ballads are always idenitified using abbreviations derived from <span class="title">A bibliography of Welsh ballads</span>.</p> 
+
+<h4>1.3 Line and page breaks</h4>
+<p>Individual words frequently cross line or page boundaries. The presents a problem, since it is both necessary to record the fact that a word is broken across two lines or pages, and to preserve the word as a single unit so that it is accessible and can be searched for successfully by computer software. Consider the following text:</p>
+
+<p>hon oedd y daith hyfrydaf o'r holl ffordd y <w>daeth-
+<br />um</w> i Utica, 234 o filldiroedd mewn 4 diwrnod.</p>
+
+<p>This is represented in the XML-file as:</p>
+
+<p><span class="code">
+&lt;lb/&gt;hon oedd y daith hyfrydaf o'r holl ffordd y &lt;w&gt;daeth&lt;lb rend=&quot;shy&quot;/&gt;um&lt;/w&gt; i Utica, 234 o filldiroedd mewn 4 diwrnod.</span></p>
+
+<p>Here the word <span class="cited_text">daethum</span> is split between two lines. The split is represented by a rendition attribute (<span class="code">rend</span>) of the line break tag (<span class="code">&lt;lb rend=&quot;shy&quot;&gt;</span>). The rend-attribute has the value "shy" to indicate that the split was represented in the original text by a (soft) hyphen. The hyphen itself is not reproduced in the body of the transcription. The word that is split across two lines is surrounded by the word tag <span class="code">&lt;w&gt;...&lt;/w&gt;</span>.</p>
+
+<p>In the output file for use by Concordance, words split across lines are represented in the following way:
+
+<p>$L 6% hon oedd y daith hyfrydaf o'r holl ffordd y $L 6-7% daethum
+<br />$L 7% i Utica, 234 o filldiroedd mewn 4 diwrnod.</p>
+
+<p>Here, a separate line number tag is produced for the divided word. In any search or concordance, it will be (correctly) listed as being on lines 6-7. The exact position of the break is not recorded in the Concordance file, but can be recovered from the diplomatic edition or from the XML-file.</p>
+
+<p>The same principles apply where a word crosses a page boundary. In the following example, the page break tag (<span class="code">&lt;pb/&gt;</span>), in addition to its usual n-attribute giving the page number, has a rend-attribute to represent the hyphen. The split word is again marked out as a word by the <span class="code">&lt;w&gt;...&lt;/w&gt;</span> tag:</p>
+
+<p>Maent yn credu, yn ol athrawiaeth Zoroaster, i'r
+<br />byd gael ei greu mewn chwech o dymhorau, pob un
+<br />yn cynnwys hyn a hyn o ddyddiau; sef, yn y 45 di-
+<br />-- PAGE BREAK --
+<br />wrnod cyntaf i Dduw greu'r nefoedd;</p>
+
+<p><span class="code">&lt;lb/&gt;Maent yn credu, yn ol athrawiaeth Zoroaster, i'r
+&lt;lb/&gt;byd gael ei greu mewn chwech o dymhorau, pob un
+&lt;lb/&gt;yn cynnwys hyn a hyn o ddyddiau; sef, yn y 45 &lt;w&gt;di&lt;pb rend=&quot;shy&quot; n=&quot;35&quot;/&gt;&lt;lb/&gt;wrnod&lt;/w&gt; cyntaf i Dduw greu'r nefoedd;</code></p>
+
+
+<h3>2 Representation of text</h3>
+
+
+<h4>2.1 Fonts and highlighting</h4>
+<p>In other cases where text is highlighted, it is marked using the hi-element. The form that the highlighting takes is recorded using the rend-attribute. For instance, the following indicated that the initial &lt;H&gt; of the line was rubricated (rendered as a large capital):</p>
+
+<p>&lt;l&gt;&lt;hi rend=&quot;rubric&quot;&gt;H&lt;/hi&gt;YD attoch benillion yn gyson i gyd,&lt;/l&gt;</p>
+
+<p>The values for the rend-attribute found in the corpus are: &quot;italic&quot;, &quot;normal&quot; (e.g. for unitalicised text within text that is otherwise italicised), &quot;rubric&quot;, &quot;smallcaps&quot;, &quot;underlined&quot;./p>
+<!-- These are the ones that I have found so far; there may be others. -->
+
+<h4>2.2 Diacritics / Special characters</h4>
+<p>Although it is basically possible to use characters with diacritics in the XML file itself provided a suitable character encoding is used, problems in the further processing of the file can hardly ever be avoided completely. For this reason and because of the greater flexibility they provide, we have used character entities for all characters with diacritics. Depending on the purpose and the output format, these can be displayed either as Unicode characters or as any other kind of character string, as desired. For instance, if it is necessary to use the output text with a concordance program that cannot deal with accented characters, &amp;acirc; can easily be replaced with a+ and so on.</p>
+
+<p>A number of early modern texts used dotted characters where Modern Welsh has digraphs, for instance, d with subscript dot for &lt;dd&gt;. These have been encoded as character entities, for instance, as &amp;ddot; in this case. At this stage it is difficult to display these characters reliably in a word processor or in a web browser in an HTML-text, and the character entities will always need to be replaced in output files by their Modern Welsh equivalents. The distinction between the two characters is, however, recorded fully in the XML-files, and can be recovered if necessary.</p>
+
+<p>The following customised character entities are used in the corpus:</p>
+ 
+ <!-- Original version of this table gave ddot and ldot as possibilities, but these seem to be excluded by the HCWL dtd. -->
+
+<table border="1">
+<tr><td width="20%">Character entity</td><td width="35%">Description</td><td width="20%">Replacement in files used for display</td><td width="25%">Example texts</td></tr>
+<tr><td>&amp;cd;</td><td>lower-case &lt;c&gt; with subscript dot</td><td>ch</td><td>Found in TCh.</td></tr>
+<tr><td>&amp;Cd;</td><td>upper-case &lt;C&gt; with subscript dot</td><td>Ch</td><td>Found in TCh.</td></tr>
+<tr><td>&amp;dd;</td><td>lower-case &lt;d&gt; with subscript dot</td><td>dd</td><td>Found in CHSM, RhY etc.</td></tr>
+<tr><td>&amp;Dd;</td><td>upper-case &lt;D&gt; with subscript dot</td><td>Dd</td><td>Found in CHSM, TCh etc.</td></tr>
+<tr><td>&amp;ld;</td><td>lower-case &lt;l&gt; with subscript dot</td><td>ll</td><td>Found in CHSM, RhY etc.</td></tr>
+<tr><td>&amp;Ld;</td><td>upper-case &lt;L&gt; with subscript dot</td><td>Ll</td><td>Found in CHSM.</td></tr>
+<tr><td>&amp;lhook</td><td>lower-case &lt;l&gt; with a following hook</td><td>ll</td><td>Found in TN.</td></tr>
+<tr><td>&amp;td;</td><td>lower-case &lt;t&gt; with subscript dot</td><td>th</td><td>Found in TCh.</td></tr>
+<tr><td>&amp;Td;</td><td>upper-case &lt;T&gt; with subscript dot</td><td>Th</td><td>Found in TCh.</td></tr>
+<tr><td>&amp;ud;</td><td>lower-case &lt;u&gt; with subscript dot</td><td>w</td><td>Found in CHSM, RhY etc.</td></tr>
+<tr><td>&amp;vd;</td><td>lower-case &lt;v&gt; with subscript dot</td><td>w</td><td>Found in RhY.</td></tr>
+<tr><td>&amp;Vd;</td><td>upper-case &lt;V&gt; with subscript dot</td><td>W</td><td>Found in CHSM.</td></tr>
+<tr><td>&amp;vv</td><td>lower-case double &lt;v&gt;</td><td>w</td><td>Found in TN.</td></tr>
+<tr><td>&amp;yr;</td><td>&lt;r&gt; surrounded by dots</td><td>yr</td><td>Found in NLW 2722E.</td></tr>
+
+<!-- Insert rest of list here. -->
+</table>
+ 
+<p>There were one or two other circumstances where it seemed advisable to use character entities. In the text of the Welsh New Testament of 1567, highlighted text is printed in Roman letters, normal text is in Gothic letters. Probably due to a shortage of &lt;w&gt;s in the printer's Roman typeface, in the passages in Roman letters &lt;vv&gt; ("double v") is almost always used instead of &lt;w&gt;. The use of a character entity here &lt;&vv;&gt; allowed us to record the original spelling, but it also means that &lt;vv&gt; can be replaced with &lt;w&gt; in output files intended for concordance software. Basically the same applies to &lt;l'&gt; for modern Welsh &lt;ll&gt; and &lt;&edh;&gt; for modern Welsh &lt;dd&gt; in both this translation of the New Testament and in the 1588 translation of the Bible.</p>
+
+<h4>2.3 Abbreviations</h4>
+<P>Abbreviations are almost always expanded in the corpus, with the expansions always being marked up with the <span class="code">expan</span>-element. For example:</P>
+
+<table>
+    <tr><td><span class="code">pa&lt;expan&gt;n&lt;/expan&gt;n</span></td><td>The first &lt;n&gt; is the result of (editorial) expansion.</td></tr>
+</table>
+
+<P>As for the exact extent of an abbreviation, "abbreviation" is taken to mean only those letters that are not spelled out in full. If, for instance, the text has an &lt;e&gt; with a stroke above it for &lt;en&gt;, only the &lt;n&gt; is taken to be abbreviated and the markup will look like this:</P>
+
+<P><SPAN class="code">e&lt;expan&gt;n&lt;/expan&gt;</SPAN></P>
+<P>NOT</P>
+<P>&lt;expan&gt;en&lt;/expan&gt;</P>
+
+<P>The place of the abbreviation is usually obvious except where an abbreviated &lt;n&gt; or &lt;m&gt; is adjacent to an &lt;n&gt; or &lt;m&gt; that is written out in full. In these cases, for the sake of consistency, the abbreviation is always considered to precede the letter, even where it could be argued to follow. For instance, if <SPAN class="cited_form">hynny</SPAN> is abbreviated to <SPAN class="cited_form">hy&ntilde;y</SPAN>, this will be encoded as:</P>
+
+<P>hy&lt;expan&gt;n&lt;/expan&gt;ny</P>
+<P>NOT as</P>
+<P>hyn&lt;expan&gt;n&lt;/expan&gt;y</P>
+
+<P>The exact position of the nasal stroke is often hard to decide. Its position may be due more to scribal haste than to scribal intention, and is ultimately of little importance.</P>
+
+<P>The nature of the original abbreviation is not documented, that is, the <SPAN class="code">expan</SPAN>-element never has an <SPAN class="code">abbr</SPAN>-attribute.</P>
+
+<P>Abbreviations, apart from a few very common types, are not widely used in Welsh manuscripts and early printed books, and their exact expansions are hardly ever ambiguous.</P>
+
+<P>A small number of abbreviations have not been expanded, notably "Mr.", and these have not been marked as abbreviations either.</P>
+
+<P>In the few cases where the expansion is doubtful, usually cases where the exact spelling of a name is uncertain, the abbreviation is left as is, and marked up with the element <SPAN class="code">abbr</SPAN>. Such cases are rare.</P>
+
+<h4>2.4 Damaged or unclear text</h4>
+<p>Damage to manuscripts and printed texts is indicated using the <span class="code">&lt;damage&gt;</span> tag. The nature of the damage may be indicated (but is not necessarily indicated) using the <span class="code">type</span>-attribute. The two attributes normally used are &quot;worn&quot; and &quot;torn&quot;, hence <span class="'code">&lt;damage type=&quot;worn&quot;&gt;</span> and <span class="code">&lt;damage type=&quot;torn&quot;&gt;</span>. Where the text of the damaged area cannot be reconstructed easily, the missing text is represented using the character element &lt;c/&gt;. An attempt has been made to indicate the approximate size of the damaged area. The number of &lt;c/&gt; elements is intended to correspond roughly to the number of characters present in the damaged area. This, however, can only be a very rough approximation. For instance, in the following example, the middle part of the line is worn and is difficult to read; in the first part of the damaged area, the word <span class="cited_text">twullo</span> can be made out, but is unclear; the second part of the damaged area contains space for approximately seven characters:</p>
+
+<p><span class="code">&lt;l&gt;fod i dwu chwaer hyna 'n &lt;damage type=&quot;worn&quot;&gt; &lt;unclear&gt;twullo&lt;/unclear&gt; &lt;c/&gt;&lt;c/&gt;&lt;c/&gt;&lt;c/&gt;&lt;c/&gt;&lt;c/&gt;&lt;c/&gt;&lt;/damage&gt; i &lt;unclear&gt;th&lt;/unclear&gt;ad&lt;/l&gt;</span></p>
+
+<p>Unclear text is marked using the &lt;unclear&gt; tag. The main reading is given as the text inside the tag. Occasionally, an alternative reading may be given in the <span class="code">alt</span>-attribute of the <span class="code">unclear</span>-tag.</p>
+
+<h4>2.5 Catchwords</h4>
+<p>Where transcribed, catchwords are marked using the <span class="code">fw</span>-element, and a <span class="code">type</span>-attribute with the value "catchword". For instance, the following encodes the catchword <span class="cited_text">hwmyr</span> within an <span class="code">fw</span>-element, which is repeated, in slightly different form, as <span class="cited_text">HWmyr</span> at the start of the next page (in this case, page 15):</p>
+
+<p><span class="code">&lt;fw type=&quot;catchword&quot;&gt;hwmyr&lt;/fw&gt;
+<br />&lt;pb n=&quot;15&quot;/&gt;
+<br />&lt;lb/&gt;HWmyr</span></p>
+
+<p>Catchwords are not normally transcribed unless the catchword(s) on the first page differs in form in some way from the first word(s) of the following page.</p>
+
+<h4>2.6 Regularisation of spaces, apostrophes and capitalisation</h4>
+<P>Most medieval and early modern Welsh manuscripts differ from modern usage in the division of words, in the (consistent) use of apostrophes and in capitalisation and non-capitalization, and some kind of regularization, either tacit, or explicit in the markup, seems in order.</P>
+
+<P>Due to the diverse character of the texts (prints vs. manuscripts, early texts vs. near-modern ones), it is not easy to be consistent. The corpus is, in fact, not entirely consistent, partly because of the diversity of the texts, and partly because of the immense time and effort that would be needed to implement any solution that does not involve silent regularisation.</P>
+
+<P>Thus, in some of our transcriptions we have chosen an overt solution involving explicit markup of whitespace regularisation and insertion of apostrophes (not, however, capitalisation, although this - and much else in this area - would have been technically possible).</P>
+
+<P>Regarding word separation, we have taken inspiration from the [Aberystwyth project], which in their transcriptions used markup characters for 'space-to-be-inserted' and 'space-to-be-deleted'. A similar approach within the TEI markup scheme seemed advisable; an approach that made use of a 'markup character' instead of using the more time-consuming solution of using the ORIG and/or REG elements, which would have been possible but would treat each case separately (along the lines of &lt;orig reg="y mae"&gt;ymae&lt;/orig&gt;) when in fact dealing with a frequent and recurring phenomenon.</P>
+
+<P>The use of character entities for 'space-to-be-inserted' and 'space-to-be-deleted' is not viable since a character entity cannot be replaced with nothing, which would have been necessary to do where whitespace in the original text was to be deleted.</P>
+
+<P>Therefore, two new (empty) elements have been introduced for these two common cases of regularisation: &lt;isp/&gt; ("Insert SPace") and &lt;dsp/&gt; (for "Delete SPace"):</P>
+
+            <P>y&lt;isp/&gt;mae (MS: ymae; regularisation: y mae)</P>
+
+            <P>o&lt;dsp/&gt;hono (MS: o hono; regularization: ohono)</P>
+
+<P>This allows spaces to be inserted or deleted  via the XSLT stylesheet. In a diplomatic display &lt;dsp/&gt; will be replaced by a space and &lt;isp/&gt; will simply be ignored; and in a stylesheet generating a regularized display the two elements will be treated inversely.</P>
+
+<P>A similar solution is available for the insertion of apostrophes: &lt;apo/&gt; is a new element which makes their insertion possible where desired:</P>
+
+<P>a&lt;apo/&gt;r (MS: ar; regularization a'r or a 'r)</P>
+
+<P>Not all our transcriptions use these elements yet, mostly due to a lack of time to insert them. (Insertion during transcription was too much of a distraction and overall led to too many mistakes). Some texts were transcribed before we created these elements and could not be updated yet.</P>
+
+<P>As for those (manuscript) texts that do make use of the ISP and DSP elements, it should be understood that the decision whether there is a space in the original or not is often hard to make. This problem only infrequently arises with prints.</P>
+ 
+<P>While certain types of word-separation (or non-separation) are very common throughout our texts and basically standard, a few of them handle this issue in what could almost be called a bizarre way by tearing entire words apart. Examples This mostly applies to verse texts in manuscripts, where spaces often seem to be, in some vague way, connected with stress, a space often, but inconsistently, appearing before or after the stressed syllable. It seemed to be pointless for our purposes (although presumably of interest in a different context) to follow the manuscripts here. This type of word separation has tacitly been regularized.</P>
+
+<P>Capitalisation in manuscripts poses similar problems. Not all capital letters can easily be distinguished from their lower-case counterparts (&lt;c&gt; vs &lt;C&gt; and others). Regularisation with some new (non-empty) element &lt;cap&gt;...&lt;/cap&gt; or so would be possible. We have either tried to preserve the original spelling completely without intervention (most manuscripts and all prints), or completely regularized it (a very few of the manuscript texts, especially our earliest transcriptions).</P>
+
+<P>What applies to capitalisation also applies to punctuation. Generally the original is followed; only in a few of our the earliest transcriptions have is punctuation ever supplied. Punctuation in prints is generally preserved (or, occasionally, corrected where it is obviously faulty).</P>
+
+<p>As these issues show, XML-TEI is a very powerful tool and capable of holding in parallell, or on top of each other, several versions of the same text in the same file. However, only what was put in can be put out, and it should be noted that a heavily marked up text file can become increasingly illegible. (The latter point, however, can largely be mitigated by using XSLT stylesheets to generate various proof version output files of the masterfile.)</p>
+
+<h3>3 Emendations to the text</h3>
+<h4>3.1 Corrections</h4>
+<P>Two types of corrections are marked with the <SPAN class="code">CORR</SPAN> element. The first is where the correction was made by the scribe or a contemporary, in cases where the faulty original text and its correction could easily be related to each other. The second concerns editorial emendations, where the original scribe has clearly made an error.</P>
+
+<P>TEI does not use different elements for these two types of correction, as opposed to additions and deletions, where such a distinction is made. To record the crucial difference between the two types of correction, we have always distinguished scribal corrections from editorial emendations by the value in the element's <SPAN class="code">RESP</SPAN> attribute, which has either the value <SPAN class="code">scribe</SPAN> or <SPAN class="code">transcr</SPAN> (for 'transcriber') and is always present. The original reading that is being corrected is given in the element's <SPAN class="code">SIC</SPAN> attribute. Examples:</P>
+
+<TABLE>
+<TR><TD>&lt;corr resp="transcr" sic="chwre"&gt;chware&lt;/corr&gt;</TD><TD>Here the faulty manuscript reading <SPAN class="cited_text">chwre</SPAN> was corrected to <SPAN class="cited_text">chware</SPAN> by the transcriber.</TD></TR>
+<TR><TD>&lt;corr resp="scribe" sic="mid"&gt;mi&lt;/corr&gt;</TD><TD>Here the scribe corrected the text, correcting <SPAN class="cited_text">mid</SPAN> to <SPAN class="cited_text">mi</SPAN>.</TD></TR>
+</TABLE>
+
+<P>For technical reasons the <SPAN class="code">corr</SPAN>-element always surrounds the whole word that contains the error, and not the error alone. Some precision is lost this way, but this markup makes further processing of the text easier. In particular, it allows concordance software to search accurately for either the original reading or the correction. It is not normally difficult to identify the actual mistake by comparing the faulty reading with the correction.</P>
+
+<P>Occasionally it is necessary to add an editorial correction to a scribal correction. In this case a word may be enclosed in two pairs of <SPAN class="code">CORR</SPAN> tags. For example:</P>
+
+<P>Insert example here.</P>
+
+<P>The sic-element is used to confirm a reading that might otherwise be questioned as an error. For example:</P>
+    
+    <TABLE>
+        <TR><TD><P>Insert example here.</P>
+        </TD></TR>
+        </TABLE>
+
+<P>For errors involving line- and pagebreaks see below.</P>
+
+<h4>3.2 Scribal deletions and insertions</h4>
+<p>Where the relation between a scribal deletion and a correction or addition cannot easily be established, separate <SPAN class="code">&lt;del hand="scribe"&gt;</SPAN> and <SPAN class="code">&lt;add hand="scribe"&gt;</SPAN> tags are used. Scribal insertions and deletions are also encoded in this way.</p>
+
+<P>The place of a scribal insertion is documented in the <SPAN class="code">add</SPAN>-element's <SPAN class="code">place</SPAN> attribute. The following values may occur:</P>
+
+<ul>
+    <li>supralinear</li>
+    <li>previous-line</li>
+    <li>left-margin</li>
+    <li>interlinear</li> <!-- In Goronwy Owen -->
+    <li>inline</li> <!-- NLW 2722E -->
+    
+<!--values above this point have actually been located by DW; ones below are inherited from earlier version of this document-->    
+<LI>above-line</LI>
+<LI>margin</LI>
+<LI>right-margin</LI>
+<LI>unspecified</LI>
+</ul>
+
+<P>[Check this list for completeness.]</P>
+
+<P>No <span class="code">resp</span>-attribute (stating who is responsible for identifying the scribal intervention) is provided, as it can be assumed that this is the transcriber. The manner of deletion (crossed out, underdotted, erased etc.) is not noted, unless it appears to be of special interest. The manner of insertion is not normally noted, but may be contained in the rend-attribute (for instance, &lt;add hand=&quot;scribe&quot; place=&quot;previous-line&quot; rend=&quot;brace&quot;&gt; indicates an insertion on the previous line made using a brace).</P>
+
+<P>TEI makes available the tags <SPAN class="code">DELSPAN</SPAN> and <SPAN class="code">ADDSPAN</SPAN> for deletions and additions of larger amounts of text. These tags are not widely used in the corpus, because they make further processing with an XSLT-stylesheet difficult. In general, instead, where, for instance, a deletion starts inside one verse line and continues into the next, and a single <SPAN class="code">DEL</SPAN> element could not be used because it would have violated the proper-nesting rule, two unconnected <SPAN class="code">DEL</SPAN> elements are used. For example:</P>
+
+<P>[Insert example here.]</P>
+
+<p>However, in a few cases where there is a large addition, the addSpan-element has been used. The start of the addition is marked with a complete addSpan-element (including closing tag), with the person responsible for the addition marked with a hand attribute; a second to-attribute gives an arbitrary reference that identifies that matches an anchor-element located at the end of the addition. For instance, the following indicates that two whole lines have been added to the text by &quot;hd2&quot;:</p>
+
+<p>&lt;addSpan hand=&quot;hd2&quot; place=&quot;right-margin&quot; to=&quot;addstanzahd2&quot;/&gt;
+&lt;l>Mae un arall or chwaryddion&lt;/l&gt;
+&lt;l>yn cymryd henw aer y goron&lt;/l&gt;
+&lt;anchor id=&quot;addstanzahd2&quot;/&gt;</p>
+
+<p>The corr-element is also used where text is to be omitted, for instance because of an inadvertent repetition of words. For instance, the following indicates that the text originally repeated the word <SPAN class="cited_form">y</SPAN>, and that the scribe corrected this error himself:</p>
+
+<P><SPAN class="code">&lt;corr resp=&quot;scribe&quot; sic=&quot;y y&quot;>y&lt;/corr&gt;</SPAN></P>
+
+<p>TEI does not permit illegible deletions to be encoded using the del-element. Instead, in cases where the original text of a deletion is illegible, the gap-element is used, with the reason-attribute &quot;deleted&quot; (that is, &lt;gap reason=&quot;deleted&quot;/&gt;).</p>
+
+<P>Punctuation is corrected only in the case of printed texts. In those cases where punctuation is corrected, the correction includes the preceding word. For example:</P>
+ 
+<h4>3.3 Editorial additions</h4>
+<P>Where text has obviously been omitted in the source text, the word or words to be supplied are marked with the <span class="code">supplied</span>-element. However, where only single letters are missing, the text is annotated as a correction, using a CORR tag as described above. The latter case is in fact far more frequent than the former.</P>
+
+<p>The reason why it has been necessary to supply text may be given as a <span class="code">reason</span>-attribute to the <span class="code">supplied</span>-element. In the following example, the character &lt;d&gt; has been supplied because it is not visible, although was perhaps once present, in the manuscript:</p>
+
+<p>by&lt;supplied reason=&quot;invisible&quot;&gt;d&lt;/supplied&gt;</p>
+
+<p>In addition to &quot;invisible&quot;, the <span class="code">reason</span>-attribute may also have the values &quot;missing&quot; or &quot;damaged&quot;</p>
+
+<!-- Invisible and missing are both found in RhY. Are any others possible? -->
+<!-- Damaged is used in GMS in NLW13075B -->
+
+
+<h3>4 Markup of drama</h3>
+<h4>4.1 List of characters</h4>
+<p>A list of characters is provided editorally for each work of drama, and is placed inside the front material (&lt;front&gt; ...&lt;/front&gt;). It takes the following format:</p>
+
+<p>&lt;div type=&quot;supplied-castlist&quot;&gt;
+&lt;p&gt;
+&lt;castList&gt;
+&lt;castItem type=&quot;role&quot;&gt;
+&lt;role id=&quot;Ff&quot;&gt;Ffwl&lt;/role&gt;
+&lt;/castItem&gt;
+...repeat for other characters...
+&lt;/castList&gt;
+&lt;/p&gt;
+&lt;/div&gt;</p>
+
+<p>Note that each character is identified in the cast list by an abbreviation which is used to identify the speech of that character in the main part of the text.</p>
+
+<h4>4.2 Speakers</h4>
+<p>The speeches of different characters in drama are delimited by &lt;sp&gt; tags, with the identity of the speaker marked in the who-attribute (e.g. &lt;sp who= &quot;Ff&quot;&gt;...&lt;/sp&gt;). Speakers are indicated in the who-attribute using codes corresponding to those idenitified in the list of characters. Where the name of the speaker is also given in the text of the source, the text is marked using the &lt;speaker&gt; tag. For instance, the following markup marks off speech by Morgan (abbreviated as Mg); the speech is headed by the word &lt;morgan&gt; in the manuscript:</p>
+
+<p>&lt;sp who=&quot;Mg&quot;&gt;
+&lt;speaker&gt;&lt;lb/&gt;morgan&lt;/speaker&gt;
+...
+&lt;/sp&gt;</p>
+
+<p>In the following example, the stage direction indicates a new speaker. The new speaker is marked in the &lt;sp&gt; tag, but is not indicated in the text itself, except in the stage direction:</p>
+
+<p>&lt;stage&gt;&lt;lb/&gt;Enter &lt;name&gt;morgan&lt;/name&gt; diwc morganog&lt;/stage&gt;
+&lt;sp who=&quot;Mg&quot;&gt;
+...
+&lt;/sp&gt;</p>
+
+<h4>4.3 Stage directions</h4>
+<p>Stage directions are marked with the &lt;stage&gt; tag. Different types of stage directions (entrances, exits etc.) are not distinguished, and no use is made of type-attributes for stage directions, or of the &lt;move&gt; element for character movements. Stage directions are normally, and where possible, placed outside of characters' speeches, as delimited by the &lt;sp&gt;...&lt;/sp&gt; tags.</p>
+
+<h4>5 Markup of authorial or scribal notes</h4>
+<p>Authorial or scribal notes should be marked up in the following way: the extent of the text to which the note applies is marked up with and lg-element or a seg-element, identified as the target of a note with the type-attribute &quot;note-targetq&quot; and with a unique id-attribute (e.g. n1, n2 etc.); the note itself appears somewhere else in the TEI-file (usually at the next convenient point), marked up as a note-element. The note element should have a target-attribute matching the id-attribute of the text to which the note applies. The note-element should also be identified as authorial or scribal by the addition of a resp-attribute (either resp=&quot;author&quot; or resp=&quot;scribe&quot;). The position of the note should be marked with a place-attributed. Values used are right-margin and foot (left-margin should also be possible). For example:</p>
+
+&lt;lg type=&quot;note-target&quot; id=&quot;n1&quot;&gt;
+&lt;l&gt;er mwyn gwr eddigeyddys.&lt;/l&gt;
+&lt;l&gt;Damuniad i phriod:&lt;/l&gt;
+&lt;l&gt;vur holl gyfarfod.&lt;/l&gt;
+&lt;l&gt;Vy meddwl i am kyngor:&lt;/l&gt;
+&lt;l&gt;chwi a wyddoch Antenor.&lt;/l&gt;&lt;/lg&gt;
+
+[...]
+
+&lt;note resp=&quot;scribe&quot; target=&quot;n1&quot; place=&quot;right-margin&quot;&gt;Atteb Antenor sydd
+&lt;lbNoN/&gt;yn kanlyn ar ol yn
+&lt;lbNoN/&gt;y :37: dolen kanys
+&lt;lbNoN/&gt;drwy ryw ddrwc
+&lt;lbNoN/&gt;ddamwain y gaded
+&lt;lbNoN/&gt;allan
+&lt;/note&gt;
+
+
+<h3>5 Technical issues</h3>
+<h4>Preservation of endangered whitespace</h4>
+
+<p>Because of what appears to be a bug in one of the XSLT-parsers that were used with the project, there was a danger that significant spaces would be incorrectly deleted in a number of environments. After some experimentation the certainly easiest, and possibly only, solution to circumvent the problem seemed to be to replace the endangered spaces with a non-breaking space (&amp;nbsp;) in the TEI-files. Non-breaking spaces have not been used for any other purpose; as soon as the bug is fixed or if a different parser is used, these non-breaking spaces can safely be replaced with ordinary spaces.</p>
+
+<P>The affected spaces occur in the following environments:</P>
+
+<UL>
+<LI>between elements, or to be precise, between a closing and an opening angular bracket: ...&lt;/tag&gt;_&lt;tag&gt;... Such an environment may arise where, for instance, italicized text is followed by an unrelated correction. Principally, the space could have been included within either of the elements, but such a solution was felt to be too error-prone; also, the space does not really belong into either of the elements;</LI>
+
+<LI>between an element and a character entity, and vice versa: ...&lt;/tag&gt;_&amp;CharEnt; and &amp;CharEnt;_&lt;tag&gt;... The position between an ordinary semicolon and a tag is not affected.</LI>
+
+<LI>between two character entities: &amp;CharEnt;_&amp;CharEnt;. Again, ordinary semicolons are unproblematic.</LI>
+ 
+<P>The unfortunate result of the use of non-breaking spaces in those texts where character entities are already ubiquitous is that it makes the XML-file even more difficult to read to human eyes than it already is.</P>
+
+<h6 align="right">&copy; University of Cambridge 2004
+<br /><span class="cym">Diweddarwyd:&nbsp;<script language="JavaScript">
+<!--//
+document.write(date_cym(new Date(Date.parse(document.lastModified))));
+//-->
+</script></span>
+<br /><span class="eng">Last update:&nbsp;<script language="JavaScript">
+<!--//
+document.write(date_eng(new Date(Date.parse(document.lastModified))));
+// -->
+</script>
+</span></h6>
+
+</BODY>
+</HTML>

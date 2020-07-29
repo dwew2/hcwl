@@ -1,0 +1,246 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+<TITLE>Corpws Hanesyddol yr Iaith Gymraeg</TITLE>
+<LINK REL=STYLESHEET HREF="hcwl2.css" TYPE="text/css">
+</HEAD>
+<BODY lang=EN-GB>
+<H5 align="right"><A href="extent_cym.htm">CYMRAEG</A></H5>
+<H2>Regularisations</H2>
+</HEAD>
+
+<body>
+<div class=Section1>
+<P>Two kinds of additional information are provided for each text: bibliographical, linguistic and other background information about the texts, and encoding of regularisation tags which can be used in <A href="xml.htm#xslt">XSLT</A> output files designed for the use with concordance programs.</P>
+
+<h3>Background information on the texts</h3>
+
+<P>A brief introduction is provided to each text, with sections on the manuscript or print in which it is found, its author and/or scribe (if known), and a brief outline of its chief linguistic and orthographic characteristics and
+geographical ('dialectal') provenance.</P>
+
+<P>This brief introduction aims to give users the basic textual information that they will need to use and evaluate the text as a source, but extensive background research is not possible. The sections on language and orthography are intended to make it easier for the user to search a given text, and to warn of possible pitfalls.</P>
+
+<P>Some of this information, particularly that on the geographical provenance of a text is necessarily rather tentative, and it is hoped that inclusion of a text in the corpus will encourage further reseach on its literary and philological
+background. The introduction also provides references to secondary material on a particular text, where this exists.</P>
+
+<H3>Regularisations</H3>
+
+<P><a href="xml.htm">TEI</a> provides for the encoding of regularizations where the original text exhibits a widely diverging spelling. This is of special interest when searching a given text by computer, for instance using a concordance program.  The text itself always represents the form found in the source. Regularisations are encoded in the XML file using the orig element, with the regularised form being given in the reg attribute. For instance, if the text contained the form <SPAN class="cited_form">sane</SPAN> &#145;socks&#146;, which diverges significantly from present-day literary Welsh <SPAN class="cited_form">hosanau</SPAN>, a regularisation tag would be added as follows:</P>
+
+<P>&lt;orig reg=&quot;hosanau&quot;&gt;sane&lt;/orig&gt;</P>
+
+<P>The texts originate from a period of over three hundred years and are written using various different spelling systems. All regularisations had to be added manually. The number of regularisations that were provided therefore had to be restricted, otherwise every other word would have a regularisation. Orthographic variants that can easily be searched for using <A href="reg_exp.htm">regular expressions</A> (<I>regexp</I>) were therefore not tagged using the &lt;orig reg=""&gt;&lt;/P&gt; tag.
+
+<P>Regularised forms normally correspond to those found in present-day literary Welsh. However, where the morphology of a form is itself obsolete in present-day Welsh, the regularisation may represent the form of an item as it is generally found in early modern literary Welsh.</P>
+
+<P>Once the possibilities of <i>regexp</i> are taken into consideration, many of the common spelling variations become unproblematic, meaning that in such cases a regularisation in the TEI files is unnecessary.</P>
+
+<P>The following spelling variation, which appears extensively throughout the corpus texts, is therefore not tagged explicitly, and users should take into account the possibility of such variation when using the corpus:</P>
+
+<H3>General variation in orthography and/or phonology</H3>
+<UL>
+<LI>-unt ~ un ~ ynt ~ yn in third person plural of prepositions</LI>
+<LI>-nt ~ -n in third person plural of verbs and prepositions</LI>
+</UL>
+
+<H3>Variants relating to specific lexical items</H3>
+
+<LI>adolwg ~ ydolwg (-c)</LI>
+<LI>	aeth- ~ euth (~ eyth-) [also: aethym]</LI>
+<LI>aethost ~ est</LI>
+<LI>agor- ~ egor-</LI>
+<LI>ambell ~ ymbell</LI>
+<LI>amdanaf ~ am danaf (in all person-number forms)</LI>
+<LI>am( )dani ~ am( )deni</LI>
+<LI>amynedd ~ ymynedd</LI>
+<LI>annhr- ~ an(n)rh- (annhraethadw ~ anrhaethadwy)</LI>
+<LI>arni ~ erni</LI>
+<LI>arnynt ~ arnaddynt</LI>
+<LI>yr awron ~ yr awr( )hon ~ yr owron ~ yr owran</LI>
+<LI>Beibl ~ Bibl (and in derived forms)</LI>
+<LI>bore ~ boreu ~ borau</LI>
+<LI>buas-wn ~ bys-wn ~ bas-wn (in all person-number forms)</LI>
+<LI>bwyta ~ byta</LI>
+<LI>cafodd ~ cadd</LI>
+<LI>canlyn ~ calyn</LI>
+<LI>cam-: with or without hyphen, or written separately
+<LI>camre ~ camrau</LI>
+<LI>canys ~ cans ~ can's</LI>
+<LI>caledi ~ cledi ~ c'ledi</LI>
+<LI>calon ~ calhon</LI>
+<LI>caredig(-) ~ credig(-) (and in derived forms)</LI>
+<LI>cleddyf ~ cleddau</LI>
+<LI>Crist(-) ~ Christ(-) / Ghrist(-) (and in derived forms)
+<LI>C(h)ristionog(-) ~ C(h)ristianog(-) ~ C(h)ristynog- ~ C(h)rist(')nog- </LI>
+<LI>croesaw- ~ craesaw- ~ cresaw- ~ graesaw- ~ gresaw- ~ groesaw- ~ grysaw-</LI>
+<LI>cydymaith ~ cedymaith</LI>
+<LI>cyfarwydd- ~ cyfrwydd-</LI>
+<LI>cyfod- ~ cod-</LI>
+<LI>cyfoeth- ~ cywaeth-</LI>
+<LI>cyfwrdd ~ cwrdd</LI>
+<LI>cyffelyb- ~ cyfflyb-</LI>
+<LI>cymaint ~ cimin</LI>
+<LI>cymdogion ~ cym(m)ydogion</LI>
+<LI>cynhaeaf ~ cynhaiaf ~ cynhayaf ~ cynhauaf</LI>
+<LI>cyweir-io ~ cweir-io</LI>
+<LI>cywilydd ~ cwilydd</LI>
+<LI>chwaith ~ ychwaith</LI>
+<LI>chwaneg(-) ~ ychwaneg(-)</LI>
+<LI>chwi ~ chi</LI>
+<LI>chwychwi ~ chwchwi</LI>
+<LI>daear ~ daiar ~ dayar (and in derived forms)</LI>
+<LI>daeth ~ doeth ~ deuth (~ deyth) [also: daethym]</LI>
+<LI>daethost ~ dest ~ doist</LI>
+<LI>darllein- ~ darllen- ~ darlle-</LI>
+<LI>deall ~ deuall(t) ~ deallt ~ dyall ~ da(a)ll(t) ~ dell(t)</LI>
+<LI>defnydd ~ deunydd</LI>
+<LI>deu-[af] ~ do-[af] (in all person-number forms)</LI>
+<LI>deuthum ~ des ~ dois</LI>
+<LI>di- (neg. prefix) : with or without hyphen or separated from the following element</LI>
+<LI>di- ~ dy-</LI>
+<LI>diafol ~ diawl (and in derived forms)</LI>
+<LI>dichon : dichyn</LI>
+<LI>dieithr ~ dyeithr</LI>
+<LI>disgwyl(-) ~ dysgwyl(-)</LI>
+<LI>disgyn ~ desgyn</LI>
+<LI>diwetha(f) ~ diwaetha(f)</LI>
+<LI>dos ~ does</LI>
+<LI>drachefn ~ drychef(e)n</LI>
+<LI>drosof ~ droswyf [and similar cases and varying
+endings]</LI>
+<LI>dychymyg- ~ dychmyg-</LI>
+<LI>dyfod ~ dywod ~ dowod ~ dwod. See also dos.</P>
+<LI>dyl-ed ~ dl-ed ~ dyly-ed ~ dly-ed</LI>
+<LI>dymun-o ~ damun-o</LI>
+<LI>dyrchaf- ~ derchaf-, ymddyrchaf- ~ ymdderchaf-</LI>
+<LI>dysgyn- ~ desgyn-</LI>
+<LI>dywed ~ doed ~ doud ~ dwed</LI>
+<LI>eb ~ heb</LI>
+<LI>ehedeg ~ hedeg (and in inflected forms ehed- ~ hed-)</LI>
+<LI>eistedd ~ eiste</LI>
+<LI>eleni ~ (y)leni</LI>
+<LI>en(n)ill(-) ~ yn(n)ill(-)</LI>
+<LI>enwedig ~ unwedig ~ vnwedig
+<LI>erioed ~ rioed</LI>
+<LI>ers ~ er's</LI>
+<LI>euthum ~ e(i)s</LI>
+<LI>ewinedd ~ gwinedd</LI>
+<LI>ewyllys ~ wyllys ~ wllys</LI>
+<LI>fal ~ fel</LI>
+<LI>ffrind ~ ffrynd [ffryn(d)s]</LI>
+<LI>galluog ~ galleog</LI>
+<LI>gan ~ gen
+<LI>gandd- ~ ganth- ~ gant-
+<LI>gen(n)i/gen i ~ gynny ~ gynna i (also in other person-number forms)</LI>
+<LI>gaeaf ~ gayaf ~ gauaf ~ gaiaf</LI>
+<LI>ger ~ geyr ~ gar</LI>
+<LI>gyd a ~ gyda ~ gid a ~ gida</LI>
+<LI>glaw ~ gwlaw</LI>
+<LI>gochel-yd ~ gwachel-yd</LI>
+<LI>goruchafiaeth ~ gorchafiaeth</LI>
+<LI>gorchymyn(-) ~ gorchmyn(-)</LI>
+<LI>gwaered ~ gwared</LI>
+<LI>gwasanaeth ~ gwsanaeth</LI>
+<LI>gwasanaethu ~ gwasnaethu ~ gwsnaethu</LI>
+<LI>(g)wastad(ol) ~ oestad(ol)</LI>
+<LI>gwddf ~ gwddw (~ gwddwg)</LI>
+<LI>gweidd-i ~ gwaedd-u</LI>
+<LI>gweinidog ~ gwen(h)idog ~ -awg</LI>
+<LI>gwerthfawr ~ gwrthfawr</LI>
+<LI>gwnaeth- ~ gwneuth- (e.g., gwnaethym)</LI>
+<LI>gwnaethost ~ gwne(i)st</LI>
+<LI>gwneuthum ~ gwne(i)s</LI>
+<LI>gwrthwyneb-u ~ gwrthneb-u</LI>
+<LI>gwych- ~ gwch-</LI>
+<LI>gwyli-o ~ gwili-o</LI>
+<LI>haearn ~ haiarn</LI>
+<LI>helaeth ~ halaeth</LI>
+<LI>herwydd ~ erwydd</LI>
+<LI>hwy ~ twy ~ nhwy ~ nw ~ hw ~ w</LI>
+<LI>hwynt-hwy ~ hwynt(t)wy ~ ynhwy</LI>
+<LI>hyd: ar hyd ~ rhyd</LI>
+<LI>hysbys ~ ysbyss</LI>
+<LI>i ~ y, im ~ ym (and with other person-number forms)</LI>
+<LI>i chwi ~ iwch ~ ywch</LI>
+<LI>Iddew ~ Iuddew, Iddewon ~ I(u)dde(w)on</LI>
+<LI>iddynt ~ uddunt ~ uddynt ~ yddynt</LI>
+<LI>llawenydd ~ llywenydd</LI>
+<LI>llewyrchu ~ llewychu</LI>
+<LI>mae ~ mai</LI>
+<LI>mai ~ mae</LI>
+<LI>mamaethod ~ mamhaethod</LI>
+<LI>marwol-aeth ~ marfol-aeth</LI>
+<LI>megis ~ megys</LI>
+<LI>moes ~ mos</LI>
+<LI>modrwy ~ mydrwy</LI>
+<LI>morynion ~ morwynion</LI>
+<LI>myneg-i ~ maneg-i</LI>
+<LI>nas ~ na's</LI>
+<LI>nes ~ ne's</LI>
+<LI>nid oes ~ ni does ~ does</LI>
+<LI>nis ~ ni's</LI>
+<LI>oddi (ar) ~ oddi (ar) ~ oddy (ar) (and in other person-number forms)</LI>
+<LI>oedd(-): yr/ir oedd(-) ~ 'roedd(-) ~ roedd(-)
+<LI>ohonaf ~ o honaf (and in other person-number forms)</LI>
+<LI>ohonynt ~ o honynt ~ onaddynt ~ o naddynt</LI>
+<LI>onest ~ gonest</LI>
+<LI>onide ~ on(i)d e</LI>
+<LI>pa ryw ~ para</LI>
+<LI>paham ~ pam ~ pa'm</LI>
+<LI>pan ~ pen</LI>
+<LI>paratoi ~ parot(t)oi</LI>
+<LI>pe ~ pei</LI>
+<LI>pen:  ym mhen ~ ymhen(n)</LI>
+<LI>perigl ~ perygl</LI>
+<LI>prynhawn ~ prydn(h)awn</LI>
+<LI>p&wcirc;er ~ pwer ~ power</LI>
+<LI>physygwr(-) ~ pysygwr(-)</LI>
+<LI>rhain ~ rhai'n</LI>
+<LI>rhan: o ran ~ 'ran ~ ran</LI>
+<LI>rheini ~ rheiny ~ rhei'ny ~ rhei'ni</LI>
+<LI>rhoddi ~ rhoi</LI>
+<LI>Saesneg ~ Saeson(a)eg</LI>
+<LI>saint/sant(-) ~ sainct/sanct(-)</LI>
+<LI>siwrnai ~ siwrneu</LI>
+<LI>sylw ~ sulw</LI>
+<LI>taro: traw-/trew- ~ taraw-/terew-</LI>
+<LI>tebygu ~debygu</LI>
+<LI>teyrnas ~ ternas ~ tyrnas</LI>
+<LI>tystiolaeth ~ testiolaeth</LI>
+<LI>tlawd ~ tylawd, tlod- ~ tylod-</LI>
+<LI>tra ~ tre</LI>
+<LI>trugar-edd, -og ~ trigar-edd, -og (and in other derived forms)</LI>
+<LI>tua ~ tu a ~ tia</LI>
+<LI>tybied ~ tybiaid</LI>
+<LI>tywysog ~ twysog</LI>
+<LI>ufudd ~ ufydd~ yfydd [uv-~ yv-]</LI>
+<LI>ugain ~ ugaint ~ igain(t)</LI>
+<LI>unig ~ inig</LI>
+<LI>union ~ inion ~ iniawn</LI>
+<LI>wedyn ~ wedy'n ~ wedi'n</LI>
+<LI>wnaf ~ naf (and in other person-number forms)</LI>
+<LI>wyf ~ wy; wyfi ~ wi ~ yr/ir wy(f) ~ i rwyf ~ 'rwy(f) etc. ~ rwy(f) etc.</LI>
+<LI>wyneb ~ gwyneb</LI>
+<LI>ychwaneg- ~ chwaneg- ~ achwaneg- ~ ynghwaneg- ~ anghwaneg-</LI>
+<LI>ydyw ~ ydiw ~ ydi ~ ody</LI>
+<LI>ymhell ~ ym mhell</LI>
+<LI>ymhen: see pen.</LI>
+<LI>ymhlith ~ ym mhlith ~ ym-mhlith</LI>
+<LI>ymlaen ~ ym mlaen</LI>
+<LI>ymrafael ~ amrafael</LI>
+<LI>ymysg ~ ym mysg</LI>
+<LI>yntau ~ ynte(u) ~ yntef</LI>
+<LI>ysgrifen(n)-u ~ sgrifen(n)-u (~ scr-)</LI>
+<LI>ysgrythur ~ sgrythur ~ (y)sgruthur (~ -scr-)</LI>
+<LI>ysta^d ~ stad ~ stat</LI>
+	</UL>
+
+<P>Although every attempt has been made to be consistent about regularisations, there will inevitable be some inconsistencies, and some regularisation tags may be missing. Please let us know if you find any places where regularisation tags should have been included.</P>
+
+</div>
+
+</body>
+
+</html>
