@@ -1,0 +1,3524 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="bible_dipl.xsl"?>
+<!-- for diplomatic view: bible_dipl.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY lsquo "'">
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!-- this needs changing -->
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Corpws Hanesyddol yr Iaith Gymraeg 1500-1850: Y Beibl Cyssegr-lan (1588)</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by </resp><name id="transcr">Ingo Mittendorf</name>
+<resp>Notes by <name>Ingo Mittendorf</name></resp></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, November 2004</edition></editionStmt>
+
+<publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+</publicationStmt>
+
+<notesStmt>
+<note type="text">The corpus contains four extracts from different parts of the 1588 Bible, two from the Old Testament (Genesis 37, 39-41, recounting part of the story of Joseph; and I Samuel 16-20, recounting part of the story of David); and two from the New Testament (Matthew 26-28, the Passion and Resurrection; and II Corinthians 1-9).</note>
+</notesStmt>
+
+<sourceDesc>
+<bibl>
+	<title>Y Beibl Cyssegr-lan</title>
+	<date value="1588">1588</date>
+	<biblScope>Genesis 37, 39-41, I Samuel 16-20, Matthew 26-28, II Corinthians 1-9</biblScope>
+</bibl>
+</sourceDesc>	
+</fileDesc>
+
+<encodingDesc>
+	<editorialDecl>
+	<p>The original text is arranged in two columns, and numbered by folio rather than by page. References here are therefore of the type 17v.b for the second column of folio 17 verso. The division of the text into chapter and verse is marked up using div-elements (e.g. &lt;div type=&quot;verse&quot; n=&quot;7&quot;&gt; ... &lt;/div&gt; for verse 7). Chapter headings are recorded as they are in the original, but verse numbers are not recorded separately from the div-elements. In the original, the first verse of a chapter is always left unmarked, the remainder are numbered using ordinary Arabic numerals. Quotations and direct speech have been marked up using q-elements; they are not usually marked explicitly in the original. Note that the original contains some square brackets. Marginal notes in the original, giving Biblical crossreferences, have in all cases been omitted from the transcription.</p>
+	<p>In the original, folio 120 is incorrectly numbered 119. This has been silently corrected in the transcription.</p>
+	</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs> (including some transcriptions in the <rs id="ipa">International Phonetic Alphabet</rs>).</p>
+    </langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+  <date>November 2004</date>
+  <respStmt><resp>David Willis</resp></respStmt>
+  <item>Revisions to TEI-header; type-attibute "main" added to some head-elements</item>
+</change>
+
+<change>
+	<date>June 2001</date>
+	<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+	<item>12.-13.06.01 transcription of Gen. 37, 39-41 and basic tagging; 13.-17.06.01 transcription of I Sam. 16-20 and basic tagging; 17.06.01	first proof-reading and correction of Gen.; 18.-19.06.01 transcription of Matthew and basic tagging; 19.06.01 first proof-reading and correction of Samuel; 22.06.01 minor changes in tagging; 22.-25.06.01 transcription and proof-reading of  II. Corinthians 1-9</item>
+</change>
+
+<change>
+	<date>August 2001</date>
+	<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+	<item>06.08.01	introduced part attribute for q; empty elements (p, gap) converted to XML; 07.08.01 character entities</item>
+</change>
+
+<change>
+	<date>June 2002</date>
+	<respStmt><resp>Ingo MIttendorf</resp></respStmt>
+	<item>19.06.02 changed page-break tagging (now with W etc); 28.06.02 brought expansions in line with current tagging policy
+</item>
+</change>
+
+<change>
+	<date>August 2002</date>
+	<respStmt><resp>Elisa Rogers</resp></respStmt>
+	<item>Second proofreading</item>
+</change>
+
+<change>
+	<date>12 September 2002</date>
+	<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+	<item>Replaced div1 with div (unnumbered) and div2 with seg (and place P outside seg)</item>
+</change>
+</revisionDesc>
+
+</teiHeader>
+<!--
+CHECK
+rubrics?
+square brackets
+'ir, 'ar, r' etc. mistakes?
+punctuation before/after </q>
+
+TAGGING, EDITORIAL POLICY
+pagebreaks, eg. 17r.a = page 17 recto, left column; 17v.b = page 17 verso, right column
+chapter = div type="chapter"
+verse = seg type="verse"
+line breaks not encoded
+catchwords omitted
+original verse and page numbers omitted; verse 1 is always unnumbered in original!
+marginal cross-references to parallel passages (and marked with an asterisk in the text) omitted
+punctuation marks always joined to preceding word
+-->
+<text id="b1588">
+<front>
+<titlePage>
+<docTitle>
+<titlePart>
+<lb/>Y BEIBL CYS<lb rend="shy"/>SEGR-LAN. SEF
+<lb/>YR HEN DESTA<lb rend="shy"/>MENT, A<isp/>'R NEWYDD</titlePart>
+</docTitle>
+<epigraph>
+<p><bibl><lb/>2. <hi rend="italic">Timoth.</hi> 3. 14, 15.</bibl></p>
+
+<p><lb /><q part="i">Eithr aros di yn y pethau a ddyscaist, ac a ymddyried<lb rend="shy"/>wyd i ti, gan wybod gan bwy 
+y dyscaist.</q></p>
+<p><lb/><q part="f">Ac i ti er yn fachgen wybod yr scrythur l&acirc;n, yr hon
+<lb/>sydd abl i<isp/>'th wneuthur yn ddoeth i iechydwria<lb rend="shy"/>eth, trwy 'r ffydd yr hon sydd <orig reg="yng Nghrist">yng-Hrist</orig> Iesu.</q>
+</p>
+</epigraph>
+<docImprint>
+<lb/><hi rend="italic">Imprinted at <name>London</name> by the Deputies of</hi>
+<lb/><name rend="smallcaps">Christopher Barker</name>,
+<lb/>Printer to the Queenes most excel<lb rend="shy"/>lent Maiestie.
+</docImprint>
+<lb/><docDate>1588.</docDate>
+</titlePage>
+</front>
+
+<group>
+<text id="b1588gen">
+<body>
+<head type="main">LLyfr cyntaf Moses yr<!--<lb/>--> hwn a elwir <hi rend="smallcaps">Genesis</hi><!-- [pen. 37, 39-41 = tt. 16v.a-17r.b, 17v.b-19r.b]--></head>
+<pb n="16v.a"/>
+<div type="chapter" n="37">
+<head><lb n="59"/>PEN. XXXVII.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb n="60"/><label>2</label> Ioseph yn achwyn ar ei frodyr wrth ei d&acirc;d. 5 Efe
+<lb n="61"/>yn breuddwydio, a<isp/><apo/>i frodyr yn ei gasau. 28 Ac yn ei
+
+<pb n="16v.b"/>
+<lb/>werthu ef i<isp/>'r Ismaeliaid. 34 Galar Iacob am Ioseph.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">A</hi> Thrigodd Iacob yng-wl&acirc;d ymddaith ei
+<lb/>d&acirc;d sef yng-wl&acirc;d Canaan.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>Dymma genhedlaethau Iacob: Ioseph
+<lb/>yn fab dwy flwydd ar bymthec oedd fugail gyd
+<lb/>a<isp/><apo/>i frodyr ar y praidd: ac efe oedd yn llangc gyd
+<lb/>a meibion Bilha, a chyd a meibion Zilpha <w>gw<lb rend="shy"/>ragedd</w> ei d&acirc;d ef: yna Ioseph a ddygodd eu
+<lb/>drwg enllib hwynt at eu t&acirc;d hwynt.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>Ac Israel oedd hoffach ganddo Ioseph
+<lb/>nai holl feibion, o blegit efe a<isp/><apo/>i cawse ef yn ei <w>he<lb rend="shy"/>naint:</w> ac efe a wnaeth siacced fraith iddo ef.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Pan welodd ei frodyr, fod eu t&acirc;d yn ei
+<lb/>garu ef yn fwy nai holl frodyr: yna hwy a<isp/><apo/>i <w>ca<lb rend="shy"/>sasant</w> ef, ac ni fedrent ymddiddan [ag] ef yn
+<lb/>heddychol.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>Ac Ioseph a freuddwydiodd freuddwyd,
+<lb/>ac a<isp/><apo/>i mynegodd i<isp/><apo/>w frodyr: am hynny y casasant
+<lb/>ef etto yn ychwaneg.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>O blegit dywedase wrthynt, <q part="i">gwrandewch
+<lb/>atolwg y breuddwyd hwn, yr hwn a <w><corr part="a" sic="frenddwy" resp="transcr">freuddwy</corr><lb rend="shy"/><corr part="b" resp="transcr" sic="diais">diais</corr>.</w></q>
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/><q part="f">Ac wele rhwymo ysgubau 'r oeddem ni
+<lb/><orig reg="ynghanol">yng-hanol</orig> y maes, ac wele fy yscub mau fi a
+<lb/>gyfododd, ac a safodd hefyd, ac wele eich <w>yscu<lb rend="shy"/>bau</w> chwi a ddaethant o amgylch ac a <w>ymgrym<lb rend="shy"/>masant</w> i<isp/>'m hysgub mau fi.</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Yna ei frodyr a ddywedasant wrtho ef,
+<lb/><q>ai gan deyrnasu y teyrnesi arnom ni? ai gan <w>ar<lb rend="shy"/>glwyddiaethu</w> 'r arglwyddieithi arnom ni?</q> etto
+<lb/>am hynny y <corr sic="chawnegasant" resp="transcr">chwanegasant</corr> ei gasau ef, o blegit
+<lb/>ei freuddwydion, ac o blegit ei eiriau ef.
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Hefyd efe a freuddwydiodd etto <w>freu<lb rend="shy"/>ddwyd</w> arall, ac a<isp/><apo/>i mynegodd i<isp/><apo/>w frodyr, ac a
+<lb/>ddywedodd: <q>wele yr haul, a<isp/>'r lleuad, ac vn ar
+<lb/>ddec o s&ecirc;r yn ymgrymmu i mi.</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Ac efe a<isp/><apo/>i mynegodd i<isp/><apo/>w d&acirc;d, ac i<isp/><apo/>w frodyr,
+<lb/>a<isp/><apo/>i d&acirc;d a feiodd arno ef, ac a ddywedodd wrtho ef
+<lb/><q>pa freuddwyd yw hwn, yr hwn a <w>freuddwy<lb rend="shy"/>diaist?</w> ai gan ddyfod y deuwn ni, mi a<isp/>'th fam
+<lb/>a<isp/>'th frodyr, i ymgrymmu i lawr i ti?</q>
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>A<isp/><apo/>i frodyr a genfigennasant wrtho ef, ond
+<lb/>ei d&acirc;d a gadwodd y peth [mewn c&ocirc;f:]
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Yna ei frodyr ef a aethant i fugeilio
+<lb/>praidd eu t&acirc;d yn Sichem.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Ac Israel a ddywedodd wrth Ioseph, <q><w>o<lb rend="shy"/>nid</w> [yw] dy frodyr yn bugeilio yn Sichem?
+<lb/>tyret, a mi a<isp/>'th anfonaf attynt:</q> yntef a <w>ddywe<lb rend="shy"/>dodd</w> wrtho ef, <q>wele fi.</q>
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Yna y dywedodd ei [d&acirc;d] wrtho ef, <q>dos
+<lb/>weithian, edrych [pa] lwyddiant [sydd] i<isp/>'th <w>fro<lb rend="shy"/>dyr,</w> a [pha] lwyddiant [sydd] i<isp/><apo/>r praidd, a d&wcirc;g
+<lb/><orig reg="eilchwyl">eilchwael</orig> air [i] mi:</q> felly efe a<isp/><apo/>i hanfonodd ef o
+<lb/>lynn Hebron, ac efe a ddaeth i Sichem.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Yna y cyfarfu g&wcirc;r ag ef: ac wele efe yn
+<lb/><orig reg="crwydro">cyrwydro</orig> yn y maes, a<isp/>'r g&wcirc;r a ymofynnodd
+<lb/>[ag] ef, gan ddywedyd, <q>pa beth yr ydwyt yn ei
+<lb/>geisio?</q>
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Yntef a ddywedodd <q>ceisio fy-mrodyr yr
+<lb/>ydwyf fi: mynega atolwg i mi pa le y maent
+<lb/>hwy yn bugeilio?</q>
+</seg></p>
+
+<pb n="17r.a"/>
+<p><seg type="verse" n="17">
+<lb/>A<isp/>'r g&wcirc;r a ddywedodd <q>&nbsp;<orig reg="cychwynasant">cychwnnasant</orig> oddi
+<lb/>ymma, o blegit clywais hwynt yn dywedyd,
+<lb/><q>awn i Dothan:</q></q> yna Ioseph a aeth <orig reg="ar">a'r</orig>&nbsp;&ocirc;l ei <w>fro<lb rend="shy"/>dyr,</w> ac a<isp/><apo/>i cafodd hwynt o fewn Dothan.
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>Hwythau a<isp/><apo/>i canfuant ef o bell, a chyn ei
+<lb/>ddynessu attynt hwy 'r ymfwriadasant hefyd
+<lb/>[yn] ei [erbyn] ef, i<isp/><apo/>w ladd ef.
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/>A dywedasant b&ocirc;b vn &wcirc;rth ei gilydd, <q part="i"><w>we<lb rend="shy"/>le</w> accw y breuddwyd-wr yn dyfod.</q>
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/><q part="f">Deuwch gan hynny yn awr, a lladdwn
+<lb/>ef, a thaflwn ef yn vn o<isp/>'r pydewau, a dywedwn,
+<lb/><q>bwyst-fil drwg a<isp/><apo/>i bwyttaodd ef:</q> yna y cawn <w>we<lb rend="shy"/>led</w> beth fydd ei freuddwydion ef.</q>
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/>A Ruben a glybu, ac a<isp/><apo/>i hachubodd ef,
+<lb/>o<isp/><apo/>i llaw hwynt, ac a ddywedodd, <q>na laddwn ef yn
+<lb/>farw.</q>
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/>Ruben a ddywedodd hefyd wrthynt, <q>na
+<lb/>thywelltwch waed: bwriwch ef i<isp/>'r pydew
+<lb/>hwn, yr hwn [sydd] yn yr anialwch, ac nac <w>e<lb/>stynnwch</w> law arno ef:</q> fel yr achube ef o<isp/><apo/>i llaw
+<lb/>hwynt i<isp/><apo/>w ddwyn eil-waith at ei d&acirc;d.
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/>A phan ddaeth Ioseph at ei frodyr, yna
+<lb/>y gwnaethant i Ioseph ddiosc ei siacced [sef] y
+<lb/>siacced fraith 'r hon [ydoedd] <orig reg="amdano">a'm dano</orig> ef.
+</seg></p>
+<p><seg type="verse" n="24">
+<lb/>Yna y cymmerasant ef, a thaflasant ef
+<lb/>i<isp/>'r pydew, a<isp/>'r pydew [oedd] w&acirc;g h&ecirc;b ddwfr
+<lb/>ynddo.
+</seg></p>
+<p><seg type="verse" n="25">
+<lb/>Yna 'r eisteddasant i fwytta bwyd, ac a
+<lb/>dderchafasa<expan>n</expan>t eu llygaid, ac a edrychasant: ac <w>we<lb/>le</w> fintai o Ismaeliaid yn dyfod o Gilead yn <w>my<lb rend="shy"/>ned</w> i wared i<isp/>'r Aipht, a<isp/><apo/>i camelod yn dwyn <w>llys<lb rend="shy"/>siau,</w> a balm, a myrr.
+</seg></p>
+<p><seg type="verse" n="26">
+<lb/>Yna y dywedodd Iuda wrth ei frodyr, <q part="i">pa
+<lb/>lesaad [a fydd,] &ocirc;s lladdwn ein brawd, a ch&ecirc;lu
+<lb/>ei waed ef?</q>
+</seg></p>
+<p><seg type="verse" n="27">
+<lb/><q part="f">Deuwch a gwerthwn ef i<isp/>'r Ismaeliaid,
+<lb/>ac na fydded ein llaw ni arno ef: o blegit ein
+<lb/>brawd ni a<isp/>'n cnawd ni ydyw efe:</q> a<isp/><apo/>i frodyr a <w>gy<lb rend="shy"/>tunasant.</w>
+</seg></p>
+<p><seg type="verse" n="28">
+<lb/>A phan ddaeth y marchnad-wyr o <w>Mi<lb rend="shy"/>dian</w> heibio, y tynnasant, ac y cyfodasant Ioseph
+<lb/>i fynu o<isp/>'r pydew, ac a werthasant Ioseph i<isp/>'r <w>Is<lb rend="shy"/>maeliaid,</w> er vgain darn o arian: hwyntau a
+<lb/>ddygasant Ioseph i<isp/>'r Aipht.
+</seg></p>
+<p><seg type="verse" n="29">
+<lb/>Wedi hynny Ruben a ddaeth eil-waith
+<lb/>i<isp/>'r pydew, ac wele nid [ydoedd] Ioseph yn y
+<lb/>pydew: ac yntef a rwygodd ei ddillad.
+</seg></p>
+<p><seg type="verse" n="30">
+<lb/>Ac a ddychwelodd at ei frodyr, ac a <w>ddy<lb/>wedodd,</w>&nbsp;<q>y llangc nid [ydyw] accw: a minne i
+<lb/>ba le 'r &acirc;f fi?</q>
+</seg></p>
+<p><seg type="verse" n="31">
+<lb/>Yna hwy a gymmerasant siacced Ioseph,
+<lb/>ac a laddasant lwdn gafr, ac a drochasant y <w>s<lb rend="shy"/>iacced</w> yn y gwaed.
+</seg></p>
+<p><seg type="verse" n="32">
+<lb/>Ac a anfonasant y siacced fraith, ac a<isp/><apo/>i
+<lb/>dugasant at eu t&acirc;d hwynt, ac a ddywedasant,
+<lb/><q>honn a gawsom, mynn &wcirc;ybod weithian ai <w>siac<lb rend="shy"/>ced</w> dy f&acirc;b [yw] hi, ai nad e.</q>
+</seg></p>
+<p><seg type="verse" n="33">
+<lb/>Yntef a<isp/><apo/>i hadnabu hi, ac a ddywedodd, <q><w>si<lb rend="shy"/>acced</w> fy mab [yw hi] bwyst-fil drwg a<isp/><apo/>i
+<lb/>bwyttaodd ef: gan larpio y llarpiwyd Ioseph.</q>
+</seg></p>
+<p><seg type="verse" n="34">
+<lb/>Ac Iacob a rwygodd ei ddillad, ac a <w>oso<pb rend="shy" n="17r.b"/><lb/>dodd</w> sach-len am ei lwynau, ac a alarodd am ei
+<lb/>f&acirc;b ddyddiau lawer.
+</seg></p>
+<p><seg type="verse" n="35">
+<lb/>A<isp/><apo/>i holl feibion, a<isp/><apo/>i holl ferched a <w>goda<lb rend="shy"/>sant</w> i<isp/><apo/>w gyssuro ef, ond efe a wrthododd <w>gym<lb rend="shy"/>meryd</w> cyssur, ac a ddywedodd: <q>yn ddiau <w>des<lb rend="shy"/>cynnaf</w> yn alarus at fy m&acirc;b i<isp/>'r beddrod,</q> a<isp/><apo/>i d&acirc;d a
+<lb/>wylodd [am dano] ef.
+</seg></p>
+<p><seg type="verse" n="36">
+<lb/>A<isp/>'r <corr sic="Madiniaid" resp="transcr">Midianiaid</corr> a<isp/><apo/>i gwerthasant ef i<isp/>'r
+<lb/>Aipht i Putiphar tywysog Pharao, [a<isp/>'r] <w>di<lb rend="shy"/>stain.</w>
+</seg></p>
+</div>
+
+<pb n="17v.b"/>
+<div type="chapter" n="39">
+<head><lb n="5"/>PEN. XXXIX.</head>
+<argument rend="small">
+<head></head>
+<p>
+<lb n="6"/>1 Gwerthu Ioseph i Putiphar. 2 Gwraig Putiphar
+<lb n="7"/>yn ei demptio ef. 13 Ac yn achwyn arno ef. 20
+<lb n="8"/>Ei garchar ef. 21 Ymgeledd Duw iddo ef.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb n="9"/><hi rend="rubric">F</hi>Elly Ioseph a ddygwyd i wared i<isp/>'r Aipht, a
+<lb n="10"/>Phutiphar yr Aipht-wr tywysog Pharao
+<lb n="11"/>[a<isp/><apo/>i] ddistain a<isp/><apo/>i prynnodd ef o law <corr sic="r'" resp="transcr"><isp/>'r</corr> Ismaeliaid,
+<lb n="12"/>y rhai a<isp/><apo/>i dygasent ef ei wared yno.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb n="13"/>Ac yr oedd yr Arglwydd gyd ag Ioseph,
+<lb n="14"/>ac efe oedd &wcirc;r llwyddiannus: tra fu efe yn nh&ycirc;
+<lb n="15"/>ei feistr yr Aiphtiad.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb n="16"/>A<isp/><apo/>i feistr ef a welodd mai yr Arglwydd <w>[o<lb n="17" rend="shy"/>edd]</w> gyd ag ef, a [bod] yr Arglwydd yn <w>llwy<lb n="18" rend="shy"/>ddo</w> yn ei law ef yr hyn oll a wnele efe.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb n="19"/>Felly Ioseph a gafodd ffafor yn ei olwg
+<lb n="20"/>ef, ac a<isp/><apo/>i gwasanaethodd ef, yntef a<isp/><apo/>i gwnaeth ef
+<lb n="21"/>yn ben-golygwr ar ei d&ycirc; ef, ac a roddes [yr hyn]
+<lb n="22" />oll oedd eiddo dan ei law ef.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb n="23"/>Ac er pan wnaethe efe ef yn ben-golygwr
+<lb n="24"/>ar ei d&ycirc;, ac ar yr hyn oll [oedd] eiddo ef, darfu <corr sic="'ir" resp="transcr">i<isp/>'r</corr>
+<lb n="25"/>Arglwydd fendithio t&ycirc; 'r Aiphtiad er mwyn
+<lb n="26"/>Ioseph: ac yr oedd bendith yr Arglwydd ar yr
+<lb n="27"/>hyn oll oedd eiddo ef yn y t&ycirc;, ac yn y maes.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb n="28"/>Am hynny y gadawodd efe yr hyn oll <w>[o<lb n="29" rend="shy"/>edd]</w> ganddo tan law Ioseph, ac nid adwaene
+<lb n="30"/>ddim ar [a oedd] gyd ag ef, oddi eithr y bwyd
+<lb n="31"/>yr hwn yr oedd efe yn ei fwytta: Ioseph hefyd
+<lb n="32"/><corr sic="oed" resp="transcr">oedd</corr> d&ecirc;g o br&ycirc;d, a gl&acirc;n yr olwg.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb n="33"/>A darfu wedi y petheu hynny i wraig ei
+<lb n="34"/>feistr ef dderchafu ei golwg ar Ioseph, a <w>dywe<lb n="35" rend="shy"/>dydd:</w>&nbsp;<q>gorwedd gyd a<isp/><orig reg="myfi">m<dsp/>fi</orig>.</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<lb n="36"/>Yntef a wrthododd, ac a ddywedodd wrth
+<lb n="37"/>wraig ei feistr, <q part="i">wele fy meistr nid edwyn pa beth
+<lb n="38"/>[sydd] gyd a<isp/><orig reg="myfi">'m<dsp/><apo/>fi</orig> yn y t&ycirc;: rhoddes hefyd yr hyn
+<lb n="39"/>oll [sydd] eiddo ef, tan fy llaw i.</q>
+</seg></p>
+<p><seg type="verse" n="9">
+<lb n="40"/><q part="f">Nid oes [neb] fwy yn y t&ycirc; hwn na myfi,
+<lb n="41"/>ac ni waharddodd efe ddim rhagof, onid ty di, o
+<lb n="42"/>blegit ei wraig ef [wyt] ti: pa fodd gan hynny
+<lb n="43"/>y gallaf wneuthur y mawr-ddrwg hwn, a <w>phe<lb n="44" rend="shy"/>chu</w> yn erbyn Duw?</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<lb n="45"/>Ac fel yr oedd hi yn dywedyd wrth <w>Io<lb n="46" rend="shy"/>seph</w> beun&ycirc;dd, ac yntef heb wrando arni hi, i <w>or<lb n="47" rend="shy"/>wedd</w> yn ei hymyl hi, gan fod gyd a hi.
+</seg></p>
+<p><seg type="verse" n="11">
+<lb n="48"/>Yna <orig reg="ynghylch">yng-hylch</orig> y cyfamser hwnnw y bu
+<lb n="49"/>i Ioseph ddyfod <corr sic="'ir" resp="transcr">i<isp/>'r</corr> t&ycirc; i wneuthur ei orchwyl:
+<lb n="50"/>ac nid [oedd] yr vn o ddynion y t&ycirc; yno <sic>yn
+<lb n="51"/>t&ycirc;</sic>.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb n="52"/>Hithe a<isp/><apo/>i daliodd ef erbyn ei wisc, gan
+<lb n="53"/>ddywedyd, <q>gorwedd gyd a mi:</q> yntef a <w>ada<lb n="54" rend="shy"/>wodd</w> ei wisc yn ei llaw hi, ac a ffoawdd, ac a aeth
+<lb n="55"/>allan.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb n="56"/>A phan welodd hi adel o honaw ef ei
+<lb n="57"/>wisc yn ei llaw hi, a ffoi ohonaw allan.
+</seg></p>
+<p><seg type="verse" n="14">
+<lb n="58"/>Yna hi a alwodd ar ddynion ei th&ycirc;, ac a
+<lb n="59"/>draethodd wrthynt gan ddywedyd: <q part="i">gwelwch,
+<lb n="60"/>efe a dd&ucirc;g i ni Hebrewr <corr sic="'in" resp="transcr">i<isp/>'n</corr> gwradwyddo: <w>da<lb n="61" rend="shy"/>eth</w> attafi i orwedd gyd a my fi, minne a <w>wae<pb rend="shy" n="18r.a"/><lb/>ddais</w> a ll&ecirc;f vchel.</q>
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/><q part="f">A phan glywodd efe dderchafu o honofi fy
+<lb/>llef, a gweiddi: yno efe a <corr sic="ffoawd" resp="transcr">ffoawdd</corr>, ac a aeth allan,
+<lb/>ac adawodd ei wisc yn fy ymmyl i.</q>
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>A hi a osododd ei wisc ef yn ei hymmyl,
+<lb/>hyd oni ddaeth ei feistr ef adref.
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Yna hi a lefarodd wrtho yn y modd hyn,
+<lb/><orig reg="gan ddywedyd">gan-ddywedyd</orig>: <q part="i">yr Hebre was, yr hwn a <w>ddug<lb rend="shy"/>aist</w> i ni a ddaeth attaf i<isp/>'m gwradwyddo.</q>
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/><q part="f">Ond pan dderchefais fy llef, a gweiddi, <w>y<lb rend="shy"/>na</w> efe a adawodd ei wisc yn fy ymmyl, ac a <w>ffoa<lb rend="shy"/>wdd</w> allan.</q>
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/>A phan glybu ei feistr ef eiriau ei wraig
+<lb/><orig reg="y rhai">yrhai</orig> a lefarase hi wrtho ef, gan ddywedyd, <q>yn y
+<lb/>modd hwn y gwnaeth dy w&acirc;s di i mi:</q> yna yr
+<lb/>enynnodd ei lid ef.
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/>Yna meistr Ioseph a<isp/><apo/>i cymmerth ef, ac a<isp/><apo/>i
+<lb/>rhoddes ef yn y carchar d&ycirc;, lle yr oedd <w>carchar<lb rend="shy"/>orion</w> y brenin yn rhwym. Ac yno y bu efe yn y
+<lb/>carchar-d&ycirc;.
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/>Ond yr Arglwydd oedd gyd a Ioseph, ac
+<lb/>a ddangosodd iddo ef drugaredd, ac a roddes <w>ffa<lb rend="shy"/>for</w> iddo ef yngolwg pennaeth y carchar-d&ycirc;.
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/>A phennaeth y carchar-d&ycirc;, a roddes tan
+<lb/>law Ioseph yr holl garcharorion, y rhai <w>[oedd<lb rend="shy"/>ynt]</w> yn y carchard&ycirc;, ac efe oedd yn gwneuthur
+<lb/>yr hyn oll a fuasent hwy yn ei wneuthur yno.
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/>Nid [oedd] pennaeth y carchar-dy yn <w>ed<lb rend="shy"/>rych</w> am ddim oll [a<isp/>'r a oedd] tann ei law ef, am
+<lb/>[fod] yr Arglwydd gyd ag ef: a<isp/>'r hyn a wnai efe
+<lb/>yr Arglwydd a<isp/><apo/>i llwydde.
+</seg></p>
+</div>
+<div type="chapter" n="40">
+<head><lb/>PEN. XL.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>3 Pharao yn carcharu ei ben-trulliad a<isp/><apo/>i ben-pobydd.
+<lb/>8 O Dduw y daw deongliad breuddwydion. 19 <w>Io<lb rend="shy"/>seph</w> yn deonglio breuddwyd y ddau garcharor.
+<lb/>23 Aniolchgarwch y pen-trulliad tu ag at Ioseph.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">A</hi> Darfu wedi y petheu hynny i drulliad
+<lb/>brenin yr Aipht, a<isp/>'r pobydd bechu yn <w>er<lb rend="shy"/>byn</w> eu harglwydd hwynt, brenin yr Aipht.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>A Pharao a lidiodd wrth ei ddau bennaeth
+<lb/>[sef] wrth y pen-trulliad, a<isp/>'r pen-pobydd.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>Ac a<isp/><apo/>i rhoddes hwynt mewn dalfa, yn nh&ycirc;
+<lb/>y distain [sef] yn y carchar-d&ycirc;, lle 'r oedd <w>Io<lb rend="shy"/>seph</w> yn rhwym.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>A<isp/>'r distain a wnaeth Ioseph yn <w><corr sic="o lyg" part="a" resp="transcr">olyg</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="wr">wr</corr></w> arnynt hwy: yna efe a<isp/><apo/>i gwasanaethodd <w>hw<lb rend="shy"/>ynt,</w> a buant hwy mewn dalfa ddyddiau [lawer.]
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>Yna breuddwydiasant freuddwyd ill dau,
+<lb/>pob vn ei freuddwyd ei hun yn yr vn n&ocirc;s [a]
+<lb/>phob vn ar ol deongliad ei freuddwyd ei hun, y
+<lb/>trulliad a<isp/>'r pobydd, y rhai [oeddynt] eiddo <w>bre<lb rend="shy"/>nin</w> yr Aipht, ac yn rhwym yn y carchard&ycirc;.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>A<isp/>'r borau y daeth Ioseph attynt, ac a <w>ed<lb rend="shy"/>rychodd</w> arnynt, ac wele hwynt yn athrist.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>Ac efe a ymofynnodd a phennaethiaid <w>Pha<lb rend="shy"/>rao,</w> 'rhai [oeddynt] gyd ag ef mewn dalfa [yn]
+<lb/>nh&ycirc; ei feistr ef <orig reg="gan ddywedyd">gan-ddywedyd</orig>: <q>pa ham [y mae]
+<lb/>eich wynebau yn ddrwg heddyw?</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Yna y dywedasant wrtho, <q><w>breuddwydia<lb rend="shy"/>som</w> freuddwyd, ac nid [oes] a<isp/><apo/>i deonglo ef:</q>&nbsp;<w>y<lb rend="shy"/>na</w> Ioseph a ddywedodd wrthynt, <q>onid i Dduw
+<pb n="18r.b"/>
+<lb/>[y perthyn] deho<expan>n</expan>gli? mynegwch adolwyn i mi.</q>
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Yna y pen-trulliad a fynegodd ei <w>freudd<lb rend="shy"/>wyd</w> ef i Ioseph, ac a ddywedodd wrtho: <q part="i">yn
+<lb/>fy <corr sic="mreuddwydd" resp="transcr">mreuddwyd</corr> [yr oeddwn,] ac wele <w>win<lb rend="shy"/>w&ycirc;dden</w> o<isp/>'m blaen.</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/><q part="m">Ac yn y win-w&ycirc;dden [yr oedd] tair
+<lb/>caingc, ac [yr ydoedd] hi megis yn <w>blaendar<lb rend="shy"/>ddu:</w> ei <orig reg="blodeuyn">blodeun</orig> a dorrasse allan, ei gwrysc hi
+<lb/>oeddynt <orig reg="aeddfed">addfed</orig> [eu] grawn-win.</q>
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/><q part="f">Hefyd [yr oedd] cwppan Pharao yn fy
+<lb/>llaw, a chymmerais y grawn-w&icirc;n, a gwescais
+<lb/>hwynt i gwppan Pharao, a rhoddais y <w>cwp<lb rend="shy"/>pan</w> yn llaw Pharao.</q>
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Yna Ioseph a ddywedodd wrtho ef, <q part="i"><w>dym<lb rend="shy"/>ma</w> ei ddeongliad ef: tri diwrnod yw y tair
+<lb/>caingc.</q>
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/><q part="m">O fewn tri diwrnod etto Pharao a <w>dder<lb rend="shy"/>chafa</w> dy ben di, ac a<isp/>'th r&ycirc;dd di eilwaith yn dy
+<lb/>swydd, a rhoddi gwppan Pharao yn ei law ef
+<lb/>fel y buost arferol yn y cyntaf pan oeddyt <w>drull<lb rend="shy"/>iad</w> iddo.</q>
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/><q part="m">Etto cofia fi gyd a thi, pan fo daioni i ti,
+<lb/>a gwna attolwg a mi drugaredd a choff&acirc; fi wrth
+<lb/>Pharao, a dwg fi allan o<isp/>'r t&ycirc; hwn.</q>
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/><q part="f">O blegit yn lledrad i<isp/>'m lladrattawyd o
+<lb/>wl&acirc;d yr Hebreaid, ac ymma hefyd ni wneuthum
+<lb/>ddim, fel y gosodent fi <orig reg="yng ngharchar">yng-harchar</orig>.</q>
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Pan welodd y pen-pobydd mai daioni a
+<lb/>ddeonglase efe, yna y dywedodd wrth Ioseph,
+<lb/><q part="i">minne hefyd [oeddwn] yn fy mreuddwyd, ac
+<lb/>wele dri chawell rhwyd-dylloc ar fy mhen.</q>
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/><q part="f">Ac yn y cawell vchaf [yr oedd] peth o
+<lb/>b&ocirc;b bwyd <corr sic="Pharoo" resp="transcr">Pharao</corr> o waith pobydd: ar <w>ehedi<lb rend="shy"/>aid</w> yn eu bwytta hwynt o<isp/>'r cawell oddi ar fy
+<lb/>mhen.</q>
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>Yna Ioseph a attebodd, ac a <w>ddywed<lb rend="shy"/>odd,</w>&nbsp;<q part="i">dymma ei ddeongliad ef: tri diwrnod yw
+<lb/>y tri chawell.</q>
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/><q part="f">O fewn tri diwrnod etto y cymmer <w>Pha<lb rend="shy"/>rao</w> dy benn di oddi arnat, ac a<isp/>'th groga di
+<lb/>ar brenn, a<isp/>'r ehediaid a fwyttant dy gnawd ti oddi
+<lb/>am danat.</q></seg></p>
+<p><seg type="verse" n="20">
+<lb/>Ac ar y trydydd dydd, yr oedd dydd <w>ga<lb rend="shy"/>nedigaeth</w> Pharao, yna efe a wnaeth wledd, i<isp/><apo/>w
+<lb/>holl weision, ac efe a dderchafodd ben y <w>pen<lb rend="shy"/>trulliad,</w><!--hyphen?--> a phen y pen-pobydd ym mysc ei <w>wei<lb rend="shy"/>sion</w> ef.
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/>Ac a osododd y pen-trulliad eilwaith yn
+<lb/>ei swydd, ac yntef a roddes y cwppan i law
+<lb/>Pharao.
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/>A<isp/>'r pen-pobydd a grogodd efe, fel y <w>de<lb rend="om-shy"/>hongliase</w> Ioseph iddynt hwy.
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/>Ond y pen-trulliad ni chofiodd Ioseph
+<lb/>eithr anghofiodd ef.
+</seg></p>
+</div>
+<div type="chapter" n="41">
+<head><lb/>PEN. XLI.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>26 Dehongliad breuddwyd Pharao. 40 Ioseph yn <w>lyw<lb rend="shy"/>yawdur</w> ar yr holl Aipht. 50 Ganedigaeth daufab <w>Io<lb rend="shy"/>seph,</w> Manasses, ac Ephraim. 54 Y newyn yn <w>dech<lb rend="shy"/>reu</w> ar hyd yr holl wledydd.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">Y</hi>Na ym mhen dwy flynedd lawn y bu i
+<lb/>Pharao freuddwydio: ac wele efe yn sefyll
+<pb n="18v.a"/>
+<lb/>wrth yr afon.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>Ac wele yn escyn o<isp/>'r afon saith [o] <w>war<lb rend="shy"/>theg</w> t&ecirc;g yr olwg, a thewon o gig, ac mewn
+<lb/><orig reg="gweirglodd-dir">gwyrglodd-dir</orig> y porasent.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>Wele hefyd saith o wartheg eraill yn <w>esc<lb rend="shy"/>yn</w> ar eu hol hwynt o<isp/>'r afon yn ddrwg yr olwg,
+<lb/>ac yn gulion o g&icirc;g: a safasant yn ymmyl y
+<lb/>gwartheg [cyntaf] ar lann yr afon.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>A<isp/>'r gwartheg drwg yr olwg a chulion o
+<lb/>g&icirc;g a fwyttasant y gwartheg t&ecirc;g yr olwg, a
+<lb/>breision: yna <corr sic="y y" resp="transcr">y</corr> dihunodd Pharao.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>Efe a gyscodd hefyd, ac a freuddwydiodd
+<lb/>eil-waith: ac wele saith o <orig reg="dywysennau">dwysennau</orig> yn tyfu
+<lb/>ar vn gorsen, o [<orig reg="dywysennau">dwysennau</orig>] breiscion a d&acirc;.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>Wele hefyd saith o <orig reg="dywysennau">dwysennau</orig> teneuon,
+<lb/>ac wedi eu deifio gan wynt y dwyrein, yn <w>tar<lb rend="shy"/>ddu</w> allan ar eu hol hwynt.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>A<isp/>'r <orig reg="tywysennau">twysennau</orig> teneuon a lyngcasant y
+<lb/>saith <orig reg="dywysen">dwysen</orig> fraisc, a llawn: yna y deffroawdd
+<lb/>Pharao, ac wele breuddwyd [oedd.]<!--one word?-->
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Ac yn foreu y darfu i<isp/><apo/>w yspryd <corr sic="gynhyrsu" resp="transcr">gynhyrfu</corr>,
+<lb/>yna efe a anfonodd, ac a alwodd am holl <w>ddewi<lb rend="shy"/>niaid</w> yr Aipht, a<isp/><apo/>i holl ddoethion hi: a Pharao
+<lb/>a fynegodd iddynt hwy ei freuddwydion: ond
+<lb/>nid [oedd] a<isp/><apo/>i deongle hwynt i Pharao.
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Yna y llefarodd y pen-trulliad wrth <w>Pha<lb rend="shy"/>rao,</w> gan ddywedyd: <q part="i">yr wyf fi yn cofio fy meiau
+<lb/>heddyw.</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/><q part="m">Llidio a wnaethe Pharao wrth ei <w><corr part="a" sic="wesi" resp="transcr">weisi</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="on">on</corr>,</w> ac efe a<isp/>'m rhoddes mewn carchar [yn] nh&ycirc; y
+<lb/>distain, my fi a<isp/>'r pen-pobydd.</q>
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/><q part="m">Yna y breuddwydiasom freuddwyd yn
+<lb/>yr vn nos, mi ag ef: breuddwydiasom bob vn ar
+<lb/>ol deongliad ei freuddwyd ei hun.</q>
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/><q part="m">Ac [yr oedd] yno gyd a nyni langc o
+<lb/>Hebread, gw&acirc;s i<isp/>'r distain, pan fynegasom
+<lb/>[ein breuddwydion] iddo ef, yntef a <w>ddeongl<lb rend="shy"/>odd</w> i ni ein breuddwydion, yn ol breuddwyd
+<lb/>p&ocirc;b vn, y deongliodd efe.</q>
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/><q part="f">A darfu fel y deonglodd i ni felly y bu:
+<lb/>rhoddwyd fi eilwaith i<isp/>'m swydd, ac yntef a
+<lb/>grogwyd.</q>
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Pharao gan hynny a anfonodd, ac a <w>al<lb rend="shy"/>wodd</w> am Ioseph: hwytheu ar redec a<isp/><apo/>i <w>cyrcha<lb rend="shy"/>sant</w> ef, o<isp/>'r carchar: yntef a eilliodd [ei wallt,]
+<lb/>ac a newidiodd ei ddillad, ac a ddaeth at <w>Pha<lb rend="shy"/>rao.</w>
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>A Pharao a ddywedodd wrth Ioseph,
+<lb/><q>breuddwydiais freuddwyd, ac nid [oes] a<isp/><apo/>i <w>de<lb rend="shy"/>onglo</w> ef: ond myfi a glywais ddywedyd am
+<lb/>danat ti, y gwrandewi freuddwyd i<isp/><apo/>w ddeonglu.</q>
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Yna Ioseph a attebodd Pharao gan <w>ddy<lb rend="shy"/>wedyd:</w>&nbsp;<q>Duw nid my fi a ettyb lwyddiant i
+<lb/>Pharao.</q>
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Pharao gan hynny a ddywedodd wrth
+<lb/>Ioseph: <q part="i">wele fi yn fy mreuddwyd yn sefyll ar
+<lb/>fin yr afon.</q>
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/><q part="m">Ac wele 'n escyn o<isp/>'r afon saith o <w>war<lb rend="shy"/>theg</w> tewon o g&icirc;g, a theg yr olwg, ac mewn
+<lb/><orig reg="gweirglodd-dir">gwyrglodd-dir</orig> y porasent.</q>
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/><q part="m">Wele hefyd saith o wartheg eraill yn <w>esc<pb rend="shy" n="18v.b"/><lb/>yn</w> ar eu h&ocirc;l hwynt, culion, a thra drwg yr olwg,
+<lb/>ac yn druain o g&icirc;g: ni welais rai cynddrwg a
+<lb/>hwynt yn holl d&icirc;r yr Aipht.</q>
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/><q part="m">A<isp/>'r gwartheg culion, a drwg a <w>fwytta<lb rend="shy"/>sant</w> y saith muwch tewon cyntaf.</q>
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/><q part="m">Er eu myned i<isp/><apo/>w boliau, ni wyddyd <w>idd<lb rend="shy"/>ynt</w> fyned i<isp/><apo/>w boliau, canys yr olwg arnynt oedd
+<lb/>ddrwg megis yn y dechreuad: yna mi a dde<lb/>ffroais<corr sic="," resp="transcr">.</corr>
+</q>
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/><q part="m">Gwelais hefyd yn fy mreuddwyd, ac
+<lb/>wele saith <orig reg="dywysen">dwysen</orig> llawn, a th&ecirc;g yn cyfodi o<isp/>'r
+<lb/>vn gorsen.</q>
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/><q part="m">Ac wele saith <orig reg="dywysen">dwysen</orig> teneuon, meinion,
+<lb/>wedi eu deifio [gan] ddwyrain-wynt yn tyfu ar
+<lb/>eu hol hwynt.</q>
+</seg></p>
+<p><seg type="verse" n="24">
+<lb/><q part="f">Yna y <orig reg="tywysennau">twysennau</orig> teneuon, a lyngcasant
+<lb/>y saith <orig reg="dywysen">dwysen</orig> d&ecirc;g: a dywedais [hyn] wrth y
+<lb/>dewiniaid, ond nid oedd a<isp/><apo/>i deongle i mi.</q>
+</seg></p>
+<p><seg type="verse" n="25">
+<lb/>Yna y dywedodd Ioseph wrth Pharao,
+<lb/><q part="i">breuddwyd Pharao sydd vn, yr hyn y mae
+<lb/>Duw yn ei wneuthur a fynegodd efe i Pharao.</q>
+</seg></p>
+<p><seg type="verse" n="26">
+<lb/><q part="m">Y saith o wartheg t&ecirc;g saith mlynedd
+<lb/>[ydynt] hwy: a<isp/>'r saith <orig reg="dywysen">dwysen</orig> t&ecirc;g, saith
+<lb/>mlynedd [ydynt] hwy, vn breuddwyd yw hyn.</q>
+</seg></p>
+<p><seg type="verse" n="27">
+<lb/><q part="m">Hefyd y saith muwch culion a drwg y
+<lb/>rhai [oeddynt] yn escyn ar eu hol hwynt, saith
+<lb/>mlynedd [ydynt] hwy: a<isp/>'r saith <orig reg="dywysen">dwysen</orig> gwag
+<lb/>gwedi eu deifio [<orig reg="gan">gen</orig>] y dwyrain wynt, a <w>fydd<lb rend="shy"/>ant</w> saith mlynedd o newyn.</q>
+</seg></p>
+<p><seg type="verse" n="28">
+<lb/><q part="m">Hwn yw y peth yr hwn a ddywedais i
+<lb/>wrth Pharao: yr hyn a wna Duw efe a<isp/><apo/>i <w>dang<lb rend="shy"/>osodd</w> i Pharao.</q>
+</seg></p>
+<p><seg type="verse" n="29">
+<lb/><q part="m">Wele saith mlynedd yn dyfod: o <w>amld<lb rend="shy"/>ra</w> mawr trwy holl wlad yr Aipht.</q>
+</seg></p>
+<p><seg type="verse" n="30">
+<lb/><q part="m">Ond ar eu hol hwynt y cyfyd saith <w>mly<lb rend="shy"/>nedd</w> o newyn, fel yr anghofir yr holl amlder
+<lb/>trwy wlad yr Aipht: a newyn a ddifetha y
+<lb/>wl&acirc;d.</q>
+</seg></p>
+<p><seg type="verse" n="31">
+<lb/><q part="m">Ac ni wybyddir [oddi wrth] yr amldra
+<lb/>cyntaf trwy y wl&acirc;d, o herwydd y newyn <w>hwn<lb rend="shy"/>nw</w> yr hwn [a fydd] wedi hynny: o blegit
+<lb/>trwm iawn [fydd] ef.</q>
+</seg></p>
+<p><seg type="verse" n="32">
+<lb/><q part="m">Hefyd am ddyblu y breuddwyd i Pharao
+<lb/>ddwywaith, [hynny a fu] o blegit siccrhau y
+<lb/>peth gan Dduw, a bod Duw yn bryssio i<isp/><apo/>w
+<lb/>wneuthur.</q>
+</seg></p>
+<p><seg type="verse" n="33">
+<lb/><q part="m">Weithian gan hynny edryched Pharao
+<lb/>[am] wr deallgar a doeth, a gosoded ef yn <w>swy<lb rend="shy"/>ddog</w> ar wl&acirc;d yr Aipht.</q>
+</seg></p>
+<p><seg type="verse" n="34">
+<lb/><q part="m">Gwnaed Pharao hyn, sef gosoded <w>olyg<lb rend="shy"/>wyr</w> ar y wl&acirc;d a chymmered bummed ran
+<lb/>[cnwd] gwlad yr Aipht tros saith mlynedd yr
+<lb/>amldra.</q>
+</seg></p>
+<p><seg type="verse" n="35">
+<lb/><q part="m">Yna casglant holl ymborth y <w>blynyddo<lb rend="shy"/>edd</w> daionus hynny y rhai ydynt ar ddyfod:
+<lb/>sef casclant &ycirc;d dan law Pharao, a chadwant
+<lb/>[ymborth] mewn dinasoedd.</q>
+</seg></p>
+<p><seg type="verse" n="36">
+<lb/><q part="f">A bydded yr ymborth <orig reg="yng nghadw">yng-hadw</orig> i<isp/>'r wl&acirc;d
+<lb/>tros saith mlynedd y newyn, y rhai fyddant
+<lb/>yng-wlad yr Aipht, fel na <corr sic="didfether" resp="transcr">ddifether</corr> y wl&acirc;d gan
+<lb/>y newyn.</q>
+</seg></p>
+<pb n="19r.a"/>
+<p><seg type="verse" n="37">
+<lb/>A<isp/>'r peth oedd dda yng-olwg Pharao ac
+<lb/>yng-olwg ei holl weision.
+</seg></p>
+<p><seg type="verse" n="38">
+<lb/>Yna y dywedodd Pharao wrth ei <w>weisi<lb rend="shy"/>on,</w>&nbsp;<q>a gaem ni &wcirc;r fel hwn, yr hwn [y mae] <w>ys<lb rend="shy"/>pryd</w> Duw yndo<corr sic="." resp="transcr">?</corr>
+</q>
+</seg></p>
+<p><seg type="verse" n="39">
+<lb/>Dywedodd Pharao hefyd wrth Ioseph,
+<lb/><q part="i">wedi gwneuthur o Dduw i ti wybod hyn oll,
+<lb/>nid deallgar, na doeth neb wrthit ti.</q>
+</seg></p>
+<p><seg type="verse" n="40">
+<lb/><q part="f">Ty di a <orig reg="oruchwyli">oruwchwili</orig> fy nh&ycirc; fi, ac ar dy f&icirc;n
+<lb/>y cusana fy mhobl oll: [yn] y deyrn-gader yn
+<lb/>vnic y byddaf fwy na thy di.</q>
+</seg></p>
+<p><seg type="verse" n="41">
+<lb/>Yna y dywedodd Pharao wrth Ioseph,
+<lb/><q>edrych, rhoddais di [yn swyddog] ar holl wlad
+<lb/>yr Aipht.</q>
+</seg></p>
+<p><seg type="verse" n="42">
+<lb/>A <corr sic="thynnod" resp="transcr">thynnodd</corr> Pharao ei fodrwy oddi ar ei
+<lb/>law, ac a<isp/><apo/>i rhoddes hi ar law Ioseph, ac a<isp/><apo/>i <w>gwis<lb rend="shy"/>codd</w> ef mewn gwiscoedd sidan ac a osododd
+<lb/>gadwyn aur <orig reg="am"><corr sic="'am" resp="transcr">a'm</corr></orig> ei wddf ef.
+</seg></p>
+<p><seg type="verse" n="43">
+<lb/>Ac a wnaeth iddo ef farchogeth yn yr ail
+<lb/>cerbyd yr hwn [oedd] iddo ef ei hun: a llefwyd
+<lb/>o<isp/><apo/>i flaen ef Abrec: felly y gosodwyd ef ar holl
+<lb/>wlad yr Aipht.
+</seg></p>
+<p><seg type="verse" n="44">
+<lb/>Dywedodd Pharao hefyd wrth Ioseph
+<lb/><q>my fi [ydwyf] Pharao: ac hebot ti ni chyfyd
+<lb/>g&wcirc;r ei law, nai droed trwy holl wlad yr Aipht.</q>
+</seg></p>
+<p><seg type="verse" n="45">
+<lb/>A Pharao a alwodd henw Ioseph <w>Zaph<lb rend="shy"/>nath</w> Paaneah, ac a roddes iddo Asnath merch
+<lb/>Potiperah offeiriad On yn wraig: yna yr aeth
+<lb/>Ioseph allan dros wlad yr Aipht.
+</seg></p>
+<p><seg type="verse" n="46">
+<lb/>Ac Ioseph [ydoedd] f&acirc;b deng-mlwydd
+<lb/>ar hugain pan safodd ef ger bron Pharao <w>bre<lb rend="shy"/>nin</w> yr Aipht: ac Ioseph aeth allan o wydd <w>Pha<lb rend="shy"/>rao,</w> ac a drammwyodd drwy holl wlad 'r Aipht.
+</seg></p>
+<p><seg type="verse" n="47">
+<lb/>A<isp/>'r ddaiar a gnydiodd, tros saith <w><corr part="a" sic="mly" resp="transcr">mly</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="ned">nedd</corr></w> yr amldra, yn ddyrneidiau.
+</seg></p>
+<p><seg type="verse" n="48">
+<lb/>Yntef a gasclodd holl ymborth y saith
+<lb/>mlynedd y rhai a fuant yng-wlad yr Aipht, ac a
+<lb/>roddes ymborth mewn dinasoedd: ymborth
+<lb/>maes y ddinas yr hwn [fyddei] o<isp/><apo/>i hamgylch, a
+<lb/>roddes ef o<isp/><apo/>i mewn.
+</seg></p>
+<p><seg type="verse" n="49">
+<lb/>Felly Ioseph a gynnullodd &ycirc;d fel tywod
+<lb/>y m&ocirc;r, yn dra lluosoc, hyd oni pheidiodd a<isp/><apo/>i rifo,
+<lb/>o blegit [yr ydoedd] heb rifedi.
+</seg></p>
+<p><seg type="verse" n="50">
+<lb/>Ond cyn dyfod [vn] flwyddyn o newyn
+<lb/>y ganwyd i Ioseph ddau f&acirc;b, y rhai a ymdd&ucirc;g
+<lb/>Asnath merch Potiperah offeiriad On iddo ef.
+</seg></p>
+<p><seg type="verse" n="51">
+<lb/>Ac Ioseph a alwodd henw y <w>cyntafane<lb rend="shy"/>dic</w> Manasses: <q>oblegit</q> [eb efe] <q>Duw a wnaeth
+<lb/>i mi anghofio fy llafur oll, a thylwyth fy-nhad
+<lb/>oll.</q>
+</seg></p>
+<p><seg type="verse" n="52">
+<lb/>Ac efe a alwodd henw 'r ail Ephraim, <q><w>o<lb rend="shy"/>blegit</w></q> [eb efe] <q>Duw <corr sic="'am" resp="transcr">a<isp/>'m</corr> ffrwythlonodd i <w>yng<lb rend="hyphen"/>wlad</w> fyng-orthrymder.</q>
+</seg></p>
+<p><seg type="verse" n="53">
+<lb/>Yna y darfu saith mlynedd yr amldra, y
+<lb/>rhai a fuant yng-wlad yr Aipht.
+</seg></p>
+<p><seg type="verse" n="54">
+<lb/>A<isp/>'r saith mlynedd newynoc, a <w>ddechreu<lb rend="shy"/>asant</w> ddyfod fel y dywedase Ioseph: ac yr oedd
+<lb/>newyn yn yr holl wledydd: ond yn holl wlad yr
+<lb/>Aipht yr ydoedd bara.
+</seg></p>
+<p><seg type="verse" n="55">
+<lb/>Felly y newynodd holl wlad yr Aipht:
+<lb/><corr sic="'ar" resp="transcr">a<isp/>'r</corr> bobl a waeddodd ar Pharao, am fara: a <w>Pha<pb rend="shy" n="19r.b"/><lb/>rao</w> a ddywedodd wrth yr holl Aiphtiaid, <q>ewch
+<lb/>at Ioseph: yr hyn a ddywedo efe wrthych <w>gwne<lb rend="shy"/>wch.</w></q>
+</seg></p>
+<!-- check, incorrectly numbered as "36", note? -->
+<p><seg type="verse" n="56">
+<lb/>Y newyn hefyd ydoedd, ar holl wyneb y
+<lb/>ddaiar: Ioseph gan hynny a agorodd yr holl
+<lb/>[leoedd] <orig reg="y rhai">yr hai</orig> [<isp/>'r ydoedd &ycirc;d] ynddynt, ac a <w>wer<lb rend="shy"/>thodd</w>&nbsp;<corr sic="'ir" resp="transcr">i<isp/>'r</corr> Aiphtiaid: o blegit gorfuase y newyn
+<lb/>yng-wlad yr Aipht.
+</seg></p>
+<p><seg type="verse" n="57">
+<lb/><orig reg="Am">A<isp/>'m</orig> hynny y daeth holl wledydd yr Aipht
+<lb/>at Ioseph i brynnu: o herwydd gorfuase y <w>new<lb rend="shy"/>yn</w> yn yr holl wledydd.
+</seg></p>
+</div>
+</body>
+</text>
+
+<text id="b1588sam">
+<body>
+<head type="main">Llyfr cyntaf i Samuel<!-- [pen. 16-20 = tt. 117v.b-120v.b]-->
+</head>
+<pb n="117v.b"/>
+<div type="chapter" n="16">
+<head><lb n="12"/>PEN. XVI.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb n="13"/>Duw yn peri i Samuel eneinio Dafydd yn frenin. 13.
+<lb n="14"/>Ac yn rhoddi ei yspryd ei hun ar Ddafydd.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb n="15"/><hi rend="rubric">A</hi><isp/>'R Arglwydd a ddywedodd wrth <w>Samu<lb n="16" rend="shy"/>el,</w>&nbsp;<q>pa hyd y gal&ecirc;ri di am Saul, gan i mi
+<lb n="17"/>ei fwrw ef ymmaith o deyrnasu ar Israel? <w>lla<lb n="18" rend="shy"/>nw</w> dy gorn ag olew, a dos, mi a<isp/>'th anfonaf di at
+<lb n="19"/>Isai y Bethlehemiad, canys ym mysc ei feibion
+<lb n="20"/>ef y canfyddais <orig reg="im">i'm</orig> frenin.</q>
+</seg></p>
+<p><seg type="verse" n="2">
+<lb n="21"/>A Samuel a ddywedodd <q>pa fodd yr &acirc;fi?
+<lb n="22"/>canys Saul a glyw, ac a<isp/>'m lladd i:</q> yna y <w>dy<lb n="23" rend="shy"/>wedodd</w> yr Arglwydd, <q part="i">cymmer anner [o blith]
+<lb n="24"/>y gwartheg gyd a thi, a dywet, <q>deuthum i <w>aber<lb n="25" rend="shy"/>thu</w> i<isp/>'r Arglwydd.</q>
+</q>
+</seg></p>
+<p><seg type="verse" n="3">
+<lb n="26"/><q part="f">A galw ar Isai i<isp/>'r aberth, a mi a yspyssaf i
+<lb n="27"/>ti yr hyn a wnelech, fel yr eneiniech i mi yr hwn
+<lb n="28"/>a ddywedaf wrthit.</q>
+</seg></p>
+<p><seg type="verse" n="4">
+<lb n="29"/>Felly y gwnaeth Samuel yr hyn a <w>arch<lb n="30" rend="shy"/>ase</w> yr Arglwydd, ac a ddaeth i Bethlehem, ac
+<lb n="31"/>henuriaid y ddinas a ddychrynnasant wrth <w>gyf<lb n="32" rend="shy"/>arfod</w> ag ef, ac a ddywedasant, <q>ai heddychlon
+<lb n="33"/>[yw] dy ddyfodiad?</q>
+</seg></p>
+<p><seg type="verse" n="5">
+<lb n="34"/>Ac efe a ddywedodd, <q>heddychlon: deuthum
+<lb n="35"/>i aberthu i<isp/>'r Arglwydd, ymsancteiddiwch a <w>deu<lb n="36" rend="shy"/>wch</w> gyd a mi i<isp/>'r aberth:</q> ac efe a sancteiddiodd
+<lb n="37"/>Isai, a<isp/><apo/>i feibion, ac a<isp/><apo/>i galwodd hwynt i<isp/>'r aberth.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb n="38"/>A phan ddaethant, yna efe a welodd <w>Eli<lb n="39" rend="shy"/>ab,</w> ac a ddywedodd: <q>diau [ddyfod] ei eneiniog
+<lb n="40"/>ger bron yr Arglwydd.</q>
+</seg></p>
+<p><seg type="verse" n="7">
+<lb n="41"/>A<isp/>'r Arglwydd a ddywedodd wrth <w>Sa<lb n="42" rend="shy"/>muel,</w>&nbsp;<q>nac edrych ar ei ol&wcirc;g ef, nac ar vchter ei
+<lb n="43"/>gorpholaeth ef, canys gwrthodais ef: o herwydd
+<lb n="44"/>nid [edrych Duw ar] yr hyn a edrych dyn, <w>ca<lb n="45" rend="shy"/>nys</w> d&ycirc;n a edrych ar y llygaid, ond yr Arglwydd
+<lb n="46"/>a edrych ar y galon.</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<lb n="47"/>Yna Isai a alwodd am Abinadab, ac a
+<lb n="48"/>barodd iddo ef fyned o flaen Samuel: a <w>dywe<lb n="49" rend="shy"/>dodd</w> yntef, <q>ni ddewisodd yr Arglwydd hwn <w>ych<lb n="50" rend="shy"/>waith.</w></q>
+</seg></p>
+<p><seg type="verse" n="9">
+<lb n="51"/>Yna y gwnaeth Isai i Samma ddyfod, a
+<lb n="52"/>ddywedodd yntef, <q>ni ddewisodd yr Arglwydd
+<lb n="53"/>hwn ychwaith.</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<lb n="54"/>Yna y parodd Isai i<isp/><apo/>w saith mab ddyfod
+<lb n="55"/>ger bron Samuel: a Samuel a ddywedodd
+<lb n="56"/>wrth Isai, <q>ni ddewisodd yr Arglwydd [yr vn]
+<lb n="57"/>o<isp/>'r rhai hyn.</q>
+</seg></p>
+<p><seg type="verse" n="11">
+<lb n="58"/>Dywedodd Samuel hefyd wrth Isai, <q>a
+<lb n="59"/>ddarfu y plant?</q> yntef a ddywedodd, <q>yr ieuangaf
+
+<pb n="118r.a"/>
+<lb/>etto sydd yn aros, ac wele [y mae] efe yn <w>bugei<lb rend="shy"/>lio</w> y defaid:</q> yna y dywedodd Samuel wrth
+<lb/>Isai, <q>danfon, a chyrch ef, canys nid eisteddwn ni i
+<lb/>lawr, nes ei ddyfod ef ymma.</q>
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Yna yr <orig reg="anfonodd">ynfonodd</orig>, ac y cyrchodd ef, ac efe
+<lb/>[oedd] <orig reg="writgoch">wrid-coch</orig> a th&ecirc;g yr olwg, a hardd o
+<lb/>wedd: a dywedodd yr Arglwydd, <q>cyfot, <w>enei<lb rend="shy"/>nia</w> ef, canys dymma efe.</q>
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Yna y cymmerth Samuel gorn yr olew,
+<lb/>ac a<isp/><apo/>i heneiniodd ef <orig reg="ynghanol">yng-hanol</orig> ei frodyr, a daeth
+<lb/>yspryd yr Arglwydd ar Ddafydd o<isp/>'r dydd
+<lb/>hwnnw allan: yna Samuel a gyfododd, ac a
+<lb/>aeth i Ramah.
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Ond yspryd yr Arglwydd a giliodd oddi
+<lb/>wrth Saul: ac yspryd drwg oddi wrth yr <w>Ar<lb rend="shy"/>glwydd</w> a<isp/><apo/>i poenodd ef.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>A gweision Saul a ddywedasant wrtho
+<lb/>ef, <q part="i">wele yn awr drwg yspryd Duw yn dy <w>boe<lb rend="shy"/>ni</w> di.</q>
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/><q part="f">Dyweded attolwg ein meistr ni [wrth]
+<lb/>dy weision [y rhai ydynt] ger dy fron [am]
+<lb/><orig reg="iddynt">yddynt</orig> geisio g&wcirc;r yn medru canu telyn, a <w>by<lb rend="shy"/>dded</w> pan ddelo drwg yspryd Duw arnat ti, yna
+<lb/>iddo ef ganu a<isp/><apo/>i law, a [hynny] fydd da i ti.</q>
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Yna y dywedodd Saul wrth ei weision,
+<lb/><q>edrychwch yn awr i mi [am] &wcirc;r yn medru canu
+<lb/>yn dd&acirc;, a dugwch ef attafi.</q>
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>Ac vn o<isp/>'r llangciaid a attebodd, ac a <w>ddy<lb rend="shy"/>wedodd,</w>&nbsp;<q>wele gwelais fab i Isai y <w>Bethlehemi<lb rend="shy"/>ad</w> yn medru canu, ac yn gadarn [o] nerth, ac yn
+<lb/>rhyfel-wr, yn ddoeth o ymadrodd hefyd, ac yn
+<lb/>&wcirc;r lluniaidd, a<isp/>'r Arglwydd [sydd] gyd ag ef.</q>
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/>Yna yr anfonodd Saul gennadau at <w>I<lb rend="shy"/>sai,</w> ac a ddywedodd: <q>anfon atafi Ddafydd dy
+<lb/>fab yr hwn [sydd] gyd a<isp/>'r praidd.</q>
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/>Ac Isai a gymmerth assyn [<corr sic="lwythoc" resp="transcr">llwythoc</corr>] o
+<lb/>fara, a chostr&ecirc;led o w&icirc;n, ac vn mynn gafr, ac a<isp/><apo/>i
+<lb/>hanfonodd gyd a Dafydd ei fab at Saul.
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/>A Dafydd a ddaeth at Saul, ac a safodd
+<lb/>ger ei fron ef, yntef a<isp/><apo/>i <corr sic="haffodd" resp="transcr">hoffodd</corr> ef yn ddirfawr, ac
+<lb/>efe a aeth yn gludydd arfau iddo ef.
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/>Yna Saul a anfonodd at Isai, gan <w>ddy<lb rend="shy"/>wedyd:</w>&nbsp;<q>arhosed Dafydd attolwg ger fy mron
+<lb/>i, canys efe a gafodd ffafor yn fyng-olwg.</q>
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/>A phan fydde [drwg] yspryd Duw ar
+<lb/>Saul yna y cymmere Dafydd y delyn, ac y <w>c&acirc;<lb rend="shy"/>ne</w> a<isp/><apo/>i [ddwylaw:] a bydde esmwythdra i Saul, a
+<lb/>d&acirc; [oedd hynny] iddo ef, a<isp/>'r yspryd drwg a gilie
+<lb/>oddi wrtho ef.
+</seg></p>
+</div>
+<div type="chapter" n="17">
+<head><lb/>PEN. XVII.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Y modd y gorchfygodd Dafydd Goliath.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">Y</hi>na y Philistiaid a gasclasant eu <w>byddino<lb rend="shy"/>edd</w> i ryfel, ac a ymgynnullasant i Socho,
+<lb/>yr hon [sydd] yn Iuda, ac a werssyllasant rhwng
+<lb/>Socho, ac Azecah <orig reg="yng nghwr">yng-hwrr</orig> Dammim.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>Saul hefyd a gw&ycirc;r Israel a ymgasclasant,
+<lb/>ac a werssyllasant yn nyffryn Elah: ac a <w>luniae<lb rend="shy"/>thasant</w> ryfel yn erbyn y Philistiaid.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>A<isp/>'r Philistiaid oeddynt yn sefyll ar fynydd
+<pb n="118r.b"/>
+<lb/>o<isp/>'r naill du, ac Israel oeddynt yn sefyll ar <w>fy<lb rend="shy"/>nydd</w> o<isp/>'r tu arall, a<isp/>'r dyffryn [oedd] rhyngddynt.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Yna y daeth g&wcirc;r rhyngddynt hwy o <w>wers<lb rend="shy"/>sylloedd</w> y Philistiaid a<isp/><apo/>i enw Goliath o Gath: ei
+<lb/>vchter [oedd] chwe chufydd a rhychwant.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>A h&ecirc;lm o br&ecirc;s ar ei ben, a lluric emmoc a
+<lb/>wiscodd efe, a phwys y lluric [oedd] bum mil o
+<lb/>siclau pr&ecirc;s.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>A bottyssau pr&ecirc;s [oeddynt] am ei draed ef,
+<lb/>a tharian pr&ecirc;s rhwng ei yscwyddau.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>A phaladr ei waiw-ffon ef [oedd] fel <w>car<lb rend="shy"/>fan</w> gwehyddion, a blaen ei waiw-ffon ef [oedd]
+<lb/>chwe-chant sicl o haiarn: a<isp/>'r hwn oedd yn dwyn
+<lb/>y tarian oedd yn myned o<isp/><apo/>i flaen ef.
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Ac efe a safodd, ac a waeddodd ar <w>fyddino<lb rend="shy"/>edd</w> Israel, ac a ddywedodd wrthynt: <q part="i">i ba beth
+<lb/>y deuwch i luniaethu rhyfel, onid [ydwyf] fi
+<lb/>Philistiad? a chwithau yn weision i Saul? <w>de<lb rend="om-shy"/>wiswch</w> i chwi &wcirc;r i ddyfod i wared attafi.</q>
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/><q part="f">Os efe a orchfyga wrth ymladd a mi, ac
+<lb/>a<isp/>'m lladd i, yna y byddwn ni yn weision i chwi,
+<lb/>ond os myfi a<isp/><apo/>i gorchfygaf ef, ac a<isp/><apo/>i laddaf ef, yna
+<lb/>y byddwch chwi yn weision i ni, ac y <w>gwasana<lb rend="shy"/>ethwch</w> ni.</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Y Philistiad hefyd a ddywedodd, <q>myfi a
+<lb/>wradwyddais fyddinoedd Israel y dydd hwn,
+<lb/>moeswch attafi &wcirc;r fel y cyd-ymladdom ni.</q>
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Pan glybu Saul, a holl Israel y geiriau
+<lb/>hynny [gan] y Philistiad, yna y brawychasant,
+<lb/>ac yr ofnasant yn ddirfawr.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>A<isp/>'r Dafydd hwn [oedd] fab i <w>Ephrate<lb rend="hyphen"/>wr</w> o Bethlehem Iuda, a<isp/><apo/>i enw ef Isai, ac iddo ef
+<lb/>[yr oedd] &wcirc;yth o feibion: a<isp/>'r g&wcirc;r [oedd] yn <w>ny<lb rend="shy"/>ddiau</w> Saul yn h&ecirc;n yn dyfod ym mhlith [h&ecirc;n]
+<lb/>ddynion.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>A thri mab hynaf Isai a aethant [ac] a
+<lb/>ddaethant ar &ocirc;l Saul i<isp/>'r rhyfel: ac enw ei dri
+<lb/>mab ef y rhai a aethant i<isp/>'r rhyfel [oeddynt] <w>Eli<lb rend="shy"/>ab</w> y cyntafanedic, ac Abinadab yr ail, a <w>Sam<lb rend="shy"/>ma</w> y trydydd.
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>A Dafydd hwnnw [oedd] ieuangaf: a<isp/>'r
+<lb/>tri hynaf a aethant ar &ocirc;l Saul.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Dafydd hefyd a aeth, ond efe a <w>ddychwe<lb rend="shy"/>lodd</w> oddi wrth Saul i fugeilio defaid ei dad yn
+<lb/>Bethlehem.
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Felly y Philistiad a nessaodd yn foreu, ac
+<lb/>yn hwyr, ac a barhaodd ddeugain <orig reg="niwrnod">nhiwrnod</orig>.
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>A dywedodd Isai wrth Ddafydd ei fab,
+<lb/><q part="i">cymmer yn awr i<isp/>'th frodyr Epha o<isp/>'r cr&acirc;s-&ycirc;d
+<lb/>hwn, a<isp/>'r d&ecirc;c torth hyn: ac ar redeg dwg <w>[hw<lb rend="shy"/>ynt]</w> i<isp/>'r gwerssyll at dy frodyr.</q>
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/><q part="f">D&wcirc;g hefyd y d&ecirc;c cossyn &icirc;r hyn i <w>dy<lb rend="shy"/>wysog</w> y m&icirc;l, ac ymwel a<isp/>'th frodyr mewn <w>hedd<lb rend="shy"/>wch,</w> a dwg [yn rhydd] eu gwystl hwynt.</q>
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/>Yna Saul, a hwythau, a holl w&ycirc;r Israel
+<lb/>[oeddynt] yn nyffryn Elah yn ymladd a<isp/>'r <w>Phi<lb rend="shy"/>listiaid.</w>
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/>Felly Dafydd a gyfododd yn foreu, ac a
+<lb/>adawodd y <corr sic="defaidd" resp="transcr">defaid</corr> gyd a cheidwad, ac a <w>gym<lb rend="shy"/>merth</w>&nbsp;<hi rend="antiqua">y pethau hynny</hi>, ac a aeth megis y <w>gorch<lb rend="shy"/>ymynnase</w> Isai iddo ef: ac a ddaeth i<isp/>'r gwerssyll,
+<pb n="118v.a"/>
+<lb/>a<isp/>'r llu a aethe allan i<isp/>'r g&acirc;d, ac a floeddiasent yn
+<lb/>y rhyfel.
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/>Canys Israel a<isp/>'r Philistiaid a <w>fyddina<lb rend="shy"/>sent</w> fyddin yn erbyn byddin.
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/>A Dafydd a adawodd y m&ucirc;d oddi wrtho
+<lb/>tann law ceidwad y dodrefn: ac a redodd i<isp/>'r <w>fy<lb rend="shy"/>ddin,</w> ac a ddaeth, ac a gyfarchodd ei frodyr.
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/>Pan oedd Dafydd yn ymddiddan a <w>hw<lb rend="shy"/>ynt,</w> yna wele yr g&wcirc;r (yr hwn [oedd yn sefyll]
+<lb/>rhwng y ddeu-lu) yn dyfod i fynu o fyddinoedd
+<lb/>y Philistiaid (Goliath y Philistiad o Gath <w>[o<lb rend="shy"/>edd]</w> ei enw ef,) ac efe a ddywedodd yr vn fath <w>ei<lb rend="shy"/>riau</w> fel y clybu Dafydd.
+</seg></p>
+<p><seg type="verse" n="24">
+<lb/>A holl w&ycirc;r Israel pan welsant y g&wcirc;r
+<lb/>hwnnw a ffoasant rhagddo ef, ac a ofnasant yn
+<lb/>ddirfawr.
+</seg></p>
+<p><seg type="verse" n="25">
+<lb/>Dywedodd gw&ycirc;r Israel hefyd <q>oni <w>wel<lb rend="shy"/>soch</w> chwi y gwr hwn yn dyfod i fynu? diau i
+<lb/>wradwyddo Israel y mae yn dyfod i fynu: a<isp/>'r
+<lb/>g&wcirc;r yr hwn a<isp/><apo/>i lladdo ef, y brenin a gyfoethoga
+<lb/>hwnnw a chyfoeth mawr, ei ferch hefyd a rydd
+<lb/>efe iddo ef, a th&ycirc; ei d&acirc;d ef a wnaiff efe yn
+<lb/>rhydd yn Israel.</q>
+</seg></p>
+<p><seg type="verse" n="26">
+<lb/>Yna y llefarodd Dafydd wrth y gw&ycirc;r
+<lb/>y rhai oeddynt yn sefyll gyd ag ef gan <w>ddy<lb rend="shy"/>wedyd:</w>&nbsp;<q>beth a wneir i<isp/>'r g&wcirc;r yr hwn a laddo
+<lb/>y Philistiad hwn? ac a dynn ymmaith y <w>gwrad<lb rend="shy"/>wydd</w> oddi ar Israel? canys pwy [yw] y <w>Phili<lb rend="shy"/>stiad</w> dienwaededic hwn, pan wradwydde efe <w>fy<lb rend="shy"/>ddinoedd</w> y Duw byw?</q>
+</seg></p>
+<p><seg type="verse" n="27">
+<lb/>A<isp/>'r bobl a ddywedodd wrtho ef fel hyn,
+<lb/>gan ddywedyd: <q>felly y gwneir i<isp/>'r g&wcirc;r yr hwn
+<lb/>a<isp/><apo/>i lladdo ef.</q>
+</seg></p>
+<p><seg type="verse" n="28">
+<lb/>Ac Eliab ei frawd hynaf ef a<isp/><apo/>i clybu ef
+<lb/>pan oedd efe yn ymddiddan a<isp/>'r gw&ycirc;r, a digter
+<lb/>Eliab a enynnodd yn erbyn Dafydd, ac efe a
+<lb/>ddywedodd, <q>pa ham y daethost i wared ymma?
+<lb/>a chyd a phwy y gadewaist yr ychydic ddefaid
+<lb/>hynny yn yr anialwch? myfi a adwen dy <w>falch<lb rend="shy"/>der</w> di, a drygioni dy galon di, canys i weled <corr part="a" sic="y" resp="transcr">y</corr><lb/><corr resp="transcr" part="b" sic="y"/> rhyfel y daethost di i wared.</q>
+</seg></p>
+<p><seg type="verse" n="29">
+<lb/>Yna y dywedodd Dafydd, <q>beth a <w>wneu<lb rend="shy"/>thum</w> i yn awr? onid oedd neges [i mi?]</q>
+</seg></p>
+<p><seg type="verse" n="30">
+<lb/>Ac efe a ddychwelodd oddi wrtho ef at
+<lb/>vn arall, ac a ddywedodd yr vn modd, a<isp/>'r bobl a<isp/><apo/>i
+<lb/>hattebasant ef air yng-air [fel] o<isp/>'r blaen.
+</seg></p>
+<p><seg type="verse" n="31">
+<lb/>Pan glybuwyd y geiriau y rhai a <w>lefar<lb rend="shy"/>odd</w> Dafydd, yna y mynegwyd hwynt ger bron
+<lb/>Saul, ac efe a barodd ei ddwyn ef [atto ef.]
+</seg></p>
+<p><seg type="verse" n="32">
+<lb/>A Dafydd a ddywedodd wrth Saul, <q>na
+<lb/>lwfrhaed calon d&ycirc;n erddo ef, dy w&acirc;s di a aiff, ac
+<lb/>a ymladd a<isp/>'r Philistiad hwn.</q>
+</seg></p>
+<p><seg type="verse" n="33">
+<lb/>Yna y dywedodd Saul wrth Ddafydd, <q>ni
+<lb/>elli di fyned at y Philistiad hwn i ymladd ag ef,
+<lb/>canys llangc [ydwyt] ti, ac yntef sydd yn <w>rhy<lb rend="shy"/>fel-wr</w> o<isp/><apo/>i febyd.</q>
+</seg></p>
+<p><seg type="verse" n="34">
+<lb/>A Dafydd a ddywedodd wrth Saul, <q part="i"><w>bu<lb rend="shy"/>gail</w> oedd dy w&acirc;s di ar ddefaid ei d&acirc;d, pan <w>dda<lb rend="shy"/>eth</w> y llew, a<isp/>'r arth a chymmeryd oen o<isp/>'r praidd.</q>
+</seg></p>
+<p><seg type="verse" n="35">
+<lb/><q part="m">A mi a euthum ar ei &ocirc;l ef, ac a<isp/><apo/>i tarewais
+<lb/>ef, ac [a<isp/><apo/>i] hachubais o<isp/><apo/>i safn ef: pan gyfododd
+<pb n="118v.b"/>
+<lb/>ef i<isp/>'m herbyn i, yna mi a <corr sic="y maflais" resp="transcr">ymaflais</corr> yn ei farf ef,
+<lb/>ac a<isp/><apo/>i tarewais, ac a<isp/><apo/>i lleddais ef.</q>
+</seg></p>
+<p><seg type="verse" n="36">
+<lb/><q part="f">Felly dy w&acirc;s di a laddodd y llew, a<isp/>'r
+<lb/>arth: a<isp/>'r Philistiad dienwaededic hwn fydd
+<lb/>megis vn o honynt, canys efe a amharchodd <w>fy<lb rend="shy"/>ddinoedd</w> y Duw byw.</q>
+</seg></p>
+<p><seg type="verse" n="37">
+<lb/>Dywedodd Dafydd hefyd, <q>yr Arglwydd
+<lb/>yr hwn a<isp/>'m hachubodd i o grafangc y llew, ac o
+<lb/>balf yr arth, efe a<isp/>'m hachub i o law y Philistiad
+<lb/>hwn:</q> yna y dywedodd Saul wrth Ddafydd,
+<lb/><q>dos, a<isp/>'r Arglwydd fyddo gyd a thi.</q>
+</seg></p>
+<p><seg type="verse" n="38">
+<lb/>A Saul a wiscodd Ddafydd a<isp/><apo/>i wiscoedd
+<lb/>ei hun, ac a roddodd helm o br&ecirc;s ar ei benn ef:
+<lb/>ac a<isp/><apo/>i gwiscodd ef [mewn] lluric.
+</seg></p>
+<p><seg type="verse" n="39">
+<lb/>Yna y gwregysodd Dafydd ei gleddyf
+<lb/>ar vchaf ei wiscoedd, ac a geisiodd gerdded am
+<lb/>na phrofase efe, yna y dywedodd Dafydd wrth
+<lb/>Saul, <q>ni allafi fyned yn y rhai hyn, canys ni
+<lb/>phrofais i:</q> am hynny y dioscodd Dafydd <w>hw<lb rend="shy"/>ynt</w> oddi am dano.
+</seg></p>
+<p><seg type="verse" n="40">
+<lb/>Yna y cymmerth efe ei ffon yn ei law,
+<lb/>ac a ddew&icirc;sodd iddo bump o gerric llyfnion o<isp/>'r
+<lb/>afon, ac a<isp/><apo/>i gosododd hwynt <orig reg="yng nghod">yng-h&ocirc;d</orig> y <w>bugeili<lb rend="shy"/>aid</w> yr hon [oedd] ganddo, sef yn yr screpan: a<isp/><apo/>i ffon
+<lb/>dafl [oedd] yn ei law ef: ac efe a nessaodd at
+<lb/>y Philistiad.
+</seg></p>
+<p><seg type="verse" n="41">
+<lb/>A<isp/>'r Philistiad a gerddodd, gan fyned, a
+<lb/>nessau at Ddafydd: a<isp/>'r g&wcirc;r oedd yn cludo y <w>ta<lb rend="shy"/>rian</w> o<isp/><apo/>i flaen ef.
+</seg></p>
+<p><seg type="verse" n="42">
+<lb/>Pan edrychodd y Philistiad o amgylch,
+<lb/>a chanfod Dafydd, yna efe a<isp/><apo/>i dremygodd ef, <w>ca<lb rend="shy"/>nys</w> llangc oedd efe, <orig reg="gwritgoch">gwrid-coch</orig>, a th&ecirc;g yr <w>o<lb rend="shy"/>lwg.</w>
+</seg></p>
+<p><seg type="verse" n="43">
+<lb/>A<isp/>'r Philistiad a ddywedodd wrth <w>Dda<lb rend="shy"/>fydd,</w>&nbsp;<q>ai c&icirc; ydwyfi, gan dy fod yn dyfod attafi a
+<lb/>ffynn?</q> a<isp/>'r Philistiad a regodd Ddafydd drwy
+<lb/>ei dduwiau ef.
+</seg></p>
+<p><seg type="verse" n="44">
+<lb/>Y Philistiad hefyd a ddywedodd wrth
+<lb/>Ddafydd, <q>tyret attafi, a rhoddaf dy gnawd i <w>e<lb rend="shy"/>hediaid</w> y nefoedd, ac i anifeiliaid y maes.</q>
+</seg></p>
+<p><seg type="verse" n="45">
+<lb/>Yna y dywedodd Dafydd wrth y <w>Phi<lb rend="shy"/>listiad,</w>&nbsp;<q part="i">ti ydwyt yn dyfod attafi a chleddyf, ac a
+<lb/>gwaiw-ffon, ac a tharian: a minne ydwyf yn
+<lb/>dyfod attat ti yn enw Arglwydd y lluoedd,
+<lb/>Duw byddinoedd Israel yr hwn a geblaist ti.</q>
+</seg></p>
+<p><seg type="verse" n="46">
+<lb/><q part="m">Y dydd hwn y dyru yr Arglwydd dydi
+<lb/>yn fy llaw i, a mi a<isp/>'th darawaf di, ac a <w>gymme<lb rend="shy"/>raf</w> ymmaith dy ben di oddi arnat ti, ac a roddaf
+<lb/>gelanedd gwerssyll y Philistiaid y dydd hwn i
+<lb/>ehediaid y nefoedd, ac i fwyst-filod y ddaiar:
+<lb/>a holl [drigolion] y ddaiar a g&acirc;nt &wcirc;ybod fod
+<lb/>Duw i Israel.</q>
+</seg></p>
+<p><seg type="verse" n="47">
+<lb/><q part="f">A<isp/>'r holl gynnulleidfa hon a gant &wcirc;ybod,
+<lb/>nad a chleddyf, nac a gwaiw-ffon y gwared yr
+<lb/>Arglwydd: canys eiddo yr Arglwydd [yw]
+<lb/>y rhyfel, ac efe a<isp/>'ch rhydd chwi yn ein llaw ni.</q>
+</seg></p>
+<p><seg type="verse" n="48">
+<lb/>A phan gyfododd y Philistiad, a dyfod a
+<lb/>nessau i gyfarfod Dafydd: yna y bryssiodd <w>Da<lb rend="shy"/>fydd,</w> ac y rhedodd tu a<isp/>'r fyddin i gyfarfod a<isp/>'r
+<lb/>Philistiad.
+</seg></p>
+<p><seg type="verse" n="49">
+<lb/>A Dafydd a estynnodd ei law i<isp/>'r g&ocirc;d, ac a
+<pb n="119r.a"/>
+<lb/>gymmerth oddi yno garrec, ac a <orig reg="chwyrndaflodd">chwrndaflodd</orig>,
+<lb/>ac a darawodd y Philistiad yn ei dalcen: a<isp/>'r
+<lb/>garrec a soddodd yn ei dalcen ef, ac efe a <w>syrthi<lb rend="shy"/>odd</w> i lawr ar ei wyneb.
+</seg></p>
+<p><seg type="verse" n="50">
+<lb/>Felly y gorthrechodd Dafydd y <w>Phi<lb rend="shy"/>listiad,</w> a ffon-dafl, ac a charrec, ac a darawodd y
+<lb/>Philistiad, ac a<isp/><apo/>i lladdodd ef: er nad [oedd] <w>cle<lb rend="shy"/>ddyf</w> yn llaw Dafydd.
+</seg></p>
+<p><seg type="verse" n="51">
+<lb/>Yna y rhedodd Dafydd, ac a safodd ar y
+<lb/>Philistiad, ac a gymmerth gleddyf hwnnw, ac a<isp/><apo/>i
+<lb/>tynnodd o<isp/>'r wain, ac a<isp/><apo/>i lladdodd ef, ac a dorrodd
+<lb/>ei benn ag ef: pan welodd y Philistiaid farw o<isp/><apo/>i
+<lb/>cawr hwynt, yna y ffoasant hwy.
+</seg></p>
+<p><seg type="verse" n="52">
+<lb/>A gw&ycirc;r Israel, ac Iuda a gyfodasant, ac
+<lb/>a floeddiasant, ac a erlydiasant y Philistiaid hyd
+<lb/>[y ffordd] y d&ecirc;lech i<isp/>'r dyffryn, ac hyd byrth <w>Aca<lb rend="shy"/>ron:</w> a<isp/>'r Philistiaid a syrthiasant yn archolledic
+<lb/>ar hyd ffordd Saarim, sef hyd Gath, ac hyd <w>Aca<lb rend="shy"/>ron.</w>
+</seg></p>
+<p><seg type="verse" n="53">
+<lb/>Yna meibion Israel a ddychwelasant o
+<lb/>ymlid ar &ocirc;l y Philistiaid: ac a anrheithiasant
+<lb/>eu gwerssylloedd hwynt.
+</seg></p>
+<p><seg type="verse" n="54">
+<lb/>A Dafydd a gymmerodd benn y <w>Phili<lb rend="shy"/>stiad,</w> ac a<isp/><apo/>i d&ucirc;g i Ierusalem: a<isp/><apo/>i arfau ef a <w>oso<lb rend="shy"/>dodd</w> efe yn ei babell.
+</seg></p>
+<p><seg type="verse" n="55">
+<lb/>A phan welodd Saul Ddafydd yn <w>my<lb rend="shy"/>ned</w> i gyfarfod a<isp/>'r Philistiad, efe a ddywedodd
+<lb/>wrth Abner tywysog y filwriaeth, <q>mab i bwy
+<lb/>[yw] 'r llangc hwn, Abner?</q> ac Abner a <w>ddy<lb rend="shy"/>wedodd</w>&nbsp;<q>[fel] y mae yn fyw dy enaid &ocirc; frenin
+<lb/>nis g&wcirc;n.</q>
+</seg></p>
+<p><seg type="verse" n="56">
+<lb/>Yna y dywedodd y brenin, <q>ymofyn di
+<lb/>mab i bwy [yw] 'r gwr ieuangc hwn.</q>
+</seg></p>
+<p><seg type="verse" n="57">
+<lb/>A phan ddychwelodd Dafydd o ladd y
+<lb/>Philistiad, yna Abner a<isp/><apo/>i cymmerodd ef, ac a<isp/><apo/>i
+<lb/>d&ucirc;g ef o flaen Saul: a phenn y Philistiad yn ei
+<lb/>law.
+</seg></p>
+<p><seg type="verse" n="58">
+<lb/>A Saul a ddywedodd wrtho ef, <q>mab i
+<lb/>bwy [wyt] ti y gwr ieuangc?</q> yna y dywedodd
+<lb/><corr sic="Dafyd" resp="transcr">Dafydd</corr>, <q>mab i<isp/>'th w&acirc;s Isai y Bethlehemiad.</q>
+</seg></p>
+</div>
+<div type="chapter" n="18">
+<head><lb/>PEN. XVIII.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Y Gefeillach a oedd rhwng Ionathan a Dafydd. 11
+<lb/>Saul yn casau, ac yn ofni Dafydd.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">A</hi> Phan orphennodd efe ymddiddan a Saul,
+<lb/>yna enaid Ionathan a <orig reg="ymglymodd">ymgylymmodd</orig>
+<lb/>wrth enaid Dafydd: fel y carodd Ionathan ef,
+<lb/>megis ei enaid ei hunan.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>A Saul a<isp/><apo/>i cymmerth ef [atto] y diwrnod
+<lb/>hwnnw: ac ni adawodd iddo ddychwelyd i d&ycirc;
+<lb/>ei d&acirc;d.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>Yna Ionathan a wnaeth gyfammod a
+<lb/>Dafydd: o herwydd efe a<isp/><apo/>i care megis ei enaid
+<lb/>ei hun.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Ac Ionathan a ddioscodd y fantell yr hon
+<lb/>[oedd] am dano ei hun, ac a<isp/><apo/>i rhoddes i <w>Dda<lb rend="shy"/>fydd,</w> a<isp/><apo/>i wiscoedd, &icirc;e hyd yn oed ei gleddyf, a<isp/><apo/>i
+<lb/>fwa, a<isp/><apo/>i wregys.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>A Dafydd a aeth yn gall i ba [le] bynnac
+<lb/>yr anfonodd Saul ef, a Saul a<isp/><apo/>i gosododd ef ar
+<lb/>y rhyfel-w&ycirc;r: ac efe oedd gymmeradwy <w>yng<lb rend="hyphen"/>olwg</w> yr holl bobl, ac yng-olwg gweision Saul
+<pb n="119r.b"/>
+<lb/>hefyd.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>A bu (wrth ddyfod o honynt) pan <w>ddych<lb rend="shy"/>welodd</w> Dafydd o ladd y Philistiad, yna ddyfod
+<lb/>o<isp/>'r gwragedd allan o holl ddinasoedd Israel dan
+<lb/>ganu, a dawnsio i gyfarfod a<isp/>'r brenin Saul: a
+<lb/>thympanau, a gorfoledd, ac ag [offer] <corr sic="tri-chant" resp="transcr">tri-thant</corr>.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>A<isp/>'r gwragedd yn chware a ymmatebent,
+<lb/>ac a ddywedent: <q>tarawodd Saul ar ei filoedd,
+<lb/>a Dafydd ar ei fyrddiwn.</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Am hynny y digiodd Saul yn ddirfawr,
+<lb/>a<isp/>'r ymadrodd hwn oedd ddrwg yn ei olwg ef, ac
+<lb/>efe a ddywedodd, <q>rhoddasant i Ddafydd <w>fyr<lb rend="shy"/>ddiwn,</w> ac i mi y rhoddasant filoedd: [beth]
+<lb/>mwy [a roddent] iddo ef, eithr y frenhiniaeth?</q>
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>A bu Saul yn gwilied Dafydd o<isp/>'r dydd
+<lb/>hwnnw allan.
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Bu hefyd drannoeth i ddrwg yspryd
+<lb/>Duw ddyfod ar Saul, ac efe a brophwydodd
+<lb/><orig reg="ynghanol">yng-hanol</orig> y t&ycirc;, yna Dafydd a ganodd a<isp/><apo/>i law,
+<lb/>fel o<isp/>'r blaen: a gwaiw-ffon [oedd] yn llaw
+<lb/>Saul.
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Yna Saul a siglodd y waiw-ffon, ac a
+<lb/>ddywedodd, <q>tarawaf trwy Ddafydd, a thrwy 'r
+<lb/>pared:</q> a Dafydd a giliodd ddwy-waith o<isp/><apo/>i &wcirc;ydd
+<lb/>ef.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>A Saul a ofnodd rhac Dafydd: o <w>her<lb rend="shy"/>wydd</w> bod yr Arglwydd gyd ag ef, a chilio o
+<lb/>honaw ef oddi wrth Saul.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Am hynny Saul a<isp/><apo/>i gyrrodd ef ymmaith
+<lb/>oddi wrtho ef, ac a<isp/><apo/>i gosododd ef tano ei hun yn
+<lb/>dywysog [ar] fil: ac efe a lywodraethodd y
+<lb/>bobl.
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>A bu Ddafydd gall yn ei holl ffyrdd: a<isp/>'r
+<lb/>Arglwydd [oedd] gyd ag ef.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Pan welodd Saul ei fod ef yn gall iawn:
+<lb/>yna 'r ofnodd efe rhacddo ef.
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Eithr holl Israel, ac Iuda a garodd <w>Dda<lb rend="shy"/>fydd:</w> am ei fod ef yn eu llywodraethu hwynt.
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Yna y dywedodd Saul wrth Ddafydd,
+<lb/><q>wele Merab fy merch hynaf, hi a roddafi i ti yn
+<lb/>wraig, yn vnic bydd i mi yn fab nerthol, ac <w>ym<lb rend="shy"/>ladd</w> ryfeloedd yr Arglwydd:</q> (canys <w>dyweda<lb rend="shy"/>se</w> Saul, <q>ni bydd fy llaw i yn ei erbyn ef, onid
+<lb/>llaw y Philistiaid fydd yn ei erbyn ef.</q>)
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>A Dafydd a ddywedodd wrth Saul,
+<lb/><q>pwy [ydwyf] fi, a pheth [yw] fy mywyd [neu]
+<lb/>d&ycirc;lwyth fy nh&acirc;d i yn Israel, fel y byddwn yn
+<lb/>ddaw i<isp/>'r brenin?</q>
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/>Eithr yn yr amser [y dylesid] rhoddi <w>Me<lb rend="shy"/>rab</w> merch Saul i Ddafydd, yna hi <sic>a rhoddwyd</sic>
+<lb/>i Adriel y Meholathiad yn wraig.
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/>Yna Michol merch Saul a garodd
+<lb/>Ddafydd: a mynegasant [hynny] i Saul, a<isp/>'r
+<lb/>peth fu fodlon ganddo.
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/>(A dywedodd Saul, <q>rhoddaf hi iddo ef,
+<lb/>fel y byddo hi iddo 'n fagl, ac y byddo llaw y
+<lb/>Philistiaid yn ei erbyn ef:</q>) felly Saul a <w>ddy<lb rend="shy"/>wedodd</w> wrth Ddafydd, <q>drwy<isp/>'r llall yr <w>ymgyfa<lb rend="shy"/>threchi</w> a mi heddyw.</q>
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/>A Saul a orchymynnodd i<isp/><apo/>w weision
+<lb/>[fel hyn:] ymddiddenwch a Dafydd yn ddistaw,
+<pb n="119v.a"/>
+<lb/>gan ddywedyd, <q>wele y brenin sydd hoff ganddo
+<lb/>dydi, a<isp/><apo/>i holl weision ef a<isp/>'th garant di: yn awr
+<lb/>gan hynny ymgyfathracha a<isp/>'r brenin.</q>
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/>A gweision Saul a adroddasant wrth
+<lb/>Ddafydd y geiriau hyn: a Dafydd a ddywedodd
+<lb/><q>ai yscafn [yw] yn eich golwg chwi <w>ymgyfathra<lb rend="shy"/>chu</w> a brenin, a minne yn &wcirc;r tlawd, a gwael?</q>
+</seg></p>
+<p><seg type="verse" n="24">
+<lb/>A gweision Saul a fynegasant iddo, gan
+<lb/>ddywedyd: <q>fel hyn y llefarodd Dafydd.</q>
+</seg></p>
+<p><seg type="verse" n="25">
+<lb/>Yna y dywedodd Saul, <q>fel hyn y <w>dywed<lb rend="shy"/>wch</w> wrth Ddafydd, <q>nid yw y brenin yn <w>ewylly<lb rend="shy"/>sio</w> cynhyscaeth, onid [cael] cant o flaen-grwyn
+<lb/>y Philistiaid i ddial ar elynnion y brenin:</q></q>&nbsp;<w>(ca<lb rend="shy"/>nys</w> Saul a feddyliodd am ladd Dafydd drwy
+<lb/>law y Philistiaid.)
+</seg></p>
+<p><seg type="verse" n="26">
+<lb/>A<isp/><apo/>i weision ef a fynegasant i Ddafydd y
+<lb/>geiriau hynn, a<isp/>'r ymadrodd fu fodlon gan <w>Dda<lb rend="shy"/>fydd</w> am ymgyfathrachu a<isp/>'r brenin: ond ni <w>ddae<lb rend="shy"/>the</w> yr amser.
+</seg></p>
+<p><seg type="verse" n="27">
+<lb/>Yna y cyfododd Dafydd, ac efe a aeth,
+<lb/>a<isp/><apo/>i w&ycirc;r, ac a darawodd ddau can-wr, o<isp/>'r <w>Philisti<lb rend="shy"/>aid,</w> a Dafydd a ddygodd eu blaen-grwyn
+<lb/>hwynt, ac a<isp/><apo/>i cwbl dalasant i<isp/>'r brenin, i <w>ymgy<lb rend="shy"/>fathrachu</w> a<isp/>'r brenin: am hynny y rhoddes Saul
+<lb/>Michol ei ferch yn wraig iddo yntef.
+</seg></p>
+<p><seg type="verse" n="28">
+<lb/>Yna y gwelodd Saul, ac y gwybu mai 'r
+<lb/>Arglwydd [oedd] gyd a Dafydd: a Michol
+<lb/>merch Saul a<isp/><apo/>i carodd ef.
+</seg></p>
+<p><seg type="verse" n="29">
+<lb/>A Saul a ofnodd fwy-fwy rhac Dafydd,
+<lb/>a bu Saul yn elyn i Ddafydd byth.
+</seg></p>
+<p><seg type="verse" n="30">
+<lb/>Yna tywysogion y Philistiaid a aent <w>a<lb rend="shy"/>llan,</w> a phan elent hwy, Dafydd a fydde gallach
+<lb/>na holl weision Saul, a<isp/><apo/>i enw ef oedd <w>anrhyde<lb rend="shy"/>ddus</w> iawn.
+</seg></p>
+</div>
+<div type="chapter" n="19">
+<head><lb/>PEN. XIX.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Ionathan yn rhybyddio Dafydd o g&acirc;s ei d&acirc;d Saul iddo
+<lb/>ef. 11 Michol ei wraig yn ei achub ef. 23 Saul
+<lb/>yn prophwydo wrth erlid Dafydd.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">Y</hi>NA y dywedodd Saul wrth Ionathan ei
+<lb/>fab, ac wrth ei holl weision am ladd <w>Da<lb rend="shy"/>fydd:</w> ond Ionathan mab Saul oedd h&ocirc;ff iawn
+<lb/>ganddo Ddafydd.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>Am hynny y mynegodd Ionathan i <w>Dda<lb rend="shy"/>fydd</w> gan ddywedyd: <q part="i">Saul fy nh&acirc;d sy yn ceisio
+<lb/>dy ladd di: ac yn awr ymgadw attolwg hyd y
+<lb/>boreu, ac aros mewn [lle] dirgel, ac ymguddia.</q>
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/><q part="f">A mi a &acirc;f allan, ac a safaf ger llaw fy nh&acirc;d
+<lb/>yn y maes, yr hwn [y byddi] di ynddo, mi hefyd
+<lb/>a ymddiddanaf a<isp/>'m t&acirc;d o<isp/>'th blegit ti: ac mi a
+<lb/>edrychaf beth [a ddywedo efe,] ac a fynegaf i
+<lb/>ti.</q>
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Ac Ionathan a ddywedodd yn dda am
+<lb/>Ddafydd wrth Saul ei d&acirc;d: ac a ddywedodd
+<lb/>wrtho ef, <q part="i">na pheched y brenin yn erbyn ei w&acirc;s,
+<lb/>[sef] yn erbyn Dafydd, o herwydd na phechodd
+<lb/>efe i<isp/>'th erbyn di, ac o herwydd [bod] ei <w>weithre<lb rend="shy"/>doedd</w> ef yn dda iawn i ti.</q>
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/><q part="f">Canys efe a osodes ei <orig reg="einioes">enioes</orig> yn ei law, ac
+<lb/>a darawodd y Philistiad, a<isp/>'r Arglwydd a <w>wna<lb rend="shy"/>eth</w> iechydwriaeth mawr i holl Israel, ti a <w>we<lb rend="shy"/>laist</w> [hyn] ac a lawenychaist: pa ham gan <w>hyn<pb rend="shy" n="119v.b"/><lb/>ny</w> y pechi yn erbyn gwaed diniwed, gan ladd
+<lb/>Dafydd yn ddiachos?</q>
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>Yna Saul a wrandawodd ar lais <w>Iona<lb rend="shy"/>than,</w> a Saul a dyngodd <q>[nid] byw yw 'r <w>Argl<lb rend="shy"/>wydd</w> os lleddir ef.</q>
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>Felly Ionathan a alwodd ar Ddafydd, ac
+<lb/>Ionathan a fynegodd iddo ef yr holl eiriau hyn:
+<lb/>ac Ionathan a ddug Ddafydd at Saul, ac efe a
+<lb/>fu ger ei fron ef megis cynt.
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Yna y bu chwaneg o ryfel: a Dafydd a <w>a<lb rend="shy"/>eth</w> allan ac a ymladdodd yn erbyn y <w>Philisti<lb rend="shy"/>aid,</w> ac a<isp/><apo/>i tarawodd hwynt a phla mawr, ac hwy
+<lb/>a ffoasant rhagddo ef.
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>A drwg yspryd yr Arglwydd oedd ar
+<lb/>Saul pan oedd efe yn eistedd yn ei d&ycirc;, a<isp/><apo/>i <w>waiw<lb rend="shy"/>ffon</w><!--hyphen?--> yn ei law: a Dafydd yn canu a<isp/><apo/>i law.
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>A <corr sic="chesiodd" resp="transcr">cheisiodd</corr> Saul daro a<isp/><apo/>i waiwffon drwy
+<lb/>Ddafydd, a thrwy yr pared, ond efe a giliodd o
+<lb/>&wcirc;ydd Saul, ac yntef a darawodd y waiw-ffon
+<lb/>yn y pared, a Dafydd a ffoawdd, ac a ddiangodd
+<lb/>y noswaith honno.
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Saul hefyd a anfonodd gennadau i d&ycirc;
+<lb/>Ddafydd i<isp/><apo/>w wilied ef, ac i<isp/><apo/>w ladd ef y boreu: a
+<lb/>Michol ei wraig ef a fynegodd i Ddafydd gan
+<lb/>ddywedyd, <q>onid achubi dy <orig reg="einioes">enioes</orig> heno, y foru
+<lb/>i<isp/>'th leddir.</q>
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Felly Michol a ollyngodd Ddafydd i
+<lb/>lawr drwy 'r ffenestr, ac efe a aeth, ac a ff&ocirc;dd, ac
+<lb/>a ddiangodd.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Yna y cymmerodd Michol ryw ddelw,
+<lb/>ac a<isp/><apo/>i gosododd yn y gwely, a chlustog [o flew]
+<lb/>geifr a osododd hi yn obennydd iddi: ac a<isp/><apo/>i <w>gob<lb rend="shy"/>lygodd</w> a dillad.
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Pan anfonodd Saul gennadau i ddala
+<lb/>Dafydd: yna hi a ddywedodd, <q>[y mae] efe yn
+<lb/>gl&acirc;f.</q>
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Anfonodd Saul eilwaith gennadau i <w>e<lb rend="shy"/>drych</w> Dafydd, gan ddywedyd: <q>dygwch ef i <w>fyn<lb rend="shy"/>u</w> attafi yn ei wely, fel y lladdwyf ef.</q>
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Pan ddaeth y cennadau, yna wele y ddelw
+<lb/>ar y gwely: a chlustog [o flew] geifr yn <w>o<lb rend="shy"/>bennydd</w> iddi.
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Yna y dywedodd Saul wrth Michol,
+<lb/><q>pa ham y twyllaist fi fel hyn, ac y gollyngaist
+<lb/>fyng-elyn i ddiangc?</q> a Michol a ddywedodd
+<lb/>wrth Saul, <q>efe a ddywedodd wrthif, <q>gollwng
+<lb/>fi, onid &ecirc; mi a<isp/>'th laddaf di.</q>
+</q>
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>Felly Dafydd a ffoawdd, ac a <w>ddiang<lb rend="shy"/>odd,</w> ac a ddaeth at Samuel i Ramah, ac a <w>fy<lb rend="shy"/>negodd</w> iddo yr hyn oll a wnaethe Saul i<isp/><apo/>w <w>er<lb rend="shy"/>byn</w> ef, ac efe a aeth gyd a Samuel, ac a <w>driga<lb rend="shy"/>sant</w> yn Naioth.
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/>A mynegwyd i Saul gan ddywedyd:
+<lb/><q>wele [y mae] Dafydd yn Naioth o fewn <w>Ra<lb rend="shy"/>mah.</w></q>
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/>Yna Saul a anfonodd gennadau i ddala
+<lb/>Dafydd, pan welsant gynnulleidfa y <w>prophwy<lb rend="shy"/>di</w> yn prophwydo, a Samuel yn sefyll, wedi ei
+<lb/>osod arnynt hwy: yna yr oedd ar gennadau
+<lb/>Saul yspryd Duw, fel y prophwydasant <w>hwy<lb rend="shy"/>thau</w> hefyd.
+</seg></p>
+<!-- check, p. 120 incorrectly numbered "119" -->
+<pb n="120r.a"/>
+<p><seg type="verse" n="21">
+<lb/>Pan fynegasant [hyn] i Saul, yna efe a
+<lb/>anfonodd gennadau eraill, a hwythau hefyd a
+<lb/>brophwydasant: ac eilwaith y danfonodd Saul
+<lb/>gennadau y drydedd waith, a phrophwydasant
+<lb/>hwythau hefyd.
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/>Yna yntef hefyd a aeth i Ramah, ac a <w>dda<lb rend="shy"/>eth</w> hyd y ffynnon fawr yr hon [sydd] yn <w>Se<lb rend="shy"/>chu,</w> ac efe a ofynnodd, ac a ddywedodd, <q>pa le [y
+<lb/>mae] Samuel a Dafydd?</q> ac [vn] a <w>ddywe<lb rend="shy"/>dodd</w>&nbsp;<q>wele [y maent hwy] yn Naioth o fewn
+<lb/>Ramah.</q>
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/>Ac efe a aeth yno i Naioth yn Ramah:
+<lb/>ac arno yntef hefyd y daeth yr vn yspryd Duw,
+<lb/>a chan fyned yr aeth, ac y prophwydodd, nes ei
+<lb/>ddyfod i Naioth yn Ramah.
+</seg></p>
+<p><seg type="verse" n="24">
+<lb/>Ac efe a ddioscodd ei ddillad, ac a <w>broph<lb rend="shy"/>wydodd</w> hefyd ger bron Samuel, ac a syrthiodd
+<lb/>i lawr yn noeth yr holl ddiwrnod hwnnw, a<isp/>'r
+<lb/>holl n&ocirc;s: am hynny y dywedent, <q>a ydyw Saul
+<lb/>hefyd ym mysc y prophwydi?</q>
+</seg></p>
+</div>
+<div type="chapter" n="20">
+<head><lb/>PEN. XX.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Y cyfammod yr hwn a oedd rhwng Ionathan a Dafydd.
+<lb/>30 Saul yn digio wrth Ionathan o achos Dafydd.
+<lb/>36 Ionathan yn saethu tair saeth i rybyddio <w>Da<lb rend="shy"/>fydd.</w></p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">Y</hi>NA y ffoawdd Dafydd o Naioth yn <w>Ra<lb rend="shy"/>mah,</w> ac a ddaeth, ac a ddywedodd ger bron
+<lb/>Ionathan, <q>beth a wneuthum? beth [yw] fy <w>an<lb rend="shy"/>wiredd,</w> a pheth [yw] fy mhechod o flaen dy d&acirc;d
+<lb/>ti, gan ei fod efe yn ceisio fy <orig reg="einioes">enioes</orig> i?</q>
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>Ac efe a ddywedodd wrtho, <q>na atto Duw,
+<lb/>ni byddi farw, wele ni wnaiff fy nh&acirc;d na pheth
+<lb/>mawr, na pheth bychan heb [ei] fynegu i mi:
+<lb/>pa ham gan hynny y c&ecirc;le fy nh&acirc;d y peth hyn <w>o<lb rend="shy"/>ddi</w> wrthifi? ni [wna efe] hyn.</q>
+</seg></p>
+<p><seg type="verse" n="3">
+<!-- check brackets -->
+<lb/>Yna Dafydd a dyngodd eilwaith, (ac a <w>ddy<lb rend="shy"/>wedodd,</w>&nbsp;<q>dy d&acirc;d a &wcirc;yr yn hyspys i mi gael ffafor
+<lb/>yn dy olwg di, am hynny y dywedodd, <q>na <w>cha<lb rend="shy"/>ffed</w> Ionathan &wcirc;ybod hyn rhac ei dristau ef<!-- check -->:</q>) <!-- check -->
+<lb/>cyn w&icirc;red a bod yr Arglwydd yn fyw, a<isp/>'th enaid
+<lb/>dithe yn fyw [nid oes] onid megis camm <w>rhyn<lb rend="shy"/>gofi</w> ag angeu.</q>
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Yna y dywedodd Ionathan wrth <w>Dda<lb rend="shy"/>fydd:</w>&nbsp;<q>dywet beth [yw] dy ewyllys, a mi a<isp/><apo/>i
+<lb/>cwplhaf i ti.</q>
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>A Dafydd a ddywedodd wrth Ionathan,
+<lb/><q part="i">wele [y dydd cyntaf o<isp/>'r] mis [yw] foru, a minne
+<lb/>gan eistedd a ddylwn eistedd gyd a<isp/>'r brenin i
+<lb/>fwytta: gollwng fi gan hynny fel yr <w>ymgu<lb rend="om-shy"/>ddiwyf</w> yn y maes hyd bryd nawn y trydydd
+<lb/>[dydd.]</q>
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/><q part="m">Os dy d&acirc;d gan goffau a goffa am danaf:
+<lb/>yna y dywedi, <q>Dafydd gan ofyn a ofynnodd
+<lb/>[gennad] gennifi i redeg i Bethlehem ei ddinas
+<lb/>ei hun, canys aberth blynyddawl [sydd] yno
+<lb/>gan yr holl genedl.</q>
+</q>
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/><q part="m">Os fel hyn y dywed efe, <q>d&acirc;,</q> heddwch
+<lb/>[sydd] i<isp/>'th w&acirc;s: ond os gan ddigio y digia efe
+<lb/>gwybydd fod y malis wedi ei baratoi ga<expan>n</expan>ddo ef.</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/><q part="f">Felly y gwnei drugaredd a<isp/>'th w&acirc;s <w>ca<lb rend="shy"/>nys</w> mewn cyfammod yr Arglwydd y dugaist
+<pb n="120r.b"/>
+<lb/>dy was gyd a thi: ac od oes anwiredd ynofi,
+<lb/>lladd di fi, canys i ba beth y dygi di fi at dy d&acirc;d?</q>
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Yna y dywedodd Ionathan, <q>na atto Duw
+<lb/>[hynny] i ti: canys os gan wybod y caf wybod
+<lb/>fod y malis wedi ei baratoi gan fy nh&acirc;d i <w>ddy<lb rend="shy"/>fod</w> i<isp/>'th erbyn, onis mynegwn i ti?</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>A Dafydd a ddywedodd wrth Ionathan,
+<lb/><q>pwy a fynega i mi os ettyb dy d&acirc;d ti ddim yn
+<lb/>galed?</q>
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Yna y dywedodd Ionathan wrth <w>Dda<lb rend="shy"/>fydd,</w>&nbsp;<q>tyret fel yr elom i<isp/>'r maes:</q> ac hwy a aethant
+<lb/>ill dau i<isp/>'r maes.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Dywedodd Ionathan hefyd wrth <w>Dda<lb rend="shy"/>fydd,</w>&nbsp;<q part="i">Arglwydd Dduw Israel [fyddo t&ycirc;st] y
+<lb/>chwiliafi [feddwl] fy nhad <orig reg="ynghylch">yng-hylch</orig> y pryd
+<lb/>[hyn] y foru [neu] drennydd, ac os daioni
+<lb/>[fydd] tu ag at Ddafydd, ac oni anfonaf yna
+<lb/>attati fel y mynegwyf it,</q>
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/><q part="m">Fel hyn y gwnel yr Arglwydd i <w>Iona<lb rend="shy"/>than</w> ac y chwanego: os da fydd gan fy nhad
+<lb/>[ddwyn] y drwg i<isp/>'th erbyn yna y mynegaf it, ac
+<lb/>a<isp/>'th ollyngaf fel yr elech mewn heddwch: a <w>by<lb rend="shy"/>dded</w> yr Arglwydd gyd a thi, megis y bu gyd
+<lb/>a<isp/>'m tad i.</q>
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/><q part="m">Felly nid tra fyddwyfi byw, ac nid a mi
+<lb/>[yn vnic] y gwnei drugaredd yr <corr sic="Arglwyd" resp="transcr">Arglwydd</corr> fel
+<lb/>na byddwyf marw:
+</q>
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/><q part="f">Ond na thorr ymmaith dy drugaredd a<isp/>'m
+<lb/>t&ycirc; maufi byth, na phan ddestruwio 'r Arglwydd
+<lb/>elynnion Dafydd bob vn oddi ar wyneb y <w>ddai<lb rend="shy"/>ar.</w></q>
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Felly y cyfammododd Ionathan a th&ycirc;
+<lb/>Ddafydd [ac efe a ddywedodd:] <q>gofynned yr
+<lb/>Arglwydd oddi ar law gelynion Dafydd [eu
+<lb/>camwedd.]</q>
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Yna y chwanegodd Ionathan dyngu
+<lb/>wrth Ddafydd, o herwydd efe a<isp/><apo/>i care ef: (canys
+<lb/>fel ei enaid ei hun y care efe ef.)
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>Ac Ionathan a ddywedodd wrtho ef, <q part="i">y <!--include Y?--><w>fo<lb rend="shy"/>ru</w> [yw 'r dydd cyntaf o<isp/>'r] mis, a thi a goffeir,
+<lb/>am y bydd dy eisteddle yn w&acirc;g.</q>
+</seg></p>
+<p><seg type="verse" n="19">
+<q part="m">Wedi i ti lechu dridieu yna tyret i <w>wa<lb rend="shy"/>red</w> yn fuan, a thyret i<isp/>'r lle yr hwn yr <w>ymguddi<lb rend="shy"/>aist</w> ynddo, yn y dydd [y bu] y gwaith hyn [o<isp/>'r
+<lb/>blaen] ac aros wrth faen Ezel.</q>
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/><q part="m">A mi a saethaf dair o saethau at [ei] ystlys
+<lb/>[ef:] fel pes gollyngwn [hwynt] at n&ocirc;d.</q>
+</seg></p>
+<p><seg type="verse" n="21">
+<q part="m">Wele hefyd mi a anfonaf y llangc [gan
+<lb/>ddywedyd,] <q>d&ocirc;s, cais y saethau:</q> os gan <w>ddywe<lb rend="shy"/>dyd</w> y dywedaf wrth y llangc, <q>wele y saethau
+<lb/>[ennyd] oddi wrthit o<isp/>'r tu ymma i ti dwg <w>hw<lb rend="shy"/>ynt:</w></q> yna tyret ti, canys heddwch [sydd] i ti, ac
+<lb/>ni bydd dim [niwed, fel] mai byw yw 'r <w>Arg<lb rend="shy"/>lwydd.</w></q>
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/><q part="m">Ond os fel hyn y dywedaf wrth y <w>bach<lb rend="shy"/>gen,</w>&nbsp;<q>wele y saethau [ennyd] oddi wrthit o<isp/>'r tu
+<lb/>hwnt:</q> d&ocirc;s ymmaith, canys yr Arglwydd a<isp/>'th
+<lb/>anfonodd ymmaith.</q>
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/><q part="f">Am y peth yr hwn a leferais i, mi a thi:
+<lb/>wele 'r Arglwydd [fyddo] rhyngofi, a thi yn
+<lb/>dragywydd.</q>
+</seg></p>
+<pb n="120v.a"/>
+<p><seg type="verse" n="24">
+<lb/>Felly 'r ymguddiodd Dafydd yn y <w>ma<lb rend="shy"/>es,</w> a phan oedd y dydd cyntaf o<isp/>'r mis, y brenin a
+<lb/>eisteddodd wrth y bwyd i fwytta.
+</seg></p>
+<p><seg type="verse" n="25">
+<lb/>Ie y brenin a eisteddodd ar ei eisteddfa,
+<lb/>megis ar amseroedd eraill, [sef] ar yr eisteddfa
+<lb/>wrth y pared, ac Ionathan a gyfododd, ac Abner
+<lb/>a eisteddodd wrth ystlys Saul: a lle Dafydd
+<lb/>oedd wag.
+</seg></p>
+<p><seg type="verse" n="26">
+<lb/>Ac nid <orig reg="ynganodd">yng&ecirc;nodd</orig> Saul ddim y diwrnod
+<lb/>hwnnw: canys meddyliodd [mai] damwain
+<lb/>[oedd] hyn, am nad [oedd] efe l&acirc;n, o herwydd
+<lb/>[ei fod] yn aflan [ni ddaeth.]
+</seg></p>
+<p><seg type="verse" n="27">
+<lb/>A bu drannoeth, yr ail [dydd] o<isp/>'r mis fod
+<lb/>lle Dafydd yn w&acirc;g: yna y dywedodd Saul
+<lb/>wrth Ionathan ei f&acirc;b, <q>pa ham na ddaeth mab <w>I<lb rend="shy"/>sai</w> at y bwyd na doe, na heddyw?</q>
+</seg></p>
+<p><seg type="verse" n="28">
+<lb/>Yna Ionathan a attebodd Saul: <q part="i"><w>Da<lb rend="shy"/>fydd</w> gan ofyn a ofynnodd i mi [am gael <w>my<lb rend="shy"/>ned]</w> hyd Bethlehem.</q>
+</seg></p>
+<p><seg type="verse" n="29">
+<lb/><q part="f">Canys efe a ddywedodd, <q>gollwng fi <w>atto<lb rend="shy"/>lwg,</w> o herwydd ein tylwyth ni [ydynt yn <w>off<lb rend="shy"/>rymmu]</w> aberth yn y ddinas, a<isp/>'m brawd yntef
+<lb/>a<isp/>'m gwahoddodd i, ac yn awr o chefais ffafor yn
+<lb/>dy olwg di, gad <orig reg="im">i'm</orig> fyned attolwg, fel y <w>gwe<lb rend="shy"/>lwyf</w> fy mrodyr:</q> o herwydd hyn ni ddaeth efe i
+<lb/>fwrdd y brenin.</q>
+</seg></p>
+<p><seg type="verse" n="30">
+<lb/>Yna y llidiodd digter Saul yn erbyn
+<lb/>Ionathan, ac efe a ddywedodd wrtho, <q part="i">[ti] fab y
+<lb/>gyndyn wrthnyssic, oni &wcirc;yddwn i ti ddewis
+<lb/>mab Isai yn wradwydd it, ac yn gywilydd [a]
+<lb/>gwarth i<isp/>'th fam<corr sic="." resp="transcr">?</corr>
+</q>
+</seg></p>
+<p><seg type="verse" n="31">
+<lb/><q part="f">Canys yr holl ddyddiau ar y byddo mab
+<lb/>Isai yn fyw ar y ddaiar, ni<isp/>'th sicrheuir di na<isp/>'th
+<lb/>deyrnas: yn awr gan hynny, anfon, a chyrch ef
+<lb/>attaf, canys marwolaeth [a gaiff] efe.</q>
+</seg></p>
+<p><seg type="verse" n="32">
+<lb/>Yna Ionathan a attebodd Saul ei dad,
+<lb/>ac a ddywedodd wrtho: <q>pa ham y bydd efe <w>ma<lb rend="shy"/>rw?</w> beth a wnaeth efe?</q>
+</seg></p>
+<p><seg type="verse" n="33">
+<lb/>Yna Saul a ergydiodd y waiw-ffon tu
+<lb/>ag atto ef, i<isp/><apo/>w daro ef: wrth hyn y gwybu <w>Iona<lb rend="shy"/>than</w> [fod] y bwriad ymma gan ei d&acirc;d ef, sef
+<lb/>lladd Dafydd.
+</seg></p>
+<p><seg type="verse" n="34">
+<lb/>Felly Ionathan a gyfododd oddi wrth y
+<lb/>bwrdd mewn llid digllawn: ac ni fwytt&acirc;odd
+<lb/>fwyd yr ail dydd o<isp/>'r mis, canys gofidiodd dros
+<lb/>Ddafydd, o herwydd i<isp/><apo/>w d&acirc;d ei wradwyddo ef.
+</seg></p>
+<p><seg type="verse" n="35">
+<lb/>A<isp/>'r borau, yr aeth Ionathan i<isp/>'r maes <w>er<lb rend="shy"/>byn</w> yr amser a osodase ef i <corr sic="Ddafyd" resp="transcr">Ddafydd</corr>: a bachgen
+<lb/>bychan gyd ag ef.
+</seg></p>
+<p><seg type="verse" n="36">
+<lb/>Ac efe a ddywedodd wrth ei fachgen,
+<lb/><q>rh&ecirc;d, cais yn awr y saethau, y rhai 'r ydwyfi yn
+<lb/>eu saethu:</q> y bachgen a redodd, yna yntef a <w>sae<lb rend="shy"/>thodd</w> saeth gan gyrheuddyd trosto ef.
+</seg></p>
+<p><seg type="verse" n="37">
+<lb/>Pan ddaeth y bachgen hyd y fan [yr oedd]
+<lb/>y saeth yr hon a saethase Ionathan: yna y <w>lle<lb rend="shy"/>fodd</w> Ionathan ar &ocirc;l y bachgen, ac a ddywedodd,
+<lb/><q>onid [yw] y saeth ennyd oddi wrthit o<isp/>'r tu hwnt?</q>
+</seg></p>
+<p><seg type="verse" n="38">
+<lb/>Llefodd Ionathan drachefn ar &ocirc;l y <w>bach<lb rend="shy"/>gen,</w>&nbsp;<q>cyflymma, bryssia, na saf:</q> yna bachgen
+<lb/>Ionathan a gasclodd y saethau, ac a ddaeth at
+<lb/>ei feistr.
+</seg></p>
+<pb n="120v.b"/>
+<p><seg type="verse" n="39">
+<lb/>A<isp/>'r bachgen ni &wcirc;ydded ddim, onid <w>Io<lb rend="shy"/>nathan</w> a Dafydd a wyddent y peth.
+</seg></p>
+<p><seg type="verse" n="40">
+<lb/>Yna Ionathan a roddes ei offer at y
+<lb/>bachgen yr hwn [oedd] gyd ag ef, ac a <w>ddywe<lb rend="shy"/>dodd</w> wrtho ef, <q>dos, <orig reg="dwg">d&ucirc;g</orig> [y rhai hyn] i<isp/>'r ddinas.</q>
+</seg></p>
+<p><seg type="verse" n="41">
+<lb/>Y bachgen a aeth ymmaith, yna Dafydd
+<lb/>a gyfododd o<isp/>'r tu dehau [i<isp/>'r maen,] ac a <w>syrthi<lb rend="shy"/>odd</w> i lawr ar ei wyneb, ac a ymgrymmodd dair
+<lb/>gwaith: a hwy a ymgusanasant bob vn ei <w>gi<lb rend="shy"/>lydd,</w> ac a &wcirc;ylasant y naill wrth y llall, a <w>Da<lb rend="shy"/>fydd</w> a ragorodd.
+</seg></p>
+<p><seg type="verse" n="42">
+<lb/>Yna y dywedodd Ionathan wrth <w>Dda<lb rend="shy"/>fydd,</w>&nbsp;<q>d&ocirc;s mewn heddwch: yr hyn a dyngasom
+<lb/>ni ein dau yn enw 'r Arglwydd gan ddywedyd,
+<lb/><q>yr Arglwydd fyddo rhyngofi a thi, a rhwng fy
+<lb/>h&acirc;d i, a<isp/>'th h&acirc;d dithe,</q> [safed hynny] yn <w>dragy<lb rend="shy"/>wydd.</w></q>
+</seg></p>
+<p><seg type="verse" n="43">
+<lb/>Yna [Dafydd] a gyfododd ac a aeth <w>ym<lb rend="shy"/>maith:</w> ac Ionathan a ddaeth i<isp/>'r ddinas.
+</seg></p>
+</div>
+</body>
+</text>
+
+<text id="b1588mat">
+<body>
+<head type="main">Efengyl Iesu Grist yn <!--<lb/>--><hi rend="italic">&ocirc;l Sanct</hi>&nbsp;<hi rend="smallcaps">Mathew</hi><!-- [pen. 26-28 = tt. 452r.b-454r.b]--></head>
+<pb n="452r.b"/>
+<div type="chapter" n="26">
+<head><lb n="26"/>PEN. XXVI.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb n="27"/>3 Bwriad yr offeiriaid yn erbyn Crist, tywalltiad yr
+<lb n="28"/>enaint ar ei ben ef. 26 Swper yr Arglwydd. 34 Petr
+<lb n="29"/>yn gwadu Crist. 47 Br&acirc;d Iudas. 56 Arwain Crist
+<lb n="30"/>at Caiphas.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb n="31"/><hi rend="rubric">A</hi>C fe a ddarfu wedi i<isp/>'r Iesu orphen
+<lb n="32"/>y geiriau hyn oll, efe a ddywedodd wrth
+<lb n="33"/>ei ddiscyblion,
+</seg></p>
+<p><seg type="verse" n="2">
+<lb n="34"/><q>Chwi a &wcirc;yddoch mai ym mhen y ddau
+<lb n="35"/>dd&ycirc;dd y mae 'r Pasc: a M&acirc;b y d&ycirc;n a roddir i<isp/><apo/>w
+<lb n="36"/>groes-hoelio.</q>
+</seg></p>
+<p><seg type="verse" n="3">
+<lb n="37"/>Yna y casclwyd yr arch-offeiriaid a<isp/>'r
+<lb n="38"/>scrifennyddion, a henuriaid y bobl i neuadd yr
+<lb n="39"/>arch-offeiriad, yr hwn a elwid Caiphas.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb n="40"/>Ac hwy a ymgynghor&acirc;sant, pa fodd y
+<lb n="41"/>dalient yr Iesu trwy ddichell, ac y lladdent
+<lb n="42"/>[ef.]
+</seg></p>
+<p><seg type="verse" n="5">
+<lb n="43"/>Eithr hwy a ddywed&acirc;sant, <q>nid ar yr &wcirc;yl,
+<lb n="44"/>rhag b&ocirc;d cynnwrf ym mhlith y bobl.</q>
+</seg></p>
+<p><seg type="verse" n="6">
+<lb n="45"/>Ac fel yr oedd yr Iesu yn Bethania yn
+<lb n="46"/>nh&ycirc; Simon wahan-glwyfus,
+</seg></p>
+<p><seg type="verse" n="7">
+<lb n="47"/>Fe ddaeth atto wraig, a ch&ycirc;d &acirc; hi flwch o
+<lb n="48"/>enaint gwerthfawr, ac a<isp/>'i tywalltodd ar ei be<expan>n</expan>n,
+<lb n="49"/>ac efe yn eistedd wrth y ford.
+</seg></p>
+<p><seg type="verse" n="8">
+<lb n="50"/>A phan welodd ei ddiscyblion, hwy a <w>lidia<lb n="51" rend="shy"/>sant</w> gan ddywedyd, <q part="i">pa raid yr afrad hynn?</q>
+</seg></p>
+<p><seg type="verse" n="9">
+<lb n="52"/><q part="f">Canys fe a allasid gwerthu yr ennaint
+<lb n="53"/>hwn er llawer, a<isp/>'i roddi ef i<isp/>'r tlodion.</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<lb n="54"/>A<isp/>'r Iesu a &wcirc;ybu, ac a ddywedodd <w>wrth<lb n="55" rend="shy"/>ynt,</w>&nbsp;<q part="i">pa ham yr ydych yn gwneuthur blinder i<isp/>'r
+<lb n="56"/>wraig: canys hi a weithiodd weithred dda <w>ar<lb n="57" rend="shy"/>naf.</w></q>
+</seg></p>
+<p><seg type="verse" n="11">
+<lb n="58"/><q part="m">O blegit y tlodion a gewch b&ocirc;b amser
+<lb n="59"/>g&ycirc;d &acirc; chwi, a mi ni's cewch b&ocirc;b amser.</q>
+</seg></p>
+<p><seg type="verse" n="12">
+<lb n="60"/><q part="m">Canys hi yn tywallt yr ennaint hwn ar
+<lb n="61"/><orig reg="fy nghorff">fyng-horph</orig>, a wnaeth hyn i<isp/>'m claddu i.</q>
+</seg></p>
+
+<pb n="452v.a"/>
+<p><seg type="verse" n="13">
+<lb/><q part="f">Yn wir meddaf i chwi, <orig reg="pa">pe</orig> le bynnac y
+<lb/>pregethir yr Efengyl hon yn yr holl f&ycirc;d, hyn
+<lb/>ymma hefyd a wnaeth hi a fynegir, er coffa am
+<lb/>dani hi.</q>
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Yna yr aeth vn o<isp/>'r deuddec yr hwn a <w>el<lb rend="shy"/>wyd</w> Iudas Iscariot at yr arch-offeiriaid,
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Ac a ddywedodd wrthynt, <q>pa beth a <w>ro<lb rend="shy"/>ddwch</w> i mi, a mi a<isp/>'i rhoddaf ef i chwi?</q> a hwy a
+<lb/>dalasant iddo dd&ecirc;c ar hugain o arian.
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Ac o hynny allan y ceisiodd efe amser <w>cy<lb rend="shy"/>faddas</w> i<isp/><apo/>w fradychu ef.
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Ac ar [y dydd] cyntaf o &wcirc;yl y bara croiw,
+<lb/>ei ddiscyblion a ddaethant at yr Iesu gan <w>ddy<lb rend="shy"/>wedyd</w> wrtho, <q>pa le y mynni i ni baratoi i ti <w>fw<lb rend="shy"/>ytta</w> 'r Pasc?</q>
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>Ac yntef a ddywedodd, <q>ewch i<isp/>'r ddinas at
+<lb/>y cyfryw vn, a dywedwch wrtho, <q>y mae 'r Athro
+<lb/>yn dywedyd, <q>fy amser sydd agos, g&ycirc;d &acirc; thi y
+<lb/>cynhaliaf y Pasc, mi a<isp/>'m discyblion.</q></q></q>
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/>A<isp/>'r discyblion a wnaethant y modd y
+<lb/>gorchymynnase 'r Iesu iddynt, ac a <w>baratoa<lb rend="shy"/>sant</w> y Pasc.
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/>Ac wedi ei myned hi yn hwyr, efe a <w>ei<lb rend="shy"/>steddodd</w> g&ycirc;d &acirc;<isp/>'r deuddec.
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/>Ac fel yr oeddynt yn bwytta, efe a <w>ddy<lb rend="shy"/>wedodd,</w>&nbsp;<q>yn wir yr wyf yn dywedyd i chwi, y
+<lb/>bradycha vn o honoch fi.</q>
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/>Yna yr aethant yn drist dros ben, ac a <w>dde<lb rend="shy"/>chreuasant</w> b&ocirc;b vn ddywedyd wrtho: <q>ai myfi
+<lb/>Arglwydd yw [hwnnw?]</q>
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/>Ac efe a attebodd ac a ddywedodd, <q part="i">yr hwn
+<lb/>sydd yn trochi ei law g&ycirc;d &acirc; mi yn y ddyscl,
+<lb/>hwnnw a<isp/>'m bradycha i.</q>
+</seg></p>
+<p><seg type="verse" n="24">
+<lb/><q part="f">M&acirc;b y d&ycirc;n yn ddiau sydd yn myned fel y
+<lb/>mae yn scrifennedic am dano, eithr gwae 'r dyn
+<lb/>hwnnw trwy 'r hwn y bradychir M&acirc;b y d&ycirc;n:
+<lb/>da a fuase i<isp/>'r d&ycirc;n hwnnw pe na's genesid efe <orig reg="erioed">er
+<lb/>ioed</orig>.</q>
+</seg></p>
+<p><seg type="verse" n="25">
+<lb/>Ac Iudas yr hwn a<isp/>'i bradychodd ef, a <w>at<lb rend="shy"/>tebodd</w> ac a ddywedodd, <q>ai myfi yw [efe] Athro?</q>
+<lb/>yntef a ddywedodd wrtho, <q>ti a ddywedaist.</q>
+</seg></p>
+<p><seg type="verse" n="26">
+<lb/>Ac fel yr oeddynt yn bwytta, yr Iesu a
+<lb/>gymmerth y bara, ac wedi iddo fendigo efe a<isp/>'i
+<lb/>torrodd, ac a<isp/>'i rhoddes i<isp/>'r discyblion, ac a <w>ddy<lb rend="shy"/>wedodd,</w>&nbsp;<q>cymmerwch, bwyttewch, hwn yw
+<lb/><orig reg="fy nghorff">fyng-horph</orig>.</q>
+</seg></p>
+<p><seg type="verse" n="27">
+<lb/>Ac wedi iddo gymmeryd y cwppan a <w>di<lb rend="shy"/>olch,</w> efe a<isp/>'i rhoddes iddynt, gan ddywedyd,
+<lb/><q part="i">yfwch bawb o hwn:</q>
+</seg></p>
+<p><seg type="verse" n="28">
+<lb/><q part="m">Canys hwn yw fyng-waed o<isp/>'r <w>Testa<lb rend="shy"/>ment</w> newydd, yr hwn a dywelltir tros lawer
+<lb/>er maddeuant pechodau.</q>
+</seg></p>
+<p><seg type="verse" n="29">
+<lb/><q part="f">Ac yr ydwyf yn dywedyd i chwi, nad yfaf
+<lb/>o hyn allan o ffrwyth hwn y winwydden, hyd y
+<lb/>dydd hwnnw, pan yfwyf ef yn newydd g&ycirc;d &acirc;
+<lb/>chwi yn nheyrnas fy Nh&acirc;d.</q>
+</seg></p>
+<p><seg type="verse" n="30">
+<lb/>Ac wedi iddynt ganu mawl, hwy a <w>aeth<lb rend="shy"/>ant</w> allan i fynydd yr Oliw&ycirc;dd.
+</seg></p>
+<p><seg type="verse" n="31">
+<!-- check: OT quote -->
+<lb/>Yna y dywedodd yr Iesu wrthynt, <q part="i"><w>chwy<lb rend="shy"/>chwi</w> oll a rwystrir heno o<isp/>'m plegit i: canys
+<lb/>scrifennedic yw, <q>tarawaf y bugail, a defaid y
+<pb n="452v.b"/>
+<lb/>praidd a wascerir.</q></q>
+</seg></p>
+<p><seg type="verse" n="32">
+<lb/><q part="f">Eithr wedi fy adgyfodi, mi a &acirc;f o<isp/>'ch
+<lb/>blaen chwi i Galil&aelig;a.</q>
+</seg></p>
+<p><seg type="verse" n="33">
+<lb/>Ac Petr a attebodd ac a ddywedodd <w>wr<lb rend="shy"/>tho,</w>&nbsp;<q>pe rhwystrid pawb o<isp/>'th plegit ti, etto ni<isp/>'m
+<lb/>rhwystrir fi byth.</q>
+</seg></p>
+<p><seg type="verse" n="34">
+<lb/>Yr Iesu a ddywedodd wrtho, <q>yn w&icirc;r yr
+<lb/>wyf yn dywedyd i ti, mai 'r nos hon cyn canu yr
+<lb/>ceiliog i<isp/>'m <!-- check: From gwadu, pres ind 2 Sg.-->gwedi dair-gwaith.</q>
+</seg></p>
+<p><seg type="verse" n="35">
+<lb/>Petr a ddywedodd wrtho, <q>pe gorfydde i
+<lb/>mi farw g&ycirc;d &acirc; thi, etto ni<isp/>'th wadaf:</q> a<isp/>'r vn modd
+<lb/>hefyd y dywedodd yr holl ddiscyblion.
+</seg></p>
+<p><seg type="verse" n="36">
+<lb/>Yna y daeth yr Iesu g&ycirc;d ag hwynt i fa<expan>n</expan>n a
+<lb/>elwid Gethsemane, ac a ddywedodd wrth ei <w>ddis<lb rend="shy"/>cyblion,</w>&nbsp;<q>eisteddwch ymma tra 'r elwyf, a <w>gwe<lb rend="shy"/>ddio</w> accw.</q>
+</seg></p>
+<p><seg type="verse" n="37">
+<lb/>Ac efe a gymmerth Petr a dau f&acirc;b <w>Zebe<lb rend="shy"/>deus,</w> ac a ddechreuodd dristau ac ymofidio.
+</seg></p>
+<p><seg type="verse" n="38">
+<lb/>Yna efe a ddywedodd wrthynt, <q>tr&icirc;st yw
+<lb/>fy enaid hyd angeu, arhoswch ymma, a <w>gwili<lb rend="shy"/>wch</w> g&ycirc;d &acirc; mi.</q>
+</seg></p>
+<p><seg type="verse" n="39">
+<lb/>Ac efe a aeth ychydig pellach, ac a <w>syr<lb rend="shy"/>thiodd</w> ar ei wyneb, ac a weddiodd gan <w>ddywe<lb rend="shy"/>dyd,</w>&nbsp;<q>fy Nh&acirc;d, os gellir aed y cwppan hwn oddi
+<lb/>wrthif, er hynny nid fel yr ewyllysiwyfi, ond fel
+<lb/>yr [ewyllysiech] di.</q>
+</seg></p>
+<p><seg type="verse" n="40">
+<lb/>Ac efe a ddaeth at ei ddiscyblion, ac a<isp/>'u
+<lb/>cafas hwy yn cyscu, ac efe a ddywedodd wrth
+<lb/>Petr, <q part="i">pa ham? oni allech chwi wilied vn awr
+<lb/>g&ycirc;d &acirc; mi?</q>
+</seg></p>
+<p><seg type="verse" n="41">
+<lb/><q part="f">Gwiliwch a gweddiwch rhac <orig reg="eich">ei'ch</orig>&nbsp;<w>my<lb rend="shy"/>ned</w> mewn profedigaeth, yr yspryd yn ddiau
+<lb/>sydd yn barod, eithr y cnawd sydd wann.</q>
+</seg></p>
+<p><seg type="verse" n="42">
+<lb/>Efe a aeth trachefn yr ailwaith, ac a <w>we<lb rend="shy"/>ddiodd,</w> gan ddywedyd, <q>fy Nh&acirc;d, oni's gall y
+<lb/>cwppan hwn fyned oddi wrthif heb orfod i mi
+<lb/>ei yfed, gwneler dy ewyllys.</q>
+</seg></p>
+<p><seg type="verse" n="43">
+<lb/>Ac efe a ddaeth, ac a<isp/>'u cafas hwy yn <w>cys<lb rend="shy"/>cu</w> trachefn: canys eu llygaid hwy oeddynt
+<lb/>drymmion.
+</seg></p>
+<p><seg type="verse" n="44">
+<lb/>Ac efe a<isp/>'u gadawodd hwynt, ac a aeth <w>ym<lb rend="shy"/>maith</w> trachefn, ac a weddiodd y drydedd waith,
+<lb/>gan ddywedyd yr vn geiriau.
+</seg></p>
+<p><seg type="verse" n="45">
+<lb/>Yna y daeth efe at ei ddiscyblion, ac a <w>ddy<lb rend="shy"/>wedodd</w> wrthynt, <q part="i">cyscwch bellach a <w>gorphywy<lb rend="shy"/>swch:</w> wele y mae 'r awr wedi nessau, a M&acirc;b y
+<lb/>d&ycirc;n a roddir yn nwylo pechaduriaid.</q>
+</seg></p>
+<p><seg type="verse" n="46">
+<lb/><q part="f">Codwch, awn, wele, y mae ger llaw yr
+<lb/>hwn a<isp/>'m bradycha.</q>
+</seg></p>
+<p><seg type="verse" n="47">
+<lb/>Ac efe etto yn dywedyd hyn, wele <w>Iu<lb rend="shy"/>das,</w> vn o<isp/>'r deuddec, a thyrfa fawr g&ycirc;d ag ef &acirc;
+<lb/>chleddyfau, a ffynn oddi wrth yr arch-offeiriaid
+<lb/>a henuriaid y bobl.
+</seg></p>
+<p><seg type="verse" n="48">
+<lb/>A<isp/>'r hwn a<isp/><apo/>i bradychodd ef a roese arwydd
+<lb/>iddynt, gan ddywedyd, <q>pa vn bynnac &acirc;&nbsp;<w>gusan<lb rend="shy"/>wyf,</w> hwnnw yw, deliwch ef.</q>
+</seg></p>
+<p><seg type="verse" n="49">
+<lb/>Ac yn ebrwydd y daeth at yr Iesu, ac a
+<lb/>ddywedodd, <q>henffych well Athro,</q> ac a<isp/>'i <w>cusa<lb rend="shy"/>nodd</w> ef.
+</seg></p>
+<p><seg type="verse" n="50">
+<lb/>A<isp/>'r Iesu a ddywedodd wrtho, <q>y cyfaill, i
+<lb/>ba beth y daethost?</q> yna y daethant, ac y <w>rhoe<pb rend="shy" n="453r.a"/><lb/>sant</w> ddwylo ar yr Iesu, ac a<isp/>'i dali&acirc;sant.
+</seg></p>
+<p><seg type="verse" n="51">
+<lb/>Ac wele vn o<isp/>'r rhai oeddynt g&ycirc;d &acirc;<isp/>'r Iesu
+<lb/>a estynnodd ei law, ac a dynnodd ei gleddyf, ac
+<lb/>a darawodd w&acirc;s yr arch-offeiriad, ac a dorrodd
+<lb/>ei glust ef.
+</seg></p>
+<p><seg type="verse" n="52">
+<lb/>Yna y dywedodd yr Iesu wrtho, <q part="i">d&ocirc;d ti dy
+<lb/>gleddyf yn ei wain, canys pawb ar a <w>gymme<lb rend="shy"/>rant</w> gleddyf, a ddifethir &acirc; chleddyf.</q>
+</seg></p>
+<p><seg type="verse" n="53">
+<lb/><q part="m">A ydwyt ti yn tybied na's gallaf yr awr
+<lb/>hon ddeisyf ar fy Nh&acirc;d fel y rhodde efe fwy n&acirc;
+<lb/>ddeuddec lleng o angelion i mi?</q>
+</seg></p>
+<p><seg type="verse" n="54">
+<lb/><q part="f">Pa fodd yntef, y cyflawnir yr scrythyrau
+<lb/>y rhai a ddywedant, mai felly y gorfydd b&ocirc;d?</q>
+</seg></p>
+<p><seg type="verse" n="55">
+<lb/>Yn yr awr honno, y dywedodd yr Iesu
+<lb/>wrth y dyrfa, <q>chwi a ddaethoch allan megis at
+<lb/>leidr &acirc; chleddyfau, ac &acirc; ffynn i<isp/>'m dala i: yr <w>oedd<lb rend="shy"/>wn</w> beunydd yn eistedd, ac yn dyscu yn y Deml,
+<lb/>ac ni<isp/>'m daliasoch.</q>
+</seg></p>
+<p><seg type="verse" n="56">
+<lb/>A hyn oll a wnaethpwyd er cyflawni 'r
+<lb/>scrythyrau, a<isp/>'r prophwydi: yna 'r holl <w>ddiscyb<lb rend="shy"/>lion</w> a<isp/>'i gadawsant ef, ac a ffoasant.
+</seg></p>
+<p><seg type="verse" n="57">
+<lb/>Hwythau a ddaliasa<expan>n</expan>t yr Iesu, ac a <w>aeth<lb rend="shy"/>ant</w> ag ef at Caiphas yr arch-offeiriad, lle 'r
+<lb/>oedd yr scrifennyddion a<isp/>'r henuriaid wedi <w>ym<lb rend="shy"/>gasclu</w>&nbsp;<orig reg="ynghyd">yng-h&ycirc;d</orig>.
+</seg></p>
+<p><seg type="verse" n="58">
+<lb/>Ac Petr a<isp/>'i canlynodd ef o hir-bell hyd
+<lb/>yn ll&ycirc;s yr arch-offeiriad, ac a aeth i mewn, ac a
+<lb/>eisteddodd g&ycirc;d &acirc;<isp/>'r gweision i weled y diwedd.
+</seg></p>
+<p><seg type="verse" n="59">
+<lb/>A<isp/>'r arch-offeiriad a<isp/>'r henuriaid, a<isp/>'r holl
+<lb/>gyngor a geisiasant gau destiolaeth yn erbyn yr
+<lb/>Iesu, i<isp/><apo/>w roddi ef i farwolaeth.
+</seg></p>
+<p><seg type="verse" n="60">
+<lb/>Ac ni's cawsant, &icirc;e er dyfod yno <w>gau-dy<lb rend="shy"/>stion</w> lawer ni chawsant: eithr o<isp/>'r diwedd fe a
+<lb/>ddaeth dau gau dyst:
+</seg></p>
+<p><seg type="verse" n="61">
+<lb/>Ac hwy a ddywed&acirc;sant, <q>hwn a <w>ddywed<lb rend="shy"/>odd,</w>&nbsp;<q>mi a allaf ddestruwio Teml Dduw, a<isp/>'i
+<lb/>hadailadu mewn tri diwrnod.</q>
+</q>
+</seg></p>
+<p><seg type="verse" n="62">
+<lb/>Yna y cyfododd yr arch-offeiriad, ac a
+<lb/>ddywedodd wrtho, <q>a attebi di ddim? pa beth sydd
+<lb/>pan fyddo y rhai hyn yn testiolaethu yn dy <w>er<lb rend="shy"/>byn?</w></q>
+</seg></p>
+<p><seg type="verse" n="63">
+<lb/>A<isp/>'r Iesu a dawodd, yna yr attebodd yr
+<lb/>arch-offeiriad, ac a ddywedodd wrtho, <q>yr ydwyf
+<lb/>yn dy dyngh&ecirc;du di trwy 'r Duw byw, <w>ddywe<lb rend="shy"/>dyd</w> o honot i ni, os ty di yw Crist M&acirc;b Duw.</q>
+</seg></p>
+<p><seg type="verse" n="64">
+<lb/>Yr Iesu a ddywedodd wrtho, <q>ti a <w>ddywe<lb rend="shy"/>daist:</w> eithr meddaf i chwi, ar &ocirc;l hyn y gwelwch
+<lb/>F&acirc;b y dyn yn eistedd ar ddeheu-law gallu
+<lb/>[Duw,] ac yn dyfod yn wybrennau 'r nef.</q>
+</seg></p>
+<p><seg type="verse" n="65">
+<lb/>Yna y rhwygodd 'r arch-offeiriad ei <w>ddi<lb rend="shy"/>llad,</w> gan ddywedyd, <q part="i">efe a gablodd: pa raid i ni
+<lb/>wrth mwy o dystion: wele clywsoch ei gabledd
+<lb/>ef.</q>
+</seg></p>
+<p><seg type="verse" n="66">
+<lb/><q part="f">Beth dybygwch chwi?</q> hwy a atteb&acirc;sant,
+<lb/>gan ddywedyd, <q>y mae efe yn euog i <w>farwola<lb rend="shy"/>eth.</w></q>
+</seg></p>
+<p><seg type="verse" n="67">
+<lb/>Yna y poer&acirc;sa<expan>n</expan>t yn ei wyneb, ac a<isp/>'i <w>bon<lb rend="shy"/>clustiasant,</w> eraill a<isp/>'i cernodiasant ef,
+</seg></p>
+<p><seg type="verse" n="68">
+<lb/>Gan ddywedyd, <q>prophwyda i ni, &ocirc; Crist,
+<lb/>pwy yw 'r hwn a<isp/>'th darawodd?</q>
+</seg></p>
+<p><seg type="verse" n="69">
+<lb/>Petr oedd yn eistedd allan yn y neuadd,
+<pb n="453r.b"/>
+<lb/>ac fe a ddaeth morwyn atto, ac a ddywedodd, <q>yr
+<lb/>oeddit tithe g&ycirc;d &acirc;<isp/>'r Iesu o Galil&aelig;a:</q>
+</seg></p>
+<p><seg type="verse" n="70">
+<lb/>Ac efe a wadodd ger eu bron hwy oll, ac
+<lb/>a ddywedodd, <q>ni's gwn beth yr wyt yn ei <w>ddy<lb rend="shy"/>wedyd.</w></q>
+</seg></p>
+<p><seg type="verse" n="71">
+<lb/>A phan aeth efe allan i<isp/>'r porth y gwelodd
+<lb/>[morwyn] arall ef, ac hi a ddywedodd wrth y
+<lb/>rhai oeddynt yno, <q>yr oedd hwn hefyd g&ycirc;d &acirc;<isp/>'r
+<lb/>Iesu o Nazareth.</q>
+</seg></p>
+<p><seg type="verse" n="72">
+<lb/>A thrachefn efe a wadodd, gan dyngu, <q>nid
+<lb/>adwen i y d&ycirc;n.</q>
+</seg></p>
+<p><seg type="verse" n="73">
+<lb/>Ac ychydig wedi hynny y daeth atto rai
+<lb/>a oeddynt yn sefyll ger llaw, ac a ddywedasant
+<lb/>wrth Petr, <q>yn w&icirc;r yr wyt ti yn vn o honynt, <w>ca<lb rend="shy"/>nys</w> y mae dy leferydd yn dy gyhuddo.</q>
+</seg></p>
+<p><seg type="verse" n="74">
+<lb/>Yna y dechreuodd efe ymregu, a thyngu,
+<lb/>gan ddywedyd, <q>nid adwen i y d&ycirc;n,</q> ac yn y man
+<lb/>y c&acirc;nodd y ceiliog.
+</seg></p>
+<p><seg type="verse" n="75">
+<lb/>Yna y cofiodd Petr eiriau 'r Iesu yr hwn
+<lb/>a ddywedase wrtho, <q>cyn canu 'r ceiliog ti a<isp/>'m
+<lb/>gwedi<!-- check: From gwadu, pres ind 2 Sg. --> fi dair gwaith,</q> yna yr aeth efe allan, ac
+<lb/>yr &wcirc;ylodd yn dost.
+</seg></p>
+</div>
+<div type="chapter" n="27">
+<head><lb/>PEN. XXVII.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Yr Iddewon yn rhoddi Crist yn rhwym at Pilat. 34
+<lb/>Hwy yn ei roddi ef ar y groes, ac yn ei gablu, 50 Ac
+<lb/>yntef yn marw. 57 Ioseph yn ei gladdu ef.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="italic">A</hi> Phan ddaeth y boreu, yr ymgynghorodd
+<lb/>yr holl arch-offeiriaid a henuriaid y bobl
+<lb/>yn erbyn yr Iesu fel y rhoddent ef i farwolaeth.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>Ac hwy a aethant ymmaith ag ef yn <w>rhw<lb rend="shy"/>ym,</w> ac a<isp/>'i rhoesant at Pontius Pilatus y <w>rhag<lb rend="shy"/>law.</w>
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>Yna pan weles Iudas yr hwn a<isp/>'i <w>bradych<lb rend="shy"/>odd</w> ef fyned barn yn ei erbyn ef, fe a fu edifar
+<lb/>ganddo, ac a ddug trachefn y d&ecirc;c ar hugain
+<lb/>arian i<isp/>'r arch-offeiriaid a<isp/>'r henuriaid,
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Gan ddywedyd, <q>pechais gan fradychu
+<lb/>gwaed gwirion,</q> hwytheu a ddywedasa<expan>n</expan>t, <q>pa beth
+<lb/>yw hynny i ni? edrych ti.</q>
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>Ac wedi iddo daflu 'r arian yn y Deml, efe
+<lb/>a ymadawodd, ac a aeth, ac a ymgrogodd.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>A<isp/>'r arch-offeiriaid a gymmerasant yr <w>ari<lb rend="shy"/>an,</w> ac a ddywedasant, <q>nid cyfreithlon i ni eu
+<lb/>bwrw hwynt yn y tryssor-d&ycirc;, canys gwerth
+<lb/>gwaed ydyw.</q>
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>Ac wedi iddynt ymgynghori, hwy a <w>bryn<lb rend="shy"/>nasant</w> ag hwynt faes y crochenydd, yn gladdfa
+<lb/><orig reg="dieithriaid">diethriaid</orig>.
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Ac am hynny y gelwir y maes hwnnw,
+<lb/>maes y gwaed, hyd heddyw.
+</seg></p>
+<p><seg type="verse" n="9">
+<!-- check: OT quote -->
+<lb/>(Yna y cyflawnwyd yr hyn a ddywetpwyd
+<lb/>trwy Ieremias y prophwyd, gan ddywedyd, <q part="i">ac
+<lb/>hwy a gymmerasant ddec ar hugain o arian,
+<lb/>gwerth y gwerthedic, yr hwn a brynnasant gan
+<lb/>feibion Israel.</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/><q part="f">Ac hwy a<isp/><apo/>i rhoesa<expan>n</expan>t am faes y crochenydd,
+<lb/>megis y gosodes yr Arglwydd i mi<corr sic="" resp="transcr">.</corr></q>)
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>A<isp/>'r Iesu a safodd ger bron y rhaglaw,
+<lb/>a<isp/>'r rhaglaw a ofynnodd iddo, gan ddywedyd: <q>a
+<lb/>wyt ti yn frenin yr Iddewon?</q> a<isp/>'r Iesu a <w>ddy<lb rend="shy"/>wedodd</w> wrtho, <q>ti a<isp/>'i ddywedaist.</q>
+</seg></p>
+<pb n="453v.a"/>
+<p><seg type="verse" n="12">
+<lb/>A phan gyhuddwyd ef gan yr <w>arch-offei<lb rend="shy"/>riaid</w> a<isp/>'r henuriaid, nid attebodd efe ddim.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Yna y dywedodd Pilatus wrtho, <q>oni
+<lb/>chlywi faint o bethau y maent hwy yn eu <w>testi<lb rend="shy"/>olaethu</w> yn dy erbyn?</q>
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Ac nid attebodd efe iddo vn gair, fel y
+<lb/>rhyfeddodd y rhaglaw yn fawr.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Ac ar yr &wcirc;yl honno yr arfere y rhaglaw
+<lb/>ollwng i<isp/>'r bobl vn carcharor, yr hwn a <w>ofyn<lb rend="shy"/>nent.</w>
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Yna yr oedd ganddynt garcharor hynod
+<lb/>a elwyd Barrabas.
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Ac wedi iddynt ymgasclu <orig reg="ynghyd">yng-hyd</orig>, <w>Pi<lb rend="shy"/>latus</w> a ddywedodd wrthynt, <q>pa vn a fynnwch i
+<lb/>mi ei ollwng i chwi? Barrabas, ai 'r Iesu 'r
+<lb/>hwn a elwir Crist?</q>
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>Canys efe a &wcirc;ydde yn dda, mai o <w>genfi<lb rend="shy"/>gen</w> y rhoddasent ef.
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/>Ac efe yn eistedd ar yr orsedd-faingc, ei
+<lb/>wraig a ddanfonodd atto gan ddywedyd, <q>na <w>fy<lb rend="shy"/>dded</w> i ti a wnelech &acirc;<isp/>'r cyfiawn hwnnw, canys
+<lb/>goddefais lawer heddyw mewn breuddwydion
+<lb/>o<isp/>'i achos ef.</q>
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/>A<isp/>'r arch-offeiriaid a<isp/>'r henuriaid a <w>hu<lb rend="shy"/>dasant</w> bobl i ofyn Barrabas, a difetha 'r Iesu.
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/>A<isp/>'r rhaglaw a attebodd, ac a ddywedodd
+<lb/>wrthynt, <q>pa vn o<isp/>'r ddau a fynnwch i mi ei <w>oll<lb rend="shy"/>wng</w> i chwi?</q> hwythau a ddywedasant, <q><w>Barra<lb rend="shy"/>bas.</w></q>
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/>Pilatus a ddywedodd wrthynt, <q>pa beth
+<lb/>a wnaf i Iesu 'r hwn a elwir Crist?</q> hwy oll a
+<lb/>ddywed&acirc;sant wrtho, <q>croes-hoelier ef.</q>
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/>Yna y dywedodd y rhaglaw, <q>ond pa
+<lb/>ddrwg a wnaeth efe?</q> yna y llef&acirc;sant yn fwy,
+<lb/>gan ddywedyd, <q><corr sic="cros-hoelier" resp="transcr">croes-hoelier</corr> ef.</q>
+</seg></p>
+<p><seg type="verse" n="24">
+<lb/>Pan welodd Pilatus na thyccie iddo,
+<lb/>ond b&ocirc;d mwy o gynnwrf yn codi, efe a <w>gym<lb rend="shy"/>merth</w> ddwfr, ac a olchodd ei ddwylo ger bron y
+<lb/>bobl, gan ddywedyd, <q>dieuog ydwyf oddi wrth
+<lb/>waed y cyfiawn hwn, edrychwch chwi.</q>
+</seg></p>
+<p><seg type="verse" n="25">
+<lb/>A<isp/>'r holl bobl a attebodd, ac a ddywedodd,
+<lb/><q>bydded ei waed ef arnom ni, ac ar ein plant.</q>
+</seg></p>
+<p><seg type="verse" n="26">
+<lb/>Yna y gollyngodd efe Barrabas iddynt,
+<lb/>ac efe a fflangellodd yr Iesu, ac a<isp/>'i rhoddes i<isp/><apo/>w
+<lb/>groes-hoelio.
+</seg></p>
+<p><seg type="verse" n="27">
+<lb/>Yna mil-w&ycirc;r y rhaglaw a <w>gymmera<lb rend="shy"/>sant</w> yr Iesu i<isp/>'r dadleud&ycirc;, ac a gynhullasant atto
+<lb/>yr holl fyddin.
+</seg></p>
+<p><seg type="verse" n="28">
+<lb/>Ac hwy a<isp/>'i dioscasant, ac a roesant <w>am da<lb rend="shy"/>no</w> fantell o scarlat,
+</seg></p>
+<p><seg type="verse" n="29">
+<lb/>Ac a bleth&acirc;sant goron ddrain, ac a<isp/>'i <w>doda<lb rend="shy"/>sant</w> ar ei benn, a chorsen yn ei law, ac a <w>blyga<lb rend="shy"/>sant</w> eu gliniau ger ei fron ef, ac a<isp/>'i <w>gwatwar&acirc;<lb rend="shy"/>sant,</w> gan ddywedyd, <q>henffych well, Brenin yr
+<lb/>Iddewon.</q>
+</seg></p>
+<p><seg type="verse" n="30">
+<lb/>Ac hwy a boer&acirc;sant arno, ac a <w>gymme<lb rend="shy"/>rasant</w> gorsen, ac a<isp/>'i tarawsant ar ei benn.
+</seg></p>
+<p><seg type="verse" n="31">
+<lb/>Ac wedi iddynt ei watwar, hwy a<isp/>'i <w>dios<lb rend="shy"/>casant</w> ef o<isp/>'r fantell, ac a<isp/>'i gwiscasant ef &acirc;<isp/>'i <w>ddill<lb rend="shy"/>ad</w> ei hun, ac a aethant ag ef i<isp/><apo/>w groes-hoelio.
+</seg></p>
+<p><seg type="verse" n="32">
+<lb/>Ac fel yr oeddynt yn myned allan, hwy
+<pb n="453v.b"/>
+<lb/>a gawsant dd&ycirc;n o Ciren a elwyd Simon: a
+<lb/>hwn a gymhellh&acirc;sant hwy i ddwyn ei groes ef.
+</seg></p>
+<p><seg type="verse" n="33">
+<lb/>A phan ddaethant i le a elwyd <w>Golga<lb rend="shy"/>tha,</w> sef yr hwn yw y benglogfa,
+</seg></p>
+<p><seg type="verse" n="34">
+<lb/>Hwy a roesant iddo i<isp/><apo/>w yfed finegr yn <w>gy<lb rend="shy"/>myscedic</w>&nbsp;&acirc; bustl: ac wedi iddo ei brofi, ni <w>fyn<lb rend="shy"/>nodd</w> efe yfed.
+</seg></p>
+<p><seg type="verse" n="35">
+<!-- check: OT quote -->
+<lb/>Ac wedi iddynt ei <corr resp="transcr" sic="groes-hoelief">groes-hoeli ef</corr>, hwy a
+<lb/>rannasant ei ddillad, ac a fwriasant <w>goel-bren<lb rend="shy"/>nau,</w> er cyflawni y peth a ddywetpwyd trwy 'r
+<lb/>prophwyd: <q>hwy a rannasant fy nillad yn eu
+<lb/>plith, ac ar fyng-wisc y bwriasant <w>goel-bren<lb rend="shy"/>nau.</w></q>
+</seg></p>
+<p><seg type="verse" n="36">
+<lb/>Ac hwy a eistedd&acirc;sant, ac a<isp/>'i gwili&acirc;sant
+<lb/>ef yno.
+</seg></p>
+<p><seg type="verse" n="37">
+<!-- check: quote? -->
+<lb/>Ac hwy a osod&acirc;sant hefyd vwch ei benn
+<lb/>ef ei achos yn scrifennedic, <q><hi rend="smallcaps">Hwn Yw Iesv
+<lb/>Brenin Yr Iddewon</hi>.</q>
+</seg></p>
+<p><seg type="verse" n="38">
+<lb/>Yna y croes-hoeliwyd dau leidr g&ycirc;d ag
+<lb/>ef, vn ar y llaw ddehau, ac arall ar yr asswy.
+</seg></p>
+<p><seg type="verse" n="39">
+<lb/>A<isp/>'r rhai oeddynt yn myned heibio a<isp/>'i <w>cab<lb rend="shy"/>lasant</w> ef, gan <orig reg="ysgwyd">escwyt</orig> eu pennau,
+</seg></p>
+<p><seg type="verse" n="40">
+<lb/>A dywedyd, <q>ti 'r hwn a ddestruwi 'r
+<lb/>Deml, ac a<isp/>'i hadailedi mewn tri-diau, cadw dy
+<lb/>hun, os ti yw M&acirc;b Duw, descyn oddi ar y
+<lb/>groes.</q>
+</seg></p>
+<p><seg type="verse" n="41">
+<lb/>A<isp/>'r vn modd yr arch-offeiriaid a<isp/>'i <w>gwat<lb rend="shy"/>warasant</w> ef, g&ycirc;d &acirc;<isp/>'r scrifennyddion a<isp/>'r <w>henuri<lb rend="shy"/>aid,</w> gan ddywedyd,
+</seg></p>
+<p><seg type="verse" n="42">
+<lb/><q part="i">Efe a waredodd eraill, nis gall efe ei
+<lb/>ymwared ei hun: os Brenin yr Israel yw efe,
+<lb/>descynned yr awr hon oddi ar y groes, ac ni a
+<lb/>gredwn iddo.</q>
+</seg></p>
+<p><seg type="verse" n="43">
+<lb/><q part="f">Efe a ymddyriedodd yn Nuw, <w>rhydd<lb rend="shy"/>haed</w> efe ef yr awr hon os myn ef: canys efe a
+<lb/>ddywedodd, <q>M&acirc;b Duw ydwyf.</q>
+</q>
+</seg></p>
+<p><seg type="verse" n="44">
+<lb/>Yr vn peth hefyd a edliwiodd y lladron,
+<lb/>y rhai a grogasid g&ycirc;d ag ef, iddo ef.
+</seg></p>
+<p><seg type="verse" n="45">
+<lb/>Ac o<isp/>'r chweched awr y bu tywyllwch
+<lb/>mawr ar yr holl ddaiar, hyd y nawfed awr.
+</seg></p>
+<p><seg type="verse" n="46">
+<!-- check quote, link? -->
+<lb/>Ac <orig reg="ynghylch">yng-hylch</orig> y nawfed awr, y llefodd yr
+<lb/>Iesu &acirc; llef vchel, gan ddywedyd <q><hi rend="antiqua">Eli, Eli, lama
+<lb/>sabachthani?</hi></q> hynny yw, <q>fy Nuw, fy Nuw, pa
+<lb/>ham i<isp/>'m gwrthodaist?</q>
+</seg></p>
+<p><seg type="verse" n="47">
+<lb/>A rhai o<isp/>'r sawl oeddynt yn sefyll yno, pan
+<lb/>glywsant, a ddywed&acirc;sant, <q>y mae hwn yn galw
+<lb/>ar Elias.</q>
+</seg></p>
+<p><seg type="verse" n="48">
+<lb/>Ac yn y fan vn o honynt a redodd, ac a
+<lb/>gymmerth yspwrn, ac a<isp/>'i llanwodd o finegr,
+<lb/>ac a<isp/>'i rhoddes ar gorsen, ac a<isp/>'i rhoes iddo, i<isp/><apo/>w <w>y<lb rend="shy"/>fed.</w>
+</seg></p>
+<p><seg type="verse" n="49">
+<lb/>Eraill a ddywed&acirc;sant, <q>gad ti iddo: <w>e<lb rend="shy"/>drychwn</w> a ddaw Elias i<isp/><apo/>w waredu.</q>
+</seg></p>
+<p><seg type="verse" n="50">
+<lb/>Yna y llefodd yr Iesu trachefn &acirc; llef <w>v<lb rend="shy"/>chel,</w> ac a <corr sic="ymadawod" resp="transcr">ymadawodd</corr>&nbsp;&acirc;<isp/>'r yspryd.
+</seg></p>
+<p><seg type="verse" n="51">
+<lb/>Ac wele, llen y deml a rwygwyd yn
+<lb/>ddau, o<isp/>'r cwrr vchaf hyd yr isaf, a<isp/>'r ddaiar a
+<lb/>grynodd, a<isp/>'r main a holltwyd.
+</seg></p>
+<p><seg type="verse" n="52">
+<lb/>A<isp/>'r beddau a ymagor&acirc;sant, a llawer o
+<lb/>gyrph y sainct y rhai a oeddynt yn huno, a <w>go<lb rend="shy"/>d&acirc;sant,</w>
+</seg></p>
+<pb n="454r.a"/>
+<p><seg type="verse" n="53">
+<lb/>Ac a ddaethant allan o<isp/>'r beddau ar &ocirc;l ei
+<lb/>gyfodiad ef, ac a aethant i mewn i<isp/>'r ddinas
+<lb/>sanctaidd, ac a ymddangos&acirc;sant i lawer.
+</seg></p>
+<p><seg type="verse" n="54">
+<lb/>Pan welodd y canwriad, a<isp/>'r rhai <w>oe<lb rend="shy"/>ddynt</w> g&ycirc;d ag ef yn gwilied yr Iesu, y ddaiar yn
+<lb/>crynu, a<isp/>'r pethau a wnaethid, hwy a ofnasant
+<lb/>yn fawr, gan ddywedyd, <q>yn wir M&acirc;b Duw <w>y<lb rend="shy"/>doedd</w> hwn.</q>
+</seg></p>
+<p><seg type="verse" n="55">
+<lb/>Ac yr oedd yno lawer o wragedd yn <w>e<lb rend="shy"/>drych</w> arno o hir-bell, y rhai a ganlyn&acirc;sent yr
+<lb/>Iesu o<isp/>'r Galil&aelig;a gan weini iddo ef.
+</seg></p>
+<p><seg type="verse" n="56">
+<lb/>Ym mhlith y rhai 'r oedd Mair <w>Mag<lb rend="shy"/>dalen,</w> a Mair mam Iaco, ac Ioses, a mam <w>mei<lb rend="shy"/>bion</w> Zebedeus.
+</seg></p>
+<p><seg type="verse" n="57">
+<lb/>Ac wedi ei myned hi yn hwyr fe a
+<lb/>ddaeth g&wcirc;r goludog o Arimathia, a<isp/>'i henw <w>Io<lb rend="shy"/>seph,</w> yr hwn a fuase yntef yn ddiscybl i<isp/>'r Iesu.
+</seg></p>
+<p><seg type="verse" n="58">
+<lb/>Hwn a aeth at Pilatus, ac a ofynnodd
+<lb/>gorph yr Iesu: yna y gorchymynnodd Pilatus
+<lb/>roddi 'r corph.
+</seg></p>
+<p><seg type="verse" n="59">
+<lb/>Ac felly y cymmerth Ioseph y corph, ac
+<lb/>a<isp/>'i hamdoes &acirc; lliain main gl&acirc;n.
+</seg></p>
+<p><seg type="verse" n="60">
+<lb/>Ac a<isp/>'i rhoddes yn ei fedd newydd, yr
+<lb/>hwn a dorrase efe mewn craig, ac a dreiglodd
+<lb/>faen mawr wrth ddrws y bedd, ac a aeth <w>ym<lb rend="shy"/>maith.</w>
+</seg></p>
+<p><seg type="verse" n="61">
+<lb/>Ac yr oedd yno Mair Magdalen, a
+<lb/>Mair arall yn eistedd gyferbyn &acirc;<isp/>'r bedd.
+</seg></p>
+<p><seg type="verse" n="62">
+<lb/>A thrannoeth yr hwn sydd ar &ocirc;l y <w>dar<lb rend="shy"/>parwyl</w> yr ymgynhullodd 'r arch-offeiriaid a<isp/>'r
+<lb/>Pharis&aelig;aid at Pilatus,
+</seg></p>
+<p><seg type="verse" n="63">
+<lb/>Ac a ddywedasant, <q part="i">&ocirc; arglwydd y mae
+<lb/>yn gof gennym ddywedyd o<isp/>'r twyll-wr <w>hwn<lb rend="shy"/>nw,</w> ac efe etto yn fyw, <q>o fewn tri-diau y <w>cyfo<lb rend="shy"/>daf.</w></q>
+</q>
+</seg></p>
+<p><seg type="verse" n="64">
+<lb/><q part="f">Gorchymyn gan hynny gadw y bedd
+<lb/>yn ddiogel hyd y trydydd dydd, rhag dyfod ei
+<lb/>ddiscyblion o h&ycirc;d nos a<isp/>'i ladratta ef, a dywedyd
+<lb/>wrth y bobl, <q>efe a gyfododd o feirw,</q> ac felly y
+<lb/>bydd yr amryfusedd <orig reg="diweddaf">dyweddaf</orig> yn waeth n&acirc;<isp/>'r
+<lb/>cyntaf.</q>
+</seg></p>
+<p><seg type="verse" n="65">
+<lb/>Yna y dywedodd Pilatus wrthynt, <q>y
+<lb/>mae gennych wiliadwriaeth, ewch, gwnewch
+<lb/>mor ddiogel ac y medroch.</q>
+</seg></p>
+<p><seg type="verse" n="66">
+<lb/>Ac hwy a aethant, ac a wnaethant y bedd
+<lb/>yn ddiogel a<isp/>'r wiliadwriaeth, ac a seliasant y
+<lb/>maen.
+</seg></p>
+</div>
+<div type="chapter" n="28">
+<head><lb/>PEN. XXVIII.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Adgyfodiad Crist, 2 yr Angel yn cyssuro y gwragedd.
+<lb/>hwythau yn gweled Crist. 18 Crist yn anfon ei <w>ddis<lb rend="shy"/>cyblion</w> i bregethu.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">Y</hi>Na yn niwedd y Sabboth, a hi yn <w>dydd<lb rend="shy"/>hau</w> yn y dydd cyntaf o<isp/>'r wythnos, y daeth
+<lb/>Mair Magdalen a Mair arall i edrych y bedd.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>Ac wele bu daiar-gryn mawr: canys <w>des<lb rend="shy"/>cynnodd</w> Angel yr Arglwydd o<isp/>'r nef, ac a <w>dda<pb rend="shy" n="454r.b"/><lb/>eth</w>, ac a dreiglodd y garrec oddi wrth y drws,
+<lb/>ac a eisteddodd arni.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>A<isp/>'i wyneb-pryd oedd fel mellten, a<isp/>'i wisc
+<lb/>yn wen fel eira.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>A rhag ei ofn ef <corr sic="dychrynnod" resp="transcr">dychrynnodd</corr> y ceidwaid
+<lb/>ac aethant megis yn feirw.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>A<isp/>'r Angel a attebodd, ac a ddywedodd
+<lb/>wrth y gwragedd, <q part="i">nac ofnwch: canys mi a wn
+<lb/>mai ceisio 'r ydych yr Iesu 'r hwn a <w>groes-hoe<lb rend="shy"/>liwyd,</w></q>
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/><q part="m">Nid yw efe ymma, canys cyfododd <w>me<lb rend="shy"/>gis</w> y dywedodd, deuwch, a gwelwch y fann lle
+<lb/>y rhoddwyd yr Arglwydd.</q>
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/><q part="f">Ac ewch ar ffrwst, a dywedwch i<isp/><apo/>w <w>ddis<lb rend="shy"/>cyblion</w> gyfodi o honaw o feirw: ac y mae efe
+<lb/>yn myned o<isp/>'ch blaen chwi i Galil&aelig;a: yno y
+<lb/>gwelwch ef: wele dywedais i chwi.</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Yna 'r aethant yn ebrwydd o<isp/>'r <orig reg="fynwent">fonwent</orig>
+<lb/>gan ofn a llawenydd mawr, ac a red&acirc;sant i <w>fyne<lb rend="shy"/>gu</w> i<isp/><apo/>w ddiscyblion.
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Ac fel yr oeddynt yn myned i fynegu i<isp/><apo/>w
+<lb/>ddiscyblion ef, yna wele cyfarfu 'r Iesu ag <w>hw<lb rend="shy"/>ynt</w> gan ddywedyd, <q>henffych well,</q> ac hwy a <w>dda<lb rend="shy"/>ethant,</w> ac <sic>y</sic> ymafel&acirc;sant yn ei draed ef, ac a<isp/>'i
+<lb/>haddol&acirc;sant.
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Yna y dywedodd yr Iesu wrthynt, <q>nac
+<lb/>ofnwch: ewch a dywedwch i<isp/>'m brodyr, fel y <w>de<lb rend="shy"/>lant</w> i Galil&aelig;a, yno y gwelant fi.</q>
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Ac wedi eu myned hwy: wele rhai o<isp/>'r
+<lb/>wiliadwriaeth a ddaethant i<isp/>'r ddinas, ac a <w>fyne<lb rend="shy"/>g&acirc;sant</w> i<isp/>'r arch-offeiriaid yr hyn oll a wnaethid.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Ac wedi iddynt ymgasclu <orig reg="ynghyd">yng-hyd</orig> a<isp/>'r
+<lb/>henuriaid, hwy a ymgynghor&acirc;sant, ac a roesant
+<lb/>arian yn helaeth i<isp/>'r milw&ycirc;r,
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Gan ddywedyd, <q part="i">dywedwch, <q>ei <w>ddiscyb<lb rend="shy"/>lion</w> a ddaethant o h&ycirc;d n&ocirc;s, ac a<isp/>'i lladrat&acirc;sant ef,
+<lb/>a ni yn cyscu.</q>
+</q>
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/><q part="f">Ac os clyw y rhaglaw hyn, ni a<isp/>'i dygwn
+<lb/>ef i gredu, ac a<isp/>'ch gwnawn chwi yn ddiofal.</q>
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Ac hwy a gymmerasant yr arian, ac a
+<lb/>wnaethant fel yr addyscwyd hwynt: ac fe a <w>gy<lb rend="shy"/>hoeddwyd</w> y gair hwn ym mhlith yr Iddewon
+<lb/>hyd y dydd heddyw.
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Yna 'r aeth yr vn discybl ar dd&ecirc;c i <w>Gali<lb rend="shy"/>l&aelig;a,</w> i<isp/>'r mynydd lle 'r archase yr Iesu iddynt.
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>A phan welsant ef, hwy a<isp/>'i haddol&acirc;sant
+<lb/>ef, a rhai a amheuasant.
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>A<isp/>'r Iesu a ddaeth, ac a lefarodd wrthynt
+<lb/>gan ddywedyd: <q part="i">rhoddwyd i mi b&ocirc;b awdurdod
+<lb/>yn y nef, ac ar y ddaiar.</q>
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/><q part="m">Ewch gan hynny a dyscwch yr holl <w>gen<lb rend="shy"/>hedloedd,</w> gan eu bedyddio hwy yn enw 'r T&acirc;d,
+<lb/>a<isp/>'r M&acirc;b, a<isp/>'r Yspryd gl&acirc;n.</q>
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/><q part="f">Gan ddyscu iddynt gadw p&ocirc;b peth a<isp/>'r a
+<lb/>orchymynnais i chwi: ac wele 'r ydwyf g&ycirc;d &acirc;
+<lb/>chwi bob amser, hyd diwedd y byd. Amen.</q>
+</seg></p>
+</div>
+</body>
+</text>
+
+<text id="b1588cor">
+<body>
+<head type="main">Ail Epistol Paul at y <hi rend="smallcaps">Corinthiaid</hi>.<!-- [pen. 1-9 = tt. 519v.a-
+522r.b]--></head>
+<pb n="519v.a"/>
+<div type="chapter" n="1">
+<head><lb n="35"/>PENNOD. I.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb n="36"/>Y mae yn dangos fod ei gystudd yn Asia yn ddiddanwch
+<lb n="37"/>iddynt hwy. 17 Ac yn dangos nad o yscafnder <w>me<lb n="38" rend="shy"/>ddwl</w> yr oed&acirc;se efe ddyfod attynt pan addawse.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb n="39"/><hi rend="rubric">P</hi>AUL Apostol Iesu
+<lb n="40"/>Grist, a<isp/>'r brawd <w>Ti<lb n="41" rend="shy"/>motheus</w> trwy <w>ew<lb n="42" rend="shy"/>yllys</w> Duw at eglwys
+<lb n="43"/>Dduw yr hon sydd
+<lb n="44"/>yn Corinth, gyd &acirc;<isp/>'r
+<lb n="45"/>holl seinctiau y rhai
+<lb n="46"/>sy yn holl Achaia:
+</seg></p>
+<p><seg type="verse" n="2">
+<lb n="47"/>Gr&acirc;s fyddo gyd &acirc;
+<lb n="48"/>chwi, a thangneddyf gan Dduw ein T&acirc;d, a<isp/>'r
+<lb n="49"/>Arglwydd Iesu Grist.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb n="50"/>Bendigedic fyddo Duw T&acirc;d ein <w>Hargl<lb n="51" rend="shy"/>wydd</w> ni Iesu <orig reg="Grist">Ghrist</orig>, T&acirc;d y trugareddau, a
+<lb n="52"/>Duw holl ddiddanwch,
+</seg></p>
+<p><seg type="verse" n="4">
+<lb n="53"/>Yr hwn sydd yn ein didd&acirc;nu ni yn ein holl
+<lb n="54"/>orthrymder, fel y gallom ddidd&acirc;nu y rhai sy
+
+<pb n="519v.b"/>
+<lb n="35"/>mewn dim gorthrymder, trwy y diddanwch ein
+<lb n="36"/>diddenir ninnau gan Dduw.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb n="37"/>O blegit fel yr amlheir dioddefiadau Crist
+<lb n="38"/>ynom, felly yr amlheir ein diddanwch ni trwy
+<lb n="39"/>Grist.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb n="40"/>Hefyd os cystuddir ni [y mae hynny] er
+<lb n="41"/>diddanwch, ac iechydwriaeth i chwi, yr hon a
+<lb n="42"/>weithir gan ymaros yn yr vn rhyw <w>ddioddefia<lb n="43" rend="shy"/>dau,</w> y rhai yr ydym ni hefyd yn eu dioddef: ac
+<lb n="44"/>os diddenir ni, er diddanwch ac iechydwriaeth i
+<lb n="45"/>chwi [y mae hynny.]
+</seg></p>
+<p><seg type="verse" n="7">
+<lb n="46"/>Ac y mae ein gobaith yn siccr am danoch,
+<lb n="47"/>gan i ni &wcirc;ybod, mai megis yr ydych yn <w>gyfran<lb n="48" rend="shy"/>nogion</w> o<isp/>'r dioddefiadau, felly [y byddwch] <w>he<lb n="49" rend="shy"/>fyd</w> o<isp/>'r diddanwch.
+</seg></p>
+<p><seg type="verse" n="8">
+<lb n="50"/>Canys frodyr ni fynnem i chwi fod heb
+<lb n="51"/>&wcirc;ybod, am ein cystudd a ddaeth i ni yn Asia, <w>bw<lb n="52" rend="shy"/>yso</w> arnom yn anfeidrol vwch ben [ein] gallu,
+<lb n="53"/>hyd onid oeddem yn ammeu na allem fyw.
+</seg></p>
+<p><seg type="verse" n="9">
+<lb n="54"/>Ond ni a dderbyniasom farn angeu ynom,
+
+<pb n="520r.a"/>
+<lb/>fel na obeithiom ynom ein hunain, onid yn
+<lb/>Nuw yr hwn sydd yn cyfodi i fynu y meirw.
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Yr hwn a<isp/>'n gwaredodd ni oddi wrth <w>gy<lb rend="shy"/>fryw</w> ddirfawr angeu, ac sy yn ein gwaredu: yn
+<lb/>yr hwn yr ydym yn gobeitho y gwared efe rhag
+<lb/>llaw.
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Os chwy-chwi a gydweithiwch mewn
+<lb/>gweddi trosom, fel, am y rhoddiad a rodded i ni
+<lb/>o herwydd llawer, y rhodder diolch gan lawer
+<lb/>trosom,
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Canys ein gorfoledd ni yw hyn, [sef,]
+<lb/>testiolaeth ein cydwybod ni, o blegit mewn <w>di<lb rend="shy"/>symlrwydd</w> a duwiol burdeb, ac nid yn <w>noethi<lb rend="shy"/>neb</w> cnawdol, ond trwy r&acirc;s Duw, y bu i ni ein
+<lb/>ymddwyn ein hunain yn y b&ycirc;d, ac yn enwedic yn
+<lb/>eich mysc chwi.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Canys nid ydym yn scrifennu amgen
+<lb/>bethau attoch, nac yr ydych yn eu darllen, neu
+<lb/>yr ydych yn eu cydnabod, ac yr ydwyf yn <w>gobei<lb rend="shy"/>thio</w> y cydnabyddwch hyd y diwedd.
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Ac megis y cydnabuoch ni, o rann ein
+<lb/>b&ocirc;d yn orfolaeth i chwi, fel yr ydych chwithau i
+<lb/>ninnau yn n&ycirc;dd yr Arglwydd Iesu Grist.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Ac yn y gobaith hyn yr oeddwn yn <w>e<lb rend="shy"/>wyllysio</w> dyfod attoch y waith gyntaf, fel y <w>ca<lb rend="shy"/>ffech</w> ail gr&acirc;s.
+</seg></p>
+<p><seg type="verse" n="16">
+<!-- check: closing bracket missing (orig) -->
+<lb/>A myned <sic>(</sic>heb eich llaw chwi i <w>Macedo<lb rend="shy"/>nia,</w> a dyfod trachefn o Macedonia attoch, a
+<lb/>chael fy hebrwng gennwch i Iud&aelig;a.
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Gan hynny pan oeddwn yn amcanu fel
+<lb/>hyn, a arferais i o yscafnder? neu a wyfi yn <w>am<lb rend="shy"/>canu</w> y petheu yr wyf yn amcanu, ar &ocirc;l y cnawd,
+<lb/>fel y bydde gyd &acirc; mi &icirc;e, &icirc;e, ac nag &ecirc;, nag &ecirc;?
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>Ond Duw sydd ffyddlon, canys nid &icirc;e,
+<lb/>ac nag &ecirc; ydoedd ein ymadrodd wrthych chwi.
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/>Canys Mab Duw Iesu Grist yr hwn a
+<lb/>bregethwyd yn eich plith genym ni, sef myfi a
+<lb/>Silfanus a Timotheus, nid ydoedd, &icirc;e, ac nag e
+<lb/>eithr ynddo ef ie ydoedd.
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/>O blegit holl addewidion Duw ynddo
+<lb/>ef ydynt, &icirc;e, ac ynddo ef [ydynt] Amen, er <w>go<lb rend="shy"/>goniant</w> Duw trwyddom ni.
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/>A Duw [yw] 'r hwn a<isp/>'n cadarnh&acirc; ni
+<lb/>gyd &acirc; chwi <orig reg="yng Nghrist">yng-Hrist</orig>, ac a<isp/>'n en&ecirc;iniodd ni.
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/>Yr hwn hefyd a<isp/>'n seliodd, ac a roes
+<lb/>wystleidiaeth yr yspryd yn ein calonnau.
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/>Ac yr &wcirc;yf fi yn galw Duw yn d&ycirc;st i<isp/>'m
+<lb/>henaid, mai er eich arbed chwi na ddaethym
+<lb/>etto i Corinth.
+</seg></p>
+<p><seg type="verse" n="24">
+<lb/>Nid am ein b&ocirc;d yn arglwyddiaethu ar
+<lb/>eich ffydd chwi, ond yr ydym yn gyd-weithw&ycirc;r
+<lb/>i<isp/>'ch llawenydd: o blegit trwy ffydd yr ydych yn
+<lb/>sefyll.
+</seg></p>
+</div>
+<div type="chapter" n="2">
+<head><lb/>PEN. II.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Y mae yn dangos fod yr hwn a yscymunasid am loscach
+<lb/>neu insest yn beth achos na ddaethe efe attynt hwy.
+<lb/>6 Yn maddeu i hwnnw, gan ewyllysio eu cydundeb
+<lb/>hwythau i hynny. 14 Yn diolch am ffynniant yr <w>E<lb rend="shy"/>fengyl.</w> 17 Ac yn <orig reg="amddiffyn">amddeffyn</orig> ei athrawiaeth yn <w>er<lb rend="shy"/>byn</w> y gau athrawon.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">E</hi>Ithr mi a fwriadais hyn ynof fy hunan, na
+<lb/>ddelwn attoch trachefn mewn tristwch.
+</seg></p>
+<pb n="520r.b"/>
+<p><seg type="verse" n="2">
+<lb/>O blegit <orig reg="os">as</orig> myfi a<isp/>'ch trist&acirc;f chwi, pwy
+<lb/>yw 'r hwn a<isp/>'m llawenh&acirc; fi, ond yr hwn a <w>drista<lb rend="shy"/>wyd</w> gennifi?
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>A mi a scrifennais hyn ymma attoch, rhag
+<lb/>(pan ddelwn) cael o honof dristwch ar dristwch
+<lb/>gan y rhai y dylwn ymlawenhau: gan obeitho
+<lb/>am danoch oll, f&ocirc;d fy llawenydd i yn <w>llawen<lb rend="shy"/>ydd</w> i chwi oll.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Canys mewn gorthrymder mawr, a <w>chy<lb rend="shy"/>fyngder</w> calon yr scrifennais attoch &acirc; dagrau
+<lb/>lawer, nid fel i<isp/>'ch tristaid chwi, eithr fel y <w>gwy<lb rend="shy"/>byddech</w> y cariad sy gennif yn enwedig i chwi.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>Os gwnaeth n&ecirc;b dristau, ni wnaeth efe i
+<lb/>mi dristau, ond o rann, rhag i mi bwyso arnoch
+<lb/>chwi oll.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>Digon [yw] i<isp/>'r cyfryw [dd&ycirc;n] y cerydd
+<lb/>ymma yr hwn a rodded iddo gan lawer.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>Megis yn hytrach yng-wrthwyn&ecirc;b, y <w>dy<lb rend="shy"/>lech</w> chwi faddeu iddo a<isp/>'i ddidd&acirc;nu, rhag <w>llyng<lb rend="shy"/>cu</w> y cyfryw gan ormod tristwch.
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Am hynny yr ydwyf yn attolwg i chwi,
+<lb/>gadarnhau eich cariad arno.
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Canys er mwyn hyn hefyd yr scrifennais,
+<lb/>fel y cawn &wcirc;ybod profedigaeth am danoch, a
+<lb/>fyddech vfydd ym mhob peth.
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>I<isp/>'r hwn yr ydych yn maddeu dim iddo,
+<lb/>[yr wyf] finne: canys os maddeuais i ddim, i<isp/>'r
+<lb/>hwn y maddeuais er eich mwyn chwi [y <w>madde<lb rend="shy"/>uais]</w> yng-olwg Crist.
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Rhag ein siommi gan Satan: canys
+<lb/>nid ydym heb &wcirc;ybod ei amcannion ef.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Pan ddaethym i Troas i [bregethu] <w>E<lb rend="shy"/>fengyl</w> Grist, ac agoryd dr&wcirc;s i mi gan yr <w>Ar<lb rend="shy"/>glwydd,</w>
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Ni chefais lonydd yn fy yspryd am na
+<lb/>chefais Titus fy mrawd, eithr gan ganu yn
+<lb/>iach iddynt, mi a euthym ymmaith i Macedonia.
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Ond i Dduw y byddo 'r diolch, yr hwn,
+<lb/>yn <orig reg="wastad">oestad</orig> sydd yn peri i ni orfoledd <orig reg="yng Nghrist">yng-Hrist</orig>,
+<lb/>ac sydd yn eglurhau arogledd ei &wcirc;ybodaeth
+<lb/>trwyddom ni ym mh&ocirc;b lle.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Canys per-arogl Crist ydym ni i Dduw,
+<lb/>yn y rhai cadwedig, ac yn y rhai colledig.
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>I<isp/>'r naill yr [ydym] yn arogl <w>marwola<lb rend="shy"/>eth</w> i farwolaeth, ac i<isp/>'r lleill yn arogl bywyd i <w>fy<lb rend="shy"/>wyd,</w> a phwy sydd ddigonol i hyn?
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Canys nid ydym ni fel y mae llawer, yn
+<lb/>gwneuthur twyll am air Duw, eithr megis o
+<lb/>burdeb, eithr megis o Dduw, yng-wydd Duw
+<lb/>yr ydym yn llefaru <orig reg="yng Nghrist">yng-Hrist</orig>.
+</seg></p>
+</div>
+<div type="chapter" n="3">
+<head><lb/>PEN. III.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>I beidio a<isp/><apo/>i ganmol ei hun y mae efe yn dangos fod ei
+<lb/>gl&ocirc;d ef i<isp/><apo/>w gweled yn y Corinthiaid. 6 A bod yr <w>E<lb rend="shy"/>fengyl</w> yn fwy gogoneddus n&acirc;<isp/>'r gyfraith.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">A</hi>I dechreu yr ydym ni ein canmol ein <w>hu<lb rend="shy"/>nain</w> trachefn? ai rhaid i ni fel i eraill wrth
+<lb/>lythyrau canmoliaeth attoch chwi, neu <w>canmo<lb rend="shy"/>liaeth</w> oddi wrthych chwi?
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>Ein llythr ni ydych chwi yn scrifennedig
+<lb/>yn ein calonnau, yr hwn a ddeallir, ac a <w>ddar<lb rend="shy"/>llenir</w> gan b&ocirc;b d&ycirc;n.
+</seg></p>
+<pb n="520v.a"/>
+<p><seg type="verse" n="3">
+<lb/>Gan fod yn eglur eich b&ocirc;d chwi yn llythr
+<lb/>Crist, yr hwn a roddwyd allan trwy ein <w>gwei<lb rend="shy"/>nidogaeth</w> ni, ac a scrifennwyd, nid ag ingc, ond
+<lb/>ag Yspryd Duw byw, nid mewn llechau <w>cer<lb rend="shy"/>rig,</w> eithr mewn cnawdol lechau y galon.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>A chyfryw obaith sydd gennym trwy
+<lb/>Grist ar Dduw.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>Nid o herwydd ein b&ocirc;d ni ddigonol <w>o ho<lb rend="shy"/>nom</w> ein hunain i feddylio dim megis o honom
+<lb/>ein hunain, eithr ein digonedd ni sydd o Dduw.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>Yr hwn hefyd a<isp/>'n gwnaeth ni yn <w>weini<lb rend="shy"/>dogion</w> y Testament newydd, nid i<isp/>'r llythyren,
+<lb/>ond i<isp/>'r Yspryd: canys y mae y llythyren yn
+<lb/>lladd, a<isp/>'r Yspryd sydd yn bywhau.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>Ac os oedd gweinidogaeth angeu yr hon a
+<lb/>argraphwyd &acirc; llythyrennau ar lechau yn <w>ogo<lb rend="shy"/>neddus,</w> fel na alle plant yr Israel edrych yn
+<lb/>&wcirc;yneb Moses gan ogoniant ei wyneb-pryd, yr
+<lb/>hwn [ogoniant] a <orig reg="ddilewyd">ddeleuwyd</orig>,
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Pa fodd nad mwy y bydd gweinidogaeth
+<lb/>yr Yspryd mewn gogoniant?
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Canys os bu gweinidogaeth colledigaeth
+<lb/>yn ogoneddus, mwy o lawer y rhagora <w>gwei<lb rend="shy"/>nidogaeth</w> cyfiawnder mewn gogoniant.
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Canys yr hyn a ogoneddwyd, ni <w>ogone<lb rend="shy"/>ddwyd</w> yn y rhan hon, [sef] hyd y perthyn i<isp/>'r
+<lb/>gogoniant ardderchog.
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>O blegit os yr hyn a <orig reg="ddileid">ddeleuid</orig> ymmaith
+<lb/>oedd yn ogoneddus, mwy o lawer [fydd] yr
+<lb/>hyn a erys, yn ogoneddus.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Felly, gan f&ocirc;d ge<expan>n</expan>nym gyfryw obaith, yr
+<lb/>ydym yn arfer hyfder.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Ac nid ydym ni fel Moses, yr hwn a <w>ro<lb rend="shy"/>dde</w> orchudd ar ei wyneb, rhag i blant Israel
+<lb/>edrych ar ddiwedd yr hyn a <orig reg="ddileid">ddeleuid</orig>.
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Am hynny y caledwyd eu meddwl hwy:
+<lb/>canys hyd y dydd heddyw y mae y gorchudd
+<lb/>hwnnw yn aros heb ei dadguddio wrth <w>ddar<lb rend="shy"/>llen</w> y h&ecirc;n Destament, yr hwn <orig reg="yng Nghrist">yng-Hrist</orig> a <w>dyn<lb rend="shy"/>nir</w> ymmaith.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Eithr hyd y dydd heddyw pan ddarllenir
+<lb/>Moses, y rhoddir y gorchudd ar eu calonnau
+<lb/>hwynt.
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Er hynny pan ymchweler at yr <w>Argl<lb rend="shy"/>wydd,</w> y tynnir y gorchudd.
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Yr awron yr Arglwydd yw 'r Yspryd,
+<lb/>a lle mae Yspryd yr Arglwydd, yno y mae
+<lb/>rhydd-did.
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>Eithr edrych yr ydym ni oll, megis <w>me<lb rend="shy"/>wn</w> drych, ar ogoniant yr Arglwydd ag wyneb
+<lb/>agored, ac i<isp/>'n newidir ni i<isp/>'r vnrhyw ddelw, o
+<lb/>ogoniant i ogoniant, megis gan Yspryd yr <w>Ar<lb rend="shy"/>glwydd.</w>
+</seg></p>
+</div>
+<div type="chapter" n="4">
+<head><lb/>PEN. IIII.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/><orig reg="Diwydrwydd">Dywydrwydd</orig> Paul yn ei swydd. 13 A<isp/>'r achosion y rhai
+<lb/>sy yn peri.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">A</hi>M hynny gan f&ocirc;d i ni y weinidogaeth
+<lb/>hon, megis y cawsom drugaredd, nid
+<lb/>ydym yn pallu.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>Eithr ni a wrthodasom ddirgelwch <w>gw<lb rend="shy"/>radwydd,</w> heb rodio yn ddichellgar, nac arfer
+<pb n="520v.b"/>
+<lb/>twyll am air Duw: eithr trwy eglurh&acirc;d y <w>gwi<lb rend="shy"/>rionedd</w> yr ydym yn ein canmol ein hun wrth
+<lb/>b&ocirc;b cydwybod d&ycirc;n ger bron Duw.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>Ac os yw ein Efengyl ni yn guddiedic, yn
+<lb/>y rhai colledig y mae yn guddiedic.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Ym mha rai y dallodd Duw y b&ycirc;d hwn
+<lb/>feddyliau yr anffyddlonion, rhag tywynnu
+<lb/>iddynt lewyrch Efengyl gogoniant Crist, yr
+<lb/>hwn yw delw Dduw.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>Canys nid ydym yn ein pregethu ein <w>hu<lb rend="shy"/>nain,</w> ond Crist Iesu yr Arglwydd, a ninneu
+<lb/>yn weision i chwi er mwyn Iesu.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>Canys Duw yr hwn a orchymynnodd i<isp/>'r
+<lb/>goleuni lewyrchu o dywyllwch, [yw] yr hwn a
+<lb/>lewyrchodd yn ein calonnau, i roddi goleuni
+<lb/>gwybodaeth gogoniant Duw, yn &wcirc;yneb <w>Ie<lb rend="shy"/>su</w> Grist.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>Eithr y tryssor hwn sydd gennym mewn
+<lb/>llestri pridd, fel y bydde <corr resp="transcr" sic="arddechogrwydd">ardderchogrwydd</corr> y <w>me<lb rend="shy"/>ddiant</w> hwnnw o Dduw, ac o honom ni.
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Ym mh&ocirc;b man ein cystuddir, er hynny nid
+<lb/>ydym mewn ing: y mae yn gaeth arnom, ond
+<lb/>nid ydym gwbl heb obaith.
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Wedi ein herlid, ond heb ein gwrthod, <w>we<lb rend="shy"/>di</w> ein taflu i lawr eithr heb ein difetha.
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Gan arwain bob amser o amgylch yn y
+<lb/>corph, farwolaeth yr Arglwydd Iesu, fel yr <w>eg<lb rend="shy"/>lurer</w> hefyd fywyd Iesu yn ein corph.
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Canys yr ydys yn ein rhoddi ni y rhai
+<lb/>ydym yn <orig reg="wastad">oestad</orig> i farwolaeth er mwyn Iesu, fel
+<lb/>yr eglurhaer hefyd fywyd Iesu yn ein marwol
+<lb/>gnawd ni.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Ac felly y mae angeu yn gweithio ynom
+<lb/>ni, ac <orig reg="einioes">enioes</orig> ynoch chwithau.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>A chan f&ocirc;d i ni yr vn yspryd ffydd, megis
+<lb/>ac y mae yn scrifennedic, <q>credais, ac am hynny y
+<lb/>dywedais,</q> ninnau hefyd ydym yn credu, ac am
+<lb/>hynny y dywedwn,
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Gan &wcirc;ybod y bydd i<isp/>'r hwn a gyfododd
+<lb/>yr Arglwydd Iesu, ein cyfodi ninnau hefyd
+<lb/>trwy Iesu, a<isp/>'n gosod gyd &acirc; chwi.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Canys p&ocirc;b peth sydd er eich mwyn
+<lb/>chwi, fel yr amlh&acirc;o yr helaethaf r&acirc;s trwy <w>ddi<lb rend="shy"/>olch</w> llawer er gogoniant i Dduw.
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Am hynny nid ydym ni yn ymollwng,
+<lb/>eithr er llygru ein d&ycirc;n oddi allan, er hynny y
+<lb/>d&ycirc;n oddi mewn a adnewyddir o ddydd i ddydd.
+</seg></p>
+<p><seg type="verse" n="17">
+<!-- check: rhagorol dittography? Greek text?; check pheru (orig) -->
+<lb/>O blegit y mae yscafnder ein cystudd yr
+<lb/>hwn ni pheru ond munyd, yn peri i ni yn <w>rhago<lb rend="shy"/>rol</w> [gael] rhagorol a thragywyddol bwys <w>go<lb rend="shy"/>goniant.</w>
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>Tra nid ydym yn ystyried y pethau a welir
+<lb/>ond y pethau ni welir: canys y pethau a welir
+<lb/>sy amserol, a<isp/>'r pethau ni welir sy dragywyddol.
+</seg></p>
+</div>
+<div type="chapter" n="5">
+<head><lb/>PEN. V.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Mor fuddiol yw marwolaeth dduwiol i<isp/>'r duwiol. 14
+<lb/>Mawredd gr&acirc;s Duw. 20 Swydd a braint eglwys-wyr.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">C</hi>Anys ni a wyddom os daiarol d&ycirc; ein <w>press<lb rend="shy"/>wylfod</w> a <orig reg="ddatodir">ddotodir</orig>, f&ocirc;d i ni adeilad gan
+<lb/>Dduw, [sef] t&ycirc;, nid o waith llaw, [ond] <w>tragy<lb rend="shy"/>wyddol</w> yn y nefoedd.
+</seg></p>
+<pb n="521r.a"/>
+<p><seg type="verse" n="2">
+<lb/>Canys am hynny yr ydym yn ocheneidio
+<lb/>gan ddeisyfio cael ein gwisco &acirc;<isp/>'n t&ycirc; yr hwn sydd
+<lb/>o<isp/>'r n&ecirc;f.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>O blegit os gwiscir ni, ni<isp/>'n ceffir yn
+<lb/>noethion.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Canys yn ddiau [nyni] y rhai sy yn y <w>ba<lb rend="shy"/>bell</w> hon ydym yn ocheneidio, ac yn llwythog
+<lb/>am nad ewyllysiem ein diosc, ond ymwisco, fel
+<lb/>y llyngcid yr hyn sydd farwol gan fywyd.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>A<isp/>'r hwn a<isp/>'n creawdd ni i hyn yw Duw,
+<lb/>yr hwn hefyd a roddodd i ni &wcirc;ystleidiaeth yr
+<lb/>Yspryd.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>Am hynny yr ydym b&ocirc;b amser yn hyderus,
+<lb/>ac yn g&wcirc;ybod tra f&ocirc;m gartref yn y corph, ein
+<lb/>b&ocirc;d oddi cartref oddi wrth yr Arglwydd.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>Canys wrth ffydd yr ydym yn rhodio, ac
+<lb/>nid wrth y golwg.
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Er hynny yr ydym yn hyderus, ac y mae
+<lb/>yn fodlonach gennym fod oddi cartref o<isp/>'r corph
+<lb/>a chartrefu gyd &acirc;<isp/>'r Arglwydd.
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Am hynny hefyd yr ydym yn chwennychu
+<lb/>pa vn bynnag ai gartref y byddom, ai oddi <w>car<lb rend="shy"/>tref,</w> f&ocirc;d yn gymmeradwy ganddo ef.
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Canys rhaid yw i ni oll ymddangos
+<lb/>ger bron brawdle Crist, fel y derbynio pob vn y
+<lb/>pethau a [wnaethpwyd] yn y corph, yn &ocirc;l yr
+<lb/>hyn a wnaeth, pa vn bynnag ai da ai drwg.
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Felly gan i ni &wcirc;ybod ofn yr Arglwydd,
+<lb/>yr ydym ni yn peri i ddynion gredu, ac ni a <w>wn<lb rend="shy"/>aed</w> yn hyspus i Dduw, ac yr ydwyf yn <w>gobei<lb rend="shy"/>thio</w> hefyd ddarfod ein gwneuthur yn hyspus
+<lb/>yn eich cydwybodau chwi.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Canys nid ydym yn ymganmol <w>trach<lb rend="shy"/>efn</w> wrthych, ond yn rhoddi i chwi achos <w>gorfo<lb rend="shy"/>ledd</w> o<isp/>'n plegit ni, fel y caffoch [beth i atteb] yn
+<lb/>erbyn y rhai sy a<isp/>'u gorfoledd yn yr wyneb, ac
+<lb/>nid yn y galon.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Canys os amhwyllo yr ydym, i Dduw yr
+<lb/>ydym, ac os b&ocirc;d yn ein pwyll, i chwi [yr ydym<corr sic="" resp="transcr">.</corr>]
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Canys y mae cariad Crist yn ein <w>cym<lb rend="shy"/>hell<corr sic="," resp="transcr"/></w> ni, gan i ni farnu hyn, os bu vn farw tros
+<lb/>bawb, yna mai meirw oedd pawb.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Ac efe a fu farw tros bawb, fel y bydde
+<lb/>i<isp/>'r rhai byw, na fyddent fyw rhag-llaw iddynt
+<lb/>eu hunain, ond i<isp/>'r hwn a fu farw trostynt, ac a
+<lb/>adgyfododd.
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Am hynny o hyn allan, nid ydym yn <w>ad<lb rend="shy"/>nabod</w> n&ecirc;b yn &ocirc;l y cnawd, ac os buom ni hefyd yn
+<lb/>adnabod Crist yn &ocirc;l y cnawd, er hynny o hyn
+<lb/>allan nid ydym yn ei adnabod ef mwy [felly.]
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Gan hynny od oes n&ecirc;b <orig reg="yng Nghrist">yng-Hrist</orig> [y
+<lb/>mae efe] yn greadur newydd, yr h&ecirc;n bethau a
+<lb/>aethant heibio, wele, gwnaethbwyd <corr sic="pob, peth" resp="transcr">pob peth</corr>
+<lb/>yn newydd.
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>A<isp/>'r cwbl sydd o Dduw, yr hwn a<isp/>'n <w>cym<lb rend="shy"/>mododd</w> ni ag ef ei hun trwy Iesu Grist, ac a
+<lb/>roddodd i ni weinidogaeth y cymmod.
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/>Canys Duw oedd <orig reg="yng Nghrist">yng-Hrist</orig>, yn <w>cym<lb rend="shy"/>modi</w> y b&ycirc;d ag ef ei hun, heb <orig reg="edliwio">adliwio</orig> iddynt eu
+<lb/>pechodau, ac a osododd ynom ni air y cymmod.
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/>Am hynny yr ydym ni yn gennadau tros
+<pb n="521r.b"/>
+<lb/>Grist, megis pe bydde Duw yn ymbil &acirc; chwi
+<lb/>trwyddom ni: yr ydym yn attolwg i chwi tros
+<lb/>Grist, cymmodwch &acirc; Duw.
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/>Canys efe a wnaeth yn bechod trosom
+<lb/>ni, yr hwn ni adnabu bechod, fel ein gwnelid ni
+<lb/>yn gyfiawnder Duw ynddo ef.
+</seg></p>
+</div>
+<div type="chapter" n="6">
+<head><lb/>PEN. VI.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Y mae efe yn eu hannog hwynt i amryw rinweddau
+<lb/>rhagorol. 14 Ac yn anad dim i ochelyd <w>ymgymha<lb rend="shy"/>ru</w>&nbsp;&acirc;<isp/>'r rhai anghredadwy.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">F</hi>Elly ninnau gan gydweithio ydym yn <w>atto<lb rend="shy"/>lwg</w> i chwi na dderbynioch r&acirc;s Duw yn ofer
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>(<q>Canys</q> medd efe, <q>yn amser <w>cymmerad<lb rend="shy"/>wy</w> i<isp/>'th warandewais, ac yn nydd iechydwrieth
+<lb/>i<isp/>'th gynhorthwyais:</q> wele yn awr yr amser <w>cym<lb rend="shy"/>meradwy,</w> wele yn awr ddydd yr iechydwrieth)
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>Heb roddi dim achos tramgwydd mewn
+<lb/>dim, rhag beio ar y weinidogaeth.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Eithr gan ein gosod ein hun allan ym
+<lb/>mh&ocirc;b peth fel gweinidogion Duw, mewn
+<lb/>ammynedd mawr, mewn cystudd, mewn angen,
+<lb/>ac mewn cyfyngder,
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>Mewn gwialennodau, mewn carcharau,
+<lb/>mewn terfyscau, mewn poen, mewn <w>gwilia<lb rend="shy"/>dwriaetheu,</w> mewn ymprydiau,
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>Mewn purdeb, mewn gwybodaeth, mewn
+<lb/>ymaros, mewn tiriondeb yn yr Yspryd gl&acirc;n,
+<lb/>mewn cariad diragrith.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>Yng-air gwirionedd, yn nerth Duw, <w>me<lb rend="shy"/>wn</w> arfau cyfiawnder ar y llaw ddeheu, ac ar y
+<lb/>llaw asswy.
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Mewn parch ac ammarch, mewn cl&ocirc;d, ac
+<lb/>anglod, megis twyllw&ycirc;r, ac <hi rend="antiqua">er hynny</hi> yn gywir,
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Megis anadnabyddus, ac [er hynny] yn
+<lb/>adnabyddus, megis yn meirw, ac wele ni yn
+<lb/>fyw, megis wedi ein cospi, ac heb ein lladd,
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Megis yn dristion, ac etto yn <orig reg="wastad">oestad</orig> yn
+<lb/>llawen: megis yn dlodion, ac etto yn cyfoethogi
+<lb/>llawer: megis heb ddim <orig reg="gennym">cennym</orig>, ac <corr sic="atto" resp="transcr">etto</corr> yn
+<lb/>meddiannu p&ocirc;b peth.
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Oh y Corinthiaid, ein genau a agorwyd
+<lb/>i chwi, ein calon a ehangwyd.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Ni chyfyngwyd arnoch ynom ni, eithr
+<lb/>chwi a gyfyngwyd arnoch yn eich <w>ymyscaro<lb rend="shy"/>edd</w> eich hunain.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Am yr vn gwobr, megis wrth <hi rend="antiqua">fy</hi> mhlant
+<lb/>yr wyf yn dywedyd, ymehengwch chwithau.
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Nac iauer chwi yn anghymharus gyd &acirc;<isp/>'r
+<lb/>anffyddlonion, canys pa gymdeithas sydd
+<lb/>rhwng cyfiawnder, ac anghyfiawnder? a pha
+<lb/>gyfeillach rhwng goleuni a thywyllwch?
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>A pha gyssondeb sydd rhwng Crist a
+<lb/>Belial? neu pa ran sydd i<isp/>'r credadwy, ac i<isp/>'r
+<lb/>anghredadwy<corr sic="." resp="transcr">?</corr>
+<!-- check: Correct punctuation?-->
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>A pha gydfod sydd rhwng teml Dduw,
+<lb/>ac eulynnod? canys chwi yw teml Duw byw:
+<lb/>fel y dywedodd Duw, <q part="i">mi a bresswyliaf, ac a
+<lb/>rodiaf yn eu mysc hwynt: a mi a fyddaf eu Duw
+<lb/>hwynt, ac hwy a fyddant yn bobl i mi.</q>
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/><q part="f">Am hynny deuwch allan o<isp/>'u plith hwy,
+<lb/>ac ymddidolwch,</q> medd yr Arglwydd: <q part="i">ac na <w>chy<pb rend="shy" n="521v.a"/><lb/>ffyrddwch</w> ddim afla<expan>n</expan>, yna mi a<isp/>'ch derbyniaf chwi<orig/></q>
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/><q part="f">A mi a fyddaf yn D&acirc;d i chwi, a chwi a
+<lb/>fyddwch yn feibion, ac yn ferched i mi:</q> medd
+<lb/>yr Arglwydd holl-alluoc.
+</seg></p>
+</div>
+<div type="chapter" n="7">
+<head><lb/>PEN. VII.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Y mae yn eu hannog i sancteiddrwydd gan gofio iddynt
+<lb/>addewidion Duw. 8 Yn ymescusodi am eu tristau
+<lb/>hwynt. 13 Ac yn ddiolchgar yn coffau eu <w>caredi<lb rend="shy"/>grwydd</w> hwynt i Titus.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">A</hi>M hynny, gan f&ocirc;d i ni yr addewidion hyn
+<lb/>(annwylyd) yml&acirc;nhawn oddi wrth bob
+<lb/>halogrwydd cnawd, ac yspryd, gan berffeithio
+<lb/>sancteiddrwydd yn ofn Duw.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>Derbyniwch ni, ni wnaethom gam i n&ecirc;b,
+<lb/>ni lygrasom n&ecirc;b, nid yspeiliasom n&ecirc;b.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>Nid i<isp/>'ch condemnio yr wyf yn dywedyd,
+<lb/>canys mi a ddywedais o<isp/>'r blaen eich b&ocirc;d yn ein
+<lb/>calonnau ni, i gyd-farw, ac i gyd-fyw.
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Y mae hyfder fy ymadrodd yn fawr <w>wr<lb rend="shy"/>thych:</w> y mae gennif orfoledd mawr ynoch: yr
+<lb/>wyf yn llawn o ddiddanwch, ac yn dra-llawen
+<lb/>yn ein holl orthrymder.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>Canys wedi ein dyfod i Macedonia ni
+<lb/>chai ein cnawd ni ddim llonydd, eithr ni a <w>orth<lb rend="shy"/>rymmid</w> o b&ocirc;b parth, rhyfeloedd oddi allan, ac
+<lb/>ofn oddi mewn.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>Eithr Duw, yr hwn a ddidd&acirc;na y rhai <w>cystu<lb rend="shy"/>ddiedig,</w> a<isp/>'n diddanodd ni wrth ddyfodiad Titus
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>Ac nid &acirc;i ddyfodiad ef yn vnic, ond hefyd
+<lb/>&acirc;<isp/>'r diddanwch y diddanwyd ef gennych chwi,
+<lb/>pan fynegodd efe i ni eich awydd chwi, eich <w>ga<lb rend="shy"/>lar,</w> eich annwyl-serch i mi, fel y llawenheais i
+<lb/>yn fwy.
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Canys er i mi eich tristau chwi mewn <w><corr part="a" sic="ly" resp="transcr">lly</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="thyr">thyr</corr>,</w> nid yw edifar gennif, er b&ocirc;d yn edifar <w>gen<lb rend="shy"/>nif:</w> canys yr wyf yn gweled dristau o<isp/>'r llythr
+<lb/><corr sic="hunnw" resp="transcr">hwnnw</corr> chwi, er [b&ocirc;d hynny] tros amser.
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Yn awr yr ydwyf yn llawen, nid am eich
+<lb/>tristau, ond am eich tristau i edifeirwch, canys
+<lb/>tristau a wnaethoch yn dduwiol, fel na <w>chaw<lb rend="shy"/>soch</w> niwed mewn dim gennym ni.
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Canys duwiol dristwch a bair <w>edifeir<lb rend="shy"/>wch</w> er iechydwiaeth diedifarus: eithr bydol
+<lb/>dristwch a bair angeu.
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Canys wele, pa ofal ei faint a weithiodd
+<lb/>hyn ynoch chwi? [sef] tristau o honoch yn <w>ddu<lb rend="shy"/>wiol,</w>&nbsp;&icirc;e pa <orig reg="amddiffyn">amddeffyn</orig>, &icirc;e, pa ddigofaint, &icirc;e, pa ofn,
+<lb/>ie, pa chwant, &icirc;e, pa w&ycirc;nfydiaid, &icirc;e, pa ddial? ym
+<lb/>mh&ocirc;b peth yr ymddangosasoch i fod yn bur yn
+<lb/>y peth hyn.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>O herwydd pa ham, er scrifennu attoch,
+<lb/>ni [scrifennais] o<isp/>'i blegit ef a wnaethoedd y
+<lb/>cam, nac o blegit yr hwn a gafodd y cam, ond
+<lb/>er b&ocirc;d yn eglur i chwi, ein gofal am danoch ger
+<lb/>bron Duw.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Am hynny ni a ddiddanwyd o achos eich
+<lb/>diddanwch chwi, eithr llawenach o lawer <w>oe<lb rend="shy"/>ddem</w> am lawenydd Titus, am lonni ei yspryd
+<lb/>ef gennych oll.
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Canys os gorfoleddais ddim wrtho am
+<lb/>danoch, ni<isp/>'m cywilyddiwyd: eithr megis y
+<lb/>dywedasom wrthych b&ocirc;b dim mewn <w>gwirio<pb rend="shy" n="521v.b"/><lb/>nedd</w>, felly hefyd yr oedd ein gorfoleddiad ni
+<lb/>wrth Titus yn gywir.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Ac y mae ei galondid ef yn helaethach tu
+<lb/>ag attoch, wrth gofio eich vfydd-dod chwi oll,
+<lb/>pa f&ocirc;dd trwy ofn a dychryn, y derbyniasoch ef.
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Am hynny llawen wyf, am fod i mi <w>hy<lb rend="shy"/>der</w> arnoch ym mh&ocirc;b dim.
+</seg></p>
+</div>
+<div type="chapter" n="8">
+<head><lb/>PEN. VIII.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Y mae efe yn eu hannog hwynt i fod yn hael i<isp/>'r brodyr
+<lb/>tlodion, gan ddwyn iddynt siampl y <corr sic="Macedoniad" resp="transcr">Macedoniaid</corr>, 9
+<lb/>A Christ ei hun: 24 Gan ddangos hefyd y galle fod
+<lb/>ar y Corinthiaid eu heisieu hwythau.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">Y</hi>R ydym hefyd yn yspysu i chwi, (frodyr) y
+<lb/>gr&acirc;s Duw a roddwyd yn eglwysi <w>Mace<lb rend="shy"/>donia.</w>
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>Canys mewn mawr brofedigaeth <w>cy<lb rend="shy"/>studd</w> yr amlhaodd eu llawenydd hwynt, a<isp/><apo/>i <w>llw<lb rend="shy"/>yr</w> eithaf dlodi a amlhaodd i<isp/><apo/>w helaeth <w>gymmw<lb rend="shy"/>ynascarwch</w> hwynt.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>Canys yn eu gallu (yr wyfi yn <w>testiolae<lb rend="shy"/>thu)</w> ac vwch-law eu gallu yr oeddent yn <w>ewyll<lb rend="shy"/>yscar.</w>
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Gan ddeisyfu arnom trwy lawer o ymbil,
+<lb/>ar dderbyn o honom ni yr haelioni a<isp/>'r cyfranniad
+<lb/>[a roddent] i wasanaethu 'r seinctiau.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>A [hyn a wnaethant] nid fel yr oeddem yn
+<lb/>gobeitho, ond hwynt hwy a<isp/><apo/>i rhoddasant eu <w><corr part="a" sic="hu" resp="transcr">hu</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="bain">nain</corr></w> yn gyntaf i<isp/>'r Arglwydd, ac yna i ninnau,
+<lb/>trwy ewyllys Duw:
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>Fel y dymunasom ni a<isp/>'r Titus, (megis y
+<lb/>dechreuase efe o<isp/>'r blaen) felly hefyd orphen yr
+<lb/>vn-rhyw haelioni yn eich plith chwi.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>Am hynny fel yr ydych yn amlhau <sic>yn</sic>
+<lb/>mh&ocirc;b dim, mewn ffydd a gair, a gwybodaeth, ac
+<lb/>ym mh&ocirc;b astudrwydd, ac yn eich cariad tu ag
+<lb/>attom ni, [ceisiwch] amlhau hefyd yn y gr&acirc;s
+<lb/>hyn.
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Nid o rann gorchymyn yr ydwyf yn <w>dy<lb rend="shy"/>wedyd,</w> ond o blegit diwydrwydd rhai eraill, a
+<lb/>chan brofi gwirionedd eich cariad chwi.
+</seg></p>
+<p><seg type="verse" n="9">
+<lb/>Canys chwi a adwaenoch r&acirc;s ein <w>Har<lb rend="shy"/>glwydd</w> Iesu Grist, ac efe yn gyfoethog, ei <w>fy<lb rend="shy"/>ned</w> er eich mwyn chwi yn dlawd, fel y <w>cyfoe<lb rend="shy"/>thogid</w> chwi trwy ei dlodi ef.
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Ac yr ydwyf yn rhoddi cyngor yn hyn,
+<lb/>canys da fydde hyn i chwi, y rhai a <w>ddechreu<lb rend="shy"/>soch,</w> nid yn vnic wneuthur, ond hefyd <w>ewylly<lb rend="shy"/>sio</w> er yr llynedd.
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Ac yn awr gorphennwch wneuthur <w>hyn<lb rend="shy"/>ny</w> hefyd, fel, megis yr oedd y parodrwydd i <orig reg="ewyllysio"><w>e<lb rend="shy"/>wyllsio</w></orig>, felly y byddo hefyd i gwblau o<isp/>'r hyn
+<lb/>sydd gennych.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Canys os bydd yn gyntaf <w>ewyllyscar<lb rend="shy"/>wch,</w> cymmeradwy yw, yn &ocirc;l yr hyn sydd gan
+<lb/><corr sic="dd&ycirc;n&lsquo;nid" resp="transcr">dd&ycirc;n, nid</corr> yn &ocirc;l yr hyn nid yw ganddo.
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>Ac nid i fod esmwythdra i eraill, a <orig reg="chystudd"><w>chu<lb rend="shy"/>studd</w></orig> i chwithau.
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>Eithr mewn cymhwysdra y mae eich <w>he<lb rend="shy"/>laethrwydd</w> chwi y pryd hyn, yn [diwallu] eu <w>di<lb rend="shy"/>ffig</w> hwy, fel y gallo hefyd eu helaethrwydd <w><corr part="a" sic="hw." resp="transcr">hw</corr><lb rend="om-shy"/><corr resp="transcr" part="b" sic="ynt">ynt</corr></w> ddiwallu eich diffig chwithau, fel y byddo
+<lb/>cymhwysdra.
+</seg></p>
+<pb n="522r.a"/>
+<p><seg type="verse" n="15">
+<!-- check: OT quote -->
+<lb/>Megis y mae yn scrifennedic, <q>yr hwn
+<lb/>a gasclodd lawer, nid oedd ganddo weddill, a<isp/>'r
+<lb/>hwn a gasclodd ychydig, nid oedd arno eisieu.</q>
+</seg></p>
+<p><seg type="verse" n="16">
+<lb/>Ac i Dduw y byddo 'r diolch, yr hwn a
+<lb/>roddodd <orig reg="yng nghalon">yng-halon</orig> Titus yr vn-rhyw ofal
+<lb/>trosoch.
+</seg></p>
+<p><seg type="verse" n="17">
+<lb/>Am iddo gymmeryd y dymuniad, a chan
+<lb/>fod yn fwy gofalus, ddyfod attoch chwi o<isp/><apo/>i waith
+<lb/>ei hun.
+</seg></p>
+<p><seg type="verse" n="18">
+<lb/>Ac ni a ddanfonasom hefyd gyd ag ef y
+<lb/>brawd yr hwn y mae ei gl&ocirc;d yn yr Efengyl,
+<lb/>trwy 'r holl eglwysi,
+</seg></p>
+<p><seg type="verse" n="19">
+<lb/>(Ac nid [hynny] yn vnic, eithr hefyd efe
+<lb/>a ddewiswyd gan yr eglwysi i gydymdeithio &acirc;
+<lb/>ni a<isp/>'r gr&acirc;s hyn, yr hwn yr ydym ni yn ei <w>wasa<lb rend="shy"/>naethu,</w> o herwydd gogoniant yr Arglwydd, ac
+<lb/>[amlygiad] eich ewyllyscarwch chwithau)
+</seg></p>
+<p><seg type="verse" n="20">
+<lb/>Gan ymochelyd hyn, rhag i n&ecirc;b feio <w>ar<lb rend="shy"/>nom</w> yn yr helaethrwydd ymma, yr hwn yr <w>y<lb rend="shy"/>dym</w> ni yn ei wasanaethu.
+</seg></p>
+<p><seg type="verse" n="21">
+<lb/>Y rhai ydym yn rhagddarpar pethau
+<lb/>onest, nid yn vnic ger bron yr Arglwydd, ond
+<lb/>hefyd o flaen dynion.
+</seg></p>
+<p><seg type="verse" n="22">
+<lb/>Ac ni a anfonasom gyd &acirc; hwynt ein brawd,
+<lb/>yr hwn a brofasom yn fynych o amser, ei f&ocirc;d yn
+<lb/>ddyfal yn llawer o bethau, ac yn awr yn <w>ddyfa<lb rend="shy"/>lach</w> o lawer, am y mawr ymddyried [sydd <w>gen<lb rend="shy"/>nif]</w> ynoch.
+</seg></p>
+<p><seg type="verse" n="23">
+<lb/>Os [gofynnir] am Titus <orig reg="fy nghydymaith"><w>fyng-hydym<lb rend="shy"/>aeth</w></orig> [yw,] a chydweithydd tu ag attoch chwi:
+<lb/>neu [am] ein brodyr, cennadau yr eglwysi <w>[y<lb rend="shy"/>dynt,]</w> a gogoniant Crist.
+</seg></p>
+<p><seg type="verse" n="24">
+<lb/>Am hynny dangoswch tu ag attynt hwy
+<lb/>ger bron yr eglwysi, brofedigaeth o<isp/>'ch cariad, ac
+<lb/>o<isp/>'n hymffrost ni am danoch chwi.
+</seg></p>
+</div>
+<div type="chapter" n="9">
+<head><lb/>PEN. IX.</head>
+<argument rend="small">
+<head/>
+<p>
+<lb/>Y mae efe yn dangos yrru o honaw ef Titus, ac eraill <w>at<lb rend="shy"/>tynt,</w> fel y ceid hwynt yn barod, ac yn ewyllyscar i <w>gy<lb rend="shy"/>frannu,</w> 7 yr hwn beth sydd dda gan Dduw, 13
+<lb/>a moliannus iddo ef.</p>
+</argument>
+<p><seg type="verse" n="1">
+<lb/><hi rend="rubric">C</hi>Anys, tu ag at am y weinidogaeth i<isp/>'r
+<lb/>sainct, afraid yw i mi scrifennu attoch.
+</seg></p>
+<p><seg type="verse" n="2">
+<lb/>O herwydd mi a adwen eich <w>ewyllyscar<lb rend="shy"/>wch</w> chwi, [am] yr hwn yr wyf yn gorfoleddu
+<lb/>am danoch wrth y Macedoniaid, f&ocirc;d Achaia yn
+<lb/>barod er yr llynedd, a<isp/>'r z&ecirc;l [a ddaeth] oddi <w>wr<lb rend="shy"/>thych</w> chwi a annogodd lawer.
+</seg></p>
+<p><seg type="verse" n="3">
+<lb/>A mi a ddanfonais y brodyr, rhag i<isp/>'n <w>gor<lb rend="shy"/>foledd</w> ni am danoch f&ocirc;d yn ofer, yn y rhann hon,
+<lb/>fel (megis y dywedais) y byddoch barod:
+</seg></p>
+<p><seg type="verse" n="4">
+<lb/>Rhag, os y Macedoniaid a ddeuant gyd &acirc;
+<lb/>mi, a<isp/>'ch cael chwi yn amharod, b&ocirc;d i ni (ni <w>ddy<lb rend="shy"/>wedaf</w> i chwi) gael cywilydd yn hyn o sylwedd
+<lb/>gorfoledd.
+</seg></p>
+<p><seg type="verse" n="5">
+<lb/>O herwydd pa ham, mi a dybiais f&ocirc;d yn
+<lb/>angenrhaid attolwg i<isp/>'r brodyr ddyfod o<isp/>'r blaen
+<lb/>attoch, ac i gwplau o<isp/>'r blaen eich bendith yr hon
+<lb/>a ragfynegwyd, fel y bydde yn barod, megis fel
+<lb/>bendith, nid fel o gymmell.
+</seg></p>
+<p><seg type="verse" n="6">
+<lb/>A hyn [a ddywedaf,] a hauo yn brin a f&ecirc;d
+<lb/>hefyd yn brin, ac a hauo yn helaeth a f&ecirc;d hefyd yn
+<pb n="522r.b"/>
+<lb/>helaeth.
+</seg></p>
+<p><seg type="verse" n="7">
+<lb/>Pob vn megis y mae yn amcanu yn ei <w>ga<lb rend="shy"/>lon,</w> felly gwnaed nid yn athrist, neu wrth <w>gym<lb rend="shy"/>mell,</w> canys <q>y mae yn hoff gan Dduw roddwr
+<lb/>llawen.</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<lb/>Ac y mae Duw yn abl i beri i bob gr&acirc;s
+<lb/>amlhau tu ag attoch, fel y galloch chwi (&acirc; ph&ocirc;b
+<lb/>digonoldeb gennych, ym mh&ocirc;b dim, b&ocirc;b amser)
+<lb/>amlhau i b&ocirc;b gweithred dda,
+</seg></p>
+<p><seg type="verse" n="9">
+<!-- check: OT quote -->
+<lb/>Megis y mae yn scrifennedic, <q>efe a <w>was<lb rend="shy"/>carodd,</w> [ac] a roddodd i<isp/>'r tlodion, y mae ei <w>gyfi<lb rend="shy"/>awnder</w> yn parhau yn dragywydd.</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<lb/>Hefyd yr hwn sydd yn rhoddi h&acirc;d i<isp/>'r <w>hau<lb rend="shy"/>wr,</w> rhodded hefyd fara yn ymborth, ac <w>amlha<lb rend="shy"/>ued</w> eich h&acirc;d, a chwaneged ffrwyth eich <w>cyfi<lb rend="shy"/>awnder,</w>
+</seg></p>
+<p><seg type="verse" n="11">
+<lb/>Fel ym mh&ocirc;b ffordd i<isp/>'ch cyfoethoger i
+<lb/>b&ocirc;b cymmwynascarwch, yr hyn a weithia <w>trwy<lb rend="shy"/>ddom</w> ni ddiolch i Dduw.
+</seg></p>
+<p><seg type="verse" n="12">
+<lb/>Canys y mae gweinidogaeth y swydd
+<lb/>hon, nid yn vnic yn cyflawni angenrhaid y
+<lb/>sainct, ond hefyd yn amlhau, gan lawer diolch i
+<lb/>Dduw, trwy brofiad y weinidogaeth hon,
+</seg></p>
+<p><seg type="verse" n="13">
+<lb/>[Y rhai sy] yn moliannu Duw am eich
+<lb/>cydsynniol ymostwng i Efengyl Grist, ac am
+<lb/>eich cymmwynascar gyfranniad iddynt hwy, ac
+<lb/>i <corr sic="bawl" resp="transcr">bawb</corr> oll,
+</seg></p>
+<p><seg type="verse" n="14">
+<lb/>A thrwy eu gweddi hwythau y rhai <w>y<lb rend="shy"/>dynt</w> yn hiraethu am danoch chwi, am yr <w>ar<lb rend="shy"/>dderchawg</w> r&acirc;s Duw [yr hwn sydd] ynoch.
+</seg></p>
+<p><seg type="verse" n="15">
+<lb/>Ac i Dduw y byddo 'r diolch am ei <w>an<lb rend="shy"/>rhaethol</w> dawn.
+</seg></p>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI.2>
