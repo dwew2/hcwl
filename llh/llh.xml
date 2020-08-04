@@ -1,0 +1,2033 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../verse_dipl.xsl"?>
+<!-- normal stylesheet: prose.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!--%Conc;-->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Corpws hanesyddol yr iaith Gymraeg: Llyfr yr Homil&iuml;au</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by</resp> <name id="transcr">Ingo Mittendorf</name></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, September 2004</edition></editionStmt>
+    
+ <publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+<!-- one of (publisher distributor authority pubPlace address idno availability date p) -->
+</publicationStmt>   
+    
+ <sourceDesc>
+<bibl>
+<author><name id="author">James, Edward</name></author>
+<title>Pregethau a osodwyd allan trwy awdurdod i'w darllein ymhob Eglwys blwyf a phob capel er adailadaeth i'r bobl annyscedig. Gwedi eu troi i'r iaith Gymeraeg drwy waith Edward Iames. Robert Barker printiwr i odidawgaf fawrhydi y Brenin a'i Printiodd yn Llundain. Anno Dom. 1606.
+</title>
+<imprint>
+<pubPlace>Llundain</pubPlace>
+<publisher>Robert Barker</publisher>
+<date value="1606">1606</date>
+</imprint>
+<biblScope>i.153-76, ii.265-84, iii.165-84</biblScope>
+<!--Cf. Glanmor Williams, 'Edward James a Llyfr yr Homil&iuml;au', Morgannwg 25 (1981), 79-99. -->
+</bibl>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<p>The original contains a number of erroneous page numbers. These are recorded in the n attribute of the &lt;pb&gt; element, in the form: 
+    corrected page number, underscore, T[ext], uncorrected page number. For instance &lt;pb n=&quot;177_T175&quot;&gt; means that the original 
+    erroneously gives the page number as 175, but that this is page 177 in the sequence of page numbers.</p>
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs>.</p>
+    </langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date>November 2003</date>
+<respStmt>
+<resp></resp>
+</respStmt>
+<item>Text checked against conc</item>
+</change>
+
+<change>
+<date>18 Feb 2003</date>
+<respStmt>
+    <name>Ingo Mittendorf</name>
+<resp/>
+</respStmt>
+<item>Finished inputing and proofreading text. Catch-words, and marginal notes have so far been omitted. W inserted (but not around Superfl-shy)</item>
+</change>
+</revisionDesc>
+
+</teiHeader>
+<text>
+<group>
+
+<!--spelling and lg:
+V for U initially
+etti, erni, deni, ynd/yndd-; some missing /j/, ei~ai in all syll.;
+various forms of dylyu (dyly-/dyl-/dly-/dl-)
+some a'r = ar
+Fe, no Fo
+-->
+<text id="LlH_i">
+<body>
+<div>
+<head><supplied>Cyfrol i. 153-76, Pregeth yn erbyn putteindra ac aflendid.</supplied></head><!--check-->
+<pb n="153"/>
+<head>
+<lb/>&para;&nbsp;<hi rend="antiqua">Pregeth yn erbyn putteindra
+<lb/>ac aflendid.</hi></head>
+<div type="part" n="1">
+<p>
+<lb/><hi rend="rubric">E</hi>R bod aml heidiau o bob drygioni
+<lb/>a ddlyent eu ceryddu <corr resp="transcr" sic=")bobl">(bobl</corr>&nbsp;<w>Gristi<lb rend="shy"/>anogol</w> ddaionus) mae gwir <w>ddu<lb rend="shy"/>wioldeb,</w> a rhinweddol fywyd
+<lb/>gwedi myned mor <!--gloss here-->* ambell<note resp="transcr"><rs lang="cym">Glos yn aneglur.</rs> <rs lang="eng">Gloss unclear.</rs></note>, etto
+<lb/>vwch law pob drygioni arall,
+<lb/>mae anllywodraethus foroedd
+<pb n="154"/>
+<lb/>godineb neu dor-priodas, putteindra, <w>anlladrw<lb rend="shy"/>ydd,</w> ac aflendid, nid yn vnig gwedi torri i mewn,
+<lb/>ond hefyd gwedy llifeirio gan<isp/>mwyaf dros yr holl
+<lb/>fyd, er mawr ddianrhydedd Duw, ac anfeidrol
+<lb/>gabledd enw Christ, er cyhoeddus ddistryw gwir
+<lb/>grefydd, a llwyr ddinistr daionus <w>gyffredinolrw<lb rend="shy"/>ydd,</w> a hynny mor halaeth, megis trwy fynych <w>ar<lb rend="shy"/>fer</w> o<dsp/>hono, y mae y drygioni hwn gwedy tyfu i<isp/>'r
+<lb/>fath vwchder, megis <orig reg="haeachen">haychen</orig> ym-mhlith llawer
+<lb/>o bobl ni chyfrifir ef yn bechod: onid yn hytrach
+<lb/>yn ddigrifwch, yn gellwair a nwyfiant ieuengtid,
+<lb/>yr hwn ni cheryddir, ond a ddifrawir, yr hwn ni
+<lb/>chospir, ond a chwerddir o<isp/>'i blegid.
+</p>
+<p>
+<lb/>Am hyn anghenrhaid ydyw ar hyn o bryd <w>dra<lb rend="shy"/>ethu</w> wrthych am bechod putteindra a godineb, a
+<lb/>dangos i chwi faint y pechod <orig reg="yma">ym-ma</orig>, ac mor g&acirc;s,
+<lb/>mor ddigasog, ac mor ffiaidd ydyw ac y cyfrifwyd
+<lb/>ef bob amser ger bron Duw a phob d&ycirc;n daionus,
+<lb/>ac mor ddwys y cospwyd ef gynt, trwy gyfraith
+<lb/>Dduw a chyfraithiau llawer o dywysogion: ac
+<lb/>hefyd i ddangos <orig reg="iwch">i'wch</orig> ryw gyfarwyddyd, fel y
+<lb/>galloch (trwy r&acirc;s Duw) wachelyd erchyll bechod
+<lb/>putteindra a goddineb, a byw mewn glendid ac
+<lb/>honestrwydd. Ac er mwyn bod i chwi ystyried fod
+<lb/>putteindra a godineb yn bechodau ffiaidd <orig reg="yng ngolwg"><w>yngo<lb rend="shy"/>lwg</w></orig> Duw, chwi a gofiwch orchymmyn Duw,
+<lb/>Na wna odineb. Yr hwn air, Godineb, er bod yn
+<lb/>ei ddeall ef yn briodol am ymgymmysc ac <w>anghy<lb rend="shy"/>fraithlo<expan>n</expan></w> gysylltiad g&wcirc;r priodol &acirc; rhyw wraig arall
+<lb/>heb law ei wraig ei hun: neu wraig gyd&acirc; g&wcirc;r
+<lb/>heb law ei g&wcirc;r ei hun: etto trwy<isp/>'r gair hwn <w>he<lb rend="shy"/>fyd</w> yr arwyddocceir pob arfer anghyfraithlon o<isp/>'r
+<lb/>aelodau a osodwyd i genhedlu. Ac mae<isp/>'r vn <w>gor<lb rend="shy"/>chymmyn</w> hwn, yr hwn sydd yn gwahardd <w>godi<pb n="155" rend="shy"/><lb/>neb,</w> yn paentio yn gyflawn, ac yn gosod ger bron
+<lb/>ein llygaid ni faint pechod putteindra: ac yn <w>dan<lb rend="shy"/>gos</w> yn oleu mor ffiaidd y dylyai fod y pechod <w>ym<lb rend="shy"/>ma</w> gan bob d&ycirc;n honest ffyddlon.
+</p>
+<p>
+<lb/>A rhac i neb o<dsp/>honom feddwl fod gwedy ei <w>ddi<lb rend="shy"/>eithro</w> ef a<isp/>'i ddosparth oddiwrth y gorchymmyn
+<lb/>hwn: pa vn bynnag fythom ai h&ecirc;n ai ieuangc, ai
+<lb/>priodol ai am-mhriodol, ai g&wcirc;r ai gwraig, <w>gwran<lb rend="shy"/>dawn</w> pa beth a ddywaid Duw D&acirc;d trwy ei <w>odi<lb rend="shy"/>dawg</w> brophwyd Moses, Na fydded puttain <w>ym<lb rend="shy"/>mhlith</w> merched Israel, na phutteinwr <w>ym<lb rend="hyphen"/>mhlith</w> meibion Israel. Ymma y gwaherddir
+<lb/>pob putteindra, godineb ac aflendid, bob rhyw o
+<lb/>bobl, i bob gr&acirc;dd, i bob oedran yn ddiddieithrad.
+</p>
+<p>
+<lb/>A rhac i ni frith-dybied na pherthyn yr arch neu
+<lb/>y gorchymmyn hwn attom ni yn wir, <w>gwran<lb rend="shy"/>dawn</w> beth a ddywaid Christ (perffaith <w>ddyscaw<lb rend="shy"/>dwr</w> pob gwirionedd) yn y Testament newydd:
+<lb/>Chwi a glywsoch (medd Christ) ddywedyd wrth
+<lb/>y rhai gynt, Na wna odineb: ond yr ydwyfi yn
+<lb/>dywedyd i chwi, pwy bynnag a edrycho ar wraig
+<lb/>gan ei chwennychu, a wnaeth odineb &acirc; hi eisioes
+<lb/>yn ei galon. Ymma y mae ein Iachawdwr Christ,
+<lb/>nid yn vnig yn cryfhau ac yn cadarnhau y gyfraith
+<lb/>yr hon a roddase Dduw d&acirc;d yn yr h&ecirc;n destament,
+<lb/>trwy ei wasanaethwr <hi rend="antiqua">Moses</hi> yn erbyn godineb, ac
+<lb/>yn ei gwneuthur hi o gyflawn rym i barhau dros
+<lb/>fyth ym-mhlith proffeswyr ei enw ef yn y <w>Testa<lb rend="shy"/>ment</w> newydd: ond mae fe hefyd (gan ddamnio
+<lb/>anghyfaddas ddeongliadau y Pharis<hi rend="antiqua">&eogon;</hi>aid a<isp/>'r <w>scri<lb rend="shy"/>fennyddion,</w> y rhai a ddyscent fod y gorchymmyn
+<lb/>hwn yn peri i ni yn vnig ymgadw rhag godineb
+<lb/>oddi allan, ac nid rhag chwantau aflan a <w>gwy<lb rend="shy"/>niau</w> ammhur) yn dyscu i ni gyfan a chyflawn
+<pb n="156"/>
+<lb/>berffeithrwydd, purder a glendid buchedd, i gadw
+<lb/>ein cyrph yn ddihalog a<isp/>'n calonnau yn bur, ac yn
+<lb/>rhydd oddiwrth bob chwantau dr&wcirc;g, cnawdol
+<lb/>ddeisyfiadau a chyfundebau.
+</p>
+<p>
+<lb/>Pa fodd gan hynny y gallwn fod yn rhyddion
+<lb/>oddiwrth y gorchymmyn hwn: lle mae cymmaint
+<lb/>siars <corr resp="transcr" sic="&wcirc;edi">wedi</corr> ei osod arnom? a ddichon gw&acirc;s <w>wneu<lb rend="shy"/>thur</w> y peth a fynno, a<isp/>'i feistr yn gorchymmyn y
+<lb/>gwrthwyneb iddo? Onid Christ yw ein meistr,
+<lb/>a ninnau iddo ef yn weision? Pa fodd gan hynny
+<lb/>yr esceuluswn ni fodd ac ewyllys ein meistr, a <w>cha<expan>n</expan><lb rend="shy"/>lyn</w> ein ewyllys a<isp/>'n ffansi ein hunain? Fy<isp/><w>nghyfei<lb rend="shy"/>llon</w> i ydych chwi, medd Christ, os gwnewch y
+<lb/>pethau yr wyfi yn eu gorchymmyn i chwi. Yn
+<lb/>awr fe a orchymmynnodd ein meistr Christ i ni
+<lb/>ymwrthod &acirc; phob aflendid <orig reg="yng nghorff">yngorph</orig> ac Yspryd.
+<lb/>Hyn, wrth hynny, sy raid i ni ei wneuthur, os <w>cei<lb rend="shy"/>siwn</w> fodloni Duw.
+</p>
+<p>
+<lb/>Yr ydym ni yn darllein yn Efangel S. <w>Mat<lb rend="shy"/>thew,</w> i<isp/>'r Pharis<hi rend="antiqua">&aelig;</hi>aid a<isp/>'r Scrifennyddion ddigio
+<lb/>wrth Christ yn anial, am nad oedd ei ddiscyblon ef
+<lb/>yn cadw traddodiadau yr henafiaid; canys ni <w>ol<lb rend="shy"/>chent</w> eu dwylo cyn cyniawa neu swpperu. <w>Ym<lb rend="shy"/>mhlith</w> pethau eraill fe a attebodd Christ ac a
+<lb/>ddywedodd, Gwrandewch a deellwch, nid yr hyn
+<lb/>sydd yn myned i mewn i<isp/>'r genau sydd yn halogi
+<lb/>d&ycirc;n, ond y pethau a ddauant allan o<isp/>'r genau sydd
+<lb/>yn dyfod o<isp/>'r galon, a hwynt hwy a halogant
+<lb/>dd&ycirc;n. Canys o<isp/>'r galon y mae meddyliau dr&wcirc;g
+<lb/>yn dyfod, llofruddiaeth, tor-priodas, godinebau,
+<lb/>lledrad, camdystiolaeth, cabledd. Dymma y <w>pe<lb rend="shy"/>thau</w> sy yn halogi d&ycirc;n. Ymma y gallwn weled
+<lb/>nad llofruddiaeth, lledrad, cam-dystiolaeth a
+<lb/>chabledd yn vnig sydd yn halogi d&ycirc;n, ond hefyd
+<pb n="157"/>
+<lb/>meddyliau dr&wcirc;g, tor-priodas, godineb a <w>phut<lb rend="shy"/>teindra.</w>
+</p>
+<p>
+<lb/>Pwy sydd yn awr mor wan ei synwyr ac y <w>ty<lb rend="shy"/>bia</w> fod putteindra a goddineb yn bethau bychain
+<lb/>yscafn ger bron Duw. Mae Christ yr hwn yw<isp/>'r
+<lb/>gwirionedd ac ni ddichon ddywedyd celwydd, yn
+<lb/>dywedyd fod meddyliau dr&wcirc;g, tor-priodas, <w>put<lb rend="shy"/>teindra</w> a godineb yn halogi d&ycirc;n; hynny yw, yn
+<lb/>llygru corph ac enaid d&ycirc;n, ac yn ei wneuthur ef
+<lb/>o deml yr Yspryd gl&acirc;n, yn dommen front ac yn
+<lb/>dderbynfa holl ysprydion afl&acirc;n: o d&ycirc; Dduw yn
+<lb/>drigle sathan.
+</p>
+<p>
+<lb/>Trachefn yn Efangel Ioan pan ddygpwyd y
+<lb/>wraig a ddaliasid mewn godineb, ger bron Christ,
+<lb/>fe a ddywad wrthi hi d&ocirc;s, ac na phecha mwyach.
+<lb/>Onid ydyw ef ymma yn galw putteindra yn <w>be<lb rend="shy"/>chod?</w> a pha beth yw gwobr pechod, ond <w>tragwy<lb rend="shy"/>ddol</w> angau? Os yw putteindra yn bechod, nid
+<lb/>yw gyfreithlon i ni ei wneuthur, o herwydd fel
+<lb/>y dywaid Ioan, Yr hwn a wna bechod o ddiafol
+<lb/>y mae. Ac fe a ddywed ein Iachawdwr fod pob
+<lb/>vn a wnel bechod yn gaethwas i bechod. Oni
+<lb/>bai fod putteindra yn bechod, diau na buasai <w>Io<lb rend="shy"/>an</w> fedyddiwr yn ceryddu Herod am gymmeryd
+<lb/>gwraig ei frawd: ond fe a ddywedodd wrtho yn
+<lb/>oleu, Nid cyfraithlon yw i ti gymmeryd gwraig
+<lb/>dy frawd. Nid arbedodd ef butteindra Herod, er
+<lb/>ei fod ef yn frenhin cadarn, ond fe a<isp/>'i ceryddodd
+<lb/>ef yn <term>* eofn</term><gloss>* Hyf.</gloss><!-- -f unclear--> am ei fywyd melldigedig, drwg, er
+<lb/>iddo ef golli ei ben am hynny. Ond gwell oedd
+<lb/>gantho oddef angau n&acirc; gweled dianrhydeddu
+<lb/>Duw, drwy dorri ei sanctaidd airch a<isp/>'i <w>orchym<lb rend="shy"/>mynion</w> ef, ie n&acirc; goddef mewn brenhin <w>buttein<lb rend="shy"/>dra</w> heb geryddu.
+</p>
+<pb n="158"/>
+<p>
+<lb/>Pe na buasai putteindra ddim ond digrifwch
+<lb/>a chellwair heb achos ei wneuthur cyfrif o<dsp/>hono
+<lb/>(megis y tybia llawer am<dsp/>dano yn y dyddiau <w>ym<lb rend="shy"/>ma)</w> yn wir fe fuasai Ioan yn fwy n&acirc; dwbl allan
+<lb/>o<isp/>'i bwyll, os ai ef tan anfodd brenhin, os <w>godde<lb rend="shy"/>fai</w> ei daflu i garchar, a cholli ei ben am beth
+<lb/>gwael dibris. Ond fe a wyddai Ioan yn dda <w>ddi<lb rend="shy"/>gon</w> mor frwnt, mor ddrewllyd, mor <corr resp="transcr" sic="ffiaid">ffiaidd</corr> yw <w>pe<lb rend="shy"/>chod</w> putteindra <orig reg="yng ngolwg">yngolwg</orig> Duw, ac am hynny ni
+<lb/>oddefai ef mo<dsp/>hono heb geryddu; na wnai, mewn
+<lb/>brenhin.
+</p>
+<p>
+<lb/>Onid ydyw putteindra gyfreithlon mewn
+<lb/>brenhin, nid yw gyfreithlon mewn deiliad. Onid
+<lb/>yw putteindra gyfraithlon mewn d&ycirc;n cyhoedd, a
+<lb/>fyddo a swydd gyhoedd gantho, yn wir nid yw
+<lb/>gyfraithlon mewn vn diswyddau. Onid yw <w>gy<lb rend="shy"/>fraithlon</w> nac mewn brenhin nac mewn deiliad,
+<lb/>nac mewn cyhoedd swyddog, nac mewn vn <w>diswy<lb rend="shy"/>ddau:</w> yn wir nid yw gyfraithlon nac mewn g&wcirc;r
+<lb/>nac mewn gwraig, o ba r&acirc;dd neu oedran bynnac
+<lb/>y b&ocirc;nt.
+</p>
+<p>
+<lb/>Hefyd yr ydym ni yn darllein <orig reg="yng ngweithredoedd"><w>yngweithredo<lb rend="shy"/>edd</w></orig> yr Apostolion, pan gasclodd yr Apostolion yr
+<lb/>henuriaid a<isp/>'r holl gynnulleidfa ynghyd, i lonyddu
+<lb/>calonnau y ffyddloniaid y rhai oedd yn arhos yn
+<lb/>Antiochia (y rhai a aflonyddasid trwy <w>gauathra<lb rend="shy"/>wiaeth</w> rhyw Iuddewaidd bregethwyr) hwy a
+<lb/><corr resp="transcr" sic="ddanfnasant">ddanfonasant</corr> air i<isp/>'r brodyr, weled yn dda gan yr
+<lb/>Yspryd gl&acirc;n a hwyntau, na ddodent arnynt faich
+<lb/>amgenach n&acirc;<isp/>'r pethau anghenrheidiol hyn: <w>ym<lb rend="shy"/>mhlith</w> pethau eraill hwy a orchymmynnasant
+<lb/>iddynt ymgadw rhag delw-addoliad a godineb,
+<lb/>oddiwrth y rhai (eb y hwynt) os chwi a <w>ymge<lb rend="shy"/>dwch,</w> da y gwnewch.
+</p>
+<pb n="159"/>
+<p>
+<lb/>Edrychwch ymma fal nad ydyw y tadau <w>sanc<lb rend="shy"/>taidd</w> bendigaid ymma o Eglwys Ghrist, yn <w>go<lb rend="shy"/>sod</w> ar y gynnulleidfa ddim ond pethau <w>anghen<lb rend="shy"/>rheidiol.</w> Ystyriwch hefyd fod yn cyfrif <w>puttein<lb rend="shy"/>dra</w> a godineb ym-mhlith y pethau a <w>orchymmyn<lb rend="shy"/>nir</w> i<isp/>'r brodyr o Antiochia ymgadw oddiwrthynt.
+<lb/>Anghenrhaid am hynny yw, wrth gyfundeb a
+<lb/>therfyniad yr Yspryd gl&acirc;n a<isp/>'r Apostolion a<isp/>'r <w>henu<lb rend="shy"/>riaid</w> a<isp/>'r holl gynnulleidfa, fod ini felly ymgadw
+<lb/>oddiwrth odineb a phutteindra, megis oddiwrth
+<lb/>ddelw-addoliad ac ofergoel. Mae yn anghenrhaid
+<lb/>er Iachawdwriaeth, ymgadw rhag <w>delw-addo<lb rend="shy"/>liad,</w> felly y mae ymgadw rhag putteindra. Oes
+<lb/>ffordd sydd nes a dywys i ddamnedigaeth, n&acirc;&nbsp;<w>de<lb rend="shy"/>lw-addoliad?</w> nag oes. Felly hefyd nid oes ffordd
+<lb/>nes a dywys i <corr resp="transcr" sic="ddistrw">ddistryw</corr> corph ac enaid, n&acirc; godineb
+<lb/>a phutteindra.
+</p>
+<p>
+<lb/>Pa le weithian y mae y bobl a wn&acirc;nt mor <w>fy<lb rend="shy"/>chan</w> o dor-priodas, putteindra godineb ac <w>aflen<lb rend="shy"/>did?</w> Mae yn anghenrhaid, medd yr Yspryd gl&acirc;n,
+<lb/>medd y bendigedig Apostolion, medd yr <w>henuri<lb rend="shy"/>aid</w> a holl gynnulleidfa Ghrist; mae yn <w>anghen<lb rend="shy"/>rhaid,</w> meddant, er Iachawdwriaeth ymgadw
+<lb/>oddiwrth butteindra. Os yw anghenrhaid i <w>Ie<lb rend="shy"/>chydwriaeth,</w> gwae y rhai gan esceuluso eu <w>hiechy<lb rend="shy"/>dwriaeth,</w> a roddant eu meddyliau i bechod mor
+<lb/>frwnt, ac mor ddrewllyd, i fai cynddr&wcirc;g, ac i
+<lb/>ffieidd-dra mor erchyll.
+</p>
+</div>
+<pb n="160"/>
+<div type="part" n="2">
+<head>
+<lb/>&para;&nbsp;<hi rend="antiqua">Yr ail rhan o<isp/>'r bregeth yn
+<lb/>erbyn goddineb.</hi></head>
+<p>
+<lb/><hi rend="rubric">F</hi>E a ddangoswyd i chwi yn y rhan
+<lb/>gyntaf o<isp/>'r bregeth yn erbyn <w>go<lb rend="shy"/>ddineb,</w> fel y mae y bai hwnnw ar
+<lb/>hyn o amser, yn teyrnasu vwch
+<lb/>law pob bai arall: a pha beth yw
+<lb/>ystyr y gair, Godineb: a pha fodd
+<lb/>y mae<isp/>'r Scrythur l&acirc;n yn ein
+<lb/>hannog ac yn ein cynghori ni i wachelyd y bai
+<lb/>brwnt ymma: ac yn ddiwethaf, pa lygredigaeth
+<lb/>sydd yn dyfod ar enaid d&ycirc;n, oddiwrth y pechod <w>ym<lb rend="shy"/>ma,</w> godineb.
+</p>
+<p>
+<lb/>Awn rhagom ym-mhellach a gwrandawn pa
+<lb/>beth a ddywaid y sanctaidd Apostol S. Paul am
+<lb/>y peth ymma: yr hwn yn scrifennu at y <w>Rhufeini<lb rend="shy"/>aid,</w> sydd gantho y geiriau hyn, Bwriwn ymmaith
+<lb/>weithredoedd y tywyllwch, a gwiscwn arfau y
+<lb/>goleuni. Rhodiwn yn weddus megis wrth liw
+<lb/>dydd, nid mewn cyfeddach a meddwdod, nid mewn
+<lb/>cydorwedd ac anlladrwydd, nid mewn cynnen a
+<lb/>chenfigen, eithr gwiscwch am<dsp/>danoch yr <w>Arglw<lb rend="shy"/>ydd</w> Iesu Ghrist: ac na fydded eich gofal dros y
+<lb/>cnawd er mwyn porthi ei chwantau.
+</p>
+<p>
+<lb/>Ymma y mae<isp/>'r Apostol yn ein hannog i daflu<lb rend="superfluous-shy"/>ymmaith weithredoedd y tywyllwch, y rhai, <w>ym<lb rend="shy"/>mhlith</w> eraill, y mae fe yn galw cyfeddach, <w>meddw<lb rend="shy"/>dod,</w> cydorwedd ac anlladrwydd, y rhai ydynt oll
+<lb/>wasanaeth-wyr i<isp/>'r bai ymma, a darpariaethau i
+<lb/>dywys ac i arwain i<isp/>'r brwnt bechod cnawdol
+<lb/>ymma.
+</p>
+<p>
+<lb/>Mae fe yn eu galw hwy yn weithredoedd y <w>ty<lb rend="shy"/>wyllwch,</w> nid yn vnig am fod yn arfer o<isp/>'u <w>gwneu<pb n="161" rend="shy"/><lb/>thur</w> mewn tywyllwch, yn amser n&ocirc;s, (o herwydd
+<lb/>pob vn ar y sydd yn gwneuthur drwg, sydd yn <w>ca<lb rend="shy"/>shau</w> y goleuni, ac ni ddaw i<isp/>'r goleuni, rhag <w>argy<lb rend="shy"/>oeddi</w> ei weithredoedd) ond am eu bod yn ein <w>ty<lb rend="shy"/>wys</w> ac yn ein harwain ar hyd yr vniawn ffordd
+<lb/>i<isp/>'r tywyllwch eithaf, lle bydd wylofain a <w>rhinci<lb rend="shy"/>an</w> dannedd.
+</p>
+<p>
+<lb/>Ac mae fe yn dywedyd mewn man arall yn yr
+<lb/>vn Epistol, na all y rhai ydynt yn y cnawd <w>foddlo<lb rend="shy"/>ni</w> Duw: am hynny yr ydym, medd ef, yn <w>ddyled<lb rend="shy"/>wyr,</w> nid i<isp/>'r cnawd, i fyw yn &ocirc;l y cnawd; canys
+<lb/>os byw a fyddwn yn &ocirc;l y cnawd, meirw fyddwn.
+<lb/>A thrachefn y dywaid, Gwachelwch odineb. Pob
+<lb/>pechod a wnelo d&ycirc;n, oddi allan ei gorph y mae; ond
+<lb/>yr hwn a wnel odineb sydd yn pechu yn erbyn ei
+<lb/>gorph ei hunan. Oni wyddoch fod eich corph yn
+<lb/>deml i<isp/>'r Yspryd gl&acirc;n sydd ynoch, yr hwn yr ydych
+<lb/>yn ei gael gan Dduw, ac nad ydych eiddoch chwi
+<lb/>eich hunain? canys er gwerth y<isp/>'ch prynwyd chwi,
+<lb/>am hynny gogoneddwch Dduw yn eich corph &amp;c.
+<lb/>Ac ychydig o<isp/>'r blaen y dywaid, Oni wyddoch fod
+<lb/>eich cyrph yn aelodau i Grist. Am hynny a <w>gym<lb rend="shy"/>merafi</w> aelodau Christ, a<isp/>'u gwneuthur yn aelodau
+<lb/>puttein? Na atto Duw. Oni wyddoch fod yr
+<lb/>hwn sydd yn cydio &acirc; phuttain yn vn corph &acirc; hi?
+<lb/>Canys y ddau, eb efe, a fyddant vn cnawd: ond yr
+<lb/>hwn a gyssylltir &acirc;<isp/>'r Arglwydd, vn yspryd yw.
+</p>
+<p>
+<lb/>Pa eiriau duwiol y mae S. Paul yn ei hadrodd
+<lb/>ymma, er mwyn ein hannog a<isp/>'n cynghori <w>oddi<lb rend="shy"/>wrth</w> butteindra a phob aflendid? Teml, medd ef,
+<lb/>yr Yspryd gl&acirc;n ydyw eich aelodau chwi, yr hon
+<lb/>pwy bynnag a<isp/>'i halogo, fe a<isp/>'i dinistria Duw ef,
+<lb/>medd S. Pawl. Os teml yr Yspryd gl&acirc;n ydym,
+<lb/>onid anghymmhesur yw i ni yrru y sanctaidd <w><corr resp="transcr" part="a" sic="Y">Y</corr><pb n="162" rend="shy"/><lb/><corr resp="transcr" part="b" sic="pryd">spryd</corr></w> hwn oddiwrthym trwy butteindra, a gosod
+<lb/>yn ei le ef ddr&wcirc;g ysprydion godineb ac aflendid, ac
+<lb/>ymgyssylltu &acirc; hwynt a<isp/>'u gwasanaethu. Fe a<isp/>'ch
+<lb/>prynwyd chwi, medd ef, yn brid: am hynny <w>gogo<lb rend="shy"/>neddwch</w> Dduw yn eich cyrph.
+</p>
+<p>
+<lb/>Fe brynodd Christ yr oen dieniwed hwnnw ni,
+<lb/>o gaethiwed diafol, nid &acirc; phethau llygredig, megis
+<lb/>arian neu aur, ond &acirc; gwerthfawr waed ei galon. I
+<lb/>ba ddefnydd y gwnaeth efe hynny? ai er <corr resp="transcr" sic="mwn">mwyn</corr> bod
+<lb/>i ni gwympo eilwaith i<isp/>'n h&ecirc;n aflendid a<isp/><apo/>n ffiaidd
+<lb/>fywyd? Nag<dsp/>&ecirc; yn wir, ond er mwyn bod i ni ei <w>wa<lb rend="shy"/>sanaethu</w> ef mewn sancteiddrwydd a chyfiawnder
+<lb/>holl ddyddiau ein heinioes: er mwyn bod i ni ei
+<lb/>ogoneddu ef yn ein cyrph, trwy burder a glendid
+<lb/>buchedd. Mae fe yn dangos hefyd fod ein cyrph
+<lb/>ni yn aelodau i Grist. Mor anweddaidd, wrth
+<lb/>hynny, yw i ni beidio a bod yn gydcorph a<isp/>'n
+<lb/>gwneuthur yn vn &acirc; Christ, a thrwy butteindra
+<lb/>ymgyssylltu a<isp/>'n gwneuthur yn vn &acirc; phuttain? Pa
+<lb/>ammarch, neu pa gam goleuach a allwn ni ei
+<lb/>wneuthur i Ghrist, n&acirc; chymmeryd aelodau ei
+<lb/>gorph ef oddiwrtho, a<isp/>'u cyssylltu hwynt &acirc;&nbsp;<w>phuttai<lb rend="shy"/>niaid,</w>&nbsp;&acirc; diawliaid ac ag ysprydion dr&wcirc;g? A pha
+<lb/>ddianrhydedd fwy a allwn ni ei wneuthur &acirc; ni ein
+<lb/>hunain, n&acirc; thrwy afle<expan>n</expan>did colli y fath odidog fraint
+<lb/>a rhydd-did, gan ein gwneuthur ein hunain yn
+<lb/>gaethweision ac yn druain garcharorion i <w>yspry<lb rend="shy"/>dion</w> y tywyllwch?
+</p>
+<p>
+<lb/>Ystyriwn gan hynny yn gyntaf ogoniant Christ:
+<lb/>yn ail ein st&acirc;t, ein braint a<isp/>'n rhydd-did ein hunain,
+<lb/>yn yr hwn y gosododd Duw ni, gan roddi i ni ei
+<lb/>sanctaidd Yspryd: ac ymddiffynnwn hwnnw yn
+<lb/>gefnog yn erbyn sathan a<isp/>'i holl fachellion <w>twy<lb rend="shy"/>llodrus:</w> fel yr anrhydedder Christ, ac na chollom<pb n="163" rend="superfluous-shy"/><lb/>ninnau ein rhydd-did, ond arhos yn wastadol yn
+<lb/>vn yspryd ag ef.
+</p>
+<p>
+<lb/>Hefyd yn ei epistol at yr Ephesiaid, mae<isp/>'r <w>Apo<lb rend="shy"/>stol</w> sanctaidd yn gorchymmyn i ni fod mor b&ucirc;r ac
+<lb/>mor rhydd oddiwrth odineb, anlladrwydd a phob
+<lb/>aflendid, fal na enwer hwy yn ein plith, megis y
+<lb/>gwedde i sainct, na serthedd, na geiriau ff&ocirc;l, na
+<lb/>choeg-ddigrifwch, y rhai nid ydynt weddus, eithr
+<lb/>yn hytrach diolchgarwch: canys yr ydych yn <w>gwy<lb rend="shy"/>bod</w> hyn, am bob putteinwr, neu aflan, neu gybydd
+<lb/>yr hwn sydd ddelw-addolwr, nad oes iddynt <w>etife<lb rend="shy"/>ddiaeth</w>&nbsp;<orig reg="yn nheyrnas">yn-nheyrnas</orig> Christ a Duw. Ac er mwyn
+<lb/>cofio o<dsp/>honom fod yn sanctaidd, yn bur ac yn rhydd
+<lb/>oddiwrth bob aflendid, mae<isp/>'r Apostol sanctaidd
+<lb/>yn ein galw ni yn sainct, am ein bod gwedy ein
+<lb/>sancteiddio a<isp/>'n gwneuthur yn sanctaidd trwy
+<lb/>waed Christ, a thrwy<isp/>'r Yspryd glan.
+</p>
+<p>
+<lb/>Gan hynny os ydym sainct, pa beth sydd i ni a
+<lb/>wnelom ag arferion y cenhedloedd. Megis (medd
+<lb/>S. Petr) y mae<isp/>'r hwn a<isp/>'ch galwodd chwi yn <w>sanc<lb rend="shy"/>taidd,</w> byddwch chwithau hefyd sanctaidd <orig reg="ym mhob"><w>ym<lb rend="shy"/>mhob</w></orig> ymarweddiad: o herwydd scrifennedig yw,
+<lb/>Am hynny byddwch sanctaidd, canys sanctaidd
+<lb/>ydwyfi. Hyd hyn y clywsoch orthrymmed pechod
+<lb/>yw godineb a phutteindra, ac mor ffiaidd gan
+<lb/>Dduw ef trwy<corr resp="transcr" sic="r'"><isp/>'r</corr> Scrythur. A pha fodd nad y <w>pe<lb rend="shy"/>chod</w> ffiaiddiaf ac a ddichon bod, yw yr hwn ni ellir
+<lb/>vnwaith ei enwi ym-mhlith Christianogion? llai
+<lb/>o lawer y dlyid mewn modd yn y byd ef <w>wneu<lb rend="shy"/>thur</w> ef.
+</p>
+<p>
+<lb/>Ac yn siccr os ni a bwyswn faint y pechod <w>ym<lb rend="shy"/>ma,</w> ac a<isp/>'i hystyriwn ef yn ei iawn rywogaeth, ni
+<lb/>a gawn weled mai pechod putteindra yw<isp/>'r <term>* llynn</term><gloss>Ylling<!--??--></gloss>
+<lb/>diffaithiaf, a<isp/>'r pwll bryntaf, a<isp/>'r soddfa ddrewllyd,
+<pb n="164"/>
+<lb/>i<isp/>'r hwn y llifeiria ac y rh&ecirc;d pob pechod, a phob <w>dry<lb rend="shy"/>gioni</w> arall, lle hefyd y mae iddynt drigfa a <w>phres<lb rend="shy"/>wylfod.</w>
+</p>
+<p>
+<lb/>O blegid onid yw y godinebwr yn falch o<isp/>'i <w>but<lb rend="shy"/>teindra?</w> fel y dywaid y g&wcirc;r call, Maent hwy yn
+<lb/>llawen darffo iddynt wneuthur yr hyn sydd
+<lb/>ddr&wcirc;g, ac yn llawenychu mewn pethau dr&wcirc;g <w>ani<lb rend="shy"/>anol.</w> Onid ydyw y godinebwr yn ddiog, ac heb
+<lb/>ymhoffi mewn vn ymarfer dduwiol, ond yn vnig
+<lb/>yn ei hoffddigrifwch brwnt anifeiliaidd hynny?
+<lb/>Onid ydyw ei feddwl ef wedy ei lusco a<isp/>'i dynnu
+<lb/>ymmaith oddiwrth bob amcanion rhinweddol,
+<lb/>ac oddiwrth bob trafael ffrwythlon, a chwedy <w>ym<lb rend="shy"/>roi</w> yn vnig i ddychymmygion cnawdol? Onid
+<lb/>yw y putteinwr yn rhoddi ei feddwl ar lothineb, er
+<lb/>mwyn bod yn barottach i wasanaethu ei wyniau
+<lb/>a<isp/>'i hoffderau cnawdol? Onid ydyw y godinebwr
+<lb/>yn rhoddi ei feddwl a'r gybydd-dod, ac i grafu ac
+<lb/>i gasclu oddiar eraill, er mwyn bod yn aplach i
+<lb/>faentaenio ei butteiniaid, a<isp/>'i ordderchadon, ac i
+<lb/>barhau yn ei serch brwnt anghyfraithlon? <w>O<lb rend="shy"/>nid</w> ydyw ef yn chwyddo mewn cenfigen yn <w>er<lb rend="shy"/>byn</w> eraill, gan ofni hudo ei ysclyfaeth ef, a<isp/>'i <w>thyn<lb rend="shy"/>nu</w> hi ymmaith oddiwrtho? Hefyd onid ydyw efe
+<lb/>yn llidiog ac yn llawn o ddigofaint ac <w>anfodlon<lb rend="shy"/>rwydd,</w> ie yn erbyn y rhai anwylaf gantho, os
+<lb/>rhwystrir vn amser ei ddamuniad cnawdol <w>diaw<lb rend="shy"/>ledig</w> ef? Pa bechod, neu pa ryw o bechod ni <w>chys<lb rend="shy"/>sylltir</w>&nbsp;&acirc; godineb a phutteindra?
+</p>
+<p>
+<lb/>Rhyw anghenfil yw efe a llawer o bennau iddo:
+<lb/>mae fe yn derbyn pob rhyw feiau, ac yn gwrthod
+<lb/>pob rhyw rinweddau. Os ydyw vn pechod yn
+<lb/>dwyn damnedigaeth, pa beth a dybygir am y <w>pe<lb rend="shy"/>chod</w> a gyssylltir ac a gyfeillechir a phob drygioni:
+<pb n="165"/>
+<lb/>yr hwn y mae pob peth sydd g&acirc;s gan Dduw, <w>dam<lb rend="shy"/>nedig</w> i dd&ycirc;n, a h&ocirc;ff gan satha<expan>n</expan> yn ei ganlyn. Mawr
+<lb/>yw<isp/>'r ddamnedigaeth sydd <orig reg="yng nghrog">ynghrog</orig> vwch-ben
+<lb/>godinebwyr a phutteinwyr.
+</p>
+<p>
+<lb/>I ba beth y sonniaf am aflesau eraill a dyfant
+<lb/>ac a lifant o <term>* lacca</term><gloss>Dom.</gloss> drewllyd putteindra? Oni
+<lb/>chollir trwy odineb a phutteindra enw da g&wcirc;r
+<lb/>neu wraig, yr hwn yw<isp/>'r trysor y mae pob d&ycirc;n <w>ho<lb rend="shy"/>nest</w> yn gwneuthur mwyaf cyfrif o<dsp/>hono? Pa <w>dref<lb rend="shy"/>tadaeth</w> neu fywyd? pa olud? pa dda? pa gyfoeth
+<lb/>nas difa putteindra, ac nas d&wcirc;g yn ddiddim
+<lb/>mewn ychydig amser? Pa ddewrder a pha gryfder
+<lb/>ni wanheir yn fynych ac ni ddistrywir trwy <w>but<lb rend="shy"/>teindra?</w> Pa synwyr cyn barotted na ddotier ac
+<lb/>na ddeleir trwy butteindra? Pa degwch (er mor
+<lb/>odidog fo) nad anffurfir trwy butteindra?
+</p>
+<p>
+<lb/>Onid ydyw putteindra yn elyn i brydferth <w>flo<lb rend="shy"/>deuyn</w> ieuengctid? Ac onid yw yn dwyn <w>pen<lb rend="shy"/>llwydni</w> a henaint cyn yr amser? Pa ddawn <w>na<lb rend="shy"/>turiol</w> (er mor werthfawr fo) na lygrir trwy <w>but<lb rend="shy"/>teindra?</w> Onid yw y fr&ecirc;ch fawr a llawer o glefydo<expan>n</expan>
+<lb/>eraill yn dyfod o butteindra? O ba le y daw <w>cym<lb rend="shy"/>maint</w> o fastardiaid a phlant ordderch, i fawr <w>an<lb rend="shy"/>fodlonrwydd</w> Duw, a thorriad priodas sanctaidd,
+<lb/>onid o butteindra? Pa faint sydd yn difa eu da
+<lb/>a<isp/>'u golud, ac yn cwympo yn y diwedd i ddygyn
+<lb/>dlodi, ac yn &ocirc;l hynny yn lledratta ac yn cael eu
+<lb/>crogi, trwy butteindra? Pa ymryson a lladdf&acirc;u
+<lb/>a ddaw o butteindra? Pa sawl merch a &nbsp;<term><w>* anwy<lb rend="shy"/>ryfir?</w></term><gloss>Dreisir,</gloss> Pa sawl gwraig a lygrir? Pa sawl <w>gwe<lb rend="shy"/>ddw</w> a wradwyddir trwy butteindra? Pa faint
+<lb/>y tlodir ac y trallodir y cyfoeth-cyffredin trwy
+<lb/>butteindra? Pa faint y dirmygir ac y ceblir gair
+<lb/>Duw trwy butteindra a phutteinwyr?
+</p>
+<pb n="166"/>
+<p>
+<lb/>O<isp/>'r pechod hwn y daw llawer o<isp/>'r yscaroedd,
+<lb/>y rhai a arferir yn y dyddiau hyn mor arferedig,
+<lb/>trwy awdurdod gw&ycirc;r diswyddau, er mawr <w>ddi<lb rend="shy"/>gofaint</w> Duw, a thorriad sancteiddiaf gwlwm a
+<lb/>rhwym priodas: o herwydd pan ddarffo i<isp/>'r <w>pe<lb rend="shy"/>chod</w> ffiaidd ymma ymlusco vnwaith i <term>* ascre</term><gloss>Fonwes.</gloss> y
+<lb/>godinebwr, fel y rhwydir ef mewn cariad aflan
+<lb/>anghyfraithlon, fe a ddiystyra yn y man ei wir a<isp/>'i
+<lb/>gyfraithlon wraig, fe a gash&acirc; ei phresennoldeb
+<lb/>hi, mae ei chwmpeini hi yn drewi ac yn <w>wrthwy<lb rend="shy"/>nebus</w> gantho: pa beth bynnag a wn&ecirc;l hi, a <w>oge<lb rend="shy"/>nir:</w> nid oes llonyddwch yn y t&ycirc; yr hyd y bytho hi
+<lb/>mewn golwg: am hynny, i wneuthur chwedl
+<lb/>byrr, rhaid iddi fyned ymmaith, o blegid ni <w>ddi<lb rend="shy"/>chon</w> ei g&wcirc;r ei haros hi ym-mhellach. Fel hyn
+<lb/>trwy butteindra y troir ymmaith y wraig honest
+<lb/>ddieniwed, ac y derbynir puttain yn ei lle hi.
+</p>
+<p>
+<lb/>Yn yr vn modd y digwydda yn fynych o ran y
+<lb/>wraig tuag at ei g&wcirc;r. Dymma ffiaidd-dra anferth.
+<lb/>Pan ddaeth ein Iachawdwr Christ Duw a d&ycirc;n i
+<lb/>adferu cyfraith ei nefol d&acirc;d i iawn ystyr, meddwl
+<lb/>a deall y gyfraith honno, ym-mhlith pethau eraill
+<lb/>fe a <term>* ddiwygiodd</term><gloss>Iniawnodd.</gloss> gam-arfer y gyfraith hon. O
+<lb/>herwydd lle daroedd i<isp/>'r Iuddewon arfer hir <w>odde<lb rend="shy"/>fiaeth</w> trwy ddefod ddodi o<isp/>'r gw&ycirc;r eu gwragedd
+<lb/>ymmaith wrth eu hewyllys am bob achos: fe a
+<lb/>geryddodd Christ y dr&wcirc;g arfer hynny, ac a <w>ddys<lb rend="shy"/>codd,</w> pwy bynnag a wrthotto ei wraig, onid am
+<lb/>odineb (yr hwn yr amser hynny wrth gyfraith
+<lb/>oedd yn haeddu angau) ei fod yn torri priodas, ac
+<lb/>yn gwneuthur i<isp/>'w wraig hefyd yr yscarid ef &acirc; hi,
+<lb/>odinebu, os hi a gyssylltid &acirc; g&wcirc;r arall, ac i<isp/>'r g&wcirc;r
+<lb/>hefyd a gyssylltid &acirc; hi, odinebu.
+</p>
+<p>
+<lb/><orig reg="Ym mha">Ym-mha</orig> gyflwr gan hynny y mae y <w>godineb<pb n="167" rend="shy"/><lb/>wyr</w> ymma, y rhai o gariad ar buttain a <w>wrtho<lb rend="shy"/>dant</w> eu gwir a<isp/>'u cyfraithlon wragedd, yn erbyn
+<lb/>cyfraith, vniondeb, <orig reg="rheswm">rheswn</orig> a chydwybod? Oh
+<lb/>mor ddamnedig yw<isp/>'r st&acirc;t y maent yn aros ynddi.
+<lb/>Distryw ebrwydd a gwymp arnynt os hwy ni
+<lb/>edifarh&acirc;nt ac ni wellh&acirc;nt. O herwydd ni oddef
+<lb/>Duw byth ddianrhydeddy, a chash&acirc;u, a diystyru
+<lb/>sanctaidd briodas. Fe a gospa ryw br&ycirc;d y bywyd
+<lb/>cnawdol anllywodraethus ymma, ac a wn&acirc; bod
+<lb/>y sanctaidd <orig reg="ordeinhad">ordinh&acirc;d</orig> ymma mewn parch ac <w>an<lb rend="shy"/>rhydedd.</w> O herwydd, medd yr Apostol, <w>Anrhy<lb rend="shy"/>deddus</w> yw priodas <orig reg="ym mhawb">ym-mhawb</orig>, a<isp/>'r gwely <w>diha<lb rend="shy"/>logedig:</w> eithr putteinwyr a<isp/>'r godinebus a <w>far<lb rend="shy"/>na</w> Duw: hynny yw, fe a<isp/>'u cospa ac a<isp/>'u damna
+<lb/>hwynt.
+</p>
+<p>
+<lb/>Ond i ba beth y cymmerir y boen ymma yn
+<lb/>datcan ac yn gosod allan faint pechod yw <w>puttein<lb rend="shy"/>dra,</w> a<isp/>'r afles a d&ycirc;f ac a lifeiria o<dsp/>hono: lle y pallai
+<lb/>anadl a thafod d&ycirc;n yn gynt nag y gallai gwbl <w>gy<lb rend="shy"/>hoeddi</w> y pechod hwn yn &ocirc;l ei ddiffeithwch a<isp/>'i
+<lb/>anferthrwydd? Er hynny hyn a ddywedwyd er
+<lb/>mwyn bod i bawb wachelyd putteindra a byw
+<lb/>mewn ofn Duw. Duw a wn&ecirc;l nas dywedpwyd
+<lb/>yn ofer.
+</p>
+</div>
+<div type="part" n="3">
+<head>
+<lb/>&para;&nbsp;<hi rend="antiqua">Y drydedd ran o<isp/>'r bregeth yn
+<lb/>erbyn godineb.</hi></head>
+<p>
+<lb/><hi rend="rubric">C</hi>Hwi a ddyscasoch yn yr ail rhan
+<lb/>o<isp/>'r bregeth am odineb, a <w>ddarllen<lb rend="shy"/>nwyd</w> i chwi ddiwethaf, mor <w>ddif<lb rend="shy"/>rif</w> y mae<isp/>'r Scrythur l&acirc;n yn ein
+<lb/>rhybyddio ni i wachelyd pechod
+<lb/>godineb, ac i gofleidio glendid <w>bu<pb n="168" rend="shy"/><lb/>chedd:</w> a<isp/>'n bod ni yn cwympo trwy odineb i bob
+<lb/>rhyw bechod, ac yn myned yn gaeth-weision i <w>ddi<lb rend="shy"/>afol:</w> ac o<isp/>'r ystlys arall y<isp/>'n gwneir trwy lendid
+<lb/>buchedd yn aelodau i Grist: ac yn ddiwethaf mor
+<lb/>bell y d&wcirc;g godineb dd&ycirc;n oddiwrth bob <w>duwiol<lb rend="shy"/>deb,</w> ac y denfyn ef <orig reg="yng ngwysg">yngwysc</orig><!--yn wysg ei ben 'headlong'--> ei ben i bob beiau,
+<lb/>drygioni ac aflwydd.
+</p>
+<p>
+<lb/>Mi a fynegaf <orig reg="iwch">i'wch</orig> yn awr mewn trefn &acirc; pha
+<lb/>gospedigaethau trymion y plagodd Duw odineb
+<lb/>yn yr amseroedd gynt, a pha fodd y cospodd llawer
+<lb/>o dywsogion bydol y pechod ymma, fel y galloch
+<lb/>weled fod putteindra a godineb yn bechodau mor
+<lb/>echryslon <orig reg="yng ngolwg">yngolwg</orig> Duw a phob d&ycirc;n daionus,
+<lb/>ac y dangosais eisoes.
+</p>
+<p>
+<lb/>Yn llyfr cyntaf Moses yr ydym yn darllen, pan
+<lb/>ddechreuodd dynion amlhau ar y ddayar, i w&ycirc;r a
+<lb/>gwragedd osod eu meddyliau mor gwbl ar
+<lb/>chwantau cnawdol a choeg-ddigrifwch, hyd oni
+<lb/>fuont fyw yn ddiofn Duw. Pan welodd Duw
+<lb/>eu bywyd ffiaidd anifeiliaidd hwynt, a deall nad
+<lb/>oeddynt yn gwellh&acirc;u, ond yn hytrach eu bod yn
+<lb/>cynnyddu fwyfwy beunydd yn eu pechodau a<isp/>'u
+<lb/>harferon aflan; fe a edifarhaodd Duw iddo <w>w<lb rend="shy"/>neuthur</w> d&ycirc;n: ac er dangos mor ffiaidd oedd <w>gan<lb rend="shy"/>tho</w> odineb, putteindra, anlladrwydd a phob <w>a<lb rend="shy"/>flendid,</w> fe a wnaeth i holl ffynhonnau y <w>dyfnde<lb rend="shy"/>roedd</w> dorri allan, ac a <orig reg="agorodd">egorodd</orig> ffenestri<isp/>'r nefoedd,
+<lb/>fel y glawiodd hi ar y ddayar dros ddeugain <w>diwr<lb rend="shy"/>nod</w> a deugain n&ocirc;s: ac felly y distrywiodd ef yr holl
+<lb/>fyd a holl ddynawl ryw, oddieithr wythn&ycirc;n o bobl
+<lb/>yn vnig: y rhai hynny oedd Noah pregethwr <w>cy<lb rend="shy"/>fiawnder</w> (fel y geilw Petr ef) a<isp/>'i wraig, a<isp/>'i <w>dri<lb rend="shy"/>mab</w> a<isp/>'u gwragedd.
+</p>
+<p>
+<lb/>Oh pa anial bl&acirc; a daflodd Duw ymma ar holl
+<pb n="169"/>
+<lb/>greaduriaid bywiol y b&ycirc;d, am bechod <w>puttein<lb rend="shy"/>dra?</w> Am yr hwn y dialodd Duw nid ar dd&ycirc;n yn
+<lb/>vnig, onid hefyd ar yr holl anifeiliaid, ehediaid,
+<lb/>a<isp/>'r holl greaduriaid byw. Fe a laddesid dynion ar
+<lb/>y ddayar o<isp/>'r blaen, etto ni ddystrywiwyd y b&ycirc;d
+<lb/>am hynny: ond am butteindra fe a orchguddiwyd
+<lb/>yr holl f&ycirc;d &acirc; dwfr, ac a ddifethwyd oddieithr <w>ychy<lb rend="shy"/>dig.</w> Siampl wiw ei chofio er ein dyscu ni i ofni
+<lb/>Duw.
+</p>
+<p>
+<lb/>Yr ydym yn <sic>ddarllein</sic> eilwaith ddinystr <w>So<lb rend="shy"/>doma</w> a Gomorhah a dinasoedd eraill cyfagos
+<lb/>iddynt, trwy d&acirc;n a brwmstan o<isp/>'r nef, am frwnt
+<lb/>bechod aflendid, fel na adawyd na g&wcirc;r na <w>gw<lb rend="shy"/>raig,</w> na phlentyn nac anifail, na dim ar a dyfodd
+<lb/>ar y ddayar heb ddinistr. Calon pwy nid <term><w>* echry<lb rend="shy"/>dia</w></term><gloss>Chryna.</gloss> wrth glywed yr histori ymma? Pwy sy weddi
+<lb/>soddi mor ddwfn mewn putteindra ac aflendid,
+<lb/>na adawo weithian dros fyth heibio y fath g&acirc;s a
+<lb/><corr resp="transcr" sic="ffiaid">ffiaidd</corr> fywyd, gan fod Duw yn cospi aflendid mor
+<lb/>d&ocirc;st a glawio t&acirc;n a brwmsta<expan>n</expan> o<isp/>'r nef, i ddistrywio
+<lb/>dinasoedd cyfain, i ladd gw&ycirc;r a gwragedd a
+<lb/>phlant, a<isp/>'r holl greaduriaid byw oedd yn aros
+<lb/>yno, ac i ddifa &acirc; th&acirc;n bob peth a dyfai yno. Pa
+<lb/>arwyddion a ddichon bod eglurach, o ddigofaint
+<lb/>Duw a<isp/>'i lid, yn erbyn aflendid ac am-mhurder
+<lb/>bywyd? Ystyriwch yr histori hon (ddaionus bobl)
+<lb/>ac ofnwch ddialedd Duw.
+</p>
+<p>
+<lb/>Ond ydych yn darllein hefyd i Dduw daro
+<lb/>Pharao a<isp/>'i holl d&ycirc;&nbsp;&acirc; phlagau mawrion, am iddo
+<lb/>yn annuwiol chwennychu Sarah gwraig <w>Abra<lb rend="shy"/>ham?</w> Felly yr ydym yn darllein am Abimelech
+<lb/>brenhin Gerar, er na chyhyrddasai &acirc; hi trwy <w>gyd<lb rend="shy"/>nabyddiaeth</w> cnawdol. Dymma<isp/>'r plagau a<isp/>'r
+<lb/>cospedigaethau a daflodd Duw ar ddynion <w>bryn<pb n="170" rend="shy"/><lb/>tion</w> aflan, cyn rhoddi y gyfraith (pan oedd <w>cyfra<lb rend="shy"/>ith</w> naturiaeth yn vnig yn teyrnasu <orig reg="yng nghalonnau"><w>ynghalon<lb rend="shy"/>nau</w></orig><!--orig inside/outside W--> dynion) er dangos faint y cariad oedd <w>gan<lb rend="shy"/>tho</w> ef at briodas: ac eilwaith faint y cashae efe
+<lb/>odineb, putteindra a phob aflendid.
+</p>
+<p>
+<lb/>Ac wedy rhoddi y gyfraith, sydd yn gwahardd
+<lb/>putteindra, trwy Foses, i<isp/>'r Iuddewon, oni <w>or<lb rend="shy"/>chymmynnodd</w> Duw ddodi i farwolaeth y sawl
+<lb/>a<isp/>'i torrai hi? Dymma eiriau y gyfraith, Y g&wcirc;r
+<lb/>yr hwn a odinebo gyd&acirc; gwraig ei gymmydog, <w>lla<lb rend="shy"/>dder</w> yn farw y godinebwr a<isp/>'r odinebwraig, am
+<lb/>iddo dorri priodas gyd&acirc; gwraig ei gymmydog.
+<lb/>Fe a orchymmynnir yn y gyfraith hefyd, Os <w>de<lb rend="shy"/>lir</w> llangces a g&wcirc;r yngh&ycirc;d mewn putteindra, eu
+<lb/>llabyddio hwy ill dau hyd angau. Yr ydym ni yn
+<lb/>darllein mewn man arall i Dduw orchymmyn
+<lb/>i Moses gymmeryd y pennaethiaid, y rheolwyr
+<lb/>a thywysogion y bobl, a<isp/>'u crogi ar grogbrennau
+<lb/>yn amlwg, am iddynt naill ai gwneuthur <w>godi<lb rend="shy"/>neb</w> eu hunain, ai am nas cospasent ef mewn
+<lb/>eraill. Trachefn, oni ddanfonodd Duw y f&acirc;th
+<lb/>bl&acirc; ym-mhlith y bobl am odineb ac aflendid, hyd
+<lb/>oni laddodd o honynt mewn vn diwrnod bedair
+<lb/>mil ar hugain.
+</p>
+<p>
+<lb/>Eisiau amser mi a adawaf heibio lawer o <w>hi<lb rend="shy"/>storiau</w> eraill o<isp/>'r Beibl sanctaidd, y rhai a <w>ddan<lb rend="shy"/>gosant</w> i ni fawr ddialedd a thrwm lid Duw yn
+<lb/>erbyn putteinwyr a godinebwyr. Siccr yw fod
+<lb/>y greulon gosp a osododd Duw, yn dangos yn
+<lb/>eglur ddigon mor g&acirc;s gan Dduw butteindra.
+<lb/>Ac nac amheuwn fod Duw yn yr amser hwn yn
+<lb/>cash&acirc;u aflendid, cymmaint ac yr ydoedd ef yn yr
+<lb/>h&ecirc;n gyfraith: ac nas cospa ef y pechod ymma yn
+<lb/>ddiammau yn y b&ycirc;d hwn, ac yn y b&ycirc;d a ddaw:
+<pb n="171"/>
+<lb/>o herwydd Duw yw efe na ddichon arhos <w>dry<lb rend="shy"/>gioni.</w>
+</p>
+<p>
+<lb/>Am hynny y dlye bawb wachelyd y drygioni
+<lb/>hwn, ac sy yn gofalu am ogoniant Duw ac <w>Ie<lb rend="shy"/>chydwriaeth</w> eu heneidiau eu hunain.
+</p>
+<p>
+<lb/>Mae S. Paul yn dywedyd ddarfod scrifennu
+<lb/>pob peth ar a scrifennwyd er siampl i ni, i ddyscu
+<lb/>ini <corr resp="transcr" sic="dfni">ofni</corr> Duw, ac vfyddhau i<isp/>'w sanctaidd gyfraith
+<lb/>ef. O herwydd os Duw nid arbedodd y <w>can<lb rend="shy"/>ghennau</w> naturiol, nid arbed ef nyni y rhai nid
+<lb/>ydym ond impiau, os gwnawn y cyfryw <w>drose<lb rend="shy"/>ddau.</w> Os distrywiodd Duw lawer mil o bobl,
+<lb/>lawer o ddinasoedd, ie a<isp/>'r holl f&ycirc;d, am <w>buttein<lb rend="shy"/>dra,</w> na wenhieithiwn mo<dsp/>honom ein hunain, ac
+<lb/>na thybygwn y diangwn ni yn rhyddion, ac yn
+<lb/>ddigosp. O herwydd fe a addawodd yn ei <w>gyfra<lb rend="shy"/>ith</w> sanctaidd ddanfon plau tostion ar y <w>trosedd<lb rend="shy"/>wyr,</w> neu y rhai a dorrant ei sanctaidd <w>orchym<lb rend="shy"/>mynion</w> ef.
+</p>
+<p>
+<lb/>Fel hyn y clywsoch pa fodd y mae Duw yn <w>cos<lb rend="shy"/>pi</w> pechod godineb, gwrandawn weithian ryw <w>gy<lb rend="shy"/>freithiau</w> a osododd llywodraethwyr bydol, mewn
+<lb/>amryw wledydd er ei gospi: fel y caffom wybod fod
+<lb/>aflendid yn ffiaidd <orig reg="ym mhob">ym-mhob</orig> dinas a <w>gwladwri<lb rend="shy"/>aeth</w> hydrefn, ac ymmhlith dynion honest.
+</p>
+<p>
+<lb/>Hyn oedd y gyfraith ym-mhlith y lepreaid, Hwy
+<lb/>a rwyment yr hwn a ddelid mewn godineb, ac a<isp/>'i
+<lb/>dygent ef dros dri diwrnod trwy<isp/>'r ddinas: yn &ocirc;l
+<lb/>hynny yr h&ycirc;d y byddai byw, fe a ddibrisid, a thrwy
+<lb/>gywilydd a gwradwydd, a gyfrifid yn dd&ycirc;n heb
+<lb/>ddim honestrwydd ynddo.
+</p>
+<p>
+<lb/>Ym-mhlith y Locriaid yr ydys yn tynnu dau <w>ly<lb rend="shy"/>gad</w> y godinebwr.
+</p>
+<p>
+<lb/>Y Rhufeiniaid gynt a gospent odineb, weithiau
+<pb n="172"/>
+<lb/>&acirc; th&acirc;n, weithiau &acirc;<isp/>'r cleddyf. Os delid neb mewn
+<lb/>godineb ym-mhlith yr Aiphtiaid, y gyfraith oedd
+<lb/>iddo gael ei chwippio <orig reg="yng ng&wcirc;ydd">yngwydd</orig> y bobl, hyd f&icirc;l o
+<lb/>wialennodiau: a<isp/>'r wraig a ddelid mewn godineb
+<lb/>gydag ef, a dorrid ei thrwyn, fel y gellid gwybod
+<lb/>byth o hynny allan ei bod hi yn buttain, ac y <w>ffiei<lb rend="shy"/>ddid</w> hi gan bawb.
+</p>
+<p>
+<lb/>Ym-mhlith yr Arabiaid y torrid pennau y rhai a
+<lb/>ddelid mewn godineb, oddiar eu cyrph.
+</p>
+<p>
+<lb/>Yr Atheniaid a gospent butteindra ag angau,
+<lb/>yn yr vn modd. Felly y gwnai y Tartariaid <w>di<lb rend="shy"/>ddysc,</w> difedr.
+</p>
+<p>
+<lb/>Ac hyd heddyw ym-mhlith y Twrciaid y <w>llaby<lb rend="shy"/>ddir</w> i angau yn ddidrugaredd, y gwr a<isp/>'r wraig a
+<lb/>ddalier mewn godineb. Fel hyn y gwelwn pa <w>gy<lb rend="shy"/>freithiau</w> duwiol a wnaethpwyd gynt gan <w>aw<lb rend="shy"/>durdodau</w> goruchel, er tynnu ymmaith <w>buttein<lb rend="shy"/>dra,</w> ac er maentaenio priodas sanctaidd, a ph&ucirc;r
+<lb/>ymddygiad.
+</p>
+<p>
+<lb/>Ac etto nid oedd gwneuthurwyr y cyfreithiau
+<lb/>ymma yn Gristianogion, onid <corr resp="transcr" sic="cenheloedd">cenhedloedd</corr>; etto
+<lb/>hwy a garent honestrwydd a phurdeb buchedd
+<lb/>cymmaint, fel y gwnaent gyfreithiau daionus,
+<lb/>duwiol, er maentaenio y pethau hynny, heb oddef
+<lb/>o fewn eu teyrnasoedd, odineb a phutteindra i
+<lb/>deyrnasu yn ddigosp.
+</p>
+<p>
+<lb/>Fe a ddywedodd Christ wrth yr Iuddewon <w>an<lb rend="shy"/>ffyddlo<expan>n</expan>,</w> y cyfode y Ninifiaid ddydd y farn yn erbyn
+<lb/>y genhedlaeth honno, i<isp/>'w chondemno, am iddynt
+<lb/>hwy etifarhau ar bregethiad Ionas, ac wele
+<lb/>(medd efe) vn mwy n&acirc; Ionas ymma, (gan feddwl
+<lb/>am<dsp/>dano ei h&ucirc;n) ac etto nid edifarhasant.
+</p>
+<p>
+<lb/>Oni chyfyd (dybyg&wcirc;ch<!--corr?--> chwi) yn gyffelyb y <w>Lo<lb rend="shy"/>criaid,</w> Arabiaid, Atheniaid ac eraill o<isp/>'r f&acirc;th <w>hyn<pb n="173" rend="shy"/><lb/>ny,</w> i<isp/>'r farn yn ein herbyn ni i<isp/>'n condemno; yn
+<lb/>gymmaint ac iddynt hwy ymgadw rhag <w>puttein<lb rend="shy"/>dra</w> ar orchymmyn d&ycirc;n, ac mae gennym ni <w>gy<lb rend="shy"/>fraith</w> ac eglur orchymmyn Duw, ac er hynny nid
+<lb/>ydym yn ymadel &acirc;<isp/>'n haflan ymddygiad. Yn wir,
+<lb/>yn wir fe fydd esmwythach <orig reg="yn nydd">yn-nydd</orig> y farn i<isp/>'r <w>cen<lb rend="shy"/>hedloedd</w> hynny nag i ni, onid edifarhawn ni a
+<lb/>gwellhau. O herwydd, er bod angau corphorol, yn
+<lb/>ein golwg ni, yn gosp drom, dost, yn y b&ycirc;d hwn am
+<lb/>butteindra: etto nid yw y gosp honno ddim wrth
+<lb/>y blinedig boenau a orfydd ar odinebwyr, <w>puttein<lb rend="shy"/>wyr</w> a dynion aflan, eu goddef yn &ocirc;l y bywyd hwn.
+</p>
+<p>
+<lb/>O herwydd fe a geuir<!--from cau--> yr holl rai hynny o <w>deyr<lb rend="shy"/>nas</w> nefoedd, fel y dyweid S. Paul; Na thwyller
+<lb/>chwi, ni chaiff na godinebwyr, nac addolwyr <w>de<lb rend="shy"/>lwau,</w> na thorwyr priodas, na drythyllwyr, na<isp/>'r
+<lb/>rhai Sodomiaidd, na chybyddion, na meddwon,
+<lb/>na difenwyr, na chribddeilwyr etifeddu teyrnas
+<lb/>Dduw. Ac y mae Ioan yn dywedyd yn ei <w>weledi<lb rend="shy"/>gaeth,</w> y caiff y putteinwyr eu <sic>rh&acirc;n</sic> gyd &acirc;&nbsp;<w>lladd<lb rend="shy"/>wyr,</w> cyfareddwyr, a<isp/>'r delw-addolwyr, a<isp/>'r rhai <w>cel<lb rend="shy"/>wyddog,</w> yn y pwll sydd yn llosci &acirc; th&acirc;n a <w>brwm<lb rend="shy"/>stan,</w> yr hwn yw<isp/>'r ail angau.
+</p>
+<p>
+<lb/>Er bod cosp y corph yn angau, etto mae iddo <w>ddi<lb rend="shy"/>wedd,</w> ond mae cosp yr enaid, yr hwn y mae Ioan
+<lb/>yn s&ocirc;n am<dsp/>dano, yn dragywydd. Yno y bydd t&acirc;n a
+<lb/>brwmstan, yno y bydd wylofain ac <orig reg="ysgyrnygu">scyrnygu</orig>&nbsp;<w>dan<lb rend="shy"/>nedd,</w> yno y pr&ycirc;f a gno gydwybod y rhai a <w>ddam<lb rend="shy"/>nier,</w> ni bydd marw byth. Oh, calon pwy ni <w>ddi<lb rend="shy"/>fera</w> ddafnau gwaed wrth wrando ac ystyried y <w>pe<lb rend="shy"/>thau</w> hyn.
+</p>
+<p>
+<lb/>Os yscrydiwn ac os <term>* crynwn</term><gloss>Echrydiwn.</gloss> wrth glywed enwi
+<lb/>y pethau hyn, pa beth a wnawn wrth eu clywed
+<lb/>hwy a<isp/><apo/>u<!--sic--> goddef, ie a<isp/>'u goddef byth ac yn <w>dragy<pb n="174" rend="shy"/><lb/>wydd.</w> Duw a drugarhao wrthym.</p>
+<p>
+<lb/>Pwy sydd bellach wedi <term>* soddi</term><gloss>Suddo.</gloss> mewn pechod cyn
+<lb/>ddyfned, a chwedy ymadel &acirc; ph&ocirc;b duwioldeb cyn
+<lb/>llwyred; ac y gwnel yn fwy o<isp/>'i hoffder a<isp/>'i <w>ddigrif<lb rend="shy"/>wch</w> drewllyd brwnt (yr hwn a aiff yn <corr resp="transcr" sic="ebrwdd">ebrwydd</corr>
+<lb/>heibio) nag o golli gogoniant tragwyddol? Pwy
+<lb/>ailwaith a<isp/>'i rhydd ei hunan i chwantau cnawdol
+<lb/>cyn belled, ac nad ofno ef <term>* am boenau</term><gloss>Rhag poenau.</gloss> t&acirc;n vffernol?
+<lb/>Ond gwrandawn bellach pa fodd y gwachelwn
+<lb/>butteindra a godineb, fel y rhodiom mewn ofn
+<lb/>Duw, ac y byddom ryddion oddiwrth yr holl <w>ar<lb rend="shy"/>taithiau</w> a<isp/>'r poenau anescorol trymmio<expan>n</expan> y rhai sydd
+<lb/>ar fedr pob d&ycirc;n aflan.
+</p>
+<p>
+<lb/>Er gwachelyd godineb, putteindra, a phob <w>a<lb rend="shy"/>flendid,</w> cadwn ein calonnau yn bur ac yn l&acirc;n <w>o<lb rend="shy"/>ddiwrth</w> bob meddwl drwg a chwantau <w>cnaw<lb rend="shy"/>dol:</w> o herwydd os y galon a lygrir ni a <w>gwym<lb rend="shy"/>pwn</w> lwyr ein pennau i bob rhyw annuwioldeb.
+<lb/>Hyn a wnawn ni yn esmwyth, os ni pan <w>gly<lb rend="shy"/>won</w> ein h&ecirc;n elyn Sathan yn ein temptio, ni <w>chy<lb rend="shy"/>tunwn</w> mewn ffordd yn y byd &acirc;<isp/>'i dwyllodrus
+<lb/>ddichellion ef, gan ei wrthwynebu ef yn <w>ddewri<lb rend="shy"/>on,</w> trwy ffydd gadarn <orig reg="yng ngair">yngair</orig> Duw, a chan osod
+<lb/>yn ei erbyn ef yn wastadol yn ein calonnau, y
+<lb/>gorchymmyn hwn, a roddodd Duw i ni, Na
+<lb/>wna odineb, scrifennedig yw, Na wn&acirc; butteindra.
+</p>
+<p>
+<lb/>Da fydd i ni hefyd fyw yn wastadol mewn ofn
+<lb/>Duw, a gosod <orig reg="ger">gar</orig> bron ein llygaid d&ocirc;st fygythiau
+<lb/>Duw, yn erbyn annuwiol bechaduriaid: ac <w>ysty<lb rend="shy"/>ried</w> yn ein calonnau mor frwnt, mor anifeiliaidd
+<lb/>ac mor fyrr yw<isp/>'r digrifwch a<isp/>'r hoffder, i<isp/>'r hwn y
+<lb/>mae Sathan yn ein h&ucirc;do ac yn ein llithio ni yn
+<lb/>wastad: ac eilwaith fod y gosp a osodwyd am y
+<lb/>pechod hwnnw yn anescorol ac yn dragwyddol.
+</p>
+<pb n="175"/>
+<p>
+<lb/>Hefyd arferwn sobredd, a chymmedrolder a
+<lb/>thymmer dda wrth fwytta ac yfed, a gwachelwn
+<lb/>bob chwedleu aflan, ac ymgadwn oddiwrth bob
+<lb/>cwmpniaeth dr&wcirc;g, Gwachelwn seguryd, <w>ymho<lb rend="shy"/>ffwn</w> o ddarllen yr Scrythur l&acirc;n; gwiliwn
+<lb/>mewn gweddiau duwiol, a myfyriadau <w>rhinwe<lb rend="shy"/>ddol;</w> a phob amser ymarferwn o ryw boen a
+<lb/>thrafel duwiol; a<isp/>'r pethau hyn a<isp/>'n <w>cynnorthwy<lb rend="shy"/>ant</w> ni yn fawr i ymgadw rhag putteindra.
+</p>
+<p>
+<lb/>Ac ymma y rhybyddir pob gr&acirc;dd o ddynion,
+<lb/>priodol ac am-mhriodol, i garu purdeb a glendid
+<lb/>buchedd. O herwydd mae<isp/>'r priodol yn rhwym
+<lb/>wrth gyfraith Dduw, i garu ei gilydd yn bur ac
+<lb/>yn glau, heb i vn o honynt geisio cariad dieithr.
+</p>
+<p>
+<lb/>Mae yn rhaid i<isp/>'r g&wcirc;r lynu wrth ei wraig yn
+<lb/>vnig, ag i<isp/><apo/>r wraig lynu wrth ei g&wcirc;r yn vnig.
+<lb/>Mae yn rhaid iddynt ill dau ymhoffi <orig reg="yng nghymdeithas"><w>ynghym<lb rend="shy"/>deithas</w></orig> ei gilydd: na chwennycho yr vn o <w>ho<lb rend="shy"/>nynt</w> neb arall. Ac fel y maent hwy yn <w>rhwy<lb rend="shy"/>medig</w> i fyw <orig reg="ynghyd">ingh&ycirc;d</orig> mewn duwioldeb a phob <w>ho<lb rend="shy"/>nestrwydd,</w> felly eu swydd hwy hefyd a<isp/>'u dl&ecirc;d yw
+<lb/>dwyn eu plant i fynu yn rhinweddol, a darbod na
+<lb/>bo iddynt gwympo i <term>* lindagau</term><gloss>Faglau.</gloss> Sathan, nac i vn
+<lb/>aflendid, ond bod o honynt yn bur ac yn honest
+<lb/>mewn priodas sanctaidd, pan ddelo<isp/>'r amser.
+</p>
+<p>
+<lb/>Felly hefyd y dylyai feistred a rheolwyr ddarbod
+<lb/>nad arferer na phutteindra nac aflendid <w>ym<lb rend="shy"/>mhlith</w> eu gwasanaeth ddynion.
+</p>
+<p>
+<lb/>A thrachefn os y rhai sydd heb priodi a <w>ym<lb rend="shy"/>glywant</w> ynddynt eu hunain, na allant fyw heb
+<lb/>gwmpeini gwraig, prioda<expan>n</expan>t, a bydda<expan>n</expan>t fyw yngh&ycirc;d
+<lb/>yn dduwiol, o herwydd gwell yw priodi n&acirc;&nbsp;<w>llos<lb rend="shy"/>ci.</w> I ochel godineb (medd yr Apostol) cymered pob
+<lb/>g&wcirc;r ei wraig ei h&ucirc;n, a phob gwraig ei g&wcirc;r ei hun.
+</p>
+<pb n="176"/>
+<p>
+<lb/>Yn ddiwethaf, y rhai sydd yn clywed ynddynt
+<lb/>eu hunain, y gallant (trwy weithrediad Yspryd
+<lb/>Duw) fyw yn vnig, ac yn <term>* ymattalus</term><gloss>Ddiweir.</gloss><!--comma inside?-->, <w>clodfo<lb rend="shy"/>rant</w> Dduw am eu rhoddiad, a cheisiant bob ffordd
+<lb/>ac a allont i gadw ac i gynnal y cyfryw roddiad:
+<lb/>megis trwy ddarllein yr Scrythur l&acirc;n, trwy
+<lb/>fyfyriadau duwiol, a gweddiau dyfal, a<isp/>'r f&acirc;th
+<lb/>rinweddol arferon eraill.
+</p>
+<p>
+<lb/>Os ceisiwn oll yn y modd ymma ymgadw rhag
+<lb/>godineb, putteindra a phob aflendid, a dwyn ein
+<lb/>bywyd mewn duwioldeb ac honestrwydd, gan
+<lb/>wasanaethu Duw &acirc; chalonnau gl&acirc;n p&ucirc;r, a<isp/>'i <w>o<lb rend="shy"/>goneddu</w> ef yn ein cyrph, drwy ddwyn ein bywyd
+<lb/>yn ddiddrwg ac yn <corr resp="transcr" sic="ddieni&wcirc;ed">ddieniwed</corr>, siccr y gallwn fod
+<lb/>o rifedi y rhai y mae ein Iachawdwr Christ yn
+<lb/>yr Efengyl yn dywedyd fel hyn am<dsp/>danynt, Gwyn
+<lb/>eu b&ycirc;d y rhai gl&acirc;n o galon, canys hwy a welant
+<lb/>Dduw: I<isp/>'r hwn yn vnig y b&ocirc; pob gogoniant
+<lb/>anrhydedd, rheolaeth a gallu yn oes oesoedd.
+<lb/>Amen.
+</p>
+</div>
+</div>
+</body>
+</text>
+
+<text id="LlH_ii">
+<body>
+<div>
+<!--vol ii -->
+<head><supplied>Cyfrol ii. 265-84: Pregeth yn yr hon y manegir y dylyid ministro gweddi gyhoeddus a'r Sacramentau mewn iaith a ddealler gan y gwrandawyr.</supplied></head><!--check-->
+<pb n="265"/>
+<head>
+<lb/>&para;&nbsp;<hi rend="antiqua">Pregeth yn yr hon y manegir y <w>dy<lb rend="shy"/>lyid</w> ministro gweddi gyhoeddus a<isp/>'r <w>Sacra<lb rend="shy"/>mentau</w> mewn iaith a ddealler gan
+<lb/>y gwrandawyr.</hi>
+</head>
+<p>
+<lb/><hi rend="rubric">Y</hi>Mhlith aml arferon pobl Dduw
+<lb/>Gristionogion anwyl, nid oes vn
+<lb/>anghenrheitiach i bob stat ac i
+<lb/>bob amser n&acirc; gweddi gyhoeddus,
+<lb/>a dyledus arfer y Sacramentau:
+<lb/>o herwydd yn y cyntaf yr ydym
+<lb/>yn ceisio oddiar law Duw yr
+<lb/>holl bethau y rhai heb hyn, ni allem gael mo <w>ho<pb n="266" rend="shy"/><lb/>nynt.</w> Ac yn ail y mae fe yn ein breicheidio ni, ac
+<lb/>yn ei gynnig ei hun i ninnau i<isp/>'w fraicheidio.
+</p>
+<p>
+<lb/>Am hynny a ni yn gwybod fod y ddwy arfer
+<lb/>hynny mor anghenrhaid ini, na thybygwn fod yn
+<lb/>anweddus ini ystyried, yn gyntaf pa beth yw
+<lb/>gweddi a pha beth yw sacrament: ac yno pa sawl
+<lb/>rhyw a'r<!--=ar?--> weddi sydd, a pha sawl Sacrament, ac
+<lb/>felly y deallwn ni yn well pa fodd y iawn <w>arfe<lb rend="shy"/>rwn</w> ni hwynt. Er gwybod pa beth ydynt mae
+<lb/>S. Awstin yn y llyfr am yr Yspryd a<isp/>'r enaid yn
+<lb/>dywedyd fal hyn am weddi. Gweddi, medd ef, yw
+<lb/>dwyfoldeb y meddwl: hynny yw ymchwel at
+<lb/>Dduw trwy ddymunad duwiol gostyngedig: yr
+<lb/>hon ddymuniad yw diogel ac ewyllysgar a melus
+<lb/>ogwyddiad y meddwl ei hun at Dduw. Ac yn ei
+<lb/>ail lyfr yn erbyn gwrthwynebwyr y gyfraith a<isp/>'r
+<lb/>Prophwydi y mae fe<isp/>'n galw y Sacramentau yn
+<lb/>arwyddion sanctaidd. Ac wrth scrifennu at <w>Bo<lb rend="shy"/>nifacius</w> am fedydd plant bychain y dywaid: oni
+<lb/>bai fod yn y Sacramentau Rhyw gyffelybaeth i<isp/>'r
+<lb/>pethau y maent yn Sacramentau <sic>honynt</sic> ni <w>by<lb rend="shy"/>ddent</w> Sacramentau mwy. Ac o<isp/>'r gyffelybaeth
+<lb/>honno maent o<isp/>'r rhan fwyaf yn derbyn enwau y
+<lb/>pethau eu hunain y maent yn eu harwyddoccau.
+<lb/>Wrth y gairiau hyn o S. Awstyn mae<isp/>'n eglur ei
+<lb/>fod ef yn fodlon i ddeffiniad neu <orig reg="ddisgrifiad">ddescribiad</orig>&nbsp;<w>arfe<lb rend="shy"/>rol</w> Sacrament, hynny yw, ei fod ef yn arwydd
+<lb/>weledig o rad anweledig, hynny yw yr hon sydd
+<lb/>yn <corr resp="transcr" sic="gosodd">gosod</corr> allan i<isp/>'r llygaid a<isp/>'r synwyrau eraill
+<lb/>oddi allan orchwyl trugaredd rad Duw, ac sydd
+<lb/>megis yn selio yn ein calonnau ni addewidion
+<lb/>Duw.
+</p>
+<p>
+<lb/>Ac felly yr ydoedd yr enwaediad yn Sacrament,
+<lb/>yr hwn a bregethodd i<isp/>'r synhwyrau oddi allan
+<pb n="267"/>
+<lb/>enwaediad y galon oddifewn, ac a seloedd ac a <w>ddi<lb rend="shy"/>ogelhaodd</w>&nbsp;<orig reg="yng nghalonnau">ynghalonnau</orig><isp/>'r enwaededig, <w>addewi<lb rend="shy"/>dion</w> Duw ynghylch yr h&acirc;d a addawsed ac a <w>edry<lb rend="shy"/>ched</w> am<dsp/>dano.
+</p>
+<p>
+<lb/>Yn awr edrychwn pa sawl rhyw a'r<!--isp?--> weddi a
+<lb/>pha sawl Sacrament y sydd. Yr ydym yn darllen
+<lb/>yn yr Scruthur am dair rhyw o weddi, o<isp/>'r rhai y
+<lb/>mae dwy<isp/>'n <orig reg="neilltuol">neulltuol</orig> ac vn yn gyhoeddus.
+</p>
+<p>
+<lb/>Y gyntaf yw<isp/>'r hon y mae Pawl yn son am<dsp/>deni
+<lb/>yn ei Epistl at Timothi gan ddywedyd: Mi a <w>fyn<lb rend="shy"/>nwn</w> i wyr weddio ymhob man gan dderchafu
+<lb/>dwylo purion heb ddigter nag ymryson. A hon
+<lb/>yw gwir a dyfal gyfodiad y meddwl at Dduw heb
+<lb/>draethu blinder a dymunad y calonnau trwy <w>la<lb rend="shy"/>ferudd</w> yn gyhoeddus. O<isp/>'r weddi hon y mae<isp/>'r <w>si<lb rend="shy"/>ampl</w> yn llyfr Samuel am Haanah mam <w>Sa<lb rend="shy"/>muel,</w> pan <orig reg="weddiodd">weddioedd</orig> hi yn y deml yn <orig reg="nhrymder">hrymder</orig> ei
+<lb/>chalon, gan ddymuno cael ei gwneuthur yn <w>ffrw<lb rend="shy"/>ythlon.</w> Medd y text yr <orig reg="ydoedd">ydodd</orig> hi yn gweddio <orig reg="ynddi">yndi</orig>
+<lb/>ei hun a<isp/>'i llaferudd ni chlywyd. Yn y dull hyn y
+<lb/>dylye<isp/>'r holl Gristionogion weddio, nid vnwaith
+<lb/>yn yr wythnos, neu vnwaith yn y dydd, ond fal y
+<lb/>dywaid Pawl wrth scrifennu at y Thessaloniaid
+<lb/>heb orphwys. Ac fal y mae S. Iaco<isp/>'n scrifennu,
+<lb/>Llawer y ddychon gweddi<isp/>'r cyfion os ffrwythlon
+<lb/>y fydd hi.
+</p>
+<p>
+<lb/>Yr ail rhyw o weddi y sonnir am<dsp/>deni yn S.
+<lb/>Mathew, lle y dywedir fal hyn, Pan weddiech
+<lb/>dos i<isp/>'th stafell a chwedy cau dy ddrws gweddia ar
+<lb/>dy Dad yr hwn sydd yn y dirgel, a<isp/>'th Dad yr hwn
+<lb/>a wel yn y dirgel a<isp/>'th obrwya di yn yr amlwg: O<isp/>'r
+<lb/>rhyw hon o weddi mae llawer siampl yn yr <w>Scry<lb rend="shy"/>thyrau</w> sanctaidd: ond digon i ni adrodd vn yr hon
+<lb/>sydd scrifennedig yn Actau<isp/>'r Apostolion. Mae
+<pb n="268"/>
+<lb/>Cornelius gwr sanctaidd canwriad o<isp/>'r Italaidd
+<lb/>fyddin, yn dywedyd wrth yr Apostol Peter, ag
+<lb/>yntef yn ei d&ycirc; yn gweddio ynghylch y nawfed awr
+<lb/>ymddangos iddo fe vn mewn <orig reg="dillad">dilliad</orig> gwynnion,
+<lb/>&amp;c. Fe weddiodd y gwr hwnnw a'r Dduw yn y <w>dir<lb rend="shy"/>gel,</w> ac a obrwywyd yn yr amlwg. Dymma<isp/>'r
+<lb/>ddwy rhyw weddiau dirgel. Y naill yn y meddwl,
+<lb/>hynny yw dwyfol <corr resp="transcr" sic="ddercbafiad">dderchafiad</corr> y meddwl at
+<lb/>Dduw, a<isp/>'r llall yn y llaferydd, hynny yw dirgel
+<lb/>adrodd blinderau a dymyniadau<isp/>'r galon mewn
+<lb/>geiriau, ond etto mewn stafell ddirgel, neu rhyw
+<lb/>le <orig reg="neilltuol">neulltuol</orig>.
+</p>
+<p>
+<lb/>Yr ail rhyw o weddi sydd gyffredinol neu <w>gyho<lb rend="shy"/>eddus.</w> Am y weddi hon y son ein Iachawdwr
+<lb/>Christ, pan mae fe<isp/>'n dywedyd. Os cytuna dau <orig reg="ohonoch">o
+<lb/>hanoch</orig><!--lb rend--> ar y ddayar am ddim oll beth bynnac a
+<lb/>ddeisyfant rhoddir iddynt gan fy<isp/>nhad yr hwn sydd
+<lb/>yn y nefoedd. <orig reg="Canys">Canis</orig>&nbsp;<orig reg="ym mha le">ymhale</orig> bynnac yr <w>ymgynu<lb rend="shy"/>llo</w> dau neu dri yn fy enw i, yno yr ydwyf yn eu
+<lb/>mysc hwynt. Er i Dduw addo<isp/>'n gwrando ni pan
+<lb/>weddion yn y dirgel trwy wneuthur hynny yn
+<lb/>ffyddlon ac yn dduwiol: O herwydd mae fe<isp/>'n <w>dy<lb rend="shy"/>wedyd</w> galw arnafi <orig reg="yn nydd">yn-nydd</orig> trallod yno mi a<isp/>'th
+<lb/>wrandawaf.
+</p>
+<p>
+<lb/>Ac medd S. Iaco ac Elias yn wr marwol fe
+<lb/>weddiodd ac ni bu law dros dair blynedd a <w>chwe<lb rend="shy"/>mis,</w> ac fe a weddiodd drachefn ac fe rhoddes y nef
+<lb/>ei glaw. Etto mae<isp/>'n eglur wrth historiau y beibl
+<lb/>fod gweddi gyffredinol yn rymmusach ger bron
+<lb/>Duw, ac am hynny y dylyed galaru yn fawr na
+<lb/>wnair rhagor gyfrif <orig reg="ohoni">honi</orig> hi, yn ein mysc ni y rhai
+<lb/>ydym yn addef ein bod yn vn corph <orig reg="yng Nghrist">ynghrist</orig>.
+</p>
+<p>
+<lb/>Pan fygythwyd dinistr dinas Ninifi o fewn
+<lb/><orig reg="deugain">deigain</orig> diwarnod. Fe gydsylltodd y brenin a<isp/>'i
+<pb n="269"/>
+<lb/>bobl eu hunain mewn gweddi ac ympryd, ac hwy
+<lb/>a waredwyd. Fe orchymmynnodd Duw yn y
+<lb/>Prophwyd Ioel gyhoeddi ympryd, ac i<isp/>'r bobl hen
+<lb/>a iauainc, gwyr a gwragedd, ymgynull ynghyd,
+<lb/>a dywedyd ac vn llaferydd: arbed d&ycirc;<!--corr?--> bobl <w>Arglw<lb rend="shy"/>ydd</w> ac na ddyro dy etifeddiaeth i warth: a phan <w>oe<lb rend="shy"/>ddid</w> er fedr difa<isp/>'r Iddewon oll mewn vn <w>diwar<lb rend="shy"/>nod</w> trwy genfigen Haanan, wrth orchymmyn
+<lb/>Hester hwy a ymprydiasant ac a weddiasant, ac
+<lb/>hwy a waredwyd: pan warchaodd Holophernes
+<lb/>Bethulia, wrth gyngor Iudith hwy <w>ymprydia<lb rend="shy"/>sant</w> ac a weddiasant ac hwy a <orig reg="rhyddhawyd">rhyddhawd</orig>. Pan
+<lb/><orig reg="ydoedd">ydodd</orig> yr Apostol Peter <orig reg="yng ngharchar">yngharchar</orig> fe <w>ymgysyll<lb rend="shy"/>todd</w> y gynulleidfa ynghyd mewn gweddi ac fe <w>wa<lb rend="shy"/>redwyd</w> Peter mewn modd rhyfedd.
+</p>
+<p>
+<lb/>Wrth yr historiau hynny mae<isp/>'n eglur fod <w>gwe<lb rend="shy"/>ddi</w> gyffredinol gyhoeddus yn rymmus iawn i
+<lb/>fwynhau trugaredd, ac ymwared oddiar law ein
+<lb/>Tad nefol. Am hynny fy<isp/>mrodyr yr atolgyaf i
+<lb/>chwi er mwyn tirion drugaredd Duw, na <w>fy<lb rend="shy"/>ddwn</w> mwy yn escaelus yn hyn o beth: ond megis
+<lb/>pobl a fyddant ewyllysgar i dderbyn ar law Duw
+<lb/>y fath bethau, y rhai y mae gweddi gyffredinol yr
+<lb/>Eglwys yn eu ceisio, ymgyssylltwn ynghyd yn y
+<lb/>lle a osodwyd i weddi gyhoeddus, ac ag vn galon
+<lb/>ceisiwn gan ein Tad nefol yr holl bethau a wyr ef
+<lb/>eu bod yn anghenrhaid ini.
+</p>
+<p>
+<lb/>Nid <sic>ydywyf</sic> yn gwahardd gweddiau dirgel i
+<lb/>chwi, ond yr ydwyf yn eich annog i wneuthur
+<lb/>cymmaint gyfrif a gweddi gyhoeddus ac y mae
+<lb/>hi<isp/>'n haeddu. Ac ymlaen pob peth byddwch siccr
+<lb/>yn y tair rhyw hon o weddi fod eich meddyliau
+<lb/>gwedy eu cyfodi yn ddwyfol at Dduw, ac onid ef
+<lb/>ni bydd eich gweddiau onid diffrwyth, ac fe <w>wir<pb n="270" rend="shy"/><lb/>hair</w> ynoch chwi yr ymmadrodd hwn: mae<isp/>'r bobl
+<lb/>hyn yn nesau attaf a<isp/>'u geneuau a<isp/>'u calonnau <w>ym<lb rend="shy"/>hell</w> oddi wrthyf. <orig reg="Hyd">Hed</orig> hyn am y tair rhyw gweddi
+<lb/>am y rhai y darllenwn yn yr Scruthur l&acirc;n.
+</p>
+<p>
+<lb/>Yn awr a<isp/>'r<!--or =ar?--> vn fath neu lai o airiau y cewch
+<lb/>glywed pa sawl Sacrament sydd gwedy i ein <w>Ia<lb rend="shy"/>chawdwr</w> Christ eu gosod, ac a ddylent barhau a<isp/>'u
+<lb/>derbyn gan bob Christion mewn amser a threfn
+<lb/>dyledus, ac am yr achos y mynnai ein Iachawdwr
+<lb/>Christ ini eu derbyn hwy. Ac am eu rhifedi hwy
+<lb/>ped ystyrid hwy yn ol gwir arwyddocad <w>Sacra<lb rend="shy"/>ment:</w> sef am yr arywddion gweledig y rhai a <w>or<lb rend="shy"/>chymmynnir</w> yn oleu yn y Testament newydd a<isp/>'r
+<lb/>rhai y cydsylltir addewid maddauant o<isp/>'n <w>pecho<lb rend="shy"/>dau</w> yn rhad a<isp/>'n sancteiddrwydd a<isp/>'n cyssylltiad ni
+<lb/><orig reg="yng Nghrist">ynghrist</orig>: nid oes onid dau, bedydd a swpper yr <w>Ar<lb rend="shy"/>glwydd.</w> O herwydd er bod i ollyngdod addewid
+<lb/>maddeuant pechodau etto nid oes wrth airiau
+<lb/>eglur y Testament newydd, vn addewid gwedy ei
+<lb/>chlymmu a<isp/>'i rhwymo a'r arwydd weledig yr hon
+<lb/>yw gosodiad dwylaw.
+</p>
+<p>
+<lb/>O herwydd nid ydys yn y Testament newydd
+<lb/>yn gorchymmyn yn oleu arfer gosod dwylo mewn
+<lb/>gollyngdod fal yr ydys yn gorchymmyn yr <w>arwy<lb rend="shy"/>ddion</w> gweledig mewn bedydd a swpper yr <w>Arg<lb rend="shy"/>lwydd:</w> ac am hynny nid yw gollyngdod y fath <w>sa<lb rend="shy"/>crament</w> ac yw bedydd a<isp/>'r cymmyn. Ac er bod i
+<lb/>wneuthurdeb offeiriad ei harwydd weledig a<isp/>'i
+<lb/>haddewid, etto mae erni diffig addewid <w>maddau<lb rend="shy"/>ant</w> o bechodau: fal a'r yr holl Sacramentau <w>er<lb rend="shy"/>aill</w> heblaw y rhai hyn, am hynny nid ydyw na
+<lb/>hon nag vn Sacrament arall y fath Sacrament
+<lb/>ac ydyw y bedydd a<isp/>'r cymmyn. Ond mewn <w>cym<lb rend="shy"/>meriad</w> cyffredinol fe ellir rhoi enw Sacrament i
+<pb n="271"/>
+<lb/>bob peth trwy<isp/>'r hwn yr arwyddoccair vn peth
+<lb/>sanctaidd. Yn yr hwn ystyr y rhoes yr h&ecirc;n dadau
+<lb/>yr enw hwn nid yn vnic i<isp/>'r pump eraill, y rhai yn
+<lb/>hwyr o amser a gymmerid yn lle Sacramentau i
+<lb/>wneuthur saith, ond hefyd i lawer o <orig reg="seremon&iuml;au">Ceremoniau</orig>
+<lb/>eraill megis i olew, golchiad traed, a<isp/>'r fath <w>be<lb rend="shy"/>thau,</w> heb feddwl trwy hynny eu cyfrif hwy yn
+<lb/>Sacramentau, yn yr ystyr ac y mae y ddau <w>Sacra<lb rend="shy"/>ment</w> a ddywedasom ni o<isp/>'r blaen.
+</p>
+<p>
+<lb/>Ac am hynny mae S. Awstin gan ystyried gwir
+<lb/>ystyr ac iniawn ddeall y gair Sacrament, wrth
+<lb/>scrifennu at Ianuarius, ac yn ei drydydd llyfr <w>he<lb rend="shy"/>fyd</w> am yr athrawiaeth Gristionogawl, yn <w>dywe<lb rend="shy"/>dyd</w> fod Sacramentau y Christianogion yn <w>am<lb rend="shy"/>bell</w> mewn rhifedi, ac yn odidawg mewn ystyr, ac
+<lb/>yn y ddau le hynny mae fe<isp/>'n eglur yn s&ocirc;n am ddau,
+<lb/>Bedydd, a Swpper yr Arglwydd.
+</p>
+<p>
+<lb/>Ac er bod yn cynnal trwy drefn eglwys Loegr,
+<lb/>heblaw y ddau hyn, ryw arferon a <orig reg="seremon&iuml;au">Ceremoniau</orig>
+<lb/>ynghylch gwneuthur offeiriaid, priodas, a bedydd
+<lb/>escob, gan holi plant am eu gwybodaeth mewn
+<lb/>pyngciau ffydd, a chan gyssylltu &acirc; hynny <w>weddi<lb rend="shy"/>au</w><isp/>'r Eglwys drostynt, ac hefyd am ymweliad y
+<lb/>cl&acirc;f: etto ni ddylyai neb gymmeryd y rhai hyn yn
+<lb/>lle Sacramentau, yn yr ystyr a<isp/>'r deall y <w>cymme<lb rend="shy"/>rir</w> Bedydd a Swpper yr Arglwydd, ond naill a'i
+<lb/>yn alwedigaethau duwiol o fywyd, anghenrhaid
+<lb/>yn Eglwys Grist, ac am hynny yn deilwng i<isp/>'w
+<lb/>gosod allan trwy weithred gyhoeddus gyffredinol
+<lb/>gan wenidawg yr Eglwys: ynteu a fernir eu bod
+<lb/>yn gyfryw ordeiniaethau, ac a allant <w>gynnorth<lb rend="shy"/>wyo</w> i athrawiaethu, diddanu, ac adailad Eglwys
+<lb/>Ghrist.
+</p>
+<p>
+<lb/>Yn awr a ni gwedy deall pa beth yw gweddi, a
+<pb n="272"/>
+<lb/>pha beth yw Sacrament, a pha sawl rhyw o <w>we<lb rend="shy"/>ddi</w> y sydd, a pha sawl Sacrament hefyd a <w>oso<lb rend="shy"/>dodd</w> ein Iachawdwr Christ: edrychwn bellach
+<lb/>a oddef yr Scruthyrau a siampl y brif-Eglwys
+<lb/>gynt, weddi llaferydd (hynny yw, pan yw<isp/>'r <w>ge<lb rend="shy"/>nau</w> yn traethu rhyw ddeisyfiadau &acirc;<isp/>'r llaferydd)
+<lb/>neu finistro rhyw Sacramentau neu vn rhyw
+<lb/>weithred, neu <orig reg="seremoni">C<hi rend="antiqua">&aelig;</hi>remoni</orig> gyffredinol gyhoeddus
+<lb/>arall, yn perthyn at fudd ac adailadaeth y <w>gynu<lb rend="shy"/>lleidfa</w> dlawd, mewn tafod anghydnabyddus, yr
+<lb/>hwn ni ddeall na<isp/>'r gwenhidawg na<isp/>'r bobl: neu a
+<lb/>ddylai vn d&ycirc;n arfer yn neilltuol weddi laferydd
+<lb/>mewn iaith nis deall.
+</p>
+<p>
+<lb/>I<isp/>'r cwestiwn hwn rhaid ini atteb, nas dylyai.
+<lb/>Ac yn gyntaf am weddi gyffredinol a ministrad y
+<lb/>sacramentau, er y perswadai <orig reg="rheswm">rheswn</orig> ni yn hawdd
+<lb/>(pe cai ein rheoli ni) y dlyem ni weddio<isp/>'n <w>gyhoe<lb rend="shy"/>ddus,</w> a ministro y Sacramentau mewn iaith a
+<lb/>ddealler, o herwydd mai gweddio<isp/>'n gyffredinawl,
+<lb/>yw bod i gynulleidfa bobl ofyn vn peth, ag vn <w>lla<lb rend="shy"/>ferydd</w> a chyfundeb meddwl, a ministro <w>Sacra<lb rend="shy"/>mentau</w> yw trwy<isp/>'r gair a<isp/>'r arwydd oddi allan,
+<lb/>pregethu i<isp/>'r derbynwyr anweledig r&acirc;s Duw
+<lb/>oddifewn: ac hefyd am osod yr arferon hyn, a<isp/>'u
+<lb/>bod fyth yn parhau, er mwyn dwyn ar gof i<isp/>'r
+<lb/>gynulleidfa o amser i amser, eu hundeb <orig reg="yng Nghrist">ynghrist</orig>,
+<lb/>ac y dlyent fal aelodau o vn corph mewn gweddi
+<lb/>a phob modd arall geisio a chwenychu bob vn
+<lb/>fudd ei gilydd, ac nid eu budd eu hunain heb <w>en<lb rend="shy"/>nill</w> eraill. Etto nid rhaid ini redeg at <orig reg="reswm">reswn</orig> i
+<lb/>brwfo y peth hyn, o herwydd bod gennym airiau
+<lb/>eglur goleu<isp/>'r Scruthur, ac hefyd gyfundeb
+<lb/>yr scrifennyddion hynaf a dyscediccaf, yn canmol
+<lb/>gweddiau y gynulleidfa yn yr iaith a <sic>dealler</sic>. Yn
+<pb n="273"/>
+<lb/>gyntaf mae S. Pawl at y Corinthiaid yn erchi
+<lb/>gwneuthur pob peth er adailadaeth: yr hyn ni
+<lb/>ddichon bod oni bydd y gweddiau a ministrad y
+<lb/>Sacramentau mewn tafod cydnabyddus i<isp/>'r
+<lb/>bobl. O herwydd pan draetho<isp/>'r offeiriad weddi,
+<lb/>neu finistro y Sacramentau mewn gairiau na
+<lb/>ddealler gan y rhai sydd bresennol, ni ellir eu <w>ha<lb rend="shy"/>dailadu</w> hwy.
+</p>
+<p>
+<lb/>O herwydd megis os yr vtcorn yn y maes, a
+<lb/>rydd lais anhynod, ni all neb trwy hynny <w>ymba<lb rend="shy"/>ratoi</w> i ryfel. Ac megis pan fytho offeryn cerdd
+<lb/>yn gwneuthur sain ddiwahanol, ni wyr neb pa
+<lb/>beth a genir. Felly pan fytho gweddi neu <w>fini<lb rend="shy"/>strad</w> y Sacramentau mewn iaith <w><corr resp="transcr" part="a" sic="anghynaby">anghydnaby</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="ddus">ddus</corr></w> i<isp/>'r gwrandawyr, pwy <orig reg="ohonynt">o<dsp/>hanynt</orig> a gyffroir i
+<lb/>gyfodi ei feddwl at Dduw i geisio gyd&acirc;<isp/>'r <w>gweni<lb rend="shy"/>dawg</w> ga<expan>n</expan> Dduw y pethau y mae<isp/>'r gwenidawg yn
+<lb/>ei airiau a<isp/>'i weddi yn eu gofyn? Neu pwy wrth
+<lb/>finistro<isp/>'r Sacramentau a ddeall pa rad <w>anwele<lb rend="shy"/>dig</w> a ddylyai y gwrandawyr ddymuno cael ei <w>wei<lb rend="shy"/>thio</w> yn y dyn <orig reg="oddi fewn">oddufewn</orig>? yn wir neb. O <w>her<lb rend="shy"/>wydd</w> fal y dywaid S. Pawl mae<isp/>'r hwn a <w>ddy<lb rend="shy"/>wedo</w> mewn tafod anghydnabyddus yn estron i<isp/>'r
+<lb/>gwrandawyr, yr hyn sydd anweddus iawn mewn
+<lb/>cynulleidfa Gristionogaidd.
+</p>
+<p>
+<lb/>O herwydd nid ydym estroniaid i<isp/>'w gilydd, ond
+<lb/>cyd-ddinaswyr &acirc;<isp/>'r saint, ac o dylwydd Duw, ac
+<lb/>aelodau yr vn corph. Ac am hynny yr hyd y <w>by<lb rend="shy"/>tho</w><isp/>'r gwenidog yn adrodd y weddi a wnair yn
+<lb/>ein henwau ni i gyd, rhaid yw ini roddi clust i<isp/>'r
+<lb/>geiriau y mae fe<isp/>'n eu hadrodd, ac yn ein calonnau
+<lb/>ofyn ar law Dduw, y pethau y mae fe mewn <w>gei<lb rend="shy"/>riau</w> yn eu gofyn: ac i arwyddoccau ein bod, yn
+<lb/>gwneuthur felly, yr ydym yn dywedyd Amen, ar
+<pb n="274"/>
+<lb/>ddiwedd y weddi, yr hon y mae fe<isp/>'n ei gwneuthur
+<lb/>yn ein henwau ni oll. A hyn ni allwn ni ei <w>wneu<lb rend="shy"/>thur</w> er adailadaeth, oni ddeallir yr hyn a <w>ddy<lb rend="shy"/>wedir.</w>
+</p>
+<p>
+<lb/>Am hynny anghenrhaid yw gweddio yn <w>gy<lb rend="shy"/>hoedd</w> yn yr iaith a ddeallo gwrandawyr. <corr resp="transcr" sic="Aphe">A phe</corr>
+<lb/>buasai gweddus goddef er<dsp/>ioed iaith ddieithr yn y
+<lb/>gynulleidfa, fe allasai hynny fod yn amser Pawl
+<lb/>a<isp/>'r Apostolion eraill, pan gynyscaeddid hwy &acirc;
+<lb/>mawr wyrthiau ac aml iaithoedd: o herwydd fe
+<lb/>allasai hynny annog rhai i dderbyn yr efengil, pan
+<lb/>glywsent Hebrewyr o anedigaeth, er eu bod yn
+<lb/>annyscedig, yn dywedyd Groeg, a lladin, ac <w>iai<lb rend="shy"/>thoedd</w> eraill: ond ni thybygodd Pawl y dylaid
+<lb/>goddef hyn yr amser hynny: ac a arferwn ni <w>hyn<lb rend="shy"/>ny</w> yn awr, pan nad oes neb yn dyfod i iaithoedd,
+<lb/>heb astudrwydd dyfal? Na atto Duw. O <w>her<lb rend="shy"/>wydd</w> trwy hynny y dygem holl arferon ein <w>he<lb rend="shy"/>glwys,</w> i w&acirc;g ofergoel, ac y gwnaem hwy oll yn
+<lb/>ddiffrwyth.
+</p>
+<p>
+<lb/>Mae Luc yn scrifennu i Petr ac Ioan gwedy
+<lb/>eu rhyddhau oddiwrth dywysogion ac <w>archo<lb rend="shy"/>ffeiriaid</w> Ierusalem, ddyfod at eu cymydeithion,
+<lb/>a dywedyd wrthynt yr holl bethau a ddywedase yr
+<lb/>offeiriaid a<isp/>'r henuriaid wrthynt: yr hyn pan
+<lb/><corr resp="transcr" sic="glwysont">glywsont</corr>, hwy a godasant eu llaferydd mewn <w>cy<lb rend="shy"/>tundeb</w> at Dduw gan ddywedyd, O Arglwydd,
+<lb/>tydi yw y Duw yr hwn a wnaethost nef a dayar,
+<lb/>mor, ac oll sydd <orig reg="ynddynt">yndynt</orig>, &amp;c.
+</p>
+<p>
+<lb/>Ni allasent wneuthur hyn pe gweddiasent
+<lb/>mewn iaith ddieithr, yr hon ni ddeallasent: ac yn
+<lb/>ddiddau, ni ddywedasant hwy oll &acirc; llafarau <w>gwa<lb rend="shy"/>hanedig:</w> ond rhyw vn o honynt a ddywedodd yn
+<lb/>eu henwau hwynt oll, a<isp/>'r llaill gan wrando<isp/>'n
+<pb n="275"/>
+<lb/>ddiescaelus a gyfunasant ag ef: ac am hynny y <w>dy<lb rend="shy"/>wedir</w> gyfodi o honynt eu llafar ynghyd.
+</p>
+<p>
+<lb/>Nid ydyw S. Luc yn dywedyd, Eu llafarau,
+<lb/>megis am lawer, ond Eu llafar megis am vn. Yr
+<lb/>ydoedd yr vn llafar hwnnw am hynny yn y fath
+<lb/>iaith ac yr oeddent hwy oll yn ei deall, oni <w>bua<lb rend="shy"/>sai</w> hynny ni allasent gyfodi mo<dsp/>honi i fynu &acirc;&nbsp;<w>chy<lb rend="shy"/>fundeb</w> eu calonnau: o herwydd ni ddichon neb
+<lb/>gyfuno &acirc;<isp/>'r hyn nis g&wcirc;yr.
+</p>
+<p>
+<lb/>Am yr amser ymlaen dyfodiad Christ ni bu dd&ycirc;n
+<lb/>er<dsp/>ioed a ddywedai, fod gan bobl Dduw, na chan
+<lb/>neb arall, eu gweddiau, neu finistrad eu <w>Sacra<lb rend="shy"/>mentau,</w> neu eu haberthau, mewn iaith nas <w>dea<lb rend="shy"/>llent</w> hwy eu hunain. Ac am yr amser er Christ,
+<lb/>nes i <term>* ortrechus</term><gloss>Draws.</gloss> allu Rufain ddechrau gorescyn,
+<lb/>a rhwymo holl genhedlaethau <hi rend="antiqua">Europ</hi> i fawrhau
+<lb/>iaith Rufain, mae<isp/>'n eglur wrth gyfundeb yr h&ecirc;n
+<lb/>scrifenyddion dyscedig, nad oedd arfer iaith <w>ddie<lb rend="shy"/>thr,</w> anghydnabyddus, <orig reg="yng nghynulleidfaon">ynghynulleidfaon</orig> y <w>Chri<lb rend="shy"/>stionogion.</w>
+</p>
+<p>
+<lb/>Mae <hi rend="antiqua">Iustin</hi> ferthur, yr hwn oedd yn fyw yn 160.
+<lb/>mlynedd o oedran Christ, yn dywedyd fal hyn am
+<lb/>finistrad Swpper yr Arglwydd yn ei amser ef; A'r
+<lb/>ddie sul, mae cynnulleidfaon o<isp/>'r rhai a arhosant
+<lb/>yn y trefydd, a<isp/>'r rhai a drigant yn y gwledydd <w>he<lb rend="shy"/>fyd:</w> ymhlith y rhai yr ydys yn darllen cymmaint
+<lb/>ac a ellir, o scrifennadau<isp/>'r Apostolion a<isp/>'r <w>Pro<lb rend="shy"/>phwydi.</w> Yn ol i<isp/>'r darlleudd beidio, mae<isp/>'r <w>gweni<lb rend="shy"/>dawg</w> pennaf yn gwneuthur annogaeth, gan eu
+<lb/>hannog i ganlyn pethau honest: yn ol hynny, yr
+<lb/>ydym yn cyfodi oll ynghyd ac yn offrwm <w>gwe<lb rend="shy"/>ddiau,</w> yn &ocirc;l diweddu y rhai (fal y dywedasom) y
+<lb/>dygir i mewn fara a gwin a dwfr. Yno mae<isp/>'r
+<lb/>gwenidawg pe<expan>n</expan>naf yn offrwm gweddi a diolch &acirc;<isp/>'i
+<pb n="276"/>
+<lb/>holl allu, a<isp/>'r bobl yn atteb, Amen.
+</p>
+<p>
+<lb/>Mae<isp/>'r geiriau hyn a<isp/>'u hamgylchau, os ystyrir
+<lb/>hwy yn dda, yn manegi yn oleu, fod nid yn vnic
+<lb/>yn darllen yr Scruthyrau mewn iaith a ddealled,
+<lb/>ond bod yn gweddio felly hefyd yn y <w>cynnulleid<lb rend="shy"/>faon</w> yn amser Iustin.
+</p>
+<p>
+<lb/>Fe osododd <hi rend="antiqua">Basilius Magnus</hi>, ac felly y gwnaeth
+<lb/><hi rend="antiqua">Ioan</hi>&nbsp;<term>* enau aur</term><gloss>Chrysostom.</gloss><!--comma?-->, hefyd yn eu hamseroedd, drefnau
+<lb/>cyhoeddus ar wenidogaeth gyhoeddus, y rhai a
+<lb/>alwent <hi rend="antiqua">Leiturgi&aelig;</hi>, ac yn y rhai hynny hwy a <w>osoda<lb rend="shy"/>sant</w> ar y bobl atteb i weddiau<isp/>'r gwenidogion
+<lb/>weithiau Amen, weithiau Arglwydd trugarha
+<lb/>wrthym, weithiau a chyd a<isp/>'th <corr resp="transcr" sic="ysyryd">yspryd</corr> dithau, ac
+<lb/>Mae<isp/>'n calonnau ni gwedi eu cyfodi at yr <w>Arglw<lb rend="shy"/>ydd,</w>&nbsp;&amp;c. Yr hwn atteb ni fedrase<isp/>'r bobl ei <w>wneu<lb rend="shy"/>thur</w> mewn amser dyledus, oni buasai fod y weddi
+<lb/>mewn iaith ac a ddeallent hwy. Mae<isp/>'r vn Basil
+<lb/>wrth scrifennu ac eglwyswyr <hi rend="antiqua">Neoc&aelig;saria</hi>, yn <w>dy<lb rend="shy"/>wedyd</w> fal hyn am arfer gweddi gyffredinol, gan
+<lb/>appwynto rhai i ddechreu<isp/>'r caniad, ac eraill i <w>gan<lb rend="shy"/>lyn,</w> ac felly gan dreulio<isp/>'r nos mewn llawer o <w>ga<lb rend="shy"/>niadau</w> a gweddiau, maent ar y wawr ddydd oll
+<lb/>ynghyd (megis ag vn genau ac vn galon) yn canu
+<lb/>i<isp/>'r Arglwydd ganiad o gyffes, pob vn yn gosod iddo
+<lb/>ei hun airiau cymhesur o etifeirwch.
+</p>
+<p>
+<lb/>Mewn man arall mae fe<isp/>'n dywedyd: os bydd
+<lb/>y mor yn deg, pa faint mwy y mae ymgynulliad y
+<lb/>gynulleidfa<isp/>'n deccach, yn yr hon y danfonir allan
+<lb/>sain cyssylltedig gwyr, gwragedd, a phlant (megis
+<lb/>tonnau<isp/>'n ffusto ar lan y mor) o<isp/>'n gweddiau ni at
+<lb/>Dduw? Ystyriwch ar ei airiau ef, sain (medd ef)
+<lb/>gyssylltedig gwyr, gwragedd, a phlant: yr hyn ni
+<lb/>ddichon bod oni byddai eu bod hwy oll yn deall
+<lb/>yr iaith yn yr hon yr adroddid y weddi.
+</p>
+<pb n="277"/>
+<p>
+<lb/>Ac fe a ddywaid Chrysostom ar airiau S. Pawl.
+<lb/>Cy<expan>n</expan> gynted ag y clywo y bobl y gairiau hyn, y<damage agent="blotch">n</damage>
+<lb/>oes oesoedd, maent hwy oll yn y man yn atteb,
+<lb/>Amen. Yr hyn ni allent hwy ei wneuthur, oni
+<lb/>bai eu bod hwy<isp/>'n deall yr hyn a ddywedai<isp/>'r
+<lb/>offeiriad.
+</p>
+<p>
+<lb/>Mae <hi rend="antiqua">Dionysius</hi> yn dywedyd fod yr holl dyrfa
+<lb/>bobl yn canu caniadau, wrth finistro y cymmun.
+<lb/>Mae S. Cyprian yn dywedyd fod yr offeiriad yn
+<lb/>darparu meddyliau y brodyr &acirc; rhag-ddywediad
+<lb/>au<!--one word?--> ymlaen y weddi, gan ddywedyd derchefwch
+<lb/>eich calonnau: ac yno<isp/>'r atteb y bobl yr ydym yn
+<lb/>eu dyrchafu hwy at yr Arglwydd. Ac mae S.
+<lb/>Ambros wrth scrifennu ar airiau S. Pawl yn
+<lb/>dywedyd, Hyn yw<isp/>'r peth y mae fe<isp/>'n ei ddywedyd,
+<lb/>fod yr hwn a ddywaid mewn tafod ddiethr, yn
+<lb/>dywedyd wrth Dduw, yr hwn sydd yn gwybod
+<lb/>pob peth, ond nid ydyw dynion yn gwybod, ac am
+<lb/>hynny nid oes ffrwyth o<isp/>'r peth hynny.
+</p>
+<p>
+<lb/>A thrachefn ar y geiriau hyn, os bendigi di neu
+<lb/>roddi diolch &acirc;<isp/>'r yspryd, pa fodd y dywaid yr hwn
+<lb/>sydd yn lle<isp/>'r annyscedig, Amen, ar dy ddiolchiad
+<lb/>di, gan na &wcirc;yr ef pa beth yr ydwyd yn ei <w>ddywe<lb rend="shy"/>dyd?</w> Hynny yw, medd S. Ambros, os ti a fanegi
+<lb/>foliant Duw mewn iaith nis gwypo y <w>gwran<lb rend="shy"/>dawyr.</w> O herwyd pan glywo<isp/>'r annyscedig yr
+<lb/>hyn nis deallo, nid edwyn ddiwedd y weddi, ac ni
+<lb/>fedr ddywedyd Amen. Yr hwn air yw cymmaint
+<lb/>ac yn wir, neu bydded wir, fal y cadarnhair y <w>fen<lb rend="shy"/>dith,</w> neu y rhoddiad diolch. O herwydd gan y
+<lb/>rhai a attebant, Amen, y cyflawnir cadarnh&acirc;d y
+<lb/>weddi, fal y cadarnhair pob peth a ddywedir <w>ym<lb rend="shy"/>meddyliau</w><!--shy?--> y gwrandawyr, trwy dystiolaeth y
+<lb/>gwirionedd.
+</p>
+<pb n="278"/>
+<p>
+<lb/>Ac yn ol llawer o airiau pwysig i<isp/>'r vn defnydd,
+<lb/>mae fe<corr resp="transcr" sic="n'"><isp/>'n</corr> dywedyd, y cwbl yw hyn: na wneler
+<lb/>dim yn yr Eglwys yn ofer, ac mai<isp/>'r peth hyn yn
+<lb/>enwedig a ddylid llafuro am<dsp/>dano, sef ar fod i<isp/>'r
+<lb/>anyscedig allel cael llesh&acirc;d, rhag bod vn rhan o<isp/>'r
+<lb/>corph yn dywyll trwy anwybodaeth. Ac rhag <w>ty<lb rend="shy"/>bied</w> o neb ei fod ef yn meddwl hyn oll am <w>bre<lb rend="shy"/>gethu,</w> ac nid am weddi: mae fe<isp/>'n cymmeryd <w>a<lb rend="shy"/>chos</w> ar y gairiau hyn ei S. Pawl, (oni bydd <w>cyfi<lb rend="shy"/>aithydd,</w> tawed yr hwn sydd ac iaith ddieithr yn
+<lb/>yr Eglwys) i ddywedyd, fal y canlyn: Gweddied
+<lb/>yn ddirgel, neu ddyweded wrth Dduw, yr hwn
+<lb/>sydd yn clywed yr holl bethau mudion. O <w>her<lb rend="shy"/>wydd</w> yn yr Eglwys rhaid i hwnnw ddywedyd,
+<lb/>yr hwn a wna lles i bawb oll.
+</p>
+<p>
+<lb/>Mae S. Ierom wrth scrifennu ar y geiriau
+<lb/>hyn ei S. Pawl, pa fodd y dywaid yr hwn sydd yn
+<lb/>lle<isp/>'r anyscedig Amen, &amp;c. yn dywedyd, y gwr llyg
+<lb/>yw<isp/>'r hwn y mae S. Pawl yn dywedyd ymma
+<lb/>ei fod yn lle yr <sic>&acirc;nnyscedig</sic>, yr hwn nid oes <w>gan<lb rend="shy"/>tho</w> vn swydd Eglwysig, pa fodd yr atteb ef Amen,
+<lb/>ar weddi yr hon nid ydyw yn ei deall? Ac yn y
+<lb/>man ar ol hynny sef ar airiau Pawl pe llafarwn
+<lb/>a thafodau, &amp;c. Mae fe<isp/>'n dywedyd fal hyn. Hyn
+<lb/>yw meddwl Pawl: Os llafara neb mewn <w>tafo<lb rend="shy"/>dau</w> dieithr, anghydnabyddus, fe wnair ei feddwl
+<lb/>ef yn ddiffrwyth, nid iddo ei hun, ond i<isp/>'r <w>gwran<lb rend="shy"/>dawyr:</w> o herwydd beth bynnac a ddywedir, nid
+<lb/>yw ef yn ei wybod. Ac mae S. Awstin wrth <w>scri<lb rend="shy"/>fennu</w> a'r y ddaunawfed Psalm, yn dywedyd: ni
+<lb/>a ddlyem ddeall pa beth yw hyn, fal y gallom <w>ga<lb rend="shy"/>nu</w> a <orig reg="rheswm">rheswn</orig> d&ycirc;n, ac nid a thrydar adar. O <w>her<lb rend="shy"/>wydd</w> mae dylluanod, cawciod, cigfrain, piod, a<isp/>'r
+<lb/>fath adar eraill, gwedy eu dyscu gan dynnion i
+<pb n="279"/>
+<lb/><term>* glegru</term><gloss>Drydar.</gloss>, ni wyddont pa beth. Ond canu trwy
+<lb/>ddeall a rhoddwyd trwy ewyllys sanctaidd Duw
+<lb/>i natur d&ycirc;n. Ac ailwaith, mae S. Awstin yn <w>dy<lb rend="shy"/>wedyd,</w> Nid rhaid wrth vn llaferudd pan fythom
+<lb/>ni<isp/>'n gweddio, ond fal y mae<isp/>'r offeiriaid yn <w>gw<lb rend="shy"/>neuthur,</w> i ddangos eu meddwl, nid fal y gallo
+<lb/>Duw, ond fal y gallo dynnion eu clywed hwy. Ac
+<lb/>felly gan ei cofio wrth gyfuno a<isp/>'r offeiriaid y <w>ga<lb rend="shy"/>llont</w> orbwyso a'r Dduw.
+</p>
+<p>
+<lb/>Fal hyn ein dangosir trwy<isp/>'r Scrythyrau a<isp/>'r
+<lb/>h&ecirc;n ddoctoriaid, na ddylyid wrth weddio neu <w>fini<lb rend="shy"/>stro</w> Sacramentau, arfer vn iaith nas deallo<isp/>'r
+<lb/>gwrandawyr. Megis i fodloni cydwybod <w>Chri<lb rend="shy"/>stion,</w> nad rhaid ini dreulio chwaneg amser yn hyn
+<lb/>o beth. Ond etto <orig reg="er">e'r</orig> attal safneu <w>gwrthwyneb<lb rend="shy"/>wyr,</w> y rhai sydd yn sefyll ormod ar <w>ordeiniae<lb rend="shy"/>thau</w> cyffredinol, da yw cydsylltu at y <w>testiolae<lb rend="shy"/>thau</w> hyn o<isp/>'r Scruthyrau a<isp/>'r h&ecirc;n Ddoctoriaid,
+<lb/>vn ordeiniaeth y wnaeth yr Ymherodr Iustinian,
+<lb/>yr hwn oedd Ymherodr Rufain ynghylch <w>pymp<lb rend="shy"/>cant</w> mlynedd a saith mlynedd <orig reg="ar hugain">a'r igain</orig> yn ol
+<lb/>Christ, yr ordeiniaeth yw hon: Yr ydym yn <w>gor<lb rend="shy"/>chymmyn</w> i<isp/>'r holl Escobion ac offeiriaid finistro<isp/>'r
+<lb/>offrwm sanctaidd, ac arfer gweddiau yn y bedydd
+<lb/>sanctaidd, nid gan ddywedyd yn <orig reg="isel">yssel</orig>, ond a <w>llafe<lb rend="shy"/>rudd</w> eglur, vchel, yr hon a all y bobl oll ei <w>chly<lb rend="shy"/>wed,</w> fal trwy hynny y cyffroir meddyliau y <w>gw<lb rend="shy"/>randawyr</w> a mawr ddwyfoldeb, wrth adrodd <w>gwe<lb rend="shy"/>ddiau<isp/>'r</w> Arglwydd Dduw. O herwydd felly y
+<lb/>mae<isp/>'r Apostol sanctaidd, yn yr Epistol cyntaf at y
+<lb/>Corinthiaid yn dangos, gan ddywedyd, Os <w>ben<lb rend="shy"/>digi</w> di neu os rhoddi di ddiolch yn yr Yspryd yn
+<lb/>dda, pa fodd y gall yr hwn sydd yn lle<isp/>'r <w>annysce<lb rend="shy"/>dig</w> ddywedyd, Amen, ar dy ddiolchad di? O <w>her<pb n="280" rend="shy"/><lb/>wydd</w> ni wyr efe pa beth yr ydwyd yn ei ddywedyd?
+<lb/>Yn wir yr ydwyti yn rhoddi diolch yn dda, ond nid
+<lb/>ydys yn ei adailadu efe.
+</p>
+<p>
+<lb/>Ac ailwaith, fe a ddywaid, yn ei Epistol at y <w>Ru<lb rend="shy"/>feiniaid:</w> A<isp/>'r galon y credir i gyfiawnder, a<isp/>'r geneu
+<lb/>y cyffesir i Iechadwriaeth. Am hynny o blegid yr
+<lb/>achosion hyn, ymmysc gweddiau eraill, mae<isp/>'n
+<lb/><orig reg="gymesur">gymhesir</orig> i<isp/>'r Escobion a<isp/>'r offeiriaid crefyddgar,
+<lb/>draethu a dywedyd hefyd y rhai a ddywedir yn yr
+<lb/>offrwm sanctaidd, I<isp/>'n Harglwydd Iesu Grist ein
+<lb/>Duw ni, gyd&acirc;<isp/>'r Tad, a<isp/>'r Yspryd glan, a llaferudd
+<lb/>vchel. A gwybydded y crefyddgar offeiriaid hyn,
+<lb/>os hwy a escaelusant y pethau hyn, y gorfudd <w>ar<lb rend="shy"/>nynt</w> rhoddi cyfrif am<dsp/>danynt, yn echrydus farn y
+<lb/>Duw mawr, a<isp/>'n Iachawdwr Iesu Grist: a phan
+<lb/>wypom ninnau hynny, ni orphwyswn ni, ac ni
+<lb/>oddefwn hynny heb ei ddial. Yr ydoedd yr <w>Ym<lb rend="shy"/>herodr</w> hwn (fal y dywaid Sabelicus) yn ffafro
+<lb/>Escob Rufain, ac etto ni a welwn pa fath <w>ordeini<lb rend="shy"/>aeth</w> oleu y wnaeth ef, am weddio a ministro <w>Sa<lb rend="shy"/>cramentau</w> mewn iaith gydnabyddus, er mwyn
+<lb/>cyffro defosiwn da y gwrandawyr trwy <w>wyboda<lb rend="shy"/>eth,</w> yn erbyn barn y rhai a fynnant mai <w>anwybo<lb rend="shy"/>daeth</w> sydd yn gwneuthur defosiwn da, mae fe <w>he<lb rend="shy"/>fyd</w> yn ei wneuthur ef yn beth damnedig <w>wneu<lb rend="shy"/>thur</w> y pethau hyn mewn iaith nis deallo<isp/>'r <w>gw<lb rend="shy"/>randawyr.</w> Cauwn<!--= let vs... conclude--> hyn am hynny trwy gyfundeb
+<lb/>Duw a dynnion da na ddylaid gweddio yn <w>gy<lb rend="shy"/>hoeth</w> na ministro Sacramentau mewn iaith
+<lb/>nis deallo y gwrandawyr. Yn awr gair neu ddau
+<lb/>am weddi neilltuol mewn iaith ni ddeallir.
+</p>
+<p>
+<lb/>Ni a gymmerasom arnom pan <sic>dechrauasom</sic> son
+<lb/>am y peth hwn, brwfo, nid yn vnic, na ddylaid <w>mi<lb rend="shy"/>nistro</w> gweddi gyffredinol neu Sacrament, mewn
+<pb n="281"/>
+<lb/>iaith nis deall y gwrandawyr, ond hefyd na <w>ddy<lb rend="shy"/>lai</w> neb weddio<isp/>'n ddirgel, mewn iaith ni byddai
+<lb/>fe ei hun yn ei deall. Yr hyn ni bydd anhawdd ini
+<lb/>ei wneuthur, oni ollyngwn yn angof pa beth yw
+<lb/>gweddi. O herwydd os defosiwn y galon yw <w>gwe<lb rend="shy"/>ddi,</w> yr hwn sydd yn gyrru<isp/>'r galon i ymgyfodi at
+<lb/>Dduw, pa fodd y gellir dywedyd fod hwnnw yn
+<lb/>gweddio, yr hwn nid yw yn deall y geiriau y mae
+<lb/>ei dafod yn eu traethu mewn gweddi? Ie pa fodd
+<lb/>y gellir dywedyd ei fod ef yn dywedyd? o herwydd
+<lb/>dywedyd yw traethu meddwl y galon trwy <w>lafe<lb rend="shy"/>rudd</w> y genau.
+</p>
+<p>
+<lb/>Ac nid ydyw llaferudd y draetho d&ycirc;n wrth <w>ddy<lb rend="shy"/>wedyd,</w> ddim ond cennadwr y meddwl, i ddwyn
+<lb/>allan wybodaeth, am y peth oni bai hynny, a <w>or<lb rend="shy"/>wedde</w><isp/>'n ddirgel yn y galon, ac ni ellir ei wybod:
+<lb/>yn ol yr hyn a scrifenna S. Pawl, Pwy a &wcirc;yr
+<lb/>medd ef y pethau sydd mewn dyn, ond yspryd dyn
+<lb/>yn vnic, yr hwn sydd ynddo? Ni ellir am hynny yn
+<lb/>iniawn ddywedyd ei fod ef yn dywedyd, yr hwn
+<lb/>nid yw yn deall y laferudd y mae ei dafod yn ei
+<lb/>draethu, ond yn dynwared dywedyd, fal y gwna
+<lb/>'r perot, neu<isp/>'r fath adar, sydd yn dynwared <w>lla<lb rend="shy"/>ferudd</w> dynnion. Ni faidd neb am hynny ac a <w>fy<lb rend="shy"/>tho</w> yn ofni digofaint Duw yn ei erbyn ei hun, son
+<lb/>am Dduw yn rhy ehud, heb feddwl am ddeall <w>par<lb rend="shy"/>chus</w> yn ei wydd ef, ond fe ddarpara ei galon cyn
+<lb/>rhyfygu dywedyd wrth Dduw. Ac am hynny yn
+<lb/>ein gweddi gyffredinol, mae<isp/>'r gwenhidawg yn
+<lb/>dywedyd yn fynych gweddiwn: gan feddwl wrth
+<lb/>hynny <orig reg="rhybuddio">rhebyddio</orig><isp/>'r bobl i ddarparu eu clustiau i
+<lb/>wrando, ar y peth y mae er fedr ei erchi ar law
+<lb/><corr resp="transcr" sic="Ddduw">Dduw</corr>, a<isp/>'u calonnau i gyfuno a hynny, a<isp/>'u <w>tafo<lb rend="shy"/>dau</w> ar y diwedd i ddywedyd, Amen.
+</p>
+<pb n="282"/>
+<p>
+<lb/>Fal hyn y darparodd y Prophwyd Dafydd ei
+<lb/>galon; pan ddywedodd ef, parod yw fy<isp/>nghalon o
+<lb/>Dduw, parod yw fy<isp/>nghalon, canaf a chanmolaf.
+<lb/>Fe <orig reg="ddaroedd">ddarodd</orig> i<isp/>'r Iddewon hefyd, yn amser Iudith,
+<lb/>cyn iddynt ddechreu gweddio, ddarparu eu <w>calon<lb rend="shy"/>nau</w> felly, pan weddiasant hwy a<isp/>'u holl galonnau,
+<lb/>ar i Dduw ymweled a<isp/>'i bobl Israel. Fal hyn yn
+<lb/>darparasai Menasses ei galon, cyn iddo weddio, a
+<lb/>dywedyd: yr ydwyf yn gostwng gliniau fy<isp/><w>ngha<lb rend="shy"/>lon,</w> gan ofyn iti ran o<isp/>'th drigarog fwynder. Pan
+<lb/>fytho<isp/>'r galon gwedy ei darparu fal hyn, mae<corr resp="transcr" sic="r'"><isp/>'r</corr>
+<lb/>llaferudd a draethir o<isp/>'r galon, yn beraidd <orig reg="yng nghlustiau"><w>ynghlu<lb rend="shy"/>stiau</w></orig> Duw, ac heb hyn ni ystyria ef hi i<isp/>'w derbyn.
+<lb/>Ond o herwydd fod y dyn sydd yn <term>* dadwrdd</term><gloss>Twrddan.</gloss>&nbsp;<w>gei<lb rend="shy"/>riau</w> diddeall <orig reg="yng ng&wcirc;ydd">yngwydd</orig> Duw, yn dangos nad <w>y<lb rend="shy"/>dyw</w> ef yn ystyriaid mawrhydi Duw, wrth yr hwn
+<lb/>y mae fe<isp/>'n dywedyd: mae Duw yn cymmeryd
+<lb/>hwnnw megis vn yn diystyru ei fawrhydi ef, ac
+<lb/>yn rhoddi iddo ei wobr <sic>ymlhith</sic> ragrhithwyr, y
+<lb/>rhai sydd yn ymddangos yn sanctaidd oddifaes,
+<lb/>a<isp/>'u calonnau yn llawn meddyliau ffiaidd, ie yn
+<lb/>amser eu gweddiau.
+</p>
+<p>
+<lb/>O herwydd y galon y mae<isp/>'r <corr resp="transcr" sic="Arglywydd">Arlgwydd</corr> yn <w>e<lb rend="shy"/>drych</w> erni, fal y scrifennir yn histori y bre<expan>n</expan>hinioedd.
+<lb/>Os mynnwn ninnau am hyn na byddo ein <w>gwe<lb rend="shy"/>ddiau</w> yn ffiaidd bethau, ger bron yr Arglwydd
+<lb/>Dduw, darparwn ein calonnau cyn gweddio, ac
+<lb/>felly deallwn y pethau yr ydym yn gweddio am
+<lb/>danynt, fal y gallo ein calonnau a<isp/>'n llaferudd, <w>gyd<lb rend="shy"/>seinio</w>&nbsp;<orig reg="yng nghlust">ynghlust</orig> mawrhydi Duw: ac yno ni <w>ffae<lb rend="shy"/>lwn</w> dderbyn ar ei ddwylaw ef, y pethau yr ydym
+<lb/>yn eu gofyn, fal y gwnaeth gwyr da o<isp/>'n blaen ni,
+<lb/>y rhai a dderbyniasant o amser yn amser y pethau
+<lb/>a ddamunent er iechyd i<isp/>'w heneidiau.
+</p>
+<pb n="283"/>
+<p>
+<lb/>Fe dybygid fod <hi rend="antiqua">S. Awstin</hi> yn cyd-ddwyn yn y <w>pe<lb rend="shy"/>thau</w> hyn, o herwydd fal hyn y dywaid ef am y rhai
+<lb/>a ddygir i fynu mewn gramadeg, neu rhethorei,
+<lb/>ac a droir at Grist, ac am hynny sydd rhaid eu <w>dys<lb rend="shy"/>cu</w>&nbsp;<orig reg="yng nghrefydd">ynghrefydd</orig> Grist: Gwybyddant hefyd medd
+<lb/>S. Awstin nad y llaferudd ond meddylfryd y <w>ga<lb rend="shy"/>lon</w> sydd yn dyfod i glustiau Duw. Ac yno y bydd,
+<lb/>os digwydda iddynt ystyried, fod yr Escob neu<isp/>'r
+<lb/>gwenhidawg yn yr Eglwys, yn galw ar Dduw a
+<lb/>geiriau anghysson ac anhrefnus, neu y rhai na
+<lb/>b&ocirc;nt hwy yn eu deall, neu eu bod hwy yn <w>cyfran<lb rend="shy"/>nu</w> yn anhrefnus y geiriau y maent yn eu traethu,
+<lb/>na watwarant ddim o honynt. Hyd yn hyn fe a
+<lb/>dybygid ei fod ef yn cyd-ddwyn gyda <corr resp="transcr" sic="gwedio">gweddi</corr><!--??-->
+<lb/>mewn iaith ni ddeallir.
+</p>
+<p>
+<lb/>Ond yn yr ymadrodd nesaf mae fe<isp/>'n agoryd ei
+<lb/>feddwl fal <orig reg="hyn">hin</orig>. Nid am na ddylid gwella y pethau
+<lb/>hyn fal y gallo y bobl ddywedyd Amen i<isp/>'r hyn y
+<lb/>maent yn ei ddeall yn dda: ond etto rhaid yw <w>dw<lb rend="shy"/>yn</w> gyda<isp/>'r holl bethau duwiol hyn, ar ddwylo y <w>ca<lb rend="shy"/>techeiswyr</w> ymma ac athrawon y ffydd: fal y <w>ga<lb rend="shy"/>llont</w> ddeall megis mewn dadleud&ycirc;, y mae daioni
+<lb/>y ddadl yn sefyll yn y sain, felly ei fod yn yr Eglwys
+<lb/>yn sefyll mewn defosiwn. Fal nad ydyw ef yn
+<lb/>fodlon i neb weddio mewn iaith nis deallo: ond
+<lb/>mae fe<isp/>'n dyscu y dadleuwr neu araithiwr <w><corr resp="transcr" part="a" sic="cysa">cyfa</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="rwydd">rwydd</corr></w>, i ddwyn gyda thafod annyscedig, <w>anghyfa<lb rend="shy"/>rwydd</w> y gwenhidawg crefyddgar, diddrwg: I
+<lb/>grynhoi y cwbl os gwna diffyg deall y geiriau a
+<lb/>ddywedir yn y gynulleidfa fod y geiriau yn <w>an<lb rend="om-shy"/>ffrwythlon</w> i<isp/>'r gwrandawyr: paham na wna yr
+<lb/>vn peth y geiriau a ddarllenir yn <sic>anffrwyddlon</sic> i<isp/>'r
+<lb/>darllenudd?
+</p>
+<p>
+<lb/>Trugarog ddaioni Duw, a ganniatao ini rad
+<pb n="284"/>
+<lb/>i alw arno megis y dlyem, i<isp/>'w ogoniant ef, a<isp/>'n
+<lb/>didra<expan>n</expan>gc ddedwyddwch ninnau. Yr hyn y wnawn
+<lb/>ni os ymostyngwn ein hunain yn ei olwg ef: ac
+<lb/>os bydd ein meddwl ni, yn ein holl weddiau <w>cyffre<lb rend="shy"/>dinol</w> a neilltuol, gwedy eu gosod yn hollol arno
+<lb/>ef. O herwydd gweddi y gostyngedig a aiff trwy
+<lb/>y cymylau, ac nis diddenir hi nes dyfod yn agos at
+<lb/>Dduw, nid ymmedy hi nes i<isp/>'r goruchaf edrych <w>ar<lb rend="shy"/>ni</w> hi, a gwared y cyfion a gwneuthur barn. Iddo
+<lb/>ef am hynny y byddo anrhydedd a gogoniant, yn
+<lb/>oes oesoedd. Amen.
+</p>
+</div>
+</body>
+</text>
+
+<text id="LlH_iii">
+<body>
+<div>
+<!--vol iii-->
+<head><supplied>Cyfrol iii. 165-84, Pregeth am st&acirc;t Priodas.</supplied></head>
+<pb n="165"/>
+<head>
+<lb/>&para;&nbsp;<hi rend="antiqua">Pregeth am st&acirc;t Priodas.</hi></head>
+<p>
+<lb/><hi rend="rubric">M</hi>Ae gair yr holl-alluog Dduw yn <w>te<lb rend="shy"/>stiolaethu</w> ac yn mynegi o ba le y
+<lb/>daeth dechreuad priodas, a phaham
+<lb/>yr ordeiniwyd hi. Hi a ordeiniwyd
+<lb/>gan Dduw o fwriad ar fod i &wcirc;r a<lb rend="superfluous-shy"/>gwraig fyw yn gyfraithlon mewn
+<lb/>cymdeithias<!--sic--> gyfaillachgar dragwyddol, i ddwyn
+<lb/>ffrwyth ac i wachelyd goddineb, fel y gallid cadw
+<lb/>cydwybod dda o<isp/>'r ddwy blaid, a ffrwyno <w>llygre<lb rend="shy"/>dig</w> hyblygedd y cnawd o fewn terfynau <w>hone<lb rend="shy"/>strwydd.</w>
+</p>
+<p>
+<lb/>O blegid fe waharddodd Duw bob aflendid a
+<lb/>phuteindra, ac o amser i amser fe a gospodd yn d&ocirc;st
+<lb/>y gwyniau anllywodraethus ymma, fal y <w>mane<lb rend="shy"/>godd</w> pob histori ac oes.
+</p>
+<p>
+<lb/>Hefyd fe a ordeiniwyd cynnal a halaethu <w>eg<lb rend="shy"/>lwys</w> Duw a<isp/>'i deyrnas trwy<isp/>'r fath fywyd, nid yn
+<lb/>vnig am fod Duw trwy ei fendith yn rhoddi
+<lb/>plant, onid hefyd am fod yn eu dwyn hwy i fynu
+<lb/>gan eu tadau a<isp/>'u ma<expan>m</expan>mau duwiol <orig reg="yng ngwybodaeth">yngwybodaeth</orig>
+<lb/>gair Duw, fal y gallid yn y modd hyn trwy <w>eppi<lb rend="shy"/>liaeth</w> draddodi oddiwrth y naill at y llall <w>wybo<pb n="166" rend="shy"/><lb/>daeth</w> am Dduw a<isp/>'i wir grefydd, fal yn y diwedd
+<lb/>y gallai lawer fwynhau anfarwolaeth <w>dra<lb rend="shy"/>gywyddol.</w>
+</p>
+<p>
+<lb/>Am hynny, o herwydd bod priodas yn <w>gwasana<lb rend="shy"/>ethu</w> cystadl i wachelyd pechod a bai, ac i halaethu
+<lb/>teyrnas Dduw: rhaid i chwi a phawb eraill a
+<lb/>ddawant i<isp/>'r st&acirc;t honno gydnabod dawn Duw &acirc;
+<lb/>meddyliau pur diolchus, am iddo felly reoli eich
+<lb/>calonnau chwi fal nad ydych yn canlyn siampl y
+<lb/>byd drygionus, y rhai a osodant eu meddyliau
+<lb/>ar frynti pechod, er eich bod chwi eich dau yn ofni
+<lb/>Duw ac yn cashau pob brynti.
+</p>
+<p>
+<lb/>O herwydd yn siccr, godidawg rodd Duw yw
+<lb/>hyn. Lle mae siampl gyffredin dynnion bydol yn
+<lb/>dangos fod y diawl gwedy rhwymo eu calonnau
+<lb/>hwy, a<isp/>'u llindagu hwy mewn llawer o rwydau
+<lb/>fal yn eu stat o weddwdod y maent yn rhedeg i
+<lb/>lawer o ffiaidd bethau cyhoeddus, a<isp/>'u cydwybod
+<lb/>heb wrthwynebu hynny. Y fath ddynnion hyn
+<lb/>ac ydynt yn byw mor ddiobeith ac mor frwnt, mae
+<lb/>S. Pawl yn dangos pa farn sydd yn aros ar eu
+<lb/>medr; Ni chaiff na goddinebwyr na phuteinwyr
+<lb/>etifeddu teyrnas Dduw. Yr ydych chwi wedi
+<lb/>diangc rhac yr <term>* erchyll</term><gloss>* Echrydus.</gloss> farn Duw hon, os chwi
+<lb/>a fyddwch fyw yngh&ycirc;d yn ol ordeinhad Duw heb
+<lb/>ymado y naill a<isp/>'r llall.
+</p>
+<p>
+<lb/>Ond ni fynnwn i chwi fod yn ddiofal heb
+<lb/>wilied, o herwydd fe a brawf diawl bob peth i <w>gei<lb rend="shy"/>sio</w> rhwystro a lluddio eich calonnau a<isp/>'ch <w>bwria<lb rend="shy"/>dau</w> duwiol chwi, os rhowch iddo <orig reg="dipyn">dypp&ycirc;n</orig> bach
+<lb/>o le: o herwydd naill ai fe a drafaela i dorri y
+<lb/>cwlwm a ddechreuwyd rhyngoch, neu ar y lleiaf
+<lb/>fe a gais ei rwystro ef ag amrafael flinder ac <w>anfod<lb rend="shy"/>lonrwydd.</w>
+</p>
+<pb n="167"/>
+<p>
+<lb/>A hyn yw ei ddichel pennaf ef i wneuthur <w><corr resp="transcr" part="a" sic="an">an</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="ghytunded">ghytundeb</corr></w> yn eich calonnau chwi, fal lle mae yn
+<lb/>awr gariad mawr melus rhyngoch, fe a ddwg yn
+<lb/>lle hynny anghytundeb chwerw diflas. Ac yn siccr
+<lb/>mae ein gelyn hwn megis oddiuchod yn ceisio <w>trei<lb rend="shy"/>sio</w> nattur a chyflwr d&ycirc;n: o herwydd mae<isp/>'r ffolineb
+<lb/>hyn gwedy tyfu gyda ni o<isp/>'n Ieuengctyd, sef <w>dy<lb rend="shy"/>muno</w> rheoli, tybied yn dda am<dsp/>danom ein <w>hu<lb rend="shy"/>nain,</w> megis nad oes neb yn tybied fod yn addas
+<lb/>iddo berchi arall o<isp/>'i flaen ei hun. Mae<isp/>'r bai <w>mell<lb rend="shy"/>tigedig</w> hwn o ystyfnigrwydd ewyllys a<isp/>'n <w>rhyga<lb rend="shy"/>ru</w> ein hunain, yn addasach i dorri ac i wahanu
+<lb/>cariad y galon, nag i gynnal cytundeb.
+</p>
+<p>
+<lb/>Rhaid am hyn i bobl briodol roddi eu <w>meddy<lb rend="shy"/>liau</w> yn ddifrif i gytundeb, a rhaid iddynt geisio
+<lb/>yn wastad gan Dduw nerth ei Yspryd sanctaidd
+<lb/>ef, i reoly eu calonnau, ac i rwymo eu meddyliau
+<lb/><orig reg="yng nghytundeb">ynghytundeb</orig>.
+</p>
+<p>
+<lb/>Mae<isp/>'n anghenrhaid i<isp/>'r rhai priodol arfer
+<lb/>y weddi hon yn fynych, gan weddio y naill
+<lb/>dros y llall yn fynych, rhag i gasineb ac <w>anghy<lb rend="shy"/>tundeb</w> gyfodi rhyngthynt. Ac am nad oes ond
+<lb/>rhai yn ystyried hyn, a llai etto yn ei gyflawni
+<lb/>(gweddio dros i gilydd yr ydwyf yn ei feddwl) ni
+<lb/>a welwn pa fodd y mae diawl yn sennu ac yn
+<lb/>gwatwar yr stat hon, mor ambell y mae y rhai
+<lb/>priod heb ymdaeru, ymryson, ymsennu, etifaru,
+<lb/>rhegu chwerw, ac ymladd. Ac Pwy bynnac sydd
+<lb/>yn <orig reg="gwneuthur">gneuthur</orig> y pethau hyn nid ydynt yn <w>ystyr<lb rend="shy"/>ied</w> mai llithiad y gelyn ysprydol ydyw hyn, yr
+<lb/>hwn sydd hoff iawn gantho hynny: o <corr resp="transcr" sic="herwyddd">herwydd</corr>
+<lb/>oni bai hynny hwy a ymegnient &acirc; phob hydr yn
+<lb/>erbyn y drygioni hyn, nid yn vnic trwy weddi
+<lb/>ond trwy bob diwydrwydd ac a allent.
+</p>
+<pb n="168"/>
+<p>
+<lb/>Ie ni roent le i annogaeth llid, yr hwn a<isp/>'u <w>cy<lb rend="shy"/>ffro</w> hwy i<isp/>'r fath airiau neu ddyrnodau gairwon
+<lb/>llymmion, yr hyn yn ddiddau yw hudad diawl,
+<lb/>profedigaeth yr hwn os ni a<isp/>'i canlynwn, fe a <w>dde<lb rend="shy"/>chrau</w> ac a weua ynom ni yn siccr bob trueni a
+<lb/>thristwch. O herwydd mae hyn yn wir siccr
+<lb/>iawn, y canlyn o<isp/>'r fath ddechreuad y torrir gwir
+<lb/>gytundeb yn y galon, trwy<isp/>'r hyn ar fyrr ennyd
+<lb/>y dyrrir bob cariad o<isp/>'r galon allan.
+</p>
+<p>
+<lb/>Yno ni ellir na bytho<isp/>'n druan gweled fod yn
+<lb/>rhaid iddynt hwy fyw yngh&ycirc;d a hwy heb allel bod
+<lb/>yngh&ycirc;d yn gyttun. Ac mae hyn i<isp/>'w weled <orig reg="ym mhob"><w>ym<lb rend="hyphen"/>mhob</w></orig> lle <orig reg="haeachen">haechen</orig> yn arferol. Ond pa beth yw<isp/>'r
+<lb/>achos? Yn wir am nad ydynt yn ystyriaid <w>di<lb rend="shy"/>chellion</w> twyllodrus diawl, a<isp/>'u bod am hynny
+<lb/>heb ymroi i weddio ar Dduw ar fod yn wiw
+<lb/>gantho attal ei allu ef.
+</p>
+<p>
+<lb/>Hefyd nid ydynt yn ystyriaid pa fod y maent
+<lb/>yn cynnorthwyo bwriad diawl, gan ganlyn llid
+<lb/>eu calonnau, trwy fygwth y naill y llall, trwy
+<lb/>droi pob peth yn eu ynfydrwydd dibyn dobyn,
+<lb/>trwy beidio a rhoddi i fynu eu cyfiawnder (fal y
+<lb/>tybygant hwy) ie a thrwy beidio<isp/>'n fynych a <w>rho<lb rend="shy"/>ddi</w> i fynu y rhan gamweddus. Os chwenychi
+<lb/>di am hynny fod heb y trueni hwn, os <w>chweny<lb rend="shy"/>chi</w> fyw yn heddychlon ac yn ddiddanus mewn
+<lb/>priodas, dysc weddio<isp/>'n ddifrif ar Dduw ar iddo
+<lb/>lywodraethu eich calonnau chwi eich dau &acirc;<isp/>'i <w>Ys<lb rend="shy"/>pryd</w> gl&acirc;n, ac attal gallu diawl, trwy<isp/>'r hyn y
+<lb/>parha eich cytundeb chwi yn dragywydd.
+</p>
+<p>
+<lb/>Ond mae<isp/>'n rhaid cydsylltu &acirc;<isp/>'r weddi hon <w>ddie<lb rend="shy"/>scaelusrwydd</w> godidawg: am yr hwn y mae S.
+<lb/>Petr yn rhoddi y gorchymmyn hwn, gan <w><corr resp="transcr" part="a" sic="ddy">ddy</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="weddyd">wedyd</corr></w>, Chwi y gwyr cydgyfanneddwch &acirc;<isp/>'ch
+<pb n="169"/>
+<lb/>gwragedd, fel y gwedde i rai gwybodol, gan <w>ro<lb rend="shy"/>ddi</w> anrhydedd i<isp/>'r wraig megis i<isp/>'r llestr gwannaf,
+<lb/>fel rhai sydd gydetifeddion gr&acirc;s y bywyd, rhag
+<lb/>rhwystro eich gweddiau chwi.
+</p>
+<p>
+<lb/>Mae<isp/>'r gorchymmyn hwn yn perthyn yn <w><corr resp="transcr" part="a" sic="neill">neill</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="tuoll">tuol</corr></w> at y gwr, o herwydd efe a ddylai fod yn <w>ar<lb rend="shy"/>weinydd</w> ac yn awdur cariad, yr hyn sydd yn
+<lb/>cael lle pan fytho efe rhesymmol ac nid yn rhy
+<lb/>greulon, ac os goddef ef y wraig i gael rhan o<isp/>'i
+<lb/>meddwl. O herwydd y wraig yw<isp/>'r creadur
+<lb/>gwannaf, ac ni chynyscaeddir hi &acirc;<isp/>'r fath rym a
+<lb/>chadernid meddwl, am hynny yr aflonyddir hwy
+<lb/>yn gynt, ac maent yn barottach i bob gwyniau
+<lb/>gweinion, ac i bob hyblygedd meddwl nag yw
+<lb/>gwyr, ac maent hwy yn yscafnach ac yn oferach
+<lb/>yn eu ffansiau a<isp/>'u hopinioneu.
+</p>
+<p>
+<lb/>Rhaid i<isp/>'r g&wcirc;r ystyriaid y pethau hyn fal na
+<lb/>byddo efe yn rhy afrywog, am hyn rhaid iddo am
+<lb/>ryw bethau na chymero ef arno weled mo <w>ho<lb rend="shy"/>nynt,</w> rhaid iddo ddeongl pob peth yn fwyn.
+</p>
+<p>
+<lb/>Ond mae<isp/>'r cyffredin bobl yn barnu nad addas
+<lb/>i &wcirc;r fod mor llaryaidd. O herwydd hwy a <w>ddy<lb rend="shy"/>wedant</w> mai arwydd yw hyn o lyfrdra <w>gwrai<lb rend="shy"/>gaidd:</w> ac am hynny y tybygant mai rhan g&wcirc;r
+<lb/>yw cyffroi ac ymladd &acirc;<isp/>'i ddwrn a<isp/>'i ffon.
+</p>
+<p>
+<lb/>Ond beth bynnac a dybygant hwy, mae S.
+<lb/>Petr yn ddiammau yn barnu yn well beth sydd
+<lb/>addas i wr, a pheth sydd resymmolaf iddo ei
+<lb/>wneuthur. O herwydd medd ef, rheswm a <w>ddy<lb rend="shy"/>laid</w> ei <corr resp="transcr" sic="afer">arfer</corr>, ac nid ymladd. Ie mae fe<isp/>'n <w>dywe<lb rend="shy"/>dyd</w> ymhellach y dylai y wraig gael rhyw barch
+<lb/>ac anrhydedd, hynny yw gan ei harbed hi, a
+<lb/>dwyn gyd&acirc; hi, yn <orig reg="hytrach">hytrarch</orig> am ei bod hi yn llestr
+<lb/>gwannaf, yn galon frau, ac yn annwadal, ac hi
+<pb n="170"/>
+<lb/>a gyffroir &acirc; gair yn <term>* ebrwydd</term><gloss>Fuan.</gloss> i ddigofaint. Ac
+<lb/>am hynny gan ystyriaid ei gwendid hwn hi, hi a<lb rend="superfluous-shy"/>ddylai yn <orig reg="hytrach">hytrarch</orig> gael ei harbed.
+</p>
+<p>
+<lb/>Felly ni fegi di gytundeb yn inig, ond ti a gai
+<lb/>ei chalon hi i<isp/>'w rheoli yn ol dy ewyllys. O <w>her<lb rend="shy"/>wydd</w> fe gedwir naturiaeth honest i wneuthur
+<lb/>ei dlyed yn hytrach wrth airiau mwynion nag
+<lb/>wrth ddyrnodau.
+</p>
+<p>
+<lb/>Ond am yr hwn a wnel bob peth trwy <w>greu<lb rend="shy"/>londeb</w> a bod yn d&ocirc;st, ac a arfero<isp/>'n wastad o fod
+<lb/>yn llym yn ei airiau a<isp/>'i weithredoedd, pa beth
+<lb/>a ennill ef yn y diwedd? yn wir dim, ond ei fod
+<lb/>ef yn hyfforddi gweithred diawl, mae fe<isp/>'n gyrru
+<lb/>ar encil gytundeb, cariad, addfwynder peraidd,
+<lb/>ac yn dwyn i mewn anghytundeb, casineb a <w>blin<lb rend="shy"/>derau</w> mwyaf ac a allant fod mewn cariad rhwng
+<lb/>y naill a<isp/>'r llall a chyfeillach bywyd dyn.
+</p>
+<p>
+<lb/>Heb law hyn hefyd, mae hynny yn dwyn <w>dry<lb rend="shy"/>gioni</w> arall gydag ef, mae<isp/>'n dinistr ac yn <w>rhwy<lb rend="shy"/>stro</w> gweddi: o herwydd yr ennyd y byddir yn <w>cyn<lb rend="shy"/>nal</w> y meddwl mewn ymryson ac anghytundeb,
+<lb/>ni ellir arfer gwir weddi, O herwydd mae <w>gwe<lb rend="shy"/>ddi</w><isp/>'r Arglwydd yn edrych cystadl ar y cwbl yn <w>gy<lb rend="shy"/>ffredinol</w> ac ar bob dyn o<isp/>'r neilltu; yn yr hon yr <w>y<lb rend="shy"/>dym</w> yn traethu<isp/>'n gyhoedd ein bod ni yn maddau
+<lb/>i<isp/>'r sawl a wnaeth yn ein herbyn, fal yr ydym yn
+<lb/>ceisio gan Dduw faddauant o<isp/>'n pechodau. Yr
+<lb/>hyn beth pa fodd y gellir ei wneuthur yn inion
+<lb/>pan fyddo eu calonnau hwy mewn <w>anghytun<lb rend="shy"/>deb?</w> Pa fodd y gallant weddio y naill dros y llall
+<lb/>pan fo<isp/>'r naill yn cashau<isp/>'r llall.
+</p>
+<p>
+<lb/>Os tynnir <orig reg="ymaith">immaith</orig> nerth gweddi, pa fodd yr
+<lb/>ymgynhaliant mewn diddanwch? O herwydd
+<lb/>ni allant mewn vn modd arall wrthwynebu <w>di<pb n="171" rend="shy"/><lb/>awl</w> nac etto fod eu calonnau yn sefyll mewn <w>di<lb rend="shy"/>ddanwch</w> diogel <orig reg="ym mhob">ym-mhob</orig>&nbsp;<orig reg="enbydrwydd">enbeidrwydd</orig> ac <w>ang<lb rend="shy"/>henrhaidiau</w> ond trwy weddi.
+</p>
+<p>
+<lb/>Fal hyn y mae pob afles cystadl ysprydol a
+<lb/>chorphorol yn canlyn yr arfero<expan>n</expan> afrywog, chwerw,
+<lb/>llym, creulon hyn, y rhai ydynt addasach i <w>ani<lb rend="shy"/>feiliaid</w> gwylltion, nag i greaduriaid rhesymmol.
+</p>
+<p>
+<lb/>Nid ydyw S. Petr fodlon i<isp/>'r pethau hyn, ond
+<lb/>mae diawl yn eu chwennychu hwy yn llawen:
+<lb/>gochelwch chwithau yn fwy am hynny. Ac etto
+<lb/>fe ddichon gwr fod yn wr er nad arfero ef y fath
+<lb/>greulondeb, ie pe byddai weithiau heb <w>gymme<lb rend="shy"/>ryd</w> arno weled arferon ei wraig. A rhan gwir
+<lb/>Gristion yw hyn, yr hyn sydd hoff gan Dduw: ac
+<lb/>mae hyn hefyd yn gwasanaethu<isp/>'n dda i <w>ddidda<lb rend="shy"/>nu</w> st&acirc;t priodas.
+</p>
+<p>
+<lb/>Yn awr o blegid dlyed y wraig pa beth sy <w>we<lb rend="shy"/>ddus</w> iddi hitheu: a gamarfer hi fwynder a <w>thiri<lb rend="shy"/>onedd</w> ei gwr, ac a dry hi yn ol ei hewyllys bob
+<lb/>peth dibyn dobyn? Na wnaed ddim o hynny. O
+<lb/>herwydd mae hynny mor gwbl hefyd yn erbyn
+<lb/>gorchymmyn Duw.
+</p>
+<p>
+<lb/>O herwydd fal hyn y mae S. Petr yn pregethu
+<lb/>iddynt hwy, Chwi wragedd byddwch <w>ostynge<lb rend="shy"/>dig</w> i<isp/>'ch gw&ycirc;r priod. Nid gorchymmyn a rheoli
+<lb/>yw bod yn ostyngedig, ac etto hwy allant <w>wneu<lb rend="shy"/>thur</w> y pethau hyn i<isp/>'w plant a<isp/>'u <term>* tylwyth</term><gloss><orig reg="teulu">Teuleu</orig>.</gloss>:<!--colon inside?--> Ond
+<lb/>am eu gw&ycirc;r rhaid iddynt fod yn ostyngedig
+<lb/>iddynt hwy, a pheidio a gorchymmyn, a <w>chy<lb rend="shy"/>flawni</w> gostyngeiddrwydd ac vfydd-dod. O <w>her<lb rend="shy"/>wydd</w> yn siccr mae hyn yn magu cytundeb yn<lb rend="superfluous-shy"/>dra rhagorol, pan yw<isp/>'r wraig yn barod ar <w><corr resp="transcr" part="a" sic="orch">orch</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="ymmmyn">ymmyn</corr></w> ei gwr, pan yw hi yn ymroi i<isp/>'w <w>ewy<lb rend="shy"/>llys</w> ef, pan fytho hi yn ym-egnio i geisio ei <w>fodlo<pb n="172" rend="shy"/><lb/>ni</w> ef a<isp/>'i lawenhau, pan wachelo hi bob peth ac a
+<lb/>allai ei ddigio ef, O herwydd fal hyn y gwirhair
+<lb/>geiriau<isp/>'r bardd yn gywir, y caiff gwraig dda wrth
+<lb/>fod yn ostyngedig i<isp/>'w gwr, reoli fal y byddo hoff
+<lb/>a llawen gantho ddyfod yn gynt adref <orig reg="ati">etti</orig>. Ond
+<lb/>o<isp/>'r ystlys arall, pan fytho eu gwragedd hwy yn <w>a<lb rend="shy"/>frywog</w> ac yn llymion ac yn chwerwon, fe yrrir
+<lb/>eu gwyr hwy trwy hynny i gashau ac i gilio allan
+<lb/>o<isp/>'u tai, fal pe bai rhyngthynt ryfel a<isp/>'u <w>gelynni<lb rend="shy"/>on.</w> Ac etto mae yn odid na chwympo weithiau
+<lb/>ryw <corr resp="transcr" sic="wrthyneb">wrthwyneb</corr> rhyngthynt, o herwydd nad oes
+<lb/>neb yn byw heb fai: ond yn enwedig am fod y
+<lb/>wraig yn llestr gwannaf, gochelant hwy rhag
+<lb/>sefyll yn eu baiau a<isp/>'u hatcasrwydd, ond <w>cydnaby<lb rend="shy"/>ddant</w> hwy yn gynt eu ffolineb a dywedant, <w>fy<lb rend="shy"/>ngwr,</w> fal hyn y gyrrodd <orig reg="fy nigofaint">fy-nigofaint</orig> fi i <w>wneu<lb rend="shy"/>thur</w> hyn ymma neu hyn accw, maddauwch imi,
+<lb/>ac ar ol hyn mi a wachela. A pha parottaf y <w>by<lb rend="shy"/>ddo</w> gwraig i wneuthur yn erbyn ei gwr, <w>parot<lb rend="shy"/>taf</w> y dylai hi fod i wneuthur fal hyn: ac nid er
+<lb/>mwyn ymgadw oddiwrth ymryson a <w>anghy<lb rend="shy"/>tundeb</w> yn vnic y dylai wneuthur hyn, ond yn
+<lb/>hytrach er mwyn gorchymmyn Duw, fal y mae
+<lb/>S. Pawl yn ei adrodd ef yn y geiriau hyn, y
+<lb/>gwragedd ymostyngwch i<isp/>'ch gwyr priod megis
+<lb/>i<isp/>'r Arglwydd, oblegid y gwr yw pen y wraig <w>me<lb rend="shy"/>gis</w> y mae Christ yn ben i<isp/>'r Eglwys.
+</p>
+<p>
+<lb/>Ymma y gwelwch fod Duw yn gorchymmyn
+<lb/>i chwi gydnabod awdurdod y gwyr a rhoddi iddo
+<lb/>barch vfydd-dod.
+</p>
+<p>
+<lb/>Ac mae S. Petr yn dywedyd yn y lle a <w>adrodd<lb rend="shy"/>wydd</w> o<isp/>'r blaen, i fodrabedd sanctaidd gynt <w>ym<lb rend="shy"/>drwsio</w> nid oddi allan o blethiadau gwallt, ac <w>am<lb rend="shy"/>gylch</w> osodiad aur, neu wiscad dillad <w>gwychi<pb n="173" rend="shy"/><lb/>on,</w> onid gan obeithio ar Dduw a bod yn <w>ddaro<lb rend="shy"/>styngedig</w> i<isp/>'w gwr priod, megis yr vfyddhaodd
+<lb/>Sara i Abraham gan ei alw ef yn Arglwydd,
+<lb/>merched yr hon fyddwch chwi, medd ef, o <w>wneu<lb rend="shy"/>thur</w> yn dda.
+</p>
+<p>
+<lb/>Addas a fyddai i wragedd argraphu yr <w>yma<lb rend="shy"/>drodd</w> hwn yn eu meddyliau.
+</p>
+<p>
+<lb/>Gwir yw fod yn rhaid iddynt hwy yn <w>enwe<lb rend="shy"/>dig</w> oddef poenau a doluriau eu priodas, am fod
+<lb/>yn gorfod arnynt roi heibio rydd-did eu <w>llywo<lb rend="shy"/>draeth</w> a bod mewn doluriau escor, ac yn dwyn
+<lb/>eu plant i fynu.
+</p>
+<p>
+<lb/>Yn y swyddau hyn maent hwy mewn periglau
+<lb/>mawrion: heb y rhai y gallent fod, pe byddent
+<lb/>heb briodi.
+</p>
+<p>
+<lb/>Ond mae S. Petr yn dywedyd mai hwn yw
+<lb/>'r trwsiad pennaf i wragedd santaidd, gobeithio
+<lb/>ac <corr resp="transcr" sic="ymdeiried">ymddiried</corr>&nbsp;<orig reg="yn Nuw">yn-nuw</orig>, hynny yw, nad <w>ymgadwa<lb rend="shy"/>sant</w> rhag priodas oblegid ei gofalon a<isp/>'i <w>doluri<lb rend="shy"/>au,</w> a<isp/>'i <orig reg="henbydrwydd">henbeidrwydd</orig>, ond gorchymmyn i
+<lb/>Dduw bob peth a allai ddigwyddo ynddi, gan
+<lb/>obeithio cael ei nerth ef yn siccr yn ol iddynt alw
+<lb/>arno am ei gynnorthwy.
+</p>
+<p>
+<lb/>O wraig gwna dithau felly ac yno y trwsir di
+<lb/>'n odidawg ger<isp/>bron Duw a<isp/>'i holl Angylion a<isp/>'i
+<lb/>Saint, ac nid rhaid iti geisio <orig reg="ym mhellach">ym-mhellach</orig> am
+<lb/>wneuthur gwaith a fyddo gwell: O herwydd
+<lb/>bydd ostyngedig i<isp/>'th wr, synna ar ei <w>ddymunia<lb rend="shy"/>dau</w> ef, ac ystyria beth y mae ef yn ei ofyn ar dy
+<lb/>law di, felly y gelli di anrhydeddu Duw, a byw
+<lb/>yn heddychlon yn dy d&ycirc;.
+</p>
+<p>
+<lb/>Ac heblaw hyn fe ganlyn Duw di &acirc;<isp/>'i <w>fendi<lb rend="shy"/>thion,</w> fal y llwyddo pob peth gyd&acirc; thi, cystadl
+<lb/>iti ac i<isp/>'th wr, ac fal y dywaid y Psalm, Gwyn
+<pb n="174"/>
+<lb/>ei <sic>fudd</sic> pob vn sydd yn ofni<isp/>'r Arglwydd, sef yr
+<lb/>hwn sydd yn rhodio yn ei ffyrdd ef canys <w>mwyn<lb rend="shy"/>hei</w> lafur dy ddwylo, gwyn dy fyd a da fydd it.
+<lb/>Dy wraig sydd fel gwinwydden ffrwythlon ar
+<lb/>hyd ystlysau dy d&ycirc;: a<isp/>'th blant fal planhigion <w>oli<lb rend="shy"/>wydd</w> o amgylch dy ford. Wele fel hyn yn ddiau y
+<lb/>bendithir y gwr a <corr resp="transcr" sic="afno">ofno</corr> 'r arglwydd medd Dafydd.
+</p>
+<p>
+<lb/>Bydded hyn <orig reg="ym meddwl">ym-meddwl</orig> y wraig yn wastad
+<lb/>yn <orig reg="hytrach">hytrarch</orig> am fod gwisc ei phen hi yn ei <w>rhyby<lb rend="shy"/>ddio</w> am y peth hyn, trwy<isp/>'r hyn yr <w>arwyddoc<lb rend="shy"/>cair</w> ei bod hi dan lywodraeth ac mewn <w><corr resp="transcr" part="a" sic="vfydd">vfydd</corr><lb rend="hyphen"/><corr resp="transcr" part="b" sic="odd">dod</corr></w> i<isp/>'w gwr: Ac fel y gosododd natur y wisc <w>hon<lb rend="shy"/>no</w> i fanegi ei hufydd-dod hi, felly y mae S. Pawl
+<lb/>yn gorchymmyn fod i bob rhan arall o<isp/>'i dillad
+<lb/>hi ddangos g&wcirc;yledd a sobredd. O herwydd onid
+<lb/>yw gyfraithlon i wraig fod yn bennoeth, ond
+<lb/>dwyn ar ei phen arwydd o<isp/>'r gallu sydd erni, pa le
+<lb/>bynnac yr elo hi: mwy y gofynnir ar ei llaw hi
+<lb/>ddangos yr hyn a arwyddocair wrth hynny; Ac
+<lb/>am hynny y galwodd yr h&ecirc;n <corr resp="transcr" sic="wraged">wragedd</corr> o<isp/>'r hen
+<lb/>fyd eu gwyr yn Arglwyddi ac a ddangosasant eu
+<lb/>parch yn yfyddhau iddynt.
+</p>
+<p>
+<lb/>Ond onid odid hi a ddywaid fod y gwyr <w>hyn<lb rend="shy"/>ny</w> yn gwir garu eu gwragedd. Mi a wn hynny
+<lb/>yn dda, ac yr ydwyf yn ei gyfio yn ddifai. Ond
+<lb/>pan ydwyf yn eich rhybyddio chwi i<isp/>'ch dlyed, na
+<lb/>chofiwch chwi eu dlyed hwy tuag attoch. O
+<lb/>herwydd pan fythom ni ein hunain yn dyscu ein
+<lb/>plant i vfyddhau ini, megis i<isp/>'w tadau a<isp/>'u <w>mam<lb rend="shy"/>mau,</w> neu pan fythom yn addyscu 'n gweision ac
+<lb/>yn dywedyd wrthynt y dlyent vfyddhau i<isp/>'w <w>mei<lb rend="shy"/>stri</w> nid &acirc; llygad wasanaeth, ond fel <w>gweinidogi<lb rend="shy"/>on</w> Christ: pe dywedent hwy wrthym ninnau
+<pb n="175"/>
+<lb/>ailwaith am ein dlyed ninnau ni thybygem ni
+<lb/>eu bod hwy yn gwneuthur hynny yn dda.
+</p>
+<p>
+<lb/>O herwydd er bod gan &wcirc;r gyfaill yn ei fai? ni
+<lb/>wnae hynny ei fod ef yn ddifai. Ond hyn sydd
+<lb/>raid iti edrych arno, am fod dy hun yn ddifai. O
+<lb/>herwydd Adda a fwriodd y bai ar y wraig, a <w>hi<lb rend="shy"/>thau</w> a<isp/>'i bwrodd ar y sarph: etto nid escuswyd
+<lb/>yr vn o honynt. Ac am hynny na ddwg attafi
+<lb/>yn awr y fath escuson, ond gosod dy holl <w>ddiwy<lb rend="shy"/>drwydd</w> i wrando y dylait ti vfyddhau i<isp/>'th &wcirc;r.
+</p>
+<p>
+<lb/>O herwydd pan wyf yn rhybyddio dy &wcirc;r i<isp/>'th
+<lb/>garu di ac i<isp/>'th gysuro, etto ni phaidiaf a gosod <w>a<lb rend="shy"/>llan</w> y gyfraith a osodwyd i<isp/>'r wraig, cystadl ac y
+<lb/>mynnwn i<isp/>'r g&wcirc;r wneuthur yr hyn a scrifennir yn
+<lb/>y gyfraith iddo yntef.
+</p>
+<p>
+<lb/>Dos di am hynny ynghylch y pethau a <w>berthy<lb rend="shy"/>nant</w> iti yn vnig, a dangos dy hun yn hynaws
+<lb/>i<isp/>'th &wcirc;r. Neu yn hytrach os vfyddhau di i<isp/>'th &wcirc;r
+<lb/>er mwyn gorchymmyn Duw, yno adrodd pa beth
+<lb/>a ddylai ef ei wneuthur, ond cyflawna di yn <w>ddie<lb rend="shy"/>scaelus</w> y pethau y mae gwneuthurwr y gyfraith
+<lb/>yn gorchymmyn iti eu gwneuthur: O blegid fal
+<lb/>hyn yr vfyddhai di i Dduw yn oreu os peidi di a
+<lb/>thorri ei gyfraith ef.
+</p>
+<p>
+<lb/>Nid yw<isp/>'r hwn sydd yn caru ei gyfaill yn <w>gwneu<lb rend="shy"/>thur</w> gorchest yn y b&ycirc;d: ond mae<isp/>'r hwn a <w>anrhy<lb rend="shy"/>deddo</w> y neb sydd yn ei gashau ef ac yn ei ddrygu, yn
+<lb/>haeddu mawrglod. Felly meddwl <orig reg="dithau">dithai</orig> os <w>godd<lb rend="shy"/>efi</w> di &wcirc;r <orig reg="anhywaith">anhwaith</orig> y caidi<!--also chaidi, gaidi, chaid di, chait ti elsewhere; = chai di or chaid di?--> am hynny wobr mawr.
+</p>
+<p>
+<lb/>Ond os ceri di ef yn inig am ei fod ef yn dirion
+<lb/>ac <corr resp="transcr" sic="y">yn</corr> fwyn: pa wobr y rhydd Duw iti am hynny?
+<lb/>Etto nid ydwyf yn dywedyd hyn fal pe ewyllysiwn
+<lb/>i<isp/>'r gwyr fod yn anhowaith tuag at eu gwragedd,
+<lb/>ond annog yr ydwyfi y gwragedd i ddwyn yn <w>ddio<pb n="176" rend="shy"/><lb/>ddefus</w> gydag anhywaithder eu gwyr. O herwydd
+<lb/>pan wnelo pob vn o<isp/>'r ddwy ran ei gorau i <w>gyflaw<lb rend="shy"/>ni</w> eu dlyed vn i<isp/>'w gilydd, yno yn y man y canlyn
+<lb/>budd mawr i<isp/>'w cymydogion, wrth eu siampl hwy.
+<lb/>O herwydd pan fyddo<isp/>'r wraig yn barod i oddef
+<lb/>gwr anhywaith, a phan na byddo<isp/>'r gwr rhy dost
+<lb/>wrth wraig atgas anhywaith, yno y bydd pob
+<lb/>peth yn esmwyth mewn porthladd ddiogel. Fal
+<lb/>hyn yn yr hen amser y gwnai bob vn ei ddylyed a<isp/>'i
+<lb/>swydd ei hun, ac nid oeddynt ofalus i edrych am
+<lb/>ddlyed eu cymydogion. Ystyria adolwg i <w>Abra<lb rend="shy"/>ham</w> gymmeryd atto fab ei frawd, ac ni faiodd ei
+<lb/>wraig arno ef am hynny. Ef a orchymmynnodd
+<lb/>iddo fyned i daith bell gydag ef, ac ni ddywad hi
+<lb/>ddim yn ei erbyn ef, ond hi a vfyddhaodd i<isp/>'w <w>or<lb rend="shy"/>chymmyn</w> ef.
+</p>
+<p>
+<lb/>A thrachefn yn ol holl flinderau a gofidiau a
+<lb/>phoenau mawrion y daith honno, yn ol <w>gwneu<lb rend="shy"/>thur</w> Abraham megis yn Arglwydd o<isp/>'r cwbl oll,
+<lb/>etto fe ganniataodd i Lot yr oruchafiaeth: ac fe <corr resp="transcr" part="a" sic="a"></corr>
+<lb/><corr resp="transcr" part="b" sic="a">a</corr> oddefodd Sara hynny mor ddiddig ac yr <w>attali<lb rend="shy"/>odd</w> hi ei thafod rhag yngan vn waith y fath <w>airi<lb rend="shy"/>au</w> ac a arfer gwragedd eu dywedyd fynychaf yn
+<lb/>y dyddiau hyn, pan welant eu gwyr yn y lleoedd
+<lb/>isaf, ac yn ostyngedig i rai iauangach n&acirc; hwynt
+<lb/>hwy, yn y man hwy a<isp/>'i <term>* dannodant</term><gloss>* Edliwiant.</gloss> iddynt &acirc;&nbsp;<w>gai<lb rend="shy"/>riau</w> ymrysongar, ac a<isp/>'u galwant hwy yn <w>ffyli<lb rend="shy"/>aid,</w> yn llyfron ac yn ddihyder, am wneuthur felly.
+</p>
+<p>
+<lb/>Ond yr oedd Sara mor bell oddiwrth <w>ddywe<lb rend="shy"/>dyd</w> y fath airiau, ac na feddyliodd hi vnwaith
+<lb/>ddywedyd felly, ond bod yn fodlon i ddoethineb ac
+<lb/>ewyllys ei g&wcirc;r.
+</p>
+<p>
+<lb/>Ie, heb law hyn, gwedy darfod i Lot gael fal
+<lb/>hyn ei ewyllys, a gadel i<isp/>'w ewythr y rhan leiaf
+<pb n="177_T175" />
+<lb/>o<isp/>'r tir, fe a gwympodd i ddygyn berigl: yr hyn
+<lb/>beth pan wybu y Patriarch hwn, yn y man fe a
+<lb/>osododd ei holl w&ycirc;r mewn arfau, ac a ddarparodd
+<lb/>fyned ei hun a<isp/>'i holl dylwyth a<isp/>'i gymdeithion yn
+<lb/>erbyn llu<isp/>'r Persiaid: yn yr hwn gyflwr nis <w>cyng<lb rend="shy"/>horodd</w> Sara ef i<isp/>'r gwrthwyneb, ac ni ddywad
+<lb/>hi wrtho fal y gallasid dywedyd: fy<isp/>ng&wcirc;r i ba le
+<lb/>yr <sic>a'i</sic> di mor fyr-bwyll? pa<dsp/>ham y rhedi fal hyn
+<lb/>lwyr dy ben? pa<dsp/>ham yr ymgynnygi i<isp/>'r fath <w>berig<lb rend="shy"/>lon</w> mawrion? Paham yr wyd mor barod i <w>antu<lb rend="shy"/>rio</w> dy fywyd dy hun, ac i osod mewn <orig reg="enbydrwydd"><corr resp="transcr" sic="enbeidrwyd">enbeidrwydd</corr></orig>
+<lb/>fywyd dy holl dylwyth dros &wcirc;r a wnaeth a thi<isp/>'r
+<lb/>fath gam? Ar y lleiaf onid oes gennit ofal <w>am<dsp/>da<lb rend="shy"/>nat</w> dy hun, cymmer drueni arnafi, a minnau er dy
+<lb/>fwyn di gwedy gadel <orig reg="fy ngwlad">fy-ngwl&acirc;d</orig> a<isp/>'m cenedl, ac
+<lb/>heb imi na chynnorthwywyr na chenedl, a mi
+<lb/>gwedy dyfod <orig reg="cyn">cy</orig> belled o<isp/>'m gwl&acirc;d gyd&acirc; thi: <w>tostu<lb rend="shy"/>ria</w> wrthyf, ac na wn&acirc; fi ymma<isp/>'n weddw, i ddwyn
+<lb/>arnaf y fath ofalon a blinderau.
+</p>
+<p>
+<lb/>Hyn a allasai hi ei ddywedyd. Ond ni ddywad
+<lb/>Sara, ac ni feddyliodd y fath airiau: ond hi a<isp/>'i
+<lb/>cadwodd ei hun yn ddistaw <orig reg="ym mhob">ym-mhob</orig> peth.
+</p>
+<p>
+<lb/>Hefyd yn yr holl amser ac y bu hi hesp heb ei
+<lb/>phoeni fel gwragedd eraill wrth ddwyn ffrwyth
+<lb/>yn ei d&ycirc; ef, beth a wnaeth ef? fe a achwynodd nid
+<lb/>wrth y wraig ond wrth yr holl-alluog Dduw.
+</p>
+<p>
+<lb/>Ac ystyriwch fel y gwnaeth pob vn <sic>honynt</sic> ei
+<lb/>ddlyed fal yr oedd yn addas iddynt. O herwydd
+<lb/>ni ddiystyrodd ef Sara am ei bod yn hesp, ac ni
+<lb/><term>* ddannododd</term><gloss>* Edliwodd.</gloss> iddi hynny. Ystyriwch hefyd y
+<lb/>modd y gyrrodd Abraham y llaw forwyn allan o<isp/>'i
+<lb/>d&ycirc; pan ddeisyfodd hi arno wneuthur felly. Fal
+<lb/>wrth hyn y gallaf brofi<isp/>'n gywir fod pob vn <w>ho<lb rend="shy"/>nynt</w> yn fodlon i<isp/>'w gilydd <orig reg="ym mhob">ym-mhob</orig> peth.
+</p>
+<pb n="178_T176"/>
+<p>
+<lb/>Ond etto na osodwch eich llygaid ar hyn o beth,
+<lb/>ond edrychwch ymhellach pa beth a <w>wnaeth<lb rend="shy"/>pwyd</w> cyn hyn, fod Agar yn diystyru ei meistres,
+<lb/>a bod Abraham ei hun gwedy ei gyffro ychydig
+<lb/>yn ei herbyn hi, yr hyn ni allai na bai <w>anniodde<lb rend="shy"/>fus</w> a dolurus iawn i wraig ddiwair rwydd ei
+<lb/>chalon.
+</p>
+<p>
+<lb/>Na fydded gwraig ry bryssur i ofyn yr hyn sy
+<lb/>ddledus ar y g&wcirc;r iddi hi, lle dlai hi fod yn barod i
+<lb/>gyflawni ei dlyed ei hun, o herwydd nid yw hyn,
+<lb/>yn haeddu fawr gl&ocirc;d. Ac felly o<isp/>'r ystlys arall nag
+<lb/>ystyried y gwr yn inig beth a ddlyai<isp/>'r wraig ei
+<lb/>wneuthur, ac na safed yn rhy ddifrif i edrych ar
+<lb/>hynny, o herwydd nid ei ran ef a<isp/>'i ddlyed yw hyn.
+<lb/>Ond fal y <corr resp="transcr" sic="dywedias">dywedais</corr>, bydded pob vn o<isp/>'r dwyblaid
+<lb/>barod ac ewyllysgar i wneuthur yn enwedig yr
+<lb/>hyn sydd yn perthyn atto ei hun. O herwydd os
+<lb/>ydym rhwymedig i droi y rudd aswy at <w>ddieithri<lb rend="shy"/>aid</w> pan darawant ni ar y rudd ddeheu, pa faint
+<lb/>mwy y dylem oddef g&wcirc;r tost afrywog? Ond etto
+<lb/>nid wyfi<isp/>'n meddwl y dyle wr guro ei wraig, ni <w>at<lb rend="shy"/>to</w> Duw hynny. O herwydd y cywilydd mwyaf
+<lb/>yw hynny ac a ddichon bod, nid yn gymmaint i<isp/>'r
+<lb/>wraig a gurir, ac i<isp/>'r gwr sydd yn gwneuthur y fath
+<lb/>orchwyl.
+</p>
+<p>
+<lb/>Ond os digwydd fod iti y fath wr, na fydd ry
+<lb/>drist, meddwl di fod gwobr mawr gwedi ei osod
+<lb/>i fynu ar dy fedr ar ol hyn, a bod clod fawr iti yn y
+<lb/>byd hwn os byddi di goddefgar.
+</p>
+<p>
+<lb/>Ond etto wrthych chwi y gwyr y dywedaf, na
+<lb/>fydded vn bai mor fawr ac y gyrro chwi i ffusto
+<lb/>eich gwragedd. Ond beth a ddywedaf am eich
+<lb/>gwragedd, peth anreith ei oddef yw i wr honest <w>o<lb rend="shy"/>sod</w> i law ar ei forwyn i<isp/>'w <orig reg="ffusto">fusto</orig> hi. Am hynny os
+<pb n="179_T177"/>
+<lb/>yw yn gywilydd mawr i &wcirc;r <orig reg="ffusto">fusto</orig> ei forwyn, oni
+<lb/>ddlyai ef ei geryddu<isp/>'n fwy am guro ei wraig
+<lb/>rydd? A hyn a allwn ei ddeall wrth gyfraithiau
+<lb/>a wnaeth Paganiaid, y rhai a roddant rydd-did i<isp/>'r
+<lb/>wraig i ymado oddiwrth y gwr a<isp/>'i tarawo hi, <w>me<lb rend="shy"/>gis</w> gwr an-nheilwng o<isp/>'i chymdeithas hi <w>ym<lb rend="hyphen"/>mhellach.</w> O herwydd y peth tostaf a ddichon
+<lb/>bod yw iti drin mor wael ie megis vn caeth, <w>gym<lb rend="shy"/>mar</w> dy fywyd, yr hon a gydsylltwyd &acirc; thi o<isp/>'r
+<lb/>blaen, i fod yn gyfaill i ti yn y pethau rheitaf o<isp/>'th
+<lb/>fywyd di. Ac am hynny fe a ellir cyffelybu y fath
+<lb/>wr (os gellir ei alw ef yn wr ac nid yn anifeil
+<lb/>gw&ycirc;llt) i vn a laddo ei d&acirc;d neu fam.
+</p>
+<p>
+<lb/>A lle gorchymmynnir ini ymwrthod &acirc; thadau
+<lb/>a mammau er mwyn ein <corr resp="transcr" sic="gwaragedd">gwragedd</corr>, ac etto nid
+<lb/>ydym yn gwneuthur vn cam &acirc; hwy yn hynny, ond
+<lb/>yr ydym yn cyflawni cyfraith Dduw: pa fodd am
+<lb/>hynny na welidi<!--reg?--> mai ynfydrwydd annial yw iti
+<lb/>wneuthur yn drahaus &acirc;<isp/>'r ho<expan>n</expan> y gorchymmynnodd
+<lb/>Duw iti ymadel a<isp/>'th dad a<isp/><apo/>th fam er ei mwyn?
+<lb/>Ie pwy a all goddef y fath ddirmyg? pwy a <w>ddi<lb rend="shy"/>chon</w> yn ddigonol ossod allan faint drygioni yw
+<lb/>gweled yn yr heolydd cyhoedd gymydogion yn
+<lb/>rhedeg yngh&ycirc;d ynghylch t&ycirc; y fath &wcirc;r afreolus,
+<lb/>megis at fedlem ynfyd a fai yn ceisio dymchwelyd
+<lb/>y cwbl oll sydd gantho? Pwy ni thybygai mai
+<lb/>gwell oedd i<isp/>'r fath wr ddymuno i<isp/>'r ddaiar agored
+<lb/>a<isp/>'i lyncu ef, na<isp/>'i weled byth mwy yn y farchnad?
+</p>
+<p>
+<lb/>Ond fe allai y gosodi drosot dy hun, i<isp/>'r wraig
+<lb/>dy annog di i wneuthur hyn. Ond ystyria dithau
+<lb/>ailwaith mai llestr gwan yw<isp/>'r wraig, a<isp/>'th <w>wneu<lb rend="shy"/>thur</w> di yn rheolwr ac yn ben erni, i gyd-ddwyn &acirc;<isp/>'i
+<lb/>gwendid hi yn ei gostyngeiddrwydd. Ac am <w>hyn<lb rend="shy"/>ny</w> myfyria di ddangos clod dy awdurdod honest,
+<pb n="180_T178"/>
+<lb/>yr hyn ni elli di ei wneuthur yn well nag wrth
+<lb/>beidio a chyhoeddi ei gwe<expan>n</expan>did hi yn ei <w>gostyngeidd<lb rend="shy"/>rwydd.</w> O herwydd fel y gwelir y brenin yn <w>ben<lb rend="shy"/>defigeiddiach,</w> po godidawgaf a phendefigeiddiaf
+<lb/>y fo ei swyddogion ai raglawiaid ef, y rhai pe <w><corr resp="transcr" part="a" sic="di">di</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="anrhyddai">anrhydeddai</corr></w> ef, a phe diystyrai ei hawdurdod hwy
+<lb/>a<isp/>'u braint, fe a<isp/>'i dinoethai ei hun o <sic>rhan</sic> fawr o<isp/>'i
+<lb/>anrhydedd ei hun: felly os diystyri dithau yr hon
+<lb/>sydd gwedy ei gosod yn y lle nesaf iti dy hun, yr
+<lb/>ydwyd yn llaihau ac yn peri i odidawgrwydd dy
+<lb/>awdurdod dy hun adfeilo. Cyfrif yr holl bethau
+<lb/>hyn yn dy feddwl a bydd fwyn a thirion: deall
+<lb/>ddarfod i Dduw roddi plant rhyngot ti a hithau
+<lb/>a<isp/>'th wneuthur di yn d&acirc;d, ac wrth hynny <w>llony<lb rend="shy"/>dda</w> di dy hun.
+</p>
+<p>
+<lb/>Oni weli di yr llafurwyr, mor ddyfal y maent
+<lb/>yn trin eu tir a ddarfu iddynt eu rhentu vnwaith,
+<lb/>er maint fyddo beiau<isp/>'r tir megis yn lle siampl, er
+<lb/>ei fod ef yn rhy sych, er ei fod ef yn dwyn chwyn
+<lb/>lawer, er na allo ef ddioddef gormod gwlybni,
+<lb/>etto mae fe<isp/>'n ei aredig ef, ac felly yn ennill ei
+<lb/>ffrwythau ef: felly pe arferiti yr vn dyfalwch i
+<lb/>addyscu ac i drefnu meddwl dy wraig briod, pe <w>ym<lb rend="shy"/>roiti</w> i chwynnu bob ychydig y chwyn drygionus
+<lb/>o arferon anaddas allan o<isp/>'i meddwl hi trwy <w>a<lb rend="shy"/>ddysc</w> iachus, ni allid na chait ti dderbyn ar fyrr
+<lb/>o hynny ffrwythau melus eich diddanwch chwi
+<lb/>eich dau.
+</p>
+<p>
+<lb/>Am hynny, fel na ddigwyddo <orig reg="rhyngoch">rhwngoch</orig> chwi
+<lb/>ymryson, gwn&acirc;<isp/>'r cyngor hwn a roddaf iti ymma:
+<lb/>pa beth bynnac anfelus a ddigwyddo gartref: os
+<lb/>gwnaeth dy wraig ddim ar fai diddana hi, ac na
+<lb/>chynydda ei thrymder hi. O herwydd er maint o
+<lb/>ofidiau a fo yn dy flino di, etto ni chaidi ddim a<isp/>'th
+<pb n="181"/>
+<lb/>flino<isp/>'n fwy nag eisiau ewyllys da dy wraig <w>gar<lb rend="shy"/>tref.</w> Pa wrthwyneb bynnac a elli di ei enwi, etto
+<lb/>ni chaid di vn mor anrhaith ei oddef a bod yn
+<lb/>ymryson a<isp/>'th wraig. Ac am hyn yn fwyaf dim y
+<lb/>dylait ti berchi y cariad hwn.
+</p>
+<p>
+<lb/>Ac os yw rheswm yn peri i ti oddef rhyw gam
+<lb/>ar ddwylo dynnion eraill, mwy o lawer y dylaid
+<lb/>oddef cam ar law dy wraig. Os bydd hi tylawd
+<lb/>na <term>* ddannod</term><gloss>* Edliw.</gloss> iddi. Os bydd hi gwirion na <w>wat<lb rend="shy"/>war</w> hi, ond bydd di dirionach wrthi. O <w>her<lb rend="shy"/>wydd</w> dy gorph di yw hi gwedy ei gwneuthur yn
+<lb/>vn cnawd &acirc; thi.
+</p>
+<p>
+<lb/>Ond ti a ddywedi onid odid ei bod hi yn wraig
+<lb/>lidiog, yn feddwen, yn <orig reg="anifeilaidd">anefeilaidd</orig>, heb synwyr
+<lb/>a rheswm ynddi: am yr achos hyn tosturia <w>wr<lb rend="shy"/>thi</w> yn hytrach. Nag ynfyda yn dy lid ond <w>gwe<lb rend="shy"/>ddia</w> ar yr Holl-alluog Dduw, <corr resp="transcr" sic="rhybydia">rhybyddia</corr> a <w>chyn<lb rend="shy"/>northwya</w> hi &acirc; chyngor da, ymegnia di ar ei
+<lb/>rhyddhau hi o<isp/>'r holl wyniau hyn: ond os curi di
+<lb/>hi, ti a chwanegi ei gwyniau dr&wcirc;g hi, o herwydd
+<lb/>ni wellhauir cyndynrwydd ac atcasrwydd trwy
+<lb/>gyndynrwydd, onid trwy amynedd ac <w>addfwyn<lb rend="shy"/>der.</w>
+</p>
+<p>
+<lb/>Ystyria pa wobr a gaidi ar law Dduw? O <w>her<lb rend="shy"/>wydd</w> lle y galliti ei churo hi, etto os rhag ofn
+<lb/>Duw yr ym-atteli di a dwyn yn oddefgar gyda
+<lb/>ei baiau mawrion hi, yn <orig reg="hytrach">hytrarch</orig> o ran y <w>gy<lb rend="shy"/>fraith</w> sydd yn gwahardd i wr droi ymmaith ei
+<lb/>wraig pa fai bynnac a fo erni, ti a gai wobr mawr.
+<lb/>A chyn y derbynnech <corr resp="transcr" sic="&ycirc;">y</corr> gwobr hynny, ti a gai
+<lb/>lawer budd arall. O herwydd trwy hyn y gwnair
+<lb/>hi yn vfyddach, a thithau a wnair er ei mwyn hi
+<lb/>yn fwynach.
+</p>
+<p>
+<lb/>Mae<isp/>'n scrifennedig mewn histori fod i ryw
+<pb n="182"/>
+<lb/>philosophydd <orig reg="dieithr">diethr</orig> wraig felldigedig atgas <w>fe<lb rend="shy"/>ddw.</w> Pan ofynnwyd iddo paham yr ydoedd ef yn
+<lb/>dwyn gyd&acirc; ei harfero<expan>n</expan> drwg hi; fe attebodd, Trwy
+<lb/>hyn, eb<isp/>efe, mae imi gartref athro a siampl i <w>ym<lb rend="shy"/>ddwyn</w> pan fyddwyf allan. O herwydd, medd ef,
+<lb/>mi a fyddaf gwell fy amynedd <sic>ymlhith</sic> eraill
+<lb/>gwedy fy<isp/>nyscu ac ymarfer beunydd i ddwyn gyd
+<lb/>&acirc; hi. Yn wir cywilydd yw bod Paganiaid yn
+<lb/>ddoethach n&acirc; nyni, nyni meddaf i<isp/>'r rhai y <w>gor<lb rend="shy"/>chymmynnir</w> bod yn <orig reg="gyffelyb">gyfelyb</orig> i Angylion, ie i
+<lb/>Dduw ei hun mewn amynedd. O gariad ar
+<lb/>rinwedd ni yrrai y <corr resp="transcr" sic="philosopydd">philosophydd</corr> hwn Socrates ei
+<lb/>wraig oddiwrtho. Ie rhai a ddywaid mai am
+<lb/>hyn y priododd ef ei wraig, i ddyscu y rhinwedd
+<lb/>hon genthi.
+</p>
+<p>
+<lb/>O blegyd hyn, am fod llawer heb fod mor
+<lb/>gall a<isp/>'r gwr hwn: fy<isp/>nghyngor yw, yn gyntaf ac
+<lb/><orig reg="ymlaen">ym-mlaen</orig> pob peth i &wcirc;r wneuthur ei orau i geisio
+<lb/>gwraig dda rinweddol honest. Ond os <w>digwy<lb rend="shy"/>dda</w> ei dwyllo ef, ac iddo ddewis gwraig yr hon
+<lb/>nid yw na da nac iawndda, yno canlyned y gwr
+<lb/>y philosophydd hwn, ac addysced ei wraig <orig reg="ym mhob"><w>ym<lb rend="hyphen"/>mhob</w></orig> cynneddfeu da, ac na chyhoedded y pethau
+<lb/>hyn byth <orig reg="yng ngolwg">yngolwg</orig> y byd.
+</p>
+<p>
+<lb/>O herwydd oni bydd y marsiandwr gwedy
+<lb/>cytuno yn gyntaf &acirc;<isp/>'i oruchwiliwr fal y gallai
+<lb/>arfer ei farchnad-negesau<isp/>'n llonydd, ni osod ef
+<lb/>ei long dan hwyl, na<isp/>'i law ar ei farsiandiaeth:
+<lb/>felly gwnawn ninnau fal y caffom gyfeillach ein
+<lb/>gwragedd, y rhai yw goruchwiliaid ein <w>gorchwy<lb rend="shy"/>lion</w> ni gartref yn esmwyth ac yn llonydd ddigon:
+<lb/>a thrwy hyn yr aiff pob peth yn llwyddianus, ac
+<lb/>felly yr awn ni trwy beriglau blin-f&ocirc;r y byd
+<lb/>hwn.
+</p>
+<pb n="183"/>
+<p>
+<lb/>O herwydd fe fydd st&acirc;t ein <corr resp="transcr" sic="bywd">bywyd</corr> ni yn fwy
+<lb/>anrhydedd a diddanwch ini n&acirc;<isp/>'n tai, ein <w>gwei<lb rend="shy"/>sion,</w> ein harian, ein t&icirc;r, ein meddiannau, ar cwbl
+<lb/>oll ar a ellir eu cyfrif, fal na all yr holl <w>be<lb rend="shy"/>thau</w> hynny os bydd ymryson ac anghytundeb,
+<lb/>weithio ini vn diddanwch, felly y troir pob peth
+<lb/>i<isp/>'n budd ni, a<isp/>'n bodd, os tynnwn y iau hon mewn
+<lb/>vn cytundeb calon a meddwl.
+</p>
+<p>
+<lb/>Am hynny ymegniwch i arfer eich priodas fal
+<lb/>hyn, ac felly y<isp/>'ch arfogir chwi o<isp/>'r ddau ystlys.
+<lb/>Chwi a ddiangasoch rhag maglau diawl a <w>chwa<expan>n</expan><lb rend="shy"/>tau</w> anghyfraithlon y cnawd, ac a gawsoch <w>lon<lb rend="shy"/>yddwch</w> cydwybod trwy ordeinh&acirc;d priodas a <w>or<lb rend="shy"/>deiniodd</w> Duw, am hynny arferwch weddio<isp/>'n
+<lb/>fynych arno, ar ei fod ef yn bresennol gyd&acirc; chwi,
+<lb/>ac ar iddo efe gynnal cariad a charedigrwydd
+<lb/>rhyngoch chwi. Gwnewch eich gorau o<isp/>'ch rhan
+<lb/>chwi i<isp/>'ch ymarfer eich hunain a lledneisrwydd
+<lb/>ac ammynedd, a dygwch yn llonydd gyd&acirc;<isp/>'r <w>cam<lb rend="shy"/>synnaid</w><!--= camsyn(i)ed--> a ddigwyddo; fal hyn y bydd eich <w>ymddy<lb rend="shy"/>giad</w> chwi yn hyfryd ac yn ddiddanus iawn.
+</p>
+<p>
+<lb/>Ac er ei ryw wrthwyneb ganlyn (yr hyn ni
+<lb/>ddichon bod yn amgen) ac er i aflwydd <w>digwy<lb rend="shy"/>ddo,</w> weithiau mewn vn ffordd, ac weithiau
+<lb/>mewn ffordd arall: etto yn y trallod a<isp/>'r <w>gwrth<lb rend="shy"/>wyneb</w> cyffredinol hwn, cyffodwch eich dwylaw
+<lb/>eich dau tu&acirc;<isp/>'r nefoedd, gelwch am gynorthwy
+<lb/>a nerth gan Dduw awdur eich priodas chwi,
+<lb/>ac yn siccr fe fydd addewyd eich ymwared chwi
+<lb/>yn agos: O blegid mae Christ yn dywedyd yn
+<lb/>yr efengyl, Os cyduna dau neu dri o<dsp/>honoch ar y
+<lb/>ddaiar am ddim oll, beth bynnac a ddeisyfant a
+<lb/>roddir iddynt gan <orig reg="fy nhad">fy-nhad</orig> yr hwn sydd yn y <w>ne<lb rend="shy"/>foedd.</w>
+</p>
+<pb n="184"/>
+<p>
+<lb/>Paham am hynny yr ydwyd yn ofni perigl,
+<lb/>lle y mae iti addewid mor barod, a chymmorth
+<lb/>mor agos?
+</p>
+<p>
+<lb/>Rhaid i chwi ddeall hefyd mor anghenrhaid
+<lb/>yw i Gristion ddwyn croes Christ, o herwydd
+<lb/>heb hon byth ni wybyddwn mor ddiddanus yw
+<lb/>cymmorth Duw ini. Am hynny rhoddwch <w>ddi<lb rend="shy"/>olch</w> i Dduw am ei fawr ddawn, gan ddarfod
+<lb/>i chwi gymmeryd arnoch st&acirc;t priodas, a <w>gweddi<lb rend="shy"/>wch</w> yn <corr resp="transcr" sic="wastaddol">wastadol</corr> ar i<isp/>'r holl-alluog Dduw eich
+<lb/>ymddiffyn a<isp/>'ch maenteinio ynddi yn <w>llwyddian<lb rend="shy"/>nus,</w> fal na ormeiler chwi gan vn <corr resp="transcr" sic="profediagaeth">profedigaeth</corr>,
+<lb/>na gwrthwyneb: Ond vwchlaw pob peth, <w>go<lb rend="shy"/>chelwch</w> na roddoch achosion i ddiawl i rwystro
+<lb/>ac i luddio eich gweddiau chwi, trwy ymryson
+<lb/>ac angytundeb. O herwydd nid oes ymddiffynfa
+<lb/>nac atteg gadarnach yn ein holl einioes ni n&acirc;
+<lb/>gweddi, trwy<isp/>'r hon y gallwn alw am nerth
+<lb/>Duw a<isp/>'i fwynhau, trwy<isp/>'r hon y gallwn gael
+<lb/>ei fendith ef, ei rad, ei ymddiffyn, a<isp/>'i nawdd, felly
+<lb/>i barhau hyd onis caffom y bywyd sydd well yn
+<lb/>y byd a ddaw. Yr hwn fywyd a ganniatao ef ini
+<lb/>yr hwn a fu farw drosom ni oll, i<isp/>'r hwn y <w>by<lb rend="shy"/>ddo</w> pob anrhydedd a chlod yn dragywydd, Amen.
+</p>
+</div>
+</body>
+</text>
+
+</group>
+</text>
+</TEI.2>
