@@ -1,0 +1,2389 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../bible_vdipl.xsl"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+%Conc;
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+<!ENTITY % ISOgrk1 SYSTEM "../dtds/iso-grk1.ent">
+%ISOgrk1;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Testament Newydd 1567: Detholiad o'r darnau a gyfieithwyd gan Thomas Huet</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by </resp><name id="transcr">Ingo Mittendorf</name>
+<resp>Notes by <name>Ingo Mittendorf</name></resp></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, November 2004</edition></editionStmt>
+
+<publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+</publicationStmt>
+
+<notesStmt>
+  <note></note>
+</notesStmt>
+
+<sourceDesc>
+<bibl>
+<title>Testament Newydd ein Arglwydd Jesv Christ. Gwedy ei dynnu, yd y gadei yr ancyfiaith, 'air yn ei gylydd or Groec a'r Llatin, gan newidio ffurf llythyreu y gairiae-dodi. Eb law hyny y mae pop gair a dybiwyt y vot yn andeallus, ai o ran llediaith y 'wlat, ai o ancynefinder y devnydd, wedy ei noti ai eglurhau ar 'ledemyl y tu dalen gydrychiol.</title>
+<imprint>
+<pubPlace>London</pubPlace>
+<publisher>by Henry Denham, at the costes and charges of Humfrey Toy, dwelling in Paules church yarde, at the signe of the Helmet</publisher>
+<date value="1567">1567</date>
+</imprint>
+<biblScope lang="cym">Datguddiad (testun cyflawn)</biblScope>
+<biblScope lang="eng">Revelation (complete text)</biblScope>
+</bibl>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<p>Verse numbers are not marked in the original. The relevant numbers have been supplied in the markup, within the seg-element, and are displayed in the output files for ease of reference. Direct speech and other quotations are not explicitly marked in the original either, but have been tagged using the q-element in the transcription. For details of the structural markup for chapters and verses, see the notes to the 1588 Bible.</p>
+
+<p>The text includes extensive marginal glosses of a linguistic nature. In the transcription, the word or phrase glossed is marked up using the term-element, and the gloss itself immediately follows, marked up using the gloss-element. Note that although the glosses are placed within the line in the transcription, that are always marginal glosses in the original. In the output files, glosses have been placed in square brackets, and the terms to which they apply are underlined.</p>
+
+<p>In cases where words or parts of words are written in a different font to indicate that the word may be read in its entirety, or with the extra letters omitted (see above), the transcription tags the words or letters marked out in this way using the hi-element with the rend-attribute &quot;antiqua&quot; (for instance, the example mentioned above is represented as die&lt;hi rend=&quot;antiqua&quot;&gt;rnot&lt;/hi&gt;.</p>
+
+<p>The text contains three special characters: hooked l (for &lt;ll&gt;), eth (&eth;) (for &lt;dd&gt;) and a double v (vv) (for &lt;w&gt;). These are represented in the TEI-transcription using the character entities &amp;lhook;, &amp;eth; and &amp;vv; respectively. In the diplomatic files, they are represented more or less in the form they are found in the original. For indexing purposes, they are replaced with their modern equivalents. Note that the text also contains the Greek letters alpha and omega, represented here as character entities (&amp;agr; and &amp;ohgr;).</p>
+
+<p>Note that line breaks are not recorded in the transcription, except in the 'argument' (preface) to the book, and in a few other cases where they were necessary for technical reasons.</p>
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs> (including some transcriptions in the <rs id="ipa">International Phonetic Alphabet</rs>).</p>
+    </langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date>12.09.02</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>replaced div1 (chapters) with div
+replaced div2 (verses) with seg and moved P outside seg</item>
+</change>
+
+<change>
+<date>29.06.02</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>Brought expansions into line with current policy</item>
+</change>
+
+<change>
+<date>May 2002</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>Inserted W with LB and PB, but only in initial argument!</item>
+</change>
+
+<change>
+<date>12 Dec 2001</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>deleted corr around lb rend om-shy</item>
+</change>
+
+<change>
+<date>8 Dec 2001</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>replaced vv in antiqua parts with entity vv</item>
+</change>
+
+<change>
+<date>7 Dec 2001</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>finished first proof-reading</item>
+</change>
+
+<change>
+<date>5 Dec 2001</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>replaced l' (where applicable, ie = ll) with entity lhook</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<!-- line breaks only documented for preface (argument) of the whole book (pp. 372v-373r), and where a linebreak caused an error -->
+
+<text id="TN-Huet">
+<pb n="372v"/>
+<body>
+<head type="main">
+<lb/><term>* Gweledigeth</term>
+<gloss>* Atcuddiat</gloss> Ioan y <term>&Dagger; Divinydd.</term>
+<gloss>&Dagger; 'sef yr ym<lb rend="om-shy"/>adroddwr am Dduw.</gloss>
+</head>
+<argument>
+<head>YR ARGVMENT.</head>
+<p>
+<lb n="1"/>
+<hi rend="rubric">E</hi>Glaer yw, y mynnei'r Yspryt glan megis
+<lb n="2"/>casclu ir llyfer rhagorol hwn <term>* grynodep</term>
+<gloss>* <hi rend="antiqua">sum, <corr resp="transcr" sic="swm">swm,</corr> swmp</hi>
+</gloss>
+<lb n="3"/>y prophetolaethe hyny, yr ei a <w>racscrivene<lb n="4" rend="shy"/>sit,</w> eithyr a gyflawnit gwedy dyvodiat
+<lb n="5"/>Christ, can angwanegu hefyt cyfryw <w>be<lb n="6" rend="shy"/>theu</w> ac vyddei raidiol, yn gystal in rhac
+<lb n="7"/>rybuddiaw am berycleu a ddelent, ac in
+<lb n="8"/>rhybuddiaw y 'ochelyd rei, ac in cysirio yn erbyn eraill. Yma
+<lb n="9"/>gan hyny yr eglurir <term>&Dagger; Diuiniti</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">dywdab</hi>
+</gloss> Christ, a' thestiolaetheu ein
+<lb n="10"/>prynedigeth: pa betheu 'sy cymradwy gan Yspryt Dew yn
+<lb n="11"/>y <term>* ministreit</term>
+<gloss>* <hi rend="antiqua">gwenidogio<expan>n</expan> ecclesic</hi>
+</gloss>, a' pha bethe 'sy ancymradwy ganto: rhac
+<lb n="12"/>weledigeth Dew yw ddetholedigion, ac am y gogoniant a'r
+<lb n="13"/>diddanwch yn y dydd dial: p'iredd y destruwer yr <term>&Dagger; hypocriteit</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">gausainct</hi>
+</gloss>
+<lb n="14"/>yr ei a <term>* vrathant</term>
+<gloss>* <hi rend="antiqua">gnoant</hi>
+</gloss> mal scorpionae aelodae Christ, eithyr yr Oen
+<lb n="15"/>Christ y amddeffen yr ei a dducant testoliaeth y gyd a'r <w>gwi<lb n="16" rend="shy"/>rionedd,</w> yr hwn er anvodd y bestvil a' Satan a deyrnasa ar
+<!-- gloss eb ddiolch going here? Another gloss 'ddosparth' going where? -->
+<lb n="17"/>oll. Bywiol <term>&Dagger; yscythrat</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">eb ddiolch</hi>
+</gloss> Antichrist wedy arddangos, yr hwn
+<lb n="18"/>er hyny a dervynir ei amser a'i veddiant, a' chyd dyoddefir' y
+<lb n="19"/>gynddaredd ef yn erbyn <orig>yd <corr resp="transcr" sic="etholegion">etholedigion</corr>
+</orig>, er hyny ny chyredd y
+<lb n="20"/>veddiant ef ym-pellach na drugu y cyrph hwy: ac or dywedd
+<lb n="21"/>y dinistrir ef can <term>* lit</term>
+<gloss>
+&Dagger; 
+<hi rend="antiqua">ddigofain, soriant</hi>
+</gloss> Dyw, pan vydd ir etholedigion roi <w>mo<lb n="22" rend="shy"/>liant</w> y Ddyw am y <term>&Dagger; vuddygoliaeth</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">'orchafieth, gorvot</hi>
+</gloss>, ac er hyny tros amser ef
+<lb n="23"/>a ddyoddef Dyw yr Antichrist hwn, a'r putain y dan liw <w>yma<lb n="24" rend="shy"/>drodd</w> tec a' dysceidaeth vodd 'onus y hudo'r byt: am hynny y
+<lb n="25"/>mae ef yn cygori'r ei dywiol (yr ei nyd ynt anyd rhan vach)
+<lb n="26"/>ymochelyd rhac gweniaith y vudroc hon, ai molach, a' hwy a
+<lb n="27"/>gant welet ei <term>* hadvail</term>
+<gloss>* <hi rend="antiqua">chwymp</hi>
+</gloss> yn ddidrugaredd, a'r compeini <w>ne<pb rend="shy" n="373r"/><lb n="1"/>fawl</w><!-- p 373 misnumbered as 375 --> yn canu molianneu yn <term>&Dagger; ddidaw</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">eb dor</hi>
+</gloss>: can ys yr Oen 'sy <w>we<lb n="2" rend="shy"/>dy</w> ei briodi: a'<!--check reading--> gair Dew <term>* aeth</term>
+<gloss>* <hi rend="antiqua">a 'orvu</hi>
+</gloss> a'r <corr resp="transcr" sic="oruchafiecth">oruchafieth</corr>: Satan yr
+<lb n="3"/>hwn yn hir o amser oedd wedy ellyng yn rhydd, ys y yr <w>owr<lb n="4" rend="shy"/>hon</w> wedy ei davly ef <corr resp="transcr" sic="a'i.">a'i</corr> weinidogion ir pytew tan yw <w>po<lb n="5" rend="shy"/>eni</w> yn tragyvythawl, <term>&Dagger; lle</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">ac</hi>
+</gloss> yn-gwrthwynep i hyny y <w>ffyddlo<lb n="6" rend="shy"/>nion</w> (yr ei ynt sanctaidd ddinas Caerusalem, a' <term>* gwraic</term>
+<gloss>* <hi rend="antiqua">pria&vv;d</hi>
+</gloss> yr
+<lb n="7"/>Oen) y bydd yddwynt veddiannu gogoniant tragyvythawl.
+<lb n="8"/>Darllenwch yn ddiyscaelus, barnwch yn bwylloc, a' galwch
+<lb n="9"/>yn ddivrifol am wir ddyall y petheu hyn.
+</p>
+</argument>
+
+<div type="chapter" n="1">
+<head>Pen. j.</head>
+<argument>
+<head/>
+<p>
+1 Achos y <term>* weledigeth hon</term>
+<gloss>* <hi rend="antiqua">datguddiat hyn</hi>
+</gloss>. 3 Am yr ei a'i darllenant. 4 Ioan yn scrivennu at y saith Eccles. 5 Mawredigrwydd a' swydd Map Dew. Gweledigeth y canwyll <term>&Dagger; breni</term>
+<gloss>&Dagger; heirn</gloss>&nbsp;<corr resp="transcr" sic="a'r'">a'r</corr> ser.
+</p>
+</argument>
+<p><seg type="verse" n="1">
+<term><hi rend="rubric">G</hi>Weledigaeth</term><gloss>* Datcu&eth;iat yw air yn ei gyly&eth;</gloss> Iessu Christ, yr hon y rroedd Dyw yddo ef, yw ddangos yddy wasnaethwyr <term>&Dagger; yrrein</term>
+<gloss>&Dagger; y petheu</gloss> y orvydd yn vyan ddy<lb rend="om-shy"/>fod y ben: ac ef y &eth;a<expan>n</expan><lb rend="om-shy"/>vonoedd, ac y ddangosoe&eth; gan y angel yddy wasanaethwyr Ioan,
+</seg></p>
+<p><seg type="verse" n="2">
+Yr hwn y dystolaethoedd <term>*o</term>
+<gloss>* am</gloss>&nbsp;<corr resp="transcr" sic="eirDyw">eir Dyw</corr>, ac o dystolaeth Iesu Christ, ac o pob peth ar y weloedd ef.
+</seg></p>
+
+<pb n="373v"/>
+<lb/><p><seg type="verse" n="3">
+<term>Happys</term>
+<gloss>&Dagger; Dedwy&eth;, Gwynvydedic</gloss> ywr <term>* neb</term>
+<gloss>hwn, vn</gloss> y ddarlleyo, ar rrei y wrandawa<expan>n</expan>t geyriey y bryffodolaeth <hi rend="antiqua">hon</hi>, ac y cadwant y pethey y sydd yn escrivenedic yndi: cans y maer amser gayr llaw.
+</seg></p>
+<p><seg type="verse" n="4">
+Ioan, <term>&Dagger; yr</term>
+<gloss>&Dagger; at y. &amp;c.</gloss> seith Eglwys ar ydynt yn Asia, Rrad vo gyd a chwi, a' he&eth;wch o <hi rend="antiqua">dd</hi>iwrth yr Hwn ys ydd, yr Hwn vu, a'r Hwn <term>* vydd</term>
+<gloss>* 'sy ar ddyvot</gloss> rrac llaw, ac o ddiwrth y seith Ysbryd y rrei ydynt gair bron y <term>&Dagger; dron</term>
+<gloss>&Dagger;&nbsp;<corr resp="transcr" sic="eistedfa">eisteddfa</corr>
+</gloss> ef,
+</seg></p>
+<p><seg type="verse" n="5">
+Ac o ddiwrth Iesu Christ, yr hwn ys ydd tust ffyddlawn, <term>* yr</term>
+<gloss>* a'r</gloss>&nbsp;<term>&Dagger; enedigaeth</term>
+<gloss>&Dagger; cenedledigeth</gloss> cynta or meyrw, a Thywysog <hi rend="antiqua">ddy&vv;ch</hi> vrenhinoedd y ddayar, yddo ef yn caroedd ni, ac yn golchoedd ni oddiwrth yn pechodey yny waed, <hi rend="antiqua">yhun</hi>,
+</seg></p>
+<p><seg type="verse" n="6">
+Ac yn gwnaeth yn Vre<expan>n</expan>hinoe&eth; ac yn <term>&Dagger; Effeirieid</term>
+<gloss>&Dagger; O-</gloss> y Ddyw y dad ef, <term>* yddo</term>
+<gloss>[no gloss]</gloss> ef <hi rend="antiqua">y bo</hi> gogoniant ac ymherodraeth yn oes oesoedd. Amen.
+</seg></p>
+<p><seg type="verse" n="7">
+<term>&Dagger; Dyna</term>
+<gloss>&Dagger; Wely</gloss>, y may ef yn dyvod gydar <term>* nywl</term>
+<gloss>* wybreneu</gloss>, a' phob llugad ae gwyl ef, ar rrei <hi rend="antiqua">hefyd</hi> y <term>brathasant</term>
+<gloss>&Dagger; gwanasa<expan>n</expan>t</gloss> ef <hi rend="antiqua">try&vv;odd</hi>: ac wylovain y wnant <term>* arno ef</term>
+<gloss>* ger y vron ef</gloss> holl <term>&Dagger; ceneloe<hi rend="antiqua">dd</hi>
+</term>
+<gloss>&Dagger; llwytheu</gloss> y dayar, Velly y mae, Amen.
+</seg></p>
+<p><seg type="verse" n="8">
+<q>Mi wyf &agr;&nbsp;<hi rend="antiqua">Alpha</hi>&nbsp;&ohgr;&nbsp;<hi rend="antiqua">Omega</hi>, y dechre a'r diwe&eth;</q>, me&eth; yr Arglwydd, <q>yr Hwn y sydd, a'r Hwn vu, ac yr <hi rend="antiqua">H&vv;n</hi> ddaw <hi rend="antiqua">rrac lla&vv;</hi>, <hi rend="antiqua">'sef</hi> yr hollalluawc.</q>
+</seg></p>
+<p><seg type="verse" n="9">
+Mi Ioan, ych brawd chwi, a <term>* <corr resp="transcr" sic="chydynaith">chydymaith</corr>
+</term>
+<gloss>* chyfranwr</gloss> mewn <term>&Dagger; cospedigaeth</term>
+<gloss>&Dagger; trwbleth</gloss>, ac yn y deyrnas ac mewn goddefaint Iesu Christ, oeddwn mewn ynys a elwir Patmos am 'eir Dyw, ac am dystolaeth yr Iesu Christ.
+</seg></p>
+<p><seg type="verse" n="10">
+Yr oyddwn yn <hi rend="antiqua">yr</hi> yspryd yn dydd <term>yr * Arglwy&eth;</term>
+<gloss>* Sul</gloss>, ac y glyweis <term>&Dagger; rrac vynghefen</term>
+<gloss>&Dagger; y tu cefn, yn vy ol</gloss>, lleis mawr, mal
+
+<pb n="374r"/>
+<lb/><hi rend="antiqua">lleis</hi> trwmp<hi rend="antiqua">et</hi>,
+</seg></p>
+<p><seg type="verse" n="11">
+Yn dywedyd, <q>mi wyf &agr;&nbsp;<hi rend="antiqua">Alpha</hi> ac &ohgr;&nbsp;<hi rend="antiqua">Omega</hi>, y cyntaf ar diwethaf: a'r peth yr wyt ti yny weled, escrivena mewn llyfr, a danvon <term>* yr</term>
+<gloss>* ir</gloss> seith Eglwys ar ydynt yn Asia, y Ephesus, ac y Smyrna, ac y Bergamus, ac y Thyateira, ac y Sardei, ac y Philadelphia, ac y Laodiceia.</q></seg></p>
+<p><seg type="verse" n="12">
+A mi ym<hi rend="antiqua">c</hi>hoyles yn vu ol y weled y lleis, a <term>&Dagger; &eth;wad</term>
+<gloss>&Dagger; lafarei, ymadroddei</gloss> wrthy vi: a phan ym<hi rend="antiqua">c</hi>hoyles, mi a welwn seith <corr resp="transcr" sic="canwylbren">canwyllbren</corr> aur.</seg></p>
+<p><seg type="verse" n="13">
+Ac ynghanol y seith canwyllbren, vn yn debic y Vab y duyn, gwedy y ymwysgo a gwisc hed y draed a' chwedi <term>* gwisco</term>
+<gloss>* ymwregysu</gloss> gwregis aur ynghylch y vrone.
+</seg></p>
+<p><seg type="verse" n="14">
+Ey ben, ay wallt oeddent wnion mal gwlan gwyn, <hi rend="antiqua">ac</hi> mal eira, ay lygeit <hi rend="antiqua">oeddent</hi> mal fflam dan.
+</seg></p>
+<p><seg type="verse" n="15">
+Ay draed <hi rend="antiqua">oeddent</hi> mal <term>&Dagger; pres</term>
+<gloss>&Dagger; elydn, alcam manol</gloss> coeth, yn llosgi megis mewn ffwrneis: ay leis mal <term>swn</term><gloss>*ney leis</gloss><note resp="transcr">The gloss, for which an explicit reference in the text is missing, is in the right margin of verse 16. The only word, however, to which it can refer is <hi rend="italic">swn</hi> in verse 15 where in fact the Greek reads <hi rend="italic">ph&omacr;n&emacr; ... h&omacr;s ph&omacr;n&emacr;</hi>.</note> llawer o &eth;yfroedd.
+</seg></p>
+<p><seg type="verse" n="16">
+Ac yr oedd yn y law &eth;ehe saith seren: ac o eney allan yrydoed<!--corr?--> yn myned cleddey llym doy vinioc: a discleiro a wnaeth y wyneb ef mal yr <term>* hoyl</term>
+<gloss>* haul</gloss> yn y <term>&Dagger; 'rym</term>
+<gloss>&Dagger; nerth</gloss> ef.
+</seg></p>
+<p><seg type="verse" n="17">
+A phan y gweles i ef, my a syrthies wrth y draed mal marw, ac ef a ddodoedd y law dehe arnaf, dan ddwedyd wrthyf, <q part="i">nac ofna: mi wyf y cyntaf a'r diwethaf,</q></seg></p>
+<p><seg type="verse" n="18">
+<q part="m">Ac yr wyf yn vyw, ac y vym varw, <term>* a syna</term>
+<gloss>* ac wele</gloss>, yr wyf yn vyw yn oes oesoedd, Amen: ac y mae genyf yr <term>&Dagger; allwyddey</term>
+<gloss>&Dagger; agoriadeu</gloss> yffern <term>* a myrvolaeth</term>
+<gloss>* ac angeu</gloss>.</q>
+</seg></p>
+<p><seg type="verse" n="19">
+<q part="m">Escryvenna y pethey y weleist, ar pethey ysydd, ar pethey a <term>&Dagger; 'orfydd bod</term>
+<gloss>&Dagger; vyddant, ddawant</gloss> rrac llaw.</q>
+</seg></p>
+
+<pb n="374v"/>
+<lb/><p><seg type="verse" n="20">
+<q part="f">Dirgelwch y seith seren y weleist yn vy llaw &eth;echre, <term>* a'r</term>
+<gloss>[no gloss]</gloss> seith canwyllbren aur, <hi rend="antiqua">y&vv; hyn</hi>, Y seith seren <term>* Angylion</term>
+<gloss>* Cenadey</gloss> y seith Eglwys ydynt: ar seith canwyllbren y weleist, y seith <term>&Dagger; Eglwys</term>
+<gloss>&Dagger; Cynnulleidfa</gloss> ydynt.</q>
+</seg></p>
+</div>
+<div type="chapter" n="2">
+<head>Pen. ij.</head>
+<argument>
+<head/>
+<p>1 Y mae ef y cygori pedeir Eccles, 5 I 'diweirwch, 10 I barhau, dyoddefgarwch ac amendaat, 5.14.20.23 yn gystal trwy vygwth, 7.10,17,26 Ac addeweidion gobrwy.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">E</hi>Scryvena at Angel Eglwys Ephesus, Hyn y mae ef yn dywedyd y sy&eth; yn dal<hi rend="antiqua">a</hi> y seith seren yn <term>* u</term>
+<gloss>* y</gloss> law ddehe, ac y sy&eth; yn <term>&Dagger; treiglo</term>
+<gloss>* rrodio</gloss> yn c<hi rend="antiqua">h</hi>anol y seith canwyllbre<expan>n</expan> aur.
+</seg></p>
+<p><seg type="verse" n="2">
+Mi adwen du weithredoedd, ath travael, ath <hi rend="antiqua">g</hi>oddef, ac na elly <term>* cyd ddwyn</term>
+<gloss>* goddef</gloss> ar rrei drwc, ac y holeist hwynt ysydd yn dywedyd y bod yn Ebostolion, ac nyd ydynt, ac y gefeist hwynt yn <term>&Dagger; gellwddoc</term>
+<gloss>[no gloss]</gloss>.</seg></p>
+<p><seg type="verse" n="3">
+A thi oddefeist, ac <term>&Dagger; yr wyd yn oddefgar</term>
+<gloss>&Dagger; y may genyd goddefiad</gloss>, ac y dravaeleist yr mwyn vu enw i, ac ny <term>* ddyffigieist</term>
+<gloss>* vlineist</gloss>.
+</seg></p>
+<p><seg type="verse" n="4">
+<term>&Dagger; Ac er hynny</term>
+<gloss>&Dagger; Eythyr</gloss>, y may genyf peth yth erbyn, am yt ymadel ath cariad cyntaf.
+</seg></p>
+<p><seg type="verse" n="5">
+Meddylia, am hyn, o pa le y cwympeist, ac etiverha, a gwnar gweithredoedd cynta: ac <term>* onys <hi rend="antiqua">g&vv;nei</hi>
+</term>
+<gloss>* anyd ef</gloss> mi ddof ar vrys yth erbyn, ac y symydo dy ganwyllbren allan oy le, any well<hi rend="antiqua">h</hi>ey.
+</seg></p>
+<p><seg type="verse" n="6">
+Ond hyn y sydd genyt, achos yt cashay <w>gwey<pb n="375r" rend="shy"/><lb/>thredoedd</w> y Nicolaitait, y rrein yr wyf vi <term>* hevyd</term>
+<gloss>* esioes</gloss> yny cashay.
+</seg></p>
+<p><seg type="verse" n="7">
+Y sydd a chlyst gantho, gwrandawed, pa beth y ddwed yr ysbryd wrth yr Eglwysi, Ir <term>&Dagger; gorchtrechwr</term>
+<gloss>&Dagger; gorchvygwr</gloss>, y rrof vwytta or pren y bywyd, yr hwn y sydd yn c<hi rend="antiqua">h</hi>anol paradyvys D<hi rend="antiqua">d</hi>yw.
+</seg></p>
+<p><seg type="verse" n="8">
+&para;Ac escrifena at Angel Eglwys y Smyrniaid, Hyn y &eth;ywed ef y sydd gyntaf a' ddiwethaf, Yr hwn y vy varw ac y sydd vyw.
+</seg></p>
+<p><seg type="verse" n="9">
+Mi adwen dy weythredoedd, ath travael, ath tlodi (eithr yr wyd yn gyvoethoc) ac <hi rend="antiqua">mi ad&vv;en</hi>&nbsp;
+<term>* enllib</term>
+<gloss>* gabl</gloss> melleigedic<!-- corr? --> yr rein ydynt yn dywedyd y bod yn Iddewon ac nyd ydynt, <term>&Dagger; ond</term>
+<gloss>[no gloss]</gloss> y maent yn <term>&Dagger; Synagog</term>
+<gloss>&Dagger; cynulleidfa</gloss> Satan.
+</seg></p>
+<p><seg type="verse" n="10">
+Nac ofna ddim or pethey y orvydd yd y oddef: synna, e ddervydd y bwrw y cythrel rrei o hanoch chwi y garchar, mal y gellyr ych profi, a' chwi a gewch travayl deng niwrnod: bydd ffyddlawn hed <term>* myrvolaeth</term>
+<gloss>* angeu</gloss>, a mi y rrof ytti coron y bowyd.
+</seg></p>
+<p><seg type="verse" n="11">
+Ysydd a chlyst gantho, gwrandawed pa beth y ddwed yr ysbryd wrth yr eglwysi, Ny chlwyfir y gortrechwr gan yr eil <term>&Dagger; marvolaeth</term>
+<gloss>&Dagger; angeu</gloss>.
+</seg></p>
+<p><seg type="verse" n="12">
+Ac Escrifena at Angel Eglwys Pergamus, Hyn ymay ef yny Ddwedyd y sydd ar cleddey llym day vinioc.
+</seg></p>
+<p><seg type="verse" n="13">
+Mi adwen dy weithredoedd ath trig<hi rend="antiqua">ad</hi>le <hi rend="antiqua">'sef</hi> lle may <term>* eisteddle</term>
+<gloss>* thron</gloss> y Satan<!-- or: eisteddley Satan? -->, a thi y gedweist vy Enw i, ac vy ffudd i nys gwedeist, <term>&Dagger; ac</term>
+<gloss>&Dagger; ys</gloss>
+<!-- ? --> yn y dyddiey pan las vu ffu&eth;lon merthyr Antipas yn ych plith chwi, lle may Satan yn <term>* drigadwy</term>
+<gloss>* trigio</gloss>.
+</seg></p>
+<p><seg type="verse" n="14">
+Eithr y may genyf ychydic<hi rend="antiqua">ion</hi> yth erbyn, cans
+
+<pb n="375"/>
+<lb/>y may <term>&Dagger; yno genyd</term>
+<gloss>&Dagger; genyt yna</gloss> rrei yn dala dysc Balaam, yn yr hwn y ddyscoedd Balac, y vwrw <term>* plocyn tramcwyddys</term>
+<gloss>* <corr resp="transcr" sic="trancwy&eth;">tramcwy&eth;</corr> rrwystr</gloss> gar bron <term>&Dagger; meibion</term>
+<gloss>&Dagger; plant</gloss>&nbsp;
+<hi rend="antiqua">yr</hi> Israel, er yddynt vwytta or pethey y aberthwyd <term>* u ddelwey</term>
+<gloss>* i eiddolon</gloss>, a <term>&Dagger; godineby</term>
+<gloss>&Dagger; ffurnigo</gloss>.
+</seg></p>
+<p><seg type="verse" n="15">
+Velly hefyd y may genyd rrei yn dala dusc y <term>* Nicolaitait</term>
+<gloss>* <hi rend="antiqua">Gr. Nicolaitoon</hi>
+</gloss>, yr hyn yr wyfi yn y gasay.
+</seg></p>
+<p><seg type="verse" n="16">
+Etifarha, ac onys <hi rend="antiqua">g&vv;nei</hi>, mi ddof attad ar vrys, ac a ymla&eth;af yn y erbyn hwynt a chleddey <orig>vy vy-geney</orig>
+<!-- corr? -->.
+</seg></p>
+<p><seg type="verse" n="17">
+Y sydd a chlyst gantho, gwrandawed pa beth y ddwed yr ysbrud wrth yr Eglwysi, <term>&Dagger; Yr gortrechwr</term>
+<gloss>&Dagger; I hwn a orchfygo</gloss>, mi rrof y vwytta or Manna ysydd gyddiedic, ac mi rrof yddo ef garec wen, ac yn <term>* u</term>
+<gloss>* y</gloss> garec enw newydd <hi rend="antiqua">yn</hi> escrivenedic, yr hwn ny <term>&Dagger; adnebydd</term>
+<gloss>&Dagger; edwyn</gloss> neb, ond ae <term>* herbyno</term>
+<gloss>* derb-</gloss><!--shy?-->.
+</seg></p>
+<p><seg type="verse" n="18">
+&para;Ac escrivena at Angel Eglwys Thyateira, Hyn y may Mab Duw yny ddwedyd, ysydd ae lygeid mal fflam dan, ae draed mal <term>&Dagger; pres-pur</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">chalcolibano</hi>
+</gloss>.</seg></p>
+<p><seg type="verse" n="19">
+Mi adwen dy weythredoedd ath cariad, a<hi rend="antiqua">th</hi> wa<lb rend="om-shy"/>sanaeth, a<hi rend="antiqua">th</hi> ffydd, ath goddeviad, ath weithredoedd, a' <hi rend="antiqua">bot</hi> y diwethaf yn rragori ar y cyntaf.
+</seg></p>
+<p><seg type="verse" n="20">
+Eithr ymae genyf ychydic <hi rend="antiqua">bethe</hi> yth erbyn, am <term>* yd</term>
+<gloss>* yt</gloss> goddef y wreic <hi rend="antiqua">hono</hi> Iezabel, yr hon ysydd yn galw y <term>&Dagger; hyn</term>
+<gloss>&Dagger; hun</gloss> yn broffwydes, y ddusgy ac y dwyllo vyngwasnaethwyr i y beri yddynt <hi rend="antiqua">g</hi>odyneby, ac y vwytta bwydydd gwedy y aberthy <term>&Dagger; y ddelwey</term>
+<gloss>&Dagger; i eiddolon</gloss>.
+</seg></p>
+<!-- verse 21 misnumbered 23 -->
+<p><seg type="verse" n="21">
+Ac mi a rroyssym amser yddy y etiferhay am y godinep, ac ny chymerth <hi rend="antiqua">hi</hi> etifeyrwch.
+</seg></p>
+<p><seg type="verse" n="22">
+<term>* Syna</term>
+<gloss>* Nachaf, Wele</gloss>, mi a bwraf hi y wely, ar sawl a wna<expan>n</expan>t odineb <hi rend="antiqua">gyd</hi> a hi, y <term>&Dagger; gospedigaeth</term>
+<gloss>&Dagger; gystudd, gyni, 'ovid</gloss> mawr, onyd <w>eti<pb n="376r" rend="shy"/><lb/>ferhant</w> am gweithredoedd.
+</seg></p>
+<p><seg type="verse" n="23">
+Ac mi ladda y phlant <term>a * myrfolaeth</term>
+<gloss>* ac angeu</gloss>: ar holl Eg<lb rend="om-shy"/>lwysi
+<term>&Dagger; y gydnaby&eth;ant</term>
+<gloss>&Dagger; aodna-</gloss><!--corr?--> mae mi wyf yr hwn y <hi rend="antiqua">ch</hi>whilia y 'rennae ar caloney: ac mi a rrof y bob vn o hanoch yn ol ych gweithredoedd.
+</seg></p>
+<p><seg type="verse" n="24">
+Ac y chwi y dwedaf, y gweddillion Thyateira, <term>* Ysawl <hi rend="antiqua">bynac</hi>
+</term>
+<gloss>* Cyniuer</gloss> na does ganthynt y ddusc hon, ac ny adnabyont dyfnder Satan (mal y dwedant) ny ddodaf arnywch beych <term>&Dagger; arall</term>
+<gloss>&Dagger; yn chwanec</gloss>.
+</seg></p>
+<p><seg type="verse" n="25">
+Ond y peth yssydd genywch <hi rend="antiqua">eisus</hi>, delwch <hi rend="antiqua">yn dda</hi> hed yn 'ddelwyf.
+</seg></p>
+<p><seg type="verse" n="26">
+
+<term>* Can ys</term>
+<gloss>[no gloss]</gloss> yr vn y orfyddo ac y gatwo vyngweithredoedd hed y diwedd, mi a rroddaf yddo ef gallu ar <term>&Dagger; genetloedd</term>
+<gloss>&Dagger; nassioney</gloss>, ac ef a rriola hwynt a gwialen hayarn, ac hwynt a ddryllir mal llestri pridd.
+</seg></p>
+<p><seg type="verse" n="27">
+Ac yny modd y dderbynes i gan vyn had, velly y rroddaf i yddo ef y seren vorey.
+</seg></p>
+<p><seg type="verse" n="28">
+Sydd a chlyst gantho, gwrandawed pa beth y ddwed yr ysbryd wrth yr Eglwysi.
+</seg></p>
+</div>
+<div type="chapter" n="3">
+<head>Pen. iij.</head>
+<argument>
+<head/>
+<p>1 Y mae ef yn annoc yr Ecclesidd ai gwenidogion i wir <term>* proffessiat</term>
+<gloss>[no gloss]</gloss> ffydd ac y wiliaw, 12 Gyd ac addeweidion ir ei a paraant.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C escrivena at Angel Eglwys <hi rend="antiqua">ys y yn</hi> Sardi, Hyn y ddwed <term>* ef</term>
+<gloss>* yr hwn</gloss> ysydd a seith ysbrud Dyw gantho, ar seith seren, Mi adwen dy weithredoedd can ys y may enw <term>&Dagger; genyd</term>
+<gloss>&Dagger; yti</gloss> dy vod yn vyw, ond
+
+<pb n="376v"/>
+<lb/>yr wyd yn varw.
+</seg></p>
+<p><seg type="verse" n="2">
+<term>* Duhyn</term>
+<gloss>* Dyffro</gloss> a' chadarnha y gweddillion, ar ydynt yn barod y veirw: can ys ny cheveis i dy weithredoedd yn <term>&Dagger; byrffeith</term>
+<gloss>&Dagger; gyflawn</gloss> gair bron Dyw.
+</seg></p>
+<p><seg type="verse" n="3">
+Am hyny cofia, pa beth y dderbyneist, ac y glyweist, a dala yn <term>* sicker</term>
+<gloss>* ffest</gloss>, ac eteferha. Am hyny, ony byddy yn <term>&Dagger; dduhynol</term>
+<gloss>&Dagger; gwyliad</gloss>, mi ddof attad mal lleydyr, ac ny chey wybod pa'r awr y dof attad.
+</seg></p>
+<p><seg type="verse" n="4">
+
+<hi rend="antiqua">Eithr</hi> y mae genyd ychydyc o enwey eto yn Sardi, yrrein ny halogesont y dillad: a rrei hyny a rro<lb rend="om-shy"/>diant gyda mi mewn <hi rend="antiqua">dillad</hi> gwnion: can ys teylwng ydynt.
+</seg></p>
+<p><seg type="verse" n="5">
+Yr vn y <term>* orfyddo</term>
+<gloss>* orchfyco</gloss>, y <corr resp="transcr" sic="dddillatteir">ddillatteir</corr> mewn dillad gwnion, ac ny <term>&Dagger; ddodaf</term>
+<gloss>&Dagger; ddileaf</gloss> y enw ef allan o Lyfr y bowyd, ond mi <term>* coffessaf</term>
+<gloss>* addefaf</gloss> y enw ef gair bron vyn had, a' chair bron y Angelion.
+</seg></p>
+<p><seg type="verse" n="6">
+Y sydd a chlyst gantho, gwrandawed, pa beth y ddwed yr ysbrud wrth yr Eglwysi.
+</seg></p>
+<p><seg type="verse" n="7">
+&para;Ac Escrifena at Angel <hi rend="antiqua">yr</hi> Eglwys <hi rend="antiqua">ys y yn</hi> Philadelphia, Hyn y &eth;wed ef y sydd santeidd a chowir, yr hwn y mae gantho <term>&Dagger; agoriad</term>
+<gloss>&Dagger;&nbsp;<corr resp="transcr" sic="allwydo">allwydd</corr>
+</gloss> Dauid, yr hwn agor<hi rend="antiqua">a</hi> ac ny chay<hi rend="antiqua">a</hi> neb, ac y gay<hi rend="antiqua">a</hi> ac nyd agor<hi rend="antiqua">a</hi> neb,
+</seg></p>
+<p><seg type="verse" n="8">
+Mi adwen dy weithredoedd: <term>* syna</term>
+<gloss>* wele</gloss>, mi a ddodeis gair dy vron drws agored, ac ny dduchyn neb y chay<hi rend="antiqua">ed</hi>&nbsp;
+<term>&Dagger; hi</term>
+<gloss>&Dagger; ef</gloss>: can ys y mae genyd ychydic <term>* rym</term>
+<gloss>* nerth</gloss> a thi y gedweist vyngeir, ac ny wedeist vy Enw.
+</seg></p>
+<p><seg type="verse" n="9">
+<term>&Dagger; Syna</term>
+<gloss>&Dagger; Wele</gloss>, mi wnaf y&eth;ynt hwy o <term>* Synagog</term>
+<gloss>* gynulleidfa</gloss> satan y rrein y galwant y hun yn I&eth;ewon ac nyd ydynt, ond y maent yn gelwyddog<hi rend="antiqua">ion</hi>, syna, <hi rend="antiqua">meddaf</hi>, mi wnaf yddynt ddyfod ac <term>&Dagger; anrrydeddy</term>
+<gloss>&Dagger; addoli</gloss> gair bron dy draed, a' chydnabod vy mod yn du garu <hi rend="antiqua">di</hi>.
+</seg></p>
+
+<pb n="377r"/>
+<lb/><p><seg type="verse" n="10">
+O achos <term>&Dagger; yd</term>
+<gloss>* yt</gloss> gadw geir vyng oddef i, am hyny mi ath cadwa di oddiwrth awr y profedigaeth, yr <hi rend="antiqua">hon a</hi> ddaw ar yr holl vyd, y brofi hwynt ar ydynt yn trigo ar y ddayar.
+</seg></p>
+<p><seg type="verse" n="11">
+
+<term>* Syna</term>
+<gloss>* <corr resp="transcr" sic="Nachaf">Nachaf,</corr> wely
+</gloss>, yr wyf yn dyfod ar vrys, dala'r peth y sydd genyd, rrac y neb gymeryd dy goron.
+</seg></p>
+<p><seg type="verse" n="12">
+Mi wnaf yr vn y 'orfyddo yn <term>* biler</term>
+<gloss>
+&Dagger; golofn</gloss> yn hemel vy nyw i, ac nyd eiff ef allan <term>&Dagger; rac llaw</term>
+<gloss>
+* mwy</gloss>: ac mi escrifenaf arno ef Enw vy nyw i, ac enw <term>* dinas</term>
+<gloss>
+&Dagger; caer</gloss> vy nyw i, yr hon ydiw Caersalem newydd, y sydd yn discyn or nef oddiwrth vy nyw <hi rend="antiqua">i</hi>, ac <hi rend="antiqua">mi scrivennaf</hi> arno ef vy Enw newydd i.
+</seg></p>
+<p><seg type="verse" n="13">
+Y sy&eth; a chlyst gantho, <corr resp="transcr" sic="gwranandawed">gwrandawed</corr> pa beth y ddwed yr ysbryd wrth yr Eglwysi.
+</seg></p>
+<p><seg type="verse" n="14">
+Ac escrifena at Angel Eglwys y Laodiceit, Hyn y ddwad Amen, y tust ffyddlawn a' chowir, dechreyad creadyrieid Dyw.
+</seg></p>
+<p><seg type="verse" n="15">
+<!-- superfluous soft hyphen used with ae twym -->
+Mi adwen dy weithredoedd, nyd ydwyd na <term>&Dagger; thwym nac oer</term>
+<gloss>&Dagger; oer na gwresoc</gloss>: mi vynwn pyt veid <term>* yneill ae<lb rend="superfluous-shy"/>twym ae oer</term>
+<gloss>* ai oer ai gwresoc</gloss>.
+</seg></p>
+<p><seg type="verse" n="16">
+Ac am hyny can dy vod yn <term>&Dagger; lled-twym</term>
+<gloss>&Dagger; vwygl</gloss>, ac heb vod nac yn oer nac yn <corr resp="transcr" sic="dwym,,">dwym,</corr> e <hi rend="antiqua">dder</hi>vydd i mi dy chwdy <hi rend="antiqua">di</hi> allan om geney.
+</seg></p>
+<p><seg type="verse" n="17">
+Can ys yr wyd yn dwedyd, Yr wyf i yn gyvoethoc, a chenyf amlder o dda, ac ny does arnaf eisie dim, ac ny wddost dy vod yn druan ac yn resynol, ac yn dlawd, ac yn ddall, ac yn noeth.
+</seg></p>
+<p><seg type="verse" n="18">
+Mi gynghoraf ytti i bryny genyfi aur <term>* puredic trwy</term>
+<gloss>
+&Dagger; provedic can</gloss> dan, mal y <term>* gellir</term>
+<gloss>[no gloss]</gloss> dy <term>&Dagger; gyvoethogi</term>
+<gloss>[no gloss]</gloss>, a gwisco amdanad a dillad gwnion, mal ith ymwiscer, ac mal nad ymddangoso <term>* cywilydd</term>
+<gloss>* gwrthuni</gloss> dy noethter <hi rend="antiqua">di</hi>: ac
+
+<pb n="377v"/>
+<lb/><corr resp="transcr" sic="ra">ira</corr>
+<!-- catchword is ira ; two following glosses, extent of terms unclear to me -->
+&Dagger; dy <term>olygon</term>
+<gloss>&Dagger; lygait</gloss> ac <term>* eli llygeid</term>
+<gloss>* <hi rend="antiqua">collyrio</hi>
+</gloss>, mal y gwelych:
+</seg></p>
+<!-- verse 19 misnumbered 16 -->
+<p><seg type="verse" n="19">
+Yrwyf yn <term>&Dagger; beio</term>
+<gloss>&Dagger; argyoe&eth;i, ceryddu, siardo</gloss> ac yn cospi y sawl yr wyf yny garu: am hyny <term>&Dagger; pryssyrgara</term>
+<gloss>* Lla. <hi rend="antiqua">emulare</hi></gloss> a gwella.</seg></p>
+<p><seg type="verse" n="20">
+Syna, yrwyf yn sefyll wrth y drws, ac <term>* yn</term>
+<gloss>[no gloss]</gloss>&nbsp;
+<term>&Dagger; taro</term>
+<gloss>&Dagger; curo, ffusto</gloss>&nbsp;
+<hi rend="antiqua">'r dr&vv;s</hi>. O chlyw vn duyn vu lleis ac agoror drws, mi <hi rend="antiqua">dd</hi>af y mewn atto ef, ac y swppera gydac ef, ac yntey gyda miney.
+</seg></p>
+<p><seg type="verse" n="21">
+
+<term>* Yr vn</term>
+<gloss>* Ir hwn</gloss> y orfyddo, mi rro yddo ef eiste gyda mi yn vy <term>
+* eisteddle</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">throno</hi>
+</gloss>, mal y gorvym i, ac eisteddes gyda vynhad yn y eisteddle ef.
+</seg></p>
+<p><seg type="verse" n="22">
+Y sydd a chlyst gantho, gwrandawed pa beth y ddwed yr ysbryd wrth yr eglwysi.
+</seg></p>
+</div>
+<div type="chapter" n="4">
+<head>Pen. iiij.</head>
+<argument>
+<head/>
+<p>1 Gweledigeth mawredigrwydd Dew. 2 Y may ef yn gweled y tron, ac vn yn eistedd arnaw, 8 A' 24. eisteddva oi amgylch a'. 24. henafgwyr yn eistedd arnwynt, a' phedwar aniual yn moli Dew ddydd a' nos.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">G</hi>Wedy hyn mi edrycheis, <term>* a' syna</term>
+<gloss>* ac wele, lly'ma</gloss>, y rydoe&eth; drws yn agored yn y nef, ar lleis cynta y glyweis, oedd mal lleis <term>&Dagger; trwmpet</term>
+<gloss>&Dagger; vtcorn</gloss> yn <hi rend="antiqua">c</hi>whedlea a mi, dan ddywedyd, <q><term>* Dabre</term>
+<gloss>* Escen, Dring</gloss> y vyny<hi rend="antiqua">dd</hi> yma, a mi ddangosaf ytti y pethey y orfydd yw gwneithr rrac llaw.</q>
+</seg></p>
+<p><seg type="verse" n="2">
+Ac yn y man y royddwn yn yr ysbrud, a syna, ve ddodwyd <term>&Dagger; eisteddle</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">Gr. thronos</hi>, tron, trwn</gloss> yn y nef, ac ve eisteddoydd vn ar yr eisteddle.
+</seg></p>
+<p><seg type="verse" n="3">
+Ar vn y eisteddoedd, oedd yw edrych arno, yn <w>de<pb n="378r" rend="shy"/><lb/>bic</w> * y <term>garec</term>
+<gloss>* vaen</gloss> iaspis, a' <hi rend="antiqua">charec</hi> sardin, ac envys oedd gylch ogylch yr eisteddle yn debic yr olwc arno y <hi rend="antiqua">garec</hi>&nbsp;
+<term>smaragdus</term>
+<gloss>* Sas, emeraud</gloss>
+<!-- Sas/Sos? = Saesneg? going here? -->.
+</seg></p>
+<p><seg type="verse" n="4">
+Ac ynghylch yr eisteddle <hi rend="antiqua">yr oedd</hi> pedwar eisteddle a rrigein, ac mi a weleis ar yr eisteddleoedd yn eiste pedwar a rrigein o henafieid, a dillad gwnion amdanynt, a choraney aur ar y penney.
+</seg></p>
+<p><seg type="verse" n="5">
+A' <term>&Dagger; mellt</term>
+<gloss>&Dagger; lluchedene</gloss> a thraney, a lleisiey, y ddoethant allan or eisteddle, a saith lamp o dan oe&eth;ent yn llosgi gair bron yr eiste&eth;le: yrrein ydynt seith ysbrud Dyw.
+</seg></p>
+<p><seg type="verse" n="6">
+Ac yn golwc yr eisteddle <hi rend="antiqua">yr ydoedd</hi> mor o wydr yn debic y <hi rend="antiqua">vaen</hi> cristal: ac ync<hi rend="antiqua">h</hi>anol yr eisteddle, ac yng hylch<!--corr, om-shy?--> yr eisteddle y royddent pedwar enifel yn llawn o lygeid ym'laen ac yn ol.
+</seg></p>
+<p><seg type="verse" n="7">
+Ar enifel cyntaf cynhebic <term>* yllew</term>
+<gloss>* i lew</gloss> ydoe&eth;, ar eil enifel yn debic y lo, ar trydedd oedd ac <orig>weyneb</orig>
+<!-- corr? -->
+gan<lb rend="om-shy"/>tho mal <hi rend="antiqua">&vv;ynep</hi> d<hi rend="antiqua">u</hi>yn, ar pedwaredd enifel <hi rend="antiqua">oedd</hi> yn debic y eryr <term>&Dagger; yn hedfan</term>
+<gloss>
+* yn ehedec ar ei adain</gloss>.
+</seg></p>
+<p><seg type="verse" n="8">
+Ac yroedd y bob vn or pedwar enifel chwech o a<lb rend="om-shy"/>deinedd gylch ogylch yddynt, <term>* a'</term>
+<gloss>* ac oy&eth;ent</gloss> rreini yn llawn llygeid otyfewn ac nyd <corr resp="transcr" sic="odddent">oeddent</corr> yn gorffowys dydd na nos, yn dwedyd, <q>Sanct<hi rend="antiqua">eidd</hi>, sanct<hi rend="antiqua">eidd</hi>
+<!-- ins comma, LB! --> Sanct<hi rend="antiqua">eidd</hi> Arglwydd Ddyw, <hi rend="antiqua">h</hi>ollalluawc, yr hwn y Vu, ac y Sydd, ac <term>&Dagger; Ys ydd ar ddyvot</term>
+<gloss>[no gloss]</gloss>.</q>
+</seg></p>
+<p><seg type="verse" n="9">
+A' phan rroyssont y nefeylied hynny <hi rend="antiqua">g</hi>ogoniant ac anrrydedd, a' diolch <term>* ir</term>
+<gloss>[no gloss]</gloss> yr hwn oe&eth; yn eiste<hi rend="antiqua">dd</hi> ar yr eisteddle, yr hwn y sydd yn byw <term>yn &Dagger; dragywydd</term>
+<gloss>&Dagger; yn oes oesoedd</gloss>.
+</seg></p>
+<p><seg type="verse" n="10">
+Y pedwar ar rigein o henafied y syrthiasant gair bron yr vn oedd yn eiste<hi rend="antiqua">dd</hi> ar yr eisteddle, ac a
+
+<pb n="378v"/>
+<lb/><term>* anrrydeddasont</term>
+<gloss>* grymaso<expan>n</expan>t i&eth;aw, addol<lb rend="om-shy"/>asont. &amp;c.</gloss> ef, y sydd yn byw yn dragywy&eth;, ac y vwrasont y coronae gair bron yr eiste&eth;le, dan ddywedyd,
+</seg></p>
+<p><seg type="verse" n="11">
+<q>Teylwng wyd, Arglwydd, y <hi rend="antiqua">dd</hi>erbyn gongonia<expan>n</expan>t ac anrrydedd, a' gally: cans ti y <term>&Dagger; creest</term>
+<gloss>&Dagger; wneythost</gloss> pop peth, ac er mwyn dy ewyllys <hi rend="antiqua">di</hi> y maent, ac y <term>* crewyd</term>
+<gloss>* gwneythpwyt</gloss>.</q>
+</seg></p>
+</div>
+<div type="chapter" n="5">
+<head>Pen. v.</head>
+<argument>
+<head/>
+<p>1 Gweled y mae ef yr Oen y agori 'r llyver. 8.14. Ac am hyny y mae y petwar aniuail, y 24. henafwyr, a'r Angelon yn moli yr Oen, <corr resp="transcr" sic="at">ac</corr> yn ei addoli 9 Am eu prynedigeth a'u cedion eraill.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C mi a weleis mewn llaw ddehe yr vn oedd yn eiste ar yr eisteddle, Llyfr escrivenedic or ty vewn, ac or tu allan, gwedy sely a seith sel.
+</seg></p>
+<p><seg type="verse" n="2">
+Ac mi a weleis Angel cadarn yn pregethy a lleis ychel, <q>Pwy sy deilwng y agory<hi rend="antiqua">d</hi> y Llyfr, ac y &eth;atdod y seley ef?</q>
+</seg></p>
+<p><seg type="verse" n="3">
+Ac ny doedd neb <term>* yn y</term>
+<gloss>
+&Dagger; mewn</gloss> nef, nac yn y ddayar, na than y ddayar, yn abyl y agory<hi rend="antiqua">d</hi> y Llyfr, na<hi rend="antiqua">g</hi> y edrych arno.
+</seg></p>
+<p><seg type="verse" n="4">
+Ac <hi rend="antiqua">yno</hi> mi wyles llawer, o achos na chad neb yn deilwng y agory<hi rend="antiqua">d</hi>, ac y <corr resp="transcr" sic="ddardlen">ddarllen</corr> y Llyfr, nac y edrych arno.
+</seg></p>
+<p><seg type="verse" n="5">
+Ac vn or henafied y ddwad wrthyf i, <q>Nac wy<lb rend="om-shy"/>la: <term>&Dagger; syna</term>
+<gloss>
+* wele</gloss>, llew yr hwn ysydd o lwyth Iuda, gwreiddyn Davydd, y <term>* enilloedd</term>
+<gloss>
+&Dagger; gafas</gloss> y agory<hi rend="antiqua">d</hi> y Llyfr, ac
+
+<pb n="379r"/><lb/>y ddatdod y seith sel ef.</q>
+</seg></p>
+<p><seg type="verse" n="6">
+Yno mi edrycheis, a synna, yn c<hi rend="antiqua">h</hi>anol yr eiste&eth;le, ar pedwar enifel, ac yn c<hi rend="antiqua">h</hi>anol yr henafied, yr ydoedd Oen yn sefyll mal by biasey gwedy ladd, yr hwn oedd a seith corn, ac a seith llygad yddo, y rrein ydynt seith ysbryd Dyw, y ddanvonwyd <term>&Dagger; yr</term>
+<gloss>&Dagger; ir</gloss>&nbsp;
+<hi rend="antiqua">h</hi>oll <term>* vud</term>
+<gloss>* vyd</gloss>.
+</seg></p>
+<p><seg type="verse" n="7">
+Ac ef yddaeth, ac y gymerth y Llyfr o law ddehe yr vn oedd yn eiste<hi rend="antiqua">dd</hi> ar yr eisteddle.
+</seg></p>
+<p><seg type="verse" n="8">
+A phan cymerth ef y Llyfr, y pedwar enifel, ar pedwar ar igein henafied, y syrthiasont gair bron yr Oen, ac yr ydoe&eth; gan bob vn o hanynt telyney a phiolae aur yn llawn o erogley, y rrein ydynt gweddie'r Sainct,
+</seg></p>
+<p><seg type="verse" n="9">
+Ac y ganysont caniad newydd, dan ddwedyd, <q part="i">Teilwng yd gymryd y Llyfr, ac y &eth;attod y sele ef, can ys <term>&Dagger; vethlas</term>
+<gloss>&Dagger; ithladdwyt</gloss>, ac yn pryneist ni y Ddyw <term>* trwy</term>
+<gloss>* can</gloss> dy waed <hi rend="antiqua">allan</hi> o bob cenedlaeth, ac <term>&Dagger; ieith</term>
+<gloss>&Dagger; thavod</gloss>, a' phobl, a' nasion,</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<q part="f">Ac yn gwneythost yn Vrenhinoe&eth; ac yn Effeiried yn Dyw <hi rend="antiqua">ni</hi>, a ni, a' <term>* thyrnaswn</term>
+<gloss>* deyrn-</gloss> ar y ddayar.</q>
+</seg></p>
+<p><seg type="verse" n="11">
+Yno mi edrycheis, ac y glyweis lleis llawer o Angylion ynghylch yr eisteddle ac <hi rend="antiqua">ynghylch</hi> yr enefeilied ar henafied, ac <hi rend="antiqua">yr oeddent</hi> mil o filioedd,
+</seg></p>
+<p><seg type="verse" n="12">
+Yn dwdyd a llais ywchel, <q>Teilwng yw yr Oen y las y dderbyn gallu a chyfoeth, a' doethyneb, a' chedernid, ac anrrydedd, a' gogoniant, a' moliant.</q>
+</seg></p>
+<p><seg type="verse" n="13">
+Ac mi a glywes yr holl creadyried y rrein ydynt yn<isp/>y nef, ac ar y ddayar, a than y ddayar, ac yn<isp/>y mor, a' phob peth y sydd yndynt hwy, yn dwedyd, <q>Moliant, ac anrrydedd, a' gogoniant, a gallu y
+
+<pb n="379v"/>
+<lb/><hi rend="antiqua">vo</hi> yddo ef, y sydd yn eiste ar yr eisteddle, ac yr Oen yn dragywydd.</q>
+</seg></p>
+<p><seg type="verse" n="14">
+Ar pedwar enifel a ddywedasont, <q>Amen</q>, ar pedwar ar igein o henafied a sirthiasont y lawr, ac <term>&Dagger; anrryde&eth;asont</term>
+<gloss>&Dagger; addolaso<expan>n</expan>t</gloss> ef, y sy&eth; yn byw yn dragywy&eth;.
+</seg></p>
+</div>
+<div type="chapter" n="6">
+<head>Pen. vj.</head>
+<argument>
+<head/>
+<p>1 Yr Oen yn agori y chwech insel, a' llawer o betheu yn dyvot ar ol y hagori, val y mae hyn yn amgyffred prophetoliaeth gyffredin yd dywedd y byt.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">Y</hi>N ol hyn, mi edrycheis pan agoryssey'r oen vn or seley, ac mi y glyweis vn or pedwar enifel yn dwedyd, mal <hi rend="antiqua">by bei</hi> trwst traney <q><term>* Dabre</term>
+<gloss>* Dyred</gloss> ac edrych</q>.
+</seg></p>
+<p><seg type="verse" n="2">
+Ac mi edrycheis, a' syna, yr yd oedd march gwyn, ac yr ydoedd bwa gan yr vn oedd yn eiste<hi rend="antiqua">dd</hi> arnaw, a choron y royspwyd yddo ef, ac ef aeth allan dan concwerio ac y <term>&Dagger; concwery</term>
+<gloss>&Dagger; 'orvot</gloss>.<!-- this gloss might belong to concwerio -->
+</seg></p>
+<p><seg type="verse" n="3">
+A phan agoryssey yr eil sel, mi glyweis yr eil enifel yn dwedyd, <q><term>* Dabre &Dagger; ac edrych</term>
+<gloss>* Dyred a' gwyl</gloss></q>.
+</seg></p>
+<p><seg type="verse" n="4">
+March arall aeth allan, a e <hi rend="antiqua">li&vv;</hi> yn goch, a <term>* <hi rend="antiqua">gallu</hi>
+</term>
+<gloss>
+&Dagger;&nbsp;<hi rend="antiqua">pho&vv;er</hi>
+</gloss> y rroed yr vn oedd yn eiste<hi rend="antiqua">dd</hi> arno, y gymryd heddwch o <term>&Dagger; ddiwrth</term>
+<gloss>
+* ddiar, can</gloss> y ddayar, ac y beri yddynt lla&eth; y gilydd, a' chleddey mawr y rroed yddo <hi rend="antiqua">ef</hi>.
+</seg></p>
+<p><seg type="verse" n="5">
+A' phan agorysei ef y trydydd sel, mi glyweis y trydydd enifel yn dwedyd, <q>Dabre ac edrych</q>. A' mi edrycheis, a <term>&Dagger; syna, <hi rend="antiqua">yr oedd yno</hi> march</term>
+<gloss>&Dagger; ll'yma varch</gloss> du, a phwyse
+
+<pb n="380r"/>
+<lb/>yn llaw yr vn oedd yn eiste<hi rend="antiqua">dd</hi> arno <hi rend="antiqua">ef</hi>.
+</seg></p>
+<p><seg type="verse" n="6">
+A' mi glyweis <term>* leis</term>
+<gloss>* lef, lefery&eth;</gloss> yn c<hi rend="antiqua">h</hi>anol y pedwar enifel yn dwedyd, <q>messyr o wenith er ceinioc, a' thri me<lb rend="om-shy"/>syr o <term>&Dagger; heith</term>
+<gloss>&Dagger; haidd, barlis</gloss> er ceinioc, a'r olew, gwin, na <term>* waytha</term>
+<gloss>* dryga, wna eniwed ir &amp;c.</gloss>&nbsp;
+<hi rend="antiqua">di</hi></q>.
+</seg></p>
+<p><seg type="verse" n="7">
+A' phan agorasey ef y bedwaredd sel, my glyweis lleis y bedwrydd enifel yn dwedyd, <q>Dabre ac edrych</q>.
+</seg></p>
+<p><seg type="verse" n="8">
+Ac my edrycheis, a syna, march <term>
+<hi rend="antiqua">a lli&vv;</hi>&nbsp;&Dagger; priddlyd</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">Gr. chlooros</hi> .i. melyn lluchwin, <corr resp="transcr" sic="gwelw,">gwelw</corr>
+</gloss> a <term>* Marfolaeth</term>
+<gloss>* Angeu</gloss> oedd enw yr vn oedd yn eiste arno, ac Yffern y dilynoedd ef, a gallu y roed yddynt hwy dros y bedwaredd rran <term>&Dagger; or</term>
+<gloss>&Dagger; ir</gloss> ddayar, y ladd a chleddey, ac a newyn, ac a marfolaeth, ac a <term>* 'nefeilied</term>
+<gloss>* bestviledd</gloss> y ddayar.
+</seg></p>
+<p><seg type="verse" n="9">
+A' phan agorasey <term>&Dagger; ef</term>
+<gloss>&Dagger; 'sef yr oen</gloss> y bymed sel, mi weleis dan yr allor eneidiey yr rein y las am 'eir Dyw, ac am y tustolaeth yr hwn <term>* oedd ganthynt</term>
+<gloss>* oe&eth;ent yn ei gynnal</gloss>.
+</seg></p>
+<p><seg type="verse" n="10">
+Ac hwy a lefasont a llef ywchel, dan ddwedyd, <q>Pa hyd, Arglwydd, santei&eth; a chowir? nad ydwyd yn barny a' dial yn gwaed ni, ar y rrein ar ydynt yn trigo ar y ddayar</q>.
+</seg></p>
+<p><seg type="verse" n="11">
+A' <term>gowney gwnion &Dagger; hirion</term>
+<gloss>&Dagger; Llat. <hi rend="antiqua">stol&aelig;</hi> gwiscoedd-<orig>llaesiom</orig>
+<!-- corr to -llaesion? -->
+</gloss> y rroed y bob vn o naddynt, ac y ddwetpwyd wrthynt, am yddynt o'r ffwys <term>* dros ychydic o amser</term>
+<gloss>&Dagger; enhyd bach</gloss>&nbsp;<term>hyd yn gyflewnid</term><gloss>*nes cyflew<lb rend="om-shy"/>ni</gloss><note resp="transcr">This gloss is placed after the next gloss.</note>&nbsp;<hi rend="antiqua">rif</hi>&nbsp;
+<term>* y</term>
+<gloss>&Dagger; ei</gloss> cydwasnaethwyr, ac brodyr, y ledd<hi rend="antiqua">es</hi>id, mal y llas ynthwy.
+</seg></p>
+<p><seg type="verse" n="12">
+Ac mi edrycheis pan agorasei <term>&Dagger; ef</term>
+<gloss>&Dagger; yr Oen</gloss> y chweched sel, a syna, crynfa mawr y ddayar y doedd, ar haul aeth cyn ddued a sach lien blew<hi rend="antiqua">oc</hi>, ar lleyad oedd, yn debic y waed.
+</seg></p>
+<p><seg type="verse" n="13">
+A' ser o'r nef y syrthiasont yr ddayar, mal pren
+
+<pb n="380v"/>
+<lb/>ffeigys yn bwrw ffeigys-gleison pan scydwyr <hi rend="antiqua">hi</hi> a gwynt mawr.
+</seg></p>
+<p><seg type="verse" n="14">
+Ar nef aeth heybio, mal <term>* rol-o-bapir</term>
+<gloss>* <hi rend="antiqua">Gr. biblio<expan>n</expan>
+</hi> 'sef llyfr, yr hwn vy&eth;ei yn y cynvyd yn rrolyn</gloss>, gwedy <term>&Dagger; troi</term>
+<gloss>&Dagger; ei rolio</gloss> ynghyd, a phob mynydd ac vnys y <term>* drowyd</term>
+<gloss>* ysmutwyt</gloss> allan oy lle<hi rend="antiqua">oedd</hi>,
+</seg></p>
+<p><seg type="verse" n="15">
+A' brenhinoedd y ddayar, ar gwyr mawr, ar cyfoethogion, ar pen captenied, ar <hi rend="antiqua">g&vv;yr</hi> cedyrn, a phob gwr caeth, a phob gwr-rrydd, y ymgyddiasont mewn gogofey, ac ym plith <term>&Dagger; creigie</term>
+<gloss>&Dagger;&nbsp;<corr resp="transcr" sic="clegyr,">clegyr</corr>
+</gloss> y mynyddey,
+</seg></p>
+<p><seg type="verse" n="16">
+Ac hwy y ddwedasont wrth y mynydde<hi rend="antiqua">dd</hi> ar creigeu, <q part="i">Cwympwch arnom <hi rend="antiqua">ni</hi>, a' chyddiwch ni rrac wyneb yr vn y sydd yn eiste<hi rend="antiqua">dd</hi> ar yr eisteddle, ac o ddiwrth <term>* digovent</term>
+<gloss>&Dagger; lid, edicter</gloss> yr Oen.</q>
+</seg></p>
+<p><seg type="verse" n="17">
+<q part="f">Can ys y may dy&eth; mawr y ddigovent ef gwedy dyfod, a' phwy y ddychyn sefyll?</q>
+</seg></p>
+</div>
+<div type="chapter" n="7">
+<head>Pen. vij.</head>
+<argument>
+<head/>
+<p>4.9 Gweled y mae ef wasanaethwyr Dyw wedi eu selio yn ei taleu o bop nasion a phoploedd, 15 Yr ei cyd bont yn dyo&eth;ef trwbl, er hyny y mae yr Oen yn y bwydo hwy, yn eu harwain i ffynnoneu dwfr byw, 17 A' Duw a sych ymaes yr oll ddaigreu y ar y llygait.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C yn ol hyn, mi weleis pedwar Angel yn sefy&lhook; ar bedwar <term>* cornel</term>
+<gloss>* congl</gloss> y ddayar, yn dala pedwar gwynt y ddayar, rrac yr gwynt chwthy ar y ddayar, nac ar y mor, nac ar vn pren.
+</seg></p>
+
+<pb n="381r"/>
+<lb/><p><seg type="verse" n="2">
+Ac mi weleis Angel arall yn <term>* dyfod</term>
+<gloss>* escen</gloss> y vynydd o ddiwrth y Dwyrein, ac yr rydoedd sel Dyw byw gantho, ac ef y lefoedd a <term>&Dagger; lleis</term>
+<gloss>&Dagger; llef</gloss> ywchel ar y pedwar Angel y rrein y <corr resp="transcr" sic="rroyspwydd">rroyspwyd</corr> gallu * y <term>ddrygu'r</term>
+<gloss>* waythir</gloss> ddayar, a'r mor,
+</seg></p>
+<p><seg type="verse" n="3">
+Dan ddwedyd, <q>Na ddrygwch y &eth;ayar, na'r mor, nar <term>* coed</term><gloss>* preneu</gloss>, yni <term>sely &Dagger;&nbsp;</term>
+<gloss>&Dagger; nodi</gloss> gwasnaethwyr yn Dyw ni yn y talceni</q>.
+</seg></p>
+<p><seg type="verse" n="4">
+Ac mi glyweis rrif y rrei y selwyd, ac yroydent gwedy <term>* sely</term>
+<gloss>* selio</gloss> pedeir a seith vgeinmil o holl <term>&Dagger; cenedlaythey meybyon</term>
+<gloss>&Dagger; llwytheu plant</gloss>&nbsp;
+<hi rend="antiqua">yr</hi> Israel.
+</seg></p>
+<p><seg type="verse" n="5">
+O <term>* genedyl</term>
+<gloss>* lwyth</gloss> Iuda ef y selwyd doyddeng mil. O <term>&Dagger; genedyl</term>
+<gloss>&Dagger; lwyth</gloss> Ruben ef y selwyd doyddengmil. O genedyl Gad ef <orig>yselwyd</orig> doyddengmil.
+</seg></p>
+<p><seg type="verse" n="6">
+O genedyl Aser ef y selwyd doyddengmil. O genedyl Nephtalei ef y selwyd doyddengmil. O genedyl Manasses ef y selwyd doyddengmil.
+</seg></p>
+<p><seg type="verse" n="7">
+O genedyl Simeon ef y selwyd doyddengmil. O genedyl Leui ef y selwyd doyddengmil. O genedyl Issachar, ef y selwyd doyddengmil. O genedyl Zabulon ef y selwyd doyddengmil.
+</seg></p>
+<p><seg type="verse" n="8">
+O genedyl Ioseph, ef y selwyd doyddengmil. O genedyl Ben-iamin ef y selwyd doyddengmil.
+</seg></p>
+<p><seg type="verse" n="9">
+Yn ol hyn mi edrycheis, a' syna <term>* rrif</term>
+<gloss>* torf, tyrfa, lliaws</gloss> mawr, yr hwn ny alley neb y rrifo, or holl nasioney a' chenedlaythey, a' phobloedd, <term>&Dagger; ac ieythoedd</term>
+<gloss>&Dagger; a' thauodeu</gloss>, yn sefyll gair bron yr eisteddle, a' chair bron yr Oen, a <term>* gowney</term>
+<gloss>* gwiscoedd</gloss> gwnion hirion amdanynt, a' <term>&Dagger; phalmwydd</term>
+<gloss>&Dagger; phalmidwydd</gloss> yny dwylaw.
+</seg></p>
+<p><seg type="verse" n="10">
+Ac hwy y lefasont a lleis <term>* <corr resp="transcr" sic="y wchel">ywchel</corr>
+</term>
+<gloss>* mawr, uchel</gloss>, dan ddwedyd, <q><term>&Dagger; Cadwedigaeth</term>
+<gloss>&Dagger; Iechyd</gloss>&nbsp;
+<hi rend="antiqua">sydd yn dyfod</hi> oddiwrth yn
+
+<pb n="381v"/>
+<lb/>Dyw ni, ysydd yn eiste<hi rend="antiqua">dd</hi> ar yr eiste&eth;le, ac oddiwrth yr Oen</q>.
+</seg></p>
+<p><seg type="verse" n="11">
+Ar <hi rend="antiqua">h</hi>oll Angelion y safasant ogylch yr eisteddle, ac ogylch yr henafied, ar pedwar enifel, ac hwy syr<lb rend="om-shy"/>thiasant gair bron yr eisteddle ar y hwynebey, ac <term>* anrrydeddasant</term>
+<gloss>* addolasa<expan>n</expan>t</gloss> Ddyw.
+</seg></p>
+<p><seg type="verse" n="12">
+Dan &eth;wedyd, <q><hi rend="antiqua">Amen</hi>. Moliant a' gogoniant, a' doethinep, a diolch, ac anrryde&eth;, a' gallu, a' nerth, <hi rend="antiqua">y vo</hi> yn Dyw <hi rend="antiqua">ni</hi> yn dragywydd, <hi rend="antiqua">Amen</hi></q>.
+</seg></p>
+<p><seg type="verse" n="13">
+Ac vn or henafied a <term>&Dagger;&nbsp;<hi rend="antiqua">c</hi>hwedleyawdd</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">Gr. apecri<lb rend="om-shy"/>the</hi>, atepo&eth;, sef <corr resp="transcr" sic="ymddiadanodd">ymddiddanodd</corr>
+</gloss>, dan &eth;wedyd wrthyf, <q>Pwy ydynt y rrei hyn, ysy&eth; a gowney gwnion hirion amdanynt? ac o pa le y &eth;aythont?</q>
+</seg></p>
+<p><seg type="verse" n="14">
+Ac mi ddwedeis wrtho ef, <q>Arglwydd, ti wddost</q>. Ac yntey y ddwad wrthyf i, <q part="i">Yrrein yddynt y rrei y ddaythont allan o <term>* drafael</term>
+<gloss>* drwbleth, drallot, gyni, ing</gloss> mawr, ac y olchasont y gowne-hyrion, ac y wneythont y gowney-hyrion yn wnion yn gwaed yr Oen.</q>
+</seg></p>
+<p><seg type="verse" n="15">
+<q part="m">Am hyny y maent gair bron eisteddle Dyw, ac yny wasnaethy ef yn demel dydd a nos, ar vn ysy&eth; yn eiste ar yr eisteddle, y dric yn y plith hwynt.</q>
+</seg></p>
+<p><seg type="verse" n="16">
+<q part="m">Ny vy&eth; arnynt newyn <term>&Dagger; mwy</term>
+<gloss>&Dagger; rac llaw</gloss>, na syched mwy, ac ny <term>* ddeyl</term>
+<gloss>* chwymp</gloss> yr haul arnynt, na dim gwres.</q>
+</seg></p>
+<p><seg type="verse" n="17">
+<q part="f">Cans yr oen, yr hwn ysydd yn c<hi rend="antiqua">h</hi>anol yr eisteddle, y rreola hwynt, ac y <term>&Dagger; towys</term>
+<gloss>&Dagger; harwein</gloss> hwynt at y ffynhoney byw o ddyfroedd, a' Dyw sych yr holl &eth;eigrey o ddiwrth y llygeid.</q>
+</seg></p>
+</div>
+<div type="chapter" n="8">
+<head>Pen. viij.</head>
+<argument>
+<head/>
+<p>1 Bot agori y seithfet sel: bot goystec yn y nef. 6 Y petwar Angel yn canu ei trumpie, a' phlae dirvawr ar ol hynny yn dyvot ar y ddaiar.</p>
+</argument>
+
+<pb n="382r"/>
+<lb/><p><seg type="verse" n="1">
+<hi rend="rubric">A</hi> Phan y agorassey ef y seythfed sel, y rydoedd gostec yny nef <term>* amgylch</term>
+<gloss>* ynghylch</gloss> haner awr.
+</seg></p>
+<p><seg type="verse" n="2">
+Ac mi weleis y seith Angel, yr rein oyddent yn sefyll gair bron Dyw, a' seith trwmpet yrroedd yddynt.
+</seg></p>
+<p><seg type="verse" n="3">
+Yno Angel arall y ddoyth ac y safoedd gair bron yr allor, a senser aur gantho, a' llawer o arogley y rroed yddo ef, y offrymy a gwe&eth;ie yr holl Seint, ar yr allor aur, yr <term>&Dagger; hwn ydyw</term>
+<gloss>&Dagger; hon 'sydd</gloss> gair bron yr eisteddle.
+</seg></p>
+<p><seg type="verse" n="4">
+A mwg yr erogley ynghyd a gweddie yr Saint, y <term>* ddrychafysant</term>
+<gloss>* esceneso<expan>n</expan>t, aethon y <corr resp="transcr" sic="vyny,">vyny</corr>
+</gloss> gair bron Dyw, o law yr Angel.
+</seg></p>
+<p><seg type="verse" n="5">
+Ar angel y gymerth y senser, ac y llanwoedd hi a' than or allor, ac y bwroedd yr ddayar, ac yroydd lleise, a thraney, a' <term>&Dagger; mellt</term>
+<gloss>&Dagger; llucheid</gloss>, a' chrynfa'r ddayar.
+</seg></p>
+<p><seg type="verse" n="6">
+Yno y seith Angel, y rrein oe&eth;ent ar seith trwmpet ganthynt, y <term>* wneythont y hun yn barod</term>
+<gloss>* ymparatoesont</gloss> y ga<lb rend="om-shy"/>ny'r trwmpedey.
+</seg></p>
+<p><seg type="verse" n="7">
+Ar Angel cynta y ganoedd y trwmpet, ac yr ydoedd <term>* ceseir</term>
+<gloss>* cenllysc</gloss> a' than, gwedy cymysgu, a gwaed ac hwy y vwrwyd yr ddayar, a' thrayan y <term>&Dagger; coed</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">arborum</hi>, preneu</gloss> y losgwyd, ar holl gwellt glas y losgwyd.
+</seg></p>
+<p><seg type="verse" n="8">
+Ar eil Angel y ganoedd y trwmpet, a' bwrw <corr resp="transcr" part="a" sic="y">y</corr><lb/><corr resp="transcr" part="b" sic="y "/>wneithpwyd yr mor, mal <hi rend="antiqua">be bei</hi>&nbsp;<term>* mynydd mawr</term>
+<gloss>* glan vawr</gloss> yn llosgi a than, a thrayan y mor aeth yn waed.
+</seg></p>
+<p><seg type="verse" n="9">
+A' thrayan y creadiried, a'r oyddynt yn vyw yny mor, y vyont veyrw a thrayan y llonge y ddinystrwyd.
+</seg></p>
+<p><seg type="verse" n="10">
+Ar tryde&eth; Angel y ganoedd y trwmpet, a seren vawr y syrthioedd or nef, yn llosgi mal <term>
+* toris</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">Gr. lampas</hi>, ffagyl</gloss>, ac
+
+<pb n="382v"/>
+<lb/>ef y syrthioedd y drayan yr afonydd, ac y ffynhoney y dyfroedd.
+</seg></p>
+<p><seg type="verse" n="11">
+Ac enw'r seren a elwir wermwd: am hyny trydedd ran y dyfredd aethant yn wermod, a llawer o <term>&Dagger; wyr</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">homines .i.</hi> dynion</gloss> y vyont veirw, o <hi rend="antiqua">&vv;eith</hi> y dyfredd <hi rend="antiqua">hynny</hi>, can ys y gwneythur hwynt yn chwerw<hi rend="antiqua">on</hi>.
+</seg></p>
+<p><seg type="verse" n="12">
+Ar pedwerydd Angel y ganoedd y trwmpet, a tharo y wneythpwyd trayan yr hayl, a' thrayan y lleyad, a' thrayan y ser, nes towylly y trayan hwynt: a' <hi rend="antiqua">tharo</hi> y wneythpwyd y dydd, mal na alley y <term>* thrayan hi <hi rend="antiqua">g</hi>oleyo</term>
+<gloss>* drayan lewychu, dowynny</gloss>. ac yn yr vn modd y nos.
+</seg></p>
+<p><seg type="verse" n="13">
+Ac mi edrycheis, ac y glyweis Angel yn <term>&Dagger; hedfan</term>
+<gloss>&Dagger; ehedec</gloss> trwy ganol y nef, dan &eth;wedyd a lleis ywchel, <q>Gwae, gwae, gwae <hi rend="antiqua">y</hi> ddeilied y ddayar, <term>* rrac</term>
+<gloss>* gan</gloss> lleisiey ys yn ol y <corr resp="transcr" sic="trwpedey">trwmpedey</corr> y tri Angel, y rrein oyddent etto y gany-trwmpede</q>.
+</seg></p>
+</div>
+<div type="chapter" n="9">
+<head>Pen. ix.</head>
+<argument>
+<head/>
+<p>1 Y pempet ar chwechet Angel yn canu ei trwmpie: y seren yn cwympo or nef. 3 Y locustae <corr resp="transcr" sic="yn yn">yn</corr> dyvot allan or mwg. 12 Bot y gwae cyntaf gwedy mynet heibo. 14 Darvot gellwng yn rhy&eth; y petwar Angel y oe&eth;ent yn rwym, 18 A' lladd y drydedd ran y dynion.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>R pymed Angel y ganoe&eth; ar trwmped, ac mi weleis seren yn cwympo or nef yr ddayar, ac yddo ef y rrowd <term>* agoriad</term>
+<gloss>* allwydd</gloss> y <term>pwll &Dagger;  heb waylod</term>
+<gloss>&Dagger; pytew diwaelod, anoddyn</gloss>.
+</seg></p>
+<p><seg type="verse" n="2">
+Ac ef agoro&eth; y pwll heb waylod, a' mwg y gyfodoedd or pwll, mal
+
+<pb n="383r"/>
+<lb/>mwg ffwrneis vawr, ar haul, a'r <term>* wybr</term>
+<gloss>* awyr</gloss> y dywyllwyd gan mwg y pwll.
+</seg></p>
+<p><seg type="verse" n="3">
+A' <term>&Dagger; locustae</term>
+<gloss>&Dagger; ryw pryfet</gloss> y ddeythont ar y ddayar or mwg allan, a gallu y rroet yddynt hwy, mal y may gallu gan <term>* scorpionae</term>
+<gloss>[no gloss]</gloss> y ddayar.
+</seg></p>
+<p><seg type="verse" n="4">
+A' gorchymyn y rroed yddynt, na waethent <hi rend="antiqua">g</hi>wellt y ddayar, na dim <term>&Dagger; glas</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">Gr. chlooro<expan>n</expan>
+</hi> .i. gwyr&eth;</gloss>, nac vn pren: ond yn <term>* inyc</term>
+<gloss>* vnic</gloss> y dynio<expan>n</expan> oy&eth;ent heb sel Ddyw yny talceni.
+</seg></p>
+<p><seg type="verse" n="5">
+A' gorchymyn y rroed yddynt na ladden y rreini, ond yddynt <term>&Dagger; anesmwytho</term>
+<gloss>&Dagger; cystu&eth;io, poeni</gloss> arnynt pym mis, a' <hi rend="antiqua">bod</hi> poen y hwynt mal poen y <hi rend="antiqua">vei o &vv;aith</hi> scorpion, pan darfyddei yddo <term>* brathy</term>
+<gloss>* <corr resp="transcr" sic="guoei">gnoei</corr></gloss> duyn.
+</seg></p>
+<p><seg type="verse" n="6">
+<term>&Dagger; Ac</term>
+<gloss>&Dagger; Am hyny</gloss> yn dyddiey hyny y dynion y geisiant marfolaeth, ac ny <term>* chywrddant a hi</term>
+<gloss>* chaffa<expan>n</expan>t ef</gloss>, ac y chwenychant veirw <term>&Dagger; a marfolaeth * y gila</term>
+<gloss>&Dagger; ac angeu a ffy</gloss> rracddynt.
+</seg></p>
+<p><seg type="verse" n="7">
+A' <term>&Dagger; llyn</term>
+<gloss>
+* chyffelipiaethe</gloss> y lacustae <hi rend="antiqua">oedd</hi> debic y veirch gwedy paratei y rryvel, ac <hi rend="antiqua">yr oedd</hi> ar y peney mal coronae yn debic y <corr resp="transcr" sic="aur ae,">aur, ae</corr> hwynebey hwynebe yn debic y dynion.
+</seg></p>
+<p><seg type="verse" n="8">
+A' gwallt oedd ganthynt, mal gwall gwrage&eth;, ae danedd oeddent mal <corr resp="transcr" sic="damedd">danedd</corr> llewod.
+</seg></p>
+<p><seg type="verse" n="9">
+Ac yr oedd ganthynt <term>* lurigae</term>
+<gloss>* <hi rend="antiqua">loric&aelig;</hi>
+</gloss>, mal llurigae haiarn, a <term>&Dagger; lleis</term>
+<gloss>&Dagger; twrw, sain</gloss> y hadeynedd oedd debic y leis siaredey yn rredec gan lawer o veirch y rryfel.
+</seg></p>
+<p><seg type="verse" n="10">
+A' <term>* chynfonney</term>
+<gloss>* chlorene</gloss> oedd yddynt, mal y scorpionae, ac yny cynffoney y rroeddent <term>&Dagger; conynney</term>
+<gloss>&Dagger; colyne</gloss>, ae meddiant <hi rend="antiqua">h&vv;ynt</hi> oedd y ddrygu dynion pym mis.
+</seg></p>
+<p><seg type="verse" n="11">
+Ac y mae ganthynt vrenin arnynt, yr hwn ydiw Angel y pwll heb waylod, ae <corr resp="transcr" sic="euw">enw</corr> ef yn Ebryw <hi rend="antiqua">ydy&vv;</hi> Abaddon, ac yn-<term>* gryw</term>
+<gloss>* Groec</gloss> ef y enwyr, <term>&Dagger; Apollyoon</term>
+<gloss>&Dagger; cyfergollwr</gloss>.
+</seg></p>
+
+<pb n="383v"/>
+<lb/><p><seg type="verse" n="12">
+Vn gwae aeth heybio, a' syna, y may doy wae <term>* yw</term>
+<gloss>* yn</gloss> ddyfod <term>&Dagger; rrac llaw</term>
+<gloss>&Dagger; gwedy hyn</gloss>.
+</seg></p>
+<p><seg type="verse" n="13">
+<!-- gloss Yno here, going where? -->
+&para;Ar chweched Angel y ganoedd y trwmpet, ac mi glyweis lleis oddiwrth pedwar corn yr allor aur, y sydd gayr bron Dyw,
+</seg></p>
+<p><seg type="verse" n="14">
+Yn dywedyd <term>&Dagger; yr</term>
+<gloss>&Dagger; ir, wrth</gloss> chweched Angel, oe&eth; ar trwmpet gantho, <q>Gillwng y pedwar Angel, y rrein ydynt yn rrwym yn yr afon vawr Euphrates.</q>
+</seg></p>
+<p><seg type="verse" n="15">
+Ar pedwar Angel y ellyngwyd, y rrein y <orig>ymbarattowdd</orig> yn erbyn awr, yn <hi rend="antiqua">erbyn</hi> diwrnod, <hi rend="antiqua">yn erbyn</hi> mis, ac yn erbyn blwyddyn y ladd trayan y dynion.
+</seg></p>
+<p><seg type="verse" n="16">
+A' rrif gwyr meyrch y <term>&Dagger; llu</term>
+<gloss>&Dagger; rryfel</gloss>, oe&eth; igeyn mil o weithiey deng mil: can ys mi glyweis y rrif hwynt.
+</seg></p>
+<p><seg type="verse" n="17">
+Ac mal hyn y gweleis i y mairch mewn gweledigaeth, ac yr rydoedd gan rrei oeddent yn eiste arnynt, lurigae ta<expan>n</expan>llyd, ac o <hi rend="antiqua">li&vv;'r</hi> hyacinct a brwmstan, a' pheneyr mairch oeddent megis penney llewod: ac yn mynd allan oe geneye, tan a' mwg a' brwmstan,
+</seg></p>
+<p><seg type="verse" n="18">
+A' thrayan y dynion y las gan y tri <term>* yma</term>
+<gloss>* hynn</gloss>, <hi rend="antiqua">'sef</hi> gan y tan ar mwg, a'r brwmstan, y rrein y &eth;oyth allan oe geneue hwynt.
+</seg></p>
+<!-- verse 19 misnumbered 16 -->
+<p><seg type="verse" n="19">
+Can ys y gallu hwynt 'sydd yn y geneyey, ae yny cynffoney: can ys y cynffoney hwynt oeddent debic y <term>&Dagger; seirph</term>
+<gloss>&Dagger; nadroedd</gloss>, a' pheney ganthynt, ar rrei hyn yrroeddent yn drygu.
+</seg></p>
+<p><seg type="verse" n="20">
+A' <term>* relyw</term>
+<gloss>* <corr resp="transcr" sic="gwe&eth;ilion gwargred">gwe&eth;illion, gwarged</corr>
+</gloss> or dynion ny las gan y plae hyn, ny chymersont etyfeyrwch am weithredoedd y dwylaw y beydiaw ac addoli cythreylied, a <term>* delwey</term>
+<gloss>* <hi rend="antiqua">Gr. eidola</hi>
+</gloss> aur ac arian, a' phres, a' mein, a' phrene, yrren
+
+<pb n="384r"/>
+<lb/>ac ny allant <hi rend="antiqua">g</hi>weled, na chlywed na cherdded.
+</seg></p>
+<!-- verse 21 misnumbered 24 -->
+<p><seg type="verse" n="21">
+Ac ny chymersont <term>hevyd &Dagger;&nbsp;</term>
+<gloss>&Dagger; ychweyth</gloss> etifeyrwch, am y mwrddwr, nae y <term>* cyfareddion</term>
+<gloss>* rrinieu</gloss>, nae y godineb, nae y lledrad<hi rend="antiqua">eu</hi>.
+</seg></p>
+</div>
+<div type="chapter" n="10">
+<head>Pen. x.</head>
+<argument>
+<head/>
+<p>1 Bot y llyver yn agoret gan yr Angel. 6 Tyngu y mae ef na bydd mwy amser. 9 Rhoi y mae ef y llyfr i Ioan, yr hwn ys ydd yn ei vwyta.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C mi weleis Angel cadarn arall yn discyn or nef, gwedy <term>&Dagger; &eth;illaty</term>
+<gloss>&Dagger; gwisco</gloss> or wybren, * ac <term>envys</term>
+<gloss>* bwa'r glaw</gloss> ar y ben, ac y wyneb ef ydoe&eth; mal yr haul, ae draed ef oeddent mal <term>* pilerey</term>
+<gloss>* colofnae</gloss> tan.
+</seg></p>
+<p><seg type="verse" n="2">
+A Llyfr bychan oedd yn agored yny law ef, ac ef y rroedd y droed ddehe ar y mor, ae <hi rend="antiqua">droed</hi>&nbsp;<term>&Dagger; assey</term>
+<gloss>&Dagger; asw</gloss> ar y ddayar,
+</seg></p>
+<p><seg type="verse" n="3">
+Ac ef y lefoedd a lleis ywchel, mal by bei llew yn rryo: a' gwedy darfod yddo lefein, y seith <term>* twrwf</term>
+<gloss>* taran</gloss> y <term>&Dagger; wneythont y lleisey</term>
+<gloss>&Dagger;&nbsp;<corr resp="transcr" sic="lafareson">lafareson,</corr> lleissasont</gloss>.
+</seg></p>
+<p><seg type="verse" n="4">
+A' gwedy darfod yr seith twrwf <term>* gwneythyr y lleysiey</term>
+<gloss>* adrodd, <corr resp="transcr" sic="leisio,">leisio</corr>
+</gloss>, yroyddwn ar veder scryvenny: ac my glyweis lleis or nef yn dwedyd wrthyf', <q>Sela'r pethey y <term>* leisoedd</term>
+<gloss>
+* ddyvod</gloss> y seith <term>&Dagger; twrwf</term>
+<gloss>&Dagger; taran</gloss>, ac na scryvenna hwynt</q>.
+</seg></p>
+<p><seg type="verse" n="5">
+A'r Angel yr hwn y weleis i yn sefyll ar y mor ac ar y tir, y <term>* dderchafodd</term>
+<gloss>* gododd</gloss> ey law yr nef,
+</seg></p>
+<p><seg type="verse" n="6">
+Ac y dyngoedd <term>&Dagger; mewn</term>
+<gloss>&Dagger; yn, myn, ir</gloss> yr vn ysydd yn byw yn
+
+<pb n="384v"/>
+<lb/>dragowydd, yr hwn y creoedd y nef, ar pethey ydynt ynddo ef, ar ddayar ar pethey ydynt yn&eth;y hi, ar mor ar pethey ydynt ynddo ef, na vyddey Amser <term>&Dagger; rrac llaw</term>
+<gloss>&Dagger; mwyach, ymhellach.</gloss>.
+</seg></p>
+<p><seg type="verse" n="7">
+<q>Ond yn nyddiey lleis y seithfed Angel, pan &eth;echreyo ef gany ar trwmpet, dyweddy y wneir dirgelwch Ddyw, mal y ddatcanoedd ef <term>* yddy</term>
+<gloss>* yw</gloss> wasnaethwyr y proffwydi.</q>
+</seg></p>
+<p><seg type="verse" n="8">
+Ar lleis y glyweis or nef, y <term>&Dagger;&nbsp;<hi rend="antiqua">c</hi>hwedleyoedd</term>
+<gloss>&Dagger; ymddiddanodd</gloss> eilweith a mi, ac y ddwad, <q>Cerdda, cymer, y llyfyr-bechan ysydd yn llaw'r Angel, yr hwn ysydd yn sefyll ar y mor ac ar y tir</q>.
+</seg></p>
+<p><seg type="verse" n="9">
+Ac mi eythym at yr Angel, dan ddwedyd wrtho, <q>Dyrro y mi y Llyfr-bychan</q>. Ac ynte y ddwad <corr resp="transcr" sic="wrihyfi">wrthyfi</corr>, <q><corr resp="transcr" sic="Eymer">Cymer</corr>, * a <term>llynca ef</term>
+<gloss>* ysa yn llwyr, bwyta ef y gyd</gloss> ac ef, y <hi rend="antiqua">c</hi>wherwa dy vol<hi rend="antiqua">a di</hi>, ond ef y vydd melys yn dy eney <hi rend="antiqua">di</hi> mal mel</q>.
+</seg></p>
+<p><seg type="verse" n="10">
+Ac mi y gymereis y <term>&Dagger; llyfr-bychan</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">
+<corr resp="transcr" sic="libellum">libellum,</corr>
+</hi> llyfran</gloss> o law yr Angel, ac y llynceis ef, ac yrydoedd ef yn velys yn vyn geney megis mel: a' chwedy y mi lynky ef, vy mol<hi rend="antiqua">a</hi> y <hi rend="antiqua">c</hi>wherwoedd.
+</seg></p>
+<p><seg type="verse" n="11">
+Ac ef y ddwad wrthyf, <q>Reid yd proffwydo <term>&Dagger; eilweith</term>
+<gloss>&Dagger; drachefn</gloss> ymysc y bobloedd ar nassioney, a'r <term>* ieithioedd</term>
+<gloss>* tafodeu</gloss>, ac y lawer o Vrenhinoedd</q>.
+</seg></p>
+</div>
+<div type="chapter" n="11">
+<head>Pen. xj.</head>
+<argument>
+<head/>
+<p>1 Mesuro 'r templ. 3 Cyuodi dau test y gan yr Arglwydd, a'i lladd y gan y bestvil, 11 Eithyr gwedy <corr resp="transcr" sic="hyn y">hyny</corr>
+<!-- or: hyn y~ei? --> ei derbyn <corr resp="transcr" sic="y' ogoniant">y 'ogoniant</corr>. 15 Derchafel Christ, 16 A' moli Dew ygan .24. henaif.</p>
+</argument>
+
+<pb n="385r"/>
+<lb/><p><seg type="verse" n="1">
+<hi rend="rubric">Y</hi>No yroed corsen y mi, yn debic y wialen, ar Angel y safoedd <term>* gair <hi rend="antiqua">vy</hi> llaw</term>
+<gloss>* gyd a mi, wrthyf</gloss>, ac y ddwad, <q part="i">Cyfod, a' me<lb rend="om-shy"/>syr temel Ddyw a'r allawr, ar rei ydynt yn addoli yndi <hi rend="antiqua">hi</hi>.</q>
+</seg></p>
+<p><seg type="verse" n="2">
+<q part="m">Ar cyntedd yssydd or ty allan yr demel, bwrw allan, ac na vesyr ef: cans ef y rroed <term>yr &Dagger;&nbsp;</term>
+<gloss>&Dagger; ir</gloss>
+<!-- kind of circumflex above 'yr' --> Cenetloedd, ac hwy y sathrant dan draed y <term>dinas</term>
+<gloss>* caer</gloss> santeidd doy vis a deigen.</q>
+</seg></p>
+<p><seg type="verse" n="3">
+<q part="f">Ac mi <orig>rrof<hi rend="antiqua">-allu</hi>
+</orig> ym doy dyst, ac hwy y prophwydant mil o &eth;iwarnodey a thrigen a doycant, gwedy <hi rend="antiqua">ey</hi> ymwisco a llien-sache.</q>
+</seg></p>
+<p><seg type="verse" n="4">
+Yrrein ydynt y ddwy <term>* bren-olif</term>
+<gloss>* olew wydden</gloss>: ar doy <orig>canwylbren</orig>, yn sefyll gair bron Dyw'r ddayar.
+</seg></p>
+<p><seg type="verse" n="5">
+Ac os ewyllysa vn y <term>&Dagger; clwyfo</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">Gr. 'adicesai</hi> .i. wnethur cam, ae drygu</gloss> hwynt, y mae tan yn mynd allan oe geneye ynthwy, ac y ddinystr y <term>* digasogion</term>
+<gloss>* <hi rend="antiqua">gelynion</hi>
+</gloss>: ac os <corr resp="transcr" sic="ewylllysa">ewyllysa</corr> vn duyn y <corr resp="transcr" sic="clwyso">clwyfo</corr> hwynt, mal hyn <term>&Dagger;  y lleddir ef</term>
+<gloss>[no gloss]</gloss>.
+</seg></p>
+<p><seg type="verse" n="6">
+Gallu y sydd gan yrrein y <term>* gayed</term>
+<gloss>
+&Dagger; gau</gloss> y nef, rrac' yddi 'lawio yn nyddiey y pryffodolaeth hwynt, a' gallu y sydd ganthynt ar y dyfroedd y troi hwynt yn waed, ac y daro'r ddayar a phob pla, cyn vynyched ac y mynnont.
+</seg></p>
+<p><seg type="verse" n="7">
+A' phan ddarffo yddynt <term>&Dagger; cwplay</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">ddiwedy</hi>, 'orphen</gloss> y tustolaeth, yr <term>* enifel</term>
+<gloss>* <hi rend="antiqua">bestia</hi> .i. bestvil</gloss> y ddaw allan or pwll heb waylod, y rryfela yny herbyn hwy, ac y <term>&Dagger; gortrecha</term>
+<gloss>[no gloss]</gloss> hwynt, ac y lladd hwynt.
+</seg></p>
+<p><seg type="verse" n="8">
+Ae <term>&Dagger; cyrff</term>
+<gloss>&Dagger; celanedd</gloss> hwynt y orwedd ar heolydd y dinas vawr, yr hon y elwir yn ysbrydawl Sodoma <term>&Dagger; ac</term>
+<gloss>&Dagger; a'r</gloss> Eifft, lle ac y <term>* croeshoylwyd</term>
+<gloss>&Dagger; crogwyt</gloss> yn <corr resp="transcr" sic="harlgwydd">harglwydd</corr> ni.
+</seg></p>
+
+<pb n="385v"/>
+<lb/><p><seg type="verse" n="9">
+Ac <hi rend="antiqua">h&vv;y</hi> or bobloedd, ar <term>* genedlaythey</term>
+<gloss>* <hi rend="antiqua">l&vv;ythae</hi>
+</gloss>, ar <term>&Dagger; ieithoedd</term>
+<gloss>&Dagger; tavodeu</gloss>, ar <term>* Cenetloedd</term>
+<gloss>[no gloss]</gloss> y welant y cyrff hwynt <corr resp="transcr" sic="tridie y">tridiey</corr> a' haner, ac ny ddioddefant rroi y <term>* cyrff</term>
+<gloss>* <hi rend="antiqua">cadauera</hi> .i. celanedd</gloss> hwynt mewn <term>&Dagger; beddey</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">monumen<lb rend="om-shy"/>tis</hi></gloss>.
+</seg></p>
+<p><seg type="verse" n="10">
+Ar rrei ydynt yn trigo ar y &eth;ayar, y lawenhant arnynt hwy, ac y vyddant <term>&Dagger; siriys</term>
+<gloss>&Dagger; cyssurus</gloss>, ac y ddanfonant rroddion pawb at y gilydd: cans y ddoy broffwyd <term>* yma</term>
+<gloss>* hyn</gloss>, y anesmwythoedd ar y rrei oyddent yn trigio ar y ddayar.
+</seg></p>
+<p><seg type="verse" n="11">
+Ac yn ol tridiey a haner, ysbryd y bowyd o ddiwrth Ddyw, <orig>aa</orig> ymewn yndynt hwy, ac hwy <term>&Dagger; safant</term>
+<gloss>[no gloss]</gloss> ar y traed: ac ofn mawr y syrth ar y rrei y <hi rend="antiqua">g</hi>welas hwynt.
+</seg></p>
+<p><seg type="verse" n="12">
+Ac hwy glywont lleis mawr or nef, yn dwedyd wrthynt. <q><term>&Dagger; Drychefwch</term>
+<gloss>&Dagger;&nbsp;<corr resp="transcr" sic="Escenwch">Escenwch,</corr> Dewch i vyny</gloss> yma</q>. Ac hwy <term>* ddrycha<hi rend="antiqua">fo</hi>nt</term>
+<gloss>[no gloss]</gloss> yr nef mewn wybren, ae <term>* digassogion</term>
+<gloss>* gelynion</gloss> hwynt y gwel<hi rend="antiqua">s</hi>ant hwy.
+</seg></p>
+<p><seg type="verse" n="13">
+Ac yn yr awr hono <term>&Dagger; yrydoedd</term>
+<gloss>&Dagger; bydd</gloss> crynfa vawr ar y ddayar, ar &eth;ecfed rran or dinas y syrth<hi rend="antiqua">ioedd y la&vv;r</hi>, a' seith mil o <term>* wyr</term>
+<gloss>* ddynion</gloss> y <term>&Dagger; las</term>
+<gloss>&Dagger; leddir</gloss> yn c<hi rend="antiqua">h</hi>rynfar <corr resp="transcr" sic="ddaya'r">ddayar</corr>: a'r <orig>gweddilion</orig> a ofna<hi rend="antiqua">sa</hi>nt, ac y rro<hi rend="antiqua">yso</hi>nt 'ogoniant y Ddyw <term>
+&Dagger; nef</term>
+<gloss>* celi</gloss>.
+</seg></p>
+<p><seg type="verse" n="14">
+Yr eil gwae aeth hebio, <hi rend="antiqua">a'</hi> syna, y trydedd gwae y ddaw ar vrys.
+</seg></p>
+<p><seg type="verse" n="15">
+A'r seithfed Angel y ganoedd ar trwmpet, a lleisey mawr <term>y *  wneythpwyd</term>
+<gloss>&Dagger; oedd</gloss> yn y nef, dan dwedyd, <q>Yn harglwydd ni ae grist ef y pieffant tyrnasoedd y <term>
+&Dagger; bud</term>
+<gloss>* byt</gloss> hwn, ac ef y dyrnassa yn oes oesoedd. <hi rend="antiqua">Amen</hi></q>.
+</seg></p>
+<p><seg type="verse" n="16">
+A'r pedwar ar ygen o henafied, yr rein y eiste<hi rend="antiqua">ddent</hi> ar y cadeyre gair bron Dyw, y syrthiasant ar y <orig reg="hwynebau">whynebey</orig>, ac addolasant Ddyw,
+</seg></p>
+
+<pb n="386r"/>
+<lb/><p><seg type="verse" n="17">
+Dan ddwedyd, <q part="i">Yrydym yn diolch ytti, Arglwy&eth; Ddyw hollallyawc, yr Hwn wyd, yr Hwn oy<lb rend="om-shy"/>ddyd, ac yr Hwn <term>* y ddaw</term>
+<gloss>* 'sy ar &eth;yvot</gloss>: cans ti dderbyneist dy ally mawr, ac y <term>&Dagger; deyrnaseist</term>
+<gloss>'orescenaist, y &eth;aethost y gael teyrnas</gloss>.</q>
+</seg></p>
+<p><seg type="verse" n="18">
+<q part="f">Ar Cenetloe&eth; y lidiasant, ath lid ti y ddeyth, ac amser y varny'r <orig>merw</orig>, ac y yrroi <term>&Dagger; gobrwy</term>
+<gloss>&Dagger; taledigaeth</gloss> yth was<lb rend="om-shy"/>naethwyr, y prophwydi, a'r Seinct, ac yr rrei y ofnoedd dy Enw, bychein, a' mawr, ac bot yty golli y rrein, ar ydynt yn dinystr y ddayar.</q>
+</seg></p>
+<p><seg type="verse" n="19">
+A themel Dyw oe&eth; yn agored yn y nef, ac arch y <term>* Testament</term>
+<gloss>* ystafn, yr ammot</gloss> ef y welspwyd yny demel, ac yroyddent mellt, a' lleisiey, a' tharaney, a chrynfa'r ddayar, a <term>&Dagger; chenllysc</term>
+<gloss>&Dagger; chesair</gloss> mawr.
+</seg></p>
+</div>
+<div type="chapter" n="12">
+<head>Pen. xij.</head>
+<argument>
+<head/>
+<p>1 Ymddangos a wnaeth yn y nef gwreic gwedy ymwisco a'r haul. 7 <orig>Mihacael</orig> yn ymladd ar ddraic, yr hwn 'sy yn ymlid y wreic. 11 Cahel y vuddygoliaeth trwy conffort y ffyddlonieit.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>R ryfeddod mawr y ymddangosoedd yn y nef: Gwreic gwedy ymwisco ar haul, ar lleyad <hi rend="antiqua">oedd</hi> dan y thraed, ac ar y phen coron o &eth;eyddec seren,
+</seg></p>
+<p><seg type="verse" n="2">
+Ac yrodoedd hi yn veichioc ac hi lefoe&eth; dan dravaylu ar y thymp, a hi <corr resp="transcr" sic="ddolyrioed">ddolyrioedd</corr> yn barod y gael yscar llaw.
+</seg></p>
+<p><seg type="verse" n="3">
+A' rryveddod arall ymddangosoedd yny nef, a' synna, dreic coch mawr a seith pen yddo, a dec
+
+<pb n="386v"/>
+<lb/>corn, a' seith coron ar y <term>&Dagger; penney</term>
+<gloss>&Dagger; talaith</gloss>:
+</seg></p>
+<p><seg type="verse" n="4">
+Ae gynffon ef y dynoedd trayan ser y nef, ac y bwroedd hwynt yr ddayar. Ar d<hi rend="antiqua">d</hi>reic y safoedd gair bron y wreic, yr hon ydoedd yn barod y <corr resp="transcr" sic="ga el">gael</corr> yscar llaw, y vwytta y phlentyn hi, <term>&Dagger; yn hwy nac y genyd</term>
+<gloss>&Dagger; pan y genit</gloss> ef,
+</seg></p>
+<p><seg type="verse" n="5">
+A' mab-<term>
+&Dagger; wr</term>
+<gloss>* gwryw</gloss> y aned yddi, yr hwn y rreoley yr holl nasioney a gwialen hayarn: ay mab y gymer<hi rend="antiqua">sp</hi>wyd y vynydd at Ddyw ac at y eisteddle ef.
+</seg></p>
+<p><seg type="verse" n="6">
+Ar wreic y <term>* giloedd</term>
+<gloss>* ffoodd</gloss> yr diffeyth lle may <term>&Dagger;&nbsp;<hi rend="antiqua">gyf</hi>le</term>
+<gloss>&Dagger; ban</gloss> gwedy Ddyw y barottoi yddi, mal y ga&lhook;ent y phor<lb rend="om-shy"/>thi hi yno mil o ddiwarnodey a thrigen a doy cant.
+</seg></p>
+<p><seg type="verse" n="7">
+A' <term>* rryfel</term>
+<gloss>&Dagger; cad, brwydr</gloss> oedd yny nef, Mihangel ae Angylion ef ymladdasant yn erbyn y dreic, ar dreic ymladdoedd ef ae Angylion ef.
+</seg></p>
+<p><seg type="verse" n="8">
+Ac ny <term>&Dagger; chawsont</term>
+<gloss>&Dagger; orthresant</gloss> y llaw yn ycha, ac ny chafad y lle hwynt o hyny allan yn y nef.
+</seg></p>
+<p><seg type="verse" n="9">
+A' bwrw allan y wneythpwyd y dreic mawr, yr hen sarph, yr hwn y elwir y <term>* cythrel</term>
+<gloss>* diavol</gloss>, a' Satan, yr hwn ysydd yn <term>twyllo</term><gloss>&Dagger;&nbsp;<corr resp="transcr" sic="sioni">siomi</corr></gloss> yr holl vyd: ys y vwrw y wneythpwyd ef yr ddayar, ae Angylion y vwrwyd allan gydac ef.
+</seg></p>
+<p><seg type="verse" n="10">
+Yno mi glyweis lleis ywchel, yn dwedyd, <q part="i">Yrowron y mae iechid yn y nef, a' <term>&Dagger; grym</term>
+<gloss>&Dagger; nerth</gloss>, a thyrnas yn Dyw ni, a gallu y Grist ef: can ys cyhyddwr yn brodyr ni y vwrwyd yr llawr, yr hwn ydoedd yn y cyhy&eth;o hwynt gair bron yn Dyw dydd a' nos.</q>
+</seg></p>
+<p><seg type="verse" n="11">
+<q part="m">Ac hwy <term>* gortrechasant</term>
+<gloss>&Dagger; gorchvygesont</gloss> ef trwy waed yr Oen, a' thrwy geir y testolaeth hwynt, ac ny charasant y bowyd hed &Dagger; at <term>marw</term>
+<gloss>&Dagger; angeu</gloss>.</q>
+</seg></p>
+<p><seg type="verse" n="12">
+<q part="f">Am hyny, llawenhewch, y nefoedd, a'r sawl
+
+<pb n="387r"/>
+<lb/><term>* ydynt</term>
+<gloss>* 'sy, ydych</gloss> trigadwy yndynt hwy. Gwae yr rrei ydynt trigadwy yn y ddayar, a'r mor: cans y <term>&Dagger; cythrel</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">diavol</hi>
+</gloss> y ddiscynoedd attoch chwi, yr hwn y sydd a llid mawr gantho, herwydd gwybod nad ydiw y amser ef ond byrr.</q>
+</seg></p>
+<p><seg type="verse" n="13">
+A' phan gwelas y ddreic y vwrwyr &eth;ayar, ymlid y wnaeth ef y wreic y <term>* ddygoedd y mab yr byd</term>
+<gloss>* escoro&eth; ar y gwr-ryw</gloss>.
+</seg></p>
+<p><seg type="verse" n="14">
+A dwy adein eryr mawr y rroed yr wreic, <term>yddi &Dagger; hedfan</term>
+<gloss>&Dagger;&nbsp;<orig>y hedec</orig>
+</gloss> yr diffeth, <term>* yddy</term>
+<gloss>* yw</gloss>&nbsp;<corr resp="transcr" sic="lle, ddys">lle <orig reg="ydd ys">'ddys</orig></corr><!--check this--> yny magi hi dros amser, ac amseroedd, ac hanner amser, rrac wyneb y sarph.
+</seg></p>
+<p><seg type="verse" n="15">
+Ar sarph y vwroedd oe safn allan ar ol y wreic ddwr mal <term>* llif<hi rend="antiqua">dd&vv;r</hi>
+</term>
+<gloss>* llifeiriant</gloss>, ar veder cael y dwyn hi ffwr&eth; gan y llif<hi rend="antiqua">dd&vv;r</hi>.
+</seg></p>
+<p><seg type="verse" n="16">
+A'r ddayar y <term>&Dagger; cynorthwyoedd</term>
+<gloss>&Dagger; helpioedd</gloss> y wreic, ar <term>* tir</term>
+<gloss>* ddaiar</gloss> agoroe&eth; ei geneu, ac y lyngcoe&eth; y llif<hi rend="antiqua">dd&vv;r</hi>, yr hwn y vwroedd y ddreic allan oe safn.
+</seg></p>
+<p><seg type="verse" n="17">
+A' llidio a oruc y ddreic <term>&Dagger; yn erbyn</term>
+<gloss>&Dagger; wrth</gloss> y wreic, a' myned y wnaeth ef y rryfely yn erbyn gweddillion y hilogaeth hi, yrrein ydynt yn cadw gorchmyney Dyw, ac ysydd a thystolaeth Iesu Christ ganthynt.
+</seg></p>
+<p><seg type="verse" n="18">
+<!-- extent of term? draethe y mor?-->
+Ac mi sefeis ar <term>* draethey mor</term>
+<gloss>* dyvot, y veisdon</gloss>.
+</seg></p>
+</div>
+<div type="chapter" n="13">
+<head>Pen. xiij.</head>
+<argument>
+<head/>
+<p>1. 8. Y bestvil yn twyllo yr ei argyoeddus, 2. 4. 12. Ac y gadarnheir gan vestvil arall. 17. Braint not y bestvil.</p>
+</argument>
+
+<pb n="387v"/>
+<lb/><p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>c mi weleis <term>* enifel</term>
+<gloss>* vestvil</gloss> yn <term>&Dagger; cwny</term>
+<gloss>&Dagger; codi</gloss> or mor, a' seith pen gantho, a dec corn, ac ar y gyrn ef dec coron, ac ar y beney ef enw <term>* dirmigedic</term>
+<gloss>* cabl, sen, divenw</gloss>.
+</seg></p>
+<p><seg type="verse" n="2">
+Ar <term>&Dagger; enifel</term>
+<gloss>&Dagger; bestvil</gloss>
+<!-- Th. Parry: vestvil --> rhwn y weleis i, oedd debic y lewpard, ae draed yn debic y <hi rend="antiqua">draed</hi> arth, ae safn yn debic y safn llew: ar dreic y rroedd yddo ef y 'allu ae eisteddle, ac awdyrdod mawr.
+</seg></p>
+<p><seg type="verse" n="3">
+Ac mi weleis vn oe beney ef mal gwedy <term>* las</term>
+<gloss>* ladd, archolli</gloss> yn varw, ae <term>&Dagger; glwyf</term>
+<gloss>&Dagger; archoll, weli</gloss> marfol ef y iachawd, <orig>ar'holl</orig> vyd y rryfeddoedd, <term>* <hi rend="antiqua">ac</hi> aeth yn ol yr enifel</term>
+<gloss>* <corr resp="transcr" sic="yddilynoedd">y ddilynoedd</corr> yr bestvil</gloss>.
+</seg></p>
+<p><seg type="verse" n="4">
+Ac hwy <corr resp="transcr" sic="dddolasant">addolasant</corr> y ddreic yr hwn y <term>&Dagger; rroedd</term>
+<gloss>&Dagger; roes</gloss> gallu yr enifel, ac addolasant yr enifel, dan dwedyd, <q>Pwy ysydd debic yr enifel, pwy ddychyn rryfely ac ef?</q>
+</seg></p>
+<p><seg type="verse" n="5">
+A' geney y rroed yddo ef, y ddwedyd mawr eyriey, a <term>&Dagger; dirmygon</term>
+<gloss>* chableu</gloss>, a' gallu yrroed yddo ef, y <term>* weithio</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">farere</hi> .i. wneuthur</gloss> doy vis a' deigen.
+</seg></p>
+<p><seg type="verse" n="6">
+Ac ef agoroedd y eney mewn dirmic yn erbyn Dyw, y <term>* ddirmygy</term>
+<gloss>* gablu</gloss> y Enw ef, ae <term>&Dagger; dabernacl</term>
+<gloss>&Dagger; dyle</gloss>, ar rey trigadwy yny nef.
+</seg></p>
+<p><seg type="verse" n="7">
+A' rroi y wneythpwyd yddo ef rryfely ar Sainct ac y <term>* gortrechy</term>
+<gloss>* gorchfygy</gloss> y hwynt, a' gallu y rroed y&eth;o ef ar bob cenedl ac ieith, a' nasion.
+</seg></p>
+<p><seg type="verse" n="8">
+A' holl <term>&Dagger; breswylwyr</term>
+<gloss>&Dagger; drigiolion</gloss> y ddayar, y addolasont ef, yrrein nad yw y henwey yn escrifenedic mewn Llyfr y bowyd yr Oen, yr hwn y las er dechreyad <corr resp="transcr" part="a" sic="y">y</corr><lb/><corr resp="transcr" part="b" sic="y "/>
+<term>* bud</term>
+<gloss>* byd</gloss>.
+</seg></p>
+<p><seg type="verse" n="9">
+Y sydd a chlyst gantho, gwrandawed.
+</seg></p>
+<p><seg type="verse" n="10">
+A's <term>&Dagger; tywys</term>
+<gloss>&Dagger; dwc, arwein</gloss> neb y gaethiwed, efo eiff y <w>gathi
+
+<pb n="388r" rend="shy"/>
+<lb/>wed</w>: as lladd neb a chleddey, <term>* a chleddey y lleddir</term>
+<gloss>* dir yw iddo gael ei ladd</gloss>
+<!-- term and gloss not completely equivalent -->: <term>&Dagger; llyma'r</term>
+<gloss>&Dagger; hyn</gloss>
+<!-- term and gloss not really equivalent --> goddefeint, a' ffydd y Sainct.
+</seg></p>
+<p><seg type="verse" n="11">
+Ac mi edrycheis ar enifel arall yn <term>* cwny</term>
+<gloss>* escen, codi</gloss> or &eth;ayar, a doy corn oedd <term>&Dagger; gantho</term>
+<gloss>&Dagger; iddo</gloss> yn debic yr Oen, ond yn dwedyd yn debic yr dreic.
+</seg></p>
+<p><seg type="verse" n="12">
+Ac ef y wnaeth cwbl ar allei yr enifel cynta wneythyr <term>* oe vlaen</term>
+<gloss>* ger ei vro<expan>n</expan>
+</gloss>, ac ef y wnaeth yr ddayar, ar rrey oyddent yn drygadwy yndi, y addoli yr enifel cynta, <term>&Dagger; clwyf marolaythys</term>
+<gloss>&Dagger; archoll, an<lb rend="om-shy"/>geuol</gloss> yr hwn, y iachawd.
+</seg></p>
+<p><seg type="verse" n="13">
+Ac ef y wnaeth rryfeddodey mawr, ac y baroedd can y ddiscyn or nef yr ddayar, yn golwc y dynion.
+</seg></p>
+<p><seg type="verse" n="14">
+Ac ef a dwyllawdd <term>&Dagger; ddeiled</term>
+<gloss>&Dagger; breswylwyr, gyfaneddwyr, drigiolion</gloss> y ddaiar gan yr arwyddion, yrrei y oddefwyd yddo ef y gwneythyr gair bron yr enifel, dan ddwedyd wrthynt hwy y sawl <orig>oeyddent</orig> yn drigadwy ar y ddayar, <term>* am</term>
+<gloss>* bot</gloss>
+<!-- extent of term? --> yddynt wneythyr delw yr enifel, yr hwn y <term>&Dagger; glwyfwd a chleddey</term>
+<gloss>&Dagger; gavodd archoll gan y cleddyf</gloss>, ac y vy vyw.
+</seg></p>
+<p><seg type="verse" n="15">
+A' goddef y wneythpwyd yddo ef rroi <term>* anadl</term>
+<gloss>* yspryt</gloss> y ddelw'r enifel, mal y galley ddelw'r enifel ddwedyd, a' pheri lladd cynifer <hi rend="antiqua">vn</hi> nad addoley ddelwr enifel.
+</seg></p>
+<p><seg type="verse" n="16">
+Ac ef y wnaeth y bawb, bychein <corr resp="transcr" sic="a' a">a'</corr>mawr, cyfoethoc<hi rend="antiqua">ion</hi> a thlawd<hi rend="antiqua">ion</hi> rryddion a chaethion, y &eth;erbyn nod yny dywlaw dehey ney yny talceni,
+</seg></p>
+<p><seg type="verse" n="17">
+Ac na allei neb na phryny na gwerthy, ond <term>* y gymerth</term>
+<gloss>* hwn, sawl oedd arno</gloss> yr nod, ney enw'r enifel, ney rrif y enw ef.
+</seg></p>
+<p><seg type="verse" n="18">
+Ll'yma ddoethinep. <term>* Y sawl</term>
+<gloss>* yr hwn</gloss> ysydd synhwyrys, cyfrifed rrif yr enifel: can ys rrif duyn ydiw, ae rif ydiw chwechant, a' chwech a' <corr resp="transcr" sic="thrigen,">thrigen.</corr>
+
+</seg></p>
+</div>
+<div type="chapter" n="14">
+<head>Pen. xiiij.</head>
+<argument>
+<head/>
+<p>1 Rhagorawl compeini yr Oen. 6 Vn Angel yn menegi yr Euangel, 8 Vn arall yn menegi am gwymp Babylon, 9 A'r trydydd yn rhybuddio <term>* ffo</term>
+<gloss>* <hi rend="antiqua">cilo</hi>
+</gloss> rhac y bestvil. 13 Am ddedwyddit y sawl 'sy yn meirw yn yr Arglwydd. 18 Am gynayaf yr Arglwydd.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C mi edrycheis, a' syna, Oen yn sefyll ar vynydd Sion, a gyd ac ef pedeir mil a seith vgen mil, gan vod enw y dad ef yn escrifenedic yny talceni hwynt.
+</seg></p>
+<p><seg type="verse" n="2">
+Ac mi glyweis lleis or nef, mal lleis llawer o ddyfroedd, ac mal lleis <term>twrwf</term>
+<gloss>* taran</gloss> mawr: ac mi glyweis lleis telynorio<expan>n</expan> yn cany ar y telyney.
+</seg></p>
+<p><seg type="verse" n="3">
+Ac hwy ganyssont mal caniat newydd gair bron y trwn, a chair bron y pedwar enifel, ar henafied, ac ny allei <term>&Dagger; vn-duyn</term>
+<gloss>&Dagger; neb</gloss> dyscu y caniat hwnw, ond y pedeir mil a'r seith vgein mil, y rrein y <term>* brynwyd</term>
+<gloss>* brynesit</gloss> or ddayar.
+</seg></p>
+<p><seg type="verse" n="4">
+Yrrein ydynt y <term>&Dagger; gwyr</term>
+<gloss>&Dagger; sawl</gloss> ar nyd halogwyt <term>* a</term>
+<gloss>* can, wrth</gloss> gwragedd: can ys <term>&Dagger; gweryfon</term>
+<gloss>&Dagger; morynio<expan>n</expan>, diweir</gloss> ynt: <term>* yrrein</term>
+<gloss>* yr <orig>ol</orig>
+</gloss> y ddilyna<expan>n</expan>t yr Oen pa le bynac yr eiff: yrrein y brynwyd o ddiwrth y dynion, yn <term>&Dagger; ffrwyth cynta</term>
+<gloss>&Dagger; vlaen<orig>ffrwth</orig>
+</gloss> y Ddyw, ac ir Oen:
+</seg></p>
+<p><seg type="verse" n="5">
+Ac ny chafad twyll yn y geneye hwynt: canys y maent <term>heb * gyffeith</term>
+<gloss>
+&Dagger;&nbsp;<hi rend="antiqua">Gr. amoomoi .i.</hi> yn &eth;i vrych, yn &eth;i van, yn ddinam, &eth;ivei</gloss> gair bron trwn Dyw.
+</seg></p>
+<p><seg type="verse" n="6">
+&para;Ac mi weleis Angel arall yn hedfan <term>* trwy</term>
+<gloss>[no gloss]</gloss>
+
+<pb n="389r"/>
+<lb/>
+ganol y nef, ac Euengel tragywydd gantho, <corr resp="transcr" part="a" sic="y">y</corr><lb/><corr resp="transcr" part="b" sic="y "/>bregethy yr rrei oeddent trigadwy ar y ddayar, ac y bob nasion, a' chenedlaeth, &Dagger; ac <term>ieith</term>
+<gloss>&Dagger; thavod</gloss>, a' phobl,
+</seg></p>
+<p><seg type="verse" n="7">
+Dan dwedyd a lleis ywchel, <q>Ofnywch Ddyw, a' rrowch <term>* anrrydedd</term>
+<gloss>* 'ogoniant</gloss> yddo ef: can ys, awr y varn ef y ddoyth: ac addolwch yr hwn y wnaeth nef a <term>&Dagger; llawr</term>
+<gloss>
+* dayar</gloss>, a'r mor, a' ffynhoney y dyfroed</q>.
+</seg></p>
+<p><seg type="verse" n="8">
+Ac Angel arall y ddilynoe&eth;, dan ddwedyd, <q>E syrthioedd, e syrthioedd, Babylon y <term>* gaer</term>
+<gloss>* dinas</gloss> vawr <hi rend="antiqua">honno</hi>: can ys hi y wnaeth yr holl nasioney yfed o win <term>&Dagger; digofeint</term>
+<gloss>&Dagger; llid</gloss> y <term>* godineb</term>
+<gloss>* ffornigrwydd</gloss> hi</q>.
+</seg></p>
+<p><seg type="verse" n="9"><!--misnumbered '6'-->
+&para;A'r trydedd Angel y dilynoedd hwynt, dan ddwedyd a lleis <term>* mawr</term>
+<gloss>* uwchel</gloss>, <q part="i">Od addola <term>&Dagger; vn duyn</term>
+<gloss>&Dagger; nep</gloss> yr <term>* enifel</term>
+<gloss>* bestvil</gloss> ae ddelw ef, ac erbyno y nod ef yny dalcen, ney yn y law,</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<q part="m">Hwnw y yf o win digoveint Dyw, yr hwn y <term>&Dagger; gymysgwd</term>
+<gloss>&Dagger; dwallwd</gloss>, o win pur <term>* mewn phiol</term>
+<gloss>* <corr resp="transcr" sic="ynghwpa">ynghwpa,</corr> ynghwpan</gloss> y ddigoveint ef, ac ef y boenyr mewn tan a brymstan yn golwc yr Angylion santaidd, ac yngolwc yr Oen.</q>
+</seg></p>
+<p><seg type="verse" n="11">
+<q part="m">A' mwg y poynedigeth hwynt y <term>&Dagger; ddrycha</term>
+<gloss>&Dagger; escen, ddring</gloss> yn dragywy&eth;: ac ny chant orffwysfa na dy&eth; na nos, yrrein y addolant yr enifel, ae ddelw ef, a phwy bynac y dderbyno <term>* print</term>
+<gloss>* <hi rend="antiqua">Gr. charag<lb rend="om-shy"/>ma, lluniedigeth</hi></gloss> y enw ef.</q>
+</seg></p>
+<p><seg type="verse" n="12">
+<q part="f">Llyma <term>&Dagger; goddefeint</term>
+<gloss>
+* anmyned, ymaros</gloss> y Seint: <corr resp="transcr" sic="ll'ym'a r">ll'yma 'r</corr> rrei y gadwant gorchmyney Dyw, a' ffydd Iesu.</q>
+</seg></p>
+<p><seg type="verse" n="13">
+Ac mi glyweis lleis or nef, yn dwedyd wrthyfi, <q>Escrifena, <q>Bendigedic ydynt y meyrw, yrrein ydynt rrac llaw yn meyrw <term>* yn</term>
+<gloss>&Dagger; er mwyn, ym-plait</gloss> yr Arglwydd</q>.</q> Velly y ddwed yr ysbryd: <q>can ys hwy y orffwyssant o&eth;iwrth y <term>&Dagger; llafyr</term>
+<gloss>&Dagger; trafayl</gloss>, ae gweithredoedd y dilyn hwynt.</q>
+</seg></p>
+<p><seg type="verse" n="14">
+&para;Ac mi edricheis, a' syna, wybren wen, ac ar yr
+
+<pb n="389v"/>
+<lb/>wybren vn yn eiste yn debic y Mab y duyn, ac ar y ben coron aur, ac yn y law cryman llym.
+</seg></p>
+<p><seg type="verse" n="15">
+Ac Angel arall y &eth;oyth allan or deml, dan lefen a lleis ywchel wrth yr vn oedd yn eiste<hi rend="antiqua">dd</hi> ar yr wybren <q><term>* Bwrw</term>
+<gloss>* Dod</gloss> y mewn dy gryman a med<hi rend="antiqua">a</hi>: can ys amser medi y ddeyth: am vod cyn<hi rend="antiqua">h</hi>ayaf y ddayar yn ayddfed</q>.
+</seg></p>
+<p><seg type="verse" n="16">
+A'r vn oedd o eiste<hi rend="antiqua">dd</hi> ar yr wybren, y vwroedd y gryman ar y ddayar, a'r ddayar y vedwyd.
+</seg></p>
+<p><seg type="verse" n="17">
+Ac Angel arall y ddeyth allan or dem'l, yr hwn ysydd yny nef, a' chanto hefyd cryman llym.
+</seg></p>
+<p><seg type="verse" n="18">
+Ac Angel arall y ddeith allan o&eth;iwrth yr allor, yr hwn oedd a gallu gantho ar y tan, ac y lefoedd a lleis ywchel ar yr vn oedd ar cryman llym gantho, gan ddywedyd, <q>Bwrw y mewn dy gryman llym, a' chascl<hi rend="antiqua">a</hi> vagadey gwinllan y ddayar: cans y maent y grawn hi yn ayddfed.</q>
+</seg></p>
+<p><seg type="verse" n="19">
+Ar Angel y vwroedd y gryman llym ar y ddayar, ac y doroe&eth; y lawr gwinwydd gwinllan y &eth;ay<lb rend="om-shy"/>ar, ac y bwroedd hwynt y <term>&Dagger; gerwyn</term>
+<gloss>&Dagger; bwll</gloss> gwin vawr digofent <corr resp="transcr" sic="Dyw.">Dyw,</corr>
+</seg></p>
+<p><seg type="verse" n="20">
+a <term>* phres</term>
+<gloss>* phwll, gwascfa</gloss> gwin y <term>&Dagger; gwascwyd</term>
+<gloss>&Dagger; sathrwyt</gloss> allan or <term>* gaer</term>
+<gloss>dinas</gloss>, a gwaed y ddeith allan or <orig>pres-y</orig> gwin <term>&Dagger; cyfiwch a</term>
+<gloss>&Dagger; hyd</gloss> ffrwyney y meirch <term>* cyd ac vncant ar bymthec o <orig>gef nei</orig> o dir.</term>
+<gloss>* rhyd mil a' chwecha<expan>n</expan>t stad.</gloss>
+</seg></p>
+</div>
+<div type="chapter" n="15">
+<head>Pen. xv.</head>
+<argument>
+<head/>
+<p>1 Saith Angel a' chanthynt saith y pla dywethaf. 3 Caniat yr ei a orchvygasont y bestvil. 7 Y saith phiolae yn llawn o ddigofein Dyw.</p>
+</argument>
+
+<pb n="390r"/>
+<lb/><p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C mi weleis <corr resp="transcr" sic="ar wydd">arwydd</corr> arall mawr yn y nef a' rryfedd, seith Angel a chantynt y seyth pla diwetha: cans trwyddynt hwy llid Dyw y gyflawnwyd.
+</seg></p>
+<p><seg type="verse" n="2">
+Ac mi weleis mal <hi rend="antiqua">by bei</hi> mor gwydrol, gwedy y gymysgy a tha<expan>n</expan> ar sawl y gawsant y llaw 'n ycha ar yr <term>* enifel</term>
+<gloss>* bestvil</gloss>, ae ddelw, ac ar y nod, ac ar rrif y enw ef, yn sefyll <term>&Dagger; ar</term>
+<gloss>&Dagger; wrth</gloss> 'lan y mor gwydrol, a thelyney Dyw ganthynt.
+</seg></p>
+<p><seg type="verse" n="3">
+Ac hwy ganasa<expan>n</expan>t ganiat Moysen gwasnaethwr Dyw, a chaniat yr Oen, dan ddwedyd, <q part="i">Mawr, a' rryfedd ydynt dy weithredoedd, Arglwydd Ddyw hollallyawc: cyfiawn a' chywir <hi rend="antiqua">ynt</hi> dy ffyrdd, Brenin y Seint.</q>
+</seg></p>
+<p><seg type="verse" n="4">
+<q part="f">Pwy nath ofna di Arglwydd, a' gogoniantu dy Enw? cans ti yn vnic wyd santeidd, ar holl nasioney y ddont ac a&eth;olant gair dy vron <hi rend="antiqua">di</hi>: cans dy <term>* varney</term>
+<gloss>* vrodieu</gloss>&nbsp;
+<hi rend="antiqua">di</hi> ydynt cohoyddys.</q>
+</seg></p>
+<p><seg type="verse" n="5">
+Ac yn ol hynn my edrycheis, a' syna, yrydoedd tem'l <term>&Dagger; Tabernacl</term>
+<gloss>&Dagger; lluest, te<expan>n</expan>t, tyley</gloss> y tustolaeth yn agored yny nef.
+</seg></p>
+<p><seg type="verse" n="6">
+A'r seith Angel y ddeythont allan or dem'l, yrrein oeddent ar seith pla ganthynt, ae dillad oedd llien pur <term>* gloyw</term>
+<gloss>* claer, dysclaer</gloss>, ac wedy ymwregysu ynghylch y broney a gwregysey aur.
+</seg></p>
+<p><seg type="verse" n="7">
+Ac vn or pedwar enifel y roedd yr seith Angel seith phiol aur yn llawn o <term>&eth;igovent</term>
+<gloss>&Dagger; ddicter, llid, soriant</gloss> Dyw, yr hwn y sydd yn byw yn <term>* dragywydd</term>
+<gloss>* oes oesoe&eth;</gloss>.
+</seg></p>
+<p><seg type="verse" n="8">
+Ac yrydoedd y demel yn llawn o vwg gogoniant Dyw ae allu, ac ny doedd neb yn abyl y <w>vy<pb rend="shy" n="390v"/><lb/>ned</w> y mewn yr demel, hed yn &eth;arfod gyflewni seith pla y seith Angel.
+</seg></p>
+</div>
+<div type="chapter" n="16">
+<head>Pen. xvj.</head>
+<argument>
+<head/>
+<p>1 Yr Angelon yn tywallt ei phiolae yn llawn digofeint. 6 A' pha plae 'sy yn dyvot o hyny. 15 Rybudd y ymochelyd a' gwilied.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C mi glyweis lleis mawr <hi rend="antiqua">allan</hi> or deml, yn dwedyd wrth yr seith An<lb rend="om-shy"/>gel, <q>Ewch <term>* ffwrdd</term>
+<gloss>* y fford</gloss>, a' thywellwch allan seith phiol digovent Dyw ar y ddayar</q>.
+</seg></p>
+<p><seg type="verse" n="2">
+Ar cynta aeth, ac y dywalloedd y phiol ar y ddaiar: a' chornwyd drwc a' dolyrys y gywmpoedd ar y <term>&Dagger; gwyr</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">homines</hi> dynion</gloss> 'oedd a nod yr enifel arnynt, ac ar y rrei y addolsant y ddelw ef.
+</seg></p>
+<p><seg type="verse" n="3">
+Ar eil Angel y dowalloedd y phiol ar y mor, ac ef aeth mal gwaed <term>* duyn<hi rend="antiqua">-&vv;edy-</hi>marw</term>
+<gloss>* ceilan</gloss>, a phob peth byw yny mor y vy varw.
+</seg></p>
+<p><seg type="verse" n="4">
+A'r trydedd Angel y <corr resp="transcr" sic="dwaloedd">dwalloedd</corr> y phiol <hi rend="antiqua">allan</hi> ar yr avonydd a' ffynoneyr dyfroe&eth;, ac hwy aethont yn waed.
+</seg></p>
+<p><seg type="verse" n="5">
+Ac mi glyweis angel y dyfroedd yn dwedyd, <q part="i">Ar<lb rend="om-shy"/>glwydd, Yr wyd yn gyfiawn, yr Hwn wyd, ac yr Hwn y vyost, a' sancteidd, achos <term>* yd</term>
+<gloss>* yt</gloss> varny y pethey <term>&Dagger; yma</term>
+<gloss>&Dagger; hynn</gloss>.</q>
+</seg></p>
+<p><seg type="verse" n="6">
+<q part="f">Cans hwy gollasant <hi rend="antiqua">g</hi>waed y Seint, a' phroffwydi, ac am hyny ti y rroddeist yddynt <hi rend="antiqua">g</hi>waed y
+
+<pb n="391r"/>
+<lb/><corr resp="transcr" sic="fed">yfed</corr>
+<note resp="transcr">The catchword on 390v has yfed</note>: cans teilwng yddynt <hi rend="antiqua">y hynny</hi>.</q>
+</seg></p>
+<p><seg type="verse" n="7">
+Ac mi glyweis arall or <term>* Cysegr</term>
+<gloss>* allawr</gloss> yn dwedyd, <q>Iey, Arglwydd Ddyw hollallyawc, cywir a' chyfiawn ydynt dy varney di</q>.
+</seg></p>
+<p><seg type="verse" n="8">
+A'r pedwerydd Angel y dwalloedd <hi rend="antiqua">allan</hi> ei phiol ar yr haul a <hi rend="antiqua">gallu</hi> y rroed yddo y <term>
+* poeni</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">Gr. cayma<lb rend="om-shy"/>tisai .i.</hi> poethi</gloss> dynion trwy wres tan,
+</seg></p>
+<p><seg type="verse" n="9">
+A'r dynion y aent yn boeth can <term>&Dagger; wres</term>
+<gloss>* <hi rend="antiqua">cauma .i.</hi> poethder</gloss> mawr, ac y <term>* ddwedasant ddrwc am</term>
+<gloss>&Dagger; gablent, &eth;i venwasant</gloss> enw Dyw, <term>* oedd</term>
+<gloss>* ys ydd</gloss> a meddiant gantho ar y plae hyn, ac ny <term>&Dagger; chymersont eteyfeirwch</term>
+<gloss>&Dagger; ddaethant ir iawn</gloss> y rroi gogoniant <term>* yddaw</term>
+<gloss>* 'sef y Dduw</gloss>.
+</seg></p>
+<p><seg type="verse" n="10">
+A'r pymed Angel y dwalloedd y phiol allan ar eisteddle yr <term>&Dagger; enifel</term>
+<gloss>&Dagger; bestvil</gloss>, ae deirnas ef aeth yn dywyll, a' chnoi y wneythont y tafodey gan <term>* ddolyr</term>
+<gloss>* 'ovid</gloss>,
+</seg></p>
+<p><seg type="verse" n="11">
+A' <term>&Dagger; difrio</term>
+<gloss>&Dagger; chablu</gloss> y wneythont Dyw or nef gan y <term>* poenae</term>
+<gloss>* dolyriey</gloss>, a chan y cornwydon, ac ny chymersant eteifeyrwch am y gweithredoedd.
+</seg></p>
+<p><seg type="verse" n="12">
+A'r chweched Angel y dywalloedd <hi rend="antiqua">allan</hi> y phiol ar yr afon vawr Euphrates, <term>&Dagger; a'r dwr o honi</term>
+<gloss>&Dagger; ai dwr hi</gloss> y sychoedd y vyny<hi rend="antiqua">dd</hi>, mal y gellid parottoi ffordd Breninoedd y Dwyren.
+</seg></p>
+<p><seg type="verse" n="13">
+Ac mi weleis tri ysbryd aflan yn debic y <term>* ffrogaed</term>
+<gloss>* lyffaint</gloss>, yn dyfod allan o eney'r dreic, ac allan o eneyr <term>&Dagger; enifel</term>
+<gloss>&Dagger; bestvil</gloss>, ac allan o eney'r proffwydi ffeilsion.
+</seg></p>
+<p><seg type="verse" n="14">
+Canys ysbrydion cythreyled ydynt, yn gwneythyr gwrthiey, y vynd at Vrenhinoedd y ddayar, a'r holl vyd, y cascly hwynt y ryfel y dydd mawr hwnw <term>* <hi rend="antiqua">y bie</hi>
+</term>
+<gloss>* <hi rend="antiqua">yddo</hi>
+</gloss> Dyw holl alluawc.
+</seg></p>
+<p><seg type="verse" n="15">
+<q>Syna, yr wyf yn dyfod mal lleidyr, Bendigedic ywr vn y wilio ac y gatwo y ddillad, rrac yddo rrodio yn <term>&Dagger; hoeth</term>
+<gloss>&Dagger; noeth</gloss>, a rrac gweled y <term>* vrynti</term>
+<gloss>* gwilydd</gloss></q>,
+</seg></p>
+
+<pb n="391v"/>
+<lb/><p><seg type="verse" n="16">
+Ac hwy ymgynyllasant ynghyd y le y elwir yny'r Ebryw, Arma-gedon.
+</seg></p>
+<p><seg type="verse" n="17">
+&para;A'r seithfed Angel y dwalloedd <hi rend="antiqua">allan</hi> y phiol ir <term>* awyr</term>
+<gloss>* wybr</gloss>: a' lleis ywchel y ddeyth allan o deml y nef oddiwrth yr eisteddle, yn dwedyd, <q>Ef y <term>&Dagger; dderfy</term>
+<gloss>&Dagger; dderyw, ddarvu</gloss></q>.
+</seg></p>
+<p><seg type="verse" n="18">
+Ac yr oe&eth; lleisiey, a thraney, a' mellt, ac yroedd crynfa vawr y ddayar, cyfryw na by er pen <term>* mae</term>
+<gloss>* vu</gloss> dynion ar y ddayar, crynfa'r ddayar cyment.
+</seg></p>
+<p><seg type="verse" n="19">
+A' rrany y wneithpwyd y <term>gaer</term>
+<gloss>&Dagger; dinas</gloss> vawr yn deir ran, a' syrthio wneithont ceyrydd y nasioney: a' Babylon vawr y &eth;eyth mewn cof gair bron Dyw, y rroi yddi cwppa<hi rend="antiqua">n</hi> gwin <term>&Dagger; digofeint</term>
+<gloss>&Dagger; baar</gloss> y lid ef.
+</seg></p>
+<p><seg type="verse" n="20">
+A' phob ynys y ffoedd <hi rend="antiqua">ymaith</hi>, ac ny chad <hi rend="antiqua">c&vv;rdd</hi> ar <term>&Dagger; mynydde</term>
+<gloss>* glennydd</gloss>.
+</seg></p>
+<p><seg type="verse" n="21">
+A chwympo y wnaith <term>cenllys</term>
+<gloss>&Dagger; cessair</gloss> mawr, mal <term>* pwyse</term>
+<gloss>* talentae</gloss>, or nef ar y dynion, a'r dynion y <term>&Dagger; rregasant</term>
+<gloss>&Dagger; gablasont</gloss> Ddyw, am plaae yr cenllys: can ys mawr <term>* anianol</term>
+<gloss>* dros ben</gloss> oedd y phla <hi rend="antiqua">hi</hi>.
+</seg></p>
+</div>
+<div type="chapter" n="17">
+<head>Pen. xvij.</head>
+<argument>
+<head/>
+<p>3 Yscythrad y putain vawr. 8 Hei phechotae a'i <corr resp="transcr" sic="phonedigeh">phoenedigeth</corr> 14 Goruchafieth yr Oen.</p>
+</argument>
+<p><seg type="verse" n="1">
+<!-- gloss '* ddihayreb' going where? -->
+<hi rend="rubric">A</hi>C vn or seith Angel oe&eth; ar seith phiol gantho y &eth;oeth, ac ym<hi rend="antiqua">c</hi>hwedleyoe&eth; a mi, dan &eth;wedyd wrthyf, <q part="i"><term>Dyre<hi rend="antiqua">d</hi>
+</term>
+<gloss>&Dagger; Debre, Degle</gloss>: mi &eth;angosaf ytti &eth;amnedigeth y bytten <term>* vawr</term>
+<gloss>[no gloss]</gloss> ysydd yn eiste<hi rend="antiqua">dd</hi> ar lawer o ddyfroedd,</q>
+</seg></p>
+<p><seg type="verse" n="2">
+<q part="f">Gyda'r hon y mae brenhinoe&eth; y ddayar <corr resp="transcr" sic="gwe&eth;y">gwedy</corr>
+
+<pb n="392r"/>
+<lb/>godineby a <term>deiled</term><gloss>&Dagger;&nbsp;<corr resp="transcr" sic="thrgianwyr">thrigianwyr</corr></gloss><note resp="transcr">Gloss is on p. 391v.</note> y ddayar gwedy meddwi <term>&Dagger; a gwin</term>
+<gloss>&Dagger; ar win</gloss> y godineb hi.</q>
+</seg></p>
+<p><seg type="verse" n="3">
+Ac ef <corr resp="transcr" sic="ymdygoedd">ym dygoedd</corr> yn yr ysbryd yr diffeith, ac mi weleis <hi rend="antiqua">g</hi>wreic yn eiste<hi rend="antiqua">dd</hi> ar <term>* enifel</term>
+<gloss>* vestvil</gloss> vn lliw <term>&Dagger; ar scarlla</term>
+<gloss>&Dagger; ac yscarlat</gloss>, yn llawn o enwey <term>* enllibiys</term>
+<gloss>* cablae</gloss>, a seith pen gantho a dec corn.
+</seg></p>
+<p><seg type="verse" n="4">
+A gwisc y wreic oedd <term>&Dagger; pwrpwl</term>
+<gloss>&Dagger; purpur</gloss>, a' scarlla, a goreyred ac aur, a mein gwerthfor, a' pherle, a chwppa<hi rend="antiqua">n</hi> aur oedd ganthi yny llaw, yn llawn o <term>&Dagger; wrthweyneb</term>
+<gloss>&Dagger; ffieid betheu</gloss> a <term>* brynti</term>
+<gloss>* aflendit</gloss> y godineb hi.
+</seg></p>
+<p><seg type="verse" n="5">
+Ac yny thalcen yrydoedd enw yn escrifenedic, Dirgelwch, Babylon vawr, mam pytteindra, a gwrthweynebe yr ddayar.<!--some quote-mark?-->
+</seg></p>
+<p><seg type="verse" n="6">
+Ac mi weleis y wreic yn veddw gan waed y Seint, a' chan waed Merthyron Iesu: a' phan y gweleis hi, mi rryveddeis <term>* a rryvedd mawr</term>
+<gloss>&Dagger; yn aruthrol, yn ddirvawr</gloss>:
+</seg></p>
+<p><seg type="verse" n="7">
+Ar Angel y ddwad wrthyf, <q part="i">Pa ham yrwydd yn rryfeddu? mi dangosaf yt &eth;irgelwch y wreic, a'r <term>&Dagger; enifel</term>
+<gloss>* bestfil</gloss> ysy&eth; yny dwyn hi, yr hwn ysydd a seith pen gantho, a dec corn.</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<q part="m"><term>* Yr enifel</term>
+<gloss>&Dagger; y bestfil</gloss> y weleist, y vu, ac nyd ydiw, ac ef y <term>&Dagger; ddaw</term>
+<gloss>[no gloss]</gloss> y vyny<hi rend="antiqua">dd</hi> or pwll heb <corr resp="transcr" sic="way lod">waylod</corr>, ac ef eiff y <term>* ddinystraeth</term>
+<gloss>* <corr resp="transcr" sic="gyfergoll">gyfergoll,</corr> golledigeth
+</gloss>, a' deiled y ddayar, y rryfeddant (enwey y rrein nyd ynt yn escrivennedic mewn Llyfr y bowyd er dechrey'r bud) pan edrychant ar yr enifel yr hwn ydoedd, ac nyd ydiw, ac eto y mae.</q>
+</seg></p>
+<p><seg type="verse" n="9">
+<q part="m">Ll'yma'r meddwl <hi rend="antiqua">ys ydd</hi> a doethinep gantho. Y seith pen seith mynydd ydynt, ac yrrein ymaer wreic yn eiste, ymaent hevyd yn seith Brenin.</q>
+</seg></p>
+<p><seg type="verse" n="10">
+<q part="m">Pymp y syrthioedd, ac vn ysydd, ac arall ysydd heb ddyfod etto: a' phan y ddel <hi rend="antiqua">ef</hi>, rreid yddo <w>par<pb n="392v" rend="shy"/><lb/>hay</w> ychydic o amser.</q>
+</seg></p>
+<p><seg type="verse" n="11">
+<q part="m">Ar <term>* enifel</term>
+<gloss>* bestfil</gloss> yr hwn <term>y &Dagger; vu</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">erat .i.</hi> oedd</gloss>, ac nyd ydiw, ys efe ywr wythfed, ac y mae yn vn or seith, ac ef eiff y &eth;inystraeth.</q>
+</seg></p>
+<p><seg type="verse" n="12">
+<q part="m">A'r dec corn y weleist, dec Brenin ydynt, yrrein ny chawsont etto vrenhiniaeth, ond hwy gant <hi rend="antiqua">g</hi>allu mal Brenhinoedd mewn vn awr gydar enifel.</q>
+</seg></p>
+<p><seg type="verse" n="13">
+<q part="m">Yrrein ysydd ar vn meddwl ganthynt, ac hwy rroddant ey gallu, ae awdyrdod <term>&Dagger; yr enifel</term>
+<gloss>* ir bestvil</gloss>.</q>
+</seg></p>
+<p><seg type="verse" n="14">
+<q part="f">Yrrein y ymladdant ar Oen, a'r Oen y gorchfyga hwynt: cans ef ydiw Arglwydd arglwyddi, a Brenin brenhinoedd, a'r rrey ysydd ar y <term>* rran</term>
+<gloss>&Dagger; du, blaid</gloss> ef, <term>&Dagger; hwy a elwid ac y ddetholwyd, a' ffyddlawn</term>
+<gloss>&Dagger; galwedigi<lb rend="om-shy"/>on ac etholedigion a' <corr resp="transcr" part="a" sic="ffyddlo">ffyddlo</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="lonion">nion</corr></gloss> ynt.</q>
+</seg></p>
+<p><seg type="verse" n="15">
+Ac ef y ddwad <corr resp="transcr" sic="wrchyf'">wrthyf'</corr>, <q part="i">Y dyfroedd y weleist, lle mae'r bytten yn eiste, pobl ydynt, a' thyrfae, a nasioney, ac <term>* ieithioedd</term>
+<gloss>* tavodeu</gloss>.</q>
+</seg></p>
+<p><seg type="verse" n="16">
+<q part="m">A'r dec corn y weleist ti ar yr enifel, yrrei ydynt y gasha y buttein, ac y gwna hi yn vnic ac yn <term>&Dagger; ho<lb rend="om-shy"/>eth</term>
+<gloss>&Dagger; noeth</gloss>, ac hwy y vwyttant y chig, ac y llosgant hi a than.</q>
+</seg></p>
+<p><seg type="verse" n="17">
+<q part="m">Cans Dyw <term>* rroedd</term>
+<gloss>* a roes, a ddodoedd</gloss> yny caloney y gyflawni y ewyllys ef, ac y wneithur trwy <hi rend="antiqua">gyf</hi>vndeb, ac y roi y teirnas yr enifel, hed yn gyflewnir 'eiriey Dyw.</q>
+</seg></p>
+<p><seg type="verse" n="18">
+<q part="f">A'r wreic y weleist, y <term>&Dagger; gaer</term>
+<gloss>&Dagger; dinas</gloss> vawr idiw, yr hon y sydd yn teirnasu ar Brenhinoedd y ddayar.</q>
+</seg></p>
+</div>
+<div type="chapter" n="18">
+<head>Pen. xviij.</head>
+<argument>
+<head/>
+<p>3. 9 Bot <term>* cariadae y byt</term>
+<gloss>* <hi rend="antiqua">yr ei sy yn caru'r byt</hi>
+</gloss> yn dristion am gwymp y putein o Babylon 4 Rhybudd y bopul Ddew y gilio allan oi
+
+<pb n="393r"/>
+<lb/><term>&Dagger; chyvoeth</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">arglwyddieth</hi>
+</gloss> hi, 20 Eithyr yr ei 'sy&eth; o Ddew, ysy&eth; ac achos yddynt y lawenechu am y dinistr hi.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C yn ol hyn, mi weleis Angel <hi rend="antiqua">arall</hi> yn <term>* dyfod</term>
+<gloss>* descen</gloss> y lawr or nef, a' gallu ma<lb rend="om-shy"/>wr ganto, a <term>&Dagger; goleyo</term>
+<gloss>&Dagger; llewychu</gloss> wnaeth y ddayar gan y 'ogoniant ef.
+</seg></p>
+<p><seg type="verse" n="2">
+A llefen y wnaeth ef yn <term>* rrymys</term>
+<gloss>* gadarn, gryf, groch</gloss> a lleis ywchel, dan ddwedyd, <q part="i"><term>&Dagger; E</term>
+<gloss>&Dagger; Neur</gloss> syrthioedd, ef syrthioedd, Babylon y <hi rend="antiqua">gaer</hi> vawr <hi rend="antiqua">hono</hi>, ac <term>* y mae hi</term>
+<gloss>* hi aeth</gloss> yn <term>&Dagger; drig<hi rend="antiqua">ad</hi>le</term>
+<gloss>&Dagger; drigfan</gloss> yr cythreiled, a' chadwraeth pob ysbryd aflan, a <term>* nyth</term>
+<gloss>* <hi rend="antiqua">custodia</hi> cadwrieth</gloss> pob ederyn aflan <term>&Dagger; cas</term>
+<gloss>&Dagger; a dygasoc</gloss>.</q>
+</seg></p>
+<p><seg type="verse" n="3">
+<q part="f">Cans yr holl nasioney y yfasont o win digofent y godineb hi, a Brenhinoedd y ddayar y wneythont odineb <hi rend="antiqua">yn</hi>g<hi rend="antiqua">h</hi>yd a hi, a marsiantwyr y ddayar eithont yn gyfothog<hi rend="antiqua">ion</hi> gan amylder y moythe hi.</q>
+</seg></p>
+<p><seg type="verse" n="4">
+Ac mi glyweis lleis arall or nef yn dwedyd, <q part="i">Ewch allan o <hi rend="antiqua">* hi</hi>
+<gloss>* hanei</gloss> vympobl, rrac ywch vod yn gygyfranawl oe phechodey, ac rrac ywch dderbyn <hi rend="antiqua">gyfran</hi> oe phlae hi.</q>
+</seg></p>
+<p><seg type="verse" n="5">
+<q part="m">Can ys y phechodey hi y ddeythont y vyny<hi rend="antiqua">dd</hi> hed y nef, a' Dyw y gofioedd y enwiredd<!-- poss. some kind of hook over -ed- --> hi.</q>
+</seg></p>
+<p><seg type="verse" n="6">
+<q part="m"><term>* Telwch yddi mal <corr resp="transcr" sic="p">y</corr> taloe&eth; hi y chwi,</term>
+<gloss>* Gobrwywch hi mal y gobrwyoe&eth; hi chwi.</gloss> a' rrowch yddi yn <hi rend="antiqua">ddoy</hi> ddyblic yn ol y gweithredoedd hi: <hi rend="antiqua">ac</hi> yny cwppa<hi rend="antiqua">n</hi> y lanwoedd hi y chwi, llenwch yddi hi <term>&Dagger; y <hi rend="antiqua">ddoy</hi> ddyb<orig>ll</orig>ic</term>
+<gloss>&Dagger; ddau cyme<lb rend="om-shy"/>int</gloss>.</q>
+</seg></p>
+<p><seg type="verse" n="7">
+<q part="m">Yn gymeint ac y gogonianoedd hi y hun, ac byw mewn moythe, <hi rend="antiqua">yn</hi> yr vn <term>* modd</term>
+<gloss>* veint</gloss> rrowch y&eth;i poen a <term>&Dagger; thrymder</term>
+<gloss>&Dagger; thristwch, girad</gloss>: cans y mae hi yn dwedyd yn<isp/>y
+
+<pb n="393v"/><lb/>chalon, <q>yr wyf yn eiste yn vrenhines, ac y nyd wyf yn weddw, ac ny welaf dim <term>* wylofent</term>
+<gloss>* 'alar, cwynvan, cwy<lb rend="om-shy"/>nofain</gloss></q>:</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<q part="f">Am hyny yn yr vn dydd y ddaw y phlae hi, <hi rend="antiqua">'sef</hi> myrfolaeth, a thristwch, a' newyn, a' hi losgir a than: cans cadarn ydywr Arglwydd Ddyw, yr hwn y <term>&Dagger; barna</term>
+<gloss>&Dagger; damna</gloss> hi.</q>
+</seg></p>
+<p><seg type="verse" n="9">
+A' brenhinoedd y ddayar y <term>* ochant</term>
+<gloss>* wylan</gloss> amdeni, ac y cwyna<expan>n</expan>t hi, y rrein y wneithont godineb, ac y vuont byw yn voythys ynghyd a hi, pan gwelant mwg <term>&Dagger; y</term>
+<gloss>[no gloss]</gloss>&nbsp;
+<term>* thanllwyth</term>
+<gloss>&Dagger; chenneu, llosciat, pho<lb rend="om-shy"/>thiat</gloss> hi,
+</seg></p>
+<p><seg type="verse" n="10">
+Ac hwy safant ymhell oddiwrthi gan ofn y phoen hi, dan ddwedyd, <q><term>Gwae <hi rend="antiqua">ni</hi>, gwae <hi rend="antiqua">ni</hi></term>
+<gloss>* Och och</gloss>, y gaer vawr <hi rend="antiqua">hono</hi> Babylon, y gaer gadarn: can ys mewn vn awr y ddoeth dy varn <hi rend="antiqua">di</hi></q>.
+</seg></p>
+<p><seg type="verse" n="11">
+A' marsiantwyr y ddayar y wylant ac y cwyna<expan>n</expan>t <term>* ddywch</term>
+<gloss>* uch</gloss> y phen: can ys ny does neb yn <corr resp="transcr" sic="prymy">pryny</corr> y <hi rend="antiqua">g</hi>war hwy <term>&Dagger; mwy</term>
+<gloss>rrac llaw</gloss>
+<hi rend="antiqua">na&vv;r</hi>,
+</seg></p>
+<p><seg type="verse" n="12">
+Marsiandiaeth o aur ac aria<expan>n</expan>, a' maen gwerthfawr, a pherle, a' <term>&Dagger; lliein-mein</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">byssi</hi></gloss><!-- = Greek byssos -->, a' phwrpul, a' sidan, ac <term>
+<orig>scarlla</orig>
+</term>
+<gloss>* scarlet</gloss>, a phop rryw o goed <term>* thyin</term>
+<gloss>[no gloss]</gloss>, ac o bob llestr o <term>&Dagger; ascwrn morfil</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">Gr. elepha<expan>n</expan><lb rend="om-shy"/>tinon</hi> .i. ddaint yr elephant</gloss>, a' phop llestr o <term>* goed</term>
+<gloss>* bren</gloss> gwerthvawrocaf, ac o <term>&Dagger; bres</term>
+<gloss>&Dagger; elydn</gloss>, ac o hayarn, ac o <term><hi rend="antiqua">vaen</hi> * mynor</term>
+<gloss>* <hi rend="antiqua">marmore</hi></gloss>
+</seg></p>
+<p><seg type="verse" n="13">
+Ac o <term>* sinamon</term>
+<gloss>&Dagger; canel</gloss>, ac erogley, ac <term>* ireyd</term>
+<gloss>* wylment</gloss>, a' <term>&Dagger; ffrankynsens</term>
+<gloss>&Dagger; thus</gloss>, a' gwin, ac <term>* olew</term>
+<gloss>* oyl, yyl</gloss>, a <term>&Dagger; chan man</term>
+<gloss>&Dagger; pheillied, fflwr</gloss>, a' gwenith, ac <term>* enifeilied</term>
+<gloss>* yscrublieit</gloss>, a' defeid, a' <term>&Dagger; chyphyle</term>
+<gloss>&Dagger; meirch</gloss>, a' siaredey, a gwasnaethwyr, ac eneidiey dynion.
+</seg></p>
+<p><seg type="verse" n="14">
+(<q>A'r avaley y drachwenychoedd dy eneid <hi rend="antiqua">ti</hi>, ymadawsant a thi, ar holl pethey <term>* breision</term>
+<gloss>* tewion</gloss>, a <term>gwychion</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">Gr. lampra .i.</hi> claer, dysclaer, rhagorawl</gloss> aethant ffwrdd oddiwrthit, ac ny chey <hi rend="antiqua">gyh&vv;rdd</hi> ac hwynt mwy<hi rend="antiqua">ach</hi></q>)
+</seg></p>
+
+<pb n="394r"/>
+<lb/><p><seg type="verse" n="15">
+Marsiantwyr y pethey hyn yrrein ymgofoythogasant, y safant ymhell oddiwrthi hi, rrac ofn y phoyn hi, yn wylo ac yn ochein,
+</seg></p>
+<p><seg type="verse" n="16">
+Ac yn dwedyd, <q part="i"><term>* Gwae <hi rend="antiqua">ni</hi>
+</term>
+<gloss>* Och, Wban</gloss>, gwae <hi rend="antiqua">ni</hi>, y gaer vawr hono, y ddillattaw<hi rend="antiqua">y</hi>d mewn llien mein, a' phwrpul, ac <term>&Dagger; scarlla</term>
+<gloss>&Dagger; scarlat</gloss>, a' chwedy goreyro ac aur, a maen gwerthfawr, a pherleu:</q>
+</seg></p>
+<p><seg type="verse" n="17">
+<q part="f">Cans mewn vn awr y cyfoeth <term>* mawr</term>
+<gloss>* cymeint</gloss> y <term>ddiffeith&Dagger;oedd</term>
+<gloss>&Dagger; -iwyt, aeth yn ddiffaith</gloss>.</q> A phob <term>* <hi rend="antiqua">llong</hi>lywydd</term>
+<gloss>* perchen-long</gloss>, ar holl pobl ysy&eth; yn <term>&Dagger; occopio</term>
+<gloss>&Dagger; trino</gloss> llongey, ar llongwyr, ar sawl bynac ydynt yn trafaylu ar y mor, y safant ymhell,
+</seg></p>
+<p><seg type="verse" n="18">
+Ac y lefant, pan <hi rend="antiqua">g</hi>welant mwg y <term>* thanllwyth</term>
+<gloss>* chenneu, phoethfa</gloss> hi, dan ddwedyd, <q>Pa'ry <hi rend="antiqua">gaer oedd</hi> debic yr gaer vawr hon?</q>
+</seg></p>
+<p><seg type="verse" n="19">
+Ac hwy vwrant <term>&Dagger; ddwst</term>
+<gloss>&Dagger; lwch</gloss> ar y penney, ac y lefant dan wylo, ac ochein, a dwedyd, <q part="i">Gwae, gwae, y gaer vawr, yn yr hon y cyvothogwyt oedd a llo<expan>n</expan>gey ga<expan>n</expan>tynt ar y mor, trwy y <term>chost</term>
+<gloss>* <hi rend="antiqua">Gr. timiotes .i.</hi> gwerth, gwerthvawredd</gloss> hi: cans mewn vn awr hi ddiffeithwyd.</q>
+</seg></p>
+<p><seg type="verse" n="20">
+<q part="f">Y nef, llawe<expan>n</expan>ha arnei, ar ebostolion santei&eth;, a'r prophwydi: cans Dyw <term>&Dagger; y roe&eth; ych barn chwi</term>
+<gloss>&Dagger; a roes, 'sef ych dialodd</gloss> erni.</q>
+</seg></p>
+<p><seg type="verse" n="21">
+Ac yno vn Angel cadarn y <term>* gwnoedd maen</term>
+<gloss>* gymerth, gododd vae<expan>n</expan>
+</gloss> megis maen melin, ac y bwroedd yr mor, dan &eth;wedyd, <q part="i">Ar vath <term>&Dagger; rrym</term>
+<gloss>&Dagger; wth, yrr</gloss>&nbsp;
+<hi rend="antiqua">hyn</hi> y bwrir y gaer vawr Ba<lb rend="om-shy"/>bylon, ac ny cheir hi mwy<hi rend="antiqua">ach</hi>.</q>
+</seg></p>
+<p><seg type="verse" n="22">
+<q part="m">Ac ny <corr resp="transcr" sic="chlywir,">chlywir</corr> yno ti mwy lleis telynorion, a' <term>* chantoried</term>
+<gloss>* ch<hi rend="antiqua">e</hi>rdorio<expan>n</expan>
+</gloss>, a' phiby&eth;ion, a' thrwmpedyddion, ac ny <term>&Dagger; chyhwrddir ac</term>
+<gloss>&Dagger; cheffir</gloss> vn creftwr, pa grefft bynac vo ynoti mwy, ac ny chlywir <term>&Dagger; lleis</term>
+<gloss>* twrwf, sain</gloss> maen melin ynoti mwy.</q>
+</seg></p>
+<p><seg type="verse" n="23">
+<q part="m">Ac ny welir <term>* 'oleyni</term>
+<gloss>&Dagger; llever, llewych, 'oleuad</gloss> canwyll ynoti mwy: ac
+
+<pb n="394v"/>
+<lb/>ny chlywir lleis priodasvab a phriodasverch ynot i mwy: can ys dy varsiandwyr <hi rend="antiqua">di</hi> oeddent <term>* bendevigion</term>
+<gloss>* wyr mawr</gloss> y ddayar: ac ath <term>&Dagger; cyfareddion</term>
+<gloss>&Dagger; rinie, swynion, sybeldenweith, wiscrefft</gloss> y twyllwyd yr holl nasioney.</q></seg></p>
+<p><seg type="verse" n="24">
+<q part="f">Ac yndy hi y <term>&Dagger; gafad</term>
+<gloss>&Dagger; caffat</gloss>&nbsp;
+<hi rend="antiqua">cy&vv;rdd</hi> a gwaed y proffwydi, a'r Seint, a phawb ar y las <term>* yn</term>
+<gloss>* ar</gloss> y ddayar.</q>
+</seg></p>
+</div>
+<div type="chapter" n="19">
+<head>Pen. xix.</head>
+<argument>
+<head/>
+<p>1 Roi moliant y Ddew am varnu 'r putein, ac am ddial gwaed ei weision. 10 Ny vynn yr Angel ei addoli. 17 <term>* Galw</term>
+<gloss>[no gloss]</gloss> 'r ehediait a'r adar ir lladdfa.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C yn ol hyn, mi glyweis lleis <term>* yw<lb rend="om-shy"/>chel</term>
+<gloss>* mawr</gloss> gan dyrfa vawr yny nef, yn dwedyd, <q part="i"><hi rend="antiqua">Hallelu-iah</hi>, iechyd a' gogo<lb rend="om-shy"/>niant, ac anrrydedd, a' gallu <hi rend="antiqua">y vo</hi> yr Arglwydd yn Dyw <hi rend="antiqua">ni</hi>.</q>
+</seg></p>
+<p><seg type="verse" n="2">
+<q part="f">Cans cywir a' chyfiawn ydynt y varney ef: cans ef y varnoedd y byttein vawr, yr hon y lygroedd y ddayar ae godineb, ac y ddialoedd gwaed y weison <hi rend="antiqua">y goll&vv;yd</hi> gan y llaw hi.</q>
+</seg></p>
+<p><seg type="verse" n="3">
+Ac eilwaith hwy ddwedasant, <q><hi rend="antiqua">Hallelu-iah</hi>: ac y mwg hi y <term>&Dagger; drychafoedd</term>
+<gloss>&Dagger; escennno&eth;, gododd</gloss> yn dragywydd</q>.
+</seg></p>
+<p><seg type="verse" n="4">
+Ar pedwar ar ygen o henafied, ar pedwar enifel y syrthiasant <hi rend="antiqua">y la&vv;r</hi>, ac addolasant Ddyw, oedd yn eiste<hi rend="antiqua">dd</hi> ar yr eisteddle, dan ddwedyd, <q>Amen, Hallelu-ia<hi rend="antiqua">h</hi></q>:
+</seg></p>
+<p><seg type="verse" n="5">
+A' lleis y ddoeth allan o'r eisteddle, yn dwedyd, <q>Molianwch y<hi rend="antiqua">n</hi> Dyw ni, y holl weision, ar rrei <w>y<pb rend="shy" n="395r"/><lb/>dych</w> yny ofni ef bychein a' mawr<hi rend="antiqua">ion</hi></q>.
+</seg></p>
+<p><seg type="verse" n="6">
+Ac mi glyweis lleis mal tyrfa vawr, a' mal lleis llawer o ddyfroedd, ac mal lleis t<hi rend="antiqua">a</hi>raney cedyrn, yn dwedyd, <q part="i">Hallelu-ia<hi rend="antiqua">h</hi>: can ys <hi rend="antiqua">yn</hi> Arglwydd Ddyw hollalluawc a deyrnasoedd.</q>
+</seg></p>
+<p><seg type="verse" n="7">
+<q part="m">Gwnawn yn llawen a llawenychwn, a' rroddwn <hi rend="antiqua">g</hi>ogoniant yddo ef: achos dyfod priodas yr Oen, ae wreic ef y ymbarattoedd.</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<q part="f">A' chanattay y wneithpwyd y&eth;i, ymwisco a <term>* llien-mein</term>
+<gloss>* <hi rend="antiqua">bysso</hi>
+</gloss>&nbsp;
+<term>&Dagger; pur</term>
+<gloss>&Dagger; 'lan</gloss>, a' dysclaer</q>: can ys y llien-mein ydiw cyfiawnder y Saint.
+</seg></p>
+<p><seg type="verse" n="9">
+Ac ef y ddwad wrthyf, <q>Escrivenna, <q>Bendigedic ynt y rrei y elwyr y <term>* wledd</term>
+<gloss>* swper</gloss> priodas yr Oen</q></q>. Ac ef y ddwad wrthyf, <q>Y geiriey hyn y Ddyw ydynt <hi rend="antiqua">gy</hi>wir.</q>
+</seg></p>
+<p><seg type="verse" n="10">
+Ac mi syrthieis gair bron y draed ef, y addoli ef: ac ef y ddwad wrthyf, <q><term>* Gwyl</term>
+<gloss>&Dagger; Ymogel, ymochel, gogel</gloss> rrac gwneythur hyny: yr wyfi yn gydwasnaethwr a thi, ac <hi rend="antiqua">vn</hi> oth vrodyr, ysydd gantynt testolaeth <hi rend="antiqua">y</hi> Iesu, addola Ddyw: can ys tustolaeth <hi rend="antiqua">y</hi> Iesu ydiw ysbryd y bryffodolaeth</q>.
+</seg></p>
+<p><seg type="verse" n="11">
+Ac mi weleis y nef yn agored, a' syna march gwyn, ar vn y eisteddoedd arno, y elwid, Fyddlawn a' chowir, ac y mae ef yn barny ac yn ymla&eth; yn gyfiawn<hi rend="antiqua">der</hi>.</seg></p>
+<p><seg type="verse" n="12">
+Ae lygeid ef oeddent mal flam dan, ac <term>&Dagger; ar</term>
+<gloss>&Dagger; am</gloss> y ben ef oeddent llawer o <term>* goraney</term>
+<gloss>* daleithieu</gloss>: ac yr ydoedd gantho enw yn escrifenedic, yr hwn ny <term>&Dagger; adnaby</term>
+<gloss>* wyddiat</gloss> neb ond ef y hun.
+</seg></p>
+<p><seg type="verse" n="13">
+Ac ef y ddillattawd a gwisc gwedy <term>* taro</term>
+<gloss>&Dagger; throchi</gloss> mewn gwaed, ae enw ef y elwir GAIR DYW.
+</seg></p>
+
+<pb n="394v"/>
+<lb/><p><seg type="verse" n="14">
+A'r llyedd<hi rend="antiqua">&vv;yr</hi> oeddent yny nef, y ddilinasont ef ar veirch gwnion, gwedy ymwisco a llien-mein gwyn <term>&Dagger; glan.</term>
+<gloss>&Dagger; a' phur.</gloss>
+</seg></p>
+<p><seg type="verse" n="15">
+Ac oy eney ef yr aeth allan cleddey llym, <term>y * daro</term>
+<gloss>* y ladd</gloss> ac ef, yr <term>&Dagger; cenedloedd</term>
+<gloss>[no gloss]</gloss>: can ys ef y rriola hwynt a gwialen hayarn, <term>* ac</term>
+<gloss>* cans, o bleit</gloss> ef yw yr hwn y sydd yn sathry y <term>winwasc</term>
+<gloss>&Dagger; pwll gwin y winfa</gloss>&nbsp;
+<term>* ddigofent</term>
+<gloss>* cynddare&eth;</gloss>, a' llid Dyw hollalluawc.
+</seg></p>
+<p><seg type="verse" n="16">
+Ac y mae gantho <term>&Dagger; yn</term>
+<gloss>&Dagger; ar</gloss> y wisc, ac ar y vorddwyd enw escrivenedic, BRENHIN Y BRENHINOEDD, AC ARGLWYDD YR ARGLWYDDI.
+</seg></p>
+<p><seg type="verse" n="17">
+Ac mi weleis Angel yn sefyll yny'r haul, ac yn llefen a lleis ywchel, dan ddwedyd wrth yr holl adar oe&eth;ent yn <term>* hedec</term>
+<gloss>* hedfan</gloss> trwy ganol y nef, <q part="i">Dowch, ac ymgynyllwch ynghyd at <term>&Dagger; swper</term>
+<gloss>[no gloss]</gloss> y Dyw mawr,</q>
+</seg></p>
+<p><seg type="verse" n="18">
+<q part="f">Mal y galloch vwytta cig Brenhinoedd, a' chig pen captenied, a chig <hi rend="antiqua">g&vv;yr</hi> cedyrn a' chig meirch, ar rrei ydynt yn eiste arnynt, a chig <hi rend="antiqua">g&vv;yr</hi> ryddion a'r ceithon, a' bychein a' mawr<hi rend="antiqua">ion</hi>.</q>
+</seg></p>
+<!-- verse 19 misnumbered 16 -->
+<p><seg type="verse" n="19">
+Ac mi weleis yr <term>* enifel</term>
+<gloss>* bwystvil</gloss>, a brenhinoedd y ddayar, ae rryfelwyr gwedy ymgynyll ynghyd y ryfely yny erbyn ef, oedd yn eiste ar y march ac yn erbyn y vilwyr.
+</seg></p>
+<p><seg type="verse" n="20">
+Ond yr <term>&Dagger; enifel</term>
+<gloss>&Dagger; bestvil</gloss> y ddalwyd, ar proffwyd falst ynghyd ac ef yr hwn y wnaeth <hi rend="antiqua">g</hi>wrthiey gair y vron ef, trwyr rrein y siomoedd ef hwynt y dderbynasant nod <term>&Dagger; yr enifel</term>
+<gloss>&Dagger; y bestvil</gloss>, ar rrei addolasant y ddelw ef, Y ddoy <term>* yma</term>
+<gloss>* hyn</gloss> y vwriwd yn vyw yr pwll tan yn llosgi a brymstan.
+</seg></p>
+<p><seg type="verse" n="21">
+A' <term>* relyw</term>
+<gloss>* lleill</gloss> y las a chleddey'r vn ys ydd yn eiste<hi rend="antiqua">dd</hi>
+
+<pb n="396r"/>
+<lb/>ar y march, yr hwn <hi rend="antiqua">gleddey</hi> 'sy yn dyuot allan oe eney, ar holl adar y lenwid yn llawn oe cic <hi rend="antiqua">h&vv;y</hi>.
+</seg></p>
+</div>
+<div type="chapter" n="20">
+<head>Pen. xx.</head>
+<argument>
+<head/>
+<p>2 Bot Satan yn rhwym dros dalm o amser, 7 Ac wedy ei ellwng yn rhydd, yn poeni yr Eccles yn athrwm 10. 14 Ac yn ol hyny barnu'r byd, y vwrw ef a'r ei yddaw ir pwll tan.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C mi weleis Angel yn discin or nef, a' chanto <term>* agoriad</term>
+<gloss>* allwydd</gloss> y pwll heb waylod, a' chadwyn vawr yny law.
+</seg></p>
+<p><seg type="verse" n="2">
+Ac ef y ddalioedd y ddreic yr hen sarff <hi rend="antiqua">hono</hi>, yr hwn ydiw'r <term>&Dagger; cythrel</term>
+<gloss>&Dagger; diavol</gloss>, a Satan, ac y rrwymoe&eth; ef <hi rend="antiqua">dros</hi> vil o vlynyddoedd,
+</seg></p>
+<p><seg type="verse" n="3">
+Ac y bwrioedd ef yr pwll heb waylod, ac y goarchaeo&eth; ef, ac y seloedd <hi rend="antiqua">y dr&vv;s</hi> arno, megis na alley siomi'r bobl mwy<hi rend="antiqua">ach</hi>, nes cyflewni'r mil o vlynyddey: can ys yn ol hyny rreid yw y ollwng ef dros ychydic o <term>&Dagger; amser</term>
+<gloss>&Dagger; enbyd</gloss>.
+</seg></p>
+<p><seg type="verse" n="4">
+Ac mi weleis eisteddleoedd: ac hwy eisteddasant arnynt, a' barn y rroed yddynt hwy, ac <hi rend="antiqua">mi &vv;elais</hi> eneidiey y rrei, y <term>* dorrwyd</term>
+<gloss>* las</gloss> y peney am dystolaeth Iesu, ac am eir Dyw, a'r rrei nyd addolasant yr <term>&Dagger; enifel</term>
+<gloss>&Dagger; bestfil</gloss>, nae y ddelw, ac ny chymersont y <term>&Dagger; nod</term>
+<gloss>[no gloss]</gloss> ef ar y talceney, ney ar y dwylaw: ac hwy vyont vyw, ac y deirnasasant gyd a Christ mil o vlunyddey.
+</seg></p>
+<p><seg type="verse" n="5">
+Ond y gweddil or gwyr meirw ny <term>&Dagger; vyont</term>
+<gloss>&Dagger; 'sef vydda<expan>n</expan>t</gloss> vyw eilweith, nes diweddy y mil vlyny&eth;ey: hwn ydiw<isp/><apo/>r
+
+<pb n="396v"/>
+<lb/>cyfodiad<hi rend="antiqua">igeth</hi> cyntaf <hi rend="antiqua">o'r meir&vv;</hi>.
+</seg></p>
+<p><seg type="verse" n="6">
+Bendigedic a santeidd ywr vn, ysydd a rran yddo yny cyfodiad<hi rend="antiqua">igeth</hi> cyntaf: <hi rend="antiqua">can ys</hi> nyd oes gan yr eil <term>* myrfolaeth</term>
+<gloss>* marwoleth, angeu</gloss> veddiant ar <term>&Dagger; y <hi rend="antiqua">cyfry&vv;</hi> rei</term>
+<gloss>&Dagger; yr ei hyn</gloss>: ond hwy vy&eth;ant <hi rend="antiqua">yn</hi> offeirieyd Dyw a' Christ, ac y deirnasant gyd ac ef mil o vlynyddey.
+</seg></p>
+<p><seg type="verse" n="7">
+A' gwedy darfod y mil blynyddey, Satan y ellingyr allan oe garchar,
+</seg></p>
+<p><seg type="verse" n="8">
+Ac ef eiff allan y dwyllaw'r bobl, yrrein ydynt ym hedwar<!-- one word? --> ban y ddayar: <hi rend="antiqua">nid amgen</hi> Gog a' Magog, y gascly hwynt ynghyd y rryfel, rrif y rrein <hi rend="antiqua">'sydd</hi> mal <term>* tyuod</term>
+<gloss>* twad, swnd</gloss> y mor,
+</seg></p>
+<p><seg type="verse" n="9">
+Ac hwy <term>&Dagger; ddrychafasant</term>
+<gloss>&Dagger;&nbsp;<corr resp="transcr" sic="escenasont">escenasont,</corr> aethant y vyny</gloss>
+<!-- -t of aethant turned upside down --> y wastad y ddayar, yr rein ymgylchynesont <term>* pebyll</term>
+<gloss>* <hi rend="antiqua">
+<corr resp="transcr" sic="crstra">castra</corr> .i.</hi> cestyll, lluestai</gloss> y Saint, a'r dinas caredic: eithyr tan y ddiscynoedd oddiwrth Ddyw or nef, ac y <term>&Dagger; llyncoedd</term>
+<gloss>&Dagger; ysodd, bwytaodd, divaodd</gloss> hwynt.
+</seg></p>
+<p><seg type="verse" n="10">
+
+<term>* A'r cythrel</term>
+<gloss>* A' diavol</gloss> yr vn y twylloe&eth; hwynt, y vwrwd y bwyll o dan a' brymstan lle poenir <term>&Dagger; yr enifel</term>
+<gloss>&Dagger; y bestfil</gloss>, a'r proffwyd <term>* ffalst</term>
+<gloss>* geuoc</gloss> dydd a' nos yn dragowydd.
+</seg></p>
+<p><seg type="verse" n="11">
+Ac mi weleis eisteddle mawr gwyn, ac vn yn eiste<hi rend="antiqua">dd</hi> arno, oddiwrth <term>&Dagger; olwc</term>
+<gloss>&Dagger;&nbsp;<corr resp="transcr" sic="wynep">wynep,</corr> wydd</gloss> yr hwn y <term>* ffoedd</term>
+<gloss>* ciloedd</gloss> y &eth;ayar a'r nef, ac ny chafad oe lle hwy mwy<hi rend="antiqua">ach</hi>.
+</seg></p>
+<p><seg type="verse" n="12">
+Ac mi weleis y meirw, mawr<hi rend="antiqua">ion</hi> a' bychein yn sefyll gair bron Dyw: a'r llyfre agorwyd, a' llyfr arall agorwyd, yr hwn ydiw <hi rend="antiqua">llyfr</hi> y bowyd, a'r meirw y varnwyd wrth y pethey oeddent yn escrivenedic yny llyfre, yn ol y gweithredoed <hi rend="antiqua">h&vv;ynt</hi>.
+</seg></p>
+<p><seg type="verse" n="13">
+A'r mor y <term>&Dagger; vwroedd</term>
+<gloss>&Dagger; roes</gloss> y vynydd y meirw oeddent <term>* yndi</term>
+<gloss>* yntho</gloss>, <term>&Dagger; a' myrfolaeth</term>
+<gloss>&Dagger; ac angeu</gloss> ac yffern y rroisont y vyny<hi rend="antiqua">dd</hi> y meirw oeddent yndynt hwy: a' barny wneythpwyd ar bawb yn ol y gweithredoedd.
+</seg></p>
+
+<pb n="397r"/>
+<lb/><p><seg type="verse" n="14">
+
+<term>&Dagger; A' myrfolaeth</term>
+<gloss>&Dagger; Ac angeu</gloss> ac yffern y vwriwd y bwll tan: hwn ydiwr eil <term>* myrfolaeth</term>
+<gloss>* angeu</gloss>.
+</seg></p>
+<p><seg type="verse" n="15">
+A' phwy bynac ny chafad yn escryvenedic mewn Llyfr y <corr resp="transcr" sic="bowydy">bowyd y</corr> vwriwd y bwll <hi rend="antiqua">y</hi> tan.
+</seg></p>
+</div>
+<div type="chapter" n="21">
+<head>Pen. xxj.</head>
+<argument>
+<head/>
+<p>3. 24. Gwynvydedic cyflwr yr ei dywiol, 8. 27. A thruan helhynt yr ei andywiol. 11 Agwedd y Gaersalem nefawl, ac am wreic yr Oen.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C mi weleis nef newydd, a' dayar newydd: cans y nef cyntaf, ar ddayar cyntaf eithont heybio, ac ni doedd <hi rend="antiqua">dim</hi>&nbsp;<orig>moor</orig> mwy.
+</seg></p>
+<p><seg type="verse" n="2">
+A' <hi rend="antiqua">myvi</hi> Ioan y weleis y dinas santaidd Caersalem newy&eth; yn di<lb rend="om-shy"/>scin or nef oddiwrth Ddyw, gwedy y thrwsio mal priodasverch ar vedr <term>y &Dagger;&nbsp;</term>
+<gloss>&Dagger; eu, ei, i, hi</gloss> gwr.
+</seg></p>
+<p><seg type="verse" n="3">
+Ac mi glyweis lleis mawr allan or nef, yn dwedyd, <q part="i">Syna, <term>* Tabernacl</term>
+<gloss>* <corr resp="transcr" sic="llueityy">lluestyy</corr>
+</gloss>
+<!-- Th Parry: lluestyy --> Dyw gyda<hi rend="antiqua">'r</hi> dynion, ac ef y dric gydac hwynt, ac hwy y vyddant bobyl yddo ef, a' Dyw y hun, y vydd y Dyw hwy ynghyd ac ynthwy.</q>
+</seg></p>
+<p><seg type="verse" n="4">
+<q part="f">A' Dyw y sych ymaith yr oll &eth;eigre oddiwrth y llygeid: ac ny bydd dim myrfolaeth mwy, na thristwch, na <corr resp="transcr" sic="liefein">llefein</corr>, ac ny vydd dim poen mwy: cans y pethey cyntaf eithont heybiaw.</q>
+</seg></p>
+<p><seg type="verse" n="5">
+Ar vn y eisteddoedd ar yr eisteddle, y ddwad, <q>Syna, yrwyf yn gwneythur pob peth oe newy&eth;</q>: ac ef y ddwad wrthyfi, <q>Escrifena: can ys y maent y geiriey yma <corr resp="transcr" sic="yu">yn</corr> ffyddlawn ac yn gywir</q>.
+</seg></p>
+
+<pb n="397v"/>
+<lb/><p><seg type="verse" n="6">
+Ac ef y ddwad wrthyfi, <q part="i">E &eth;ervy, mi wyf <term>&Dagger; &agr; ac &ohgr;</term>
+<gloss>&Dagger;&nbsp;<hi rend="antiqua">Alpha ac Omega</hi>
+</gloss>, y dechreyad ar diwedd. Mi rrof yr vn y sydd sychedic, o ffynon dwr y bowyd yn <term>* rrydd</term>
+<gloss>* rat</gloss>.</q>
+</seg></p>
+<p><seg type="verse" n="7">
+<q part="m">Yr vn y orchfyga, y geiff etife&eth;y yr holl pethey, ac mi vy&eth;a Ddyw y&eth;o ef, ac ynte vy&eth; mab y miney,</q>
+</seg></p>
+<p><seg type="verse" n="8">
+<q part="f">Ond yr ofnoc, ar <term>* anghredadwy</term>
+<gloss>* digred, yr ei eb gredu</gloss>, ar <term>&Dagger; casddynion</term>
+<gloss>&Dagger; yr ei sceler</gloss>, a'r llyaswyr, ar pyteinwyr, ar <term>&Dagger; cyfareddwyr</term>
+<gloss>&Dagger; swynwyr, sibylde<expan>n</expan>wyr</gloss>, ar delw-addolwyr, a phob celwddoc y rran hwynt y vydd yny pwll, ysydd yn llosgi o dan a' brymstan, yr hwn ydiwr eil myrfolaeth.</q>
+</seg></p>
+<p><seg type="verse" n="9">
+Ac vn or seith Angel, yrrein oeddent ar seith phiol ganthynt yn llawn or seith pla diwethaf y ddoyth attaf, ac ymddiddanoedd a mi, dan ddwedyd, <q><term>* Dabre</term>
+<gloss>* <corr resp="transcr" sic="Dyred">Dyred,</corr> Degle</gloss>: mi ddangosaf ytti y priodasverch, gwreic yr Oen</q>.
+</seg></p>
+<p><seg type="verse" n="10">
+Ac ef ym dugoe&eth; i ymaith ynyr ysbryd y <term>&Dagger; 'lan</term>
+<gloss>&Dagger; vynydd</gloss> ywchel vawr, ac y &eth;angosoe&eth; y mi y dinas vawr, Caersalem santeidd, yn discin <corr resp="transcr" sic="alllan">allan</corr> or nef oddiwrth Ddyw,
+</seg></p>
+<p><seg type="verse" n="11">
+A' gogoniant Dyw genthi, ae discleyrad hi oe&eth; debic y vaen gwerthvawrysaf, megis maen Iaspar <term>* eglaer mal crystal</term>
+<gloss>* <hi rend="antiqua">crystallizanti</hi>
+</gloss>,
+</seg></p>
+<p><seg type="verse" n="12">
+Ac yrydoedd yddi <term>&Dagger; vagwyr</term>
+<gloss>&Dagger; gaer, vur</gloss> vawr ywchel, a' doyddec porth <hi rend="antiqua">iddi</hi> ac wrth y pyrth doyddec Angel, ac enwey yn escrivenedic, yrrein ydynt doyddec llwyth <term>&Dagger; meybion</term>
+<gloss>&Dagger; plant</gloss>&nbsp;
+<hi rend="antiqua">yr</hi> Israel.
+</seg></p>
+<p><seg type="verse" n="13">
+Ar barth y Dwyrein <hi rend="antiqua">yr oedd</hi> tri phorth, <hi rend="antiqua">ac</hi> ar <hi rend="antiqua">du</hi> y Gogledd tri phorth, ac ar <hi rend="antiqua">tu</hi> y Dehey tri phorth, <hi rend="antiqua">ac</hi> ar y <hi rend="antiqua">tu</hi> Gorllewyn tri p<hi rend="antiqua">h</hi>orth.
+</seg></p>
+<p><seg type="verse" n="14">
+A' <term>* magwyr</term>
+<gloss>* Llat. <hi rend="antiqua">murus .i.</hi> mur, gwal</gloss> y dinas oedd a doyddec <term>&Dagger; gryndwal</term>
+<gloss>&Dagger; sail</gloss> yddi, ac yndynt hwy enwey y doyddec <w>ebosto<pb rend="shy" n="398r"/><lb/>lion</w> yr Oen.
+</seg></p>
+<p><seg type="verse" n="15">
+Ac yrydoedd gan yr vn y ymddiddanoe&eth; a mi, corsen aur y vessyr y dinas, ae phyrth hi, ae magwyr <hi rend="antiqua">hi</hi>.
+</seg></p>
+<p><seg type="verse" n="16">
+A'r dinas y osodwyd yn bedwar <term>&Dagger; ochrog</term>
+<gloss>[no gloss]</gloss>, ae <term>* hud</term>
+<gloss>* hyd</gloss> oedd cymeint ae lled, ac ef y vessyroedd y dinas ar corsen, doy&eth;ec mil <term>&Dagger; ystod</term>
+<gloss>[no gloss]</gloss>: ae hud, ae lled, ae hywchter 'sy yn <term>&Dagger; 'ogymeint</term>
+<gloss>&Dagger; gogymetrol</gloss>.
+</seg></p>
+<p><seg type="verse" n="17">
+Ac ef y vesyroedd y magwyr hi, <term>* pedwar cubyt a seith igein</term>
+<gloss>* cant a' .44. cuvydd</gloss>, wrth vessyr dun, <term>* yr hwn yw</term>
+<gloss>* ys ef</gloss>, <hi rend="antiqua">mesur</hi> yr Angel.
+</seg></p>
+<p><seg type="verse" n="18">
+Ac adeil y magwyr hi oedd o vaen Iaspar, a'r dinas oedd aur pur, yn debic y wydyr gloyw.
+</seg></p>
+<p><seg type="verse" n="19">
+A' gryndwal magwyr y dinas oedd gwedy y thrwsio a' phob rryw vaen gwerthfawr: y gryndwal cynta <hi rend="antiqua">oedd maen</hi> Iaspar: yr eil <hi rend="antiqua">o</hi> Saphir, y trydydd oedd o vaen Chalcedon: y pedwerydd Smaragdus,
+</seg></p>
+<p><seg type="verse" n="20">
+Y pymed Sardonix: y chweched Sardius: y seithfet Chrysolithus: yr wythfed Beryl: y nawfed Topazius: y decfed Chrysoprasus: yr vnfed ar ddec Hiacinthus: y doyddecfed, Amethystus.
+</seg></p>
+<p><seg type="verse" n="21">
+Ar doyddec porth doyddec perl <hi rend="antiqua">oeddent</hi>, a' phob porth <hi rend="antiqua">'sydd</hi> o vn perl, a' heol y dinas <hi rend="antiqua">'sy</hi> aur pur, mal gwydyr disgleyr<hi rend="antiqua">edd</hi>.
+</seg></p>
+<p><seg type="verse" n="22">
+Ac ny weleis i vn demel yndi: cans yr <corr resp="transcr" part="a" sic="Argl">Argl</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="">wydd</corr> Ddyw hollallvawc a'r Oen, <term>* yw</term>
+<gloss>* <hi rend="antiqua">est</hi>
+</gloss> y themel hi.
+</seg></p>
+<p><seg type="verse" n="23">
+Ac nyd rreid yr dinas wrth yr hayl, na'r lleyad y <term>&Dagger; 'oleyo</term>
+<gloss>&Dagger; lewychy, dywynu</gloss> yndi: cans gogoniant Dyw y goleyoe&eth; hi, a'r Oen yw y goley<hi rend="antiqua">ni</hi> hi.
+</seg></p>
+<p><seg type="verse" n="24">
+A'r bobyl cadwedic, y rrodiant yny goley<hi rend="antiqua">ni</hi> hi:
+
+<pb n="398v"/>
+<lb/>a' Brenhinoedd y ddayar y ddugant y gogoniant, ae anrrydedd yddi hi,
+</seg></p>
+<p><seg type="verse" n="25">
+Ac ny chayer y phyrth hi can <term>* trwyr</term>
+<gloss>* ar hyd</gloss> dydd: ny vydd <hi rend="antiqua">ddim</hi> nos yno.
+</seg></p>
+<p><seg type="verse" n="26">
+A' gogoniant, ac anrrydedd, y Cenedloedd a dducir yddi.
+</seg></p>
+<p><seg type="verse" n="27">
+Ac nyd a y mewn yddi dim aflan, neu beth bynac y weythio <term>* casineb</term>
+<gloss>* ffieiddbeth</gloss>, ney gelwddey, ond y rei y escrifenwyt <term>&Dagger; mewn</term>
+<gloss>&Dagger; yn</gloss> Llyfr bowyd yr Oen.
+</seg></p>
+</div>
+<div type="chapter" n="22">
+<head>Pen. xxij.</head>
+<argument>
+<head/>
+<p>1 Auon dwfr y bywyt. 2 Frwythlawndep a goleuni dinas Dew. 6 Yr Arglwydd byth yn rhybyddio ei weision am betheu y ddyvot. 9 Yr Angel eb vynu ei addoli. 18 Gair Dew nyd iawn angwanegu dim arno na lleihau dim o hanaw.</p>
+</argument>
+<p><seg type="verse" n="1">
+<hi rend="rubric">A</hi>C ef y ddangosoedd y mi afon pur o dwr y bowyd <hi rend="antiqua">yn</hi> dysclaer<hi rend="antiqua">o</hi> mal y crystal, yn dyfod allan o eisteddle Dyw, a'r Oen.
+</seg></p>
+<p><seg type="verse" n="2">
+Ynghanol y heol hi ac o <term>&Dagger; ddwy och<hi rend="antiqua">o</hi>r</term>
+<gloss>&Dagger; bop-parth</gloss> yr afon, yrydoedd pren y bowyd, yr hwn oedd yn dwyn doyddec rriw ffrwythey, ac y rroe&eth; ffrwyth pob mis, a' deil y pren <hi rend="antiqua">a &vv;asanethei</hi> y iachay y nasioney.
+</seg></p>
+<p><seg type="verse" n="3">
+Ac ny vydd dim <term>* rrec</term>
+<gloss>* melltith</gloss> mwy, ond eisteddle Dyw a'r Oen y vydd yndi, ae wasnaethdynion y wasnaethant arno <hi rend="antiqua">ef</hi>.
+</seg></p>
+
+<pb n="399r"/>
+<lb/><p><seg type="verse" n="4">
+Ac hwy y welant y weyneb ef, ae Enw ef y vy&eth; yny talceni hwynt.
+</seg></p>
+<p><seg type="verse" n="5">
+Ac ny vydd yno <hi rend="antiqua">dim</hi> nos <hi rend="antiqua">m&vv;y</hi>, ac nyd rreid y&eth;ynt <hi rend="antiqua">dim</hi> canwyll, na goleyad yr haul: can ys yr Arglwydd Ddyw ysydd yn rroi yddynt <hi rend="antiqua">g</hi>oleyni, ac hwy y deirnasant yn dragywydd.
+</seg></p>
+<p><seg type="verse" n="6">
+Ac ef y ddwad wrthyfi, <q part="i">Y geiriey hyn ydynt ffyddlawn a' chywir, <term>&Dagger; ar</term>
+<gloss>* a'r</gloss> Arglwydd Ddyw y proffwydi sanctaidd y ddanfonoedd y Angel y ddangos yddy wasnaethwyr y pethey ysydd reid y gyflewni <term>ar * vrys</term>
+<gloss>&Dagger; vyr, yn vyan</gloss>.</q>
+</seg></p>
+<p><seg type="verse" n="7">
+<q part="f">Syna, yr wyf yn dyfod ar vrys</q>, <term>* Bendigedic</term>
+<gloss>* Gwynvy<lb rend="om-shy"/>dedic, dedwydd</gloss> yw'r vn y gatwo geiriey proffedolaeth y Llyfr <term>&Dagger; yma</term>
+<gloss>&Dagger; hwn</gloss>.
+</seg></p>
+<p><seg type="verse" n="8">
+Ac mi wyf Ioan, yr hwn y weleis, ac y glyweis y pethey hyn: a' phan ddar<hi rend="antiqua">f</hi>oedd ymi y clywed ae gweled, mi syrthies y lawr y addoli gair bron traed yr Angel, yr hwn y ddangosoedd ymi y pethey hyn.
+</seg></p>
+<p><seg type="verse" n="9">
+Ac ef y ddwad wrthyfi, <q>Gwyl na <hi rend="antiqua">&vv;nelych</hi>: cans cydwasnaethwr <hi rend="antiqua">yr</hi>wyfi a thi, ath vrodyr y Proffwydi, ar rrei ydynt yn cadw geiriey y Llyfr hwn: addola Ddyw</q>.</seg></p>
+<p><seg type="verse" n="10">
+Ac ef y ddwad wrthyfi, <q part="i">Na sela <hi rend="antiqua">g</hi>eiriey pryffodolaeth y Llyfr hwn: can ys y mae'r amser yn agos.</q>
+</seg></p>
+<p><seg type="verse" n="11">
+<q part="f">Yr vn ysydd anghyfiawn, bid anghyfiawn <term>&Dagger; eto</term>
+<gloss>* yn oystat</gloss>: ar vn y sydd <term>* vudr</term>
+<gloss>[no gloss]</gloss>, bid <term>&Dagger; vudr</term>
+<gloss>[no gloss]</gloss> etto: ar vn ysydd cyfiawn, bid cyfiawn etto: ar vn ysydd santeidd, bid saintei&eth; etto.</q>
+</seg></p>
+<p><seg type="verse" n="12">
+<q part="i">A' syna, yrwyf yn dyfod ar vrys, am gobrwy y
+
+<pb n="399v"/>
+<lb/><corr resp="transcr" sic="ysydd">sydd</corr>
+<note resp="transcr">The catchword on 399r has <mentioned>sydd</mentioned>.</note> gyd a mi, y rroddi y bob <term>* duyn</term>
+<gloss>* vn</gloss> yn ol y <term>&Dagger; vutho</term>
+<gloss>&Dagger; bo</gloss> y weithredoedd.</q>
+</seg></p>
+<p><seg type="verse" n="13">
+<q part="f">Mi wyf &agr; ac &ohgr;, y dechreyad ar diwedd, y cyntaf ac dywethaf.</q>
+</seg></p>
+<p><seg type="verse" n="14">
+Bendigedic <hi rend="antiqua">y&vv;</hi> y rrei, y wnelo y 'orchmyney ef, mal y gallo y cyfiawnder hwy vod ymhren y bowyd, ac y gallont &eth;yfod y mewn trwyr pyrth <term>* yr</term>
+<gloss>* ir</gloss> dinas.
+</seg></p>
+<p><seg type="verse" n="15">
+Can ys or ty allan <hi rend="antiqua">y bydd</hi> cwn, ar <term>&Dagger; cyfareddwyr</term>
+<gloss>&Dagger; swynwyr, swynogiwyr, rhinwyr</gloss> a' phytteinwyr, a llyaswyr, a' delw-addolwyr, a phob vn y garo ney y wnelo celwydd.
+</seg></p>
+<p><seg type="verse" n="16">
+<q>Myvi Iesu y ddanvones vu Angel, y dystolaethu y chwi y pethey hyn yn yr eglwysi: mi wyf <hi rend="antiqua">g</hi>wreidd<hi rend="antiqua">yn</hi> a' chenedlaeth Ddavydd, ar seren vore eglur.</q>
+</seg></p>
+<p><seg type="verse" n="17">
+Ar ysbrud ar priodasverch ydynt yn dwedyd, <q>Dabre</q>, A'r vn y wrandawo, dweded, <q>Dabre</q>: A'r vn ysy&eth; sychedic, doed: a'r vn y vyno, cymered dwr y bowyd, yn <term>* rrydd</term>
+<gloss>* rrat</gloss>.
+</seg></p>
+<p><seg type="verse" n="18">
+Can ys yrwyf yn <term>&Dagger; dangos</term>
+<gloss>&Dagger; cytystio</gloss> y bob vn y wrandawo <hi rend="antiqua">g</hi>eiriey pryffodolaeth y Llyfr hwn, o <term>* dyd</term>
+<gloss>* angwanega</gloss>&nbsp;
+<term>* vn <hi rend="antiqua">duyn</hi>
+</term>
+<gloss>&Dagger; neb</gloss> ddim at y pethey hyn, Dyw y ddyd atto ef y plae, escrifenedic yny Llyfr hwn.
+</seg></p>
+<p><seg type="verse" n="19">
+Ac o thyn vn <hi rend="antiqua">duyn</hi> ymaith ddim o 'eiriey'r Llyfr y proffedolaeth hon, Dyw y gymer ymaith y rran allan o lyfr y bowyd, ac allan or dinas santeidd, ac oddiwrth y pethey y escrifenir yn y Llyfr hwn,
+</seg></p>
+<p><seg type="verse" n="20">
+Yr vn y sydd yn tystolaethu y pethey hyn, ysy&eth; yn dwedyd, <q>Yn siccir, yrwyf yn dyfod ar vrys</q>. Amen. Velly dabre, Arglwydd Iesu.
+</seg></p>
+<p><seg type="verse" n="21">
+Rrad eyn <hi rend="antiqua">h</hi>Arglwy&eth; Iesu Grist <hi rend="antiqua">y vo</hi> gyd a chwi oll, Amen.
+</seg></p>
+</div>
+</body>
+</text>
+</TEI.2>
