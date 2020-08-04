@@ -1,0 +1,2144 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../prose_dipl.xsl"?>
+<!-- normal stylesheet: prose_dipl.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY lhook "l'">
+<!ENTITY dhook "d'">
+<!ENTITY Dhook "D'">
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+    
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Perl mewn adfyd (1595)</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by </resp><name id="transcr">Ingo Mittendorf and Matthew Reeve</name>
+<resp>Notes by <name>Ingo Mittendorf</name></resp></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, November 2004</edition></editionStmt>
+
+<publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+</publicationStmt> 
+
+<notesStmt>
+<note type="bibl">The text has previously been edited as <title>Perl mewn adfyd gan Huw Lewys yn &ocirc;l argraffiad 1595 gyda rhagymadrodd gan W. J. Gruffydd</title> (Caerdydd: Gwasg Prifysgol Cymru, 1929). This edition is based on the copy preserved in the National Library of Wales. The current transcription is based on the copy in the British Library.</note>
+<note type="text">The text is a translation of the third (1561) edition of Miles Coverdale's English translation of a treatise in German by the Swiss cleric Otto Werdm&uuml;ller von Elg <title>Ein Kleinot von Trost vnd Hilff in allerley Trübsalen</title> (Z&uuml;rich, 1548). Coverdale's English translation was published as <title>A spyrytuall and moost precyouse pearle Teachyng all men to loue and imbrace the crosse</title> (London, 1550).</note>
+</notesStmt>
+
+<sourceDesc>
+<bibl>
+<title>Perl mewn adfyd neu, Perl ysprydawl, gwyrthfawrocaf, yn dyscu i b&ocirc;b dyn garu, a chofleidior groes...</title>
+<author><name>Huw Lewys</name></author>
+<imprint>
+<pubPlace>Rhydychen</pubPlace>
+<publisher>Joseph Barnes ai Printiodd</publisher>
+<date value="1595">1595</date>
+</imprint>
+<biblScope>1-101</biblScope>
+</bibl>
+
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<p>Catchwords and marginal references have been omitted in the transcription. The text contains a number of hooked characters. &lt;L&gt; with a hook is represented as &amp;lhook; and &amp;Lhook; in the TEI-XML file, and as &lt;l'&gt; and &lt;L'&gt; in the display files. Hooked &lt;d&gt; is dealt with in similar fashion.</p>
+</editorialDecl>
+</encodingDesc>
+
+<revisionDesc>
+<change>
+    <date>14 September 2004</date>
+    <respStmt><resp>David Willis</resp></respStmt>
+    <item>Revisions to TEI-header</item>
+</change>
+
+<change>
+<date>4 Sept 2003</date>
+<respStmt>
+<resp>Matthew Reeve</resp>
+</respStmt>
+<item>Proofreading corrections</item>
+</change>
+
+<change>
+<date>17 July 2003</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>Finished input and basic XML-conversion. Catch-words omitted; all marginal references omitted. Puncuation joined to preceding word; nasal abbr expanded to n/m (check!); replaced l' with entity lhook, d'/D' with entity dhook/Dhook; proofread; inserted W; APO inserted before n, r; ISP inserted before apostrophe where necessary.</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text id="PMA">
+<body>
+
+<!--
+ -mistake?- = suspected mistake
+ -orig *- = corrected mistake; * is the original
+ -?- = uncertain reading
+ -*- = other comment
+-->
+
+<pb n="1"/>
+<div>
+<head><lb/>Pennod cyntaf.</head>
+<p>
+<lb/><hi rend="italic">Pob trwbleth ag adfyd sydd yn
+<lb/>dyfod oddiwrth dduw</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">H</hi>Ynny oll a gyfriaf
+<lb/>yn adfyd, nev <w>flin<lb rend="shy"/>der,</w> a<isp/>'r<!--a'r--> y sy&dhook;&nbsp;<w>yng<lb rend="shy"/>wrthwyneb</w>&nbsp;<w>ewyll<lb rend="shy"/>ys,</w> ne ddysyfiad
+<lb/>dyn, megys, <w>aflo<lb rend="shy"/>ny&dhook;</w> ruthrae y cnawd, profedigaeth
+<lb/>y cythraul, clefyd corfforawl, <w>cym<lb rend="shy"/>ar</w> cildynnus, anuwiol, mewn <w>prio<lb rend="shy"/>das,</w> plant anufuddgar, <w>cymdeith<lb rend="shy"/>ion</w> annaturiol, neu anniolchgar,
+<lb/>colled o dda, caethiwed o ryw hen
+<lb/>fraint, ne rydid, colliant o enw da,
+<lb/>malais neu anfo&dhook; dynion, newyn,
+<lb/>drudaniaeth, nodeu, rhyfel, carchar,
+<lb/>ag angeu: ag yn y rhol honn i <w>hen<lb rend="shy"/>wir</w> hefyd, bob bath ar adfyd a <w>chle<lb rend="shy"/>di,</w> pwy vn bynnag fy&dhook;o, ai perthyn
+<lb/>attom ni ein hunain, ai att ein <w>cy<lb rend="shy"/>feillion</w> a<isp/>'n cyfnesafieit, ai cyffredin,
+<lb/>ai anghyffredin, ai dirgel a <w>chuddi<pb rend="shy" n="2"/><lb/>edig,</w> ai goleu ag eglur, ai <w>rhygly<lb rend="shy"/>ddus,</w> ai anrhyglyddus: yn 'r ho&lhook;&nbsp;<w>be<lb rend="shy"/>thau</w> hynn (meddaf) fe ddyle bob
+<lb/>dyn Christnogai&dhook; ystyried yn <w>gyn<lb rend="om-shy"/>taf</w> y gwreiddin, <apo/>r achos, a<isp/><apo/>r <w>dechreu<lb rend="om-shy"/>ad,</w> fal hynn: sef, y dylem ni <w>gym<lb rend="shy"/>ryd</w> a derbyn yn ddioddefgar pa
+<lb/>beth bynac, y mae duw yn i anfon:
+<lb/>erwy&dhook; hynn sy wir, mae d&uuml;w yw
+<lb/>ein creawdr, a<isp/><apo/>n gwneuthurwr, a
+<lb/>ninnau, ym waith i ddwylaw ef; ef
+<lb/>yw ein brenin, ein arglwy&dhook;, a<isp/><apo/>n tad
+<lb/>ag fal nad yw weddus i<isp/><apo/>r crocha<expan>n</expan>, <w>fa<expan>n</expan><lb rend="shy"/>son</w> yn erbyn y <sic>chrochenu&dhook;</sic>, felly
+<lb/>mae 'n anweddeiddiach o lawer i
+<lb/>ni, furmur, ne rwgnach yn erbyn <w>e<lb rend="shy"/>wyllys,</w> a barnedigaeth ein duw.
+</p>
+<p>
+<lb/>Ag er bod gorthrymder ag ing yn
+<lb/>codi, ag yn dyfod yn fynych, drwy
+<lb/>ddrygioni ein gelynion, annogiad y
+<lb/>cythraul, ne drwy ryw fo&dhook; ara&lhook;, <w>et<lb rend="shy"/>to</w> ni ddyle<expan>m</expan> ni feddwl i bod yn <w>dy<lb rend="shy"/>fod</w> o ddamwain, heb oddefiad, <w>or<lb rend="shy"/>deiniad</w> ag ewy&lhook;ys duw, onid trwy
+<pb n="3"/>
+<lb/>i ragwybodaeth, i ragordeiniad, a<isp/><apo/>i
+<lb/>bwyntma<expan>n</expan>t ef: ag i ddoedyd <apo/>n <w>gym<lb rend="shy"/>wys,</w> yr vn mo&dhook; yw, tu ac att am
+<lb/>ein diogelwch pwy vn bynac fyddo<expan>m</expan>
+<lb/>yn byw, ai mewn tlodi, ai mewn <w>cy<lb rend="shy"/>foeth,</w> yn y tan, ai yn y dwfr, ymysc
+<lb/>yn gelynion, ai ymysc yn <w>cyfnesafi<lb rend="shy"/>eit,</w> canys mae duw 'n gweled, yn
+<lb/>gwybod, yn dosparthu, ag yn <w>llywo<lb rend="om-shy"/>draethu</w> pob peth, mal i tystia llyfr
+<lb/>I. o Samuel: yr Arglwy&dhook; sy&dhook; yn
+<lb/>marwhau, ac yn bywhau, ef sy&dhook; yn
+<lb/>dwyn i wared i<isp/><apo/>r be&dhook;, ac ef a ddwg
+<lb/>i fynu, &amp;c.
+</p>
+<p>
+<lb/>A Iob hefyd a destiolaetha yn i
+<lb/>drueni, yr arglwy&dhook; a<isp/><apo/>i rhoes, yr <w>ar<lb rend="shy"/>glwy&dhook;</w> a<isp/><apo/>i dyg: a Christ i hun a <w>ddy<lb rend="om-shy"/>weid,</w> na ddescyn vn o adar y to, ar
+<lb/>y ddayar, heb ewyllys ych tad, ie,
+<lb/>mae gwallt ych penn y<!--corr to yn?-->&nbsp;<w>gyfrife<lb rend="shy"/>dig.</w>
+</p>
+<p>
+<lb/>Ga<expan>n</expan>' fod wrth hynny pob trwbleth
+<lb/>a blinfyd yn dyfod oddiwrth dduw
+<lb/>ni a ddyle<expan>m</expan> ddarostwng ac vfu&dhook;hau
+<pb n="4"/>
+<lb/>ein calonneu a<isp/>'n meddylieu, iddaw
+<lb/>ef, gann oddef iddaw ef wneuthyr a
+<lb/>ni, fal i gwelo i sanctawl ewyllys ef
+<lb/>fod yn iawn: pa bryd bynac gann
+<lb/>hynny, y by&dhook; i dowy&dhook; stormus, <w>ni<lb rend="shy"/>weidio</w> ne la&dhook; yd, a ffrwyth y <w>ddae<lb rend="shy"/>ar,</w> ne pa<expan>n</expan>n i<isp/><apo/>n difenwir ga<expan>n</expan>n <w>ddrwg<lb rend="shy"/>ddynion,</w> gann godi gwradwy&dhook;, ne
+<lb/>gabl i<isp/><apo/>n erbyn, pam y dylem <corr resp="transcr" sic="in">ni</corr>&nbsp;<w>rwg<lb rend="shy"/>nach,</w> ne furmur yn erbyn yr <orig reg="elfennau">elfynae</orig>
+<lb/>ne geisio ein dial ar ein gelynnion?
+<lb/>erwy&dhook;, oni dderchafwn ein <w>meddy<lb rend="shy"/>lie,</w> ag ystyriaw mae duw sy&dhook; yn <w>go<lb rend="om-shy"/>sod</w> i law arnom, ag mae efe sy&dhook; i<isp/><apo/>n
+<lb/>ceryddu, cyffelib ydym i gwn (eb
+<lb/>ddim gwell) rhain pann i tafler a
+<lb/>cherig, a gnoant y garreg, heb ystyr
+<lb/>pwy sy yn taflu attynt. Ac hefyd ni
+<lb/>ddyle neb fod yn anfoddgar, neu 'n
+<lb/>anwllyscar i aildalu y dalent ne 'r
+<lb/>gwystl, 'rhwn a roddwyd iddaw 'n
+<lb/>vnic er i gadw. Duw sy yn rhoddi
+<lb/>bowyd, iechyd corfforawl, nerth,
+<lb/>gwraig, plant, cymdeithion, cyfoeth
+<pb n="5"/>
+<lb/>anrhyde&dhook;, gallu, awdurdod, <w>hedd<lb rend="shy"/>wch,</w> esmwythdra, a diogelwch
+<lb/>dros amser, tra ryngo bodd iddo ef:
+<lb/>yr awrhon, os yr vnrhyw dd&uuml;w <w>y<lb rend="shy"/>ma,</w> a ddwg drachefn rai o<isp/><apo/>r pethau
+<lb/>hynn, neu <apo/>r cwbl, nid yw ef yn dwyn
+<lb/>dim onid yr eiddaw i hun, a<isp/><apo/>r peth
+<lb/>yr ym yn &dhook;ledus iddaw o honaw.
+<lb/>Erwy&dhook; paha<expan>m</expan>, y mae yn bechod <w>an<lb rend="shy"/>feidrawl,</w> dialeddus, furmur yn
+<lb/>erbyn ewyllys duw, neu <w>wrthryfe<lb rend="shy"/>la</w> yn erbyn i farnedigaethau ef.
+</p>
+</div>
+<div>
+<head><lb/>Pen. 2.</head>
+<p>
+<lb/><hi rend="italic">Pob trwbleth, gorthrymder, ag <w>ad<lb rend="shy"/>fyd,</w> a ddanfonir arnom ni gann
+<lb/>dd&uuml;w, er cospedigaeth am
+<lb/>ein pechodae.</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">Y</hi>R awrhon beth yw<isp/>'r achos sy
+<lb/>yn peri i dd&uuml;w anfon adref hyd
+<lb/>attom, ac ymweled a ni drwy <w>orth<lb rend="shy"/>rymder,</w> ing, a gofyd? am y pwnc <w>y<lb rend="shy"/>ma,</w> ystyr hynn yn dda: pa beth <w>by<pb rend="shy" n="6"/><lb/>nac</w> a hauddo&dhook;, neu a ryglyddaw&dhook;
+<lb/>dyn, hynny oll a ddyle ef i &dhook;erbyn,
+<lb/>a<isp/><apo/>i ddioddef yn llawen, ac yn <w>ewyl<lb rend="shy"/>lyscar:</w> Holed, ag ecsamnied, pob
+<lb/>dyn i hunan, oni ryglyddaw&dhook; ef i
+<lb/>gospi, a<isp/><apo/>i geryddu gan dduw, naill
+<lb/>ai am ryw bechod yspysol, yr hwn
+<lb/>a wnaeth ef yn bresennol, ne am <w>be<lb rend="shy"/>chodau</w> a wnaeth ef ar amseroe&dhook;&nbsp;<w>e<lb rend="shy"/>raill:</w> yr awrhon, yr arglwy&dhook; ein
+<lb/>duw ni, ymhob bath ar <w>gosbedig<lb rend="shy"/>aeth,</w> ac ymweliad, a ddengys ac a
+<lb/>fanega, drefn, ne ordr i gyfiawnder
+<lb/>a<isp/><apo/>i anfeidrawl ddicllone&dhook;, a <w>digo<lb rend="shy"/>faint,</w> yn erbyn pechod ag anwire&dhook;:
+<lb/>can's ef a ddyweid yn yr ail <w>gorchy<lb rend="om-shy"/>myn,</w> myfi 'r arglwy&dhook; dy dduw di,
+<lb/>wyf &dhook;uw ei&dhook;igus, yr hwn a ymwel
+<lb/>a phechodae y tadau ar y plant hyd
+<lb/>y dryde&dhook; a<isp/><apo/>r bedware&dhook; genedlaeth
+<lb/>os hwy a<isp/><apo/>m casant, &amp;c. Ac yn y <w>pu<lb rend="shy"/>med</w> llyfr o Foeses: i rhifir yr oll
+<lb/>ddialeddau ar ol i gily&dhook;, rhain a
+<lb/>dywelltir ar yr anwir, a<isp/><apo/>r anuwiol:
+<pb n="7"/>
+<lb/>ac yn y trydydd-ar-ddeg o Luc, i
+<lb/>doedir fal hynn, oni wellewch ych
+<lb/>buche&dhook; fe a<isp/><apo/>ch cyfergollir chwi oll.
+</p>
+<p>
+<lb/>Ag fal i galloch weled yn <w>eglur<lb rend="shy"/>ach,</w> ac megys o flaen ych llygaid,
+<lb/>pa fo&dhook; y mae cospedigaeth, a phla,
+<lb/>yn ddyledus am bechodau, mae
+<lb/>duw yn gosod, ac yn rhoddi y <w>cospe<lb rend="om-shy"/>digaeth,</w> yn gyffelyb i<isp/><apo/>r pechod, fal i
+<lb/>gallo 'r ddau gydgordio, yn gystal
+<lb/>mewn ffurf a chyfflybrwy&dhook;, ac
+<lb/>mewn llun a chyneddf: er ecsampl:
+<lb/>mal ir halogo&dhook; Dafy&dhook; wraig <w>Uri<lb rend="shy"/>as</w> felly ir halogwyd i wrage&dhook;&nbsp;<w>yn<lb rend="shy"/>teu</w> drachefn: ef a baro&dhook; la&dhook;, Urias,
+<lb/>ac am hynny y lladdo&dhook; i fab ynteu
+<lb/>ei frawd ei hun, ag a godo&dhook;&nbsp;<w>gyndd<lb rend="om-shy"/>ryge&dhook;,</w> a digase&dhook; yn erbyn ei dad,
+<lb/>gann i hel a<isp/><apo/>i ymlid alla<expan>n</expan> o<isp/><apo/>i deyrnas,
+<lb/>fal na ddichon neb ddatgan yn <w>ddi<lb rend="om-shy"/>gonol,</w> y diale&dhook;, a<isp/><apo/>r trueni, 'rhain, a
+<lb/>fu ar ddafy&dhook;, a<isp/><apo/>i bobl, am y <w>cwyly<lb rend="shy"/>ddgar</w> anwire&dhook;, a<isp/><apo/>r ffieidd-dra,
+<lb/>rhain a wnathe ef.
+</p>
+<pb n="8"/>
+<p>
+<lb/>Yr awron ystyria, a ffwysa, <w>me<lb rend="shy"/>gys</w> mewn cowir glorian, yr <w>vnion<lb rend="shy"/>der</w> yr hwn y mae duw o<isp/><apo/>r naill du
+<lb/>yn i erfyn arnom, a ho&lhook; gwrs ein <w>bu<lb rend="om-shy"/>che&dhook;</w> nineu, o<isp/><apo/>r tu ara&lhook;: pe i buase <w>hi<lb rend="shy"/>liogaeth</w> dyn, yn <corr resp="transcr" sic="vfu'dol">vfu&dhook;ol</corr> i gyfreithie
+<lb/>duw, ac heb yscogi oddiarnynt, e <w>fu<lb rend="shy"/>asse</w> yn ollawl yn gwbl ddedwy&dhook;,
+<lb/>fendigedig, yn dragowy&dhook;: ag ni <w>ly<lb rend="shy"/>grase,</w> ag ni <orig reg="wywasai">wyfase</orig> ymaith, fal
+<lb/>ffrwyth, ne lyssieu y meusy&dhook;: euthr
+<lb/>ef a yscogo&dhook;, ag a gwympo&dhook; y tro
+<lb/>cyntaf o<isp/><apo/>r dechrevad: yn rhieni, <corr resp="transcr" sic="'an">a<isp/>'n</corr>
+<lb/>henafieid cyntaf, a ddifrawasont, ag
+<lb/>a wnaethont yn ddiystyr, o <w>orch<lb rend="shy"/>mynnion</w> duw, ac felly nineu trwy
+<lb/>i cwymp hwy, ydym lygredic, a
+<lb/>chlwyfedig, a<isp/><apo/>n holl reswm, <w>synn<lb rend="shy"/>wyr,</w> a<isp/><apo/>n deuall a ddallwyd, a<isp/><apo/>n <w>ewy&lhook;<lb rend="om-shy"/>ys</w> a wenwynwyd: i ddym yn <w>cly<lb rend="shy"/>wed,</w> ag yn cael ynom ein hun, <w>an<lb rend="shy"/>wireddus</w> wnniae, a thrachwantae,
+<lb/>gan geisio ein chwant, a<isp/><apo/>n pleser yn
+<lb/>y byd hwnn, yn erbyn sancteiddiol
+<pb n="9"/>
+<lb/>air duw: ac fal pe i bae i assyn <w>ym<lb rend="shy"/>wisco</w> a<isp/><apo/>i a&dhook;urnio i hun mewn croen
+<lb/>llew, a mynnu bod yn llew, etto i
+<lb/>hir glustieu sythion yn bryssur
+<lb/>a<isp/><apo/>i datguddie, ag a<isp/><apo/>i gwnae ef yn <w>hy<lb rend="shy"/>nod:</w> yn yr vn mo&dhook;, er i nineu yn
+<lb/>trwsiadu, a<isp/><apo/>n gosod ein hunain allan,
+<lb/>ag ychydig brydferth, a <w>gogonedd<lb rend="shy"/>us</w> weithredoe&dhook;, fal na ddichon neb
+<lb/>&dhook;oedyd na bom ni yn gwbl wirion,
+<lb/>ag yn ddifeius mewn llawer o <w>byn<lb rend="shy"/>ciau,</w> er hynn i gyd, mae <corr resp="transcr" sic="y nom">ynom</corr><!--ed ynom-->&nbsp;<w>ga<lb rend="shy"/>loneu</w> budron, aflan, anwireddus, yn
+<lb/>llawn diofalwch, a dirmig o dduw,
+<lb/>gwedi ein rhoddi yn ollawl, i<isp/><apo/>n caru
+<lb/>ein hunain a phob difrawch. <corr resp="transcr" sic="yr">Yr</corr>&nbsp;<w>awr<lb rend="om-shy"/>hon</w>, os ni a ymgylchir, ne os <w>ym<lb rend="shy"/>welir</w> a ni, a chlefyd, tlodi, rhyfel, ne
+<lb/>gyfrysedd, ni ddylem ni roddi y bai
+<lb/>o hynn, vn, ar swy&dhook;og, arall ar <w>bre<lb rend="shy"/>gethwr</w> ne wenidog gair duw, ne ar
+<lb/>y ffy&dhook; a<isp/><apo/>r crefy&dhook;, ne ar yr <orig reg="elfennau">elfynav</orig> a<isp/><apo/>r
+<lb/>ser, ne ar dduw i hun, fal pe i bae vn
+<lb/>o rhain yn achos o<isp/><apo/>r cyfryw <w>ddia<pb rend="shy" n="10"/><lb/>leddau:</w> megys ag na ddyle neb <w>fei<lb rend="om-shy"/>aw</w> ar y Physygwr, (fal pe i bae ef
+<lb/>yr vnic achos, o ddwfrhaintieu <w>lly<lb rend="shy"/>gredig</w> o fewn y corff,) er i fod ef yn
+<lb/>i dwyn ac yn i gyrru alla<expan>n</expan> o<isp/><apo/>r cnawd
+<lb/>fal i galler yn eglur i gweled, euthr
+<lb/>drwg ymwreddiad, ac <w>anghyme<lb rend="shy"/>drawl</w> ddeiad y gwr i hun, yw<isp/><apo/>r
+<lb/>iawn achos, a<isp/><apo/>r gwreiddyn o hynn,
+<lb/>felly ni ddylem ninneu roddi bai
+<lb/>ar dduw, o de<expan>n</expan>fyn ef arnom ni, <w>drist<lb rend="shy"/>wch,</w> penyd, a thrwbleth, eythr <w>me&dhook;<lb rend="om-shy"/>wl</w> fod hynn, yn feddeginiaeth, ac
+<lb/>yn help addas, i<isp/><apo/>n pechodae ni: a
+<lb/>ffob dyn a ddyle roddi 'r achos o
+<lb/>hynn, arno i hun, a<isp/><apo/>i bechodau i hun,
+<lb/>ac nid ar ddim arall. A<isp/><apo/>r ecsampl
+<lb/>hwnn a ddarfu i<isp/><apo/>r gwyr sanctai&dhook;, a<isp/><apo/>r
+<lb/>duwiol henafieit yn y cynfyd, i <w>dda<expan>n</expan><lb rend="shy"/>gos,</w> i ddatclario, a<isp/><apo/>i adel i ninneu,
+<lb/>ga<expan>n</expan>n roddi 'r achos bob amser, o <w>or<lb rend="shy"/>thrwmderae,</w> ac o<isp/><apo/>r cyfryw orthrwm
+<lb/>ofydiae, 'rhain a ddigwyddent yn
+<lb/>i ha<expan>m</expan>ser hwy, ar i pechodae i hunain:
+<pb n="11"/>
+<lb/>mal i llefaro&dhook; Daniel y proffwyd:
+<lb/>o herwy&dhook; ein pechodae ni, ag <w>anwi<lb rend="om-shy"/>reddau</w> ein tadau ni, i dinistriwyd
+<lb/>Caersale<expan>m</expan> a<isp/><apo/>i phobl ga<expan>n</expan>n y sawl sy&dhook;
+<lb/>amgylch ogylch iddi: erwy&dhook; paha<expan>m</expan>
+<lb/>ny ni a ddyle<expan>m</expan> wylo, ag alaru, a chrio
+<lb/>alla<expan>n</expan>, och och, 'n hytrach 'n erbyn ein
+<lb/>pechodau, a<isp/>'n anwireddau ein <w>hu<lb rend="shy"/>nain,</w> nag yn erbyn y gwendid, y <w>cle<lb rend="om-shy"/>fyd,</w> ne 'r adfyd arall a<isp/><apo/>r trwbleth,
+<lb/>'rhain i ddym ni yn i dioddef, o <w>her<lb rend="om-shy"/>wy&dhook;</w> ein pechodae. Cans os wyle<expan>m</expan>
+<lb/>ne os tristae<expan>m</expan> eb fesur, a rheswm, pan
+<lb/>fo duw ddim ond gwneuthur <w><corr resp="transcr" part="a" sic="cysi">cyfi</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="awnder">awnder</corr>,</w><!--ed cyfi/awnder--> ag <corr resp="transcr" sic="vnionded">vniondeb</corr> ar i elynio<expan>n</expan>, pa
+<lb/>beth fydde hyn ond bod yn <w>anfod<lb rend="om-shy"/>lo<expan>n</expan></w> i gyfiawnder duw a charu y peth
+<lb/>'rhwn y mae ef 'n i gasau? a beth yw
+<lb/>hyn, eythr gwir gyfiaw<expan>n</expan>der,<note resp="transcr">Nasal abbreviation is above the <hi rend="italic">a</hi> = <hi rend="italic">gyfia<expan>n</expan>wder</hi>.</note> a <orig reg="daioni">daoni</orig>
+<lb/>duw, pann fo ef yn ceryddu, yn <w>mar<lb rend="om-shy"/>thyru,</w> yn darostwng, ac yn <w>gores<lb rend="shy"/>cyn</w> 'n ollawl yno<expan>m</expan>, y gelynio<expan>n</expan> pennaf
+<lb/>iddaw ef, a ninneu, hynny yw, ein
+<lb/>pechodeu ni? Gann hynny tristhau,
+<pb n="12"/>
+<lb/>ag alaru heb fesur ynghanol ein ing
+<lb/>a<isp/><apo/>n trwbleth, yw, yn dangos ein <w>hu<lb rend="shy"/>nain</w> yn gymdeithion i bechod, yr
+<lb/>hwnn yw y gelyn mwyaf i dduw, a
+<lb/>ninnev: erwy&dhook; paham, ni a ddylem
+<lb/>yn hytrach foliannu duw, ac <w>ym<lb rend="shy"/>lawenychu</w> yn ddirfawr, nid yn <w>v<lb rend="shy"/>nic</w> 'n ein adfyd a<isp/><apo/>n blinder, ond <w>yng<lb rend="om-shy"/>hyfiawn,</w> a graslawn ewyllys duw,
+<lb/>cyfion (meddaf) am iddaw gospi <w>pe<lb rend="shy"/>chod,</w> graslawn, a thrigarog, am <w>id<lb rend="shy"/>daw</w> i gospi yn esmwythach o <w>law<lb rend="shy"/>er,</w> nac o gyfiawnder yr heuddasom.
+</p>
+</div>
+<div>
+<head><lb/>Pen. 3.</head>
+<p>
+<lb/><hi rend="italic">Mae ein oll orthrymderae a<isp/><apo/>n <w>blin<lb rend="shy"/>fyd,</w> yn llai, ac yn esmwythach
+<lb/>o lawer, nag i mae ein <w>pecho<lb rend="shy"/>dae</w> ni yn heuddu.</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">P</hi>A bryd bynac y byddo gwr yn
+<lb/>rhoddi yscafn, ac esmwyth <w>gos<lb rend="shy"/>pedigaeth,</w> ar vn a haeddo&dhook; a fae
+<lb/>drymach, y mae <apo/>n rheswm iddaw i
+<pb n="13"/>
+<lb/>ddioddef, a<isp/><apo/>i dderbyn drwy <w>ymy<lb rend="shy"/>ne&dhook;:</w> mal, vn a fo lladdwr celain, os
+<lb/>caiff ef ddiainc er i guro, ne i <w>fflan<lb rend="shy"/>gellu</w> allan o<isp/><apo/>r dinas neu 'r dref, mae
+<lb/>ef yn cymryd hynny mewn rhann
+<lb/>dda, gann iddaw wybod yn dda
+<lb/>ddigon, i fod yn hauddu crog.
+</p>
+<p>
+<lb/>Y sancteidd-ferch Iudith, a <w>dy<lb rend="shy"/>biai</w> fod holl gospedigaethae <w>tran<lb rend="shy"/>cedig,</w> yn esmwythach, ac yn llai nac
+<lb/>yw ein pechodae a<isp/><apo/>n <corr resp="transcr" sic="anwire&dhook; au">anwire&dhook;au</corr><!--ed anwired'au--> ni.
+<lb/>Erwy&dhook; paham, o goddefi dlodi,
+<lb/>glefyd, ne ryw wrthwyneb arall
+<lb/>ystyria, a meddwl ynot dy hun <corr resp="transcr" sic="fall">fal</corr>
+<lb/>hynn.
+</p>
+<p>
+<lb/>Dy amryw bechodae a <w>haedd<lb rend="shy"/>asont</w> fil filioe&dhook; o weithiau, mwy
+<lb/>dialeddus cospedigaeth, trymach
+<lb/>dolur, mwy ofnadwy rhyfeloe&dhook;,
+<lb/>carchar mwy aneirif i oddef: ac pe
+<lb/>i doe oll flinderoe&dhook; y byd, ar <w>vn<lb rend="shy"/>waith</w> yn vn pentwrr arnat, etto
+<lb/>rhyglyddaist waeth o lawer. Ti a
+<lb/>haeddaist yn dda oddef gwbl allu a
+<pb n="14"/>
+<lb/>chreulondeb diawl, a da<expan>m</expan>nedigaeth
+<lb/>tragwyddol, 'rhain er hynny a <w>atta<lb rend="om-shy"/>liodd,</w> ac a dynno&dhook; duw <w>oddiwrth<lb rend="shy"/>yt,</w> o<isp/><apo/>i wir drigare&dhook;, yn vnic er
+<lb/>mwyn Iesu Christ: Hefyd, y neb a
+<lb/>gafes bob amser bethau da, <w>llwy<lb rend="shy"/>ddiannus,</w> ni ddyl ef ryfeddu, er
+<lb/>derbyn o honaw weithiau, anffawd,
+<lb/>ac adfyd: ie, plant, y byd hwnn a
+<lb/><corr resp="transcr" sic="ddoedant' n">ddoedant 'n</corr><!--ed ddoedant 'n--> ddiharebawl.
+</p>
+<p>
+<lb/><hi rend="antiqua">Ni wn ddyll iawn ddehellwch
+<lb/>i ddewr draw na ddaw awr drwch.</hi><!--verse apparently-->
+</p>
+<p>
+<lb/>Yrawrhon, mor drigarog yw
+<lb/>duw, ac na ad ef neb heb i obrwyo a
+<lb/>rhyw wobr, ne arall, yn gystal o flae<expan>n</expan>
+<lb/>gorthrymder, ac wedi, ie, ac <w>yngha<lb rend="om-shy"/>nol</w> ein blinfyd, mae ef yn rhoddi
+<lb/>llawer rho&dhook; ardderchawg, ac <w>arbe<expan>n</expan><lb rend="shy"/>igion</w> ddonieu, yn gystal ar les ein
+<lb/>eneidieu ni a<isp/>'n cyrff, ysprydawl a
+<lb/>chorfforawl.
+</p>
+<p>
+<lb/>Ac am i ddonieu ef o flaen adfyd, a
+<lb/>gorthrymder, mae i ni siampl<!--ed fiampl-->&nbsp;<w>odi<lb rend="shy"/>dog</w> o flaen ein llygaid, o Iob, gann
+<pb n="15"/>
+<lb/>ddoedyd: gan i ni dderbyn cymeint
+<lb/>o lesant, oddi-ar law dduw, pam na
+<lb/>fyddwn ni fodlon hefyd, i dderbyn
+<lb/>y drwg? Hefyd Plinius yr ail, gwr
+<lb/>cenedlig, wrth ddiddanu, vn o<isp/><apo/>i <w>gym<lb rend="om-shy"/>deithion</w> a fuase farw i anwylwraig<!--ed anwyl wraig; isp?-->
+<lb/>briod, ymhlith pethau eraill, a <w>escri<lb rend="shy"/>fenna</w> fal hynn.
+</p>
+<p>
+<lb/>Hyn' a ddyle fod yn ddiddanwch
+<lb/>mawr iti (sef) cael, a mwynhau o
+<lb/>honot, berl mor wrthfawr, cyd o <w>a<expan>m</expan><lb rend="shy"/>ser:</w> can's pedair blyne&dhook; a deugain
+<lb/>y bu hi gida thi, ac ni bu erioed <w>ym<lb rend="shy"/>rafael,</w> ymsennu, nac ymryson <w>rhyn<lb rend="om-shy"/>goch:</w> a<isp/><apo/>r naill, ni ddigio&dhook; y llall, <w>eri<lb rend="shy"/>oed:</w> ie, ond yr awrhon ti a ddoedi,
+<lb/>mae o hynny y mae yn drymach ac
+<lb/>yn anaws genyt fod hebddi, am i
+<lb/>chwi fyw ynghyd, cyd o amser, mor
+<lb/>heddychol: can's prysur irr <w>angho<lb rend="shy"/>fiwn</w> y pleser,<!--text: pleser', ? --> a<isp/><apo/>r cymwynase,
+<lb/>'rhain ni chowson ond tros fyrr
+<lb/>o amser. Ond i atteb hynn <w>y<lb rend="shy"/>ma</w> gochel, a gwilia, rhag dy gael
+<pb n="16"/>
+<lb/>yn aniolchgar, os ystyri yn vnic pa
+<lb/>beth a gollaist, heb feddwl pa hyd i
+<lb/>cefaist hi y<isp/><apo/>w mwynhau.
+</p>
+<p>
+<lb/>Ag hefyd mewn amser ac <w>yng<lb rend="shy"/>hanol</w> ein blinfid, <corr resp="transcr" sic="'an">a<isp/>'n</corr> trwbleth, mae
+<lb/>duw yn rhoddi i ni ras i ystyried,
+<lb/>dawnus, a llwyddiannus bethau <w>e<lb rend="shy"/>raill,</w> 'rhain sy genym a rhain <w>ydd<lb rend="shy"/>ym</w> yn oestadol yn i mwynhau: fal
+<lb/>drwy goffadwriaeth ag ystyrieth o
+<lb/>rheini, ir esmwytheir, y lleiheir, ag
+<lb/>ir anchwanegir ein gofid <corr resp="transcr" sic="'an">a<isp/>'n</corr> poen.
+</p>
+<p>
+<lb/>Er ecsampl: bwrw dy fod yn
+<lb/>wann, yn ddirym, ac yn wr <w>clwy<lb rend="shy"/>fus</w> o gorff, etto fe roddes duw iti
+<lb/>gyfoeth yn ddigonol, a da yn <w>rhe<lb rend="shy"/>symol</w> i<isp/><apo/>th gadw: ne os oes arnat
+<lb/>brinder ag eisieu da, a chyfoeth, nid
+<lb/>oes arnat er hynn ddiffig o iechyd
+<lb/>corfforawl.
+</p>
+<p>
+<lb/>Yrawrhon oni osodwn y naill
+<lb/>o hyn yn erbyn y llall, tebig ym i
+<lb/>blant bychain, 'rhain os damwain i
+<lb/>wr ychydig rwystro, ne dorri ar i
+<pb n="17"/>
+<lb/><corr resp="transcr" sic="chareu">chwareu</corr>,<note resp="transcr">Catch-word on p. 16 reads <hi rend="italic">chwa-</hi>.</note> ne ddwyn rhywbeth <w>oddiar<lb rend="shy"/>nynt,</w> yn ebrwy&dhook;, hwy a esclusant y
+<lb/>cwbl, ac a gwympant i wylo: felly i
+<lb/>byddem ninne debygol i wneuthur,
+<lb/>pann ddigwy&dhook; rhyw anffawd ini, o
+<lb/>digiwn ne o byddwn anfodlon, heb
+<lb/>gennym na chwant, nac <corr resp="transcr" sic="ewllys">ewyllys</corr> i
+<lb/>gymryd ac i fwynhau, y da rhwnn
+<lb/>sy&dhook; gennym.
+</p>
+<p>
+<lb/>Bwrw dy fod <apo/>n ymddifad, ne 'n
+<lb/>ysbailedig, o bob diddanwch <w>corffo<lb rend="shy"/>rawl,</w> etto yn dy ddwyfron a<isp/><apo/>th galo<expan>n</expan>,
+<lb/>mae genyt wybodaeth o Iesu
+<lb/>Christ, yr hwn, a<isp/><apo/>th <corr resp="transcr" sic="ryddhaod 'di">ryddhao&dhook; di</corr><!--ed ryddhaod' di--> o
+<lb/>vffern, ac o ddamnedigaeth, rhain
+<lb/>oeddynt ddledus iti: i bwy vn, nid
+<lb/>yw <apo/>r o&lhook; ddialeddae ar y ddayar fwy
+<lb/>mewn cyfflybrwy&dhook;, nag yw vn <w>def<lb rend="om-shy"/>nyn</w> o ddwfr wrth 'r oll for.
+</p>
+<p>
+<lb/>Heb law hynn hefyd, trwy ffy&dhook; i
+<lb/>ddwyd yn clywed ynot, obaith, a <w>sicr<lb rend="om-shy"/>wy&dhook;</w> o laweny&dhook; didranc, <w>tragwy&dhook;<lb rend="shy"/>ol,</w>&nbsp;<corr resp="transcr" sic="Fal">fal</corr> i scrifenna S. Paul o hynn,
+<lb/>gan ddoedyd: barnu irr wyf nad yw
+<pb n="18"/>
+<lb/>gofidiae 'r amser hynn, y<isp/><apo/>w cystadlu
+<lb/>i<isp/><apo/>rr gogoniant, a ddangosir i ni: mae
+<lb/>i ni siampl o hyn, o flaen ein llygaid,
+<lb/>o<isp/><apo/>r mab treilgar, anobeithedic, yr
+<lb/>hwn, a<isp/><apo/>i vfuddhao&dhook;, ac a<isp/><apo/>i <w>darostyn<lb rend="shy"/>go&dhook;</w> i hunan, fal na ddysyfai, ef <w>mwy<lb rend="om-shy"/>ach</w> i gyfri yn lle mab, eythr i droi i
+<lb/>weithiaw, fal gwenidog ne was <w><corr resp="transcr" part="a" sic="cy">cy</corr><lb rend="om-shy"/><corr resp="transcr" part="b" sic="slog">flog</corr>,</w> os yn vnic, e gae aros, ynhuy ei
+<lb/>dad. Felly beth bynag y mae duw
+<lb/>yn i anfon, ni a ddylem i gymryd,
+<lb/>yn ddioddefgar, os yn vnic i <w>cenad<lb rend="shy"/>heir,</w> i ni breswylio ynhuy dduw, yn
+<lb/>y <corr resp="transcr" sic="nesoe&dhook;">nefoe&dhook;</corr>, gidac ef 'n dragwyddawl.
+<lb/>Yr awrhon, o tybia neb fal hynn,
+<lb/>nid yw duw yn ceryddu eraill, a
+<lb/>wnaethont anwireddau mwy <w>dia<lb rend="shy"/>leddus,</w> a chymeint o blae echrys, a
+<lb/>doluriae, ag i cerydda ef ni: <w>amar<lb rend="shy"/>chus,</w> ag anghristnogai&dhook; yw ei <w>fed<lb rend="shy"/>dwl</w> ef o dduw: can's beth os wyd
+<lb/>di dy hun yn fwy anwireddus, na
+<lb/>neb arall? Ond bwrw fod eraill
+<lb/>yn byw yn fwy anwireddus, ac
+<pb n="19"/>
+<lb/>yn waeth na thi, a wyddost di pa
+<lb/>we&dhook; y mae duw, yn i cospi hwy?
+<lb/>Mwyaf, a gwaethaf poen, a chosb,
+<lb/>a ddichon fod, yw, cystu&dhook;&nbsp;<w>oddi<lb rend="shy"/>mewn,</w> a dirgel gosbedigaethae y
+<lb/>meddwl, rhain ni welir a<isp/><apo/>r golwg
+<lb/>oddiallan. Ag, er na byddo vn <w>tri<lb rend="shy"/>stwch,</w> na diale&dhook; yspysol yn eglur
+<lb/>yn ymdda<expan>n</expan>gos iti, ag er nas <w>gwydd<lb rend="shy"/>ost</w> ba beth y mae duw yn i feddwl
+<lb/>yn hynny, etto ti a ddylit, (mal
+<lb/>plentyn y<isp/><apo/>w dad) roddi iddaw ef <w>an<lb rend="shy"/>rhyde&dhook;,</w> clod, a moliant, am iddaw
+<lb/>ef ddosparthu pob peth a <corr resp="transcr" sic="chyfrw">chyfryw</corr>
+<lb/>ddoethineb, ac mewn cyfryw drefn
+<lb/>ac ordr: a phann welo ef i amser, ef a
+<lb/>obrwya, ag a ystyria<isp/>'r holl gyfryw
+<lb/>bethae, 'rhain a wnaethwyd <w>ym<lb rend="shy"/>laen</w> llaw, yn erbyn i gyfion, a<isp/><apo/>i <w>vni<lb rend="shy"/>on</w> gyfreithiau ef, megys ac ir <w>hae<lb rend="shy"/>ddasont.</w>
+</p>
+</div>
+<pb n="20"/>
+<div>
+<head><lb/>Pen. 4.</head>
+<p>
+<lb/><hi rend="italic">Pob bath ar adfyd a ddanfonir, ac sydd<!--ed syda-->
+<lb/>yn dyfod oddiwrth dduw, o feddwl <w>ca<lb rend="shy"/>riadus,</w> tadawl tuac attom.</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">N</hi>Id yw ddigon i ni wybod fod
+<lb/>pob bath ar flinfyd, yn dyfod
+<lb/>drwy ymyne&dhook;, a dioddefiad duw, o<isp/><apo/>i
+<lb/>gyfiawn farnedigaeth ef am ein <w>pe<lb rend="om-shy"/>chodae</w> ni: erwy&dhook; yn eithawe&dhook;&nbsp;<w>pro<lb rend="shy"/>fedigaethae,</w> ag yn yr angenion
+<lb/>mwyaf, fal hynn i bydd y meddylie,
+<lb/>a<isp/><apo/>r dychmygion cyntaf ynom. Yn
+<lb/><corr resp="transcr" sic="gymenit">gymeint</corr> ac i mi yn ddialeddus <w>ddi<lb rend="shy"/>gio</w> duw, drwy fy<isp/>mhechodau, am
+<lb/>hynny i llidio&dhook; ef wrthyf, ag aeth
+<lb/>yn elynn imi, ac a droes i ffafr <w>o&dhook;i<lb rend="shy"/>wrthyf:</w> ac oni by&dhook; i ni ragflaenu, a
+<lb/>thaflu ymaith mewn amser, y <w>cy<lb rend="shy"/>fryw</w> wag feddylieu, a bwriadae <w>o<lb rend="shy"/>fer,</w> hwy a wnant i ni ymwrthod, ac
+<lb/>ymadael a duw, gann i gasau ef, a
+<lb/>gryngan y<isp/><apo/>w erbyn; megys i <w>gwna<lb rend="shy"/>eth</w> Sawl, 'rhwn a gwbl feddylio&dhook;
+<pb n="21"/>
+<lb/>ynthaw i hun, fod duw yn i geryddu
+<lb/>ef, o lid a digofaint y<isp/><apo/>w erbyn: am
+<lb/>hynny calon Sawl a dro&dhook;&nbsp;<w>oddi<lb rend="shy"/>wrth</w> dduw, ac a<isp/><apo/>i gadawo&dhook; ef, ac a
+<lb/>ddechreuo&dhook; i gasau a<isp/><apo/>i ffieiddio ef,
+<lb/>megys vn creulon. Ga<expan>n</expan>n hynny mae
+<lb/>y rhyby&dhook; hwnn hefyd yn perthynu,
+<lb/>i<isp/><apo/>rr cyfryw bynciau, i<isp/><apo/>n dyscwyd
+<lb/>hyd hynn: sef, y dylem ni dderbyn
+<lb/>yn ddiolchgar beth bynag i mae
+<lb/>duw o feddwl tadawl, cariadus, ac
+<lb/>nid o ddim digofaint tu-ac attom,
+<lb/>yn i anfon ini, pwy vn bynac fyddo
+<lb/>ai hyfrydlawn, ai dialeddus i<isp/>'r
+<lb/>cnawd. Yr arglwy&dhook; dduw, a <w>ym<lb rend="shy"/>wel</w> a ni ac amserawl, a thrancedic
+<lb/>boenau, o dadawl a gofalus galon,
+<lb/>rhon sy ganthaw tu-ac attom, ac
+<lb/>nid o ddigase&dhook; a digllone&dhook; i<isp/><apo/>n <w>er<lb rend="shy"/>byn.</w> Canys duw a gymodir, ac a
+<lb/>gytunir a ffob Cristion drwy i fab,
+<lb/>ac ef a<isp/><apo/>i car hwy o ddyfnder, ac o <w>ei<lb rend="shy"/>giawn</w> ei galon: erwy&dhook; paham pa
+<lb/>sut bynac, ne pa fo&dhook; bynac, i mae
+<pb n="22"/>
+<lb/>duw i<isp/><apo/>n ceryddu, ac i<isp/><apo/>n cospi, nid yw
+<lb/>ef yn gwneuthur hynny o gasineb
+<lb/>arnom, fal pe i gwrthode ef ni, ga<expan>n</expan>n
+<lb/>ein taflu ymaith yn ollawl, eythr o<isp/><apo/>i
+<lb/>fawr dosturi, a thrigare&dhook;, er 'n <w>der<lb rend="shy"/>byn</w> fal ei blant, er yn cadw, a<isp/><apo/>n <w>ym<lb rend="shy"/>ddiffyn,</w> er yn meithrin a<isp/><apo/>n arfer, er
+<lb/>yn vfuddhau, a<isp/>'n darostwng, er yn
+<lb/>symbylu, a<isp/>'n gwthio rhag ein blae<expan>n</expan>,
+<lb/>fal y byddai i weddi, ffy&dhook;, ofn duw,
+<lb/>vfu&dhook;-dod, a rhinweddae erai&lhook; dyfu,
+<lb/>a chynyddu yno<expan>m</expan>, er anrhyde&dhook;&nbsp;<w>idd<lb rend="shy"/>aw</w> ef, ag iechydwriaeth i ninne. <w>Te<lb rend="om-shy"/>stiolaethae</w> o hynn: yn gyntaf <w>Eze<lb rend="shy"/>chiel.</w> 33.
+</p>
+<p>
+<lb/>Cynn wiried mae byw fi me&dhook; yr
+<lb/>arglwy&dhook;, nid oes gennyf bleser <w><orig reg="ym marwolaeth">ym<lb rend="shy"/>arwolaeth</orig></w> pechadur eythr troi o <w>ho<lb rend="shy"/>naw,</w><!--W?--> a bod yn gadwedig. Yma mae
+<lb/>duw yn tyngu, nad yw ef yn cosbi
+<lb/>er 'n difa, ond er yn llithio, yn denu,
+<lb/>a<isp/>'n dwyn i edifeirwch.
+</p>
+<p>
+<lb/>Hefyd, y sawl a gar duw, ef a<isp/><apo/>i <w>ce<lb rend="shy"/>rydda,</w> ac er hynny mae gantho <w>ble<pb rend="shy" n="23"/><lb/>ser</w> ynthynt megys tad yn i blentyn.
+<lb/>Hynn sy<!--sy' ?--> destiolaeth eglur, nad yw
+<lb/>adfyd, trwbleth, a blinfyd, yn <w>arwy<lb rend="shy"/>ddion</w> o lid, a digllone&dhook; duw, eythr
+<lb/>yn hytrach arwyddion sicr, o<isp/><apo/>i rad, o<isp/><apo/>i
+<lb/>drigare&dhook;, a<isp/><apo/>i ffafr, drwy bwy rai, y
+<lb/>mae duw yn sicr-hau <!--mistake?--> i ni, i <w>driga<lb rend="shy"/>rog</w> ewyllys, a<isp/><apo/>i dadawl galon, tuac
+<lb/>attom. Drachefn fe a ddoedir, ni a
+<lb/>wyddo<expan>m</expan> fod pob beth 'n cydweithio
+<lb/>i<isp/><apo/>rr hynn goreu, i<isp/><apo/>rr sawl a garant
+<lb/>dduw. Ac hefyd, fe a<isp/>'n cosbir, ac a<isp/>'n
+<lb/>ceryddir gann yr arglwyd, rhac yn
+<lb/>barnu yn euog <corr resp="transcr" sic="gida' r">gida 'r</corr> byd.
+</p>
+<p>
+<lb/>Hynn hefyd i gyd a greffi, ag a
+<lb/>ystyrri drwy holl stori Iob.
+</p>
+<p>
+<lb/>Yn yr vn mo&dhook;, Ioseph a <w>werth<lb rend="shy"/>wyd</w> ga<expan>n</expan> ei frodur, ac a ro&dhook;wyd <w>yn<lb rend="shy"/>wylaw</w> 'r anffyddloneit, o dwyll, a
+<lb/>chenfigen, drwy annog, a chyngor y
+<lb/>cythraul: eythr y ffyddlonaf dduw a
+<lb/>droes hynn er bu&dhook;, a lles, yn gystal
+<lb/>i duy yr Israel, ac i holl <w>frenhini<lb rend="shy"/>aeth</w> yr Aipht. Cans felly y darfu i
+<pb n="24"/>
+<lb/>Ioseph i hun ddeongl hynny.
+</p>
+<p>
+<lb/>Hefyd eglwys Ghrist, (sef yw
+<lb/>hynny) y gynelleidfa Ghristnogai&dhook;
+<lb/>yr hon yw priodasferch crist, sy raid
+<lb/>iddi ddioddef adfyd a blinder, ar y
+<lb/>ddaear honn, ond yn gymeint a bod
+<lb/>d&uuml;w yn hoffi priodasferch i anwyl
+<lb/>fab, ('r honn yw cynelleidfa y rhai
+<lb/>ffyddlon) mae ef yn bwriadu i <w>chon<lb rend="shy"/>fforddio</w> hi, a bod yn ddaionus iddi;
+<lb/>gann hynny, megys ag i cyfodo&dhook; ef
+<lb/>i fyny&dhook; o angau, Grist i gwr priod, i
+<lb/>ffenn, a<isp/><apo/>i brenin, felly hefyd i <w>gwa<lb rend="shy"/>red</w> ef hithau o bob adfyd, ga<expan>n</expan>n roddi
+<lb/>iddi lawenychol fuddigoliaeth, ar
+<lb/>bob peth sy&dhook; y<isp/><apo/>w gorthrymu: eythr
+<lb/>cyfryw yw gwaele&dhook;, a gwendid <apo/>n
+<lb/>golwc ni, ac nas gallwn graffu, a
+<lb/>gweled drigarog, a charedigol <w>dda<lb rend="shy"/>ioni</w> d&uuml;w, dann i wialen a<isp/><apo/>i scwrs.
+</p>
+<p>
+<lb/>Pa bryd bynac gann hynny irr
+<lb/>ymwelir a ni a blinder ne adfyd, yn
+<lb/>wir ein dled yw, yn gyntaf <w>gydna<lb rend="shy"/>bod</w> a chofio ein pechodae, ac <w>ystyri<pb rend="shy" n="25"/><lb/>aw</w> hefyd iau, a gefynnae diawl am
+<lb/>bechod, ond ni ddylem ni farnu, na
+<lb/>meddwl o<isp/><apo/>r cyfryw flinderoe&dhook;, yn ol
+<lb/>meddwl, ac ewyllys diawl (rhwn o
+<lb/>frad, a meddwl maleisus, tu-ac <w>att<lb rend="shy"/>om,</w> ni chais ddim oll, onid <w>dini<lb rend="shy"/>striad</w> ollawl, a chyfan wradwy&dhook;
+<lb/>pob rhyw ddyn) ond yn hytrach ni
+<lb/>a ddylem farnu ac ystyriaw o<isp/><apo/>r oll
+<lb/>flinderoe&dhook; a<isp/><apo/>r gofydiau hynny, ar
+<lb/>ol meddwl duw, (ac felly i derbyn)
+<lb/>rhwnn o<isp/><apo/>i fawr ddaioni, sy<isp/>'n i troi
+<lb/>hwy oll, er bu&dhook; a llesant i ni, gann
+<lb/>weithiaw drwyddynt hwy, ein <w>per<lb rend="shy"/>ffaith</w> iechydwriaeth ni.
+</p>
+<p>
+<lb/>A phle bynac ni ddichon y galon,
+<lb/>dderbyn y diddanwch hwnn (sef
+<lb/>bod duw yn ceryddu, ac yn cosbi, o
+<lb/>wir drigarog ffafr, a chariad arno<expan>m</expan>)
+<lb/>yna yn angenrheidiol, mae 'r <w>profe<lb rend="shy"/>digaeth,</w> a<isp/><apo/>r diale&dhook; yn drymach, ac
+<lb/>yn fwy, a<isp/><apo/>r dyn hwnnw o<isp/><apo/>r diwe&dhook; a
+<lb/>gwympa, ac a syrth i ddirfawr <w>an<lb rend="shy"/>obaith.</w>
+</p>
+</div>
+<pb n="26"/>
+<div>
+<head><lb/>Pen. 5.</head>
+<p>
+<lb/><hi rend="italic">Duw yn vnic er mwyn Iesu Grist,
+<lb/>a hynny o<isp/><apo/>i fawr drigaredd, <w>ca<lb rend="shy"/>riad,</w> a ffafr, sydd i<isp/><apo/>n cosbi
+<lb/>ac i<isp/><apo/>n ceryddu.</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">Y</hi>R iawn a<isp/><apo/>r vnic achos, o <w>driga<lb rend="shy"/>rog</w> a thadawl wllys duw, yw,
+<lb/>yn, vnic rhyglyddiadae Iesu Grist,
+<lb/>at bwy vn, ni a ddylem dderchafu
+<lb/>ein calonnau tua<isp/><apo/>r nefoe&dhook;, gann <w>fe<lb rend="shy"/>ddwl,</w> ac ystyriaw yn ein <w>meddyli<lb rend="shy"/>eu,</w> yn oestadol, fal hynn: yn pechod
+<lb/>a<isp/>'n anwire&dhook; ni, sy 'n haeddu newyn
+<lb/>drudaniaeth, rhyfel, nodeu, a ffob
+<lb/>rhyw blaee eraill: yr awrhon, Crist
+<lb/>a wnaeth arianswm a chyflawn <w>da<lb rend="shy"/>ledigaeth,</w> am yr oll bechodae rhain
+<lb/>a wnaetho<expan>m</expan> ni, ef a ailbrynno&dhook;, a <w>da<lb rend="shy"/>lo&dhook;,</w> a ddigosto&dhook;, ac a wnaeth <apo/>n <w>ddi<lb rend="shy"/>neweidiol</w> ini, yn oll gamweddau,
+<lb/>drwy i chwerw angeu, i <w>fuddygoli<lb rend="shy"/>aethae,</w> a<isp/><apo/>i ailgyfodiad, ac a <w>ddigono<lb rend="shy"/>lo&dhook;</w> gyfiawnder ei dad fal i <w>testiol<pb rend="shy" n="27"/><lb/>aetha</w> S. Paul, yn gonfforddus, ga<expan>n</expan>n
+<lb/>ddoedyd: Iesu Grist a wnaethwyd
+<lb/>ga<expan>n</expan>n dduw i ni yn ddoethineb, a <w>chy<lb rend="shy"/>fiawnder,</w> a sancteuddrwy&dhook;, a <w>ffryn<lb rend="shy"/>nedigaeth:</w> felly os blinderae a<isp/><apo/>n <w>gor<lb rend="shy"/>thryma<expan>n</expan>t</w> o erwy&dhook; ein pechodae, a<isp/>'n
+<lb/>oll bechodae gwedi i digonoli, a<isp/><apo/>i <w>di<lb rend="shy"/>gosti,</w> trwy angeu a dioddefaint <w>Ie<lb rend="shy"/>su,</w> mae 'n ange<expan>n</expan>rhaid addef, fod yn o&lhook;
+<lb/>flinderoe&dhook; yn ddineweidiol ini, ac
+<lb/>na allant ein briwo: ie, Crist trwy i
+<lb/>ddioddefaint a<isp/><apo/>i adfyd, a fendithio&dhook;
+<lb/>ac a sancteiddio&dhook; bob rhyw adfyd,
+<lb/>fal i <corr resp="transcr" sic="guasnaethent">gwasnaethent</corr><!--or reg?-->, ac fal i byddent,
+<lb/>i oll wir ffyddlonieit Gristnogion,
+<lb/>yn lle bu&dhook; gwyrthfawr, drwy <w>or<lb rend="shy"/>deiniad</w> a rhagwelediad duw i <w>ne<lb rend="shy"/>fawl</w> dad: ef yw y gwir <w>Physy<lb rend="shy"/>gwr,</w> 'rhwnn pann ddehallo&dhook;, fod
+<lb/>adfyd yn arswydus gennym, a <w>gy<lb rend="shy"/>mero&dhook;</w> arnaw i hun, ddioddef pob
+<lb/>bath ar adfyd, blinderoe&dhook;, a <w>go<lb rend="shy"/>fydiae</w> mwyaf dialeddus, er <w>rho<lb rend="shy"/>ddi,</w> a gosod terfyn, a ffenn, i<isp/><apo/>n
+<pb n="28"/>
+<lb/>blinderoe&dhook; nineu, ac hefyd i <w>bendi<lb rend="shy"/>thiaw,</w> a<isp/><apo/>i sancteiddiaw, ie, a <w>gwneu<lb rend="shy"/>thur</w> angeu i hun yn brydferth ac yn
+<lb/>felus i ni. Oh na allem deimlaw,
+<lb/>gweled, ac ystyriaw, ewyllys, a <w>me<lb rend="shy"/>ddwl</w> Crist, pa<expan>n</expan>n oe&dhook; ef yn <w>ewylly<lb rend="shy"/>scar</w> yn dioddef ar y groes, gann <w>o<lb rend="shy"/>ddef</w> i &dhook;ryllio, a<isp/><apo/>i ferthyru mor <w>greu<lb rend="shy"/>lawn,</w> ag mor boenus, eb vn achos,
+<lb/>ond fal i galle ef yn ollawl <w>ddirym<lb rend="shy"/>mio</w> oll nerth ein pechodeu ni, <w>gorth<lb rend="om-shy"/>rymder</w> ac angeu, ac hefyd dinistrio
+<lb/>vffern, fal na alle vn o honynt byth 
+<lb/>wneuthur niwed ini. <corr resp="transcr" sic="ymhellach">Ymhellach</corr> (o)
+<lb/>na allem ystyriaw pa we&dhook; i <w>chwae<lb rend="shy"/>tho&dhook;,</w> ac irr yfo&dhook; ef o<isp/><apo/>r cwpan o<isp/><apo/>n
+<lb/>blaen ni, fal y gallem nineu, rhain
+<lb/>ym weinied, yfed a chwaethu 'n we&lhook;
+<lb/>o honaw ar i ol ef, yn gymeint ac
+<lb/>na ddamweinio&dhook; iddaw ef ddim
+<lb/>drwg o hynny, eythr yn y mann <w>cy<lb rend="shy"/>fodi</w> o honaw o angeu: oh nas galle
+<lb/>wybodaeth, a choffadwriaeth o hyn
+<lb/>aros yn iawn yn oestad yn ein <w>ca<pb rend="shy" n="29"/><lb/>lonnae</w> ni, a llewychu bob amser o<isp/><apo/>n
+<lb/>blaen ni: yno byth ni syfllem<!--?, syflyd 'budge', sefyll?-->, ac ni
+<lb/>ddyffygiem, ac ni byddem <w>anob<lb rend="shy"/>eithiol,</w> o drigare&dhook;, a daioni duw,
+<lb/>er i ni ymla&dhook; mewn bateloe&dhook;&nbsp;<w>en<lb rend="shy"/>bydus,</w> a mwyaf dialeddus: ac er i
+<lb/>ni 'n hunain brofi a theimlaw, y <w>cy<lb rend="shy"/>fiawn</w> gosbedigaethae, hauddedic
+<lb/>am ein pechodae <corr resp="transcr" sic="ni.">ni,</corr> yno y gallem
+<lb/>sefyll 'n wrawl, ac yn nerthawg yn
+<lb/>erbyn pyrth vffern, a phob bath ar
+<lb/>dristyd, trymder, profedigaeth, ofn,
+<lb/>ac anffawd, yn ollawl a ddifethid ac
+<lb/>a lyncid i fyny.
+</p>
+<p>
+<lb/>A hynn yw y diddanwch <w>penn<lb rend="shy"/>af,</w> a mwyaf, a glowyd, ne a <orig reg="ddarllewyd"><w>ddarll<lb rend="shy"/>euwid</w></orig> o honaw, er dechreuad y byd.
+<lb/><corr resp="transcr" sic="duw">Duw</corr> i hun yn vnic a ddichon (os <w>y<lb rend="shy"/>styriwn</w> o honaw, ac os gafaelwn
+<lb/>arnaw, mal y dylem) blannu, ac <w>im<lb rend="shy"/>pio,</w> y cyfryw feddwl ynom, fal y
+<lb/>gallom nid yn vnic na thristhaom,
+<lb/>eythr gorflleddu<!--?, gorfoleddu--> a llawenychu yn
+<lb/>ein blinder a<isp/>'n cledi, fal i <w>gorfole<pb rend="shy" n="30"/><lb/>ddo&dhook;</w> S. <corr resp="transcr" sic="Haul">Paul</corr> yn odiaeth lle i <w>dy<lb rend="shy"/>waid</w> ef: os duw nid arbedo&dhook;, i vnic
+<lb/>genedig fab, eythr i roddi ef drosso<expan>m</expan>
+<lb/>ni oll, pa we&dhook; na ry&dhook; ef i ni bob peth
+<lb/>gidac ef? Beth gann hynny a <w>wna<lb rend="shy"/>wn</w> a<isp/>'n ofer ofn, a<isp/>'n gofal, a<isp/>'n <w>trist<lb rend="shy"/>wch,</w> a<isp/>'n trymder? Erwy&dhook; pa ham,
+<lb/>o byddwn Gristnogion, rhaid i ni 'n
+<lb/>ddiolchgar osod allan, ganmol, a
+<lb/>mawrygu 'r ardderchawg, <w>anfei<lb rend="shy"/>drawl,</w> a nefawl ras, a <orig reg="daioni">daoni</orig> duw,
+<lb/>a<isp/>'r vchel ddiddanwch rhwn sy <w>gen<lb rend="shy"/>nym</w> drwy <corr resp="transcr" sic="Grist.">Grist:</corr> cans pawb oll a<isp/><apo/>r<!--a'r-->
+<lb/>y sy&dhook; ddeffygiawl mewn <w>gwybo<lb rend="shy"/>daeth,</w> o<isp/><apo/>r daioni rhwnn yddym yn i
+<lb/>gael trwy Grist, ac a wrthodant y
+<lb/>mawr, a<isp/><apo/>r ardderchawc drysor hwn,
+<lb/>pwy vn bynac fydda<expan>n</expan>t, ai Iddewo<expan>n</expan>, ai
+<lb/>Ce<expan>n</expan>hedloe&dhook;, ai Mahometiaid, ai <w>Pa<lb rend="om-shy"/>byddion,</w> ni fedrant roddi gwir, <w>per<lb rend="shy"/>ffaith,</w> ac iachusawl gyssur, iddynt i
+<lb/>hun, nac i eraill chwaith, mewn <w>ofn<lb rend="shy"/>awg,</w> ac amheus gydwybod, neu
+<lb/>mewn adfyd a chledi arall. Tra <w>ga<pb rend="shy" n="31"/><lb/>ffont</w> heddwch a llonyddwch, heb
+<lb/>glowed nac ystyr ddim poenau <w>an<lb rend="shy"/>geu,</w> na<isp/><apo/>r cyfryw flinder, a chledi,
+<lb/>hwy a allant fyw yn ddiogel, ac <corr resp="transcr" sic="vn">yn</corr>
+<lb/>hyderus, heb ofn: eythr pann <w>dde<lb rend="shy"/>lo</w><isp/>'r awr ddrwg vnwaith, ac <w>ychy<lb rend="shy"/>dic</w> dro ar y towy&dhook;, mal naill ai
+<lb/>trwy weledigaeth, ac eglurhad o<isp/><apo/>r
+<lb/>gyfraith i clywant, ac i dehallant,
+<lb/>ddigofaint duw tu-ac attynt, ne
+<lb/>drwy yspys ac eglur arwyddion, a
+<lb/>chyhoeddiad o gyfiawn <w>gospediga<lb rend="shy"/>eth</w> a dial duw, ne drwy brofiad, o
+<lb/>ryw blaee presennol, nes i cynhyrfu
+<lb/>yn ddysyfyd gan ofn, yna i o&lhook;&nbsp;<w>ddoe<lb rend="shy"/>thineb,</w> ei cyngor, a<isp/><apo/>i synwyr i <w>wrth<lb rend="om-shy"/>nebu</w> y cyfryw ddrwg, a ballant yn
+<lb/>ollawl, ac a<isp/><apo/>i so<expan>m</expan>mant 'n ddiatreg: <w>y<lb rend="shy"/>na</w> i ffoant oddiwrth dduw, ac ni
+<lb/>wyddant i ba le i rhedant, ne ple
+<lb/>ir ymguddiant: ac er bychaned <w>fy<lb rend="shy"/>ddo</w> i profedigaeth, a<isp/><apo/>i plaee, ei <w>ca<lb rend="shy"/>loneu</w> er hynny a gynhyrfir, ac a
+<lb/>ofnir mor ddirfawr (mal i tystia
+<pb n="32"/>
+<lb/>Moeses) gann chwthiad deilien,
+<lb/>ac pe i bae ddyrnod taran.
+</p>
+<p>
+<lb/>Ac i<isp/><apo/>rr cyfryw ddynion, oll gwrs
+<lb/>i bywyd o<isp/><apo/>r blaen, i oll lafur, a<isp/><apo/>i <w>tra<lb rend="shy"/>fael,</w> a<isp/><apo/>i goglud oll, yn ei argoeledig
+<lb/>wasnaethu duw, ac yn ei <w>dirwe<lb rend="shy"/>stawl</w> fuchedd, yn ollawl a gollir ac
+<lb/>a fernir yn ofer: a ffa ddiddanwch
+<lb/>bynac a geisiasant heb Grist, nid
+<lb/>yw ddim oll, ond chwanegiad o<isp/><apo/>i
+<lb/>dialeddus ofn, a brisc, yw tywys i
+<lb/>anobaith ac felly heb law yr <w>Ar<lb rend="shy"/>glwy&dhook;</w> Iesu, nid oes dim <w>didda<lb rend="shy"/>nwch,</w> help na chymorth i edrych
+<lb/>am dano.<!--ed amdano-->
+</p>
+</div>
+<div>
+<head><lb/>Pen. 6.</head>
+<p>
+<lb/><hi rend="italic">Tebygoliaethae, a chyfflybon yn <w>dan<lb rend="shy"/>gos,</w> pa fo&dhook; y mae duw i<isp/><apo/>n cospi, ac
+<lb/>i<isp/><apo/>n ceryddu, o fawr gariad,
+<lb/>trigaredd, a ffafr <w>tu<lb rend="shy"/>ac</w> attom.</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">P</hi>An fo 'r ollalluog dduw, er <w>rhy<pb rend="shy" n="33"/><lb/>glyddiadae</w> i fab, nid o feddwl <w>di<lb rend="shy"/>gofus,</w> ne o ddigter, eythr o ewyllys
+<lb/>da, ac o galon gariadlawn tu-ac <w>at<lb rend="shy"/>tom,</w> i<isp/><apo/>n cospi ac i<isp/><apo/>n ceryddu, ef a ellir
+<lb/>i gyfflybu, a<isp/><apo/>i alw 'n debyg, i dad,
+<lb/>i fam, i feistr, i physygwr, i <w>lafur<lb rend="shy"/>wr,</w> i Eurwr, ac i<isp/><apo/>r cyffelyb, fal
+<lb/>hynn.
+</p>
+<p>
+<lb/>Mal y mae tad naturiol, yn <w>gyn<lb rend="shy"/>taf</w> yn dyscu i anwyl blentyn, ac yn
+<lb/>ail yn i rybuddio, ac yn i gynghori,
+<lb/>ac yn y diwedd yn i geryddu, felly,
+<lb/>y mae y tad tragwyddol, yn profi
+<lb/>pob ffor&dhook; gida nineu, rhai ym
+<lb/>gwedi cynyddu mewn oedran, ac
+<lb/>etto, <corr resp="transcr" sic="ifanic">ifainc</corr> a meddalion yn y ffy&dhook;.
+<lb/><corr resp="transcr" sic="yn">Yn</corr> gyntaf, ef a ddysc i ni ei ewyllys,
+<lb/>drwy bregethiad ei air, ac a<isp/>'n <w>rhy<lb rend="shy"/>buddia.</w>&nbsp;<corr resp="transcr" sic="yrawrhon">Yrawrhon</corr> os nyni nis
+<lb/><orig reg="canllynwn">canlhynwn</orig> ef, yno ef ychydic a<isp/>'n
+<lb/>cur, ac a<isp/>'n <orig reg="chwistringa">chwystringa</orig> ni a <w>gwia<lb rend="shy"/>len,</w> fal weithieu a thlodi, weithieu
+<lb/>a chlefydon, ne ddoluriau, ne ryw
+<lb/>wrthwyneb arall, rhwn nis dylid
+<lb/>i farnu<note resp="transcr">= catch-word; no corresponding text on p. 34.</note>
+<pb n="34"/>
+<lb/><sic>ryw wrthwyneb ara&lhook;, rhwn nis <w>dy<lb rend="shy"/>lid</w> i farnu,</sic><note resp="transcr"><hi rend="italic">ryw wrthwyneb ara&lhook;, rhwn nis dylid i farnu</hi> accidentally repeated.</note> na<isp/><apo/>i alw, 'n ddim oll, ond
+<lb/>gwialen ne <corr resp="transcr" sic="fachgennaid&dhook;">fachgennaidd</corr>&nbsp;<w>gospedi<lb rend="shy"/>gaeth.</w> Os y cyfryw wielyn ni <w>hel<lb rend="shy"/>pia,</w> ac ni wnaiff ddim lles, yno i <w>cy<lb rend="shy"/>mer</w> y tad ffonn, ne fflangell, mal os
+<lb/>i fab a <orig reg="bengaleda">be<expan>n</expan>gleda</orig>, ne a dreilia i aria<expan>n</expan>, a<isp/><apo/>i
+<lb/><orig reg="hwsmonnaeth">smo<expan>n</expan>naeth</orig> yn drythyllgar, ac yn <w>a<lb rend="shy"/>fradlon,</w> mewn socandai ynghyd <corr resp="transcr" part="a" sic="a"></corr>
+<lb/><corr resp="transcr" part="b" sic="a">a</corr> chymdeithion diffaith, yna y daw
+<lb/>y tad, ac a<isp/><apo/>i tynn erbyn gwallt i 
+<lb/>benn, ef a rwym i draed, a<isp/><apo/>i <w>ddwy<lb rend="shy"/>law,</w> ac a<isp/><apo/>i cerydda nes dryllio i <w>es<lb rend="shy"/>cyrn,</w> ac a<isp/><apo/>i denfyn i garchar, ne ef a<isp/><apo/>i
+<lb/>gyrr ymaith ymhell o<isp/><apo/>i wlad. Yn
+<lb/><apo/>r vn mo&dhook; pan elom nineu <apo/>n <w>gildyn<lb rend="shy"/>us,</w> 'n afrowiog, ac yn ddibris <w><corr resp="transcr" part="a" sic="ge">ge</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="genym">nym</corr></w> am eirieu, a gwialennodae,
+<lb/>yna i denfyn duw attom blae <w>try<lb rend="shy"/>mach,</w> a chyffredinolach<!--ed chyffredmolach-->: mal, <w>no<lb rend="shy"/>deu,</w> drudaniaeth, cyfrysse&dhook;, <w>cyndd<lb rend="shy"/>ryge&dhook;,</w> trychineb gann dan, <w>llaw<lb rend="shy"/>ruddiad,</w> rhyfel, colliant o<isp/><apo/>r <w>oruw<lb rend="shy"/>chafieth,</w> fal pan' i<isp/><apo/>n dalier ga<expan>n</expan> ein <w>ge<pb rend="shy" n="35"/><lb/>lynion,</w> yn<!--=y'n?--> caethgludo yn <w>garchar<lb rend="shy"/>wyr.</w> Hynny o&lhook; a<!--ed appar. ol'a --> wnaiff ef, er<isp/>'n ofni
+<lb/>a<isp/>'n dofi ni ac megys wrth nerth er
+<lb/>yn cymell, a<isp/>'n gwthio i edifeirwch,
+<lb/>a gwella<expan>n</expan>t buche&dhook;. Yr awrho<expan>n</expan>, gwir
+<lb/>yw, fod yn erbyn ewyllys y tad, fal
+<lb/>hyn geryddu i fab, namyn <w>gwneu<lb rend="shy"/>thur</w>&nbsp;<corr resp="transcr" sic="i&dhook; aw">i&dhook;aw</corr> cymeint o les, ac a alle ef
+<lb/>fwyaf: eythr y plant, trwy <w>oddefga<lb rend="shy"/>rwch</w> a gormod mwytheu, a ant yn
+<lb/>anhywe&dhook;, ac a angofiant bob dysc.
+<lb/>Ac am hynny mae ef yn i ceryddu,
+<lb/>eto ynghanol i ddig a<isp/><apo/>i gery&dhook;, i <w>da<lb rend="shy"/>dawl</w> galo<expan>n</expan> a ymdde<expan>n</expan>gys: fal, o rhy&dhook;
+<lb/>ef i blentyn ymaith oddiwrtho, am
+<lb/>ryw fai dialeddus, etto ni enfyn ef
+<lb/>ddim o honaw, 'n ollawl yn <w>ddigy<lb rend="shy"/>ssur,</w> eythr ef a ry&dhook; iddaw beth <w>di<lb rend="shy"/>llad,</w> a geirieu confforddus, ac felly
+<lb/>ef a<isp/><apo/>i enfyn nid i aros dros byth alla<expan>n</expan>
+<lb/>o<isp/><apo/>i wlad ond er i alw ef adref <w>dra<lb rend="shy"/>chefn,</w> pann i gostynger, ir <w>vf<lb rend="shy"/>uddhaer;</w> ac i gwellhaer <w>y-chy<lb rend="shy"/>dic:</w> a hynn yn vnic yw meddwl y
+<pb n="36"/>
+<lb/>tad, sef, tynnu ymaith, a chadw <w>odd<lb rend="shy"/>iwrth</w> ei etife&dhook; 'r o&lhook; gyfryw bethau
+<lb/>a fydde<expan>n</expan>t eniweidiol iddaw, ne a<isp/><apo/>i <w><corr resp="transcr" part="a" sic="di">di</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="nistreint">nistrient</corr>,</w> ac nid gwrthod, a thaflu <w>y<lb rend="shy"/>maith</w> i blentyn dros byth: felly yn
+<lb/>ddiau, pann fo duw 'n anfon trueni,
+<lb/>a blinfyd ar ein gyddfe nineu, mae
+<lb/>tue&dhook;, a chalon dadawl, dann i wiale<expan>n</expan>
+<lb/>yn guddiedic: can's naturiol, ag
+<lb/>iawn briodoldeb duw, yw, bod yn
+<lb/>gariadlawn ac yn garedigawl, i <w>ia<lb rend="shy"/>chau,</w> cynorthwyo, a gwneuthur <w>dai<lb rend="om-shy"/>oni</w> y<isp/><apo/>w blant, sef, i hiliogaeth dyn.
+<lb/>Adda ag Efa pan i cyfleuwyd <w>ym<lb rend="shy"/>haradwys,</w> oni chynyscaeddwyd
+<lb/>hwy yn ddigonawl, a ffob peth da?
+<lb/>eto ni fedre<expan>n</expan>t hwy (ac ni fedr vn o <w>ho<lb rend="om-shy"/>no<expan>m</expan></w><!--W?--> ni) i ordrio a<isp/><apo/>i iawn arferu: eythr
+<lb/>cyn gynted ac i caffom bob peth a
+<lb/>chwenychom heb arnom eisieu dim
+<lb/>a<isp/><apo/>r<!--a'r--> a fedrwn i ddysyfu, yna yn <w>ddis<lb rend="shy"/>ymwth</w> irr awn yn ddifraw ac yn
+<lb/>ddiddarbodus: ac am hynny i de<expan>n</expan>fyn
+<lb/>duw i ni ddrwg, fal i gallo <w>wneu<pb rend="shy" n="37"/><lb/>thur</w> i ni dda, ac etto ynghanol ein
+<lb/>oll flinfyd, a<isp/>'n cospedigaeth, ef a <w>en<lb rend="shy"/>fyn</w> beth esmwythdra, di-dda<expan>n</expan>wch, a
+<lb/>chymorth: ac ni a a&lhook;wn gymryd <w>sia<expan>m</expan><lb rend="om-shy"/>pl,</w><!--ed siam-/pl, with hyphen--> o<isp/><apo/>n rhagddoededig rieni, Adda ag
+<lb/>Efa: pann ydoe&dhook; duw yn cwbl <w>fw<lb rend="shy"/>riadu,</w> ac ar ael i bwrw a<isp/><apo/>i taflu alla<expan>n</expan>
+<lb/>o Baradwys, yn gyntaf ef a<isp/><apo/>i <w>dilla<lb rend="shy"/>do&dhook;,</w> rag rhew, ac anger&dhook; y towy&dhook;,
+<lb/>ac ef a<isp/><apo/>i diddano&dhook; hefyd a gaddewid
+<lb/>o<isp/><apo/>r bendigedic had, 'rhwn a wnaiff
+<lb/>bob adfyd, nid yn vnic yn esmwyth,
+<lb/>ac yn ddineweidiol ini, eythr yn <w>ia<lb rend="shy"/>chus</w> ac yn fuddiol hefyd.
+</p>
+<p>
+<lb/>A<isp/><apo/>r natur honn ni newidia 'r <w>ane<lb rend="shy"/>widiol</w> dduw byth, eythr ef a<isp/><apo/>i ceidw
+<lb/>yn oestadol, ni wrthyd ef ny ni yn
+<lb/>gwbl, ond yn vnic ef a oddef i ni <w>fer<lb rend="shy"/>wino</w> ychydig, am y pechodae a <w>wna<lb rend="om-shy"/>ethom,</w> ac felly ef a<isp/><apo/>n ceidw rhag <w>pe<lb rend="shy"/>chu</w> drachefn, rhag digwyddo o <w>ho<lb rend="shy"/>nom,</w><!--W?--> i enbydrwy&dhook; poenau <w>trag<lb rend="shy"/>wyddol.</w>
+</p>
+<p>
+<lb/>Heb law hynn, bwrier fod i wr
+<pb n="38"/>
+<lb/>ddau o feibion, vn drwg <w>anwiredd<lb rend="shy"/>us,</w> ac etto i dad ni chosbiff, ac ni
+<lb/>cheryddiff ddim o honaw, a<isp/><apo/>r llall a
+<lb/>godir i fyny, ac yn brysur a <w>gerydd<lb rend="shy"/>ir</w> am y bai lleiaf: beth yw 'r achos
+<lb/>o hyn, ond bod y tad yn ddiobaith,
+<lb/>o wellhad y naill vn amser, a<isp/><apo/>i fod
+<lb/><apo/>n bwriadu am hyny i ddietifeddu
+<lb/>ef<isp/>'n<!--ed ef 'n --> llwyr ac na roddo ef ddim <w>idd<lb rend="shy"/>aw?</w> Can's yr etifeddiaeth yn gwbl
+<lb/>a berthyn i<isp/>'r mab a geryddir, ac a
+<lb/>gosbir: etto y plentyn truan a <w>gos<lb rend="shy"/>bir</w> fal hynn, a dybia yn i feddwl, fod
+<lb/>ei frawd yn <corr resp="transcr" sic="ddedwy&dhook; ach">ddedwy&dhook;ach</corr>,<!--ed ddedwyd'ach--> nac yw
+<lb/>ef, am na churir, ac am na cheryddir
+<lb/>ef vn amser. Ac am hyny, ef a <w><corr resp="transcr" part="a" sic="ochnei">ochnei</corr><lb rend="om-shy"/><corr resp="transcr" part="b" sic="deidia">dia</corr>,</w><!--corr?--> ac a gwynfan wrthaw i hun
+<lb/>ag a fe&dhook;wl fal hyn: wele, fy<isp/>mrawd
+<lb/>a wnaiff yr hynn a ewyllysiff yn <w>er<lb rend="shy"/>byn</w> ewyllys fy<isp/>nhad, ac heb i <w>gen<lb rend="shy"/>nad,</w> ac ni ry&dhook; fy<isp/>nhad air hagr <w>idd<lb rend="shy"/>aw:</w> ef a ad i&dhook;aw gael ei bleser a <w>rho<lb rend="om-shy"/>dio</w> lle i mynno, ond tuac att yfi nid
+<lb/>edrych ef vnwaith yn rhowiog onid
+<lb/>bod<note resp="transcr">= catch-word; no corresponding text on p. 39.</note>
+<pb n="39"/>
+<lb/>byth <apo/>n fy<isp/>nhop<!--ed fynhep-->, os edrychaf vnwaith
+<lb/>ar gam. Llyma i gelli weled <w>ffoli<lb rend="shy"/>neb,</w> ac anwybodaeth y plentyn, yr
+<lb/>hwnn a ystyr yn vnic y gofyd <w>pre<lb rend="shy"/>sennol,</w> heb gofio nac ystyr vn amser
+<lb/>yr hynn a gedwir iddaw ef yn stor.
+</p>
+<p>
+<lb/>Cyffelyb feddylieu a <corr resp="transcr" sic="bwraiadau">bwriadau</corr>, a
+<lb/>fy&dhook; mewn cristnogion, pann <w>odde<lb rend="shy"/>font</w> flinder lawer, a gweled pa fo&dhook;
+<lb/>o<isp/><apo/>r tu arall y llwydda<isp/>'r<!--ed llwydda 'r--> anuwiol a<isp/><apo/>r
+<lb/>anwir. Hwy a ddylent yn hytrach
+<lb/>i sirio a<!--?--> hunain, gann gofio yr <w>etife&dhook;<lb rend="om-shy"/>iaeth</w> 'rhon' a gedwir yddynt hwy
+<lb/><apo/>n y nefoe&dhook;, ac a berthyn y&dhook;yn hwy
+<lb/>megys i blant da rhinweddol: am y
+<lb/>llaill 'rhain a lammant, ac a <w>neidi<lb rend="shy"/>ant,</w> a wnant yn llawen, ac a <w>gyme<lb rend="shy"/>rant</w> ei pleser yrawron dros ennyd,
+<lb/>hwy a ddeolir o<isp/><apo/>r etifeddiaeth yn
+<lb/>dragowy&dhook;, megys dieithrieit, ac ni
+<lb/>chant, rann na chyd, o honi. A hynn
+<lb/>a brwfia Sanct Pawl, pann <w>ddy<lb rend="shy"/>waid</w> ef: Fy mab, nac esclusa
+<lb/>gosbedigaeth yr arglwydd, ac
+<pb n="40"/>
+<lb/>na lausa pann i<isp/><apo/>th gerydder di <w>gan<lb rend="shy"/>tho:</w> canys y neb a garo 'r arglwy&dhook;
+<lb/>ef a<isp/><apo/>i cosba, a fflangellu a wna ef bob
+<lb/>mab a dderbynio: os goddefwch <w>gos<lb rend="om-shy"/>bedigaeth,</w> megys i feibion y mae
+<lb/>duw yn ymgynig i chwi: canys pa
+<lb/>fab fy&dhook; nis cosba<!--ed cos ba, uncertain--> i dad ef? Eythr os
+<lb/>heb gospedigaeth yddych, o<isp/><apo/>r honn y
+<lb/>mae pawb <apo/>n gyfrannog, meibon <w><corr resp="transcr" part="a" sic="or">or</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="derch">dderch</corr></w> ydych ac nid o briod. <corr resp="transcr" sic="yn">Yn</corr> y <w>gei<lb rend="shy"/>rieu</w> hynn, mae S. Pawl yn eglur
+<lb/>yn cyfflybu cosbedigaeth yr <w>argl<lb rend="shy"/>wy&dhook;</w> i gery&dhook; tad cnawdol, ac i bwy
+<lb/>ni <corr resp="transcr" sic="wnaiffy">wnaiff y</corr><!--ed wnaiff y--> geirieu hyn' ofni, a <w>chryn<lb rend="om-shy"/>nu,</w> lle i dowaid ef, fod yr oll rai ni
+<lb/>cheryddir yn fastardieit, ac nid pla<expan>n</expan>t
+<lb/>cyfraithlon? Ag eilwaith pwy nis
+<lb/>llawenheiff, pann ddowaid ef, fod y
+<lb/>sawl a geryddir, yn blant o briod?
+<lb/>Erwy&dhook; paham, er bod yr ollallvog
+<lb/>arglwy&dhook;, yn i ddangos i hu<expan>n</expan> yn <w>ddig<lb rend="om-shy"/>llon</w> wrthym, nid yw hyn ddim, ond
+<lb/>anwes tad naturiol, caredigai&dhook;, yr
+<lb/>hwn' ni chais ein dinistr, a<isp/>'n cwymp
+<pb n="41"/>
+<lb/>eythr yn vnic, ein gwellad, a<isp/><apo/>n bu&dhook;:
+<lb/>ymddyro dy hun gann hynny drwy
+<lb/>ymyne&dhook;, i ewyllys duw dy dad
+<lb/>ffyddlon, by&dhook; orfoleddus <w>ynghosbe<lb rend="om-shy"/>digaeth</w><!--ed ynghos be; uncertain--> 'r arglwy&dhook;, gann dy fod yn
+<lb/>siccr drwy hynny, i fod ef yn dwyn
+<lb/>calo<expan>n</expan>, me&dhook;wl, ac ewyllys graslawn,
+<lb/>tadawl tuac attat.
+</p>
+<p>
+<lb/>Heb law hynn, duw a gyfflybir i
+<lb/>fam: y famm a fwydiff, ag a fegiff i
+<lb/>etife&dhook;, a<isp/><apo/>r oll ddaioni a ddichon hi,
+<lb/>hi a<isp/><apo/>i <corr resp="transcr" sic="gnaiff">gwnaiff</corr> iddaw, a hynn o galon
+<lb/>fammawl rowiogai&dhook;: ac etto drwy
+<lb/>anhyweithder ag afrwoldeb y <w>plen<lb rend="shy"/>tyn,</w> hi a gythruddir, ac weithiau hi
+<lb/>a gynhyrfir i ddigio wrthaw, y<isp/><apo/>w
+<lb/>ddwrdio, y<isp/><apo/>w geryddu, ag y<isp/><apo/>w guro
+<lb/>ef: felly i mae gwir natur a <w>ffriodol<lb rend="shy"/>deb</w> duw, na ddioddefe ef i anffawd
+<lb/>yn y byd ddigwyddo ini, etto ein
+<lb/>amryw bechodae ni, a<isp/><apo/>i cymellant
+<lb/>ef i<isp/><apo/>n cospi ag i<isp/><apo/>n ceryddu: yr awrho<expan>n</expan>,
+<lb/>fal nad yw y fam, yn gwadu: yn
+<lb/>gwrthod, nac yn rhoi ymaith i <w>eti<pb rend="shy" n="42"/><lb/>fe&dhook;,</w> er i bod <apo/>n ddicllo<expan>n</expan> wrthaw felly
+<lb/>duw ni wrthyd ac ni wediff ddim o
+<lb/>honom ninneu, yn ein ing, angen, a<isp/><apo/>n
+<lb/>cledi mwyaf, er iddaw gymryd <w>ar<lb rend="shy"/>naw,</w> fod yn ddigofus aruthr <w>wrth<lb rend="shy"/>ym:</w> yr scrythur lan yw yn <w>awdur<lb rend="shy"/>dod</w> am hynn: a anghofia gwraig ei
+<lb/>phlentyn sugno fal na thosturio
+<lb/>wrth fab ei chroth? pe anghofie y
+<lb/>rhai hynn, etto myfi nid <w>angho<lb rend="shy"/>fiwn</w> di.
+</p>
+<p>
+<lb/>Nid oes vn athro, na gwr o <w>gel<lb rend="shy"/>fyddyd,</w> a gymer scolhaig, ne <w>bren<lb rend="shy"/>tis</w> y<isp/><apo/>w ddyscu, heb wneuthur yr <w>a<lb rend="shy"/>modau</w> hynn ac ef yn bendifaddef,
+<lb/>sef na byddo i<isp/><apo/>r llanc fod yn <w>opinion<lb rend="shy"/>gar,</w> ne yn gildynus, ac na <w>chanlly<lb rend="shy"/>no</w> ef i synnwyr a<isp/><apo/>i feddwl ei hun, <w>ey<lb rend="shy"/>thr</w> gofalu yn ddiwyd ac yn dyfal,
+<lb/>am yr hynn irr addyscer gann i <w>a<lb rend="shy"/>thro,</w> ac o by&dhook; ef difraw, ac yn <w>chwa<lb rend="shy"/>re</w> 'r gwas diofal, bod yn fodlon
+<lb/>ganthaw i geryddu gann i feistr.
+<lb/>Yr awrhon, nid yw y meistr yn <w>ce<pb rend="shy" n="43"/><lb/>ryddu</w> ei scolaig, neu ei was er <w>me<lb rend="shy"/>ddwl</w> i friwo ef, ne o falais a drwg
+<lb/>ewyllys iddaw, ond er dyscu o <w>ho<lb rend="shy"/>naw</w><!--W?--> yn well o hynny allan, bod yn
+<lb/>fwy dilys, a chymeryd mwy gofal.
+</p>
+<p>
+<lb/>Felly yn 'r vn mo&dhook; ni dderbyn
+<lb/>Christ vn scolaig, na dyscybl attaw
+<lb/>heb wneuthur amodau ag efo, <w>an<lb rend="shy"/>genrheidiol</w> i bob cristion, 'rhain a
+<lb/>yspysir yn Efengil Sainct <w>Ma<lb rend="shy"/>thew.</w>
+</p>
+<p>
+<lb/>Ac yn ddiau gair duw yw y rhwol
+<lb/>wrth ba vn i dylem ni, yn <w>llywodra<lb rend="shy"/>ethu</w> ein hunain eythr gwell <w>gen<lb rend="shy"/>nym</w> o lawer, galyn ein dyfais a<isp/><apo/>n
+<lb/>synwyr ein hun, rhain yn fynych a<isp/><apo/>n
+<lb/>twysant ar gam, allan o<isp/><apo/>r iawn
+<lb/>ffor&dhook;: am hynny y nefawl athro,
+<lb/>a<isp/><apo/>n cur ni (rhyd ein bysse&dhook;) hyd oni
+<lb/>ddehallom ac oni ddyscom i <w>ewyl<lb rend="shy"/>lys</w> ef yn berffeiddiach.
+</p>
+<p>
+<lb/>Mal y mae yn rhaid i<isp/><apo/>r physygwr,
+<lb/>ne 'r meddig, dorri ymaith, a llosci,
+<lb/>ymarwgig <corr resp="transcr" sic="pydregig">pydredig</corr> a<isp/><apo/>i hayarn,
+<pb n="44"/>
+<lb/>ne a<isp/><apo/>i offer, rhag llygru a <w>gwenwy<lb rend="shy"/>no</w><isp/>'r<!--ed -no 'r --> oll gorff, a<isp/><apo/>i gyfergolli, felly
+<lb/>duw sy weithiau yn cosbi ein cyrff
+<lb/>ninneu yn dost, ac yn ofidus, er <w>ca<lb rend="shy"/>dw,</w> ac iachau ein eneidiau ni. Ac er
+<lb/>dyfned i gwthio duw 'r hayarn i
+<lb/>fewn i<isp/><apo/>n cnawd, a<isp/>'n cyrff ni, ef a<isp/><apo/>i
+<lb/>gwnaiff yn vnic, er yn helpio a<isp/><apo/>n <w>ia<lb rend="shy"/>chau:</w> ac os damwain iddaw yn lla&dhook;
+<lb/>yno ef a<isp/><apo/>n dwg i<isp/><apo/>r iawn fywyd. Y
+<lb/>Physygwr wrth wneuthur y <w>tria<lb rend="shy"/>gl</w> a gascl y Seirff a<isp/><apo/>r nadroe&dhook;, sef,
+<lb/>i orchfygu vn gwenwyn drwy rym
+<lb/>y llall: felly, duw pann i<isp/><apo/>n ceryddiff,
+<lb/>ac in cospiff ninneu sy yn fynych yn
+<lb/>codi ac yn gosod Diawl, a ffobl <w>an<lb rend="shy"/>wir</w> i<isp/><apo/>n herbyn, a hynn oll a wnaiff
+<lb/>ef, er daioni i ni.
+</p>
+<p>
+<lb/>Tra fyddo gann y Physygwr
+<lb/>ddim gobaith o wellad yn y claf, ef
+<lb/>a braw bob ffor&dhook; a ffob <w>meddegini<lb rend="shy"/>aeth,</w> yn gystal y sur a<isp/><apo/>r tost, a<isp/><apo/>r <w>me<lb rend="shy"/>lys</w> a<isp/><apo/>r hyfryd: ond pan amhevo ef
+<lb/>fod dim gwellad yn agos, ef a ad
+<pb n="45"/>
+<lb/>iddaw gael i rydyd ar bob peth, a<isp/><apo/>r<!--a'r-->
+<lb/>y mae ef yn i flysio: felly y nefawl
+<lb/>physygwr tra gymero ef ni, <w>ghrist<lb rend="shy"/>nogion,</w> yn lle 'r eiddaw i hun, a
+<lb/>chanthaw obaith o<isp/>'n iechyd, ef a
+<lb/>rwystr ac a wahar&dhook; i ni ein <w>ewyll<lb rend="shy"/>ys,</w> ac ni ad i ni gael y peth i ddym
+<lb/>yn i chwantu fwyaf: eythr pan <w>fy<lb rend="shy"/>tho</w> ef anobaithol o honom ni a ffa<expan>n</expan>n
+<lb/>i<isp/><apo/>n rhoddo ef ni i fyny yno i gediff
+<lb/>ef i ni tros amser, gael a mwynhau
+<lb/>ein chwant, a<isp/><apo/>n pleser. <corr resp="transcr" sic="y">Y</corr>&nbsp;<w>cyfflybr<lb rend="shy"/>wy&dhook;</w> hwn a dynnwyd allan, o<isp/><apo/>r <w>pu<lb rend="shy"/>med</w> llith o Iob: os yr arglwy&dhook;
+<lb/>dduw a archolliff, i law ef eilchwel
+<lb/>a iacheiff.
+</p>
+<p>
+<lb/>Pann roddo marchog ceffyl, i
+<lb/>farch ifanc, hoew, nwyfus, ormod o<isp/><apo/>r
+<lb/>ffrwyn, e fy&dhook; gwylld a thrythyll,
+<lb/>ac ni cher&dhook;&nbsp;<corr resp="transcr" sic="fali">fal i</corr><!--ed fal i --> dyle: ac ond odid
+<lb/>pann ddel i le gwlyb llithrig, ef a
+<lb/>syrth i lawr bendromwnwgl: felly
+<lb/>yn 'r vn mo&dhook;, os yn creawdr, a<isp/>'n
+<lb/>gwneuthurwr, a oddefe i ni <corr resp="transcr" sic="or mod">ormod</corr>
+<lb/>gann<note resp="transcr">= catch-word; no corresponding text on p. 46.</note><!--confusion?: ormod gann ormod?-->
+<pb n="46"/>
+<lb/>ormod rhwysc a rhydid, yn ebrwy&dhook;
+<lb/>ni aem yn wylltion, ac a falchiem o
+<lb/>hynny, ac ond antur ni a<isp/>'n drygem
+<lb/>ac a<isp/>'n difethem <apo/>n hunain, am hynny
+<lb/>e' ry&dhook; hayarn llym yn <apo/>n safnau ni,
+<lb/>ac a<isp/>'n helpia i ffrwyno, ac i ddofi y
+<lb/>cnawd, rhag cyfergolli 'r <w>ardderch<lb rend="shy"/>awg,</w> a<isp/><apo/>r gwyrthfawr enaid.
+</p>
+<p>
+<lb/>Drachefn: fal i mae Certweiniwr
+<lb/>yn curo i feirch, a<isp/><apo/>i chwip ne i <w>fflan<lb rend="shy"/>gell,</w> ac <apo/>n i baeddu 'n dost, pryd na
+<lb/>thynant, a phann nad ant yn i blae<expan>n</expan>,
+<lb/>ac er hynny ef a<isp/><apo/>i herbyd hwy <w>he<lb rend="shy"/>fyd,</w> ac a wnaiff yn fawr o honynt,
+<lb/>er mwyn i caffael y<isp/><apo/>w mwynhau a
+<lb/>fo hwy, felly duw a<isp/>'n curiff, ag a<isp/>'n
+<lb/>fflangeliff nineu, pann na wnelom
+<lb/>'r hyn a ddylom, yn iawn: ac er hyn
+<lb/>i gyd ef a<isp/>'n erbyd, ac ni wnaiff <w>ddi<lb rend="shy"/>we&dhook;</w> yn gwbl o honom.
+</p>
+<p>
+<lb/>Fal y mae y bugail, pann <w>gyfeili<lb rend="shy"/>orno</w> i ddefaid ef, yn y gwlltoe&dhook;, a<isp/><apo/>r
+<lb/>anialwch <corr resp="transcr" sic="ymlihith">ymhlith</corr> bleiddieid, yn i
+<lb/>gyrru drwy lwybrau dieithr i<isp/><apo/>rr
+<pb n="47"/>
+<lb/>iawn ffor&dhook;, ac yn i hel y<isp/><apo/>w <w>corlann<lb rend="shy"/>au,</w> lle i gallant fod yn ddiofal: felly
+<lb/>yn 'r vn mo&dhook; (yn gymeint a<isp/>'n bod
+<lb/>ni yn fynych yn gymyscedig a rhai
+<lb/>bydol, ag yn gymdeithion i<isp/><apo/>rr sawl
+<lb/><corr resp="transcr" sic="sy&dhook;elynnion">sy&dhook; elynnion</corr><!--ed syd' elynnion--> i<isp/><apo/>n crefy&dhook; gwir <w>Grist<lb rend="shy"/>nogai&dhook;)</w> fe ddaw duw attom, ag a<isp/><apo/>n
+<lb/>didol drwy dristwch ac edifeirwch
+<lb/>oddiwrthynt, rhag yn difetha a<isp/>'n
+<lb/>cyfergolli gidac hwynt. Bugeil y
+<lb/>gwartheg a ad i<isp/><apo/>rr cyfryw loie a <w>or<lb rend="shy"/>deiniwyd</w> i<isp/><apo/>r lladdfa, redeg, a lla<expan>m</expan>mu
+<lb/>ffor&dhook; a fynnant o amgylch y borfa:
+<lb/>eythr y rhai a gedwir i lafurio, a <w>fei<lb rend="shy"/>thrinir,</w> ac a arferir da<expan>n</expan> yr iau: felly <apo/>r
+<lb/>ollalluog &dhook;uw, sy 'n goddef ac<isp/>'n<!--ed ac 'n-->&nbsp;<w>ga<lb rend="om-shy"/>dael</w> i<isp/><apo/>r anuwolion (rhai sy&dhook; a<isp/><apo/>i <w>diny<lb rend="shy"/>str</w> garllaw) fwynhau ei chwant, a<isp/><apo/>i
+<lb/>pleser ar y ddayar ho<expan>n</expan>, a chyflawni, a
+<lb/>chwplau, i wllys a<isp/><apo/>i damuniant: <w>ey<lb rend="shy"/>thr</w> y rhai duwiol, rhain a feithrin ef
+<lb/>er i anrhyde&dhook;, a<isp/><apo/>i ogonia<expan>n</expan>t, a geidw
+<lb/>ef da<expan>n</expan>n <apo/>r iau, ga<expan>n</expan>n i gwahar&dhook; a<isp/><apo/>i attal
+<lb/>oddiwrth oll chwantae bydol.
+</p>
+<pb n="48"/>
+<p>
+<lb/>Y llafurwr synhwyrol, celfy&dhook;
+<lb/>ni theifl, ac ni hauiff i had, mewn
+<lb/>maes, ne dir, ni byddo gwedi i dorri,
+<lb/>i aredig, a<isp/><apo/>i lafurio yn iawn mal i <w>dy<lb rend="shy"/>le,</w> ond ef a ddeil ei ychen, ac aiff i<isp/><apo/>r
+<lb/>maes, ef a dry ac a eir&dhook; y tir, gann i
+<lb/>ffaethu a<isp/><apo/>i raglyfnu, ac yno ef a<isp/><apo/>i <w>ha<lb rend="shy"/>viff,</w> ag a<isp/><apo/>i llyfn, fal pann ddescyno 'r
+<lb/>glaw, i cadwer yr had, ag i gyrrer
+<lb/>i<isp/><apo/>rr ddaear, fal i gwreiddio, ac i <w>cy<lb rend="shy"/>nyddo</w> ynthi: cyffelyb lafurwr <corr resp="transcr" sic="yu">yw</corr>
+<lb/>duw, a nineu ym i lafur ef: ac nid
+<lb/>yw ef yn rhoddi ei yspryd a<isp/><apo/>i <w>wirio<lb rend="shy"/>ne&dhook;,</w> i<isp/>'r rhai sy&dhook; wylldion, ac heb
+<lb/>ofn duw arnynt.
+</p>
+<p>
+<lb/>Heb law hynn, fal i mae <w>gardd<lb rend="shy"/>wr</w> yn cau i ar&dhook; o<isp/><apo/>i hamgylch, ac yn
+<lb/>i chadw a drain a mieri, fal na <w>ddi<lb rend="shy"/>chon</w> yr anifeilieit i drygu, felly
+<lb/>mae duw yn ein <corr resp="transcr" sic="ymdyffyn">ymddyffyn</corr>, yn ein
+<lb/>gwilio, ac yn ein cadw nineu <w>oddi<lb rend="shy"/>wrth</w> bob drwg cyfeillach, ac <w>oddi<lb rend="shy"/>wrth</w> bob pechod, drwy ddrain a <w>mi<lb rend="shy"/>eri,</w> (sef yw hynny) drwy y groes ac
+<pb n="49"/>
+<lb/>adfyd, fal i dywaid Oseas: mi a <w>ga<lb rend="shy"/>vaf</w> i fyny dy ffor&dhook; di a drain, ac a
+<lb/>furiaf fur fal na cheffych dy <w>lwy<lb rend="shy"/>brau.</w>&nbsp;<corr resp="transcr" sic="os">Os</corr> y garddwr a scythra <w>y<lb rend="shy"/>maith,</w> y cnyckieu a<isp/><apo/>r ceincieu <w>cei<lb rend="shy"/>mion</w> o<isp/>'r prennie yn yr ar&dhook;, gann i
+<lb/>difrigo ychydig: etto cyd biddo 'r
+<lb/>gwrei&dhook;in <apo/>n ddifriw, nid gwaeth y
+<lb/>prennieu, eythr cynyddu a wnant, a
+<lb/>ffrwytho: felly mae duw yn torri ac
+<lb/>yn cymynu 'r hen Adda gnykus,
+<lb/>drwy y groes, nid er meddwl ein
+<lb/>briwo ne wnethur<!--sic--> eniwed ini, ond
+<lb/>er ein cadw mewn ofn, ac er yn <w>ca<lb rend="shy"/>dw</w> mewn duwiol arferau. Ac yn
+<lb/>ddiau cyd byddo gwreiddin ffy&dhook;
+<lb/>yn aros ynom, er ein bod yn <w>ysbai<lb rend="shy"/>ledig</w> ac yn ddiddim o olud, a ffob
+<lb/>bath ar ddiddanwch bydol a <w>chor<lb rend="shy"/>fforawl,</w> eto ni a ddygwn ffrwythau
+<lb/>daionus, er mwy anrhyde&dhook;, a <w>gogo<lb rend="om-shy"/>niant</w> i sancteiddlan enw duw.
+</p>
+<p>
+<lb/>Cristnogion heb y groes a <w>gyffly<lb rend="shy"/>bir</w> i<isp/><apo/>r grawnwin, 'rhain sy yn tyfu
+<pb n="50"/>
+<lb/>ar y gwinwy&dhook;, ac yn cael <w>mwyni<lb rend="shy"/>ant</w> yr wybren egored, ac etto, <apo/>n <w>oe<lb rend="shy"/>stad</w> ydynt ar ei gwy&dhook; yn <w>anffrwy<lb rend="shy"/>thlawn,</w> eb neb yn well erddyn: <w>Er<lb rend="shy"/>wy&dhook;</w> paham y nefawl winllanwr,
+<lb/>a<isp/><apo/>i dwg hwy i<isp/><apo/>rr gwinwryf, y<isp/><apo/>w <w>cu<lb rend="shy"/>ro,</w> y<isp/><apo/>w sigio ag y<isp/><apo/>w dryllio, nid er i
+<lb/>difa, eythr er i gwaredu oddiwrth
+<lb/>lygredigaeth, a halogiad <w>trachwan<lb rend="shy"/>tae</w> bydol, ag fal i galla<expan>n</expan>t ddwyn <w>all<lb rend="shy"/>an</w> win melys, a ffrwythau <w>hyfryd<lb rend="shy"/>lawn.</w> Eurwr, a deifl ddryll o aur,
+<lb/>i<isp/><apo/>r ffwrn danllyd, nid y<isp/><apo/>w yssu gan y
+<lb/>tan, ond y<isp/><apo/>w burhau oddiwrth <w>ly<lb rend="shy"/>gredigeth</w> sy ynthaw, ac fal i byddo
+<lb/>i bob peth sy&dhook; ynthaw, (rhwn nid
+<lb/>yw aur) losci ymaith gann y tan, a
+<lb/>myned yn lludw: felly, duw yw gof
+<lb/>yr aur, y byd yw 'r ffwrnais, adfyd
+<lb/>yw 'r tan, y ffyddlonieit Gristnogio<expan>n</expan>
+<lb/>yw 'r aur, yr amhure&dhook; a<isp/><apo/>r llwgr yw
+<lb/>pechod. <corr resp="transcr" sic="yr">Yr</corr> awrhon, duw a buriff ac
+<lb/>a lanheiff y rheini a berthynant <w>idd<lb rend="shy"/>aw</w> ef, oddiwrth bob bryche, a <w>lly<pb rend="shy" n="51"/><lb/>gredigaeth,</w> ac a<isp/><apo/>i gwnaiff yn <w>ogo<lb rend="shy"/>neddus,</w> ac yn brydferth iddaw i
+<lb/>hun. Y Saer maen a dyrr y cerrig
+<lb/><orig reg="caledion">cledion</orig>, ac a<isp/><apo/>i na&dhook;, peth yma, peth
+<lb/>ackw, peth ffordd arall, oni wneler
+<lb/>hwy, yn gyfleus ac yn gymwys i<isp/><apo/>rr
+<lb/>man lle i gosoder: felly yn 'r vn
+<lb/>modd, duw 'r hwn yw 'r saer maen
+<lb/>nefawl, sy 'n adeilad eglwys <w>ghrist<lb rend="om-shy"/>nogai&dhook;,</w> ac ef a<isp/>'n gweithia ac a<isp/>'n
+<lb/>addurniff ni rhai ym gerrig costus,
+<lb/>gwrthfawr drwy y groes ag adfyd,
+<lb/>fal i tynner ymaith pob ffieidddra
+<lb/>ac anwire&dhook;, 'rhain ni chydgordia<expan>n</expan>t,
+<lb/>a<isp/><apo/>r adeilad ogoneddus honn. <w>Dra<lb rend="shy"/>chefn:</w> mal i mae y lliwy&dhook;, a<isp/><apo/>r vn sy
+<lb/>yn cannu lliain, a<isp/><apo/>r olchwraig, yn
+<lb/>golchi, yn curo, ac yn gwascu y <w>bu<lb rend="shy"/>dron</w> a<isp/><apo/>r aflan ddillad, fal i gwneler
+<lb/>yn wnnion, yn lan, ag yn gannaid,
+<lb/>felly i gwnaiff duw yn fynych o <w>am<lb rend="shy"/>ser</w> a ninneu, er yn gwneuthur yn
+<lb/>bur, yn lan, ac yn ddifeius.
+</p>
+</div>
+<pb n="52"/>
+<div>
+<head><lb/>Pen. 7.</head>
+<p>
+<lb/><hi rend="italic">Trwbleth ac adfyd, a <corr resp="transcr" sic="wasnaethnat">wasnaethant</corr>
+<lb/>i<isp/><apo/>n treio, ac i<isp/><apo/>n profi ni.</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">G</hi>orthrymder ac adfyd, sy yn
+<lb/>profi, yn addyscu, yn sicrhau,
+<lb/>ac yn cadarnhau y ffy&dhook;, yn ein <w>cy<lb rend="shy"/>mell,</w> ac yn ein annog i weddiaw: yn
+<lb/>ein gwthiaw ac yn ein cynhyrfu i
+<lb/>wellant buche&dhook;, i ofni duw, i <w>vfu&dhook;<lb rend="hyphen"/>dod,</w> ymyne&dhook;, dianwadalwch, <w>tiri<lb rend="shy"/>ondeb,</w> sobrwe&dhook;, cymedroldeb, ac i
+<lb/>ddylyn bob rhinwe&dhook;: ac ydynt <w>a<lb rend="shy"/>chosion</w> o lawer o ddaioni, yn gystal
+<lb/>trancedic, a thragwyddol, yn y byd
+<lb/>hwn, ac yn<!--article?--> byd a ddaw. <corr resp="transcr" sic="drwy">Drwy</corr>&nbsp;<w>orth<lb rend="shy"/>rymder</w> ac adfyd, i praw duw, i <w>cra<lb rend="shy"/>ffa,</w> ac irr edrych ddyfndwr dy galo<expan>n</expan>
+<lb/>tuac atto ef: pa gymeint a ddicho<expan>n</expan> dy
+<lb/>ffy&dhook; di i ddioddef a<isp/><apo/>i dderbyn: ac a
+<lb/>elli di ymwrthod a thi dy huna<expan>n</expan>, a oll
+<lb/>greadurieit y byd, er i fwyn ef. ac, i
+<lb/>ddoedyd mewn byrr eirieu: e fynn
+<lb/>wybod, pa fo&dhook; ir ymwreddi di dy
+<pb n="53"/>
+<lb/>hun, pann ddygo ef yn ollawl <w>oddi<lb rend="shy"/>arnat,</w> ac allan o<isp/><apo/>th olwg yr hynn i
+<lb/>ddoeddyt ti yn ymddigrifhau fwyaf
+<lb/>ynthaw, ac yn i hoffi yn be<expan>n</expan>naf ar y<lb rend="superfluous-shy"/>ddayar: fe wyr duw yn ddigon da
+<lb/>ymlae<expan>n</expan> llaw pa we&dhook; i cymeri di <w>hyn<lb rend="om-shy"/>ny,</w> a beth a fy&dhook; dy oddef: ond er hyn
+<lb/>ef a ddengys ac a eglurheiff i ti, ac i<isp/><apo/>r
+<lb/>byd hefyd, beth sy ynot: cans yn <w>fy<lb rend="shy"/>nych,</w> pobl a ga<expan>n</expan>mola<expan>n</expan>t wr, ac a wna<expan>n</expan>t
+<lb/>y fath ffrost o honaw ef, (sef) i fod ef,
+<lb/>yn ddoethaf, yn gallaf, yn wrolaf, ac
+<lb/>yn onestaf gwr mewn gwlad, &amp;c.
+<lb/>ond pa<expan>n</expan>&nbsp;&dhook;elo 'r amser y<isp/><apo/>w brofi ef, nid
+<lb/>oes dim o<isp/><apo/>r fath beth ynthaw, a<isp/>'r<!--a'r--> a
+<lb/>oeddyd yn tybied fod, ne a<isp/><apo/>r<!--a'r--> a <w>oedd<lb rend="shy"/>yd</w> yn i ddiscwyl am dano: ni ddicho<expan>n</expan>
+<lb/>gwr adnabod y milwr cryf <w>calon<lb rend="shy"/>nawg,</w> yn a<expan>m</expan>ser heddwch, ond mewn
+<lb/>amser rhyfel, pann fyddo y creulon
+<lb/>elyn, yn gorthrymu ac yn rhuthro i
+<lb/>gapte<expan>n</expan> ef. <corr resp="transcr" sic="pan">Pa<expan>n</expan></corr><!--expan in sic?--> gyfodo temestl aruthrol
+<lb/>ar y mor, yno i gwelir, a fy&dhook; meistr
+<lb/>y llo<expan>n</expan>g gyfarwy&dhook; i lywio<isp/>'r llyw, ai
+<pb n="54"/>
+<lb/>na bo y rheini sy onestaf a diweiriaf
+<lb/>wrage&dhook;, rhain pan i temptier, pan i
+<lb/>dener, ne pann i llithier i anwire&dhook;,
+<lb/>a gadwant er hynn i gyd i cred <w>bri<lb rend="shy"/>odas</w> y<isp/><apo/>w gwyr yn ddihalog: yn 'r vn
+<lb/>mo&dhook; ni ddicho<expan>n</expan> neb wybod yn gwbl
+<lb/>pa fo&dhook; y mae yr eglwys <w>Gristno<lb rend="shy"/>gai&dhook;</w> yn cadw i chred a<isp/><apo/>i <w>ffyddlon<lb rend="shy"/>deb</w> tuac at i gwr priod Crist Iesu,
+<lb/>nes i Antechrist i ha<expan>m</expan>gylchu, a<isp/><apo/>i <w>the<expan>m</expan>p<lb rend="shy"/>tio,</w> a gau-ddysceidiaeth, creulo<expan>n</expan>deb
+<lb/>ag erlid. Ni ddichon angerddol
+<lb/>wres yr haul friwo, na niweidio y
+<lb/>prennieu sy a<isp/><apo/>i gwrai&dhook; yn gryfio<expan>n</expan> ac
+<lb/>yn ddyfnion yn y ddayar, ag a <w>di<lb rend="shy"/>gon</w> ynthynt o sugn naturiol, ond y
+<lb/>rhai a gymynwyd ac a dorrwyd i
+<lb/>lawr, a <orig reg="wywant">wyfant</orig> yn fuan, gan wres 'r
+<lb/>haul, fal y gwelltyn hefyd, yr hwn
+<lb/>a fedir i lawr, ac yn brysur a <w>ddi<lb rend="shy"/>flanna.</w>
+</p>
+<p>
+<lb/>Felly, yn yr vn mo&dhook;, ni ddichon
+<lb/>trwblaethae, nac adfydau eraill,
+<lb/>wneuthur niwed i<isp/><apo/>rr rhai ffyddlon,
+<pb n="55"/>
+<lb/>'rhain a wreiddiwyd ynghrist <w>Ie<lb rend="shy"/>su:</w> Hwy a dyfant ac a flagurant yn
+<lb/>iraidd bob amser: ond yr <w>anffydd<lb rend="shy"/>lonieit,</w> a<isp/><apo/>i bradychant i hunain, ac a
+<lb/>ddangosant beth ydynt, cynn <w>gy<lb rend="shy"/>flymed</w> ac i gwelont wres ne <w>an<lb rend="shy"/>gerdd</w> trwbl, ac erlid yn dyfod.
+</p>
+<p>
+<lb/>A<isp/><apo/>r vn ffust i curir y cyrs a<isp/><apo/>r <w>ty<lb rend="shy"/>wys,</w> ac i dyrnir, yr Yd: yn yr vn
+<lb/>modd, drwy <corr resp="transcr" sic="Yr">yr</corr> vnrhyw <w>drwb<lb rend="shy"/>leth</w> ac adfyd, i glanheir, y <w>ffyddlo<lb rend="shy"/>nieit,</w> ac irr anogir i weddio duw,
+<lb/>y<isp/><apo/>w foli, ac y<isp/><apo/>w fawrygu ef: a<isp/><apo/>r <w>an<lb rend="shy"/>ffyddlonieit</w> i furmur, ac y<isp/><apo/>w <w>fell<lb rend="shy"/>dithio</w> ef, ac felly i profir ac irr <w>ad<lb rend="shy"/>waenir</w> y ddau.
+</p>
+<p>
+<lb/>Pann ddyrnir yr yd, y gronyn
+<lb/>sy&dhook; ynghymysc a<isp/><apo/>r vs, a gwedi <w>hyn<lb rend="shy"/>ny</w> i nailldu-ir hwy a<isp/><apo/>r <w>gwa<lb rend="shy"/>gr</w> ne a<isp/><apo/>r gwyntell: felly y bobl yn yr
+<lb/>eglwys, yn gyntaf a glywant <w>bre<lb rend="shy"/>gethu</w> gair duw, yr awrhonn rhai a
+<lb/>dramgwyddir, ac a rwystrir o<isp/><apo/>i <w>ble<lb rend="shy"/>gyt,</w> ac eraill ni rwystrir, ac etto
+<pb n="56"/>
+<lb/>hwy a drigant ynghyd, y naill gida
+<lb/>'r llall: ond pan nithir ne pan <w>wyn<lb rend="shy"/>tellir</w> y ddau, a ffann ddechreuo <w>aw<lb rend="shy"/>el</w> o drwbleth, ne erlid chwthu, yno
+<lb/>i by&dhook; haw&dhook; adnabod y naill, <w>rha<lb rend="shy"/>gor</w> y llall, sef, y ffyddlo<expan>n</expan> rhagor 'r <w>an<lb rend="shy"/>ffyddlon.</w> A wyd ti yd pur? Pam ga<expan>n</expan>
+<lb/>hynny irr ofni y ffust, ne 'r gwynt?
+<lb/>Wrth dy ddyrnu a<isp/><apo/>th nithio, i<isp/><apo/>th <w>dy<lb rend="shy"/>nnir</w> ac i<isp/><apo/>th <corr resp="transcr" sic="naill du-ir">nailldu-ir</corr>, oddiwrth yr
+<lb/>vs, ag i<isp/><apo/>th wnair yn burach nac <w>oe<lb rend="shy"/>&dhook;it</w> o<isp/><apo/>r blae<expan>n</expan>: ofned y sawl sy vs, rhain
+<lb/>ni alla<expan>n</expan>t oddef y gwynt, rhag i <w>chw<lb rend="shy"/>thu</w> a<isp/><apo/>i taflu ymaith<isp/>'n<!--ed ymaith 'n--> dragowy&dhook;.
+</p>
+<p>
+<lb/>Henn duy, serfyll a sai dros
+<lb/>a<expan>m</expan>ser, ond cyn gynted ac i del gwynt
+<lb/>a chwthu, e fy&dhook; eglur i bawb, mor
+<lb/>wael oe&dhook; i rowndwal a<isp/><apo/>i afael, <w>fel<lb rend="shy"/>ly,</w> mae cristnogion rai, heb sylfain
+<lb/>a growndwal, rhai tra fyddo pob
+<lb/>peth yn dda ac yn llwyddiannus, <w>y<lb rend="shy"/>dynt</w> gristnogion da, ond pann ddel
+<lb/>gwythe<expan>n</expan> o flinfyd a chledi, fe <w><corr resp="transcr" part="a" sic="ymdde">ymdde<expan>n</expan></corr><lb rend="om-shy"/><corr resp="transcr" part="b" sic="gys">gys</corr></w> ei ffua<expan>n</expan>t, ac a dyrr alla<expan>n</expan> yn eglur.
+</p>
+<pb n="57"/>
+<p>
+<lb/>Fal i profir 'r aur yn y ffwrnais,
+<lb/>lle i toddir, felly i praw ac i pura
+<lb/>duw hwy, ac a<isp/><apo/>i derbyn fal perffaith
+<lb/>ffrwyth aberth. <corr resp="transcr" sic="yr">Yr</corr> awrho<expan>n</expan> os ydwyd
+<lb/>aur, pam mae rhaid i ti ofni 'r tan,
+<lb/>rhwn a wnaiff i ti fwy lles, nac afles
+<lb/>a niwed?
+</p>
+<p>
+<lb/>I<isp/><apo/>rr perwyl hwn hefyd i perthyn
+<lb/>y ddihareb wir hon: cymdeithion a
+<lb/>adweinir mewn <corr resp="transcr" sic="adfyd.">adfyd:</corr> sia<expan>m</expan>ple o hyn.
+</p>
+<p>
+<lb/>Yr ollalluog dduw a de<expan>m</expan>ptio&dhook; ac a
+<lb/>brofo&dhook; Abraham, gan erchi iddaw
+<lb/>ef offrymmu a lla&dhook; i vnic genedic
+<lb/>fab: yno irr oe&dhook; Abraha<expan>m</expan> mewn <w>cle<lb rend="shy"/>di,</w> cyfyngdra a thrymder mawr,
+<lb/>gwell oe&dhook; gantho golli i ho&lhook; dda, a<isp/><apo/>i
+<lb/>feddianeu, a chwbl oll a<isp/><apo/>r<!--a'r--> a fedde ef
+<lb/>ar y ddayar, na lla&dhook; i anwyl fab: <w>et<lb rend="shy"/>to</w> er bod hynn yn erbyn natur, ac
+<lb/>yn beth anioddefus, ef a ddyg i fab
+<lb/>allan, ymddaith tridiau y<isp/><apo/>w la&dhook; a<isp/><apo/>i
+<lb/>law i hun: ef a orchfygo&dhook; i gnawd
+<lb/>trwy ffy&dhook;, ac a vfuddhao&dhook; dduw:
+<lb/>yna i doedaw&dhook; duw wrthaw, <w>yr<pb rend="shy" n="58"/><lb/>awron</w> i gwnn dy fod yn ofni duw,
+<lb/>ac nad arbedaist dy vnic a<isp/><apo/>th anwyl
+<lb/>fab er fy<isp/>mwyn i. <corr resp="transcr" sic="cofia">Cofia</corr> (me&dhook;&nbsp;<w>Moe<lb rend="shy"/>ses.)</w><!--full stop?--> 'r ho&lhook; ffor&dhook;, 'n yr hon yr <w>arwei<lb rend="shy"/>niodd</w> yr Arglwydd dy dduw di y 
+<lb/>deugain <corr resp="transcr" sic="mlhynedd">mlynedd</corr> hyn, trwy 'r <w>ani<lb rend="shy"/>alwch</w> er mwyn dy gystuddio di,
+<lb/>gann dy brofi, i wybod yr hyn oedd
+<lb/>yn dy galon, a gedwit ti ei <w>orchy<lb rend="shy"/>mynnion</w> ef, ai nas cedwit.
+</p>
+<p>
+<lb/>Gosod Pharao a Dafydd <w>yng<lb rend="shy"/>hyd,</w> y naill yn erbyn y llall: dau
+<lb/>o frenhinoedd ardderchawc: <w>Pha<lb rend="shy"/>rao</w> yn sefyll, ac yn parhau, yn <w>gil<lb rend="shy"/>dynnus,</w> yn wrthryfelgar, ac yn
+<lb/>wrthnysig, yn ei fwriad anuwiol,
+<lb/>er yr oll ddialeddae, a syrthient ac
+<lb/>a ddescynent arnaw.
+</p>
+<p>
+<lb/>Ag yngwrthwyneb i hynn: mor
+<lb/>fuan irr ymro&dhook; Dafydd, gann <w>dor<lb rend="shy"/>ri</w> allan mewn vfudd-dod, a <w>gost<lb rend="shy"/>wngeiddrwydd,</w> ymynedd, a <w>chyd<lb rend="shy"/>nabod</w> o<isp/><apo/>i buteindra, pann <corr resp="transcr" sic="ffoadd">ffoawdd</corr> ef
+<lb/>rhag Absalon a Shimei <w>ddrygio<pb rend="shy" n="59"/><lb/>nus</w> yn i wradwyddo ac yn <sic><w>ddilor<lb rend="shy"/>ni</w></sic> ef, yn gwylyddgar.
+</p>
+<p>
+<lb/>Iob a drawyd a llawer o <w>ddia<lb rend="shy"/>leddae</w> gofidus, fal nad oedd vn fann
+<lb/>iach diddolur arnaw o wadn i droed
+<lb/>hyd yngwastadedd i benn, nid am
+<lb/>iddaw hauddu y cyfryw <w>gosbedi<lb rend="shy"/>gaeth,</w> mwy na gwyr eraill, ond fal
+<lb/>i galle dduw eglurhau i<isp/><apo/>rr byd, ei
+<lb/>ymynedd a<isp/><apo/>i ffyddlondeb ef, eythr i
+<lb/>wraig ef a ddangosodd y pryd
+<lb/>hynny i gwann ffydd a<isp/><apo/>i natur <w>ly<lb rend="shy"/>gredig.</w>
+</p>
+<p>
+<lb/>Pwy ffyddlonach na brytach
+<lb/>mewn zel na Phetr? Etto ef a <w>wa<lb rend="shy"/>dodd</w> ac a wrthododd Ghrist, i <w>fei<lb rend="shy"/>str</w> a<isp/><apo/>i athro o flaen morwynig ehud.
+</p>
+<p>
+<lb/>Pwy gann hynny ni ddyl ofni
+<lb/>am danaw i hun, oddiethr i brofi a<isp/><apo/>i
+<lb/>gaffael ef ymlaen llaw yn ffyddlon,
+<lb/>yn ddisigl ac yn safadwy?
+</p>
+<p>
+<lb/>Yn yr vn mo&dhook; mae arfer beuny&dhook;
+<lb/>i<isp/><apo/>n dyscu, i adnabod y ffyddlon, <w>oddi<lb rend="shy"/>wrth</w> yr anffyddlon, mewn erlid ac
+<pb n="60"/>
+<lb/>adfyd: rhai a lynant wrth yr <w>Efan<lb rend="shy"/>gyl</w> dros amser, ond pan welant na
+<lb/>allant gael, y peth ir oeddynt yn <w>e<lb rend="shy"/>drych</w> am dano, yna hwy a<isp/><apo/>i <w>gada<lb rend="shy"/>want,</w> ac a gwympant oddiwrthi
+<lb/>drachefn: ie yn amser profedigaeth
+<lb/>hwy a gablant y sancteiddlan <w>E<lb rend="shy"/>fangyl:</w> ond y rhai duwiol, rhai a<isp/><apo/>i
+<lb/>plannasont hi yn ei calonnau, a <w>sa<lb rend="shy"/>fant</w> yn ddiyscog trwy dduw mewn
+<lb/>bowyd ag angeu.
+</p>
+</div>
+<div>
+<head><lb/>Pen. 8.</head>
+<p>
+<lb/><hi rend="italic">Gorthrymder ac adfyd, a<isp/><apo/>n helpiant, ac
+<lb/>a<isp/>'n cynorthwyant, i<isp/><apo/>n adnabod
+<lb/>ein hunain, a duw hefyd,
+<lb/>ac yn anwedic a <w>ddys<lb rend="shy"/>cant</w> ddoethineb.</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">H</hi>Eb law hynn, mae yn fuddiol
+<lb/>ac <apo/>n ddaionus i wr, i adnabod
+<lb/>i hun yn dda. <corr resp="transcr" sic="llwyddiant">Llwyddiant</corr> a <w>dedwy&dhook;<lb rend="om-shy"/>wch</w> a ddallant wr, eythr pan fyddo
+<lb/>ef dan y groes, ef a ddechreu ystyr
+<pb n="61"/>
+<lb/>gwaele&dhook; ei gorff, ansiccrwydd i
+<lb/>hoedl, gwendid i ddeall, <w>methiant<lb rend="shy"/>rwy&dhook;</w> a muscrellwch i nerth, a<isp/><apo/>i allu
+<lb/>i hunan. Ef a gaiff weled a deuall
+<lb/>pa bellder ir aeth ef, mewn ffordd
+<lb/>rinwe&dhook;, a ffa fo&dhook; i sai pob peth,
+<lb/>rhwng duw, ag ef, a ffwy vn yw ef
+<lb/>ai milwr i dduw ai i ddiawl: cans
+<lb/>dyn yn fynych a<isp/><apo/>i tybia i hun 'n gryf,
+<lb/>ac yn gadarn, ond yn amser <w>profe<lb rend="shy"/>digaeth</w> ef a wel mor haw&dhook; ac mor
+<lb/>ddiboen i chwthir ac ir escydwir
+<lb/>gann bob awel o wynt.
+</p>
+<p>
+<lb/>Hefyd trwy orthrymder ac <w>ad<lb rend="shy"/>fyd,</w> y rhy&dhook; duw di, mewn cof, <orig reg="pa sawl"><w>pa<lb rend="shy"/>sawl</w></orig> mil o beryglon sy yn crogi
+<lb/>vwch dy benn, rhain a <w>ddigwydd<lb rend="shy"/>ent,</w> ac a ddescynent arnat, oni bae
+<lb/>i fod ef 'n dy gadw ac yn dy <w>ym<lb rend="shy"/>ddyffyn</w> oddiwrthynt. <corr resp="transcr" sic="ar">A<isp/><apo/>r</corr> vnrhyw
+<lb/>dduw yma a ddywaid wrthyd fal
+<lb/>hynn: y gelyn anwir a<isp/><apo/>th amgylcha
+<lb/>ac a wilia am danat, i<isp/><apo/>th orchfygu
+<lb/>ag i<isp/><apo/>th lyncku i fyny&dhook; a lliaws, ac a
+<pb n="62"/>
+<lb/>ffentwr anfeidrol o ddrygau a <w>dia<lb rend="shy"/>leddau,</w> ond myfi a osodais iddaw ef
+<lb/>i derfynau, dros bwy rai ni ddichon
+<lb/>ef fyned.
+</p>
+<p>
+<lb/>Pwy hwyaf i byddych dann y
+<lb/>groes wellwell i dysci oll <w>rinwedd<lb rend="shy"/>ae</w> a daioni duw; a<isp/><apo/>i iawn <w>farnediga<lb rend="shy"/>ethau,</w> a<isp/><apo/>i wir gyfiawnder ef, drwy
+<lb/>bwy rai i dengys ef i ddicllondeb, a<isp/><apo/>i
+<lb/>ddigofaint, yn erbyn yr anwir,
+<lb/>a<isp/><apo/>r pechadurus, gann anfon plaee
+<lb/>ofnadwy, a<isp/>'r<!--=ar--> ei gyddfe hwy; a<isp/><apo/>r
+<lb/>gwrthryfelgar a<isp/><apo/>r <orig reg="anedifeiriol">anydifeiriol</orig>, ef
+<lb/>a<isp/><apo/>i cyfergolliff 'n dragwyddol.
+</p>
+<p>
+<lb/>Hefyd mewn adfyd i dysci ei <w>an<lb rend="shy"/>feidrol</w> fawredd ef, drwy bwy vn
+<lb/>y dichon ef dy helpio, a<isp/><apo/>th <w>gynor<lb rend="shy"/>thwyo,</w> yn y trueni a<isp/><apo/>r anghenion
+<lb/>mwyaf.
+</p>
+<p>
+<lb/>Hefyd mewn adfyd i dysci ei <w>ann<lb rend="shy"/>ewidiol</w> wirione&dhook; ef, drwy bwy vn
+<lb/>i cyflawna ef i oll addewidion 'n <w>ffy<lb rend="shy"/>ddlawn,</w> ag i cwpleiff ef i <w>fygythia<lb rend="shy"/>dae.</w> Hefyd ti a ddysci ei anfeidrol
+<pb n="63"/>
+<lb/>drigare&dhook;, a<isp/><apo/>i fawr ras ef, drwy bwy
+<lb/>rai i rhagflaena ef bob drwg a <w>ddig<lb rend="shy"/>wydd</w> tu-ac attom, ac ni odde ef yn
+<lb/>dala, ne 'n <corr resp="transcr" sic="gorthymmu">gorthrymmu</corr>, gan <w>afri<lb rend="shy"/>fed,</w> ac aflwy&dhook;.
+</p>
+<p>
+<lb/>Hefyd ti a ddysci ei ddidranc, a<isp/><apo/>i
+<lb/>dragwyddol ragordeiniad ef, drwy
+<lb/>rhwnn megys tad i gofala ef <w>tro<lb rend="shy"/>som,</w> ac i llywodraetha ef bob peth
+<lb/>yn synhwyrol.
+</p>
+<p>
+<lb/>Hefyd i ogoniant, ei fawredd, a<isp/><apo/>i
+<lb/>fawl, am y rhagddoededic <w>rin<lb rend="shy"/>weddau,</w> rhain a lewychant yn <w>ddi<lb rend="shy"/>sclaer,</w> mewn ing ac adfyd: erwy&dhook;
+<lb/>paham S. Bernard a escrifenna
+<lb/>fal hynn: Pa fodd i gwyddom fod
+<lb/>'r hwnn sy 'n preswylio yn y <w>ne<lb rend="shy"/>foedd</w> yn ein mysc yma ar y <w>dday<lb rend="shy"/>ar?</w> Yn ddiau wrth hynn, am yn
+<lb/>bod mewn blinder, ac adfyd; can's
+<lb/>heb dduw pwy a alle i goddef a<isp/><apo/>i
+<lb/>derbyn.
+</p>
+<p>
+<lb/>Mae 'n angenrhaid i wr bob <w>am<lb rend="shy"/>ser</w> wrth ddoethineb, gofal, synwyr
+<pb n="64"/>
+<lb/>a sobrwy&dhook;: ac fal i mae <w>llwyddi<lb rend="shy"/>ant</w> 'n cau, ac 'n dallu golwg gwyr,
+<lb/>felly i mae adfyd a blinder yn i <w>ego<lb rend="shy"/>ryd</w> hwy eilwaith.
+</p>
+<p>
+<lb/>Megys, ac i mae 'r eli rhwnn sy
+<lb/>'n iachau 'r llygaid, yn gyntaf yn
+<lb/>merwino, ac yn llosci y golwg, ac
+<lb/>yn peri yddynt ddyfrhau, eythr
+<lb/>gwedy hynny ef a wnaiff y golwg
+<lb/>yn <sic>disclairiach</sic>, ac yn llonnach nac
+<lb/>ydoe&dhook; o<isp/><apo/>r blaen, felly blinder ac <w>ad<lb rend="shy"/>fyd</w> a boenant ac a flinant wyr yn
+<lb/>aruthr y tro cyntaf, ond yn y <w>diw<lb rend="shy"/>e&dhook;</w> hwy a gynorthwyant ac a <w>lewy<lb rend="shy"/>cha<expan>n</expan>t</w> olwg y meddwl, gann i <w>wneu<lb rend="shy"/>thur</w> yn rhesymolach, 'n ddoethach,
+<lb/>ac yn fwy gofalus: can's adfyd a
+<lb/>ddwg wybodaeth, a gwybodaeth
+<lb/>ddoethineb.
+</p>
+<p>
+<lb/>Gwialen a chosbedigaeth a <w>fa<lb rend="shy"/>gant</w> ddoethineb, ac ar hynny y <w>ty<lb rend="shy"/>fo&dhook;</w> y diharebion hynn gyntaf: pwy
+<lb/>llawna 'r tir gwaetha 'r bobl ac <w>he<lb rend="shy"/>fyd,</w> adfyd a wnaiff i wyr edrych o<isp/><apo/>i
+<pb n="65"/>
+<lb/>deutuy ymhell ac 'n agos. Hefyd:
+<lb/><hi rend="antiqua">nid yw gall ond a gollo.</hi>
+</p>
+<p>
+<lb/>Hefyd: <hi rend="antiqua">pann fo 'r dwr hyd 'r en,
+<lb/>fe ddyscir nofio.</hi>
+</p>
+<p>
+<lb/>A<isp/><apo/>r Proffwyd Dauydd a <w>ddy<lb rend="shy"/>waid:</w> O Arglwy&dhook; mor ddaionus,
+<lb/>ac mor fuddiol, yw i mi, gaffael <w>fy<isp/>n<lb rend="shy"/>gheryddu,</w><!--W?--> a<isp/><apo/>m <corr resp="transcr" sic="dorastwng">darostwng</corr> genyt,
+<lb/>fal i gallwn ddyscu dy gyfiawnder
+<lb/>a<isp/><apo/>th orchmynion.
+</p>
+</div>
+<div>
+<head><lb/>Pen. 9.</head>
+<p>
+<lb/><hi rend="italic">Gorthrymder <corr resp="transcr" sic="ae">ac</corr> adfyd, a<isp/><apo/>n <w><corr resp="transcr" part="a" sic="cynorthy">cynorthwy</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="ant">ant</corr>,</w> ac a<isp/><apo/>n helpiant, i iawn adnabod
+<lb/>ein pechodae, ac i fo&dhook;&nbsp;<apo/>n <w>edi<lb rend="shy"/>feiriawl</w> drostynt.</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">M</hi>Ae duw yn erfyn ac yn <w>wyll<lb rend="shy"/>ysio,</w> gynyddu a thyfu yno<expan>m</expan>,
+<lb/>wybodaeth o<isp/>'n gwenwynig a<isp/>'n <w>lly<lb rend="shy"/>gredic</w> naturiaeth, ac o<isp/><apo/>i ddigofaint
+<lb/>ef yn erbyn pechod, fal i gallom <w>ala<lb rend="shy"/>ru</w> ac edifarhau, yn ein caloneu tros
+<lb/>ein pechodae, ac gwellau, beuny&dhook;
+<pb n="66"/>
+<lb/>yr awrhon gwir yw, fod o <w>naturi<lb rend="shy"/>aeth</w> 'n aros yn ein caloneu ormod
+<lb/>diofalwch, a difrawch, o herwydd
+<lb/>pwy rai, nid ym yn ystyr nac 'n <w>pri<lb rend="shy"/>sio</w> ond ychydic aflendid ein <w>calo<lb rend="shy"/>neu</w> oddifewn: yn anwedic, pryd
+<lb/>na wyddom, beth yw adfyd, a <w>chle<lb rend="shy"/>di,</w> nid ystyriwn faintioli ein <w>diale<lb rend="shy"/>ddus</w> bechodae, na chyfiawn <w>farne<lb rend="shy"/>digaeth</w> duw, a<isp/><apo/>i aruthrol <w>ofna<lb rend="shy"/>dwy</w> gery&dhook; ef, dledus o<isp/><apo/>i plegit: <w>Ey<lb rend="shy"/>thr</w> pann fo duw 'n darostwng neu
+<lb/>'n tynny i lawr, ryw rai <w>espy<lb rend="shy"/>sol,</w> ne oll gynylleidfa, yno i <w>co<lb rend="shy"/>fiwn,</w> faintioli a thrymder ein <w>pe<lb rend="shy"/>chod,</w> ac nad yw digofaint a <w>dic<lb rend="shy"/>llonder</w> duw 'n rhydrwm, nac
+<lb/>heb yspysawl a chyfraithlawn <w>a<lb rend="shy"/>chosion.</w>
+</p>
+<p>
+<lb/>Yno i torrwn allan <corr resp="transcr" sic="ir'">i<isp/>'r</corr> cyfryw
+<lb/>eirieu a rhain, O Arglwy&dhook; ni a <w>hae<lb rend="om-shy"/>ddasom</w> y plaee hynn fil o ffyr&dhook;,
+<lb/><corr resp="transcr" sic="Oddaionus">O ddaionus</corr><!--ed O ddaionus--> a chyfiownaf dduw, ti a
+<lb/>obrwyi gamweddau a throseddau
+<pb n="67"/>
+<lb/>y tadau ar y plant, os hwy a <w>gan<lb rend="shy"/>lhynant</w> lwybrau i tadau, hyd y
+<lb/>drydedd a<isp/><apo/>r bedwaredd <w>gened<lb rend="shy"/>laeth.</w>
+</p>
+<p>
+<lb/>Mal i mae y copr caled a<isp/><apo/>r <w>el<lb rend="shy"/>ydn</w> yn toddi yn y tan, felly mewn
+<lb/>adfyd, ing, a blinder, caloneu
+<lb/>caled, geirwon, afrowiog, a <w>do<lb rend="shy"/>ddant:</w> gann gashau a ffieiddio, ei
+<lb/>pechodae.
+</p>
+<p>
+<lb/>Troseddwr y ddeddf, a <w>gydne<lb rend="shy"/>by&dhook;</w> i feieu, pa<expan>n</expan>n i dyger i<isp/><apo/>rr farn y<isp/><apo/>w
+<lb/>gosbi, a phann i barner ac i bwrier
+<lb/>yn euog o angeu.
+</p>
+<p>
+<lb/>Ac yn gystal cyffredinol ac <w>ang<lb rend="shy"/>hyffredinol</w> blaee a dialeddae, a
+<lb/>ellir i galw, yn rhann o gyfraith
+<lb/>dduw, neu megys pregethae
+<lb/>duw, 'rhain a dystiant ac a <w>fane<lb rend="shy"/>gant</w> i ni, fod duw 'n ddigofus <w>ar<lb rend="shy"/>uthr,</w> wrth bob bath ar <w>anwi<lb rend="shy"/>re&dhook;</w> a ffieidd-dra, a deyrnasant
+<lb/>yn y byd: fal i bydde i bawb i <w>v<lb rend="shy"/>fuddhau</w> a<isp/><apo/>i darostwng i hunain i
+<pb n="68"/>
+<lb/>dduw, nadu ac vdo am ei pechodae,
+<lb/>a chystuddiedic a gwir edifeiriol <w>ga<lb rend="om-shy"/>lon,</w> gann ddisyf i ras a<isp/><apo/>i drigare&dhook;
+<lb/>ef.
+</p>
+<p>
+<lb/>Ac er ecsampl. Brodur Ioseph
+<lb/>yn gyntaf amser a welsont ei beieu
+<lb/>'rhain a wnaethe<expan>n</expan>t 'n erbyn i brawd,
+<lb/>pann i gorthrymwyd gann wir <w>an<lb rend="shy"/>gen</w> a chledi mewn gwlad estron.
+</p>
+<p>
+<lb/>Pann anfonodd 'r Arglwy&dhook; i<isp/><apo/>r <w>a<lb rend="shy"/>nialwch</w> ymhlith 'r Israelieit, <w>Se<lb rend="shy"/>irff</w> gwenwynig, y<isp/><apo/>w brathu, ac y<isp/><apo/>w
+<lb/>gwenwyno, yno i daethant gyntaf
+<lb/>at Foeses, gann ddoedyd, ni a
+<lb/>bechasom am i ni ddoydyd yn <w>er<lb rend="shy"/>byn</w> yr Arglwy&dhook; ac 'n d<apo/><isp/>erbyn <w>di<lb rend="shy"/>theu.</w>
+</p>
+<p>
+<lb/>Pann ydoe&dhook; y nodau 'n difa ac 'n
+<lb/>ysu 'r cwbl, yno i doedo&dhook; Dafydd
+<lb/>wrth yr Arglwy&dhook;: myfi a bechais
+<lb/>eythr beth a wnaeth y defaid hyn:
+<lb/>Os yw gann hynny yn fuddiol ac
+<lb/>yn angenrheidiol i ni gydnabod ein
+<lb/>pechodae, a<isp/>'n anwire&dhook; a bod yn
+<pb n="69"/>
+<lb/>edifeiriol o<isp/><apo/>i plegyd, ni allwn ni yn
+<lb/>dda hebcor trwbleth ac adfyd.
+</p>
+</div>
+<div>
+<head><lb/>Pen. 10.</head>
+<p>
+<lb/><hi rend="italic">Trwbleth ac adfyd a<isp/><apo/>n helpiant ac a<isp/><apo/>n
+<lb/>cynorthwyant i feithrin ac i
+<lb/>chwanegu <apo/>n ffydd.</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">F</hi>E ddangoswyd ymlaen, i profid
+<lb/>'n ffy&dhook; ni drwy 'r groes, ac <w>ad<lb rend="shy"/>fyd:</w> yr awrhon fe brofir yn eglur,
+<lb/>mae cyntaf amser i cadarnheir, i
+<lb/>meithrinir, ac i chwanegir 'n ffy&dhook;
+<lb/>ni, pann ddel adfyd i<isp/><apo/>n gorthrymu.
+<lb/><corr resp="transcr" sic="yr">Yr</corr> iawn a<isp/><apo/>r wir ffy&dhook; Gristnogai&dhook;
+<lb/>a sylfaenir yn vnic, ar ras, <w>triga<lb rend="shy"/>re&dhook;,</w> gallu, a help dduw trwy Grist,
+<lb/>rhwnn beth ni ellir i ymgyffred
+<lb/>drwy ofer feddylieu, gwag <w>fwria<lb rend="shy"/>dae,</w> ne vwchelddysc ddynol, eythr
+<lb/>duw a dywallt bentwr o ddialeddae
+<lb/>ar bechadurieit.
+</p>
+<p>
+<lb/>Pa beth bynac a fwriadant, a
+<lb/>ymcanant, ne a gymerant mewn
+<pb n="70"/>
+<lb/>llaw, nid aiff ragddo ganthynt, a<isp/><apo/>i
+<lb/>holl fywyd, a wnair 'n chwerwach
+<lb/>yddynt na<isp/><apo/>r bustyl, fal na allant
+<lb/>gael dim esmwythdra: a ffa ham? 'n
+<lb/>ddiau er y perwyl hwnn: sef er
+<lb/>yddynt hwy 'n ollawl ddirmygu,
+<lb/>a distyru pob cyngor, cymorth, a
+<lb/>chysur gann ddyn, ac fal i tynnid
+<lb/>hwy oddiwrth bob gobaith, mewn
+<lb/>dichellion, a gallu bydol, ac fal na
+<lb/>obeithient help mewn vn creadur,
+<lb/>yn y byd.
+</p>
+<p>
+<lb/>Ac yn lle hynn, er yddynt osod
+<lb/>a <sic>roddi</sic> i caloneu, 'n vnic ar dduw,
+<lb/>ac fal na byddo dim oll 'n aros <w>yn<lb rend="shy"/>thynt</w> ond vwchneidieu a dagreu
+<lb/>an-t-raethawl att duw, 'n <w>deilli<lb rend="shy"/>aw</w> o wir ffy&dhook;, ynghymorth pwy
+<lb/>vn 'n vnic mae trigare&dhook; 'n sefyll 'n
+<lb/>gwbl.
+</p>
+<p>
+<lb/>Testimoniae o hynn allan o<isp/><apo/>r
+<lb/>Scrythur lan. Moses a <w>destiolei<lb rend="shy"/>thiff,</w> fod duw 'n goddef, dwyn 'r
+<lb/>Israelieit, i amryw drallodae, ac
+<pb n="71"/>
+<lb/>i gyfyngderae mawrion, ac etto i
+<lb/>fod ef 'n i gwaredu hwy 'n <w>rhyfedd<lb rend="shy"/>ol,</w> er hynn, sef pann ddelent i dir y
+<lb/>gaddewid na allent ddoedyd, <w>fy<isp/>n<lb rend="shy"/>gallu</w><!--W?--> i fy hun, a nerth fy<isp/>nwylaw i
+<lb/>a ddygasont hynn i benn: eythr
+<lb/>meddwl o honynt am yr Arglwy&dhook;
+<lb/>i duw, cans ef a rydd y cyfryw
+<lb/>allu, fal i galler cyflowni a <w>gwneu<lb rend="shy"/>thur</w> pob peth: ac felly i gwnaeth
+<lb/>duw gwedi hynny a phlant 'r <w>Isra<lb rend="shy"/>el,</w> rhain o<isp/><apo/>i dyfais ac o<isp/><apo/>i synwyr i
+<lb/>hun, a geisient help a chymorth
+<lb/>gann frenin 'r Assirieid, a brenin
+<lb/>'r Aipht, rhain gwedi hynn, a<isp/><apo/>i <w>am<lb rend="shy"/>gylchynasant</w> hwy, a<isp/><apo/>i lladdasont,
+<lb/>ac a<isp/><apo/>i caethgludasont ymaith 'n
+<lb/>garcharwyr. <corr resp="transcr" sic="yno">Yno</corr> i gwelsont ag
+<lb/>i gwybuont hwy, nad oe&dhook; vn a alle
+<lb/>i helpu a<isp/><apo/>i cynorthwyo, ond yn vnic
+<lb/>'r Arglwy&dhook;, i bwy vn irr <w>vfuddha<lb rend="shy"/>esont,</w> ac irr ymroesont o<isp/><apo/>r diwedd,<!--ed diwedd. (full stop)-->
+<lb/>ga<expan>n</expan>n ddoedyd: nid oedde<expan>m</expan>&nbsp;<apo/>n <corr resp="transcr" sic="edrycham">edrych am</corr>
+<lb/>ddim oll, ond marwolaeth. Eythr
+<pb n="72"/>
+<lb/>hyn <!--catchword spelt 'hynn'--> i gyd a wnaethwyd er y <w>per<lb rend="shy"/>wyl</w> hwnn, sef er i ni na obeithom<!--obeithem?-->
+<lb/>ynom ein hun, eythr ynnuw, 'r
+<lb/>hwnn a gyfyd i fyny y meirw <w>eil<lb rend="shy"/>waith.</w>
+</p>
+<p>
+<lb/>Hefyd beth bynac a <corr resp="transcr" sic="gynhyrsiff">gynhyrfiff</corr><!--ed gynhyrfiff--> ac
+<lb/>a faethdriniff ein ffy&dhook; ni, ni ddylem
+<lb/>ni ofni, eythr <apo/>n hytrach gorfoleddu
+<lb/>yn hwnnw. Tra fyddom<!-- ed Trafyddom --> yn byw
+<lb/>mewn seguryd, ymhob trachwant
+<lb/>a ffleser, mae diawl yn cael gwall
+<lb/>arnom, ac yn dallu ein <w>gwen<lb rend="shy"/>did,</w> fal y tybiwn nad yw duw yn
+<lb/>prisio ynom, a bod holl bethau y byd
+<lb/>yn digwyddo heb i ordeiniad, a<isp/><apo/>i
+<lb/>ragwelediad ef, ond ymhob rhyw
+<lb/>gledi <corr resp="transcr" sic="yngystal">yn gystal</corr> anghyffredinol, a
+<lb/>chyffredinol, mae i ni fwy a <w>dwy<lb rend="shy"/>sach</w> achosion i faethdrino, ac i <w>ar<lb rend="shy"/>feru</w> ein ffy&dhook;.
+</p>
+<p>
+<lb/>Duw sy 'n goddef i ti gwympo
+<lb/>mewn tlodi, ne i angeu ddwyn <w>oddi<lb rend="shy"/>arnat</w> dy anwyl gymdeithion, ne i
+<lb/>ryw aflonyddwch arall ddamwain
+<pb n="73"/>
+<lb/>iti, a<isp/><apo/>r pryd hynny hefyd, mae i ti
+<lb/>achos mawr i feithrin ac i arferu
+<lb/>dy ffydd. Ac 'n gyntaf i gofio <w>ga<lb rend="shy"/>ddewidion</w> duw, a ysbyswyd yn i
+<lb/>air ef, ac yno i alw arnaw am i
+<lb/>ras a<isp/><apo/>i help, ac felly gwrthnebu a
+<lb/>sefyll 'n erbyn pob rhyw <w>angredi<lb rend="shy"/>niaeth</w> ac anobaith, 'rhwn sy o <w>na<lb rend="shy"/>turiaeth</w> yn y cnawd, er maint <w>fy<lb rend="shy"/>ddo</w> dy angen, ac er pelled i tybia
+<lb/>pob dyn droi o dduw i wyneb <w>oddi<lb rend="shy"/>wrthyt,</w> ac na chynorthwya ef
+<lb/>ddim o honot. <corr resp="transcr" sic="yn">Yn</corr> 'r vn mo&dhook;, mewn
+<lb/>oll angenion cyffredinol, hynn yw
+<lb/>'r iawn arfer o ffy&dhook;, a <w>sancteiddi<lb rend="shy"/>af</w> wasnaethu duw, sef, bod i ni 'n
+<lb/>gyntaf feddwl ac ystyriaw yn <w><corr resp="transcr" part="a" sic="d di">ddi</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="lys">lys</corr>,</w> oll beryglon a <w>gorthrymde<lb rend="shy"/>rae</w> a ddigwyddant i<isp/>'r eglwys,
+<lb/>neu i<isp/>'r wlad: gwedi hynny <w>gwe<lb rend="shy"/>ddio</w> ar dduw a ffy&dhook; fywiol, <w>ddiys<lb rend="shy"/>cog,</w> ar iddaw ef waredu, a <w>cha<lb rend="shy"/>dw,</w> 'r eglwys oddiwrth <w>gauddy<lb rend="shy"/>sceidiaeth,</w> gwag argoelion a <w>ffu<pb rend="shy" n="74"/><lb/>ant:</w> Ac, ar iddaw ef i rhwoli a<isp/><apo/>i <w>lly<lb rend="shy"/>wodraethu,</w> yn rasusol. Ac hefyd
+<lb/>ar iddaw ef gadw 'r wlad mewn
+<lb/>rhwol dda, ac mewn heddwch
+<lb/>gann roddi wybren iachus, towy&dhook;
+<lb/>rhesymol, a hefyd dofi a rhwystro,
+<lb/>anystywalld ac anosparthus <w>am<lb rend="shy"/>canion</w> a bwriadau y gwerin bobl:
+<lb/>gann <orig reg="caniatau">ganiadhau</orig> hefyd, <w>manti<lb rend="shy"/>mio,</w> a chadw, crefy&dhook; Cristnogai&dhook;,
+<lb/>iawn ymwreddiad, a gonestrwy&dhook;,
+<lb/>fal i mawryger, ac i molianner,
+<lb/>i dduwiol a <corr resp="transcr" sic="sacntawl">sanctawl</corr> enw ef, ac i
+<lb/>chwaneger, i'r<!--reg?--> helaether ac i <w>siccra<lb rend="shy"/>er</w> i deyrnas ef: ac fal i diwraiddier
+<lb/>ac i gwradwydder teyrnas y <w>cy<lb rend="shy"/>thraul.</w>
+</p>
+<p>
+<lb/>A chofia hynn hefyd: pa bryd <w>by<lb rend="shy"/>nac</w> i'r<!--reg?--> ystyri dy adfyd, na <w>Anghofi<lb rend="shy"/>ach</w> erfyn ga<expan>n</expan>n dduw obaith, o<isp/><apo/>i <w>ddi<lb rend="shy"/>ddanwch,</w> help, a chymorth: gann
+<lb/>ymla&dhook; ac ymdrech 'n nerthoc ac
+<lb/>'n wrawl, yn erbyn pob <w>angredini<lb rend="shy"/>aeth:</w> a dod ymaith hefyd, bob <w>ano<pb rend="shy" n="75"/><lb/>baith,</w> er maint y chwanega dy <w>ad<lb rend="shy"/>fyd</w> a<isp/><apo/>th gledi ac fal hynn i'r<!--reg?--> iawn
+<lb/>arferi ac i maethdrini dy ffy&dhook;: Er
+<lb/>ecsampl.
+</p>
+<p>
+<lb/>Oddi ar y Sainctai&dhook; wr Iob,
+<lb/>y dygwyd cwbl oll a alle ddiddanu,
+<lb/>a chonfforddio gwr: gwraig, plant,
+<lb/>da, cyfeillion, ac vn trwbl, tristwch,
+<lb/>a drwg newy&dhook; a ddoe ar vwchaf
+<lb/>y llall: ac nid ydoe&dhook; defnyn o waed
+<lb/>o fewn i gorff ef heb sychu a <w>dar<lb rend="shy"/>fod:</w> ac ef a eistedde yngolwg 'r oll
+<lb/>fyd, ac ef oe&dhook; 'n <orig reg="watwargerdd">wattorger&dhook;</orig>&nbsp;<w>ydd<lb rend="shy"/>ynt,</w> ac felly i'r<!--?-->&nbsp;<orig reg="arferai">arfereu</orig> ef i ffydd,
+<lb/>gann ymroi i hun 'n vnic, ac 'n gwbl
+<lb/>i dduw.
+</p>
+<p>
+<lb/>I Abraham i gaddawyd had,
+<lb/>mewn rhif megys tywod y mor, a
+<lb/>megys ser y nefoe&dhook;, ac etto i wraig
+<lb/>ef ydoe&dhook; amhlantadwy ac <w>an<lb rend="shy"/>ffrwythlawn,</w> ac ynteu hefyd, oe&dhook;
+<lb/>hen ac mewn oedran, fal wrth <w>re<lb rend="shy"/>swm</w> naturiol, nad oe&dhook; bossibl <w>gy<lb rend="shy"/>flawni</w> a dwyn 'r addewid hynny i
+<pb n="76"/>
+<lb/>benn<!--catchword reads 'blenn'-->, a<isp/><apo/>i wirhau ynthaw ef: etto <w>A<lb rend="shy"/>braham</w> drwy hynn a faethdrino&dhook;<!--comma missing-->
+<lb/>a arfero&dhook; ac a <corr resp="transcr" sic="brafo&dhook;">brofo&dhook;</corr> i ffy&dhook;.
+</p>
+<p>
+<lb/>Ac fal hynn i bu Ioseph, Davy&dhook;
+<lb/>Daniel yr holl Batriachiaid, <w>Pro<lb rend="shy"/>ffwydi</w> ac Apostolion, yn gystal
+<lb/>mewn cyffredinol adfyd 'r eglwys,
+<lb/>ac yn i blinderoe&dhook; i hunain, yn <w>ar<lb rend="shy"/>feru,</w> ac yn meithrin i ffy&dhook;.
+</p>
+<p>
+<lb/>A hynn ydoedd i gwasanaeth
+<lb/>mwyaf tu-ac at dduw, drwy bwy
+<lb/>vn ir anrhydeddent, ac i <w>gwasnae<lb rend="shy"/>thent</w> ef: Erwy&dhook; paham, yn ein
+<lb/>amser ninneu, mae duw 'n rhoddi i
+<lb/>ni achosion mawrion, rhyfeddol,
+<lb/>drwy drwbl ac adfyd, i ddeffroi, i
+<lb/>gynhyrfu, ag i arfer ein ffy&dhook;: A
+<lb/>thrwy y cyfryw arfer, i chwanegir
+<lb/>ac i cadarnheir y ffy&dhook;, ie, ac i <w><orig reg="tywynniff">te<lb rend="shy"/>wyniff</orig></w> yn ddisclairiach, ac i <w>gw<lb rend="shy"/>nair</w> 'n brydferthach ac 'n fwy <w>go<lb rend="shy"/>goneddus</w> canys pa beth bynag a
+<lb/>brofo&dhook; ac a dreio&dhook; gwr i hun <w>ym<lb rend="shy"/>laen</w> llaw, hynny a grediff ef yn <w>ddi<pb rend="shy" n="77"/><lb/>amau:</w> yr awrhon y neb sy&dhook;&nbsp;<w>Gristi<lb rend="shy"/>on</w> yn fab, ne 'n ferch, a braw, ac a
+<lb/>wyby&dhook; yn ddiau, i rhwolir, ir <w>ym<lb rend="shy"/>ddeffynnir,</w> i cysurir ac i cedwir
+<lb/>ef gann <sic>duw</sic>, ynghanol i dristwch
+<lb/>a<isp/><apo/>i adfyd: can's gobaith ni <w>chwi<lb rend="shy"/>lwyddia.</w>
+</p>
+<p>
+<lb/>Ac am hynny y Christion, a<isp/><apo/>r <w>ffy<lb rend="shy"/>ddlo<expan>n</expan></w> ddyn drwy adfyd a <w>gorthrym<lb rend="shy"/>der,</w> a wnair 'n hyfach, ac yn fwy <w>hy<lb rend="shy"/>derus,</w> ac a gred ynthaw i hun fod
+<lb/>duw 'n prisio ac yn gofalu yn <w>enwe<lb rend="shy"/>dic</w> am y sawl sy&dhook; mewn adfyd, a
+<lb/>thrueni, ac i cynorthwyiff, ac i <w>gwa<lb rend="shy"/>rediff</w> ef hwy, allan yn rasusol.
+</p>
+<p>
+<lb/>Megys ac i mae gwr 'rhwn a <w>fy<lb rend="shy"/>nych</w> hwylio&dhook; ar y mor, ac a siglwyd
+<lb/>gann forgymla&dhook; y tonneu, ac a <w>ddi<lb rend="shy"/>ango&dhook;</w> rhag llawer o demestloe&dhook;
+<lb/>rhyferthawc, enbydus, yn fwy <w><sic>Hy<lb rend="shy"/>derus</sic>,</w> ac <apo/>n hyfach eilchwel, i fyned
+<lb/>i<isp/><apo/>rr mor, yn gymeint ac iddaw <w>ddi<lb rend="shy"/>ainc</w> vnwaith, a chael rhyde teg
+<lb/>ymlaenllaw; felly, y gwr <w>Cristno<pb rend="shy" n="78"/><lb/>gai&dhook;,</w> 'rhwn a fynych flinwyd ac a
+<lb/>siglwyd gann y groes, yn <corr resp="transcr" sic="gymenit">gymeint</corr>
+<lb/>ac iddaw gael diddanwch, help, a
+<lb/>chymorth ga<expan>n</expan>n dduw bob amser, yn
+<lb/>ol hynny a obeithiff dduw 'n dda,
+<lb/>(ac y 'n<!--corr, reg?--> wellwell pwy hwyaf i <w>ma<lb rend="shy"/>ethdrinir</w> da<expan>n</expan>n y groes) er i<isp/>'r cyfryw
+<lb/>adfyd 'rhwnn a fu vnwaith arnaw,
+<lb/>ddyfod drachefn: ac i<isp/>'r pwrpas <w>y<lb rend="shy"/>ma</w> gwrando ac ystyr ddau ecsampl
+<lb/>odidawg, arbennig, vn o<isp/><apo/>r hen, arall
+<lb/>o<isp/><apo/>r testament newy&dhook;.
+</p>
+<p>
+<lb/>Pann ydoe&dhook; Dafy&dhook; yn i barotoi
+<lb/>i hun i ymla&dhook; 'n erbyn y nerthoc
+<lb/>gawr <sic>Goliah</sic> ef a ddywod fal hyn: 'r
+<lb/>Arglwy&dhook; 'rhwnn am achubo&dhook; i, o
+<lb/>grafanc y llew, ac o balf yr Arth, ef
+<lb/>a<isp/><apo/>m hachub i o law y Philistiad hwn.
+<lb/><corr resp="transcr" sic="a">A</corr> thrachefn, Paul a ddywaid: yr
+<lb/>hwn a<isp/>'n gwaredo&dhook; ni oddiwrth <w>gy<lb rend="shy"/>fryw</w> ddirfawr angeu, ac sy yn ein
+<lb/>gwaredu; yn 'r hwn yr ydym yn
+<lb/>gobeitho y gwared ef rhag llaw.
+</p>
+<p>
+<lb/>Ac i<isp/>'r vnrhyw berwyl, i perthyn
+<pb n="79"/>
+<lb/>hynn hefyd; sef ystyriaw fod y groes
+<lb/>'n sicrhau y sawl a<isp/><apo/>i dygant yn 'r <w>Ar<lb rend="shy"/>glwy&dhook;,</w> o ras, a ffafr gann dduw
+<lb/>drwy bwy rai i gwyddont 'n <w>ddia<lb rend="shy"/>meu,</w> i bod o <orig reg="aneirif">neirif</orig><!--or corr o neirif ?--> yr etholedigion
+<lb/>ac yn blant i dduw, yn gymeint ac
+<lb/>iddaw ef edrych arnynt yn dadawl,
+<lb/>er i gwellau a<isp/><apo/>i ceryddu hwy: can's
+<lb/>fal hynn i scrifennir. Yr oll rai, a
+<lb/>ryngasont fo&dhook; i dduw, a brofwyd,
+<lb/>ac a dreiwyd drwy amryw <w>flindero<lb rend="shy"/>e&dhook;,</w> ac a gaed yn safadwy ac yn <w>ddi<lb rend="shy"/>yscog</w> yn y ffy&dhook;:<!--colon?--> hefyd.
+</p>
+<p>
+<lb/>Pawb oll a<isp/><apo/>r<!--a'r--> a chwenychant fyw 'n
+<lb/>dduwiol ynghrist Iesu, sy raid
+<lb/>yddynt oddef erlid lawer ac adfyd.
+</p>
+</div>
+<div>
+<head><lb/>Pen. 11.</head>
+<p>
+<lb/><hi rend="italic">Trwbl, a chledi, sy 'n rhoddi i ni <w>acho<lb rend="shy"/>sion,</w> i weddio duw, y<isp/><apo/>w foli, ac
+<lb/>y<isp/><apo/>w fawrygu ef.</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">P</hi>Ob Cristion a wyr yn dda, fod
+<lb/>yn angenrheidiol, ac yn fuddiol
+<pb n="80"/>
+<lb/>iddaw, weddio a galw ar <corr resp="transcr" sic="oduw">dduw</corr><!--ed dduw--> 'n
+<lb/>ddyfal ac 'n ddefosionol. <corr resp="transcr" sic="yr">Yr</corr> awron,
+<lb/>pan fyddo gwr yn byw mewn <w>llwy<lb rend="shy"/>ddia<expan>n</expan>t,</w> ni weddia ef ond ychydig, neu
+<lb/>hynny, yn oer, ac yn araf, nid oes <w>ga<expan>n</expan><lb rend="shy"/>tho</w> fawr due&dhook; na meddwl ar i <w>we<lb rend="shy"/>ddi.</w> y weddi rhon ni yrer, ac ni <w>wth<lb rend="shy"/>ier</w> allan ga<expan>n</expan>n y groes nid yw 'n <w>dy<lb rend="shy"/>fod,</w> o ddyfndwr ac o eigiawn y <w>ga<lb rend="shy"/>lo<expan>n</expan>:</w> eythr trystyd, trymder a chledi a
+<lb/>fywhant, ac a enynna<expan>n</expan>t y meddwl, a<isp/><apo/>i
+<lb/>gwthiant, a<isp/><apo/>i heliant, ac a<isp/><apo/>i <w>ymlidi<lb rend="shy"/>ant</w> at dduw, ie, hwy a<isp/><apo/>i cymhellant
+<lb/>i alw arnaw yn daer, ac 'n ddyfal.
+</p>
+<p>
+<lb/>Can's pann welom a phann <w>dde<lb rend="shy"/>hallom</w> yn dda, na allwn wneuthur
+<lb/>dim o honom ein hunain, a ffa faint
+<lb/>yw ein eisieu o dduw, ar fod yn wiw
+<lb/>ganthaw ein llywodraethu, ein <w>cy<lb rend="shy"/>northwyo,</w> a<isp/>'n amddeffynu.
+</p>
+<p>
+<lb/>Megys ac nad yw y dwfr, cyd
+<lb/>y byddo 'n llenwi, ac yn rhedeg
+<lb/>rhyd llydan, faith, <corr resp="transcr" sic="wastadfaes.">wastadfaes,</corr> yn
+<lb/>torri allan yn rhyferthawg, eythr
+<pb n="81"/>
+<lb/>yn ymwascaru, ac yn ymdaenellu,
+<lb/>rhyd pob mann yn gyffelyb, ond
+<lb/>pann i crynhoer <corr resp="transcr" sic="ynhgyd">ynghyd</corr> drwy <w>syn<lb rend="shy"/>wyr,</w>&nbsp;<sic>a cyfrwyddyd</sic>, a<isp/><apo/>i ddwyn
+<lb/>i vn lle cyfing, megys i bistill, i
+<lb/>bibell, ne i gwndit, yna i <w>pist<lb rend="shy"/>illiff</w> ac i saethiff ef allan yn vchel:
+<lb/>felly meddwl dyn, cyd i byddo 'n
+<lb/>llony&dhook;, segur, ac heb flinder nac <w>ad<lb rend="shy"/>fyd,</w> sy 'n rhodio ac yn brwydro <w>o<lb rend="shy"/>ddia<expan>m</expan>gylch,</w> lle i mynno, wrth i gwrs
+<lb/><corr resp="transcr" sic="hun">i hun</corr>: ond pann i dyger i mewn,
+<lb/>pann i gwthier, ne pann i llockier i
+<lb/>ryw gyfing gilfach, drwy drwbleth
+<lb/>neu adfyd, yna i tyrr ef allan 'n <w>vw<lb rend="shy"/>chel</w> at dduw, tua<isp/><apo/>r nefoe&dhook;, drwy
+<lb/>ddyfal, hyderus a thaer weddiaw,
+<lb/>am i ras, i help, a<isp/><apo/>i gymorth.
+</p>
+<p>
+<lb/>Ar hynn y tyfo&dhook; y ddihareb <w>gyff<lb rend="shy"/>redin,</w> angen ac eisieu a ddysca<expan>n</expan>t <w>we<lb rend="shy"/>ddiaw.</w> O Arglwy&dhook; mewn adfyd ir
+<lb/>ymwelsont a thi, tywalltasont <w>we<lb rend="shy"/>ddi,</w> pann oe&dhook; dy gospedigaeth <w>ar<lb rend="shy"/>nynt.</w> Ecsampl o hynn. Pann glybu
+<pb n="82"/>
+<lb/>plant 'r Israel o ddyfodiad i <w>gely<lb rend="shy"/>nion</w> y Philistieit, hwy a ofnesont,
+<lb/>ac a ddoedasont, wrth Samuel: na
+<lb/>thaw di a gweiddi drosom at yr <w>Ar<lb rend="shy"/>glwy&dhook;</w> ein duw, ar iddaw ef ein <w>gwa<lb rend="om-shy"/>red</w> o ddwylaw y Philistieit: <w>Ma<lb rend="shy"/>nasses</w> rhwn oll ddyddieu i fywyd,
+<lb/>ydoe&dhook; fathueitgi<!--?; brath-?--> gwaedlyd, a <w>chre<lb rend="shy"/>ulon,</w> a rwymwyd mewn cadwyni,
+<lb/>ac a arweiniwyd i Fabilon, a <corr resp="transcr" sic="ssan">ffan</corr><!--ed ffan-->
+<lb/>ydoe&dhook; ef yn i gledi, a<isp/><apo/>i ing eithaf, ef
+<lb/>a wnaeth vfu&dhook; weddi, ac erfyn o
+<lb/>flaen 'r Arglwy&dhook; i dduw, a duw a
+<lb/>wrandawo&dhook; i weddi ef ac a<isp/><apo/>i dyg <w>eil<lb rend="om-shy"/>waith</w> i Gaersalem.
+</p>
+<p>
+<lb/>Pann godo&dhook; Temestl ar y mor,
+<lb/>fal i gorchguddid y llong ga<expan>n</expan>n <w>donn<lb rend="shy"/>eu,</w> a Christ 'n cyscu, yno i <orig reg="prysurai">prysureu</orig>
+<lb/>i ddyscyblion atto ef y<isp/><apo/>w ddeffroi,
+<lb/>gann ddoedyd, cymorth Arglwy&dhook;
+<lb/>cans mae 'n darfod am danom.
+</p>
+<p>
+<lb/>Siampl y wraig o Ganaan, a
+<lb/>ddysc i ni pa fo&dhook; y mae duw <corr resp="transcr" sic="n'">'n</corr> oedi,
+<lb/>ac yn hwyrhau roddi help a <w>chy<pb rend="shy" n="83"/><lb/>morth</w> weithiau, <orig reg="o wir gwaith goddau">o wirgythgoddef</orig>
+<lb/>fal i<isp/><apo/>n cynhyrfer yn fwy dirfawr i
+<lb/>alw arnaw, ac i barhau 'n daerach
+<lb/>yn ein gweddiau.
+</p>
+<p>
+<lb/>S. Austin a scrifenna fal hynn:
+<lb/><hi rend="antiqua">Y duwiol a orthrymir ac a <w>gystu<lb rend="shy"/>ddir,</w> yn 'r <corr resp="transcr" sic="eylwys">eglwys</corr> ne<isp/>'r <w>gynelleid<lb rend="shy"/>fa,</w> er y perwyl hwnn: sef, pann i
+<lb/>gorthrymer i galwant, pann <w>al<lb rend="shy"/>want</w> i clywid, pa<expan>n</expan>n<!--ed pan--> i clywid, i <w>maw<lb rend="shy"/>rygent</w> ac i moliannent dduw.</hi>
+</p>
+<p>
+<lb/>Ac fal y mae y groes, ac adfyd, yn
+<lb/>ein gwthio ac yn ein tanbigo yn ein
+<lb/>blaen i<isp/>'r rhan gyntaf o weddi, sef i
+<lb/>erfyn, ac i ymbil a duw, felly hefyd,
+<lb/>i<isp/><apo/>n helpiff, ac i<isp/><apo/>n annogiff i<isp/>'r rhann
+<lb/>arall o weddi, rhonn yw, moli duw,
+<lb/>a bod 'n ddiolchgar iddaw. <w>Ollall<lb rend="shy"/>uog</w> allu, doethineb, cyfiawnder, <w>tri<lb rend="shy"/>gare&dhook;</w> a gwirione&dhook; duw (yr vchel
+<lb/>a<isp/><apo/>r <corr resp="transcr" sic="arderchawg">ardderchawg</corr>, rinweddae hynny,
+<lb/>addas o bob mawl ac <corr resp="transcr" sic="anrhydde&dhook;">anrhyde&dhook;</corr>)
+<lb/>a ymddangosant mewn croes, <w>gor<lb rend="shy"/>thrymder,</w> a chledi Cristnogion, pa<expan>n</expan>n
+<pb n="84"/>
+<lb/>fyddo duw yn gofwyo truain <w>be<lb rend="shy"/>chadurieit,</w> yn diddanu y rhai sy&dhook;
+<lb/>mewn cyfyngder, a chledi, ac yn i
+<lb/>cynorthwyo, ac 'n i gwaredu hwy
+<lb/>alla<expan>n</expan> o bob angenoctid, wrth hynn y
+<lb/>rhyfeddiff oll Gristnogai&dhook; bobl,
+<lb/>'n ddirfawr, ac a dorrant allann, i
+<lb/>fawrygu, i ganmol, ac i addoli duw,
+<lb/>a chlod a mawl anraethawl.
+</p>
+<p>
+<lb/>Y mae genym y cyfryw drysor,
+<lb/>mewn llestri pri&dhook;, fal i bydde <w>ardd<lb rend="shy"/>erchowgrwy&dhook;</w> y meddia<expan>n</expan>t hwnnw, o
+<lb/>dduw ac nid o hano<expan>m</expan> ni: sef yw hyny
+<lb/>i ddym yn druein ac 'n llestri <w>gwei<lb rend="shy"/>nieid,</w> fal i chwaneger anrhyde&dhook; a
+<lb/>gogoniant duw, ac nid yr eiddo<expan>m</expan> ni.
+</p>
+<p><!--not indented, but previous line not filled, and para in English text-->
+<lb/>Er ecsampl cymer stori &Dhook;aniel, pa
+<lb/>we&dhook; i tro&dhook; carchar a chaethiwed 'r
+<lb/>Iddewon, 'n ogoniant ac yn foliant
+<lb/>mawr i dduw. <corr resp="transcr" sic="yn">Yn</corr> Iachawdwr Crist
+<lb/>sy 'n dangos 'r achos, pam ir ydoe&dhook;
+<lb/>y gwr yn ddall o<isp/><apo/>i enedigaeth, sef
+<lb/>er bod gwrthieu a gweithredoe&dhook;
+<lb/>duw 'n oleu ac yn eglur ynddo ef.
+</p>
+<pb n="85"/>
+<p>
+<lb/>Heb law hynn: yr oll Broffwydi,
+<lb/>Apostolion, a dewisedig duw, drwy
+<lb/>bwy rai y gwnaeth ef bethau <w>maw<lb rend="shy"/>rion,</w> rhyfeddawl, a ddirmygwyd
+<lb/>ac a ddistyrwyd, ie weithieu a <w>ladd<lb rend="shy"/>wyd</w> ac a arteithiwyd, fal i gwele,
+<lb/>ac i dealle bawb, fod i ffy&dhook;, a<isp/><apo/>i <w>gwei<lb rend="shy"/>thred</w> ('rhain oeddynt ddisigl, a <w>cha<lb rend="shy"/>darn)</w> yn waith duw, ac nid gallu
+<lb/>dyn. Ac am hyn i dylid, moli a <w>maw<lb rend="shy"/>rygu</w> duw, vwchlaw pob peth oll.
+</p>
+</div>
+<div>
+<head><lb/>Pen. 12.</head>
+<p>
+<lb/><hi rend="italic">Trwbleth ac adfyd a<isp/>'n tywysant
+<lb/>i rinweddae da, ac i
+<lb/>dduwioldeb</hi><!--ed + full stop-->
+</p>
+<p>
+<lb/><hi rend="rubric">Y</hi> groes ag adfyd, a darfant, ac a
+<lb/>yrra<expan>n</expan>t ymaith bechodae, a <w>wna<lb rend="shy"/>ethwyd</w> o<isp/><apo/>r blaen, ac a rwystrant, ac
+<lb/>a wrthneba<expan>n</expan>t, bechodae sy&dhook; ar <w>ddy<lb rend="shy"/>fod,</w> a helpant i bla<expan>n</expan>nu, i feithrin, ac i
+<lb/>chwanegu pob rhinwe&dhook; dda, fal i
+<lb/>dener ac i dyger yr anuwiol i <w>edi<lb rend="shy"/>feirwch,</w> newydd-deb a gwellant
+<pb n="86"/>
+<lb/>buche&dhook;, a<isp/><apo/>r duwiol i fyned rhagddo
+<lb/>i chwaneg o rinweddae, a <w>duwiol<lb rend="shy"/>deb:</w> cans pwy adfyd bynag a <w>ddio&dhook;<lb rend="om-shy"/>efo</w> 'r cnawd, y mae yn i boeni yn
+<lb/>ddirfawr, gwell o lawer fydde <w>ga<expan>n</expan><lb rend="shy"/>tho</w> fod yn llawen, yn heddychol ac
+<lb/>yn ddihelbul: yr awrhon pob dyn
+<lb/>'rhwn sy&dhook; ganthaw ddim rheswm,
+<lb/>a wyr yn ddigo<expan>n</expan> da, i fod ef yn dwyn
+<lb/>llawer o adfyd ar i wddwf i hun
+<lb/>drwy i drachwantae, a<isp/><apo/>i <w>ymwreddi<lb rend="shy"/>ad</w> drwg i hunan: am hyny ef a <w>dde<lb rend="shy"/>chreu</w> wilio, a gochel yn well o <w>hyn<lb rend="shy"/>ny</w> allan fuche&dhook; afrwolus ac <w>anlly<lb rend="shy"/>wodraethus,</w> megys achos, <w>gwrei<lb rend="shy"/>ddin,</w> a dechrevad pob blinder, a
+<lb/>thristwch: fal hefyd (heb law <w>cosbe<lb rend="shy"/>digaeth</w> presennol) na ffoener ef yn
+<lb/>dragwyddol. A hyn a fanegir, ac a
+<lb/>brofir yn gyntaf, a chyfflybiaethae,
+<lb/>yn ail a thestimoniae o<isp/><apo/>r Scrythur
+<lb/>lan, ac yn drydy&dhook; drwy hynod a
+<lb/>gwybodedig ecsa<expan>m</expan>pleu. <corr resp="transcr" sic="dwfr">Dwfr</corr> 'r hwn
+<lb/>sy 'n oestadol yn sefyll yn i vnlle, er
+<pb n="87"/>
+<lb/>gloywed fyddo, y mae yn <w>llygre<lb rend="shy"/>dig</w> ac <apo/>n ddiffaith: eythr y dwfr sy&dhook;
+<lb/>rydegog bob a<expan>m</expan>ser, pwy fwya i rhua
+<lb/>ac i rhed, drwy<isp/><apo/>r creigiau a<isp/><apo/>r cerrig,
+<lb/>teccach, croywach a pherffeiddiach
+<lb/>fy&dhook; o lawer: felly y gwr duwiol heb
+<lb/>y groes, sy&dhook; ddiddarbod, dwl, a
+<lb/>lluddedig, eythr drwy<isp/>'r<!--ed drwy 'r--> groes, ac
+<lb/>adfyd, ef a fywheir, a faethdrinir,
+<lb/>ac a chwanegir ymhob daioni. Yr
+<lb/>hayarn rhydlyd, ca<expan>n</expan>credic, ga<expan>n</expan> y llif
+<lb/>ddur,<!--llifddur 'rasp', one word?--> a loewir, ac a lyfnheir, felly
+<lb/>i<isp/><apo/>r he<expan>n</expan> Adda lygredic, mae<isp/>'n<!--ed mae 'n-->&nbsp;<w>angen<lb rend="shy"/>rhaid</w> cael, ing ac adfyd y<isp/><apo/>w ffwrbio
+<lb/>ac y<isp/><apo/>w la<expan>n</expan>hau oddiwrth ga<expan>n</expan>cr a rhwd
+<lb/>pechod. Cyllell er llyfned fyddo, <w>o<lb rend="shy"/>ni</w> arferir, a gascl rwd, a<isp/><apo/>r rhwd a<isp/><apo/>i
+<lb/>difa ac a<isp/><apo/>i hyssiff: eythr pwy fwya ir
+<lb/>arferir, er iddi ddarfod peth, etto
+<lb/>gloewach fy&dhook;: yn 'r vn mo&dhook;, er bod
+<lb/>llawer vn yn naturiol ac yn hynaws
+<lb/>etto oni arferir, ac oni feithrinir ef,
+<lb/>mewn trwbleth ac adfyd, ef a <w>ly<lb rend="shy"/>griff</w> gann rwd a chancr pechod.
+</p>
+<p>
+<lb/>Eythr drwy<isp/>'r groes ac adfyd, er
+<pb n="88"/>
+<lb/>i<isp/><apo/>r rhwd ynill peth o honaw, <w>(oble<lb rend="shy"/>git</w> ei ddynawl wendid) etto ef a
+<lb/>loywir, a lanheir, ac a wnair yn
+<lb/>fwy disclair, ac yn brydferthach
+<lb/>drachefn.
+</p>
+<p>
+<lb/>Yr had rhwn a havir, yn y maes,
+<lb/>er iddaw oddef gwynt, glaw, eira,
+<lb/>rhew a ffob bath ar demestl, etto fe
+<lb/>gynyddiff, ag a ffrwythiff, felly 'r
+<lb/>ysbrydol had, 'r hwn yw gair duw,
+<lb/>pann i derbynir mewn calon dda
+<lb/>ddefosionol, ni ddinistrir ddim o <w>ha<lb rend="shy"/>naw</w><!--W?--> drwy drwbleth, eythr ef a
+<lb/>ddwg allan ffrwyth da proffidiol.
+</p>
+<p>
+<lb/>Prenn cnau ffrengig pwy fwya
+<lb/>i curir, wellwell fydd: felly gwr
+<lb/>drwy aml wialennod, a llawer o <w>ad<lb rend="shy"/>fyd,</w> a dru oddiwrth i ddrigioni, ac
+<lb/>a wnair yn well.
+</p>
+<p>
+<lb/>I galed ac i dewgroen march ne
+<lb/>assyn, nid oes dim well na ffrewy&lhook;
+<lb/>dost y<isp/><apo/>w ffla<expan>n</expan>gellu: felly nid oes dim
+<lb/>mwy addas, na mwy buddiol i<isp/><apo/>n
+<lb/>cnawd afrowiogfalch nineu, na
+<pb n="89"/>
+<lb/>thristwch a thrwbleth, er i <w>gynhyr<lb rend="shy"/>fu</w> a<isp/><apo/>i yrru yn well rhagddo.
+</p>
+<p>
+<lb/>Brethyn sy&dhook; raid i fynych <w>hau<lb rend="shy"/>lo</w> a<isp/><apo/>i frwyssio, rhag (mal y mae yr
+<lb/>ddihareb) i yssu gann bryfed: felly
+<lb/>yr ysbrydol bryfedae, a <w>gwyfyn<lb rend="shy"/>nae,</w> sef, anwire&dhook;, pechod, a <w>ffieidd<lb rend="hyphen"/>dra,</w> sy&dhook; yn llai i grymm i fagu <w>y<lb rend="shy"/>no<expan>m</expan></w> nineu, os nyni a gurir ag a <w>frwy<lb rend="shy"/>ssir</w> mewn amser, gann <w>orthrym<lb rend="shy"/>der</w> ac adfyd.
+</p>
+<p>
+<lb/>Y cig yr hwnn sy&dhook; newy&dhook; la&dhook;,
+<lb/>yn dyfod o<isp/><apo/>r farchnad, ac yn ir, yn
+<lb/>brysur a ddiflesiff, ac a gynrhoniff,
+<lb/>eythr yr heli, a<isp/>'r halen a<isp/><apo/>i ceidw yn
+<lb/>felus ac yn ddilwgr: felly duw sy&dhook;
+<lb/>yn taunu<!--or tannu??; same meaning--> ac yn taenellu halen <w>ar<lb rend="shy"/>nom</w> nineu, drwy amryw <w>brofedi<lb rend="shy"/>gaethae,</w> a gorthrymderae, er <w>ydd<lb rend="shy"/>ynt</w> yn halldu, rhag yn llygru a<isp/>'n
+<lb/>cyfergolli mewn pechod.
+</p>
+<p>
+<lb/>Y corff rhwn <corr resp="transcr" sic="syd dyn">sydd yn</corr> oestadawl 'n
+<lb/>segur, ac heb wneuthur dim, a <w>ddig<lb rend="shy"/>wy&dhook;</w> yn haw&dhook; i glefydon a <w>doluri<pb rend="shy" n="90"/><lb/>au,</w> eythr cyrff y rhai a weithiant ac
+<lb/>a lafuriant, ydynt iachach, ac <w>ifien<lb rend="shy"/>gach,</w> ac a barhant yn well: felly yr
+<lb/>enaid rhwn a faethdrinir, ac a <w>arfe<lb rend="shy"/>rir</w> mewn trwbleth a blinder, sydd
+<lb/>iddaw achosio<expan>n</expan> i fod, yn brydferthach
+<lb/>yn iachach, ag yn ddisclairiach.
+</p>
+<p>
+<lb/>Mae yn ddihareb wir, pwy tosta
+<lb/>yr lleisw, glana i gylch: felly i<isp/><apo/>n <w>na<lb rend="shy"/>tur</w> lygredig, we<expan>n</expan>wynig nineu, mae
+<lb/>yn angenrhaid cael, tost, a garw <w>fe<lb rend="shy"/>ddiginiaeth,</w> a ffwy tosta fyddo yr
+<lb/>adfyd, mwyaf o<isp/><apo/>r cwbl a ylch ef <w>y<lb rend="shy"/>maith</w> o afle<expan>n</expan>did, ac a<expan>n</expan>ghymesurwy&dhook;.
+</p>
+<p>
+<lb/>I gylla gwann, drwgfaethus, y
+<lb/>mae yr <corr resp="transcr" sic="chewrw">chwerw</corr> wermod yn dda, ac
+<lb/>yn iachus, felly i enaid llesc, <w>gwae<lb rend="shy"/>lus,</w> chwerw drwbl ac adfyd sy&dhook;
+<lb/>iachus ac ange<expan>n</expan>rheidiol: cofia yr <w>ddi<lb rend="shy"/>hareb</w> honn.
+<lb/><hi rend="antiqua">Pann gaffo yr claf i <corr resp="transcr" sic="iechyd.">iechyd,</corr>
+<lb/>E fy&dhook; gwaeth, na chyn ei glefyd.</hi><!--verse-->
+</p>
+<p>
+<lb/>Ac am hyny clefyd sy&dhook;&nbsp;<w>ange<expan>n</expan>rhei<lb rend="shy"/>diolach</w> iddaw, rhag i waethygu, a
+<pb n="91"/>
+<lb/>byw yn fwy anwireddus. Bellach,
+<lb/>mi a roddaf i lawr destimonae o<isp/><apo/>r
+<lb/>scrythur lan. Duw sy&dhook; yn bygwth
+<lb/>anfon saith mwy pla, ar blant 'r <w>Is<lb rend="shy"/>rael,</w> os hwy ni wellhaen pann i <w>cos<lb rend="shy"/>bid,</w> yn yscafn ac yn esmwyth <w>gan<lb rend="shy"/>thaw:</w> gan ddwyn ar ddevall drwy
+<lb/><corr resp="transcr" sic="foeses">Foeses</corr>, fod adfyd a blinder, i<isp/><apo/>n dyscu,
+<lb/>i gyweirio, ac i wellhau ein buche&dhook;.
+</p>
+<p>
+<lb/>Briwiau, cleisiau, a dyrnodiau,
+<lb/>yn curo celloe&dhook; y bol, ydynt <w>scra<lb rend="shy"/>fellau</w> i gosi yr anuwiol.
+</p>
+<p>
+<lb/>Ni welir chwaith yn hyfryd, vn
+<lb/>cospedigaeth, tros 'r amser <w>presen<lb rend="shy"/>nol,</w> eythr yn anhyfryd: etto wedi
+<lb/>hynny, heddychol ffrwyth <w>cyfiawn<lb rend="shy"/>der</w> a ry&dhook; hi, i<isp/><apo/>rr rhai a fyddant <w>we<lb rend="shy"/>di</w> eu cynefino a hi.
+</p>
+<p>
+<lb/>Ac eilwaith fe a ddoedir: gan <w>ddi<lb rend="shy"/>oddef</w> o Grist trosom <corr resp="transcr" sic="niyny">ni yn y</corr> cnawd,
+<lb/>chwithau hefyd arfogwch eich <w>hu<lb rend="shy"/>nain,</w> a<isp/><apo/>r vnrhyw feddwl, sef peidio
+<lb/>o hwnn a ddioddefo&dhook; yn y cnawd a
+<lb/>ffechod: fal na byddo iddo o hyn alla<expan>n</expan>
+<pb n="92"/>
+<lb/>tros hynn sy&dhook; yngweddill o<isp/><apo/>r <w>am<lb rend="shy"/>ser</w> 'n y cnawd, fyw ar ol <w>trachwan<lb rend="shy"/>tae</w> dynion, eythr ar ol ewyllys
+<lb/>duw.
+</p>
+<p>
+<lb/>A hyn a wnair yn eglurach trwy
+<lb/>ecsample. Dann Iosua yr enillo&dhook;
+<lb/>plant yr Israel, lawer maes, a hwy
+<lb/>a yrrwyd i ymla&dhook; yn erbyn i <w>gely<lb rend="shy"/>nion,</w> ac ni chwympasont, ac ni <w>ys<lb rend="shy"/>cogasont,</w> oddiwrth yr Arglwy&dhook;,
+<lb/>nes i dyfod i esmwythdra, ac i gael
+<lb/>pob peth yn ddigonawl: hynn sy <w>ec<lb rend="shy"/>sampl</w> o liaws o bobl.
+</p>
+<p>
+<lb/>Ionas Broffwyd pann ydoedd
+<lb/><orig reg="ym mol">ymol</orig> y morfarch, a gofio&dhook; ei <w>becho<lb rend="shy"/>dae,</w> a<isp/><apo/>i newidio&dhook; i hun, a droes, ac a
+<lb/>fu vfuddol i dduw.
+</p>
+<p>
+<lb/>Y mab colledig, anystywalld, yn
+<lb/>gyntaf amser a droes adref att i
+<lb/>dad, pann ganfu a ffann welo&dhook; ef i
+<lb/>drueni, a<isp/><apo/>i dlodi i hunain.
+</p>
+<p>
+<lb/>Craffa, ar arfer beunyddol y
+<lb/>byd: nyni a feddyliwn ynom ein <w>hu<lb rend="shy"/>nain</w> yn fynych fal hyn. O pe i bawn
+<pb n="93"/>
+<lb/>vnwaith etto yn iach, yn wir myfi
+<lb/>a ymddygwn, ac a<isp/><apo/>m ordriwn fy hun
+<lb/>mal i dylwn: myfi a gynorthwywn
+<lb/>ac a wnawn wasanaeth i bawb, &amp;c.
+<lb/>O na bawn gyfoethawg, mi a <w>ran<lb rend="shy"/>nwn</w> ac a roddwn yn llawen ac yn
+<lb/>ffyddlon i<isp/><apo/>r tlodion: eythr cyn <w>gyn<lb rend="shy"/>ted</w> ac i delom allan o<isp/>'n perigl, ni a
+<lb/>ollyngasom hynn oll yn angof: tra
+<lb/>fyddom heb eisiau dim arnom, ni
+<lb/>ddichon neb rwystro, nac attal yn
+<lb/>camwedd.
+</p>
+<p>
+<lb/>Bellach i ddyfod at <corr resp="transcr" sic="ecsample.">ecsample:</corr>
+<lb/>meddwl ddau amryw duy, <w>naill<lb rend="shy"/>duawl,</w> vn, yn yr hwnn i cedwir <w>pri<lb rend="shy"/>odas</w> lle i mae gorfole&dhook; a <w>llawe<lb rend="shy"/>ny&dhook;</w> a ffob daynteth: arall, yn yr
+<lb/>hwn y mae vn yn ei glaf-wely <w>ym<lb rend="shy"/>ronn</w> angeu. <corr resp="transcr" sic="ynhuy">Ynhuy</corr> yr briodas lle i
+<lb/>mae dawnsio, ir arferir pob <w>hoew<lb rend="shy"/>der</w> a gwamalrwy&dhook;, geirieu <w>an<lb rend="shy"/>weddus,</w> afla<expan>n</expan>, cynghaneddion a <w>rhi<lb rend="shy"/>mynau</w> bustleddai&dhook;, digwily&dhook;&nbsp;<w>ym<lb rend="shy"/>wreddiad</w> ag arfereu, hoyw a <w>gwa<pb rend="shy" n="94"/><lb/>mal</w> drwssiadae, vn a neitia, ac a <w>win<lb rend="om-shy"/>ga,</w> fal march: ara&lhook; a ddilia ei draed
+<lb/>wrth lawr, fal assyn: y trydy&dhook;, a yf,
+<lb/>oni feddwo: y pedwery&dhook; ni wnaiff
+<lb/>ddim a fyddo gonest, fal y dichon
+<lb/>gwr ddoedyd yn wir, i bod hwy yn
+<lb/>waeth nac anifeileit. Ond lle i mae
+<lb/>y claf 'n i welu, mae pob peth <apo/>n <w>ddi<lb rend="shy"/>staw,</w> ni ddoedir gair ond a fyddo
+<lb/>gonest, a gwe&dhook;us: pob peth a wnair
+<lb/>'n sobr, yn arafai&dhook;, a cha<expan>n</expan> bwyll. A<isp/><apo/>r
+<lb/>pryd hyny, nid <apo/>n vnic y gwyr, eythr
+<lb/>y gwrage&dhook;, a<isp/><apo/>r pla<expan>n</expan>t hefyd, a<isp/><apo/>r ho&lhook; du
+<lb/>a arferir <apo/>n dduwiol: hwy a weddia<expan>n</expan>t,
+<lb/>hwy a<isp/><apo/>i cyssurant i hunain, ga<expan>n</expan> dorri
+<lb/>allan i<isp/><apo/>rr rhain, ne i<isp/><apo/>rr cyfryw <w>yma<lb rend="shy"/>droddion:</w> pa beth yw dyn? O mor
+<lb/>drancedig ac mor ofer yw 'r oll <w>be<lb rend="shy"/>thau</w> sy&dhook; genym ar y ddayar yma?
+<lb/>ond nid fal hyn y by&dhook; yn y byd sy&dhook;
+<lb/>ar &dhook;yfod. Ac hefyd o duy<isp/>'r briodas
+<lb/>llawer vn a aiff adref yn <w>drymhyr<lb rend="shy"/>ddig,</w> yn drist yn helbulus, ac yn
+<lb/>ddirmygus ei feddwl, am nad yw ef
+<pb n="95"/>
+<lb/>mor hapus, ac mor ddedwy&dhook;, ac <w>e<lb rend="shy"/>raill:</w> ac yn ddisymwth ef a dreisir
+<lb/>gan bryd a gwe&dhook;, rhyw wraig, ne
+<lb/>forwyn, a welo&dhook; ef <apo/>n y dawns, 'rho<expan>n</expan>
+<lb/>a<isp/><apo/>i clwyfo&dhook; hyd att i galon: A ffann
+<lb/>&dhook;el ef adref, ef a edrych <apo/>n sarug ar ei
+<lb/>wraig, e fy&dhook; chwerw wrth i bla<expan>n</expan>t, <w>a<lb rend="shy"/>nynad</w> wrth ei deuluy, a neb ni fedr
+<lb/>ryngu bo&dhook; iddaw. Ond 'r hwn a
+<lb/>aiff adref o duy<isp/>'r<!--ed duy 'r--> claf, a<isp/><apo/>i tybia i hun
+<lb/>yn ddedwy&dhook;, ac <apo/>n fendigedig, am
+<lb/>nad yw ef yn gorwe&dhook; yn y cyfryw
+<lb/>ddialeddus ing, ac os oes arnaw ef i
+<lb/>hun, ryw ofyd ne flinder, y mae ef yr
+<lb/>awrho<expan>n</expan> <apo/>n aplach y<isp/><apo/>w ddioddef <apo/>n <w>esm<lb rend="shy"/>wythach,</w> ac <apo/>n fwy ymorthoys, pan i
+<lb/>cyfflybo i ferthur dialeddus, ac i <w>a<lb rend="shy"/>noddefus</w> boen, yr vn sy&dhook; ymhoene
+<lb/>Angeu. Ac o achos hynn, mae ef yn
+<lb/>fwy ei ymyne&dhook;, <apo/>n <corr resp="transcr" sic="hawdgarach">hawddgarach</corr>, ac <apo/>n
+<lb/>foneddigeiddiach tuac at ei wraig<!--comma missing-->
+<lb/>ei blant, a<isp/><apo/>i ho&lhook; deuluy, ie, ac heb law
+<lb/>hyn, ef a gymmer achos o hyn i <w>we&lhook;<lb rend="om-shy"/>au</w> i ddrwg fuchedd.
+</p>
+</div>
+<pb n="96"/>
+<div>
+<head><lb/>Pen. 13.</head>
+<p>
+<lb/><hi rend="italic">Tristwch ac adfyd, a<isp/>'n dyscant i
+<lb/>ofni, ac i garu duw.</hi>
+</p>
+<p>
+<lb/><hi rend="rubric">A</hi>Dfyd, a blinder a fagant ofn
+<lb/>duw, yn y Sawl a<isp/><apo/>i goddef, ac
+<lb/>hefyd, yn y Sawl a glywant, ac a
+<lb/>wyddant o hynny: ac felly mae <w>lla<lb rend="shy"/>wer</w> yn cymryd siampl, ac addysc
+<lb/>drwy hynn, ar na amcanant ddim
+<lb/>yn amhwyllog yn erbyn ewyllys
+<lb/>duw: canys ef yn gyfraithlawn a
+<lb/>ddylid i ofni a<isp/><apo/>i arswydo, 'rhwnn a
+<lb/>ddichon ddwyn, a gosod arnom, bob
+<lb/>bath ar ddialeddae, ac sy&dhook; iddaw
+<lb/>iawn achosio<expan>n</expan>, a hawl arno<expan>m</expan>, i, <w>wneu<lb rend="shy"/>thur</w> hynny: yr awrhonn ny ni yn
+<lb/>wael ac yn weinieid ni allwn mewn
+<lb/>mo&dhook; yn y byd, wrthnebu, na <w>gwrth<lb rend="om-shy"/>ryfela</w> yn erbyn y nerthawg, a<isp/><apo/>r
+<lb/>galluawg dduw, nid allwn <w>cy<lb rend="shy"/>meint</w> a gwrthod ne droi ymaith y
+<lb/>diwrnod lleiaf o<isp/>'r acsus ne o<isp/>'r crud
+<pb n="97"/>
+<lb/>crynnu: ie, nid allwn i rwystro, i<isp/><apo/>rr
+<lb/>gwaelaf, ac i<isp/><apo/>rr dystyraf, o <w>greadu<lb rend="shy"/>rieit</w>&nbsp;<corr resp="transcr" sic="Y">y</corr> byd, yn dialeddu, a<isp/>'n <w>aflo<lb rend="shy"/>nyddu:</w> megys, llau, chwain, pryfed,
+<lb/>a<isp/><apo/>r cyfryw gymyscbla, rhain, a <w>fei<lb rend="shy"/>striasont,</w> ac a orfuont, rymus ac <w>ar<lb rend="shy"/>dderchawg</w> frenin yr Aipht.
+</p>
+<p>
+<lb/>Mae yn ddihareb wir, llaw a
+<lb/>loscwyd vnwaith a ofna yr tan, <w>ca<lb rend="shy"/>nys</w> yn y synwyr a<isp/><apo/>r deuall hwnnw,
+<lb/>i doedodd Moeses wrth y bobl <w>of<lb rend="shy"/>nus,</w> i<isp/><apo/>ch profi chwi y daeth duw, ac i
+<lb/>fod i ofn ef garr eich bronnau, fal na
+<lb/>ffechech. Er ecsampl: pwy fwyaf ir
+<lb/>ymdroe ac ir ymhelie yr Arglwy&dhook;
+<lb/>ynghylch Dafydd, dilusach yr oe&dhook;
+<lb/>Dafydd yn edrych ar yr Arglwy&dhook;
+<lb/>ac yn i ofni: ac nid yn vnig Dafydd,
+<lb/>eythr eraill hefyd, pann welsont, a
+<lb/>pha<expan>n</expan> ddeuallaso<expan>n</expan>t ei trueni, a<isp/><apo/>i <w>gwae<lb rend="shy"/>le&dhook;,</w> a gymeraso<expan>n</expan>t achos o hyn, i ofni
+<lb/>duw <apo/>n fwy nac y gwnaethe<expan>n</expan>t o<isp/><apo/>r blae<expan>n</expan>
+<lb/>ac yn enwedig pan welsont, pa fo&dhook;
+<lb/>i cospodd duw lawruddiaeth a <w>godi<pb rend="shy" n="98"/><lb/>neb</w> Dafy&dhook;, drwy derfyscae, <w><corr resp="transcr" part="a" sic="cyfry">cyfry</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="fe&dhook;">se&dhook;</corr>,</w><!--ed cyfry/sed'--> celane&dhook;, ac a cholledau lawer
+<lb/>o bobloedd.
+</p>
+<p>
+<lb/>Yr Scrythur lan sy&dhook; yn gosod
+<lb/>o flaen ein llygaid ni, lawer o<isp/><apo/>r fath
+<lb/>siamplau ofnadwy, fal na byddo i
+<lb/>ni brisio ofn duw, yn yscafn beth<!--yscafnbeth?-->, <w>ey<lb rend="shy"/>thr</w> ofni o honom bob anwire&dhook;, <w>pe<lb rend="shy"/>chod,</w> a ffieidd-dra.
+</p>
+<p>
+<lb/>Pan ddyger allan vn a fo <w>trosedd<lb rend="shy"/>wr</w> y gyfraith i dorri i ben, y<isp/><apo/>w <w>gro<lb rend="shy"/>gi,</w> y<isp/><apo/>w losci, ne mewn rhyw fodd <w>a<lb rend="shy"/>rall</w> y<isp/><apo/>w ddihenyddio: eraill a<isp/><apo/>r<!--a'r--> a<isp/><apo/>i
+<lb/>gwela<expan>n</expan>t ef, a ddyscant <corr resp="transcr" sic="osni">ofni</corr>,<!--ed ofni--> a gochel
+<lb/>y peth a<isp/><apo/>i dyg ef i<isp/><apo/>rr diwe&dhook; hwn: yn
+<lb/>'r vn mo&dhook; pan ddanfono duw ryw
+<lb/>ddialedd, naill ai ar ryw rai yn <w>en<lb rend="shy"/>wedic,</w> ne ar<isp/>'r<!--ed ar 'r--> oll gyffredin, pawb
+<lb/>eraill a ddylent ystyriaw o hyny,
+<lb/>fal pe i baent hwy i hun, yn lle y rhai
+<lb/>gorthrymedig hynny: ac fal pe i bae
+<lb/>adfyd y rheini yn orthrymder <w>ydd<lb rend="shy"/>ynt</w> hwy i hunain, ac ofni duw <apo/>n we&lhook;
+<lb/>a gwilio rhag cwympo o honynt
+<pb n="99"/>
+<lb/>hwythau, i gyfryw ddialedd duw.
+</p>
+<p>
+<lb/>Ac yn ddiau mae cymeint o achos
+<lb/>i<isp/><apo/>r da, a<isp/><apo/>r duwiol i ofni, ac sy&dhook; i<isp/><apo/>r <w>an<lb rend="shy"/>wir</w> a<isp/><apo/>r anuwiol. Canys wrth hyn ir
+<lb/>ystyr y ffyddlon, fod y tra<expan>n</expan>cedig <w>ddi<lb rend="shy"/>aleddae</w> hynn, yn arwyddion ac yn
+<lb/>destimoniae eglur, o<isp/><apo/>r <w>cospedigae<lb rend="shy"/>thae</w> tragwyddol, sy&dhook; i ddyfod,
+<lb/>'rhai ynt fil <corr resp="transcr" sic="filoeddo">filoedd o</corr> weithiau <apo/>n fwy
+<lb/>gofidus, ac heb ddiwe&dhook; yddynt, <w>er<lb rend="shy"/>wy&dhook;</w> paha<expan>m</expan>, yn gystal i adfyd ei <w>hu<lb rend="shy"/>nain,</w> a gorthrymder eraill, a rydd
+<lb/>yddynt ddigon o achos i wellau, ac
+<lb/>i ymwrthod a<isp/><apo/>r peth, drwy 'r hwn y
+<lb/>mae pawb oll, yn dwyn plae&aelig;&nbsp;<w>trag<lb rend="shy"/>wyddol,</w> ar i gyddfe ei hunain. Yr
+<lb/>Anwir a<isp/><apo/>r anffyddlonieit hwythau
+<lb/>(oni fydda<expan>n</expan>t ry gildynnus, a <w>gwrth<lb rend="shy"/>nysig,</w> ac o bydd dim rheswm <w>gan<lb rend="shy"/>thynt)</w> a ddechreua<expan>n</expan>t hefyd ofni duw,
+<lb/>a meddwl ynthynt i hunain fal hyn:
+<lb/>ga<expan>n</expan> fod duw 'n gofwyo, <apo/>n scyrsio, ac <apo/>n
+<lb/>ceryddu y da, a<isp/><apo/>r ffyddlo<expan>n</expan>, drwy <w>drym<lb rend="om-shy"/>der,</w> ac adfyd, rhai nid ydynt elfy&dhook;
+<lb/>mor<note resp="transcr">= catch-word; no corresponding text on p. 100.</note>
+<pb n="100"/>
+<lb/>anuwiol ac ym ni: pa wedd i <w>di<lb rend="shy"/>engwn</w> nineu 'rhai a hauddasom,
+<lb/>ddengwaith, ie, vgeinwaith fwy <w>di<lb rend="shy"/>aleddus</w> cospedigaeth na hwynt
+<lb/>hwy? creffwch ac ystyriwch (medd
+<lb/>y Proffwyd Ieremi<!--ed Jeremi-->) canys wele
+<lb/>mi a ddechrevais ddrygu y ddinas,
+<lb/>yr honn i gelwir fy enw arni, ac a
+<lb/>ddiengwch chwi? Canys yr ydwyf
+<lb/>yn galw am gleddyf ar oll <w>drigoli<lb rend="shy"/>on</w> y ddayar, medd Arglwy&dhook; y <w>llu<lb rend="shy"/>oedd.</w> Ac hefyd: os gwnant hyn i<isp/><apo/>rr
+<lb/>prenn ir, beth a wnair i<isp/>'r crin? Yr
+<lb/>amser a ddaeth (medd S. Petr) i
+<lb/>bydd rhaid, i<isp/><apo/>rr farn ddechreu ar dy
+<lb/>dduw, ac os ydyw yn gyntaf yn <w><corr resp="transcr" part="a" sic="de">de</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="dechreu">chreu</corr></w> arnom ni, pa ryw ddiwe&dhook;
+<lb/>a fydd i<isp/>'r rhai ni chredant efengyl
+<lb/>dduw?
+</p>
+<p>
+<lb/>Ci diniwed, 'rhwnn ni wnaeth
+<lb/>ddim drwg, a gurir yngolwg y
+<lb/>llew, fal i byddo i<isp/><apo/>r llew, pan wypo
+<lb/>ddigio, a sorri i feistr, fod <apo/>n fwy i ofn.
+<lb/>A. S. Grygor a escrifenna fal hynn.
+</p>
+<pb n="101"/>
+<p>
+<lb/><hi rend="antiqua">Os yw duw yn ceryddu cyn drymed y
+<lb/>rhai y mae ef yn i caru, pa wedd na chur
+<lb/>ef yn dostach ac yn drymach, y sawl nid
+<lb/>yw ef yn caru ddim o honynt?</hi>
+</p>
+<p>
+<lb/>Cristnogion, rhain a ddygant y
+<lb/>groes, ac ydynt orthrymedig, a <w>ga<lb rend="shy"/>rant</w> dduw a mwy awy&dhook;, <w>yngy<lb rend="shy"/>meint</w> ag yddynt glywed ynghanol
+<lb/>i hadfyd, yr hyfryd ddiddanwch,
+<lb/>'rhwnn sydd yn dyfod oddiwrth ei
+<lb/>tad nefol: o drigarog ewyllys pwy
+<lb/>vn, nis gallant a<expan>m</expan>meu nac anobeitho.
+</p>
+<p>
+<lb/>Ci ffyddlon, er ei feistr i daro ef,
+<lb/>eto fe a<isp/><apo/>i car er hyny, ac a ymlewy&dhook;
+<lb/>ac ef drachefn: plentyn da er i guro,
+<lb/>nid anllai i ceriff i dad a<isp/><apo/>i fam, gann
+<lb/>ddamuno i naw&dhook; eilwaith: felly yn
+<lb/>yr vn mo&dhook; mae meddylieu y gwir
+<lb/>Gristnogio<expan>n</expan>, tuac at i tad nefol, <w>ey<lb rend="shy"/>thr</w> y cyfryw blant ac ydynt <w>ddrigi<lb rend="shy"/>onus,</w> ac anhynaws, pann i curer <w>y<lb rend="shy"/>chydig</w> hwy a ffoant ymaith <w>oddi<lb rend="shy"/>wrth</w> i rhieni gann furmur a <w>grwg<lb rend="shy"/>nach</w> y<isp/><apo/>w erbyn.
+</p>
+</div>
+<!--
+15,979 - 899 hyphens + 119 word-linking hyphens - 26 div tags - 101 page breaks = 15,072 words
+-->
+</body>
+</text>
+</TEI.2>
+
+
