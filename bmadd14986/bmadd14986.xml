@@ -1,0 +1,3366 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../verse_dipl.xsl"?>
+<!-- normal stylesheet: verse_dipl.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title lang="cym">Dram&acirc;u crefyddol allan o BL. Add. 14986</title>
+<title lang="eng">Religious drama from BL. Add. 14986</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed and edited by </resp><name id="transcr">Ingo Mittendorf</name>
+<resp>Notes by <name>David Willis</name></resp></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, September 2004</edition></editionStmt>
+
+ <publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+</publicationStmt>  
+
+<notesStmt>
+<note type="text">The corpus contains two religious plays, &lsquo;Y dioddefaint&rsquo; and &rsquo;Y tri brenin o Gwlen&rsquo;, from British Library Additional 14986. Although the oldest manuscript dates from 1552, little is known as to when the plays might have been composed and / or committed to writing. In her edition, Jones argues (44&ndash;8), on linguistic grounds, that the plays were composed towards the end of the fourteenth century. However, the evidence is scant, and further research is needed to corroborate this.</note>
+
+<note type="source">&lsquo;Y dioddefaint&rsquo; is found on folios 10v-33v of the manuscript, and is followed by &lsquo;Y tri brenin o Gwlen&rsquo; on folios 33v-38v. The manuscript is by various sixteenth-century hands. The scribe of the two religious plays is identified as <name id="scribe">Llelo Gwta (Llywelyn ap Mredydd)</name> (Plas y Lelo, Derwen, Denbs.) on folio 10v.</note>
+
+<note type="source">The text of &lsquo;Y tri brenin o Gwlen&rsquo; is incomplete in British Library Additional 14986. The last page has been torn off, leaving an irregular margin, and the text goes only as far as the end of line 222. The remainder of the text has been supplied here from British Library Additional 15038, foios 60r-62v. This manuscript is slightly later, and was copied in 1575 by Morgan ap Henri of Llangyfelach, Glamorgan.</note>
+
+<note type="lang">The earliest manuscript is from Denbighshire, and linguistic evidence is consistent with the north-east of Wales as the origin of the plays. Detailed evidence for dialect from the orthography and phonology of the texts according to the various manuscripts can be found in Jones's edition. Note especially that the plays have /e/ as the outcome of post-tonic Middle Welsh diphthongs /a&#616; a&#649; a&#618;/ and /e/ (for example, Dioddefaint 791-4 rhymes <mentioned>drysse</mentioned> : <mentioned>vffernlle</mentioned> : <mentioned>mine</mentioned>), which is consistent with an early northern provenance, before lowering of this /e/ to /a/ in northern dialects.</note>
+
+<note type="bilb">The texts were previously edited by Gwenan Jones in <title>A study of three Welsh religious plays</title> (Bala: R. Evans &amp; Son, The Bala Press, 1939) [University of Minnesota doctoral dissertation, 1918].</note>
+</notesStmt>
+
+<sourceDesc>
+<bibl sameAs="BMAdd14986_D">
+<title type="ms">&lsquo;Y dioddefaint&rsquo;</title>
+<date value="1552">ms. 1552</date>
+<biblScope>British Library Additional 14986, 10v-33v</biblScope>
+</bibl>
+
+<bibl sameAs="TBG">
+<title type="ms">&lsquo;Tri Brenin o Gwlen&rsquo;</title>
+<date value="1552">ms. 1552</date>
+<biblScope>British Library Additional 14986, 33v-38v; British Library Additional 15038, 62r-62v</biblScope>
+</bibl>
+
+<bibl sameAs="BMAdd14986_TBG">
+<title type="ms">&lsquo;Tri Brenin o Gwlen&rsquo;</title>
+<date value="1552">ms. 1552</date>
+<biblScope>British Library Additional 14986, 33v-38v</biblScope>
+</bibl>
+
+<bibl sameAs="BMAdd15038_TBG">
+<title type="ms">&lsquo;Tri Brenin o Gwlen&rsquo;</title>
+<date value="1575">ms. 1575</date>
+<biblScope>British Library Additional 15038, 62r-62v</biblScope>
+</bibl>
+
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<p>The text has been marked up using the basic structural markup for drama. Note, however, that speeches, identified using sp-elements, have no who-attribute in &lsquo;Y dioddefaint&rsquo;. An editiorial castlist has been supplied for &lsquo;Y tri brenin o Gwlen&rsquo; only. Speaker names in the manuscript are in boxes in the right margin throughout, with an empty box in the right margin where a speaker continues over more than one stanza. These have been placed in the usual position before the spoken text in the transcription.</p>
+
+<p>At one point, two lines are absent in BL. Add. 14986 where they are present in some of the other manuscripts of the text, although no gap is left for them. Two numbered blank lines have been added to the transcription at this point (lines 515&ndash;16), in order to ensure that the line numbers of this edition and Jones's edition are consistent with one another.</p>
+
+<p>The text of &lsquo;Y tri brenin o Gwlen&rsquo; has been taken from two mansucripts. For this reason, the text is treated as a grouped text, with each manuscript section being treated as a separate text-element with a group-element. The two texts are linked together using next- and prev-attributes of the text-element.</p>
+
+<!--
+check ar=a'r; ich = i'ch; ir=i'r
+-->
+
+<p>Editorial spaces are sometimes inserted to divide words. The isp-convention has been partially, but not consistently, used. Capitalisation has been left as in the manuscript, so that, with the exception of &lt;R&gt; for modern Welsh &lt;rh&gt;, the first letter of each stanza and the names of speakers are not capitalised.</p>
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs> (including some transcriptions in the <rs id="ipa">International Phonetic Alphabet</rs>).</p>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date>29.08.02</date>
+<respStmt>
+<resp></resp>
+</respStmt>
+<item>checked expansions, OK (but "jem" = "jevan"?)</item>
+</change>
+<change>
+<date>March 2002</date>
+<respStmt>
+<resp/>
+</respStmt>
+<item>data capture, basic structural markup; checked for cap I = small L; 1 = l; 0 = O</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text id="BMAdd14986">
+<group>
+
+<text id="BMAdd14986_D">
+<body>
+<div>
+<pb n="10v"/>
+<head>
+<lb/><hi rend="rubric">Llyma y dioddefaint yngymraec</hi>
+<lb/>ar englynion gair kyrch ynessa i
+<lb/>gallwyd wrth ddysc a synwyr a <w>dy<lb rend="om-shy"/>allt</w> a<isp/><apo/>i droi o<isp/><apo/>r <orig reg="Lladin">llading</orig> ynghymraec
+<pb n="11r"/>
+<lb/>ac<!--ed a?--> llyma i dechrav <orig reg="nhwy">ynhwy</orig> yn enw duw
+</head>
+
+<sp>
+<speaker><lb/>y genad oedd hwn</speaker>
+
+<lg>
+<l>Tewch a<isp/><apo/>ch siarad a gwrandewch</l>
+<l>am y chwedyl mawr meddyliwch</l>
+<l>hen ag ifaink yn ych sswydd</l>
+<l>y chware i<isp/><apo/>ch gwydd a welwch</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y kenadwr</speaker>
+
+<lg>
+<l>ssvddas<!--ed ssuddas--> dravtvr yn llawen</l>
+<l>gwerthodd jessu heb amgen</l>
+<l>j<isp/><apo/>r <orig reg="tywysogion">twsogion</orig> pena yn y tir</l>
+<l>yn wir er dec ar <corr resp="scribe">hvga<c>e</c>n</corr><!--not in app--></l>
+</lg>
+
+<!--MS repeats y kenadwr-->
+
+<lg>
+<l>jessu o nassreth daliasson<!--ed. dialiasson--></l>
+<l>y gwyr ar arfe krevlon</l>
+<l>hyd at anas essgob ffraeth</l>
+<l>mewn Rwym<!--ed rwym-->&nbsp;<corr resp="transcr" sic="keth">kaeth</corr> anvonason</l>
+</lg>
+
+<lg>
+<l>megis ffelwn wr gorwlad</l>
+<l>drwy gael ysgorn a mokiad</l>
+<l>danvoned<!-- corr to -es? --> essgob anas</l>
+<l>at gayffas heb ddim kariad</l>
+</lg>
+
+<lg>
+<l>ssyr kayffas lle i danvonen</l>
+<l>j gynghorwyr mawr adwaenen</l>
+<l>danvonen at beilatvs</l>
+<l>ywchel <orig reg="ustus">ievstvs</orig> kaer sselen</l>
+</lg>
+
+<pb n="11v"/>
+
+<lg>
+<l>yw farnv yn varwol daith</l>
+<l>wrth ddefod <orig reg="ustus">ievstvs</orig> vnwaith</l>
+<l>am vod<!--ed fod--> jessu yn draetvr yn</l>
+<l>yn ddyn yn erbyn kyfraith</l>
+</lg>
+
+<lg>
+<l>syr<!--MS s<expan>yr</expan>yr--> peilat <orig reg="ustus">jestvs</orig> gwrol</l>
+<l>yn i arvav vrddasol</l>
+<l>aeth yw nevadd val i gwn</l>
+<l>y dydd hwn anrydeddol</l>
+</lg>
+
+<lg>
+<l>jessu kyrchwyd geir i vron</l>
+<l>j edrych i weithredon</l>
+<l>ac erdolwyn y bobloedd tewch</l>
+<l>a gwrandewch i atebion</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>S<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>Rowch ych holl ddyallt chwi</l>
+<l>atavi <orig reg="ustus">jestvs</orig> peilad</l>
+<l><orig reg="arglwyddi">arglwiddi</orig> ychel ystad</l>
+<l>gwrandewch vi drwy vawr gariad</l>
+</lg>
+
+<lg>
+<l>kanys myfi ysydd yn dala <apo/>r kledd</l>
+<l>o gyfiownder a mowredd</l>
+<l>dan ssissar brenin kadarn</l>
+<l>ac yn rroi barn brenhinedd</l>
+</lg>
+
+<lg>
+<l>ac am hyn idd wi yn gorchymyn</l>
+<l>ssirif a sserssiant dan vn</l>
+<l>y ddwyn y <orig reg="carcharwyr">ky<add place="supralinear">r</add>charwyr</orig> ger vy mron</l>
+<l>j roi kyfreithie vddyn</l>
+</lg>
+</sp>
+
+<pb n="12r"/>
+
+<sp>
+<speaker><lb/>yr iddew kyntaf</speaker>
+
+<lg>
+<l>anrydeddvs yn ich kaid</l>
+<l>s<expan>yr</expan> peilad <orig reg="ustus">jestys</orig> kadarn blaid</l>
+<l>dissmas dessmas <corr resp="scribe" sic="barnabas">barbas</corr><!-- MS barnabas; -na- deleted, intended 'barabas'? --></l>
+<l>yssy yn van draetiriaid</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr iddew ail</speaker>
+
+<lg>
+<l>gwrandewch <orig reg="ustus">ievstys</orig> arnomi</l>
+<l>ller<!--=lle'r?--> ymi yn deisif ichwi</l>
+<l>heddiw yw yn pasc ywchel ddydd</l>
+<l>ynyd yw yn Rydd ini i dori</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>pa draetyriaeth achosion</l>
+<l>o vlaen ystadawl ddynion</l>
+<l>a ellwchi brofi yn wir</l>
+<l>ar jessu o dir yr iddewon</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr iddew kyntaf</speaker>
+
+<lg>
+<l>oni bai vod i t<add place="supralinear">r</add>aetyriaeth</l>
+<l>yn i veddwl traws Ryfeddaeth<!--or rr-, very unusual r(r)--></l>
+<l>ni ddygesym fe yr awr hon</l>
+<l>gar bron ych arglwyddieth</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>kymerwchi ef eilwaith</l>
+<l>dan ych power ar vnwaith</l>
+<l>a rhowchi y farn arno</l>
+<l>megis i bo ych kyfraith</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr ail iddew</speaker><!--on next page-->
+
+<lg>
+<l>nid yw gyfion i nyni</l>
+<l>wrth gyfraith ladd na llo<add place="inline">s</add>gi</l>
+<pb n="12v"/>
+<l>na dwy<add place="supralinear">n</add> neb<!--dwyneb=dy wyneb? corr to dwy<add>n</add>|neb; by scribe?--> i gael angav</l>
+<l>ond kadarnhav kyfreithiav</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>jessu o nassreth gair <orig reg="fy">y</orig> mron</l>
+<l>kyfod dy law yn inion</l>
+<l>a dywaid wir wrthyfi</l>
+<l>wyd ti vrenin iddewon</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l>a wyd ti yn dywedyd <add place="inline">h</add>yn<!--not in ed--> yn ffraeth</l>
+<l>wrth dy veddwl natyriaith</l>
+<l>pa vn ai kael gan arall</l>
+<l>val angall wybodaeth</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<!--ac ymeddiant ith roeson to be inserted stanza after the next-->
+
+<lg>
+<l>jessu gwrando v<apo/><isp/>atebion</l>
+<l>nid vy ngwaed i yw <apo/>r iddewon</l>
+<l>dy bobyl a<isp/><apo/>th <orig reg="genhedlaeth">gynhedlaeth</orig></l>
+<l>yn ffraeth a<isp/><apo/>th gyhyddason</l>
+</lg>
+
+<lg>
+<l>ac <orig reg="yn fy meddiant">ymeddiant</orig> i<isp/><apo/>th roeson<note resp="transcr">This line was inserted between the two previous stanzas and then connected with a line to this stanza.</note></l>
+<l>dywaid ym eiriav inion</l>
+<l>ai brenin iddewon wyd</l>
+<l>ai nad wyd moes atebion</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l>pei hanffwn i o<isp/><apo/>r wlad hon</l>
+<l>o <corr resp="scribe"><c>r</c>ywogaeth</corr> iddewon</l>
+<l>vy <orig reg="ngwasanaethwyr">ngwyssnaythwyr</orig> a ymladd</l>
+<l>kyn i<isp/><apo/>m<!--MS i'm?-->&nbsp;<orig reg="poener">poynaer</orig> gwyr o radd</l>
+</lg>
+
+<!-- this stanza on two line at the bottom of the page, apparently confused-->
+<lg>
+<l>o<isp/><apo/>r achos hyn nid wyvi</l>
+<l>o <orig reg="genhedlaeth">gynhedleth</orig> yrheni</l>
+<l>ac ni bv <unclear>in</unclear>gychw<add place="supralinear">n</add>iad<!--reg?; in doubtful--></l>
+<l>ich gwlad ni chefais barch <supplied>ynddi</supplied></l>
+</lg>
+
+<!-- MS:
+ac nibvm gychw<add place="supralinear">n</add>iad ich gwlad nichefais barch /
+or achos hyn nidwy vi o gynhedleth yrheni
+-->
+
+</sp>
+
+<pb n="13r"/>
+
+<sp>
+<speaker><lb/><expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>er nad ydiw dy wreiddin</l>
+<l>o<isp/><apo/>r wlad yma na<isp/><apo/>th veithrin</l>
+<l>mi a ddyweda chwedyl gwir</l>
+<l>mewn Ryw<!--ed ryw--> dir ir wyd vrenin</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l>ydd wyd ti yn <add place="supralinear">y</add> ddweydyd <orig reg="o 'th ddefod">othefod</orig></l>
+<l>yn ryw le yn vrenin vy mod</l>
+<l>j hyny j<isp/><apo/>m<!--ed j m--> ganed i i<isp/><apo/>r tir</l>
+<l>a thi yn wir a gai wybod</l>
+</lg>
+
+<lg>
+<l>fy ssiwrnai a <corr resp="transcr" sic="gymerais ir">gymerais</corr></l>
+<l>j<isp/><apo/>r byd hwn penn imroddais<!--reg?--></l>
+<l>j ddwyn tyst ar wirionedd</l>
+<l>nid balchedd a gymerais</l>
+</lg>
+
+<lg>
+<l><corr resp="transcr" sic="dial">dal</corr> gida gwirionedd</l>
+<l>a chida baraint<!--?--> a rhinwedd</l>
+<l>ac yn wirion er i mwyn</l>
+<l>jr wyvi yn dwyn <orig reg="cnawd">kynawd</orig> daiaredd</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>Gwelwch nad wyvi iddewon</l>
+<l>yn <corr resp="scribe" sic="kela"><corr resp="transcr" sic="kaela">kael</corr></corr> achos <orig reg="gyfreithlon">gyfreiddlon</orig></l>
+<l>j dyly jessu o nassreth</l>
+<l>ddwyn marvoleth grevlon</l>
+</lg>
+
+<lg>
+<l>hyn yw yn kostwm ni gwrandewch</l>
+<l>bob pasc os gofynwch</l>
+<l>y gwr ssydd o<isp/><apo/>i alw gar bron</l>
+<l>brenin iddewon kymerwch</l>
+</lg>
+</sp>
+
+<pb n="13v"/>
+
+<sp>
+<speaker><lb/>yr iddewon</speaker>
+
+<lg>
+<l>drwy lan gymod ac vrddas</l>
+<l>o chawn dravtvr i gael gras</l>
+<l>kymerwch jessu ichwi</l>
+<l>ni cheissiwni ond barabas</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>myn mahownd yr iddewon</l>
+<l>chi vynwch roi gwr gwirion</l>
+<l>j varfolaeth ar y groes</l>
+<l>er nad <orig reg="oes">os</orig> dim achosion</l>
+</lg>
+
+<lg>
+<l>nid wyvi yn kael achosion</l>
+<l>j roi jessu yn gyfreithlon</l>
+<l>moeswch ym ddwr i <orig reg="ymolchi">molchi</orig></l>
+<l>y mae<isp/><apo/>r gwr yma yn wirion</l>
+</lg>
+
+<lg>
+<l><corr resp="transcr" sic="m">mi</corr> a<isp/><orig reg="ymolchais">molchais</orig> nid wi waeth</l>
+<l>vy nwylaw o<isp/><apo/>i <corr resp="scribe">wae<c>d</c>olaeth</corr></l>
+<l>ni ellais i gydgordio</l>
+<l>na chytvno a<isp/><apo/>i<!-- 'ch--> varfolaeth</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr <orig reg="iddewon">iddeon</orig></speaker>
+
+<lg>
+<l>nage gedwchi i waed efo</l>
+<l><corr resp="transcr" sic="arnomn">arnomi</corr> a<isp/><apo/>n plant i ssyrthio</l>
+<l>a rowch veddwl ych penaeth</l>
+<l>a bernwch y varfolaeth</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>er vy mod yn wr pena</l>
+<l>a bod yn Roi kyfraith arna</l>
+<l>y mae vo yn wr gwirion</l>
+<l>a<isp/><apo/>r awr hon mi a<isp/><apo/>i<!-- 'ch--> kadwa</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr iddewon</speaker>
+
+<lg>
+<l>nid ydychithe gowir ych rin</l>
+<l>j gyfraith ssisar yn brenin</l>
+<l>mae yn <orig reg="gwneuthur">gwnvthyr</orig> tresswn heb gel</l>
+<l>a<isp/><apo/>i<!-- 'ch--> alw yn vchel vrenin</l>
+</lg>
+</sp>
+
+<!--end second check-->
+
+<pb n="14r"/>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>paham chwi gewch iddewon</l>
+<l>weled vy ngally krevlon</l>
+<l>dywevdwch ym ych <orig reg="meddyliau">myddyliav</orig></l>
+<l>y gwblav ych wllysiav</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr iddewon</speaker>
+
+<lg>
+<l>peilatvs <orig reg="ustus">jestvs</orig> kadarnaf</l>
+<l>dan ssisar y gwr penaf</l>
+<l>y mae vo yn dywevdvd ffalstwr yw</l>
+<l>mae vo yw mab duw gorycha</l>
+</lg>
+
+<lg>
+<l>chwchi yssydd <orig reg="ustus">ievstvs</orig> geirwir</l>
+<l>ych kadarnhav yn gelwir</l>
+<l>pob dyn a wnel kamwedd maith</l>
+<l>wrth ych kyfraith i treir</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>paham nad wyti yn traythv</l>
+<l>pa le i<isp/><apo/>th enw di jessu</l>
+<l>mae imi yr vn a vynwy ym gradd</l>
+<l>ai dy ladd ai dy farnv</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l>nid <orig reg="oes">os</orig> bower <orig reg="i 'th ddefod">ithefod</orig><!--check reg--></l>
+<l>er nad ydwyd ti yn i wybod</l>
+<l>ond trwy bower vy nhad i</l>
+<l>j gelli di vy ngorfod</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>chwchi varchogion krevlonder</l>
+<l><corr resp="transcr" sic="kynerwch">kymerwch</corr> jessu ych pryddder<!--ed prydd-der--></l>
+<l>ac yn ffest wrth y post Rwymwch<!--ed rwymwch--></l>
+<l>ac yssgyrssiav <corr resp="transcr" sic="ysgyssiwch">ysgyrssiwch</corr></l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr iddewon</speaker><!--on next page-->
+
+<lg>
+<l>chwchi <orig reg="ustus">jestvs</orig> ni a<isp/><apo/>i<!-- 'ch--> gwnawn</l>
+<l>yn ddiballedic ddigawn</l>
+<pb n="14v"/>
+<l>ac<!--ed ae?--> am i gorff yn gyhoedd</l>
+<l><!--i erased here? -->ni a <corr resp="scribe"><c>r</c>own</corr> wisgoedd newyddion</l>
+</lg>
+
+<lg>
+<l>ni a ddysgwn yt yn adgas</l>
+<l>y bregethv yn gyfaddas</l>
+<l>bwrw dy drek oddi wrthyd</l>
+<l>ni wnawni yt vawr ras</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y marchoc</speaker>
+
+<lg>
+<l>Rwymwch <add place="supralinear">ef</add> yn ffest ddigawn</l>
+<l>wrth bost ffyrf mawr krevlawn</l>
+<l>ni a<isp/><apo/>i<!-- 'ch--> Rwymwn ef o<isp/><apo/>i eiste</l>
+<l>i gael graddav <orig reg="newyddion">newddion</orig></l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y trydydd marchoc</speaker>
+
+<lg>
+<l>beth ydiw ych doethineb</l>
+<l>yrowan yma i<isp/><apo/>m wyneb</l>
+<l>y mae ef yn sefyll yn ofnoc</l>
+<l>mal ffol anveidrol ateb</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y pedwerydd marchoc</speaker>
+
+<lg>
+<l>yssgwrsiwch ef drwy ddirmic</l>
+<l>ac nac ofnwch vriwo i gic</l>
+<l>mae ym lywenydd vy lloned</l>
+<l>i weled mor boenedic</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>beth a dal y ti<!--ed. i ti--> gar bron</l>
+<l>vod yn pregethy yn grevlon</l>
+<l>ni wn i tal i ti bin</l>
+<l>vod yn vrenin iddewon</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y marchoc kyntaf</speaker>
+
+<lg>
+<l>bellach ffesstwch y rhwymon</l>
+<l>a rhwymo i ddwylo yn grevlon</l>
+<l>a rhowch yw iad goron vlin</l>
+<l>megis brenin yr iddewon</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr ail marchoc</speaker>
+
+<lg>
+<l>jessu dywedaist di dy vod</l>
+<l>yn vrenin ar yn defod</l>
+<l>Rown o goron yth iad vry vlin</l>
+<l>fal i dyly vrenin vod</l>
+</lg>
+</sp>
+
+<pb n="15r"/>
+
+<sp>
+<speaker><lb/>y trydydd marchoc</speaker>
+
+<lg>
+<l><orig reg="hanbych">hempych</orig> gwell er dy vokio</l>
+<l>brenin iddewon etto</l>
+<l>od wyd vrenin arnynt wy</l>
+<l>dywaid pwy ysy <apo/>n<!--ed ysyn--> dy daro</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y pedwerydd marchoc</speaker>
+
+<lg>
+<l>proffwyda di ym o<isp/><apo/>th vin</l>
+<l>pwy yssydd i<isp/><apo/>th daro yn ddivlin</l>
+<l>a dywaid yma i<isp/><apo/>n gwydd</l>
+<l>ai da sswydd vod yn vrenin</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l><del>dyred<lb/></del><!--check output-->dyred jessu gida ni</l>
+<l>gar bron iddewon barti</l>
+<l>ydd wyn meddwl i pryd hwn</l>
+<l>i gael dy bardwn iti</l>
+</lg>
+
+<lg>
+<l>welwch jessu yn waed hayach</l>
+<l>heb arno vn vodfedd iach</l>
+<l>er <corr resp="transcr" sic="chymwyn">ych mwyn</corr> i <orig reg="cafas"><sic>kafos</sic></orig><!--corr?--> boen trwch</l>
+<l>dewiswch ef bellach</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr iddew kyntaf</speaker>
+
+<lg>
+<l>nid oes ini<!--mi?--> i ddilin</l>
+<l>onid ssissar yn brenin</l>
+<l>Rowchi ef ar y groes yw boini</l>
+<l>am i alw i hvn yn vrenin</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr ail iddew</speaker>
+
+<lg>
+<l>s<expan>yr</expan> peilad Rowch chwi efo</l>
+<l>ini ddial yn llid arno</l>
+<l>ac yn ychel ar y groes</l>
+<l>herwydd nad oes ras <corr resp="transcr" sic="idd">iddo</corr></l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>chwchi iddewon drwc y moes</l>
+<l>Ryfedd ych kam a<isp/><apo/>ch anvoes</l>
+<l>tewch paham i rhofi</l>
+<l>ych brenin chwi ar y groes</l>
+</lg>
+</sp>
+
+<pb n="15v"/>
+
+<sp>
+<speaker><lb/>y trydydd iddew</speaker>
+
+<lg>
+<l>nid oes ini vrenin byw</l>
+<l>onid ssisar gwr gwir yw</l>
+<l>Rowchi ef i varvolaeth gref</l>
+<l>dywad mae ef oedd vab duw</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>ydd wyvi yn barnv yn ffraeth</l>
+<l>o <orig reg="reiolti">riolti</orig> vy mhenaeth</l>
+<l>yr jessu vyned i gael gloes</l>
+<l>ar y groes trwy <orig reg="gyfraith">gyfraeth</orig></l>
+</lg>
+
+<lg>
+<l>ve a<isp/><apo/>i<!-- 'ch--> galwe i hvn brenin gwar</l>
+<l>gan dwyllo ymhobyl hygar</l>
+<l>ac a ddalie valchder tyn</l>
+<l>yn erbyn brenin sissar</l>
+</lg>
+
+<lg>
+<l><corr resp="transcr" sic="barna">barnu</corr><!--possibly attempt at corr by scribe--> rwy dav ffilwm<!--?--> wr</l>
+<l>dissmas dessmas dav ffalstwr</l>
+<l>heb ddim grass barna <corr resp="transcr" sic="hyreini">yrheini</corr></l>
+<l>oss myvi ssydd <orig reg="reolwr">reiolwr</orig></l>
+</lg>
+
+<lg>
+<l>barabas yn Rydd <add place="supralinear">aed</add> gar bron</l>
+<l>heb na thitiad na holion</l>
+<l>jddewon a<isp/><apo/>i<!-- 'ch--> harche yn Rodd</l>
+<l>mi a<isp/><apo/>i<!-- 'ch--> Rois o fodd vy nghalon</l>
+</lg>
+
+<lg>
+<l>ewch <corr resp="transcr" sic="ai">a<isp/><apo/>r</corr><!--corr to a?; missing in app--> jessu genwchi</l>
+<l>tia mynydd kalvari</l>
+<l>a dodwch ef ar y groes</l>
+<l>y ddwyn gloes drwy boini</l>
+</lg>
+</sp>
+
+<pb n="16r"/>
+
+<sp>
+<speaker><lb/>y marchoc<!--ed + i?--></speaker>
+
+<lg>
+<l>dered ffordd y krakwr <orig reg="cyfraith">kyfraeth</orig></l>
+<l>ti a geffi <orig reg="boenedigaeth">boinydigaeth</orig><!--oi/o/oe?--></l>
+<l>att y groes ywchelvowr <corr resp="transcr" sic="gef">gref</corr></l>
+<l>j ddioddef dy varfolaeth</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr essgob</speaker>
+
+<lg>
+<l>kerdda yn ebrwydd i gael gloes</l>
+<l>nessav mae a<unclear>d</unclear>wydd<!--ar- ?--> d<apo/><isp/>einioes</l>
+<l>ar y ttair hoel hyn yn wir</l>
+<l>yth vyrthyrir ar y groes</l>
+</lg>
+
+<lg>
+<l>chwi varchogion gorchmynwch</l>
+<l>y ssimon y groes brysiwch</l>
+<l>j gael jessu yw <corr resp="transcr" sic="chwanlyn">chanlyn</corr></l>
+<l>ac val hyn chwip gwybyddwch</l>
+</lg>
+
+<lg>
+<l>dered yma ssimon dyred</l>
+<l>dwc y groes <orig reg="chwip">hwip</orig> dan gerdded</l>
+<l>kerdda yn ebrwydd <supplied>ar yn gair</supplied><note resp="transcr">The manuscript repeats the previous line. Jones replaces it with <mentioned>dwg yn fyan ar yn gair</mentioned> from Wrexham 3, second version; all other manuscripts have <mentioned>ebrwydd</mentioned> instead of <mentioned>fyan</mentioned>. However, after the following line, between this and the next stanza, the manuscript has <mentioned>kerdda yn ebrwydd</mentioned>, which is deleted but clearly constitutes what is left of the correct text here, although in the wrong place. For this reason, <mentioned>kerdda yn ebrwydd</mentioned> has been transposed to this line and <mentioned>ar yn gair</mentioned> only has been supplied.</note></l>
+<l>j roi mab mair yw <corr resp="transcr" sic="dyged">dynged</corr></l>
+</lg>
+</sp>
+
+<!--kerdda yn ebrwydd omitted here and transposed to prev stanza; gap?-->
+<sp>
+<speaker><lb/>ssimon</speaker>
+
+<lg>
+<l>kered<!--corr, reg? kerdded--> vn kam nis gallaf</l>
+<l>dan y groes hon dybygaf</l>
+<l>mi<!--im?--> a wn i ssyrthia i<isp/><apo/>r llawr</l>
+<l>mae yn vawr i ffwys arna</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y marchoc kynta</speaker>
+
+<lg>
+<l>kyssyria tydi y travtwr</l>
+<l>ydd wyti heddiw yn traetwr</l>
+<l>dos a<isp/><apo/>r groes hon ar d<apo/><isp/>ysgwydd</l>
+<l>dos yn ddi dramgwydd</l>
+</lg>
+</sp>
+
+<pb n="16v"/>
+
+<sp>
+<speaker><lb/>yr ail marchoc</speaker>
+
+<lg>
+<l>gostyngwch oll ych penav</l>
+<l>a chrymwch oll ych garav</l>
+<l>myn mahownd mi a wna waed</l>
+<l>Rai o<isp/><apo/>i traed hyd i <orig reg="ysgwyddau">ssgwyddav</orig></l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y pedwerydd marchoc</speaker>
+
+<lg>
+<l>kerdda wr<!--strange w- --> yn dra chymen</l>
+<l>dwc y groes yma yn llawen</l>
+<l>yn ssikir tydi a<isp/><apo/>i<!-- 'ch--> dwc</l>
+<l>ne mi a wna yn <corr resp="transcr" sic="ddrw">ddrwc</corr> dy ddien</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr essgob</speaker>
+
+<lg>
+<l>dyro i lawr y groes grevlon</l>
+<l>yssgwrssiwch ef yn dda ddigon</l>
+<l>beth a dal gallv mab mair</l>
+<l>mae genym dair o hoelon</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y marchoc kynta</speaker>
+
+<lg>
+<l>trewch v<apo/><isp/>yneidie yr hoelon</l>
+<l><corr resp="transcr" sic="yni i">yni</corr><!--yn i?--> draed a<isp/><apo/>i<!-- 'ch--> ddwylo ddigon</l>
+<l>kodwch yn ychel efo</l>
+<l>mal i gwelo yr iddewon</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr ail marchoc</speaker>
+
+<lg>
+<l>moysswch grogi o<isp/><apo/>i ddevtv</l>
+<l>y ddav leidyr wedi barnv</l>
+<l>nyni dynwn gytysav</l>
+<l>am i pyrssav yforv</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y trydydd marchoc</speaker>
+
+<lg>
+<l>beth a wnawn yw bais yntav</l>
+<l><!--something blotched or deleted here; je/ju?-->jessu o nassreth v<apo/><isp/>yneidiav</l>
+<l>a<isp/><apo/>i thori yn bedair darn</l>
+<l>a<isp/><apo/>i Roi ar varn kwtysav</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y pedw<damage><supplied>er</supplied></damage><unclear>y</unclear>dd ma<damage><supplied>r</supplied>choc</damage></speaker><!--on next page-->
+
+<lg>
+<l>y mae yn Raid ichwi roi <corr resp="transcr" sic="ygrifen">ysgrifen</corr></l>
+<l>o eiriav ffalst ywch i ben</l>
+<pb n="17r"/>
+<l>a rhoi ynddi ymadroedd per</l>
+<l>val i medrer i darllain</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>llyma vi ywch ben</l>
+<l>wedi <orig reg="gwneuthur">gwnvthyr</orig> ysgrifen</l>
+<l>groec a <orig reg="Lladin">llading</orig> ac ebriw</l>
+<l>hawdd iawn heddiw i darllain</l>
+</lg>
+</sp>
+
+<p><lb/>jessws <corr resp="transcr" sic="masyrinws">nasyrinws</corr></p><!-- markup? -->
+
+<sp>
+<speaker><lb/>yr iddew</speaker>
+
+<lg>
+<l>na <orig reg="wnewch">newch</orig>&nbsp;<corr resp="transcr" sic="ygrifen">ysgrifen</corr> hynod</l>
+<l>yn vrenin iddewon vod</l>
+<l><corr resp="transcr" sic="on">ond</corr> ir jessu yn Ry hy</l>
+<l>ddywevdyd hyn a<isp/><apo/>i dafod</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>mair vam grist</speaker>
+
+<lg>
+<l>chwys <del>d</del> a dwr yssydd ym <orig reg="gruddiau">griddiav</orig></l>
+<l>am <!--some character here, but not a j as in app--> jessu vy mab inav</l>
+<l>peilad idd wi yn gobeithio</l>
+<l>gadw v<apo/><isp/>anraith Rac angav</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l>mair vy mam nid Ryfeddod</l>
+<l>nad ydychi i<isp/><apo/>m ydnabod</l>
+<l>nid oes dyll gwr ar vy nghroen</l>
+<l>wedi i<isp/><apo/>r poen mawr vy ngorvod</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>mair vam grist</speaker>
+
+<lg>
+<l>och vi <add place="supralinear">o</add>ch vi vy mab da</l>
+<l>o<isp/><apo/>r awr i doethym i <corr resp="transcr" sic="ymaa">yma</corr></l>
+<l>och vi weled y dydd hwn</l>
+<l><corr resp="transcr" sic="pam">pan</corr> na wn mae ti yssydd yna</l>
+</lg>
+</sp>
+
+<pb n="17v"/>
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l>vy nhad madde vy nolvr</l>
+<l>vddynt a<isp/><apo/>i hynvyd <corr resp="transcr" sic="attvr">nattvr</corr></l>
+<l>kanys yntwy ni <corr resp="transcr" sic="wydant">wyddant</corr></l>
+<l>beth i maent yn i wnythyr</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr iddew kynta</speaker>
+
+<lg>
+<l>ti a vwryd temyl i lawr</l>
+<l>kaer sselem kyn teirawr</l>
+<l>ac a<isp/><apo/>i gwnavd y gwr llonydd</l>
+<l>o newydd kyn trydydd dydd</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr ail iddew</speaker>
+
+<lg>
+<l>y gwaith i lawr a vwryd</l>
+<l>kyn pen tridiav meddyd</l>
+<l>wedi kael kyfraith ssissar</l>
+<l>y mae yn ydifar genyd</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr essgob</speaker>
+
+<lg>
+<l>ef allai help meddan</l>
+<l>i bob <orig reg="cryf">kry</orig> ddoe a ffob gwan</l>
+<l>gedwch heddiw i<isp/><apo/>r jessu</l>
+<l>brofi i helpv i hvnan</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y marchoc kynta<unclear>f</unclear></speaker>
+
+<lg>
+<l>os mab duw wyd a<isp/><apo/>n kreodd</l>
+<l>val i dwaid d<apo/><isp/>ymadrodd</l>
+<l>dyred i lawr nyni a<isp/><apo/>th roes</l>
+<l>oddiar y groes o<isp/><apo/>n hanvodd</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l>edrych wraic vlin i chyflwr</l>
+<l>dy fab<!--ed: vab--> o vlaen ar gysswr</l>
+<l>ac yn lle dy vab <corr resp="transcr" sic="weiian">weithian</corr><!-- first i unclear --></l>
+<l>kymer je<expan>van</expan><!-- MS jem -->&nbsp;<orig reg="efengylwr">engylwr</orig></l>
+</lg>
+
+<pb n="18r"/>
+
+<lg>
+<l>je<expan>van</expan><!--MS jem--> ydd wyd yn kysgv</l>
+<l>ar vy mrest dan ovalv</l>
+<l>kymer <orig reg="adolwg">edolwc</orig> vy mam</l>
+<l>attad yw <orig reg="hamgeleddu">hamgleddv</orig></l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>mair vam grist</speaker>
+
+<lg>
+<l>och pa <orig reg="ryfeddod">refeddod</orig> voddion</l>
+<l>yn lle gwr Roi<!--ed. roi--> duw kyfion</l>
+<l>am hyn o <orig reg="ryfeddod">refeddod</orig> ddirmic</l>
+<l>mae yn boenedic vy nghalon</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l><corr resp="transcr" sic="vym">vy mam</corr> na chymer attad ti</l>
+<l>val na bo trymach iti</l>
+<l>yr holl <corr resp="transcr" sic="grevloder">grevlonder</corr> a<isp/><apo/>th ffydd</l>
+<l>nid ywr dydd val i gweli</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>dissmas y lleidyr</speaker>
+
+<lg>
+<l>or <orig reg="ydwyt">dwyd</orig> vrenin arnomi</l>
+<l>ac ar gaer sselem gwedi</l>
+<l>dere oddiar y groes dy hvn</l>
+<l>ac ni <sic>ac</sic><!--ed corr to a--> gredwn itti</l>
+</lg>
+
+<lg>
+<l>od wyd ti dduw yn ddiav</l>
+<l>heb neb<!--ed he bneb--> yn gallel damav</l>
+<l>helpa ar vyr dydi dy hvn</l>
+<l>a than vn helpa<!--helppa?--> ninav</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>dessmas y lleidyr</speaker>
+
+<lg>
+<l>taw a<isp/><apo/>th eiriav ynvydion</l>
+<l>ac na vokia dduw kyfion</l>
+<l>nyni a haeddoson gael tramgwydd</l>
+<l>mae vo yn arglwydd gwirion</l>
+</lg>
+
+<pb n="18v"/>
+
+<lg>
+<l>arglwydd ystyria vy rhaid<!-- MS vy yr haid --></l>
+<l>lle mae yn drwm v<apo/><isp/>ychenaid</l>
+<l>a ffan elych i<isp/><apo/>th <corr resp="transcr" sic="dernys"><unclear>d</unclear>ernas</corr></l>
+<l><corr resp="transcr" sic="kyner">kymer</corr><!--not in ed.--> i<isp/><apo/>th ras vy enaid</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l>tydi berchen ffydd <corr resp="transcr" sic="gynwys">gymwys</corr></l>
+<l>Gan itti arna Roi<!--ed. roi--> dy bwys</l>
+<l>y dydd heddiw byddi</l>
+<l>gida<!-- MS on previous line?; and G ni on this line? --> mi ymhyradwys</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y marchogion</speaker>
+
+<lg>
+<l>gwrandewchi yfo gair bron</l>
+<l>yn <orig reg="gwenieithio">gwnheithio</orig> i<isp/><apo/>r lladron</l>
+<l>Raid<!--ed. raid--> ini gyfarch iddo</l>
+<l>os yfo yw brenin iddewon</l>
+</lg>
+</sp>
+
+<p><lb/>eli eli lama ssabattane</p><!-- markup? -->
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l>vy nyw i vy nyw i <corr resp="transcr" sic="vlle">vy lle</corr></l>
+<l>na wrthod vi yn dy gartre</l>
+<l>yma o flaen yr holl vyd</l>
+<l>idd wyvi i gyd yn diodde</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr iddew kynta</speaker>
+
+<lg>
+<l>gwrandewchi ef yn galw ar dduw nef<!--tight binding, only n visible on microfilm--></l>
+<l>mae yn tybiaid i gwrendy i lef</l>
+<l>vo ddaw duw yma yn bryd</l>
+<l>ac a<isp/><apo/>i llvdd ef i ddwedyd</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l>ydd wyvi yn ssychedic</l>
+<l>ac yn dra blin ssychedic</l>
+<pb n="19r"/>
+<l>herwydd maint vy nolyr maith<!-- MS maith on next line --></l>
+<l>ve wyl pawb <corr resp="transcr" sic="wai">waith</corr> vy niwic</l><!--in the 'speaker box': ysseu?? connecte with a line to wai or nolyr-->
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr ail <corr resp="transcr" sic="iddeddew">iddew</corr></speaker>
+
+<lg>
+<l>moesswch wenwyn er dirmic</l>
+<l>a <orig reg="bustl">bystyl</orig>&nbsp;<orig reg="chwerw">hwerw</orig> ssychedic</l>
+<l>ac wedi vod ef yn hwy</l>
+<l>ni bydd e mwy ssychedic</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>jessu</speaker>
+
+<lg>
+<l>welwch holl <orig reg="greaduriaid">griadyriaid</orig></l>
+<l>kydnabyddwchi vy rhaid</l>
+<l>yr rwi yn <orig reg="gwneuthur">gwnythyr</orig>&nbsp;<corr resp="transcr" sic="tessma">tessmant</corr><!--check this corr; search for variants; GPC only tesment elsewhere--> ffraeth</l>
+<l>er kael o<isp/><apo/>m penaeth v<apo/><isp/>enaid</l>
+</lg>
+
+<lg>
+<l>gorchmyna v<apo/><isp/>enaid vy hvn</l>
+<l>j<isp/><apo/>m <corr resp="transcr" sic="gorvel">gorvchel</corr> dad a<isp/><apo/>m kvn</l>
+<l>ac je<expan>van</expan><!--MS jem--> nid yw gam</l>
+<l>vy mam idd wi yn i orchymyn</l>
+</lg>
+
+<lg>
+<l>a<isp/><apo/>m korff i iddewon blaid</l>
+<l>a<isp/><apo/>m pechod i<isp/><apo/>r <orig reg="cythreuliaid"><sic>kythereiliaid</sic></orig></l>
+<l>vy meddiant i<isp/><apo/>m <corr resp="transcr" sic="dssgyblon">dissgyblon</corr></l>
+<l>a<isp/><apo/>m <orig reg="apostolion">postolion</orig>s dwyfoliaid</l>
+</lg>
+
+<lg>
+<l>a<isp/><apo/>m<!--?--> nefoedd i gyfiawnwyr</l>
+<l>a<isp/><apo/>m passiwn i <orig reg="edifeirwyr">difeirwyr</orig></l>
+<l>llyma ddangos o<isp/><apo/>m diwedd</l>
+<l>vy <orig reg="mawredd">moredd</orig> i<isp/><apo/>m kariadwyr</l>
+</lg>
+</sp>
+
+<pb n="19v"/>
+
+<sp>
+<speaker><lb/>yr iddewon</speaker>
+
+<lg>
+<l>gwirion vab duw ydiw hwn</l>
+<l>yn diodde i bassiwn</l>
+<l>a ddioddefodd <corr resp="scribe" sic="farwel">farwol</corr> loes</l>
+<l>ar y <orig reg="groes">gyroes</orig> mi a<isp/><apo/>i gwiddiwn<!--?--></l>
+</lg>
+
+<lg>
+<l>peilad krogaist ladron chwyrn</l>
+<l>Ydolwc yn <orig reg="teyrnged">tyrnged</orig> yn</l>
+<l>a dydd ychel yw vory</l>
+<l>j gael i hessgirn yw kladdv</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>ewch yn ebrwydd varchogion</l>
+<l>a chymerwch y kyrff meirwon</l>
+<l>mi a<isp/><apo/>i gorchmyna hwy atoch</l>
+<l>gwnewch a fynoch i<isp/><apo/>r lladron</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y marchogion</speaker>
+
+<lg>
+<l>moysswch yn dyny ymaith</l>
+<l>i kyrff <corr resp="transcr" sic="meiroon">meirwon</corr><!-- corr or reg? --> da yw yn gwaith</l>
+<l>moysswch yn gan y gwynt</l>
+<l>i <orig reg="claddu">kyladdv</orig> hwynt ar vnwaith</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y ma<add>r</add>choc<!--r ins after ch--> kyntaf</speaker>
+
+<lg>
+<l>y mae Jessu yn dwymyn eto</l>
+<l>gedwchi ef yno</l>
+<l>yn lle mae ar y groes</l>
+<l>Rac bod i oes heb dreio</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr ail marchoc</speaker>
+
+<lg>
+<l>arch i loinssias o<isp/><apo/>i ddewrder</l>
+<l>y marchoc mawr i bryddder<!--MS brydd der--></l>
+<l>ddodi ffon wrth ais jessu</l>
+<l>a<isp/><apo/>i vrathv o<isp/><apo/>i <orig reg="gryfder">gryfeder</orig><!--corr?--></l>
+</lg>
+</sp>
+
+<pb n="20r"/>
+
+<sp>
+<speaker><lb/>loinssias</speaker>
+
+<lg>
+<l>y mae <corr resp="transcr" sic="of">ofn</corr> ar vy nghalon</l>
+<l>vod hwn yn wr gwirion</l>
+<l>herwydd wrth y gwaed o<isp/><apo/>i ais</l>
+<l>myvi a gefais vy ngolygon<!-- MS vyngolygo<add>n</add>n --></l>
+</lg>
+
+<lg>
+<l>v<apo/><isp/>arglwydd ym kadw vy enaid</l>
+<l>yr awr hon ir wi i<isp/><apo/>th weled</l>
+<l>mi a wn dy vod yn gyfion</l>
+<l>pen i kawn vy <corr resp="transcr" sic="ngolylgon">ngolygon</corr></l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>josseb barmathia</speaker><!-- in next two boxes josseff barmathia -->
+
+<lg>
+<l>o <orig reg="ustus">jestys</orig> anrydeddol</l>
+<l>o<isp/><apo/>ch gwiriondeb <orig reg="tosturiol">tostiriol</orig></l>
+<l>pob <orig reg="creadur">kyriawdyr</orig> dan ych power</l>
+<l>ychel dyner gallyol</l>
+</lg>
+
+<lg>
+<l>Rowch i mi y korff marw</l>
+<l>yssy ynghyroc ar y groes akw</l>
+<l><corr resp="transcr" sic="ar">a</corr><!-- corr? --> Rowch genad yw gladdv</l>
+<l>mewn bedd darfv boen garw</l>
+</lg>
+
+<lg>
+<l>mi a wn vod iddewon</l>
+<l>yn ofni yn ynvyd ddigon</l>
+<l>hwn oedd deilwng lan Jessu</l>
+<l>wedi varnv yn anghyfion</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>nigodemws</speaker>
+
+<lg>
+<l>o bydd Ran bodd genwchi</l>
+<l>ychel dy veddian<add place="inline">t</add><!--?--> heini</l>
+<l>yr ydychi yn kydnabod</l>
+<l>kyfiawnder vod daioni</l>
+</lg>
+
+<pb n="20v"/>
+
+<stage><lb/>nicodemws ssy<isp/><apo/>n dwevdyd<!--ed dd-?--></stage>
+<lg>
+<l><damage>n</damage>id oes veddiant kyn gryfed</l>
+<l>vei gwyr pawb a<isp/><apo/>r a aned</l>
+<l>kanys dan ych power chwi</l>
+<l>i mae poini pob gweithred</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>ssiosseff barmathia</speaker>
+
+<lg>
+<l>ni all neb ymgythlybv</l>
+<l>ych <sic>anRydedd</sic> a<isp/><apo/>ch gallv</l>
+<l>deissyfa<isp/><apo/>r korff gwedi i oes</l>
+<l>oddiar<note resp="transcr"><hi rend="italic">oddiar</hi> written on previous line.</note> y groes yw gladdv</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>y mae yn Ryfedd gen vy nghalon<!-- MS ng<add place="supralinear">a</add>halon --></l>
+<l>os marw eto yr owron</l>
+<l>gedwchi ef i dreio yr hawl</l>
+<l>oni vo yn varwol ddigon</l>
+</lg>
+
+<!-- foll. stanza: blotted on left hand edges -->
+<lg>
+<l><damage>k</damage>anys<!--in ed: [kan]ys--> o kyfyd ef eilwaith</l>
+<l>gedwch i varw<!-- gedwch iv on prev. line --> o<isp/><apo/>r vnwaith</l>
+<l><add place="right-margin">o</add><!--in ed [o] = damage--> metha Roi i ddihenydd</l>
+<l>vo dry ffydd yn holl iaith</l>
+</lg>
+
+<lg>
+<l><damage>b</damage>eth<!-- not in ed--> ddywedwchi ssaintwrw</l>
+<l><damage>a</damage><!--not in ed.--> vv jessu varw</l>
+<l><damage>m</damage>oes<!--not in ed.--> gyngor y gwr geirwir</l>
+<l><damage>a</damage><!--not in ed.--> dywaid wir am <corr resp="transcr" sic="hwn">hwnw</corr></l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>ssaintwrw</speaker>
+
+<lg>
+<l><damage>y</damage>n wir nid Raid<!--ed: raid--> gofalon</l>
+<l><damage>m</damage>ae<!--not in ed.--> ef yn varwol ddigon</l>
+<l><damage>y</damage>n<!--not in ed.--> oer wedi treio yr oes</l>
+<l>ar y groes vawr <corr resp="transcr" sic="grvlon">grevlon</corr><!--not corr in ed.--></l>
+</lg>
+</sp>
+
+<pb n="21r"/>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>josseff kymer oddiyno</l>
+<l>y korff od oerodd drosto</l>
+<l>a dos ag ef lle i kerych</l>
+<l>a gwna a vynych iddo</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>josseff barmathia</speaker><!--in next boxes: josseff; ssiosseff barmathia; ssiosseff barmath-->
+
+<lg>
+<l>o gorff gwrthfawr o anRydedd<!--anrydedd in ed.--></l>
+<l>o <orig reg="gnawd">gynawd</orig> kvfiawn o vowredd</l>
+<l>o v<apo/><isp/>arglwydd a<isp/><apo/>m proffwyd</l>
+<l>o v<apo/><isp/>ymborth wyd a<isp/><apo/>m <orig reg="hamgeledd">hymgeledd</orig></l>
+</lg>
+
+<lg>
+<l>o bendigedic ddolvrvs</l>
+<l><!--blotch here; o?-->arglwydd mawr anRydeddvs<!--ed. anr- --></l>
+<l>i<isp/><apo/>th dwytsio<!--MS dwystio--> nid wi gyfion</l>
+<l>dy gorff gwrthfawr dioddefvs</l>
+</lg>
+
+<lg>
+<l>o wir broffwyd dioddefawr</l>
+<l>a meistyr jssrael gwrthfawr</l>
+<l>parod yw yngrym a<isp/><apo/>m gallv</l>
+<l>j<isp/><apo/>th erbyn<!--ed: in app; in text: ith dderbyn--> jessu i<isp/><apo/>r llawr</l>
+</lg>
+
+<lg>
+<l>nigodemws dal di i draed</l>
+<l>tra vwy yn rryddhav dwylo gwaed</l>
+<l>y tair hoel hyn sy yn <sic>ryfedd</sic></l>
+<l>heb drigaredd yn galed</l>
+</lg>
+</sp>
+
+<pb n="21v"/>
+
+<sp>
+<speaker><lb/>mair vam dduw</speaker>
+
+<lg>
+<l>ssiosseff vy <add place="supralinear">n</add>ghalon oernad</l>
+<l><corr resp="transcr" sic="ryffedd">ryfedd</corr> na thyr yn wastad</l>
+<l>gan <orig reg="gymaint">gymain</orig> vil o weithie</l>
+<l>ym gaffel poenav irad</l>
+</lg>
+
+<lg>
+<l>moes vy mab <orig reg="imi">ymv</orig><!--ed corr ymi--> i<!--not interlineal as in App.--> ssychv</l>
+<l>i archollie ssy yn gwaedv<note resp="transcr">Other manuscripts of the text have two additional lines here. Jones, in her edition, supplies them from BM Add. 15038 as: <l><supplied>moeswch imi sychyr gwaed</supplied></l><l><supplied>o benn i draed yr jessu</supplied></l></note></l>
+</lg>
+
+<lg>
+<l>melldigedic vor dynion</l>
+<l>o<isp/><apo/>r drain a wnaeth dy goron</l>
+<l><orig reg="onid diboen">oni tiboen</orig>&nbsp;<orig reg="i 'm mab">imab</orig><!--one orig?--> yw</l>
+<l>melldith dduw i<isp/><apo/>r iddewon</l>
+</lg>
+
+<lg>
+<l>o gwae vi vyth drymed</l>
+<l>mor <orig reg="alaeth">alaith</orig> ym dy weled</l>
+<l>vy vn mab och vi ddyw gwyn</l>
+<l>ar dyll hyn ar v<apo/><isp/>arffed</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>ssiosseff ba<supplied>r</supplied>mathi<supplied>a</supplied></speaker><!--not enough space in box-->
+
+<lg>
+<l>dyred mair a<isp/><apo/>th vab genyd</l>
+<l>kymer gynffwrdd mair hefyd</l>
+<l>ssych dy ddevrydd v<apo/><isp/>anrrydedd</l>
+<l>yw roi mewn bedd gwyn yn byd</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>mair vam dduw</speaker>
+
+<lg>
+<l><orig reg="wele">welav</orig> mae genym inav</l>
+<l>wylmant yw holl archollav</l>
+<l>eliwn o<isp/><apo/>i iad i<isp/><apo/>r llawr</l>
+<l>i gorff g<add place="supralinear">w</add>rthf<add place="supralinear">a</add>wr wedi angav</l>
+</lg>
+</sp>
+
+<pb n="22r"/>
+
+<sp>
+<speaker><lb/>ssiosseff barmathia</speaker>
+
+<!--following stanza deleted by scribe?-->
+<lg>
+<l>dyro i lawr y korff tyner</l>
+<l>j amdoi v<apo/><isp/>arglwydd a<isp/><apo/>m ner</l>
+<l>ssyndonn dros i weliav</l>
+<l><orig reg="gwae">gwai</orig> vinav Rac mawr bryddder</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>mair vam dduw</speaker>
+
+<lg>
+<l>yn ifank i<isp/><apo/>th vegais</l>
+<l>trwy lywenydd mawr i<isp/><apo/>m hais</l>
+<l>heddiw yn drist i<isp/><apo/>th amdoyai di</l>
+<l><orig reg="gwae">gwai</orig> vi o<isp/><apo/>r awr i<isp/><apo/>th welais</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>ssiosseff barmathia</speaker>
+
+<lg>
+<l>Rown garec vawr ar i fedd</l>
+<l>ni a <orig reg="gladdasom">glyddasom</orig> yn mowredd</l>
+<l>gadwn yma y korff v<apo/><isp/>anraith</l>
+<l>awn ymaith bawb i<isp/><apo/>n tyedd</l>
+</lg>
+
+<lg>
+<l>yn jach jessu dy wledd</l>
+<l>yn jach vrenin y rinwedd</l>
+<l>yn jach arglwydd yn Raid wyd</l>
+<l>yn jach broffwyd y mowredd.</l>
+<!--this line is repeated on next page-->
+</lg>
+
+<pb n="22v"/>
+
+<lg>
+<l>yn iach wr bendigedic</l>
+<l><orig reg="mewn">mewnn</orig><!--ed i mewnn--> lle addvwyn vrddedic</l>
+<l>hyd ymhen y<!--check ms--> trydydd dydd</l>
+<l>vy llywenydd nid ysgic</l>
+</lg>
+
+<lg>
+<l>yn iach ddyssgwr kyfiawn ffydd</l>
+<l>a dangoswr llywenydd</l>
+<l>a gwir brynwr yr eneidie</l>
+<l>amddiffynwr<!--ed amd-, but app. amdd- --> llv bedydd</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>syr peilad</supplied></speaker>
+
+<lg>
+<l>tewch <orig reg="hynafgwyr">henawgwyr</orig> ystyriol</l>
+<l>tewch <orig reg="arglwyddi">arglwiddi</orig> glan yrddassol</l>
+<l>pob bonheddic ivank yrddol</l>
+<l>tewch a<isp/><apo/>ch ssiarad a<isp/><apo/>ch <orig reg="afreol">afrwol</orig></l>
+</lg>
+
+<lg>
+<l>yn ssikir mi a wn ofni</l>
+<l>vy ngallyawl <orig reg="b&wcirc;er">bowair</orig> i</l>
+<l>myn mahownt vy nyw difri</l>
+<l>y wnaeth i<isp/><apo/>r lloer <orig reg="oleuni">oleni</orig></l>
+</lg>
+
+<lg>
+<l>tost yn isel mi a wnaf</l>
+<l>wady ywch am hyn ymaf</l>
+<l>gwybyddwch chwi wyr<!--with a strange w- but cf line 571--> o stad</l>
+<l>gar bron s<expan>yr</expan> peilad ymaf</l>
+</lg>
+
+<pb n="23r"/>
+
+<lg>
+<l>chwchwi wyr ymladd ssiaradwyr</l>
+<l>ofer ddynion diystyr</l>
+<l><corr resp="transcr" sic="kyndnabyddwch">kydnabyddwch</corr>i<!--word sep???--> wyr o stad</l>
+<l>mae ych browdwr chwi peilad</l>
+</lg>
+
+<lg>
+<l>kanys mi<!--mj? rather an elongated i--> yw <apo/>r ychel <orig reg="ustus">iestys</orig></l>
+<l>dros y byd ymhob ynys</l>
+<l>holl india dan dekeriys</l>
+<l>lasamja<!--j? rather an elongated i--> erod ffilypys</l>
+</lg>
+
+<lg>
+<l>rwyvi<!--ed Rwyvi--> yn hyssbys gydnabod</l>
+<l>ywch law pawb vy ngallv vod</l>
+<l>y gyflenwi kyfraith hynod</l>
+<l>Jessu o nassreth yn varw y vod</l>
+</lg>
+
+<lg>
+<l><orig reg="yn noeth">yn hoeth</orig><!--ed. corr. to yn noeth, but prob. dial. feature--> wedi i sgwrsio</l>
+<l>val ir <orig reg="oedd">odd</orig> gyfraith yno</l>
+<l>yr hwn a<isp/><apo/>i galwai i hvn evo</l>
+<l>brenin iddewon yno</l>
+</lg>
+
+<lg>
+<l><corr resp="transcr" sic="loissias">loinssias</corr><!-- really corr?--> a<isp/><apo/>i ffon a<isp/><apo/>i brathodd</l>
+<l>a<isp/><apo/>i galon ef a holldodd</l>
+<l>ac er hyny gwedi i varw</l>
+<l>ffest a garw y pregethodd<!--ed: pregethoodd--></l>
+</lg>
+
+<pb n="23v"/>
+
+<lg>
+<l>ydd oedd e<isp/><apo/>n twyllo ymhobyl i</l>
+<l>ac mewn kywilydd y rhoddi</l>
+<l>gorchymyn yr wyfi ichwithe</l>
+<l>y bregeth ef i hofni</l>
+</lg>
+
+<lg>
+<l>ac am hyny vy nghynghorion</l>
+<l><corr resp="transcr" sic="kaffas">kayffas</corr><!-- really corr?--> ac annas yrddolion</l>
+<l>v<apo/><isp/>anrydeddol amddiriaid</l>
+<l>a<isp/><apo/>m dewissiaid <orig reg="dywysogion">dywsogion</orig></l>
+</lg>
+
+<lg>
+<l>o <corr resp="scribe">chl<c>o</c>wchi</corr> neb a<isp/><apo/>i pr<add place="supralinear">e</add>gethav</l>
+<l>pa <orig reg="arglwyddi">arglwiddi</orig> o dyrav</l>
+<l>perwch yddyn beth bychan</l>
+<l>yn vyan yfyddhav<!--ed: vfyddhav--></l>
+</lg>
+
+<lg>
+<l>val traetyriaid gair <orig reg="fy mron">mron</orig></l>
+<l>dygwch mewn Rwymay krevlon</l>
+<l>myn mahownt os kai i<isp/><apo/>m golwc</l>
+<l>mi a wna yn amlwc i archollion</l>
+</lg>
+</sp>
+
+<pb n="24r"/>
+
+<sp>
+<speaker><lb/>ka<supplied>iaphas</supplied></speaker>
+
+<lg>
+<l>ss<expan>yr</expan> peilad anrydeddys</l>
+<l>brenin kyfraith yn hynys</l>
+<l>gwrandewch yn reswm ninav</l>
+<l>lle ir ychi yn ddiav yn <orig reg="ustus">iestvs</orig></l>
+</lg>
+
+<lg>
+<l>merkwchi<!--ed: + chwi--> yr ymddiddanion</l>
+<l>a ddywod ef yngwydd tystion</l>
+<l>dywod i bwrie demyl vawr</l>
+<l>y lawr a wnaethoedd ssalmon</l>
+</lg>
+
+<lg>
+<l>ac o fewn y trydydd dydd</l>
+<l>y gwnai <apo/>r demyl o newydd</l>
+<l><corr resp="transcr" sic="Wwrth">wrth</corr> y <orig reg="b&wcirc;er">bowair</orig> ef i hvn</l>
+<l>geiriav bychain gorfydd</l>
+</lg>
+
+<lg>
+<l><add place="supralinear">chwchwi y <orig reg="tywysogion">tywssogion</orig></add></l>
+<l>proffwydodd geiriav ffeilsstion</l>
+<l>trwy obaith i troe yn holl iaith</l>
+<l>wrth i gyfraith a<isp/><apo/>i ymddiddanion</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>Syr Peilad</supplied></speaker>
+
+<lg>
+<l>beth a <orig reg="feddyliwch chwi">fyddyliwchi</orig> anas</l>
+<l>a<isp/><apo/>ch doethineb kayffas</l>
+<l>pen ievstys yn kyfreithiav</l>
+<l>moes yn ddiav gyngor addas</l>
+</lg>
+</sp>
+
+<pb n="24v"/>
+
+<sp>
+<speaker><lb/><supplied>Anas</supplied></speaker>
+
+<lg>
+<l>y mae<isp/><apo/>r traetvr hwnw yn dwedyd</l>
+<l>y trydydd dydd i kyfyd</l>
+<l>yn vyw yn ssikir o<isp/><apo/>i vedd</l>
+<l>gwedi gorwedd mewn <corr resp="scribe">gw<c>e</c>ryd</corr><!--e above e--></l>
+</lg>
+
+<lg>
+<l>ac am hyny gorchmynwch</l>
+<l>ych marchogion gwybyddwch</l>
+<l>gadwn ssikir gylch i vedd</l>
+<l>hyd y drydydd nos perwch</l>
+</lg>
+
+<lg>
+<l>Rac ofn yr dyssgyblon</l>
+<l>drwy vawr dwyll a chynghorion</l>
+<l>geissio yn lledrad ddwyn y ko<add place="supralinear">r</add>ff</l>
+<l>er amorth ym kynghorion</l>
+</lg>
+
+<lg>
+<l>chwchi warden gorycha</l>
+<l>ar vyrder gwnewch hynyna</l>
+<l>gellwch<!--g-?--> gynal ych yrddas</l>
+<pb n="25r"/>
+<l>a ffob kas chwi <corr resp="transcr" sic="ai ai">a<isp/><apo/>i</corr> go<add place="supralinear">r</add>ffena</l>
+</lg>
+
+<lg>
+<l>mae ych power yn allyawl</l>
+<l>gorchmynwch yn amserawl</l>
+<l>gadw<isp/><apo/>r bedd dan boen marw</l>
+<l>angay garw tragwyddawl</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>Syr Peilad</supplied></speaker>
+
+<lg>
+<l>diolch ywch vy nghyfeillion</l>
+<l>am ych parod gynghorion</l>
+<l>kanys wrth yn kyfraith ni</l>
+<l>chwi ssydd Rwymedigion</l>
+</lg>
+
+<lg>
+<l>pedwar marchoc dewch gar<!--ed: gair with i interlineal (?); check MS; both gar/gair in text--> bron</l>
+<l>y essmwytho vy nghalon</l>
+<l>allan yma ym kadw</l>
+<l>kanys ofni idd wyf yn grevlon</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>m<supplied>archoc kyntaf</supplied></speaker>
+
+<lg>
+<l><corr resp="transcr" sic="vyrassol">v<apo/><isp/>yrddassol</corr> veistyr pryder</l>
+<l>na chymerwch vn amser</l>
+<l>yr ym ni bedwar marchoc</l>
+<l>yn arfoc ych<!--?--> kyfiownder</l>
+</lg>
+</sp>
+
+<pb n="25v"/>
+
+<sp>
+<speaker><lb/>yr ail marchoc</speaker>
+
+<lg>
+<l>os gorchmynwch y nyni</l>
+<l>ni a wnawn <corr resp="transcr" sic="drchant">drichant</corr><!--or drychant?--> y drengi</l>
+<l>nac vn dyrnod nid a yn Rad</l>
+<l>ss<expan>yr</expan> peilad i<isp/><apo/>th voli</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y trydydd marchoc</speaker>
+
+<lg>
+<l>pei delai yma ddav kant</l>
+<l>mi a wnawn yddynt dan warant</l>
+<l>gryny i krwyn a<isp/><apo/>i hesgirn</l>
+<l>os a min heyrn i trawant</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y pedwerydd marchoc</speaker>
+
+<lg>
+<l>nid wy vi yn ofni</l>
+<l><orig reg="tywysogion">twssogion</orig><!--on prev. line--> nac <orig reg="arglwyddi">arglwiddi</orig></l>
+<l>mi a wna gymaint erochi</l>
+<l>a<isp/><apo/>i dwyn atoch yw krogi</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y marchoc kynta</speaker>
+
+<lg>
+<l>ss<expan>yr</expan> peilad mi a<isp/><apo/>i gwna yn varw</l>
+<l>ac a dorraf i wddw</l>
+<l>od amkana gyfodi</l>
+<l>try vythw vi yn i gadw</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr ail marchoc</speaker>
+
+<lg>
+<l>y essgirn gwna yn ddryllie</l>
+<l>a<isp/><apo/>i gic a<isp/><apo/>i groen a<isp/><apo/>i ie</l>
+<l>a<isp/><apo/>i hymenydd heb ddim gwad</l>
+<l>ss<expan>yr</expan> peilad kyn i kode</l>
+</lg>
+</sp>
+<!--bottom of page: llyma k koch da jawn (?); check MS-->
+<pb n="26r"/>
+
+<sp>
+<speaker><lb/>y trydydd marchoc</speaker>
+
+<lg>
+<l>arglwydd ym <orig reg="credwch">kyredwch</orig> eto</l>
+<l>ni allodd y gwr ystentio</l>
+<l>a droes attafi i wyneb</l>
+<l>o<isp/><apo/>m gwelai neb yn digio</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y pedwerydd marchoc</speaker>
+
+<lg>
+<l>bai am<dsp/>dano arfav kadarn</l>
+<l>o ddyr <orig reg="neu">nei</orig> bres <orig reg="neu">nei</orig> hayarn</l>
+<l>ss<expan>yr</expan> peilad kewch i orfod</l>
+<l>ar vn<!--on prev line--> dyrnod yn gadarn</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>ss<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l><orig reg="byd da">byd ta</orig><!--ed Bydta--> ywch varchogion</l>
+<l>chwyrn a chredic a chrevlon</l>
+<l>chwi a dynassoch ar vyrder</l>
+<l>yr holl bryder o<isp/><apo/>m kalon</l>
+</lg>
+
+<lg>
+<l>kedwch y vedd yrddolion</l>
+<l>yn ssikir ddiogel ddigon</l>
+<l>Rac dwyn y korff trwy vwriad</l>
+<l>yn lladrad o<isp/><apo/>r dissgyblon</l>
+</lg>
+
+<pb n="26v"/>
+
+<lg>
+<l>dihafarchwyr yn ternas</l>
+<l>gorofeddwchi<!--check Ms; gorwe- --> o gwmpas</l>
+<l>a<isp/><apo/>i vedd ef kedwch yn dda</l>
+<l>a mine a<isp/><apo/>ch gwna mewn yrddas</l>
+</lg>
+
+<lg>
+<l>v<apo/><isp/>ymddiriaid yssydd ynoch</l>
+<l>dim a<isp/><apo/>r allwy gwna eroch</l>
+<l>nid arhomi vod yn drwch</l>
+<l>ewch kedwch val i gwyddoch</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>y marchoc kyntaf</supplied></speaker>
+
+<lg>
+<l>od amkana godi o<isp/><apo/>i wely</l>
+<l>ar i ben mi a<isp/><apo/>i tery</l>
+<l>ac yn ddiav be bai kawr</l>
+<l>j lawr eilwaith mi a<isp/><apo/>i tery</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>yr ail marchoc</supplied></speaker>
+
+<lg>
+<l>o chyfyd ef oddyma</l>
+<l>i holl gorff mi a<isp/><apo/>i ssgwrsia</l>
+<l>yn ddwys yn dost yn chwerw</l>
+<l>ac yn varw mi a<isp/><apo/>i gada</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>y trydydd marchoc</supplied></speaker>
+
+<lg>
+<l>ni<isp/><apo/>m tawr pwy a<isp/><apo/>m <orig reg="clywo">kylowo</orig></l>
+<l>od a yn vyw od ysgyd efo</l>
+<l>nes<dsp/>tel<!--MS nestel = nes del???--> ym vriw vara</l>
+<l>onis gwna i ef yn ddryllie</l>
+</lg>
+</sp>
+
+<pb n="27r"/>
+
+<sp>
+<speaker><lb/><supplied>y pedwerydd marchoc</supplied></speaker>
+
+<lg>
+<l>yn grevlon ac yn ddifri</l>
+<l>ar i fedd i gorweddwni</l>
+<l>ac ni a wnawn iddo varw</l>
+<l>o ffraw oddyma gyfodi</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>enaid krist</speaker>
+
+<lg>
+<l>drwy<!--d-? --> bendwmpian mi a gysgais</l>
+<l>ac o<isp/><apo/>m nattvr mi a brofais</l>
+<l>er mwyn dyn varfolaeth chwerw</l>
+<l>y kariad hwnw dangosais</l>
+</lg>
+
+<lg>
+<l>wrth orchymyn vy nhad i</l>
+<l>jdd wyvi yrywan yn kodi</l>
+<l>oni ddelwy i<isp/><apo/>th gymorth</l>
+<l>vy nghorff gorffowys di</l>
+</lg>
+
+<lg>
+<l>vy nhad addaf af yw gyrchy</l>
+<l>ssydd ynhywllwc yffern ddv</l>
+<l>a<isp/><apo/>i lv ganto yn ddie</l>
+<l>yn y poene hir i bv</l>
+</lg>
+
+<lg>
+<l>v<apo/><isp/>anrydeddol gorff<!--ed gorf; double ff faint but clearly double--> yn iach</l>
+<l><corr resp="transcr" sic="gobaith gobaith">gobaith</corr> gorffowys bellach</l>
+<pb n="27v"/>
+<l><orig reg="drachefn"><corr resp="transcr" sic="drychef">drychefn</corr></orig> oni ddelwyf</l>
+<l>mawr yw v<apo/><isp/>elw o<isp/><apo/>r fasgnach<!--?--></l>
+</lg>
+
+<lg>
+<l>agorwch byrth yffernol</l>
+<l>dywysogion heb <orig reg="reol">rwol</orig></l>
+<l>drwy ddirfawr wrth a welwch</l>
+<l>agorwch byrth nefol</l>
+</lg>
+
+<lg>
+<l>y mae brenin y llywenydd</l>
+<l>yn dyfod yn dragowydd</l>
+<l>y drigo yn i <orig reg="deyrnas">dernys</orig> hvn</l>
+<l>yn gyfiawn dduw bevnydd</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>lissiffer</speaker>
+
+<lg>
+<l>pwy ssydd yma nid yw addas</l>
+<l>wrth yn melltigedic der<add place="supralinear">n</add>as</l>
+<l>ni <orig reg="adewis"><apo/>dewis</orig> ef yma mwy</l>
+<l>ni wn i pwy a<isp/><apo/>i<!--was a'ch???--> kafas</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>enaid krist</speaker>
+
+<lg>
+<l>mab duw wyf vi o allv<!--ed. allu--></l>
+<l>brenin krevlon a gwr kv</l>
+<l>bonheddic a mewn llywenydd</l>
+<l>mawr vy nghystydd kyn angav</l>
+</lg>
+</sp>
+
+<pb n="28r"/>
+
+<sp>
+<speaker><lb/><supplied>lissiffer</supplied></speaker>
+
+<lg>
+<l>how ple idd ychi yn wrol</l>
+<l>holl <orig reg="dywysogion">dywsogion</orig> vffernol</l>
+<l>dowch wrth vy<apo/><isp/>ngalw yn ffest</l>
+<l>wrth orchymyn yn barodol</l>
+</lg>
+
+<lg>
+<l>ych pyrth pres kedyrn yno</l>
+<l>gwnewch yn ffest ich kylch etto</l>
+<l>ac yn sikir gan ych<!--ed. gannych--> pwyll</l>
+<l>yn ddidwyll Rac i syrthio</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>sattan</supplied></speaker>
+
+<lg>
+<l>y mae wrth ych gorchymyn</l>
+<l>vffern dan gloe kedyrn</l>
+<l>ac yn sikir gwedi kav</l>
+<l>a rhaffav kadwynav heyrn</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>lissiffer</supplied></speaker>
+
+<lg>
+<l>ai vo ywr brenin gorychel</l>
+<l>a aeth a lassar heb ddim kel</l>
+<l>a oedd genym<!--ed. gennym--> ni yngharchar</l>
+<l>mewn heyrn bar diogel</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>sattan</supplied></speaker>
+
+<lg>
+<l>je v<apo/><isp/>arglwydd yfo<!--MS ai yfo--> sydd yna</l>
+<l>j weithred yw dyfod yma</l>
+<l>a<isp/><apo/>n ysbeilio ni yw i <corr resp="scribe">f<c>r</c>yd</corr><!--r above r--></l>
+<l>j gyd am ssilltydd adda</l>
+</lg>
+</sp>
+
+<pb n="28v"/>
+
+<sp>
+<speaker><lb/><supplied>lissiffer</supplied></speaker>
+
+<lg>
+<l>gorchymyn<!-- corr to gorchymyna as in other MSS?--> nid oferedd</l>
+<l>o<isp/><apo/>m <orig reg="cadernid">kydernid</orig> a<isp/><apo/>m anrydedd</l>
+<l>ywch nas gatoch lle i bwyvi</l>
+<l>mae e yn ddifri yn i vowredd</l>
+</lg>
+
+<lg>
+<l>pan <corr resp="transcr" sic="oed">oedd</corr> ef yn galw lasar</l>
+<l>ni veiddiwn i ddwyn i far</l>
+<l>na ffrwytho dim i ymladd</l>
+<l>val dyna radd anhygar</l>
+</lg>
+
+<lg>
+<l>vo aeth oddiwrth yr holl gythrelied</l>
+<l>heb ond ynwaith i weled</l>
+<l>val hedydd yn vyan</l>
+<l>mawr a bychan arswyded</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>enaid krist</speaker>
+
+<lg>
+<l>yffernol byrth agorwch</l>
+<l>chwi dywyssogion <orig reg="tywyllwch">tywllwch</orig></l>
+<l>yn llydan llydan werin</l>
+<l>j<!--ed. i --> frenin y digrifwch</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>sattan</supplied></speaker>
+
+<lg>
+<l>pwy yw brenin krevlon <orig reg="cryf">kry</orig></l>
+<l>yr hwn nid ydiw i<isp/><apo/>n hofny</l>
+<l>na<isp/><apo/>n poen na<isp/><apo/>n penyd <corr resp="transcr" sic="yhynod">hynod</corr><!--?--></l>
+<l>ond dyfod yn Ry hy</l>
+</lg>
+
+<lg>
+<l>o fewn heddiw a thori</l>
+<l>yr holl ddryse a<isp/><apo/>n pyrth ni</l>
+<l>Ond Ryfedd vod i feddwl</l>
+<l>yn gwbwl i<isp/><apo/>n amherchi</l>
+</lg>
+</sp>
+
+<pb n="29r"/>
+
+<sp>
+<speaker><lb/><supplied>enaid krist</supplied></speaker>
+
+<lg>
+<l>agorwchi<!--ed. Agorwch --> ych drysse</l>
+<l>holl wassnaethwyr vffernlle</l>
+<l>ac yn ychel <corr resp="transcr" sic="drchefwch">dyrchefwch</corr><!--corr to dry-?; corr at all?--></l>
+<l>byrth nef kedwch y mine</l>
+</lg>
+
+<lg>
+<l>ymdrigwn mewn llywenydd</l>
+<l>gida brenin tragowydd</l>
+<l>yrwan ir wy yn entrio</l>
+<l><orig reg="teyrnas">ternys</orig> gwlad nef awn yno</l>
+</lg>
+
+<lg>
+<l>yrddassol <corr resp="transcr" sic="da">dad</corr>&nbsp;<corr resp="scribe" sic="bendaga">bendiga</corr><!--check MS--></l>
+<l>a ddoeth o<dsp/>honod adda</l>
+<l>a<isp/><apo/>m heddwch a<isp/><apo/>m ythrylith</l>
+<l>ych plith fyth a orchmyna</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>Adda</supplied></speaker>
+
+<lg>
+<l>o<isp/><apo/>r doethineb gorvcha</l>
+<l>a ddoethost di hyd yma</l>
+<l>oddi vry oddiwrth vy nhad</l>
+<l>mawr o gariad a roist arna</l>
+</lg>
+
+<lg>
+<l><orig reg="&acirc; 'th ddoniau">athoniav</orig> rwyvi i<isp/><apo/>th alw</l>
+<l>brenin yr israel <corr resp="transcr" sic="akaw">akw</corr></l>
+<l>mi a<isp/><apo/>th roes di yn ddiddic</l>
+<l>bendigedic vo dy enw</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/><supplied>d<expan>afyd</expan>d broffwyd</supplied></speaker><!--missing here, but on next page-->
+
+<lg>
+<l>hael Jessu o<isp/><apo/>r gwraidd gana<add place="supralinear">i</add>d</l>
+<l>bv gan dy bobyl wiliaid</l>
+<l>padriairch a ffroffwidi</l>
+<l>maen<!--m?--> yn dy henwi yn honaid</l>
+</lg>
+
+<pb n="29v"/>
+
+<lg>
+<l>danvon ni yr llywenydd</l>
+<l>nefawl akw yn dragowydd</l>
+<l>bendigedic vo dy enw</l>
+<l>a hwnw byth ni dderfydd</l>
+</lg>
+
+<lg>
+<l>o oen duw yr holl <orig reg="bechode">bychode</orig></l>
+<l>tynaist ymaith wrth oddef</l>
+<l>o<isp/><apo/>th farfolaeth i gwnaethost</l>
+<l>da vyost wrthym nine</l>
+</lg>
+
+<lg>
+<l>yn vffern peraist gyffro</l>
+<l>a throi y balchedd heibio</l>
+<l>o<isp/><apo/>th henw <orig reg="cysegredig">kysgredic</orig><!--corr. in ed.--></l>
+<l>bendigedic vyth a<isp/>fo</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>enaid krist</speaker>
+
+<lg>
+<l>vy heddwch i v<apo/><isp/>yneidie</l>
+<l>yma a<isp/>fy i<isp/><apo/>ch plith chwithe</l>
+<l>abram ben ffydd a<isp/><apo/>n gweryd</l>
+<l>essac jakob yn ddie</l>
+</lg>
+
+<lg>
+<l>chwi a gewch wlad vrddasol</l>
+<l>ych treftad brenin nefol</l>
+<l>am a wnaethochi <orig reg="erddo">ero</orig></l>
+<l>y kewch drigo yn dragwyddol</l>
+</lg>
+
+<lg>
+<l>mihangel gwna hyn yma</l>
+<l>dwc gynyd vy nhad adda</l>
+<l><supplied>i<isp/><apo/>r</supplied> llywenydd tragwyddol</l>
+<l><supplied>lle y mae</supplied> nefol orffwysfa</l>
+</lg>
+</sp>
+
+<pb n="30r"/>
+
+<sp>
+<speaker><lb/>enaid krist</speaker><!--ed supplies Mihangel-->
+
+<lg>
+<!--deleted first line on page: adda awn i fyny vargen g-->
+<!--order of lines in MS: adbc-->
+<l>adda awn i vynnv</l>
+<l>wrth orchymyn yr jessu</l>
+<l>ni allwn vod yn llawen</l>
+<l>mae<isp/><apo/>r vargen gwedi ffynv</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>lissiffer</speaker><!--supplied in ed-->
+
+<lg>
+<l>gwae ni ssattan heb y lisiffer</l>
+<l>yma i drigwn mawr yw yn pryddder<!--ed prydd-der--></l>
+<l>daeth brenin mab duw gwrol</l>
+<l>o dragwyddol <corr resp="transcr" sic="yr ychelder">ychelder</corr></l>
+</lg>
+
+<lg>
+<l>gwnewch ddiogel byrth Ragddo<!--ed ragddo--></l>
+<l>Rac i ddyfod yma eto</l>
+<l>ac yn sikir gwybyddwch</l>
+<l>na bom ni ttrwch i ssyrthio</l>
+</lg>
+
+<lg>
+<l>val i gallom ni yn ddiogel</l>
+<l>gadw yma bawb a ddel</l>
+<l>ni a fwriasom heb ddim ttal</l>
+<l>yn holl ofal yn isel</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>enaid krist</speaker>
+
+<lg>
+<l>vy nhad o<isp/><apo/>r nef gorvchaf</l>
+<l>Rwyfi<!--ed rwyfi--> yn<!--del???--> gofyn yt hyn ymaf</l>
+<l>gael o<isp/><apo/>m pobl dref<!--ed tref--> i tad</l>
+<l>o gariad mi a<isp/><apo/>i harchaf</l>
+</lg>
+
+<lg>
+<l>j<isp/><apo/>r llywenydd pan i<isp/><apo/>ch kefais</l>
+<l><orig reg="paradwysol">pradwysol</orig> i<isp/><apo/>ch anvonais<!--faint, ed. ych danvonais; check MS--></l>
+<l>yn dragwyddol i bon yno</l>
+<l>yn ttrigo am a ddioddefais</l>
+</lg>
+
+<lg>
+<l>wele yrowan mi a af</l>
+<l>at vy nghorff ac a orchmynaf</l>
+<l>ymddangos yn gorfforol</l>
+<l>j<isp/><apo/>m<!-- ed.ym--> kariadol vam wyraf</l>
+</lg>
+</sp>
+
+<pb n="30v"/>
+
+<sp>
+<speaker><lb/>jessu</speaker><!--in ed: [IEVAN VENGYLWR]-->
+
+<lg>
+<l>vy mam <corr resp="transcr" sic="vaair">vair</corr> wedi ych prvddder<!--ed prvdd-der--></l>
+<l>kymerwch ych yssmwythder</l>
+<l>wedir wylo a wnaethost</l>
+<l>mair gwybvost vawr vlinder</l>
+</lg>
+
+<lg>
+<l>tristwch wylofain yma</l>
+<l>a<isp/><apo/>ch gorfv chwi gan mwya</l>
+<l>v<apo/><isp/>anRydeddol<!--ed. vanr- --> vam <corr resp="transcr" sic="varwyn">vorwyn</corr></l>
+<l>er vy mwyn <corr resp="transcr" sic="byth">beth</corr><!--corr?--> gorffwysa</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>mair</speaker>
+
+<lg>
+<l>je<expan>van</expan><!--not marked in ed.--> vy mab ttirionder</l>
+<l>ni allai gymryd v<apo/><isp/>ysmwythder</l>
+<l>er penn welais ben i oes</l>
+<l>vy mab ar y groes dduw gwener</l>
+</lg>
+
+<lg>
+<l>yn wraic vo a<isp/><apo/>m galwodd</l>
+<l>ac a ddywod o<isp/><apo/>i <orig reg="ymadrodd">madrodd</orig></l>
+<l>edrych dy vab ar y groes</l>
+<l>yn y oes erioed ni thygiodd<!-- ed. nith ddygiodd [extra o deleted], MS ni thy<del>g</del>kiodd (?) - or k deleted?--></l>
+</lg>
+
+<lg>
+<l>pe ym <orig reg="galwasai">gylwasai</orig> vy mab tirion</l>
+<l>vi <corr resp="transcr" sic="ym">yn</corr><!-- corr not in ed.--> vam <orig reg="torasai">ttrasai</orig> vy nghalon</l>
+<l>gorffowys di je<expan>van</expan> beth</l>
+<l>mawr yw aleth ynwyfron</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>enaid krist</speaker>
+
+<lg>
+<l><orig reg="hanbych">ampych</orig> gwell vam drygaredd</l>
+<l>paid a<isp/><apo/>th wylo v<apo/><isp/>anrrydedd</l>
+<l>kic a gwaed wyvi yn barod</l>
+<l>gwedi gorfod o<isp/><apo/>r diwedd</l>
+</lg>
+
+<lg>
+<l>a <orig reg="chnawd">chynawd</orig> dyn myvi a<isp/><apo/>i prynais</l>
+<l>yn y modd i dioddefais</l>
+<l>ar dduw gwener y kroglith</l>
+<l>vy ngwaed i<isp/><apo/>ch plith a gollais</l>
+</lg>
+
+<pb n="31r"/>
+
+<lg>
+<l>v<apo/><isp/>anrydeddol vam vair wen</l>
+<l>adolwc byddwch lawen</l>
+<l>ni allai mwy bellach</l>
+<l>drigo hayach mi af ywch ben</l>
+</lg>
+
+<lg>
+<l>ym disgyblon<!--d-? --> i dywedwch</l>
+<l>ac i bedyr gair gyrwch</l>
+<l>kan vy ngweled bwrien drem</l>
+<l>ynghaer sselem adroddwch</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>mair</speaker>
+
+<lg>
+<l>kyfod<!--ed kyvod--> je<expan>van</expan> vy mab kv</l>
+<l>kyfod a wyd ti yn kysgv</l>
+<l>jessu gwelais yti<!-- ed yt i as in MS--> dyweda</l>
+<l>vy mab yma <corr resp="scribe">v<c>o</c></corr><!--ed ve; nothing in App--> vv</l>
+</lg>
+
+<lg>
+<l>ef a erchis imi yno</l>
+<l>wrth ymadel<note resp="transcr"><hi rend="italic">wrth ym</hi> written on previous line.</note> ag efo</l>
+<l>vod yn llawen yn ssefyll</l>
+<l>jr oedd i erchyll ef yn tropio</l>
+</lg>
+
+<lg>
+<l>er hyn je<expan>van</expan> ni vyne</l>
+<l>ym<note resp="transcr"><hi rend="italic">ym</hi> written on previous line.</note> hir drigo gidag ef</l>
+<l>mi a ssychais i wyneb gwyn</l>
+<l>vy mab <corr resp="transcr" sic="kym">kyn</corr><!--App. MS kyn--> i archoll ef</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>je<expan>uan</expan>n <orig reg="efengylwr">vengylwr</orig></speaker><!--expansion?-->
+
+<lg>
+<l><orig reg="gwae">gwai</orig> vine vyth vy mam dda</l>
+<l>a fv dduw jessu yma</l>
+<l><!--something deleted here or rubbed?--><orig reg="angharedig">angredic</orig> ym vyoch</l>
+<l>och och ple mwy i keisiaf</l>
+</lg>
+</sp>
+
+<pb n="31v"/>
+
+<sp>
+<speaker><lb/>mair</speaker>
+
+<lg>
+<l>yn sikir kyn ymado</l>
+<l>y dywad wrthi efo</l>
+<l>vy mab eilwaith y gwelwn</l>
+<l>ynghaer selem awn yno</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>mair <del>vadlen</del> glewffas</speaker>
+
+<lg>
+<l>pai delem<!--ed: pe id elem; in App id elemi--> at i vedd</l>
+<l>pwy a<isp/><apo/>m helpai v<apo/><isp/>anrrydedd</l>
+<l>o droi y garec wrthfawr</l>
+<l>ssydd ar gorff y gwr yn gorwedd</l>
+</lg>
+
+<lg>
+<l>val i gwelwn i amdo</l>
+<l>vendigedic korff yno</l>
+<l>a<isp/><apo/>r olew <orig reg="cysegredig">kysgredic</orig><!--in ed. corr.--></l>
+<l>gwac vi o hir dric yno</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>mair vadlen</speaker>
+
+<lg>
+<l>korff kalon o ryfeddod</l>
+<l><corr resp="transcr" sic="yssdd">yssydd</corr> ymi y<add place="supralinear">n</add> gyfnod</l>
+<l>weled bedd mor loyw</l>
+<l>gwych a hoyw ywr arfod</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr angel</speaker>
+
+<lg>
+<l>nag ofnwch wragedd heno</l>
+<l>jessu ydd ychi yn i geisio</l>
+<l>hwn dioddefodd varfolaeth</l>
+<l>ar y groes vawr a<isp/><apo/>i ysgwrsio</l>
+</lg>
+
+<lg>
+<l>vo godes mawr fv ymryddder<!--ed dd-d --></l>
+<l>er hyn ymaf o amser</l>
+<l>gwener mal i gosoded</l>
+<l>y gorff hynod vy aur ner</l>
+</lg>
+
+<pb n="32r"/>
+
+<lg>
+<l>a dywedwch yw ddysgyblon</l>
+<l>ac i bedyr gar ych bron</l>
+<l>a bid hysbys genwchi</l>
+<l>i galali i daw vy ion</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>mair vadlen</speaker>
+
+<lg>
+<l>a ffan tynodd y <orig reg="terfyn">terfen</orig></l>
+<l>llawn diffeithwch aniben</l>
+<l>och vy nghalon i a dyr</l>
+<l>ar vyrr o ddirfawr angen</l>
+</lg>
+
+<lg>
+<l>v<apo/><isp/>arglwydd a<isp/><apo/>m duw a <orig reg="gollais">golles</orig></l>
+<l>y gwr mwya a <orig reg="gerais">geres</orig></l>
+<l>ni <orig reg="adewis"><apo/>dewis</orig> hwn yn yr holl vyd</l>
+<l>help ond vn vy nghyffes</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>mair vam grist</speaker><!--missing in ed?-->
+
+<lg>
+<l>ha ha madlen how tydi</l>
+<l>pam i gedaist yw golli</l>
+<l>jessu vyth ple i kwyna</l>
+<l>ymherffeithia gariad i</l>
+</lg>
+
+<lg>
+<l>mi af at vair a <corr resp="transcr" sic="ffyr">ffedyr</corr><!--really corr?--></l>
+<l>i ddywedyd yw gyd vrodyr</l>
+<l>val y gwelais wir jessu</l>
+<l>yn kodi gwedi i ddolyr</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y marchoc kynta</speaker>
+
+<lg>
+<l>kodwch wyr ni all <orig reg="erddo">ero</orig></l>
+<l>na llaw na throed <corr resp="transcr" sic="ystetio">ystentio</corr><!--really corr?--></l>
+<l>gan rryw fflam o dan aeth</l>
+<l>ym golwc val saeth heibio</l>
+</lg>
+</sp>
+
+<pb n="32v"/>
+
+<sp>
+<speaker><lb/>yr ail marchoc</speaker>
+
+<lg>
+<l>yrowan<!--ed yr owan = MS?--> hyno<!--=heno?--> ir oeddwn</l>
+<l>yn haner dall dybygwn</l>
+<l>nid oedd geni ddim kryfder</l>
+<l>kodi vy mer nis gallwn</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y trydydd marchoc</speaker>
+
+<lg>
+<l>Raid ym er bod yn anodd</l>
+<l>ym harglwydd peilad adrodd</l>
+<l>j vyned efo ymaith</l>
+<l>yn <orig reg="berffaith">byrffaith</orig> o<isp/><apo/>n gwir anfodd</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y pedwerydd marchoc</speaker>
+
+<lg>
+<l>o arglwydd yrddassol da</l>
+<l>proffwyd kadarn gorvcha</l>
+<l>heno i vyny i kododd</l>
+<l>o<isp/><apo/>n hanfodd i gid yma</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilat</speaker><!--peilad in next box-->
+
+<lg>
+<l>ffei o<dsp/>honoch draetyriaid</l>
+<l>ffei <corr resp="transcr" sic="vyyth">vyth</corr> o<isp/><apo/>r lle imddiriaid<!--reg?--></l>
+<l>kysgv a wnaethoch nos a dydd</l>
+<l><corr resp="transcr" sic="gae">gwae</corr> chwi aros i gyfraid</l>
+</lg>
+
+<!--order of verses in MS cdab-->
+<lg>
+<l>chwi <orig reg="adawsoch"><apo/>dowsoch</orig> i<isp/><apo/>r<!--ed i'r--> dysgyblon</l>
+<l><corr resp="transcr" sic="ladrotar">ladrata<isp/><apo/>r</corr><!--really corr?--> korff anhirion</l>
+<l>gwna i<isp/><apo/>ch <orig reg="calonnau">klonav</orig> grynv yn <corr resp="scribe">ch<c>w</c>yrn<!--y overwritten with w--></corr></l>
+<l>a<isp/><apo/>ch oll esgyrn vawheion</l>
+</lg>
+</sp>
+
+<pb n="33r"/>
+
+<sp>
+<speaker><lb/>y marchoc kynta</speaker>
+
+<lg>
+<l>myn mahownt <orig reg="peilad">peila</orig> tirion</l>
+<l>yr oedd mor gryf a chrevlon</l>
+<l>ac <corr resp="transcr" sic="ni a feiddiem ni">ni feiddiem ni</corr>&nbsp;<corr resp="transcr" sic="ystetio">ystentio</corr><!--really corr?--></l>
+<l>ddim rragddo gwae vy nghalon</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>yr ail marchoc</speaker>
+
+<lg>
+<l>s<expan>yr</expan> peilad <corr resp="transcr" sic="anrryddeddys">anrrydeddys</corr></l>
+<l>ve<!--ed vo-->&nbsp;<corr resp="scribe" sic="rydd">rodd</corr><!--o supralinear, y NOT deleted--> i droed ar v<apo/><isp/>ysdlys</l>
+<l>ni <corr resp="transcr" sic="wyddywwn">wyddywn</corr><!--ed App. MS wyddywn--> pynn myn fy ffydd</l>
+<l>ai nos ai dydd i <sic>kwnws</sic><!--from cynnu, cynnwys?--></l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y trydydd marchoc</speaker>
+
+<lg>
+<l>ve<isp/><apo/>m rroddai i lawr ar vyrder</l>
+<l>s<expan>yr</expan> peilad am holl bower</l>
+<l>ni allwn i vil an<!--a'n?--> bod</l>
+<l>brofi gorfod i gryfder</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>y <orig reg="pedwerydd">pydwerydd</orig> marchoc</speaker>
+
+<lg>
+<l>be basai <orig reg="ohonom">honom</orig> eto</l>
+<l>ygain ag eraill wrtho</l>
+<l>s<expan>yr</expan> peilad o<isp/><apo/>n gwir anfodd</l>
+<l>ef aethoedd oddyno</l>
+</lg>
+</sp>
+
+<sp>
+<speaker><lb/>s<expan>yr</expan> peilad</speaker>
+
+<lg>
+<l>ffei fawheion llwfr anhy</l>
+<l>pam i dywedech vyth hyny</l>
+<l>och rrac kywilidd <corr resp="transcr" sic="taa">tra</corr>&nbsp;<corr resp="scribe"><c>f</c>wy</corr> byw</l>
+<pb n="33v"/>
+<l>sswrth yma yw geny hyny</l>
+</lg>
+
+<lg>
+<l>ffei o<dsp/>honoch draetyriaid</l>
+<l>lle ni<isp/><apo/>ch gwelwy o<isp/><apo/>m llygaid</l>
+<l><orig reg="ydd ych chwi">ddychi</orig> yn ffeilsion <orig reg="cymaint">kymain</orig> hyn</l>
+<l>chwi vyoch vn ai vyned</l>
+</lg>
+
+<!--check following stanza-->
+<lg>
+<l>ond kyn i bwytawy ddim bara</l>
+<l>myn y gwr i kreda</l>
+<l>vo a<isp/><apo/>i pryn ych krwyn</l>
+<l>a<isp/><apo/>ch esgirn<!--on prev. line--> ddwyn korff oddyma</l>
+</lg>
+
+<!-- ed:
+<lg>
+<l>ond myn y gwr i kreda</l>
+<l>kyn i bwytawy ddim bara</l>
+<l>vo ai pryn ych esgirn ach krwyn</l>
+<l>ddwyn korff oddyma</l>
+</lg>
+-->
+</sp>
+
+<trailer><lb/>Ac velly y <orig reg="terfyna">ttyrfyna</orig></trailer>
+</div>
+</body>
+</text>
+
+<text id="TBG">
+<front>
+<div type="supplied-castlist">
+<p>
+<castList>
+<castItem type="role">
+<role id="Ff">Ffwl</role>
+</castItem>
+
+<castItem type="role">
+<role id="Gd">y genad,  kenad erod,  y kenadwr?</role>
+</castItem>
+
+<castItem type="role">
+<role id="Br1">y brenin gyntaf, kynta</role>
+</castItem>
+
+<castItem type="role">
+<role id="Br2">yr ail brenin</role>
+</castItem>
+
+<castItem type="role">
+<role id="Br3">y trydydd brenin</role>
+</castItem>
+
+<castItem type="role">
+<role id="Br">y brenin</role>
+</castItem>
+
+<castItem type="role">
+<role id="Po">y porthor</role>
+</castItem>
+
+<castItem type="role">
+<role id="Er">erod</role>
+</castItem>
+
+<castItem type="role">
+<role id="Sg">yr ysgolheigion</role>
+</castItem>
+
+<castItem type="role">
+<role id="Al">yr angel</role>
+</castItem>
+
+<castItem type="role">
+<role id="Fr">y frenhines, vrenhines</role>
+</castItem>
+
+<castItem type="role">
+<role id="Gw">gwas y porthor</role>
+</castItem>
+
+<castItem type="role">
+<role id="Jo">josseff</role>
+</castItem>
+
+<castItem type="role">
+<role id="Mr">mair</role>
+</castItem>
+
+<castItem type="role">
+<role id="Kl">y kythrel</role>
+</castItem>
+
+</castList>
+</p>
+</div>
+</front>
+
+<group>
+<text id="BMAdd14986_TBG" next="BMAdd15038_TBG">
+<body>
+<div>
+<pb n="33v"/>
+<head>
+<hi rend="rubric"><lb/>LLYma yr ymddiddan a vy <orig reg="rhwng">Ryng</orig> y tri</hi>
+<lb/>Brenin o gwlen ac erodr grevlon ac val
+<lb/>jr aeth mair a<isp/><apo/>i mab a <corr resp="transcr" sic="ssiossph">ssiosseph</corr> o vethlem
+<lb/>a<isp/><apo/>r tair anrrec ganthyn
+</head>
+
+<sp who="Gd">
+<speaker><lb/>y genad</speaker>
+<lg>
+<l>Tewch a<isp/><apo/>ch ssiarad a gwrandewch</l>
+<l>ffrae ystrwmant neb nis gwnewch</l>
+<l>yn wir chwi a gewch <corr resp="transcr" sic="amarchch">amarch</corr></l>
+<l>gwedi ych kyfarch onis tewch</l>
+</lg>
+
+<pb n="34r"/>
+
+<lg>
+<l>Edrychwch bawb ywch benn</l>
+<l>chwi gewch weled y seren</l>
+<l>yn wyneb y gorllewin</l>
+<l>a<isp/><apo/>r tri brenin o gwlen</l>
+</lg>
+
+<lg>
+<l>kerddwch i veddlem ssiwdi</l>
+<l>a<isp/><apo/>ch tri ffeth genwch i</l>
+<l>aur<!--ed a&uuml;r--> a ssens a myr arab</l>
+<l>y<isp/><apo/>w roi i<isp/><apo/>r mab newydd eni</l>
+</lg>
+
+<lg>
+<l>y sseren ywch ben y byd</l>
+<l>a roddaf yn gyfrwyddyd</l>
+<l>j<isp/><apo/>ch dwyn att vab aur<!--ed a&uuml;r--> fflwch</l>
+<l>ar<unclear>w</unclear>ydd ywch iraidd iechyd</l>
+</lg>
+</sp>
+
+<sp who="Br1">
+<speaker><lb/>y brenin gyntaf</speaker>
+<lg>
+<l>dyrys yw<isp/><apo/>r ffordd i veddlem</l>
+<l>achos anghyfarwydd vyddem</l>
+<l>i gael kyngor a dysc llawn</l>
+<l>nyni awn i gaer selem</l>
+</lg>
+</sp>
+
+<sp who="Br2">
+<speaker><lb/>yr ail <corr resp="transcr" sic="bernin">b<add hand="scribe" place="supralinear">r</add>enin</corr></speaker>
+<lg>
+<l>y porthor pyrth <corr resp="scribe" sic="ni"><unclear>y</unclear></corr><!--note--> ddinas</l>
+<l>agor y pyrth i<isp/><apo/>th addas</l>
+<l>j vynd at vrenin erod</l>
+<l><orig reg="anrhyfeddod"><corr resp="transcr" sic="anryddfedod">anr<add resp="scribe" place="supralinear">y</add>ddfeddod</corr></orig><!--corr but intended reading unclear--> y dyrnas</l>
+</lg>
+</sp>
+
+<pb n="34v"/>
+
+<sp who="Po">
+<speaker><lb/><corr resp="scribe" sic="yrail brenin">y porthor</corr></speaker>
+<lg>
+<l>vy\ nghenad a fedd parod</l>
+<l>dos a dywaid i erod</l>
+<l>vod yma dri brenin</l>
+<l>o<isp/><apo/>r gorllewin yn dywod</l>
+</lg>
+</sp>
+
+<sp who="Gd">
+<speaker><lb/><corr resp="scribe" sic="y porthor">y genad</corr></speaker>
+<lg>
+<l>mae tri brenin mawr bob vn</l>
+<l>wrth y porth i<isp/><apo/>ch ymofyn</l>
+<l><orig reg="edrychwch">ydrychwch</orig> o<isp/><apo/>ch doethineb</l>
+<l>para ateb a roeir<!--reg--> yddyn</l>
+</lg>
+</sp>
+
+<sp who="Er">
+<speaker><lb/>erod</speaker>
+<lg>
+<l>arch i<isp/><apo/>r porthor egori</l>
+<l>a<isp/><apo/>i gillwng hwy ata vi</l>
+<l>j gael gwybod i meddwl</l>
+<l>mae <orig reg="cythrwfl">kythryfwl</orig> yn kodi</l>
+</lg>
+</sp>
+
+<sp who="Gd">
+<speaker><lb/>y genad</speaker>
+<lg>
+<l>mae erod yn gorchymyn</l>
+<l><orig reg="agori">ygori</orig> y pyrth yddyn<!--corr from iddyn?--></l>
+<l>i gael gwybod nid ymraen</l>
+<l>pa beth i maen yn i ofyn</l>
+</lg>
+</sp>
+
+<sp who="Po">
+<speaker><lb/>y porthor</speaker>
+<lg>
+<l>adolwc ywch na ddigioch</l>
+<l>am y taring a gosoch</l>
+<l>ewch yn hy gida<isp/><apo/>r genad</l>
+<l>mawr yw rhad ffordd i doethoch</l>
+</lg>
+</sp>
+
+<pb n="35r"/>
+
+<sp who="Gd">
+<speaker><lb/>y genad</speaker>
+<lg>
+<l>Brenhinoedd glan ydych i</l>
+<l>dowch oddyma gida mi</l>
+<l>j weled brenin erod</l>
+<l>a<isp/><apo/>i ddefod a<isp/><apo/>i riolti</l>
+</lg>
+
+<lg>
+<l>val dyma y brenhinoedd</l>
+<l>arwydd rryfeddod ydoedd</l>
+<l>dyweten i hynain i neges</l>
+<l>a<isp/><apo/>i hanes o<isp/><apo/>r eithafoedd</l>
+</lg>
+</sp>
+
+<sp who="Br1">
+<speaker><lb/>y brenin kynta</speaker>
+<lg>
+<l>pa le mae hwn a aned</l>
+<l>brenin <orig reg="iddewon">iddefon</orig> addfed</l>
+<l>y seren a fv yn kyfrwyddyd</l>
+<l>gwyn i vyd a gae i weled</l>
+</lg>
+</sp>
+
+<sp who="Er">
+<speaker><lb/>erod</speaker>
+<lg>
+<l>o <orig reg="gwelsoch chwi">gwalsochi</orig> y seren</l>
+<l>y nos vnaws a<isp/><apo/>r hevlwen</l>
+<l>arwydd geni y gras a<isp/><apo/>r grym</l>
+<l>nid gwiw yn ddywedyd amgen</l>
+</lg>
+</sp>
+
+<sp who="Br2">
+<speaker><lb/>yr ail brenin</speaker>
+<lg>
+<l>y seren ni a<isp/><apo/>i <orig reg="gwelsom">gwalsom</orig></l>
+<l>a<isp/><apo/>i ffroffwydo i byon</l>
+<l>efo aned yr Jessu</l>
+<l>o<isp/><apo/>i anrregv i doethon</l>
+</lg>
+</sp>
+
+<sp who="Er">
+<speaker><lb/>erod</speaker>
+<lg>
+<l>dowch <orig reg="yn nes">ynes</orig> v<apo/><isp/>ysgolheigion</l>
+<l>beth a ddywedwch i yr owron</l>
+<l>ple i ganed mab i<isp/><apo/>r vorwyn</l>
+<l>ai gwiw dwyn <orig reg="arwyddion">arwiddion</orig></l>
+</lg>
+</sp>
+
+<pb n="35v"/>
+
+<sp who="Sg">
+<speaker><lb/>yr ysgolheigion</speaker>
+<lg>
+<l>y mab a ddylav i eni</l>
+<l>meddynt <orig reg="ym Methlehem">ymeddlem</orig> siwdi</l>
+<l>o ddoedyd y gwir yn ddiav</l>
+<l>ni a ddylem i <orig reg="addoli"><apo/>ddoli</orig></l>
+</lg>
+</sp>
+
+<sp who="Er">
+<speaker><lb/><corr resp="transcr" sic="y brenin">erod</corr></speaker>
+<lg>
+<l>ewch i <orig reg="ymofyn">imofyn</orig> y mab kv</l>
+<l>a ddoeth <orig reg="yma">ymaf</orig> i<isp/><apo/>n dysgv</l>
+<l>megis id gallomi vyned</l>
+<l>a thyrnged y<isp/><apo/>w <orig reg="anrhegu">anregv</orig><!--check ms--></l>
+</lg>
+</sp>
+
+<sp who="Br">
+<speaker><lb/>y brenin</speaker>
+<lg>
+<l>y seren vv<!--ed vu--> yn kyfrwyddyd</l>
+<l>sy <apo/>n gyfyrgoll yn hefyd</l>
+<l>nid oes weithian yn yn mysc</l>
+<l>neb a ddysc ini vyned</l>
+</lg>
+</sp>
+
+<sp who="Er">
+<speaker><lb/>erod</speaker>
+<lg>
+<l>vy nghenad dos y<isp/><apo/>w hanfon</l>
+<l>a dysc yddyn lle ir elon</l>
+<l>nhwy a gan wabar yn lle gwir</l>
+<l>a mwy o sir pan ddelon</l>
+</lg>
+</sp>
+
+<sp who="Gd">
+<speaker><lb/>y genad</speaker>
+<lg>
+<l>ych siwrnai vawr sy ryfedd</l>
+<l>yrddas gorllewin dvedd</l>
+<l>Rwng<!--ed rwng--> synwyr a doethineb</l>
+<l>ewch i wyneb y gogledd</l>
+</lg>
+</sp>
+
+<sp who="Br">
+<speaker><lb/>brenin</speaker>
+<lg>
+<l>kyfod dy wyneb bydd lawen</l>
+<l>gwir a ddyfod mab mair wen</l>
+<l>ni bydd arnomi ddim <corr resp="transcr" sic="drgsir">drygsir</corr></l>
+<l>yn wir dakw<isp/><apo/>r seren</l>
+</lg>
+</sp>
+
+<pb n="36r"/>
+
+<sp who="Br1">
+<speaker><lb/>y brenin kynta</speaker>
+<lg>
+<l><orig reg="hanbych">hempych</orig> gwell brenin nefoedd</l>
+<l>a brenin y brenhinioedd</l>
+<l>ac aur mae d<isp/><isp/><apo/>anrregv</l>
+<l>kyfoeth a gallv da oedd</l>
+</lg>
+</sp>
+
+<sp who="Br2">
+<speaker><lb/>yr ail brenin</speaker>
+<lg>
+<l>anrrydedd yt dduw keli</l>
+<l>llyma ssens yr eglwisi</l>
+<l>velly ir ydwyd tithe</l>
+<l><orig reg="aroglau">yrogle</orig> a <corr resp="transcr" sic="golein">goleini</corr><!-- ed: goleni--></l>
+</lg>
+</sp>
+
+<sp who="Br3">
+<speaker><lb/>y trydydd brenin</speaker>
+<lg>
+<l>yt i kyfarcha dduw marwol</l>
+<l>gwreiddyn y drydydd daiarol</l>
+<l>wrth dy gladdv hir a byrr</l>
+<l>y myrr sy nattyriol</l>
+</lg>
+</sp>
+
+<sp who="Al">
+<speaker><lb/>yr angel</speaker>
+<lg>
+<l>erod grevlon sydd angall</l>
+<l>aniwair anodd i ddyall</l>
+<l>nag ewchi ddim ato ef</l>
+<l>ewchi adre ffordd arall</l>
+</lg>
+</sp>
+
+<sp who="Er">
+<speaker><lb/>erod</speaker>
+<lg>
+<l>yr wyvi yn vrenin gallvoc</l>
+<l><orig reg="yng Nghaersalem">ynghaer selem</orig> ddonoc</l>
+<l>ac ar babilon yn berchen</l>
+<l><orig reg="ym mhob">ymhob</orig> tir penn tywysoc</l>
+</lg>
+
+<lg>
+<l>beth ddywedi di dere yn nes</l>
+<l>vy mrenhines goranoc</l>
+</lg>
+
+<lg>
+<l>mae<isp/><apo/>r gair nid<!-- n- corr or blotched-->&nbsp;<orig reg="wyf i">wi</orig> vodlon</l>
+<l>vod<!-- + some unrecognisable letter-->&nbsp;<corr resp="transcr" sic="benin">brenin</corr><!-- not in ed.--> i<isp/><apo/>r iddewon</l>
+<pb n="36v"/>
+<l>Ryfedd geny<isp/><apo/>r gair ar <orig reg="gyhoedd">godd</orig></l>
+<l>ple mae<isp/><apo/>r brenhinioedd <sic>weithian</sic><!-- ed weithion--></l>
+</lg>
+</sp>
+
+<sp who="Fr">
+<speaker><lb/>y frenhines</speaker>
+<lg>
+<l>gyrwchi rrai<!--ed rai--> y<isp/><apo/>w gofyn</l>
+<l>Rac na alloch gael arnyn</l>
+<l>ond mwy o gost a thrafel</l>
+<l>i geisio gafel arnyn</l>
+</lg>
+</sp>
+
+<sp who="Er">
+<speaker><lb/>erod</speaker>
+<lg>
+<l>mae vy herod a<isp/><apo/>m kenad</l>
+<l>a<isp/><apo/>m <orig reg="ymddiried">emddiriaid</orig> a<isp/><apo/>m <corr resp="transcr" sic="kenad">kariad</corr><!-- -n- corr or overwritten; for correction to kariad cf below, same phrase--></l>
+<l>dered yma v<apo/><isp/>anwylyd</l>
+<l>parod oeddyd yn wastad</l>
+</lg>
+</sp>
+
+<sp who="Gd">
+<speaker><lb/><corr resp="transcr" sic="erod">y genad</corr></speaker>
+<lg>
+<l>ymaith<!--ed ymeith--> mi af hai how</l>
+<l>y naill ai yn vyw ai yn varw</l>
+<l>mi af at vrenin erod</l>
+<l>hwyp am i vod yn galw</l>
+</lg>
+
+<!-- foll. stanza attrib. to y gwas in MS -->
+<lg>
+<l>v<apo/><isp/>arglwydd vrenin mawr<dsp/>wyrthoc</l>
+<l>mi a ddoethym val heboc</l>
+<l>gair ych bron nid rryfedd ym</l>
+<l>yn gyflym ac yn <corr resp="transcr" sic="chwano">chwanoc</corr></l>
+</lg>
+</sp>
+
+<sp who="Er">
+<speaker><lb/>erod</speaker>
+<lg>
+<l>kerdda i vethlem siwdi</l>
+<l>ac ymofyn o ddifri</l>
+<l>ble<!-- ed lle?--> idd aeth y tri brenin</l>
+<l>o<isp/><apo/>r gorllewin hanoeddi</l>
+</lg>
+</sp>
+
+<pb n="37r"/>
+
+<sp who="Gd">
+<speaker><lb/>y genad</speaker>
+<lg>
+<l>arglwydd vrenin mi af yno</l>
+<l>mahownt <corr resp="transcr" sic="aamen">amen</corr> a<isp/><apo/>m katwo</l>
+<l>ac a ddawa hwyp ar vrys</l>
+<l>i<isp/><apo/>th lys kyn gorffwyso</l>
+</lg>
+
+<lg>
+<l>how mast porthor</l>
+<l>kyfod i vyny agor<note resp="transcr"><hi rend="italic">how mast porthor kyfod i vyny agor</hi> written as one line.</note></l>
+<l>i genad brenin erod</l>
+<l>a<isp/><apo/>i herod a<isp/><apo/>i ben kyngor</l>
+</lg>
+</sp>
+
+<sp who="Gw">
+<speaker><lb/>gwas y porthor</speaker>
+<lg>
+<l>nid yw meistr yn gwrando</l>
+<l>mogel <corr resp="scribe" sic="glna">gna</corr><!--uncertain, but NOT gena as in app--> i ddyhvno</l>
+<l>hwde ddyrnod at dy siad</l>
+<l>a dos i<isp/><apo/>th wlad i gwyno</l>
+</lg>
+</sp>
+
+<sp who="Gd">
+<speaker><lb/>y genad</speaker>
+<lg>
+<l>ho hwrswn lleidir</l>
+<l>gwaetha i strangk no gwr o<isp/><apo/>r tir</l>
+<l>kyfod i vyny yn ebrwydd</l>
+<l>er <corr resp="transcr" sic="onestwydd">onestrwydd</corr> i<isp/><apo/>th veistir</l>
+</lg>
+</sp>
+
+<sp who="Gw">
+<speaker><lb/>gwas y porthor</speaker>
+<lg>
+<l>mi a roddais iti gyne</l>
+<l>ddyrnod at dy glyste</l>
+<l>hwde eto yn dy blith</l>
+<l><orig reg="ym mhob rhith">ymhob rridd</orig> i daw ange</l>
+</lg>
+</sp>
+
+<sp who="Po">
+<speaker><lb/>y porthor</speaker>
+<lg>
+<l>how pa gad gymen</l>
+<l>a wnaethoch hyd y plygen</l>
+<l>yn <corr resp="transcr" sic="ymadd">ymladd</corr> val <corr resp="transcr" sic="dav d">dav</corr> geiloc</l>
+<l><orig reg="yng nghrog">yngroc</orig> i bo ych deyben</l>
+</lg>
+</sp>
+
+<pb n="37v"/>
+
+<sp who="Gd">
+<speaker><lb/>y genad</speaker>
+<lg>
+<l>how porthor <sic>peddlem</sic><!--corr?, ed veddlem, not in app--> siwdi</l>
+<l>kenad erod ydwyvi</l>
+<l>ond mawr <orig reg="gywilydd">gwilidd</orig> heb achos</l>
+<l>vod dy was i amherchi</l>
+</lg>
+</sp>
+
+<sp who="Po">
+<speaker><lb/>y porthor</speaker>
+<lg>
+<l>how vo a<isp/><apo/>m anrreithiwyd bellach</l>
+<l>oni chedwi gyfrinach</l>
+<l>hwde gan pvnt bydd ddiddic</l>
+<l>o <orig reg="galennig">glenic</orig><!--?--> dos yn iach</l>
+</lg>
+</sp>
+
+<sp who="Gd">
+<speaker><lb/>kenad erod</speaker>
+<lg>
+<l>a vv yma dri brenin</l>
+<l>o dyedd y gorllewin</l>
+<l>ond ydyn hwy yma eto</l>
+<l>yn i keisio nid wy <corr resp="transcr" sic="ddifli">dd<unclear>i</unclear>flin</corr></l>
+</lg>
+</sp>
+
+<sp who="Po">
+<speaker><lb/>y porthor</speaker>
+<lg>
+<l>oddyma nhwy aethon</l>
+<l>ac nid i<isp/><apo/>r ffordd i doethon</l>
+<l>dos a dywaid i erod</l>
+<l>ymod<!--=vy mod?--> yn gowir galon</l>
+</lg>
+</sp>
+
+<sp who="Gd">
+<speaker><lb/>y genad</speaker>
+<lg>
+<l>arglwydd vrenin <orig reg="hanbych">henpych</orig> gwell</l>
+<l>mi a gefais siwrnai bell</l>
+<l>adre ir aeth y brenhinoedd</l>
+<l>ond oedd vawr i dichell</l>
+</lg>
+</sp>
+
+<pb n="38r"/>
+
+<!-- from here to the end MS has s<abbr>yr</abbr> peilad for erod -->
+<sp who="Er">
+<speaker><lb/><corr resp="transcr" sic="syr peilad">erod</corr></speaker>
+<lg>
+<l>mahownt mahownt o<isp/><apo/>r chwedle</l>
+<l>mi a wn golli<isp/><apo/>r chware</l>
+<l>na <orig reg="wnaethwn">naethwn</orig> a ddylaswn</l>
+<l>na thoraswn<!--ed -wm --> i pene</l>
+</lg>
+</sp>
+
+<sp who="Fr">
+<speaker><lb/>y vrenhines</speaker>
+<lg>
+<l>arglwydd vrenin vrddasol</l>
+<l>na vyddwch <orig reg="anrhesymol">anrrysymol</orig></l>
+<l>na <orig reg="wnewch">newch</orig> ddialedd ydolwc</l>
+<l>Rac<!--ed rac--> kael drwc <orig reg="anesgorol">anysgorol</orig></l>
+</lg>
+</sp>
+
+<sp who="Er">
+<speaker><lb/><corr resp="transcr" sic="syr peilad">erod</corr></speaker>
+<lg>
+<l>mae vy herod a<isp/><apo/>m kenad<!--MS gkenad or the like--></l>
+<l>a<isp/><apo/>m ymddiriaid a<isp/><apo/>m kariad</l>
+<l>dyred yma v<apo/><isp/>anwylyd</l>
+<l>parod oeddyd yn <corr resp="transcr" sic="wasad">wastad</corr><note resp="transcr"><mentioned>dyred yma vanwylyd parod oeddyd yn wastad</mentioned> written as one line.</note></l>
+</lg>
+</sp>
+
+<sp who="Gd">
+<speaker><lb/>y genad</speaker>
+<lg>
+<l>v<apo/><isp/>arglwydd vrenin llyma vi</l>
+<l>ar vy rhedec wrth ych kri</l>
+<l>yn barod a<isp/><apo/>m gwsaneth</l>
+<l>ba beth a <orig reg="wnewch">newch</orig> a mi</l>
+</lg>
+</sp>
+
+<sp who="Er">
+<speaker><lb/><corr resp="transcr" sic="syr peilad">erod</corr></speaker>
+<lg>
+<l>dos i veddlem ar rredec</l>
+<l>a ffar rroi kri ar ostec</l>
+<l>i ddala meibion yn i swydd</l>
+<l>hyd <orig reg="yn nwy flwydd">ynwyflwydd</orig> ne ynghwanec</l>
+</lg>
+</sp>
+
+<pb n="38v"/>
+
+<sp who="Gd">
+<speaker><lb/><corr resp="transcr" sic="syr peilad">y genad</corr></speaker>
+<lg>
+<l>how tewch a<isp/><apo/>ch tolo</l>
+<l>a dowch <orig reg="yn nes">ynes</orig> i wrando</l>
+<l>gwiliwch y pyrth a deliwch</l>
+<l>o gwelwch neb yn kilio</l>
+</lg>
+</sp>
+
+<sp who="Al">
+<speaker><lb/>yr angel</speaker>
+<lg>
+<l>josseff wyd ti yn gwrando</l>
+<l>dos a<isp/><apo/>r mab a<isp/><apo/>r vam ar ffo</l>
+<l>i etssiep hyd yr amser</l>
+<l>i galwer am<dsp/>dano</l>
+</lg>
+</sp>
+
+<sp who="Jo">
+<speaker><lb/>josseff</speaker>
+<lg>
+<l>y ni vo erchis yr angel</l>
+<l>vynd i edssiep yn ddirgel</l>
+<l>a thrigo <corr resp="scribe" sic="nos">nes</corr><!--original reading not quite clear--> i<isp/><apo/>n galwer</l>
+<l>ac ym<dsp/>gadw yn ddiogel</l>
+</lg>
+</sp>
+
+<sp who="Po">
+<speaker><lb/>porthor</speaker>
+<lg>
+<l>jdd wyvi yn kadw yma</l>
+<l>lle ir archwyd ym<dsp/>gadw<!--check--> yn dda</l>
+<l>mor debic wyd i fameth</l>
+<l>pa beth sydd genyd yna</l>
+</lg>
+</sp>
+
+<sp who="Mr">
+<speaker><lb/>mair</speaker>
+<lg>
+<l>jdd wyvi <orig reg="&acirc; 'm mab">amab</orig> yn kilo</l>
+<l>am glowed vod rrai i<isp/><apo/>m keisio</l>
+<l>mae geni <corr resp="transcr" sic="yma">y mab</corr> rrad</l>
+<l>ni cheisiai wad<!--some strokes here--> am<dsp/>dano</l>
+</lg>
+</sp>
+</div>
+</body>
+</text>
+
+<!-- Text from now on is from BM Add. 15038; only the left edge of the last folio (39) of BM Add. 14986 is preserved -->
+<text id="BMAdd15038_TBG" prev="BMAdd14986_TBG">
+<body>
+<div>
+<pb n="62r"/>
+<sp who="Po">
+<speaker><lb/>y porthor</speaker>
+<lg>
+<l><orig reg="cerdda">kardda</orig> di a duw genyd</l>
+<l>amgen nis dweda wrthyd</l>
+<l>hir ir<isp/>wyd yn <corr resp="transcr" sic="ynddiddan">ymddiddan</corr></l>
+<l>bai ef yna nis dwedyd</l>
+</lg>
+</sp>
+
+<sp who="Er">
+<speaker><lb/>erod</speaker>
+<lg>
+<l>vy<isp/>mrenhines ayr i ffen</l>
+<l>mi<isp/>af oddyma i veddlem</l>
+<l>i ddala meibon giwdi</l>
+<l>trigwchi <orig reg="yng Nghaerusalem">yngharisalem</orig></l>
+</lg>
+
+<lg>
+<l>a<isp/>wneythochi<isp/><apo/>r gorchymyn</l>
+<l>a roes i atochi bob vn</l>
+<l>moyswch imi gar <orig reg="fy mron">ymron</orig></l>
+<l>y meibon rwy <apo/>n<isp/>i <orig reg="ymofyn">mofyn</orig></l>
+</lg>
+</sp>
+
+<sp who="Gd">
+<speaker><lb/>y kenadwr</speaker>
+<lg>
+<l>may<isp/>nhwy yma gar ych bron</l>
+<l>y<isp/>sawl ysy yn sygno i bron</l>
+<l>o vewn i oedran dwyflwydd</l>
+<l>yn ych gwydd yn <orig reg="ddiymryson"><corr resp="transcr" sic="ddimrson">ddimryson</corr></orig></l>
+</lg>
+</sp>
+
+<pb n="62v"/>
+<sp who="Er">
+<speaker><lb/>Erod</speaker>
+<lg>
+<l>a oes genychi ddim amkan</l>
+<l><orig reg="pwy">pw</orig> vn yw<isp/><apo/>r mab <orig reg="darogan">dyrogan</orig></l>
+<l>moeswch hwnnw chwip o<isp/><apo/>ch mysc</l>
+<l>ne van derfysc yrowan</l>
+</lg>
+
+<lg>
+<l>how how nid wy<isp/><apo/>n vy hwyl</l>
+<l>pan<!--ed pen--> laddwn vy<isp/>mab anwyl</l>
+<l>wrth geiso<isp/><apo/>r mab darogan</l>
+<l>nid<isp/>ydoedd lan yngorchwyl<!--reg--></l>
+</lg>
+
+<!--Damaged folio 39v starts here in BM Add. 14986 -->
+
+<lg>
+<l>mi a<isp/>fynwn mor greylon</l>
+<l>pe<isp/>bai<isp/><apo/>r kledde drwy vy<isp/>nghalon</l>
+<l>mi a ddylwn gael dryglam</l>
+<l>am wneythyr kam a<isp/><apo/>r <corr resp="transcr" sic="gwirio">gwirion</corr></l>
+</lg>
+</sp>
+
+<sp who="Kl">
+<speaker><lb/>y kythrel</speaker>
+<lg>
+<l>ha ha mi a <orig reg="chwaraeaf">chwrya</orig> ddawns</l>
+<l>ac a neida yn ymrigawns<!--reg--></l>
+<l>mi a wela <apo/>r brenin erod</l>
+<l>yn barod yn<isp/>i vensiawns</l>
+</lg>
+</sp>
+
+<trailer>
+<lb/>tervyn <orig reg="englynion"><corr resp="transcr" sic="yngynion">ynglynion</corr></orig> y <orig reg="brenhinoedd">brenhinodd</orig> o gwlen a dechre
+<lb/>ynglynion y <corr resp="transcr" sic="grolith">groglith</corr>
+</trailer>
+</div>
+</body>
+</text>
+</group>
+</text>
+
+</group>
+</text>
+</TEI.2>
