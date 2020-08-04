@@ -1,0 +1,658 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../verse_conc.xsl"?>
+<!-- <?xml-stylesheet type="text/xsl" href="C:\Program Files\XML Spy 3.5\Project HCWL\XSL\drama.xsl"?> -->
+<!-- normal stylesheet: prose.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!--%Conc;-->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Yr Wtreswr a'r Dylluan</title>
+</titleStmt>
+<publicationStmt>
+<p>Transcription by <name id="transcr">Ingo Mittendorf</name>.
+</p>
+<!-- one of (publisher distributor authority pubPlace address idno availability date p) -->
+</publicationStmt>
+<sourceDesc>
+<p>Peniarth MS 218, pp. 153-178, written by <name id="scribe">John Jones of Gellilyfdy</name></p>
+<!-- one of (p bibl biblFull biblStruct listBibl scriptStmt recordingStmt) -->
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p></p>
+</editorialDecl>
+</encodingDesc>
+<revisionDesc>
+<change>
+<date>20 Apr 2003</date>
+<respStmt>
+<resp></resp>
+</respStmt>
+<item>Elisa's corrections; inserted APO, ISP, DSP; checked with Conc; some questions remaining (comments)</item>
+</change>
+<change>
+<date></date>
+<respStmt>
+<resp></resp>
+</respStmt>
+<item>
+catch-words omitted;
+</item>
+</change>
+<change>
+<date>29.01.2003</date>
+<respStmt>
+<resp/>
+</respStmt>
+<item>Finished input, basic XML-conversion</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<!--
+Spelling:
+Usually V- for F-, K- for C-, -C for -G; no PH; a few Y for U in unstressed syllables mostly; otherwise pretty straightforward; gantho, VO (no VE); kwad; dwod=dyfod; doed-; ow for aw/yw (in non-final syll of polysyll words)
+-->
+
+<text id="Pen218_Wtreswr">
+<body>
+<div>
+<pb n="153"/>
+<head>
+<lb/>llyma yr ymddiddan a fv rhwng
+<lb/>yr wttresswr a<isp/><apo/>r Dyllvan./
+</head>
+<sp>
+<speaker><lb/>yr Wttresswr./</speaker>
+<lg>
+<l>A<isp/><orig reg="myfi">m<dsp/><apo/>vi</orig> /n/ mynd yn dra dwrstan:</l>
+<l>blygeingwaith o<isp/><apo/>r ty tafarn,</l>
+<l>yn ddisymwth klown dylluan</l>
+<l>a<isp/><apo/>i dau lygad<!--some corr--> sowserdan.</l>
+<l>i<isp/><apo/>m kyfarch yn dra uchel;</l>
+<l>yn debic i siowt medel.<!--?--></l>
+<pb n="154"/>
+<l>yn ol hynn gwrandewch chwithe</l>
+<l>morr ddiflas wrthyf i doede.</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>y Dyllvan./</speaker>
+<lg>
+<l>Rhwyddynt rhagot overwr;</l>
+<l>a hyd y nos wttresswr.</l>
+<l>mynd ir wyt yn ddigynnwr</l>
+<l>erbyn y dydd i gudd val anwr.</l>
+<l>deuwell itti a vyasse,</l>
+<l>vod yn sychion draed dy <orig reg="hosanau">sane</orig></l>
+<l>heb gydnabod dy rinwedde</l>
+<l>er dy vod dros dy <orig reg="esgidiau">ysgidie</orig>.</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>yr Wttresswr./</speaker>
+<lg>
+<l>Dy drwst a<isp/><apo/>th lais <orig reg="eiddigus">eiddiges</orig></l>
+<l>mor ddisymwth a<isp/><apo/>m hofnes</l>
+<l>kynn dy vyned i<isp/><apo/>th loches</l>
+<l>dowaid i mi beth o<isp/><apo/>th hanes</l>
+<pb n="155"/>
+<l>ple i buost er dechreunos,</l>
+<l>a phara vann yr wyt yn aros:</l>
+<l>a hevyd dowaid yr achos</l>
+<l>y dydd nas gelli ymddangos.</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>y Dyllvan./</speaker>
+<lg>
+<l>Mi a vum yn ddiniwed</l>
+<l>lle ni <orig reg="buasai">biasse</orig> waeth vy<isp/>ngweled</l>
+<l>er bod vy llais yn oer i glowed</l>
+<l>ni pherais er<dsp/>ioed i neb golled.</l>
+<l>achos vy mod yn wirion,</l>
+<l>adar y byd sy /n/ greulon:</l>
+<l>rheir a vydde /r/ ymadroddion,</l>
+<l>sydd yn dangos yr achossion./</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>yr wttresswr./</speaker>
+<lg>
+<l>Ti a vuost mewn klydwr,</l>
+<l>heb gennad i<isp/><apo/>r meddiannwr:</l>
+<pb n="156"/>
+<l>nid <orig reg="er">ir</orig> lles iddo yn siwr</l>
+<l>ond er llenwi dy gwthwr</l>
+<l>yr owran rhac dy weled</l>
+<l>i ryw geubren ir wyt yn myned</l>
+<l>mi a<isp/><apo/>th adwen wrth dy lyged</l>
+<l>nas gellir i ti mo<isp/><apo/>r ymddiried.</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>y Dyllvan:/</speaker>
+<lg>
+<l>O bum mewn tai gweigion</l>
+<l>heb wybod y<isp/><apo/>w perchnogion</l>
+<l>kefais lunieth yn dda ddigon</l>
+<l>heb ddifa bwyd kristnogion</l>
+<l>yn wttressa dithe a vu</l>
+<l>dros dy blant heb ovalu</l>
+<l>kymer rybydd i edifaru</l>
+<l>rhac i<isp/><apo/>r kythrel dy orchvygu./</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>yr Wttresswr./</speaker>
+<pb n="157"/>
+<lg>
+<l>Vy<isp/>mhlant a <orig reg="edliwiaist">liwiaist</orig> i mi</l>
+<l>rhyfedd gennyf a ddoedi</l>
+<l>ni <orig reg="buasai">biasse</orig> waeth i ti dewi</l>
+<l>byw /r/ wyt mewn tylodi./</l>
+<l>a minne sydd yn ddiveth</l>
+<l>yn aml iawn vy<isp/>nghoweth</l>
+<l>i <orig reg="faentumio">ventimio</orig> vy<isp/><orig reg="nghwmn&iuml;aeth">nghwmpnieth</orig></l>
+<l>yn gynt noc i wrando pregeth</l>
+<l>i mae hynn yn ddewisedic</l>
+<l>gan nad ydiw /r/ byd ond benthic</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>y Dyllvan./</speaker>
+<lg>
+<l>Vy<isp/>nhylodi /r/ wyt y<isp/><apo/>w <orig reg="edliwio">liwio</orig></l>
+<l>a<isp/><apo/>th goweth yr wyt y<isp/><apo/>w fostio</l>
+<l>mae dy wraic a<isp/><apo/>th blant heb huno</l>
+<l>eissie rhann a vuost y<isp/><apo/>w drelio</l>
+<l>y kydymeth gwrando arna</l>
+<l>eiste i lawr wrth dy ysmwythdra</l>
+<l>dowaid yr achos o<isp/><apo/>r dechreuad</l>
+<pb n="158"/>
+<l>pam i rhoddaist serch a chariad</l>
+<l>ar <orig reg="gwmn&iuml;aeth">gwmpnieth</orig> mawr i afrad</l>
+<l>mewn hir amser heb ddiw<add place="supralinear">y</add>giad</l>
+<l>mae /n/ beryglys y diweddiad</l>
+<l>twyll y kythrel a<isp/><apo/>i vwriad</l>
+<l>y<isp/><apo/>w keissio hudo dyn yn wastad</l>
+<l>i<isp/><apo/>w dragwyddol distrowiad</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>yr Wttresswr./</speaker>
+<lg>
+<l>Kynn vy myned ymhellach</l>
+<l>di a gai rann o<isp/><apo/>m kyfrinach</l>
+<l>wrth <orig reg="gwmn&iuml;aeth">gwmpnieth</orig> i kair kyfeddach</l>
+<l>ac wrth yfed vwynach vwynach</l>
+<l>kynta gwaith pan godwn</l>
+<l>rhodio allan i<isp/><apo/>r gwndwn</l>
+<l>a rheir a vydde dybygwn</l>
+<l>i<isp/><apo/>r dafarn oni ddelwn</l>
+<l>kael y gwr yn voessol iawn</l>
+<l>a<isp/><apo/>r wraic yn llaes i rhawn</l>
+<pb n="159"/>
+<l>a chwrteissi mawr a gawn</l>
+<l>a<isp/><apo/>r vorwyn yn llawen ddigawn</l>
+<l>yn y mann a<isp/><apo/>r pott yn llawn</l>
+<l>a minne y<isp/><apo/>w plith val penn y dawn./</l>
+<l>gwneuthur i mi vawr ufudddod</l>
+<l>y kwpan a<isp/><apo/>r tost yn barod</l>
+<l>gwedi rhoddi yn y ddiod</l>
+<l>a gar fy mronn i gossod</l>
+<l>vy<isp/>nghymell nid oedd orfod</l>
+<l>y<isp/><apo/>w hyfed hyd y gwaelod./</l>
+<l>gossod i mi ar vrys eisteddle</l>
+<l>kadair a chlystoc o<isp/><apo/>r vath ore</l>
+<l>bwrw heibio vy <orig reg="esgidiau">ysgidie</orig></l>
+<l>i gael twymno vy sodle./<!--somehow corr--></l>
+<l>difyr iawn y llynn oedd i mi</l>
+<l>yn fy slippers a<isp/><apo/>m brafri</l>
+<l>yn aros y kwmpeini</l>
+<l>y tan yn ffres yn llosgi</l>
+<l>a<isp/><apo/>r wraic yn vwyn a heini</l>
+<l>mynd a<isp/><apo/>r pott drachefn y<isp/><apo/>w lenwi</l>
+<pb n="160"/>
+<l>a chynn i bod yn hanner dydd</l>
+<l>kael kymdeithion yn ddirybydd</l>
+<l>gwledd vwyn a gloddest ddibrydd</l>
+<l>a gwyr o gerdd yn gelfydd</l>
+<l>a ddoe yno /n/ ddigon ufydd./</l>
+<l><add place="supralinear">i chwanegu vy llawenydd</add></l>
+<l>a chwedi darfod i<isp/><apo/>r dydd bassio</l>
+<l>a than a chanwyll i oleuo</l>
+<l>kael telyn rawn a<isp/><apo/>i chweirio</l>
+<l>a phawb ar hwyl pennillio./</l>
+<l>nid oedd raid vynd i<isp/><apo/>r ysgol</l>
+<l>kynn kael dyri a charol</l>
+<l>o law i law i roi /r/ delyn</l>
+<l>i gael isgower<!--?--> ac englyn</l>
+<l>ac nid hwyrach kynn ymado</l>
+<l>gaffel llankes l&acirc;n y<isp/><apo/>w the<add place="supralinear">i</add>mlo</l>
+<l>ac o bydde dyn <orig reg="afreolus">afrolus</orig></l>
+<l>i<isp/><apo/>n plith a bod yn gekrus</l>
+<l>ni chae yno ond byrr ddewis</l>
+<l>pawb a<isp/><apo/>i afel yn i lewis</l>
+<l>a thros y drws yn drefnus</l>
+<pb n="161"/>
+<l>i daflu nid oedd happus</l>
+<l>a chau /r/ drws a<isp/><apo/>i adel allan</l>
+<l>heb wrando ar i gwynvan</l>
+<l>a ninne wrth y tan</l>
+<l>yn tossio pawb i gwpan</l>
+<l>torri knau a rhostio avale</l>
+<l>a<isp/><apo/>i bwrw i<isp/><apo/>r kwppane</l>
+<l>a rhai yn knoi kackenne</l>
+<l>heb vwytta dim er y bore</l>
+<l>rhai /n/ ufudd a save</l>
+<l>amgylch bord i <orig reg="dreiglo">driglo</orig> dissie</l>
+<l>eraill ynghyd a eistedde</l>
+<l>o ddechreunos hyd y bore</l>
+<l>a llawer ymrafel chware</l>
+<l>a<isp/><apo/>r dabler a brithion gardie</l>
+<l>rhai yn ddifyr i chwedle</l>
+<l>a rhai /n/ troedio downssie</l>
+<l>rhai yn garedic ddigon</l>
+<l>yn yfed iechyd ffyddlon</l>
+<l>at i ffreinds a<isp/><apo/>i kymdeithion</l>
+<pb n="162"/>
+<l>a throi kwppane<!--a corr--> yn sychion</l>
+<l>eraill ar lawr heb wyro</l>
+<l>troed wrth droed yn karwsio</l>
+<l>a rhai ydoedd yno,</l>
+<l>yn yfed y <orig reg="tybaco">Tabacco</orig>:</l>
+<l>eraill wedi <orig reg="twymno">twmno</orig>,</l>
+<l>o <orig reg="garedigrwydd">gredicrwydd</orig> yn wylo./</l>
+<l>a phawb i<isp/><apo/>r pott a<isp/><apo/>i vendith,</l>
+<l>gwell ffrwyth y br&acirc;c no<isp/><apo/>r gwenith:</l>
+<l>bychan a mawr oedd i<isp/><apo/>n plith,</l>
+<l>yn dewis kwrw o vlaen llefrith.</l>
+<l>ac yno ir af beunydd,</l>
+<l>lle keir ymrafael ddiodydd:</l>
+<l>ac yfed mewn llawenydd,</l>
+<l>nas gwnn ragor rhwng nos a dydd./</l>
+<l>ac val dyma i ti /r/ arfer,</l>
+<l>a vydd i<isp/><apo/>n plith bob amser:</l>
+<l>a mwy no hynn o lawer,</l>
+<l>o ddigrifwch a mwynder./</l>
+<l>ar nas galla mo<isp/><apo/>i treuthu</l>
+<pb n="163"/>
+<l>mae /n/ pwysso arna y gysgu</l>
+<l>bydd vodlonn ar hynny</l>
+<l>kais dithe vynd i<isp/><apo/>th letty.</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>y Dyllvan./</speaker>
+<lg>
+<l>Paid a<isp/><apo/>th gychwyn aros gwrando,</l>
+<l>yr wyt yn gadel mwy /n/ ango:</l>
+<l>yr hynn gore yr wyt y<isp/><apo/>w vostio,</l>
+<l>a<isp/><apo/>r gwaetha heb son amdano.</l>
+<l>hynn yr ydwy y<isp/><apo/>w gyfadde,</l>
+<l>angenrheidiol<!--2 words angen  rh-?--> vod tafarne</l>
+<l>pann vo dieithred ar i siwrne</l>
+<l>i gael lletty a<isp/><apo/>i kyfreidie.</l>
+<l>A llawer o achossion beunydd</l>
+<l>sydd i bobl y gwledydd</l>
+<l>i gyfarfod nos a dydd</l>
+<l>rhai /n/ llawen rhai yn brudd.</l>
+<l>Gadwn heibio yr achossion</l>
+<l>trof i <corr resp="scribe" sic="gyffa">goffa</corr> dy gymdeithion</l>
+<pb n="164"/>
+<l>modd i gwelais yn greulon</l>
+<l>gwedi yfed mwy na digon</l>
+<l>mewn tafarne y bum ine</l>
+<l>vagad o nosweithie</l>
+<l>yn llechu ar y trowstie</l>
+<l>ac yn gweled diflas bethe</l>
+<l>gwelwn rai ar y llorie</l>
+<l>yn llithric iawn i <orig reg="esgidiau">ysgidie</orig></l>
+<l>ac od oeddyt ti un o<isp/><apo/>r rheini</l>
+<l>rhyfedd dy vod yn gallu kodi</l>
+<l>gwelwn rai gwedi ymliwio</l>
+<l>er dechreunos gwedi brwysco</l>
+<l>ac nis gwyddwn ar fy llw</l>
+<l>beth oedden ai byw ai marw</l>
+<l>gwelwn rai gwedi ymystyn</l>
+<l>tann y bwrdd i gael y kyntyn</l>
+<l>av<!--?--> vo ddoede gwraic y ty</l>
+<l>i bod gwedi bwrw y vyny</l>
+<l>gwelwn rai yn ymlusgo</l>
+<l>at y gornel i bisso</l>
+<pb n="165"/>
+<l>a merch y ty a ddoede</l>
+<l>ddarfod i ryw un <orig reg="ddifwyno">ddwyno</orig> i <orig reg="hosanau">sane</orig></l>
+<l>gwelwn rai val gweission gwchion</l>
+<l>wedi ymwisgo i<isp/><apo/>r<!--apo?--> un goron</l>
+<l>wrth yfed mynd mor gryfion</l>
+<l>dim wrthynt nid oedd Samson</l>
+<l>gwneuthur dwndwr dilio byrdde</l>
+<l>nid oedd wr heb dyngu llyfe</l>
+<l>bost a ffrost pwy waetha i grefydd</l>
+<l>tybio i gellynt ysmudo mynydd</l>
+<l>bydde vagad o<isp/><apo/>r kwmpeini</l>
+<l>gwedi myned i<isp/><apo/>r prenn digri</l>
+<l>rhoi mowrllw i lladd a<isp/><apo/>i llosgi</l>
+<l>nad oedd i bath yn rhodio trefi</l>
+<l>rhai oedd a chalonne <orig reg="ffeilsion">feilsion</orig></l>
+<l>yn adroddi geirie duon</l>
+<l>eraill heb i diodde</l>
+<l>oedd yn taflu godardie</l>
+<l>kynn diwedd y noswaith ddigri</l>
+<l>gwelwn daflu kannwyllbrenni</l>
+<pb n="166"/>
+<l>klown rai dann i dwylo</l>
+<l>gore i gallen yn ymddulio.<!--= ymddullio?-->/</l>
+<l>Ac y<isp/><apo/>w plith yr oedd llawer och</l>
+<l>yn waeth i sutt no chwn a moch</l>
+<l>ac yn debic yn y diwedd</l>
+<l>kyd rhyngthunt vod <corr resp="scribe" sic="kalanedd">kelanedd</corr>./</l>
+<l>Gwelais yno rai /n/ chwaryddion</l>
+<l>yn kario dissie ffeilsion</l>
+<l>wrth ymddadle i tyfe geckri</l>
+<l>weithie yn anodd iawn i <orig reg="rheoli">rholi</orig>./</l>
+<l>A rhai o<isp/><apo/>r chwaryddion kardie</l>
+<l>yn ddrwc i harfer weithie</l>
+<l>er bod i<isp/><apo/>m <orig reg="cof">ko</orig> i treythu</l>
+<l>nid yw /r/ amser yn gwasneuthu</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>yr Wttresswr./</speaker>
+<lg>
+<l>Gwell i gwedde i ti o geubrenn</l>
+<l>roddi kreglais oer aflawen</l>
+<pb n="167"/>
+<l>ne bigo nyth llygoden</l>
+<l>na <orig reg="chwmn&iuml;aeth">chwmpnieth</orig> pott a chacken.</l>
+<l>Ne lechu mewn hen graic</l>
+<l>oni byddech di <orig reg="gwmniwraig">gwm<add place="supralinear">p</add>niwraic</orig></l>
+<l>ni wyl vy<isp/>ngolwc garrec sarn</l>
+<l>ond a<isp/><apo/>m dycko i<isp/><apo/>r dafarn./</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>Y Dyllvan.</speaker>
+<lg>
+<l>Pe bai lygoden wenwynn</l>
+<l>ni ladde ond korff wrth dorri newyn</l>
+<l>kwrw a ladd enaid dyn</l>
+<l>ni llai syched un gronyn</l>
+<l>ac os kaiff y korff a chwenych</l>
+<l>vo ddwc yr enaid i hirnych</l>
+<l>Er bod <orig reg="fy nghreglais">vy<isp/>ngreglais</orig> yn dwyn rhagor</l>
+<l>mi a roddwn i ti gyngor</l>
+<l>na vynn yfed ytt<!--yll?--> yn dryssor</l>
+<l>ac os e bydd gwac d<apo/><isp/>ysgubor</l>
+</lg>
+</sp>
+<pb n="168"/>
+<sp>
+<speaker><lb/>yr Wttresswr:</speaker>
+<lg>
+<l>ffei ffei o<isp/><apo/>r kyngor hwnnw</l>
+<l>nis galla vyth i gadw</l>
+<l>lladd vy<isp/>nghalon yn varw</l>
+<l>oedd vod yn hir heb gwrw</l>
+<l>Vy<isp/>nghymale a gydgordian</l>
+<l>ac i<isp/><apo/>r dafarn i<isp/><apo/>m dygan</l>
+<l>val dyna glefyd glan</l>
+<l>gael o<isp/><apo/>r galon i hamkan</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>y Dyllvan./</speaker>
+<lg>
+<l>Pum synwyr a roed itti,</l>
+<l>yr un weithie nis meddi:</l>
+<l>eissie medryd i <orig reg="rheoli">rholi</orig>,</l>
+<l>wrth gael y byd mor ddigri:</l>
+<l>Korff<!--sth del--> ac enaid yn kolli,</l>
+<l>heb drugaredd Duw keli./</l>
+<pb n="169"/>
+<l>Yr wyf vi /n/ ofni wrth dy dremyn</l>
+<l>vod ynot ti anffortyn</l>
+<l>y kwrs hwnn paid a<isp/><apo/>i ddylyn</l>
+<l>onid ef vo ddaw i<isp/><apo/>th erbyn.</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>Yr wttresswr./</speaker>
+<lg>
+<l>Anras i<isp/><apo/>th doppan karth</l>
+<l>byddi hyd y nos yn kyfarth</l>
+<l>vo<isp/><apo/>th glowir hyd Deheubarth</l>
+<l>a byth ni byddi diwarth</l>
+<l>A minne sydd <orig reg="gwmn&iuml;wr">gwmpniwr</orig></l>
+<l>kaf gadair a than mewn Parlwr</l>
+<l>a<isp/><apo/>r kwbwl val i doedais</l>
+<l>gida morwyn lan a hoffais</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>Y Dyllvan./</speaker>
+<lg>
+<l>Diwarthach wyf yn wir</l>
+<l>na thydi wttresswr dihir</l>
+<pb n="170"/>
+<l>gwaetha i mi a edliwir</l>
+<l>mae Tylluan <corr resp="transcr" sic="in">i<isp/><apo/>m</corr> gelwir</l>
+<l>Duw a roes i mi naturieth</l>
+<l>i gael vy mowyd heb goweth./</l>
+<l>Nid gwaeth i mi dewi</l>
+<l>na cheissio dy gynghori</l>
+<l>dy rwysc dy hun a vynni</l>
+<l>yr hwnn sydd i<isp/><apo/>th dylodi./</l>
+<l>Meddwl hynn dy hunan</l>
+<l>gormod serch i verch a thafarn</l>
+<l>peri deubeth trwy <add place="supralinear">vawr</add> ogan</l>
+<l>y pwrs yn w&acirc;g a<isp/><apo/>r kefn yn wann./</l>
+<l>Y nos pann vo hi yn rhewi</l>
+<l>kwyno a wnai rac oerni</l>
+<l>mae arnatti veie</l>
+<l>na<isp/><apo/>m wrandewi a<isp/><apo/>th ddolurie</l>
+<l>ac ni wyddost di gan veddwi</l>
+<l>vod dy draed yn magu y dropsi./</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>Yr wttresswr./</speaker>
+<pb n="171"/>
+<lg>
+<l>Tro yn d'<isp/>ol i vynd i geubrenn</l>
+<l><orig reg="yng nghrog">ynghroc</orig> i bych wrth wden</l>
+<l>mae vy<isp/>mhenn yn drwm greulon</l>
+<l>a dolur mawr i<isp/><apo/>m kalonn./</l>
+<l>A<isp/><apo/>m koesse wrth i teimlo</l>
+<l>mi a<isp/><apo/>i klowa megis chwyddo</l>
+<l>Duw Iessu o<isp/><apo/>r nef a<isp/><apo/>m katwo</l>
+<l>rhac ovyn itti vy wittsio./</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>y Dyllvan./</speaker>
+<lg>
+<l>Y dafarn sydd i<isp/><apo/>th wittsio</l>
+<l>a<isp/><apo/>r kwrw sydd i<isp/><apo/>th hudo</l>
+<l>ni all dyn am a gasglo</l>
+<l>gwneuthur gwaeth no<isp/><apo/>i overdreilio</l>
+<l>drwy ffolineb a gwagedd</l>
+<l>y<isp/><apo/>w anrheithio yn y diwedd./</l>
+<l>Drwc yw ymarfer a gormod chware</l>
+<l>gwaeth wttressa mewn tafarne</l>
+<pb n="172"/>
+<l><orig reg="cwmn&iuml;aeth">kwmpnieth</orig> nid wyf yn gwadu</l>
+<l>mewn moddion sydd y<isp/><apo/>w garu</l>
+<l>wrth i pic a<isp/><apo/>i penn a<isp/><apo/>i adenydd</l>
+<l>adweinir yr adar beunydd./</l>
+<l>Wrth dy voddion ir wyf yn gwybod</l>
+<l>vod dy serch a<isp/><apo/>th chwant i<isp/><apo/>r ddiod</l>
+<l>dy ddifyrrwch a<isp/><apo/>th lawenydd</l>
+<l>yw meddwi /r/ nos a chysgu /r/ dydd./</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>Yr Wttresswr./</speaker>
+<lg>
+<l>Aro gwrando y dylluan</l>
+<l>er vy mod yn dyfod o<isp/><apo/>r dafarn</l>
+<l>yr wyf yn medru y ffordd a<isp/><apo/>r llwybre</l>
+<l>yn union i vyned adre</l>
+<l>ac nid oes mo<isp/><apo/>rr achos hwnnw</l>
+<l>i ti ddoedyd vy mod yn veddw./</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>Y Dyllvan./</speaker>
+<pb n="173"/>
+<lg>
+<l>O gyfrwystra yr wyt velly</l>
+<l>yn ymlusgo adre i gysgy</l>
+<l>i mae eraill o<isp/><apo/>th gymdeithion</l>
+<l>wedi ymdreiglo dros y lledfronn</l>
+<l>Ac od ydoedd dim y<isp/><apo/>w dwylo</l>
+<l>rhoesson ergid iddo heibio</l>
+<l>ar hynn vynycha y byddi dithe</l>
+<l>heb vedry myned adre</l>
+<l>Ymorweddiad pawb o<isp/><apo/>r untu</l>
+<l>o vewn y dafarn obru</l>
+<l>heddiw nac yfory</l>
+<l>nis down i o benn o<isp/><apo/>i treuthu./</l>
+<l>A phwy<isp/>bynnac a hir ddilyno</l>
+<l>hynny vydd <orig reg="edifar">ydifar</orig> iddo</l>
+<l>os gelli aros etto vunud</l>
+<l>mae rhagor gennyf y<isp/><apo/>w ddoedyd</l>
+<l>Modd i bum yn llechu weithie</l>
+<l>yn gwrando ar gadw dadle</l>
+<l>mewn sir gwtta a hwndryde</l>
+<l>ac eraill o<isp/><apo/>r m&acirc;n gyrtie.</l>
+<pb n="174"/>
+<l>Pob baili yn ddichware</l>
+<l>yn rhoddi i lawr i dyfynne</l>
+<l>parod oedd y sierri yno</l>
+<l>o vewn i lyfr y<isp/><apo/>w hentrio./</l>
+<l>Gida hynny i klown ostegion</l>
+<l>a dechre galw yr hen gwynion</l>
+<l>rhai /n/ kolli dirwyion</l>
+<l>eraill yn taflu adswynion./</l>
+<l>A rhai yno o ddifri</l>
+<l>yn krio am gael kopi</l>
+<l>yr oedd eraill ar i tro</l>
+<l>yn taflu arian ymparlio./</l>
+<l>Mynne rai eitha kyfraith</l>
+<l>kontinuwio ac adswyn talaith</l>
+<l>hynn oedd y<isp/><apo/>w plith o gelfyddyd</l>
+<l>nid wyf abl byth y<isp/><apo/>w ddoedyd</l>
+<l>A<isp/><apo/>r hen gwynion <orig reg="er ys dyddiau">er ystyddie</orig></l>
+<l>oedd yn myned a<isp/><apo/>r deuddege</l>
+<l>a<isp/><apo/>r rheini val i derfid</l>
+<l>yn <orig reg="dyfod">dwod</orig> i mewn a<isp/><apo/>i verdid</l>
+<pb n="175"/>
+<l>Rhois inne <corr resp="transcr" sic="uynghlust">vy<isp/>nghlust</corr> i wrando</l>
+<l>ar y kwynwr yn declario</l>
+<l>y rhann vwya o achossion</l>
+<l>a<isp/><apo/>r a glowais i o gwynion</l>
+<l>am waith wttresswyr yn ysgorio</l>
+<l>y tafarnwyr oedd yn kwyno.</l>
+<l>O chait ti a<isp/><apo/>th vath ych kredu</l>
+<l>hyd dydd varn nis mynech dalu</l>
+<l>nes goresgyn drwy gyfreth</l>
+<l>a dybly /r/ gost /n/ helaeth.</l>
+<l>Kynn diwedd hynn o ymswn</l>
+<l>gwneuthur presseb i gwelwn</l>
+<l>a chael y baili /n/ dalgrwnn</l>
+<l>i wneuthur y sekissiwn./</l>
+<l>A myned yn ddigynnwr</l>
+<l>i<isp/><apo/>r karchar a<isp/><apo/>r wttresswr./</l>
+<l>ac o bydde gantho arian</l>
+<l>mewn amser i kae ddwod allan./</l>
+<l>Os heb arian y bydde</l>
+<l>kyfing iawn oedd i gyfle</l>
+<pb n="176"/>
+<l>heb chwerthin na chwarau</l>
+<l>ac aros yno hyd angau</l>
+<l>y kyffelib gochel dithe</l>
+<l>ymgroessa rhac tafarne./</l>
+<l>yn ol hynn doed y ddelo</l>
+<l>mae /n/ rhaid i mi ymado</l>
+<l><orig reg="cyfod">kwad</orig> bellach dithe i vynu</l>
+<l>os kyrheuddi adre i gysgu.</l>
+<l>Ac ar hynn ffarwel<del>l</del> wttresswr</l>
+<l>mae /n/ ddigon drwc dy gyflwr</l>
+<l>mi a<isp/><apo/>th wela /n/ magu haint</l>
+<l>ni byddi varw byth o henaint</l>
+<l>Y gwr a<isp/><apo/>th wnaeth a<isp/><apo/>th <orig reg="emendio">mendio</orig></l>
+<l>ni alla mwy mo<isp/><apo/>r trigo</l>
+<l>nis kyrhaedda vynd i<isp/><apo/>m lletty</l>
+<l>mewn rhyw berthen rhaid ymlechy<!--2 words?-->./</l>
+</lg>
+</sp>
+<sp>
+<speaker><lb/>Yr Wttresswr./</speaker>
+<pb n="177"/>
+<lg>
+<l>Y Dylluan kai dy ragor</l>
+<l>rhof ytt ddiolch am dy gyngor</l>
+<l>Duw a rotho /r/ gras i minne</l>
+<l>i ymadel a<isp/><apo/>r tafarne.</l>
+<l>Ac am a wneuthum o gamwedde</l>
+<l>dymuna ar Grist i madde</l>
+<l>a chann ffarwel i ti a rodda</l>
+<l>dy lais byth nis digara</l>
+<l>Nid oes ederyn i ti /n/ gymar</l>
+<l>mor ddiniwed ar y ddaear</l>
+<l>llyma ddiwed hymn o<isp/><orig reg="ymddiddan">'mddiddan</orig></l>
+<l>rhwng wttresswr a<isp/><apo/>r Dylluan</l>
+<l>Sawl a vynno hynn y<isp/><apo/>w glowed</l>
+<l>a gwr gweddus ymaroled</l>
+<l>dwys i<isp/><apo/>r kwppann y rhydd ddyrnod</l>
+<l>a hynn i mae y<isp/><apo/>w gydnabod</l>
+<l>A darlleniwr<!-- -ein-?--> Kymraec weithie</l>
+<l>a swrn gyfarwyddyd mewn iache</l>
+<l>mae rhinwedd hevyd arno</l>
+<l>nid yf gwrw ond pan gaffo</l>
+</lg>
+</sp>
+<pb n="178"/>
+<sp>
+<lg>
+<l>terfyn hynn yn siwr./</l>
+<l>hebr Tomas y darlleinwr./</l>
+</lg>
+</sp>
+<trailer>
+<lb/>Tomas y Darlleinwr /a/ kant./
+<lb/>Ac fal hynn y terfyna yr <w>ymddi<lb rend="shy"/>ddan</w> hwnn rhwng yr Wtresswr
+<lb/>a<isp/><apo/>r Dvllvan, <corr resp="transcr" sic="Dddywllyn">Ddywllyn</corr> kyntaf
+<lb/>o<isp/><apo/>r Grawys glan oet krist
+<lb/>1610./
+</trailer>
+</div>
+</body>
+</text>
+</TEI.2>

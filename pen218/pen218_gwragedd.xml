@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../verse_conc.xsl"?>
+<!-- <?xml-stylesheet type="text/xsl" href="C:\Program Files\XML Spy 3.5\Project HCWL\XSL\drama.xsl"?> -->
+<!-- normal stylesheet: prose.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+%Conc;
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Araith ddichan ir Gwragedd</title>
+</titleStmt>
+<publicationStmt>
+<p>Transcription by <name id="transcr">Ingo Mittendorf</name>.
+</p>
+<!-- one of (publisher distributor authority pubPlace address idno availability date p) -->
+</publicationStmt>
+<sourceDesc>
+<p>Peniarth MS 218, pp. 79-95, written by <name id="scribe">John Jones of Gellilyfdy</name></p>
+<!-- one of (p bibl biblFull biblStruct listBibl scriptStmt recordingStmt) -->
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p></p>
+</editorialDecl>
+</encodingDesc>
+<revisionDesc>
+<change>
+<date></date>
+<respStmt>
+<resp></resp>
+</respStmt>
+<item>
+catch-words omitted;
+</item>
+</change>
+<change>
+<date>12.02.2003</date>
+<respStmt>
+<resp/>
+</respStmt>
+<item>Finished input; proof-read against MS</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text id="Pen218_Araith">
+<body>
+<div>
+<pb n="79"/>
+
+<head>Araith ddichan ir Gwragedd</head>
+
+<lg>
+<l>Rryw i wraig o naturiaeth</l>
+<l>fod yn rrwym i wassanaeth</l>
+<l>yn falch yn greulon odiaeth</l>
+<l>ni wyr <corr resp="scribe" sic="rreswm">reswm</corr> na chyfraeth</l>
+<pb n="80"/>
+<l>na rrol nag iawn lywodraeth</l>
+<l>gwneuthyr bost oi chenysgaeth</l>
+<l>eskluso pob ffordd <corr resp="scribe" sic="berffaeth">berffaith</corr></l>
+<l>a dilyn llwybrau <corr resp="scribe" sic="diffaith">diffaeth</corr></l>
+</lg>
+
+<lg>
+<l>Ni wna ddim yn ei amser</l>
+<l>ni cheidw gymhedrolder</l>
+<l>ond gorwedd pann ei llocher</l>
+<l>a neidio pann gynhyrfer</l>
+<l>naws tan gwnias pan lidier</l>
+<l>naws yr ia pan dristaer</l>
+<l>ni wna ddim pann ddamuner</l>
+<l>ond gwrando geirie over./</l>
+</lg>
+
+<lg>
+<l>Oth gar hi ath gar yn rryfawr</l>
+<l>ne hi ath gashaa hyd elawr</l>
+<l>ni wyr vessur na rragawr</l>
+<l>ni sai /n/ ei chower <corr resp="transcr" sic="deiawr">deirawr</corr></l>
+</lg>
+
+<lg>
+<l>O chais ddwyn klod am sadrwydd</l>
+<l>hi a wna wyneb trist afrwydd</l>
+<pb n="81"/>
+<l>yn sur yn ddrych ffyrnigrwydd./</l>
+</lg>
+
+<lg>
+<l>O chais fod yn <corr resp="scribe" sic="gellweirys">gellweirus</corr></l>
+<l>yn vwyn yn ymadroddus</l>
+<l>hi a yn vyrsen wagsawys</l>
+<l>gymhenffol ry s<add place="supralinear">i</add>aradus</l>
+</lg>
+
+<lg>
+<l>Knawd i wra<add place="supralinear">i</add>g anwadalu</l>
+<l>wylo awr a gowenu</l>
+<l>weithie yn ddoeth weithie ynfydu</l>
+</lg>
+
+<lg>
+<l>Ofni yr drwg ai anturio</l>
+<l>mynn, ni fynn a wyllyssio</l>
+<l>gwrthod kymeryd a garo<!--corr to karo ??--></l>
+<l>kaffel weithie nis gwnelo./</l>
+</lg>
+
+<lg>
+<l>Llawn yw gwraig o ddryg addysg</l>
+<l>ofer // a thafod gymysg</l>
+<l>ai chogel ne ai byrllysg</l>
+<l>hi a gur Arthur mewn terfysg</l>
+</lg>
+
+<pb n="82"/>
+
+<lg>
+<l>Diriaid fydd ag afradlonn</l>
+<l>anwastad gwag a chreulonn</l>
+<l>llawn klatring a chwynionn</l>
+<l>rroi swyddau mwy no digon./</l>
+</lg>
+
+<lg>
+<l>Llawn vydd gwraig o darhustra</l>
+<l>o drais a rrwysg a thraha</l>
+<l><add place="supralinear">kenfigen a chybydddra</add></l>
+<l>gwemal a rry ysmala</l><!-- /ag ysgyfala/ to replace a rry ysmala?-->
+<l>chwannog i wneuthr dirdra</l>
+<l>hau kelwydd ag wttressa</l>
+<l>ni rrydd ysbaid i ddiala</l>
+</lg>
+
+<lg>
+<l>Di<add place="supralinear">o</add>g ffrom anioddefgar</l>
+<l>a thra chostus yw chymar</l>
+<l>hwy y pery ei llid noi galar</l>
+<l>lle nis gwedd y bydd hygar</l>
+<l>lle y gweddai rry anhowddgar</l>
+<l>swynfedr a chyfareddgar</l>
+</lg>
+
+<lg>
+<l>Chwannog i gael anrrydedd</l>
+<pb n="83"/>
+<l>ysgafn don llawn o faswedd</l>
+<l>llattai glud llawn o daeredd</l>
+<l>hir y pery ei chynddrygedd</l>
+<l>o thebyge i kae fowredd</l>
+<l>nid rraid hogi moi dannedd</l>
+</lg>
+
+<lg>
+<l>Gwell i gwyr onis dysger</l>
+<l>flas ar vwyd nog iawn arfer</l>
+<l>dof ag anllad a thyner</l>
+<l>dywedud gweniaeth gwag ofer</l>
+<l>ag ymddangos mewn gwychder</l>
+<l>hir i deil gas pan lidier</l>
+<l>ai ddial o <corr resp="scribe" sic="ddav">daw</corr> amser./</l>
+</lg>
+
+<lg>
+<l>Anffyddlon angharedig</l>
+<l>ymryssongar gythreulig</l>
+<l>gorwyllt a rrwth a blyssig</l>
+<l>milain hy broch a ffyrnig</l>
+<l>edliw gwarth dyn ai dirmig</l>
+<l>nid rraid iddi ddwyn benthig./</l>
+<pb n="84"/>
+<l>esgussod na dechymig</l>
+<l>ar far <corr resp="scribe" sic="foi">fo</corr> ai gyrr ychydig</l>
+</lg>
+
+<lg>
+<l>Senglian kynhyrfu mowr-llid</l>
+<l>ni sai wrth ei haddewid</l>
+<l>gossod kas yn lle i kerid</l>
+<l>ni wna ddim ond er proffid</l>
+</lg>
+
+<lg>
+<l>Gwatwar dywedud gweniaeth</l>
+<l>dyfalu pob kydyma<add place="supralinear">e</add>th</l>
+<l>drwg ei moes gwaeth ei haraeth</l>
+<l>rroi darn mewn chwedl diffaeth</l>
+</lg>
+
+<lg>
+<l>A gwneuthur gorsedd Efa</l>
+<l>yn vwy no moel y Wyddfa<!-- W?--></l>
+<l><corr resp="scribe" sic="yr hynn ni wyr">y peth nis gwyr</corr> a fostia</l>
+<l>ar hynn a wyr a ddisemlia</l>
+</lg>
+
+<lg>
+<l><corr resp="transcr" sic="Gwa">Gwna</corr> rrwyd i ddal y gwirion</l>
+<l>ai gossod ar ddichellion</l>
+<pb n="85"/>
+<l>kynn amled amryw voddion <del>yn</del></l>
+<l>ar ei phryd ag yn ei chalonn</l>
+</lg>
+
+<lg>
+<l>A phe baut kynn gyfrwyssed</l>
+<l>ar dyn kyfrwysa ar aned</l>
+<l>ni allut fyth dy ymwared<!--corr, ym- del?--></l>
+<l>rrag <corr resp="scribe" sic="hud">brad</corr> a maglau merched</l>
+</lg>
+
+<lg>
+<l>I mae gwraig kynn gelfydded</l>
+<l>ag mor hyfedr ar bob niwed</l>
+<l>a phe<add place="supralinear">i</add> rron yt ai gweled</l>
+<l>ne ei dal ar ei drwg weithred</l>
+<l>hi a wna yt ameu dy lyged</l>
+</lg>
+
+<lg>
+<l>Hi a wna yt hynn a fynno</l>
+<l>ai kredu ai anghoelio</l>
+<l>da iawn i gwyr dy hudo</l>
+<l>ath <corr resp="scribe" sic="ofni">somi</corr><!--ofni not deleted--> pann i mynno</l>
+</lg>
+
+<lg>
+<l><corr resp="scribe" sic="Pe i mynnyt titheu">O mynni ditheu</corr><!-- Pei i...--> wrando</l>
+<pb n="86"/>
+<l>ar y gwir yt ai traetho</l>
+<l>ti a gai glywed etto</l>
+<l>nad oes weithred <corr resp="scribe" sic="a wnelo">a naelo</corr><!--corr or variant?--></l>
+<l>na phrofodd gwraig ai dwylo</l>
+</lg>
+
+<lg>
+<l>Tarpen er mwyn y tlyssau</l>
+<l>a <corr resp="scribe" sic="wisgodd">wisgen</corr> am ei breichiau</l>
+<l>a ollyngodd wyr mewn arfau</l>
+<l>am benn ei holl byrthnassau<!--corr to berth- ?--></l>
+</lg>
+
+<lg>
+<l>Medea drwg i champau</l>
+<l>kreulonach ydoedd hithau</l>
+<l>a ollyngodd yn ffrydiau</l>
+<l>waed ei <orig reg="meibion">mebion</orig> diamau</l>
+</lg>
+
+<lg>
+<l>Elen a beris lwytho<!--ed bwytho--></l>
+<l>llongau Groeg ag ymgweirio</l>
+<l>i ddifa gwyr kaer Dro</l>
+</lg>
+
+<lg>
+<l>Karu ei brawd a wnai <corr resp="scribe" sic="Riblys">Beiblys</corr><!--one letter deleted before b--></l>
+<pb n="87"/>
+<l>a gorwedd gan ei ystlys</l>
+<l><add place="supralinear">dyna weithred anhapys</add></l>
+<l>nes estynn rrwym ei gwregys<!-- from -is?--></l>
+</lg>
+
+<lg>
+<l>Karu ei thad a wnaeth Myrha</l>
+<l>Semiramys ei mab hyna</l>
+<l>hynn a wnaeth ei difetha</l>
+</lg>
+
+<lg>
+<l>Beth am verched <corr resp="scribe" sic="hen Danaa">Deoclesia</corr></l>
+<l>a wnaethant yr nos gynta</l>
+<l>ar ei gwyr yr oer lad<add place="supralinear">d</add>fa</l>
+</lg>
+
+<lg>
+<l>Nid gwell oedd wragedd Asia</l>
+<l>am ladd yr awdur penna</l>
+<l>rrag gwir gwilidd ni alla</l>
+<l>dreuthu yr drwg a wnaeth Pasiffaa</l>
+</lg>
+
+<lg>
+<l>Pawb a wyr a wnaeth Phedra</l>
+<l>ysbys yw twyll Rebeka</l>
+<l>a gwenwyn Deianeira</l>
+<l>eithyr er amser Adda</l>
+<pb n="88"/>
+<l>hyd at y dydd hwnn yma</l>
+<l>ni bu wraig waeth nog Efa</l>
+</lg>
+
+<lg>
+<l>Koelied fi bob bigelydd</l>
+<l>mynn y sant sy yn y mynydd</l>
+<l>a fynno gweled kynnydd</l>
+<l>a ffynniant yw gorlennydd</l>
+<l>hefyd kymred rrybydd</l>
+<l>a fynno kadw ei grefydd</l>
+<l>a chael hedd a llawenydd</l>
+<l>iddo e hun yn dragowydd</l>
+</lg>
+
+<lg>
+<l>Na ddened yw gorlannau</l>
+<l>nag Eigr nag aur Degau</l>
+<l>na merched orwyllt ei nwyfau</l>
+</lg>
+
+<lg>
+<l>Dywedwch wir yn ddiamau</l>
+<l>er a welsoch o lyfrau</l>
+<l>a ddarlleniassoch chwitheu</l>
+<l>o wraig a ddoeth ir goleu</l>
+<pb n="89"/>
+<l>o dywyllwg ufferneu</l>
+</lg>
+
+<lg>
+<l>Euridig ni thynne ganwr</l>
+<l>o deyrnas y dyrwestwr</l>
+<l>er mawr boen ei diddanwr</l>
+<l>a gymerth val ymgled<add place="supralinear">d</add>wr</l>
+<l>o gariad ar ei chwthwr</l>
+</lg>
+
+<lg>
+<l>Proserpina mewn anghyflwr</l>
+<l>a drige i gyd ai threissiwr</l>
+<l>yr Uffernol gwnkwerwr./</l>
+</lg>
+
+<lg>
+<l>Eithr Eneas ddwyfol</l>
+<l>ag Orffews iaith ragorol</l>
+<l>Erkwlff a Thesews wrol</l>
+<l>ar ddau vroder derfysgol</l>
+<l>a Christ ein harglwydd nefol</l>
+<l>an <corr resp="scribe" sic="keidwadwr">keidwad</corr> yn dragwyddol</l>
+<l>a ddoethant yn ddigonol</l><!--line missing in ed-->
+<l>o blith pryfed uffernol./</l>
+</lg>
+
+<pb n="90"/>
+
+<lg>
+<l>A pha beth ydyw yr pryfed</l>
+<l>nag uffern ond merched</l>
+<l>minnau fal moriwr diried</l>
+<l>ar y mor a gafodd golled</l>
+<l>pe i mynent wy fynghlowed</l>
+<l>a rown gyngor it bigeilied</l>
+<l>na wnen ormod ymddiried</l>
+<l>ag na cheren mor pryfed</l>
+</lg>
+
+<lg>
+<l>Eithr fal y ffy yr gwylain</l>
+<l>rrag eryr llym ei adain</l>
+<l>fal wyn rrag bleiddiau milain</l>
+<l>fal hydd rrag ki kanolfain</l>
+<l>felly ffowch chwitheu druain</l>
+<l>rrag hud pob kyfryw riain</l>
+<l>ai gweniaith ai hwylofain./</l>
+</lg>
+
+<lg>
+<l>Wylofain <corr resp="scribe" sic="Krokodeilys">Krokodeilus</corr></l>
+<l>dichell Hien dwyllodrus</l>
+<l>pann fo merch <orig reg="drygyrferthus">drwg arferthus</orig><!--ed anferthvs--></l>
+<pb n="91"/>
+<l>ne ith gyfarch yn wenieuthus</l>
+<l>hi ath ddwg i fagl astrus</l>
+<!--del: am hynny od wyd hapus; lbNoN!-->
+</lg>
+
+<lg>
+<l>Am hynny od wyd hapus</l>
+<l>y bigail anrrydeddus</l>
+<l>ffo ymhell rrag merched heinus</l>
+<l><add place="supralinear">pawb a vyddant drwg dybus</add></l>
+<l>ag na vydd ry <corr resp="scribe" sic="hyderys">hyderus</corr></l>
+<l>oth nerth ath rinwedd ddownus</l>
+</lg>
+
+<lg>
+<l>Pe<add place="supralinear">i</add> rron yt fod mor hapus</l>
+<l>a chael targed hen Bersus</l>
+<l><corr resp="scribe" sic="rrydd">rryd</corr> honn yn ddidramgwyddus</l>
+<l>y dringodd nadrodd Medus</l>
+</lg>
+
+<lg>
+<l>Lladd gormessiaid a chowri</l>
+<l>a wnaeth gwyr o filwri</l>
+<l>eraill distrowio trefi</l>
+<l>rrai am stopio /r/ mor heli</l>
+<l>eraill am ynnill meistri</l>
+<pb n="92"/>
+<l>wrth antur grym a nerthi</l>
+<l>a haeddynt ei koroni</l>
+<l>ni welais mewn stori</l>
+<l>wr a allodd veistroli</l>
+<l>na gorfod gwraig heini</l>
+</lg>
+
+<lg>
+<l>Dafydd hen frenin enwog</l>
+<l><del>ai fab&nbsp;</del>a wnaeth y deml odidog</l>
+<l>a Samson filwr nerthog</l>
+<l>y rroes merch arnyn warrog./</l>
+</lg>
+
+<lg>
+<l>Ni ddistrywiodd mor donnau</l>
+<l>na than na <corr resp="scribe" sic="dur">gwyr</corr> nag arfau</l>
+<l>gymaint o wyr da eu kampau</l>
+<l>a gweniaeth y merchedau</l>
+</lg>
+
+<lg>
+<l>Hi a <corr resp="scribe" sic="wna">bair</corr> yw phryd ddiskleirio</l>
+<l>yn loewach nag i bytho</l>
+<l>hi a fedr ymdemprio</l>
+<l>a gossod ei gwallt ai lifo</l>
+<pb n="93"/>
+<l>ag wrth y drych ymbinkio</l>
+<l>hi a wna lawer o ymdrwssio</l>
+<l>i ladd y dyn ai gwelo</l>
+</lg>
+
+<lg>
+<l>Hi a wyr wemal<!--sic--> gerddediad</l>
+<l>a llusgo kwrr ei llygad</l>
+<l>a phob <corr resp="scribe" sic="munydyn anlladd">munudyn anllad</corr></l>
+<l>i rwystro dyn oi chariad</l>
+</lg>
+
+<lg>
+<l>A phan fynno ganhiadu</l>
+<l>nag a rydd rrag ei barnu</l>
+<l>ag adrodd or holl deulu</l>
+<l>fod yn hawdd ei gordderchu</l>
+<l>wylo a wnaiff wrth ymdynu</l>
+<l>a chwerthin oi gorfygu</l>
+</lg>
+
+<lg>
+<l>Hi a ad yn noeth ei dwyf<add place="supralinear">r</add>on</l>
+<l>a rrych rrwng ei dwy wenfron</l>
+<l>i wenwyno golygion</l>
+<l>ag i ddwyn blys ar ddynion</l>
+<l>peryglys yw i veibion</l>
+<pb n="94"/>
+<l>wrth<!--del??--> weled ei <corr resp="scribe" sic="dull">twull</corr> ai moddion</l>
+</lg>
+
+<lg>
+<l>Yr hain yw yr anghenfiloedd</l>
+<l>a pheryglon y moroedd</l>
+<l>y sydd yn difa yr bobloedd</l>
+<l>nid oes na mann na lleoedd</l>
+<l>na themlau na mynwennoedd</l>
+<l>na gwledydd nag ynyssoedd</l>
+<l>na meysydd na mynyddoedd</l>
+<l>na mor na man ar diroedd</l>
+<l>na bu ddrwg gwraig yn gyhoedd</l>
+</lg>
+
+<lg>
+<l>Y mae rrinwedd a thynged</l>
+<l>hefyd iddunt a rodded</l>
+<l>i drossi wrth ei weled</l>
+<l>y milwr yn faen kaled</l>
+<l>ieuank a hen gocheled</l>
+<l>am hynny garu merched</l>
+</lg>
+
+<lg>
+<l>Hynn o wa<add place="supralinear">w</add>d yr hen brydydd</l>
+<pb n="95"/>
+<l>Winber barod ei awenydd</l>
+<l>a ddysgais ar y mynydd</l>
+<l>ar fynhafod laferydd</l>
+<l>yn kalyn y bigelydd./</l>
+</lg>
+</div>
+</body>
+</text>
+</TEI.2>
