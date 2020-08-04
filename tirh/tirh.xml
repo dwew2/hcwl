@@ -1,0 +1,3038 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../verse_dipl.xsl"?>
+<!-- normal stylesheet: verse_dipl.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+
+<titleStmt>
+<title lang="cym">Detholiad o farddoniaeth rydd Tomas ab Ieuan ap Rhys</title>
+<title lang="eng">A selection of the free-metre poetry of Tomas ab Ieuan ap Rhys</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by <name id="transcr">Ingo Mittendorf</name></resp>
+<resp>Notes by <name>Ingo Mittendorf</name></resp>
+</respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, November 2004</edition></editionStmt>
+
+<publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+</publicationStmt> 
+
+<notesStmt>
+<note type="text">The corpus contains a selection of free-metre poetry by Tomas ab Ieuan ap Rhys. Most of the poems edited here have previously been published by L. J. Hopkin James and T. C. Evans in <title>Hen gwndidau, carolau, a chywyddau being sermons in song in the Gwentian dialect by forty-two bards of Tir Iarll of the Tudor period</title> (Bangor: Jarvis &amp; Foster, 1910) (= <title>HG</title>). The poems by Tomas in that edition are all from NLW 13070B. This electronic edition contains five additional poems that are attributed to Tomas in the manuscripts, but which were omitted in <title>Hen gwndidau</title>, two from Cardiff Free Library 2.619 and three from NLW 13081B. Details of the three manuscript sources are given below.</note>
+
+<note type="source">1. <hi rend="bold">NLW 13070B</hi> (Llanover B.9). Poems by Tomas ab Ieuan ap Rhys are on pages 1-41, 166-168, according to the new pagination. The manuscript is described as follows in the <title>Handlist of manuscripts in the National Library of Wales</title>, vol. iv:
+<quote>
+<p>HEN GWNDIDAU, &amp;c</p>
+<p>An imperfect manuscript consisting of one hundred and forty-one folios and twenty-six fragments repaired and rebound in half vellum, the fragments being tipped in on blank leaves at the end of the volume. Of the original manuscript thirty-two folios at the beginning (as per a previous foliation ) ? containing poems numbered 1-28 and part of poem 29, numerous mid-volume folios, and an indeterminate number of folios at the end appear to have been lost. The volume has been repaginated 1-344 [...]. Pp. 1-178 (excepting p. 176 and later insertions) are in the hand of <rs id="scribeA">the Glamorgan poet and copyist Llywelyn Si&ocirc;n (1540-?1615)</rs>, the scribe of N.L.W. MSS. 970, 6511, and 13075-6 (see <hi rend="italic">TLLM.</hi> [= Griffith John Williams, <title>Traddodiad llenyddol Morgannwg</title>, (Cardiff: Gwasg Prifysgol Cymru, 1948)], tt. 157-60). The greater part of the remainder of the volume appears to be in a later seventeenth century hand or hands. The contents consist of transcripts of Welsh poems in free and strict metres, the free-metre verse being largely in the form of 'cwndidau' (see <title>TLLM.</title>, tt. 120-43). Included is a corpus of poems by the sixteenth century Glamorgan poets Thomas ap Ieuan ap Rys (25) and Hopgin Thom[as] Phylip (22). Other poets whose works are transcribed include Thomas ap Ieuan ap Madog [...]. The poems by Hopkin Thomas Philip have been published in Lemuel James: <title>Hopkiniaid Morgannwg ...</title> (Bangor, 1909), and a large proportion of the remaining poems in L. J. Hopkin James and T. C. Evans: <title>Hen Gwndidau, Carolau, a Chywyddau ...</title> (Bangor, 1910). [...]</p>
+<p><hi rend="italic">Welsh; English.</hi> Late XVI-XVIII cent.</p>
+</quote>
+</note>
+
+<note type="source">2. <hi rend="bold">Cardiff Free Library 2.619</hi> (Havod 5). The poems used in this edition are found on pages 21-24 and 30-36. The manuscript is described as followis in the <title>Report on Manuscripts in the Welsh Language</title> ii.i, 246:
+<quote>
+<p><hi rend="smallcaps">Poetry, Prophecies,</hi> and <hi rend="smallcaps">Triads</hi>, written mostly [...] in <rs id="scribeB">a hand dated 1586</rs> (see page 233). Paper; 8x6 inches; pp. 1<hi rend="superscript">a</hi>-260; bound in paper boards.</p>
+</quote>
+</note>
+
+<note type="source">3. <hi rend="bold">NLW 13081B</hi> (Llanover B.23). The poems used in this edition are found on folios 125v-132r, 133v-134r, 135v-136v, 156v-158r, 160v-165v, 173v-175r, 182r-183v and 186r-187v. The manuscript is described as follows in the <title>Handlist of manuscripts in the National Library of Wales</title> iv:
+<quote>
+<p>BARDDONIAETH, &amp;c</p>
+<p>A slightly imperfect manuscript consisting of one hundred and ninety-nine folios rebound in full leather. The contents consist mainly of transcripts of Welsh strict- and free-metre poems including poems by, or attributed to, [...] Thomas ap Ieuan ap Rhys, [...] The greater part of the volume is written in a number of artificial or contrived copying hands, the scribe in some instances appearing to simulate a gothic script. The initial capitals of some of the poems have elaborate decorative detail sometimes incorporating the outlines of human figures or faces, the latter mostly grotesques. The volume has been attributed to <rs id="scribeC">a Glamorgan or Gwentian copyist of the first half of the seventeenth century</rs> (see <hi rend="italic">TLLM.</hi>, t. 44). If this dating is accepted, stanzas such as those by Rhys Prichard probably have to be regarded as later insertions. [...]</p>
+<p><hi rend="italic">Welsh; English.</hi> XVII-XIX cent.</p>
+</quote>
+</note>
+</notesStmt>
+
+<sourceDesc>
+
+<bibl sameAs="TIRh_1">
+<idno type="CHIG">1</idno>
+<idno type="HG">1</idno>
+<title><supplied>Kreawdr y byd a'r nef hefyd</supplied></title>
+<biblScope>NLW 13081B, 133v-134r [ll. 1-20]; NLW 13070B, 1 [ll. 21-36]</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_2">
+<idno type="CHIG">2</idno>
+<idno type="HG">2</idno>
+<title><supplied>Mab vn Duw byw yw pob Kriston</supplied></title>
+<biblScope>NLW 13070B, 1-3</biblScope>
+<!--Also in B 23, p 171r-172r -->
+</bibl>
+
+<bibl sameAs="TIRh_3">
+<idno type="CHIG">3</idno>
+<idno type="HG">3</idno>
+<title><supplied>Nid jawn kanmol ond y dwyvol</supplied></title>
+<biblScope>NLW 13070B, 3-5</biblScope>
+<!--Also in B 23, p. 172r-173v -->
+</bibl>
+
+<bibl sameAs="TIRh_4">
+<idno type="CHIG">4</idno>
+<idno type="HG">4</idno>
+<title><supplied>Kreawdr o'r nef, arno e krier</supplied></title>
+<biblScope>NLW 13070B, 5-7</biblScope>
+<!--Also in B 23, p. 170r-171r-->
+</bibl>
+
+<bibl sameAs="TIRh_5">
+<idno type="CHIG">5</idno>
+<idno type="HG">5</idno>
+<title><supplied>Mae vn marchog aurgadwynog</supplied></title>
+<biblScope>NLW 13070B, 7-9</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_6">
+<idno type="CHIG">6</idno>
+<idno type="HG">6</idno>
+<title><supplied>Vn gwr i gyd yw'r kadernyd</supplied></title>
+<biblScope>NLW 13070B, 9-11</biblScope>
+<!--Also in Havod 5, p. 13-15 -->
+</bibl>
+
+<bibl sameAs="TIRh_7">
+<idno type="CHIG">7</idno>
+<idno type="HG">7</idno>
+<title><supplied>Roed Duw i vawr rhad</supplied></title>
+<biblScope>NLW 13070B, 11-12</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_8">
+<idno type="CHIG">8</idno>
+<idno type="HG">8</idno>
+<title><supplied>Duw gwyn a'n gwnaeth</supplied></title>
+<biblScope>NLW 13070B, 13-15</biblScope>
+<!--Also in B 23, p. 176r-177v -->
+</bibl>
+
+<bibl sameAs="TIRh_9">
+<idno type="CHIG">9</idno>
+<idno type="HG">9</idno>
+<title><supplied>Arglwydd Jesu, dros dy garu</supplied></title>
+<biblScope>NLW 13070B, 15-17</biblScope>
+<!-- Also in B 23, p 165v-166v -->
+</bibl>
+
+<bibl sameAs="TIRh_10">
+<idno type="CHIG">10</idno>
+<idno type="HG">10</idno>
+<title><supplied>Y grog yw'r gras</supplied></title>
+<biblScope>NLW 13070B, 17-18</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_11">
+<idno type="CHIG">11</idno>
+<idno type="HG">11</idno>
+<title><supplied>O Dduw nef, pa vyd yw hi ar ddynion</supplied></title>
+<biblScope>NLW 13070B, 18-20</biblScope>
+<!-- Also in B 23, p. 158r-159r -->
+</bibl>
+
+<bibl sameAs="TIRh_12">
+<idno type="CHIG">12</idno>
+<idno type="HG">12</idno>
+<title><supplied>Kreawdr yn kar, nef a daear</supplied></title>
+<biblScope>NLW 13070B, 20-3</biblScope>
+<!--Also in Havod 5, p. 15-17
+ and B 23, 185r-v. --></bibl>
+
+<bibl sameAs="TIRh_13">
+<idno type="CHIG">13</idno>
+<idno type="HG">13</idno>
+<title><supplied>Y ddelw auraid ddolurys</supplied></title>
+<biblScope>NLW 13070B, 23-4</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_14">
+<idno type="CHIG">14</idno>
+<idno type="HG">14</idno>
+<title><supplied>Gwrandewch ddau air</supplied></title>
+<biblScope>NLW 13070B, 25-6</biblScope>
+<!--Also in Havod 5, p. 8-9 -->
+</bibl>
+
+<bibl sameAs="TIRh_15">
+<idno type="CHIG">15</idno>
+<idno type="HG">15</idno>
+<title><supplied>Da oedd edrych ar air Duw</supplied></title>
+<biblScope>NLW 13070B, 26-7</biblScope>
+<!-- Also in Havod 5, p. 18-19  -->
+</bibl>
+
+<bibl sameAs="TIRh_16">
+<idno type="CHIG">16</idno>
+<idno type="HG">16</idno>
+<title><supplied>Kreawdr pob dim, i ti kredaf</supplied></title>
+<biblScope>NLW 13070B, 28-9</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_17">
+<idno type="CHIG">17</idno>
+<idno type="HG">17</idno>
+<title><supplied>Rad Duw a'i ras</supplied></title>
+<biblScope>NLW 13070B, 29-30</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_18">
+<idno type="CHIG">18</idno>
+<idno type="HG">18</idno>
+<title><supplied>Moeswch ddodi'n bryd ar Ddewi</supplied></title>
+<biblScope>NLW 13070B, 30-2</biblScope>
+<!--Also in Havod 5, p. 19-21. -->
+</bibl>
+
+<bibl sameAs="TIRh_19">
+<idno type="CHIG">19</idno>
+<idno type="HG">19</idno>
+<title><supplied>Ny'm ddireda i dir na da</supplied></title>
+<biblScope>NLW 13070B, 32-4</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_20">
+<idno type="CHIG">20</idno>
+<idno type="HG">20</idno>
+<title><supplied>Y gwr a vu ar y groes</supplied></title>
+<biblScope>NLW 13070B, 34-5</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_21">
+<idno type="CHIG">21</idno>
+<idno type="HG">21</idno>
+<title><supplied>Pob rhyw Griston glan i galon</supplied></title>
+<biblScope>NLW 13070B, 35-8</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_22">
+<idno type="CHIG">22</idno>
+<idno type="HG">22</idno>
+<title><supplied>Duw, n'ad ti gam</supplied></title>
+<biblScope>NLW 13070B, 38-9</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_23">
+<idno type="CHIG">23</idno>
+<idno type="HG">23</idno>
+<title><supplied>Kriston wyf j'n kredy Grist</supplied></title>
+<biblScope>NLW 13070B, 40</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_24">
+<idno type="CHIG">24</idno>
+<idno type="HG">24</idno>
+<title><supplied>Gwir Duw a'i vab yw</supplied></title>
+<biblScope>NLW 13070B, 40-1</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_25">
+<idno type="CHIG">25</idno>
+<idno type="HG">25</idno>
+<title><supplied>Yddwi'n gosod kanu barnod</supplied></title>
+<biblScope>NLW 13070B, 166-8</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_26">
+<idno type="CHIG">26</idno>
+<idno type="HG">26</idno>
+<title><supplied>Mae Duw yn dangos i'r byd</supplied></title>
+<biblScope>Cardiff Free Library 2.619, 21-4</biblScope>
+<!--also in B 23, 168v-170r -->
+</bibl>
+
+<bibl sameAs="TIRh_27">
+<idno type="CHIG">27</idno>
+<idno type="HG">&ndash;</idno>
+<title><supplied>Gwae vilioedd a sydd mewn gofalon</supplied></title>
+<biblScope>Cardiff Free Library 2.619, 30-2</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_28">
+<idno type="CHIG">28</idno>
+<idno type="HG">&ndash;</idno>
+<title><supplied>Mawr jawn i kerais j'r byd</supplied></title>
+<biblScope>Cardiff Free Library 2.619, 32-6</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_29">
+<idno type="CHIG">29</idno>
+<idno type="HG">27</idno>
+<title><supplied>Pwy bynag fo gwedy dotio</supplied></title>
+<biblScope>NLW 13081B, 156v-158r</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_30">
+<idno type="CHIG">30</idno>
+<idno type="HG">&ndash;</idno>
+<title><supplied>Y may dogon ar y gar</supplied></title>
+<biblScope>NLW 13081B, 160v-162v</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_31">
+<idno type="CHIG">31</idno>
+<idno type="HG">&ndash;</idno>
+<title><supplied>Pwy yw'r syr goray oll</supplied></title>
+<biblScope>NLW 13081B, 162v-164r</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_32">
+<idno type="CHIG">32</idno>
+<idno type="HG">&ndash;</idno>
+<title><supplied>Wedy proffer pob man</supplied></title>
+<biblScope>NLW 13081B, 164v-165v</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_33">
+<idno type="CHIG">33</idno>
+<idno type="HG">29</idno>
+<title><supplied>Gwrandewch arnai bob ryw ddyn</supplied></title>
+<biblScope>NLW 13081B, 125v-127r</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_34">
+<idno type="CHIG">34</idno>
+<idno type="HG">30</idno>
+<title><supplied>Rhyfedd ddigon y bob Kriston</supplied></title>
+<biblScope>NLW 13081B, 127r-128r</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_35">
+<idno type="CHIG">35</idno>
+<idno type="HG">31</idno>
+<title><supplied>Arglwydd Iesu Grist, er mwyn dy fam</supplied></title>
+<biblScope>NLW 13081B, 128v-131r</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_36">
+<idno type="CHIG">36</idno>
+<idno type="HG">32</idno>
+<title><supplied>Y plwyf a'r wlad lle may 'y nghariad</supplied></title>
+<biblScope>NLW 13081B, 131r-132r</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_37">
+<idno type="CHIG">37</idno>
+<idno type="HG">33</idno>
+<title><supplied>Yn y pechod 'ddyni yn byw</supplied></title>
+<biblScope>NLW 13081B, 135v-136v</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_38">
+<idno type="CHIG">38</idno>
+<idno type="HG">28</idno>
+<title><supplied>F'aeth yn ychel pris yr yd</supplied></title>
+<biblScope>NLW 13081B, 173v-175r</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_39">
+<idno type="CHIG">39</idno>
+<idno type="HG">34</idno>
+<title><supplied>Gofyn kwndid ymi y gaf</supplied></title>
+<biblScope>NLW 13081B, 182r-183v</biblScope>
+</bibl>
+
+<bibl sameAs="TIRh_40">
+<idno type="CHIG">40</idno>
+<idno type="HG">35</idno>
+<title><supplied>Hael blwyfogion harddwych ffyddlon</supplied></title>
+<biblScope>NLW 13081B, 186r-187v</biblScope>
+</bibl>
+
+<!--
+<bibl>
+<title lang="cym">Detholiad o farddoniaeth rydd Tomas ab Ieuan ap Rhys</title>
+<title lang="eng">A selection of the free-metre poetry of Tomas ab Ieuan ap Rhys</title>
+<author><name>Tomas ab Ieuan ap Rhys (<hi rend="italic">c.</hi> 1510&ndash;<hi rend="italic">c.</hi> 1560)</name></author>
+<title type="ms">Detholiad o farddoniaeth rydd Tomas ab Ieuan ap Rhys</title>
+<biblScope>NLW 13070B, 1-41, 166-8; Cardiff Free Library 2.619, 21-4, 30-6; NLW 13081B, 125v-132r, 133v-134r, 135v-136v, 156v-158r, 160v-165v, 173v-175r, 182r-183v, 186r-187v</biblScope>
+</bibl> -->
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<p>The first twenty-five poems in <title>Hen gwndidau</title> are from NLW 13070B (Llanover B.9), in the order in which they occur in the manuscript; poem 25 follows the others at a considerable distance. The beginning of the first poem is missing in the manuscript, the missing text is supplied from NLW 13081B (Llanover B. 23). All poems are explicitly attributed to Tomas ab Ieuan ap Rhys. The colophons include a running number that counts <hi rend="italic">all</hi> poems in the manuscript, not only those by Tomas ab Ieuan ap Rhys.</p>
+
+<p>These are followed by one poem from Cardiff Free Library 2.619 (Havod 5) (<title>HG</title> No. 26). The manuscript contains seven other poems attributed to Tomas ab Ieuan ap Rhys, five of which had already been edited from NLW 13070B (<title>HG</title> Nos. 6, 12, 14, 15, 18); two poems (manuscript pp. 30-32, 32-36) were omitted in <title>Hen gwndidau</title>. In addition, the manuscript, on page 246, contains a fragment of a poem attributed to Tomas ab Ieuan ap Rhys in what appears to be the same hand as that of NLW 13070B.</p>
+
+<p>The next portion of poems (<title>HG</title> Nos. 27-35) is taken from NLW 13081B (Llanover B. 23). Only one of these is explicitly attributed to Tomas ab Ieuan ap Rhys in the manuscript (No. 27); the other eight are without attribution, whether in this manuscript, in NLW 13070B, or in Cardiff Free Library 2.619, and possibly in later manuscripts too. However, most of them do occur in a sequence of poems many of which are attributed to Thomas ab Ieuan ap Rhys, if not in NLW 13081B itself then at least in one of the other, earlier manuscripts. It is for this reason that they are included here. On the other hand, three poems <hi rend="italic">with</hi> attribution to Thomas ab Ieuan ap Rhys (and, at least in NLW 13070B and Cardiff Free Library 2.619, to no other poet) were omitted in <title>Hen gwndidau</title> (manuscript folios 160v-162v, 162v-164r and 164v-165v). The poems in the edition do not appear in the order of the manuscript, which would be Nos. 29-33, 27-28, 34-35 (these do not necessarily constitute uninterrupted sequences of poems). Poems from other later manuscripts follow.</p>
+
+<p>The current edition contains only poems from the three manuscripts mentioned, NLW 13070B, Cardiff Free Library MS 2.619, and NLW 13081B. It follows <title>Hen gwndidau</title> in placing those from <hi rend="bold">NLW 13070B</hi> first (our nos. 1-25), with the missing text of the first poem being supplied from NLW 13081B. Those poems in <hi rend="bold">Cardiff Free Library 2.619</hi> not already edited from NLW 13070B follow (our nos. 26-28, of which 27-28 were omitted in <title>HG</title>). As regards the material from <hi rend="bold">NLW 13081B</hi>, poems with attribution are given first, in the order of the manuscript (our nos. 29-32, of which 30-32 were omitted in <title>HG</title>), and of the remaining unattributed poems included here are only those also published in <title>Hen gwndidau</title>, again in the order of the manuscript (our nos. 33-40).</p>
+
+<p>The numbering of the poems in <title>Hen gwndidau</title> and this edition is thus identical up to and including no. 26.</p>
+
+<p><title>Hen gwndidau</title> is a diplomatic edition and differences between this edition and ours, apart from mistakes in the one or the other, are relatively few:
+<list>
+<item>The editors of <title>Hen gwndidau</title> transcribe the manuscripts' letter &lt;v&gt; as &lt;v&gt; when it represents a consonant, but as &lt;u&gt; when it represents a vowel. All &lt;v&gt;s are transcribed as &lt;v&gt;s here, irrespective of phonetic value. In NLW 13070B and in Cardiff Free Library 2.619, all &lt;u&gt;s bear a diaeresis (&uuml;). Since the diacritic is redundant, it is omitted here, and all &lt;&uuml;&gt;s of the manuscripts are transcribed as &lt;u&gt;, unlike in <title>Hen gwndidau</title>, which uses &lt;&uuml;&gt;. Thus, &lt;u&gt; in <title>Hen gwndidau</title> (where it is not a mistake) corresponds to our &lt;v&gt;; and &lt;&uuml;&gt; in <title>Hen gwndidau</title> corresponds to our &lt;u&gt;.</item>
+
+<item>In NLW 13070B and Cardiff Free Library 2.619, stanzas are (not always correctly) numbered. NLW 13081B does not have stanza numbers. In <title>Hen gwndidau</title> these numbers are supplied, in our edition they are not.</item>
+
+<item><title>Hen gwndidau</title> often provides variants from a manuscript other than the main one. Following our general policy to edit only one manuscript where several exist, we do not. However, damaged text has been supplied from other manuscripts, and where the main manuscript seems to show a crass mistake, we have corrected the text (using corr-elements, and therefore recording the original reading) according to one of the other manuscripts. This has hardly ever been necessary. In fact, in a few instances, the editors of <title>Hen gwndidau</title> seem to have preferred the reading of one of the other manuscripts where it is not necessarily better (for example, in 8:61, the editors of <title>HG</title> follow NLW 13081B, <mentioned>er y tristyd</mentioned> in preference to the not obviously worse <mentioned>er i thristyd</mentioned> in NLW 13070B). Generally, we have been more reluctant to supply text in cases where <title>Hen gwndidau</title> does. Thus, in 26:63 <mentioned>rrag yddo ladd</mentioned> (from Cardiff Free Library 2.619), <title>Hen gwndidau</title> supplies <mentioned>ef</mentioned> after <mentioned>yddo</mentioned> from NLW 13081B, which has here been omitted.</item>
+</list>
+</p>
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs> (including some transcriptions in the <rs id="ipa">International Phonetic Alphabet</rs>).</p>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+  <date>27 October 2004</date>
+  <respStmt><resp>David Willis</resp></respStmt>
+  <item>Edited notes and moved them to the notes statement and the encoding description; replaced Llan. 9 with NLW 13070B in the page references throughout.</item>
+</change>
+
+<change>
+<date>22.10.03</date>
+<respStmt>
+<resp></resp>
+</respStmt>
+<item>XML conversion; numbers as FW within L (supplied where missing except first poem; with DAMAGE where likely); caesura commas as CAESURA (some problems); no further LGs yet;</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text id="TIRh">
+<group>
+<text id="TIRh_1"><body><div>
+
+
+<pb n="NLW 13081B, 133v"/>
+
+<lg>
+<l>Kreawdr y byd ar nef hefyd</l>
+<l>duw ywnaeth tayr iaith yn un gair</l>
+<l>yn gyna gryw ar ail ebryw</l>
+<l>llading drydy arferwys jesu</l>
+<l>ar bedwredd or dialedd</l>
+<l>duw wasgarodd yr holl jeythoedd</l>
+<l>am bod nin byw yn jaith ebryw</l>
+<l>yn doydyd gair byth mynn <corr resp="scribeC" sic="prydayr">kredir</corr></l>
+<l>ond dewised may duw yn clowed</l>
+<l>a hyny y sy ddifai geny</l>
+<l>na drwg nada y feddylia</l>
+<l>dyn maer drindod duw yny wybod</l>
+<l>bwedd y dychyn e wybod hyn</l>
+<l>heb y fod ef duw yn y clonef</l>
+<l>yddwni yn y tad duw yn wstad</l>
+<l>ac may ynte ynonine</l>
+
+<pb n="NLW 13081B, 134r"/>
+
+<l>velly may bod yny pechod</l>
+<l>ni thrig duw yn hir ond yny cowir</l>
+<l>may llid jni yddi ofni</l><!--this line missing in HG-->
+<l>duw yny diawl yn gyndrychawl</l>
+
+<!--start of text in NLW 13070B -->
+
+<pb n="NLW 13070B, 1"/>
+
+<l><fw>14</fw>grym na<!--ed a--> gavel<caesura/> yn<isp/>y kythrel</l>
+<l>nyd<isp/>oes onyd<caesura/> duw <apo/>n<isp/>y symyd</l>
+<l><fw>15</fw>i mae ynte <apo/>n<caesura/> vrawd i ninne</l>
+<l>o<dsp/>ddiar y grog<caesura/> yn drigarog</l>
+<l><fw>16</fw>ved yn ddelo <apo/>r<caesura/> dydd i draio</l>
+<l>rhwng kam a jawn<caesura/> ve vydd kyviawn</l>
+<l><fw>17</fw><apo/>n<isp/>y modd i bo <apo/>r<caesura/> dyn pan elo</l>
+<l>i<isp/><apo/>r bedd o<isp/><apo/>r byd<caesura/> velly kyvyd</l>
+<l><fw>18</fw>ond ymolched<caesura/> pawb a<isp/><apo/>i waithred</l>
+<l>drwg kyn el y<caesura/><isp/>ddy bridd wely</l>
+<l><fw>19</fw>pan ddel gairbronn<caesura/> justys kyvion</l>
+<l>i hvnan sy<caesura/> <apo/>n kael i varny</l>
+<l><fw>20</fw>nef yn barod<caesura/> i<isp/><apo/>r di<dsp/>bechod</l>
+<l>i eraill bydd<caesura/> poen dragywydd</l>
+<l><fw>21</fw>ny ddwg vndyn<caesura/> bwys tri gronyn</l>
+<l>o bybyr y<caesura/> nef heb daly</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 29</trailer>
+</div></body></text>
+
+<text id="TIRh_2"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">M</hi>ab vn duw byw<caesura/> yw pob kriston</l>
+<l>ag yn byw sydd<caesura/> mewn ffydd ffyddlon</l>
+<l><fw>2</fw>gwyr a gwragedd da<caesura/> a morynion</l>
+<l>kyflawn i kred<caesura/> merched maibon</l>
+<l><fw>3</fw>drwy vedydd vry<caesura/> jesu o<!--a?--> sain sion</l>
+<l>yn oed dauwr<caesura/> mewn dwr avon</l>
+
+<pb n="NLW 13070B, 2"/>
+
+<l><fw>4</fw><damage><supplied>yr</supplied></damage> hwnn i kant<caesura/> hwyr plant gwirion</l>
+<l>i rhoi <apo/>n<isp/>y ffydd<caesura/> efrydd mvdion</l>
+<l><fw>5</fw>er<isp/>i<isp/>dwyn hwy<caesura/> drwy <apo/>r alldrawon</l>
+<l>at i tad dduw<caesura/> yn vywolion</l>
+<l><fw>6</fw>tri chyfaillt sydd<caesura/> nos dydd taeron</l>
+<l>gwrthnebwyr duw<caesura/> yw<isp/><apo/>r kyvaillon</l>
+<l><fw>7</fw>y knawd a<isp/><apo/>r byd<caesura/> ysbryd kroelon</l>
+<l>drwg yn troi sy<caesura/> y meddylon</l>
+<l><fw>8</fw>nys gad e y<caesura/> gredy <apo/>n ffyddlon</l>
+<l>i kaiff <apo/>n<isp/>y vyw<caesura/> gan dduw ddigon</l>
+<l><fw>9</fw>kasglad a vydd<caesura/> kebydd kyson</l>
+<l>ve gad hwy gyd<caesura/> i<isp/><apo/>r byd estron</l>
+<l><fw>10</fw>v<apo/><isp/>a <apo/>n hoeth lle <apo/>dd<isp/>oedd gwisgoedd gwychion</l>
+<l>gair bronn wrth wys justys kyvion</l>
+<l><fw>11</fw>drwy <apo/>r tan a<isp/><apo/>r ja<caesura/> vo gwna gwaison</l>
+<l>duw <apo/>n<isp/>y purdan e<isp/><apo/>n lan ddigon</l>
+<l><fw>12</fw>heb vwy o dravl<caesura/> na<isp/><apo/>r havl wenngronn</l>
+<l>lliw aira nos<caesura/> ne ros gwynion</l>
+<l><fw>13</fw>megis i bu<caesura/> jesu <apo/>r kyvion</l>
+<l>yngolwg tri<caesura/> o<isp/><apo/>r disgyblon</l>
+<l><fw>14</fw>je<expan>ua</expan>nn ddidro<caesura/> jago simon</l>
+<l>pedr i ni<caesura/> yw<isp/><apo/>r tri thustion</l>
+<l><fw>15</fw>ve airch duw dad<caesura/> nad y<isp/><apo/>th galon</l>
+<l>vod llid ynghudd<caesura/> bydd heddychlon</l>
+
+<pb n="NLW 13070B, 3"/>
+
+<l><fw>16</fw>na rho help y<isp/><apo/>r<caesura/> traiswyr <corr resp="scribeA" sic="ffailston">lladron</corr></l>
+<l>na chyngor y<isp/><apo/>r<caesura/> twyllwyr ffailston</l>
+<l><fw>17</fw>ro dy dda <apo/>n hu<caesura/> y<isp/><apo/>r tylodion</l>
+<l>a<isp/><apo/>th dir teg rho<caesura/> lle bo kyvion</l>
+<l><fw>18</fw>kar vi na choll<caesura/> o<isp/><apo/>th holl galon</l>
+<l>os velly gwnav<caesura/> ti gav ddigon</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 30</trailer>
+
+</div></body></text>
+
+<text id="TIRh_3"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">N</hi>yd jawn kanmol<caesura/> ond y dwyvol</l>
+<l>anwyvol nyd ody <apo/>n kredy</l>
+<l><fw>2</fw>dall yw a dwl<caesura/> yn<isp/>y veddwl</l>
+<l>byddar a mvd<caesura/> yw e hevyd</l>
+<l><fw>3</fw>ny ad gelyn<caesura/> enaid pob dyn</l>
+<l>yddy galon<caesura/> gredy <apo/>n ffyddlon</l>
+<l><fw>4</fw>ny chred e vod<caesura/> mab y drindod</l>
+<l>vy ar y grog<caesura/> yn alleog</l>
+<l><fw>5</fw>ag ny chred y<caesura/> <apo/>r ffairad ally</l>
+<l>o<isp/><apo/>r gairav gna<caesura/> gnawd o<isp/><apo/>r bara</l>
+<l><fw>6</fw>na thrwy <apo/>r lladin<caesura/> i try e<isp/><apo/>r gwin</l>
+<l>yn waed mab rhad<caesura/> vel i dywad</l>
+<l><fw>7</fw>nag i rhwym llen<caesura/> ddwr a halen</l>
+<l>i ladd ynghyd<caesura/> y drwg ysbryd</l>
+<l><fw>8</fw>yr hwnn rhagddo<caesura/> maent yn kilo</l>
+<l>vel partris<!--ed patris--> rhog<caesura/> yr ysbarog</l>
+
+<pb n="NLW 13070B, 4"/>
+
+<l><fw>9</fw>ny chrede y<caesura/> bax y jesu</l>
+<l>dive ganto<caesura/> i vynd e haibo</l>
+<l><fw>10</fw>ny ddychon e i neb i vadde</l>
+<l>ag nys govyn<caesura/> yntav i vndyn</l>
+<l><fw>11</fw>yr oen gwirion ymroes dryson</l>
+<l>y<dsp/>sy <apo/>n karu<caesura/> yn kusanv</l>
+<l><fw>12</fw>ve rhoes kusan<caesura/> i<isp/><apo/>r ysbryd glan</l>
+<l>yn ffalst ve gas<caesura/> kusan sidas</l>
+<l><fw>13</fw>pa gyvaillt wyd<caesura/> hebe<isp/><apo/>r proffwyd</l>
+<l>y<isp/><apo/>m kusanv<caesura/> heb vy<isp/>ngharu</l>
+<l><fw>14</fw>ny char e chwaith<caesura/> vara kyfraith</l>
+<l>sy <apo/>n<isp/>ym<dsp/>diffyn<caesura/> eneid pob dyn</l>
+<l><fw>15</fw>os kaiff dwyvol<caesura/> o law<isp/><apo/>r urddol</l>
+<l>v<apo/><isp/>a i eneid e<caesura/> i<isp/><apo/>r nef gole</l>
+<l><fw>16</fw>a<isp/><apo/>i gorff yn wir<caesura/> i gysegr dir</l>
+<l>bwedd bynnag vo<caesura/> angav yddo</l>
+<l><fw>17</fw>heb ymfoddi<caesura/> nag ym<dsp/>grogi</l>
+<l>ne leas arall<caesura/> megis angall</l>
+<l><fw><damage><supplied>1</supplied></damage>8</fw>ny fforffeta<caesura/> gainog o<isp/><apo/>i dda</l>
+<l>na<isp/><apo/>v dir na<isp/><apo/>v dy<caesura/> yr wythnos hynny</l>
+<l><fw><damage><supplied>1</supplied></damage>9</fw>chwi gewch ddangos<caesura/> Risiart<!--r?--> thomas</l>
+<l>yr achos y<caesura/><dsp/>dd<isp/>wyf j<isp/><apo/>n kany</l>
+<l><fw><damage><supplied>20</supplied></damage></fw> er mwyn erchi<caesura/> rhodd i chwchwi</l>
+<l>ny bydd y rhodd<caesura/> hynny &yn; ormodd</l>
+
+<pb n="NLW 13070B, 5"/>
+
+<l><fw>21</fw>pax jesu lwyd<caesura/> i langynwyd</l>
+<l>lle nad<isp/>oes gwell<caesura/> na dryll astell</l>
+<l><fw>22</fw>os rhowch i mi<caesura/> er i erchi</l>
+<l>minnav ddweda<caesura/> ywch beth a<isp/>wna</l>
+<l><fw>23</fw>o daw haibo<caesura/> esgob tailo</l>
+<l>na swffrigan<caesura/> i wlad vorgan</l>
+<l><fw>24</fw>mi wnaf yddo<caesura/> i vendigo</l>
+<l>a rhoi ar hwnn<caesura/> i bawb bardwn</l>
+<l><fw>25</fw>vel i bo i chwi<caesura/> rhann o<isp/><apo/>r weddi</l>
+<l>drwy blwyf y llann!<!--ed llan--><caesura/> vawr a bychan</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 31</trailer>
+</div></body></text>
+
+<!--no apo,isp,dsp for following yet-->
+
+<text id="TIRh_4"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">K</hi>reawdr or nef arnoe krier</l>
+<l>kredig ir mab jesu kreder</l>
+<l><fw>2</fw>ysbrydawl vn tri nydoes bryder</l>
+<l>i ymswyn y groes ar bob amser</l>
+<l><fw>3</fw>a gaisais gan dduw pan ddangoser</l>
+<l>mi kevais ystor yw ym kyver</l>
+<l><fw>4</fw>pendevig y wlad penn nad over</l>
+<l>dwn rhefn nybo does yn rhyver</l>
+<l><fw>5</fw>a thaliad gan dduw yn lleth alwer</l>
+<l>yw gweled dy warr dan aur goler</l>
+<l><fw>6</fw>syr bevys yth gad syr o bwver</l>
+<l>syr Ritta gawr wyd ail syr watter</l>
+
+<pb n="NLW 13070B, 6"/>
+
+<l><fw>7</fw>s<damage><supplied>y</supplied></damage>r lawnslod ir maes<caesura/> lleth sialainsier</l>
+<l>sy<damage><supplied>r</supplied></damage> predyr mae hil hors ny pryder</l>
+<l><fw>8</fw>arevwch na newch yn rhy over</l>
+<l><damage><supplied>y</supplied></damage>ch keraint ach hvn vwy vwy ych karer</l>
+<l><fw>9</fw><damage><supplied>ll</supplied></damage>in harbert ydywch vel llwyn aurber</l>
+<l><damage><supplied>a</supplied></damage> chedwch ynghyd mawr ywch hyder</l>
+<l><fw>10</fw>a<damage><supplied>g</supplied></damage> ymborth dy wyr yngwlad gamber</l>
+<l>yn llwygys ti gav vrad yn<!--ed miss--> lloeger</l>
+<l><fw>11</fw>oi<!--ed ai, B23 oy--> paido ar hynn<caesura/> ddywad peder</l>
+<l>offeren ai throi yn waith fforier</l>
+<l><fw>12</fw>yn gasbeth i ddaeth pylgain <!--ed supplies [a]--> gosber</l>
+<l>pwy oedi am saith weddir pader</l>
+<l><fw>13</fw>ai mawr chwant ar gig sadwrn mercher</l>
+<l>a gwenwyn rhyw ddydd oedd gig wener</l>
+<l><fw>14</fw>nyd rhyvedd na chair mawr waith tryver</l>
+<l>na ffrwyth da ar goed ond diffrwythder</l>
+<l><fw>15</fw>llef arythr ywr tir lle llavurier</l>
+<l>na chwnnir or yd ywch yr hanner</l>
+<l><fw>16</fw>ve gyvyd ny vysg ydig <!--[ac]--> ever<!--over?--></l>
+<l>a maedens a gwyg kyn i meder</l>
+<l><fw>17</fw>ar gwannyd a gan wynt pan gwnner</l>
+<l>ny velin ef an dalch ban valer</l>
+<l><fw>18</fw>anevail yw pob dyn or niver</l>
+<l>na ymswyn o gair duw vn amser</l>
+
+<pb n="NLW 13070B, 7"/>
+
+<l><fw>19</fw>traeturiaid i ddant ir tarw torer</l>
+<l>i pennav ag vyth vwy vwy poener</l>
+<l><fw>20</fw>ail marsia a chwi aml aurser</l>
+<l>ych kyty dairoes hir ych katwer</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys ai kant 32</trailer>
+</div></body></text>
+
+<text id="TIRh_5"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">M</hi>ae vn marchog<caesura/> aur<dsp/>gadwynog</l>
+<l>Yn rhagori<caesura/> ar arglwyddi</l>
+<l><fw>2</fw>syr siorys sydd<caesura/> harbert ddedwydd</l>
+<l>ywchlaw digon<caesura/> o varchogion</l>
+<l><fw>3</fw>o<isp/><apo/>ch gwaed y kaid<caesura/> jairll a dvkiaid</l>
+<l>ag o wraiddon<caesura/> tywysogion</l>
+<l><fw>4</fw><apo/>dd<isp/>oedd dduw <apo/>n karu<caesura/> kenedl kymry</l>
+<l>pan y<isp/><apo/>ch kavad<caesura/> yn lle 'chendad</l>
+<l><fw>5</fw>o rhoes jesu<caesura/> y<isp/><apo/>ch tad y ky</l>
+<l>glan syr mathias<caesura/> chwi a<isp/><apo/>i kavas</l>
+<l><fw>6</fw>i vawr gariad<caesura/> a<isp/><apo/>i ddwedvdiad</l>
+<l>a<isp/><apo/>i ddedwyddyd<caesura/> i mae chwi gyd</l>
+<l><fw>7</fw>mawr oedd ffortyn<caesura/> duw y<isp/><apo/>ch kalyn</l>
+<l>pan gaich gymryd<caesura/> yn<isp/>ych jenktyd</l>
+<l><fw>8</fw>vod yn berchen<caesura/> ar ail Elen</l>
+<l>verch lan liviog<caesura/> goel godebog</l>
+<l><fw>9</fw>marsia dirion<caesura/> i dylodion</l>
+<l>barchys gryaidd<caesura/> arlwyddesaidd</l>
+
+<pb n="NLW 13070B, 8"/>
+
+<l><fw>10</fw>o<isp/><apo/>ch dau gorff chwi<caesura/> bo<isp/><apo/>n kyvodi</l>
+<l>gant aur dorchaid<caesura/> o harberdaid<!--her- --></l>
+<l><fw>11</fw>ny bu be<add place="supralinear">r</add>chen<caesura/> dauty hafren</l>
+<l>ty o<isp/><apo/>ch siwt chwi<caesura/> onyd harri</l>
+<l><fw>12</fw>ny chedwis gwyr<caesura/> gwedy Arthyr</l>
+<l>vath gwyr ych llys<caesura/> chwi syr siorys</l>
+<l><fw>13</fw>morgannwg vras<caesura/> tair Gwent, Aeas</l>
+<l>a gwyr hevyd<caesura/> a ddichlynyd</l>
+<l><fw>14</fw>kewri gwychion<caesura/> o varchogion</l>
+<l>llewod i ladd<caesura/> lle bo ymladd</l>
+<l><fw>15</fw>hwy aent ddwsen<caesura/> a chwi<isp/><apo/>n gapden</l>
+<l>lle nad elon<caesura/> vil o saeson</l>
+<l><fw>16</fw>mae kapdenni<caesura/> yn kael kodi</l>
+<l>gwyr wrth blaked<caesura/> harri wythfed</l>
+<l><fw>17</fw>a pha gwypvn<caesura/> beth a<isp/>wnelvn</l>
+<l>nyd aent o dre<caesura/> dros y trothe</l>
+<l><fw>18</fw>kwnwchwi ych bys<caesura/> bach syr siorys</l>
+<l>llyna godi<caesura/> pawb gyda chwi</l>
+<l><fw>19</fw>mae rhai o<isp/><apo/>r byd<caesura/> yma <apo/>n dwedvd</l>
+<l>mae<isp/><apo/>r ffrangod sy<caesura/> yn kinwrychy</l>
+<l><fw>20</fw>ag o disgyn<caesura/> ych mynd atyn</l>
+<l>gwae nwy ych dyvod<caesura/> o<isp/><apo/>r diwarnod</l>
+<l><fw>21</fw>kymer y<isp/><apo/>th law<caesura/> ddvkiaeth llydaw</l>
+<l>achos di ddau<caesura/> ty<isp/>di piav</l>
+
+<pb n="NLW 13070B, 9"/>
+
+<l><fw>22</fw>a gyrr ffrangod<caesura/> megis llygod</l>
+<l>i<isp/><apo/>r parwydydd<caesura/> a<isp/><apo/>i rhoi vynydd</l>
+<l><fw>23</fw>a thi gau <apo/>r byd<caesura/> wrth darfeddyd</l>
+<l>a<isp/><apo/>th ewyllys di<caesura/> syr siorys</l>
+<l><fw>24</fw>a choroni &yr;<caesura/><!--second "/" double function--> wythfed harri</l>
+<l>ymharis kynn<caesura/> penn y vlwyddyn</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 33</trailer>
+</div></body></text>
+
+<text id="TIRh_6"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">V</hi>n gwr i gyd<caesura/> yw<isp/><apo/>r kadernyd</l>
+<l>a brenin ar<caesura/> nef a daear</l>
+<l><fw>2</fw>a hwnn yw<isp/><apo/>r tad<caesura/> duw vo kaidwad</l>
+<l>ywch syr siorys<caesura/> harbert hapys</l>
+<l><fw>3</fw>sy lew rhywiog<caesura/> hael trigarog</l>
+<l>a<isp/><apo/>r gair yw dros<caesura/> bell ag agos</l>
+<l><fw>4</fw>wrth gadarn gwych<caesura/> kadarn ydych</l>
+<l>ag oen auraid<caesura/> wrth y gwainaid<!--ed gwainiaid--></l>
+<l><fw>5</fw>bardd ywch heddwch<caesura/> o ddigryvwch</l>
+<l>a sarff kroelon<caesura/> ych kasogion</l>
+<l><fw>6</fw>mi<isp/><apo/>ch kevais chwi<caesura/> ar vy<isp/>ngweddi</l>
+<l>gan dduw i ddwyn<caesura/> aur yn gadwyn</l>
+<l><fw>7</fw>mi gaf ganto<caesura/> ych rhoi chwi etto</l>
+<l>lle <apo/>dd<isp/>oedd ych rhyw<caesura/> chwi <apo/>n jarll kernyw</l>
+<l><fw>8</fw>llyma ddiwedd<caesura/> y deng<isp/>mlynedd</l>
+<l>sydd er pan vy<caesura/>/m/<!--first "/" double function; caesura in the middle of a word--> j yma<isp/><apo/>n kany</l>
+
+<pb n="NLW 13070B, 10"/>
+
+<l><fw>9</fw>gwrandewch v<apo/><isp/>esgys<caesura/> i syr siorys</l>
+<l>myn duw meistir<caesura/> mi ddweda<isp/><apo/>r gwir</l>
+<l><fw>10</fw>myvi a vy<caesura/> bymp o<isp/><apo/>r hainy</l>
+<l>yn kael troelo<caesura/> na wrth sywto</l>
+<l><fw>11</fw>a thair ailwaith<caesura/> yn vy llawnwaith</l>
+<l>yn taly <apo/>r da<caesura/> vym ny chwyna</l>
+<l><fw>12</fw>ar ddwy eryll<caesura/> gorfod sevyll</l>
+<l>lle rhoes ych kar<caesura/> chwi vi yngharchar</l>
+<l><fw>13</fw>yn rhe gynffig<caesura/> sytai yrddedig</l>
+<l>ag o vewn gwal<caesura/> kastell tvbal</l>
+<l><fw><damage><supplied>14</supplied></damage></fw>ag o<isp/><apo/>n byse<caesura/> duw katwo e</l>
+<l>y jarll da yno<caesura/> i byswn eto</l>
+<l><fw><damage><supplied>15</supplied></damage></fw> ag y leni<caesura/> vel dyma vi</l>
+<l>ailwaith ych llys<caesura/> chwi syr siorys</l>
+<l><fw>16</fw><apo/>dd<isp/>wyf j <apo/>n ofnys<caesura/> dyvod y<isp/><apo/>ch llys</l>
+<l>na chair ych bronn<caesura/> ail kaswallon</l>
+<l><fw>17</fw>os chwi a sy<caesura/> yn ddig wrthy</l>
+<l>am droi haibo<caesura/> rhag ych blino</l>
+<!--next couplet added in margin-->
+<l><add place="right-margin">gwae vi vlined<caesura/> i mi yn hynged</add></l>
+<l><add place="right-margin">na bewn wedy<caesura/> kael vy<isp/>ngladdy</add></l>
+<l><fw>18</fw>y pendevig<caesura/> <apo/>dd<isp/>wyf jnnav <apo/>n ddig</l>
+<l>wrthychwithe<caesura/> pai gwelwn le</l>
+<l><fw>19</fw>wrth j dwesbwyd<caesura/> yn llan gynwyd</l>
+<l>ych ewyllys<caesura/> chwi syr siorys</l>
+<l><fw>20</fw>ddyvod llaidir<caesura/> ailwaith i<isp/><apo/>r tir</l>
+<l>a dwyn dwy vy<caesura/> oddiwrth vy<isp/>n<dsp/>hy</l>
+
+<pb n="NLW 13070B, 11"/>
+
+<l><fw>21</fw>bai sy o ladron<caesura/> ved gaer llion</l>
+<l>gawr ar ddyfrdwy<caesura/> betai <apo/>n kanmwy</l>
+<l><fw>22</fw>diawl a ddygvn<caesura/> hwy vywch ond vn</l>
+<l>o<dsp/>ddiarna<caesura/> gwnaen i gwaetha</l>
+<l><fw>23</fw>ag i mae honn<caesura/> yn hen gordon</l>
+<l>led hesb ddiog<caesura/> vn<dsp/>llygaidog</l>
+<l><fw>24</fw>tryan oedd hynn<caesura/> bucho i henddyn</l>
+<l>dwl byddar hen<caesura/> a dall haechen</l>
+<l><fw>25</fw>onyd dwaised<caesura/> chwi gewch glywed</l>
+<l>bwedd i ordra<caesura/> vi hynn yma</l>
+<l><fw>26</fw>maddauwchwi<caesura/> i mi ych oedi</l>
+<l>i<dsp/>dd<isp/>wyf jnne<caesura/> yn maddav i chwithe</l>
+<l><fw>27</fw>ni drown waithon<caesura/> yn heddychlon</l>
+<l>a chwi vlinwch<caesura/> rhag yr heddwch</l>
+<l><fw>28</fw>os nyd<isp/>ai <apo/>m hol<caesura/> o nef bydol</l>
+<l>i maes o<isp/><apo/>ch ty<caesura/> nes vy maeddy</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 34</trailer>
+
+</div></body></text>
+
+<text id="TIRh_7"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">R</hi>oed duw i vawr rhad<caesura/> a llwydd a phen llad</l>
+<l>ny twr goler wlad<caesura/> tra gloew i lenn</l>
+<l><fw>2</fw>ty gwyn teg wyd<caesura/> llew ag eryr llwyd</l>
+<l>kartre <apo/>r havl wyd<caesura/> kwrt yr hal wenn</l>
+<l><fw>3</fw>kroes dai krist jor<caesura/> mor wynn airw mor</l>
+<l>hael a drych jvor<caesura/> hael drychevenn</l>
+
+<pb n="NLW 13070B, 12"/>
+
+<l><fw>4</fw>a gwledd y chwech gwlad<caesura/> yn rhydd ag yn rhad</l>
+<l>kael tai adailiad<caesura/> koel tad elen</l>
+<l><fw>5</fw>gwawn grest gwyn ner<!--n above n?--> gra<caesura/> mynnfyr lliw mamoa</l>
+<l>gwyn grys o aira<caesura/> gwenn groes seren</l>
+<l><fw>6</fw>ffimrav<!--?ffinnav--> pob ffenest<caesura/> oes i mwy yn wesmest<!--wes-?--></l>
+<l>yny ywchel hoewfrest<caesura/> ywchlaw hafren</l>
+<l><fw>7</fw>gwydr ar gydfod<caesura/> main nadd liw manod</l>
+<l>res<!--Res--> myntai lewod<caesura/> rismwnt<!--R--> lawen</l>
+<l><fw>8</fw>parth llawn pyrth ar lled<caesura/> dwrbil diarbed</l>
+<l>tramwy a gweled<caesura/> tir mair o gwlen</l>
+<l><fw>9</fw>ynyr hal yn rhoi <apo/>r ych<caesura/> yn byw <apo/>n hir i bych</l>
+<l>a rauad<!--R--> aur wych<caesura/> o rhyd ar wenn</l>
+<l><fw>10</fw>graen a gwaed gronw goch<caesura/> ffylib ny ffaeloch</l>
+<l>ar berfil eloch<caesura/> ar bel aur velen</l>
+<l><fw>11</fw>wythran aeth ar jav<caesura/> brodyr ar brydiav</l>
+<l>rywiowgwaed<!--R--> orav<caesura/> o reged<!--R--> a jrien</l>
+<l><fw>12</fw>naw maes yny maen<caesura/> ar brain awna br<add place="supralinear">a</add>en</l>
+<l>ewch i chwarav baen<caesura/> ar ych ywch benn</l>
+<l><fw>13</fw>a lladd hyd y llawr<caesura/> plyg kaith palfau <apo/>r kawr</l>
+<l>a rhann yn vnawr<caesura/> o hil ronwenn<!--R--></l>
+<l><fw>14</fw>vn mab yny maes<caesura/> a ladd ag adain laes</l>
+<l>gwir jesu byrhaes<caesura/> vu ar y groes brenn</l>
+<l><fw>15</fw>try <apo/>r oes yt ar hyd<caesura/> trychant trwy jechyd</l>
+<l>kryston a gwawn ynghyd<caesura/> krist ag Ann wenn</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 35</trailer>
+</div></body></text>
+
+<text id="TIRh_8"><body><div>
+<pb n="NLW 13070B, 13"/>
+
+<lg>
+<l><fw>1</fw><hi rend="rubric">D</hi>uw gwyn a<isp/><apo/>n gwnaeth<caesura/> pwy gyhyraeth</l>
+<l>i ddyn yw<isp/><apo/>r byd<caesura/> am i vywyd</l>
+<l><fw>2</fw>heddiw yn gryf<caesura/> hoenys<!--ed hoenus--> hainyf</l>
+<l>ag yvory<caesura/> yn<isp/>y gladdy</l>
+<l><fw>3</fw>ddoe ny berthog<caesura/> traws kenedlog</l>
+<l>heddiw<isp/><apo/>r bobol<caesura/> oll ny ddansiol</l>
+<l><fw>4</fw>ddoe pawb yddo<caesura/>&nbsp;&yn;<!--first "/" double function--> kryny kapo</l>
+<l>heddiw <apo/>n vnig<caesura/> tlawd pallennig</l>
+<l><fw>5</fw>afraid i bydd<caesura/> llawen vndydd</l>
+<l>nyd ody<isp/><apo/>r byd<caesura/> hynn ond tristyd</l>
+<l><fw>6</fw>ve ddaw govyn<caesura/> ar bob rhyw ddyn</l>
+<l>am a rhoes e<caesura/> yn<isp/>y ene</l>
+<l><fw>7</fw>ag a ddelo<caesura/> ailwaith hano</l>
+<l>a grav<isp/>'r<!--apo not in ed--> galon<caesura/> ond yn gyvion</l>
+<l><fw><corr resp="transcr" sic="9">8</corr></fw>ny ddwg neb dda<caesura/> i<isp/><apo/>r byd yma</l>
+<l>nyd<isp/>a ganto<caesura/> ddim pan elo</l>
+<l><fw><corr resp="transcr" sic="10">9</corr></fw>o vair vorwyn<caesura/> gwrando di<isp/><apo/>r kwyn</l>
+<l>a<isp/><apo/>r llef sy dros<caesura/> bell ag agos</l>
+<l><fw><corr resp="transcr" sic="11">10</corr></fw>dy vab di sy<caesura/> yn harglwydd jesu</l>
+<l>yn wr kroelon<caesura/> wrth dylodion</l>
+<l><fw><corr resp="transcr" sic="12">11</corr></fw>yn brid i ddaeth<caesura/> pob prydigaeth</l>
+<l>ar kydwybod<caesura/> gwedy darfod</l>
+<l><fw>12</fw>kariad perffaith<caesura/> a aeth ymaith</l>
+<l>v<apo/><isp/>aeth rhyw aflwydd<caesura/> ar gredigrwydd</l>
+
+<pb n="NLW 13070B, 14"/>
+
+<l><fw>13</fw>a<isp/><apo/>r gwr a vy <apo/>n vawr yn helpy</l>
+<l>v<apo/><isp/>aeth duw ag e<caesura/> ag a<isp/><apo/>i pie</l>
+<l><fw>14</fw>och ddydd och nos<caesura/> vynd a thomos</l>
+<l>ap willam na<caesura/> chae <add place="supralinear">dair</add><!--by diff hd?--> oes Adda</l>
+<l><fw>15</fw>ny ddaeth twrn drwg<caesura/> i vorgannwg</l>
+<l>es tair oes waeth<caesura/> nav varwolaeth</l>
+<l><fw>16</fw>mynd ag enaid<caesura/> y llaisonaid</l>
+<l>a blodaevn<caesura/> wiliam siankvn</l>
+<l><fw>17</fw>nyd<isp/>oedd rhyvedd<caesura/> kwyno i vonedd</l>
+<l>mae kwyn a sy<caesura/> waeth na hynny</l>
+<l><fw>18</fw>ny chae dduw o<caesura/> sais na chymro</l>
+<l>wr o<isp/><apo/>i siwt e<caesura/> i gynheddfe</l>
+<l><fw>19</fw>distaw gairwir<caesura/> kredig kywir</l>
+<l>doeth a chymen<caesura/> hael a llawen</l>
+<l><fw>20</fw>ny bu <apo/>r bailchon<caesura/> na<isp/><apo/>r tylodion</l>
+<l>neb na chavas<caesura/> da gan domas</l>
+<l><fw>21</fw>ny wnn j vod<caesura/> gwr o liflod<!--ed lislod, B23 liflod--></l>
+<l>vath berchen ty<caesura/> en holl gymry</l>
+<l><fw>22</fw>balch ag anfalch<caesura/> bara didalch</l>
+<l>kann gwenith gwyn<caesura/> pob rhyw enllyn</l>
+<l><fw>23</fw>pym rhyw ddiod<caesura/> kwrw a bragod</l>
+<l>gwin koch a gwyn<caesura/> a meddyglyn</l>
+<l><fw>24</fw>a<isp/><apo/>i rhoi <apo/>n ddigost<caesura/> ag yn ddivost</l>
+<l>i bob rhyw ddyn<caesura/> heb i wravvn</l>
+
+<pb n="NLW 13070B, 15"/>
+
+<l><fw>25</fw>mwyn a thirion<caesura/> wrth dylodion</l>
+<l>rhoi amwisgoedd y<caesura/>&nbsp;&yr;<!-- "/" double function--> mairw a<isp/><apo/>i kladdy</l>
+<l><fw>26</fw>roddi<!--R--> dillad<caesura/> i<isp/><apo/>r pedair gwlad</l>
+<l>pob priodas<caesura/> a<isp/>wnai domas</l>
+<l><fw>27</fw>ag os tlawd vai<caesura/>&nbsp;&yr;<!--/ double function--> sawl a<isp/><apo/>i kaffai</l>
+<l>rhoi dydd hir y<caesura/> allel taly</l>
+<l><fw>28</fw>a phan delid<caesura/> ny ddoe'n hwy gid</l>
+<l>yddy bwrs e<caesura/> ond i madde</l>
+<l><fw>29</fw>ble mae heddy<!--corr from hedde?--><caesura/> a<isp/>wna velly</l>
+<l>ble bu ble bydd<caesura/> byth dragywydd</l>
+<l><fw>30</fw>roed<!--R--> duw dernas<caesura/> nef i domas</l>
+<l>ag yddy blant<caesura/> ras a ffyniant</l>
+<l><fw>31</fw>a rhoed jechyd<caesura/> er i thristyd<!--ed tristyd; B23 er y tristyd--></l>
+<l>yddy briod<caesura/> rhoddi kardod</l>
+<l><fw>32</fw>ny chlyw vndyn<caesura/> y weddi hynn</l>
+<l>na ddweto<isp/>e o<isp/><apo/>i benn<caesura/> jesu amen.</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 36</trailer>
+</div></body></text>
+
+<text id="TIRh_9"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">A</hi>rglwydd jesu<caesura/> dros dy garu</l>
+<l>truan a thost<caesura/> a ni gwnaethost</l>
+<l><fw><damage><supplied>2</supplied></damage></fw>roi ni ventig<caesura/> gwr yrddedig</l>
+<l>a<isp/><apo/>i ddwyn rhagon<caesura/> yn ddi ymryson</l>
+<l><fw><damage><supplied>3</supplied></damage></fw>a thi nyd gwiw<caesura/> ym gyveddliw</l>
+<l>ve gyrch pob gwr<caesura/> i wsnaethwr</l>
+
+<pb n="NLW 13070B, 16"/>
+
+<l><fw>4</fw>ond v<apo/><isp/>arglwydd dad<caesura/> gann dy gennad</l>
+<l>rhy vyrr i ddaeth i venthygiaeth</l>
+<l><fw>5</fw>bychan ddigon<caesura/> vysai <!--ed supplies [y]--> syr sion</l>
+<l>watgin ny byd<caesura/> dair oes ennyd</l>
+<l><fw>6</fw>nyd gn<add place="supralinear">w</add>ad<!--add here?; B23 knawd--> yn ol<caesura/> y vath yrddol</l>
+<l>gwnny aberth<caesura/> i sant lidnerth</l>
+<l><fw>7</fw>ny bu rygor<caesura/> ywch benn allor</l>
+<l>bab nag Awstin<caesura/> well o ladin</l>
+<l><fw>8</fw>kywir i gwnaeth<caesura/> i wsanaeth</l>
+<l>i dduw ar hyd<caesura/> i bu vywyd</l>
+<l><fw>9</fw>ar gant ny chaid<caesura/> o<isp/><apo/>r vakriaid</l>
+<l>well perchen ty<caesura/> en holl gymry</l>
+<l><fw>10</fw>amlach oedd win<caesura/> syr sion watgin</l>
+<l>nag esgob llan<caesura/> daf<!--caesura splits word--> i hvnan</l>
+<l><fw>11</fw>pan ddavth jesu<caesura/> yddy gyrchy</l>
+<l>ve wnaeth dolur<caesura/> ar gwmpniwyr</l>
+<l><fw>12</fw>lai lai waeth waeth<caesura/> y gwmpniaeth</l>
+<l>vwy vwy<isp/><apo/>r diglod<caesura/> a<isp/><apo/>r kebydddod</l>
+<l><fw>13</fw>gwae blwyf ylltyd<caesura/> i bod ny byd</l>
+<l>a phlwyf a gwlad<caesura/> lidnerth abad</l>
+<l><fw>14</fw>gwae blwyf dewi<caesura/>&nbsp;&yr;<!--/ double function--><dsp/>joed o<isp/><apo/>i golli</l>
+<l>a phlwyf a llann<!--ed llan--><caesura/> dydwg dryan</l>
+<l><fw>15</fw>pei rhoe<isp/><apo/>r drindod<caesura/> yddo<isp/>e gyvod</l>
+<l>ailwaith i<isp/><apo/>r byd<caesura/> yn<isp/>y jenktyd</l>
+
+<pb n="NLW 13070B, 17"/>
+
+<l><fw>16</fw>ve gae drysto<caesura/> ond i rhivo</l>
+<l>ddaigain vikar<caesura/> myn sant jlar</l>
+<l><fw>17</fw>trist yw<!--ed in [...]--> am<dsp/>dano<caesura/> person krallo</l>
+<l>ar hael di bring<caesura/> sion ystradling</l>
+<l><fw>18</fw>ar anhawgwr<caesura/> ffylib lychwr</l>
+<l>a lloen ap Rys<!--R--><caesura/> sy hiraethys</l>
+<l><fw>19</fw>Rys ap siankin<caesura/> aeth at vrenin</l>
+<l>nef o<isp/><apo/>r blaen y<caesura/> beri<!--somehow corr--> gyrchy</l>
+<l><fw>20</fw>ag yntwy sydd<caesura/> <apo/>n<isp/>y llawenydd</l>
+<l>ninnav ny byd<caesura/> hynn mewn tristyd</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 37</trailer>
+</div></body></text>
+
+<text id="TIRh_10"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">Y</hi> grog yw<isp/><apo/>r gras<caesura/> i govio gavas</l>
+<l>jesu rhoe lanas<caesura/> ar i elynion</l>
+<l><fw>2</fw>er poen er penyd<caesura/> drostyn ar dristyd</l>
+<l>noswaith y gablyd<caesura/> gyda i ddisgyblon</l>
+<l><fw>3</fw>y modd i maeddwyd<caesura/> o sgwrsiav ysgwrsiwyd<!-- ed -swyd--></l>
+<l>drwy benn i gyrrwyd<caesura/> drain boen goron</l>
+<l><fw>4</fw>rygas i rhakwyd<!--ed rhagwyd--><caesura/> tynn jawn i tynnwyd</l>
+<l>gwir jesu hoelwyd<caesura/> ar y groes hoelion</l>
+<l><fw>5</fw>koded yn kaidwad<caesura/> yn duw a<isp/><apo/>n jawndad</l>
+<l>y barnwr a ddywad<caesura/> brenin jddewon</l>
+<l><fw>6</fw>dallwr a dwyllwyd<caesura/> o<isp/><apo/>r karchar kyrchwyd</l>
+<l>llaw a gwaew helwyd<caesura/> i holli<!--check--> galon</l>
+
+<pb n="NLW 13070B, 18"/>
+
+<l><fw>7</fw>gwir jesu grasys<caesura/> lawnserch i lonsys</l>
+<l>yn rhydd olaigys<caesura/> i rhoddai olygon</l>
+<l><fw>8</fw>da oedd duw dad<caesura/> rhoi vn mab yn rhad</l>
+<l>o ddirfawr gariad<caesura/> i<isp/><apo/>r yvydd gwirion</l>
+<l><fw>9</fw>i<isp/><apo/>r grog ar y groes<caesura/> wrth yn rhaid ni rhoes</l>
+<l>er byrhae dainoes<caesura/> i bryny dynion</l>
+<l><fw>10</fw>dy gorff duw yny gair<caesura/> gwir vab gwyry vair</l>
+<l>trindod ny gadair<caesura/> troi yn gredigion</l>
+<l><fw>11</fw>dy lvn delw dduw<caesura/> gwyddyn nad gaudduw</l>
+<l>rhag kyhoeddir siesuw<caesura/> vo kuddiavr saeson</l>
+<l><fw>12</fw>pa gwyn pa ganiaid<!--ed -iad--><caesura/> pai ddyn pwy ddywaid</l>
+<l>ny ddon yn gywiriaid<caesura/> i dduw nar goron</l>
+<l><fw>13</fw>gwelwch vod gelyn<caesura/> eneidav yndyn</l>
+<l>y diawl a ffelstyn<caesura/> na dala <apo/>n ffailston</l>
+<l><fw>14</fw>trachwant ny trochi kadarn ny kodi</l>
+<l>chwerwach nar geri<caesura/> chwynychy <apo/>r goron</l>
+<l><fw>15</fw>diva mab duw evaeth<caesura/> rhylys rhiolaeth</l>
+<l>pilwyr<!--ed filwyr--> llywodraeth<caesura/> polwyr lladron</l>
+<l><fw>16</fw>kar dduw <apo/>r kywiriaid<caesura/> yddyvion ddevaid</l>
+<l>gwainaid llavuriaid<caesura/> ai llevau oeron</l>
+</lg>
+
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 38</trailer>
+
+</div></body></text>
+
+<text id="TIRh_11"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">O</hi> dduw nef pa vyd yw hi ar ddynion</l>
+<l>dialedd a rhoist vel ar dalon</l>
+
+<pb n="NLW 13070B, 19"/>
+
+<l><fw>2</fw>darostwng i<dsp/>dd<isp/>wyd bawb yn driston</l>
+<l>marfolaeth a<isp/>wnaeth mawr ovalon</l>
+<l><fw>3</fw>e vagwyd yn gwlad bendefigion</l>
+<!--next two lines "missing in margin"
+Check microfilm-->
+<l>y dygodd duw holl gymodogon<!--ed gymadogion--></l>
+<l>y ddynwyd y kael yr nen ddynion</l>
+<l>o<isp/><apo/>i vebaint ve dyg duw hwy<isp/><apo/>n vaibon</l>
+<l><fw>4</fw>y llysoedd lle bu egin llaison</l>
+<l>ny thygiawdd yn bryd aeth yn waigon</l>
+<l><fw>5</fw>o gwenfair y<isp/><apo/>th blwyf gwae <apo/>n hwyr gwainon</l>
+<l>tir lidnerth a<isp/><apo/>th blwyf gwaer tylodion</l>
+<l><fw>6</fw>a dewi dy blwyf lef brain duon</l>
+<l>llwydd kewydd bu ddwyn<!--ed in [...]--> lladd y kywion</l>
+<l><fw>7</fw>ry dannwrth ny wlad i rhy dynion</l>
+<l>arythlef ar dduw trist hiraethlon</l>
+<!--no No. 8-->
+<l><fw>9</fw>kerdd orwag oedd gynt gwaith kerddorion</l>
+<l>poen adfyd a<isp/>wnaeth pawb yn vudion</l>
+<l><fw>10</fw>dwyn matho <apo/>n<isp/>y ol nyd<isp/>ym waithon</l>
+<l>brawd Adda vras oedd ar brydyddion</l>
+<l><fw>11</fw>ny welwn i kair gwnawn ni wnelon</l>
+<l>mab wiliam <!--ed suppies [mwy]--> gan dduw er ambilion</l>
+<l><fw>12</fw>a<isp/><apo/>i <apo/>dwaenai e<isp/><apo/>n dda ymysg dynion</l>
+<l>a<isp/><apo/>i gwelas ve gan gwae i galon</l>
+<l><fw>13</fw>roi gairav am wys yn rhagorion</l>
+<l>digryvach na neb o<isp/><apo/>r digryvion</l>
+<l><fw>14</fw>ny gwindai ai blas mawr ny gwyndo<damage><supplied>n</supplied></damage></l>
+<l>tra haelach<!--ed helaeth--> nag vn o<isp/><apo/>r tri haelion</l>
+
+<pb n="NLW 13070B, 20"/>
+
+<l><fw>15</fw>oes daunydd a bod degoes dynion</l>
+<l>i gwelir ny byd vab vn galon</l>
+<l><fw>16</fw>dwyn harri <apo/>n<isp/>y ol nyd anhirion</l>
+<l>brywysgerdd a<isp/>wnaeth odlav braisgon</l>
+<l><fw>17</fw>brytaniaidd nyd dim yw bryd dynion</l>
+<l>nav siarad am gael oesav hirion</l>
+<l><fw>18</fw>sion airav mor ddoeth a sain sieron</l>
+<l>yn siroedd oedd vab domas wirion</l>
+<l><fw>19</fw>gwir jesu er<dsp/>joed a garyson</l>
+<l>e dygawdd duw lan gymodogon</l>
+<l><fw>20</fw>glynn ogwr lle bu vairdd glynogion</l>
+<l>ar ddiwedd y byd hwy ddarfyon</l>
+<l><fw>21</fw>o dyrwyd ir mab dydded oeron</l>
+<l>o vairig e vaeth gwawd yn vyrion</l>
+<l><fw>22</fw>ym methiant ny byd yma waithon</l>
+<l>maen wbwb ny hol nef i<isp/><apo/>r maibion</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 39</trailer>
+</div></body></text>
+
+<text id="TIRh_12"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">K</hi>reawdr yn kar<caesura/>&nbsp;<corr resp="scribeA" sic="mor">nef</corr> a daear</l>
+<l>mor ag att hynn<caesura/> a sydd yndyn</l>
+<l><fw>2</fw>gair duw oedd e<caesura/> yn<isp/>y dechre</l>
+<l>a duw yw<isp/><apo/>r gair<caesura/> a ddyg gwenfair</l>
+<l><fw>3</fw>yn dri ag vn<caesura/> duw yn kalyn</l>
+<l>tad mab hevyd<caesura/> a glan ysbryd</l>
+
+<pb n="NLW 13070B, 21"/>
+
+<l><fw>4</fw>yn vn a thri<caesura/> <apo/>n<isp/>y baichogi</l>
+<l>ag er i ddwyn<caesura/> mair sydd vorwyn</l>
+<l><fw>5</fw>yn dduw nevol<caesura/> yn ddyn knawdol</l>
+<l>yn vara a gwin<caesura/> ag yn vrenin</l>
+<l><fw>6</fw>ag nyd ffyddlon<caesura/> dim o<isp/><apo/>r kriston</l>
+<l>ny bo <apo/>n kredy<caesura/> vod e velly</l>
+<l><fw>7</fw>mawr o gariad<caesura/> a roes y tad</l>
+<l>dduw nef arnom<caesura/> ni <apo/>r kristnogion</l>
+<l><fw>8</fw>vo wnaeth angel<caesura/> v<apo/><isp/>aeth yn gythrel</l>
+<l>dyna sampol<caesura/> i ni<isp/><apo/>r bobol</l>
+<l><fw>9</fw>penna gairbronn<caesura/> yr engylion</l>
+<l>a theka i bryd<caesura/> a<isp/><apo/>i wedd hevyd</l>
+<l><fw>10</fw>pan valchioedd<caesura/> ef a syrthioedd</l>
+<l>er dangos bwedd<caesura/> i<dsp/>dd<isp/>a<isp/><apo/>r balchedd</l>
+<l><fw>11</fw>kenfigenny<caesura/> a thrachwanty</l>
+<l>ar balchedd a<caesura/>&nbsp;&yr;<!--/ double function--> llid a syrthia</l>
+<l><fw>12</fw>mae<isp/><apo/>r pedwar hynn<caesura/> ar vn gwraiddyn</l>
+<l>ag vn ny bydd<caesura/> heb i gilydd</l>
+<l><fw>13</fw>ar sawl i bo &yn;<!--/double function, word--><caesura/> hwy <apo/>n<isp/>y galon</l>
+<l>mae duw yddo<caesura/> gwedy ordro</l>
+<l><fw>14</fw>poen vffernol<caesura/> yn dragwyddol</l>
+<l>a diva vo<caesura/><!--/ double function-->&nbsp;&yn; tyvy o hano</l>
+<l><fw>15</fw>ailwaith y naf<caesura/> duw wnaeth Addaf</l>
+<l>ve a<isp/><apo/>i gymar<caesura/> o bridd daear</l>
+
+<pb n="NLW 13070B, 22"/>
+
+<l><fw>16</fw>ve rhoes yddyn<caesura/> hwy<isp/><apo/>r holl vyd hynn</l>
+<l>a lle i orffwys yn<isp/>y bradwys</l>
+<l><fw>17</fw>saith awr yn bring<caesura/> i bu <apo/>r taring</l>
+<l>gynt na gado<caesura/>&nbsp;&yr;<!--/ double function--> diawl yw twyllo</l>
+<l><fw>18</fw>am hynn gorfod<caesura/> arnynt ddyvod</l>
+<l>ylldau &yn; hoethon<caesura/> i lynn ebron</l>
+<l><fw>19</fw>heb gael trwyddyd<caesura/> yddy gymryd</l>
+<l>ond gwellt<!--t added by later hd?--> a dail<caesura/> vel dau anevail<!--a- faint, erased?--></l>
+<l><fw>20</fw>a byw <apo/>n<isp/>y byd<caesura/> trwy vawr ovyd</l>
+<l>gwedy gorfod<caesura/> y tri phechod</l>
+<l><fw>21</fw>y glothineb<caesura/> a<isp/><apo/>r godineb</l>
+<l>a<isp/><apo/>r diogi<caesura/> vel dyna <apo/>r tri</l>
+<l><fw>22</fw>a<isp/><apo/>r pechodau<caesura/> wnaethont hwyll dav</l>
+<l>hynn yma gair<caesura/> yn<isp/>y kyvair</l>
+<l><fw>23</fw>newyn noethi<caesura/> kynen tlodi</l>
+<l>kwilydd klevyd<caesura/> poen daisyvyd</l>
+<l><fw>24</fw><apo/>dd<isp/>ym ni <apo/>n dwedvd<caesura/> yn bod ni gyd</l>
+<l>yn vaibon y<caesura/> dduw a<isp/><apo/>i garu</l>
+<l><fw>25</fw>a gwaeth na<isp/><apo/>r kwn<caesura/> yn pan ddwedwn</l>
+<l>yn vn amser<caesura/> pader noster</l>
+<l><fw>26</fw>ony bai <apo/>n bod<caesura/> o<isp/><apo/>n hen bechod</l>
+<l>yn meddylio<caesura/> ar<!--ed am--> droi ato</l>
+<l><fw>27</fw><damage><supplied>m</supplied></damage>arddel a<isp/><apo/>r tad<caesura/> yw<isp/><apo/>n dwedvdiad</l>
+<l><damage><supplied>a</supplied></damage>n klonav &yn; vn<caesura/> a<isp/><apo/>n tri gelyn</l>
+
+<pb n="NLW 13070B, 23"/>
+
+<l><fw>28</fw>y knawd a<isp/><apo/>r da<caesura/> yw<isp/><apo/>r hain yma</l>
+<l>a<isp/><apo/>r kythrel sy<caesura/>&nbsp;&yn;<!--/ double function--> peri kary</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 40</trailer>
+</div></body></text>
+
+<text id="TIRh_13"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">Y</hi> ddelw auraid ddolurys</l>
+<l>delw dduw dy alw i ddys</l>
+<l><fw>2</fw>y grog wyn gwyarog wyd</l>
+<l>lan gwiniaith o langynwyd</l>
+<l><fw>3</fw>llvn y mab rhad jra<add place="supralinear">d</add>boen</l>
+<l>ny llvn i bu <apo/>n llawn o boen</l>
+<l><fw>4</fw>edrych ar hyd y drych hwnn</l>
+<l>velly <!--ed supplies [y]--> bu jesu <apo/>n<isp/>y basiwnn</l>
+<l><fw>5</fw>meddyliwn am i ddolur</l>
+<l>maen gred yn weled i gur</l>
+<l><fw>6</fw>ofni heb raid yn vab bronn</l>
+<l>ir oedd dduw yr jddewon</l>
+<l><fw>7</fw>vae wyry vam ef ar var</l>
+<l>i gilio rhag gwaew galar</l>
+<l><fw>8</fw>herwa <apo/>n wr talh<!--?--> hirwyn teg</l>
+<l>yddoedd jesu a<isp/><apo/>i ddauddeg</l>
+<l><fw>9</fw>sidas anwylwas ydoedd</l>
+<l>chwarav &ym;<!--= am--><dsp/>danaw ddifav <apo/>dd<isp/>oedd</l>
+<l><fw>10</fw>er gwerthy bronn gwirionfab</l>
+<l>ef ai <apo/>r vn mes ef a<isp/><apo/>r mab</l>
+
+<pb n="NLW 13070B, 24"/>
+
+<l><fw>11</fw>gwedy dyvod travod trwg<!--=drwg--></l>
+<l>d<apo/><isp/>alon oedd o vewn d<apo/><isp/>olwg</l>
+<l><fw>12</fw>dy vradwr gwenaithwr gwann</l>
+<l>a gaisav gael dy gusan</l>
+<l><fw>13</fw>eth rhwymawdd dy nawdd duw ner</l>
+<l>yr wyth bilain wrth biler</l>
+<l><fw>14</fw>dyrny gwiw jesu grasol</l>
+<l>o dwy ffust gord rhwng dau ffol</l>
+<l><fw>15</fw>divai rannoedd duw vrenin</l>
+<l>i gnawd ef yn gann a gwin</l>
+<l><fw>16</fw>dyfr a gwin dy vri a gad</l>
+<l>eli vair vu lef airad</l>
+<l><fw>17</fw>dyvod a chawg a dyf<add place="supralinear">w</add>r</l>
+<l>yd yn llawn da jawn wyd wr</l>
+<l><fw>18</fw>ar dy ddaulin vrenhinwaed</l>
+<l>ogylch droi a golchi draed</l>
+<l><fw>19</fw>addef o wiw dduw yddynt</l>
+<l>a gad am waith eva gynt</l>
+<l><fw>20</fw>hoelo <apo/>r dwylo ny halaeth</l>
+<l>a<isp/><apo/>i draed ef ar drydy vaeth</l>
+<l><fw>21</fw>diod a ddauth gwedy ddwyn</l>
+<l>gwin egr bystl a gwenwyn</l>
+<!--Poem ends here in B9; from Iolo MS 40-->
+<!--
+<l>Ei w&acirc;n a gwayw yn ei gorph</l>
+<l>Oedd oergur ar ddiweirgorph</l>
+<l>Yn frocw rhoi pob difriaeth</l>
+<l>Am Ior nef a marw a wnaeth</l>
+<l>Tost y dioddefes Iesu</l>
+<l>Y loes er gwared ei lu</l>
+<l>Credwn ei air cariad nef</l>
+<l>Oedd iddaw felly ddioddef</l>
+-->
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 41</trailer>
+</div></body></text>
+
+<pb n="NLW 13070B, 25"/>
+
+<text id="TIRh_14"><body><div>
+<lg>
+<l><fw>1</fw>Gwrandewch ddau air<caesura/> trwy gennad ma<damage><supplied>ir</supplied></damage></l>
+<l>o lawenydd<caesura/> er mwyn y dydd</l>
+<l><fw>2</fw>dauthym i<isp/><apo/>r byd<caesura/> heb gadernyd</l>
+<l>na mawr o dda<caesura/> os meddyla</l>
+<l><fw>3</fw>a phan elo<caesura/> i<isp/><apo/>r pridd ar gro</l>
+<l>gennyf nyd<isp/>a<caesura/> dim o<!--ed a--><dsp/>ddyma</l>
+<l><fw>4</fw>na da <apo/>n<isp/>y byd<caesura/> na mawr olyd</l>
+<l>ond krys a vo<caesura/> a dau glwm arno</l>
+<l><fw>5</fw>vo ddaw dydd b<add place="supralinear">r</add>awd<caesura/> a phawb <apo/>n<isp/>y knawd</l>
+<l>i wrando barn<caesura/> gyvion gadarn</l>
+<l><fw>6</fw>pan ddel gwaithred<caesura/> korff ag ened</l>
+<l>ag ysgryven pawb <apo/>n<isp/>y dalken</l>
+<l><fw>7</fw>yno i govyn<caesura/> yn harglwydd yn</l>
+<l>a gadwyson<caesura/> ni <apo/>r gorchmynion</l>
+<l><fw>8</fw>pwy sy ddychyn<caesura/> yr amser hynn</l>
+<l>wedyd mae do<caesura/> yn wir wrtho</l>
+<l><fw>9</fw>v<apo/><isp/>arglwydd jesi<caesura/> ny<isp/><apo/>ch gwelson ni</l>
+<l>ny byd yno<caesura/> er<dsp/>joed yn kaiso</l>
+<l><fw>10</fw>gwelsochwi <apo/>r gwann<caesura/> vel vy hvnan</l>
+<l>ym henw j<caesura/> <apo/>dd<isp/>oedd e<isp/><apo/>n erchi</l>
+<l><fw>11</fw>roesoch yddo<caesura/> yddy swkro</l>
+<l>chwi kewch engwledd y drigaredd</l>
+<l><fw>12</fw>mae tri gelyn<caesura/> trwm y<isp/><apo/>n herbyn</l>
+<l>y knawd a<isp/><apo/>r byd<caesura/> a<isp/><apo/>r drwg ysbryd</l>
+
+<pb n="NLW 13070B, 26"/>
+
+<l><fw>13</fw>a<isp/><apo/>r tri hynny<caesura/> trwy dwyll a sy</l>
+<l>yn troi <apo/>r ened<caesura/> i<isp/><apo/>r kaethiwed</l>
+<l><fw>14</fw>llesgedd gwae ni<caesura/> a diogi</l>
+<l>a glothineb<caesura/> trwm yw<isp/><apo/>r ateb</l>
+<l><fw>15</fw>ryvig balchedd<caesura/> peth oedd rhyvedd</l>
+<l>i vod mewn dyn<caesura/> brwnt o briddyn</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 42</trailer>
+</div></body></text>
+
+<text id="TIRh_15"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">D</hi>a oedd edrych<caesura/>&nbsp;<del>ar air duw</del> yn dra mynych</l>
+<l>ar air<!--somehow corrected--> duw a<caesura/> phyth i goffa</l>
+<l><fw>2</fw>i mae<isp/><apo/>r jesu<caesura/> yn kyfflybu</l>
+<l><apo/>n<isp/>y vengil e<!--somehow corrected--><caesura/> swr<add place="supralinear">n</add> o bethe</l>
+<l><fw>3</fw>ag nyd<isp/>oes vn<caesura/> gair o<dsp/>hanvn</l>
+<l>ond er synaid<caesura/> ar yr enaid</l>
+<l><fw>4</fw>v<apo/><isp/>aeth gwr medd e<caesura/> i hav hade</l>
+<l>ag aeth allan<caesura/> a had pywrlan</l>
+<l><fw>5</fw>a pheth o<isp/><apo/>r had<caesura/> a ddigwyddiad</l>
+<l>ar phyrdd a than<caesura/> draed hwy sathran</l>
+<l><fw>6</fw>a<isp/><apo/>r holl adar<caesura/> gwyllton anwar</l>
+<l>yn mynd ag e<caesura/> heb gael ffrwythe</l>
+<l><fw>7</fw>ar rhann arall<caesura/> ymlith ysgall</l>
+<l>drain a drysi<caesura/> yny vogi</l>
+<l><fw>8</fw>a<isp/><apo/>r drydedd ve<caesura/> gwymp ar roke</l>
+<l>ond i saethy<caesura/> maen difflanny</l>
+
+<pb n="NLW 13070B, 27"/>
+
+<l><fw>9</fw>a<isp/><apo/>r bedwrydd<caesura/> rhann mewn tir prydd</l>
+<l>yn dwyn ffrwythed<caesura/> ar i ganfed</l>
+<l><fw>10</fw>dieithr yw hynn<caesura/> heb i ovyn</l>
+<l>tywyll yw<isp/><apo/>r gair<caesura/> na ddeallair</l>
+<l><fw>11</fw>y llavuriad<caesura/> ydiw<isp/><apo/>r kywrad</l>
+<l>a<isp/><apo/>r had gaire<caesura/> duw yn hwynte</l>
+<l><fw>12</fw>ar ffyrdd llymon<caesura/> yw<isp/><apo/>r kristnogion</l>
+<l>nadel gaire<caesura/> duw <apo/>n<isp/>y kluste</l>
+<l><fw>13</fw>a<isp/><apo/>r adar sy<caesura/> ny dihady</l>
+<l>drwg ysbrydion<caesura/> sy <apo/>n troi<isp/><apo/>r galon</l>
+<l><fw>14</fw>drysi a gwyd<caesura/> ydiw<isp/><apo/>r golyd</l>
+<l>a sy <apo/>n mogi<caesura/>&nbsp;&yr;<!--/ double function--> holl ddaeoni</l>
+<l><fw>15</fw>ar rock na bo<caesura/>&nbsp;&yr;<!--/ double function--> had yn gwraiddo</l>
+<l>gwedy egin<caesura/> mae mynd yn grin</l>
+<l><fw>16</fw>dyn vo <apo/>n kymryd<caesura/> gair duw <apo/>n<isp/>y vryd</l>
+<l>ag yn<isp/>y mann<caesura/> i droi allan</l>
+<l><fw>17</fw>ar brynar prudd<caesura/> a sy ddedwydd</l>
+<l>a<isp/><apo/>r dyn a vo<caesura/> tebig yddo</l>
+<l><fw>18</fw>kael mae hwnnw<caesura/>&nbsp;&yr;<!--/ double function--> gair a<isp/><apo/>i gadw</l>
+<l>a gwnaethyr <apo/>n<isp/>y<caesura/> ol a<isp/><apo/>i gredy</l>
+<l><fw>19</fw>nyd sawl a vo<caesura/> ar dduw <apo/>n krio</l>
+<l>o laverydd a sy<caesura/> ddedwydd</l>
+<l><fw>20</fw>ond a drefna<caesura/> gwaithredoedd da</l>
+<l>a<isp/><apo/>i gyfraithav<caesura/> a<isp/><apo/>i orchmynnav</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys a<isp/><apo/>i kant 43</trailer>
+</div></body></text>
+
+<pb n="NLW 13070B, 28"/>
+
+<text id="TIRh_16"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">K</hi>reawdr<!--ed Kreadwr--> pob dim i ti kredaf</l>
+<l>ti ddyly gael pawb ti addolaf</l>
+<l><fw>2</fw>ti a gery bob dyn ti a garaf</l>
+<l>ti ddewis dy wyr ti weddiaf</l>
+<l><fw>3</fw>ry wylais am yd vynd ar haelaf</l>
+<l>di daring gwae vi ddaed ar dewraf</l>
+<l><fw>4</fw>os gwelliant lle mae n mynd nys gallaf</l>
+<l>syr water gwae vi nas rhou ataf</l>
+<l><fw>5</fw>gwae vinnav wrth bwy y govynnaf</l>
+<l>byth i adel ny ol byth i hudaf</l>
+<l><fw>6</fw>o cherddir yr holl vyd ny chwrddaf</l>
+<l>ai vaner e byth nys erfynnaf</l>
+<l><fw>7</fw>diwarnod mi wnn nada arnaf</l>
+<l>nydolig ym byw byth nad wylaf</l>
+<l><fw>8</fw>llwyth wilim o went llai yth welaf</l>
+<l>kadarnwych vaeth duw ar kadarnaf</l>
+<l><fw>9</fw>o epil y jarll vu wr aplaf</l>
+<l>o Raglan i maent bawb yn rhyglaf</l>
+<l><fw>10</fw>ryw anap a ddauth gwae n hwyr hynaf</l>
+<l>gwaer ailwaith ny ol y gwrolaf</l>
+<l><fw>11</fw>gwaer gwychion ai pyrth gwae r rhai gwychaf</l>
+<l>pai leni bai r gwaith pwy ywr blaenaf</l>
+<l><fw>12</fw>gwae glonnav i wyr gewri glanaf</l>
+<l><damage><c/></damage>i briod ny ol dwyn ail briaf</l>
+
+<pb n="NLW 13070B, 29"/>
+
+<l><fw>13</fw>darostwng awnaeth duw yn dristaf</l>
+<l>ragorol ar bawb y wraig araf</l>
+<l><fw>14</fw>hiraethy ny byd ywr radd waethaf</l>
+<l>llawenydd i ti velly hvnaf</l>
+<l><fw>15</fw>aur dorchog yd vab duw i archaf</l>
+<l>yn daliad yn lle dy dad alwaf</l>
+<l><fw>16</fw>el eneid i nef water lanaf</l>
+<l>nadoedd vndyn oi siwt wedi Addaf</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys ai kant 44</trailer>
+</div></body></text>
+
+<text id="TIRh_17"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">R</hi>ad duw ai ras<caesura/> ych plas mainin</l>
+<l>arglwydd ai stil<caesura/> o hil godwin</l>
+<l><fw>2</fw>yth lys maester<caesura/> water haelwin</l>
+<l>harbert gann tyrth<caesura/> da i pyrth byddin</l>
+<l><fw>3</fw>ny bu ve wys<caesura/> yn llys brenin</l>
+<l>o bob rhyw rhost<caesura/> vwy gost kegin</l>
+<l><fw>4</fw>bir kwrw er bod<caesura/> bragod gasgwin</l>
+<l>bara bwrdd tal<caesura/> nys mal melin</l>
+<l><fw>5</fw>ach gwraig o vraint<caesura/> saint y katrin</l>
+<l>yn rhoi bob tlawd<caesura/> gardawd ddibrin</l>
+<l><fw>6</fw>ar orav myd<caesura/> hyd try gythin</l>
+<l>or dwyrain vry<caesura/> yr gorllewin</l>
+<l><fw>7</fw>os mawr daulu<caesura/> vu gystennin</l>
+<l>ych llys heb drai<caesura/> ny llai r vyddin</l>
+
+<pb n="NLW 13070B, 30"/>
+
+<l><fw>8</fw>da berchen ty<caesura/> a vy Ellffin<!--ed Elffin--></l>
+<l>ai vardd pan oedd<caesura/> oedd daliesin</l>
+<l><fw>9</fw>mi drof ych plas<caesura/> yn was hengrin</l>
+<l>ail gwion bach<caesura/> or wrach gredwin</l>
+<l><fw>10</fw>ve ddauth o gau<caesura/> a dav vyrddin</l>
+<l>bai gwir i gyd<caesura/> kawn vyd gerwin</l>
+<l><fw>11</fw>pan droir saesneg<caesura/> o deg ladin</l>
+<l>di vraint eglwys<caesura/> a chrwys katrin</l>
+<l><fw>12</fw>ar llug yn llen<caesura/> medd hen ddewin</l>
+<l>am grist ai ffydd<caesura/> bydd ym gyrin</l>
+<l><fw>13</fw>duw gatwo n gwlad<caesura/> rhag brad dolffin</l>
+<l>ar kiw daupen<caesura/> berchen byrgwin</l>
+<l><fw>14</fw>hwnnw or daw<caesura/> wnar naw byddin</l>
+<l>trwy nerth i vrad<caesura/> yngwlad Awstin</l>
+<l><fw>15</fw>ofni daw tro<caesura/> o&yr; gorllewin</l>
+<l>ty vewn ir kae<caesura/> bydd gwae gwerin</l>
+<l><fw>16</fw>gwr yn dwyn bath<caesura/> kath tri ewin</l>
+<l>ai vryd ai vael<caesura/> ar gael gwresgin</l>
+<l><fw>17</fw>kael i chwi r gras<caesura/> y gas kynin</l>
+<l>hiroes di drist<caesura/> gan grist vrenin</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys ai kant 45</trailer>
+
+</div></body></text>
+
+<text id="TIRh_18"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">M</hi>oeswch ddodi<caesura/> n bryd ar ddewi</l>
+<l><damage><supplied>v</supplied></damage>ab sanct orig<caesura/> vab karedig</l>
+
+<pb n="NLW 13070B, 31"/>
+
+<l><fw>2</fw>ar ddewi a<caesura/> duw sy benna</l>
+<l>maen llawnoed ynn<caesura/> alw arnyn</l>
+<l><fw>3</fw>maer pryd ar nod<caesura/> gwedy dyvod</l>
+<l>a sydd enbaid<caesura/> i vrytaniaid</l>
+<l><fw>4</fw>ny bu n hynys<caesura/> ni mor ddyrys</l>
+<l>er joed ag y<caesura/> mae hi heddy</l>
+<l><fw>5</fw>kwarter y rod<caesura/> a sy n dyvod</l>
+<l>a diale<caesura/> am bechode</l>
+<l><fw>6</fw>pob vn a sydd<caesura/> wrth i gilydd</l>
+<l>ny allen waeth<caesura/> bai gelyniaeth</l>
+<l><fw>7</fw>ve g&acirc;r kriston<caesura/> yny galon</l>
+<l>gladdy vrawd<caesura/> o chaiff e eiddio</l>
+<l><fw>8</fw>nydoes karu<caesura/> dim ar jesu</l>
+<l>nav vam onyd<caesura/> ar y golyd</l>
+<l><fw>9</fw>ve rhoes dewi<caesura/> rhybydd i ni</l>
+<l>gwelwn i vod<!--ed fod--><caesura/> gwedy dyvod</l>
+<l><fw>10</fw>pan vo r mab rhad<caesura/> ar offairad</l>
+<l>ny werthy yr<caesura/> llu pechadur</l>
+<l><fw>11</fw>ag yn ddifraint<caesura/> holl demlau r saint</l>
+<l>yr eglwysi<caesura/> ar mynwenti</l>
+<l><fw>12</fw>diffrwyth koedydd<caesura/> ag avonydd</l>
+<l>ysgib ednod<caesura/> kairw jyrchod</l>
+<l><fw>13</fw>pymp gwae a sy<caesura/> gwedy saethy</l>
+<l>rwng dwylo r tad<caesura/> medd saint bern<damage><supplied>ad</supplied></damage></l>
+
+<pb n="NLW 13070B, 32"/>
+
+<l><fw>14</fw>y pymp gwaew hynn<caesura/> duw ai denfyn</l>
+<l>ar sawl a sy<caesura/> yny haeddy</l>
+<l><fw>15</fw>pystelens pan ddel<caesura/> newyn ryvel</l>
+<l>lladd a llosgi<caesura/> pawb ai krogi</l>
+<l><fw>16</fw>ny bydd vndyn<caesura/> ony<add place="supralinear">d</add> tridyn</l>
+<l>byw y niwedd<caesura/> y dialedd</l>
+<l><fw>17</fw>y gryvangwr<caesura/> da<add place="supralinear">e</add>r gwachelwr</l>
+<l>ar dyn a vo<caesura/> yn gweddio</l>
+<l><fw>18</fw>awn j &yn; gweddi<caesura/> bawb at ddewi</l>
+<l>penn rhaith wyllys<caesura/> yr holl ynys</l>
+<l><fw>19</fw>ag at jesu<caesura/> or nevoedd vry</l>
+<l>gael trigaredd<caesura/> ar yn diwedd</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys ai kant 46</trailer>
+</div></body></text>
+
+<text id="TIRh_19"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">N</hi>ym ddireda<caesura/> i dir na da</l>
+<l>na dyn ny byd<caesura/> yny mywyd</l>
+<l><fw>2</fw>ny wnn j ddyn<caesura/> ag a ddychyn</l>
+<l>ymddired y<caesura/> neb ond jesu</l>
+<l><fw>3</fw>a ddoto<!--ed ddote--> i vryd<caesura/> ar y golyd</l>
+<l>ar ddyn nav dir<caesura/> ef a dwyllir</l>
+<l><fw>4</fw>tri chariad vu<caesura/>&nbsp;&yr;<!--/ double function--> joed<!--ed jeod--> ved heddy</l>
+<l>a thri <!--ed rhai--> a vydd<caesura/> byth dragywydd</l>
+<l><fw>5</fw>kariad pryffaith<caesura/> ffydd a gobaith</l>
+<l><damage><supplied>y</supplied></damage><!--space for more--> sy n peri<caesura/> nef i ny ni</l>
+
+<pb n="NLW 13070B, 33"/>
+
+<l><fw>6</fw>ar kariad ail<caesura/> rhai ai kynail</l>
+<l>rhwng priodolion<caesura/> a chyd ddynion</l>
+<l><fw>7</fw>kariad trydy<caesura/> maen difflanny</l>
+<l>ar ddyn a thir<caesura/> ar dda i dodir</l>
+<l><fw>8</fw>ag vel dyna<caesura/>&nbsp;&yr;<!--/ double function--> kariad mwya</l>
+<l>ddym ni r niver<caesura/> hanoe n arfer</l>
+<l><fw>9</fw>ag ny kariad<caesura/> hynny n wastad</l>
+<l>i mae elyn yn twyllo dyn</l>
+<l><fw>10</fw>llyma r achos<caesura/> i ddwin dangos</l>
+<l>a pham i gyd<caesura/> i ddwin dwedvd</l>
+<l><fw>11</fw>vynghyvaillo<add place="supralinear">n</add><caesura/> oedd brydyddion</l>
+<l>gynt a vuo<caesura/> j ny kytro</l>
+<l><fw>12</fw>mi welaf vn<caesura/> yn troi &ym; herbyn</l>
+<l>ny wnn na bo<caesura/>&nbsp;&yr;<!--/ double function--> nall yn grwdgio</l>
+<l><fw>13</fw>hwy am gwelant<caesura/> j ar ffyniant</l>
+<l>a hwynte sy<caesura/> gwedy methy</l>
+<l><fw>14</fw>vannwyl vrawd ffydd<caesura/> j oedd ddavydd</l>
+<l>ny chefflybwn<caesura/> i neb i hwnn</l>
+<l><fw>15</fw>i ddoedd aise<caesura/> gwraig arnai n rhe</l>
+<l>ym gwsnaethy<caesura/> yn vy llety</l>
+<l><fw>16</fw>yddoedd wydw<caesura/> jevank weddw</l>
+<l>ddistaw brysyr<caesura/> ymh<add place="supralinear">l</add>wyf kainwyr</l>
+<l><fw>17</fw>ddoedd hi n trigo<caesura/> gair llaw daio</l>
+<l>yn wir gwaetha<caesura/> oedd pwy nesa</l>
+
+<pb n="NLW 13070B, 34"/>
+
+<l><fw>18</fw>i mae davpen<caesura/> y genfigen</l>
+<l>ai chenol<!--chonol?--> ny<caesura/> volae n tyvy</l>
+<l><fw>19</fw>beth na ond kydfod<caesura/> ar vy<!--ny--> ethrod</l>
+<l>a throi airiach<caesura/> am kyvathrach</l>
+<l><fw>20</fw>minne gwedy<caesura/> klywed hynny</l>
+<l>a vym daerach<caesura/> ar y vasnach</l>
+<l><fw>21</fw>mae n troi garu<caesura/> vy<!--ny--> molianny</l>
+<l>yn rhoi m anair<caesura/> ar y naillgair</l>
+<l><fw>22</fw>kaiso mae e<caesura/> vynd ym hasgre</l>
+<l>ny modd i bvm j ny garu</l>
+<l><fw>23</fw>betfai r holl vyd<caesura/> drystoen dwedvd</l>
+<l>yny myw j<caesura/> nyd gwaeth tewi</l>
+<l><fw>24</fw>ny wnai tra vo<caesura/> byw am ddaio</l>
+<l>ond i ady<caesura/> ar y naillty</l>
+<l><fw>25</fw>o kyvarch da<caesura/> myvi ddweda</l>
+<l>dydd daed daio<caesura/> a mynd haibo</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys ai kant 47</trailer>
+</div></body></text>
+
+<text id="TIRh_20"><body><div>
+<!--supplied text unclear-->
+<lg>
+<l><fw>1</fw><damage><supplied><hi rend="rubric">Y</hi></supplied></damage> gwr a vu ar y groes<caesura/> yn goddef gloes yn pryny</l>
+<l>an kymero ar i law<caesura/> mi wnn ve ddaw yn barny</l>
+<l><damage><supplied><fw>2</fw>Duw</supplied></damage> maddaeo i ni gyd<caesura/> vaint ywn bryd ni gasgly</l>
+<l><damage><supplied>a c</supplied></damage>hy vyrred yny byd<caesura/> a sydd o hyd yw drefny</l>
+<l><damage><supplied><fw>3</fw></supplied><c/></damage>i ystyrie griston doeth<caesura/> mor noeth oedd kyn i vagy</l>
+<l><damage><supplied>ac mor</supplied></damage> vychan oedd i rym<caesura/> heb allel dym ymdaery</l>
+
+<pb n="NLW 13070B, 35"/>
+
+<l><fw>4</fw>afraid yddoe vod yn valch<caesura/> tra vytho r gwalch yn ty<damage><supplied>fy</supplied></damage></l>
+<l>a chy hawsed i ddae n wann<caesura/> a phawb oi rhann ny ady</l>
+<l><fw>5</fw>kasgly golvd pryny tir<caesura/> trwy gam a gwir ai mynny</l>
+<l>a gwsnaethyr meddwl ffol<caesura/> ag ar i ol i gady</l>
+<l><fw>6</fw>nyda gantoe ddim or byd<caesura/> or golvd gwedy kasgly</l>
+<l>ond i hvnan val i doeth<caesura/> a digon noeth yw hynny</l>
+<l><fw>7</fw>ag ve ddwede rhai or wlad<caesura/> vod ych tad heb daly</l>
+<l>llawer kainog rhaid i chwi<caesura/> brovi i chyviawny</l>
+<l><fw>8</fw>hwynte ddwedyn ny modd hynn<caesura/> nyd gweddys ynn ni da<damage><supplied>ly</supplied></damage></l>
+<l>ny ni biav r maint a sydd<caesura/> yn ol i ddydd ny ady</l>
+<l><fw>9</fw>ar pryd hynny beth awnawn<caesura/> ir llaw vy lawn ysgaw<damage><supplied>ry</supplied></damage></l>
+<l>heb werth kainog o dda byw<caesura/> a duw yn erchi taly</l>
+<l><fw>10</fw>ond ymwrthod a dar diawl<caesura/> ar sawl a sydd ny kasgly</l>
+<l>an gwaithredon tra von vyw<caesura/> ni gawn gan dduw yn <damage><supplied>barny</supplied></damage></l>
+<l><fw>11</fw>duw i harchwn ninnav n bod<caesura/> yn barod i ddoen kyrc<damage><supplied>hy</supplied></damage></l>
+<l>awr ag orig nos a dydd<caesura/> ar ffordd yn rhydd at jesy</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys ai kant 48</trailer>
+</div></body></text>
+
+<text id="TIRh_21"><body><div>
+<lg>
+<l><fw>1</fw>Pob rhyw griston<caesura/> glan i galon</l>
+<l>gwrandewch er mwyn<caesura/> duw vi n achwyn</l>
+<l><fw>2</fw>gwae bob henddyn<caesura/> myvi wyr hynn</l>
+<l>berchen gwraig kryf<caesura/> jevank hainyf</l>
+<l><fw>3</fw>gwae r anhawgwr<caesura/> gwraigog llwvwr</l>
+<l>ar gair yddo<caesura/> er nas haeddo</l>
+
+<pb n="NLW 13070B, 36"/>
+
+<l><fw>4</fw>gwaer gwr a vo<caesura/> a gwraig yddo</l>
+<l>a honno n wir<caesura/> arnoe n veistir</l>
+<l><fw>5</fw>or disgin bod<caesura/> dim anghydfod</l>
+<l>rhyddyn hi a<caesura/> ar<!-- a / ar?--> llaw n ywcha</l>
+<l><fw>6</fw>i mae klwtyn<caesura/> o wyndon gwyn</l>
+<l>wrth ddrws y ty<caesura/> wi ny rhenty</l>
+<l><fw>7</fw>llai nag erw<caesura/> beth hwnnw</l>
+<l>lle mae porfa<caesura/> gwaedde r wraigdda</l>
+<l><fw>8</fw>mae gwyr perchen<caesura/> parav ychen</l>
+<l>yddi n addo<caesura/> i lavurio</l>
+<l><fw>9</fw>a minnav sy<caesura/> yn prydery</l>
+<l>na chai hadyd<caesura/> yddoe ym bywyd</l>
+<l><fw>10</fw>nychai lonydd<caesura/> na nos na dydd</l>
+<l>genti ond a<caesura/> ir vro i ytta</l>
+<l><fw>11</fw>bwrais j honn<caesura/> bob esguson</l>
+<l>o ddiogi<caesura/> mynd i erchi</l>
+<l><fw>12</fw>hawraig maen vlin<caesura/> Act y brenin</l>
+<l>ag yn rhwystro<caesura/> pawb i gaiso</l>
+<l><fw>13</fw>taw di waithon<caesura/> ath esguson</l>
+<l><damage><supplied>t</supplied></damage>i gau hadyd<caesura/> nyr vn hwndryd</l>
+<!--4 lines deleted; first couplet = couplet 30 of this poem; second couplet in ed, of which first line repeated on margin
+[k]ael y trybedd / ny chyndaredd
+[r]hoi ergyd ar / blygiav nwyar
+-->
+<l><fw>14</fw>mi aetho n js jslawr palis</l>
+<l><damage><c/><c/><c/></damage><!--ed ag ]ni-->ni vyo<caesura/> valch o ddyno</l>
+
+<pb n="NLW 13070B, 37"/>
+
+<l><fw>15</fw>beth a ddwedaf<caesura/> o chranfyddaf</l>
+<l>ar hen aran<caesura/> du wylmorgan</l>
+<l><fw>16</fw>kerdda vydredd<caesura/> wytin addef</l>
+<l>ofni tavod<caesura/> y gogysgod</l>
+<l><fw>17</fw>siars <!--space--> sy arnaf<caesura/> j na chanaf</l>
+<l>ddychan ny byd<caesura/> yn vy mywyd</l>
+<l><fw>18</fw>os dechre wna<caesura/> ymddivarcha</l>
+<l>na garbed kan<caesura/> ir hen aran</l>
+<l><fw>19</fw>gwna dy neges<caesura/> yn rhe lales</l>
+<l>a llangewydd<caesura/> ynyr vndydd</l>
+<l><fw>20</fw>does drwa ir dwr<caesura/> i dir ogwr</l>
+<l>ti gesgly had<caesura/> dau lavuriad</l>
+<l><fw>21</fw>a nad vndyn<caesura/> heb vyn<add place="supralinear">d</add> atyn</l>
+<l>o sant dynod<caesura/> hed ymhytgod</l>
+<l><fw>22</fw>ny phall vndyn<caesura/> o dre golwyn</l>
+<l>hed ynharen<caesura/> y dwnrheven</l>
+<l><fw>23</fw>na pherchen yd<caesura/> o lann ylltyd</l>
+<l>ir priordy<caesura/> veder pally</l>
+<l><fw>24</fw>maen hwyn saesnig<caesura/> ynghylch y wig</l>
+<l>ny wis beth vo<caesura/> j ny gaiso</l>
+<l><fw>25</fw>mith ddysga di<caesura/> ffol i erchi</l>
+<l>ond kadw yth go<caesura/> vel yth ddysgo</l>
+<!--English-->
+<l><fw>26</fw>j prav jow syr<caesura/> ffor lov maestyr</l>
+<l>god wil giv mi<caesura/> and owr ladi</l>
+
+<pb n="NLW 13070B, 38"/>
+
+<l><fw>27</fw>pan ddweto<add place="supralinear">e</add><caesura/> kom hom syre</l><!--English-->
+<l>jl kwm to yow<caesura/> god redward yow</l><!--English-->
+<l><fw>28</fw>er peck o od<caesura/> ny ddawr tavod</l>
+<l>ny modd i bu<caesura/> r wraig ym dysgi</l>
+<l><fw>29</fw>mawr ywr taeredd<caesura/> vn or gwragedd</l>
+<l>bwedd i mae ddyn<caesura/> bally yddyn</l>
+<l><fw>30</fw>kael y trybedd<caesura/> ny chyndaredd</l>
+<l>rhoi ergid ar<caesura/> blygiav nwyar</l>
+<l><fw>31</fw>braidd i gellais<caesura/> j gael vymhais</l>
+<l>am pig a gw&acirc;n<caesura/> vymhenn allan</l>
+<l><fw>32</fw>llyma orfod<caesura/> arnai ddyvod</l>
+<l>vnwaith ych plith<caesura/> gwyr y gwenith</l>
+<l><fw>33</fw>er mwyn jesu<caesura/> provwch vy helpu</l>
+<l>myvi golla<caesura/> dre onys ka</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys ai kant 49</trailer>
+</div></body></text>
+
+<text id="TIRh_22"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">D</hi>uw nad ti gam<caesura/> byth ar vargam</l>
+<l>plas dan rhodiad<caesura/> havl a llauad</l>
+<l><fw>2</fw>vel dyma r lle<caesura/> i bu nechre</l>
+<l>ag yma i bo<caesura/> niwedd etto</l>
+<l><fw>3</fw>mae arnai chwant<caesura/> kanv moliant</l>
+<l>lle llvno j medd<caesura/> ar vy niwedd</l>
+
+<pb n="NLW 13070B, 39"/>
+
+<l><fw>4</fw>lle sainwyd plas<caesura/> gwych o urddas</l>
+<l>mam jesu wyn<caesura/> wyr Siohasyn</l>
+<l><fw>5</fw>kraig o wydyr<caesura/> kor krevyddwyr</l>
+<l>kroestai krist jaith<caesura/> paradwyswaith</l>
+<l><fw>6</fw>kor i vaibon<caesura/> krist ai waison</l>
+<l>kaer gywrain vydd<caesura/> korfrig koedydd</l>
+<l><fw>7</fw>pais ywchel bris<caesura/> plastar paris</l>
+<l>plwm plygiav llenn<caesura/> am <unclear>i</unclear> cheven</l>
+<l><fw>8</fw>twr arfys main<caesura/> krisial myrain</l>
+<l>krysav kalchwydd<caesura/> maran<!--ed -au--> mynydd</l>
+<l><fw>9</fw>kaer loew val<caesura/> ar main barbal</l>
+<l>kewch weled honn<caesura/> ar waith avion</l>
+<!--Latin-->
+<l><fw>10</fw>jn principio<caesura/> erat sermo <del>ar ysbryd glan</del></l>
+<l>ar ysbryd glan<caesura/> ywr ymddiddan</l>
+<l><fw>11</fw>dav beth a sy<caesura/> ych tebygy</l>
+<l>ail nef a llys<caesura/> abad lewys</l>
+<l><fw>12</fw>tri pheth a sy<caesura/> ych kyvanheddy</l>
+<l>organ a chlych<caesura/> a chan menych</l>
+<l><fw>13</fw>ny bu bais wenn<caesura/> am dan berchen</l>
+<l>lanach dan gred<caesura/> wedy bened</l>
+<l><fw>14</fw>nag mor yddyf<!--= yfydd/ufudd, note rhyme--><caesura/> yny grevydd</l>
+<l>wedy kybi<caesura/> abad a chwi</l>
+<l><fw>15</fw>gwenfair ach gwnaeth<caesura/> ych abadae<damage><supplied>t</supplied></damage>h</l>
+<l>gwneled duw chwi<caesura/>&nbsp;&yn;<!--/ double function--> esgob dewi</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys ai kant 50</trailer>
+</div></body></text>
+
+<pb n="NLW 13070B, 40"/>
+
+<text id="TIRh_23"><body><div>
+<lg>
+<l><fw>1</fw><hi rend="rubric">K</hi>riston wyf j n kredy<!--ed -u--> grist<caesura/> ag yn drist veddyle</l>
+<l>ag yn gweddio r drindod<caesura/> i ddyvod oi bechode</l>
+<l><fw>2</fw>gweled i ddwyf j nadoes<caesura/> pan ddelo gloes yn ange</l>
+<l>i ddyn ddim mor dailynged<caesura/> a bod ny gwaithred gore</l>
+<l><fw>3</fw>achos pan ddel yr enaid<caesura/> ar kythraulaid ar pwyse</l>
+<l>maen bryderys ony chair<caesura/> gan vair ddodi phadere</l>
+<l><fw>4</fw>i gydbwyso an gelyn<caesura/> yn erbyn yn pechode</l>
+<l>am ddelyed kymodog<caesura/> trwm ywr gainog nas tale</l>
+<l><fw>5</fw>chwaethach goludion lawer<caesura/> ag a gasgler drwy okre</l>
+<l>a chael i kynvll gan bwyll<caesura/> trwy dwyll ag anvdone<!--ed anude--></l>
+<l><fw>6</fw>maen hwyn elyn ir enaid<caesura/> ony chaid ai g<add place="supralinear">w</add>asgare</l>
+<l>i ventvno eglwysi<caesura/> ag i beri fferenne</l>
+<l><fw>7</fw>ag i waith pynt avonydd<caesura/> a rhoi baunydd gardode</l>
+<l>lle bo mwya r kynired<caesura/> ag i wared kawsie</l>
+<l><fw>8</fw>ag i helpy ysgolhaigion<caesura/> tylodion ar i llyfre</l>
+<l>ag i ventvno merched<caesura/> amddived yw lletye</l>
+<l><fw>9</fw>gwedy darffo i dad rhoi<caesura/> ai rhoi gymen vn<!--ed vu?--> ddime</l>
+<l><damage><supplied>l</supplied></damage>aia gobrwy oddiwrthyn<caesura/> a vyddai r dyn ai kasgle</l>
+<l><fw>10</fw><damage><supplied>i</supplied></damage> dduw i ddwyf j n erchi<caesura/> er ym dorri r gorchmynne</l>
+<l><damage><supplied>vo</supplied></damage>d vy enaid jn gorffwys<caesura/> yny baradwys ole</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys ai kant 51</trailer>
+</div></body></text>
+
+<text id="TIRh_24"><body><div>
+<!--check meter-->
+<lg>
+<l><damage><supplied><fw>1</fw>Gwir</supplied></damage> duw ai vab yw<caesura/> a vynn bod<caesura/> yn llywydd</l>
+<l><damage><supplied>da</supplied></damage>ear vndydd yny drindod</l>
+
+<pb n="NLW 13070B, 41"/>
+
+<l><fw>2</fw>ar gair a ddyg mair<caesura/> yn amerod<caesura/> gyvion</l>
+<l>i beri gweryddon nef yn barod</l>
+<l><fw>3</fw>ysbryd glan hevyd <del>hevyd hyvod</del> hyvod yn dolef<!--o corr somehow--></l>
+<l>duw byw yny nef<caesura/> dyn i myn bod</l>
+<l><fw>4</fw>kreawdr mor mawr<caesura/> myriaw pysgod<caesura/> rhwyd</l>
+<l>yn karu<!--ed caru--> ni r ydwyd<caesura/> kreawdr yr ednod</l>
+<l><fw>5</fw>kr<add place="supralinear">e</add>av yr holl ymddaith<caesura/> kreod<caesura/> yr engylion</l>
+<l>ag or llu'r aigion<caesura/> i grav r llygod</l>
+<l><fw>6</fw>krav Addaf rhydd naf<caesura/> dan rhod<caesura/> ffyrfaven</l>
+<l>ag or asen bruddwen<caesura/> ve grav i briod</l>
+<l><fw>7</fw>nawkant i dwedant<caesura/> vod<caesura/> adam yny bod</l>
+<l>a thri deg hevyd<caesura/> tra vu r kyvod</l>
+<l><fw>8</fw>pedair mil ai hil<caesura/> i waelod<caesura/> kystydd</l>
+<l>jesu wiw ddovydd<caesura/> nes i ddyvod</l>
+<l><fw>9</fw>pan ddel jesu i varny<caesura/> yn vod<caesura/> yny deav</l>
+<l>ar y llaw asav<caesura/> ir llu<!--ed llu?--> jsod</l>
+<l><fw>10</fw>trwy rhanswm trwm<caesura/> torr amod<caesura/> awnaeth</l>
+<l>ny deg kaiff jawn jaith<caesura/> hed y dydd kyfnod<!--ed kyvnod--></l>
+<l><fw>11</fw>o dwyll trwy amwyll<caesura/> torr amod i doded</l>
+<l>yn gloewdeg jechyd<caesura/> hyd yn gwlad ywch<damage><supplied>od</supplied></damage></l>
+<l><fw>12</fw>o varglwydd rho i mi vawrglod<caesura/> lawen<damage><supplied>ydd</supplied></damage></l>
+<l>na ame wiw ddovydd<caesura/> i nef i mi ddyvod</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys ai kant 52</trailer>
+</div></body></text>
+
+<text id="TIRh_25"><body><div>
+<pb n="NLW 13070B, 166"/>
+
+<lg>
+<l><fw>1</fw>Y ddwi n gosod<caesura/> kanu barnod</l>
+<l>ag vallai bod<caesura/> genni n barod</l>
+<l><fw>2</fw>mi roesym lw<caesura/> raid ym gadw</l>
+<l>ar na chanwy<caesura/> ym bywyd mwy</l>
+<l><fw>3</fw>i mae r achos<caesura/> yddy ddangos</l>
+<l>genni gwedy<caesura/> ysgryvenny</l>
+<l><fw>4</fw>mor drwm i ddaeth<caesura/> i varolaeth</l>
+<l>y meistr sion<caesura/> yn vynghalon</l>
+<l><fw>5</fw>gwae vy naurydd<caesura/> aros i ddydd</l>
+<l>a gwae ddailed<caesura/> byth i glywed</l>
+<l><fw>6</fw>gwr a bia<caesura/> yr amser da</l>
+<l>a wyr kalon<caesura/> Marged Sainsion</l>
+<l><fw>7</fw>ai dad hevyd<caesura/> mae mewn tristyd</l>
+<l>Mair wenn a ro<caesura/> kynffwrd yddo</l>
+
+<pb n="NLW 13070B, 167"/>
+
+<l><fw>8</fw>bei kelsai er da<caesura/> drigo yma</l>
+<l>hwy rysoeddyd<caesura/> dros i vywyd</l>
+<l><fw>9</fw>y ddoedd waison<caesura/> i meistr Sion</l>
+<l>a rysoedde<caesura/> vil o vorke</l>
+<l><fw>10</fw>hwy dalysyd<caesura/> dros i vywyd</l>
+<l>a thraen pwver brenin lloegr</l>
+<l><fw>11</fw>llyna ganred<caesura/> vawr ar blaned</l>
+<l>gwympo <!--+1 letter del--> mrigyn<caesura/> y blodauyn</l>
+<l><fw>12</fw>ny bu ddwy awr<caesura/> dre ruvain vawr</l>
+<l>ar ol i ddydd<caesura/> heb roi vynydd</l>
+<l><supplied><fw>13</fw></supplied>mae ty jago<caesura/> y mronn kwympo</l>
+<l>bedd krist hevyd<caesura/> mae mronn symyd</l>
+<l><supplied><fw>14</fw></supplied>vaeth y nywl du<caesura/> dros y koetu</l>
+<l>nes symvd jaith<caesura/> a byd ailwaith</l>
+<l><supplied><fw>15</fw></supplied>ny chair klydwr<caesura/> ynghoed mwstwr</l>
+<l>na phrenn ar dan<caesura/> gan waith haearn</l>
+<l><supplied><fw>16</fw></supplied>mae yno ffynnonn<caesura/> wrthfawr ddigon</l>
+<l>mewn llwyn o gyll<caesura/> dan le r pebyll</l>
+<l><supplied><fw>17</fw></supplied>ny chair gwelliant<caesura/> y mae n y sant</l>
+<l>gwedy delo<caesura/>&nbsp;&yr;<!--/ double function--> saeson yno</l>
+<l><supplied><fw>18</fw></supplied>yn jach was glan<caesura/> o hynn allan</l>
+<l>yn jach kampav<caesura/> a gwybodav</l>
+<l><supplied><fw>19</fw></supplied>yn jach glendid<caesura/> ag velly bid</l>
+<l>yn jach bonedd<caesura/> ef aeth ir bedd</l>
+<l><fw>20</fw>ef a gladdwyd<caesura/> yn llvndain lwyd</l>
+<l>mae gorff mewn bedd<caesura/> gwyn yn gorwedd</l>
+
+<pb n="NLW 13070B, 168"/>
+
+<l><fw>21</fw>mae eneide<caesura/> n rodio r graddie</l>
+<l>ag yny byd<caesura/> i mae<isp/><apo/>r tristyd</l>
+<l><fw>22</fw>o daw govyn<caesura/> pwy ganoedd hynn</l>
+<l>mab mewn hiraeth<caesura/> am i vrawdfaeth</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap Rys ai kant 118</trailer>
+</div></body></text>
+
+<!--end Llanover B9-->
+
+<!--start Havod 5-->
+
+<text id="TIRh_26"><body><div>
+<!--caesura?-->
+
+<pb n="Cardiff 2.619, 21"/>
+
+<lg>
+<l><fw>1</fw><hi rend="rubric">M</hi>ae duw yn dangos ir byd<caesura/></l>
+<l>vod yn llawnbryd gweddio</l>
+<l>a dangos pam na veddwl<caesura/></l>
+<l>lawer exampl yddo</l>
+<l><fw>2</fw>i gaiso yn garu r eglwys<caesura/></l>
+<l>a bwrwn gorbwys arno</l>
+<l>ar golud ym ny garu<caesura/></l>
+<l>a gady r jesu haibo</l>
+<l><fw>3</fw>mae dwedvd a rryvedd yw<caesura/></l>
+<l>vod yn tad dduw yn digio</l>
+<l>vaeth y llid gydar kyth<add place="supralinear">r</add>el<caesura/></l>
+<l>oedd yn angel kyn syrthio</l>
+<l><fw>4</fw>kyviawnder ywr kyviawn hedd<caesura/></l>
+<l>kaiswn drigaredd ganto</l>
+<l>rrag yn trachwant an balchedd</l>
+<l>glwth god llesgedd yn damno</l>
+
+<pb n="Cardiff 2.619, 22"/>
+
+<l><fw>5</fw>an gelynion yw r haini<caesura/></l>
+<l>nydym ni n gally ymado</l>
+<l>mae n <!--+some letter, b?-->bryderys ny diwedd</l>
+<l>yn troi ddialedd pharo</l>
+<l><fw>6</fw>hwnnw <!--ed supplies [y]--> gavas kyviawnder<caesura/></l>
+<l>ar holl bwver oedd ganto</l>
+<l>om gyhydy ai arglwydd<caesura/></l>
+<l>ef aeth yn aflwydd rragddo</l>
+<l><fw>7</fw>kyviawnder oedd i sodma</l>
+<l>a gomorra sinko</l>
+<l>y pvmp dinnas diaereb<caesura/></l>
+<l>vy r godineb oedd yno</l>
+<l><fw>8</fw>ny bv grenydd na chwddiaeth<caesura/></l>
+<l>na gasybiaeth heb gydio</l>
+<l>nag vn krefyddwr yn bod<caesura/></l>
+<l>na bai wraig briod yddo</l>
+<l><fw>9</fw>velly ddaeth ynys brydain<caesura/></l>
+<l>pan<!--+ sth erased--> drosbwyd rryvain haibo</l>
+<l>heb na gweddi nag ympryd<caesura/></l>
+<l>na phenyd nag ynsoelio</l>
+<l><fw>10</fw>na chyffes nag angeny<caesura/></l>
+<l>na chladdy a<!--deleted?--> na bedyddio</l>
+<l>na sens na chwyr bendigaid<caesura/></l>
+<l>na phax nidoedd raid wrtho</l>
+
+<pb n="Cardiff 2.619, 23"/>
+
+<l><fw>11</fw>na chroes igovio r prynwr<caesura/></l>
+<l>na dwr wedy vendigo</l>
+<l>na chael kymvn<!--ed kymru--> o gorff krist</l>
+<l>i ddoedd yn drist yn hebddo</l>
+<l><fw>12</fw>ny ddoi r ffairad ir pylpyd<caesura/></l>
+<l>heb gymeryd igino<caesura/></l>
+<l>o vrwd a rrost i mynnai<caesura/></l>
+<l>a mawnsai wedi dwymo</l>
+<l><fw>13</fw>ef a ddangoeses adda<caesura/></l>
+<l>ag eva i ni ymprydio</l>
+<l>a pherchir sul ar gwener</l>
+<l>ag arfer o weddio</l>
+<l><fw>14</fw>ir glothineb mae tivedd<caesura/></l>
+<l>ag nidoes diwedd arno</l>
+<l>i maen anwyl ny bresen</l>
+<l>ag i mae saithbenn yddo</l>
+<l><fw>15</fw>a saith kythrel ywr rrai hynn</l>
+<l>a saith gelyn syn twyllo</l>
+<l>ar vwyd a llynnoedd kedyrn</l>
+<l><!--ed supplies [yr]--> tevyrn i maent nym ddyrno</l>
+<l><fw>16</fw>gweddi <!--ed supplies [a]--> kardod ag ympryd<caesura/></l>
+<l>a bair ymweglyd rragddo</l>
+<l>rrag yddo <!--ed supplies [ef]--> ladd yr enaid<caesura/></l>
+<l>mae n angenraid ymswyno</l>
+
+<pb n="Cardiff 2.619, 24"/>
+
+<l><fw>17</fw>pan ddel yr arglwydd jesu<caesura/></l>
+<l>i varny ai dilyno</l>
+<l>i bwll vffern i tewlir<caesura/></l>
+<l>ag yno i kaujr<!--ed kau jr--> arno</l>
+</lg>
+<trailer>Thomas ap je<expan>ua</expan>nn ap rrys ai kant</trailer>
+</div></body></text>
+
+<text id="TIRh_27"><body><div>
+<pb n="Cardiff 2.619, 30"/>
+
+<lg>
+<l><fw>1</fw>gwae vilioedd a sydd mewn gofalon</l>
+<l>tal ydiw gwlad nef ir tylodion</l>
+<l><fw>2</fw>newynog yn bawb ag wainon</l>
+<l>a delwau ymhob plas i delon</l>
+
+<pb n="Cardiff 2.619, 31"/>
+
+<l><fw>3</fw>nid kerrig nid koed yn myn karon</l>
+<l>ond delwau wnaeth duw yn gnawdolion</l>
+<l><fw>4</fw>ymaros i ddym ymron mairwon</l>
+<l>on karchar lle ddym duw an kyrchom</l>
+<l><fw>5</fw>ny gwledydd lle mae r mawr goludion</l>
+<l>ny chaffant onyd haeyru a chyffon</l>
+<l><fw>6</fw>o ddial am ddwyn tai r gweddion</l>
+<l>ai dinistr mae duw n poeni dynion</l>
+<l><fw>7</fw>ond aryth o waith penadurion</l>
+<l>y garu rrai kasb ar y gwirion</l>
+<l><fw>8</fw>y dialedd a gait gan dy alon</l>
+<l>a thorri dy gnawd a thi n wirion</l>
+<l><fw>9</fw>ynghyvair yn drwg anghyvion</l>
+<l>i dygyd ti r boen vwyn na digion</l>
+<l><fw>10</fw>pan roddyn i ti vwya rrodion</l>
+<l>sy ddegwm vae vael ir swyddogon</l>
+<l><fw>11</fw>a sieswn a ffydd vront y saeson</l>
+<l>ai llywodraeth awnaeth pawb yn lladron</l>
+<l><fw>12</fw>o gari<add place="supralinear">a</add>d ar ddwyn dar gywirion</l>
+<l>anweddvs au rroi r sgryvenyddion</l>
+<l><fw>13</fw>ny thykia y pryd kyvoethogion</l>
+<l>gwybydded y sawl sydd gebyddion</l>
+<l><fw>14</fw>gynvll da yngham medd y ganon</l>
+<l>ar waered i dda r plant ar wyron</l>
+<l><fw>15</fw>a dilyn e ffordd gyda i alon</l>
+<l>hwy krylian e mewn poenau kroelon</l>
+
+<pb n="Cardiff 2.619, 32"/>
+
+<l><fw>16</fw>val aries ny rroe vael i wirion</l>
+<l>i lasar y tlawd krie laeson</l>
+<l><fw>17</fw>a lasar ef ae oi boen loeson</l>
+<l>i vynwes y tad wrth ovynion</l>
+<l><fw>18</fw>ag arias ef ae gan rrai gairwon</l>
+<l>ffai nigart ir tan ffyrnigion</l>
+<l><fw>19</fw>gwirionedd yw hynn a gwir vnion</l>
+<l>gwageled vo n dwyn diawl yny galon</l>
+</lg>
+<trailer>thomas ap je<expan>ua</expan>nn ap rrys ai kant</trailer>
+</div></body></text>
+
+
+<text id="TIRh_28"><body><div>
+<lg>
+<l><fw>1</fw>Mawr jawn i kerais jr byd<caesura/></l>
+<l>yr hyd i bvm yn tyvy</l>
+<l>ve rroes ym wendid a haint<caesura/></l>
+<l>er maint i bvm n gary</l>
+<l><fw>2</fw>nym dwg vy aulodau mainon<caesura/></l>
+<l>sy wainon ag yn kryny</l>
+<l>ny chlywai neb yn amlwg<caesura/></l>
+<l>am golwg sy n tywylly</l>
+<l><fw>3</fw>ar bedestr gwedy darfod<caesura/></l>
+<l>bai rann gorfod tryvaely</l>
+<l>wedy kwympo mewn methiant<caesura/></l>
+<l>a mogiant a phesychy</l>
+<l><fw>4</fw>ag heb allel yn vynych<caesura/></l>
+<l>or grwn i rrych gychwnny</l>
+
+<pb n="Cardiff 2.619, 33"/>
+
+<l>ond bod am kefn yn grwm<caesura/></l>
+<l>yn gwrwm ar y llydy</l>
+<l><fw>5</fw>mi vyo valch rryvygys<caesura/></l>
+<l>trachwantys ag yn kasgly</l>
+<l>be kawn nir wlad vy hvnan<caesura/></l>
+<l>rry vychan oedd ym hynny</l>
+<l><fw>6</fw>mi vyo lwth a diog<caesura/></l>
+<l>a chwannog i odineby</l>
+<l>yn tyngy over lwon<caesura/></l>
+<l>ag anydon yr hainy</l>
+<l><fw>7</fw>mi vym laitrach nar kadno<caesura/></l>
+<l>yn traiso n kynfigenny</l>
+<l>heb rrai llety nachardawd<caesura/></l>
+<l>ir tlawd ond i watwary</l>
+<l><fw>8</fw>o greawdr nef a llawr<caesura/></l>
+<l>min klywai n awr yn ffaely</l>
+<l>danfon atai vihangel<caesura/></l>
+<l>ym harddel ag ym kyrchy</l>
+<l><fw>9</fw>ti am prynaist j ar y groes<caesura/></l>
+<l>ti rroesost oes ym bechy</l>
+<l>tro di varglwydd vynghalon<caesura/></l>
+<l>j waithon i tivary</l>
+<l><fw>10</fw>ag i vedry gwnaethur jawn<caesura/></l>
+<l>ag i gyviawn gyffesy</l>
+<l>megis i bwyf j parod<caesura/></l>
+<l>i ddyvod or lle dauthy</l>
+
+<pb n="Cardiff 2.619, 34"/>
+
+<l><fw>11</fw>a honno yw gwenwlad ef<caesura/></l>
+<l>lle mae ef yn ternasy</l>
+<l>merthyri a gweryddon<caesura/></l>
+<l>angylion ny volianny</l>
+<l><fw>12</fw>pan rroir yr en ar y ffrwyn<caesura/></l>
+<l>ag at y trwyn i gwasgy</l>
+<l>a gwerchyrio vy llygaid<caesura/></l>
+<l>ar enaid gwedy yngady</l>
+<l><fw>13</fw>a dwyn vy nwylo j wa<add place="supralinear">e</add>red<caesura/></l>
+<l>ag ar varffed i klymy</l>
+<l>a dodi nwy traed ynghud</l>
+<l>ag ar vy hyd yngady</l>
+<l><fw>14</fw>ar sawl i bvm j yno<caesura/></l>
+<l>ny kytro ag ny kary</l>
+<l>wrth vynd ymaith ny ddaw vn<caesura/></l>
+<l>o hanvn ym kysany</l>
+<l><fw>15</fw>am dodi ar vy niwedd<caesura/></l>
+<l>ym bedd am torr i vyny</l>
+<l>heb weled na haul na lloer<caesura/></l>
+<l>yn ddigon oer vyngwely</l>
+<l><fw>16</fw>a mi ddwedaf i chwi wir<caesura/></l>
+<l>yr hwnn ellir i gredy</l>
+<l>nid ody r korff pridd ond myd<caesura/></l>
+<l>yr ysbryd a syn traethy</l>
+
+<pb n="Cardiff 2.619, 35"/>
+
+<l><fw>17</fw>mi ga gorff er nas gwelwch<caesura/></l>
+<l>o ddirgelwch y jesy</l>
+<l>o bob aulod yn gywraint</l>
+<l>yn gymaint ag wyf heddy</l>
+<l><fw>18</fw>mi debygwn yny byd<caesura/></l>
+<l>vyngolud jr pryd hyny</l>
+<l>i geffyl gwedy vlyngo<caesura/></l>
+<l>a vaid yny ado i bydry</l>
+<l><fw>19</fw>ar piaued ar kigfrain<caesura/></l>
+<l>ar byrgytain ny dyny</l>
+<l>ar kwn yn bri<add place="supralinear">w</add>a i gaudod<caesura/></l>
+<l>nes darfod i hwldary</l>
+<l><fw>20</fw>velly r golud vym jn byw<caesura/></l>
+<l>yn vwy na duw ny kary</l>
+<l>vynghenedl a ddaw yno<caesura/></l>
+<l>iym gigo wrth i rranny</l>
+<l><fw>21</fw>a minav yn <del>kerdded</del> hoeth yn kerdded<caesura/></l>
+<l>am delyed heb daly</l>
+<l>a phawb a ddaw ym govyn<caesura/></l>
+<l>i bvm arnyn ny kasgly</l>
+<l><fw>22</fw>ny chair ar gywir yno<caesura/></l>
+<l>gadycho nau oframy</l>
+
+<pb n="Cardiff 2.619, 36"/>
+
+<l>na bwgwth i vonklusto<caesura/></l>
+<l>nau sardo nau watwary</l>
+<l><fw>23</fw>rraid yw sevyll ar y gwir<caesura/></l>
+<l>yr hynn ny ellir i wady</l>
+<l>onyd addef i bob dyn<caesura/></l>
+<l>ar gelyn yn disgyrny</l>
+<l><fw>24</fw>ef a ir karchar ganto ef<caesura/></l>
+<l>lle gweloe nef ar jesy</l>
+<l>ag ve sgryvennwys matho<caesura/></l>
+<l>nadae o ddyno nes taly</l>
+<l><fw>25</fw>gwae e vy valch rryvygys<caesura/></l>
+<l>trachwantys yn kolledy</l>
+<l>y llavuriad kywir a vo<caesura/></l>
+<l>yn kaibo ag yn dyrny</l>
+</lg>
+<trailer>thomas ap je<expan>ua</expan>nn ap rrys ai kant</trailer>
+</div></body></text>
+
+
+<text id="TIRh_29"><body><div>
+<pb n="NLW 13081B, 156v"/>
+
+<lg>
+<l><hi rend="rubric">P</hi>wy bynag fo gwedy dotio</l>
+<l>dwl jawn y trig a dot<add place="supralinear">i</add>edig</l>
+<l>y ddynir kymry gwedy yn gyry</l>
+<l>kyn enfyted a ffoled rhisga</l>
+<l>ac ar yn kread gwedy myned</l>
+<l>duw yn kyfrwyddo ymhell ar ddidro</l>
+<l>ny ni droyson gan ffydd sayson</l>
+<l>ni ddaw yn kalone ni byth yn y lle</l>
+<l>ond trigo yn ddwl mewn tri<isp/>meddwl</l>
+<l>heb wybod pun gore hanyn</l>
+<l>rhai syn doydyd vod duw 'ny byd</l>
+<l>yn gorfforol yny bobol</l>
+<l>eraill ysy yn gwan gredy</l>
+<l>nadoes yn y byd ond yr ysbryd</l>
+<l>medder doethon dysk mefyrion</l>
+<l>vn achyfan yw duw ymhob man</l>
+<l>ychlawr ywch-der dan y dyfn-der</l>
+<l>yn y nef yny byd yma hefyd</l>
+<l>am nad oydden yn kredy hyn</l>
+<l>feddyg rhagom dalam o roddion</l>
+<l>feddyg ffrwythydd koed ameysydd</l>
+
+<pb n="NLW 13081B, 157r"/>
+
+<l>veddyg pysgod dwr edynod</l>
+<l>ac yskryblodd <unclear>a</unclear>r fenyddoedd</l>
+<l>keyrw jerchod ac ewigod</l>
+<l>ve ddyg ymaith gariad perffaith</l>
+<l>mynodd ddiffod y gvdwybod</l>
+<l>rhows y kythrel<!--yrkythrel?--> y lawn afel</l>
+<l>ar yreglwys ynte ay espeiliws</l>
+<l>venny fryntyn blasoedd meinin</l>
+<l>ve yrws ty dduw yn wak ty</l>
+<l>nyd gwell y len fod yn siaplen</l>
+<l>heb gael meistir o bechadyr</l>
+<l>nyd oes yddo le y weddio</l>
+<l>Duw yn y dy heb y bryny</l>
+<l>ac saith bechod gan y drindod</l>
+<l>saith bechod vn yn saith gelyn</l>
+<l>ar saith hyny y sydd heddy</l>
+<l>bena ynhemprol ac yn ysbrydol</l>
+<l>lle yddoedd yni beth rymedi</l>
+<l>nyd ynt ychwaith ar dwy gyfraith</l>
+<l>ac er dylysed y for dlyed</l>
+<l>ffalst ywystla rhaith ac a ymaith</l>
+
+<pb n="NLW 13081B,157v"/>
+
+<l>y tlawd gwirion ny bo gar bron</l>
+<l>ve ar ffalst ar lw fo yni helw</l>
+<l>bay ran dy fod or saith pechod</l>
+<l>ffimar kwyntri / arhydd wyti</l>
+<l>llymar flwyddyn ytres duw gwyn</l>
+<l>wyn y gallon ar y sayson</l>
+<l>hwn yrason dduw yr gwndwn</l>
+<l>ve gyr hwynte dan yffyrnne</l>
+<l>mayr fam jesu kwd llysay fy</l>
+<l>pechadyres / mai yn frenhines</l>
+<l>peder ynte pob attwrne</l>
+<l>by weddio llawer rhagddo</l>
+<l>heddy may was yn y dernas</l>
+<l>yn peri amey y tafoday</l>
+<l>ac aeth y dy kefnder jesu</l>
+<l>jago bostol nyd oedd ffol</l>
+<l>efo orfy arnyn gyrchy</l>
+<l>ywlad jago sawl ay kroko</l>
+<l>nyd oedd bryder / yn vn amser</l>
+<l>ar vn kriston fod duw yn ffyddlon</l>
+
+<pb n="NLW 13081B, 158r"/>
+
+<l>maer pen tryma am drais athra<!--add by diff hd: ha--></l>
+<l>ar diale heb yddechre</l>
+</lg>
+<trailer>Thomas ap jeuan ap rhys ay kant</trailer>
+</div></body></text>
+
+
+<text id="TIRh_30">
+<body>
+<div>
+<pb n="NLW 13081B, 160v"/>
+
+<lg>
+<l><hi rend="rubric">Y</hi>may dogon ar y gar</l>
+<l>gwrando ar addweda</l>
+<l>vaeth y byd ar veth y gid</l>
+<l>wrth y byd y wela</l>
+<l>y syn bwrw yn fawr y fryd</l>
+<l>ar y byd h<unclear>wn</unclear><!--damaged--> yma</l>
+<l>bid e ddiogel yny ffydd</l>
+<l>ymay yddo rybydd kwta</l>
+<l>kanys efo ydiw vn<!--+ some del--></l>
+<l>or tri gelyn gwaytha</l>
+<l>sydd ar les yrenayd gwyn</l>
+<l>a ffob dyn y dwylla</l>
+<l>dyn a gayf gan y byd</l>
+<l>vynd yr golyd pena</l>
+<l>ac vo gedyr byd e'nhoeth</l>
+<l>vel y doeth e yna</l>
+<l>wedy darffo ymhob dyll</l>
+<l>yddo gynyll kronfa</l>
+<l>nyd a gantho bil nachroes</l>
+<l>ond aroes yn y fola</l>
+<l>vel y karo dyn y byd</l>
+<l>vo<isp/>ddaw<isp/>yr ysbryd gwaytha</l>
+
+<pb n="NLW 13081B, 161r"/>
+
+<l>ac ay rhwstra ywneyth chwaith</l>
+<l>or saith weithred pena</l>
+<l>pen <sic>delo</sic> christ atto y hyn</l>
+<l>yn y llyn tolota</l>
+<l>yddwy fi yn dlawd edrych ddyn</l>
+<l>rho ymir pilin<isp/>gwaytha</l>
+<l>gwna di les y ki krach</l>
+<l>yddwyti yn jach debyga</l>
+<l>ameddylied yddwyti</l>
+<l>may myfi yth ddillata</l>
+<l>rho ymi fwyd er duw gwyn</l>
+<l>ymay newyn arnaf</l>
+<l>nyd oedd raid ytt fod yn dlawd</l>
+<l>ddiawl dy flawd nath fara</l>
+<l>rho ymi ddiod myn fynghred</l>
+<l>ymay syched arna</l>
+<l>ti ay toryt ymhob nant</l>
+<l>ond dy chwant di y gyrfa</l>
+<l>rho ymi letty haner nos</l>
+<l>yny diddoes yna</l>
+<l>does di wers yna fry</l>
+
+<pb n="NLW 13081B, 161v"/>
+
+<l>ti kay e ynty nesa</l>
+<l>ve'roes duw vi vynghar</l>
+<l>yn y karchar blina</l>
+<l>mawr dda yt gael hyny yn swrth</l>
+<l>wrth dy byteina</l>
+<l>yddwy fi yn glaf ynty yna draw</l>
+<l>gar dy law dir gwrda</l>
+<l>or kywaythog llawen gwych</l>
+<l>dare y edrych arna</l>
+<l>ti fyddy jach yn yman</l>
+<l>nyd wyti wan dybyga</l>
+<l>ac nicharaf hanad chwaith</l>
+<l>mi wnaf vyngwaith yn gyntaf</l>
+<l>a ddoydi gladdy y tlawd yna hwnt</l>
+<l>aeth y brwnt o dyna</l>
+<l>ny naeth e swydd trafy yny byd</l>
+<l>onyd kip rytha</l>
+<l>nydoes amdo ym duw amair</l>
+<l>oni chayr kinhoka</l>
+<l>chwiliar kwd sy dan y ben</l>
+<l>ymay yno goden dwba</l>
+<l>y may yn ddigon llaes y lyp</l>
+
+<pb n="NLW 13081B, 162r"/>
+
+<l>kyfod chwyp affrysta</l>
+<l>tyred attai ar dy swyp</l>
+<l>ti welyr gip sydd arna</l>
+<l>ffrwynar kefful ffroenwyn dy</l>
+<l>tyn yr ty kyfrwya</l>
+<l>middelya bynt ne'ddwy</l>
+<l>mi myna hwy yn gynta</l>
+<l>vo vydd yddo ddogon vael</l>
+<l>gwedy kael y g<unclear>osgol va</unclear><!--???damage--></l>
+<l>vo ddaw vn ni rodda nag</l>
+<l>ac ay gwasgara</l>
+<l>jo<!--?--> yn siompol yni sy</l>
+<l>y vy gyfoethoka</l>
+<l>gwedy kyfrif pawb y gid</l>
+<l>y vy yn y byd yma</l>
+<l>efo gollay blasoedd rhydd</l>
+<l>yn vn dydd ay holl dda</l>
+<l>gwedi kolli hyny y gid</l>
+<l>vo ay yny klefyd blina</l>
+<l>vo gaer krach yn ayr pur</l>
+<l>yw roddi yr kerddwyr pena</l>
+<l>er y fod e megis hwch</l>
+<l>yn y llwch ar llaka</l>
+
+<pb n="NLW 13081B, 162v"/>
+
+<l>am y fod e velly yn byw</l>
+<l>yn kary dyw yn bena</l>
+<l>efo ay jach yddy dai</l>
+<l>ac y gay y holl dda</l>
+<l>ac o gwnawninay gud</l>
+<l>yn y byd yma</l>
+<l>vel y gwnaeth ymae yniwlad</l>
+<l>gydar tad gorycha</l>
+</lg>
+<trailer>Thomas ap Ieuan ap Rhys Ay kant</trailer>
+
+</div>
+</body>
+</text>
+
+<text id="TIRh_31">
+<body>
+<div>
+<pb n="NLW 13081B, 162v"/>
+
+<lg>
+<l><hi rend="rubric">P</hi>wy ywr s<expan>yr</expan> goray oll</l>
+<l>yn yr holl vrenhiniaeth</l>
+<l>s<expan>yr</expan> siorys mathay sy</l>
+<l>yn berchen tyaeth</l>
+<l>yn yradyr mawr ywr graes</l>
+<l>ymaer <del>ymaer</del> vras gynhaliaeth</l>
+<l>pawb syn medry kyrchy lle</l>
+<l>ymay goray llyniaeth</l>
+<l>maen hwy yn dyfod mal wrth wys</l>
+
+<pb n="NLW 13081B, 163r"/>
+
+<l>ato yr llys yn llawn faeth</l>
+<l>ynte gresewi pawb ar goedd</l>
+<l>velly ddoedd yn<damage><c/><c/><c/><c/></damage>eth</l>
+<l>ymayr gayr yddo ef</l>
+<l>gore y ganhaliaeth</l>
+<!--next 2 lines on one line, divided by "/"-->
+<l>na doedd yni gael</l>
+<l>hael oy rywogaeth</l>
+<l>hael yn fab llawen hy</l>
+<l>arhyd y by fabolaeth</l>
+<l>ar ymroddi y vod yn hael</l>
+<l>gwedi kael gwroliaeth</l>
+<l>dilis jawn y farbara hael</l>
+<!--next 2 lines on one line, divided by "/"-->
+<l>gael taladigaeth</l>
+<l>ysyn enill tref ythad</l>
+<l>gwlad nef ynhelaeth</l>
+<l>pawb yddaw yradyr l&acirc;n</l>
+<l>yno y kan y kyd faeth<!--saeth?--></l>
+<l>at y teyly goray braint</l>
+<l>ymaint lly 'merhodraeth</l>
+<l>nyd oes gwrthod klaf nag jach</l>
+<l>mawr na bach na mamaeth</l>
+
+<pb n="NLW 13081B, 163v"/>
+
+<l>hen ac jevaink don <unclear>y</unclear>r llys</l>
+<l>dilys o brydigaeth</l>
+<l>kan gwyn brwd arhost</l>
+<l>difan gost gwin faeth<!--s?--></l>
+<l>medd meddyglyn bragod pur</l>
+<l>kwrw byr rhagoriaeth</l>
+<l>dan dy gadwyn ayr yddwyd</l>
+<l>yllew llwyd llawen faeth<!--s?--></l>
+<l>velly yroedd y keylog fry</l>
+<l>dy o waedoliaeth</l>
+<l>y proffwydi yddowad hyn</l>
+<l>kyn y genedigaeth</l>
+<l>mab duw y ddelayr byd</l>
+<l>hyd yddoedd ganihadiaeth</l>
+<l>ymay term gar yn llaw</l>
+<l>y daw ynaw <corr resp="transcr" sic="brnhiniaeth">brenhiniaeth</corr></l>
+<l>ac ni chanhaliant ddim or hedd</l>
+<l>medd y broffwydoliaeth</l>
+<l>pen for gath yn ka<damage><c/><c/></damage> klawr</l>
+<l>y dawr fawr <unclear>farol</unclear>aeth</l>
+<l>llwynog ffwlbert lleyad<!--?--> krank</l>
+
+<pb n="NLW 13081B, 164r"/>
+
+<l>jefank ywr anogiaeth</l>
+<l><unclear>S</unclear>arff<!--?--> a blaidd a baedd glas</l>
+<l>dyrngas ymarchogaeth</l>
+<l>ki llew gwyn a gwadd</l>
+<l>lladd yw y llywodraeth</l>
+<l>tarw eryr gw<unclear>e</unclear>nol<!--?--> bran</l>
+<l>galwan y genhedlaeth</l>
+<l>llew koch keilog mynydd</l>
+<l>hydd o gudd herwriaeth</l>
+<l>pymp kwarter blwyddyn hir</l>
+<l>hir heb <corr resp="transcr" sic="arddeliath">arddeliaeth</corr></l>
+<l>kyn y trotho dyw y law</l>
+<l>at y ganllaw digaeth</l>
+<l>llawer gwraig heb y serch</l>
+<l>allawer <supplied>merch</supplied><!--added by later hd supralin--> mewn hiraeth</l>
+<l>llawer mab heb y dad</l>
+<l><corr resp="transcr" sic="men">mewn</corr><!--?--> ymddifadaeth</l>
+<l>jesu grist anprynay y gid</l>
+<l>prid y fyr prynedigaeth</l>
+<l>gway ni aros yn y byd</l>
+<l>symyd y wasanaeth</l>
+</lg>
+<trailer>Thomas ap Iefan ap rhys Ay kant</trailer>
+</div>
+</body>
+</text>
+
+<text id="TIRh_32">
+<body>
+<div>
+<pb n="NLW 13081B, 164v"/>
+
+<lg>
+<l><hi rend="rubric">W</hi>edy proffer pob man</l>
+<l>hyd yn nwy<unclear>r</unclear>an hafren</l>
+<!--next 2 lines on one line, with a full stop between-->
+<l>gorey man ac y sy</l>
+<l>y try yrheylwen</l>
+<l>llemaer ty mwy y glod</l>
+<l>dan rhod ffyrfafen</l>
+<l>lle gosodes duw y ras</l>
+<l>ar y plas dwn refen</l>
+<l>llemay ywraig barchys hael</l>
+<l>wedi kael y fforten</l>
+<l>ar vn veddwl yny byw</l>
+<l>aroddes duw y ddwyn wen</l>
+<l>kary pob karcharor krist</l>
+<l>lliwior trist yn llawen</l>
+<l>kodir jencktid ar ymaeth</l>
+<l>vel y gwnaeth elen</l>
+<l>yr pellenig rhoddi ty</l>
+<l>rhoddi gwely yn llawen</l>
+<l>peri yr tlawd fod yn ddoeth</l>
+<l>trwsio<!--+ del or corr'd letter--> noeth diarchen</l>
+<l>galwr jesu ar bob gayr</l>
+<l>ay vam fair forwyn wen</l>
+<l>am ddar byd bod yn hael</l>
+<l>mynych gael y fferen</l>
+
+<pb n="NLW 13081B, 165r"/>
+
+<l>enill nefoedd gwyn y byd</l>
+<l>ar hyd y bor dowarchen</l>
+<l>a dwyn enay<!--corr to enayd?--> glan y dduw</l>
+<l>a buw yn ail tonwen</l>
+<l>am yn garyr anffydd</l>
+<l>gnawd yn gael y gynen</l>
+<l>ac os kowir ydiwr <damage><c/><c/><c/><c/></damage></l>
+<l>hi afydd byd a<unclear>niben</unclear></l>
+<l>ymay yn ddierth yddynthwy</l>
+<l>gwrs yddwy seren</l>
+<l>vn or dwr ar nall or tan</l>
+<l>ynhwy ygan y gorffen</l>
+<l>gorch mynay krist y drig</l>
+<l>ar ganheadig gynen</l>
+<l>rhydrig eilwaith bychan wyr</l>
+<l>holl synwyr gridwen</l>
+<l>ddys yny henwi yn ddwy ddraig</l>
+<l>vn ay ffaig<!--ss?--> yn glaerwen</l>
+<l>ar llall goch ywhi yny mysg</l>
+<l>efo lysk yddayren</l>
+<l>ac y gyfod kynwr gwrdd</l>
+<l>vn dwrdd ar gwenyn</l>
+<!--next 2 lines on one line-->
+<l>ac o ddrwg ini yrhead</l>
+<l>amrhead felen</l>
+
+<pb n="NLW 13081B, 165v"/>
+
+<l>ymaynhwy yn ofnir day barth</l>
+<l>wedyr arth aflawen</l>
+<l>ac heb feddwl yddynt bwedd</l>
+<l>y daw or gogledd gay wen</l>
+<l>ond yddeyly ymhob mars</l>
+<l>mal ystars yddrydwen</l>
+<l>y sydd heb ally nos na dydd</l>
+<l>varny yn rhydd y rhod bren</l>
+<l>jesu a esyd pawb yny fan</l>
+<l>hyd yn oed rhan rhonwen</l>
+<l>ny thernhasant fawr ynhwy</l>
+<l>y syrthiant hwy y germania</l>
+</lg>
+<trailer>Thomas ap Ieuan ap Rhys Ay kant</trailer>
+</div>
+</body>
+</text>
+
+<text id="TIRh_33"><body><div>
+<pb n="NLW 13081B, 125v"/>
+
+<lg>
+<l>Gwrandewch arnai bob ryw ddyn</l>
+<l>ymodd ar llyn y byon</l>
+<l>yn dwyn bowyd drwy fawr gyr</l>
+<l>yn wragedd gwyr ameybion</l>
+<l>ac felly yr<isp/>oedd gwllys duw</l>
+<l>yn ordro rhyw grystnogion</l>
+<l>arhai eraill pawb ay gwyr</l>
+<l>disynwyr yn jddewon</l>
+<l>kynta dial y syr joed</l>
+<l>ac yn yroed y klowsom</l>
+<l>y fy gwy<expan>m</expan>p ar lywsiffer</l>
+<l>a llawer o angylion</l>
+
+<pb n="NLW 13081B, 126r"/>
+
+<l>yr ail dial <corr resp="scribeC" sic="adda">efa</corr><!--ed efe--> ay gwnaeth</l>
+<l>ac adda aeth y ebron</l>
+<l>am yr afal fynd yn<dsp/>ghyd</l>
+<l>y drafaylyr byd yn dlodion</l>
+<l>ni by ddial erioed fwy</l>
+<l>oddino ynhwy eython</l>
+<l>medd y beibyl yn nyni</l>
+<l>am dori y gorchymynion</l>
+<l>y drydyddial oedd llif noe</l>
+<l>affwy nathore y galon</l>
+<l>onyd wyth dyn yr holl fyd</l>
+<l>y gid ynhwy foddyson</l>
+<l>y may yn rhyfedd y bob gwr</l>
+<l>am syrthiad twr pabilon</l>
+<l>pedwar dial yw ef or brig</l>
+<l>oryfig<!--ed aryfig--> gwerin ffeilstion</l>
+<l>y bedwrydd dial troya fawr</l>
+<l>y lle y<!--ed miss--> by mawr ddialon</l>
+<l>a<isp/>lladd rhwng y jawn ar kam</l>
+
+<pb n="NLW 13081B, 126v"/>
+
+<l>yn amser abram ffyddlon</l>
+<l>sodam a gomora<!--ed gomara--> meddant hwy</l>
+<l>ac yno nhwy soddyson</l>
+<l>onid lott ay wraig ai blant</l>
+<l>may gwarant gowir ddigon</l>
+<l>ar chweched dial tan gwylld oedd</l>
+<l>fo ofn nodd pawb pan glowson</l>
+<l>lle y byddial mawr diospen</l>
+<l>am nad oydden gyfion</l>
+<l>ar seith fed dial siosiwa gynt</l>
+<l>vel dyna hynt gofalon</l>
+<l>vo ddystrowiodd medd ysain</l>
+<l>y bychain jawn ar mowrion</l>
+<l>vn ar bymtheg ddwy waith oedd</l>
+<l>o frenhinoedd coron</l>
+<l>o arch duw y ladd ef</l>
+<l>o waith pechoda trymon</l>
+<l>ac vellymar seith fed yw</l>
+<l>ac vo wyr dywr bwriadon</l>
+<l>ar wyth<dsp/>fed<!--ed wythed--> sydd dydd yfarn</l>
+<l>yn gadarn ac yn greylon</l>
+<l>yroedd<!--ms yr'oedd?--> dialedd ymhob gradd <del>y dwrion</del></l>
+
+<pb n="NLW 13081B, 127r"/>
+
+<l>er peri lladd y dewrion</l>
+<l>ar hai diddrwg nyd oedd gas</l>
+<l>o gwmpas yn hwy ddarfyon</l>
+<l>ac am hyny troed pob rhai</l>
+<l>oddiwrth y bai pen allon</l>
+<l>fel y trodd pawl gynt yr ffydd</l>
+<l>y gael llawenydd jnion</l>
+<l>a<isp/>meddylian<!--ed au?--> hwy yni hoes</l>
+<l>am dduw ar groes ar hoelion</l>
+<l>a gweddian<!--ed au?--> arno yn syth</l>
+<l>nyd anhwy byth y ofalon</l>
+<l>o daw gofyn ar ay gwnaeth</l>
+<l>o estori fraeth y doython</l>
+<l>Dyna warant digon prydd</l>
+<l>yn hwy sydd ddinydon</l>
+</lg>
+</div></body></text>
+
+<text id="TIRh_34"><body><div>
+<pb n="NLW 13081B,127r"/>
+
+<lg>
+<l><hi rend="rubric">R</hi>hyfedd ddigon y bob kriston</l>
+<l>nad ofna vn o dri gelyn</l>
+<l>y knawd ar byd ar drwg ysbryd</l>
+<l>y sy wreyddie yr holl bechode</l>
+
+<pb n="NLW 13081B, 127v"/>
+
+<l>pechod y knawd y beyr anffawd</l>
+<l>pawb yn y cryfder amod ofer</l>
+<l>ar hen ar gwan ar di oydran</l>
+<l>godineby nis gwnair heini</l>
+<l>pe kyfarche y dduw fadde</l>
+<l>yr angel y toro oddywrtho</l>
+<l>syny yry e ywan gredy</l>
+<l>na chayff e dda byth ywala</l>
+<l>pe kaeef<!--ed keyf--> dda<isp/>'r byd yn olyd</l>
+<l>vo beir<!--ed keir--> y fod ef mewn kebydddod</l>
+<l>vel llif kornant yddar trachwant</l>
+<l>'ny gadernid yno y diffid</l>
+<l>er maint y vo gasgal gantho</l>
+<l>yno y gedy y holl gasgly</l>
+<l>wedy ddelo duw o<dsp/>ddiwrtho</l>
+<l>ny char vn dyn y wyneblyn</l>
+<l>ar mwya fy yny gary</l>
+
+<pb n="NLW 13081B, 128r"/>
+
+<l>rhowyr gatto gael y gyddio</l>
+<l>ar da ar tir y gymeryr</l>
+<l>yddiddany von hiraythy</l>
+<l>tal gan dduw gair am bob gwirair</l>
+<l>gair gwarth yn wir vo<isp/><!--ms v'o?-->ddielir</l>
+<l>pwy bynag vo<isp/>'n syned arno</l>
+<l>y sy feilchion y sy dlodion</l>
+<l>a sy ddifri ymay yn kodi</l>
+<l>pawb gadawed y ddrwg weithred</l>
+<l>ni ffery<isp/>'r byd hyn ond enyd<!--ed benyd?--></l>
+<l>maen flin gosod<!--ed gofod--> benthig tafod</l>
+<l>dangos bod chwant kael maddeyant</l>
+<l>rhowyr yddo heb gwelyddio</l>
+<l>y kythrel y sydd ffalst achebydd</l>
+<l>may trigaredd duw yn y diwedd</l>
+<l>y bawb taled y ddylyed</l>
+</lg>
+</div></body></text>
+
+<text id="TIRh_35"><body><div>
+<pb n="NLW 13081B, 128v"/>
+
+<lg>
+<l><hi rend="rubric">A</hi>rglwydd jesu grist ermwyn</l>
+<l>dy fam forwyn dirion</l>
+<l>dyred vn waith yn dy fraint</l>
+<l>di ath saint gwirion</l>
+<l>ti<!--ed miss?--> addoythost vn duw tri</l>
+<l>yn rhoddi ni yn rhyddion</l>
+<l>ac y golli dy holl waed</l>
+<l>yr wyt draed y sayson</l>
+<l>vo aeth dy demle yma athraw</l>
+<l>oll yn llaw y llygion</l>
+<l>ath eglwysi ymhob lle</l>
+<l>yn gornele gweigion</l>
+<l>trwy segyryd pawb ysy</l>
+<l>yn kael y golydon</l>
+<l>heb prydery dim o dduw</l>
+<l>onyd byw yn anghyfion</l>
+<l>ti ddioddefaist di ath farn</l>
+<l>gay acham <del>creylon</del> ddermygion</l>
+<l>christogion<!--sic--> awnay yt waeth</l>
+
+<pb n="NLW 13081B, 129r"/>
+
+<l>nag ywnaeth jddewon</l>
+<l>ynhwy yddawson<!--y corr to/from a--> gadwr ffydd</l>
+<l>ar bedydd y gymerson</l>
+<l>vel y gallent gael dy ras</l>
+<l>er nas cauas dalon</l>
+<l>ac o drachwant ar y da</l>
+<l>trais athra awneython</l>
+<l>athyrmygy di ath fam</l>
+<l>a gwneythyr<!--ed gn-?--> kam kreylon</l>
+<l>dwyn yth trysor briwo ych tai</l>
+<l>bod ar fai ddigon</l>
+<l>dwyn ych trwsiad gweddaydd glan</l>
+<l>o ddidan<!--ed a diddan--> ych gweision</l>
+<l>bene domine ffransis<!--ed ffrancis--> llwyd</l>
+<l>duw o dwyd mor gyfion</l>
+<l>may dy gorff di ar sal</l>
+<l>dial dy wyryddon</l>
+<l>yroedd yngrefydd mair o<!--?; ed a--> ffred</l>
+
+<pb n="NLW 13081B, 129v"/>
+
+<l>ferched<!--ed fa?--> amorynion</l>
+<l>yth weddio lawer pryd</l>
+<l>ar hyd y byd yraython</l>
+<l>fo aeth dy ffydd di ar goll</l>
+<l>y ddyni oll yn ddeillion<!--ed oi?--></l>
+<l>ac heb gready<!--ed greddy?--> dim yn jawn</l>
+<l>cosb y gawni weithon</l>
+<l>y<isp/>may<!--ed mae--> term gar yn llaw</l>
+<l>y daw ynaw coron</l>
+<l>ac arweddan<!--ed au--> y naw kad</l>
+<l>ar glawr gwlad albon<!--ed alban--></l>
+<l>ay bwriady yn fawr ar ladd</l>
+<l>pob gradd yn greylon</l>
+<l>ac heb arbed jfank hen</l>
+<l>y fo llen a llygion</l>
+<l>coron ddegfed duw ne fry</l>
+<l>yddaw ally o angylion</l>
+<l>y bob maes rhag lladdfa flin</l>
+<l>y amddiffin gwirion</l>
+
+<pb n="NLW 13081B, 130r"/>
+
+<l>ac yn ymparth efo dry</l>
+<l>kymry ac yskotlond</l>
+<l>ac yr eylwaith gida hyn</l>
+<l>llych<dsp/>lyn ac ywerddon</l>
+<l>ac y kyffry rhyfain fawr</l>
+<l>ac yno y dawr kantorion</l>
+<l>syn gweddio duw a<isp/>mair</l>
+<l>ac yno y kair y ganon</l>
+<l>ag yn erbyn hyn y bod</l>
+<l>holl ffrankod sayson</l>
+<l>y fydd yn lladd ymhob lle</l>
+<l>megis bleidde creylon</l>
+<l>ac arweddant ar bob gwlad</l>
+<l>gad o angristnogion</l>
+<l>herwydd y ffydd hwy kans</l>
+<l>begans ac jddewon</l>
+<l>ar amser hyn ni wys</l>
+
+<pb n="NLW 13081B, 130v"/>
+
+<l>ynghyd pymtheng mis hirion</l>
+<l>yn piaffod mor athir</l>
+<l>pwy fydd sickir ddigon</l>
+<l>ond gobeithio duw yr<!--ed yn--> ys</l>
+<l>may hil vrytys gyfion</l>
+<l>an ar ynys yn ddiran</l>
+<l>ac yno y can hwy y coron</l>
+<l>oes y mab efo ar tad</l>
+<l>ysyn hwylad ddynion</l>
+<l>oes <corr resp="transcr" sic="yr yr">yr</corr> ysbryd yni ysydd</l>
+<l>hono fydd yn weithon</l>
+<l>ac yr arwedd ymhob gwlad</l>
+<l>ffydd wastad ddigon</l>
+<l>a bedyddio pawb mewn dwr</l>
+<l>hyd ynhwr pabilon</l>
+<l>yno saved pawb ar wir</l>
+<l>ac yn gowir <del>ddigon</del> jnion</l>
+
+<pb n="NLW 13081B, 131r"/>
+
+<l>vel y toro y ayr ne y lw</l>
+<l>vo fydd marw ddigon</l>
+<l>ac yr ddayar yn ddi barch</l>
+<l>yr<isp/>ar towarch meyrwon</l>
+<l>ar eneide jesu aed</l>
+<l>a gwrth<dsp/>fawr waed gwirion</l>
+</lg>
+</div></body></text>
+
+<text id="TIRh_36"><body><div>
+<pb n="NLW 13081B, 131r"/>
+
+<lg>
+<l><hi rend="rubric">Y</hi> plwyf ar wlad lle may ynghariad</l>
+<l><unclear><c/></unclear>an<!--ed ar; check microfilm--> orchymyn duw at bob dyn</l>
+<l>niferoedd da gwrandewch arna</l>
+<l>rhag na bwyfi<!--ed rhag blwyfi?--> ond y leni</l>
+<l>be bai ragor geni o gyngor</l>
+<l>ychwi nag wn hawdd yr hoddwn<!--blotch; check microfilm--></l>
+<l>nydwy gwedy rhybell ddysgy</l>
+<l>ond fy<isp/>rhodd<!--ed fy'rh-?--> gan dduw y hynan</l>
+<l>ond erhyny chwi gewch dreythy</l>
+<l>vel y<isp/>may vn duw yn gorchymyn</l>
+<l>jesu mab mair ywnaeth dengair</l>
+
+<pb n="NLW 13081B, 131v"/>
+
+<l>deddef yni gadwrheini</l>
+<l>car dduwn<!--sic, ed dduw--> yn bena ac ynesa</l>
+<l>achar dy gyd griston hefyd</l>
+<l>a gator dday hyn yn ddifay</l>
+<l>y<isp/>mayr dengayr ar y ddey air</l>
+<l>y<isp/>may tri dyn yn diri<!--ed dri, above in ms, in diff hd, dri--> chasddyn</l>
+<l>Duw na bwy fi yn vn orheini</l>
+<l>Dyn y gaffo dysgy<!--ed ddysgy--> yddo</l>
+<l>Dysk fawr na fyn dysgy<!--ed ddysgy--> vn dyn</l>
+<l>yr ail ywr dyn yfon dilin</l>
+<l>hir ddrwg ar hyd y bo y fowyd</l>
+<l>ar dyn drydedd am drigaredd</l>
+<l>duw nef na bo gobaith gantho</l>
+<l>saith nef y sydd llawn<!--n ins inline, by diff hd?--> llawenydd</l>
+<l>chwech yngwen wlad nef yrhaeldad</l>
+<l>ar nef seithfed ddyni yn gweled</l>
+
+<pb n="NLW 13081B, 132r"/>
+
+<l>yr eglwys ysyni wasnaythy</l>
+<l>a saith hefyd y sydd yn y<!--ed miss?--> byd</l>
+<l>maer saith hyny yn cael y cary</l>
+<l>nef ywr jechyd nef ywr golyd</l>
+<l>nef ywr mowredd nef ywr bonedd</l>
+<l>nef ywr swydde nef ywr gradde</l>
+<l>nef ywr parch a<isp/>'r greso mwya</l>
+<l>o chaiff vn dyn un or saith hyn</l>
+<l>ny chayff ynef fry heb y bryny</l>
+<l>Duw prynodd hi drwy fyrthyri</l>
+<l>oy waed ay gig bendigedig</l>
+<l>wedyr pryniad ar dref y<isp/>dad</l>
+<l>efo roes hon yr tylodion</l>
+<l>may duw yn doydyd perchen golyd</l>
+<l>gan dlawd pryn nef oth elyn</l>
+</lg>
+</div></body></text>
+
+<text id="TIRh_37"><body><div>
+<pb n="NLW 13081B, 135v"/>
+
+<lg>
+<l><corr resp="transcr" sic="Yyny"><hi rend="rubric">Y</hi>ny</corr><!--ed Dyny--> pechod ddyni yn byw</l>
+<l>duw pawb yny galon</l>
+<l>ny ni gawsom bryder mawr</l>
+<l>y ddyni y nawr yn eon</l>
+
+<pb n="NLW 13081B, 136r"/>
+
+<l>holl gyfredin jesu grist</l>
+<l>by on drist ddigon</l>
+<l>nyd er balchedd nyd er bost</l>
+<l>teg y troest atton</l>
+<l>rhoddi dy vam wyry vry</l>
+<l>yn ben lly gweryddon</l>
+<l>mari yn hynys niney sy</l>
+<l>heddy yn dwyn y goron</l>
+<l>y<isp/>may yn<isp/>y dwyn o dad amam</l>
+<l>nyd oedd gam on kyfion</l>
+<l>vo roes yddi wrth y bodd</l>
+<l>ac o anfodd sayson</l>
+<l>gwraig oedd fam yn harglwydd ni</l>
+<l>meddey yr jddewon</l>
+<l>hithe osododd merch oy gradd</l>
+<l>jladd y pene ffeilstion</l>
+<l>ac yroedd yma athraw</l>
+<l>ar y llaw hi yr awr hon</l>
+<l>ally dial llid a bar ar y digasogion</l>
+<l>gore dim ac ywnaid</l>
+<l>roir peganiad<!--sic, ed -iaid; corr?--> meddwon</l>
+<l>wrth gadwini bob yn dri</l>
+<l>fel y kenddi cochion</l>
+<l>y vab duw ni allen waeth</l>
+<l>nog ywnaeth y elynion</l>
+
+<pb n="NLW 13081B, 136v"/>
+
+<l>ond ysbeilo ay ado yn hoeth</l>
+<l>bod yn boeth yddelon</l>
+<l>briwor allore mawr y braint</l>
+<l>ay troi yn ddifraint ddigon</l>
+<l>gosod trestel yn ddiglod</l>
+<l>vel gwarchiod gweddwon</l>
+<l>gwedy esbeilio duw ay dy</l>
+<l>pery yddy weision</l>
+<l>gyddio y gorff e agalwr byd</l>
+<l>y gymeryd briwsion</l>
+<l>arhoi yr ffeirieyd gwych y gwedd</l>
+<l>wragedd priodolion</l>
+<l>ym gystaly ar wyry fair</l>
+<l>heb vn gair gwedion</l>
+<l>gwisgo dager ar din</l>
+<l>gwneythyr min cyson</l>
+<l>gady barfe myny bod</l>
+<l>megis bychod beylchon</l>
+<l>yr oedd yr ffeyriayd wraig bwys<!--ed lwys?--></l>
+<l>hon ywr eglwys gyfion</l>
+<l>yddo enill drwy dduw tri</l>
+<l>o honi hi tifeddion</l>
+<l>ny fedyddid dim or plant</l>
+<l>y gad o chwant cnawdolion</l>
+<l>ond priodi pawb o chwith</l>
+<l>vel ymlhith yddewon</l>
+</lg>
+</div></body></text>
+
+
+<text id="TIRh_38"><body><div>
+<pb n="NLW 13081B, 173v"/>
+
+<lg>
+<l><hi rend="rubric">F</hi>aeth yn ychel pris yr yd</l>
+<l>llymar byd drogan</l>
+<l>vaeth swyddogon drwg a<isp/>drain</l>
+<l>a brain ar holl wlad forgan</l>
+<l>vaeth y ddayar oll yn brid</l>
+<l>ymaynhwy gid yn tychan<!--ed trychan--></l>
+<l>ac vn feddwl am ys<unclear>t</unclear>ars</l>
+<l>ac ysgars ymgaran</l>
+<l>ve aeth yr ynys yma athraw</l>
+<l>oll yn llaw satan</l>
+<l>vaeth gras duw o<unclear>u</unclear><!--ed on--> mysg</l>
+<l>vo aeth y ddysg yn fychan</l>
+<l>ve aeth yn ddifraint eglwys grist</l>
+<l>penyd trist athryan</l>
+
+<pb n="NLW 13081B, 174r"/>
+
+<l>gan y balchedd wedd yn wir</l>
+<l>vel y geyfir fyddan</l>
+<l>a allo herkyd tir ne dda</l>
+<l>gidar pena y byddan</l>
+<l>ar aberthog drwg yrhyw</l>
+<l>vaeth ydduw yny arian</l>
+<l>rhaid yr eiddil egwan yw</l>
+<l>fyw wrth y gilran</l>
+<l>ar kamweddys mawr y dra</l>
+<l>efa yn dda ar ddwyran</l>
+<l>y godwybod salw sydd</l>
+<l>at yr vfydd tlawd wan</l>
+<l>ar drigaredd aeth y gid</l>
+<l>ymaer llid yn llydan</l>
+<l>a bod heb nag yd na blawd</l>
+<l>ddeg ar dlawd y hynan</l>
+<l>madder ddime fach nichayd</l>
+<l>ar yrhobaid fechan</l>
+<l>vaeth y kaws blayne a bro</l>
+<l>keisio fytels ymay yn faith</l>
+<l>y gael vnwaith grochan</l>
+
+<pb n="NLW 13081B, 174v"/>
+
+<l>kyrched duw nhwy atto ymrhyd</l>
+<l>llymar p<add place="supralinear">r</add>yd y llefan</l>
+<l>y tylodion grym y gread</l>
+<l>o cathiwed allan</l>
+<l>kyn yddelor dial tost</l>
+<l>ymaen fost fechan</l>
+<l>ac addewid ym gynt</l>
+<l>ac ar hynt y gwelan</l>
+<l>ny ni gowson naw mis glaw</l>
+<l>ac voddaw yn weithan</l>
+<l>naw mis eraill yn des</l>
+<l>gan y gwres y greidan</l>
+<l>efo ddychon duw osmyn</l>
+<l>ddanfon<!--ms ddan fon--> enyn boeth fan</l>
+<l>er mwyn difa fo yny far</l>
+<l>gydar adar hedan</l>
+<l>niffryderwn ddim odduw</l>
+<l>yny byw ni throan</l>
+<l>a ffen doddon vel y kwyr</l>
+<l>ymay yn rhy hwyr yn dychan</l>
+
+<pb n="NLW 13081B, 175r"/>
+
+<l>moeswch yni yn getyn</l>
+<l>weddio yn vn achyfan</l>
+<l>ar yr eneide fynd yr nef</l>
+<l>atto ef y hunan</l>
+</lg>
+</div></body></text>
+
+
+<text id="TIRh_39"><body><div>
+<pb n="NLW 13081B, 182r"/>
+
+<lg>
+<l>Gofyn kwndid ymi y gaf</l>
+<l>beth ywnafi yleni</l>
+<l>orhoes duw ymine rodd</l>
+<l>nyd oes fodd ym dewi</l>
+<l>my fi ddoyda ychwi wir</l>
+<l>nid rhayd yw hir holi</l>
+<l>jach arhydd pam y cwyn</l>
+<l>y fod ef yn dwyn tylodi</l>
+<l>deillion krypled yn y byw</l>
+<l>o dy duw yny tlodi dodi</l>
+
+<pb n="NLW 13081B, 182v"/>
+
+<l>carchororion krist y gid</l>
+<l>gwyn y fyd y<isp/>rheini</l>
+<l>y golydog casgly nan</l>
+<l>ac ni fynan roddi</l>
+<l>efo ay cayff ni wyddon pwy</l>
+<l>a gway yn hwy o geny</l>
+<l>yno y daw yni ddiran</l>
+<l>y dyn yn wan dan weidi</l>
+<l>yma y trig y tir ar da</l>
+<l>ar dyn y a dan ochi</l>
+<l>llawer calon y fydde drist</l>
+<l>am farn Christ geli</l>
+<l>awype cyfiwch yw y braint</l>
+<l>glowed maint y hanfri</l>
+<l>nid oes gwraig ac y ssy</l>
+<l>nam gyfflybay yddi</l>
+<l>ffordd y try yr hayl o dde</l>
+<l>na ddelye y <del>chrogi</del> llossgi</l>
+<l>yddyni bawb ar y cam</l>
+<l>a mam y missereri</l>
+<l>morwyn wyryn wyry lawen lwys</l>
+
+<pb n="NLW 13081B, 183r"/>
+
+<l>naby yn gorbwys erni</l>
+<!--following 2 lines missing in ed-->
+<l>ni ddelen feddwl hyn</l>
+<l>nad oedd kyn y geni</l>
+<l>ffordd y enaid da na drwg</l>
+<l>nadelay y lymvow patri</l>
+<l>trafyn asgrer tad or nef</l>
+<l>clywch fyllef am gweddi</l>
+<l>hi ar mab yddyg yny bry</l>
+<l>jesu y chyfodi</l>
+<l>ana y mam pen y cae</l>
+<l>fel ymae yn ystori</l>
+<l>angel duw one<!--ms o'ne?--> fry</l>
+<l>y fy<isp/>'r genad dwri<!--=genadwri--></l>
+<l>yny demel yddodd<!--sic, ed yddoedd--> fayr</l>
+<l>yn dayr blwydd yn y addoli</l>
+<l>duw ay angylion nef ar goedd</l>
+<l>a hwynte oedd yn yfforthi</l>
+<l>morwyn wiri am y vod</l>
+<l>heb ddim pechod erni</l>
+<l>gan orychel ar chwe gayr</l>
+<l>y cae mayr feychogi</l>
+<l>yn yffedayr blwydd ar ddeg</l>
+
+<pb n="NLW 13081B, 183v"/>
+
+<l>y dawe anrheg iddi</l>
+<l>hi amddiffynodd yr holl fyd</l>
+<l>rag y gyd y colli</l>
+<l>y creawdwr mawr anmedd</l>
+<l>y syn etifedd jddi</l>
+<l>am y fagy ole<!--ms o'le?--> ynlle</l>
+<l>hi a ddylyey y addoli</l>
+<l>nyd oedd gnawd ond ychnawd</l>
+<l>trwy briawd eni</l>
+<l>y am ddiffin ar y groes</l>
+<l>y pymoes y syn poyni</l>
+<l>y gwir dduw oran<!--ed orau?--> y tad</l>
+<l>y mab rhad geni</l>
+<l>achos cnawd mayr y chwaer</l>
+<l>y caer ddaer y croeni</l>
+<l>mi addolar wiri ferch</l>
+<l>y may fy serch i erni</l>
+<l>ar y mab y byrai ymhwys</l>
+<l>jessus ffilli d<unclear>au</unclear>i<!--unclear; daui?, ed dmni--></l>
+<l>ac y galwai ar fab mair</l>
+<l>ar bob gair om gweddi</l>
+<l>hithe y gayff gantho ef</l>
+<l>yn y nef fynodi</l>
+</lg>
+</div></body></text>
+
+<text id="TIRh_40"><body><div>
+<pb n="NLW 13081B, 186r"/>
+
+<lg>
+<l><hi rend="rubric">H</hi>ael blwyfogion hardd wych ffyddlon</l>
+<l>clych sydd geni yddy stofi<!--ed stori?--></l>
+<l>cwndid nid ar sen newatwar</l>
+<l>naflinwch hyd boi yniddwedyd</l>
+<l>nid wyf ond ffol anystyriol</l>
+<l>ym gynghorir neb nym gwrendy</l>
+<l>ond ddwin gweled blin gamsyned</l>
+<l>mawr ar lawer faint<!--ed saint?--> y balchder<!--ms balch der--></l>
+<l>am nad ystyr pob pechadyr</l>
+<l>may rhayd symyd o hyn ofyd</l>
+<l>ceffelyb ywr byd ac vnffynyd</l>
+<!--one line deleted, illegible-->
+<l>affeyntiwr fay yn peintio delway</l>
+<l>y arfer e gwneythyr pethe</l>
+<l>twyllodrys ar wyneb dayar</l>
+<l>hir ni ffery y gwaith hyny</l>
+<l>ond desefor<!--ed desofor?--> nef ay costo</l>
+<l>fellyr byd caeth velhydoliaeth</l>
+<l>y kyfflybwn ym dyfosiwn</l>
+<l>mawr ddihayreb fyr doethineb</l>
+
+<pb n="NLW 13081B, 186v"/>
+
+<l>Dewder y abri cyn yn geni</l>
+<l>o bridd cynta gwr fy adda</l>
+<l>Blemay dwedwch ymi os meedrwch</l>
+<l>gwr dewr dibrin bleraeth<!--ed bler'aeth?--> rhawling</l>
+<l>Brenin grasol konstinopol</l>
+<l>plemay gorsil oedd wr ar fil</l>
+<l>a sylys yfy ddoeth cynhyny</l>
+<l>plemay gwyr da beyrdd eropia</l>
+<l>ner fil ar gwr elexawndwr</l>
+<l>ple may ector ddoeth y gyngor</l>
+<l>dewr mewn fentyr ple may arthyr</l>
+<l>may wenhwyfar hoyw fwyn hawddgar</l>
+<l>merch y gog fran gawr y hynan</l>
+<l>Ble mae anareg hoyw fwyn deg</l>
+<l>o bryd pen oedd ar y bobloedd</l>
+<l>plemay eron gynt oedd greylon</l>
+<l>a siarlamaen gryf y adaen</l>
+<l>plemay farsel pab rhyfain ffel</l>
+<l>pen cyfrayth hen ble raeth moysen</l>
+<l>plemay fryttys fab hen sylys</l>
+
+<pb n="NLW 13081B, 187r"/>
+
+<l>ac owain fy ddewra ynghymry</l>
+<l>ple may rhigart brenin dewrbart</l>
+<l>ar duwk y fydro yn jork yn trigo</l>
+<l>plemay ddafydd broffwyd ryw ddydd</l>
+<l>a self ddoeth mawr fyr cyfoeth</l>
+<l>may saith doethon rhyfain dirion</l>
+<l>Gwiliaw eraill yn saith fferaill</l>
+<l>plemaer gwr hwn elwyd catwn</l>
+<l>mawr y ddoyth der ymhob mater</l>
+<l>ble ddaeth y gid saith gelfyddyd</l>
+<l>oedd gan<isp/>lawer yn yr<isp/>hen amser</l>
+<l>er celuyddyd yrhain j gyd</l>
+<l>ay holl ddoeth-der mawr ay cryfder</l>
+<l>pawb yn ddilyn ac yn briddin</l>
+<l>yr ddaer ddeython hwy wyr dewron</l>
+<l>diwedd dyn glan y sydd egwan</l>
+<l>yfo dihayreb mewn gwrol deb</l>
+<l>arhon mewn bedd o saith droedfedd</l>
+<l>athan y ben las dowarchen</l>
+<l>ac ynte fydd beynoeth beynydd</l>
+<l>yn rhoi dalken wrth y nen bren</l>
+
+<pb n="NLW 13081B, 187v"/>
+
+<l>heb gedymaeth yni gwmpniaeth</l>
+<l>on ffroga dy yny gytty</l>
+<l>pryfed dayar geyrwon hagar</l>
+<l>fydd cyd meithion yr kyrff meyrwon</l>
+<l>ar enaid sydd<!--fydd?--> yny gystydd</l>
+<l>am ywnaethe o gamwedde</l>
+<l>pen el jesy ynghylch holi</l>
+<l>ni ad er tro lleia yn ango</l>
+<l>rhaid rhoi cyfri y pryd hyny</l>
+<l>or da mawron bwedd y deython</l>
+<l>ac yn berffeth pob ceinhogwerth</l>
+<l>wrth ben proffwydd<!--sic--> b<unclear>ab</unclear>edd <!--ed bopedd--> y <corr resp="scribeC" sic="gwneythbwyd">doytpwyd</corr><!--sic, ed doetrwyd--></l>
+<l>fel y gwneython y gweythredon</l>
+<l>ar pryd hyny cawnin taly</l>
+<l>pawb ywnaeth da medd y doetha</l>
+<l>yr porth ar llead y gayff myned</l>
+<l>ywnaeth trawsedd ac enwiredd</l>
+<l>yr lle dlyon att wyr geyrwon</l>
+<l>ermwyn hyny rhownin gweddi</l>
+<l>ar grist fadde yn nin pechode</l>
+<l>niwn griston berchen calon</l>
+<l>a syn gally bod heb pechy</l>
+<l>gedwch ym lwyr tifary</l>
+<l>hayddwn wir fodd duw fon p<add place="supralinear">r</add>ynodd</l>
+</lg>
+</div></body></text>
+
+</group>
+</text>
+</TEI.2>
