@@ -1,0 +1,1989 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../prose_dipl.xsl"?>
+<!-- normal stylesheet: prose_dipl.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!--%Conc;-->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY rr "r">
+<!ENTITY v6 "w">
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Darn o'r Ffestifal</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by </resp><name id="transcr">Ingo Mittendorf</name>
+<resp>Notes by <name>David Willis and Ingo Mittendorf</name></resp></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, November 2004</edition></editionStmt>
+
+ <publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+</publicationStmt>  
+
+<notesStmt>
+<note type="text">The text is a translation from English of John Mirk's <title>Festial</title>, a collection of sermons written in the late 1380s. Mirk's text was widely disseminated in a new recension in England in the fifteenth century, a version being printed by Caxton in 1483. A further twenty-two editions were published between 1486 and 1532 (see Susan, Powell, 'Mirk, John (<hi rend="italic">fl. c.</hi> 1382&ndash;<hi rend="italic">c.</hi> 1414)', Oxford Dictionary of National Biography (Oxford: Oxford University Press, 2004)). The Welsh is a translation of 14 of the 74 homilies it contains, probably from one of the printed editions, although it does not bear a close resemblance to Caxton's. Lewis suggests that the manuscript is not a copy, and shows direct evidence of ongoing translation. The corpus transcription consists of an extract from the beginning of the text, pages 80&ndash;155, amounting to around two-thirds of the total.</note>
+
+<note type="source">Hafod 22 also contains parts of the Gospels written by the same <name id="scribe">scribe</name>, edited by Henry Lewis and published as &lsquo;Darnau o'r Efengylau&rsquo; <title>Y Cymmrodor</title> 31 (1921): 193-216. For further details of the manuscript, see Lewis's editions of the two texts.</note>
+
+<note type="lang">The text shows a considerable number of southern dialect features.</note>
+
+<note type="bibl">The previous edition of the text is: <name id="editor1">Henry Lewis</name>, <title>Darn o'r Ffestifal (Liber Festialis): Allan o lawysgrif Havod 22, td. 80-195, gyda rhagymadrodd a nodiadau</title> (London: Cymdeithas y Cymmrodorion, 1925). [Supplement to the Transactions of the Honourable Society of Cymmrodorion (Session 1923-24).]</note>
+</notesStmt>
+
+<sourceDesc>
+<bibl>
+<author><name>John Mirk</name></author>
+<title type="ms">&lsquo;Darn o'r Ffestifal&rsquo;, Hafod 22</title>
+<dateRange from="1550" to="1575">ms. 1550-75 (translated after 1525)</dateRange>
+<biblScope>80-155</biblScope>
+</bibl>
+</sourceDesc>
+
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>The scribe uses a double &lt;r&gt; with descenders below the line (each distinct from single &lt;r&gt;). It is possible that this is an (inconsistent) attempt to represent Welsh voiceless /r/ by a scribe whose dialect did not make the distinction. In any case, the double &lt;r&gt; tends to represent voiceless /r/, and voiceless /r/ tends to be represented using this character; however, this usage is far from consistent. The double &lt;r&gt; is represented in the transcription using the character entity &amp;rr;. Two diplomatic output files have been provided, one with simple &lt;r&gt; and one maintaining a distinct form (&lt;&#636;&#636;&gt;); and in the concordance files it is replaced by &lt;rh&gt;. A third &lt;r&gt; resembling an upper-case &lt;R&gt; is also used occasionally, and is represented as &lt;R&gt;. On a few occasions, entirely in rubrics, the form of &lt;w&gt; resembling a &lt;6&gt; has been used. This is transcribed using the character entity &amp;v6;, and replaced by a &lt;w&gt; in the output files. The scribe leaves gaps at various points for titles etc. (for full details of the likely content of these gaps, see Lewis's edition). These are marked in the transcription using underscores.</p>
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs> (including some transcriptions in the <rs id="ipa">International Phonetic Alphabet</rs>).</p>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date>10.01.02</date>
+<respStmt>
+<resp></resp>
+</respStmt>
+<item>Finished check against MS; boldish "titles" as rubric; all sections starting with this as DIV; ins W</item>
+</change>
+<change>
+<date>25 March 2002</date>
+<respStmt>
+<resp/>
+</respStmt>
+<item>
+</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text id="DFf">
+<body>
+<div>
+<pb n="80"/>
+<head>
+<lb/><hi rend="rubric">Llyma lle mae darn o<isp/><apo/>r ffestival</hi></head>
+<p>
+<lb/>Vy<isp/>ngharedic bobyl ysbyssv ychwi mae
+<lb/>heddiw yw y sul kyntaf o<isp/><apo/>r grawys
+<lb/>ayaf yr hwnn y mae eglwys duw yn
+<lb/>dwyn ar ddyall o ddyfodiad krist <w>argl<lb rend="shy"/>wydd</w> y<isp/><apo/>r byd hwnn er prynv yr hollvyd 
+<lb/>o gaethiwed y kythrel ac y ddwyn pob
+<lb/>gwaithredwr da y<isp/><apo/>r llawenydd tragwddawl
+<lb/>a hevyd o<isp/><apo/>r ail ddyfodiad yr hwnn a
+<lb/>elwir dydd brawd pan ddel ef i varnv
+<lb/>y <sic>gam</sic> waithredwyr y<isp/><apo/>r poenav <w>tragwdd<lb rend="shy"/>awl</w> Eithr o<dsp/>blegid y dyfodiad kyntaf
+<lb/>o grist y<isp/><apo/>r byd hwnn ddwyn o<dsp/>hono ef
+<lb/>lawenydd nefoedd gidac ef Ac am
+<lb/>hynny y mae eglwys duw <supplied reason="missing">yn arver</supplied> o gan o <w>ddigr<lb rend="shy"/>ifwch</w> val y mae alalya A hevyd yr
+<lb/>ail dyfodiad y grist a vydd mor <w>groyl<lb rend="shy"/>on</w> megis na<isp/><orig reg="ddichon">ddychon</orig> tafod y draethv ac
+<lb/>o<isp/><apo/>r plegid hwnnw y mae yr eglwys yn
+<lb/>paidio a<isp/><apo/>r kan nefol hwnnw ______
+<lb/>______ ac yn paidio a<isp/><apo/>r priodassav o
+<lb/>blegid<!--DSP--> y dialedd yssydd yn dyfod rac llaw
+<lb/>Ac wedy y dyfodiad kyntaf o grist y<isp/><apo/>r
+<lb/>byd val y mae saint awstin yn dywedyd
+
+<pb n="81"/>
+<lb/>mae Tripheth yssydd barod y<isp/><apo/>r byd hwnn
+<lb/>bob amsser Nid <corr resp="editor1" sic="amgel">amgen</corr> Ryfel a <w>marvolae<lb rend="shy"/>th</w> a drydanian Eithr val hynn y &rr;oed
+<lb/>dyn a<isp/><apo/>i genedlaeth a<isp/><apo/>i eni mewn klefyd
+<lb/>a<isp/><apo/>i vyw mewn trafel a<isp/><apo/>i varw mewn <w>gof<lb rend="shy"/>al</w> Er hynny krist a ddoyth er help a <w>swk<lb rend="shy"/>wr</w> y ninev bechadyriaid ac ef a anet ac
+<lb/>ef a gymerth drafel mawr ac ef a vy
+<lb/>varw mewn gobaith Eithr ef a anet er
+<lb/>yn dwyn ni o<isp/><apo/>n klefyd i<isp/><apo/>r <sic>Iaechyd</sic>&nbsp;<w>tragwdda<lb rend="shy"/>wl</w> ac o achos yn yn<dsp/>wedic yn dwyn ni
+<lb/>y<isp/><apo/>r bywyd tragwddol y by varw ef A hynny
+<lb/>yw yr achos y dyfodiad kyntaf o grist i<isp/><apo/>r
+<lb/>byd achos pawb a<isp/><apo/>r a vo amddiffynnol o<isp/><apo/>r varn
+<lb/>honno Ac o<isp/><apo/>r eil dyfodiad y grist y mae
+<lb/>yn &rr;aid y bob &rr;yw ddyn vwrw oddiwrtho bob
+<lb/>&rr;yw enwiredd y lawr ac yn vnwedic balchder
+<lb/>kalhon ac ymgyddnabod ehvn yn bechadyr
+<lb/>dayarol a bod yn yfydd y gidgristion
+<lb/>a thrafaelv y gorff mewn gwaithredoe<unclear>dd</unclear> da
+<lb/>ac ennill y vywyd yn gywir ac yn llafyrys
+<lb/>a bwrw oddiwrtho ymaith bob ysgaelvssrwydd
+<lb/>val y mae saint barnard yn dywedyd pwy
+<lb/>bynnac ni &rr;oddo y gorff y lafyrio yn y byd
+<lb/>hwnn ef a vydd &rr;aid iddaw lafyrio yn
+
+<pb n="82"/>
+<lb/>dragwddol gida<isp/><orig reg="chythreuliaid">chy<dsp/>throylaid</orig> yn y poenav
+<lb/>ac &rr;ac ofn angev ef a ddyly dyn vod yn
+<lb/>barod bob amsser erbyn danvon o<isp/><apo/>r arglwydd
+<lb/>yn<isp/>i ol ef Nid amgen no chyffessv yn lan
+<lb/><corr resp="editor1" sic="ac gwbyl">ac yn gwbyl</corr><!-- supplied --> y holl bechodav ac nid trigio
+<lb/>yndynt o ddydd i ddydd Eithr pan <w>syrthi<lb rend="shy"/>o</w> yndynt myned at y dad enait a<isp/><apo/>i
+<lb/>gyffessv ac velly y gelly dithav ddyfod i<isp/><apo/>r varn
+<lb/>ac velly y kay<isp/>dithav eurddyniant ddydd brawt
+<lb/>Ac val y dengys marchoc vrddol y dolyrio
+<lb/>a gaffo mewn batteloedd yn yr vn ffynyd
+<lb/>y kay dithav ddiolch am y pechodav a<isp/><w>wne<lb rend="shy"/>lych</w> ac a gyffessych ac y dykych dy bennyd
+<lb/>yr hain a vydd yn llawenydd ac yn <w>ogoni<lb rend="shy"/>ant</w> ytti ac yn gywilydd y<isp/><apo/>r kythrel A hevyt
+<lb/>pob peth a<isp/><apo/>r ni chyffessych o<isp/><apo/>th bechode a <w>ddan<lb rend="shy"/>gossir</w> y<isp/><apo/>r holl vyd yn gywilydd mawr y<dsp/>tti
+<lb/>A hynn ir ydis yn<isp/>i ddywedyd o<dsp/>blegid y
+<lb/>dyfodiad kyntaf o grist eithr pan ddel
+<lb/>yr arglwydd y<isp/><apo/>r varn
+</p>
+
+<p>
+<lb/>Ac yn wir y dyfodiad hwnnw a vydd mor
+<lb/>groylon ac y gwelir yr arwyddion hynn xv
+<lb/>diwarnod val y gallo pawb <orig reg="adnabod">addnabod</orig> vod
+<lb/>y varn yn dyfod yn agos Val y mae
+
+<pb n="83"/>
+<lb/>sain Ierom yn dywedyd y kyfyd y mor yn
+<lb/>ywch no<isp/><apo/>r mynyddoedd ychaf o ddaygain kyfyt
+<lb/>Yr ail dydd ef a vydd y mor yn kynisset
+<lb/>ac y gellir gweled y graenyn llaiaf yn<isp/>i
+<lb/>waelod || Y Trydydd dydd pob &rr;yw byssgod ac
+<lb/>anifailiaid a<isp/><apo/>r a vo yn y mor a wnant
+<lb/>&rr;yw gri a<isp/>chwynvan val na allo tafod y
+<lb/>draethv onid duw ehun || Y pedwrydd dydd
+<lb/>y llysc y mor a<isp/><apo/>r holl ddyfroedd Y pvmet
+<lb/>dydd y koed a<isp/><apo/>r llyssav a chwyssant waet a
+<lb/>phob amryw adar amgynhyllant ynghyd
+<lb/>ac ni wnant na bwytta nac yfet &rr;ac
+<lb/>ofn y varn yssydd yn dyfod || Y chwechet dydd
+<lb/>pob kyfryw adailiad Nid amgen kestyll
+<lb/>tyrre eglwyssi klochdyav a syrthiant y<isp/><apo/>r <w>llaw<lb rend="shy"/>r</w> ac a lysc hyt pan gotto yr haul <w>drann<lb rend="shy"/>oeth</w> || Y saithvet dydd y kerric a<isp/><apo/>r kraige
+<lb/>a ymffyst bob vn wrth y gilydd yny dorro pob
+<lb/>vn yn ddryllav gan y gilydd ac amrafel
+<lb/>laissiav hyd oni glywer hyd yn <corr resp="editor1" sic="neb">nef</corr> || Yr
+<lb/>wythved <orig reg="dydd">tydd</orig> y kryn y ddayar hyt na allo
+<lb/>neb sefyll erni eithr syrthiaw y<isp/><apo/>r llawr || Y
+<lb/>nawfed dydd yr a<isp/><apo/>r bobloedd y gogofav val pei
+<lb/>baynt yn amhwyllo ac heb ddywedyd o neb
+
+<pb n="84"/>
+<lb/>ddim wrth y gilydd Y degved dydd y bydd
+<lb/>gwastad y<isp/>ddayar Yr vnved <orig reg="dydd">tydd</orig> ar ddec y
+<lb/>hagorant veddav y &rr;ai mairw ac y saif y
+<lb/>kyrff yn<isp/>i sefyll yn y beddav || Y dayddegved I
+<lb/>syrth amrafael o dan a mellt ac amyl
+<lb/>wrychion val y bo gorthrwm y neb y gwelet
+<lb/>|| Y xiij dydd y bydd marw pawb a<isp/><apo/>r a vo yn
+<lb/>dwyn enait yn yr amsser hwnnw xiiij dydd
+<lb/>y llysc y nef a<isp/><apo/>r ddayar || Y xv dydd y gwnair
+<lb/>y nef a<isp/><apo/>r ddayar o newydd a<isp/>ffob dyn a gyfyd
+<lb/>yn oedran dengmlwydd ar hygain y<isp/><apo/>r varn
+</p>
+
+<p>
+<lb/>Ac velly y daw yn harglwydd ni Iessu grist y<isp/><apo/>r
+<lb/>varn a<isp/><apo/>i engylion gidac ef ac y dengys ef
+<lb/>y archollion yn wir waedlyd val pai bae y<isp/>dydd
+<lb/>hwnnw y &rr;oessid ef ar y groes ac y dengys ef
+<lb/>bob araf a<isp/><apo/>r a vy yn<isp/>i verthyry ef Nid amgen
+<lb/>no<isp/><apo/>r goron ddrain a vy ar y benn ef a<isp/><apo/>r esgyrssie
+<lb/>a<isp/><apo/>r hoelion a<isp/><apo/>r mwrthwl a<isp/><apo/>r pinssiwns a<isp/><apo/>r <w>gway<lb rend="shy"/>w</w> a<isp/>phob peth a<isp/><apo/>r a vy yn<isp/>i verthyr ef dros
+<lb/>dyn Ac velly y <orig reg="dichyn">dychyn</orig> pawb vod yn ofnoc
+<lb/>ac yn ofydys bawb a<isp/><apo/>r a dyngoedd y <w>ddioddifain<lb rend="shy"/>t</w> duw a<isp/><apo/>i archollion a<isp/><apo/>i weliav yr hwnn y bydd
+<lb/>kyfymliw arnynt onid emendiant yn<isp/>y byd
+<lb/>hwnn kyn angav Ac velly y diolch yr <w>argl<lb rend="shy"/>wydd</w> yn vawr y<isp/><apo/>r neb a wnaeth trygaredd er<isp/>y
+
+<pb n="85"/>
+<lb/>vwyn ef yn y byd hwnn a<isp/><apo/>i gid gristnogion
+<lb/>ac y dywaid ef val hynn _____________
+<lb/>__________________ Dowch y bobyl y <w>vrenhi<lb rend="shy"/>niaeth</w> nef yr hwnn a ordainiwyd ywch er <w>dech<lb rend="shy"/>rav</w> byd Ac yna y datgan ef yddynt saith
+<lb/>waithred y drygaredd Nid amgen pan vym y
+<lb/>newnoc chwi a &rr;oessoch y mi vwyd pan vym I
+<lb/>sychedic chwi a &rr;oessoch ym ddiod pan vym heb
+<lb/>letty chwi a<isp/><apo/>i &rr;oessoch ym Ac velly y henwa ef
+<lb/>bob vn ar llailldy o saith waithred y drygaredd
+<lb/>kans pan &rr;oddych di y neb ddim yn vy enw i
+<lb/>y mi yr wyd ti yn<isp/>i &rr;oddi ef Ac yna yr &rr;ydd
+<lb/>yr arglwydd &rr;ebywck y<isp/><apo/>r kywoethogion am na
+<lb/>wnaethant er y vwyn ve<!--vo?--> vn o<isp/><apo/>r saith waithred
+<lb/>val y klwssoch yn y blaen ac y dywaid <w>wrth<lb rend="shy"/>ynt</w> val hynn ________________
+<lb/>___________________________________
+<lb/>Ewch enifailiaid gwlldion melldigedic y<isp/><apo/>r tan
+<lb/>yffernol Ac velly y gallant hwy vod yn <w>afla<lb rend="shy"/>wen</w> gael y &rr;ybywck hwnn gan yr arglwydd o
+<lb/>achos ni<isp/>chaiff na<isp/>chyfraithwr na <orig reg="dadleuwr">daddloywr</orig> y
+<lb/>atteb yno drosto nac er aur nac er aryan
+<lb/>nac er mawr &rr;oddion nac er maistr nac
+<lb/>er arglwydd Eithr yna y gorvydd &rr;oi pob peth
+<lb/>ty ac at anwiredd haibio ac val y <w>gwn<lb rend="shy"/>el</w> dyn yn y byd hwnn velly y kaiff Ac yno
+<lb/>y bydd y <orig reg="cythreuliaid">kythroylaid</orig> yn<isp/>i gyhyddo ef &rr;ai is y
+
+<pb n="86"/>
+<lb/>draed a &rr;ai o bob ty iddaw Eithr ywch y
+<lb/>ben y bydd y brynwr a<isp/><apo/>i varnwr Ac yno y
+<lb/>daw yr arglwydd heb drygaredd y<isp/><apo/>r neb nis
+<lb/>gwnaeth ac velly y hymliw ef am y meddwl
+<lb/>llaiaf ac a veddylio dyn yngham Ac o<isp/><apo/>r ty
+<lb/>dehav y<isp/><apo/>r arglwydd y bydd yr engylion yn dy
+<lb/>gyhyddo am bob kamwedd a wnaethost Ac o<isp/><apo/>r
+<lb/>ty arall <!-- ed draw--> y bydd anysbrydoedd yn kaissio gwall
+<lb/>arnad ac yn dy gyhyddo am dy bechode a<isp/><w>th<lb rend="shy"/>ano</w> y mae yffern yn barod iddo or <w>gorddiwedd<lb rend="shy"/>ir</w> ef mewn pechod y dydd diwethaf y bernir ef
+<lb/>y<isp/><apo/>r poenav tragwyddol Ac velly y dydd hwnnw
+<lb/>y heistedd y tlodion gida<isp/><apo/>r arglwydd y varny ar y
+<lb/>kyfoethogion am y kamwedd a wnaethant a<isp/><apo/>i
+<lb/>kid gristnogion ac am na ellynt gael Iawn
+<lb/>arnynt hyd dydd y varn ac yna y kaiff y
+<lb/>tlawd i ewllys ar y kyfoethoc kans pan <w>wn<lb rend="shy"/>el</w> y kyfoethoc gam a<isp/><apo/>r tlawd<!--apo?--> kans ni allant
+<lb/>hwy ond erchi gwir varn ddydd brawd kans val
+<lb/>y mae yr arglwydd ehvn yn dywedyd kyhyddwch
+<lb/>chwi y baiav hwynt a mi a<isp/><apo/>i kossbaf val yr
+<lb/>hayddont Ac am hynny vy<isp/>ngharedic bobyl
+<lb/>emendiwch tra voch yma o<isp/><apo/>ch kamwedd a<isp/><w>gwn<lb rend="shy"/>ewch</w> y tlodion yn geraint ywch erbyn y varn
+<lb/>ac nac ymddiredwch yr hai adawoch ar ych ol
+<lb/>&rr;ac ych twyllo y<isp/><apo/>r poenav tragwddawl
+</p>
+</div>
+<pb n="87"/>
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a gaf me&v6;n <corr resp="transcr" sic="byched">bychedd</corr> saint</hi> vod hyssant<!--above in same hd: hv sant--> da
+<lb/>a hwnnw a hapiodd iddo glefychy a marw a
+<lb/>bod yn varw o hanner y pyrnhawn hyd y bore
+<lb/>dranoeth Ac velly ef a godes y vynydd o varw
+<lb/>y vyw Ac ef a &rr;annodd y dda yn dair &rr;an ac
+<lb/>ef a &rr;oddes dwy &rr;ann y wraic a<isp/><apo/>i blant a<isp/><apo/>r <w>dryd<lb rend="shy"/>edd</w>&nbsp;&rr;ann ef a<isp/><apo/>i <corr resp="editor1" sic="&rr;annod">&rr;annodd</corr> y dlodion a gwainaid Ac
+<lb/>velly yr aeth ef y drigiaw y vanachloc a oedd yn
+<lb/>sefyll <sic>ystlys</sic> afon Ac velly y<isp/><apo/>r dwr hwnn idd<isp/>ai<!--ed ay-->
+<lb/>y gwr hynny bob nos er oered vai <orig reg="yr hin">y &rr;in</orig> ac
+<lb/>yno y safai ef y boeni y gorff yni vai ef yn
+<lb/>agos y varw A<isp/>phan ofynnwyd iddaw paham
+<lb/>ydd<isp/>oedd ef yn dwyn kymaint a hyny o<isp/>benyd
+<lb/>arno Yn wir heb ef &rr;ac ofn poenav yssy vwy
+<lb/>yr hai a welais i Ac yn wir ni vwytai ef vn
+<lb/>dydd ond bara haidd a dwr tra vy vyw Ac yno
+<lb/>y dywad ef <corr resp="transcr" sic="wrh">wrth</corr> ddav o<isp/><apo/>r mynaich o<isp/><apo/>r gwyr hyaf
+<lb/>a<isp/>challaf a<isp/><apo/>r a oedd yn y vanachloc y poenav
+<lb/>a welsai ac yr oedd yn anodd ganto y <w>man<lb rend="shy"/>egi</w>&nbsp;&rr;ac mor groylon ac anverthet oeddynt
+<lb/>Ac yno y dywad ef y arwain o angel ef
+<lb/>y le oedd kyn wressocked y llaill dy ac na allai
+<lb/>neb y draythv vaint oedd y gwres ac o<isp/><apo/>r ty
+<lb/>arall kyn oered megis na ellid kyfflyby oerni
+<lb/>yn y byd iddo Ac yno y gwelais i vwrw <w>en<lb rend="shy"/>aidiav</w> pechadyriaid o<isp/><apo/>r llaill boen y<isp/><apo/>r llall a
+<lb/>hynny a oedd benyd mawr yddynt Ac velly y
+
+<pb n="88"/>
+<lb/>dangosses yr angel y mi y tan yffernol
+<lb/>yr hwnn oedd gymaint y wres a<isp/>ffai byrid y
+<lb/>mor am benn vn wrychionen nadd ddiffoddai
+<lb/>hi byth er hynny Ac yn y tan hwnnw y <w>gw<lb rend="shy"/>elais</w> i enaidav pobyl yn krio ac yn wylo
+<lb/>ac yn ochain yn dost ac y klywai ef <w>gyth<lb rend="shy"/>rel</w> yn krio ac yn erchi <orig reg="brwmstan">brwnstdan</orig><!--ed -mst --> a<isp/>fflwm
+<lb/>brwd y vwyhav y poenav Ac velly yr oeddynt
+<lb/>yn kael y poeni O arglwydd dduw er dy vawr
+<lb/>drygaredd kadw ni &rr;ac y poenav hynny a dwc
+<lb/>di ni y<isp/><apo/>r llawenydd tragwddawl heb dranck
+<lb/>a heb orffen yn oes oessoedd amen
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Vy<isp/>ngharedic</hi> bobyl dwyn ar ddyall ychwi
+<lb/>mae heddiw a elwir yn eglwys duw duw
+<lb/>sul ___________________________
+<lb/>o<isp/><apo/>r achos y mae eglwys duw yn vam y<isp/>bob
+<lb/>kyfryw gristion o ddyn yr hwn y mae hi
+<lb/>yn dala sylw val mam dda ar y<isp/>fflant ac
+<lb/>val y mai hi y<isp/><apo/>n gweled ni mewn pechod
+<lb/>ac wedy yn klwyfo o<isp/><apo/>r diwedd ac angav Ac
+<lb/>yn vnwedic y nadolic diwethaf a &rr;oed er <w>go<lb rend="shy"/>goniant</w> y bob kyfryw ddyn a weddio duw
+<lb/>drwy gwbyl o ewllys y galhon o achos <w>da<lb rend="shy"/>ngos</w> o<isp/><apo/>r arglwydd lawer o hyfrydwch yn yr
+<lb/>amsser hwnnw y bob kristion kans ef a anet
+<lb/>er mwyn <sic>kryadyr</sic> o ddyn ac mewn kic a<isp/><w>ch<pb rend="shy" n="89"/><lb/>nawd</w> a gwaed val vn o<dsp/>honnom ninav
+<lb/>ac a vy vyw ac a vagwyd val vn ohonom
+<lb/>ninev ac ef a vedyddiwyd mewn dwr yn vn
+<lb/>ffynyt A hevyd ef a ordainiodd priodas y<isp/><apo/>n
+<lb/>kadw ni &rr;ac pechodav ac y<isp/><apo/>n gwnaythyr yn
+<lb/>santaidd ac yn vrodyr iddaw ef ac y ennill
+<lb/>tyrnas gwlad nef O achos yr achossion hynn
+<lb/>y dyly pob kristion vod yn llawen a <w>gwnayth<lb rend="shy"/>yr</w> selemniti a glendid enait a<isp/>chorff oddiwrth
+<lb/>bob ryw<!--sic--> bechod ac ymsantaiddio mewn glan
+<lb/>vychedd y ddyw a<isp/><apo/>i gid gristion a &rr;oi kardode
+<lb/>ac elwissenne y<isp/><apo/>r neb y bai &rr;aid yddynt wrtho
+<lb/>Eithr yrywan ysywaeth yr ydis yn troi yr wyl
+<lb/>honn yn ysgaelysrwydd ac mewn klwyfav yr
+<lb/>enait nev valchder o ddillad nev chwant y
+<lb/>bechod godineb nev lythineb nev ddiogi mewn
+<lb/>gwssanaeth duw nev ddywedyd &rr;ybaldiaeth ac
+<lb/>yn y lle y bo yr vn o<isp/><apo/>r hain y bydd y <w>kythr<lb rend="shy"/>ayl</w> A gwynn y vyd y neb a wnel y peth
+<lb/>gorav ac a vo ty ac Iechyd yr enait A
+<lb/>hevyd ychel wylav a ordainiwyd er anrydedd
+<lb/>i<isp/><apo/>n harglwydd ni Iessu grist a holl saint nef
+<lb/>|| A hevyd o<isp/><apo/>r achos hwnn yr ydis yn paidio
+<lb/>a<isp/><apo/>r alelia ac amrafael ganyav eraill Ac
+<lb/>y maent hwy yn kymryd trackt yr hwnn
+<lb/>yssydd gan galarys A hevyd ysbyssv ychwi
+<lb/>ty ac at briodas yr amsser yma ac
+<lb/>yn yr addvent ydd<isp/>ydis yn paidio ac hwynt
+
+<pb n="90"/>
+<lb/>a<isp/>phwy bynnac a<isp/><apo/>i gwnel nid er moliant
+<lb/>y dduw y mae yn<isp/>i wnaythyr onid er chwant
+<lb/>y knawd ac yssydd ac ychydic o ofn angev
+<lb/>arnynt yr hwnn yssydd ddiogel y ddyfod y bawb
+<lb/>megis y mae ysgolhaigion yn darllain ac
+<lb/>yn dywedyd mae Iawnach yw y ddyn vynet
+<lb/>y dy lle bo korff yn<isp/>i wylyo no mynet y
+<lb/>dy lle bo gwatwargerdd nev ganyav <orig reg="diffrwyth">diffrwydh</orig>
+<lb/>kans hynny a bair y ddynion ymwrthladd
+<lb/>a duw a<isp/><apo/>i abergofi a<isp/><apo/>i ysgaelysso Eithyr
+<lb/>ef a ddyly dyn pan welo ef gorff yn mynet
+<lb/>y gladdy veddylio am<dsp/>dano ehvn ac yn
+<lb/>vnwedic y vwrw ymaith y holl bechode <w>erby<lb rend="shy"/>n</w> angav a masswedd y byd Achos val y<isp/><w>m<lb rend="shy"/>ae</w> Salmon yn dywedyd __________
+<lb/>______________________
+<lb/>vy mab del yn dy gof y byddy di varw ac
+<lb/>ni<isp/>ffechv yn varwol megis y mae eglwys
+<lb/>duw yn tostyrio wrth y<isp/>fflant ysbrydol ac
+<lb/>yn ordainio tri amryw eli er help a
+<lb/>Iachav y ffland<!--sth deleted here ant--> yr hai yssydd yn ofni
+<lb/>angav nid amgenach no llafyrio a
+<lb/>&rr;oddi y gorff mewn dyrwest Ac yn gyntaf<!-- ed -aff; rather -af with f retraced-->
+<lb/>y veddwl am angav ac val y mae offis
+<lb/>yr yfferen heddiw yn echnaidio ac yn
+<lb/>tostyrio ac yn dysgv y bob dyn da gyleted
+<lb/>yw angav Kans yr ydis yn<isp/>i amgylchv
+<lb/>ef ac angav <del>ef ac angav</del> o bob ty iddo
+
+<pb n="91"/>
+<lb/>yn gymaint ac na allo ef ddianck || ond
+<lb/>ef a ddyly pawb gymryd hynn yn y galhon
+<lb/>a bwrw oddiwrtho vasswedd ac enwiredd ac
+<lb/>na veddylio ef ddim am lywenydd y byd
+<lb/>yn ormodd Ac er dwyn ychwi yn sampyl mi
+<lb/>a gaf yn ysgrifenedic
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a gaf yn essgrivenedic vod</hi>
+<lb/>brenin gynt a<isp/><apo/>r brenin hwnnw a vyddai yn
+<lb/>brydd bob amsser ac ni chaid ganto chwerthin
+<lb/>na bod yn llawen vn amsser Eithr bod yn
+<lb/>drist ac yn aflawen bob amsser ac am <w>hy<lb rend="shy"/>nny</w> ydd<isp/>oedd yn drist ac yn drwm gan y
+<lb/>wassnaethwyr y vod ef ar y dyll hwnnw Ac
+<lb/>yr oedd y<isp/><apo/>r brenin hwnn vrawd yn wr yrddedic
+<lb/>ac atto yr aeth gwassnaethwyr y brenin y
+<lb/>&rr;ac y vrawd ac y ddywedyd na ellynt hwy <w>dri<lb rend="shy"/>giaw</w> gydac ef &rr;ac y bryddet a drycked vyddai
+<lb/>y sir ac o<isp/><apo/>i gynghorri ef y baidio a hynny a
+<lb/>gwnaythyr llawenydd Eithyr yr oedd y brenin
+<lb/>hwnn yn ddoeth ac yn synnhwyrol ac ef a
+<lb/>veddylioedd gael y gorav ar y vrawd drwy <w>ystry<lb rend="shy"/>waeth</w> ac yn llidioc ef a erchis y brenin y
+<lb/>vrawd vyned y dref a gwnaythyr y peth a vydde
+<lb/>&rr;aid iddo || Ac velly yr oedd arver y wlad honno
+<lb/>pan vai wr yn myned y gymryd y varvolaeth
+
+<pb n="92"/>
+<lb/>ef a ddai wyr a chlariwns ac a genyn wrth
+<lb/>y drws nev yn y porth Ac yna y herchis y
+<lb/>brenin yddynt vynet y ganv y klariwns hyn
+<lb/>a &rr;estio y gwr hwnn a<isp/><apo/>i ddwyn &rr;ac y vronn
+<lb/>ef A phan ddoyth ef yno y gelwis y brenin <w>a<lb rend="shy"/>tto</w> saithwyr o<isp/><apo/>r hai y gallai ef ymddiried <w>yddy<lb rend="shy"/>nt</w> Ac velly pan ddoyth y vrawd gair i vronn
+<lb/>y tynassant hwy y kleddyfav ac y &rr;oessant hwy
+<lb/>wrth y galhon ef Ac yno y herchis y brenin
+<lb/>y bawb chware dawns a gwnaythyr &rr;yfel
+<lb/>ac ysbort gymaint ac a ellynt vwyaf Ac
+<lb/>velly y gwnaethant Ac yno y gofynnodd y
+<lb/>brenin y vrawd paham yr wyd ti yn brydd Kwyn
+<lb/>y vynydd dy benn a bydd lawen achos o<isp/><apo/>th<isp/>blegit
+<lb/>ti y mae hynn y gyd || Ac yna yr ateboedd ef
+<lb/>val hynn || Pa vodd y gallaf i vod yn llawen
+<lb/>ac yn gweled saith o gleddyfav a<isp/><apo/>i blaene ti
+<lb/>ac at vy<isp/>nghalhon ac na wnn pwy gyntaf
+<lb/>onaddynt vydd vy angav || Ac yno y herchis
+<lb/>y brenin wainio y kleddyfav Ac yna y dywad
+<lb/>y brenin wrth y vrawd velly y mae y saith
+<lb/>bechod marwol yn v<apo/><isp/>amgylchv innav am yr enait
+<lb/>yssydd yn y korff hwnn Ac o<isp/><apo/>r achos hwnnw ni
+<lb/>allaf i vod yn llawen na gwnaythyr sir dda
+<lb/>Eithr bod yn ofnys am v<apo/><isp/>enait yr hwnn yssydd
+<lb/>gedernid y<isp/><apo/>r korff || Ac yna y dywad y vrawd y
+<lb/>dduw ydd wyf i yn erchi trygaredd ni wyddwn
+
+<pb n="93"/>
+<lb/>i hynn hyd yrowran Eithr mi a vyddaf <w>gall<lb rend="shy"/>ach</w> o hynn allan Eithr pwy bynnac a <w>gym<lb rend="shy"/>ero</w> hynn yn<isp/>i galhon ef a vydd haws ganto
+<lb/>wylo no chwerthin ac ychnaidio no bod yn
+<lb/>llawen Ac wrth hynny y daw yn<isp/>i gof ef
+<lb/>am angev yr hwnn yssydd ddiwedd pob peth
+<lb/>Ac yn wir erbyn hynny ni a ddlywn veddylio
+<lb/>am varvolaeth vn harglwydd ni Iessu grist
+<lb/>val y dioddefoedd ef drossom ni yr hwnn yssydd
+<lb/>yn dwyn tystolaeth
+<lb/>
+<lb/>Eithr yr ail eli y<isp/><apo/>r enait yw llafyrio yn
+<lb/>ystic yn y byd hwnn val y mae saint pawl
+<lb/>yn dywedyd yn yr ebostol heddiw val hynn
+<lb/>
+<lb/>&rr;edwch chwi val y galloch gael y chware Eithr
+<lb/>gristnogion da am yr &rr;edec hwnn dwyn ar
+<lb/>ddyall ychwi pwy bynnac a &rr;eto maen raid<!--sic-->
+<lb/>iddaw &rr;oddi nerth y holl gorff y gaissio klod
+<lb/>Ac velly y dyly pob kristion drafaely y gorff
+<lb/>yn gadarna ac y gallo pa &rr;add bynnac a
+<lb/>&rr;oddes duw iddaw A hevyd eglwys duw a
+<lb/>&rr;odded y lafyrio ac y weddio ac y ddysgv <w>kyfrai<lb rend="shy"/>th</w> dduw y<isp/><apo/>r bobyl A<isp/><apo/>r arglwyddi mawr a<isp/><apo/>r gwyr
+<lb/>o vowyd a &rr;oed y <corr resp="editor1" sic="mintaio">mintaino</corr> hwynte ac y kadw
+<lb/>yn <corr resp="editor1" sic="heddlychlon">heddychlon</corr> A<isp/><apo/>r kyffredin a &rr;oed y lafyrio
+
+<pb n="94"/>
+<lb/>ac y gaissio y bywyd y<isp/><apo/>r graddav hynn ac <w>y<lb rend="om-shy"/>ddynt</w> hwyntev bob anghenraid Ac &rr;ac
+<lb/>na chaffo neb esgyss am y llafyrio hynn y
+<lb/>mae krist yn dywedyd ehvn yn yr evengil ac
+<lb/>yn &rr;oi ynnsampyl
+<lb/>______________ Yr oedd gwr gynt a<isp/><apo/>r gwr
+<lb/>hwnnw a ai y berllan y bore a hanner dydd
+<lb/>a<isp/>ffyrnhawn ac y hvn ydd<isp/>oedd ef yn llafyrio
+<lb/>ac yn kosti pobyl gidac ef Eithr dwyn ar
+<lb/>ddyall ychwi gwbyl o holl &rr;addav y byd val i
+<lb/>mae Iob yn dywedyd pob dyn o<isp/><apo/>r byd a &rr;oed
+<lb/>y lafyrio ac y drafaelv val ederyn y hedec
+<lb/>Ac y mae sain barnard yn dywedyd y neb ni
+<lb/>lafyrio yn y byd hwnn || Ef a orvydd iddaw ef
+<lb/>lafyrio gida <orig reg="chythreuliaid">chythroyliaid</orig> achos hynny yw y <w>lly<lb rend="shy"/>wodraeth</w> adewis<!--2 words--> addaf y<isp/><apo/>w holl genedlaeth
+<lb/>nid amgenach no llafyrio Ac o<dsp/>blegid y
+<lb/>llafyr hwnn y mae ef yn &rr;oi ensampyl ac
+<lb/>yn dywedyd y modd y gwnaeth addaf ac Eva
+<lb/>y lafyrio y gadw paradwys ac erchi yddynt
+<lb/>gymryd pob ffrwyth a<isp/><apo/>r a oedd yno eithyr vn
+<lb/>prenn yr hwnn yr oedd ef yn i gadw iddaw
+<lb/>ehvn Ac y gorchmynnodd duw yddynt hwy
+<lb/>veddylio am<dsp/>dano ef ar bob gwaith a<isp/><apo/>r y <w>gwel<lb rend="shy"/>ynt</w> y prenn hwnnw a<isp/><apo/>i <orig reg="adnabod">addnabod</orig> ef yn lle
+<lb/>y duw a meddwl am y bod yn kadw y <w>orchym<lb rend="shy"/>yn</w> Ac velly y kenvigennodd y kythrel wrthynt
+
+<pb n="95"/>
+<lb/>er mwyn y gweled hwynt mewn llawenydd
+<lb/>yn gymaint ac yr oedd yntav mewn <w>poen<lb rend="shy"/>av</w><!--ed au--> a thristyd ac y dayth ef at Eva ac y
+<lb/>gofynnodd iddi pa<dsp/>ham nad oeddynt hwy yn
+<lb/>kymryd ffrwyth y prenn hwnnw ac y dywad
+<lb/>hithav am erchi o<isp/><apo/>r arglwydd y ni gadw hwnnw
+<lb/>iddaw ef dan boen yn bywyd Ac yna y
+<lb/>dywad y kythrel ha heb <add place="supralinear">ef</add> mi a wnn hynny
+<lb/>pai chwi a vwyttae o hwnnw chwi a wyddech
+<lb/>ddrwc a da ac a vyddech debic y dduw
+<lb/>Ac or mynnwch chwi brofi hynny y edrych<corr resp="editor1" part="a" sic="a"></corr>
+<lb/><corr resp="editor1" part="b" sic="a">a</corr> ydwyf i yn dywedyd gwir ac yna y
+<lb/>kymerth Eva vn o<isp/><apo/>r yfale ac a<isp/><apo/>i profes
+<lb/>ac a &rr;oddes peth y addaf ac yntav a<isp/><apo/>i <w>bw<lb rend="shy"/>ytaoedd</w> o achos maint y karai ef Eva ac
+<lb/>na vynnai ef y digio hi er dim || Ac yn<isp/>y
+<lb/>mann gwedy yddynt vwyta yr afal y <w>gwel<lb rend="shy"/>sant</w> hwy y kywilydd Ac velly y byant <w>gyw<lb rend="shy"/>ilyddys</w> ac y kymersant ddail y ffigis ac
+<lb/>y kyddiassant y kywilydd Ac yna y dayth yr
+<lb/>arglwydd at addaf ac y dywad wrtho
+<lb/>___________________ paham y <w>gwnaeth<lb rend="shy"/>ost</w> di hynn || Ac y dywad yntev
+<lb/>_________________________________ y wraic a
+<lb/>erchis y mi Ac velly y dayth yr arglwydd
+<lb/>gan ofyn paham y gwnathoedd hi hynny
+
+<pb n="96"/>
+<lb/>_________________________ Am vy
+<lb/>nhwyllo o<isp/><apo/>r pryf hwnn Ac velly am na
+<lb/>ellynt varw ymharadwys na dioddef penyd
+<lb/>y gyroedd ef hwynt y<isp/><apo/>r byd hwnn ynoeth ac
+<lb/>yn dlawd dan gwynvan a llefain ac yn
+<lb/>brydd y ennill y bywyd ac y varw yn y diwedd
+<lb/>A<isp/>phann welas addaf hynny y by ef drist a<isp/><w>ff<lb rend="shy"/>rydd</w> ac yr <orig reg="adolygodd">adlygodd</orig> ef yr arglwydd na wnele
+<lb/>ormodd ddialedd arnynt ac ystyrio wrthynt
+<lb/>o achos y twyllo o<isp/><apo/>r kythrayl wrth valis a<isp/><w>chen<lb rend="shy"/>vigen</w> ac o herwydd na wyddynt beth yr oeddynt
+<lb/>yn<isp/>i wnaythyr Ac yna y herchis yr arglwydd
+<lb/>yddynt vyned y lynn ebron ac y gwisgodd ef
+<lb/>hwynt mewn krwyn pilkys y drafaelio am
+<lb/>y bywyd Ac y dywad ef wrth efa mewn
+<lb/>gofid a blinder y plenti di ac y &rr;oes ef y
+<lb/>addaf bal yn<isp/>i law y lafyrio Ac yno y <w>gad<lb rend="shy"/>ewis</w> ef hwynt Eithr gristnogion da <w>obleg<lb rend="shy"/>id</w> y llafyr hwnn y gallwn ni gymryd <w>ynsamp<lb rend="shy"/>yl</w> pai kadwssai addaf ac eva y gorchymyn
+<lb/>ni chawssai y kythrel y gorav arnynt Eithr ni
+<lb/>chais y kythrel vethel ar ddyn onid pan vo
+<lb/>ef yn segyr Ac yn wir gristnogion da hwnn
+<lb/>yw yr eli gore a chyfoethoka yn erbyn pechod
+<lb/>nid amgen no llafyrio
+
+<pb n="97"/>
+<lb/>Kans nid oes dim kyn chwannocked a<isp/><apo/>r knawt
+<lb/>achos gwyllt yw y korff ac ewyllyssgar y<isp/><apo/>r <w>pe<lb rend="shy"/>chod</w> Ac yn wir &rr;aid yw waithiav y gosbi a
+<lb/>ffoen A hynny a wnaeth <corr resp="transcr" sic="addafaf">addaf</corr> ac Eva
+<lb/>er sampyl y bawb a ddelai ar y hol wnaythyr
+<lb/>y gyfryw Ac yn wir llawer blwyddyn kyn hyny
+<lb/>y byant hwy yn dwyn penyd mewn dwr hyd
+<lb/>y mynygle a<isp/>phob vn ymhell oddiwrth y <w>gil<lb rend="shy"/>ydd</w> hyd pan oedd y knawd kyn wrddet<!--dd corrected--> a<isp/><apo/>r
+<lb/>gwydyr o oerder Ac yna y dayth y kythrayl
+<lb/>at Eva kyn decked a<isp/><apo/>r angel teckaf yn y nef
+<lb/>ac a ddywad mae yr arglwydd o<isp/><apo/>r nef a<isp/><apo/>i <w>danvo<lb rend="shy"/>nassai</w> ef etti y erchi iddi vyned at addaf a
+<lb/>dywedyd wrtho vod duw yn erchi iddo baidio
+<lb/>a<isp/><apo/>i benyd kans maddavedic gan dduw iddo
+<lb/>y dressbas Ac velly y gwnaeth Eithr ef a
+<lb/>wyby addaf mae oddiwrth y kythrayl y <w>dath<lb rend="shy"/>oedd</w> ef ac nid oddiwrth dduw Ac y dywad
+<lb/>ef wrth Eva pan yroedd duw ni o baradwys
+<lb/>am yn pechod ac y tostyriodd wrthym <w>ach<lb rend="shy"/>os</w> y ni wylo yn dost wrtho ef ac erchi iddo
+<lb/>&rr;as a thrygaredd ac y &rr;oddes yntev ninav
+<lb/>yma y ddwyn yn penyd hyd pan alwo ef
+<lb/>arnnom ac am hynny dos di drychefen y
+<lb/>wnaythyr dy benyd Pa vwyaf a wnelom
+<lb/>mwyaf yw<isp/><apo/>n diolch gan dduw am<dsp/>dano A <w>th<lb rend="shy"/>rychefyn</w> y dayth y kythrel at Eva yr ail
+
+<pb n="98"/>
+<lb/>waith ac y dywad wrthi val hynn y mae
+<lb/>gras yr arglwydd yn trygarhav wrthych o <w>ach<lb rend="shy"/>os</w> ych penyd ir ydych yn<isp/>i ddwyn ac yn <w>ma<lb rend="shy"/>ddav</w> pob peth ywch Ac velly eva aeth at
+<lb/>addaf ac a<isp/>ddywad wrtho hynny || Yn wir y gwnn
+<lb/>ni heb y addaf y <corr resp="editor1" sic="nef">neb</corr> a ddywad hynny wrthyd
+<lb/>ti mae ef yw yn gelyn nni<!--?--> kans y mae
+<lb/>yn ofydiach ganto ef no chennym ni yn
+<lb/>bod ni yn dwyn y penyd hwnn Ac ef a
+<lb/>vynnai y ni baidio a<isp/><apo/>nn penydiav kans nid
+<lb/>ydiw duw yn edrych ar ddechrav y peth onid
+<lb/>ar bob peth a<isp/><apo/>r a ddiweddo yn dda || Eithr y
+<lb/>drydedd waith y dayth y kythrel at Eva
+<lb/>ac y dywad ef dos di at addaf a dywaid ti
+<lb/>wrtho ddechrav o<dsp/>hono ef yn ddrwc a diweddy
+<lb/>yn waeth || yn ynwedic yn gyntaf er pechy
+<lb/>o<dsp/>hono heb wybod y vod yn pechv drwy <w>dda<lb rend="shy"/>issif</w> y kythrel Ac yrywran trwy wybod y vod
+<lb/>yn pechv ac ni wna ef val y mae duw yn
+<lb/>erchi iddo yr hwnn y mae ych gwaithredoedd
+<lb/>diwethaf chwi yn waeth no<isp/><apo/>r hai kyntaf
+<lb/>ac yn waeth noc anobaith Ac yna y<dsp/>dd<isp/><w>ech<lb rend="shy"/>naidodd</w> Addaf yn dost ac y hwylodd ac y
+<lb/>dywad wrth eva o wraic anghynghorys
+<lb/>panid duw a<isp/><apo/>th wnaeth di o vn o<isp/><apo/>m assennav
+<lb/>i er kynffordd<!--ko- ed--> y mi ac er help ac yrowran
+<lb/>ydd<isp/>wyd ti y<isp/><apo/>m kwmro i drychefn wrth ddysg
+<lb/>y kythrel Eithr meddwl di yna mor <w>ddrew<pb rend="shy" n="99"/><lb/>edic</w> yw y pechod kyntaf ger bronn duw
+<lb/>a hynny a vydd er gogan a lliwiant yn hyd
+<lb/>dydd brawd A<isp/>phai gallem ni wnaythyr <w>kym<lb rend="shy"/>aint</w> o benydio a dyrwesste a<isp/><apo/>r holl vyd ||
+<lb/>&rr;y<isp/>fychan oedd y ni y wnaythyr Iawn y dduw
+<lb/>am yn gwaithredoedd Eithr y mae yr <w>arglw<lb rend="shy"/>ydd</w> o<isp/><apo/>i vawr &rr;as yn olywo y bob ewyllyssgar
+<lb/>ty ac at dduw y gamwedde || Ac velly yr aeth
+<lb/>Eva y wnaythyr y<isp/>ffenyd val y herchis addaf
+<lb/>Ac yna y dywad addaf ef a ddenvyn yr <w>arglw<lb rend="shy"/>ydd</w> y ni yr olew kyssegredic pan ddel yr <w>am<lb rend="shy"/>sser</w> Ac velly y gwnaethant y vyned o<isp/><apo/>i <w>pen<lb rend="shy"/>yd</w> ac y by vyw addaf naw kant o <w>vlynydd<lb rend="shy"/>oedd</w> a <orig reg="deuddeg">doyddec</orig> mlynedd ar hygain vwy ac y
+<lb/>by iddo xxx o vaibion a xxx o verched Ac
+<lb/>wedy hynny y byant vairw ar vn waith ac yn
+<lb/>yr vn lle y kladdwyd addaf ac Eva Ac yno
+<lb/>y <orig reg="dichon">dychon</orig> pawb wybod y bod hwynt yn santaidd
+<lb/>a meddylio o<dsp/>honynt am y marvolaeth a
+<lb/>llafyrio o<dsp/>honynt yn vawr ar y kyrff Ac
+<lb/>velly y dlywn ninav bawb a<isp/><apo/>r yssydd yn dyfod
+<lb/>o<dsp/>honynt ac a<isp/><apo/>r a vynno dyfod i<isp/><apo/>r llawenydd
+<lb/>paradwyssol Yr hwnn y mae y sul heddiw yn<isp/>i
+<lb/>alw o gyfrif yn drygain yr hwnn sul yssydd
+<lb/>yn dechrav heddiw ac yn diweddy nos basc
+<lb/>ac velly y mae yr eglwys yn echnaidio o
+<lb/>heddiw hyd nos basc Ac wedy hynny y <w>llaw<lb rend="shy"/>enycha</w> hi drychefn ac vn alelia ac vn tract
+
+<pb n="100"/>
+<lb/>y nos honno kans nid ydiw hi yn<isp/>i nerth
+<lb/>hyt yni ddel _________ hynny yw duw pasc
+<lb/>bychan Ac yna y mae hi yn &rr;oi y <corr resp="editor1" sic="&rr;awr">lawr</corr> y
+<lb/>tract ac yn kanv dwbyl alelia y ddysgv y<isp/>bob
+<lb/>kristion lafyrio a gwnaythyr y benyd yn
+<lb/>gywir hyd y sadwrn hwnn a hynny yw kwbwl
+<lb/>o<isp/><apo/>th einioes di yn y byd hwnn hyd y dydd y
+<lb/>gwahano yr enait o<isp/><apo/>r korff Ac yn wir ni<isp/>chaiff
+<lb/>yr enait gwbyl orffowys oni ddel y sadwrn
+<lb/>in albys a hynny ydiw dydd y varn pan ddel
+<lb/>yr enait a<isp/><apo/>r korff ynghyd ac y gwisgir hwynt
+<lb/>a gwisc wenn yr honn a vydd yn saith eglyrach
+<lb/>no<isp/><apo/>r haul a<isp/><apo/>r hai hynn a allant ganv dwbyl
+<lb/>alelia Yr hwnn lawenydd nyni <orig reg="adolygwn">adlygwn</orig> yr
+<lb/>arglwydd Iessu grist val y dioddefoedd ef ar y groes
+<lb/>drossom ni y<isp/><apo/>n dwyn ni y<isp/><apo/>r drygaredd Amen
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Vy<isp/>ngharedic</hi> bobyl ysbyssv ychwi mae
+<lb/>heddiw y sul a elwir ______ yr hwnn a
+<lb/>elwir <corr resp="editor1" sic="ac yssydd ac yssydd">ac yssydd</corr> mewn kyfrif o lx yr
+<lb/>hwnn y mae eglwys duw yn dysgv pob kyfryw
+<lb/>y veddylio vyrred yw chwedyl dynion || Eithr yn
+<lb/>&rr;yfaint gynt mewn &rr;yw amsser ydd<isp/>oedd <w>oed<lb rend="shy"/>ran</w> pobyl yn naw<isp/>kant o vlynyddoedd ac yr
+<lb/>owran<!--shy--> pedwar vgain nev drygain yssydd oes
+<lb/>hir Eithr y mae gras yr arglwydd y bawb yn<!--y? or n faint-->
+<lb/>vnwedic y wssnaythv duw ac y wnaythyr y
+
+<pb n="101"/>
+<lb/>vodd ac yntav a &rr;ydd y ninnav <del>laweddyl</del>&nbsp;<w>law<lb rend="shy"/>enydd</w> yn y nef gymaint ac a &rr;oes y adda
+<lb/>ac Eva a vy vyw gyd a hynny Eithr pwy
+<lb/>bynnac a vynno kael y llawenydd hynn &rr;aid
+<lb/>yw iddaw ef wnaythyr triffeth nid amgen
+<lb/>no chassav pechod a dioddef blinder yn yfydd a
+<lb/>&rr;oi kardode yn ewyllysgar Achos bod yn chwedl
+<lb/>ni yn vyrrach mwyaf oll y dlywn ni ddioddef
+<lb/>blinder yn ewyllyssgar a<isp/><apo/>n kalonne yn yfydd i<isp/><apo/>r
+<lb/>arglwydd Val y mae pawl ebostol krist yn
+<lb/>chwenychv y bob kvfryw ddyn gymryd ensampyl
+<lb/>o hanaw<!--ed o honaw--> ef kans <corr resp="editor1" sic="ef ef">ef</corr> a ddioddefodd lawer o
+<lb/>drwbyl yn ewyllyssgar val y mae ef yn <w>tysto<lb rend="shy"/>laethv</w> o<isp/><apo/>r ebostol ac yn dywedyd
+<lb/>___________________ mi a vym mewn llawer o
+<lb/>vlinder yn vynych mewn karchar gwedy vy<isp/><w>&rr;<lb rend="shy"/>wymo</w> a chadwynav hayrn
+<lb/>______________ Pymwaith yn yr awr y<isp/><apo/>m
+<lb/>yssgyrssiwyd ac a gwiail o ver helic ym
+<lb/>kyrwyd ar vy<isp/>ngroen noeth
+<lb/>Ac vnwaith <orig reg="beunydd">boynydd</orig> y<isp/><apo/>m kyrid a<isp/>cherric
+<lb/>____________________________
+<lb/>Ac ef a<isp/><apo/>m byrid i y waelod y mor vnwaith<!--ed un- -->
+<lb/>bob nos
+<lb/>Am mynych ofni mewn ffrydiav o ddwr
+<lb/>_____________________________
+<lb/>mewn perigl lladron ac mewn perigl <w>kydm<lb rend="shy"/>aithion</w>&nbsp;<corr resp="editor1" sic="ffaistion">ffailstion</corr> yn kymryd arnynt vod
+
+<pb n="102"/>
+<lb/>yn gywir a hwyntev yn ffalst ac yn <w>ang<lb rend="shy"/>hywir</w> ______________ mewn newyn a
+<lb/>syched ________________ mewn ymprydie
+<lb/>a dyrweste _____________ yn gwylio yn hwyr
+<lb/>__________ mewn oervel ac mewn <w>llaw<lb rend="shy"/>er</w> o berigle eraill hyd na <orig reg="ddichon">ddychon</orig> tafodeav <w>pobl<lb rend="shy"/>oedd</w> y draythv I maint A hynn y gyd a <w>gymer<lb rend="shy"/>th</w> ef yn yfydd ac a ddioddefoedd yn ostyngedic
+<lb/>drwy ddiolch y dduw A chwbyl o hynny y gyd
+<lb/>a wnaethbwyd o<dsp/>blegid y pechod a wnathoedd
+<lb/>ef yn y blaen ac y amlhav y waithredoedd
+<lb/>da y<isp/><apo/>r llawenydd a ddelai &rr;ac llaw Eithr <w>par<lb rend="shy"/>a</w> drwbyl bynnac a<isp/><apo/>r a vo ar ddyn na cholled
+<lb/>am dda na cholled ar ddynion nev <!--ed supplies o-->glefyd ar
+<lb/>y gorff pa vn bynnac o hynny a ddel arnad
+<lb/>dioddef yn ewyllyssgar a meddwl di mae <w>obleg<lb rend="shy"/>id</w> y pechod a wnaethost <corr resp="editor1" sic="yn blaen">yn y blaen</corr> y mae nev
+<lb/>o<dsp/>blegid y kav orchafiaeth yn y nef Kans <w>o<lb rend="shy"/>ddiwrth</w>&nbsp;&rr;as yr arglwydd y mae hynny yn
+<lb/>dyfod kans ni<isp/>char duw ond a gassao pechod
+<lb/>A diolch y dduw hynny ac arch y vynych <w>dryg<lb rend="shy"/>aredd</w> Kans ef a wyr duw ewllys pob dyn
+<lb/>ac yn wir y mae ef yn &rr;oi trygaredd y bob
+<lb/>kriston a<isp/><apo/>r a<isp/><apo/>i harcho yn yfydd Ac val hynny
+<lb/>mae &rr;aid y ddyn ddioddef blinder yn <w>ostynged<lb rend="shy"/>ic</w> A &rr;oi kardode yn gyddiedic ac yn vnwedic
+<lb/>y daygain niwarnod hynn yr hwnn yssydd <w>gyddied<lb rend="shy"/>ic</w> yn yr amsser yma a hevyd y gadw y dec
+<lb/>gorchymyn ac y gadarnhav saith waithred y
+
+<pb n="103"/>
+<lb/>drygaredd yr hwnn a elwir &rr;oi bwyd i newnoc
+<lb/>diod y sychedic dillad y<isp/><apo/>r noeth a &rr;oi lletty y
+<lb/>wann a llawenhav karcharor ac edrych klafon
+<lb/>a <corr resp="editor1" sic="chaddly">chladdy</corr> mairw<!--ed marw--> A hynn yw y saith waithred
+<lb/>yr hwnn y dyly pob kyfryw gristion a vynno
+<lb/>bod yn amddiffynnol a chael trygaredd dduw
+<lb/>Kans heddiw y mae ________ yn dechrav
+<lb/>ac yn diweddy dduw mercher y brad yr hwnn
+<lb/>y mae yr eglwys yn tystolaethv ac yn <w>dy<lb rend="shy"/>wedyd</w> _________
+<lb/>dowch chwi vy<isp/><orig reg="mhlant">mlant</orig> ysbrydol i y gymryd <w>bre<lb rend="shy"/>nhiniaeth</w> nef yr hwnn a ordainiwyd ywch
+<lb/>yn dragwddawl Yn wir y gairav hynn a ddywait
+<lb/>yr arglwydd wrthych ddydd brawd ac wrth
+<lb/>bawb a<isp/><apo/>r a &rr;oddes gardode yn gyddiedic ac
+<lb/>y<isp/><apo/>r sawl a gyflewnis saith waithred y <w>dryga<lb rend="shy"/>redd</w> A<isp/>ffawb a<isp/><apo/>r a oedd dlawd yssydd &rr;aid <w>ydd<lb rend="shy"/>ynt</w> ddangos y ewllys val y mae yr <w>eveng<lb rend="shy"/>il</w> heddiw yn tystolaethv ac yn dywedyd<!-- + val to be deleted-->
+<lb/>_________________________
+<lb/><corr resp="editor1" sic="val val">val</corr><!--check--> yr oedd gwr yn mynned y hav y had ac
+<lb/>val yr oedd ef yn hav ve<isp/>ddamhwainiodd <w>vyn<lb rend="shy"/>ed</w>&nbsp;<corr resp="editor1" sic="&rr;aid">&rr;ai</corr> o<isp/><apo/>r had dros y ffordd ac y beth arall
+<lb/>vyned mewn dryssi a myeri <corr resp="editor1" sic="ac ac">ac</corr> a <w>goll<lb rend="shy"/>assant</w> a &rr;ai aeth mewn tir da arhai<!--MS?--> hyny
+<lb/>a ddyc aml ffrwythav Ac val hynn y mae
+<lb/>krist ehvn yn dywedyd
+
+<pb n="104"/>
+<lb/>myvi yw y <corr resp="editor1" sic="kyfiawnde">kyfiawnder</corr> a<isp/>myvi arweddaf
+<lb/>wirionedd y<isp/><apo/>r nef Velly y mae yr had hwnn
+<lb/><corr resp="editor1" sic="nid amgen nid amgen">nid amgen</corr> no<isp/><apo/>r hai nid ydiw
+<lb/>yn &rr;oi kardode || er mwyn krist arglwydd yn
+<lb/>gyddiedic ac nid o valchder nac er kael
+<lb/>klod y byd A hynny mi a<isp/><apo/>i profaf drwy <w>enn<lb rend="shy"/>sampyl</w>
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Yr <corr resp="transcr" sic="oed">oedd</corr> gynt wr kyweythawc yn roi</hi>&nbsp;<w><hi rend="rubric">kar</hi><lb rend="shy"/>dodav</w> ac elyssennav val yr oeddit yn tybiait
+<lb/>y vod ef yn sant Eithr pan vy varw ef <w>ym<lb rend="shy"/>ddangosses</w> yn kyn ddyet a<isp/><apo/>r dim dya yn y
+<lb/>byd y vn a gare ac na allai ddim vod mor
+<lb/>ddrewedic ac ef Ac y dywad ef wrth y gwr
+<lb/>hwnnw ydd<isp/>ywchwi yn tybiaid vy mod i yn
+<lb/>sant Eithr yr wyf i val y gwely di || Mae
+<lb/>y kardode a &rr;oaist di heb y gwr hwnnw ||
+<lb/>ef a<isp/><apo/>i <orig reg="chwythodd">chwthoedd</orig> y gwynt hwynt kans er
+<lb/>kael klod bydol y &rr;oesswn A phwy bynnac a<isp/><apo/>i
+<lb/>gwnel ef a gyll &rr;inwedd y gardod a<isp/><apo/>r <orig reg="cythreuliaid"><w>kyth<lb rend="shy"/>roylaid</w></orig> wybrol a<isp/><apo/>i distrywa hwynt A hefyd
+<lb/>y neb a &rr;oddo y gardod y<isp/><apo/>r neb a wypo y vod
+<lb/>mewn pechod marwol ac a<isp/><apo/>i mintaino hwynt
+<lb/>yn y pechod vn ffynyd yw a ffai hay ti<!-- = hayd ti heuid di --> dy
+<lb/>had mewn tir karregoc nev mewn &rr;yw le
+<lb/>ni aller kael ond gwyddwely a dryssi ac velly
+<lb/>y kyll ef y had Pwy bynnac hevyd a roddo<!--sic-->
+
+<pb n="105"/>
+<lb/>y dda y gyfoethogion yr hai nid &rr;aid yddynt
+<lb/>wrtho a gollassant y gwaithredoedd Eithr
+<lb/>pwy bynnac a &rr;oddo y gardod y wainion a <w>th<lb rend="shy"/>lodion</w> kans hwynt y mae duw yn<isp/>i karv
+<lb/>ac o<isp/><apo/>r had hwnnw y tyf rinweddav<!--sic--> da ar y
+<lb/>gannved ac a berv yn y llawenydd tragwddol
+<lb/>Y bob dyn a<isp/><apo/>r a wnel <orig reg="elusen">alwissenn</orig> yn ddirgel
+<lb/>y mae yn &rr;aid iddaw gassav pechod a ffo
+<lb/>&rr;agddo yn gymaint ac y gallo A<isp/>phwy
+<lb/>bynnac a gasshao y pechod y mae <corr resp="transcr" part="a" sic="duw"></corr>
+<lb/><corr resp="transcr" part="b" sic="duw">duw</corr> yn<isp/>i garv ac yn y ganlyn Kans kas
+<lb/>yw gan dduw y pechod yn gymaint ac y
+<lb/>kymerth ef ddialedd ar yr holl vyd am
+<lb/>bechod godineb ac yn enwedic yn erbyn
+<lb/>natyriaeth pan welas duw y pechod hwnn
+<lb/>yn amlhav trwy yr holl vyd o vy arglwydd
+<lb/>y drindod o<isp/><apo/>r nef paham y gwnaethost di
+<lb/>ddyn er Ioet Ac yno y dywad ef wrth noe
+<lb/>________________________
+<lb/>gwna di yt long val y dysgwyf i y ti
+<lb/>o hyd a lled a gwna siambre yndi a<isp/><w>chym<lb rend="shy"/>er</w> gyda thi gwpwl o bob amryw anifailiait
+<lb/>wrthynt ehvn a dwyn bwyd a diod gidac
+<lb/>hwynt Ac velly y gwnaeth noe y llong
+<lb/>honn val y herchis yr arglwydd yn ysgwar
+<lb/>yn y gwaelod a <sic>thrychad</sic><!--corr--> kyfyd o hyd a llet
+
+<pb n="106"/>
+<lb/>a xxx a oedd y hychder A chant mlynedd
+<lb/>y by noe yn gwnaythyr y long er dangos
+<lb/>bod yr arglwydd yn drygaroc ac y edrych
+<lb/>a mendie y bobyl kyn gwnaythyr y <w>dial<lb rend="shy"/>edd</w> arnynt Eithr nid oeddynt yn <w>me<lb rend="shy"/>ndio</w> dim Ac velly drwy help engylion
+<lb/>pob kyfryw adar ac anifailiaid a <w>ddyckbw<lb rend="shy"/>yd</w> at noe Eithr pan ddygwyd kwbyl
+<lb/>y<isp/><apo/>r llong y herchis y noe a<isp/><apo/>i wraic gymryd
+<lb/>y trimaib a<isp/><apo/>i tair gwragedd a myned i<isp/><apo/>r
+<lb/>llong wrthynt ehvn ac nad ai neb
+<lb/>o<isp/><apo/>r gwyr ymlith y gwragedd ac velly
+<lb/>pan gawssant hwynt y mewn ac velly
+<lb/>y klossiodd duw y drws arnynt
+<lb/>_________________________
+<lb/>Ac velly y gwnaeth hi law hyd <w>ymhe<lb rend="shy"/>nn</w> xl niwarnod oni ddyc y dwr y llong
+<lb/>yn ywch noc vn mynydd o xl kyfyd
+<lb/>ac y safodd hi yn i hvn lle gan <w>niwar<lb rend="shy"/>nod</w> Ac velly y boddes yr holl vyd dynion
+<lb/>ac enifailiait ond yr hai a athoedd y<isp/><apo/>r
+<lb/>llong Eithr yr oedd gwr yn Armania
+<lb/>yn dywedyd vod mynydd a elwir barws
+<lb/>yn ywch noc y by y dwr hwnn ac o<isp/><apo/>r <w>ach<lb rend="shy"/>os</w> hwnnw y mae llawer y<!--ed o--> bobyl yn
+
+<pb n="107"/>
+<lb/>dala piniwn ac yn dywedyd ymddiffin
+<lb/>llawer o <del>bl</del> bobyl Ac velly y by noe
+<lb/>vlwyddyn heb weled tir Ac yna y <w>danvo<lb rend="shy"/>nes</w> ef y gigvran y edrych a estyngasse
+<lb/>y dwr ac ni ddayth hi mwy drychefn
+<lb/>Ac yno y danvones ef y glomen ac y
+<lb/>dayth hi yr eilwaith a <orig reg="changen">chaingen</orig>&nbsp;<orig reg="flodeuog">vlodoyoc</orig>
+<lb/>yn<isp/>i ffic y<isp/><apo/>r llong Ac yno y gwyby ef
+<lb/>drayo<!--?--> y mor yn &rr;yw le Ac val y herchis
+<lb/><corr resp="scribe" sic="dduw">duw</corr> iddo noe aeth allan ac y kymerth ef
+<lb/>serten o anifailiaid nid oeddynt byredic
+<lb/>ac y llosgodd hwynt yn aberth y dduw A
+<lb/>hynny a vy gymeradwy gan dduw hynny
+<lb/>yn gymaint ac y &rr;oes ef genad yddynt
+<lb/>y vwytta kic pob anifail a<isp/><apo/>r a berthynai
+<lb/>y lladd ac y yved o bob gwinn Ac o vlaen
+<lb/>y morgymlawdd hynny nid oedd y bobyl yn
+<lb/>yfed ond dwr ac nid oedd &rr;aid yddynt ddim
+<lb/>ond a ddelai<!-- -ar --> o ffrwyth y ddayar Ac yrywan
+<lb/>y gellwch chwi weled vaint y dialedd a <w>gym<lb rend="shy"/>erth</w> duw ar y byd am y pechodav Ac velly
+<lb/>y mae yrywran lawer yn pechu mewn <w>am<lb rend="shy"/>rafael</w>&nbsp;&rr;addav yn vwy noc yr oeddynt yr
+<lb/>amsser hwnnw Ac am hynny yr wyf inev
+
+<pb n="108"/>
+<lb/>yn tybiaid y kymer duw ddialedd arnom
+<lb/>am yn pechodav ac y gwnathoedd duw
+<lb/>ddialedd er ystalym oni bai vod gweddi
+<lb/>yr eglwys a<isp/><apo/>r saint bycheddol ac yn <w>vnw<lb rend="shy"/>edic</w> drwy weddi yr arglwyddes vair vorwyn
+<lb/>A hynny chwchwi a gewch y glywed mewn
+<lb/>yn<dsp/>sampyl o saint domnick val yr oedd ef
+<lb/>yn<isp/>i weddi y gwelai ef yr arglwydd Iessu
+<lb/>grist ac yn<isp/>i law dri gwayw yn barod y
+<lb/>saythv yr byd hwnn yn ddialedd am y
+<lb/>pechod Ac velly y dayth yr arglwyddes vair
+<lb/>ac y gestyngodd<!-- ed go- --> ar y gliniav ger bron y
+<lb/>harglwydd vab gan ddywedyd pa beth yssydd
+<lb/>y<isp/><apo/>th vryd ti y wnaythyr || O v<apo/><isp/>arglwyddes
+<lb/>vam y mae y <corr resp="editor1" sic="byn">byd</corr> yn kyn lawned o valchder
+<lb/>a<isp/>chenvigen a<isp/>ffechod godineb ac y <w>myn<lb rend="shy"/>wn</w> i saethv y tri gwayw hynn trwy <w>ddi<lb rend="shy"/>aledd</w> ar y bobyl Ac velly y ddlygoedd
+<lb/>hi y harglwydd vab aros ennyd a <w>gwn<lb rend="shy"/>aythyr</w> trygaredd ac hwynt O achos y <w>m<lb rend="shy"/>ae</w> y mi &rr;ai yn wassnaethwyr a <w>bregeth<lb rend="shy"/>a</w> y<isp/><apo/>r bobyl y troi hwynt oddiwrth y <w>pech<lb rend="shy"/>odav</w> Ac velly yr esbariodd yr arglwydd
+<lb/>hwynt ved ynn hynn ac y by drygaroc
+<lb/>wrthynt Eithr yn wir y mae y byd yr
+<lb/><!--shy-->ywan yn kyn lawned o drais a lledrad
+
+<pb n="109"/>
+<lb/>a dychwant gan bawb ar y gilydd ac
+<lb/>y mae y gwainiaid yn krio ar dduw am
+<lb/>help a swckwr Kans y mae yn debic
+<lb/>y<isp/><apo/>n trewir ni ac vn o<isp/><apo/>r tri gwayw hynn
+<lb/>Nid amgen drydaniaeth nev glefyd
+<lb/>nev laddvae Ac &rr;ac hynny gristnogion
+<lb/>da moesswch y ni weddio ar yr arglwyddes
+<lb/>vair val y gallo hithav weddio at y <w><corr resp="editor1" part="a" sic="hargl">hargl</corr><lb rend="shy"/><corr resp="editor1" part="b" sic="ydd">wydd</corr></w> vab megis yr arweddo ef ni y<isp/><apo/>r <w>llaw<lb rend="shy"/>enydd</w> a berv yn dragwddawl Amen
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Vy<isp/>ngharedic</hi> bobyl ysbyssv ychwi mae
+<lb/>heddiw yw<isp/>y sul a elwir __________ 
+<lb/>A hyny yssydd mewn &rr;ifedi o ddec a<isp/><w>dayg<lb rend="shy"/>ain</w> yr hwnn &rr;ifedi yssydd yn diweddy <w>me<lb rend="shy"/>wn</w> llawenydd a gogoniant Achos yn yr
+<lb/>hen ddeddyf gynt a<isp/><apo/>r gyfraith pawb a<isp/><apo/>r a
+<lb/>vai mewn &rr;wymedigaeth arglwydd dros
+<lb/>sserten o amsser nev mewn dysgyblaeth <w>llaw<lb rend="shy"/>en</w> a vyddai ganto ddyfod allan oe amod
+<lb/>Eithr gristnogion da am y <w>&rr;wymedigae<lb rend="shy"/>th</w> hwnn y mae y ninav lawenydd <w>tragy<lb rend="shy"/>wydd</w> am<dsp/>dano ac yssydd heddiw yn dechre
+<lb/>ac yn diweddy dduw pasc ac er dangos
+
+<pb n="110"/>
+<lb/>y bob kristion a<isp/><apo/>r yssydd mewn k<add place="supralinear">l</add>wyfe a
+<lb/>dolyrie nid amgenach noc mewn pechod
+<lb/>marwol ac ymwrthod o<dsp/>honynt ac y
+<lb/>ddyfod y<isp/><apo/>r llawenydd a<isp/><apo/>r digrifwch mwyaf yn
+<lb/>hyrnas<!--shy--> gwlad nef A hevyd y mae y tad
+<lb/>o<isp/><apo/>r nef o<isp/><apo/>i vawr drygaredd a<isp/><apo/>i &rr;as yn kenady
+<lb/>y bob kyfryw gristion gwbyl o ellyngdod
+<lb/>yn<isp/>i ddydd diwedd o chadwant hwy driffeth
+<lb/>yn y byd hwnn nid amgenach no chyffes ac
+<lb/>edifairwch a gwnaythyr Iawn y bawb o<isp/><apo/>i
+<lb/>dressbasswyr Ac yn vnwedic kyffes lan o<isp/><apo/>th
+<lb/>enav a chwbyl <corr resp="editor1" sic="edifailwch">edifairwch</corr>&nbsp;<orig reg="a 'th ddwg">athwc</orig> di y <w>dyrn<lb rend="shy"/>as</w> gwlad nef A <sic>hevydd</sic> gwybydded pawb
+<lb/>y vod mewn kariad pryffaith heb lett<add place="supralinear">r</add>o yn
+<lb/>y byd yndo ac oni byddy velly ni chai di
+<lb/>ollyndod<!--corr--> mewn lle o<isp/><apo/>r byd Ac am hynny or
+<lb/>mynnv gael gollyngdod gan y tad o<isp/><apo/>r nef
+<lb/>a<isp/><apo/>th<isp/>wnaythyr yn lan kymer edifairwch am
+<lb/>dy bechode<!--bechodo?--> a meddylia na<isp/>wnelych bechod
+<lb/>mwy A<isp/>ffawb a<isp/><apo/>r<isp/>a wnelo<!-- -e--> hynny ef a vaddav
+<lb/>duw yddynt y pechodav kans dilev <w>pech<lb rend="shy"/>odav</w> a ordainiwyd yddaw Ac o herwydd <w>hy<lb rend="shy"/>nny</w> y gallwn nni gymryd ennsampyl o bedr
+<lb/>a wadodd y arglwydd dair gwaith drwy anydon
+<lb/>Eithr ef a gymerth edifairwch mawr
+<lb/>_____________ ac a wylodd<!--stroke added to -l- --> yn dost ac
+<lb/>y mae duw mor gyflawn o drygaredd ac
+
+<pb n="111"/>
+<lb/>y bydd llawen ganto weled dyn pechadyrys
+<lb/>y<!--ed yr --> erchi trygaredd iddaw
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a<isp/>gaf mewn llyfr</hi> a elwir legenda <w>a<lb rend="shy"/>uria</w> vod gwr kyfoethoc gynt a bod hwnnw
+<lb/>yn gynddrwc y vychedd ac yr oedd bob dyn
+<lb/>yn tybiaid ac nad oedd iddaw obaith <w>trygar<lb rend="shy"/>edd</w> ond myned y yffern Ac velly ef a <w>hap<lb rend="shy"/>iodd</w> y<isp/><apo/>r gwr hwnn glefychv o glefyd <w>gorthrw<lb rend="shy"/>m</w> megis y tybiodd ef ehvn y byddai varw
+<lb/>Ac yno y meddyliodd ef yndo ehvn mor ddrwc
+<lb/>y dygassai ef y vychedd yn y byd hwnn ac y
+<lb/>kymerth ef edifairwch kalhon a blinder a
+<lb/><corr resp="editor1" sic="gof">gofal</corr> am y bechode ac y hwylai ef am bob
+<lb/>gwaith ac y delai yn<isp/>i gof am y bechodav Ac
+<lb/>velly y by ef yn gorwedd saith niwarnod
+<lb/>a saith nos ac y kyffessoedd ef yn lan ac
+<lb/>y kymerth ef wir edifairwch yn<isp/>i galhon ac y
+<lb/>galwoedd ef byth am drygaredd val yr oedd
+<lb/>yn dost gan bob kristion o ddyn y wrando
+<lb/>Ac yna y by ef varw || Eithr ef a hapiodd
+<lb/>yn yr amsser hwnnw varw manach a oedd
+<lb/>yn trigio mewn manachloc oedd ger llaw
+<lb/>Ac ydd<isp/>oedd y mynach hwnn mor vycheddol
+<lb/>ac y mynne y abad ef y <corr resp="editor1" sic="gedded">gerdded</corr> gwedy
+<lb/>y bai varw a mynnv o<isp/><apo/>r abad y gred ar<!--unclear-->
+
+<pb n="112"/>
+<lb/>ar<!--ar repeated--> ddyfod ymddiddan ac ef Ac velly
+<lb/>y dayth ac y dywad wrtho || s<expan>yr</expan> yldyma <w>vy<lb rend="shy"/>vi</w> yn dyfod y gadw vy addewid ac ydolwc
+<lb/>ychwi &rr;oi y mi gennad y vyned ymaith kans
+<lb/>mi a gaf vynet y<isp/><apo/>r llawenydd || Ac yno
+<lb/>y gofynnodd yr abad a aeth y<isp/><apo/>r llawenydd
+<lb/>neb a<isp/><apo/>r a vy varw yn yr amsser hwnnw ond
+<lb/>ty<dsp/>di Ac y dywad y mynach do vn arall
+<lb/>heb ddim mwy a hwnnw oedd enaid y gwr
+<lb/>hwnn ac a<isp/><apo/>i henwai erbyn y henw Ac
+<lb/>yna y dywad yr abad Nid ty<dsp/>di yw vy
+<lb/>mynach i ond ryw<!--sic--> ysbryd yn kaissio gwall
+<lb/>arnaf kans mi a wnn yn hysbys od<isp/>oes
+<lb/>enait yn y byd yn y poenav vod y enait
+<lb/>ef yn vn o<dsp/>naddynt || O heb y mynach
+<lb/>bychan o griston o ddyn a wyr hannes
+<lb/>enait <orig reg="dyn">tyn</orig> gwedy yr el o<isp/><apo/>r korff kans ef a
+<lb/>gymerth y gwr hwnnw gymaint edifairwch
+<lb/>ac y hwylodd ef y dwr <corr resp="editor1" sic="halla">hallta</corr><!--really corr--> yn<isp/>i galhonn
+<lb/>am y bechodav oni wlychodd y holl ddillad
+<lb/>hyd y ddayar megis y gwrandawoedd<!--ed -odd --> duw
+<lb/>ar y weddi ac yr aeth <corr resp="editor1" sic="ynait">y enait</corr><!--rather orig--> ef y<isp/><apo/>r <w>drygar<lb rend="shy"/>edd</w> Ac yna y diolches yr abad y dduw
+<lb/>a<isp/><apo/>r saint o<isp/><apo/>r dangossiad hwnnw ac y <w>pregeth<lb rend="shy"/>oedd</w> yr abad y enairif o bobloedd o<isp/><apo/>r <w>edifa<lb rend="shy"/>irwch</w> hwnn ac o drygaredd dduw Ac velly
+<lb/>gristnogion da nyni a ddlywn ystyriaid
+<lb/>yr edifairwch a gymerth y gwr hwnn<!--ed hwn--> val
+
+<pb n="113"/>
+<lb/>y gallon ni gymryd edifairwch y ddodi y<isp/><apo/>r
+<lb/>llawr yn <corr resp="editor1" sic="pechonav">pechodav</corr> ninev A gwybydded bawb
+<lb/>vaint yw yr help yssydd y<isp/><apo/>r enaid or diellir<!--?-->
+<lb/>Ac yn wir ni a ddlywn vod yn yr amsser
+<lb/>bendigedic hwnn yn vwy yn edifairwch
+<lb/>noc amsser arall yn vn<dsp/>wedic y daygain
+<lb/>niwarnod val y mae salm dd<!--abbr--> broffwyd
+<lb/>yn dywedyd ____________________
+<lb/>Arglwydd dduw trygaroc dy drygaredd a<isp/><w>th<lb rend="shy"/>&rr;ygarha</w> wrthyf Ac yn wir pan vo dyn
+<lb/>yn edifar ganto y bechode y mae duw yn
+<lb/>gwrando arno O meddylia ef na syrthio ef
+<lb/>mwy yndynt Eithr mendio a byw mewn
+<lb/>kariad pryffaith heb lettro o<isp/><apo/>r byd yndo Ef
+<lb/>gaiff dyfod y<isp/><apo/>r llawen<add place="supralinear">ydd</add> tragwddawl heb <w>dra<lb rend="shy"/>nck</w> a heb orffen Ac yn wir onis gwna
+<lb/>ef a vydd kolledic yn dragwddol
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a<isp/>gaf yn ysgrifenedic vod y wr</hi>
+<lb/>gynt <orig reg="bum maib">bymaib</orig> o vaibion ac ef a<isp/><apo/>i kostassai
+<lb/>wynt mewn ysgol yn hir o amsser Ac
+<lb/>velly ddiwarnod ef a elwis y vaibion
+<lb/>ger y vronn ac a ddywad wrthynt val
+<lb/>hynn Vy maibion mi a<isp/><apo/>ch<isp/>kostais chwi y
+<lb/>ddysgv mewn ysgol ac a <orig reg="dreuliais">droylais</orig>&nbsp;<w>wrth<lb rend="shy"/>ych</w> lawer o dda arnoch ac ni welaf i broffit
+
+<pb n="114"/>
+<lb/>o<isp/><apo/>r byd er hynny Eithr onid atebwchwi
+<lb/>yr kwestiwn hwnn yn ych plith ychvn ni <w>ch<lb rend="shy"/>ostiaf</w> i mwy o<isp/><apo/>m da arnoch ac ni lafyria
+<lb/>wrthych Ac velly gofyn a wnaethant y tad
+<lb/>beth oedd y kwestwn<!--ed -ti- --> Ac yntav a ddywad yn
+<lb/>wir myvi yssydd hen a gwann ac yn <w>gwy<lb rend="shy"/>bod</w> na allaf i vyw yn hir a mi a vynnwn
+<lb/>wybod beth orav ar les y<isp/><apo/>r enait y <w>wnae<lb rend="shy"/>thyr</w> o waithredoedd da yn y byd hwnn Ac
+<lb/>yna yr ateboedd y mab hynnaf ac y <w>dyw<lb rend="shy"/>ad</w> yn wir vy<isp/>nhad pregethv a dysgv y ffydd
+<lb/>gatholic a<isp/>ddwc yr enaid y<isp/><apo/>r nef o vlaen
+<lb/>dim da Heb y dad beth a ddwedy dithav heb y
+<lb/>dad wrth yr ail mab || Ac yntev a<isp/>ddywat
+<lb/>ffydd dda a<isp/>chywirdeb a ddwc yr enait y<isp/><apo/>r nef
+<lb/>ymlaen dim Beth a ddywedy dithav <corr resp="editor1" part="a" sic="wrth"></corr><lb/><corr resp="editor1" part="b" sic="wrth">wrth</corr> y trydydd mab Ac y dywad yntev
+<lb/>gweddiav da a<isp/>lewissennav<!--MS alew- --> a ddwc yr enait
+<lb/>y orychelder nef yn gynt no dim yn y
+<lb/>byd Beth a ddywedy dithav wrth y <w>pedwr<lb rend="shy"/>ydd</w> mab am y kwestwn hwnn Yn wir <w>gwna<lb rend="shy"/>ythyr</w> perindodav a<isp/>chwplav y benyd a
+<lb/>hynny a ddwc yr enait y<isp/><apo/>r nef yn gynt
+<lb/>noc vn o<isp/><apo/>r llaill || Beth a ddywedy dithav
+<lb/>wrth y pvmed mab || Yn wir vy<isp/>nhad heb ef
+<lb/>y mae peth a ddwc yr enait y<isp/><apo/>r nef yn
+
+<pb n="115"/>
+<lb/>gynt noc vn o<isp/><apo/>r hai eraill Beth yw <w>hy<lb rend="shy"/>nny</w> heb y dad Yn wir vy<isp/>nhad kymryd o
+<lb/>ddyn gariad pryffaith &rr;yngto a<isp/><apo/>i gid <w>grist<lb rend="shy"/>nogion</w> Kans er <corr resp="editor1" sic="gwnayth">gwnaythyr</corr> o ddyn bob rin<!--sic-->
+<lb/>dda oni bydd ef mewn kariad pryffaith
+<lb/>ni vaelia dim iddo ty ac at vyned y<isp/><apo/>r nef
+<lb/>Er gwnaythyr o ddyn bob rinwedd<!--sic--> dda
+<lb/>&rr;oi kardode ac elwissene <corr resp="editor1" sic="myne">myned</corr> y <w>ber<lb rend="shy"/>indode</w> a bod yn dda y ffydd a<isp/>ffregethv a
+<lb/>dysgv ac wylo yn dost ni chlyw duw ddim
+<lb/>o<dsp/>honno oni bydd ef mewn kariad <w>pryff<lb rend="shy"/>aith</w>
+<lb/>Ai ffai bewn ni mor vycheddol ac y
+<lb/><!--shy-->ssydd o engylion yn y nef
+<lb/>___________________________
+<lb/>ac er gwybod o<dsp/>honaf i yr holl <w>gelvydd<lb rend="shy"/>yd</w> a chyfrinach yr <corr resp="transcr" sic="arglwyd">arglwydd</corr>
+<lb/>___________________________
+<lb/>a<isp/>ffai bai vy ffydd i kyn gadarned ac y
+<lb/><corr resp="editor1" sic="gallw">gallwn</corr> i wastattav y mynyddoedd
+<lb/>_____________________________
+<lb/>a &rr;oddi vy holl dda byd y dlodion er mwyn
+<lb/>yr arglwydd
+<lb/>ac ymroddi o<dsp/>honof i vy<isp/>hvn y<isp/><apo/><orig reg="ymlosgi">mlosgi</orig>&nbsp;<w>me<lb rend="shy"/>wn</w> tan
+<lb/>ac oni byddy di mewn kariad pryffaith
+<lb/>ychydic a ffrwytha yt hynny Kans angenrait
+
+<pb n="116"/>
+<lb/>yw y <corr resp="editor1" sic="bo">bob</corr> kryadyr o ddyn garv duw a bod
+<lb/>mewn kariad pryffaith Ac yn wir o chery
+<lb/>di dduw kar di dy gid griston ac oni <w>wn<lb rend="shy"/>av</w> di hynny yr wyd ti yn dy dwyllo dy
+<lb/>hvn
+<lb/>Kans kariad pryffaith a gydd dy bechode
+<lb/>di Ac yn wir y neb a vo marw mewn
+<lb/>pechod marwol kolledic <supplied reason="missing">vydd</supplied> Ac o bob rinwedd<!--sic-->
+<lb/>dda ar ddyn gore yw kariad pryffaith Ac
+<lb/>yn wir gristnogion da &rr;aid y ni vod yn
+<lb/>ffyddlon y<isp/><apo/>n meddwl a<isp/><apo/>n gwaithred heb letro
+<lb/>o<isp/><apo/>r byd val y mae yr eglwys yn<isp/>i erchi nit
+<lb/>amgenach no chredy y<isp/><apo/>r tad a<isp/><apo/>r mab a<isp/><apo/>r
+<lb/>ysbryd glan vn duw tair persson A hevyd
+<lb/>kredy y eni ef o vair vorwyn trwy eire
+<lb/>yr angel heb achos kyd knawd a<isp/><apo/>i eni ef
+<lb/>mewn knawd a<isp/>chic a gwaed a<isp/>chredy y
+<lb/>varw a<isp/><apo/>i gladdy
+<lb/>_____________ a<isp/><apo/>i godi ef y trydydd dydd
+<lb/>o vairw y vyw
+<lb/>ac I ymddrychafodd y<isp/><apo/>r nefoedd dduw Iav <orig reg="dyrchafael"><w>dry<lb rend="shy"/>chafael</w></orig>
+<lb/>ac a ddaw ddydd y varn y varnv ar vyw a
+<lb/>mairw Eithr gristnogion da val y <w>dyw<lb rend="shy"/>ad</w> yr arglwydd wrth abram y kai ef <w>etif<lb rend="shy"/>edd</w> o<isp/><apo/>i wraic sara drwy ysbrydoliaeth yr
+<lb/>ysbryd glan pan oeddynt hwy yll<isp/>dav
+
+<pb n="117"/>
+<lb/>wedy passio y hoedran Eithr ef a
+<lb/>ddywad yr arglwydd wrth abram y kai ef
+<lb/>etifedd a vydde kyn amled y weled a<isp/><apo/>r ser
+<lb/>yn yr awyr Eithr pan anet y mab y <w>gel<lb rend="shy"/>wid</w> ef Eissac a<isp/>phan oedd ef yn bymlwydd
+<lb/>ar hygain y dywod yr arglwydd wrth abram
+<lb/>dos di y<isp/><apo/>r mynydd a<isp/><apo/>th vab gyda thi ac <w>o<lb rend="shy"/>ffrwm</w> ef val ydd<isp/>oedd yr arver yr amsser
+<lb/>hwnnw Ac velly i edrychodd abram ar y
+<lb/>vab ac y by othrwm ganto Eithr ef
+<lb/>a beris y vab Eissac gymryd ffagode o
+<lb/>wrysc ar y gefn a<isp/><apo/>i losgi ehvn A<isp/>phan <w>ddo<lb rend="shy"/>ythant</w> y benn y mynnydd ef a wnaeth
+<lb/>abram allor megis yn goed y gyd ac a
+<lb/>ddechroyodd &rr;oi tan yndi Ac ef a gymerth
+<lb/>y vab Eissac ac a vynnai y ladd a<isp/><apo/>i offrwm
+<lb/>Ac yna y klywai ef lais angel yn <w>dywe<lb rend="shy"/>dyd</w> ac yn erchi iddaw baidio a chymryd
+<lb/>y vab A myned ac ef y<isp/><apo/>r llong oedd ger
+<lb/>llaw ac offrwm dros Eissac Eithr <w>grist<lb rend="shy"/>nogion</w> da ni allwn ni <corr resp="editor1" sic="wnaythy">wnaythyr</corr>&nbsp;<w>kefflyb<lb rend="shy"/>iaet</w> o<isp/><apo/>r arglwydd Iessu ac Eissac yr <w>ysb<lb rend="shy"/>ryd</w> gan<!--corr to glan?--> yr hwnn nid esbariodd ef ehvn
+<lb/>Eithr godde yr iddewon y gably a<isp/>fferi
+<lb/>iddaw ef ehvn ddwyn y groes ar y gefn
+<lb/>a<isp/><apo/>i arwain hyd ymynydd kalvarei ac
+
+<pb n="118"/>
+<lb/>yno y &rr;oi ef erni y ddioddef gloes angav
+<lb/>dros yn Iechyd ni ar y groes A<isp/><apo/>r groes
+<lb/>honno a wnaethbwyd o bedwar &rr;wy<add place="supralinear">o</add>gaeth
+<lb/>o goed nid amgenach no <orig reg="sedr">sydyr</orig>&nbsp;<orig reg="seipr">cypyr</orig><!--ed sypyr--> pren
+<lb/>oliff a phren helic Ac velly y gellir galw
+<lb/>Iessu yn <corr resp="editor1" sic="deb">debic</corr> y eissac Kans llawer o <w>enait<lb rend="shy"/>av</w> a dynnoedd ef o yffern a<isp/><apo/>r a athoedd
+<lb/>yno dan wylo a gridvan yn dost ||
+<lb/>Eithr gristnogion da yn yr vn ffynyd
+<lb/>y gwnaeth ef val y mae ef heddiw yn
+<lb/>tystolaethv yn<isp/>yr evengil
+<lb/>_______________________
+<lb/>_______________________
+<lb/>Ac yn y modd y dalwyd ef ac <w><corr resp="transcr" part="a" sic="ysgyrssi">ysgyrssi</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="yd">wyd</corr></w> ac y poered yn<isp/>i lygaid A<isp/>chwedy y
+<lb/>ysgyrssio y &rr;oi ar y groes ac velly i yrrv
+<lb/>i loes angev Ac ef a godes y trydydd
+<lb/>dydd o vairw y vyw Ac yn dystiolaeth
+<lb/>ar hynn ef a hapiodd y longiws gwr
+<lb/>dall ni welssai ddim er Ioed a phan ddoyth
+<lb/>ef ger bronn a dywedyd y gairiav hynn
+<lb/>___________________________
+<lb/>Iessu mab duw trygaroc trygarha wrthyf
+<lb/>Ac y dywad yr arglwydd wrtho beth a <w>vy<lb rend="shy"/>nny</w> di ymi wnaythyr yt
+
+<pb n="119"/>
+<lb/>o arglwydd &rr;oi vy<isp/>ngolwc ym Ac y <w>dyw<lb rend="shy"/>od</w> yr arglwydd wrtho yn wir dy ffydd di
+<lb/>a<isp/><apo/>th<isp/>amddiffynnodd Ac y kafas ef y
+<lb/>olwc ac y diolches ef hynny yr arglwydd
+<lb/>Velly yn wir y mae y ninav bob kyfryw
+<lb/>ddyn a vyno kael maddeyaint gan dduw
+<lb/>&rr;aid iddaw vod mewn <orig reg="edifeirwch">adifairwch</orig> kalhon
+<lb/>ac yn lan gyffessol a gwnaethyr Iawn y
+<lb/>dressbasswyr a bod mewn kariad pryffaith
+<lb/>heb lettro yn y byd A hevyd <w>gristnogi<lb rend="shy"/>on</w> da er dwyn mwy o ennsampyl ychwi
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a gaf yn esgrivenedic</hi> vod esgob santaidd
+<lb/>gynt yr hwnn nid oedd yn yr holl ynys
+<lb/>vn gwr a allai vod yn well y vywyd a<isp/><apo/>i
+<lb/>vychedd noc ef na gwell ysgolhaic A<isp/><w>pha<lb rend="shy"/>nn</w> oedd ef yn<isp/>i glaf wely ef a ddoyth atto
+<lb/>ef aneirif o anysbrydoedd er profedigaeth
+<lb/>arno ac y argo<!--?--> ac ef yn erbyn y<isp/>ffydd
+<lb/>yn gymaint ac y by agos yddynt a<isp/><apo/>i
+<lb/>droi ef allan o<isp/><apo/>r ffydd a<isp/><apo/>i &rr;oi mewn <w>ano<lb rend="shy"/>baith</w> Eithr yr oedd yr arglwyddes vair
+<lb/>yn gymaint ac y byassai ef yn <w>wassnae<lb rend="shy"/>thwr</w> kywir iddi hi yn barod y<isp/><apo/>w achyb ef
+
+<pb n="120"/>
+<lb/>ac a ofynnodd iddo a wyd ti yn kredy
+<lb/>val y mae eglwys duw yn<isp/>i erchi yt ac
+<lb/>yno y gwyby ef mae profedigaeth ydd<isp/><w>oedd<lb rend="shy"/>id</w> yn<isp/>i gaissio arno || ac y dywad yntev
+<lb/>ydwy v<apo/><isp/>arglwyddes yn gwir gredy pob peth
+<lb/>a<isp/><apo/>r<isp/>a berthyn ty ac at yr eglwys ac
+<lb/>val y mae hi yn dysgv y mi Ac yno
+<lb/>y &rr;oes yr ysbrydion drwc aramlais<!--?--> garw
+<lb/>gadarn ac yr aethant drwy benn y ty allan
+<lb/>ac y gorchmynnodd ef yr enaid y<isp/><apo/>r tad o<isp/><apo/>r
+<lb/>nef ac yr aeth ef y<isp/><apo/>r llawenydd <w>tragwdd<lb rend="shy"/>awl</w> I<isp/><apo/>r hwnn lawenydd yr elom ninnav
+<lb/>poet gwir Amen
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Vy<isp/>ngharedic bobyl</hi> ysbyssv ychwi mae
+<lb/>heddiw yw y sul kyntaf o<isp/><apo/>r grawys glan
+<lb/>ac yssydd mewn kyfrif xl diwarnod o <w>he<lb rend="shy"/>ddiw</w> hyd dduw pasc Ac o<isp/><apo/>r achos hwnnw
+<lb/>y dyly pob kyfryw gristion bycheddol <w>wn<lb rend="shy"/>aythyr</w> Iawn y dduw am y dressbas val y
+<lb/>mae pob kyfryw gristion yn &rr;wymedic
+<lb/>ac yn gyfraithlon y ymprydio y <w>dayga<lb rend="shy"/>in</w> niwarnod hynn onid yr hai y mae y
+<lb/>gyfraith yn kenettav yddynt baidio wrth
+<lb/>orchymyn yr eglwys Sef ynt yr hai
+
+<pb n="121"/>
+<lb/>hynny yr hai Iefainck heb vod mewn
+<lb/>oedran a<isp/><apo/>r llafyrwyr a<isp/><apo/>r perinion a<isp/><apo/>r <w>gwrag<lb rend="shy"/>edd</w> baichogion a<isp/><apo/>r hen ddynion gwedy <w>passi<lb rend="shy"/>o</w> y hoedran a<isp/>phobyl glaifion - yr haini y
+<lb/>mae y gyfraith yn &rr;oi ar y kidwybod Ac
+<lb/>yn gymaint ac nad ydiw duw sul yn
+<lb/>ddydd y <orig reg="dichon">dychon</orig> bod ympryd arno Eithr y
+<lb/>mae pob kristion yn Rwymedic<!--ed r- --> y ymprydio
+<lb/>bob mercher a gwener drwy y grawys a
+<lb/>dyfod dduw mercher nessaf y eglwys
+<lb/>duw y wrando gwssanaeth ac y gymryd
+<lb/>llydw ac i ystyriaid y gairav a ddyweter <w>wrth<lb rend="shy"/>ych</w> yr amsser hwnnw
+<lb/>_________________
+<lb/>Meddylia ddyn mae o<isp/><apo/>r pridd y doythost ac
+<lb/>y<isp/><apo/>r pridd y<dsp/>dd<isp/>av Eithr y mae amrafael
+<lb/>achossion pan it<!-- read pam yr --> ymprydir y daygain <w>ni<lb rend="shy"/>warnod</w> Val y mae yr evengil yn <w>dywed<lb rend="shy"/>yd</w> heddiw
+<lb/>__________________
+<lb/>val yr aeth yr arglwydd wrth orchymyn
+<lb/>yr ysbryd glan y ddinas karissalem a
+<lb/>gwlad sierigo ac oe demto gan y kythrel
+<lb/>Ac yno y by ef yn y diffaith<!--dy-?--> vynydd yn
+<lb/>ymprydio xl niwarnod a xl nos er yn
+<lb/>mwyn ni er dangos y bob kyfryw gristion
+<lb/>y gobrwy a<isp/><apo/>r tal yssydd yt am y dyrwest yr
+
+<pb n="122"/>
+<lb/>h<damage>wn</damage>n y mae ef yn dwyn ar <corr resp="editor1" sic="ddyal">ddyall</corr><!--second d smudged--> yn y
+<lb/>proffes o<isp/><apo/>r yfferen o<isp/><apo/>r dydd heddiw ac yssydd
+<lb/>yn arver yn vwyaf o hynn hyd basc
+<lb/>_________________________
+<lb/>_________________________
+<lb/>val y mae dy lan ympryd di yn gostwng
+<lb/>y <corr resp="editor1" sic="law">lawr</corr> dy anwiredd di ac yn kodi y vynydd
+<lb/>dy<isp/>waithredoedd da di ac yn<isp/>i amlhav yr
+<lb/>hynn y <corr resp="editor1" sic="kaid di">kai di</corr><!-- corr --> anrydedd mawr yn y nef ac
+<lb/>a berv yno yn dragywydd Ac val y mae
+<lb/>gwyr o ddysc yn dywedyd &rr;inwedd y dyrwest
+<lb/>a wnelych di yma yssydd obrwy yt ger bronn
+<lb/>duw Eithr gristnogion da ymogelwn ni
+<lb/>&rr;ac yn twyllo a chael gwall arnom val y
+<lb/>gwnaeth y kythrayl ac Eva Kans trwy
+<lb/>brofedigaeth y kythrayl y twyllodd ef hi y
+<lb/>dorri y gorchymyn o<dsp/>blegid yr vn aval ac
+<lb/>o<isp/><apo/>r achos hwnnw yr aeth pymoes byd y
+<lb/>yffern Velly gristnogion da y dayth y <w>kyth<lb rend="shy"/>&rr;ayl</w> ar lvn dyn y gaissio yr arglwydd Iessu
+<lb/>grist val y mae yr efengil yn dywedyd
+<lb/>________________________
+<lb/>Ac velly y byassai Iessu yn ymprydiait
+<lb/>xl niwarnod Eithr wrth nattyr dayarol ef
+<lb/>a godes newyn arno ac yna y doyth y
+<lb/>kythrel atto ac y dangosses y kerric iddo
+<lb/>ac y dywad wrtho
+
+<pb n="123"/>
+<lb/>os ty<dsp/>di yssydd <corr resp="editor1" sic="val">vab</corr> duw o<isp/><apo/>r nef gwna di
+<lb/>y kerric hynn yn vara Yn y modd hwnnw y
+<lb/>kawssai ef wall ar Eva pan vwytawssai<!--sic--> hi yr
+<lb/>aval y tybassai yntav y kymerai Iessu y bara
+<lb/>o<isp/><apo/>r kerric ac y bwyttae kans pechod glothineb
+<lb/>yssydd yn ewllys y knawd dayarol Ac y dywod
+<lb/>yr arglwydd wrtho
+<lb/>_______________________________
+<lb/>___________________________ <del>yn wir</del>
+<lb/>yn wir nid yr ymborth dayarol yw yr <w>ym<lb rend="shy"/>borth</w> a berv yn dragwyddol Eithr o rinwedd<!--sic-->
+<lb/>y gairav a ddel o enav yr arglwydd Ac
+<lb/><corr resp="editor1" sic="yn">yna</corr> y kymerth y kythrel ef ac a<isp/><apo/>i &rr;oes
+<lb/>ar binagl ychel ac y dywad wrtho os <w>ty<lb rend="shy"/>di</w> yssydd vab dyw<!--ed duw--> dyred y<isp/><apo/>r llawr heb help
+<lb/>dim o<isp/><apo/>r byd yn ddieniwed ar dy gorff val
+<lb/>y gallwyf i <orig reg="adnabod">addnabod</orig> mae ty<dsp/>di<!-- t- corr--> yssydd vab
+<lb/>duw Ac yna y dywod yr arglwydd
+<lb/>______________________________
+<lb/>Kerdda di ymaith ni themty di ddim o<isp/><apo/>th dduw
+<lb/>etto Ef a ddayth y drydedd waith at yr <w>arglw<lb rend="shy"/>ydd</w>
+<lb/>_______________________________
+<lb/>Ac yna y kodes y mynydd dan draed y
+<lb/>kythrayl ac y safoedd yntev ar y benn ac
+<lb/>y dangosses iddo yr holl vyd a<isp/><apo/>r holl <w>gyfoetho<lb rend="shy"/>grwydd</w> y byd || Yn wir heb y kythrayl hynn
+
+<pb n="124"/>
+<lb/>a &rr;of i y ti er ymestwng ac addoli y <w>my<lb rend="shy"/>vi</w> Ac yna y dywod yr arglwydd
+<lb/>____________________
+<lb/>kerdda di satan vydyr y mae yn ysgrifenedic
+<lb/>yn yr esgythyr lan ac y mae hi yn <w>dywed<lb rend="shy"/>yd</w> vod yn &rr;aid y ti addoli dy arglwydd dduw
+<lb/>a<isp/><apo/>i wssnaethv Ac yna yr aeth y kythrel ymaith
+<lb/>________________________
+<lb/>Ac yna y dayth yr engylion ac ymborth
+<lb/>yr arglwydd Ac yn wir gristnogion da y mae
+<lb/>y kythrel yn esgydach y daygain niwarnod hyn
+<lb/>noc vn amsser y annoc ar y bobyl yn <w>vnwed<lb rend="shy"/>ic</w> y tri ffechod hynn nid amgen balchder a<isp/><w>ch<lb rend="shy"/>want</w> y<isp/><apo/>r byd a <del>godineb</del> glothineb Eithr
+<lb/>gristnogion da y mae yn &rr;aid y ni gael
+<lb/>triffeth y Iachav yr hai hynny nid amgen
+<lb/>yn erbyn glothineb noc ymprydio yn yfydd ||
+<lb/>yn erbyn balchder yfydddod y<isp/><apo/>th gid gristion
+<lb/>yn erbyn chwant y byd kymryd yr eiddom
+<lb/>nyhvn yn ddigonol a &rr;anv peth y<isp/><apo/>r tlodion
+<lb/>ac y<isp/><apo/>r gwainiaid A <corr resp="transcr" sic="hefytbod">hefyt bod</corr> heb gymryd ar
+<lb/>yn bwyd a<isp/><apo/>n diod ond yn &rr;essymol ac <w>ym<lb rend="shy"/>prydio</w> y dydd a<isp/><apo/>r nos val y gwnaeth krist
+<lb/>Eithr y mae o<dsp/>honom ni lawer a ddaw y<isp/><apo/>r <w>daf<lb rend="shy"/>arn</w> ac a eistedd ar hyd y dydd a<isp/><apo/>r nos er
+<lb/>llenwi y vola ac y syrthio mewn glothineb
+<lb/>A ffan eloch y vwytta &rr;oi arwydd y groc ar
+<lb/>ych bwyd a<isp/><apo/>ch diod a dywedwch ych pader a<isp/><apo/>ch
+
+<pb n="125"/>
+<lb/>aue maria a<isp/><apo/>ch kredo y ddiolch y<isp/><apo/>r arglwydd
+<lb/>y llyniaeth a ddanvones ywch ac ar ol ych
+<lb/>bwyd yn yr vn modd ac velly y mae y chwi
+<lb/><sic>diolch</sic><!-- corr to ddiolch; at beginning of line --> y dduw am ych bwyd angenraidiol
+<lb/>ac velly y mae &rr;aid ywch ymweglyd &rr;ac
+<lb/>glothineb Ac yn erbyn balchder <corr resp="editor1" part="a" sic="yr hwnn"></corr><lb/><corr resp="editor1" part="b" sic="yr hwnn">yr hwnn</corr> yssydd bechod anorbaid<!--?--> yr enait ef
+<lb/>a vydd &rr;aid ychwi vwrw chwant y byd <w>ym<lb rend="shy"/>aith</w> oddiwrthych ac yfyddhav yn <w>ostynged<lb rend="shy"/>ic</w> y dduw a meddyrio<!--?--> pa vodd y ganet
+<lb/>pob dyn ac mor dlawd y dayth y<isp/><apo/>r byd
+<lb/>a<isp/><apo/>i vod yn siwrnaio <orig reg="beunydd">boynydd</orig> ty ac at y
+<lb/>ddydd diwedd Ac yna angav a ddaw ac a<isp/><apo/>i
+<lb/>bwrw ef y<isp/><apo/>r llawr yn<isp/>i glaf wely dan <w>gwyn<lb rend="shy"/>van</w> a gridvan<!--ed gridfan--> yn dost Ac <corr resp="editor1" sic="yn yn">yn</corr> wir
+<lb/>anodd vydd gan y mwyaf a<isp/><apo/>i karai ef yn
+<lb/>y blaen ddyfod yn<isp/>i gyfyl Ac velly yr <w>ann<lb rend="shy"/>sywa</w><!--?--> yr anadl ac y dya y gwefyssav ac
+<lb/>kylhaa<!--ed y kylhaa--> yr wyneb ac y melyna y llygait
+<lb/>ac y bloesga y tafod ac y wastia dy holl
+<lb/>gorff ac o<isp/><apo/>r diwedd &rr;oi yr enait y <w>vyny<lb rend="shy"/>dd</w> Beth gwedy hynny a wnay di nac a elly
+<lb/>y wnaythyr yn wir dy hebrwng y<isp/><apo/>r <w>vynwe<lb rend="shy"/>nt</w> a<isp/><apo/>th<isp/>roi<!--sic--> yn y ddayar
+<lb/>Ac yn wir byan yr av di dros gof ac
+<lb/>os ty<dsp/>di a veddwl am hynn yr wyf i yn
+<lb/>tybiait na veddyly di am valchder || Ac yn
+<lb/>erbyn chwant y<isp/><apo/>r byd ymgosba val y &rr;oddo
+
+<pb n="126"/>
+<lb/>duw yt y da a diolch y ddyw pa vodd <w>by<lb rend="shy"/>nnac</w> y danvono yd || Ac y mae yn &rr;aid yt
+<lb/>&rr;oi kyfrif am bob gorwyl a<isp/><apo/>r a veddyliech y
+<lb/>wnaythyr ac er duw meddyliwch am dy
+<lb/>y tlodion a<isp/><apo/>r gwainiaid a weloch ac eissav <w>arn<lb rend="shy"/>ynt</w> a gwnewch val y mae yr evengil
+<lb/>yn<isp/>i erchi
+<lb/>&rr;owch chwi a duw a &rr;anna y chwithav yn
+<lb/>ddigonol Kans val y mae saint awstin
+<lb/>yn dywedyd y galhon ni<isp/>chlywo ar y law &rr;oddi
+<lb/>kardod nev elwissenn y dlawd nid ydiw ef
+<lb/>dailwng y ofyn trygaredd dduw a phwy bynac<!--ed bynnac-->
+<lb/>a<isp/><apo/>i &rr;oddo er mwyn<!--smudged--> yr enaidiav y mae yn
+<lb/>vodlon gan yr arglwydd ef ac y mae yn
+<lb/>llawenychy yn vawr ar yr enait
+<lb/>__________________
+<lb/>Kans y gardod yssydd yn achyb yr enait val
+<lb/>y mae saint<!--ed sant--> grygor yn dywedyd
+<lb/>___________________
+<lb/>val y mae y dwr yn dyffoddi y tan velly y
+<lb/>diffydd y gardod y pechod Val y mae y <w>proffw<lb rend="shy"/>yd</w> yn dywedyd 
+<lb/>&rr;owch beth a duw a &rr;ydd y chwithav ddigon
+<lb/>_____________________
+<lb/>Maddav y<isp/><apo/>th gid griston a wnaeth y<isp/><apo/>th <w>er<lb rend="shy"/>byn</w> a duw a vydd trygaroc wrthyd tithav
+<lb/>Eithr gweled yr wyd ti nad oes genyd ti
+
+<pb n="127"/>
+<lb/>ddim y &rr;oi vn amsser Beth a wna hynny
+<lb/>yn wir yr ysbryd drwc yssydd y<isp/><apo/>th ganlyn bob
+<lb/>amsser ac yn llestair yt &rr;oi
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a gaf yn ysgrifenedic</hi> vod marchoc
+<lb/>yrddol kadarn Eithr yr oedd ef yn <w>anllywo<lb rend="shy"/>draethv</w> y gorff ehvn a bwydydd a diodydd a
+<lb/>ffob peth a<isp/><apo/>r a vai ddeinteth ef a<isp/><apo/>i <w>mynn<lb rend="shy"/>ai</w> Eithr o<isp/><apo/>r diwedd ef a vy varw ac a <w>gladd<lb rend="shy"/>wyd</w> mewn kist o vaen Ac yr oedd y<isp/><apo/>r gwr
+<lb/>hwnn <corr resp="editor1" sic="val">vab</corr> yn wr kadarn ac yr oedd ef yn
+<lb/>arver bob dydd o ddywedyd y broffwnndis &rr;ac
+<lb/>enait y dad Ac velly ddiwarnod ef a
+<lb/>wnaeth gwledd y bob gwr o st<unclear>at yn</unclear> y wlad o
+<lb/>bob ty iddo Ac velly pan ddoethbwyd a dwr
+<lb/>yddaw y ymolchi<!-- ed ymlochi! --> ef a ddayth yn<isp/>i gof ddywedyd
+<lb/>y broffwndis a gwnaythyr y weddi dros
+<lb/>enait y dad ac y daissyfoedd ar y bob <w>a<damage>r</damage><lb rend="shy"/>os</w> ac y dywedassant hwynte yr aent
+<lb/>gydac ef Ac yno ef a ddoyth ynddo veddwl
+<lb/>ar weled bedd y dad yn agored ac oni chai
+<lb/>ef hynny ef a vyddai varw yn<isp/>i veddwl ehvn
+<lb/>Ac y gwnaeth ef y<isp/><apo/>r gwaission agori y bedd
+<lb/>ac y kanvy ef lyffan yn y bedd kyn ddyed
+<lb/>a<isp/><apo/>r <sic>ddim</sic> dyaf ac a alle vod yn y byd a<isp/><apo/>i
+<lb/>lygaid yn ddwy olwyn o dan A hwnn oedd
+<lb/>a<isp/><apo/>i grafangav ynglyn ynghalhon y dad ef
+
+<pb n="128"/>
+<lb/>ac yn bwytta y galhon y ffesta ac y galle
+<lb/>Ac y dywad y vab wrtho o vy<isp/>nhad llawer o
+<lb/>vwyd a diod a gymeraist wrth dy chwant Ac
+<lb/>yr owran y gwelaf i vythaiad y kythrel yn<isp/>i
+<lb/>gael ef ar dy galhon di yr hwnn yssydd <w>ann<lb rend="shy"/>vaidrawl</w> y weled Ac yno y kayodd ef y gist
+<lb/>vaen arno A<isp/>phan ddarvy iddaw wassnaethv
+<lb/>ar y bobyl ef aeth yn gyddiedic ac adewis
+<lb/>y anrydedd bydol a<isp/>chwbyl o<isp/><apo/>i vowyd ac aeth
+<lb/>y gaerissalem Ac yno y by ef tra vy vyw yn
+<lb/>y gwssnaethv tlodion a<isp/>chlaifon ac mewn
+<lb/>tlodi tra vy vyw A<isp/>phan welas duw amsser iddo
+<lb/><supplied reason="damage">va</supplied>rw y kyrchodd<!--smudged--> yr engylion y enait ef y<isp/><apo/>r
+<lb/><supplied reason="damage">llawen</supplied>ydd tragwddawl
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Vy<isp/>ngharedic bobyl yssbyssv</hi>&nbsp;<w><hi rend="rubric">ych</hi><lb rend="shy"/>wi</w> mae heddiw yw yr ail ssul o<isp/><apo/>r grawys
+<lb/>glan yr hwnn gristnogion da val y by<add place="supralinear">o</add>chwi
+<lb/>yn ewyllyssgar y vod yn lan ac yn onest
+<lb/>ymarddel a<isp/><apo/>r byd bellach y dlywn ninev vod
+<lb/>yn vwy yn pryssyrdeb y wnaythyr yn henaide
+<lb/>yn lan Yr amsser hwnn a ordainiwyd y lanhav
+<lb/>yn kidwybod &rr;ac pob ryw enwiredd ac &rr;ac
+<lb/>pechodav <orig reg="brycheulyd">brychoylyd</orig> val y gallom ni dduw
+<lb/>pasc vod yn kidwybod yn lan y gymryd yn
+<lb/>harglwydd ni Iessu grist attom Val y mae
+
+<pb n="129"/>
+<lb/>saint pawl yn dywedyd yn yr abostol
+<lb/>_______________________
+<lb/>hynn yssy ewyllys gan dduw vod o<dsp/>honochwi
+<lb/>mewn trallod ac yn santaidd y<isp/><apo/>ch glanhav
+<lb/>ychvn y haeddy bodd duw ac y weddiaw arno
+<lb/>ar vod yn llestri ni yn lan nid amgenach
+<lb/>no<isp/><apo/>nn kalhonne erbyn dyfod yr arglwydd Iessu
+<lb/>grist attom Velly y kawn ni ddwyn ar ddyall
+<lb/>mae yn kidwybod ni yw ef Ac yn wir y
+<lb/>neb a vo a<isp/><apo/>i lester yn lan a verkir hyd dydd
+<lb/>brawd ac yno yr agorir dy lester di val
+<lb/>y kaffo yr holl vyd weled beth yssydd <w>ynghad<lb rend="shy"/>w</w> gennyd ai tec ai hagr Eithr y neb <w>y<lb rend="shy"/>ssydd</w> yn dyfod a<isp/><apo/>i lester yn lan ger bronn y
+<lb/>brawdwr a gaiff y lywio Pa vodd y gelly <w>dy<lb rend="shy"/>di</w> gadw y llestyr hwnn yn lan Yn wir
+<lb/>gwnaythyr val y mae yr eglwys yn y <w>er<lb rend="shy"/>chi</w> Ensampyl o wr da bycheddol a elwit
+<lb/>Iacob yr honn ystori yr ydis yn<isp/>i harver yr
+<lb/>wythnos honn <corr resp="editor1" sic="ac gwr">Ac i<isp/><apo/>r gwr</corr><!-- supply yr --> hwnn yr oedd dad
+<lb/>a elwit Eissac a mam a elwit <del>sar</del>
+<lb/>&rr;ebecka Ac ef a aned iddi ddav vab ar
+<lb/><corr resp="editor1" sic="wnwaith">vnwaith</corr> ac vn o<dsp/>honynt a elwid esaw
+<lb/>yr hwnn a anassid yn gyntaf a<isp/><apo/>r llall a
+<lb/>elwit Iacob Eithr gristnogion da yr <w>yst<lb rend="shy"/>ori</w> honn yssydd hir ond ny<dsp/>ni a gymerwn
+
+<pb n="130"/>
+<lb/>yr hwnn yssydd angen&rr;aidiol ty ac at
+<lb/>yr enait Eithr ef a &rr;oes yr arglwydd
+<lb/>&rr;as mawr y<isp/><apo/>r gwr hwnn Eissac megis pa
+<lb/>amsser bynnac y &rr;oe ef y vendith y vaibion
+<lb/>y <orig reg="diwygiai">dywgiav</orig> yddynt Ac yn achos bod Eissac
+<lb/>yn hen ac yn wann<!--ac yn wann missing in ed--> ac yn ddall ac yn
+<lb/>agos y ddiwedd y oes
+<lb/>Essaw kerdda y hela y mi vwyd val y gallwyf
+<lb/>y vwytta
+<lb/>val y gallwyf i &rr;oi y ti vy<isp/>mendith kynn
+<lb/>vy marw Eithr pan aeth essaw ymaith
+<lb/>y dayth Iacob wrth ddysc y vam ac y kymerth
+<lb/>ef vendith y dad ac y dywad y dad wrtho
+<lb/>___________________
+<lb/>bydd di arglwydd ar dy holl vrodyr Ac y
+<lb/>gwnaeth ef Iacob yn aer iddaw ac a<isp/><apo/>i <w>ben<lb rend="shy"/>digodd</w> a<isp/>phawb a<isp/><apo/>r a<isp/><apo/>i bendigai yntev ||
+<lb/>Eithr pan ddayth essaw y dre y kasshaodd
+<lb/>ef y vrawd Iacob ac a veddyliodd y ladd
+<lb/>Ac y gwnaeth Iacob wrth gynghor y vam
+<lb/>nid amgen myned allan o<isp/><apo/>r wlad at <w>ewy<lb rend="shy"/>rth</w><!-- thr rth --> oedd iddo a elwit laban Ac val yr
+<lb/>oedd ef yn kerdded mewn gwlad <w>anghyf<lb rend="shy"/>iaith</w> a<isp/>ffobyl velldigedic ni lefaissai ef hir
+<lb/>drigio gidac ef ac<!--letter deleted here--> ni chai ef ond <w>gorw<lb rend="shy"/>edd</w> ar vayssydd ac ar ffyrdd Ac velly y
+
+<pb n="131"/>
+<lb/>&rr;oes ef garec dan y ben ac y kysgodd
+<lb/>___________________
+<lb/>A thrwy y hvn ef a welai yssgol yn <w><corr resp="editor1" part="a" sic="kyrha">kyrha</corr><lb/><corr resp="editor1" part="b" sic="yd">yddyd</corr></w> o<isp/><apo/>r ddayar hyd y nef
+<lb/>_______________________
+<lb/>ac engylion o<isp/><apo/>r nef yn tramwy ar y hyd
+<lb/>Ac y klywe ef dduw yn dywedyd wrtho <w>my<lb rend="shy"/>vi</w> yw arglwydd abram ac eissac a myvi
+<lb/>a &rr;o y ti y wlad honn ac a vyddaf gaidwat
+<lb/>arnad Ac y dyffroes Iacob ac y dywad
+<lb/>________________________________
+<lb/>Yn wir y mae duw yn y lle hwnn ac yn
+<lb/>anwybod y mi Ac velly yr aeth ef ymaith
+<lb/>at y ewyrth ac y by ef gydac ef vgain
+<lb/>mlynedd mwy ac yno y dyweddiodd<!--?--> y ddwy <w>ver<lb rend="shy"/>ched</w> vn a elwid &rr;agel a<isp/><apo/>r llall a elwir laia
+<lb/>A chwedy y vod ef yno <corr resp="editor1" sic="y">yn</corr> gyhyd a hynny ef
+<lb/>a ddamynodd vyned y dref y wlad ehvn Ac
+<lb/>ef a gymerth gidac ef y wraic a<isp/><apo/>i blant a<isp/><w>ch<lb rend="shy"/>wbyl</w> ac yr aeth ymaith Ac yna y dayth
+<lb/>eneirif o engylion y helpv ef Eithr pan
+<lb/>ddayth Iacob o vewn &rr;yd<!--?--> y herchis ef y <w>baw<lb rend="shy"/>b</w> ac a oedd gidac ef vyned o<isp/><apo/>r blaen ac i
+<lb/>tariodd yntev yn ol yn<isp/>i weddi Ac val yr oedd
+<lb/>ef yn gweddio yr ymrithioedd angel gair y
+<lb/>vron ar lyn gwr ac a<isp/><apo/>maelodd ac ef ar hyd
+
+<pb n="132"/>
+<lb/>y nos hyd yni oedd ddydd ac a<isp/><apo/>i kymerth ef
+<lb/>erbyn llyssewyn y vorddwyd ac a<isp/><apo/>i gwnaeth
+<lb/>ef yn gloff tra vy vyw Ac y gofynnodd yr
+<lb/>angel y Iacob beth oedd y henw Ac y dywod
+<lb/>yntav mae Iacob y gelwir || Nac ef heb yr
+<lb/>angel ni<isp/><apo/>th<isp/>elwir di velly mwy Eithr Issrael
+<lb/>vydd dy henw di Ac y kroesses ef ac y <w>gadew<lb rend="shy"/>is</w> ef yno yn gloff byth o hyny allan Ac er
+<lb/>hynny ef aeth y dre yn anrydeddys Eithr <w>gri<lb rend="shy"/>stnogion</w> da yr estori honn yr ydis yn<isp/>i darllain
+<lb/>yn eglwys duw er sampyl y bob kyfryw <w>wassna<lb rend="shy"/>ethwr</w> a ddamvno kael <del>bethi</del> bendith y dad <corr resp="editor1" part="a" sic="nid"></corr>
+<lb/><corr resp="editor1" part="b" sic="nid">nid</corr> amgen no<isp/><apo/>r tad o<isp/><apo/>r nef Y mae yn &rr;aid
+<lb/>y chwi vod yn gyntaf a<isp/><apo/>ch<isp/>enw yn Iacob a
+<lb/>chwedy hynny Issrael Eithr ny<dsp/>ni a ddyallwn
+<lb/>mae yr ymaelyd oedd Ac Issrael y wr yn
+<lb/>kaissio gweled duw Kans pwy bynnac <orig reg="a geisio">ac
+<lb/>aissio</orig><!-- corr in ed --> gweled duw &rr;aid yw iddaw ef <w>yma<lb rend="shy"/>ylyd</w> ar y ddayar honn nid amgenach noc
+<lb/>a<isp/><apo/>r knawd ac a<isp/><apo/>r angel drwc yssydd yn dy
+<lb/>ganlyn Yn enwedic pan wnelych di <w>be<lb rend="shy"/>chod</w> y gyrr y kythrayl ynod ti gywilydd
+<lb/>yn dy galhon &rr;ac y ddywedyd wrth neb ac
+<lb/><orig reg="felly">velle</orig> y mae yn &rr;aid y ninav ymafael a<isp/><apo/>r
+<lb/>kythrayl ar knawd a<isp/><apo/>i gorchvygv nid <w>amg<lb rend="shy"/>en</w> no dywedyd allan yn pechodav o gwbyl
+
+<pb n="133"/>
+<lb/>Ac yna y bydd kywilyddys y kythrayl ac <w>of<lb rend="shy"/>noc</w> Ac <corr resp="editor1" sic="y ymae">y mae</corr> yn &rr;aid yd wnaythyr dy benyd
+<lb/>a chyngor dy dad enait A chymryd sampyl o<isp/><apo/>r
+<lb/>wraic hynn val y mae yr evengil yn dywedyt
+<lb/>___________________________
+<lb/>Ac velly y dayth y wraic honn ac y kyfarvy a<isp/><apo/>r
+<lb/>arglwydd ac y gofynnodd iddo am help y<isp/><apo/>w merch
+<lb/>yr honn oedd y kythreyl gwedy kael gwall erni
+<lb/>Ac y dywad wrtho
+<lb/>____________________________
+<lb/>Iessu mab duw trygaroc dy drygaredd a
+<lb/>archa Ac yr attebodd yr arglwydd hi
+<lb/>____________________________
+<lb/>_____________________ nid <orig reg="da">ta</orig> kymryd y
+<lb/>bara ymborth y<isp/><apo/>r hai bychain<!--ed bychan--> a<isp/><apo/>i vwrw y gwn
+<lb/>nev i gynawan
+<lb/>__________________________
+<lb/>Nac ydiw arglwydd kans ef a gaiff y kwn
+<lb/>a<isp/><apo/>r kynawon y briwsson a syrthio dan vyrdde
+<lb/>yr arglwyddi || Ac y dyfod yr arglwydd wrthi
+<lb/>__________________________________
+<lb/>o wraic da yw dy ffydd di a bid y ti val
+<lb/>yr wyd yn<isp/>i ofyn Ac velly yr aeth yr <w>anysbr<lb rend="shy"/>yd</w> ymaith o<isp/><apo/>r verch a hi a vy Iach Eithr
+<lb/>dwyn ar ddyall ychwi gristnogion da oblegit<!--ed -d-->
+<lb/>y gwr hwnn a<isp/><apo/>r wraic dy vod ti yn trafaely
+<lb/>&rr;wng y pechod a<isp/><apo/>r kythrayl nid amgenach
+
+<pb n="134"/>
+<lb/>no meddylio am gyffessv wrth dy dad enait
+<lb/>yn llwyr heb arbed dim er kywilydd nac er
+<lb/>&rr;ybywck nac er ofn Ac velly y by ef diofal
+<lb/>y mafael a<isp/><apo/>r kythrayl A hevyd yn wir pob
+<lb/>kristion a syrthioedd iddaw wnaythyr pechod
+<lb/>ef a ddyly na chymero ef segyryd yn<isp/>i galhon
+<lb/>yni gyffesso yn lan Ac yno ni bydd trwbyl
+<lb/>arno na &rr;wng y gidwybod a<isp/><apo/>r kythrayl Ac
+<lb/>val y kny kenav Ievanck asgwrn velly y kny
+<lb/>y kythrayl bob dyn dayarol a<isp/><apo/>r a vo marw y
+<lb/>mewn pechod marwol ac a allo y gyffessv a
+<lb/>heb y wnaythyr val y kaf i mewn ensampyl
+<lb/>o wraic
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a<isp/>gaf yn <corr resp="transcr" sic="ysgrfenedic">ysgrifenedic</corr><!--ysgrifenedic in ed--> vod gwraic gynt</hi>
+<lb/>gwedy gwnaythyr pechod arythr a hi a vynne
+<lb/>gael y gyffessv pei baiddie Ac velly y dayth
+<lb/>yr <corr resp="editor1" sic="arglwyd">arglwydd</corr> etti yn<isp/>i gorffolaeth ac y<isp/>dywad
+<lb/>wrthi vy merch paham nad ydwyd ti yn
+<lb/>kyffessv dy bechod Ac y dywad hithav arglwydd
+<lb/>nis gallaf &rr;ac kywilydd A<isp/><apo/>r arglwydd a<isp/>ddywad
+<lb/>wrthi moes y mi dy law Ac y &rr;oddes ef
+<lb/>y llaw hi yn yr archoll oedd dan ben y vron
+<lb/>a<isp/><apo/>i gwthio y<isp/>mewn hyd y galhon ef gan <w>ddy<lb rend="shy"/>wedyd </w> beth wraic a glywy di yna || Ac y<isp/><w>kryn<lb rend="shy"/>oedd</w> hi &rr;ac ofn ac y dywad o arglwydd <corr resp="editor1" part="a" sic="mi"></corr>
+<lb/><corr resp="editor1" part="b" sic="mi">mi</corr> a glywaf dy galhon di Ac yna y dywad
+<lb/>yr arglwydd wrthi na vid arnad ti vwy o
+
+<pb n="135"/>
+<lb/>gywilydd o ddangos dy galhon y mi no <w>min<lb rend="shy"/>av</w> y tithav Ac velly yr aeth yr arglwydd
+<lb/>ymaith A<isp/><apo/>r wraic honn a edrych &rr;yngti a<isp/><apo/>r
+<lb/>gole a hi a welai y llaw yn waedlyd ac y
+<lb/>kaissioedd hi y golchi Ac nid ae ef ddim <w>oddy<lb rend="shy"/>no</w> yni aeth hi at y thad ysbrydol y gyffessv
+<lb/>Ac yna yr aeth y llaw hi yn lan val yr oedd
+<lb/>yn y blaen a hithe yn lan o<isp/><apo/>i holl bechodav
+<lb/>Ac velly yr aeth hi y<isp/><apo/>r llawenydd a bery byth
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Vy<isp/>ngharedic bobyl yssbyssv ych&v6;i<!--capital 6--></hi>
+<lb/>mae heddiw yw y trydydd sul o<isp/><apo/>r grawys glan
+<lb/>Val yr wyf i yn darllain yn yr evengil
+<lb/>__________________________
+<lb/>val y byrioedd yr arglwydd gythrayl o wr mvd
+<lb/>A<isp/>phan aeth y kythrayl allan
+<lb/>ac ymddiddanodd y gwr hwnn Eithr <w>gristnog<lb rend="shy"/>ion</w> da y gwr mvd hwnn a allaf i y gefflybv
+<lb/>y bob dyn nid oes ally <corr resp="editor1" sic="gant">ganto</corr> y gyffessv a<isp/><apo/>i
+<lb/>enav nac y <corr resp="editor1" sic="lahav">lanhav</corr> ehvn Eithr tario yndynt
+<lb/>o ddydd i ddydd yn hwyaf ac y gallont Kans <corr resp="editor1" part="a" sic="y"></corr>
+<lb/><corr resp="editor1" part="b" sic="y">y</corr> mae llawer dyn o wyr a gwragedd oni
+<lb/>bai &rr;ac kywilydd y byd ni chyffessynt y<isp/>grawys
+<lb/>nac y maes o<isp/><apo/>r grawys Ac yn wir yr haini y
+<lb/>mae y kythreyl gwedy kael gwall arnynt
+<lb/>Ac er duw y sawl yssydd heb ddyfod y gyffessv
+<lb/>dowch ych glanhav ac y vwrw y gwr mvd <w>y<pb rend="shy" n="136"/><lb/>maith</w> oddiwrthych ac o<isp/><apo/>ch meddwl Ac na
+<lb/>veddylied neb na bo arno lawer o vaych yn
+<lb/>enwedic trwy na bo arnad onid pechodav
+<lb/>meddwl Yn wir llawer meddwl llawer <w>atgassr<lb rend="shy"/>wydd</w> llawer anydon a ddoyth dros dy enav
+<lb/>Yn wir myvi a wnn na ddaw yn <corr resp="editor1" sic="ychof">ych kof</corr> chwi <w>ddy<lb rend="shy"/>wedyd</w> y kwbyl kans hir y byoch heb <w>gyffe<lb rend="shy"/>ssv</w> Eithr vy<isp/>ngharedic bobyl pob pechod <w>a<lb rend="shy"/>nwybod</w> a<isp/><apo/>r a wnaethoch onis kyffesswch
+<lb/>chwi ef &rr;yw amsser ni chewch chwi esgys am
+<lb/>dano<!--LB--> ef ddydd y varn Kans yn gyntaf dim
+<lb/>ac y gellych gwedy y gwnelych di yn erbyn
+<lb/>duw a<isp/><apo/>r yssydd eniwed y<isp/><apo/>r enait yn vyan y
+<lb/>dlywch chwi ddyfod ych glanhav tra vo y pechod
+<lb/>mewn meddwl Ac ni ddowchwi oni el ef dros
+<lb/>gof ac er hynny pan ddeloch chwi a vyddwch
+<lb/>vyd y gyffessv kans yr ysbryd drwc yssydd yn
+<lb/>peri hynny Ac yr ydychwi yn tybiait nad
+<lb/>pechod geirav digrif y beri chwerthin a <w>th<lb rend="shy"/>yngv</w> mawrllw Yn wir yr ydychwy yn tybiaid
+<lb/>nad ydiw hynny mewn eniwed y<isp/><apo/>r enait
+<lb/>Val y mae sain pawl yn dywedyd
+<lb/>_______________________________
+<lb/>yn wir o dywedaf ychwi y <corr resp="editor1" sic="baidd">bydd</corr> raid<!--sic--> ywch
+<lb/>&rr;oi kyfrif am bob gair over a<isp/><apo/>r a ddywedyssoch
+<lb/>er Ioed ac ni adewir vn haibio heb ddwyn
+<lb/>dialedd am<dsp/>dano ddydd brawd Ac er duw
+
+<pb n="137"/>
+<lb/>paidiwch a<isp/><apo/>ch gwatwargerdd a<isp/><apo/>ch overedd Ac
+<lb/>os chwi a wna yr hwnn yssy dda gan dduw
+<lb/>chwchwi a dyngwch moliant a moliant y<isp/><apo/>r
+<lb/>neb a<isp/><apo/>i dywetto Kans y tafod a ddengys
+<lb/>ewllys y galhon yn gyntaf mewn meddwl
+<lb/>a<isp/><apo/>r ail mewn gwaithred A hynny a wna
+<lb/>y<isp/><apo/>r bobyl syrthio mewn pechod
+<lb/>___________________________
+<lb/>Yn gyntaf ef a demtir y dyn y wnaythyr<!--this line double-->
+<lb/>wrth ewllys meddwl
+<lb/>A<isp/><apo/>r ewllys a gynnyll y pechod
+<lb/>___________________________
+<lb/>Ac yn wir pan ddarffo gwnaythyr y pechod
+<lb/>hynny a<isp/><apo/>i pair ef i<isp/><apo/>r poenav tragwddawl ac
+<lb/>yn vnwedic yr hai a watwaro y <w>kidgristnog<lb rend="shy"/>ion</w> Kans mawr yw y pechod hwnnw
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a gaf yn yssgrifenedic vod</hi>&nbsp;<w><hi rend="rubric">my</hi>
+<lb rend="shy"/>nnaches</w><!--ed single n--> santaidd ac yn lan vorwyn heb <w>o<lb rend="shy"/>gan</w> iddi oddiwrth bechod godineb Eithr
+<lb/>na vedrai hi ond son<!--MS ondson--> a dywedyd gairav <w>amher<lb rend="shy"/>thynas</w> ty ac att hynny Ac velly y nos
+<lb/>gwedy y marw hi y gwelai y chwiorydd hi vagad
+<lb/>o anyssbrydoedd yn dyfod lle y kladdyssid y
+<lb/>korff a<isp/><apo/>i godi y vynydd a<isp/><apo/>i esgyrio<!-- read esgyrssio --> ac <w>ysgyr<lb rend="shy"/>ssiav</w> tanllyd o<isp/><apo/>i harffed y vynydd yni oedd hi
+<lb/>kyn ddyet a<isp/><apo/>r glo ac o<isp/><apo/>i gwregis y waered kyn
+
+<pb n="138"/>
+<lb/>wnned a<isp/><apo/>r eira ac anyssbrydoedd heb allel
+<lb/><orig reg="eniwed">aniwed</orig> iddi Ac ydd<isp/>oedd ddwy o<isp/><apo/>i<isp/>chwiorydd hi yn
+<lb/>kadw yr eglwys gwedy kodi y vynydd hanner nos
+<lb/>y wssnaethv duw kyn kodi y llaill y vynydd
+<lb/>A<isp/>phan glwssant hwy y nad hynn ofnhav a
+<lb/>wnaethant yn vawr Eithr ef a &rr;oes pob
+<lb/>vn o<dsp/>honynt gyssyr y gilydd a dyfod ty ac
+<lb/>etti a wnaethant a gofyn iddi paham yr
+<lb/>oedd hi yn yr agwedd hwnnw Ac y dywad
+<lb/>yr ysbryd wrthynt yn wir chwi a wddoch vy
+<lb/>mod i yn lan oddiwrth bechod yn y byd
+<lb/>Eithr yr oedd yn ewyllyssgar gennyf i son
+<lb/>am bechod ac o<isp/><apo/>r achos hwnnw yr wyf i
+<lb/>yn y boen honn oni wneloch chwi ych gweddi
+<lb/>drossof i Kans trwy ych gweddiav chwi y <w>m<lb rend="shy"/>ae</w> gallel vy helpv ac ymwagelwch <w>chwith<lb rend="shy"/>av</w>&nbsp;&rr;ac y <corr resp="editor1" sic="kyfry">kyfryw</corr> bechod hwnnw Ac yr ywan y
+<lb/>gellwch chwi weled y perigl yssydd am
+<lb/>dano<!--LB--> ac am ddywedyd masswedd ac oferedd
+<lb/>Val y mae yr ebostol heddiw yn dywedyd
+<lb/>______________________
+<lb/>kossba dy gnawd &rr;ac anwiredd a bydd yfydd
+<lb/>a<isp/>char dy dduw yn vwy no dim a bydd <w>he<lb rend="shy"/>ddychlon</w> a gwna ddayoni a <orig reg="darostwng">darestwng</orig> y<isp/><apo/>th
+<lb/>gid gristion Kans yfydd vy grist a llawer o
+<lb/>ysgorn a ddioddefoedd a gwatwar Ac ef a<isp/><apo/>i
+<lb/>kymerth yn yfydd ac mewn kariad pryffaith
+
+<pb n="139"/>
+<lb/>er &rr;oi enssampyl y<isp/><apo/>r kristnogion y wnaythyr
+<lb/>y gyfryw Eithr pwy bynnac a vynnai vyw
+<lb/>yn ddwyfol ac yn gywir nis kayff &rr;ac pobl
+<lb/>ddrwc genvigennys A<isp/>phwy bynnac a ddioddefo
+<lb/>yn yfydd y<isp/>mae ef yn verthyr ger bronn duw
+<lb/>Ac er dwyn ar ddyall ychwi
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a<isp/>gaf yn ysgrifenedic me&v6;n<!--capital 6-->&nbsp;<corr resp="editor1" sic="bych">bychedd</corr></hi>
+<lb/>gwr santaidd a elwir Iosseph a ddioddefodd <w>law<lb rend="shy"/>er</w> o vlinder Eithr val y delai vlinder
+<lb/>arno ef a<isp/><apo/>i dioddefai yn yfydd Ac o<isp/><apo/>r achos
+<lb/>hwnnw yr oedd ef mewn anrydedd mawr val
+<lb/>y kewch y glywed Eithr y mae yr estori
+<lb/>honn yn &rr;y hir ond ny<dsp/>ni a gymerwn yr
+<lb/>hwnn yssydd anghenraid ar hynn o amsser
+<lb/>Ac y<isp/><apo/>r gwr hwnn yr oedd dad a elwit Iacob
+<lb/>ac y<isp/><apo/>r gwr hwnn yr oedd ddayddec o vaibion
+<lb/>yn vrodyr I Iosseph Ond ef a<isp/><apo/>i karai y dad
+<lb/>ef yn vwy noc vn o<isp/><apo/>r llaill ac am hynny
+<lb/>nis karai y vrodyr ef yn gymaint ac
+<lb/>o achos gweled o<dsp/>honaw ef vraiddwyd<!--strange -d --> ac y
+<lb/>gwyddiav ef y gorvyddai <corr resp="editor1" sic="arntwy">arnyntwy</corr> wnaythyr
+<lb/>iddaw ef anrydedd ac y byddai arglwydd <w>ar<lb rend="shy"/>nyd</w><!-- corr to arnynd? --> Ac velly y kymerssant hwy y kyngor
+<lb/>ac y dywedassant
+
+<pb n="140"/>
+<lb/>Ni awn ac a<isp/><apo/>i lladdwn ef ac etto ofni
+<lb/>duw a wnaethan Eithr ni a<isp/><apo/>i gwerthwn ef
+<lb/>y iegipt
+<lb/>Ac velly y gwerthassant hwy ef er xxx d<!--abbr-->
+<lb/>o arian val y gwerthassit yr arglwydd Ac<!--missing ed-->
+<lb/>o<isp/><apo/>r achos <sic>hwnny</sic><!--sic ed hynny--> y by dduw gidac ef ac
+<lb/>y prynodd pontiffer ef ystiwart brenin tir
+<lb/>egipt Eithr yr oedd genvigen gan y kythrel
+<lb/>wrth Iosseph megis y temtodd y kythreyl
+<lb/>arglwyddes hwnnw y garv ef yn vawr
+<lb/>____________________________
+<lb/>Ac velly yr edrychodd yr arglwyddes ar Iosseph
+<lb/>ac a gymerth afael yn<isp/>i law ac yn ael
+<lb/>y vantell ac a ddywad wrtho dyred ti ataf i
+<lb/>y gysgv A<isp/>phan wyby ef y meddwl hi ef a<isp/>ffoes
+<lb/>ymaith ac adewis yno y vantell Ac
+<lb/>yna pryd na<isp/>welas y wraic amgenach no
+<lb/>hynny y kriodd hi yn ffest ac y dywad wrth
+<lb/>y gwr wely di val y kaissiai Iosseph gyssgv
+<lb/>gida myvi Ac y peris yr arglwydd &rr;oi Iosseph
+<lb/>yngharchar yn y lle I &rr;oessai ffaraw y vwtler
+<lb/>a<isp/><apo/>i bobydd A<isp/>phan syrthiassan y gyssgv y <w>gw<lb rend="shy"/>elynt</w> vraiddwyd ac y dywad Iosseph y &rr;oi
+<lb/>y brenin y vwtler <corr resp="editor1" sic="yn yn">yn</corr> y lle y byassai ef
+<lb/>yn y blaen kyn pen y trydydd dydd ac y
+<lb/>krogid y <del>bwtler kyn</del> pobydd kyn pen y trydydd <supplied>dydd</supplied><!--supply dydd in ed?-->
+
+<pb n="141"/>
+<lb/>Ac val y dywad ef yddynt y by Ac velly ef
+<lb/>a hapiodd y<isp/><apo/>r brenin weled <orig reg="breuddwyd">braiddwyd</orig> ac ni<isp/><w>wy<lb rend="shy"/>ddai</w> neb ddim o<isp/><apo/>i dyall na<isp/><apo/>i deongl Eithr
+<lb/>wrth gyngor y bwtler y danvones ef yn ol
+<lb/>Iosseph a<isp/>phan ddywad y brenin y vraiddwyd <w>i<lb rend="shy"/>ddaw</w> y dywad Iosseph vod tyw yn darbod o
+<lb/>honaw<!--LB--> vn vawr ac y doe amlder saith
+<lb/>mlynedd yn ol hynny o bob peth ac wedy
+<lb/>hynny drydaniaeth saith mlynedd eraill ac
+<lb/>y byddai y bobyl heb ddim gantynt Ac velly
+<lb/>y dyfod y brenin ni wnn i neb a vetro &rr;oi
+<lb/>kynghor wrth hynny ond tydi a mi a<isp/><apo/>th wnaf
+<lb/>di yn orychel ystiwart ar vy<isp/>mrenhiniaeth I
+<lb/>Ac yna y peris yntav wnaythyr ysgyboriav
+<lb/>mawr kedyrn a chasgly yr yd hyd ymhen saith
+<lb/>mlynedd a llenwi yr esgyboriav yn ffest A<isp/><w>pha<lb rend="shy"/>nn</w> ddarvy y saith mlynedd kyntaf yr oedd
+<lb/>yn esgant y ffrwythav yn y byd Ac y klyby
+<lb/>Iacob y dad vod yt ar<isp/>werth yngwlad egipt
+<lb/>ac y dannvones Iacob ddec o<isp/><apo/>i vaibion y <w>bryn<lb rend="shy"/>v</w> yd A<isp/>phan ddoethant yno a gweled Iosseph
+<lb/>y syrthiassant y lawr ar y gliniav y anrydeddy
+<lb/>ef val y gwelssai ef y vraiddwyd Ac ni <w>wyddy<lb rend="shy"/>ent</w> twy nad arglwydd y tir oedd ef Eithr
+<lb/>ef a<isp/><apo/>i ddnaby<!--reg--> Iosseph hwynt yn hyssbys ac y
+
+<pb n="142"/>
+<lb/>dywad ef wrthynt yn lladin surgite kodwch
+<lb/>y vynydd ysbiwyr ydychi a ddayth yma y <w>vredych<lb rend="shy"/>v</w> y tir Ac y gwadassant hwynte yn galed
+<lb/>ac y dywedassant mae plant oeddynt yr vn
+<lb/>gwr a bod yddynt vrawd arall yn <orig reg="nhref">&rr;e</orig> a bod
+<lb/>yddynt vn arall heb <corr resp="editor1" sic="wybo">wybod</corr> ble a hwnnw oedd
+<lb/>Iosseph Ac er gwybod gwirionedd ef a beris
+<lb/>&rr;wymo vn o<isp/><apo/>i vrodyr a elwid simon ac a <w>ddyf<lb rend="shy"/>od</w> y gorvyddai arno drigio gidac ef hyd
+<lb/>pan ddelynt hwy a<isp/><apo/>r brawd oedd yn <orig reg="nhref">re</orig> yno
+<lb/>Ac velly y peris ef yn gyddiedic lawn y
+<lb/>ffetanav hwy o<isp/><apo/>r yd a <corr resp="editor1" sic="&rr;o">&rr;oi</corr> y<!-- MS ar ro y--> harian yn<isp/>y <w>ffet<lb rend="shy"/>anav</w> y<dsp/>mysc yr yd heb wybod yddynt Ac
+<lb/>velly pan ddoythant y dre at y tad a thywallt
+<lb/>yr yd o<isp/><apo/>i ffetanav y kawssant y harian Eithr
+<lb/>yr oedd yn drwm gan y dad am simon y vab
+<lb/>adawssent hwy yn ol yngharchar a hevyd <w>try<lb rend="shy"/>mach</w> oedd ganto orvod arno ddanvon <w>benia<lb rend="shy"/>myn</w> y gyrchv y vrawd at Iosseph Eithr pan
+<lb/>ddayth beniamyn ger bron y vrawd ni alloedd
+<lb/>y vrawd attal y wylo o achos nad oedd ef
+<lb/>yn kymryd y llaill ond hanner brodyr iddaw
+<lb/>A<isp/>phann bringhaodd yr yd <corr resp="editor1" sic="gid">gida</corr> Iacob y gorvy
+<lb/>arno ddanvon beniamyn y gyrchv mwy o<isp/><apo/>r yd
+<lb/>Ac yno y dilyfrodd Iosseph y vrawd oedd <w>yng<lb rend="shy"/>harchar</w> allan ac y peris ef yddyn vyned y
+
+<pb n="143"/>
+<lb/>vwytta ac y llenwid y ffetanav hwynt o<isp/><apo/>r yd
+<lb/>Ac yn gyddiedic ef a barodd Iosseph &rr;oi ffiol
+<lb/>arian yn <orig reg="un">yn</orig> o<isp/><apo/>r ffetane a vyssai gan y vrodyr
+<lb/>yn yved diod ac y herchis ef yddynt vyned
+<lb/>ymaith Ac wedy hynny y dannvones Iosseph
+<lb/>y bwtler ar y hol ac y dywad wrthynt mae
+<lb/>kam oedd yddynt ddwyn ffiol yn lledrad o<isp/><apo/>r lle
+<lb/>y kewssynt sir vawr a chresso Ac yno yr oeddynt
+<lb/>yn brydd ac y dywedassant nad velly y bysse Ac
+<lb/>yno y datodoedd ef y ffetane hwynt <corr resp="editor1" sic="a">ac</corr> y kafas
+<lb/>y ffiol yn ffettann beniamyn ac y doethant twy
+<lb/>drychefn at Iosseph dan wylo A<isp/>phan y gwelas ef
+<lb/>hwynt yn wylo a<isp/><apo/>i vrawd ehvn beniamyn
+<lb/>yn wylo yn vwyaf e gyd<!--reg--> o achos kael y ffiol gid
+<lb/>ac ef ac yna y herchis ef yddynt gymryd
+<lb/>a sir dda kans myvi yw ych brawd chwi Iosseph
+<lb/>ac na vyddwch ofnoc Y byant hwy yn trigio
+<lb/>gyd a<isp/><apo/>i brawd yn hir o amsser Eithr <w>gristno<lb rend="shy"/>gion</w> da yr ystorri<!--ed ystori--> honn yr ydis yn y darllain yn
+<lb/>eglwys duw yr wythnos honn yn enssampyl
+<lb/>y bawb vod yn yfydd ac yn ostyngedic y gid <w>gr<lb rend="shy"/>istion</w> a dioddef yn yfydd <corr resp="editor1" sic="y">yr</corr> hwnn a<isp/>ddanvon duw
+<lb/>attom a bod mewn kariad pryffaith er kariad
+<lb/>ar y gwr a<isp/>ddioddefoedd drossom Eithr pwy bynac
+<lb/>a ddigio wrth dduw er danvon arno vlinder
+<lb/>y<isp/>mae yn &rr;aid iddo gyffessv yn dda a<isp/><apo/>i gymryd
+<lb/>yn yvydd Kans ef a ddywaid llawer dyn paham
+
+<pb n="144"/>
+<lb/>y mae duw yn gwnaythyr y chwarav hynn a mi
+<lb/>Beth a wnaythym mi yn erbyn duw Yn wir y
+<lb/>mae yr haini mewn perigl mawr kans y ryw<!--sic-->
+<lb/>beth a hynny a wna y ddyn golli gorchafiaeth
+<lb/>nefoedd yn vnwedic a wnelych di yn erbyn duw
+</p>
+</div>
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a<isp/>gaf yssgrifenedic ymyched sain ffrait</hi>
+<lb/>laian vod gwr gynt yn glaf ac y gweddioedd
+<lb/>ef erni am help ac y gwnaeth y lan vorwyn
+<lb/>honn ef yn holliach Ac wedy hynny y by ef yn
+<lb/>kerdded y vynydd ac y waered ac y diolches ef
+<lb/>y dduw ac y<isp/><apo/>r santes vendigedic hynny Ac <corr resp="editor1" sic="vell">velly</corr>
+<lb/>val yr oedd ef nosswaith yn y wely yn kysgv
+<lb/>ac erbyn trannoeth yr oedd ef yn gwaiddi
+<lb/>ac yn gridvan yn dost val y byddai othrwm<!--reg-->
+<lb/>y wrando Ac a ovynnodd iddo pa beth a <w>wn<lb rend="shy"/>athoedd</w> pan ddoyth y klefyd arno yr eilwaith
+<lb/>Ac ni ddywad ef ddim Ac yno y gofynnodd
+<lb/>y mynach iddo a vyssai yn kyffessv Ac y
+<lb/>dywad yntav na byssai ac nad oedd &rr;aid
+<lb/>kans ni ddygym i na march nac eidion
+<lb/>yn lledrad ac ni veddyliais i bechod arythr
+<lb/>Ac yna y dywad y mynach er na <w>wnaeth<lb rend="shy"/>ost</w> di vn pechod marwol ti a allyd <w>wnayth<lb rend="shy"/>yr</w> llawer o van bechode val y gallai yr haini
+<lb/>oll vod yn bechod marwol Kans ti a elly <w>le<lb rend="shy"/>nnwi</w> ffettan o<isp/><apo/>r manyd llaia ac a vo
+
+<pb n="145"/>
+<lb/>val y bo annodd y varch kryf y dwyn Ac
+<lb/>velly y gelly dithav vod yn llawn o van <w>bech<lb rend="shy"/>ode</w> yr hai a<isp/><apo/>th<isp/>ddwc di y<isp/><apo/>r poenav tragwddol
+<lb/>Ac yna yr aeth y gwr hwnn y gyffessv ac y
+<lb/>by ef lan y vychedd o hynny allan
+</p>
+</div>
+
+<div>
+<p>
+<lb/><hi rend="rubric">Vy<isp/>ngharedic bobyl d&v6;yn ar <sic>dyall</sic></hi>
+<lb/>ychwi mae heddiw yw y Pet&v6;ryd sul o<isp/><apo/>r <w>graw<lb rend="shy"/>ys</w> glan yr hwnn y mae eglwys duw yn <w>dw<lb rend="shy"/>yn</w> ar ddyall o<isp/><apo/>r proffwyd moesses yr hwnn wr
+<lb/>oedd yn proffwydo yr arglwydd Iessu grist lawer
+<lb/>blwyddyn kyn y eni ac val yr ydym ni yn
+<lb/>darllain o voesses val yr oedd ef <orig reg="ym mynydd">ymynydd</orig> sinai
+<lb/>ac y dywad yr arglwydd wrtho __________
+<lb/>_______________________________
+<lb/>A<isp/>phan ddayth ffaraw a dala pobyl yr Issrael
+<lb/>ac val yr oedd ef yn gwnaythyr kam a<isp/>hwynt
+<lb/>ac yna y kriassant hwyntav ar y gorychaf
+<lb/>dduw am help ac y gwrandewis yntev
+<lb/>arnynt a<isp/><apo/>r arglwydd a erchis y voesses <w>vyn<lb rend="shy"/>et</w> a<isp/>thynnv plant yr Issrael o<isp/><apo/>e kaethiwet a
+<lb/>minav a vyddaf gida<isp/>thi a dwc di hwynt
+<lb/>y dir diogel ac velly wrth ddysc yr arglwydd
+<lb/>yr aeth moesses yno ac y kassglodd ef broffwyd<unclear>i</unclear>
+<lb/>a<isp/>chwbyl o<isp/><apo/>r hen bobyl ac a gafas y kyfrwyddo
+
+<pb n="146"/>
+<lb/>hwynt allan o<isp/><apo/>r wlad honno ac y dywad <w>wr<lb rend="shy"/>thynt</w> val y dysgassai dduw iddaw ac velly
+<lb/>y byant lawen ac yr aethant gydac ef
+<lb/>hen ac Iefainck hyd y mor ac yr oedd dduw
+<lb/>o<isp/><apo/>e blaen bob amsser yn<isp/>i hachyb hwynt rac
+<lb/>gwres yr haul a<isp/><apo/>r dydd a<isp/><apo/>r nos oedd yn olyni
+<lb/>yddynt ac oedd yn<isp/>i kadw &rr;ac gwenwyn
+<lb/>ac &rr;ac pryffed gwenwynic Eithr pan glyby
+<lb/>ffaraw gassgly o voesses y bobyl hynn Y <w>kym<lb rend="shy"/>erth</w> yntev drychant o gartweni ac a<isp/><apo/>i <w>llen<lb rend="shy"/>wis</w> o arvav a thrychant eraill ar gost y tir
+<lb/>a thrychannmil o wyr traet a saith ygainmil
+<lb/>o wyr mairch a<isp/>phan welas moesses yr aneirif
+<lb/>bobyl hynny gweddiaw ar dduw a <w>wnaeth<lb rend="shy"/>ant</w> am help ac ar hynny y gwelai ef
+<lb/>yr arglwydd Iessu a gwialen yn<isp/>i law yn
+<lb/>taro <apo/>r mor.
+</p>
+<p>
+<lb/>A<isp/>phan drewis ef y mor y gwelai ef ffordd
+<lb/>iddaw ef a<isp/><apo/>i ly ac ymagores y mor yn ddav
+<lb/>hanner ac y safodd y dwr yn llonydd o bob
+<lb/>ty iddaw yn ddav vynydd ac yn briffordd <w>ry<lb rend="shy"/>ngtynt</w> ac yr aeth moesses a<isp/><apo/>i bobyl i<isp/><apo/>r dwr
+<lb/>ac yr aeth ffaraw y<isp/><apo/>r dwr ar y hol <w>hwynt<lb rend="shy"/>tav</w> a<isp/>chwbyl a<isp/><apo/>r a oedd ganto a<isp/>phan oedd
+<lb/>gwbyl o ly ffaraw gwedy myned o vewn
+<lb/>y dwr y gyd ydd<isp/>ymgymysgawdd y dwr ac y
+<lb/>boddassant heb ado vn gwr a<isp/>phann glyby
+
+<pb n="147"/>
+<lb/>moesses hynny y diolches ef yn vawr y dduw
+<lb/>ac yno y by ef saith niwarnod a Saith nos
+<lb/><orig reg="a pheunydd">y<isp/>ffaynydd</orig> idd<isp/>aent y<isp/><apo/>r dwr y ddiolch am y
+<lb/>diangk y wnaythyr kywyddoliaeth y dduw achos
+<lb/>gwnaythyr o dduw hynny ac hwynt ac er
+<lb/>dwyn kof y ninev o<dsp/>blegid wythnos y pasc
+<lb/>o bob ty y<isp/><apo/>r mor nid amgenach <orig reg="no">nno</orig><isp/><apo/>r <w>bedydd<lb rend="shy"/>vaen</w> ac yna yr<isp/>aeth moesses y<isp/><apo/>r <w>mynnydd<lb rend="shy"/>oedd</w> ac y<isp/><apo/>r tir gwyllt oni ddayth ef i <w>vyny<lb rend="shy"/>dd</w> sinai ac yno y gadewis ef y bobyl <w>o<lb rend="shy"/>ddidano</w> y gyd ac y safodd moesses ar y<isp/><w>myn<lb rend="shy"/>ydd</w> ychel gida<isp/><apo/>r arglwydd ac yno y by ef
+<lb/>yn dwyn dyrwest ar y gorff ddaygain <w>niwa<lb rend="shy"/>rnod</w> heb na bwyd na diod ac yno y &rr;oes
+<lb/>Iessu grist iddo ddwy dabyl vn o vaen a<isp/><apo/>r
+<lb/>llall o bridd ac yn yr hai hynny y dec <w>gor<lb rend="shy"/>chymyn</w> yn<isp/>ysgrifenedic o law yr arglwydd
+<lb/>ehvn ac a erchis iddo y ddysgv y<isp/><apo/>r bobyl
+<lb/>a<isp/>phan ddayth moesses y lawr at y bobyl
+<lb/>yr oedd y wyneb kynn wnnet a<isp/><apo/>r haul a dav
+<lb/>ysbir ar y ben yn debic i ddav gorn a<isp/><corr resp="transcr" sic="ch">chyn</corr>
+<lb/>oleyed a chyn decked ac na allai y bobyl
+<lb/>edrych arnaw &rr;ac y wnnet
+<lb/>______________________
+<lb/>ac y kyddioedd moesses y wyneb a<isp/><w>chywr<lb rend="shy"/>ssi</w> ac yn y llaill dalen yr oedd dri <w>gor<pb n="148" rend="shy"/><lb/>chymyn</w> yr hai a berthvnai ty ac at dduw
+<lb/>ehvn nid amgen karv dy dduw ywchlaw dim
+<lb/>a<isp/><apo/>i anrydeddy a gorchymyn pob anghenraid
+<lb/>yn<isp/>i ewllys ef ac nid wrth dy ewllys ||
+</p>
+<p>
+<lb/>Yr ail gorchymyn yw na<isp/>chymer di enw dy
+<lb/>dad yn over sef yw hynny ni ellir dy alw
+<lb/>yn gristion oni byddy vab y dduw ac ynn
+<lb/>wir pwy bynnac ni bo velly diffrwyth yw y
+<lb/>henw a hevyd na thwng y dduw nac i vn lle
+<lb/>ar y gorff <add place="inline">n</add>ac y ddim a<isp/><apo/>r a greoedd ef er <w>tyn<lb rend="shy"/>gv</w> kam lw oni<isp/><apo/>th <corr resp="transcr" sic="gymherir">gymhellir</corr> yn ffest
+</p>
+<p>
+<lb/>Y Trydydd gorchymyn yw y ti gadw dy suliav
+<lb/>a<isp/><apo/>th<isp/>wylav a hynny a ddyaill y ni gofodi yn
+<lb/>vorav ac yn hwyr y vyned y gyssgv Eithr
+<lb/>gweddio duw a<isp/><apo/>y wssnaethv yn<isp/>y modd y byddi
+<lb/>di y dydd gwaith yn gwnaythyr dy waith a<isp/><apo/>th
+<lb/>orwyl yn hwyr ac yn vore velly y dly <w>dith<lb rend="shy"/>av</w> dduw sul a dydd gwyl yn gwssnaethv
+<lb/>duw || Y Pedwrydd yw karv o<dsp/>hanot dy dad
+<lb/>a<isp/><apo/>th vam a<isp/><apo/>th<isp/>ddyc di y<isp/><apo/>r byd hwnn a hevyd
+<lb/>dy dad a <apo/>th vam a <apo/>th helpodd di y vod yn
+<lb/>gristion ac yn vnwedic dy dad ysbrydol
+<lb/>yssydd yn dwyn kywr dy enait ti val <corr resp="transcr" part="a" sic="y">y</corr>
+<lb/><corr resp="transcr" part="b" sic="y"/> mae yr evengil yn dywedyd anrydedda
+<lb/>dy vam a<isp/><apo/>th dad megis y bo yn hir dy einioes
+<lb/>ar y ddayar honn || Y Pvmet gair deddyf
+<lb/>yw pwy bynnac a laddo dyn o<isp/><apo/>i vodd onis
+
+<pb n="149"/>
+<lb/>lladd er amddiffin y vywyd ehvn lle ni bo
+<lb/>lle y ochel nac y gilio y mae yn pechv
+<lb/>yn varwol yn amyl ac yn arythyr pai rann
+<lb/>y vod yn iddew nev yn sarssing y neb a<isp/>laddai
+<lb/>kans ef a<isp/>ddywaid duw ehvn ni<isp/>mynnaf i
+<lb/>angav vn pechadyr
+</p>
+<p>
+<lb/>Y<isp/>chweched gair deddyf yw na<isp/>wna <corr resp="transcr" sic="odinel">odineb</corr>
+<lb/>yn y gair hwnnw y hayrch duw I ddyn na
+<lb/>wnel odineb ac na bo kyd knawd rwng gwr
+<lb/>a gwraic oddieithr priodas achos mae kyntaf
+<lb/>krefydd a<isp/><orig reg="osodes"><apo/>ssodes</orig> duw vy briodas ac ef ehvn
+<lb/>a<isp/><apo/>i gwnaeth kynn pechod
+</p>
+<p>
+<lb/>Saithved gair deddyf yw na<isp/>wna ledrat yn<isp/>y
+<lb/>gair hwnnw i hairch duw y ddyn na ddycko
+<lb/>ef dda y gymodoc o<isp/><apo/>i annvodd nac o<isp/><apo/>i dwyll nac
+<lb/>o<isp/><apo/>i annoc a lledrad yssydd warddedic herwydd y
+<lb/>gyfraith gyntaf a &rr;oddes duw y ddyn gan
+<lb/>ddywedyd a<isp/><apo/>r nas mynnyd yt dy hvn na
+<lb/>wna dithav i arall
+</p>
+<p>
+<lb/>Yr Wythved gair deddyf yw na<isp/>ddywaid ac na
+<lb/>ddwc gam dystoliaeth yn erbyn dy gymodoc
+<lb/>yn<isp/>y gorchymyn hwnnw y hairch duw y ddyn
+<lb/>na chadar<add place="supralinear">n</add>hao gelwydd trwy dwng megis y <w>koll<lb rend="shy"/>etter</w> y gymodoc <del>y gymodoc</del> o<isp/><apo/>i dda nev o<isp/><apo/>i
+<lb/>glod bydol
+<pb n="150"/>
+<lb/>Y nawfet gair deddyf yw na<isp/>chwenycha na
+<lb/><orig reg="thy">thv</orig> na thir dy gymodoc Sef yw hynny drwy
+<lb/>dwyll a<isp/>chamwedd a<isp/>phwy bynnac a<isp/><apo/>i chwenycho
+<lb/>er tristyd a gofyd iddaw yw megis y dywaid
+<lb/>Esseias broffwyd gwae chwi yr hai yssydd yn
+<lb/>kyssyllty y ty wrth y ty a<isp/><apo/>r maes wrth y
+<lb/>maes hyd yn hervyn y plas
+</p>
+<p>
+<lb/>Y degved gair deddyf yw na<isp/>chwenycha wraic
+<lb/>dy gymodoc na<isp/><apo/>i was na<isp/><apo/>i vorwyn na<isp/><apo/>i <orig reg="ych">vch</orig>
+<lb/>na<isp/><apo/>i varch na nebryw ddim a<isp/><apo/>r a vo ar y
+<lb/>helw drwy dwyll nev gamwedd a chyn<isp/>ddrwc
+<lb/>hayach yw y ddyn chwenychv gwraic y <w><corr resp="transcr" part="a" sic="gymo">gymo</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="odoc">doc</corr></w> nev y verch y<isp/>maes o briodas a<isp/>phai bai
+<lb/>gwedy gwnaythyr y gwaithred kans yn beny<unclear>d</unclear>
+<lb/>ynt o achos <orig reg="os &acirc;">or da</orig> dyn y yffern am y pechod
+<lb/>llaiaf yssydd ni<isp/>ddaw ef oddyno yn dragywydd
+<lb/>a hynn yw y dec gorchymyn yn &rr;wymedic y<isp/><apo/>w
+<lb/>dysgv ac y<isp/><apo/>w kadw ac val hynn y doeth at <w>voess<lb rend="shy"/>es</w> oddiwrth yr arglwydd ac y dayth moesses o<isp/><apo/>r
+<lb/>blaen yr &rr;oi<isp/><apo/>r gyfraith ac y dayth Iessu
+<lb/><orig reg="i 'w">y</orig> chadarnhav ac y &rr;oi gras a<isp/>thrygaredd yn
+<lb/>y modd ac ymddiffynnodd ef bobyl yr Issrael
+<lb/>drwy <unclear>yr</unclear> mor y vynydd sinai a hevyd yn yr
+<lb/>vn ffynyd pan ddayth yr arglwydd a<isp/><apo/>i <w>wrth<lb rend="shy"/>av</w> y dynnv y bobyl o<isp/><apo/>r tywllwch ac o<isp/><apo/>i <w>kam<lb rend="shy"/>vychedd</w> drwy y dwr hwnn ar<isp/>olchedigaeth <w><corr resp="transcr" part="a" sic="y">y</corr><pb n="151"/><lb/><corr resp="transcr" part="b" sic="y"/></w> bedydd<del>ydd</del> y<isp/><apo/>r mynydd rinweddol ac am
+<lb/>hynny pwy bynnac a<isp/><orig reg="ymadawo"><apo/>madawo</orig> a<isp/><apo/>i <w>gamvych<lb rend="shy"/>edd</w> ac a gattwo y dec gorchymyn a<isp/><w>wnaeth<lb rend="shy"/>bwyd</w> o<isp/><apo/>i kadw ef a godir yn ywch noc vn
+<lb/>mynydd Sef yw hynny y<isp/><apo/>r nef Eithr pwy
+<lb/>bynnac a wnel hynn y mae yn &rr;aid iddaw
+<lb/>gymryd ymborth ar bvm torth o vara a<isp/>dav
+<lb/>vrithill val yr ydwyf i heddiw yn darllain yn
+<lb/>yr evengil val y porthes krist y pvmmil
+<lb/>pobyl a<isp/><apo/>r pvm torth bara haidd a<isp/><apo/>r dday <w>bysc<lb rend="shy"/>odyn</w> Y dorth gyntaf <orig reg="edifeirwch">adifairwch</orig> kalhon am
+<lb/>y bechodav | Yr ail yw kyffes lan o<isp/><apo/>th<isp/>enav ||
+<lb/>A<isp/><apo/>r drydedd yw gwnaythyr Iawn am y <w>tre<lb rend="shy"/>ssbas</w> Y bedwredd yw na<isp/>throech yr ailwaith
+<lb/>y<isp/><apo/>th bechod kans y neb a ofno pechod
+<lb/>a<isp/>ddaw y<isp/>gael trygaredd dduw a<isp/><apo/>r ddav <w>byssgo<lb rend="shy"/>dyn</w> hynn y gweddiav <!--?AI-->ai &rr;oi kardodav a
+<lb/>hynn a<isp/><apo/>th<isp/>ylch di o<isp/><apo/>th enwiredd
+</p>
+</div>
+
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a<isp/>gaf yn ysgrife<add place="supralinear">ne</add>dic</hi> vod gwr kyfoethawc
+<lb/>yr hwnn a elwid pyrs Eithr yr oedd ef mor
+<lb/>galed ac na &rr;oe ef ddim y neb a ddel<add place="inline"><unclear>o</unclear></add> atto
+<lb/>y gaissio ac yna ve hapion vod llawer o bobl
+<lb/>yn kerdded gwedy ymgassgly y<isp/><apo/>r vnlle yn <unclear>son</unclear>
+<lb/>am y gwr hwnn pa ddelw y gellynt twy gael
+
+<pb n="152"/>
+<lb/>dim ganto ac y dywad vn a oedd vaistir
+<lb/>arnynt pa beth a ddeliwch chwi a mi na
+<lb/>chaf i beth ganto ef a<isp/>dala kynglwyst <corr resp="transcr" part="a" sic="a">a</corr>
+<lb/><corr resp="transcr" part="b" sic="a"></corr> wnaethant ag<isp/>ef na<isp/>chai ef ddim ganto
+<lb/>a myned y<isp/>wnaeth y gwr hwnn emyl y ty ac
+<lb/><orig reg="eistedd">eistav</orig> yn y porth hyd pan welas ef y gwr yn
+<lb/>dyfod ty ac atto ac ef a griodd mor dost
+<lb/>ac mor dryan ac o wir lit ef a<isp/><apo/>i <orig reg="taflodd">tawlodd</orig>&nbsp;<corr resp="transcr" part="a" sic="y">y</corr>
+<lb/><corr resp="transcr" part="b" sic="y"></corr> gwr ef a<isp/>thorth vara gan ddywedyd wrtho
+<lb/>ystopia dy benn a honn ynghengol o<isp/>ddiawl
+<lb/>ac ysstopo ac velly y kymerth ef y dorth ac
+<lb/>y ffoes at y gyfaillion yn gyntaf byth ac
+<lb/>y galloedd ac a<isp/><apo/>i dangosses yddynt ac a
+<lb/>enilloedd y gynglwyst arnynt ac ynna ef
+<lb/>a hapiodd y<isp/><apo/>r gwr kyfoethoc hwnn glefychy <corr resp="transcr" part="a" sic="y">y</corr>
+<lb/><corr resp="transcr" part="b" sic="y"></corr> nos nessaf at hynny ac ef a gymerth
+<lb/>y wassanaeth ac a vy varw ac y dayth
+<lb/>anysbrydoedd y gaissio yr enait ac a<isp/><apo/>i <w>kym<lb rend="shy"/>erssant</w> Eithr yr oedd yr arglwyddes vair yn
+<lb/>barod y achyb yr enait ac y herchis hi
+<lb/>ddwyn yr enait ger y bron hi ac velly y
+<lb/>gwnaethbwyd ac nid oedd dim y helpv y<isp/><apo/>r
+<lb/>enait ond y dorth vara a <orig reg="taflasai">dawlassai</orig> ef at
+<lb/>benn y gwr tlawd o<isp/><apo/>i annvodd ac y dyfod
+<lb/>yr anysbrydoedd mae yn erbyn y ewllys
+<lb/>y kawssai y dyn gwann honno gan <w>gyfia<damage><supplied>wn</supplied></damage><pb n="153" rend="shy"/><lb/>der</w> ni<isp/>ddlyai honno helpv ac yna yr aeth
+<lb/>mair at y harglwydd vab I weddio arno ar
+<lb/>&rr;oi yr enaid yn y korff yr eilwaith y <w>edry<lb rend="shy"/>ch</w> a<isp/>mendiai ac yna y herchis yr arglwydd
+<lb/>y<isp/><apo/>r enait vyned y mywn y<isp/><apo/>r korff a<isp/>ffan aeth
+<lb/>yr enait at y korff y safodd y korff yn<isp/>i <w>sef<lb rend="shy"/>yll</w> ac y &rr;oes ef ychenaid trwm ac a
+<lb/>elwis atto gwbyl o<isp/><apo/>i <orig reg="genedl">genel</orig> a<isp/><apo/>i <w>gydmaithi<lb rend="shy"/>on</w> ac a ddywad wrthynt mor gadarn a
+<lb/>vyssai y varn arno ac ydd<isp/>athoedd ef y
+<lb/>yffern oni byssav y dorth vara a <orig reg="daflasai">dawlassai</orig>
+<lb/>ef at benn y kardottwr ac y gwerthodd ef
+<lb/>y &rr;ann vwyaf o<isp/><apo/>i dda ac a<isp/><apo/>i &rr;annodd &rr;wng
+<lb/>tlodion ac ymddifaid a gwaniaid er mwyn
+<lb/>yr arglwydd ac y kymerth yntav grefydd
+<lb/>arno ac yr aeth yn voydwy bycheddol o <w>hy<lb rend="shy"/>nny</w> allan ac y by ef varw yn dailwng
+<lb/>Eithr gristnogion da llyma lle gellwch
+<lb/>chwi weled vaint yw &rr;inwedd yr elwissenn
+<lb/>ac mor gadarn y mae hi y<isp/><apo/>th gadw di rac
+<lb/>y varn galed kans pob kyfryw ddyn a<isp/><apo/>r a
+<lb/>wnel elwissen er kariad ar y greawdr dduw
+<lb/>a<isp/>vydd<isp/>amddiffynnol oddieithr y vod  mewn <w>pech<lb rend="shy"/>od</w> marwol
+</p>
+</div>
+
+<div>
+<p>
+<lb/><hi rend="rubric">Mi a gaf yn ysgrifenedic</hi> vod gwr gynt
+
+<pb n="154"/>
+<lb/>yn llosgi glo mewn fforest a gwnaythyr
+<lb/>tan mawr a wnai ac wrth hwnnw y byddai
+<lb/>ef yn vynych ac velly nosswaith y gwelai
+<lb/>wraic yn <orig reg="rhedeg">&rr;ydec</orig> y boparth y<isp/><apo/>r tan yn ffesta
+<lb/>byth ac alle a gwr ar y hol a<isp/>chleddav
+<lb/>noeth yn<isp/>i law ar gefn march dy yn
+<lb/>ffesta byth ac y <corr resp="transcr" sic="galli">gallai</corr> varchogaeth yn <w>am<lb rend="shy"/>gylch</w> y tan ac o<isp/><apo/>r diwedd yn dyfod iddi ac
+<lb/>yn<isp/>i lladd ac yn<isp/>y dryllio ac yn<isp/>y bwrw yn
+<lb/>y tan ac yno myned ymaith yn <w>gynt<lb rend="shy"/>af</w> ac y gallai a wnaeth ac velly pan
+<lb/>welas y gwas hynn yn vynech o waithe y
+<lb/>dywad ef y chwedl wrth y vaistir a gwas
+<lb/>gwych antyrys oedd hwnnw ac ef a vynnai
+<lb/>bryfo y gwas a gwybod beth oedd hyny ai<isp/><w>gw<lb rend="shy"/>ir</w> ai kelwydd ac y gwisgodd am<dsp/>dano yn
+<lb/>arvoc ac yr aeth y<isp/><apo/>r fforest ac y gwelas ef
+<lb/>bob peth val y dywedassai y gwas ac yno
+<lb/>y gofynnodd y gwr hwnn y<isp/><apo/>r ysbryd o<dsp/>blegid
+<lb/><orig reg="Duw">tyw</orig> pa beth oedd ac yr atebodd hithav ef
+<lb/>gan ddywedyd myvi yw gwraic hwnn a
+<lb/>a<isp/>hwnn ac a wnaeth yn erbyn vy<isp/>ngwr <w>pri<lb rend="shy"/>od</w> heb <corr resp="transcr" sic="wybo">wybod</corr> iddo a<isp/><apo/>r gwr ar y march dy
+<lb/>ydiw y kythrel a hwnnw yssydd yn vy<isp/>mhoeni
+<lb/>yn vwy no<isp/>ffai bai holl wres tan y byd yn
+<lb/>vy llosgi ac yn vwy noc vn poen a<isp/><apo/>r a ellit
+
+<pb n="155"/>
+<lb/>y veddylio yn yr holl vyd a<isp/><apo/>r boen hynn <w>y<lb rend="shy"/>ssy</w>&nbsp;&rr;aid y mi y ddioddef hyd pan gaffwyf
+<lb/>i help drwy weddie a<isp/>chardode vy<isp/><w>ngharedigi<lb rend="shy"/>on</w> I drossof ac velly y helpodd y gwr hwnn
+<lb/>hi yn gymaint ac y galloedd ac a<isp/><apo/>i <w>dilif<lb rend="shy"/>oedd</w> hi o<isp/><apo/>r poenav y<isp/><apo/>r llawenydd tragwddawl
+<lb/>heb drank a heb orffen
+</p>
+</div>
+</body>
+</text>
+</TEI.2>
