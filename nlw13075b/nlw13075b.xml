@@ -1,0 +1,1391 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../prose_dipl.xsl"?>
+<!-- normal stylesheet: prose_dipl.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!--%Conc;-->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+    
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Corpws Hanesyddol yr Iaith Gymraeg 1500-1850: Ystor&iuml;au allan o NLW 13075B</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by </resp><name id="transcr">Ingo Mittendorf</name>
+<resp>Notes by <name>Ingo Mittendorf</name></resp></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, September 2004</edition></editionStmt>
+
+ <publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+</publicationStmt>  
+
+<notesStmt>
+    <note type="source">The texts are transcribed from National Library of Wales ms. 13075B (=Llanover B17). The manuscript is in the hand of <name id="scribe">Llywelyn Si&ocirc;n (1540-?1615) of Llangewydd, Glamorgan, and was copied at some time between 1585 and 1590.</name> As well as the tales transcribed in the corpus, the manuscript also contains other tales from &lsquo;Ystori Saith Doethion Rhufain&rsquo;, edited by Henry Lewis in <title>Revue Celtique</title> 46: 54-83.</note>
+    
+    <note type="text"> 
+&lsquo;Ystori y g&wcirc;r moel o Sythia&rsquo;: The text is an account of the advice of a Scythian to Alexander the Great, telling him of the folly of attacking Scythia. It appears in Quintus Curtius's <title>Historiae Alexandri Magni</title> from where it was taken up in the <title>Alexandreis</title> of Walter of Ch&acirc;tillon-sur-Marne (Galterus de Castellione), written sometime between 1176 and 1202. Latin editions of this text were printed in <hi rend="italic">c.</hi> 1487, 1513, 1541, and 1558. The Welsh text is a translation of part of Walter's text, either directly from the Latin, or via English or French. It is found in full in Welsh in two manuscripts: NLW ms. 13075B (=Llanover B17) and the damaged Cardiff Free Library 2.621 (Havod 8). Part of the text, probably copied from NLW 13075B, is also found in British Library Add. 14880. All manuscripts represent a single translation into Welsh, probably made in south Wales some time before 1561.</note>
+
+<note type="text">&lsquo;Ystori Alexander a Lodwig&rsquo;: The text is a version of one of the tales from the <title>Historia Septem Sapientum Romae</title> (Chwedlau Saith Doethion Rhufain). It uses the &lsquo;Vaticinium&rsquo; motif, namely the motif of the prophecy that the parents will humble themselves before their son. The tale appears frequently in medieval and early modern Welsh literature. The text here is a free translation from a sixteenth-century English version, similar to that published by Wynkyn de Worde in London around 1510-15, and in various other editions in the sixteenth century.</note>
+
+<note type="lang">The following linguistic and orthographic features are worthy of note:
+
+<list><item>extensive confusion of &lt;u&gt;, &lt;y&gt; and &lt;i&gt; (for instance, <mentioned>tia</mentioned> (HT 53r.14, YAL 77r.1, 82v.17), both <mentioned>bv</mentioned> (HT 53r.5, YAL 73v.25 etc.) and <mentioned>by</mentioned> (YAL 69v.9, 106r.23)) suggests a southern system of high vowels with complete merger of Middle Welsh <mentioned lang="ipa">/&#616;/</mentioned>, <mentioned lang="ipa">/&#649;/</mentioned> and /i/.</item>
+<item>&lt;ai&gt; is used in most cases to represent both modern Welsh &lt;ei&gt; and modern Welsh &lt;ai&gt;(not tagged)</item>
+<item>the southern form <mentioned>yddy</mentioned> is frequently used in YAL (but not in the other texts) for modern Welsh <mentioned>i'w</mentioned> (preposition + infixed genitive pronoun) (tagged on first occurrence only)</item></list></note>
+    
+    <note type="bibl">For further details, see the editions:
+    <list><item>Patrick K. Ford, &lsquo;A fragment of the Hanes Taliesin by Llywelyn Si&ocirc;n&rsquo;, <title>&Eacute;tudes celtiques</title> 14 (1975): 451-60.</item>
+    <item>Telfryn Pritchard: &lsquo;Ystori y g&wcirc;r moel o Sythia&rsquo;. <title>Studia Celtica</title> 18-19 (1983-4): 216-33.</item>
+    <item>Thomas Jones &amp; J. E. Caerwyn Williams, &lsquo;Ystori Alexander a Lodwig&rsquo;, <title>Studia Celtica</title> 10-11 (1975-6): 261-304.</item>   
+    <item>Bryn F. Roberts, &lsquo;Ystori'r llong foel&rsquo;, <title>Bulletin of the Board of Celtic Studies</title> 18 (1960): 337-62.</item>
+    </list>
+    </note>
+    
+<note type="corr" target="NLW13075B_HT">
+<table>
+<head lang="cym">Cywiriadau i argraffiad &lsquo;Hanes Taliesin&rsquo; (Patrick K. Ford, &lsquo;A fragment of the Hanes Taliesin by Llywelyn Si&ocirc;n&rsquo;, <title>&Eacute;tudes celtiques</title> 14 (1975): 451-60).</head>
+<head lang="eng">Corrections to the edition of &lsquo;Hanes Taliesin&rsquo; (Patrick K. Ford, &lsquo;A fragment of the Hanes Taliesin by Llywelyn Si&ocirc;n&rsquo;, <title>&Eacute;tudes celtiques</title> 14 (1975): 451-60).</head>
+<row lang="cym"><cell role="ref">Llinell yn &ocirc;l argraffiad Ford</cell><cell role="edition">Argraffiad</cell><cell role="correction">Cywiriad</cell><cell role="notes">Nodiadau</cell></row>
+<row lang="eng"><cell role="ref">Line according to Ford's edition</cell><cell role="edition">Edition</cell><cell role="correction">Correction</cell><cell role="notes">Notes</cell></row>
+<row><cell>2</cell><cell>llyn</cell><cell>llynn</cell><cell></cell></row>
+<row><cell>2</cell><cell>Llynn</cell><cell>llynn</cell><cell></cell></row>
+<row><cell>8</cell><cell>no</cell><cell>ne</cell><cell></cell></row>
+<row><cell>23</cell><cell>gwerthfawr</cell><cell>gwrthfawr</cell><cell></cell></row>
+<row><cell>27</cell><cell>gwerthfawr</cell><cell>gwrthfawr</cell><cell></cell></row>
+<row><cell>34</cell><cell>ym kwairaist a mi, yn wirion,</cell><cell>ym kwairaist / a mi yn wirion /</cell><cell>'[evilly you have] chastised me, while/although I am innocent'</cell></row>
+<row><cell>35</cell><cell>ddywedy</cell><cell>ddwedy</cell><cell></cell></row>
+<row><cell>82</cell><cell>[a]i</cell><cell>a n</cell><cell>Hynny yw, &acirc;'n</cell></row>
+<row><cell>87</cell><cell>kyfrudd</cell><cell>rybrudd</cell><cell>rhy brudd 'too sad'</cell></row>
+<row><cell>88</cell><cell>budd</cell><cell>vudd</cell><cell></cell></row>
+<row><cell>90</cell><cell>Rag</cell><cell>nag</cell><cell></cell></row>
+<row><cell>90</cell><cell>w[y]rthav</cell><cell>wrthav</cell><cell>Hynny yw, wyrthiau</cell></row>
+<row><cell>106</cell><cell>ofnot</cell><cell>ofnod</cell><cell></cell></row>
+</table>
+</note>
+
+<note type="corr" target="NLW13075B_GMS">
+<table>
+<head lang="cym">Cywiriadau i argraffiad Telfryn Pritchard, &lsquo;Ystori y g&wcirc;r moel o Sythia&rsquo;. <title>Studia Celtica</title> 18-19 (1983-4): 216-33.</head>
+<head lang="eng">Corrections to Telfryn Pritchard's edition of &lsquo;Ystori y g&wcirc;r moel o Sythia&rsquo;. <title>Studia Celtica</title> 18-19 (1983-4): 216-33).</head>
+<row lang="cym"><cell  role="ref">Cyfeiriad yn &ocirc;l argraffiad Pritchard</cell><cell role="edition">Argraffiad</cell><cell role="correction">Cywiriad</cell></row>
+<row lang="eng"><cell role="ref">Reference according to Pritchard's edition</cell><cell role="edition">Edition</cell><cell role="correction">Correction</cell></row>
+<row><cell>225.1</cell><cell>a</cell><cell>o</cell></row>
+<row><cell>225.29</cell><cell>a wnaethost</cell><cell>awnaethost</cell></row>
+<row><cell>225.31</cell><cell>dyfaith</cell><cell>diffaith</cell></row>
+<row><cell>225.47</cell><cell>kyfoethoked</cell><cell>kyvoethoked</cell></row>
+<row><cell>226.3</cell><cell>Ry</cell><cell>ky</cell></row>
+<row><cell>226.29</cell><cell>kyffio</cell><cell>kyffro</cell></row>
+</table>
+</note>
+
+<!--
+Ystori Alexander a Lodwig
+277.14 etc	Ac : Ag (all instances: 277.14, 279.12, 280.28, 281.46, 286.15, 286.41, 287.23, 288.46)
+277.21	yma : yna
+278.7	i ddilyn : y ddilyn
+278.29	wddost dy : wddost di
+278.41	chayf : chaiff
+278.43	am hynny i vod : am hynny / vod
+279.11	Rhaid : Raid
+279.35	roeso : raeso?
+279.45	ystafell : ystavell
+279.46	arferion : arferon
+280.27	vy nghlevyd i : vy nghlevyd j
+281.37	dau : dav
+282.26	i osod i mi : i osod i ni
+283.16	phen : phan
+283.23	ngwraig : ngwraig j
+283.28	gynhaliodd : gynhalioedd
+284.12	y ymgais : i ymgais
+284.29	y dodysochwi : i dodysochwi
+286.1	gwenwynasant : gwenwynysant
+286.4	gennyf y : gennyf j
+286.14	mynd : myned
+286.35	ynddo : yddo
+287.5	vaibon : vaibion
+287.31	betsai : betfai
+287.42	dau : dav
+287.46	ydd oedd : idd oedd
+288.1	vaibon : vaibion
+288.18	anrydeddus : anrydeddvs
+288.30	ddwedud : ddwedvd
+289.10	i mi : i ni
+
+Ystori'r llong foel
+355.3 Arfaxat : Arffaxat
+355.13 brenhinoedd : brenhinioedd
+355.20 gafael : gaffael
+355.20 brenhinoedd : brenhinioedd
+355.22 hon : honn
+355.23 fod : bod
+355.25 kanis : kans
+355.26 garei : garai
+356.3 brenhinesav : breninesav
+356.11 wybu : wyby
+356.18 i tad i dawly : i tad / dawly
+356.19 Peitys : Deitys
+356.22 brenhinesi : breninesi
+356.23 damwainav : damwainiav
+357.4 Brytys : Brytvs
+357.5 kyvanheddi : kyvanheddv
+357.8 naill : llaill
+-->
+</notesStmt>
+
+<sourceDesc>
+    <bibl>
+        <title type="ms">Ystor&iuml;au allan o NLW ms. 13075B (=Llanover B17)</title>
+        <date value="1590">ms. <hi rend="italic">c.</hi> 1590 (composed before 1561)</date>
+        <biblScope>52r-54v (&lsquo;Hanes Taliesin&rsquo; / &lsquo;Llyma val i kavad Taliesin&rsquo;), 54v-58r (&lsquo;Ystori y g&wcirc;r moel o Sythia&rsquo;, 69r-84v (&lsquo;Ystori Alexander a Lodwig&rsquo;), 104v-106v (&lsquo;Ystori'r llong foel&rsquo;))</biblScope>
+        </bibl>
+    </sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<p>The manuscript uses &lt;&uuml;&gt; and a dotted &lt;y&gt;. These are rendered in the transcription as &lt;u&gt; and &lt;y&gt; respectively. Umlauted &lt;&uuml;&gt; is the normal form of &lt;u&gt;, and, with occasional exceptions, &lt;u&gt; is not found without an umlaut. Two forms of &lt;r&gt; are found in the manuscript: &lt;R&gt; is found word-initially, and &lt;r&gt; is found word-internally. The difference does not reflect the difference between voiceless and voiced (mutated) /r/. Both have therefore been rendered as &lt;r&gt; in the transcription.</p>
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs> (including some transcriptions in the <rs id="ipa">International Phonetic Alphabet</rs>).</p>
+    </langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+	<date>27 September 2004</date>
+	<respStmt><resp>David Willis</resp></respStmt>
+	<item>The four texts merged into a single file; TEI-header updated; notes compiled.</item>
+</change>
+
+<change><date>10 July 2003</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>YLlF: Started input, basic Markup; proofread (also against ed)</item>
+</change>
+
+<change><date>23 June 2003</date>
+<respStmt><resp></resp></respStmt>
+<item>GMS: Started input, basic Markup, W, APO, ISP, DSP - Q not yet; Hanes Taliesin: Started input, basic Markup; check fullstop inside/outside Q</item>
+</change>
+
+<change><date>April 2003</date>
+<respStmt><resp>Elisa Rogers</resp></respStmt>
+<item>YAL proofread</item>
+</change>
+
+<change><date>18 March 2003</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>YAL: finished checking against manuscript; W</item>
+</change>
+
+<change><date>24 February 2003</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>YAL: Finished input, basic Markup; check fullstop inside/outside Q</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text id="NLW13075B">
+<group>
+<text id="NLW13075B_HT">
+<body>
+<pb n="52r"/>
+
+<head>
+<lb/>Llyma val i kavad Taliesin
+</head>
+
+<div>
+<p>
+<lb/>Gwr bonheddig oedd gynt / a elwid Tegid Voel /
+<lb/>a<isp/><apo/>u dref tad ef oedd y bala <orig reg="ym Mhenllyn">ymhenllyn</orig> // a<isp/><apo/>r llynn
+<lb/>a elwid llynn Tegid hyd heddiw // ag o Graidwen
+<lb/>i wraig briod / i ganed mab yddo / yr hwnn a <w>el<lb rend="shy"/>wid</w> Morfran ap Tegid // a merch a elwid Crairw /
+<lb/>yr honn oedd y vorwyn dekaf yn holl ynys <w>Bry<lb rend="shy"/>dain</w> // a garwa kriston yn<isp/>y byd oedd y mab // ag
+<lb/>yna i meddyliawdd Graidwen / i vam / nad<isp/>oedd ef
+<lb/>debyg i gael i gynwys <orig reg="ymhlith">ymlith</orig> boneddigion
+<lb/>anrydeddvs / ony bai vod arno ryw gampav da /
+<lb/>ne ryw wybodav vrddasaidd // Kans yn amser
+<lb/>dechrauad arthur / a chasglad y vord gron oedd
+<lb/>hynny // ag yna i ordainawdd Graidwen i vam
+<lb/>drwy gelfydd llyfrav Pheryll / vrydon<!--?, rel to brwd 'hot'?--> pair o awen
+<lb/>a gwybodav i<isp/><apo/>r mab // val i bai yn vwy i gyvarch
+<lb/>a<isp/><apo/>u gymeriad / am i gyfrwyddyd a<isp/><apo/>u ddysg // ag yna
+<pb n="52v"/>
+<lb/>i dechrauwyd berwi y pair / yr hwnn pan ddechrauid
+<lb/>i verwi / ny ellid torri y berw arno hyd <orig reg="ym mhen">ymhenn</orig>
+<lb/>vn dydd a blwyddyn / na dydd / na nos / hyd pan geffid
+<lb/>y gwybodav // a Gwion bach mab <orig reg="gwr&ecirc;ng">gwrauank</orig> o
+<lb/>lann Vair <orig reg="yng nghaer">ynghaer</orig> Einon <orig reg="ym Mhowys">ymhywys</orig> / a osodes
+<lb/>hi / i ymod y pair // a Dallmor dallme i gynny
+<lb/>tan dan y pair // a gorchymyn yddynt / na edynt
+<lb/>y berw i dorri arno / hyd <orig reg="ym mhen">ym<dsp/>henn</orig> vn dydd a
+<lb/>blwyddyn // a hithav wrth lyfrav <orig reg="astronomi">estronomi</orig> / ag
+<lb/>oriav / a phlanedav / yn llysaua <orig reg="beunydd">baenydd</orig> o bob ryw
+<lb/>amravael lysav rinweddol // ag val ir oedd hi <w>ddi<lb rend="shy"/>warnod</w> yn <orig reg="llysieua">llysya</orig> / pan oedd hi yn agos i benn
+<lb/>y vlwyddyn // ef a ddamchwainawdd disgyn tri dafn
+<lb/>o<isp/><apo/>r llynn brw<add place="supralinear">d</add> hwnnw / ar vys Gwion bach / a rag
+<lb/>i vryted / ef a drawodd i vys yn<isp/>y enav // ag yn
+<lb/>kyn gynted / ag i sipawdd ef o<isp/><apo/>r dafnav gwrthfawr
+<lb/>hynny / ef a wyddiad bob peth / ag a ddelai rag
+<lb/>llaw // ag yna i adnabv ef / mae mwya perigl oedd
+<lb/>yddo rag bwriad ag ystryw Graidwen // kans mawr
+<lb/>oedd i gwybodav hi // a rag dirfawr ofn / ef a <w>ve<lb rend="shy"/>ddyliawdd</w> ffo parth a<isp/><apo/>u wlad // ag velly / y pair a
+<lb/>dorres yn llapre / pan aeth y dafnav gwrthfawr <w>o<lb rend="dsp"/>hano</w> // am vod y llynn oll yn wenwyn ond y tri
+<lb/>dafn hynny // val i gwenwynawdd ef vairch <w>Gwydd<lb rend="shy"/>no</w> garanir / lle <orig reg="rhedasai">rydysai</orig> / y dwr hwnnw / i<isp/><apo/>r nant
+<lb/>dan y ty // ag am hynny i gelwid y nant hwnnw / o
+<lb/>hynny allan / gwenwynfairch // ag ar hynny / nachaf
+<pb n="53r"/>
+<lb/>Graidwen yn dyvod i mewn // ag yn kanfod i llavur
+<lb/><orig reg="ers">es</orig> blwyddyn yn golledig // a chymeryd y rwyf a orug
+<lb/>hi / a tharro Dallmor dallme / ar i benn / yny oedd
+<lb/>vn o<isp/><apo/>i lygaid ef ar i rudd // ag yntav a ddywad // <q>drwg
+<lb/>o beth y<isp/><apo/>m kwairaist / a mi yn wirion // ag ny bv i
+<lb/>ti ddim kollad o<isp/><apo/>m hachos j</q> // <q>Gwir a ddwedy di</q>
+<lb/>heb hi // <q>Gwion ffalst a<isp/><apo/>m ysbailawdd j</q> // a chyrchv
+<lb/>allan a orug hi / yr vn ffordd ag ir athoedd yntav o<isp/><apo/>r
+<lb/>blaen / dan godi phais a <orig reg="rhedeg">rydeg</orig> // ag velly hi a<isp/><apo/>u <w>har<lb rend="shy"/>ganfy</w> ef yn <orig reg="dyrchaf">drychaf</orig> i<isp/><apo/>r mynydd / amkan milltir a
+<lb/>hanner / oddywrthi // a Gwion bach / a<isp/><apo/>u harganfy hithav //
+<lb/>ag yna ymrithawdd ef yn rith ysgyvarnog // a <orig reg="rhedeg">rydeg</orig> a
+<lb/>orug ef // Sef a orug hithav / ymrith<add place="supralinear">o</add> yn rith milast
+<lb/>a<isp/><apo/>u ddilyn ef // ag o<isp/><apo/>r diwedd i droi ef a<isp/><apo/>u benn <orig reg="tua">ti<dsp/>a</orig><isp/><apo/>r
+<lb/>gwaered / at yr avon // Sef a orug yntav yna <w>ym<lb rend="shy"/>ritho</w> yn rith pysgodyn / a naido i<isp/><apo/>r avon // Sef a
+<lb/>orug hithav / ym<dsp/>ritho yn rith dyfrast / ag ymgais
+<lb/>ag ef dan y kaulenni // yny vy raid yddo ef <w>ym<lb rend="dsp"/>ritho</w> yn rith aderyn / a <orig reg="ehedeg">hydeg</orig> i<isp/><apo/>r wybr // a hithav a <w>ym<lb rend="dsp"/>rithwys</w> yn rith hebog // ag velly ny adewis hi vn
+<lb/>awr lonydd yddo ef yn<isp/>yr wybr // ag velly / pan oedd ef
+<lb/>mewn dirfawr lydded / ag ofn angav arno ydd<isp/><w>argan<lb rend="shy"/>vy</w> ef gryg o wenith / gwedy nitho / ar lawr <orig reg="ysgubor">ysgibor</orig>
+<lb/><orig reg="yn nyffryn">y nyffryn</orig> yr avon // Sef a orug ef / disgyn / ag <w>ym<lb rend="dsp"/>ritho</w> yn rith vn o<isp/><apo/>r gwenith // a hithav a ymrithwys
+<lb/>yn rith jar ddu gwta / ag a<isp/><apo/>u hadnabv ef <orig reg="ymhlith">ymlith</orig> y
+<lb/>gwenith // a hi a<isp/><apo/>u llynkawdd ef // ag velly / i mae <apo/>r
+<pb n="53v"/>
+<lb/>ystori yn dwedvd / i vod naw mis yn<isp/>y bola hi //
+<lb/>a chwedy darfod yddi esgor arno ef // ny allai hi
+<lb/>ar i chalon i ladd ef // eithr peri i wnio ef <w>me<lb rend="shy"/>wn</w> kod groen / a<isp/><apo/>u vwrw yn<isp/>y mor / yn ewyllys
+<lb/>duw / yr <orig reg="ugeinfed">jgainfed</orig> dydd o vis ebrill // ag yn<isp/>yr <w>am<lb rend="shy"/>ser</w> hwnnw / i<dsp/>dd<isp/>oedd kored i Wyddno Garanir
+<lb/>ar y traeth rwng Dyvi ag ystwyth / geyr llaw i
+<lb/>gastell i hvn // ag yn<isp/>y gored honno / i kaid gwerth
+<lb/>kanpynt bob nos <orig reg="Galanmai">glamai</orig> // a mab oedd i Wyddno
+<lb/>Garanir / a elwid Elffin ap Gwyddno // ag vn o<isp/><apo/>r
+<lb/>rai jevaink dir<add place="supralinear">as</add>af oedd ef / a mwyaf aisav da
+<lb/>arno / am i vod ef yn <orig reg="dreulfawr">droelfawr</orig> ar dda // ag yn
+<lb/>drwm gan i dad / a<isp/><apo/>u vam / i vod ef velly // gan
+<lb/>dybiaid i eni ef ar awr ddrwg anhapvs // a
+<lb/>thrwy ddaisyf i wraig // ef a roddes i <del>Elffin</del> dad /
+<lb/>i Elffin / ddamwain y gored y vlwyddyn honno / 
+<lb/>i edrych / a ddanfonai dduw ddim gras / a <orig reg="ffortun">fforten</orig>
+<lb/>yddo ef byth // a nos <orig reg="Galanmai">glamai</orig> // ny chawsant ddim
+<lb/>yn<isp/>y gored / ond y god groen honno // ag yna i <w>dy<lb rend="shy"/>wad</w> y gwas wrth Elffin // <q>O byost di ddirras
+<lb/>er<dsp/>joed // dirasach a wyd ti heno // Kans ti a dorraist
+<lb/>ar gynheddfav kored dy dad / yr honn bob nos <orig reg="Galanmai"><w>gla<lb rend="shy"/>mai</w></orig> / i kaid yndi werth kanpynt // ag nid oes yma
+<lb/>heno / ond y kroenyn hynn</q> // <q>Ha wr</q> hebe Elffin /
+<lb/><q>ef a allai vod yna werth kanpynt</q> // ag velly
+<lb/>agori y god groen / ar gyvair wyneb y mab a
+<lb/>wnaethant // ag yna i dywad Elffin // <q>llyma dal
+<pb n="54r"/>
+<lb/>jesin</q> // <q>Taliesin bid i enw</q> hebe <apo/>r gwas // a chodi
+<lb/>y mab / ar y march / rwng Elffin a chorf / a orug
+<lb/>y gwas // ag yna i peris Taliesin / i<isp/><apo/>r march a
+<lb/>oedd yn droter o<isp/><apo/>r blaen / rygyngo mor <del>eswyth</del>&nbsp;<w>es<lb rend="shy"/>mwyth</w> / a phe <orig reg="baent">baint</orig> yn eistedd yn<isp/>y gadair <w>esmwy<lb rend="shy"/>thaf</w> / yn holl ynys brydain // ag yna / i gwnaeth
+<lb/>Taliesin / voliant / i lawenhav / ag i proffwydo
+<lb/>vrddas i Elffin // yr hwnn a elwir <orig reg="dyhuddiant">dihiddiant</orig>
+<lb/>Elffin // ag val hynn i dechrauawdd ef / ar <w>ve<lb rend="shy"/>sur</w> englynion
+</p>
+<!--poem following-->
+<lg>
+<lb/><l>Elffin deg taw a<isp/><apo/>th wylo</l>
+<lb/><l>na chabled neb yr eiddio</l>
+<lb/><l>ny wna lles drwg obaitho</l>
+<lb/><l>nid a wyl a<isp/><apo/>u portho</l>
+<lb/><l>nid a <apo/>n goeg gweddi kynllo</l>
+<lb/><l>ny thyrr duw a addawo</l>
+<lb/><l>ny chad <orig reg="yng nghored">ynghored</orig> wyddno</l>
+<lb/><l>er<dsp/>joed gystal a heno</l>
+</lg>
+
+<lg>
+<lb/><l>Elffin deg sych dy ddaurudd</l>
+<lb/><l>ny<isp/><apo/>th weryd bod yn ry<isp/>brudd</l>
+<lb/><l>kyd tybiaist na chevaist vudd</l>
+<lb/><l>ny wna lles gormodd awydd</l>
+<lb/><l>nag amav <orig reg="wyrthiau">wrthav</orig> dovydd</l>
+<lb/><l>kans o vor ag o vynydd</l>
+<lb/><l>ag o aigion avonydd</l>
+<lb/><l>i try duw dda i ddedwydd</l>
+</lg>
+
+<lg>
+<lb/><l>Elffin gynheddfav diddan</l>
+<lb/><l>anfilwriaidd yw d<apo/><isp/>amkan</l>
+<pb n="54v"/>
+<lb/><l>nid raid yt ddirfawr gwynfan</l>
+<lb/><l>gwell duw na drwg ddarogan</l>
+<lb/><l>kyd bwyf aiddil a bychan</l>
+<lb/><l>ar<!--a<apo/>r?--> nod gorferw mor dilan</l>
+<lb/><l>mi a wnaf <orig reg="yn">y</orig> nydd kyfran</l>
+<lb/><l>yt well na thrychant maran</l>
+</lg>
+
+<lg>
+<lb/><l>Elffin gynheddfav hynod</l>
+<lb/><l>na sorr ar dy gyvaelod</l>
+<lb/><l>kyd bwyf wann ar lawr vy<isp/>nghod</l>
+<lb/><l>mae rinwedd ar vy n<dsp/>havod</l>
+<lb/><l>nid raid yt ddirfawr ofnod</l>
+<lb/><l>tra vwyf j y<isp/><apo/>th gyfragod</l>
+<lb/><l>trwy goffav enw <apo/>r drindod</l>
+<lb/><l>ny <orig reg="ddichon">ddychon</orig> neb dy orfod</l>
+</lg>
+<trailer>
+<lb/>Taliesin a<isp/><apo/>i kant
+</trailer>
+</div>
+</body>
+</text>
+
+<!-- Ystori y gwr moel o Sythia -->
+<text id="NLW13075B_GMS">
+<body>
+<head><supplied>&lsquo;Y Gwr Moel o Sythia&rsquo;, NLW ms. 13075B (=Llanover B17), 54v-58r</supplied></head>
+<pb n="54v"/>
+<div>
+<p>
+<lb/>Llyma ystori y gwr moel o Sythia yn dyvod at
+<lb/>alexander mawr / yn gennad dros <corr resp="transcr" sic="venin">vrenin</corr> Sythia //
+<lb/>pan oedd alexander yn dyvod a<isp/><apo/>u lv hyd <orig reg="yng nglan">ynglann</orig>
+<lb/>yr avon a elwid Tenais // val nad oedd ryngto ef
+<lb/>a gwlad Sithia / ond siwrnai ddiwarnod o Vor //
+<lb/>llyma ddauddeg marchog vrddasaidd / yn dyvod ato ef
+<lb/>oddiwrth vrenin Sithia / ag amravael vairch ag
+<lb/>arfav ganthynt rag ofn gwyr Groeg // ag vn o
+<lb/>naddynt<!--o naddunt--> oedd ddoethach na <apo/>r llaill oll / a hwnnw a
+<pb n="55r"/>
+<lb/>ddauth geyr bronn alexander / ag a ddywad wrtho
+<lb/>val hynn // alexander heb ef / mawr yw dy ddaisyf
+<lb/>di a<isp/><apo/>th <orig reg="chwant">hwant</orig> // a phe bai gymaint dy allv di / ag i
+<lb/>mae dy vryd ti / a<isp/><apo/>th amkan // y<isp/><apo/>m kyffes i dduw nad
+<lb/>oedd ddigon gennyd / gael yr holl vyd yt dy hvn // Kans
+<lb/>i mae y Dwyrain / a<isp/><apo/>r Gorllewyn / y<isp/><apo/>th law // ag i
+<lb/>ddwyd<!--i ddwyd--> ti yn sorri ar hynny / aisav kael ychwaneg /
+<lb/>kans ti a vynnyd oresgyn yr holl vyd o<isp/><apo/>r gwbl
+<lb/>a hevyd ti a vynnyd vod y pedwar defnydd pennaf
+<lb/>yn <orig reg="darostwng">darest<damage>wn</damage>g</orig> i ti // nid amgen // tan / awyr / dwfr / a
+<lb/>daear // ag er hynny meddwl di hynn // ti a wely y
+<lb/>dderwen dekaf yn<isp/>y koed / yr honn a sydd vawr a
+<lb/>braisg a dichlynaidd / i gwraiddav / a<isp/><apo/>u phaladr yn
+<lb/>llvniaidd / a<isp/><apo/>i brig yn dew // a chwedy bo hi yn tyvy
+<lb/>hir oesoedd a blynyddoedd / ef a ddaw vn awel o
+<lb/>wynt / ag a<isp/><apo/>u bwrw hi i<isp/><apo/>r llawr // a hevyd pwy<!-- -wy faint-->
+<lb/>bynnag a welai ffrwyth teg ar brenn / ef a <w>dde<lb rend="shy"/>ly<unclear>a</unclear>i</w> synnaid arno yn graff / ag er chwanoked a
+<lb/>vai ef <unclear><supplied reason="damaged">i</supplied></unclear>r ffrwyth / na thringai ef yn ry vchel
+<lb/>rag ofn i <orig reg="golofn">goloven</orig> dorri / a<isp/><apo/>u ollwng ef i<isp/><apo/>r llawr /
+<lb/>ag velly wr da / nag esgyn dithav yn ry vchel / rag
+<lb/>i ti syrthio yn ry jsel // a hevyd ti a wely y llew yn
+<lb/>arglwydd ar yr holl <orig reg="anifeiliaid">anevailaid</orig> // ag nid<isp/>oes vn <w><damage>b</damage>wys<damage>t</damage><lb rend="shy"/>vil</w> o<isp/><apo/>r byd / pan glywo ef y llew yn ryo / ag yn
+<lb/>digio / a vaidd ysgog o<isp/><apo/>r mann i bo rag ofn y
+<lb/>llew // er hynny / ef a ddaw terfyn ag angav yddo / 
+<lb/>ag yna i daw <apo/>r adar bychain y<isp/><apo/>w bigo ef / ag <unclear><supplied reason="damaged">y<isp/><apo/>w</supplied></unclear>
+<pb n="56v"/>
+<lb/>vwyta // ag am hynny / ny ddyly neb ymddired
+<lb/>yn ormodd i olvd bydol / nag i gadernyd // a
+<lb/>hevyd / ti a wely y dur / a<isp/><apo/>r <orig reg="haearn">haern</orig> kaletaf oll / ef
+<lb/>a ddaw rwd o<isp/><apo/>r ddaear / y<isp/><apo/>w vwyta ef yn llwyr / ag
+<lb/>am hynny / ny ddyly neb / er i gadernid / a<isp/><apo/>i valchedd
+<lb/>nad<note resp="transcr">Scribal emendation from nag?</note> ofno angav a<isp/><apo/>i derfyn // a gnawd yw i
+<lb/>beth gwann / drwy nerth duw / orchfygv / y peth a
+<lb/>vo kadarn // ag velly wr da / ny ddelyy di ddyvod
+<lb/>atom ni / mwy nag i delom ninnav atad tithav /
+<lb/>am nad<isp/>oes neges i vn o<dsp/>honom ni / wrth i <w>gi<lb rend="shy"/>lydd</w> / os dyvod a<isp/>wnaethost di yma / i vanegi dy
+<lb/>enw i ni // ny ddorwn ni pwy a vych di // a <w>he<lb rend="shy"/>vyd</w> / nid<isp/>oes i ni gyvanheddav // eithr mewn <w>go<lb rend="shy"/>govav</w> / anial / a diffaith goedydd / i byddwn ni //
+<lb/>megis <orig reg="anifeiliaid">anevailaid</orig> gwyllton // a hevyd wr da
+<lb/>kenedl rydd vrainiol a sydd <orig reg="yng ngwlad">yngwlad</orig> Sithia /
+<lb/>ny vynnwn ni lywodraeth neb arnom / ag ny
+<lb/>chaiswn ninnav vaistrolaeth ar neb // ag na <w>chai<lb rend="shy"/>sed</w> neb vaistrolaeth ar i gilydd // kans duw a <w>er<lb rend="shy"/>chis</w> i bawb gynnal i <orig reg="eiddo">eiddio</orig> i hvn / a bod yn <w>vod<lb rend="om-shy"/>lon</w> i hynny // ag na chaised neb ddim o <orig reg="eiddo">eiddio</orig> dyn
+<lb/>arall <orig reg="yng ngham">yngham</orig> // a hynny a wna i ddyn rengi bodd
+<lb/>duw // ag or gwnav dithav ddim dros benn hynny /
+<lb/>i<dsp/>dd<isp/>wyd ti yn torri kyfraith dduw a<isp/><apo/>u orchmynion //
+<lb/>ag velly / ny welaf j ddim a dyki<unclear>o</unclear> i ti / rag maint
+<lb/>yw dy chwant a<isp/><apo/>th awydd // kans ny byddy di vodlon
+<lb/>er a geffych // kans ti a orchfygaist wlad lidia /
+<pb n="57r"/>
+<lb/>a chapadosia / a Siria / a Pherres / a Media / a
+<lb/>branta // ag i<dsp/>dd<isp/>wyd ti yn awr / yn myned i oresgyn
+<lb/>yr jndia vawr // ag velly wr <add place="supralinear">da</add> / kwilydd mawr / yw i
+<lb/>ti ddyvod yma / i gaiso pwrkas / a chyvoeth oddiwrth
+<lb/>yn <orig reg="rheidusni">ridisi</orig><!--GPC only rheidusni--> ni a<isp/><apo/>n tylodi / a thithav kyn amled dy
+<lb/>vreniniaethav / a<isp/><apo/>th gyvoeth // a maint a sydd o <w>vren<lb rend="shy"/>hinioedd</w> / ag amherodron / ag arglwyddi dan dy <w>lywo<lb rend="shy"/>draeth</w> di / ag y<isp/><apo/>th wasnaethv // a maint yw dy olvdoedd
+<lb/>dithav a<isp/><apo/>th allv // ag er hynny tebig yw dy vod ti yn
+<lb/>raidys / ag yn anghennog // kans pa vwyaf a <w>ge<lb rend="shy"/>ffych</w> / mwyaf oll a gaisy // kans er kyvoethoked a
+<lb/>vo gwr / <orig reg="tra">try</orig> vo ef yn kaiso hevyd / tylawd ag <w>ais<unclear>e</unclear><lb rend="shy"/>og</w> i bernir ef yn wir // ag velly / na sorred neb
+<lb/>ar y peth a ddanfono duw yddo yn ddi<dsp/>bechod / nag
+<lb/>ychydig / na llawer vo hynny // a hevyd / ti a ddelyyd
+<lb/>ddyvod kof yt / am y <orig reg="fictoriaeth">vickdoriaeth</orig> vawr a gevaist
+<lb/>di / yn ymyl dinas branta / ar hyd i byost wrthi / 
+<lb/>ag nid <orig reg="cyn">ky</orig> hawsed a hynny i ti yn gorchfygv ni
+<lb/>na<isp/><apo/>n gostwng // Kans pan debygych di dy vod ti
+<lb/>gwedy yn gorfod ni // i byddwn ni yn dechrav <w>ym<lb rend="shy"/>ladd</w> a thi // a phan debygych di / ddarfod i ti yn
+<lb/>hymlid ni a<isp/><apo/>n gorfod / i byddwn ni yn ymvikra
+<lb/>a thi / ag yn ryvely arnad o vewn y<isp/><apo/>th lv // Kans
+<lb/>byanach / a chynt yw yn tylodi ni // na<isp/><apo/>th allv di a<isp/><apo/>th
+<lb/>gyvoeth // ag am hynny <orig reg="ysgafn">ysgawn</orig> / a <sic>disger</sic><!--corr to disgler, or di-sger from E. scare?--> vyddwn ni
+<lb/>a chyvoethog wyd tithav / ag am hynny trymon a
+<lb/>diog vyddwchwi // ag velly wr da / ny pherthyn i ti
+<pb n="57v"/>
+<lb/>gaiso goresgyn gwlad Sithia // a hevyd nid<isp/>oes i ni
+<lb/>ormodd gyvoethav na galluoedd // ag nid<isp/>oes arnom
+<lb/>ni dra gormodd aisav / na thra chwant ar dda / na
+<lb/>golvd bydol // ag am hynny anodd yw i ti / na <apo/>n dala
+<lb/>ni / na <apo/>n gorddiwes // a hevyd wr da pwy bynnag a
+<lb/>gaffo tynghedfen dda / a llonyddwch / ag amkan o olvd
+<lb/>bydol ef a ddyly kaiso atal i dynghedfen dda gydag
+<lb/>ef // Kans anwadal / a llefn yw <apo/>r dynghedfen / a
+<lb/>hawdd yw genti lithro / ag anwadaly / ag ny ellir i
+<lb/>hatal hi o<isp/><apo/>i hanfodd // a hevyd / ti a gevaist y <orig reg="fuddugoliaeth"><w>vyddigo<lb rend="shy"/>liaeth</w></orig> / a<isp/><apo/>r gorfod ar lawer o gedyrn / a gormodd o
+<lb/>gyvoethav bydol / er hynny / na chais di ry ormodd o
+<lb/>ddim o<dsp/>naddynt // ag na vydd ry <orig reg="greulon">groelon</orig> rag anwadaly
+<lb/>y dynghedfen / a throi o<isp/><apo/>r rod i holwyn / a<isp/><apo/>th ollwng
+<lb/>dithav o<isp/><apo/>r kwrr vchaf yddi / hyd <orig reg="yng ngwaelod">yngwaelod</orig> y klawdd //
+<lb/>Kans ef a <orig reg="ddywedir">ddwedir</orig> / nad oes traed i dynghedfen // ag am
+<lb/>hynny / ny saif hi yn ddiogel // ond i mae yddi vraichav
+<lb/>hirion / val i <orig reg="dichon">dychon</orig> hi ostwng y kadarn / megis y
+<lb/>gwann / a chodi y gwann / megis y kadarn // ag am
+<lb/>hynny / ef a <orig reg="ddywedir">ddwedir</orig> / vod yddi adanedd / i <orig reg="ehedeg">hydeg</orig> oddy
+<lb/>wrth ddyn // ag i ddyvod at ddyn / ag i anwadaly <w>me<lb rend="shy"/>gis</w> i mynno // ag velly / pan gaffo dyn dynghedven
+<lb/>dda gydag ef yn llonydd // ef a ddyly <orig reg="cneifio">knivio</orig> i hadanedd
+<lb/>rag ofn yddi <orig reg="ehedeg">hydeg</orig> oddiwrtho ef // a hevyd / ef a allai
+<lb/>dy vod ti yn tybiaid / vod y bobl a wyd ti / yn<isp/>y <w>kaeth<lb rend="shy"/>iwo</w> / y<isp/><apo/>th garv di / wrth i gorchfygv // y<isp/><apo/>m kyffes i dduw
+<lb/>wr da / nad oes vn dyn ar y ddaear kyn gased / gan
+<pb n="58r"/>
+<lb/>bob dyn a thydi // Kans rwng y rai tirion hygar /
+<lb/>a<isp/><apo/>r neb / ny bo <apo/>n kaiso kaethiwed / na maistrolaeth
+<lb/>ar i gilydd / rwng y<isp/>r<dsp/>haini i byd kariad // a <w>thith<lb rend="shy"/>av</w> a sydd yn kyffro <orig reg="trymysg">tremysg</orig> a ryveloedd ar bawb / 
+<lb/>ag am hynny / i mae<isp/><apo/>n gas gan bawb dithav // Kans
+<lb/>yr rai a etyd<!-- from gadael --> ti yn llonydd / a gav ti yn <orig reg="ddiwydion">ddiwidon</orig>
+<lb/>yt / ag y<isp/><apo/>th garv dithav // ag velly wr da y<isp/><apo/>m kyffes
+<lb/>i dduw / mae kynt i bydd ser y Dwyrain yn<isp/>y <w>gor<lb rend="shy"/>llewyn</w> / y rai na symvdant byth o<isp/><apo/>i lle // a chynt i
+<lb/>kar y pysg y tir sych / nag i bydd / kywir gariad rwng
+<lb/>dyn o<isp/><apo/>r byd / a<isp/><apo/>r neb a vo yn<isp/>y ddirmygv / ag yn<isp/>y
+<lb/>ostwng // Kans er i vod yn dwedvd yn deg / ef a vydd
+<lb/>y gwenwyn a<isp/><apo/>r llid yn<isp/>y galon ef // ag am hynny wr
+<lb/>da / <orig reg="gorffwys">gorffywys</orig> di bellach / a phaid a<isp/><apo/>th ryvely / a does
+<lb/>di adref y<isp/><apo/>th wlad dy hvn / a gad ni yn llonydd / ag
+<lb/>yn heddwch // ag velly / er son a thrafferth y gwr
+<lb/>moel o Sythia / ny lestairiawdd alexander ar i
+<lb/>siwrnai / namyn dyvod a<isp/><apo/>u longav yn rwydd
+<lb/>i wlad Sythia i<isp/><apo/>r lann
+</p>
+</div>
+<trailer>
+<lb/>ag velly terfyna
+</trailer>
+</body>
+</text>
+
+<!--Ystori Alexander a Lodwig -->
+<text id="NLW13075B_YAL">
+<body>
+<pb n="69r"/>
+
+<head>
+<lb/>Llyma ystori alexander a lodwig
+<lb/>yr hain a vyont <orig reg="gymdeithion">gedmaithion</orig>&nbsp;<w>ky<lb rend="shy"/>wir</w> / y<isp/><apo/>w gilydd // val i dywaid yr
+<lb/>ystori sy <apo/>n kalyn
+</head>
+
+<div>
+<p>
+<seg n="1">
+<lb/>Yr oedd gynt varchog / ag vn mab yddo yn vnig / yr
+<lb/>hwnn a garai ef yn vawr // a<isp/><apo/>u dad a<isp/><apo/>u <w>danfo<lb rend="shy"/>nes</w> ef i wlad bell / y<isp/><apo/>w vaethv / ag y<isp/><apo/>w ddysgi //
+<lb/>a chwedy bod y mab yno saith mlynedd / i dad a
+<lb/>ddanfonawdd kenadav at y mab / i erchi yddo <w>ddy<lb rend="shy"/>vod</w> adref / i ymweled a<isp/><apo/>i dad a<isp/><apo/>u vam / a<isp/><apo/>u ffryns //
+<lb/>ag yntav a ddauth // ag ir oedd i dad a<isp/><apo/>i vam yn
+<lb/>llawen o<isp/><apo/>i weled ef // Kans ir oedd yn llvniaidd
+<lb/>o gorff / ag yn addfwyn o bryd / ag yn synwyrol
+<lb/>yn ddoeth / ag yn ddysgedig //</seg>&nbsp;<seg n="2">ag ef a hapiodd ar <w>ddi<lb rend="shy"/>warnod</w> / vod i dad a<isp/><apo/>i vam / a<isp/><apo/>r mab gydag hwynt
+<lb/>yn eistedd wrth y vord / yn chwedlaua // ag yno i
+<lb/>dauth eos i vronn y ffenestr / ag a ganawdd <w>kani<lb rend="shy"/>adav</w> teg // a ryveddy yn vawr a wnaethant // a<isp/><apo/>r
+<lb/>marchog a ddywad / <q>o hapvs yw y neb a wypai /
+<lb/>beth ody <apo/>r eos akw yn y ganv //</q> ag yna y dywad y
+<lb/>mab // <q>o vy annwyl dad</q> heb ef // <q>mi a wnn ddeall
+<lb/>kaniad yr eos / a mi a<isp/><apo/>u manegwn / ony bai rag
+<lb/>ofn i chwi ddigio //</q> ag yna i dywad i dad // <q>dywaid
+<lb/>yn <orig reg="eofn">eon</orig> vy mab / a thi a gav weled beth a <w>wnel<lb rend="shy"/>wyf /</w>&nbsp;<orig reg="ai">au</orig> digio ai paido //</q> ag yna i dywad y mab // <q>i
+<lb/>mae <apo/>r eos yn dwedvd yn<isp/>y ganiad / i byddaf j <w>arg<lb rend="shy"/>lwydd</w> galleog // val i kaffwyf j vy anrydeddv gan
+<lb/>bawb / ag yn vnwedig genychwi  vy n<dsp/>had / yr hwnn
+<pb n="69v"/>
+<lb/>a ddewch ag ewer a dwr i mi olchi vy nwylo /
+<lb/>a mam a ddaila <orig reg="tywel">twel</orig> i mi sychv vy nwylo //</q>
+<lb/>a<isp/><apo/>i dad a ddywad // <q>ny ddaw yr amser arnad ti byth
+<lb/>i keffych di y gyfriw wasanaeth hynny genym ni //</q>
+<lb/>a thrwy lid a digovaint mawr / kymeryd i vab a
+<lb/>orug ef ar i gefn / a<isp/><apo/>u <orig reg="daflu">dawly</orig> ef i<isp/><apo/>r mor / gan <w>ddwe<lb rend="shy"/>dvd /</w>&nbsp;<q>trig yna deallwr kaniad yr eos //</q> a<isp/><apo/>r mab
+<lb/>[drwy wyllys duw] a <orig reg="nofiodd">noevawdd</orig> i benn rock a
+<lb/>oedd yn<isp/>y mor // ag yno i by ef bedwar diwarnod / heb
+<lb/>na bwyd na diod // a<isp/><apo/>r pvmed dydd i dauth llong dan
+<lb/>hwyl haibo // a phan welas ef y llongwyr // ef a
+<lb/>ddywad yn vchel wrthynt // <q>ha wyr da</q> heb ef / <q>er
+<lb/>kariad ar dduw / tynnwch vi allan o berigl yr
+<lb/>angav hynn //</q> a<isp/><apo/>r llongwyr a welas i vod ef yn
+<lb/>jevank / ag yn deg / a<isp/><apo/>u kyrchysant ef i<isp/><apo/>r llong <w>at<lb rend="shy"/>tynt</w> // ag authant ag ef i wlad yr Egip<!--cap E--> / ag a<isp/><apo/>i
+<lb/>gwerthysant ef i ddvc o<isp/><apo/>r wlad honno / er <w>chwe<lb rend="shy"/>mork //</w> a<isp/><apo/>r mab a dyvawdd mewn doethineb / a <w>theg<lb rend="shy"/>wch //</w> a<isp/><apo/>r dvc a<isp/><apo/>u karai ef yn vawr / ag a<isp/><apo/>i gwnaeth
+<lb/>ef yn ystiwart dros i holl gyvoeth //</seg>&nbsp;<seg n="3">ag yn<isp/>yr amser
+<lb/>hwnnw / i<dsp/>dd<isp/>oedd brenin y dernas honno / a thair
+<lb/>bran yn<isp/>y ddilyn ef / yn wastad / ywch i benn ef /
+<lb/>ag yn krio val ir oedd ef yn <add place="supralinear">vlin</add> o<isp/><apo/>i klywed hwynt // ag
+<lb/>yna i parawdd y brenin alw geyr i vronn <!--sth del here--> holl
+<lb/>wyr boneddigion yr ynys // a chwedy i dyvod / ef
+<lb/>a ddywad wrthynt // <q>ha wyr / vy ffryns a<isp/><apo/>m kenedl</q>
+<lb/>heb ef / <q>dyma <apo/>r achos i per<add place="supralinear">a</add>is j / ych galw chwi // nid
+<lb/>amgen na bod tair bran ywch vy<isp/>mhen<!--mhem?--> j bob
+<pb n="70r"/>
+<lb/>amser / yn llevain / val i<dsp/>dd<isp/>wyf j yn vlinedig
+<lb/>o<isp/><apo/>i klywed hwynt // ag o bydd yma neb o wr <w>je<lb rend="shy"/>vank</w> sengl / a wypo deall / pwy achos i maent
+<lb/>hwy yn llevain arnaf j / a<isp/><apo/>u tynny hwynt ymaith
+<lb/>oddywrthyf // mi a brwmaisaf / ag a dyngaf myn
+<lb/>vy<isp/>nghoron / i kaiff ef vy merch j yn briod / a
+<lb/>bod yn gedymaith i mi / tra vwyf j byw // ag yn
+<lb/>ol vy mywyd j / ef a gaiff <orig reg="reoli">rioli</orig> yr holl <w>vrenhini<lb rend="shy"/>aeth</w> i gyd i hvnan //</q> ag nid oeddid yn kael o<isp/><apo/>r holl
+<lb/>gynghoriaid i gyd / vn a vedrai ddeall yr achos
+<lb/>ir oedd y brain yn llevain // nag yn gwybod pa
+<lb/>vodd i tynnid hwynt oddiwrth y brenin //</seg>&nbsp;<seg n="4">ag yna i
+<lb/>dywad y mab / wrth y dvc // <q>arglwydd</q> heb ef / <q>a <w>wdd<lb rend="shy"/>ochwi</w> / a gaidw y brenin / i air a<isp/><apo/>u brwmais / os
+<lb/>myvi a ddychon / kyflenwi i wyllys ef //</q> a<isp/><apo/>r dvc
+<lb/>a ddywad / <q>i<dsp/>dd<isp/>wyf j yn tybiaid i gwna //</q> a<isp/><apo/>r mab
+<lb/>a ddywad // <q>mi a ddoda<!-- -d- smudged or corr--> vy mywyd mewn gwystl i
+<lb/>kwpla j wyllys y brenin //</q>&nbsp;<q>a<!--E?; cf Egip--> vynny di i mi ovyn
+<lb/>i<isp/><apo/>r brenin /</q> / hebe y dvc // <q>Mynnaf</q> hebe y mab // ag
+<lb/>yna i<dsp/>dd<isp/>aeth y dvc / at y brenin / ag a ddywad // <q>V<apo/><isp/><w>arg<lb rend="shy"/>lwydd</w>&nbsp;<del>he</del> vrenin</q> heb ef // <q>dyma wr jevank / yr hwn
+<lb/>a sydd gall / a chyvarwydd / yr hwnn a sydd yn addo
+<lb/>kyflenwi ych wyllys chwi o blegid y brain / os
+<lb/>kyflenwchwithav bob peth / ag a ddarfv i chwi i
+<lb/>addo //</q> a<isp/><apo/>r brenin a dyngawdd myn koron i <w>vrenini<lb rend="shy"/>aeth</w> / i kwplai ef i holl addewid //</seg>&nbsp;<seg n="5">ag yna i dauth
+<lb/>y mab geyr bronn y brenin // a phan i gwelas y
+<lb/>brenin ef // ef a ddywad wrtho // <q>O ty<dsp/>di vab teg / a
+<pb n="70v"/>
+<lb/>wddost di roddi ateb y<isp/><apo/>m kwestiwn j //</q>&nbsp;<q>Gwnn <w>ar<lb rend="shy"/>glwydd</w></q> hebe y mab // <q>Ych kwestiwn chwi yw hynn
+<lb/>am y brain // Ar serten o amser / i<dsp/>dd<isp/>oedd dwy
+<lb/>vran // kymar a chymares // ag ef a aned <w>ydd<lb rend="shy"/>ynt</w> y drydydd vran // ag yn<isp/>y lle hwnnw i<dsp/>dd<isp/>oedd
+<lb/>kymaint o brinder / val i<dsp/>dd<isp/>oedd yn anodd i <w>ddyni<lb rend="shy"/>on /</w>&nbsp;<orig reg="anifeiliaid">nevailaid</orig> / ag adar / gael i trwydded // val <w>i<lb rend="dsp"/>dd<isp/>oeddynt</w> yn mairw o aisav trwydded // A<isp/><apo/>r pryd
+<lb/>hynny / i<dsp/>dd<isp/>oedd y <orig reg="drydydd">drydy</orig> vran yn jevank yn<isp/>y
+<lb/>nyth // ag yna / i<dsp/>dd<isp/>aeth y gymares / i gaiso <w>trwy<lb rend="shy"/>dded /</w> ag ny ddauth hi yn<isp/>y hol mwy i<isp/><apo/>r nyth // a<isp/><apo/>r <w>kym<lb rend="shy"/>ar</w> a <orig reg="drafaelodd">dryvaelawdd</orig> / i gaiso trwydded i<isp/><apo/>r vran jevank /
+<lb/>a<isp/><apo/>u magv a orug ef / yny oedd hi yn abl i <orig reg="ehedeg">hydeg</orig>
+<lb/>gydag ef // a phan aeth y prinder haibo // i dauth y
+<lb/>vran gymares ailwaith / at y vran jevank // a hi a
+<lb/><add place="margin">vynn</add> dala <orig reg="cymdeithas">kedmaithias</orig> a hi // a phan welas y vran <orig reg="wryw">wrw</orig>
+<lb/>hynny / ef a vynnai i hela hi ymaith o<isp/><apo/>i <orig reg="cymdeithas"><w>kedmaith<lb rend="shy"/>ias</w></orig> hwynt // am yddi <q>i gadael hwynt / pan oedd y
+<lb/>kiw yn jevank / yn egwan / ag yn anghenraid yddo
+<lb/>ef wrth help i gadw<!--sth ins above?--> i vywyd // ag am hynny / ny chaiff
+<lb/>hi ddim o<isp/><apo/>i kwmpniaeth hwynt //</q> ag y mae hithav
+<lb/>yn pledo // ddarfod yddi hi oddef kur / a dolur mawr
+<lb/>ar i anedigaeth ef i<isp/><apo/>r byd // ag am hynny / vod yn
+<lb/>jawnach yddi gael i <orig reg="gymdeithas">gedmaithias</orig> ef / na<isp/><apo/>v dad // a
+<lb/>llyma <apo/>r achos i maent hwy y<isp/><apo/>ch dilyn chwi <w>arg<lb rend="shy"/>lwydd /</w> i gaiso barn gyviawn / pa vn o<dsp/>honynt
+<lb/>hwy / a ddyly kael y vran jevank yn<isp/>y chwmpniaeth /
+<pb n="71r"/>
+<lb/>ag am hynny arglwydd i maent hwy yn <w>gwnae<lb rend="shy"/>thur</w> y kri hynn / a<isp/><apo/>r trwbl arnochwi // ag ond i
+<lb/>chwi roddi barn vnion ryddynt / ny chewchwi i
+<lb/>gweled hwy byth y<isp/><apo/>ch trwblo chwi //</q></seg>&nbsp;<seg n="6">ag yna i dywad y
+<lb/>brenin // <q>er <orig reg="i 'w">yddy</orig><!--only reg'd once--> vam ef / gael travael / ar i anedigaeth
+<lb/>ef i<isp/><apo/>r byd // nid ody hynny / yn<isp/>y helpy hi ddim // Kans
+<lb/>gwedy eni ef / i<dsp/>dd<isp/>oedd y trwbl / a<isp/><apo/>r tristyd / gwedy
+<lb/>droi yn llawenydd yddi // ag am yddy vam i ado ef
+<lb/>pan oedd ef yn<isp/>y nyth yn wann / ag yn jevank / pan
+<lb/>oedd raid yddo ef wrth help a swkr // a<isp/><apo/>u dad yn
+<lb/>taring gyda <apo/>i giw / i gaiso trwydded yddy vagv /
+<lb/>a<isp/><apo/>u rekyfro ef // ag am hynny / i<dsp/>dd<isp/>wyf j / yn roi
+<lb/>barn / na bo i<isp/><apo/>r vran jevank ddilyn dim o<isp/><apo/>i mam /
+<lb/>eithr dilyn i thad //</q> a phan glywas y brain hynny /
+<lb/>ef aeth dwy yr vn ffordd yn gytvn // ag vn i ffordd
+<lb/>arall dan levain // ag ny welad hwy byth yn<isp/>y wlad
+<lb/>honno //</seg>&nbsp;<seg n="7">ag yna i govynnawdd y brenin i<isp/><apo/>r mab / pa
+<lb/>vodd i gelwid ef // a<isp/><apo/>r mab a ddywad / mae alexander
+<lb/>oedd i enw ef // ag yna i dywad y brenin // <q>Raid i ti o
+<lb/>hynn allan vy<isp/>ngalw j yn dad i ti // a thi a gav
+<lb/>briodi vy merch j /</q> ag yna i tariawdd alexander
+<lb/>gyda <apo/>r brenin / ag i<dsp/>dd<isp/>oedd ef yn gariadys gan
+<lb/>bawb // kans i<dsp/>dd<isp/>oedd ef yn arfer i hvnan mewn
+<lb/>jawnder / glendid / a gwroldeb // val i<dsp/>dd<isp/>oedd ef yn
+<lb/>ennill y gair ar bawb o<isp/><apo/>r wlad honno //</seg>&nbsp;<seg n="8">a<isp/><apo/>r amser
+<lb/>hynny / i<dsp/>dd<isp/>oedd amherawdr yn Ryvain a elwid
+<lb/>Taitvs / a hwnnw a oedd voneddigaidd / a gwrol / val
+<pb n="71v"/>
+<lb/>nad oedd nag amherawdr / na brenin / na phryns
+<lb/>yn<isp/>yr holl vyd yn debig yddo ef // a phan <w>glyw<lb rend="shy"/>as</w> alexander hynny // ef a ddywad wrth y brenin //
+<lb/><q>Vy arglwydd dad</q> heb ef // <q>mi a glywa vod amherawdr
+<lb/>gwych yn Ryvain // ag i mae arnaf chwant <w>myn<lb rend="shy"/>ed</w> i daring ennyd yddy lys ef / i ddysgi arferion
+<lb/>val i bewn j aravach // o bai vodlon genychwi
+<lb/>vy<isp/>n<dsp/>had i mi vyned //</q> ag yna i dywad y brenin //
+<lb/><q>da gennyf j hynny</q> heb ef // <q>Ond mi a vynwn i
+<lb/>chwi amledd o aur ag arian / a phethav <w>angenrai<lb rend="shy"/>diol</w> am law hynny // A hevyd / mi a vynnwn i
+<lb/>chwi briodi vy merch j / kyn i<dsp/>dd<isp/>elych o dref //</q> ag yna
+<lb/>i dywad alexander // <q>o arglwydd dad</q> heb ef / <q>e vydd
+<lb/>bodlon genychwi / vy ffafro j yn awr // a phan <w>ddel<lb rend="shy"/>wyf</w> j adref ailwaith / mi a<isp/><apo/>u priodaf hi trwy
+<lb/>anrydedd / val i darperid //</q> ag yna i dywad y brenin //
+<lb/><q>val i bo ych wyllys chwi / am hynny</q> heb ef //</seg>&nbsp;<seg n="9">ag yna
+<lb/>i kymerth alexander i gennad oddiwrth y brenin /
+<lb/>ag aeth i lys yr amherawdr // ag ef a syrthiawdd ar
+<lb/>i linniav geyr bronn yr amherawdr // ag a<isp/><apo/>u <w>anryde<lb rend="shy"/>ddawdd</w> ef // a<isp/><apo/>r amherawdr a<isp/><apo/>u kyvodes ef i vynydd
+<lb/>ag a<isp/><apo/>i kysannawdd ef / gan ovyn / o pa le ir <w>han<lb rend="shy"/>oedd</w> ef // ag yna i dywad alexander // <q>Y<dsp/>dd<isp/>wyf j
+<lb/>yn etivedd i vrenin yr Eifft // a mi a ddauthym
+<lb/>yma / i wnaethur gwsanaeth / y<isp/><apo/>ch galleog ras chwi /
+<lb/>o bydd bodlon genychwi //</q> ag yna i dywad yr <w>amher<lb rend="shy"/>awdr /</w> vod / yddo ef r<unclear>a</unclear>eso<!--? ed roeso--> // a<isp/><apo/>r amherawdr / a<isp/><apo/>u
+<pb n="72r"/>
+<lb/>pwyntawdd ef yn garfer yddo // ag a<isp/><apo/>u gorchmynnawdd
+<lb/>ef i<isp/><apo/>r ystiwart // a<isp/><apo/>r ystiwart a ordainawdd ystavell
+<lb/>lan gyson yddo ef // a phob peth ag a oedd berthynys
+<lb/>gyda hynny // ag alexander / a ymddygawdd i hvnan
+<lb/>yn gall ag yn synwyrys // val i<dsp/>dd<isp/>oedd ef yn <w>garia<lb rend="shy"/>dys</w> gan bawb //</seg>&nbsp;<seg n="10">ag ychydig gwedy hynny // i dauth yno <add place="margin">vab i</add>
+<lb/>vrenin Phraink / i wasnaethv yr amherawdr // i<isp/><apo/>r
+<lb/>hwnn i govynnawdd yr amherawdr yddaw / pa vodd
+<lb/>i gelwid / ag o pa le i hanoedd // ag yntav a ddywad
+<lb/>mae lodwig oedd i enw // a mab i vrenin Phraink
+<lb/>oedd ef // ag yna i dywad yr amherawdr // <q>Mi a
+<lb/>wnaethym alexander yn <corr resp="transcr" sic="gyfer">gyrfer</corr> i mi // a chwithav
+<lb/>a gewch vod yn dwyn vy ffiol j // val i bo<dsp/>chwi
+<lb/>yn gwsnaethv vy mord j ych dav bob amser //</q> ag
+<lb/>ef orchmynnawdd yddy ystiwart ordaino ystavell
+<lb/>yddo yntav // a<isp/><apo/>r ystiwart a<isp/><apo/>u gosodes ef yn<isp/>yr vn
+<lb/>ystavell / ag alexander // a<isp/><apo/>r ddav wr hynn / a <w>oedd<lb rend="shy"/>ynt</w> gynhebyg y<isp/><apo/>w gilydd o bryd ag arferon / val nad
+<lb/>oedd neb ag adwaenai vn o<dsp/>naddynt oddiwrth i gilydd /
+<lb/>ond bod alexander / yn gyfrwyddach / ag yn gallach i
+<lb/>waithredoedd na lodwig // a<isp/><apo/>r ddav wr jevank hynn /
+<lb/>a gerynt i gilydd yn vawr //</seg>&nbsp;<seg n="11">ag ir oedd i<isp/><apo/>r amherawdr
+<lb/>vn verch yn vnig // yr honn a elwid Phlorenti // a
+<lb/>honno a gae vod yn etiveddes yddo ef / a<isp/><apo/>r <w>amher<lb rend="shy"/>awdr</w> a<isp/><apo/>u karai hi yn vawr // ag i<dsp/>dd<isp/>oedd i<isp/><apo/>r verch
+<lb/>yma ystavell i hvnan / a gwaison yddi // ag <w>i<lb rend="dsp"/>dd<isp/>oedd</w> yr amherawdr / yn arfer o ddanfon / saig
+<pb n="72v"/>
+<lb/><orig reg="beunydd">baenydd</orig> oddiar i vord i hvn / gan alexander
+<lb/>yddy verch / er dangos i karai ef hi //</seg>&nbsp;<seg n="12">ag ar <w>ddi<lb rend="shy"/>warnod</w> / ef a hapiodd vod alexander a bysnes
+<lb/>arno / ar bryd kino / val nad oedd ef yn gallv dyvod
+<lb/>i wasnaethv / na neb yn<isp/>y le // a phan wybv lodwig
+<lb/>hynny / ef a wasnaethawdd yn lle alexander // a
+<lb/>chwedy darfod gwsnaethv / yr amherawdr o<isp/><apo/>r <w>gwsan<lb rend="shy"/>aeth</w> diwethaf ar benn i linav / yr amherawdr a
+<lb/>orchmynawdd i lodwig / ddwyn y ddysgl i<isp/><apo/>r verch /
+<lb/>gan dybiaid mae alexander oedd ef // a lodwig a
+<lb/>gymerth y ddysgl / ag a<isp/><apo/>u dyg hi i<isp/><apo/>r verch // a<isp/><apo/>r verch
+<lb/>a adnabv / nad alexander oedd ef // a hi a <w>ovyn<lb rend="shy"/>nawdd</w> yddaw pwy oedd i vab / a pha vodd i <w>gel<lb rend="shy"/>wid //</w> ag yntav a ddywad / mae mab i vrenin <del>ffran</del>
+<lb/>Phraink oedd ef / a lodwig oedd i enw // ag yna i
+<lb/>dywad hithav // <q>duw a dalo i chwi ych labr //</q> ag
+<lb/>yna i<dsp/>dd<isp/>aeth ef ymaith // ag yn<isp/>y vann / i dauth <w>al<lb rend="shy"/>exander /</w> ag i kwplawyd gwsnaethv ar y vord / ag
+<lb/>i darfy kino //</seg>&nbsp;<seg n="13">ag yna i<dsp/>dd<isp/>aeth lodwig yddy <w>ysta<lb rend="shy"/>vell</w> yn dryglaf // ag yn<isp/>y vann i dauth alexander
+<lb/>yddy ystavell / ag arganfod lodwig yn<isp/>y wely // ag
+<lb/>yna i govynnawdd alexander / <q>o vy annwyl
+<lb/>ffrynd / a<isp/><apo/>m kedymaith lodwig<!--letter del before d --> / <orig reg="ba wedd">b<apo/><isp/>wedd</orig> velly / a pham
+<lb/>yw dy dristyd ti //</q> ag yna i dywad lodwig // <q>ny wn
+<lb/>j pa achos yw / ond i mi gwympo mewn dolur /
+<lb/>ag i<dsp/>dd<isp/>wyf j yn tybiaid / na ddiangaf j rag angav //</q>
+<lb/>ag yna i dywad alexander // <q>mi wnn achos dy glevyd
+<pb n="73r"/>
+<lb/>ti // pan authost di heddiw a<isp/><apo/>r saig <corr resp="scribe" sic="ir">y</corr><!--exact corr?--> verch yr <w>am<lb rend="shy"/>herawdr /</w> wrth i gweled hi yn vwyn / ag yn serchog
+<lb/>i <orig reg="enynnaist">nynaist</orig> di o<isp/><apo/>i chariad hi //</q> ag yna i dywad lodwig /
+<lb/><q>o alexander / ny allai holl veddygon y byd / ddeall
+<lb/>vy<isp/>nghlevyd j / yn gywirach na hynny // ond i<dsp/>dd<isp/>wyf j
+<lb/>yn ofni vy angav //</q> ag yna i dywad alexander / <q><w>Ky<lb rend="shy"/>mer</w> gynffwrt gwrol / mi a<isp/><apo/>th helpa di yn orav ag
+<lb/>i gallwyf //</q></seg>&nbsp;<seg n="14">ag yna i<dsp/>dd<isp/>aeth alexander i<isp/><apo/>r varchnad
+<lb/>ag ef a brynawdd napgyn / yn llawn main <w>gwrth<lb rend="shy"/>vawr</w> [heb wybod i lodwig] / ag a<isp/><apo/>u roddes ef i<isp/><apo/>r
+<lb/>verch // a hithav a ovynnawdd yddaw / pa le i <w>pryny<lb rend="shy"/>sai</w> ef y lliain kostfawr hwnnw // <q>O arglwyddes</q>
+<lb/>heb ef / <q>mab y brenin mwynaf o griston / a<isp/><apo/>i <w>danfo<lb rend="shy"/>nes</w> ef i chwi / o gariad arnochwi // ag er pan welas
+<lb/>ef chwi heddiw / i mae ef yn gorwedd yn glaf yn<isp/>y
+<lb/>wely // ag os goddevwchwi ef i varw / <orig reg="fe">vy</orig> vydd arnochwi
+<lb/>beriglav mawr //</q> ag yna i dywad hi // <q>O alexander /
+<lb/>e gynghorwchwi vi velly / i golli vy morwyndod /
+<lb/>duw a<isp/><apo/>m katwo j rag hynny // mi a dybiais na
+<lb/>byddychwi / y vath genadwr hynny dros neb ataf j /
+<lb/>ag am hynny / does ymaith o<isp/><apo/>m golwg j / ag na ddywaid
+<lb/>wrthyf j <orig reg="drosto">drysto</orig> ef mwy //</q> a phan glywas alexander
+<lb/>hynny / ef a wnaeth i ddywty yddi / ag aeth ymaith //</seg>&nbsp;<seg n="15">a
+<lb/>thrannoeth i<dsp/>dd<isp/>aeth alexander i<isp/><apo/>r varchnad / ag a <w>bry<lb rend="shy"/>nawdd</w>&nbsp;<orig reg="fodrwy">vydrwy</orig> vawr<dsp/>waithiog // ag ef a ddauth a hi
+<lb/>at y verch / ag a<isp/><apo/>u roddes hi yddi / heb wybod i lodwig /
+<lb/>ag ef a ddywad / mae lodwig a<isp/><apo/>u danfonawdd hi //
+<pb n="73v"/>
+<lb/>a phan welas hi y rodd gostfawr honno // hi a
+<lb/>ddywad // <q>Mae <apo/>n ryvedd gennyf j / kyn vynyched ag
+<lb/>gwelsochwi vy<dsp/>vi / na bysechwi yn dwedvd <orig reg="drosoch">drysoch</orig>
+<lb/>ych hvnan / ag nid dros arall //</q> ag yna i dywad <w>alex<lb rend="shy"/>ander //</w>&nbsp;<q>O arglwyddes</q> heb ef // <q>nid ody vy meddwl j
+<lb/>tiag atochwi ar y vath beth hynny // am nad ody vy
+<lb/>ryw wn j yn abl ym<dsp/>gwmparo a<isp/><apo/>ch bath chwi // ond
+<lb/>y neb a vo ganto gedymaith da // ef a ddyly gwnaethyr
+<lb/><orig reg="drosto">drysto</orig> mal kedymaith kywir // ag am hynny / y galleokaf
+<lb/>brynses / kymerwch dryeni arno ef / a gwnewch ef
+<lb/>yn jach o<isp/><apo/>i ddoluriav //</q> ag yna i dywad Phlorenti //
+<lb/><q>ewch ymaith yr owron / ny rof j vn ateb i chwi</q> //</seg>
+<seg n="16"><lb/>ag yna ir aeth ef i<isp/><apo/>r varchnad y <orig reg="trydydd">trydy</orig> dydd / ag a
+<lb/>brynawdd gwregis / yr hwnn a dalai vwy na <apo/>r <w>vyd<lb rend="shy"/>rwy /</w> ag a<isp/><apo/>u roddes<!--r ! --> ef i<isp/><apo/>r verch / yn arwybod i lodwig //
+<lb/>a phan welas hi yr arwydd kostfawr hwnnw // hi a
+<lb/>ddywad wrth alexander // <q>dywaid wrth lodwig / am
+<lb/>ddyvod y drydydd awr o<isp/><apo/>r nos heno y<isp/><apo/>m ystavell j / ag
+<lb/>ef a vydd y drws yn agored //</q> ag yna i<dsp/>dd<isp/>aeth <w>alex<lb rend="shy"/>ander</w> at i gedymaith lodwig / ag a ddywad wrtho //
+<lb/><q>Vy<isp/>nghariadys gedymaith lodwig / bydd lawen / mi
+<lb/>a droesym wyllys y verch atad ti // a heno mi ga <w>vy<lb rend="shy"/>ned</w> a thi / yddy hystavell hi //</q> a phan glywas lodwig
+<lb/>hynny / ef aeth yn holl jach // a<isp/><apo/>r nos honno / i<dsp/>dd<isp/>aeth
+<lb/>ef eti hi // ag yno i bv ef drwy <apo/>r nos mewn <w>digry<lb rend="shy"/>vwch</w> a llawenydd // ag o hynny allan i byont hwy
+<lb/>yll<isp/>dav yn gariadys at i gilydd //</seg>&nbsp;<seg n="17">ag velly i<dsp/>dd<isp/>oedd
+<pb n="74r"/><!--check microfilm for punctuation-->
+<lb/>lodwig yn arfer o gyrchv eti // val o<isp/><apo/>r diwedd / i <w>ty<lb rend="shy"/>biawdd</w> marchogion o<isp/><apo/>r llys // vod lodwig ynghvd a
+<lb/>merch yr amherawdr // a hwy a veddyliysant<!-- corr from/to -asant --> yndynt i
+<lb/>hvnain / pa vodd i gallent i ddala ef a<isp/><apo/>u ladd // ag
+<lb/>yna i klywas alexander hynny // ag ef a<isp/><apo/>u gwilawdd
+<lb/>hwynt yn vynych rag ofn yddynt ddala lodwig a<isp/><apo/>i
+<lb/>ladd // ag yna i hadnabyont hwy / vod alexander
+<lb/>yn gado lodwig / i vyned at verch yr amherawdr
+<lb/>yn heddychlon // ag alexander / a oedd yn dodi hvnan
+<lb/>yn vynych mewn perigl o<isp/><apo/>i vywyd / o<isp/><apo/>i hachos hwynt
+<lb/>heb wybod i lodwig // ond ef a wyddiad Phlorenti //</seg>
+<seg n="18"><lb/>ag ymhenn serten o amser / gwedy hynny // ef a ddauth
+<lb/>llythyrav at alexander / i ddangos marw i dad
+<lb/>yn<isp/>y gyfraith // a bod yn raid yddo ef ddyvod yn <w>eb<lb rend="shy"/>rwydd</w> adref / i dderbyn i vreniniaeth / gydag <w>anry<lb rend="shy"/>dedd</w> a llawenydd // ag yna i dangoses ef hynny i
+<lb/>lodwig / ag i Phlorenti / yr hain<!--isp/dsp?--> a oedd drist am
+<lb/>hynny // ag yna i<dsp/>dd<isp/>aeth alexander at yr amherawdr
+<lb/>ag a ddywad wrtho // <q>O<isp/><apo/>r galleokaf arglwydd</q> heb ef // <q>mi
+<lb/>a gevais lythyrav o varwolaeth vy<isp/>n<dsp/>had // ag i
+<lb/>mae yn angenraidiol i mi vyned i gymeryd vy
+<lb/><!--shy?-->mreniniaeth yn llaw / os kanedwchwi i mi
+<lb/>vyned // ond mi a allwn ymwrthod a<isp/><apo/>m hynys / ag
+<lb/>a<isp/><apo/>r maint da a sydd i mi yn<isp/>y byd / a tharing <add place="supralinear">g</add>yda
+<lb/>chwi / yn gynt nag i digiochwi wrthyf j //</q> ag yna i
+<lb/>dywad yr amherawdr // <q>alexander</q> heb ef / <q>i mae yn
+<lb/>drwm gennyf j / ych bod chwi yn myned ymaith // a<damage>m</damage>
+<pb n="74v"/><!--page faint, check microfilm-->
+<lb/>ych bod chwi yn orav gwsnaethwr y<isp/><apo/>m ty j // ond
+<lb/>ny ddyly amherawdr <orig reg="rwystro">rwstro</orig> neb yddy ddyvodiad
+<lb/>eithr yn gynt helpy i was i gael anrydedd a
+<lb/>gorchaviaeth // ag am hynny / ewch yn enw duw at
+<lb/>ych dyvodiad a<isp/><apo/>m bendith j gyda chwi //</q> ag yna i <w>ym<lb rend="dsp"/>jachawdd</w> alexander / a<isp/><apo/>r amherawdr // ag i<dsp/>dd<isp/>oedd <w>llaw<lb rend="shy"/>er</w> o<isp/><apo/>r llys / yn ddrwg gantynt i vynediad ef oddyno //</seg>
+<seg n="19"><lb/>a lodwig / a Phlorenti / a aethant yddy hebrwng ef
+<lb/>saith milldir / ag nys gadai alexander hwynt i
+<lb/>vyned ymhellach // ag yna i kwympysant hwy yll<isp/>dav
+<lb/>ar y ddaear o drymder // ag alexander / a<isp/><apo/>i kodes
+<lb/>hwynt i vynydd / ag a<isp/><apo/>i kynffwrdawdd hwynt / gan
+<lb/>ddwedvd / <q>O lodwig / vy annwyl ffrynd</q> heb ef // <q>mi
+<lb/>a<isp/><apo/>ch rybuddiaf chwi o blegid y peth a sydd ryngochwi
+<lb/>a<isp/><apo/>r arglwyddes yma / i chwi i gadw ef / yn ddirgela
+<lb/>ag i gallochwi / ag nas dangosochwi i neb // Kans
+<lb/>mi wnn i daw arall yno y<isp/><apo/>m lle j / a hwnnw
+<lb/>a<isp/><apo/>ch gwila chwi ddydd a nos / i gaiso ych dala chwi
+<lb/>yn <orig reg="feius">vaiys</orig> / er mwyn kael ych kyhuddo chwi //</q> ag
+<lb/>yno i dywad lodwig // <q>O alexander</q> heb ef / <q>mi a<isp/><apo/>u
+<lb/>kadwaf ef / yn ddirgela ag i gallwyf // eithr beth a
+<lb/>wnaf j / pan gollwyf ych kwmpniaeth chwi // ond
+<lb/>mi a ddaisyva / arnoch / gymeryd y vydrwy honn <w>gen<lb rend="shy"/>yf</w> j / er vy<isp/>nghovio j //</q> ag yna i dywad alexander /
+<lb/><q>mi a gymeraf y vydrwy yn llawen o gariad arnoch
+<lb/>chwi // eithr a<isp/><apo/>m bod j heb<dsp/>ddi hi / ny ollyngwn j chwi
+<lb/>byth yn angof //</q> ag yna i kymerth ef y vydrwy / a
+<pb n="75r"/><!--page faint, check microfilm-->
+<lb/>chan ymvraichaido / a chusanv i gilydd ymjachae
+<lb/><add place="margin">a</add> myned adref a wnaethant //</seg>&nbsp;<seg n="20">ag ymhenn serten o
+<lb/>amser gwedy hynny / i dauth<del>ant</del> mab brenin <orig reg="Ysbaen">Spaen</orig>
+<lb/>yr hwnn a elwid Gwido i lys yr amherawdr i <w>dri<lb rend="shy"/>go //</w> a hwnnw a gavas myned i<isp/><apo/>r vn ystavell a lodwig /
+<lb/>yn erbyn wyllys lodwig // a Gwido adnaby hynny // ag
+<lb/>am hynny i dalioedd ef gynfigen wrth lodwig / val
+<lb/>na baiddawdd ef vyned at y verch yn hir o amser
+<lb/>rag ofn Gwido // etto er hynny / i<dsp/>dd<isp/>oedd ef yn<isp/>y charv hi
+<lb/>yn gymaint / ag i<dsp/>dd<isp/>aeth ef eti ailwaith val ir
+<lb/>oedd o<isp/><apo/>r blaen // ag yna i adnabv Gwido / vod lodwig
+<lb/><orig reg="yng nghyfeillach">ynghyvaillach</orig> merch yr amherawdr // ag ef a wiliawdd
+<lb/>yn kyhyd <orig reg="beunoeth">baenoeth</orig> / val ir adnaby ef o<isp/><apo/>r diwedd / vod
+<lb/>lodwig mewn kyvaillach a hi //</seg>&nbsp;<seg n="21">ag ef a hapiodd ar
+<lb/>ddiwarnod / vod yr amherawdr yn<isp/>y nauadd / yn <w>kan<lb rend="shy"/>mol</w> alexander / am i voneddi<add place="supralinear">g</add>aiddrwydd a<isp/><apo/>u ddoethineb //
+<lb/>ag yna i dywad Gwido // <q>arglwydd</q> heb ef / <q>ny thalai <w>alex<lb rend="shy"/>ander</w> i ganmol velly // kans i<dsp/>dd<isp/>oedd ef yn drautur
+<lb/>yr hyd i bv ef y<isp/><apo/>ch llys chwi //</q> a<isp/><apo/>r amherawdr a <w>ovyn<lb rend="shy"/>nawdd</w> pa vodd // a Gwido a ddywad // <q>nid<isp/>oes i chwi
+<lb/>verch ond vn / a honno / i mae lodwig gwedy salwhae
+<lb/>hi / drwy help alexander //</q> ag yna i digiawdd yr <w>am<lb rend="shy"/>herawdr</w> yn <orig reg="greulon">groelon</orig> // ag ar hynny / dyma lodwig yn
+<lb/>dyvod i<isp/><apo/>r nauadd // a phan i gwelas yr amherawdr
+<lb/>ef // ef a ddywad wrtho // <q>pa beth a glywaf j am<dsp/>danad
+<lb/>ti gorff drwg anghywir // ag os gellir ei brwvo <w>ar<lb rend="shy"/>nad</w> ti a gav ddioddef yr angav <orig reg="creulonaf">kroelonaf</orig> ag a
+<pb n="75v"/>
+<lb/>ellir i ddevaiso i ti //</q> ag yna i govynnawdd <w>lod<lb rend="shy"/>wig //</w>&nbsp;<q>arglwydd beth yw <apo/>r achos //</q> ag yna i dywad
+<lb/>Gwido // <q>i<dsp/>dd<isp/>wyd ti yn <corr resp="transcr" sic="gowedd">gorwedd</corr>&nbsp;<orig reg="beunoeth">baenoeth</orig> gyda merch
+<lb/>vy arglwydd j / ag yn<isp/>y salwhae hi // a hynny / mi a<isp/><apo/>u
+<lb/>gwnaf yn dda o<isp/><apo/>m korff / ar dy gorff di //</q> ag yna i
+<lb/>dywad lodwig // <q>i<dsp/>dd<isp/>wyf j yn wirion / am y peth
+<lb/>hwnnw / a<isp/><apo/>r kelwydd ir wyd ti yn<isp/>y haerv arnaf j /
+<lb/>a hynny mi a<isp/><apo/>u prwvaf mewn ymladd ar dy be<expan>n</expan>n
+<lb/>di //</q> a<isp/><apo/>r amherawdr a bwyntawdd dydd <corr resp="transcr" sic="ydynt">yddynt</corr> i <w>ym<lb rend="shy"/>ladd //</w></seg>&nbsp;<seg n="22">ag yna i ddoeth lodwig at y verch / ag a ddywad
+<lb/>wrthi / val i daroedd i Gwido i kyhuddo hwynt
+<lb/>wrth i thad hi // <q>ag i mae diwarnod gwedy <apo/>r <w>am<lb rend="shy"/>herawdr</w> i osod i ni ymladd mi<isp/>a Gwido // ag i
+<lb/>mae <apo/>n raid i mi gael ych kyngor chwi // Kans
+<lb/>chwi a wddoch / nad wyf j yn abl i ymladd a Gwido
+<lb/>am i vod ef yn gryf / ag yn galed mewn arfav // a
+<lb/>minnav yn nawsaidd / ag yn wann // a<isp/><apo/>r kweryl yn
+<lb/>ddrwg // ag os ymladd a wnaf j ag ef / nid wyf j ond
+<lb/>gwr marw / a hynny a vydd kwilyddvs i chwithav //</q>
+<lb/>ag yna i dywad Phlorenti // <q>gwnewch vy<isp/>nghyngor
+<lb/>j // o<isp/><apo/>r dydychwi yn gwann <orig reg="drosto">drysto</orig>&nbsp;<orig reg="eich hunain">y<dsp/>chvnan</orig> // ewch yn
+<lb/>ebrwydd at vy n<dsp/>had / a dwedwch wrtho ef / ddyvod <w>llythyr<lb rend="shy"/>av</w> atochwi oddiwrth ych tad / yr hain a sydd yn dangos
+<lb/>i vod ef yn<isp/>y wely angav // a<isp/><apo/>u vod ef yn daisyf kael
+<lb/>ych gweled chwi / val i gallo ef osod i vreniniaeth <!--sth del / i?-->
+<lb/>a<isp/><apo/>u dda i chwi / kyn ir elo o<isp/><apo/>r byd hwnn // a daisyvwch
+<lb/>arno gael myned i ymweled ag ef // ag yddo oedi y
+<pb n="76r"/>
+<lb/>dydd ymladd a Gwido // try vochwi yn myned / ag yn <w>dy<lb rend="shy"/>vod //</w> a phan gaffochwi gennad gan vy<isp/>n<dsp/>had // ewch
+<lb/>yn ddirgel / at alexander / a dangoswch yddo ef bob
+<lb/>peth / a<isp/><apo/>r achos i dauthochwi yno // a daisyvwch arno ef
+<lb/>ddyvod i ymladd a Gwido<!--sth del--> drosochwi //</q> a phan
+<lb/>glywas lodwig y kyngor hynny gan Phlorenti / ef a
+<lb/>vy vodlon i hynny // ag yna i<dsp/>dd<isp/>aeth ef at yr <w>am<lb rend="shy"/>herawdr</w> / i ddwedvd i holl ddamwain // ag ef a <w>ga<lb rend="shy"/>vas</w> kennad gan yr amherawdr i vyned i ymgais
+<lb/>a<isp/><apo/>i dad / ag oedi y dydd ymladd yn hwy / yny ddelai ef
+<lb/>ailwaith yn<isp/>y ol //</seg>&nbsp;<seg n="23">ag ef a gymerth i gennad ag a
+<lb/>aeth parth ag Egipt // yny ddauth ef i lys alexander //
+<lb/>a phan wybv alexander / ddyvod lodwig yno // ef a
+<lb/>ddauth yn<isp/>y erbyn ef / gan i rysewi ef yn <w>anrydedd<lb rend="shy"/>vs /</w> ag yn llawen // ag yna i dywad lodwig // <q>O vy<isp/><w>ng<lb rend="shy"/>haredig</w><!--isp + w?--> ffrynd / a<isp/><apo/>m hanwyl gedymaith // i mae vy <w>my<lb rend="shy"/>wyd</w> j a<isp/><apo/>m hangav ar dy law di // Kans ti a ddwedaist
+<lb/>i doi ataf j gedymaith / yr hwnn a<isp/><apo/>m bradychai j /
+<lb/>ony bewn j kall // ag yna i dauth mab i vrenin
+<lb/><orig reg="Ysbaen">Spaen</orig> / yr hwnn a elwir Gwido // a hwnnw a<isp/><apo/>n
+<lb/>gwilwys <add place="supralinear">ni</add> / yny ddalawdd ef ni yn <orig reg="feius">vaiys</orig> // ag ef a<isp/><apo/>n
+<lb/>kyhuddawdd ni wrth yr amherawdr // a<isp/><apo/>r amherawdr
+<lb/>a bwyntawdd diwarnod i ni ymladd gorff dros
+<lb/>gorff / am y kweryl // ag i <damage>ma</damage>e Gwido yn gryf / ag
+<lb/>yn galed // a minnav yn <damage>wann</damage> / ag yn nawsaidd / a<isp/><apo/>r
+<lb/>kweryl yn ddrwg // ag am hynny / i kynghores Phlorenti
+<lb/>i mi ddyvod atochwi [kans hi a wyddiad ych bod chwi
+<pb n="76v"/>
+<lb/>yn ffrynd ffyddlon i ni] / i ddaisyf arnochwi <w>ddy<lb rend="shy"/>vod</w> i ymladd a Gwido <add place="supralinear">y<isp/><apo/>m lle j</add> // am ych bod chwi yn debig
+<lb/>i myvi //</q> ag yna i govynnawdd alexander / pa bryd
+<lb/>i<dsp/>dd<isp/>oedd y dydd ymladd gwedy bwynto // ag yna i dywad
+<lb/>lodwig / mae <q>yr wythfed dydd i heddiw //</q> ag yna i
+<lb/>dywad alexander // <q>Y<dsp/>vory i bydd vy mriodas j / a<isp/><apo/>m
+<lb/>naithor // ag ef a ddarfy i mi rybuddio vy ffryns
+<lb/>a<isp/><apo/>m dailaid i<isp/><apo/>r naithor // ag o tariaf j yma y<dsp/>vory /
+<lb/>ny allaf j vod yno erbyn y dydd hwnnw // os minnav
+<lb/>nid<isp/>af yno / i ymladd ag ef // ef a ddarfy am Phlorenti
+<lb/>a thithav // ag am hynny / ny wnn j beth a wnaf //</q></seg>&nbsp;<seg n="24">a
+<lb/>phan glywas lodwig hynny / ef a syrthiawdd i<isp/><apo/>r llawr
+<lb/>gan ymovudio yn dost / a dwedvd // <q>trymder / ag alaeth
+<lb/>a sydd bob ystlys i mi //</q> ag yna i dywad alexander //
+<lb/><q>kyvod a bydd lawen / a chynffwrdys / nid ymwrthodaf
+<lb/>j a thi / o serch kolli vy<isp/>mreniniaeth a<isp/><apo/>m bywyd // Ond
+<lb/>hynn yw vy meddwl j // am yn bod ni yn debig / vn i<isp/><apo/>r
+<lb/>llall / ag na all neb ond ni yn dav / adnabod vn <w>o<lb rend="dsp"/>honom</w> ni oddiwrth y llall // a phawb a<isp/><apo/>ch kymer chwi
+<lb/>y<isp/><apo/>m lle j // ag am hynny / teriwchwi yma i briodi
+<lb/>vy<isp/>ngwraig j / y<isp/><apo/>m lle j // a chynhelwch bob peth / val
+<lb/>pe bewn j yma vy hvnan // ond pan ddelochwi i<isp/><apo/>r
+<lb/>gwely gyda vy<isp/>ngwraig j // byddwchwithav gywir a
+<lb/>ffyddlon i minnav // a minnav af yno erbyn yr <w>ym<lb rend="shy"/>ladd //</w> ag os duw a ry i mi y gorav / ar y gwr hwnw /
+<lb/>mi a ddawaf yma ailwaith yn ddirgel // a chwithav
+<lb/>a gewch vyned yno yn ddirgel //</q> ag ar hynny / i<dsp/>dd<isp/>aeth
+<pb n="77r"/>
+<lb/>alexander / tia llys yr amherawdr //</seg>&nbsp;<seg n="25">a<isp/><apo/>r borav <w>drann<lb rend="shy"/>oeth /</w> i dauth lodwig i<isp/><apo/>r eglwys / yr hwnn a oeddid
+<lb/>yn tybiaid / mae alexander oedd ef // ag ef a briodes
+<lb/>gwraig alexander / ag a gynhalioedd y naithor yn
+<lb/>llawen / gydag amledd o vwydav melys / a digonedd
+<lb/>o bob ryw winoedd // a phan aeth hi yn nos // ef aeth
+<lb/>lodwig i<isp/><apo/>r gwely gyda <apo/>r vrenhines // ag ef a ddodes i
+<lb/>gleddyf <orig reg="yn noeth">yn hoeth</orig> ryngto ef a hi / bob nos yn<isp/>y gwely
+<lb/>nes dyvod alexander adref // ag yna i bv drwm
+<lb/>gan y vrenhines hynny / ond ny ddywad hi ddim
+<lb/>wrth lodwig //</seg>&nbsp;<seg n="26">a phan ddauth alexander geyr
+<lb/>bronn yr amherawdr / ef a ddywad wrtho // <q>O
+<lb/>arglwydd amherawdr</q> heb ef // <q>mi a edais vy<isp/>n<dsp/>had
+<lb/>yn glaf / ag a ddauthym yma i gadw vy <w>anryd<lb rend="shy"/>edd /</w> a<isp/><apo/>m prwmaison //</q> ag yna i dywad yr <w>amher<lb rend="shy"/>awdr //</w>&nbsp;<q>i<dsp/>dd<isp/>ychwi / yn gwnaethur yn debig i wr
+<lb/>gwych // a hap a ddaw i chwi o<isp/><apo/>ch kweryl da //</q> a
+<lb/>phan glywas Phlorenti / ddyvod alexander yno / hi
+<lb/>a ddanfones yn<isp/>y ol ef // a phan ddauth ef eti / hi a<isp/><apo/>u
+<lb/><orig reg="breicheidiodd">brychaidawdd</orig> ef / ag a<isp/><apo/>i kusanawdd ef / gan ovyn yddo
+<lb/>pa le i gadawsai ef i chariad hi lodwig // ag yntav
+<lb/>a ddywad yddo i ado ef yn vrenin yn<isp/>yr Eigipt / yn<isp/>y
+<lb/>le ef // ag yna i<dsp/>dd<isp/>aeth ef i ystavell lodwig / ag
+<lb/>nid<isp/>oedd yn<isp/>y llys / neb yn tybiaid nad lodwig oedd
+<lb/>ef / ond Phlorenti yn vnig //</seg>&nbsp;<seg n="27">a thrannoeth kynn
+<lb/>myned i ymladd / i dywad alexander wrth yr <w>am<lb rend="shy"/>herawdr</w> [<orig reg="yng ng&wcirc;ydd">yngwydd</orig> Gwido] <q>arglwydd amherawdr</q> heb
+<lb/>ef / <q>i mae <apo/>r Gwido yn ffalst / ag yn anghywir / y<isp/><apo/>m
+<pb n="77v"/>
+<lb/>kyhuddo j wrthychwi / ag yn dwedvd vy mod j mewn
+<lb/>kyvaillach / a<isp/><apo/>ch merch chwi / ag yn di<dsp/>anrydeddv i
+<lb/>chorff hi // ag am hynny / mi a dyngaf i<isp/><apo/>r holl <w>angy<lb rend="shy"/>lion /</w> na bv hi yn<isp/>y vath <orig reg="gydnabyddiaeth">gyddnabyddiaeth</orig> hynny / gyda
+<lb/>myvi er<dsp/>joed // a <!--letter del--> heddiw [gyda help duw] / mi a
+<lb/>wnaf hynny yn dda / ag a<isp/><apo/>u prwvaf ar i gorff ef //</q>
+<lb/>ag yna i dywad Gwido // <q>minnav a ddwedaf / ag a <w>dyng<lb rend="shy"/>af</w> i<isp/><apo/>r angylion bendigedig / ag i bob peth ag a wnaeth
+<lb/>duw / vod kydnabyddiaeth ryngod ti a hi / ag i ti / i
+<lb/>salwhae hi // a mi a wnaf hynny yn dda ar dy
+<lb/>benn di //</q> ag ar hynny / hwy authant ar i mairch / ag
+<lb/>a rythrysant ynghvd / yny dorres i dwy ffonn hwynt
+<lb/>yn ddryllav man // ag yna i tynysant hwy i <w>kleddyf<lb rend="shy"/>av /</w> ag a ymffystysant yn hir // ag o<isp/><apo/>r diwedd alexander
+<lb/>gyda nerth mawr / ar vn dyrnod / a dorrawdd penn
+<lb/>Gwido oddi<isp/>ar i gorff / ag a<isp/><apo/>u dyg ef i Phlorenti / a
+<lb/>hithav a<isp/><apo/>i dyg ef at i thad / gan ddwedvd wrtho /
+<lb/><q>dyma benn Gwido //</q> ag yna i danfones yr <w>amher<lb rend="shy"/>awdr</w><!--MS -awr / corr--> yn ol alexander [yr hwnn oedd ef yn tybiaid
+<lb/>mae lodwig oedd ef] / ag a ddywad wrtho // <q>O lodwig</q>
+<lb/>heb ef / <q>heddiw i amddiffynnaist di vy merch j / a
+<lb/>pheth bynnag a vo tailwng i ti i gael / ti a<isp/><apo/>v kau //</q>
+<lb/>ag yna i dywad alexander / vod duw yn helpy y
+<lb/>neb a vo ar gyviawnder // ag yn gwanhav y <w>kyn<lb rend="shy"/>vigennwyr //</w>&nbsp;<q>Ond mi a ddaisyvaf arnochwi <w>arg<lb rend="shy"/>lwydd</w> roddi kennad i mi / vyned i ymgais a<isp/><orig reg="fy nhad">n<dsp/>had</orig>
+<lb/>yr hwnn a edais j yn glaf //</q> ag yna i dywad yr <w>am<lb rend="shy"/>herawdr //</w>&nbsp;<q>ewch</q> heb ef / <q>a dewch ailwaith ar vyrr //
+<pb n="78r"/>
+<lb/>am na allaf j vod yn hir heb ych gwsanaeth
+<lb/>chwi //</q></seg>&nbsp;<seg n="28">ag yna i kymerth alexander i gennad / ag
+<lb/>a aeth parth a<isp/><apo/>u wlad i hvn // a phan i gwelas
+<lb/>lodwig ef // ef a<isp/><apo/>u grysewis ef yn llawen / gan <w>wnae<lb rend="shy"/>thyr</w> yddo sir vawr // a dwedvd wrtho // <q>O vy<isp/>nghariadys
+<lb/>ffrynd o<isp/><apo/>m holl <add place="supralinear">ffrynds</add> i gyd // pa vodd i darfv i chwi <orig reg="sbidio">ysbydo</orig>
+<lb/>ych siwrnai // a phwy ddiwedd a ddygysochwi //</q> ag
+<lb/>yna y dywad alexander // <q>mi a leddais dy elyn
+<lb/>a<isp/><apo/>th gyhuddwr di // a does di i lys yr amherawdr i
+<lb/>wasnaethv // kans mi a enillais i ti vwy o <w>gar<lb rend="shy"/>iad</w> yno / nag a vy i ti er<dsp/>joed o<isp/><apo/>r blaen //</q> ag
+<lb/>yna i dywad lodwig // <q>nid yn awr yn vnig i
+<lb/>kadwysochwi vy mywyd j // ond llawer gwaith kyn
+<lb/>hynn // ag am hynny / nid<isp/>wyf j yn abl i daly i chwi /
+<lb/>eithr duw a dalo ywch //</q> ag yna ir aeth lodwig i
+<lb/>lys yr amherawdr <orig reg="drachefn">drychefn</orig> //</seg>&nbsp;<seg n="29">ag alexander y nos
+<lb/>honno / a aeth i<isp/><apo/>r gwely gyda <apo/>r vrenhines // ag yna
+<lb/>i dywad ef wrthi / airav teg serchawl / gan i
+<lb/>braichaido / a<isp/><apo/>u chysanv // a hithav a ddywad / <q>chwi
+<lb/>a vyoch yn hir / heb ddangos i mi ddim kariad /
+<lb/>na throi ych wyneb ataf j // a pham i dodysochwi
+<lb/>ych <add place="supralinear">kleddyf</add>&nbsp;<orig reg="yn noeth">yn hoeth</orig> ryngoch a mi yn<isp/>y gwely //</q> ag yna i
+<lb/>dywad ef <corr resp="transcr" sic="wrthdi">wrthi</corr> hi // <q>O vy arglwyddes / a<isp/><apo/>m <w>brenhin<lb rend="shy"/>es</w></q> heb ef // <q>ny wnaethym j hynny / er dim drygoni
+<lb/>i chwi / ond o ragorol gariad atochwi //</q> a hithav
+<lb/>a oedd yn tybiaid // mae o vick a hi i gwnathoedd
+<pb n="78v"/>
+<lb/>ef hynny // a hi a ddywad i byddai hi gymwys ag
+<lb/>ef //</seg>&nbsp;<seg n="30">ag i<dsp/>dd<isp/>oedd yn<isp/>y llys varchog / yr hwnn a vysai
+<lb/>hi yn<isp/>y garv yn vawr o<isp/><apo/>r blaen // ag o hynny allan
+<lb/>hi a ddechrauawdd karv y marchog hwnnw vwy vwy //
+<lb/>ag o<isp/><apo/>r diwedd / hwy a veddyliasant / pa vodd i gallent
+<lb/>hwy ddiva y brenin alexander // a hwy a gawsant
+<lb/>wenwyn / ag a<isp/><apo/>u roesant yddo ef // ag ony bysai i
+<lb/>vod ef yn gryf / ag yn dda i natur / marw a vysai
+<lb/>ef // eithr ef a waithawdd y gwenwyn oddy vewn
+<lb/>yddy gorff ef / yny aeth ef yn grach drosto / ag yn gripl
+<lb/>gwann glaf / na welad er<dsp/>joed ar y ddaear i vath ef //
+<lb/>a<isp/><apo/>r vrenhines / a<isp/><apo/>r arglwyddi / a<isp/><apo/>r gwyr boneddigion
+<lb/>o<isp/><apo/>r ynys / a ddwedysant // nad oedd<!--oeddi?--> y vath gripl ag
+<lb/>oedd ef / yn weddvs i raeno<!--GPC--> arnynt // am na
+<lb/>allai ef ennill etiveddion glan // ag yna i gyrrwyd
+<lb/>ef i maes o<isp/><apo/>i rialwch / ag o<isp/><apo/>i ynys //</seg>&nbsp;<seg n="31">ag yn<isp/>y <w>kyvam<lb rend="shy"/>ser</w> hynny / i bv varw yr amherawdr // ag i bv
+<lb/>varw tad lodwig brenin Phraink // a lodwig / a
+<lb/>briodawdd Phlorenti // ag yna i<dsp/>dd<isp/>oedd lodwig yn
+<lb/>amherawdr Ryvain / ag yn vrenin Phraink // a
+<lb/>phan glywas alexander hynny // ef a ddywad yndo
+<lb/>i hvn // <q>i mae vy<isp/>nghedymaith j yn awr / yn <w>am<lb rend="shy"/>herawdr</w> yn Ryvain / ag yn vrenin Phraink / a
+<lb/>gorav i mi vyned ato ef // Kans mi a ddodais vy
+<lb/>hvnan mewn perigl o<isp/><apo/>m bywyd yn vynych er i
+<lb/>vwyn ef //</q> a thrannoeth / ef a gymerth i ffonn a<isp/><apo/>u
+<lb/>ddysgl / a<isp/><apo/>u glapar / ag a aeth parth a llys yr amherawdr //</seg>
+<pb n="79r"/>
+<seg n="32"><lb/>a phan ddauth ef geyr llaw y porth / ef a <w>gwym<lb rend="shy"/>pawdd</w> i eistedd yno / <orig reg="ymhlith">ymlith</orig> kryplaid eraill / yr
+<lb/>hain a oedd yn aros yno gael kardodav // ag yn<isp/>y
+<lb/>mann / ef a ddauth yr amherawdr i maes // a<isp/><apo/>r <w>kry<lb rend="shy"/>plaid</w> a ffystysont i klapers // ag alexander a <w>ffust<lb rend="shy"/>awdd</w> i glapar yntav // ag yna i tariawdd <w>alexan<lb rend="shy"/>der</w> wrth y porth / yny authant hwy yddy kino // ag
+<lb/>yna i tikawdd ef y porth // a<isp/><apo/>r porthor / a ovynnawdd
+<lb/>pwy oedd yno // ag alexander a ddywad // <q>mae yma
+<lb/>wr tylawd yn daisyf arnochwi ddwedvd wrth yr
+<lb/>amherawdr / vod yma grypl gwann / yn daisyf kael
+<lb/>bwyta i gardod / ar lawr i nauadd ef / er kariad ar
+<lb/>dduw ag alexander //</q> a<isp/><apo/>r porth<add place="supralinear">or</add> a ddywad / <q>i<dsp/>dd<isp/>wyf j
+<lb/>yn kredy / na baiddy di gaiso hynny gan yr <w>amher<lb rend="shy"/>awdr /</w><!--rest of page faint--> am vod y nauadd yn llawn arglwyddi a
+<lb/>gwyr boneddigion / ag os gwelant hwy dydi <damage>/ hwy</damage>
+<lb/>ymadawant a<isp/><apo/>u bwyd // ond mi a wnaf dy neges [
+<lb/>er mwyn duw ag alexander / wrth dy ddaisyf di]</q></seg>
+<seg n="33"><lb/>ag yna i<dsp/>dd<isp/>aeth y porthor geyr bronn yr amherawdr
+<lb/>ag a ddywad y neges wrtho / yn<isp/>y modd i harchysai
+<lb/>alexander yddaw // a phan glyby yr amherawdr ef
+<lb/>yn enwi duw ag alexander brenin yr Egipt /
+<lb/>ef a erchis i<isp/><apo/>r porthor / i ddwyn ef i mewn / er
+<lb/>anferthed a vai <apo/>r olwg arno / a<isp/><apo/>u ddodi ef ar lawr
+<lb/>y nauadd i vwyta i vwyd / <q>lle gwelwyf j ef //</q> ag yna
+<lb/>i dauth y porthor ag ef i mewn i<isp/><apo/>r nauadd / ag a
+<lb/>roddes yddo ef vwyd <orig reg="yng ng&wcirc;ydd">yngwydd</orig> yr amherawdr /</seg>&nbsp;<seg n="34">a chwedy
+<lb/>yddo ef reffresio i hvnan yn dda / ef a ddywad
+<pb n="79v"/>
+<lb/>wrth vn o<isp/><apo/>r gwaison // <q>Vy annwyl ffrynd</q> heb ef / <q>mi
+<lb/>a ddaisyva arnad ti ddwedvd wrth yr amherawdr /
+<lb/>vy mod j yn daisyf arno ef / ddanfon i mi ffiolaid
+<lb/>o win / yn<isp/>y ffiol ef i hvn / er mwyn duw / ag <w>alex<lb rend="shy"/>ander //</w></q><!--hierarchy problem--> a<isp/><apo/>r gwas a ddywad // <q>ny chredaf j / i kav di hynny /
+<lb/>Kans pan ddarffo i ti yved o<isp/><apo/>i ffiol ef // nid yf / ef
+<lb/>o<isp/><apo/>r ffiol honno mwy // ond er hynny / mi a wnaf dy <w>ne<lb rend="shy"/>ges</w> di</q> hebe <apo/>r gwas // ag yna i<dsp/>dd<isp/>aeth y gwas att yr
+<lb/>amherawdr / ag a ddywad / vod y kripl / yn daisyf kael
+<lb/>ffiolaid o win / o<isp/><apo/>i ffiol ef i hvnan / er mwyn duw
+<lb/>ag alexander // a phan glywas yr amherawdr enwi
+<lb/>duw / ag alexander // ef a baroedd llanw i ffiol ef i
+<lb/>hvn o win / a<isp/><apo/>u roi i<isp/><apo/>r krypl // a phan gavas <w>alex<lb rend="shy"/>ander</w> y gwin / ef a<isp/><apo/>u dodes ef yn<isp/>y botel / ag a vyrodd
+<lb/>y vydrwy a <orig reg="gawsai">gathoedd</orig> ef gan lodwig yn<isp/>y ffiol // ag ef
+<lb/>a<isp/><apo/>u danfones hi at yr amherawdr // a phan welas
+<lb/>lodwig y vydrwy / ef a adnaby mae honno a roesai
+<lb/>ef i alexander // ag ef a veddyliawdd yn<isp/>y galon
+<lb/>varw alexander / ag ef a orchmynnawdd i<isp/><apo/>r gwas i
+<lb/>ddodi ef mewn ystavell / yny gaffai ef chwedlaua ag
+<lb/>ef //</seg>&nbsp;<seg n="35">a chwedy kino i dauth yr amherawdr at y dyn
+<lb/>klwyvys / ag a ovynnawdd yddo / pa le i <orig reg="cawsai">kathoedd</orig> ef y
+<lb/>vydrwy honno // ag alexander a ovynnawdd i<isp/><apo/>r <w>amher<lb rend="shy"/>awdr</w> a oedd ef yn adnabod y vydrwy // <q>adwaen yn
+<lb/>dda</q> hebe <apo/>r amherawdr // <q>a wddochwi i bwy i roesoch
+<lb/>chwi hi /</q> hebe alexander // <q>gwnn yn dda</q> hebe <apo/>r
+<lb/>amherawdr // ag yna i dywad alexander // <q>myvi
+<lb/>yw alexander / yr hwnn i roesochwi y vydrwy
+<pb n="80r"/>
+<lb/>yddo //</q> a phan glywas yr amherawdr hynny / ef a
+<lb/>syrthiawdd i<isp/><apo/>r llawr o drymder ag alaeth / ag ef a
+<lb/>wylawdd yn dost / gan ddwedvd // <q>O alexander / ty<dsp/>di
+<lb/>yw hanner vy enaid j / pa le i mae y korff teg <orig reg="caruaidd"><w>kry<lb rend="shy"/>aidd</w></orig> a welais j i ti // a wyd ti yr owron mor <orig reg="angharuaidd"><w>ang<lb rend="shy"/>ryaidd</w></orig> a hynn //</q> ag yna i dywad alexander // <q>llyma
+<lb/>val i hapiodd i myvi / am i chwi ddangos <w>ked<lb rend="shy"/>maithias</w> gywir i myvi yn vy<isp/>ngwely gyda vy<isp/><w>ng<lb rend="shy"/>wraig</w> j / pan ddodysochwi gleddyf noeth ryngoch <corr resp="transcr" part="a" sic="a"></corr>
+<lb/><corr resp="transcr" part="b" sic="a">a</corr> hi // ag am hynny / hi a gymerth digovaint <w>wrth<lb rend="shy"/>yf</w> j / val na vynnawdd hi / vy<isp/>ngweled j o hynny
+<lb/>allan // a hi a vyrawdd serch ar varchog o<isp/><apo/>r llys /
+<lb/>a hi a ym<dsp/>gyvaillachawdd ag ef / ag a<isp/><apo/>m <w>gwenwy<lb rend="shy"/>nysant</w> jnnav yn<isp/>y modd hynn // ag a<isp/><apo/>m gyrysant j
+<lb/>i maes o<isp/><apo/>m hynys //</q> a phan glywas yr amherawdr
+<lb/>hynny / ef a ymaelawdd / am i vwnwgl ef / ag a<isp/><apo/>i
+<lb/>kusannawdd ef gan ddwedvd wrtho // <q>O vy<isp/><w>ngharedi<lb rend="shy"/>gol</w> ffrynd / mae <apo/>n ddrwg gennyf j / ych gweled chwi
+<lb/>mewn klevyd mawr velly // ond er hynny vy annwyl
+<lb/>ffrynd / byddwch gynffwrdys ennyd / tra vwyf j yn
+<lb/>danfon i gaiso meddygon y<isp/><apo/>ch jachae chwi // Kans
+<lb/>nid ysbariaf j / na thir / na daear / na da yn<isp/>y byd
+<lb/>o bydd <orig reg="posibl">posybl</orig> gael help i chwi / y<isp/><apo/>ch gwnaethur chwi
+<lb/>yn jach //</q></seg>&nbsp;<seg n="36">ag yna i dygwyd ef i ystavell gyvoethog /
+<lb/>yr honn oedd gwedy thrwsio yn deg / a phob peth ag a
+<lb/>oedd yn angenraidiol tiag at i jechyd ef // a<isp/><apo/>r <w>am<lb rend="shy"/>herawdr</w> a ddanfonawdd / kenadav drwy yr holl <w>enys<pb n="80v" rend="shy"/><lb/>oedd /</w> i gaiso meddygon gorav ag a ellid i kael // a
+<lb/>chynn penn mis / ef a ddauth yno ddeg ar<isp/>igain o<isp/><apo/>r
+<lb/>meddygon gorav / a chyfrwydda ag a ellid i kael yn<isp/>y
+<lb/>gelfyddyd honno // a phan welas yr <!--letter del--> amherawdr y <w>meddy<lb rend="shy"/>gon /</w> ef a<isp/><apo/>u grysewis hwynt yn llawen / ag a ddywad
+<lb/>wrthynt // <q>ha wyr</q> heb ef // <q>mae ffrynd i mi / gwedy myned
+<lb/>yn grypl // a mi a vynnwn allv i jachae ef // ag nid
+<lb/>arbedaf j / nag aur nag arian / na dim da eraill ag
+<lb/>a sydd ar vy helw j // ond mi a<isp/><apo/>u roddwn hwynt yn
+<lb/>llawen dros i jechyd ef //</q> ag yna hwy authant
+<lb/>yddy weled ef // a chwedy i<isp/><apo/>r meddygon ddeall i <w>gle<lb rend="shy"/>vyd</w> ef // hwy a ddwedysant na allai neb help yddo
+<lb/>ef / ond yr vn duw //</seg>&nbsp;<seg n="37">a phan glywas yr amherawdr
+<lb/>hynny / i<dsp/>dd<isp/>oedd ef yn glaf yn<isp/>y galon // ag ef a
+<lb/>ddaisyvoedd help gan dduw // ag ef a alwodd atto wyr a
+<lb/>gwragedd tylodion / a gwyr duwiol eraill / ag a
+<lb/>ddaisyvoedd arnynt weddio ar dduw / ar ddanfon <w>je<lb rend="shy"/>chyd</w> yddy ffrynd ef // ag val i<dsp/>dd<isp/>oedd alexander <w>ddiwar<lb rend="shy"/>nod</w> yn<isp/>y weddi // ef a glywai lavar ywch i benn
+<lb/>yn dwedvd / be lladdai yr amherawdr i ddav vab
+<lb/>o<isp/><apo/>i law i hvnan / yr hain a ddygysai i wraig ef
+<lb/>i<isp/><apo/>r byd yn vn grothaid // <q>ag i ti gael i gwaed hwynt
+<lb/>i olchi dy holl gorff di drosto / ti a vyddyd holl jach</q> //
+<lb/>a phan glywas alexander hynny // ef a dybiawdd na
+<lb/>byddai well yddo ef ddangos hynny // am vod yn <w>er<lb rend="shy"/>byn</w> natur / i vn gwr ladd i vaibion i hvn / i
+<lb/>gaiso jechyd i wr dieithr // ag am hynny / ny <w>ddango<pb n="81r" rend="shy"/><lb/>sawdd</w> ef ddim o hynn i neb // a<isp/><apo/>r amherawdr oedd
+<lb/>yn gweddio / ag yn ymprydio <orig reg="beunydd">baenydd</orig> / gan ddaisyf ar
+<lb/>dduw ddanfon jechyd yddy ffrynd ef //</seg>&nbsp;<seg n="38">ag val i<dsp/>dd<isp/>oedd yr
+<lb/>amherawdr ddiwarnod mewn devosiwn da // ef a
+<lb/>glywai lavar yn dwedvd // <q>pa hyd i llevwchwi / ef a
+<lb/>ddarfv dangos i alexander / pa vodd i kaiff ef i
+<lb/>jechyd //</q> a phan glywas yr amherawdr hynny // ef aeth
+<lb/>at alexander / yn llawen / ag a ddywad wrtho // <q>O vy
+<lb/>annwyl ffrynd</q> heb ef / <q>bendigedig yw duw / yr hwnn
+<lb/>nid ody yn gollwng yn angof / y neb a vo <apo/>n trysto
+<lb/>yddo ef / gan yr hwnn i kevais j wybodaeth / ddarfod
+<lb/>dangos i chwi / beth a<isp/><apo/>ch gwnai chwi yn jach // ag am
+<lb/>hynny / mi a ddaisyva gael gwybod / val i gallom
+<lb/>ni gyd<dsp/>lawenhav // ag o<isp/><apo/>r bydd dim ag a allwyf j i
+<lb/>gael / nid arbeda j nag aur / nag arian / na dim ag
+<lb/>a sydd ar vy helw j // eithr mi a<isp/><apo/>u roddwn hwynt yn
+<lb/>llawen / er kael jechyd i chwi //</q> ag yna i dywad <w>alex<lb rend="shy"/>ander /</w>&nbsp;<q>ny baiddaf j ddangos i chwi / pa vodd y<isp/><apo/>m
+<lb/>iachair j / am i vod ef yn beth yn erbyn natur //</q>
+<lb/>ag yna i dywad yr amherawdr // <q>O alexander / trysta i
+<lb/>mi / a pha beth bynnag yw ef / ag a vo <orig reg="posibl">posybl</orig> i mi
+<lb/>allv wnaethur / mi a<isp/><apo/>u gwnaf ef / er ych jachav chwi
+<lb/>ag am hynny / na chel ddim ragof j //</q> ag yna i <w>dyw<lb rend="shy"/>ad</w> alexander / <q>mi a gevais wybodaeth gan dduw / os
+<lb/>lladdechwi ych dav vab o<isp/><apo/>ch dwylo ych hvnan / a<isp/><apo/>m <w>gol<lb rend="shy"/>chi</w> j o<isp/><apo/>i gwaed hwynt / i byddwn j jach // ag am hy<expan>n</expan>ny
+<lb/>mi baidais a dangos y mater / am vy mod j yn
+<pb n="81v"/>
+<lb/>tybiaid vod yn erbyn natur / i vn gwr ladd i
+<lb/>vaibon i hvn / i gaiso jechyd i wr diaithr //</q> ag
+<lb/>yna y<!--corr to i?--> dywad <del>alexander</del> yr amherawdr // <q>na <w>ddwe<lb rend="shy"/>dwchwi</w> ych bod yn wr diaithr // Kans mi a<isp/><apo/>ch
+<lb/>karaf chwi val vy hvn // ag am hynny a bod i
+<lb/>mi d<damage>d</damage>eg o <del>vaib</del> vaibon / nid ysbariwn j vn <w>o<lb rend="dsp"/>naddynt</w> yn vyw er kael jechyd i chwi //</q></seg>&nbsp;<seg n="39">ag yna
+<lb/>i gwilawdd yr amherawdr / yr amherodres / a<isp/><apo/>r
+<lb/><corr resp="transcr" sic="arlwyddesi">arglwyddesi</corr> / a<isp/><apo/>r mamaethi / i maes o<isp/><apo/>r ystavell /
+<lb/>ag yna i<dsp/>dd<isp/>aeth ef i mewn i<isp/><apo/>r ystavell / lle ir
+<lb/>oedd i vaibion ef yn kysgi / ag ef a dynnawdd i
+<lb/>gyllell / ag a dorres archoll dan benn bronn pob
+<lb/>vn o<dsp/>naddynt / ag ef a erbynnawdd i gwaed hwynt
+<lb/>mewn kawg / ag ef a olchawdd alexander <orig reg="drosto">drysto</orig> /
+<lb/>o<isp/><apo/>r gwaed hwnnw / yny oedd i gnawd ef kyn deked
+<lb/>ag i bysai dekaf er<dsp/>joed // ag yna i kusannawdd
+<lb/>yr amherawdr ef gan ddwedvd / <q>O alexander /
+<lb/>yr owron i gwelaf j di / val i gwelais j
+<lb/>di gynt / bendigedig yw duw / yr hwnn a <w>ddanfon<lb rend="shy"/>awdd</w> i mi y maibion hynn y<isp/><apo/>ch jachae chwi //</q>
+<lb/>ag ny wyddiad neb oddiwrth angav y maibion / ond
+<lb/>yr amherawdr / ag alexander // ag yna i gwisgawdd
+<lb/>yr amherawdr / am dan alexander / wisg <w>vrenhin<lb rend="shy"/>ol /</w> gan ddwedvd wrtho // <q>dewchwi ddeg milltir <w>o<lb rend="shy"/>ddyma /</w><!--ms o ddyma?--> a mi a ddawaf y<isp/><apo/>ch erbyn chwi //</q> a da a vy
+<lb/>gan alexander y kyngor hwnnw //</seg>&nbsp;<seg n="40">ag yna i<dsp/>dd<isp/>aeth
+<lb/>alexander ymaith yn ddirgel // ag yna i dywad yr
+<pb n="82r"/>
+<lb/>amherawdr wrth Phlorenti / ddyvod llythyre ato ef <q><w>o<lb rend="dsp"/><!--or no shy?-->ddiwrth</w> yn ffrynd ni alexander // ag i mae ef yn dyvod
+<lb/>tiag yma / a mi af yn<isp/>y erbyn ef //</q> a<isp/><apo/>r amherodres a
+<lb/>ddywad / <q>dewch</q> heb hi / <q>a minnav <add place="supralinear">a ddawaf</add> ar <add place="supralinear">ych</add> ol chwi / a<isp/><apo/>r <w>arg<lb rend="shy"/>lwyddesi /</w> a<isp/><apo/>r gwragedd boneddigion gyda mi /</q> ag ny
+<lb/>wyddiad hi oddiwrth angav i maibion // ag yna ir
+<lb/>aethant / a chwmpaeni mawr gydag hwynt // a hwy
+<lb/>a <sic>granfyant</sic> ag alexander / ag a vy lawen <w>ganth<lb rend="om-shy"/>ynt</w> i weled ef // a hwy authant ag ef i<isp/><apo/>r llys //</seg>&nbsp;<seg n="41">a
+<lb/>phan vy bryd kino / ef a <corr resp="scribe" sic="ddywad">ddodwyd</corr> alexander i eistedd
+<lb/>wrth y vord / rwng yr amherawdr / a<isp/><apo/>r amherodres / a
+<lb/>hwy a wnaethant sir vawr yddo ef // ag yna i <w>dyw<lb rend="shy"/>ad</w> yr amherawdr / <q>mae <apo/>n dda gennyf j Phlorenti
+<lb/>ych gweled chwi yn llawen wrth alexander //</q> ag
+<lb/>yna i dywad hithav / <q>paham na bewn j lawen
+<lb/>o<isp/><apo/>i weled ef // ag yn vnwedig chwchwi arglwydd a <w>dde<lb rend="shy"/>lyech</w> / vod yn llawen o<isp/><apo/>i gwmpniaeth <add place="supralinear">ef</add> / am na bysechwi
+<lb/>byth yn<isp/>y gorchaviaeth hynn ony bysai ef / a llawer
+<lb/>pryd i kedwis ef ych bywyd chwi //</q> ag yna i dywad yr
+<lb/>amherawdr wrth Phlorenti / <q>a welsochwi y kripl a
+<lb/>oedd yma y dydd arall yn daisyf<!--+  some letter?--> arnaf j roi diod yddo
+<lb/>ef / er mwyn duw ag alexander //</q>&nbsp;<q>gwelais yn wir</q>
+<lb/>heb hi / <q>a thosta oedd y gweled //</q>&nbsp;<q>beth</q> hebe <apo/>r amherawdr /
+<lb/><q><orig reg="pet&aacute;i">betfai</orig> alexander yn<isp/>y modd hwnnw / ag na bai ddim
+<lb/>a<isp/><apo/>i gwnelai ef yn jach / ond gwaed ych dav vab chwi /
+<lb/>yr hain a ddygysochwi<!-- corr to/from ddygosochwi--> i<isp/><apo/>r byd yma yn vn grothaid
+<lb/>ony roddychwi i gwaed hwynt yddy jachae ef //</q> ag yna
+<pb n="82v"/>
+<lb/>i dywad hithav / <q>paham arglwydd i govynwchwi hynny
+<lb/>i mi / yn wir</q> heb hi / <q>a bod i mi ddeg o vaibon / mi
+<lb/>a allwn i lladd hwynt o<isp/><apo/>m llaw vy hvnan / er yddo ef
+<lb/>gael jechyd / ag a<isp/><apo/>i golchwn ef o hwnnw vy hvnan / yn
+<lb/>gynt nag i bai ef yn<isp/>y vath glwyf hynny // kans ef
+<lb/>a allai dduw ddanfon i mi blant ailwaith / ag
+<lb/><orig reg="amhosibl">amhosybl</orig> yw kael y vath gedymaith kywir ag yw ef //</q>
+<lb/>ag yna i bv dda gan yr amherawdr i chlywed hi <w>ve<lb rend="shy"/>lly //</w> ag ef a ddywad // <q>O wraig</q> heb ef <q>ai gwell genychwi
+<lb/>vod ych maibion yn vairw / na bod alexander yn
+<lb/>grypl // am hynny / mi a ddwedaf y gwir / alexander oedd
+<lb/>y kripl a welsochwi yma y dydd arall / a mi a<isp/><apo/>u <w>gwn<lb rend="shy"/>aetho</w> ef yn jach o <sic>gwaed</sic> ych dav vab chwi / ag i maent
+<lb/>hwy yn vairw yn<isp/>y kawell //</q></seg>&nbsp;<seg n="42">a phan glywas yr <w>amhero<lb rend="shy"/>dres</w> hynny / trymhav a orug hi / val i bydd natur yn
+<lb/>peri // a phan glywas y mamaethi hynny / hwy aethant
+<lb/>dan levain ag wylo tia<isp/><apo/>r ystavell / lle i<dsp/>dd<isp/>oedd y
+<lb/>maibon // ag i<dsp/>dd<isp/>oedd y maibon yn vyw yn chwarav
+<lb/>yn kanv / ag yn diolch i dduw / ddanfon i bywyd yddynt
+<lb/>hwy ailwaith // ag yna i<dsp/>dd<isp/>aeth kennad at yr <w>amher<lb rend="shy"/>awdr</w> ar ffrwst / i ddangos / vod i vaibion ef yn vyw /
+<lb/>a bod dan i bronnav hwynt [yn<isp/>y lle i torysid <w>arn<lb rend="shy"/>ynt]</w> ddwy graith / val edevyn aur // ag yna i bv <w>la<lb rend="shy"/>wenydd</w> mawr gan bawb o<isp/><apo/>r llys / ag i roesant ddiolch
+<lb/>i dduw / am y gwrthav hynny // nid amgen / na bywyd i
+<lb/>maibion / a jechyd yddy ffrynd //</seg>&nbsp;<seg n="43">ag yna i kasglawdd yr
+<lb/>amherawdr amledd o wyr // ag aeth gydag alexander
+<pb n="83r"/>
+<lb/>i<isp/><apo/>r Eifft / ag a ryvelawdd a<isp/><apo/>r vrenhines / a<isp/><apo/>r marchog
+<lb/>yr hain a oeddynt ynghvd yn byw yn anghyfraithys /
+<lb/>ag a<isp/><apo/>u daliawdd hwynt / ag a barawdd i llosgi hwynt
+<lb/>mewn powdr // ag i<dsp/>dd<isp/>oedd chwaer i<isp/><apo/>r amherawdr / a
+<lb/>honno a roddes ef yn wraig i alexander // a chwedy
+<lb/>dodi alexander / yn<isp/>y ynys / a<isp/><apo/>u gyvoeth yn heddychlon
+<lb/>ag yn llonydd // ef a aeth yr amherawdr adref // ag
+<lb/>alexander / a dariawdd yno / ag a gynhaliawdd i
+<lb/>ynys yn wrol / ag a ddarostyngawdd i elynion dano
+<lb/>ef //</seg>&nbsp;<seg n="44">a phan oedd <add place="supralinear">ef</add> yn<isp/>y ogoniant yn esmwyth / ef
+<lb/>a veddyliawdd / am i dad a<isp/><apo/>u vam / yr hain a oedd
+<lb/>yn trigo mewn gwlad bell // ag ef a ddanfones <w>ken<lb rend="shy"/>nad</w> atynt / i ddwedvd i dawe vrenin yr Eifft / y
+<lb/>dydd hynn a<isp/><apo/>r dydd yddy ty hwynt / i wnaethur yn
+<lb/>llawen // a phan ddauth y kenadwr i lys y marchog /
+<lb/>ef a<isp/><apo/>i grysewis ef yn vawr // ag yna i dywad y <w>ken<lb rend="shy"/>nadwr</w> wrth y marchog a<isp/><apo/>u arglwyddes / i doi <w>vren<lb rend="shy"/>in</w> yr Eifft yddy ty hwynt / i wnaethur yn llawen
+<lb/>ar y dydd hynn a<isp/><apo/>r dydd // ag yna i dywad y marchog /
+<lb/><q>nid odym ni yn abl i rysewi gwr mor anrydeddvs
+<lb/>ag yw ef y<isp/><apo/>n ty ni // ond y gwsanaeth gorav ag a <w>all<lb rend="shy"/>om</w> ni i wnaethur / ef a vydd parod i<isp/><apo/>r brenin / er
+<lb/>pleser yddo ef / yn ol yn pwer ni //</q> a<isp/><apo/>r kenadwr a
+<lb/>aeth adref <orig reg="drachefn">drychefn</orig> / ag a ddywad wrth y brenin i
+<lb/>holl ddamwain // a<isp/><apo/>i bod hwy <q>yn barod bob amser i
+<lb/>wnaethur i chwi / yr hynn wasanaeth ag a vont hwy
+<lb/>yn abl yddy / wnaethur / wrth i gallv hwy / er pleser i
+<lb/>chwi</q> // a<isp/><apo/>r brenin a oedd vodlon i hynny //</seg>&nbsp;<seg n="45">ag yna i
+<pb n="83v"/>
+<lb/>darparawdd y brenin parth a thy i dad / erbyn y dydd
+<lb/>i bysai brwmais yddo ef ddyvod // a phan ddauth ef
+<lb/>yno // hwy a<isp/><apo/>u grysewysant ef yn anrydeddvs / gan
+<lb/>gwympo ar i glinav geyr i vronn ef // Kans ny
+<lb/>wyddynt hwy / mae i mab hwy oedd ef // a<isp/><apo/>r brenin
+<lb/>drwy vawr gredigrwydd / a<isp/><apo/>u kyvodes hwynt i vynydd
+<lb/>ag a<isp/><apo/>u kusannawdd hwynt drwy lawenydd mawr // a
+<lb/>phan vy barod kino // i dauth i dad ef / a chawg a
+<lb/>dwfr / a<isp/><apo/>u vam ef a <orig reg="thywel">thwel</orig> / ag a authant at y <w>bre<lb rend="shy"/>nin /</w> gan ddwedvd wrtho / i bod hi yn bryd kino / <corr resp="transcr" part="a" sic="a"></corr>
+<lb/><corr resp="transcr" part="b" sic="a">a</corr> govyn / a wyllysai ef ymolchi / a<isp/><apo/>r brenin a ddywad
+<lb/>yndo i hvn // <q>dyma gwplae yr owron / kaniad yr
+<lb/>eos yn gywir os goddeva j hwynt //</q> ag yna i dywad
+<lb/>y brenin // <q>ny vynnaf j vn gwr kyvoed a chwi i
+<lb/>ddala dwfr i mi ymolchi // nag vn wraig kyvoed a
+<lb/>chwithav i ddala <orig reg="tywel">twel</orig> i mi sychy vy nwylo //</q> a
+<lb/>hwyntav a ddwedysant / i gwnaent yn llawen /
+<lb/>os mynnai ef // ag yntav a ddywad na vynnai ef
+<lb/>neb kyvoed ag hwynt yddy wasnaethv ef // ag yna i
+<lb/>dauth gwsnaethwyr eraill i wasnaethv ar y brenin
+<lb/>a phan authant hwy i eistedd wrth y vord // ef a
+<lb/>ddodawdd y brenin / i vam yr <orig reg="ystlys">yslys</orig> deav yddo / a<isp/><apo/>i
+<lb/>dad yr <orig reg="ystlys">yslys</orig> aswy //</seg>&nbsp;<seg n="46">a chwedy kino ef aeth y brenin
+<lb/>i ystavell / ag a elwis y marchog / a<isp/><apo/>u arglwyddes ato /
+<lb/>ag ef a barodd i bawb vyned allan o<isp/><apo/>r ystavell / ond
+<lb/>yll<isp/>tri // ag yna i govynnawdd y brenin / a oedd dim
+<lb/>plant yddynt // a<isp/><apo/>r marchog a ddywad nad oedd yddynt
+<lb/>hwy ddim plant // a<isp/><apo/>r brenin a ovynnawdd / a vysai
+<pb n="84r"/>
+<lb/>yddynt ddim plant er<dsp/>joed // <q>bv</q> hebe y marchog <q>vab i
+<lb/>ni / ond ef a vy varw <orig reg="er ys talm">estalm</orig> o amser //</q> a<isp/><apo/>r <w>bre<lb rend="shy"/>nin</w> a ovynnawdd / o pa ryw angav i bysai varw
+<lb/>ef // <q>O angav naturiol</q> hebe y marchog // ag yna i dywad
+<lb/>y brenin // <q>O kaf j wybod i<isp/><apo/>r mab ddioddef angav arall /
+<lb/>i<dsp/>dd<isp/>ychwi yn <orig reg="feius">vaiys</orig> //</q> ag yna i dywad y marchog // <q>paham
+<lb/>arglwydd i<dsp/>dd<isp/>ychwi yn ymovyn am yn mab ni //</q> a<isp/><apo/>r
+<lb/>brenin a ddywad / <q>i mae i mi achos yddy ovyn ef i
+<lb/>chwi // a mi a vynnaf wybod / o pa ryw angav i bv
+<lb/>ef varw // ag ony ddwedwchwi y gwir wrthyf j / chwi
+<lb/>a gewch oddef angav kwilyddys //</q></seg>&nbsp;<seg n="47">a phan glywsant y
+<lb/>gairav hynny / hwy a gwympysant i<isp/><apo/>r llawr ar i
+<lb/>glinav / gan erchi i bywyd yddo ef // ag yna i kyvodes
+<lb/>y brenin i dad a<isp/><apo/>i vam i vynydd // ag a ddywad // <q>ny
+<lb/>ddauthym j y<isp/><apo/>ch ty chwi / i vwyta ych bwyd chwi a<isp/><apo/>ch
+<lb/>diod / ar vedr ych diva chwi // ond ef a ddwesbwyd
+<lb/>wrthyf j / i chwi ddodi ych mab i angav / ag o <w>gell<lb rend="shy"/>ir</w> prwvo hynny / i mae <apo/>n raid i chwi ddioddef
+<lb/>angav //</q> ag yna i dywad y marchog // <q>O arglwydd kenata
+<lb/>i mi vy mywyd / a mi a ddwedaf i chwi y gwir //</q> ag
+<lb/>yna i dywad y brenin / <q>nag ofnwch ddim os <w>dwed<lb rend="shy"/>wchwi</w> y gwir // ny wnaf j gam i chwi //</q> ag yna i
+<lb/>dywad y marchog // <q>i<dsp/>dd<isp/>oedd i ni vab / yr hwnn a oedd
+<lb/>ddysgedig / a da i <orig reg="gydnabyddiaeth">gyddnabyddiaeth</orig> // ag ar ddiwarnod <w>i<lb rend="dsp"/>dd<isp/>oeddym</w> ni o bopty i<isp/><apo/>r vord yn chwedlaua // ag ef a
+<lb/>ddauth eos i vronn y ffenestr / ag a ganawdd yn
+<lb/>velys / yr hwnn ganiad / a ddauth vy mab j yddy ddeall //
+<lb/>ag ef a ddywad <damage>vod</damage> yr eos yn dwedvd yn<isp/>y ganiad / i
+<pb n="84v"/>
+<lb/>byddai ef arglwydd galleog anrydeddvs /<q>ag i bydd
+<lb/>da genychwi vy n<dsp/>had / ddala kawg a dwfr i mi
+<lb/>olchi vy nwylo // a mam ddala <orig reg="tywel">twel</orig> i mi i sychy
+<lb/>hwynt</q> // a phan glywais jnnav hynny / mi a <w>ddig<lb rend="shy"/>iais</w> wrtho ef kyn belled / ag i kymerais j ef ar
+<lb/>vy<isp/>nghefn / ag a<isp/><apo/>u bwrais ef i<isp/><apo/>r mor y<isp/><apo/>w voddi //</q>
+<lb/>ag yna i dywad y brenin // <q>dyna ffolineb mawr
+<lb/>oedd i chwi wnaethur yn erbyn ordainad duw / a<isp/><apo/>i
+<lb/>wyllys // ond mi a ddwedaf i chwi y gwir // Myvi
+<lb/>yw ych mab chwi / yr hwnn / a vyrysochwi i<isp/><apo/>r mor /
+<lb/>a duw o<isp/><apo/>i vawr drigaredd a<isp/><apo/>m amddiffynnawdd j /
+<lb/>ag a<isp/><apo/>m dyg j i<isp/><apo/>r gorchaviaeth hynn //</q></seg>&nbsp;<seg n="48">a phan glywas
+<lb/>i dad / a<isp/><apo/>i vam ef y gairav hynny // hwy a <w>syrthia<lb rend="shy"/>sant</w> i<isp/><apo/>r llawr rag ofn // ag yna i kyvodes ef
+<lb/>hwynt i vynydd / gan ddwedvd // <q>nag ofnwch ddim
+<lb/>eithr byddwch lawen a sirys //</q> ag yna i <w>kusan<lb rend="om-shy"/>nawdd</w> ef hwynt / gan ddwedvd // <q>chwi a gewch
+<lb/>vyned gyda mi / y<isp/><apo/>m hynys j // ag yno i kewchwi
+<lb/>ych anrydeddv ywch vy llaw j / yn vy mywyd j //</q>
+<lb/>ag yna i<dsp/>dd<isp/>aeth ef / ag hwynt gydag ef yddy
+<lb/>dernas ef // ag yno i byont hwy mewn <w>lla<lb rend="shy"/>wenydd</w> ag anrydedd hyd <orig reg="yn niwedd">y niwedd</orig> i hoes</seg>
+</p>
+</div>
+
+<trailer>
+<lb/>ag velly terfyna
+</trailer>
+</body>
+</text>
+
+<!-- Ystori'r Llong Foel -->
+<text id="NLW13075B_YLlF">
+<body>
+<pb n="104v"/>
+
+<head>
+<lb/>Llyma ystori y llong Voel
+</head>
+
+<div>
+<p>
+<lb/>Gwedy amravaely y jaithoedd o Babilon / a gwasgarv
+<lb/>o blant Noe yn genedloedd dros wyneb y ddaear /
+<lb/>Yna ir oedd Phaleg ap eber ap sale ap Kaunan ap
+<lb/>Arffaxat ap Sem ap Noe hen yn vrenin yn<isp/>yr <w>Aph<lb rend="shy"/>rick</w> // ag i hwnnw i <add place="supralinear">bv</add> bedair merched ar<isp/>igain // Sef
+<pb n="105r"/>
+<lb/>oedd i henwav . albion / basolika . Casilia . Carion
+<lb/>Eva . Phelicea . Elarion . Hilarin . judeg . Colan
+<lb/>lawdamen . Monidan<!-- =Mon, Nidan--> . Olimpiades . Polisena . <w>Oms<lb rend="shy"/>pilon</w> . Rosona . Sisilia . Tenais . Vermon . Xpipiles
+<lb/>jsopona . Zosvlin . Woden // ag ef a roesbwyd y
+<lb/>merched hynny / yn wragedd pedwar brenin ar<isp/>igain
+<lb/>o dernasoedd yr aphrick // sef yw yr aphrick y <w>dry<lb rend="om-shy"/>dedd</w> rann o<isp/><apo/>r byd // yr hwnn a ranysai Phaleg yn
+<lb/>bedair ternas ar<isp/>igain / ag ef a wnaeth pedwar
+<lb/>brenin ar<isp/>igain arnaddynt // ag ef i hvn yn vchel
+<lb/>vrenin arnynt oll // ag ef a roddes vn o<isp/><apo/>i verched
+<lb/>i bob vn o<isp/><apo/>r brenhinioedd yn briod // yr hynaf o<isp/><apo/>r
+<lb/>merched . i<isp/><apo/>r hynaf o<isp/><apo/>r brenhinioedd / ag velly / o hynaf
+<lb/>i hynaf // eithr nid velly ydd<isp/>ym<dsp/>gerynt / a thryan
+<lb/>vy hynny // ag ymhenn yspaid o amser / i gwnaeth
+<lb/>Phaleg wledd ddirfawr i maint // a honno a <w>byr<lb rend="shy"/>haodd</w> vn dydd a blwyddyn // ag i<isp/><apo/>r wledd honno i
+<lb/>gwahoddawdd ef y brenhinioedd hynny a<isp/><apo/>i gwragedd
+<lb/>a holl benaduriaid yr aphrick gydag hwynt // a <w>chwe<lb rend="shy"/>dy</w>&nbsp;<orig reg="treulio">troelo</orig> llawer o<isp/><apo/>r wledd mewn llawenydd mawr
+<lb/>o vwyd a diod / ag anrydedd // Tristav a orug y <w>mer<lb rend="shy"/>ched</w> / na ddamwainysai yddynt gaffael o bob vn
+<lb/>o<dsp/>naddynt / y gwr mwyaf a garai o<isp/><apo/>r brenhinioedd
+<lb/>a phan welsant nad<isp/>oedd vodd i hynny / myned a
+<lb/>wnaethant mewn lle dirgeledig / ag ymddiddan
+<lb/>yn<isp/>y wedd honn // pond oedd well i ni vod heb vn
+<lb/>gwr / na bod gyda gwyr nys karem // ag velly i
+<pb n="105v"/>
+<lb/>gwnaethant amod ryngtynt y nos honno / i bob vn
+<lb/>o<dsp/>naddynt / ladd i gwr yn<isp/>y gwsg // ag aisoes drwg
+<lb/>a vy gan Woden y verch jauaf yr amod hwnw /
+<lb/>kans hi a gawsai / y brenin mwyaf ag a garai /
+<lb/>eithr ny <orig reg="lafasai">levase</orig> hi ddwedvd yn erbyn i chwiorydd
+<lb/>rag ofn yddynt hwy i lladd hithav yn<isp/>y lle hwnnw //
+<lb/>a chwedy myned pob vn o naddynt i gysgi gyda i
+<lb/>gwr yn anrydeddvs / val i delyai vrenhinioedd
+<lb/>a breninesav vyned // yna koffav a wnaethant
+<lb/>ar gyflenwi i prwmaison // ag yn ddaisyved pan
+<lb/>gysgawdd y brenhinioedd // torri i gyddygav a<isp/><apo/>i lladd
+<lb/>yn vairw a orug y merched // aisoes ny allodd
+<lb/>Woden / y verch jauaf ar i chalon ladd i gwr
+<lb/>kans hi a<isp/><apo/>u karai ef yn vawr
+</p>
+<p>
+<lb/>drannoeth pan gyvodes pawb i vynydd // dyvod
+<lb/>a orug y merched i<isp/><apo/>r vn lle i gyd / Ond Woden y
+<lb/>verch jauaf // a phan oedd amser o<isp/><apo/>r dydd i <w>anry<lb rend="om-shy"/>deddv</w> y duwiav / ag i <orig reg="dreulio">droelaw</orig> y wledd // ryveddy
+<lb/>a orug Phaleg / na bai y brenhinioedd jevaink
+<lb/>yn kodi vynydd // ag anfon kenadav atynt a
+<lb/>orug ef / i erchi yddynt ddyvod i<isp/><apo/>r nauadd // gan
+<lb/>ddwedvd / mae hir i kysgysynt y borav // a phan <w>wy<lb rend="om-shy"/>by</w> Phaleg y gyflavan honno // dryllio i ddillad a
+<lb/>orug ef / a thynny i wallt a<isp/><apo/>u varf / a thorri i
+<lb/>groen a<isp/><apo/>i <orig reg="ewinedd">winedd</orig> / gan gymeryd y brenhinioedd
+<lb/>lladdedig / a<isp/><apo/>u gosod mewn kadairav yn<isp/>y heistedd
+<lb/>a dodi i koronav ar i pennav // a pheri dwyn
+<lb/>y merched bob vn ar naillty geyr bronn y brenin
+<pb n="106r"/>
+<lb/>a laddysai // ag erchi i<isp/><apo/>r nesaf o genedl pob vn o<isp/><apo/>r
+<lb/>brenhinioedd / varny arnynt val i mynnai y
+<lb/>gyfraith // sef y <corr resp="transcr" sic="banwyd">barnwyd</corr> i llosgi hwynt oll // ag <!--del letter-->
+<lb/>yna i barnawdd Phaleg i tad / <orig reg="daflu">dawly</orig> i llydw
+<lb/>hwynt gyda <apo/>r gwynt // a phan welas pawb <w>yvydd<lb rend="shy"/>dawd</w> i tad hwynt / i kaniadwyd i Deitys i mam /
+<lb/>i roddi hwynt mewn llong ddi<dsp/>reol heb nag ystur
+<lb/>na hwyl // a heb vn dyn yn<isp/>y llong / ond y tair
+<lb/>merched ar<isp/>higaint yn noethion / a choronav aur
+<lb/>am i pennav / yn arwydd mae breninesi / a vysynt //
+<lb/>ag velly i rodded hwynt / yn<isp/>y llong voel gyda <apo/>r
+<lb/>gwynt / lle damwainiav i <orig reg="tyngedfennau">tenghedfenav</orig> // ag velly
+<lb/>i byont yn dy<dsp/>bort<add place="supralinear">h</add>i moroedd / saith mis a thri
+<lb/>diwarnod // ag o<isp/><apo/>r diwedd hwy a welynt dir // ag
+<lb/>yna i dywad y chwaer hynaf / yr honn a elwid
+<lb/>albion // er <orig reg="adolwyn"><apo/>dolwyn</orig><!--ed: Erdolwyn--> heb hi i chwi roddi i mi
+<lb/>enw y <orig reg="dywarchen">dwarchen</orig> akw / er mwyn vy mod yn
+<lb/>hynaf / os y duwiav a<isp/><apo/>n trosa ni yddi // ag velly
+<lb/>i gwnaethant // ag i<isp/><apo/>r tir i dauthant yn<isp/>y lle a
+<lb/>elwir Penryn Rianedd yn<isp/>y Gogledd // ag yn ol
+<lb/>enw albion i gelwir hi yn ynys albion // Sef
+<lb/>yw hynny y wenn ynys // ag velly i gelwid hi
+<lb/>hyd pan ddauth brytvs // ag velly i by <apo/>r ddwy
+<lb/>verch ar<isp/>higain / yn kyvanheddv y wenn ynys
+<lb/>yn hir o amser // a<isp/><apo/>r drydedd ar<isp/>igain a vysai
+<lb/>varw ar anedigaeth merch a enillysai hi ar y
+<lb/>mor yn<isp/>y llong // kans yn<isp/>y gwydd i gyd / i dauth
+<pb n="106v"/>
+<lb/>ryw beth kyflym i <orig reg="gydio">gidio</orig> a hi // a merch a aned o<isp/><apo/>r
+<lb/>gwaithred hwnnw / ag ir oedd y llaill hanner yddi
+<lb/>yn bysg // a phan gavas hi y dwfr / ny ddau<add place="supralinear">th</add> hi mwy
+<lb/>i<isp/><apo/>r lann // a honno a elwir y vor<dsp/>vorwyn // a <apo/>r
+<lb/>merched eraill a dyvoedd gwylldineb yndynt / ag a
+<lb/>ym<dsp/>gydnabv ag hwynt ysbrydion kymysgedig /
+<lb/>rwng wybr a daear // ag o<isp/><apo/>r rai hynny / ir enillwyd
+<lb/>y kewri / a<isp/><apo/>r <orig reg="gwyddonesau">gwiddonese</orig> / a mwy oedd i gwybodav
+<lb/>na dynion // kans waithav i byddynt ysbrydion
+<lb/>waithav ar eilvn dynion // ag am hynny i
+<lb/>bv anodd i Vrytvs i diva hwynt
+</p>
+</div>
+<trailer>
+<lb/>ag velly terfyna
+</trailer>
+</body>
+</text>
+
+</group>
+</text>
+</TEI.2>
