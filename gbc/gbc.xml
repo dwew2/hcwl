@@ -1,0 +1,1843 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="C:\Program Files\XML Spy 3.5\Project HCWL\XSL\running.xsl"?>
+<!-- normal stylesheet: prose.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Gweledigaetheu y Bardd Cwsc</title>
+<author>Ellis Wynne</author>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by</resp> <name id="transcr">Ingo Mittendorf</name></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, September 2004</edition></editionStmt>
+
+ <publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+<!-- one of (publisher distributor authority pubPlace address idno availability date p) -->
+ </publicationStmt>   
+   
+<sourceDesc>
+<bibl>
+<author><name id="author">Wynne, Ellis</name></author>
+<title>Gweledigaetheu y Bardd Cwsc</title>
+<imprint>
+<pubPlace>Llundain</pubPlace>
+<publisher>E. Powell</publisher>
+<date value="1703">1703</date>
+</imprint>
+<biblScope>pp. 5-49, 54-77</biblScope>
+
+<note type="text">The selection consists of parts i. (&lsquo;Gweledigaeth y Byd&rsquo;) and ii. (&lsquo;Gweledigaeth Angeu yn ei Frenhinllys isa&rsquo;). The poetry on pages 3-4 and 50-3 is omitted.</note>
+
+<note type="bibl">There are several previous editions, including:<lb/>
+    <title>Gweledigaetheu y Bardd Cwsc</title>, ed. J. Morris Jones (Bangor: Jarvis &amp; Foster, 1898).</note>
+    </bibl>
+</sourceDesc>
+
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>The text contains various pieces of poetry within in. These are marked up using the normal conventions for poetry. The poetry is not placed within any paragraph element.</p>
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs>.</p>
+    </langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date>1 Nov 2002</date>
+<respStmt>
+<resp>Ingo Mittendorf</resp>
+</respStmt>
+<item>
+Finished Input; inserted W; ISP-elements before apostrophes; ISP and APO checked up to p. 20 incl.; proofread once; poems are treated as LG outside P.
+</item>
+</change>
+</revisionDesc>
+
+</teiHeader>
+
+<text id="GBC">
+<body>
+<pb n="5"/>
+<div>
+<head>
+<lbNoN/>I.
+<lbNoN/><hi rend="italic">Gweledigaeth y</hi> BYD.</head>
+<p>
+<lb/><hi rend="rubric">A</hi>R ryw brydnhawngwaith t&ecirc;g o
+<lb/><orig reg="haf">h&acirc;</orig> hir felyn tesog, <w>cymme<lb rend="shy"/>rais</w> hynt i ben un o Fynyddoedd
+<lb/><hi rend="italic">Cymru</hi>, a chyda<isp/>mi Spienddrych
+<lb/>i helpu <orig reg="fy ngolwg"><corr resp="transcr" sic="'n golwg">'ngolwg</corr></orig> egwan, i weled pell yn
+<lb/>agos, a phetheu bychain yn fawr; trwy 'r
+<lb/>awyr deneu eglur a<isp/><apo/>r t&ecirc;s ysplenydd tawel
+<lb/>canfyddwn ymhell bell tros F&ocirc;r y <hi rend="italic">Werddon</hi>,
+<lb/>lawer golygiad hyfryd. O<isp/>'r diwedd wedi
+<lb/>porthi fy Llygaid ar b&ocirc;b rhyw hyfrydwch
+<lb/>o<isp/>'m hamgylch, onid oedd yr Haul ar <w>gyr<lb rend="shy"/>raedd</w> ei gaereu 'n y Gorllewin; <w>gorwe<lb rend="shy"/>ddais</w> ar y gwelltglas, tan syn-fyfyrio <w>dec<lb rend="shy"/>ced</w> a hawddgared (wrth fy ngwl&acirc;d fy
+<lb/>hun) oedd y Gwledydd pell y gwelswn
+<lb/>gip o olwg ar eu gwastadedd tirion; a
+<lb/>gwyched oedd gael arnynt lawn olwg, a
+<lb/>dedwydded y rhai a welseint gwrs y byd
+<lb/>wrthifi a<isp/>'m b&acirc;th: Felly o hir drafaelio
+<pb n="6"/>
+<lb/>&acirc;<isp/>'m <hi rend="italic">Llygad</hi>, ac wedi &acirc;<isp/>'m <hi rend="italic">Meddwl</hi> daeth <w>blin<lb rend="shy"/>der,</w> ac ynghyscod Blinder daeth fy Meistr
+<lb/><hi rend="italic">Cwsc</hi> yn lledradaidd i<isp/>'m rhwymo; ac &acirc;<isp/>'i
+<lb/><orig reg="agoriadau">goriadeu</orig> plwm fe gloes ffenestri fy Llygaid
+<lb/>a<isp/>'m holl Synhwyreu eraill yn dynn <w>ddio<lb rend="shy"/>gel.</w> Etto gwaith ofer oedd iddo geisio
+<lb/>cloi 'r <hi rend="italic">Enaid</hi> a fedr fyw a thrafaelio heb y
+<lb/>Corph: Canys diangodd fy Yspryd ar escill
+<lb/>Phansi allan o<isp/>'r corpws cloiedig: A chynta
+<lb/>peth a <corr resp="transcr" sic="welwm">welwn</corr> i, yn f'<isp/>ymyl <hi rend="italic">dwmpath <w>chwa<lb rend="shy"/>reu,</w></hi>&nbsp;&acirc;<isp/>'r f&agrave;th g&acirc;d-gamlan mewn Peisieu <w>glei<lb rend="shy"/>sion</w> a Chapieu cochion, yn dawnsio 'n
+<lb/>hoew-brysur. Sefais ennyd ar fy <w>nghy<lb rend="shy"/>fyng</w> gyngor <orig reg="a awn">awn</orig> i attynt ai peidio, <w>oble<lb rend="shy"/>gid</w> ofnais yn fy ffwdan mai haid oeddynt
+<lb/>o <hi rend="italic">Sipsiwn</hi> newynllyd, ac na wnaent &acirc;s lai
+<lb/>na<isp/>'m lladd i i<isp/><apo/>w swpper, a<isp/>'m llyncu yn <w>ddi<lb rend="shy"/>halen:</w> Ond o hir graffu, mi a<isp/>'u gwelwn
+<lb/>hwy 'n well a theccach eu gwedd na<isp/>'r
+<lb/>giwed felynddu gelwyddog honno. Felly
+<lb/>anturiais nesau attynt, yn ara' d&ecirc;g fel i&acirc;r
+<lb/>yn sengi ar farwor, i gael gwybod beth
+<lb/>oeddynt; ac o<isp/><apo/>r diwedd gofynnais eu <w>cen<lb rend="shy"/>nad</w> fel hyn o hyd <orig reg="fy nhin">y nh&icirc;n</orig>; Attolwg lan
+<lb/>gyn'lleidfa, 'r wy 'n deall mai rhai o bell
+<lb/>ydych, a gymmerech i Fardd i<isp/>'ch plith
+<lb/>sy 'n chwennych trafaelio? ar y gair <w>di<lb rend="shy"/>stawodd</w> y tr&wcirc;st, a phawb a<isp/>'i lygad arnai,
+<lb/>a than wichian, <hi rend="italic">Bardd</hi>, ebr un, <hi rend="italic">trafaelio</hi> eb
+<lb/>un arall, <hi rend="italic">i<isp/><apo/>n plith ni</hi> ebr y trydydd; erbyn
+<lb/>hyn mi adwaenwn rai oedd yn edrych
+<pb n="7"/>
+<lb/>arnai ffyrnicca o<isp/>'r cwbl: Yna dechreuasant
+<lb/>sibrwd o glust i glust ryw ddirgel swynion
+<lb/>ac edrych arnai, a chyda hynny torrodd
+<lb/>yr hwndrwd, a phawb a<isp/>'i afel yno'<isp/>i, <w>coda<lb rend="shy"/>sant</w> fi ar eu 'scwyddeu, fel codi Marchog
+<lb/>S&icirc;r; ac yna ymaith &acirc; ni fel y Gwynt tros
+<lb/>Dai a Thiroedd, Dinasoedd a Thyrnasoedd,
+<lb/>a Moroedd a Mynyddoedd, heb allu dal
+<lb/>sulw ar ddim gan gyflymed yr oeddynt yn
+<lb/>hedeg. A phe' sy waeth, dechreuais <w>am<lb rend="shy"/>meu</w>&nbsp;<orig reg="fy nghymdeithion">nghymdeithion</orig> wrth eu gwaith yn
+<lb/>gwrthuno ac yn cuchio arnai eisieu canu
+<lb/>dychan i<isp/>'m Brenin fy hun. Wel', ebr fi
+<lb/>wrthi fy hun, yn i&acirc;ch weithian i<isp/>'m hoedl;
+<lb/>f' &acirc;<isp/>'r carn-witsiaid melltigedig hyn &acirc; mi
+<lb/>i fwytty neu seler rhyw Bendefig, ac yno
+<lb/>i<isp/>'m gadawant i dalu iawn gerfydd fy
+<lb/>ngh&ecirc;g am eu lledrad hwy: Neu gadawant
+<lb/>fi yn noeth lumman i fferri ar Forfa <hi rend="italic">Caer</hi>
+<lb/>neu ryw Oerle anghysbell arall. Ond
+<lb/>wrth feddwl fod y wynebeu a adwaenwn
+<lb/>i wedi eu claddu, &acirc; rheini<isp/>'n fy mwrw ac <w>e<lb rend="shy"/>raill</w> yn fy nghadw uwchben pob Ceunant,
+<lb/>deellais nad <hi rend="italic">Witsiaid</hi> oeddynt, ond mai rhai
+<lb/>a elwir y <hi rend="italic">Tylwyth t&ecirc;g</hi>. Ni chawn i attreg
+<lb/>nad dyma fi 'n ymyl yr anferth <hi rend="italic">Gastell</hi> tecca
+<lb/>'r a welais i 'rioed, a <sic><hi rend="italic">Lynn</hi></sic> tro mawr o<isp/>'i
+<lb/>amgylch: yma dechreuasant roi barn <w>ar<lb rend="shy"/>nai;</w> awn &acirc;g e 'n anrheg i<isp/>'r Castell, ebr
+<lb/>un; nage crogyn ystyfnig taflwn ef i<isp/>'r
+<lb/>Llynn, ni th&acirc;l mo<isp/>'i ddangos i<isp/>'n Twysog
+<pb n="8"/>
+<lb/>mawr ni, meddei 'r llall; a ddywed e' ei
+<lb/>Weddi cyn cyscu? ebr y trydydd. Wrth
+<lb/>iddynt s&ocirc;n am <hi rend="italic">Weddi</hi>, mi a riddfenais ryw
+<lb/>ochenaid tuac i fynu am faddeuant a help;
+<lb/>a chynted y meddyliais, gwelwn ryw <hi rend="italic">Oleuni</hi>
+<lb/>o hirbell yn torri allan, oh mor brydferth!
+<lb/>fel yr oedd hwn yn nesau 'r oedd fy
+<lb/>nghymdeithion i 'n tywyllu ac yn <w>diflan<lb rend="shy"/>nu;</w> a chwippyn dyma 'r <hi rend="italic">Disclair</hi> yn <w>cyfei<lb rend="shy"/>rio</w> tros y Castell attom yn union, ar hyn
+<lb/>gollyngasant eu gafel, ac ar eu <w>hyma<lb rend="shy"/>dawiad</w> troesant attai guwch uffernol; ac
+<lb/>oni basei i<isp/>'r Angel fy nghynnal, baswn
+<lb/>digon m&acirc;n er gwneud pastai cyn cael daiar.
+<lb/>Beth, eb yr Angel, yw dy neges di yma?
+<lb/>Yn w&icirc;r, f' arglwydd ebr finneu, nis gwn
+<lb/>i p'le yw yma, na pheth yw fy neges, na
+<lb/>pheth wy fy hun, na pheth aeth a<isp/>'m rhan
+<lb/>arall i, yr oedd genni bedwar aelod a phen,
+<lb/>a pha un ai gartre y gadewais, ai i ryw
+<lb/>geubwll, canys <orig reg="cof">c&ocirc;</orig> 'genni dramwy tros <w>la<lb rend="shy"/>wer</w> o geunentydd geirwon, y bwriodd y
+<lb/><hi rend="italic">Tylwyth-t&ecirc;g</hi> fi, ys <hi rend="italic">t&ecirc;g</hi> eu gwaith, nis gwn i
+<lb/>Syr, pe crogid fi. T&ecirc;g eb ef y <w>gwnae<lb rend="shy"/>thent</w>&nbsp;&acirc; thi oni bai <orig reg="fy nyfod">'nyfod</orig> i mewn pryd
+<lb/>i<isp/><apo/>th achub o gigweinieu Plant Annwfn.
+<lb/>Gan fod cymmaint dy awydd i weled
+<lb/><hi rend="italic">cwrs y Byd</hi> bach, c&ecirc;s orchymyn i roi i ti
+<lb/>olwg arno, fel y gwelit dy wallco 'n <w>an<lb rend="shy"/>fodloni</w> i<isp/>'th st&acirc;d a<isp/>'th wl&acirc;d dy hunan.
+<lb/>Tyrd gyda mi, neu dro, eb ef, a chyda 'r
+<pb n="9"/>
+<lb/>gair, a hi 'n dechreu torri 'r wawr, f' a<isp/>'m
+<lb/>cippiodd i 'mhell bell tu ucha 'r Castell,
+<lb/>ac ar scafell o gwmmwl gwyn <w>gorphwysa<lb rend="shy"/>som</w> yn yr entrych, i edrych ar yr Haul
+<lb/>yn codi, ac ar fy nghydymaith nefol oedd
+<lb/>lawer discleiriach na<isp/>'r Haul, ond bod ei
+<lb/>lewyrch ef ar i fynu gan y llen-g&ecirc;l oedd
+<lb/>rhyngddo ac i wared. Pan gryfhaodd yr
+<lb/>Haul rhwng y ddau ddisclair, gwelwn y
+<lb/>Ddaiar fawr gwmpasog megis pellen <w>fe<lb rend="shy"/>chan</w> gron ymhell odditanom. Edrych
+<lb/>yrwan, eb yr Angel, ac a roes i mi <w>ddrych<lb rend="shy"/>yspio</w> amgen nac oedd genni fi ar y mynydd.
+<lb/>Pan yspiais trwy hwn, gwelwn betheu
+<lb/>mewn modd arall, eglurach nac erioed o<isp/><apo/>r
+<lb/>blaen. Gwelwn un Ddinas anferthol o
+<lb/>faintioli, a miloedd o Ddinasoedd a <w>Theyr<lb rend="shy"/>nasoedd</w> ynddi; a<isp/>'r Eigion mawr fel <w>Llynn<lb rend="shy"/>tro</w> o<isp/>'i chwmpas, a moroedd eraill fel <w>afo<lb rend="shy"/>nydd</w> yn ei gwahanu hi 'n rhanneu. O hir
+<lb/>graffu, gwelwn Hi yn <hi rend="italic">dair Stryd fawr</hi> tros
+<lb/>ben; a <hi rend="italic">Phorth</hi> mawr discleirwych ymhen
+<lb/>isa pob Stryd, a <hi rend="italic">Thwr</hi> teg ar bob Porth, ac
+<lb/>ar bob T&wcirc;r yr oedd <hi rend="italic">Merch</hi> landeg aruthr
+<lb/>yn sefyll yngolwg yr holl Stryd; a<isp/>'r tri
+<lb/>Thwr o<isp/>'r tu cefn i<isp/>'r Caereu 'n cyrraedd at
+<lb/>odre 'r Castell mawr hwnnw. Ar ohyd
+<lb/>i<isp/>'r tair anferthol hyn, gwelwn <hi rend="italic">Stryd groes
+<lb/>arall</hi>, a honno nid oedd ond bechan a
+<lb/>gwael wrth y lleill, ond ei bod hi 'n <w>lan<lb rend="shy"/>waith,</w> ac ar godiad uwch-law 'r Strydoedd
+<pb n="10"/>
+<lb/>eraill, yn mynd rhagddi uwch uwch tu a<isp/>'r
+<lb/>Dwyrein, a<isp/><apo/>r tair eraill ar i wared tu a<isp/><apo/>r
+<lb/>Gogledd at y Pyrth mawr. Ni fedrais i
+<lb/>ymattal ddim hwy heb ofyn i<isp/>'m cyfell a
+<lb/>gawn gennad i siarad. Beth ynteu, eb yr
+<lb/>Angel, ond siarad ti gwrando 'n ystyriol,
+<lb/>na orffo dywedyd yr un peth i ti ond <w>un<lb rend="shy"/>waith.</w> Gwna' f' arglwydd, ac ertolwg,
+<lb/>ebr fi, ple yw<isp/>'r Castell draw yn y Gogledd?
+<lb/>Y Castell fr&ycirc; yn yr awyr, ebr ef, a pieu
+<lb/><hi rend="italic">Belial</hi>, Tywysog llywodraeth yr Awyr, a
+<lb/>Llywodraethwr yr holl Ddinas fawr obry,
+<lb/>fe 'i gelwir <hi rend="italic">Castell Hudol</hi>, canys hudol mawr
+<lb/>yw <hi rend="italic">Belial</hi>, a thrwy hudoliaeth y mae e<isp/>'n
+<lb/>cadw tan ei faner y cwbl oll a weli; <w>oddi<lb rend="shy"/>eithr</w> y Stryd fechan groes accw. Twysog
+<lb/>mawr yw hwn, a miloedd o dwysogion
+<lb/>dano; Beth oedd <hi rend="italic">C&aelig;sar</hi> neu <hi rend="italic">Alecsander</hi> fawr
+<lb/>wrth hwn? beth yw<isp/>'r <hi rend="italic">Twrc</hi> a<isp/>'r h&ecirc;n <hi rend="italic">Lewis</hi> o
+<lb/><hi rend="italic">Frainc</hi> ond gweision i hwn? Mawr, a mawr
+<lb/>tros ben yw gallu, a chyfrwysdra, a <w><corr resp="transcr" part="a" sic="diwy">diwy</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="drydd">drwydd</corr></w> y t'wysog <hi rend="italic">Belial</hi> a<isp/>'i luoedd hefyd sy
+<lb/>ganddo heb rifedi 'n y Wl&acirc;d isa. I ba beth
+<lb/>y mae 'r Merched yna 'n sefyll, ebr fi, a
+<lb/>phwy ydynt? Yn ara, eb yr Angel, un
+<lb/>cwestiwn ar unwaith; i<isp/><apo/>w caru a<isp/>'u haddoli
+<lb/>y maent yna. Nid rhyfedd yn wir ebr fi,
+<lb/>a hawddgared ydynt, pettwn perchen traed
+<lb/>a dwylo fel y b&ucirc;m, minneu awn i garu
+<lb/>neu addoli y rhain. Taw, taw, ebr ynte,
+<lb/>os hynny a wneit &acirc;<isp/>'th aelodeu, da dy f&ocirc;d
+<pb n="11"/>
+<lb/>hebddynt: gwybydd ditheu yspryd angall,
+<lb/>nad yw<isp/>'r tair Twysoges hyn ond tair <w>hu<lb rend="shy"/>doles</w> ddinistriol. Merched y <corr resp="transcr" sic="Twosog">Twysog</corr>&nbsp;<w><hi rend="italic">Be<lb rend="shy"/>lial</hi>,</w> a<isp/>'u holl degwch a<isp/>'u mwynder sy 'n
+<lb/>serenni 'r Strydoedd, nid yw ond <w>wyne<lb rend="shy"/>biad</w> ar wrthuni a chreulonder; mae 'r
+<lb/>Tair oddimewn fel eu T&acirc;d, yn llawn o
+<lb/>wenwyn marwol. Och fi, ai possibl ebr
+<lb/>fi 'n athrist iawn, ar glwyfo o<isp/>'u cariad?
+<lb/>Rhy wir ysywaeth, ebr ef. Gw&ycirc;ch <w>gen<lb rend="shy"/>nit</w> y pelydru y mae<isp/>'r tair ar eu haddolwyr;
+<lb/>wel', ebr ef, mae yn y Pelydr accw lawer
+<lb/>swyn ryfeddol, mae e<isp/>'n eu <hi rend="italic">dallu</hi> rhag <w>gwe<lb rend="shy"/>led</w> b&acirc;ch, mae e<isp/>'n eu <hi rend="italic">synnu</hi> rhag ymwrando
+<lb/>a<isp/>'u perygl, ac yn eu <hi rend="italic">llosci</hi>&nbsp;&acirc; thrachwant
+<lb/>diwala am ychwaneg o hono, ac ynte 'n
+<lb/>wenwyn marwol, yn magu ynddynt <w>gle<lb rend="shy"/>fydon</w> anescorol, na ddichon un meddyg,
+<lb/>i&egrave;, nac angeu byth <corr resp="transcr" sic="bythodd">bythoedd</corr> ei hiach&acirc;u, na
+<lb/>dim oni cheir physygwriaeth nefol a elwir
+<lb/><hi rend="italic">edifeirwch</hi>, i gyfog y drwg mewn pryd cyn
+<lb/>y greddfo 'n rhybell, wrth dremio gormod
+<lb/>arnynt. Pam, ebr fi, na fynn <hi rend="italic">Belial</hi> yr
+<lb/>addoliant iddo 'i hunan? Ond yr un peth
+<lb/>yw, eb ef: mae<isp/>'r h&ecirc;n Gadno yn cael ei <w>a<lb rend="shy"/>ddoli</w> yn eu<!--sic--> ferched, oblegid tra bo dyn
+<lb/>yngl&ycirc;n wrth y rhain neu wrth un o<isp/>'r tair,
+<lb/>mae e<isp/>'n siccr tan n&ocirc;d <hi rend="italic">Belial</hi>, ac yn gwisco 'i
+<lb/>lifrai ef. Beth, ebr fi, y gelwch i<isp/>'r tair
+<lb/>Hudoles yna? Y bella draw, eb ef, a <w>el<lb rend="shy"/>wir</w>&nbsp;<hi rend="italic">Balchder</hi>, Merch hyna <hi rend="italic">Belial</hi>; yr ail yw
+<pb n="12"/>
+<lb/><hi rend="italic">Pleser</hi>; ac <hi rend="italic">Elw</hi> ydy 'r nesa yma; y Tair hyn
+<lb/>yw 'r <hi rend="italic">Drindod</hi> y mae 'r <hi rend="italic">Byd</hi> yn ei addoli. <w>At<lb rend="shy"/>lygaf</w> henw 'r Ddinas fawr wallwfus hon,
+<lb/>ebr fi, os oes arni well henw na <hi rend="italic">Bedlam</hi>
+<lb/>fawr? Oes ebr ef, he a elwir y <hi rend="italic">Ddinas
+<lb/>ddihenydd</hi>. Och fi, ai Dynion dihenydd,
+<lb/>ebr fi, yw 'r cwbl sy ynddi? Y cwbl oll,
+<lb/>ebr ynte, oddieithr ymbell un a ddiango
+<lb/>allan i<isp/>'r Ddinas ucha fr&ycirc;, sy tan y Brenin
+<lb/><hi rend="italic">IMMANUEL</hi>. Gwae finneu a<isp/>'m heiddo,
+<lb/>pa fodd y diangant, a hwythe 'n <w>llygadry<lb rend="shy"/>thu</w> fyth ar y peth sy 'n eu dallu fwyfwy,
+<lb/>ac yn eu hanreithio yn eu dallineb? Llwyr
+<lb/>amhossibl, ebr ynte, fyddei i undyn ddianc
+<lb/>oddiyma, oni bai fod <hi rend="italic">IMMANUEL</hi>&nbsp;<w>o<lb rend="shy"/>ddifr&ycirc;</w> yn danfon ei Gennadon hwyr a
+<lb/>boreu i<isp/><apo/>w perswadio i droi atto Ef ei hunion
+<lb/>Frenhin oddiwrth y Gwrthryfelwr, ac yn
+<lb/>gyrru hefyd i ymbell un anrheg o ennaint
+<lb/>gwerthfawr a elwir <hi rend="italic">ffydd</hi>, i iro 'u llygaid;
+<lb/>a<isp/>'r sawl a gaffo 'r <hi rend="italic">gwir</hi> ennaint hwnnw,
+<lb/>canys mae <hi rend="italic">rh&icirc;th</hi> o hwn fel o bob peth arall
+<lb/>yn y <hi rend="italic">Ddinas ddihenydd</hi>, ond pwy bynnac a
+<lb/>ymiro &acirc;<isp/>'r <hi rend="italic">iawn</hi> ennaint, fe w&ecirc;l ei friwieu
+<lb/>a<isp/><apo/>i wallco, ac nid erys yma funud hwy pe
+<lb/>rhoe <hi rend="italic">Belial</hi> iddo 'i dair Merch, i&egrave;, neu 'r
+<lb/>bedwaredd, sy fwya oll, am aros. Beth y
+<lb/>gelwir y Strydoedd mawr hyn, ebr fi?
+<lb/>Gelwir, ebr ynte, bob un wrth henw 'r
+<lb/>Dwysoges sy 'n rheoli ynddi; Stryd <w><hi rend="italic">Balch<lb rend="shy"/>der</hi></w> yw 'r bella, y ganol Stryd <hi rend="italic">Pleser</hi>, y nesa
+<pb n="13"/>
+<lb/>Stryd yr <hi rend="italic">Elw</hi>. Pwy ertolwg, ebr fi, sy 'n
+<lb/>aros yn y Strydoedd yma? pa Iaith? pa
+<lb/>Ffordd? pa Genedl? Llawer, ebr ef, o
+<lb/>bob Iaith, a <sic>Crefydd</sic>, a <corr resp="transcr" sic="Chededl">Chenedl</corr> tan yr
+<lb/>Haul hwn, sy 'n byw ymh&ocirc;b un o<isp/>'r <w>Stry<lb rend="shy"/>doedd</w> mawr obry; a llawer un yn byw <w>ym<lb rend="shy"/>h&ocirc;b</w> un o<isp/>'r tair Stryd ar gyrsieu, a phawb
+<lb/>nesa 'r y gallo at y Porth: a mynych iawn
+<lb/>y mudant heb fedru fawr aros yn y naill,
+<lb/>gan dd&auml;ed ganddynt Dwysoges Stryd arall:
+<lb/>A<isp/>'r h&ecirc;n <hi rend="italic">Gadno</hi> tan ei scafell yn gado i bawb
+<lb/>garu ei ddewis, neu 'r tair os mynn, siccra'
+<lb/>oll yw ef o hono. Tyrd yn n&ecirc;s attynt,
+<lb/>eb yr Angel, ac a<isp/>'m cippiodd i wared yn
+<lb/>y llen-g&ecirc;l, trwy lawer o fwrllwch diffaith
+<lb/>oedd yn codi o<isp/>'r Ddinas, ac yn <corr resp="transcr" sic="Srryd">Stryd</corr>
+<lb/><hi rend="italic">Balchder</hi> descynnasom ar ben 'hangle o <w>Blas<lb rend="shy"/>dy</w> penegored mawr, wedi i<isp/>'r C&wcirc;n a<isp/>'r Brain
+<lb/>dynnu ei Lygaid, a<isp/>'i berchenogion wedi
+<lb/>mynd i <hi rend="italic">Loegr</hi>, neu <hi rend="italic">Frainc</hi>, i chwilio yno am
+<lb/>beth a fasei can haws ei gael <hi rend="italic">gartre</hi>, felly
+<lb/>yn lle 'r h&ecirc;n Dylwyth lusengar daionus
+<lb/>gwladaidd gynt, nid oes rwan yn cadw
+<lb/>meddiant ond y modryb Dylluan <hi rend="italic">hurt</hi>, neu
+<lb/>Frain <hi rend="italic">rheibus</hi>, neu Biod <hi rend="italic">brithfeilchion</hi>, neu 'r
+<lb/>cyffelyb i ddadcan <hi rend="italic">campeu</hi> y perchenogion
+<lb/>presennol. Yr oedd yno fyrdd o<isp/>'r f&acirc;th <w>bla<lb rend="shy"/>sau</w> gwrthodedig, a allasei oni bai <hi rend="italic">Falchder</hi>,
+<lb/>fod fel cynt yn gyrchfa goreugwyr, yn
+<lb/>Noddfa i<isp/>'r gweiniaid, yn Yscol Heddwch
+<lb/>a phob Daioni, ac yn fendith i fil o Dai
+<pb n="14"/>
+<lb/>b&acirc;ch o<isp/>'u hamgylch. O ben y Murddyn
+<lb/>yma 'r oeddem yn cael digon o le, a <w>llo<lb rend="shy"/>nydd</w> i weled yr holl Stryd o<isp/>'n deu-ty.
+<lb/>Tai t&ecirc;g iawn, rhyfeddol o uchder, ac o
+<lb/>wychder, ac achos da, o ran bod yno <w>Yme<lb rend="shy"/>rodron,</w> Brenhinoedd a Thwysogion <w>'gan<lb rend="shy"/>toedd,</w> Gw&ycirc;r mawr a Bonheddigion fyrdd,
+<lb/>a llawer iawn o Ferched o bob gradd;
+<lb/>Gwelwn aml Goegen gorniog fel Llong ar
+<lb/>lawn h&wcirc;yl, yn rhodio megis mewn Ffr&acirc;m,
+<lb/>a chryn Siop Pedler o<isp/><apo/>i chwmpas, ac wrth
+<lb/>eu chlustiau werth Tyddyn da o berlau:
+<lb/>a rhai oedd yn canu i gael canmol eu <hi rend="italic">llais</hi>,
+<lb/>rhai 'n dawnsio i ddangos eu <hi rend="italic">llun</hi>, eraill
+<lb/>oedd yn paentio i wellau eu <hi rend="italic">lliw</hi>; eraill
+<lb/>wrth y Dr&ycirc;ch er's<!--isp?--> teir-awr yn ymbincio,
+<lb/>yn dyscu gwenu, yn symmud pinneu, yn
+<lb/>gwneud <corr resp="transcr" sic="munudie 'ac">munudie' ac</corr> ystumieu. Llawer
+<lb/>mursen oedd yno, na wyddei pa sutt i <w>a<lb rend="shy"/>gor</w> ei gwefuseu i siarad, chwaethach i
+<lb/>fwytta, na pha fodd o Wir ddyfosiwn i
+<lb/>edrych tan ei thraed; a llawer Yscowl
+<lb/>garpiog a fynnei daeru ei bod hi cystal
+<lb/>Merch fonheddig a<isp/>'r oreu 'n y Str&ycirc;d; a
+<lb/>llawer yscogyn rhygyngog a allei ridyllio
+<lb/>Ff&acirc; wrth wynt ei gynffon. A mi 'n <w>e<lb rend="shy"/>drych</w> o bell ar y rhain a chant o<isp/>'r f&acirc;th,
+<lb/>dyma 'n dyfod heibio i ni globen o baunes
+<lb/>fraith ucheldrem ac o<isp/>'i lledol gant yn spio,
+<lb/>rhain 'n ymgrymmu megis i<isp/><apo/>w haddoli,
+<lb/>ymbell un a roe beth yn ei llaw hi. Pan
+<pb n="15"/>
+<lb/>fethodd genni ddyfeisio beth oedd hi, <w>go<lb rend="shy"/>fynnais;</w> O ebr 'ynghyfaill, un yw hon sy
+<lb/>&acirc;<isp/>'i chynnyscaeth oll yn y golwg, etto gweli
+<lb/>faint sy o rai ffolion yn ei cheisio, a<isp/>'r
+<lb/>gwaela 'n abl, er sy arni hi o gaffaeliad;
+<lb/>hitheu <hi rend="italic">ni fynn a gaffo ni cheiff a ddymuno</hi>, ac
+<lb/>ni sieryd ond a<isp/>'i gwell am ddywedyd o<isp/>'i
+<lb/>Mamm wrthi nad oes un gamp waeth ar
+<lb/>Ferch ieuanc na bod yn <hi rend="italic">ddifalch</hi> wrth garu.
+<lb/>Ar hyn dyma baladr o &wcirc;r a fasei 'n <w>Alder<lb rend="shy"/>man</w> ac mewn llawer o swyddeu yn dyfod
+<lb/>allan odditanom, yn lledu ei escill, megis
+<lb/>i hedeg, ac ynteu prin y gallei ymlwybran
+<lb/>o glun i glun fel ceffyl a phwn, o achos y
+<lb/><hi rend="italic">g&ecirc;st</hi> a<isp/>'r <hi rend="italic">Gowt</hi> ac amryw glefydon <w>bonheddi<lb rend="shy"/>gaidd</w> eraill; er hynny ni cheiti ganddo
+<lb/>ond trwy ffafr fawr un cibedrychiad, a <w>cho<lb rend="shy"/>fio</w> er dim ei alw wrth ei holl <hi rend="italic">ditlau</hi> a<isp/>'i <w><hi rend="italic">swy<lb rend="shy"/>ddau</hi>.</w> Oddi ar hwn trois yngolwg tu <w>a<lb rend="shy"/>rall</w> i<isp/>'r Stryd lle gwelwn glamp o bendefig
+<lb/>ieuanc a lliaws o<isp/>'i &ocirc;l yn d&ecirc;g ei w&ecirc;n, a llaes
+<lb/>ei foes i bawb a<isp/>'i cyrfyddei. Rhyfedd,
+<lb/>ebr fi, fod hwn a hwn accw 'n perthyn i<isp/>'r
+<lb/>un Stryd. O, yr un Dwysoges <hi rend="italic">Balchder</hi>
+<lb/>sy<isp/>'n rheoli 'r ddau, ebr ynteu: Nid yw
+<lb/>hwn ond dywedyd yn d&ecirc;g am ei neges, <corr resp="transcr" sic="h&egrave;">h&egrave;l</corr>
+<lb/>cl&ocirc;d y mae e 'r awron, ac ar fedr wrth <w>hyn<lb rend="shy"/>ny</w> ymgodi i<isp/>'r Swydd ucha 'n y Deyrnas;
+<lb/>hawdd ganddo wylo wrth y bobl faint yw
+<lb/>eu cam gan ddrwg swyddogion yn eu <w>gor<lb rend="shy"/>thrymmu;</w> etto ei <hi rend="italic">fawrh&acirc;d</hi> ei <hi rend="italic">hun</hi>, nid
+<pb n="16"/>
+<lb/><hi rend="italic">lles&acirc;d</hi> y <hi rend="italic">Deyrnas</hi> yw corph y gainc. O hir
+<lb/>dremio canf&ucirc;m wrth Borth y <hi rend="italic">Balchder</hi>, <w>Ddi<lb rend="shy"/>nas</w> d&ecirc;g ar saith fryn, ac ar ben y Llys tra
+<lb/>ardderchog 'r oedd y <hi rend="italic">Goron driphlyg</hi> a<isp/>'r <w><hi rend="italic">Cle<lb rend="shy"/>ddyfeu</hi></w> a<isp/>'r <orig reg="agoriadau"><hi rend="italic">Goriadeu</hi></orig> 'n groesion: wel'dyma
+<lb/><hi rend="italic">Rufain</hi>, ebr fi, ac yn hon y mae 'r <hi rend="italic">P&acirc;p</hi> yn
+<lb/>byw? ie fynycha' eb yr Angel, ond mae
+<lb/>ganddo L&ycirc;s ymhob un o<isp/>'r Strydoedd <w>e<lb rend="shy"/>raill.</w> Gyfeiryd &acirc;&nbsp;<hi rend="italic">Rhufain</hi>, gwelwn Ddinas
+<lb/>a Llys teg iawn, ac arno wedi derchafu 'n
+<lb/>uchel <hi rend="italic">hanner lleuad</hi> ar Faner aur, wrth hyn
+<lb/>gwyb&ucirc;m mai<isp/>'r <hi rend="italic">Twrc</hi> oedd yno. Nesa at y
+<lb/>Porth ond y rhain, oedd l&ycirc;s <hi rend="italic">Lewis</hi> XIV. o
+<lb/><hi rend="italic">Ffrainc</hi>, fel y deellais wrth ei arfau ef, y
+<lb/><hi rend="italic">tair Flour-de-lis</hi> ar Faner arian ynghr&ocirc;g <w>u<lb rend="shy"/>chel.</w> Wrth selu ar uchder a mawredd y
+<lb/>Llysoedd hyn, gwelwn lawer o dramwy o<isp/>'r
+<lb/>naill L&ycirc;s i<isp/>'r llall, a gofynnais beth oedd yr
+<lb/>achos; oh! llawer achos tywyll, eb yr
+<lb/>Angel, sy rhwng y tri Phen cyfrwysgry
+<lb/>hyn a<isp/>'u gilydd: Ond er eu bod hwy 'n eu
+<lb/>tybio 'u hunain yn addas ddyweddi i<isp/>'r tair
+<lb/>Twysoges fr&ycirc;, etto nid yw eu gallu a<isp/>'u
+<lb/>dichell ddim wrth y rheini. Ie ni thybia
+<lb/><hi rend="italic">Belial</hi> fawr mo<isp/><apo/>r holl Ddinas (er amled ei
+<lb/>Brenhinoedd) yn addas i<isp/><apo/>w Ferched ef. Er
+<lb/>ei fod e 'n eu cynnyg hwy 'n briod i bawb,
+<lb/>etto ni roes e<isp/>'r un yn hollawl i neb erioed.
+<lb/>Bu ymorchestu rhwng y Tri hyn am <w>da<lb rend="shy"/>nynt;</w> y <hi rend="italic">Twrc</hi> a<isp/>'i geilw ei hun <hi rend="italic">Duw 'r
+<lb/>ddaiar</hi>, a fynnei<isp/>'r hyna 'n briod sef <w><hi rend="italic">Balch<pb rend="shy" n="17"/><lb/>der</hi>:</w> Nag&egrave;, meddei Frenin <hi rend="italic">Ffrainc</hi>, myfi
+<lb/>pieu honno sy<isp/>'n cadw fy holl ddeiliaid yn
+<lb/>ei Stryd hi, ac hefyd yn dwyn atti lawer o
+<lb/><hi rend="italic">Loegr</hi> a Theyrnasoedd eraill. Mynnei 'r
+<lb/><hi rend="italic">Spaen</hi> y Dwysoges <hi rend="italic">Elw</hi> heb waetha i <hi rend="italic">Holland</hi>,
+<lb/>a<isp/>'r holl <hi rend="italic">Iddewon</hi>; Mynnei <hi rend="italic">Loegr</hi> y Dwysoges
+<lb/><hi rend="italic">Pleser</hi>, heb waetha i<isp/>'r <hi rend="italic">Paganiaid</hi>. Ond <w>myn<lb rend="shy"/>nei</w> 'r P&acirc;p y Tair, ar well rhesymmeu na 'r
+<lb/>lleill i g&ycirc;d: ac mae <hi rend="italic">Belial</hi> yn ei gynnws
+<lb/>e 'n nesa attynt yn y tair Stryd. Ai am
+<lb/>hynny y mae<isp/>'r tramwy rwan, ebr fi? nag&egrave;
+<lb/>ebr ef, cyttunodd <hi rend="italic">Belial</hi> rhyngddynt yn y
+<lb/>matter hwnnw er 's talm. Ond yr awron
+<lb/>fe roes y tri i wascu i penneu 'ngh&ycirc;d, pa
+<lb/>fodd nesa y gallent ddifa y Stryd groes <w>ac<lb rend="shy"/>cw,</w> sef Dinas <hi rend="italic">IMMANUEL</hi>, ac yn <w>enwe<lb rend="shy"/>dig</w> un Llys mawr sy yno; o wir <w>wen<lb rend="shy"/>wyn</w> ei weled e 'n deccach Adeilad nac sy
+<lb/>yn y Ddinas ddihenydd oll. Ac mae <hi rend="italic">Belial</hi>
+<lb/>yn addo i 'r sawl a wn&ecirc;l hynny, hanner ei
+<lb/>Frenhiniaeth tra fo ef byw, a<isp/>'r cwbl pan fo
+<lb/>marw. Ond er maint ei allu a dyfned ei
+<lb/>ddichellion, er maint o Emprwyr <w>Brenhi<lb rend="shy"/>noedd</w> a Llywiadwyr cyfrwysgall sy tan ei
+<lb/>Faner ef yn yr anferth Ddinas ddihenydd,
+<lb/>ac er glewed ei fyddinoedd aneirif ef tu
+<lb/>draw i<isp/>'r Pyrth yn y Wl&acirc;d isa, etto, eb yr
+<lb/>Angel, c&acirc;nt weled hynny 'n ormod o d&acirc;sc
+<lb/>iddynt: Er maint, er cryfed, ac er <w>dich<lb rend="shy"/>lined</w> yw 'r <hi rend="italic">Mawr</hi> hwn, etto mae yn y Stryd
+<lb/>f&acirc;ch accw Un sy <hi rend="italic">Fwy</hi> nac ynteu. Nid <w>oe<pb rend="shy" n="18"/><lb/>ddwn</w> i<isp/>'n cael gwrando mo 'i resymmau <w>an<lb rend="shy"/>gylaidd</w> ef yn iawn, gan y pendwmpian yr
+<lb/>oeddynt hyd y Stryd lithrig yma bob yn
+<lb/>awr; a gwelwn rai &acirc;g yscolion yn <w>drin<lb rend="shy"/>go</w> 'r Twr, ac wedi mynd i<isp/>'r ffon ucha, <w>syr<lb rend="shy"/>thient</w> bendramwnwgl i<isp/>'r gwaelod: i ba le
+<lb/>y mae 'r ynfydion accw 'n ceisio mynd, ebr
+<lb/>fi? i rywle digon uchel, eb ef, ceisio y
+<lb/>maent dorri trysordy 'r Dwysoges. Mi
+<lb/>wrantaf yno le llawn, ebr fi. Oes, eb ef,
+<lb/>bob peth a berthyn i<isp/>'r Stryd yma, i<isp/>'w <w>rhan<lb rend="shy"/>nu</w> rhwng y trigolion: Pob m&acirc;th o arfeu
+<lb/><hi rend="italic">rhyfel</hi> i orescyn ac ymledu; pob m&acirc;th o <w>ar<lb rend="shy"/>feu</w>&nbsp;<hi rend="italic">bonedd</hi> banerau, scwtsiwn, llyfreu <w>a<lb rend="shy"/>cheu,</w> gwersi 'r hynafiaid, cywyddeu; pob
+<lb/>m&acirc;th o wiscoedd gwychion, stori&acirc;u <w>gor<lb rend="shy"/>chestol,</w> drychau ffeilsion; pob lliwieu a
+<lb/>dyfroedd i decc&acirc;u 'r wynebpryd; pob
+<lb/>uchel-swyddau a thitlau: ac ar fyrr iti, mae
+<lb/>yno bob peth a bair i ddyn dybio 'n well
+<lb/>o hono 'i hun, ac yn waeth o eraill nac y
+<lb/>dylei. Prif Swyddogion y Trysordy hwn
+<lb/>yw Meistred y Ceremoniau, Herwyr,
+<lb/>Achwyr, Beirdd, Areithwyr, <w>Gwenieith<lb rend="shy"/>wyr,</w> Dawnswyr, Taelwriaid Pelwyr, <w>Gw<lb rend="shy"/>niadyddesau</w> a<isp/>'r cyffelyb. O<isp/>'r Stryd fawr
+<lb/>hon, ni aethom i<isp/>'r nesa lle mae 'r <w>dwyso<lb rend="shy"/>ges</w>&nbsp;<hi rend="italic">Elw</hi> yn rheoli, Stryd lawn a <w>chyfoe<lb rend="shy"/>thog</w> aruthr oedd <hi rend="italic">hon</hi>, etto nid hanner mor
+<lb/>w&ycirc;ch a glanwaith a Stryd <hi rend="italic">Balchder</hi>, na<isp/>'i
+<lb/>phobl hanner mor ehud wyneb-uchel, canys
+<pb n="19"/>
+<lb/>dynion llechwrus iselgraff oedd yma gan
+<lb/>mwyaf. Yr oedd yn y Stryd hon fyrdd o
+<lb/><hi rend="italic">Hispaenwyr</hi>, <hi rend="italic">Hollandwyr</hi>, <hi rend="italic">Venetiaid</hi>, ac <hi rend="italic">Iddewon</hi>
+<lb/>yma a thraw; a llawer iawn o h&ecirc;n bobl
+<lb/>oedrannus. Attolwg Syr, ebr fi, pa ryw o
+<lb/>ddynion yw y rhain? Rhyw <hi rend="italic">Si&ocirc;n lygad y
+<lb/>geiniog</hi>, eb ynte, yw<isp/>'r cwbl. Yn y pen isa, cei
+<lb/>weled y <hi rend="italic">P&acirc;p</hi> etto, Gorescynnwyr <w>Teyrna<lb rend="shy"/>soedd</w> a<isp/>'i Sawdwyr, Gorthrymwyr <w>Fforest<lb rend="shy"/>wyr,</w> Cauwyr y Drosfa gyffredin, Ustusiaid
+<lb/>a<isp/>'u Breibwyr, a<isp/>'u holl S&icirc;l o<isp/>'r cyfarthwyr
+<lb/>hyd at y ceisbwl: O<isp/>'r tu arall, ebr ef,
+<lb/>mae 'r Physygwyr, Potecariaid, Meddygon;
+<lb/>Cybyddion, Marsiandwyr, Ceibddeilwyr
+<lb/>Llogwyr; <hi rend="italic">Attalwyr</hi> degymeu, neu gyflogeu,
+<lb/>neu renti, neu lusenau a adawsid at <w>Ysco<lb rend="shy"/>lion,</w> Lusendai a<isp/>'r cyfryw: Porthmyn,
+<lb/>Maelwyr a fydd yn cadw ac yn codi 'r
+<lb/>Farchnad at eu llaw eu hunain: Siopwyr
+<lb/>(neu Siarpwyr) a elwant ar <hi rend="italic">angen</hi>, neu
+<lb/><hi rend="italic">anwybodaeth</hi> y prynwr, Stiwardiaid bob
+<lb/>gradd, Clipwyr, Tafarnwyr sy<isp/>'n <hi rend="italic">yspeilio</hi>
+<lb/>Teuluoedd yr oferwyr o<isp/>'u <hi rend="italic">d&acirc;</hi>, a<isp/>'r Wl&acirc;d o<isp/><apo/>i
+<lb/><hi rend="italic">Haidd</hi> at fara i<isp/>'r tlodion. Hyn oll o <w><hi rend="italic">Garn<lb rend="shy"/>lladron</hi>,</w> ebr ef; a m&acirc;n-ladron yw 'r lleill,
+<lb/>gan mwya sy ymhen ucha 'r Stryd, sef
+<lb/>Yspeilwyr-ffyrdd, Taelwriaid, Gwehyddion,
+<lb/>Melinyddion, Mesurwyr gwl&ycirc;b a s&ycirc;ch a<isp/>'r
+<lb/>cyffelyb. Ynghanol hyn, clywn ryw <w>an<lb rend="shy"/>fad</w> rydwst tu a phen isa 'r Stryd, a thyrfa
+<lb/>fawr o bobl yn ymdyrru tu a<isp/>'r Porth, a<isp/>'r
+<pb n="20"/>
+<lb/>fath ymwthio ac ymdaeru, a wnaeth i mi
+<lb/>feddwl fod rhyw ffrae gyffredin ar droed,
+<lb/>nes gofyn i<isp/>'m cyfaill beth oedd y matter;
+<lb/>Trysor mawr tros ben sy<isp/>'n y T&wcirc;r yna, eb
+<lb/>yr Angel, a<isp/>'r holl ymgyrch sy i ddewis
+<lb/>Trysorwr i<isp/>'r Dwysoges yn lle 'r P&acirc;p a <w>dro<lb rend="shy"/>wyd</w> allan o<isp/>'r Swydd. Felly nineu aethom
+<lb/>i weled y <hi rend="italic">'Lecsiwn</hi>. Y Gw&ycirc;r oedd yn sefyll
+<lb/>am y Swydd oedd y <hi rend="italic">Stiwardiad</hi>,<!--corr to -aid--> y <hi rend="italic">Llogwyr</hi>, y
+<lb/><hi rend="italic">Cyfreithwyr</hi> a<isp/>'r <hi rend="italic">Maersiandwyr</hi>, a<isp/>'r cyfoethocca
+<lb/>o<isp/>'r cwbl a<isp/>'i cai: (oblegid pa mwya sy <w>gen<lb rend="shy"/>nit,</w> mwya gei ac y geisi, rhyw <hi rend="italic">ddolur diwala</hi>
+<lb/>sy<isp/>'n perthyn i<isp/>'r Stryd.) Gwrthodwyd y
+<lb/>Stiwardiaid y cynnyg cynta, rhag iddynt
+<lb/>dlodi 'r holl Stryd, ac fel y codaseint eu
+<lb/>Plasau ar furddynnod ei Meistred, felly
+<lb/>rhag iddynt o<isp/>'r diwedd droi 'r Dwysoges
+<lb/>ei hun allan o feddiant. Yna rhwng y tri
+<lb/>eraill yr aeth y ddadl; mwy o Sidaneu
+<lb/>oedd gan y Marsiandwyr, mwy o <w>Weithre<lb rend="shy"/>doedd</w> ar Diroedd gan y Cyfreithwyr, a
+<lb/>mwy o Godeu llownion, a Bilieu a Bandieu
+<lb/>gan y Llogwyr. Hai, ni chyttunir heno,
+<lb/>eb yr Angel, tyrd ymaith, cyfoethoccach
+<lb/>yw<isp/>'r Cyfreithwyr na<isp/>'r Marsiandwyr, a
+<lb/>chyfoethoccach yw<isp/>'r Llogwr<!--sic--> na<isp/>'r <w>Cyfreith<lb rend="shy"/>wyr,</w> a<isp/>'r Stiwardiaid na<isp/>'r Llogwyr, a <hi rend="italic">Belial</hi>
+<lb/>na<isp/>'r cwbl, canys ef a<isp/>'u pieu hwy oll a<isp/>'u
+<lb/>petheu hefyd. I ba beth y mae 'r <w>Dwyso<lb rend="shy"/>ges</w> yn cadw 'r Lladron hyn o<isp/>'i chylch, ebr
+<lb/>fi? Beth gymmwysach, eb ynte, a hi 'n
+<pb n="21"/>
+<lb/>Ben-lladrones ei hun. Synnais ei glywed
+<lb/>e<isp/>'n galw<isp/>'r Dwysoges felly, a<isp/>'r Bon'ddigion
+<lb/>mwya yno, yn Garn-lladron; Attolwg
+<lb/>f' arglwydd, ebr fi, pa fodd y gelwch y
+<lb/>Pendefigion urddasol yna yn fwy Lladron
+<lb/>na 'Speilwyr-ffyrdd? Nid wyti ond ehud,
+<lb/>ebr ef: Onid yw<isp/>'r cn&acirc;&nbsp;&ecirc;l &acirc;<isp/>'i gleddy 'n ei
+<lb/>law a<isp/>'i reibwyr o<isp/>'i &ocirc;l, hyd y byd tan ladd,
+<lb/>a llosci, a lladratta Teyrnasoedd oddi ar eu
+<lb/>hiawn berch'nogion, ac a ddisgwyl wedi
+<lb/>ei addoli yn Gyncwerwr, yn waeth na <w>Llei<lb rend="shy"/>dryn</w> a gymer bwrs <corr resp="transcr" sic="a">ar</corr> y Ffordd-fawr? Beth
+<lb/>yw Taeliwr a dd&wcirc;g ddarn o frethyn, wrth
+<lb/>Wr mawr a dd&wcirc;g allan o<isp/>'r Mynydd ddarn
+<lb/>o Blwy? Oni haeddei hwn ei alw 'n <w>Garn<lb rend="hyphen"/>lleidr</w> wrth y llall? ni dd&ucirc;g hwnnw ond <w>cyn<lb rend="shy"/>hinion</w> oddiarno <hi rend="italic">ef</hi>, eithr efe a dd&ucirc;g oddiar
+<lb/>y <hi rend="italic">tlawd</hi> fywioliaeth ei anifail, ac wrth hyn-
+<lb/>ny, ei fywioliaeth ynteu a<isp/>'i weiniaid. Beth
+<lb/>yw dwyn dyrneid o flawd yn y Felin,
+<lb/>wrth ddwyn cant o hobeidieu i bydru, i
+<lb/>gael gwedi werthi un ymhr&icirc;s pedwar? Beth
+<lb/>yw Sawdwr lledlwm <corr resp="transcr" sic="addycco">a ddycco</corr> dy ddillad
+<lb/>wrth ei gleddyf, wrth y Cyfreithwyr a
+<lb/>ddwg dy holl st&acirc;t oddiarnat, &acirc; chwil gwydd,
+<lb/>heb nac iawn na rhwymedi i gael arno? A
+<lb/>pheth yw Pigwr-pocced, a ddygo <w>bum<lb rend="shy"/>pynt,</w> wrth gogiwr d&icirc;s, a<isp/>'th yspeilia o <w>gant<lb rend="shy"/>punt</w> mewn traean n&ocirc;s? A pheth yw <w>Hwnd<lb rend="shy"/>liwr</w> ath siommei mewn rhyw h&ecirc;n geffyl,
+<lb/>methiant, wrth y Potecari a<isp/>'th dwylla o<isp/>'th
+<pb n="22"/>
+<lb/>arian a<isp/>'th hoedl hefyd am ryw h&ecirc;n <w>physy<lb rend="shy"/>gwriaeth</w> fethedig? Ac etto, beth yw 'r
+<lb/>holl Ladron hyn wrth y Pen-lladrones fawr
+<lb/>yna sy<isp/>'n dwyn oddiar y cwbl yr holl <w>be<lb rend="shy"/>theu</w> hyn, a<isp/>'u calonneu, a<isp/>'u heneidieu yn
+<lb/>niwedd y ffair. O<isp/>'r Strd fawaidd <w>anrhef<lb rend="shy"/>nus</w> hon, ni aethom i Stryd y Dwysoges
+<lb/><hi rend="italic">Pleser</hi>, yn hon gwelwn lawer o <hi rend="italic">Fritaniaid</hi>,
+<lb/><hi rend="italic">Ffrancod</hi>, <hi rend="italic">Italiaid</hi>, <hi rend="italic">Paganiaid</hi>, &amp;c. <w>Twyso<lb rend="shy"/>ges</w> l&acirc;n iawn yr olwg oedd hon, &acirc; gw&icirc;n
+<lb/>cymmysc yn y naill law, a chr&wcirc;th a <w>the<lb rend="shy"/>lyn</w> yn y llall: ac yn ei Thrysorfa aneirif
+<lb/>o blesereu a theganeu i gael cwsmeriaeth
+<lb/>pawb, a<isp/>'u cadw yn gwasanaeth ei Th&acirc;d,
+<lb/>I&egrave;, 'r oedd llawer yn dianc i<isp/>'r Stryd fwyn
+<lb/>hon, i fwrw tristwch eu colledion a<isp/>'u <w>dy<lb rend="shy"/>ledion</w> yn y Strydoedd eraill. Stryd lawn
+<lb/>aruthr oedd hon, o bobl ieuanc yn <w>enwe<lb rend="shy"/>dig;</w> a<isp/>'r Dwysoges yn ofalus am foddio
+<lb/>pawb a chadw saeth i b&ocirc;b n&ocirc;d. Os <w>syche<lb rend="shy"/>dig</w> wyt, mae i ti yma dy ddewis ddiod:
+<lb/>Os ceri ganu a dawnsio, cei yma dy wala.
+<lb/>Os denodd glendid hon, di i chwantio
+<lb/>corph Merch, nid rhaid iddi ond codi b&ycirc;s
+<lb/>ar un o Swyddogion ei Th&acirc;d (sy o<isp/>'i <w>ham<lb rend="shy"/>gylch</w> b&ocirc;b amser er nas gwelir) a hwy a
+<lb/>drosglwyddant iti fenyw yn ddiattreg;
+<lb/>neu <hi rend="italic">gorph</hi> putten newydd gladdu, a <w>hwy<lb rend="shy"/>theu</w>&nbsp;&acirc;nt i mewn iddo yn lle <hi rend="italic">enaid</hi>, rhag i ti
+<lb/>golli pwrpas mor ddaionus. <hi rend="italic">Yma</hi> mae tai
+<lb/>t&ecirc;g a gerddi tra hyfryd, perllannau llownion,
+<pb n="23"/>
+<lb/>llwyni cyscodol, cymmwys i bob dirgel
+<lb/>ymgyfarfod i ddal adar, ac ymbell <w>gwn<lb rend="shy"/>ningen</w> wen: afonydd gloew tirion i<isp/><apo/>w <w>pys<lb rend="shy"/>cotta,</w> meusydd maith cwmpasog, <w>hawdd<lb rend="shy"/>gar</w> i erlid ceunach a chadno. Hyd y Str&ycirc;d
+<lb/>allan gwelit <hi rend="italic">chwareuon</hi> Interlud, siwglaeth a
+<lb/>phob <hi rend="italic">castieu</hi> h&ucirc;g, pob rhyw <hi rend="italic">gerdd</hi> faswedd
+<lb/><hi rend="italic">dafod</hi> a <hi rend="italic">thant</hi>, canu baledeu, a ph&ocirc;b <w>digri<lb rend="shy"/>fwch;</w> a phob rhyw lendid o Feibion a
+<lb/>Merched yn canu ac yn dawnsio, a llawer
+<lb/>o Stryd <hi rend="italic">Balchder</hi> yn dyfod yma i gael eu
+<lb/>moli a<isp/>'u haddoli. Yn y tai, gwelem rai ar
+<lb/>wel&acirc;u sidanblu yn ymdrobaeddu mewn
+<lb/><hi rend="italic">trythyllwch</hi>: rhai 'n tyngu ac yn rhegu
+<lb/>uwchben y <hi rend="italic">Dabler</hi>, eraill yn siffrwd y <hi rend="italic">Disieu</hi>
+<lb/>a<isp/>'r <hi rend="italic">Cardieu</hi>. Rhai o Stryd <hi rend="italic">Elw</hi> a chanddynt
+<lb/>ystafell yn <hi rend="italic">hon</hi>, a redeint yma a<isp/>'u harian iw
+<lb/>cyfry, ond ni arhoent fawr rhag i rai o<isp/>'r
+<lb/>aneirif deganeu sy yma eu hudo i ymadel &acirc;
+<lb/>pheth o<isp/>'u harian yn ddi-l&ocirc;g. Gwelwn <w>e<lb rend="shy"/>raill</w> yn fyrddeidieu yn gwledda, a pheth o
+<lb/>bob creadur o<isp/>'u blaen; a chwedi i bob un
+<lb/>o saig i saig folera cymmaint o<isp/>'r <w>daintei<lb rend="shy"/>thion,</w> ac a wnaethei wledd i dd&ycirc;n <w>cym<lb rend="shy"/>medrol</w> tros wythnos, na <hi rend="italic">bytheirio</hi> oedd y
+<lb/>gr&acirc;s bwyd, yna moeswch iechyd y <w>bre<lb rend="shy"/>nin,</w> yna iechyd pob cydymaith da, ac felly
+<lb/>ymlaen i foddi archfa 'r bwydydd, a <w>gofa<lb rend="shy"/>lon</w> hefyd: yna <hi rend="italic">Tobacco</hi>, yna pawb a<isp/>'i <hi rend="italic">Stori</hi>
+<lb/>ar ei gymydog, os gwir, os celwydd, nis
+<lb/>gwaeth, am y bo hi 'n <hi rend="italic">ddigrif</hi>, neu 'n <w><hi rend="italic">ddi<pb rend="shy" n="24"/><lb/>weddar</hi>,</w> neu 'n siccr, os bydd hi <corr resp="transcr" sic="rhwybeth">rhywbeth</corr>
+<lb/><hi rend="italic">gwradwyddus</hi>. O<isp/>'r diwedd rhwng ymbell
+<lb/>fytheiriad trwm, a bod pawb &acirc;<isp/>'i bistol pridd
+<lb/>yn chwythu m&wcirc;g a th&acirc;n, ac absen iw
+<lb/>gymydog, a<isp/>'r llawr yn fudr eusys rhwng
+<lb/>colli diod a phoeri, mi ofnais y gallei gastie'
+<lb/>butrach na rheini fod yn agos, ac a <w>ddei<lb rend="shy"/>syfiais</w> gael symmud. Oddi yno ni aethom
+<lb/>lle clywem dr&wcirc;st mawr, a churo a <w>dwn<lb rend="shy"/>drio,</w> a chrio a chwerthin, a bloeddio a
+<lb/>chanu. Wel'dyma <hi rend="italic">Fedlam</hi> yn ddiddadl,
+<lb/>ebr fi. Erbyn i ni fyned i mewn, darfasei 'r
+<lb/>ymddugwd, ac un ar y llawr yn glwtt, un
+<lb/>arall yn bwrw i fynu, un arall yn <w>pendwm<lb rend="shy"/>pian</w>&nbsp;<corr resp="transcr" sic="uwchbed">uwchben</corr> aelwyded o fflagenni tolciog,
+<lb/>a darneu pibelli a godardeu; a pheth erbyn
+<lb/>ymorol, ydoedd ond cyfeddach rhwng saith
+<lb/>o gymdogion sychedig, <hi rend="italic">Eurych</hi>, a <hi rend="italic">Lliwydd</hi>, a
+<lb/><hi rend="italic">Gof</hi>, <hi rend="italic">Mwyngloddiwr</hi>, <hi rend="italic">'Scubwr-simneiau</hi>, a <w><hi rend="italic">Phry<lb rend="shy"/>dydd</hi>,</w> ac <hi rend="italic">Offeiriad</hi> a ddaethei i bregethu <w>so<lb rend="shy"/>brwydd,</w> ac i ddangos ynddo 'i hun <w>wrthu<lb rend="shy"/>ned</w> o beth yw <hi rend="italic">meddwdod</hi>; a dechreu 'r
+<lb/>ffrwgwd diweddar oedd dadleu ac <w>ym<lb rend="shy"/>daeru</w> fasei rhyngddynt, p'run oreu o<isp/>'r <w>seith<lb rend="shy"/>ryw</w> a garei bot a phibell; a<isp/>'r Prydydd
+<lb/>aethei &acirc;<isp/>'r maes ar bawb ond yr Offeiriad, a
+<lb/>hwnnw, o barch i<isp/><apo/>w siacced, a gawsei 'r
+<lb/>gair trecha, o fod yn ben y cymdeithion
+<lb/>d&acirc;, ac felly cloes y Bardd y cwbl ar
+<lb/>g&acirc;n:
+</p>
+<pb n="25"/>
+<!--poem-->
+<lg rend="indented">
+<lb/><l><hi rend="italic">O<isp/>'r dynion p'le 'r adwaenych,</hi></l>
+<lb/><l><hi rend="italic">A<isp/>'r ddaiar faith saith mor sych,</hi></l>
+<lb/><l><hi rend="italic">A<isp/>'r goreu o<isp/>'r rhain am gwrw rhudd,</hi></l>
+<lb/><l><hi rend="italic">Offeiriedyn a Phrydydd.</hi></l>
+</lg>
+
+<p>
+<lb/>Wedi llwyrflino ar y m&ocirc;ch abrwysc hyn,
+<lb/>ni aethom yn n&ecirc;s i<isp/>'r Porth i spio gwallieu i
+<lb/>ardderchog L&ycirc;s <hi rend="italic">Cariad</hi> y Brenhin cibddall,
+<lb/>lle hawdd mynd i mewn, ac anhawdd
+<lb/>mynd allan, ac ynddo aneirif o Stafelloedd.
+<lb/>Yn y Neuadd gyfeiryd a<isp/>'r dr&wcirc;s, yr oedd
+<lb/><hi rend="italic">Cuwpid</hi> bensyfrdan &acirc;<isp/>'i ddwy saeth ar ei f&wcirc;a,
+<lb/>yn ergydio gwenwyn nychlyd a elwir
+<lb/><hi rend="italic">blys</hi>. Hyd y llawr gwelwn lawer o <w>Fer<lb rend="shy"/>ched</w> gl&acirc;n trwsiadus yn rhodio wrth <w>ys<lb rend="shy"/>cw&icirc;r,</w> ac o<isp/>'u lledol drueiniaid o Lancieu
+<lb/>yn tremio ar eu tegwch, ac yn <corr resp="transcr" sic="erbyn">erfyn</corr> bob
+<lb/>un am gael gan ei baunes un cil-edrychiad,
+<lb/>gan ofni Cuwch yn waeth nac Angeu;
+<lb/>ymbell un tan blygu at lawr, a roe <hi rend="italic">Lythyr</hi>
+<lb/>yn llaw ei Dduwies, un arall <hi rend="italic">Gerdd</hi>, a <w>dis<lb rend="shy"/>gwyl</w> yn ofnus fel 'Scolheigion yn dangos
+<lb/>eu T&acirc;sc i<isp/><apo/>w Meistr; a hwytheu a roent <w>ym<lb rend="shy"/>bell</w> gip o W&ecirc;n gynffonnog i gadw eu <w>ha<lb rend="shy"/>ddolwyr</w> mewn awch, ond nid dim <w>ychwa<lb rend="shy"/>neg,</w> rhag iddynt dorri eu bl&ycirc;s, a mynd
+<lb/>yn i&acirc;ch o<isp/>'r <hi rend="italic">Clwy</hi> ac ymadel. Mynd <w>ym<lb rend="shy"/>laen</w> i<isp/>'r <hi rend="italic">Parlwr</hi>, gwelwn ddyscu dawnsio, a
+<lb/>chanu, &acirc; llais ac &acirc; llaw i yrru eu Cariadeu yn
+<lb/>saith ynfyttach nac oeddynt eusys: Mynd
+<pb n="26"/>
+<lb/>i<isp/>'r <hi rend="italic">Bwytty</hi>, dyscu 'r oeddid yno wersi o <w>gym<lb rend="shy"/>hendod</w> mindlws wrth fwytta: Mynd i<isp/>'r
+<lb/><hi rend="italic">Seler</hi>, yno cymyscu Diodydd cryfion o
+<lb/><hi rend="italic">swyn-serch</hi> o greifion ewinedd a<isp/>'r cyffelyb:
+<lb/>Mynd i fyny i<isp/>'r <hi rend="italic">Llofftydd</hi>, gwelem un mewn
+<lb/>'stafell ddirgel yn gwneud pob ystumieu
+<lb/>arno 'i hun i ddyscu moes boneddigaidd iw
+<lb/>Gariad; un arall mewn Dr&ycirc;ch yn dyscu
+<lb/>chwerthin yn gymmwys heb ddangos iw
+<lb/>Gariad ormod o<isp/>'i ddannedd; un arall yn
+<lb/>taccluso 'i chwedl erbyn mynd atti hi, ac yn
+<lb/>dywedyd yr un wers ganwaith trosti. <w>Bli<lb rend="shy"/>no</w> ar y ffloreg ddiflas honno, a myned i
+<lb/>gell arall, yno 'r oedd Pendefig wedi <w>cyr<lb rend="shy"/>chu</w> Bardd o Str&ycirc;d <hi rend="italic">Balchder</hi>, i wneud Cerdd
+<lb/>fawl i<isp/><apo/>w angyles, a chywydd moliant iddo
+<lb/>'i hun; &acirc;<isp/>'r Bardd yn dadcan ei gelfyddyd,
+<lb/>mi fedraf, ebr ef, ei chyffelybu hi i bob
+<lb/><hi rend="italic">c&ocirc;ch</hi> a <hi rend="italic">gwyn</hi> tan yr Haul, a<isp/>'i gw&acirc;llt hi i gan
+<lb/>peth melynach na 'r aur; ac am eich <w>Cy<lb rend="shy"/>wydd</w> chwitheu, medraf ddwyn eich <w>A<lb rend="shy"/>cheu</w> trwy berfedd llawer o Farchogion, a
+<lb/>Thywysogion, a thrwy 'r dw'r Diluw, a<isp/>'r
+<lb/>cwbl yn gl&icirc;r hyd at <hi rend="italic">Adda</hi>. Wel' dyma
+<lb/>Fardd, ebr fi, sy well olrheiniwr na mi:
+<lb/>Tyrd, tyrd, eb yr Angel, mae rhain ar fedr
+<lb/>twyllo 'r fenyw, ond pan elont atti, bid
+<lb/>siccr y c&acirc;nt atteb cast am gast. Wrth <w>yma<lb rend="shy"/>del</w>&nbsp;&acirc; rhain, gwelsom gip ar gelloedd lle 'r
+<lb/>oeddid yn gwneud castieu bryntach nac y
+<lb/>g&acirc;d gwylder eu henwi, a wnaeth i<isp/>'m <w>Cy<pb rend="shy" n="27"/><lb/>dymaith</w> fy nghippio i 'n ddigllon o<isp/>'r Ll&ycirc;s
+<lb/>penchwiban yma, i Drysordy 'r Dwysoges
+<lb/>(oblegid ni aem lle chwenychem er na
+<lb/>doreu na chloieu.) Yno gwelem fyrdd o
+<lb/>Ferched gl&acirc;n, p&ocirc;b diodydd, ffrwythydd,
+<lb/>dainteithion, pob rhyw offer a llyfreu cerdd
+<lb/>dafod a thant, telyneu, pibeu, cywyddeu,
+<lb/>caroleu, <hi rend="italic">&amp;c</hi>. p&ocirc;b m&acirc;th o chwareuon <w>tawl<lb rend="shy"/>bwrdd</w> ffristial, disieu, cardieu, <hi rend="italic">&amp;c</hi>. p&ocirc;b
+<lb/>llunieu gwledydd, a threfi, a dynion, a
+<lb/>dyfeisieu, a chastieu digrif: p&ocirc;b dyfroedd,
+<lb/>p&ecirc;r-arogleu, a lliwieu, a smottieu i wneud
+<lb/>yr wrthun yn l&acirc;n, a<isp/>'r h&ecirc;n i edrych yn
+<lb/>ieuanc, ac i sawyr y buttain a<isp/>'i hescyrn
+<lb/>pwdr fod yn beraidd tros y tro. Ar fyrr,
+<lb/>yr oedd yno b&ocirc;b m&acirc;th o <hi rend="italic">gysgodion</hi> pleser, a
+<lb/><hi rend="italic">rh&icirc;th</hi> hyfrydwch: ac o ddywedyd y gwir,
+<lb/>ni choelia 'i na walliasei 'r fan yma finneu,
+<lb/>oni basei i<isp/>'m Cyfeill yn ddiymannerch, fy
+<lb/>nghipio i ymhell oddiwrth y tri Th&wcirc;r <w>hu<lb rend="shy"/>dol</w> i ben ucha 'r Strydoedd, am descyn i
+<lb/>wrth gastell o <hi rend="italic">Lys</hi> anferthol o faint, a <w>thi<lb rend="shy"/>rion</w> iawn yr olwg cynta, ond gwael a <w>gwr<lb rend="shy"/>thun</w> arswydus o<isp/>'r tu pella, etto ni welid
+<lb/>ond yn anhawdd iawn mor tu gwrthun; a
+<lb/>myrdd o ddryseu oedd arno a<isp/>'r holl ddoreu
+<lb/>'n w&ycirc;ch y tu allan, ond yn bwdr y tu
+<lb/>mewn. Attolwg, f' Arglwydd, ebr fi, os
+<lb/>rhyngai 'ch bodd p'le yw 'r fan ryfeddol
+<lb/>hon? Hwn, ebr ef, yw Ll&ycirc;s ail Ferch <w><hi rend="italic">Be<lb rend="shy"/>lial</hi>,</w> a elwir <hi rend="italic">Rhagrith</hi>: Yma mae hi 'n cadw
+<pb n="28"/>
+<lb/>ei Hyscol, ac nid oes na M&acirc;b na Merch o
+<lb/>fewn yr holl Ddinas, na fu 'n 'Scolheigion
+<lb/>iddi hi, a rhan fwya 'n yfed eu Dysc yn <w>o<lb rend="shy"/>diaeth,</w> fel y gwelir ei gwersi hi wedi mynd
+<lb/>yn ail natur yn gyfrodedd trwy eu holl <w>fe<lb rend="shy"/>ddylieu,</w> geirieu a gweithredoedd agos er
+<lb/>ein<!--corr to yn?--> blant. Wedi i mi spio ennyd ar ffalsder
+<lb/>pob cwrr o<isp/>'r Adeilad, dyma <hi rend="italic">Ganhebrwng</hi> yn
+<lb/>mynd heibio, a myrdd o wylo ac ochain, a
+<lb/>llawer o ddynion a cheffyleu wedi eu hulio
+<lb/>mewn galarwiscoedd duon; <corr resp="transcr" sic="ymhem">ymhen</corr>&nbsp;<w>en<lb rend="shy"/>nyd,</w> dyma 'r druan <hi rend="italic">Weddw</hi>, wedi ei <w>mw<lb rend="shy"/>gydu</w> rhag edrych mwy ar y byd brwnt
+<lb/>yma, yn dyfod tan leisio 'n wann, ac <w>och'nei<lb rend="shy"/>dio</w> 'n ll&ecirc;sc rhwng llesmeirieu: Yn w&icirc;r, ni
+<lb/>fedrais inneu nad wylais beth o dosturi:
+<lb/>I&egrave;, i&egrave;, eb yr Angel, cedwch eich dagreu at
+<lb/>rywbeth rheitiach: Nid yw 'r lleisieu hyn
+<lb/>ond d&ycirc;sc <hi rend="italic">Rhagrith</hi>, ac yn ei Hyscol fawr
+<lb/>hi, y lluniwyd y gwiscoedd duon yna.
+<lb/>Nid oes un o rhain yn wylo o ddifri: Mae<isp/>'r
+<lb/><hi rend="italic">Widw</hi>, cyn mynd corph hwn o<isp/>'i th&ycirc;, wedi
+<lb/>gollwng <hi rend="italic">Gwr arall</hi> eusys at ei chalon; pe
+<lb/>cai hi ymadel &acirc;<isp/>'r g&ocirc;st sy wrth y corph, ni
+<lb/>waeth ganddi o frwynen pettei ei enaid ef
+<lb/>yn<!--sic--> ngwaelod Uffern, na<isp/>'i geraint ef mwy
+<lb/>na hitheu; oblegid pan oedd gletta arno,
+<lb/>yn lle ei gynghori 'n ofalus, a gweddio 'n
+<lb/>daerddwys am drugaredd iddo, s&ocirc;n yr oeddid
+<lb/>am ei Betheu, ac am ei Lythyr-cymmun,
+<lb/>neu am ei Acheu, neu laned, gryfed G&wcirc;r
+<pb n="29"/>
+<lb/>ydoedd ef, a<isp/>'r cyffelyb: Ac felly rwan nid
+<lb/>yw 'r wylo yma, ond rhai o ran defod ac
+<lb/><hi rend="italic">arfer</hi>, eraill o <hi rend="italic">gwmnhi</hi>, eraill am eu <hi rend="italic">cyflog</hi>.
+<lb/>Prin yr aethei rhai'n heibio, dyma Dyrfa <w>a<lb rend="shy"/>rall</w> yn dyfod i<isp/>'r golwg, rhyw Arglwydd
+<lb/>gw&ycirc;ch aruthr, a<isp/>'i Arglwyddes wrth ei glun,
+<lb/>yn mynd yn araf mewn st&acirc;t, a llawer o
+<lb/>Wyr cyfrifol yn eu gapio a myrdd hefyd
+<lb/>ar eu traed yn dangos iddo b&ocirc;b ufudd-dod
+<lb/>a pharch; ac wrth y <hi rend="italic">Ffafreu</hi>, deellais mai
+<lb/><hi rend="italic">Priodas</hi> ydoedd. Dyma Arglwydd <w>ardder<lb rend="shy"/>chog,</w> ebr fi, sy 'n haeddu cymmaint parch
+<lb/>gan y rhai'n oll. Ped ystyrid y cwbl, ti a
+<lb/>ddywedit rywbeth arall, eb ef: Un o Stryd
+<lb/><hi rend="italic">Pleser</hi> yw 'r Arglwydd yma, a Merch yw
+<lb/>hitheu o Str&ycirc;d <hi rend="italic">Balchder</hi>; a<isp/>'r henddyn accw
+<lb/>sy 'n siarad &acirc;g ef, un ydyw o Stryd yr <hi rend="italic">Elw</hi>,
+<lb/>sy ganddo arian ar h&ocirc;ll d&icirc;r yr Arglwydd <w>a<lb rend="shy"/>gos,</w> a heddyw 'n dyfod i orphen <w>taledi<lb rend="shy"/>gaeth:</w> ni aethom i glywed yr ymddiddan.
+<lb/>Yn w&icirc;r, Syr, meddei 'r Codog, ni <w>fynna<lb rend="shy"/>swn</w> i er a feddai, fod arnoch eisieu dim a<isp/>'r
+<lb/>a allwn i at <corr resp="transcr" sic="ym ddangos">ymddangos</corr> heddyw 'n debyg
+<lb/>i chwi 'ch hunan, ac yn siccr gan ddarfod
+<lb/>i chwi daro wrth Arglwyddes mor <w>hawdd<lb rend="shy"/>gar</w> odidog a hon; (a<isp/>'r Cottyn h&ecirc;n-graff
+<lb/>yn gwybod o<isp/>'r goreu beth oedd hi.) Myn,
+<lb/>myn, myn, eb yr Arglwydd, nesa pleser at
+<lb/>edrych ar degwch hon, oedd wrando 'ch
+<lb/>mwynion resymmeu chwi; gwell genni
+<lb/>dalu i chwi l&ocirc;g, na chael arian yn rh&acirc;d gan
+<pb n="30"/>
+<lb/>neb arall. Yn ddiau, f' Arglwydd, ebr un
+<lb/>o<isp/>'r pen-cymdeithion a elwid Gwenieithiwr,
+<lb/>nid yw f' ewythr yn dangos dim ond a
+<lb/>haeddechi o barch, ond trwy 'ch cennad,
+<lb/>ni roes ef hanner a haeddei f' Arglwyddes
+<lb/>o gl&ocirc;d. Ni cheisiai, ebr ef, ond gwaetha
+<lb/>ungwr ddangos ei glanach hi 'n h&ocirc;ll Stryd
+<lb/><hi rend="italic">Balchder</hi>, na 'ch gwychach chwithe 'n h&ocirc;ll
+<lb/>Stryd <hi rend="italic">Pleser</hi>, na 'ch mwynach witheu
+<lb/>f' ewythr yn Stryd yr <hi rend="italic">Elw</hi>. O 'ch t&ycirc;b
+<lb/>dda chwi, eb yr Arglwydd, yw hynny,
+<lb/>ond ni choeliai fynd o ddau yngh&ycirc;d erioed
+<lb/>trwy fwy o gariad na ninneu. Fel yr
+<lb/>oeddynt yn mynd ymlaen, yr oedd y <w>dyr<lb rend="shy"/>fa</w> 'n cynnyddu, a phawb yn deg ei w&ecirc;n,
+<lb/>ac yn llaes ei foes i<isp/>'r llall, ac yn rhedeg i
+<lb/>ymgyfwrdd a<isp/>'u trwyneu gan lawr, fel
+<lb/>dau Geiliog a fyddei 'n mynd i daro.
+<lb/>Gwybydd weithian, eb yr Angel, na <w>we<lb rend="shy"/>laisti</w> etto <hi rend="italic">foes</hi>, ac na chlywaist yma <hi rend="italic">air</hi>, ond
+<lb/>o wersi <hi rend="italic">Rhagrith</hi>. Nid oes yma un wedi 'r
+<lb/>holl fwynder, a chanddo ffyrlingwerth o
+<lb/>gariad i<isp/>'r llall, i&egrave;, gelynion yw llawer o
+<lb/>honynt i<isp/><apo/>w gilydd. Nid yw 'r Arglwydd
+<lb/>yma, ond megis <hi rend="italic">cyffcl&ecirc;r</hi> rhyngthynt, a
+<lb/>phawb a<isp/>'i grab arno. Mae 'r Feinir a<isp/>'i
+<lb/>bryd ar ei <hi rend="italic">fawredd</hi> a<isp/>'i <hi rend="italic">fonedd</hi> ef, modd y
+<lb/>caffo hi 'r blaen ar lawer o<isp/>'i chymdogesau.
+<lb/>Y Cott sy a<isp/>'i olwg ar ei <hi rend="italic">D&icirc;r</hi> ef i<isp/><apo/>w Fab ei
+<lb/>hun, y lleill i gyd ar <hi rend="italic">Arian</hi> ei gynnyscaeth
+<lb/>ef, oblegid ei ddeiliaid ef ydynt oll, sef ei
+<pb n="31"/>
+<lb/>Farsiandwyr, ei Daelwriaid, ei Gryddion,
+<lb/>a<isp/>'i Grefftwyr eraill ef, au huliodd ac a<isp/>'i
+<lb/>maentumiodd e 'n yr holl wychder mawr
+<lb/>hwn, ac heb gael ffyrling etto, nac yn <w>de<lb rend="shy"/>byg</w> i gael, ond geirieu t&ecirc;g, ac weithieu <w>fy<lb rend="shy"/>gythion</w> ondodid. Bellach, pa sawl t&ocirc;, pa
+<lb/>sawl pl&ycirc;g a roes <hi rend="italic">Rhagrith</hi> yma ar wyneb y
+<lb/><hi rend="italic">Gwirionedd!</hi> Hwn yn addo mawredd iw
+<lb/>Gariad, ac ynteu ar werthu ei Dir; hithe 'n
+<lb/>addo cynnyscaeth a glendid heb feddu, ond
+<lb/>glendid <hi rend="italic">gosod</hi>, a<isp/>'r h&ecirc;n gancr yn ei <w>Chyn<lb rend="shy"/>nyscaeth</w> ai Chorph hefyd. Wel'dyma <w>ar<lb rend="shy"/>wydd,</w> ebr fi, na ddylid fyth farnu wrth y
+<lb/>golwg. I&egrave;, tyrd ymlaen, ebr ef, a <w>dan<lb rend="shy"/>gosaf</w> i ti beth ychwaneg; ar y air <corr resp="transcr" sic="f 'a'm">f' a<isp/>'m</corr>
+<lb/>trosglwyddodd i fynu, lle 'r oedd Eglwysi 'r
+<lb/>Ddinas ddihenydd, canys yr oedd rh&icirc;th o
+<lb/><hi rend="italic">Grefydd</hi> gan bawb ynddi hyd yn oed y <w>di<lb rend="shy"/>gr&ecirc;d.</w> Ac i <hi rend="italic">Deml</hi> yr <hi rend="italic">anghred</hi> yr aethom
+<lb/>gynta, gwelwn yno rai yn addoli llun <hi rend="italic">Dyn</hi>,
+<lb/>eraill yr <hi rend="italic">Haul</hi>, eraill y <hi rend="italic">Lleuad</hi>, felly aneirif
+<lb/>o<isp/>'r fath Dduwieu eraill, hyd at y <hi rend="italic">Winwyn</hi>
+<lb/>a<isp/>'r <hi rend="italic">Garlleg</hi>; a Duwies fawr a elwid <hi rend="italic">Twyll</hi>, yn
+<lb/>cael addoliant cyffredinol; er hynny <w>gwe<lb rend="shy"/>lit</w> beth &ocirc;l y Grefydd <hi rend="italic">Grystianogol</hi> ym&ycirc;sc y
+<lb/>rhann fwya o<isp/>'r rhain. Oddi yno ni <w>ae<lb rend="shy"/>thom</w> i gynulleidfa o rai <hi rend="italic">Mudion</hi>, lle nid
+<lb/>oedd ond ochneidio, a chrynu, a churo 'r
+<lb/>ddwyfron. Dyma, eb <sic>er</sic> Angel, rith o
+<lb/>edifeirwch gostyngeiddrwydd mawr,
+<lb/>ond nid oes yma ond 'piniwn, a <w>chyndyn<pb rend="shy" n="32"/><lb/>rhwydd,</w> a balchder, a thywyllwch dudew;
+<lb/>er maint y soniant am eu <hi rend="italic">Goleuni oddimewn</hi>,
+<lb/>nid oes ganddynt gymaint a <hi rend="italic">Spectol</hi> natur pe
+<lb/>sy gan y digr&ecirc;d y welaist gynneu. <w>Oddi<lb rend="shy"/>wrth</w> y c&wcirc;n mudion digwyddodd i ni droi
+<lb/>i Eglwys fawr benegored, a myrdd o <w>esci<lb rend="shy"/>dieu</w> yn y porth, wrth y rhain deellais mai
+<lb/>teml y <hi rend="italic">Tyrciaid</hi> ydoedd; nid oedd gan y
+<lb/>rhain ond <hi rend="italic">Spectol</hi> dywyll a chymysclyd
+<lb/>iawn a elwid <hi rend="italic">Alcoran</hi>; etto trwy hon 'r
+<lb/>oeddynt fyth yn spio 'mhen yr Eglwys am
+<lb/>eu Prophwyd a addawsei ar ei air celwydd,
+<lb/>ddychwel i ymweled &acirc; hwynt er's talm,
+<lb/>ac etto heb gywiro. Oddiyno 'r aethom i
+<lb/>Eglwys yr <hi rend="italic">Iddewon</hi>, 'r oedd y rhain <w>hwy<lb rend="shy"/>the</w> 'n methu cael y ffordd i ddianc o<isp/>'r
+<lb/>Ddinas ddihenydd, er bod Spectol <w>lwyd<lb rend="shy"/>oleu</w> ganddynt, am f&ocirc;d rhyw huchen wrth
+<lb/>spio 'n dyfod tros eu llygaid eisieu i hiro a<isp/>'r
+<lb/>gwerthfawr ennaint, <hi rend="italic">ffydd</hi>. Yn nesa 'r
+<lb/>aethom at y <hi rend="italic">Papistiaid</hi>; dyma, eb yr Angel,
+<lb/>yr Eglwys sy 'n <hi rend="italic">twyllo 'r Cenhedloedd!</hi>&nbsp;<w>Rha<lb rend="shy"/>grith</w> a adeiladodd yr Eglwys yma ar ei
+<lb/>ch&ocirc;st ei hun. Canys mae 'r Papistiaid yn
+<lb/>cynnws, ie 'n gorchymyn na chadwer llw
+<lb/>&acirc; Heretic, er darfod ei gymmeryd ar y
+<lb/>Cymmun: O<isp/>'r Ganghell ni aethom trwy
+<lb/>dylleu cloieu i ben rhyw gell neilltuol,
+<lb/>llawn o ganhwylleu ganol dydd goleu, lle
+<lb/>gwelem Offeiriad wedi eillio 'i goryn yn
+<lb/>rhodio, ac megis yn disgwil rhai atto; yn
+<pb n="33"/>
+<lb/>y man, dyma globen o Wraig a Llances
+<lb/>l&acirc;n o<isp/>'i h&ocirc;l, yn mynd ar ei glinieu o<isp/>'i flaen
+<lb/>ef, i gyfadde<isp/>'i phechodeu: Fy nh&acirc;d <w>yspry<lb rend="shy"/>dol</w> ebr y Wreigdda, mae arna 'i faich <w>rhy<lb rend="shy"/>drwm</w> ei oddef, oni ch&acirc;f eich trugaredd iw
+<lb/>yscafnhau; mi briodais un o Eglwys <hi rend="italic">Loegr</hi>;
+<lb/>ac, pa beth, ebr y Corynfoel, priodi <w>He<lb rend="shy"/>retic!</w> priodi Gelyn! nid oes fyth <w>faddeu<lb rend="shy"/>ant</w> i<isp/><apo/>w gael; ar y gair hwnnw hi a <w>lesmei<lb rend="shy"/>riodd,</w> ac ynte 'n bugunad melltithion arni,
+<lb/>och a phe sy waeth, ebr hi, pan <w>ddade<lb rend="shy"/>brodd,</w> mi a<isp/>'i lleddais ef! O, ho! a <w>le<lb rend="shy"/>ddaisti</w> ef, wel'dyma rywbeth at cael <w>cym<lb rend="shy"/>mod</w> yr Eglwys, 'r wyfi 'n dywedyd itti,
+<lb/>oni bai ladd o honot ef, ni chawsit fyth
+<lb/><corr resp="transcr" sic="ollyngdon">ollyngdod</corr>, na phurdan, ond mynd yn <w>u<lb rend="shy"/>nion</w> i Ddiawl wrth blwm. Ond p'le mae
+<lb/>'ch Offrwm chwi 'r Faeden, ebr ef, tan
+<lb/>'scyrnygu? Dyma, ebr hi, ac estynnodd
+<lb/>gryn-god o arian; wel, 'ebr<!--sic--> ynte, 'bellach
+<lb/>mi wn&acirc; 'ch cymmod, eich Penyd yw b&ocirc;d
+<lb/>b&ycirc;th yn weddw, rhag i chwi wneud drwg-
+<lb/>Fargen arall. Pen aeth hi ymaith, dyma 'r
+<lb/>Forwyn yn dyfod ymlaen i draethu ei <w>chy<lb rend="shy"/>ffes</w> hitheu: Eich pardwn y Nh&acirc;d-cyffeswr
+<lb/>ebr hi, mi a feichiogais, ac a leddais fy
+<lb/>Mhlentyn. T&ecirc;g iawn yn w&icirc;r, ebr y <w>Cy<lb rend="shy"/>ffeswr,</w> a phwy oedd y T&acirc;d? Yn w&icirc;r, un
+<lb/>o<isp/>'ch Monachod chwi, ebr hi, ist, ist, eb ef,
+<lb/>dim anair i Wyr yr Eglwys: Ple mae 'r
+<lb/>iawn i<isp/>'r Eglwys sy gennych? Dyma, ebr
+<pb n="34"/>
+<lb/>hitheu, ac a estynnodd iddo euryn. Rhaid
+<lb/>i chwi edifarhau, a<isp/>'ch Penyd yw gwilied
+<lb/>wrth fy ngwelu i heno, ebr ef, tan <w>g&icirc;l<lb rend="shy"/>wenu</w> arni hi. Yn hyn, dyma bedwar o
+<lb/>rai moelion eraill yn llusco dynan at y <w>cy<lb rend="shy"/>ffeswr,</w> ac ynte 'n dyfod mor 'wllyscar ac
+<lb/>at grogpren. Dyma i chwi geneu, ebr un
+<lb/>o<isp/>'r pedwar, i ddwyn ei benyd am <w>ddadcu<lb rend="shy"/>ddio</w> dirgelion yr Eglwys Gatholic. Pa
+<lb/>beth, ebr y Cyffeswr, tan edrych ar ryw
+<lb/>si&ecirc;l ddu oedd yno gerllaw? Ond cyffesa
+<lb/>filein beth a <corr resp="transcr" sic="ddywedasti">ddywedaisti</corr>? Yn w&icirc;r, eb y
+<lb/>truan, cymydog a ofynnodd i mi, a <w><corr resp="transcr" part="a" sic="wel">wel</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="swm">swn</corr></w> i<isp/>'r <hi rend="italic">Eneidieu</hi> 'n griddfan tan yr Allor
+<lb/><hi rend="italic">Ddygwyl y Meirw</hi>, minneu ddywedais, <w>gly<lb rend="shy"/>wed</w> y llais, ond na <corr resp="transcr" sic="welswm">welswn</corr><!--or reg, cf above wel/swm--> i ddim. Ai&egrave;,
+<lb/>Syre, dywedwch y cwbl, ebr un o<isp/>'r lleill.
+<lb/>Ond mi attebais, ebr ef, glywed o hono 'i
+<lb/>mai gwneud castieu 'r &ycirc; chwi, &acirc; ni 'r <w>an<lb rend="shy"/>llythrennog,</w> nad oes yn lle Eneidieu ond
+<lb/>Crancod y M&ocirc;r yn 'scyrlwgach tan y <w>car<lb rend="shy"/>bed.</w> O F&acirc;b y Fall, o Wyneb y Felltith!
+<lb/>ebr y Cyffeswr, ond ewch ymlaen Fastiff;
+<lb/>ac mai weir oedd yn troi delw St. <hi rend="italic">Pedr</hi>, ac
+<lb/>mai wrth weir yr oedd yr Yspryd Gl&acirc;n
+<lb/>yn descyn o lofft y gr&ocirc;g ar yr Offeiriad.
+<lb/>O etifedd <corr resp="transcr" sic="Uffernl">Uffernol</corr>! eb y Cyffeswr, hai, hai,
+<lb/>cymrwch ef Boenwyr, a theflwch ef <corr resp="transcr" sic="'r">i<isp/>'r</corr>&nbsp;<w>Sim<lb rend="shy"/>nei</w> fyglyd yna, am ddywedyd chwedleu.
+<lb/>Weldyma i ti 'r Eglwys a fyn <hi rend="italic">Rhagrith</hi> ei
+<lb/>galw 'n Eglwys Gatholic, ac mai rhain yw 'r
+<pb n="35"/>
+<lb/>unic rai cadwedig, eb yr Angel: Bu gan y
+<lb/>rhain yr iawn <hi rend="italic">Spectol</hi>, eithr torrasant hyd y
+<lb/>gwydr fyrdd o lunieu; a bu ganddynt wir
+<lb/>ffydd, ond hwy a gymyscasant yr ennaint
+<lb/>hwnnw a<isp/>'u defnyddieu newyddion eu <w>hu<lb rend="shy"/>nain,</w> fel na welant mwy na 'r anghred.
+<lb/>Oddiyno ni aethom i <hi rend="italic">'Scubor</hi>, lle 'r oedd
+<lb/>un yn dynwared Pregethu ar ei dafod <w>le<lb rend="shy"/>ferydd,</w> weithieu 'r un peth deirgwaith
+<lb/>olynol. Wel, 'eb yr Angel, mae gan y
+<lb/>rhain yr iawn <hi rend="italic">Spectol</hi> i weled y petheu a
+<lb/>berthyn i<isp/><apo/>w heddwch, ond bod yn fyrr yn
+<lb/>eu hennaint un o<isp/>'r defnyddieu <w>anghenrhei<lb rend="shy"/>tia,</w> a elwir cariad perffaith. Mae amryw
+<lb/>achosion yn gyrru rhai <hi rend="italic">yma</hi>; rhai o ran
+<lb/>parch i<isp/><apo/>w hynafiaid, rhai o anwybodaeth, a
+<lb/>llawer er manteisieu bydol. Gwnaent iti
+<lb/>dybio 'u b&ocirc;d yn tagu ar wyneb, ond hwy
+<lb/>a fedrant lyncu Llyffaint rhag angen: Ac
+<lb/>felly mae 'r Dwysoges <hi rend="italic">Rhagrith</hi> yn dyscu
+<lb/>rhai mewn Scuboriau. Ertolwg, ebr fi,
+<lb/>p'le weithian y mae <hi rend="italic">Eglwys Loegr</hi>? O, ebr <w>yn<lb rend="shy"/>teu,</w> mae honno yn y Ddinas ucha 'fr&ycirc; yn
+<lb/>rhann fawr o<isp/>'r <hi rend="italic">Eglwys Gatholic</hi>. Ond, ebr
+<lb/>ef, mae 'n y Ddinas <hi rend="italic">yma</hi> rai Eglwysi <hi rend="italic">Prawf</hi>,
+<lb/>yn perthyn i <hi rend="italic">Eglwys Loegr</hi>, lle mae 'r <hi rend="italic">Cymru</hi>
+<lb/>a<isp/>'r <hi rend="italic">Saeson</hi> tan brawf tros dro, i<isp/><apo/>w cymmwyso
+<lb/>at gael eu henweu 'n Llyfr yr <hi rend="italic">Eglwys <w>Ga<lb rend="shy"/>tholic,</w></hi> a<isp/>'r sawl a<isp/>'i caffo, <hi rend="italic">gwyn ei fyd fyth!</hi>
+<lb/>Eithr nid oes sywaeth ond ychydig yn
+<lb/>ymgymmwyso i gael braint yn honno.
+<pb n="36"/>
+<lb/>O blegid yn lle edrych tuac yno, mae <w>gor<lb rend="shy"/>mod</w> yn ymddallu wrth y tair Twysoges
+<lb/>obry, ac mae <hi rend="italic">Rhagrith</hi> yn cadw llawer, ac
+<lb/>un llygad ar y Ddinas ucha, a<isp/>'r llall a'r<!--=ar--> yr
+<lb/>isa; i&egrave;, mae <hi rend="italic">Rhagrith</hi> cyn lewed a thwyllo
+<lb/>llawer o<isp/>'u ffordd, wedi iddynt orfod y
+<lb/>tair Hudoles eraill. Tyrd i mewn yma,
+<lb/>cei weled ychwaneg, ebr ef, ac a'm<!--isp?-->&nbsp;<w>ci<lb rend="shy"/>piodd</w> i lofft y gr&ocirc;g, un o Eglwysi <hi rend="italic">Cymru</hi>,
+<lb/>a<isp/>'r bobl ar ganol y Gwasanaeth, yno <w>gwe<lb rend="shy"/>lem</w> rai 'n sisial siarad, rhai 'n chwerthin
+<lb/>rhai 'n tremio ar Ferched gl&acirc;n, eraill yn
+<lb/>darllen gwisciad eu Cymydog o<isp/>'r coryn i<isp/>'r
+<lb/>sowdl, rhai 'n ymwthio ac yn <w>ymddanhe<lb rend="shy"/>ddu</w> am eu braint, rhai 'n heppian, eraill
+<lb/>yn ddyfal ar eu dyfosiwn, a llawer o <w>rhei<lb rend="shy"/>ni</w> hefyd yn rhagrithio. Ni welaisti etto,
+<lb/>eb yr Angel, na ddo 'mysc yr anghred,
+<lb/>ddigywilydd-dra mor oleu-gyhoedd a
+<lb/>hwn; ond felly mae sywaeth <hi rend="italic">llygriad y
+<lb/>peth goreu yw 'r llygriad gwaetha' oll</hi>. Yna
+<lb/>hwy a aethant i<isp/>'r Cymmun, a phob un yn
+<lb/>ymddangos yn syrn barchus i<isp/>'r Allor. Er
+<lb/>hynny (trwy ddr&ycirc;ch fy nghyfeill) <w>gwe<lb rend="shy"/>lwn</w> ymbell un gyda 'r bara yn derbyn iw
+<lb/>fol megis llun <hi rend="italic">Mastiff</hi>, un arall <hi rend="italic">Dwrchdaiar</hi>,
+<lb/>un arall megis <hi rend="italic">Eryr</hi>, un arall <hi rend="italic">Fochyn</hi>, un arall
+<lb/>megis <hi rend="italic">Sarph hedegog</hi>; ac ychydig, o mor <w>y<lb rend="shy"/>chydig</w> yn derbyn pelydryn o oleuni <w>dis<lb rend="shy"/>clair</w> gyda 'r bara a<isp/>'r gwin. Dyna, ebr ef,
+<lb/>Rowndiad sy 'n mynd yn Siri ac o ran,
+<pb n="37"/>
+<lb/>bod y Gyfraith yn gofyn cymmuno 'n yr
+<lb/>Eglwys cyn cael Swydd, ynte' ddaeth yma
+<lb/>rhag ei cholli: ac er bod yma rai 'n llawenu
+<lb/>ei weled ef, ni bu etto yn ein plith ni ddim
+<lb/>llawenydd o<isp/>'i droedigaeth ef; wrth hynny
+<lb/>ni throes ef sywaeth ond tros y tro: ac felly
+<lb/>ti weli f&ocirc;d <hi rend="italic">Rhagrith</hi> yn dra h&ycirc; ddyfod at yr
+<lb/>Allor o flaen <hi rend="italic">IMMANUEL</hi> ddisiommedig.
+<lb/>Ond er maint yw hi yn y Ddinas <w>ddihe<lb rend="shy"/>nydd,</w> ni all hithe ddim yn Ninas <w><hi rend="italic">IMMA<lb rend="shy"/>NUEL</hi></w> tu ucha 'r Gaer accw. Ar y gair,
+<lb/>ni a droesom ein hwynebeu oddiwrth y
+<lb/>Ddinas fawr ddihenydd, ac aethom ar i
+<lb/>fynu, tu a<isp/>'r Ddinas fach arall; wrth fyned
+<lb/>gwelem ymhen ucha 'r Strydoedd lawer
+<lb/>wedi lled-troi oddiwrth hudoliaeth y <hi rend="italic">Pyrth
+<lb/>dihenydd</hi>, ac yn ymorol am <hi rend="italic">Borth y bywyd</hi>,
+<lb/>ond naill ai methent ei gael, ai blinent ar
+<lb/>y ffordd, nid oedd fawr iawn yn mynd
+<lb/>trwodd, oddieithr un dyn wynebdrist oedd
+<lb/>yn rhedeg oddifri a myrdd o<isp/>'i ddeutu 'n ei
+<lb/>ffoli, rhai 'n ei watwar, rhai 'n ei fygwth,
+<lb/>a<isp/>'i geraint yn ei dd&agrave;l ac yn ei greu i beidio
+<lb/>ai daflu ei hun i golli 'r holl f&ycirc;d ar <w>un<lb rend="shy"/>waith.</w> Nid wyfi, ebr ynte 'n colli ond
+<lb/>rhan fechan o hono, a phe collwn i<isp/>'r cwbl;
+<lb/>Ertolwg pa'r golled yw? O blegid be' sy
+<lb/>yn y Byd mor ddymunol, oni ddymunei
+<lb/>ddyn<!--subj len after impf--> dwyll a thrais, a thrueni, a drygioni,
+<lb/>a phendro, a gwallco? <hi rend="italic">Bodlonrhwydd</hi> a
+<lb/><hi rend="italic">Llonyddwch</hi>, ebr ef, yw happusrwydd dyn,
+<pb n="38"/>
+<lb/>ond nid oes yn eich Dinas chwi ddim o<isp/>'r
+<lb/>f&acirc;th <corr resp="transcr" sic="berheu">betheu</corr> i<isp/><apo/>w cael. Oblegid pwy sy
+<lb/>yma 'n <hi rend="italic">fodlon</hi> i<isp/><apo/>w st&acirc;t? <hi rend="italic">uwch, uwch</hi> y cais
+<lb/>pawb o Stryd <hi rend="italic">Balchder</hi>; moes, moes <w>y<lb rend="shy"/>chwaneg,</w> medd pawb yn Stryd yr <hi rend="italic">Elw</hi>;
+<lb/>melus, moes etto yw llais pawb yn Stryd
+<lb/><hi rend="italic">Pleser</hi>. Ac am <hi rend="italic">Lonyddwch</hi>, p'le mae? a
+<lb/>phwy sy 'n ei gael? Os G&wcirc;r <hi rend="italic">mawr</hi>, dyna
+<lb/>weniaith a chynfigen ar ei ladd; os <hi rend="italic">tlawd</hi>,
+<lb/>hwdiwch bawb i<isp/><apo/>w sathru a<isp/>'i ddiystyru.
+<lb/>Os mynni godi, dyro dy fryd ar fynd yn
+<lb/>Ddyfeisiwr, os mynni barch bydd <w>Ffro<lb rend="shy"/>stiwr</w> neu Rodreswr. Os byddi Duwiol
+<lb/>yn cyrchu i<isp/>'r Eglwys a<isp/>'r Allor, gelwir di
+<lb/>'n Rhagrithiwr, os peidi, dyna di 'n <w>An<lb rend="shy"/>ghrist</w> ne' 'n Heretic: Os llawen fyddi,
+<lb/>gelwir di 'n wawdiwr: os distaw, gelwir
+<lb/>di 'n gostog gwenwynllyd; os dilyni <w>one<lb rend="shy"/>strwydd,</w> nid wyti ond ff&wcirc;l di-ddeunydd;
+<lb/>os trwsiadus, balch; os nad&egrave;, mochyn; os
+<lb/>llyfn dy<isp/>leferydd, dyna di 'n ffals, neu <w>ddi<lb rend="shy"/>hiryn</w> anhawdd dy<isp/>ddirnad; os garw, <w>cy<lb rend="shy"/>threl</w> trahaus anghydfod. Dyma 'r BYD
+<lb/>yr &ycirc;ch i 'n ei fawrhau, ebr ef, ac ertolwg
+<lb/>cymrwch i chwi fy rhann i o hono, ac ar
+<lb/>y gair fe a ymescydwodd oddiwrthynt oll
+<lb/>ac ymaith &acirc;g e 'n ddihafarch at y Porth <w>cy<lb rend="shy"/>fyng,</w> ac heb waetha i<isp/>'r cwbl tan ymwthio
+<lb/>f' aeth drwodd a ninne' o<isp/>'i ledol; a llawer
+<lb/>o W&ycirc;r duon ar y caereu o ddeutu 'r Porth
+<lb/>yn gwadd y Dyn ac yn ei ganmol. Pwy,
+<pb n="39"/>
+<lb/>ebr fi, yw 'r duon fr&ycirc;? Gwiliwyr y Brenin
+<lb/><hi rend="italic">IMMANUEL</hi>, ebr ynte, sy<isp/>'n enw eu Meistr
+<lb/>yn gwadd ac yn helpu rhai trwy 'r Porth
+<lb/>yma. Erbyn hyn 'roeddym ni wrth y
+<lb/>Porth; isel a chyfyng iawn oedd hwn, a
+<lb/>gwael wrth y Pyrth isa; O ddeutu 'r drws
+<lb/>'roedd y <hi rend="italic">Deg Gorchymyn</hi>, y Ll&ecirc;ch gynta o<isp/>'r
+<lb/>tu deheu; ac uwch ei phen, <hi rend="italic">Ceri DDUW
+<lb/><corr resp="transcr" sic="aeth">a<isp/>'th</corr> holl Galon</hi>, &amp;c. ac uwch ben, yr ail
+<lb/>L&ecirc;ch; o<isp/>'r tu arall, <hi rend="italic">C&acirc;r dy Gymydog fel ti dy
+<lb/>hun</hi>; ac uwch ben y cwbl, <hi rend="italic">Na cherwch y
+<lb/>Byd, na<isp/>'r petheu sy 'n y byd</hi>, &amp;c. Ni <w>edry<lb rend="shy"/>chaswn</w> i fawr nad dyma 'r Gwilwyr yn
+<lb/>dechreu gwaeddi ar y Dynion dihenydd,
+<lb/>ffowch, ffowch am eich einioes! ond <w>ychy<lb rend="shy"/>dig</w> a droe unwaith attynt, etto rhai a <w>o<lb rend="shy"/>fynnent,</w> ffoi rhag pa beth? Rhag Twysog
+<lb/>y byd hwn, sy 'n llywodraethu ymhlant
+<lb/>yr anufudd-dod meddei 'r gwiliwr; rhag
+<lb/>y llygredigaeth sy 'n y byd trwy chwant
+<lb/>y cnawd, chwant y llygad a balchder y
+<lb/>bywyd; rhag y digofaint sy ar ddyfod <w>ar<lb rend="shy"/>noch.</w> Beth, ebr gwiliwr arall yw 'ch <w>an<lb rend="shy"/>wyl</w> Ddinas chwi ond Taflod fawr o <w>boeth<lb rend="shy"/>fel</w> uwch ben Uffern, a phettei chwi yma,
+<lb/>caech weled y t&acirc;n tu draw i<isp/>'ch caereu ar
+<lb/>ymgymeryd i<isp/>'ch llosci hyd <hi rend="italic">Annwfn</hi>: Rhai
+<lb/>a<isp/>'u gwatwarei, rhai a fygythiei oni thawent
+<lb/>ai l&ograve;l anfoesol, etto ymbell un a ofynnei i
+<lb/>ba le y ffown? Yma, meddei 'r Gwilwyr,
+<lb/>ffowch yma at eich union Frenin sy etto
+<pb n="40"/>
+<lb/>trwom ni 'n cynnyg i chwi gymmod, os
+<lb/>trowch i<isp/>'ch ufudd-dod oddiwrth y <w>Gwrth<lb rend="shy"/>ryfelwr</w>&nbsp;<hi rend="italic">Belial</hi> a<isp/>'i hudol-ferched. Er <w>gwy<lb rend="shy"/>ched</w> yr olwg arnynt nid yw ond ff&ucirc;g, nid
+<lb/>yw <hi rend="italic">Belial</hi> ond Tywysog tlawd iawn gartre,
+<lb/>nid oes ganddo yno ond chwi 'n gynnud ar
+<lb/>y t&acirc;n, a chwi 'n rh&ocirc;st ac yn ferw i<isp/>'ch cnoi,
+<lb/>ac byth nid ewch i<isp/>'n ddigon, byth ni ddaw
+<lb/>torr ar ei newyn ef na<isp/>'ch poen chwitheu. A
+<lb/>phwy a wasanaethei 'r f&acirc;th Gigydd <w>ma<lb rend="shy"/>leisddrwg</w> mewn gwallco ennyd, ac mewn
+<lb/>dirboeneu byth wedi, ac a allei gael byd
+<lb/>d&acirc; tan Frenin tosturiol a charedig i<isp/><apo/>w <w>ddei<lb rend="shy"/>liaid,</w> heb wneud iddynt erioed ond y
+<lb/>Daioni bwygilydd, a<isp/>'u cadw rhag <hi rend="italic">Belial</hi> i
+<lb/>roi teyrnas i bob un o<isp/>'r diwedd yn ngwl&acirc;d
+<lb/>y Goleuni! Oh, ynfydion! a gymerwch
+<lb/>i<isp/>'r Gelyn echryslawn yna sy &acirc;<isp/>'i g&ecirc;g yn llosci
+<lb/>o syched am eich gwaed, yn lle 'r Twysog
+<lb/>trugarog a roes ei waed ei hun i<isp/>'ch achub?
+<lb/>Etto ni wyddit fod y rhesymmeu hyn a
+<lb/>feddalhae graig, yn llesio fawr iddynt hwy,
+<lb/>a<isp/>'r achos fwya oedd, nad oedd fawr yn cael
+<lb/>hamdden i<isp/><apo/>w <hi rend="italic">gwrando</hi>, gan edrych ar y
+<lb/>Pyrth, ac o<isp/>'r gwrandawyr nid oedd fawr
+<lb/>yn <hi rend="italic">ystyried</hi>, ac o<isp/>'r rheini nid oedd fawr yn
+<lb/>eu <hi rend="italic">cofio</hi> chwaith hir, rhai ni choelient mai
+<lb/><hi rend="italic">Belial</hi> yr oeddynt yn ei wasanaethu, eraill
+<lb/><corr resp="transcr" sic="fynnent">ni fynnent</corr> mai<isp/>'r twll bach di-sathr hwnnw
+<lb/>oedd Borth y Bywyd, ac ni choelient mai
+<lb/>hudoliaeth oedd y Pyrth disclair eraill a<isp/>'r
+<pb n="41"/>
+<lb/>Castell i rwystro iddynt weled eu Destryw
+<lb/>nes mynd iddo. Yn hyn dyma drwp o
+<lb/>bobl o Stryd <hi rend="italic">Balchder</hi> yn ddigon h&ycirc; 'n curo
+<lb/>wrth y Porth, ond yr oeddynt oll mor
+<lb/>warsyth nad aent byth i le mor isel heb
+<lb/>ddiwyno 'u perwigeu a<isp/>'u cyrn, felly hwy
+<lb/>a rodiasant yn eu hol yn o surllyd. <w>Yn<lb rend="shy"/>ghynffon</w> y rhai'n daeth attom ni fagad o
+<lb/>Str&ycirc;d <hi rend="italic">Elw</hi>; ac, ebr un, ai dyma Borth y
+<lb/>bywyd? i&egrave;, ebr y Gwiliwr oedd uwch
+<lb/>ben. Be' sy i<isp/><apo/>w wneud, ebr ef, at ddyfod
+<lb/>trwodd? darllenwch o ddeutu 'r drws,
+<lb/>cewch wybod; darllennodd y Cybydd y
+<lb/>D&ecirc;g-Gorchymmyn i gyd trostynt; pwy,
+<lb/>ebr ef, a ddyweid dorri o honofi un o<isp/>'r
+<lb/>rhain? ond pan edrychodd e<isp/>'n uwch a
+<lb/>gweled, <hi rend="italic">Na cherwch y Byd, na<isp/>'r petheu sy 'n
+<lb/>y Byd</hi>, fe synnodd, ac ni fedrei lyncu mo<isp/>'r
+<lb/>Gair caled hwnnw; 'r oedd yno un piglas
+<lb/>cenfigennus a droes yn &ocirc;l wrth ddarllen,
+<lb/><hi rend="italic">C&acirc;r dy Gymydog fel ti dy hun</hi>, yr oedd yno
+<lb/>Gwestiwr ac Athrodwr a chwidr-droisant
+<lb/>wrth ddarllen, <hi rend="italic">Na ddwg gam Dystioliaeth</hi>; pan
+<lb/>ddarllenwyd, <hi rend="italic">Na L&acirc;dd</hi>, nid yma i ni, eb y
+<lb/>Physygwyr. I fod yn fyrr, <corr resp="transcr" sic="gwel ei">gwelei</corr> bawb
+<lb/>rywbeth yn ei flino, ac felly <w>cyd-ddychwe<lb rend="shy"/>lasant</w> oll i 'studio 'r pwynt, ni welais i 'r
+<lb/>un etto yn dyfod wedi dyscu ei wers, ond
+<lb/>yr oedd ganddynt gymaint o Godeu a <w>Scri<lb rend="shy"/>f'nadeu</w> 'n dynn o<isp/>'u cwmpas nad aethent
+<lb/>fyth trwy grau mor gyfyng pe ceisiasent.
+<pb n="42"/>
+<lb/>Yn y fan, dyma yrr o Stryd <hi rend="italic">Pleser</hi> yn <w>rho<lb rend="shy"/>dio</w> tu a<isp/>'r Porth. Yn rhodd, ebr un wrth
+<lb/>y gwilwyr, i ba le mae 'r ffordd yma 'n
+<lb/>mynd? Dyma, ebr gwiliwr, y ffordd sy 'n
+<lb/>arwain i lawenydd a hyfrydwch <w>tragywy<lb rend="shy"/>ddol,</w> ar hyn ymegniodd pawb i ddyfod
+<lb/>trwodd, ond methasant; canys yr oedd
+<lb/>rhai 'n rh&ycirc; foliog i le mor gyfyng, eraill
+<lb/>yn rhy egwan i ymwthio wedi i Ferched
+<lb/>ei dihoeni, a rheini 'n eu hattal gerfydd eu
+<lb/>gwendid afiach. O, ebr gwiliwr oedd yn
+<lb/>edrych arnynt, ni wiw i chwi gynnyg
+<lb/>mynd trwodd &acirc;<isp/>'ch teganeu gyda chwi,
+<lb/>rhaid i chwi adel eich Pottieu, a<isp/>'ch Dyscleu,
+<lb/>a<isp/>'ch Putteinied, a<isp/>'ch h&ocirc;ll G&ecirc;r eraill o<isp/>'ch ol,
+<lb/>ac yna bryssiwch. Ebr Ffidler, a fasei
+<lb/>trwodd er's ennyd, oni bai rhagofn torri 'r
+<lb/>Ffidil, pa fodd y byddwn ni byw? O, ebr
+<lb/>y gwiliwr, rhaid i chwi gymmeryd gair y
+<lb/>Brenin am yrru ar eich ol gynnifer o<isp/>'r <w>pe<lb rend="shy"/>theu</w> yna a<isp/>'r a fo da er eich ll&ecirc;s. Rhoes
+<lb/>hynny 'r cwbl i ymwrando, <hi rend="italic">Hai, hai</hi>, ebr
+<lb/>un, <hi rend="italic">gwell aderyn mewn llaw na dau mewn
+<lb/>llwyn</hi>, ac ar hynny troesant oll yn unfryd
+<lb/>y eu <corr resp="transcr" sic="holl">h&ocirc;l</corr>.<!--circumflex?--> Tyrd trwodd weithian, eb yr
+<lb/>Angel, ac a<isp/>'m tynnodd i mewn lle <w>gwe<lb rend="shy"/>lwn</w> yn y Porth yn gynta <hi rend="italic">Fedyddfaen</hi> mawr,
+<lb/>ac yn ei ymyl, <hi rend="italic">Ffynnon</hi> o ddw'r h&acirc;llt; beth
+<lb/>a wn&acirc; hon ar lygad y ffordd, ebr fi? Am
+<lb/>fod yn rhaid i bawb ymolchi ynddi cyn
+<lb/>cael braint yn Ll&ycirc;s <hi rend="italic">IMMANUEL</hi>, hi a
+<pb n="43"/>
+<lb/>elwir <hi rend="italic">Ffynnon Edifeirwch</hi>; uwch ben <w>gwe<lb rend="shy"/>lwn</w> yn scrifennedig, <hi rend="italic">Dyma Borth yr <w>Ar<lb rend="shy"/>glwydd,</w></hi>&nbsp;&amp;c. Yr oedd y Porth a<isp/>'r Stryd <w>he<lb rend="shy"/>fyd</w> yn lledu ac yn yscafnhau fel yr elid
+<lb/>ymlaen; pan aethom ronyn uwch i<isp/>'r Str&ycirc;d,
+<lb/>clywn lais ara 'n dywedyd om h&ocirc;l, <hi rend="italic">Dyna 'r
+<lb/>Ffordd, rhodia ynddi</hi>. Yr oedd y Stryd ar
+<lb/>orufynu, etto 'n bur l&acirc;n ac union, ac er
+<lb/>nad oedd y tai ond &icirc;s yma nac yn y Ddinas
+<lb/><hi rend="italic">ddihenydd</hi>, etto 'r oeddynt yn dirionach, os
+<lb/>oes yma lai o feddianneu mae 'ma hefyd lai o
+<lb/>ymryson a gofalon; os oes llai o seigieu, mae
+<lb/>llai o ddolurieu; os oes llai o dr&wcirc;st, mae
+<lb/>hefyd lai o dristwch, a mwy 'n siccr o wir
+<lb/>lawenydd. Bu ryfedd genni<isp/>'r Distawrwydd
+<lb/>a<isp/>'r <hi rend="italic">Tawelwch</hi> hawddgar oedd yma wrth i <w>wa<lb rend="shy"/>red.</w> Yn lle 'r tyngu a<isp/>'r rhegu, a<isp/>'r gwawdio,
+<lb/>a phutteinio, a meddwi; yn lle balchder ac
+<lb/>oferedd, y syrthni 'n y naill cwrr, a <w>thraws<lb rend="shy"/>ni</w> 'n y cwrr arall; i&egrave;, 'n lle 'r holl ffrio
+<lb/>ffair, a<isp/>'r ffr&ocirc;st, a<isp/>'r ffrwst, a<isp/>'r ffrwgwd oedd
+<lb/>yno 'n pendifadu dynion yn ddibaid, ac
+<lb/>yn lle 'r aneirif ddrygeu gwastadol oedd
+<lb/>isod; Ni weliti yma ond sobrwydd <w>mwyn<lb rend="shy"/>der</w> a sirioldeb, heddwch a diolchgarwch;
+<lb/>Tosturi, diniweidrwydd a bodlonrhwydd
+<lb/>yn eglur yn wyneb p&ocirc;b Dyn; oddieithr
+<lb/>ymbell un a wylei 'n ddistaw o frynti fod
+<lb/>c&ycirc;d yn Ninas y Gelyn. Nid oedd yma
+<lb/>na ch&acirc;s, na llid, ond i <hi rend="italic">bechod</hi>, ac yn siccr o
+<lb/>orchfygu hwnnw, dim ofn ond rhag <w>di<pb rend="shy" n="44"/><lb/>gio</w><isp/>'u Brenin, a hwnnw 'n barottach i <w>gym<lb rend="shy"/>modi</w> nac i ddigio wrth ei ddeiliaid, na dim
+<lb/>s&wcirc;n ond Psalmau mawl i<isp/>'w ceidwad. <w>Er<lb rend="shy"/>byn</w> hyn ni aethem i olwg Adeilad deg tros
+<lb/>ben, o mor ogoneddus ydoedd! ni fedd neb
+<lb/>yn y Ddinas ddihenydd na 'r <hi rend="italic">Twrc</hi>, na 'r <w><hi rend="italic">Mo<lb rend="shy"/>gul</hi>,</w> na 'r un o<isp/>'r lleill ddim elfydd i <hi rend="italic">hon</hi>.
+<lb/>Wel' dyma 'r <hi rend="italic">Eglwys Gatholic</hi>, eb yr Angel.
+<lb/>Ai yma mae <hi rend="italic">IMMANUEL</hi> yn cadw 'i Lys,
+<lb/>ebr fi? I&egrave;, ebr ef, dyma 'i unig Frenhinllys
+<lb/>daiarol ef. Oes yma nemor tano ef o <w>ben<lb rend="shy"/>neu</w> coronog, ebr fi? ychydig, eb ynte;
+<lb/>mae dy Frenhines di a rhai Twysogion
+<lb/><hi rend="italic">Llychlyn</hi> a<isp/>'r <hi rend="italic">Ellmyn</hi>, ac ychydig o f&acirc;n <w>Dwy<lb rend="shy"/>sogion</w> eraill. Beth yw hynny, ebr finneu,
+<lb/>wrth sy dan <hi rend="italic">Belial</hi> fawr, wele Ymerodron
+<lb/>a Brenhinoedd heb rifedi? Er hynny i gyd
+<lb/>eb yr Angel, ni all un o honynt oll <w>sym<lb rend="shy"/>mud</w> b&ycirc;s llaw heb gynnwysiad <w><hi rend="italic">IMMA<lb rend="shy"/>NUEL</hi>;</w> na <hi rend="italic">Belial</hi> ei hunan chwaith. <w>O<lb rend="shy"/>blegid</w>&nbsp;<hi rend="italic">IMMANUEL</hi> yw ei union Frenin
+<lb/>ynte, ond darfod iddo wrthryfela, a chael
+<lb/>ei gadwyno am hynny 'n Garcharor <w>tragwy<lb rend="shy"/>ddol;</w> eithr mae e<isp/>'n cael cennad etto tros
+<lb/>ennyd f&acirc;ch i ymweled &acirc;<isp/>'r Ddinas <w><corr resp="transcr" part="a" sic="ddhi">ddih</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="enyd">enyd</corr>,</w> ac yn tynnu pawb a<isp/>'r a allo i<isp/>'r un
+<lb/>Gwrthryfel ac i gael rhan o<isp/>'r g&ocirc;sp; er <w>y<lb rend="superfluous-shy"/>g&wcirc;yr</w> ef na wn&acirc; hynny ond chwanegu ei
+<lb/>g&ocirc;sp ei hun, etto ni &acirc;d malis a chynfigen
+<lb/>iddo beidio pan gaffo ystlys cennad; A
+<lb/>chan ddaed ganddo ddrygioni, fe gais <w>ddi<pb rend="shy" n="45"/><lb/>fa</w> 'r ddinas a<isp/>'r Adeilad hon, er y g&wcirc;yr e<isp/>'n
+<lb/>h&ecirc;n iawn, fod ei Cheidwad hi 'n <w>anorchfy<lb rend="shy"/>gol.</w> Ertolwg, ebr fi, f'<isp/>Arglwydd a gawn
+<lb/>i nesau i gael manylach golwg ar y <w>Bren<lb rend="shy"/>hinlle</w> godidog hwn? canys cynnesasei
+<lb/>nghalon i wrth y lle (er y golwg cynta,)
+<lb/>Cei 'n hawdd, eb yr Angel, oblegid yna
+<lb/>mae fy lle a<isp/>'m siars a<isp/>'m gorchwyl inneu.
+<lb/>Pa nesa yr awn atti mwyfwy y rhyfeddwn
+<lb/>uched, gryfed a hardded, laned a <w>hawdd<lb rend="shy"/>gared</w> oedd pob rhan o honi, gywreinied y
+<lb/>gwaith a chariadused y defnyddieu, <hi rend="italic">Craig</hi>
+<lb/>ddirfawr, o waith a chadernid <w>anrhae<lb rend="shy"/>thawl</w> oedd y Sylfaen, a Meini bywiol ar
+<lb/>hynny wedi eu gosod a<isp/>'u cyssylltu mewn
+<lb/>trefn mor odidog nad oedd bossibl i un
+<lb/>maen fod cyn hardded mewn unlle arall ac
+<lb/>ydoedd e<isp/>'n ei le ei hun. Gwelwn un rhan
+<lb/>o<isp/>'r <hi rend="italic">Eglwys</hi> yn t&acirc;flu allan yn <hi rend="italic">Groes</hi> glandeg a
+<lb/>hynod iawn, a chanfu 'r Angel fi 'n spio
+<lb/>arno, a adwaenosti y Rhan yna, ebr ef? ni
+<lb/>wyddwn i beth i atteb. Dyna <hi rend="italic">Eglwys Loegr</hi>,
+<lb/>ebr ef, mi gyffrois beth, ac wedi edrych i
+<lb/>fynu, mi welwn y Frenhines <hi rend="italic">Ann</hi> ar ben yr
+<lb/>Eglwys, a Chleddy 'mh&ocirc;b llaw, un yn yr
+<lb/>asswy a elwid <hi rend="italic">Cyfiawnder</hi> i gadw ei deiliaid
+<lb/>rhag <hi rend="italic">Dynion y Ddinas ddihenydd</hi>, a<isp/>'r llall yn
+<lb/>ei llaw ddeheu i<isp/><apo/>w cadw rhag <hi rend="italic">Belial</hi> a<isp/>'i
+<lb/>Ddrygau <hi rend="italic">Ysprydol</hi>, hwn a elwid <hi rend="italic">Cleddy 'r
+<lb/>Yspryd</hi>, neu Air Duw, o tan y Cleddyf
+<lb/><hi rend="italic">asswy</hi> 'r oedd Llyfr <hi rend="italic">Statut Loegr</hi>, tan y llall 'r
+<pb n="46"/>
+<lb/>oedd <hi rend="italic">Beibl</hi> mawr. Cleddy 'r Yspryd oedd
+<lb/>danllyd ac anferthol o h&ycirc;d, fe laddei
+<lb/>'mhellach nac y cyffyrddei 'r llall. <w>Gwe<lb rend="shy"/>lwn</w> y Twysogion eraill &acirc;<isp/>'r un rhyw arfeu
+<lb/>'n amddeffyn ei rhan hwytheu o<isp/>'r Eglwys:
+<lb/>Eithr tecca gwelwn i Rann fy Mrenhines
+<lb/>fy hun a gloewa 'i harfeu. Wrth ei <w>deheu<lb rend="shy"/>law</w> hi, gwelwn fyrdd o rai duon, <w>Arch<lb rend="shy"/>escobion,</w> Escobion a Dyscawdwyr yn <w>cyn<lb rend="shy"/>nal</w> gyd&acirc; hi yn <hi rend="italic">Nghleddy 'r Yspryd</hi>: A rhai
+<lb/>Sawdwyr, a Swyddogion ond ychydig o<isp/>'r
+<lb/>Cyfreithwyr oedd yn cyd-gynnal yn y
+<lb/>Cleddyf arall. C&ecirc;s gennad i orphwyso peth
+<lb/>wrth un o<isp/>'r dryseu gogoneddus, lle 'r oedd
+<lb/>rhai 'n dyfod i gael braint yn yr <hi rend="italic">Eglwys <w>Gy<lb rend="shy"/>ffredin,</w></hi> ac Angel t&agrave;l yn cadw 'r drws a<isp/>'r
+<lb/>Eglwys oddi mewn mor oleu dambaid, nad
+<lb/>oedd wiw i Ragrith ddangos yno mo<isp/>'i
+<lb/>hwyneb, etto hi ymddangosei weithiau
+<lb/>wrth y dr&wcirc;s er nad aeth hi 'rioed i mewn.
+<lb/>Fel y gwelais i o fewn chwarter awr, dyma
+<lb/><hi rend="italic">Bapist</hi> oedd yn tybio mai 'r P&acirc;p a pioedd yr
+<lb/><hi rend="italic">Eglwys Gatholig</hi>, yn cleimio fod iddo ynte
+<lb/>fraint. Be sy gennych i brofi 'ch braint,
+<lb/>ebr y Porthor? Mae genni ddigon, ebr
+<lb/>hwnnw o <hi rend="italic">Draddodiadeu</hi><isp/>'r <hi rend="italic">Tadau</hi> ac <w><hi rend="italic">Eisteddfo<lb rend="shy"/>dau</hi></w> 'r Eglwys, ond pam y rhaid i mi fwy
+<lb/>o siccrwydd, ebr ef na <hi rend="italic">gair y P&acirc;p</hi> sy 'n
+<lb/>eiste 'n y Gadair ddisiomedig? Yna 'r <w>ego<lb rend="shy"/>rodd</w> y <corr resp="transcr" sic="Portholwyth">Porthor lwyth</corr> o feibl dirfawr o
+<lb/>faint; Dyma, ebr ef, ein hunic Lyfr <hi rend="italic">Statut</hi>
+<pb n="47"/>
+<lb/>ni yma, profwch eich hawl o hwn, neu
+<lb/>ymadewch; ar hyn fe 'madawodd. Yn
+<lb/>hyn, dyma yrr o <hi rend="italic">Gwaceriaid</hi> a fynei fynd i
+<lb/>mewn a<isp/>'u hettieu am eu penneu, eithr
+<lb/>trowyd hwy ymaith am fod cynddrwg eu
+<lb/>moes. Wedi hynny, dechreuodd rhai o
+<lb/>dylwyth y 'Scubor a safasei yno er's <w>en<lb rend="shy"/>nyd,</w> lefaru. Nid oes gennym ni, <w>me<lb rend="shy"/>ddent,</w> ond yr un Statut a chwitheu, am
+<lb/>hynny dangoswch i ni 'n braint. Arhowch,
+<lb/>ebr y Porthor discleirwyn gan graffu ar eu
+<lb/>talcennau hwy, mi a ddangosa i chwi <w>ryw<lb rend="shy"/>beth;</w> D'accw, ebr ef, a welwch i &ocirc;l y
+<lb/>rhwyg a wnaethoch i 'n yr Eglwys i fynd
+<lb/>allan o honi heb nac achos nac ystyr? ac
+<lb/>y rwan a fynnech chwi le yma? Ewch yn
+<lb/>&ocirc;l i<isp/>'r Porth cyfyng ac ymolchwch yno 'n
+<lb/>ddwys yn Ffynnon <hi rend="italic">Edifeirwch</hi> i edrych a
+<lb/>gyfogoch i beth gwaed Brenhinol a <w>lyn<lb rend="shy"/>casoch</w> gynt, a dygwch beth o<isp/>'r dwfr <w>hwn<lb rend="shy"/>nw</w> i dymmeru 'r clai at ail uno y rhwyg
+<lb/>accw, ac yna croeso wrthych. Ond cyn
+<lb/>i ni fynd r&wcirc;d ymlaen tu a<isp/>'r Gorllewin, mi
+<lb/>glywn si<!--'hiss'--> oddi fynu ymysc y Pennaethiaid,
+<lb/>a phawb o fawr i f&acirc;ch yn h&egrave;l ei arfeu, ac
+<lb/>yn ymharneisio, megis at Ryfel: a chyn i
+<lb/>mi gael ennyd i spio am le i ffoi, dyma 'r
+<lb/>Awyr oll wedi duo, a<isp/>'r Ddinas wedi <w>ty<lb rend="shy"/>wyllu</w> 'n waeth nac ar <hi rend="italic">Ecclips</hi>, a <sic>Taraneu</sic> 'n
+<lb/>rhuo a<isp/>'r M&ecirc;llt yn gwau 'n dryfrith, a <w>Cha<lb rend="shy"/>fodydd</w> di-dorr o saetheu marwol yn <w>cyfei<pb rend="shy" n="48"/><lb/>rio</w> o<isp/>'r Pyrth isa at yr Eglwys Gatholic; ac
+<lb/>oni bai fod yn llaw pawb darian i dderbyn
+<lb/>y piccellau tanllyd, a bod y Graig sylfaen
+<lb/>yn rhygadarn i ddim fannu arni gwnelsid
+<lb/>ni oll yn un goelceth. Ond och! nid
+<lb/>oedd hyn ond <hi rend="italic">Prolog</hi> neu dammeid prawf
+<lb/>wrth oedd i galyn: Oblegid ar fyrr, dyma
+<lb/>'r tywyllwch yn mynd yn saith dduach a
+<lb/><hi rend="italic">Belial</hi> ei hun yn y cwmmwl tewa, a<isp/>'i <w>ben<lb rend="shy"/>milwyr</w> daiarol ac uffernol o<isp/>'i ddeutu, i
+<lb/>dderbyn ac i wneud ei wllys ef, bawb o<isp/>'r
+<lb/>neilltu. Fe roesei ar y <hi rend="italic">P&acirc;p</hi> a<isp/>'i Fab arall o
+<lb/><hi rend="italic">Ffrainc</hi> ddinistrio Eglwys <hi rend="italic">Loegr</hi> a<isp/>'i <w>Brenhi<lb rend="shy"/>nes,</w> ar y <hi rend="italic">Twrc</hi> a<isp/>'r <hi rend="italic">Moscoviaid</hi> daro y rhanneu
+<lb/>eraill o<isp/>'r Eglwys a lladd y bobl, yn <w>enwe<lb rend="shy"/>dig</w> y Frenhines a<isp/>'r Twysogion eraill, a
+<lb/>llosci 'r <hi rend="italic">Bibl</hi> yn anad dim. Cynta gwaith
+<lb/>a wnaeth y Frenhines a<isp/>'r Seinctieu eraill
+<lb/>oedd droi ar eu glinieu, ac achwyn eu cam
+<lb/>wrth Frenin y Brenhinoedd yn y geirieu
+<lb/>yma, <hi rend="italic">Mae estyniad ei adenydd ef yn lloneid lled
+<lb/>dy dir di oh IMMANUEL</hi>! <hi rend="italic">Is.</hi> 8. 8. yn
+<lb/>ebrwydd dyma lais yn atteb, <hi rend="italic">Gwrth'nebwch
+<lb/>Ddiawl ac fe ffy oddi wrthych</hi>; ac yna <w><corr resp="transcr" part="a" sic="de">de</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="chrueodd">chreuodd</corr></w> y maes galluocca a <w>chynddeirioc<lb rend="shy"/>ca'</w>&nbsp;<corr resp="transcr" sic="fu' rioed">fu 'rioed</corr> ar y ddaiar, pan ddechreuwyd
+<lb/>gwyntio <hi rend="italic">Cleddy<isp/>'r Yspryd</hi>, <corr resp="transcr" sic="dechruodd">dechreuodd</corr>&nbsp;<hi rend="italic">Belial</hi>
+<lb/>a<isp/>'i luoedd uffernol wrthgilio, yn y man
+<lb/>dechreuodd y <hi rend="italic">P&acirc;p</hi> lwfrhau, a <hi rend="italic">Brenin Ffrainc</hi>
+<lb/>yn d&agrave;l allan, ond yr oedd ynte ymron <w><corr resp="transcr" part="a" sic="di">di</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="gallonni">galonni</corr>,</w> wrth weled y Frenhines a<isp/>'i <w>dei<pb rend="shy" n="49"/><lb/>liaid</w> mor gyttunol, ac wedi colli ei Longeu
+<lb/>a<isp/>'i W&ycirc;r o<isp/>'r naill tu, a llawer oi ddeiliaid
+<lb/>yn gwrthryfela o<isp/>'r tu arall; a<isp/>'r <hi rend="italic">Twrc</hi> ynte
+<lb/>'n dechreu llaryeiddio: yn hyn, och! mi
+<lb/>welwn f' anwyl gydymaith yn saethu <w>oddi<lb rend="shy"/>wrthifi</w> i<isp/>'r entrych, at fyrdd o Dwysogion
+<lb/>gwynion eraill, a dyna 'r pryd y <w>dechreu<lb rend="shy"/>odd</w> y <hi rend="italic">P&acirc;p</hi> a<isp/>'r Swyddogion daiarol eraill <w>le<lb rend="shy"/>chu</w>&nbsp;<corr resp="transcr" sic="allewygu">a llewygu</corr>, a<isp/>'r Penaethiaid uffernol <w>syr<lb rend="shy"/>thio</w> o fesur y myrddiwn, a phob un <w>cy<lb rend="shy"/>maint</w> ei s&wcirc;n yn cwympo (i<isp/>'m t&ycirc;b i) a phe
+<lb/>syrthiasei fynydd anferth i eigion y m&ocirc;r.
+<lb/>A rhwng y s&wcirc;n hwnnw a chyffro goll fy
+<lb/>nghyfeill mineu a ddeffrois om c&wcirc;sc; a
+<lb/>dychwelais o<isp/>'m llwyr anfodd i<isp/>'m <w>tywar<lb rend="shy"/>chen</w> drymluog, a gwyched hyfryded
+<lb/>oedd gael bod yn Yspryd <hi rend="italic">rhydd</hi>, ac yn siccr
+<lb/>yn y fath <hi rend="italic">gwmnhi</hi> er maint y perygl. Ond
+<lb/>erbyn hyn, nid oedd genni n&ecirc;b i<isp/>'m cyssuro
+<lb/>ond yr <hi rend="italic">Awen</hi>, a honno 'n lled-ffrom, prin
+<lb/>y c&ecirc;s ganddi frefu i mi y hyn o Rigymmeu
+<lb/>sy 'n canlyn.
+</p>
+</div>
+<pb n="54"/>
+<div>
+<head><lbNoN/>II.
+<lbNoN/><hi rend="italic">Gweledigaeth</hi> Angeu <hi rend="italic">yn ei <w>Fren<lbNoN rend="shy"/>hinllys</w> isa.</hi></head><!--or mark Angeu as 'normal'?-->
+<p>
+<lb/><hi rend="rubric">P</hi>AN oedd <hi rend="italic">Ph&oelig;bus</hi> un-llygeidiog ar
+<lb/>gyrraedd ei eithaf bennod yn y
+<lb/>deheu, ac yn d&agrave;l g&wcirc;g o hirbell ar
+<lb/><hi rend="italic">Brydain</hi> fawr a<isp/>'r holl Ogledd-dir; ryw <w>hir<lb rend="shy"/>nos</w> Gaia dduoer, pan oedd hi 'n llawer
+<lb/>twymnach yn nghegin <hi rend="italic">Glynn-cywarch</hi> nac ar
+<lb/>ben <hi rend="italic">Cadair Idris</hi>, ac yn well mewn stafell
+<lb/>gl&ycirc;d gyd&acirc; chywely cynnes, nac mewn
+<lb/>amdo ymhorth y fonwent; myfyrio 'r
+<lb/>oeddwn i ar ryw ymddiddanion a fasei
+<lb/>wrth y t&acirc;n rhyngo'i a Chymydog, am <hi rend="italic"><w>fyr<lb rend="shy"/>dra</w> hoedl Dyn</hi>, a siccred yw i bawb farw,
+<lb/>ac ansiccred yr amser; a hyn newydd roi
+<lb/>'mhen i lawr ac yn ll&ecirc;d-effro, mi glywn
+<lb/>bwys mawr yn dyfod arnai 'n lledradaidd
+<lb/>o<isp/>'m coryn i<isp/>'m sowdl, fel na allwn <w>sym<lb rend="shy"/>mud</w> b&ycirc;s llaw, ond y tafod yn unic, a <w>gwe<lb rend="shy"/>lwn</w> megis M&acirc;b ar fy nwyfron, a Merch
+<pb n="55"/>
+<lb/>ar gefn hynny. Erbyn craffu, mi <w>adwae<lb rend="shy"/>nwn</w> y M&acirc;b wrth ei arogleu trwm a<isp/>'i <w>gu<lb rend="shy"/>dynneu</w> gwlithog a<isp/>'i lygaid m&ocirc;l-glafaidd
+<lb/>mai fy Meistr <hi rend="italic">Cwsc</hi> ydoedd. Ertolwg, Syr,
+<lb/>ebr fi, tan wichian, beth a wneuthum i<isp/>'ch
+<lb/>erbyn pan ddygech y wyddan yna i<isp/>'m <w>ny<lb rend="shy"/>chu?</w> Ist, ebr ynte, nid oes yma ond fy
+<lb/>chwaer <hi rend="italic">Hunlle</hi>, mynd yr &ycirc;m ni 'n dau i
+<lb/>'mweled a<isp/>'n brawd <hi rend="italic">Angeu</hi>: eisieu trydydd
+<lb/>sy arnom, a rhag i ti wyrth'nebu daethom
+<lb/>arnat (fel y bydd ynte') 'n ddirybudd. Am
+<lb/>hynny dyfod sy raid i ti, un ai oth fodd ai
+<lb/>oth anfodd. Och, ebr finneu, ai rhaid i mi
+<lb/>farw? Na raid, eb yr <hi rend="italic">Hunlle</hi>, ni a<isp/>'ch <w>ar<lb rend="shy"/>bedwn</w> hyn o dro. Ond trwy<isp/>'ch cennad,
+<lb/>ebr fi, nid arbedodd eich braw Angeu n&ecirc;b
+<lb/>erioed etto, a ddygid i<isp/><apo/>w ergyd ef, y gwr
+<lb/>a aeth i ymaflyd cwymp &acirc;g Arglwydd y
+<lb/>Bywyd ei hun, ond ychydig a 'nillodd
+<lb/>ynte' ar yr orchest honno. Cododd <hi rend="italic">Hunlle</hi>
+<lb/>ar y gair yma 'n ddigllon ac a 'madawodd.
+<lb/>Hai, ebr <hi rend="italic">Cwsc</hi>, tyrd ymaith, ni bydd i ti
+<lb/>ddim edifeirwch o<isp/>'th siwrnai. Wel', ebr fi,
+<lb/>na dd&ecirc;l byth n&ocirc;s i <hi rend="italic">Lan-gwsc</hi>, ac na chaffo 'r
+<lb/><hi rend="italic">Hunlle</hi> byth orphws ond ar flaen mynawyd
+<lb/>oni ddygwch fi 'n &ocirc;l lle i<isp/>'m cawsoch. Yna
+<lb/>i ffordd yr aeth &acirc; mi tros elltydd a thrwy
+<lb/>goedydd, tros foroedd a dyffrynoedd tros
+<lb/>Gestyll a Thyrau, <corr resp="transcr" sic="a Fonydd">Afonydd</corr> a Chreigiau, a
+<lb/>ph'le y descynnem ond wrth un o Byrth
+<lb/>Merched <hi rend="italic">Belial</hi>, o<isp/>'r tu cefn i 'r <hi rend="italic">Ddinas <w>ddi<pb rend="shy" n="56"/><lb/>henydd,</w></hi> lle gwelwn fod y tri Phorth <w>dihe<lb rend="shy"/>nydd</w> yn cyfyngu 'n un o<isp/>'r tu cefn, ac yn
+<lb/>agor i<isp/>'r un lle: lle mwrllwch oerddu
+<lb/>gwenwynig, llawn niwl <corr resp="transcr" sic="o fiach">afiach</corr> a <w>chwmy<lb rend="shy"/>lau</w> cuwchdrwm ofnadwy. Attolwg, Syr,
+<lb/>ebr fi, p'le yw 'r fangre hon? <hi rend="italic">Stafelloedd
+<lb/>Angeu</hi>, ebr <hi rend="italic">Cwsc</hi>. Ni ch&ecirc;s i ond gofyn, na
+<lb/>chlywn i rai 'n crio, rhai 'n griddfan, rhai
+<lb/>'n ochain, rhai 'n ymleferydd, rhai 'n d&agrave;l i
+<lb/>duchan yn ll&ecirc;sc, eraill mewn llafur mawr,
+<lb/>a ph&ocirc;b arwyddion ymadawiad dyn, ac
+<lb/>ymbell un ar eu ebwch mawr yn tewi, a
+<lb/>chwapp ar hynny, clywn droi agoriad
+<lb/>mewn clo, minneu a drois wrth y s&wcirc;n i
+<lb/>spio am y dr&wcirc;s, ac o hir graffu, gwelwn
+<lb/>fyrdd fyrddiwn o ddrysau 'n edrych <w>ym<lb rend="shy"/>hell,</w> ac er hynny yn f'<isp/>ymyl. Yn rhodd,
+<lb/>Meistr <hi rend="italic">Cwsc</hi>, ebr fi, i ba le mae 'r drysau
+<lb/>yna 'n egor? Maent yn agor, ebr ynte, i
+<lb/><hi rend="italic">D&icirc;r Ango</hi>, Gwl&acirc;d fawr tan lywodraeth fy
+<lb/>mrawd yr <hi rend="italic">Angeu</hi>, a<isp/>'r <hi rend="italic">Gaer</hi> fawr yma, yw
+<lb/>Terfyn yr anferth <hi rend="italic">Dragwyddoldeb</hi>. Erbyn
+<lb/>hyn, gwelwn <hi rend="italic">Angeu b&acirc;ch</hi> wrth b&ocirc;b dr&wcirc;s,
+<lb/>heb un 'r un arfeu, na 'r un henw a<isp/>'i <w>gi<lb rend="shy"/>lydd,</w> etto, gwyddid arnynt mai <w>Swyddo<lb rend="shy"/>gion</w> yr un Brenin oeddynt oll: Er y <w>by<lb rend="shy"/>ddei</w> aml ymryson rhyngddynt am y <w>clei<lb rend="shy"/>fion;</w> mynnei 'r naill gipio 'r cl&acirc; 'n anrheg
+<lb/>trwy ei ddr&wcirc;s ei hun, a<isp/>'r llall a<isp/>'i mynnei
+<lb/>trwy ei ddr&wcirc;s ynte. Wrth nes&acirc;u canf&ucirc;m
+<lb/>yn scrifennedig uwchben p&ocirc;b dr&wcirc;s henw<isp/>'r
+<pb n="57"/>
+<lb/><hi rend="italic">Angeu</hi> oedd yn ei gadw, ac hefyd wrth b&ocirc;b
+<lb/>dr&wcirc;s ryw gant o amryw betheu wedi eu
+<lb/>gadel yn llanastr, arwydd fod br&ycirc;s ar y
+<lb/>rhai a aetheint trwodd. Uwchben un
+<lb/>dr&wcirc;s gwelwn <hi rend="italic">Newyn</hi>, ac etto ar lawr yn ei
+<lb/>ymyl byrseu a chodeu llownion, a <w>thryn<lb rend="shy"/>cieu</w> wedi eu hoelio. Dyma, ebr ef, borth
+<lb/>y <hi rend="italic">Cybyddion</hi>. Pwy, ebr fi pioedd y carpieu
+<lb/>yna? Cybyddion, eb ef, gan mwyaf: Ond
+<lb/>mae yna rai 'n perthyn i <hi rend="italic">Segurwyr</hi> a <w><hi rend="italic">Hwsmyn<lb rend="shy"/>tafod</hi>,</w> ac i eraill tlawd ymh&ocirc;b peth ond yr
+<lb/>Yspryd, oedd well ganddynt newynu na
+<lb/>gofyn. Yn y dr&wcirc;s nesa 'r oedd Angeu
+<lb/><hi rend="italic">anwyd</hi>, gyfeiryd &acirc; hwn clywn lawer <hi rend="italic">hyd-
+<lb/>yd-ydyd-eian</hi>; wrth y dr&wcirc;s yma 'r oedd <w>lla<lb rend="shy"/>wer</w> o lyfreu, rhai pottieu a fflagenni, <w>ym<lb rend="shy"/>bell</w> ffon a phastwn, rhai cwmpaseu, a chyrt,
+<lb/>a ch&ecirc;r Llongeu. F'<isp/>aeth ffordd yma <w>'Scolhei<lb rend="shy"/>gion,</w> ebr fi, do, ebr ynte, rai unic a <w>di<lb rend="shy"/>help</w> a phell oddiwrth ymgeledd a<isp/>'u carei;
+<lb/>wedi dwyn hyd yn oed y dillad <w>oddiar<lb rend="shy"/>nynt.</w> Dyna, ebr ef, (am y pottieu) <w>we<lb rend="shy"/>ddillion</w> y cymdeithion da, a fydd a<isp/>'u traed
+<lb/>yn fferri tan feincieu, tra bo eu penne 'n
+<lb/>berwi gan ddiod a dwndwr: a<isp/>'r petheu
+<lb/>draw sy 'n perthyn i drafaelwyr <w>myny<lb rend="shy"/>ddoedd</w> eiryog, ac i Farsiandwyr y <w>Go<lb rend="shy"/>gleddfor.</w> Y nesa oedd scerbwd teneu a
+<lb/>elwid Angeu <hi rend="italic">Ofn</hi>, gellid gweled trwy hwn
+<lb/>nas medde 'r un <hi rend="italic">Galon</hi>; ac wrth ddr&wcirc;s
+<lb/>hwn hefyd godeu a chistieu, a chloieu, a
+<pb n="58"/>
+<lb/>chestyll. I hwn yr ai 'r Llogwyr, a <w>Drwg<lb rend="shy"/>wladwyr,</w> a Gorthrymwyr, a rhai o<isp/>'r <w>Mwr<lb rend="shy"/>drwyr,</w> ond 'r oedd llawer o<isp/>'r rheini yn
+<lb/>galw heibio i<isp/>'r dr&wcirc;s nesa lle 'r oedd <w>An<lb rend="shy"/>geu</w> a elwid <hi rend="italic">Cr&ocirc;g</hi>, a<isp/>'i gortyn parod am ei
+<lb/>wddf. Nesa i hynny oedd Angeu <hi rend="italic">Cariad</hi>,
+<lb/>ac wrth ei draed fyrdd o bob offer a <w>lly<lb rend="shy"/>freu</w> muwsic, a cherdd, a llythyreu <w>mwy<lb rend="shy"/>nion</w> ac ysmottieu a lliwieu i harddu 'r
+<lb/>wyneb, a m&icirc;l o ryw sciabas deganeu ir
+<lb/>pwrpas hwnnw, a rhai cleddyfeu; &acirc; rhain,
+<lb/>ebr ef, y bu 'r herwyr yn ymladd am y
+<lb/>feinwen, a rhai 'n eu lladd eu hunain: mi
+<lb/>a welwn nad oedd yr Angeu yma ond <w>cib<lb rend="shy"/>ddall.</w> Y dr&wcirc;s nesa 'r oedd yr Angeu
+<lb/>gwaetha 'i liw o<isp/>'r cwbl a<isp/>'i <corr resp="transcr" sic="a fu">afu</corr> wedi <w>diflan<lb rend="shy"/>nu,</w> fo 'i gelwid <corr resp="transcr" sic="Augeu">Angeu</corr>&nbsp;<hi rend="italic">Cynfigen</hi>; hwn, ebr
+<lb/><hi rend="italic">Cwsc</hi>, a fydd yn cyrchu colledwyr, <w>athrod<lb rend="shy"/>wyr,</w> ac ymbell farchoges a fydd yn <w>ym<lb rend="shy"/>wenwyno</w> wrth y Gyfraith, a barodd i
+<lb/>Wraig ymddarostwng i<isp/><apo/>w G&wcirc;r. Attolwg
+<lb/>Syr, ebr fi, beth yw marchoges? <w>Mar<lb rend="shy"/>choges,</w> ebr ef, y gelwir yma, y Ferch a
+<lb/>fynn farchogaeth ei gwr, a<isp/>'i chymdogaeth,
+<lb/>a<isp/>'i gwl&acirc;d os geill, ac o hir farchogaeth, hi
+<lb/>a ferchyg ddiawl o<isp/>'r diwedd o<isp/>'r dr&wcirc;s yna
+<lb/>hyd yn Annw'n. Yn nesa 'r oedd dr&wcirc;s
+<lb/>Angeu <hi rend="italic">Uchel-gais</hi>, i<isp/>'r sawl sy 'n ffroenio 'n
+<lb/>uchel, ac yn torri eu gyddfau eisieu edrych
+<lb/>tan eu traed, wrth hwn 'r oedd coronau,
+<lb/><corr resp="transcr" sic="teyrnwaiail">teyrnwiail</corr>, banerau a phob papureu am
+<pb n="59"/>
+<lb/>swyddeu, pob arfeu bonedd a rhyfel. Ond
+<lb/>cyn i mi edrych ychwaneg o<isp/>'r aneirif <w>ddry<lb rend="shy"/>seu</w> hynny, clywn lais yn peri i minneu
+<lb/>wrth fy henw <hi rend="italic">ymddattod</hi>, ar y gair mi 'm
+<lb/>clywn yn dechreu toddi fel caseg-eira yn
+<lb/>gwr&ecirc;s yr Haul, yna rhoes fy Meistr i mi
+<lb/>ryw ddiod-g&wcirc;sc fel yr hunais, ond erbyn
+<lb/>i mi ddeffro f'<isp/>am dygasei i ryw ffordd <w>a<lb rend="shy"/>llan</w> o bellder y tu arall i<isp/>'r <hi rend="italic">Gaer</hi>; mi<isp/>'m
+<lb/>gwelwn mewn Dyffryn pygddu anfeidrol
+<lb/>o gwmpas ac i<isp/>'m t&ycirc;b i nid oedd diben
+<lb/>arno: ac ymhen ennyd wrth ymbell <w>o<lb rend="shy"/>leuni</w> gl&acirc;s fel canwyll ar ddiffodd, mi <w>we<lb rend="shy"/>lwn</w> aneirif oh! aneirif o gyscodion <w>Dy<lb rend="shy"/>nion,</w> rhai ar draed, a rhai ar feirch yn gwau
+<lb/>trwy eu gilydd fel y gwynt, yn ddistaw
+<lb/>ac yn ddifrifol aruthr. A gwl&acirc;d ddiffrwyth
+<lb/>lom adwythig, <corr resp="transcr" sic="neb">heb</corr> na gw&ecirc;llt na gwair, na
+<lb/>choed nac anifail, oddieithr gwylltfilod
+<lb/>marwol a phryfed gwenwynig o b&ocirc;b m&acirc;th;
+<lb/>seirph, nadroedd, llau, llyffaint, llyngyr, <w>lo<lb rend="shy"/>custiaid,</w> pr&ycirc; 'r bendro, a<isp/>'r cyffelyb oll sy 'n
+<lb/>byw ar lygredigaeth Dyn. Trwy <w>fyr<lb rend="shy"/>ddiwn</w> o gyscodion ac ymlusciaid, a beddi,
+<lb/>a Monwentau, a Beddrodau, ni aethom <w>ym<lb rend="shy"/>laen</w> i weled y Wl&acirc;d yn ddirwystr; tan na
+<lb/>welwn i rai 'n troi ac yn edrych arnai; a
+<lb/>chwippyn er maint oedd y distawrwydd
+<lb/>o<isp/>'r blaen, dyma si o<isp/>'r naill i<isp/>'r llall fod yno
+<lb/><hi rend="italic">Ddyn bydol</hi>; Dyn bydol, ebr un, Dyn <w>by<lb rend="shy"/>dol,</w> eb y llall! tan ymdyrru attai fel y
+<pb n="60"/>
+<lb/>lindys o bob cwrr. Pa fodd y daethoch,
+<lb/>Syre, eb rhyw furgyn o Angeu b&acirc;ch oedd
+<lb/>yno? Yn w&icirc;r, Syr, ebr fi, nis gwn i mwy
+<lb/>na chwitheu. Beth y gelwir chwi, ebr
+<lb/>ynte? Gelwch fi yma fel y fynnoch yn eich
+<lb/>gwl&acirc;d eich hun, ond fe 'm gelwid i gartre,
+<lb/><hi rend="italic">Bardd Cwsc</hi>. Ar y gair, gwelwn gnap o
+<lb/>henddyn gwargam a<isp/>'i ddeupen fel miaren
+<lb/>gen lawr, yn ymsythu ac yn edrych arnai
+<lb/>'n waeth na 'r Dieflyn c&ocirc;ch, a chyn <w>dywe<lb rend="shy"/>dyd</w> gair, dyma fe 'n taflu penglog fawr <w>hei<lb rend="shy"/>bio</w> i<isp/>'m pen i diolch i<isp/>'r Garreg fedd a<isp/>'m
+<lb/>cyscododd. Llonydd, Syr, ertolwg, ebr fi,
+<lb/>i Ddyn dieithr na fu yma 'rioed o<isp/>'r blaen,
+<lb/>ac ni ddaw byth pe cawn unwaith ben y
+<lb/>ffordd adre. Mi wn&acirc; 'i<!--corr to i, w/o apo, or wna' i?--> chwi gofio 'ch bod
+<lb/>yma, eb ef, ac eilwaith &acirc;g ascwrn <w>mor<lb rend="shy"/>ddwyd</w> gosododd arna 'i 'n gythreulig, a
+<lb/>mineu 'n oscoi 'ngoreu. Beth, ebr fi, dyma
+<lb/>wl&acirc;d anfoesol iawn i ddieithriaid, Oes yma
+<lb/>un Ustus o heddwch? Heddwch! ebr
+<lb/>ynte, pa heddwch a haedditi na adewit <w>lo<lb rend="shy"/>nydd</w> i rai yn eu beddi? Attolwg, Syr,
+<lb/>ebr fi, a gawn ni<!--ni=i?--> wybod eich henw chwi, <w>o<lb rend="shy"/>blegid</w> nis gwn i flino <corr resp="transcr" sic="a">ar</corr> neb o<isp/>'r Wl&acirc;d yma
+<lb/>'rioed. Syre, ebr ynte, gwybyddwch mai
+<lb/>Fi, ac nid chwi, yw<isp/>'r <hi rend="italic">Bardd Cwsc</hi>, ac a g&ecirc;s
+<lb/>lonydd yma er's naw cant o flynyddoedd,
+<lb/>gan bawb ond chychwi, ac a aeth i<isp/>'m <w>cyn<lb rend="shy"/>nyg</w> i drachefn. Peidiwch ymrawd, ebr
+<lb/><hi rend="italic">Merddyn</hi> oedd yn agos, na fyddwch <w>ry<pb rend="shy" n="61"/><lb/>boeth;</w> diolchwch iddo 'n hytrach am gadw
+<lb/>coffadwriaeth parchus o<isp/>'ch henw ar y Ddaiar.
+<lb/>Yn wir, parch mawr, eb ynte, oddiwrth y
+<lb/>f&acirc;th bembwl a hwn; A fedrwch wi, Syre,
+<lb/>ganu ar y pedwar mesur ar hugain, a <w>fe<lb rend="shy"/>drwch</w> wi ddwyn acheu <hi rend="italic">Gog</hi> a <hi rend="italic">Magog</hi>, ac <w>a<lb rend="shy"/>cheu</w>&nbsp;<hi rend="italic">Brutus ap Sylvius</hi> hyd ganmlwydd cyn
+<lb/>difa <hi rend="italic">Caer-Troia</hi>? A fedrwch wi <hi rend="italic">frutio</hi> pa
+<lb/>bryd, a pheth a fydd diwedd y rhyfeloedd
+<lb/>rhwng y Llew a<isp/>'r Eryr, ac rhwng y Ddraig
+<lb/>a<isp/>'r Carw coch? ha! Hai, gadewch i <w>min<lb rend="shy"/>neu</w> ofyn iddo gwestiwn, ebr un arall, oedd
+<lb/>wrth fyddan fawr yn berwi, soc, soc, <w>dy<lb rend="hyphen"/>gloc,</w> dy-gloc. Tyrd yn n&ecirc;s, ebr ef, beth
+<lb/>yw meddwl hyn?
+</p>
+
+<!--poem, italics-->
+<lg rend="indented">
+<lb/><l><hi rend="italic">Mi fyddaf hyd Ddyddbrawd,</hi></l>
+<lb/><l><hi rend="italic">Ar wyneb daiarbrawd,</hi></l>
+<lb/><l><hi rend="italic">Ac ni wyddis beth yw nghnawd,</hi></l>
+<lb/><l><hi rend="italic">Ai C&icirc;g ai Pyscawd.</hi></l>
+</lg>
+
+<p>
+<lb/>Dymunaf eich henw, Syr, ebr fi, fel i<isp/>'ch
+<lb/>attebwy 'n gymwysach. Myfi, ebr ef, yw
+<lb/><hi rend="italic">Taliessin</hi> ben-beirdd y gorllewin, a dyna beth
+<lb/>a<isp/>'m difregwawd i. Nis gwn i, ebr finneu,
+<lb/>beth a allei 'ch meddwl fod, onid allei 'r
+<lb/><hi rend="italic">F&acirc;d-felen</hi> a ddifethodd <hi rend="italic">Faelgwn</hi> Gwynedd,
+<lb/>eich lladd chwitheu ar y feisdon a<isp/>'ch rhannu
+<lb/>rhwng y Brain a<isp/>'r Pyscod. Taw ff&wcirc;l, ebr
+<lb/>ef, brutio 'r oeddwn i am fy nwy <w><hi rend="italic">alwe<lb rend="shy"/>digaeth</hi>,</w> Gwr o Gyfraith a Phrydydd: A
+<pb n="62"/>
+<lb/>ph'run meddi di rwan debycca ai <hi rend="italic">Cyfreithiwr</hi>
+<lb/>i Gigfran reibus, ai <hi rend="italic">Prydydd</hi> i Forfil? Pa
+<lb/>sawl un a ddi-giga un <hi rend="italic">Cyfreithiwr</hi> i godi ei
+<lb/>grombil ei hun, ac oh! mor ddifatter y
+<lb/>gollwng e<isp/>'r gwaed, a gadel Dyn yn <w>lled<lb rend="shy"/>farw!</w> A<isp/>'r <hi rend="italic">Prydydd</hi>, ynte, p'le mae 'r <w>Pys<lb rend="shy"/>codyn</w> sy 'r un lwnc ag ef, ac mae hi 'n f&ocirc;r
+<lb/>arno bob amser, etto ni thyrr y M&ocirc;r-heli
+<lb/>moi syched ef. Ac erbyn y bai Ddyn yn
+<lb/><hi rend="italic">Brydydd</hi> ac yn <hi rend="italic">Gyfreithiwr</hi>, pwy a &wcirc;yr p'run
+<lb/>ai C&icirc;g ai Pyscod fyddei: ac yn siccr, os
+<lb/>byddei 'n un o W&ycirc;r Ll&ycirc;s fel y bum i, ac
+<lb/>yn gorfod iddo newid ei flas at bob geneu.
+<lb/>Ond dywed i mi, ebr ef, a oes y rwan <w>ne<lb rend="shy"/>mor</w> o<isp/>'r rheiny ar y Ddaiar? Oes, ebr fineu,
+<lb/>ddigon, os medr un glyttio rhyw f&acirc;th ar
+<lb/>ddyri, dyna fe 'n Gadeir-fardd. Ond o<isp/>'r
+<lb/>lleill, ebr fi, mae 'r f&acirc;th bl&acirc; yn gyfarthwyr,
+<lb/>yn f&acirc;n-Dwrneiod a Chlarcod nad oedd <w>lo<lb rend="shy"/>custiaid</w> yr Aipht ddim pwys ar y Wl&acirc;d
+<lb/>wrth y rhain. Nid oedd yn eich amser
+<lb/>chwi, Syr, ond bargeinion bol clawdd, a
+<lb/>ll&ecirc;d llaw o scrifen am dyddyn canpunt, a
+<lb/>chodi carnedd neu goeten <hi rend="italic">Arthur</hi> yn <w>goffa<lb rend="shy"/>dwriaeth</w> o<isp/>'r pryniant a<isp/>'r terfyneu: Nid
+<lb/>oes mo<isp/>'r <hi rend="italic">nerth</hi> i hynny rwan, ond mae
+<lb/>chwaneg o <hi rend="italic">ddichell</hi> ddyfeisddrwg, a chyfled,
+<lb/>a chromlech o femrwn scrifennedig i <w>sic<lb rend="shy"/>crhau</w> 'r fargen; ac er hynny odid na fydd
+<lb/>neu fe fynnir ryw wendid ynddi. Wel',
+<lb/>wel', ebr <hi rend="italic">Taliessin</hi>, ni thalwn i yno ddraen,
+<pb n="63"/>
+<lb/>ni waeth genni lle 'r wyf: ni cheir byth
+<lb/><hi rend="italic">Wir</hi> lle bo llawer o Feirdd, na <hi rend="italic">Thegwch</hi> lle
+<lb/>bo llawer o Gyfreithwyr, n&ecirc;s y caffer
+<lb/><hi rend="italic">Iechyd</hi> lle bo llawer o Physygwyr. Yn hyn,
+<lb/>dyma ryw swbach henllwyd b&acirc;ch a <w>glyw<lb rend="shy"/>sei</w> fod yno <hi rend="italic">Ddyn bydol</hi> yn syrthio wrth fy
+<lb/>nhraed, ac yn wylo 'n hidl. Och o druan,
+<lb/>ebr fi, beth wyti? Un sy 'n cael gormod
+<lb/>o gam yn y byd beunydd, ebr ynte, fe
+<lb/>gai 'ch enaid chwi fynny i mi uniondeb.
+<lb/>Beth, ebr fi, y gelwir di? F' a<isp/>'m gelwir i
+<lb/><hi rend="italic">Rhywun</hi>, ebr ef, ac nid oes na llatteiaeth
+<lb/>nac athrod, na chelwyddeu na chwedleu, i
+<lb/>yrru rhai benben, nad arna 'i y bwrir y
+<lb/>rhan fwya o honynt. Yn wir, medd un,
+<lb/>mae hi 'n Ferch odiaeth, ac hi fu 'n eich
+<lb/>canmol chwi wrth <hi rend="italic">rywun</hi>, er bod <hi rend="italic">rhywun</hi>
+<lb/>mawr yn ei cheisio hi. Mi a glywais <w><hi rend="italic">ry<lb rend="shy"/>wun</hi>,</w> medd y llall, yn cyfri naw cant o <w>bun<lb rend="shy"/>neu</w> o ddl&ecirc;d ar y st&acirc;t honno. Gwelais
+<lb/><hi rend="italic">rywun</hi> ddoe, medd y Cardottyn, a chadach
+<lb/>brith fel moriwr a ddaethei &acirc; llong fawr o
+<lb/>yd i<isp/>'r borth nesa; ac felly pob cerpyn am
+<lb/>llurgunia i i<isp/><apo/>w ddr&wcirc;g ei hun. Rhai a<isp/>'m
+<lb/>geilw i 'n <hi rend="italic">Ffrind</hi>; mi g&ecirc;s wybod gan
+<lb/>Ffrind, medd un, nad oes ymryd hwn a
+<lb/>hwn adel ffyrling i<isp/><apo/>w Wraig, ac nad oes
+<lb/>dim di-ddigrwydd rhyngthynt; rhai eraill
+<lb/>a<isp/>'m diystyrant i mhellach gan <corr resp="transcr" sic="yn galw">'y ngalw</corr><!--apostrophe?--> 'n
+<lb/><hi rend="italic">Fr&acirc;n</hi>, fe ddywed <hi rend="italic">Br&acirc;n</hi> i mi fod yno gastieu
+<lb/>dr&wcirc;g meddant. I&egrave;, rhai a<isp/>'m geilw ar
+<pb n="64"/>
+<lb/>henw parchediccach yn <hi rend="italic">Henwr</hi>, etto nid
+<lb/>eiddo fi hanner y coelion, a<isp/>'r brutieu, a<isp/>'r
+<lb/>cynghorion a roir ar yr Henwr; ni <w>phe<lb rend="shy"/>rais</w> i erioed ddilyn yr henffordd, os byddei
+<lb/>'r newydd yn well, ac ni feddyliais i <w>e<lb rend="shy"/>rioed</w> warafun cyrchu i<isp/>'r Eglwys wrth beri,
+<lb/><hi rend="italic">Na fynych dramwy lle bo mwya dy groeso</hi>, na
+<lb/>chant o<isp/>'r fath. Ond <hi rend="italic">Rhywun</hi> yw fy henw
+<lb/>cyffredina i, ebr ef, hwnnw a gewchwi
+<lb/>glywed fynychaf ymhob mawrddrwg; <w>o<lb rend="shy"/>blegid</w> gofynnwch i un lle y dywedpwyd y
+<lb/>mawr gelwydd gw'radwyddus, pwy a<isp/>'i
+<lb/>dyweid; yn wir, medd ynte, nis gwn i
+<lb/>pwy, ond fo 'i dyweid <hi rend="italic">Rhywun</hi> yn y
+<lb/>cwmnhi, holi pawb o<isp/>'r cwmpeini am y
+<lb/>chwedl, fe<isp/>'i clybu pawb gan <hi rend="italic">rywun</hi>, ond nis
+<lb/>g&wcirc;yr n&ecirc;b gan bwy. Onid yw hyn yn
+<lb/>gamm cywilyddus, ebr ef? Ertolwg, a <w>hy<lb rend="shy"/>spyswchwi</w> i bawb a glywoch yn fy henwi,
+<lb/>na ddywedais i ddim o<isp/>'r petheu hyn, ni <w>ddy<lb rend="shy"/>feisiais</w> ac ni adroddais i gelwydd erioed i
+<lb/>wradwyddo n&ecirc;b, nac un chwedl i yrru <w>ce<lb rend="shy"/>raint</w> bendramwnwgl ai gilydd; nid wy 'n
+<lb/>dyfod ar eu cyfyl, nis gwn i ddim o<isp/>'u
+<lb/>stori&acirc;u, na<isp/>'u masnach, na<isp/>'u cyfrinach <w>fellti<lb rend="shy"/>gedig</w> hwy, na wiw iddynt fwrw mo<isp/>'u
+<lb/>drygeu arna 'i, ond ar eu 'menyddieu <w>lly<lb rend="shy"/>gredig</w> eu hunain. Ar hyn, dyma Angeu
+<lb/>b&acirc;ch, un o scrifenyddion y Brenhin, yn <w>go<lb rend="shy"/>fyn</w> i mi fy henw, ac yn peri i Meistr <hi rend="italic">Cwsc</hi>
+<lb/>fy nwyn i 'n ebrwydd ger bron y Brenin.
+<pb n="65"/>
+<lb/>Gorfod mynd o<isp/>'m llwyr anfodd gan y
+<lb/>nerth a<isp/>'m cippiodd fel corwynt, rhwng
+<lb/>uchel ac isel, filoedd o filltiroedd yn ein
+<lb/>h&ocirc;l ar y llaw asswy, oni ddaethom eilwaith
+<lb/>i olwg y W&agrave;l derfyn, ac mewn congl
+<lb/>gaeth ni welem glogwyn o L&ycirc;s candryll
+<lb/>penegored dirfawr, yn cyrraedd hyd at y
+<lb/>W&agrave;l lle 'r oedd y drysau aneirif, a rheiny
+<lb/>oll yn arwain i<isp/>'r anferth L&ycirc;s arswydus
+<lb/>hwn: &acirc; phenglogeu Dynion y gwnelsid y
+<lb/>murieu, a rheini 'n 'scyrnygu dannedd yn
+<lb/>erchyll; du oedd y clai wedi ei gyweirio
+<lb/>trwy ddagreu a chw&ycirc;s, a<isp/>'r calch oddi allan
+<lb/>yn frith o phl&ecirc;m a chrawn, ac oddifewn o
+<lb/>waed dugoch. Ar ben p&ocirc;b twr, gwelit
+<lb/>Angeu bach &acirc; chanddo galon dwymn ar
+<lb/>flaen ei saeth. O amgylch y Ll&ycirc;s 'r oedd
+<lb/>rhai <hi rend="italic">coed</hi>, ymbell Ywen wenwynig, a <w>Cy<lb rend="shy"/>pres-wydden</w> farwol, ac yn y rheini 'roedd
+<lb/>yn nythu ddylluanod, Cigfrain ac Adar y
+<lb/>Cyrph a<isp/>'r cyfryw, yn creu am <hi rend="italic">G&icirc;g</hi> f&ycirc;th,
+<lb/>er nad oedd y fangre oll ond un <hi rend="italic">Gigfa</hi> fawr
+<lb/>ddrewedig. O escyrn morddwydydd <w>Dy<lb rend="shy"/>nion</w> y gwnelsid holl bilereu 'r Neuadd, a
+<lb/>Philereu 'r Parlwr o escyrn y coeseu, a<isp/>'r
+<lb/>llorieu 'n un walfa o b&ocirc;b cigyddiaeth. Ond
+<lb/>ni ch&ecirc;s i <corr resp="transcr" sic="fawn">fawr</corr> aros nad dyma fi yngolwg
+<lb/><hi rend="italic">Allor</hi> fawr arswydus lle gwelwn y <corr resp="transcr" sic="Brenin.">Brenin</corr>
+<lb/>Dychrynadwy yn traflyncu c&icirc;g a gwaed
+<lb/>Dynion, a mil o f&acirc;n angheuod o bob twll
+<lb/>yn ei borthi fyth, &acirc; ch&icirc;g &icirc;r twymn: Dyma,
+<pb n="66"/>
+<lb/>eb yr Angeu, a<isp/>'m dygasei i yno walch a
+<lb/>g&ecirc;s i ynghanol <hi rend="italic">T&icirc;r Ango</hi>, a ddaeth mor
+<lb/>yscafn-droed, na phrofodd eich mawrhydi
+<lb/>dammeid o hono 'rioed. Pa fodd y gall
+<lb/>hynny fod, ebr y Brenin, ac a ledodd ei
+<lb/>hopran cyfled daiargryn i<isp/>'m llyncu. Ar
+<lb/>hyn, mi a drois tan grynu at <hi rend="italic">Gwsc</hi>; Myfi,
+<lb/>ebr <hi rend="italic">Cwsc</hi>, a<isp/>'i dygais ef yma. Wel', ebr y
+<lb/>Brenin cul ofnadwy er mwyn fy mrawd
+<lb/><hi rend="italic">Cwsc</hi>, chwi ellwch fynd i droi 'ch traed am
+<lb/>y tro yma; ond gwiliwch fi 'r tro nesa.
+<lb/>Wedi iddo fod ennyd yn bwrw celanedd
+<lb/>i<isp/><apo/>w geubal ddiwala, parodd roi dyfyn iw
+<lb/>ddeiliaid, ac a symudodd o<isp/>'r Allor i <w><hi rend="italic">Orsedd<lb rend="shy"/>fainc</hi></w> echryslawn dra-uchel, i fwrw 'r <w>car<lb rend="shy"/>charorion</w> newydd ddyfod. Mewn <w>mu<lb rend="shy"/>nyd,</w> dyma 'r meirw fwy na rhi o <w>fintei<lb rend="shy"/>oedd</w> yn gwneud eu moes i<isp/>'r Brenin, ac
+<lb/>yn cymryd eu lle mewn trefn odiaeth.
+<lb/>A<isp/>'r Brenhin <hi rend="italic">Angeu</hi> yn ei frenhinwisc o
+<lb/>Scarlad gloewgoch, ac hyd-ddi<!--cf WG, p. 415--> lunieu
+<lb/>Gwragedd a Phlant yn wylo, a Gw&ycirc;r yn
+<lb/>ochneidio; ac am ei ben gap dugoch <w>tri<lb rend="shy"/>chonglog</w> (a yrrasei ei g&acirc;r <hi rend="italic">Lucifer</hi> yn <w>an<lb rend="shy"/>rheg</w> iddo) ar ei gonglau scrif'nasid <hi rend="italic">Galar
+<lb/>a griddfan a gwae</hi> uwch ei ben 'r oedd
+<lb/>myrdd o lunieu rhyfeloedd ar f&ocirc;r a th&icirc;r,
+<lb/>trefi<isp/>'n llosci, y ddaiar yn ymagor, ar <w>Dw'r<lb rend="shy"/>diluw;</w> a than ei draed nid oedd ond <w>coro<lb rend="shy"/>neu</w> a theyrnwiail yr holl Frenhinoedd a
+<lb/>orchfygasei fe <corr resp="transcr" sic="'riod">'rioed</corr>. Ar ei law ddeheu
+<pb n="67"/>
+<lb/>'r oedd <hi rend="italic">Tynged</hi> yn eiste, ac &acirc; golwg ddu
+<lb/>dd&egrave;l yn darllen anferth Lyfr oedd o<isp/>'i flaen:
+<lb/>Ac ar y llaw asswy 'r oedd henddyn a <w>el<lb rend="shy"/>wid</w>&nbsp;<hi rend="italic">Amser</hi>, yn dylifo aneirif o edafedd <hi rend="italic">aur</hi>,
+<lb/>ac edafedd <hi rend="italic">arian</hi>, a <hi rend="italic">chopr</hi>, a <hi rend="italic">haiarn</hi> lawer
+<lb/>iawn, ac ymbell edy 'n prifio 'n well at ei
+<lb/>diwedd a myrddiwn yn prifio 'n waeth;
+<lb/>hyd yr edafedd yr oedd <hi rend="italic">orieu</hi>, <hi rend="italic">diwrnodiau</hi>, a
+<lb/><hi rend="italic">blynyddoedd</hi>; a Thynged wrth ei Lyfr yn
+<lb/>torri 'r edafedd <hi rend="italic">einioes</hi>, ac yn egor dryseu 'r
+<lb/>W&agrave;l derfyn rhwng y <hi rend="italic">ddau Fyd</hi>. Ni <w>chaw<lb rend="shy"/>swn</w> i fawr edrych na chlywn alw at y barr
+<lb/>bedwar o ffidleriaid oedd newydd farw.
+<lb/>Pa fodd, ebr Brenin y Dychryn, a daed
+<lb/>gennych lawenydd na ddaliasechwi o<isp/>'r
+<lb/>tu draw i<isp/>'r <hi rend="italic">Agendor</hi>, canys ni fu o<isp/>'r tu
+<lb/>yma i<isp/>'r Cyfwng lawenydd erioed? Ni
+<lb/>wnaethom ni, ebr un Cerddor, ddrwg i
+<lb/>n&ecirc;b erioed, ond eu gwneud yn llawen, a
+<lb/>chymeryd yn distaw<!--d?--> a gaem am ein poen.
+<lb/>A gadwasoch i n&ecirc;b, ebr <hi rend="italic">Angeu</hi>, i golli eu
+<lb/>hamser oddiwrth eu gorchwyl, neu o fynd
+<lb/>i<isp/>'r Eglwys, ha? Na ddo, ebr un arall,
+<lb/>oddieithr bod ymbell Sul wedi gwasanaeth
+<lb/>yn y tafarn-dy tan dranoeth, neu amser <orig reg="haf">h&acirc;</orig>
+<lb/>mewn twmpath chwarae, ac yn w&icirc;r, yr
+<lb/>oeddym ni 'n gariadusach, ac yn lwccusach
+<lb/>am gyn'lleidfa na<isp/>'r Person. Ffwrdd, ffwrdd
+<lb/>&acirc;<isp/>'r rhain i Wl&acirc;d yr Anobaith, ebr y Brenin
+<lb/>ofnadwy, rhwymwch y pedwar gefn-gefn,
+<lb/>a theflwch hwy at eu cymeiriaid, i <w>ddawn<pb rend="shy" n="68"/><lb/>sio</w> 'n droednoeth hyd aelwydydd gwynias,
+<lb/>ac i rygnu fyth heb na <hi rend="italic">chl&ocirc;d</hi> na <hi rend="italic">chlera</hi>. Y
+<lb/>nesa a ddaeth at y barr, oedd rhyw Frenin
+<lb/>agos i <hi rend="italic">Rufein</hi>: Cyfod dy law garcharor, ebr
+<lb/>un o<isp/>'r Swyddogion: gobeithio, ebr <w>hwn<lb rend="shy"/>nw,</w> f&ocirc;d gennych beth gwell moes a ffafr i
+<lb/><hi rend="italic">Frenin</hi>. Syre, ebr <hi rend="italic">Angeu</hi> chwitheu <w>ddyla<lb rend="shy"/>sech</w> dd&agrave;l y tu arall i<isp/>'r Agendorr lle mae
+<lb/>pawb yn Frenhinoedd; ond gwybyddwch
+<lb/>nad oes o<isp/>'r tu yma 'r un ond fy Hunan,
+<lb/>ac un Brenin arall sydd i wared obry, a
+<lb/>chewch weled na phrisia hwnnw na <w>min<lb rend="shy"/>neu</w> yn ngraddeu 'ch mawrhydi eithr <w>yn<lb rend="shy"/>graddeu</w> 'ch drygioni, i gael cymmwyso
+<lb/>'ch c&ocirc;sp at eich beieu, am hynny attebwch
+<lb/>i<isp/>'r holion. Syr, ebr ynte, gwybyddwch
+<lb/>nad oes gennych ddim awdurdod i<isp/>'m d&agrave;l,
+<lb/>nac i<isp/>'m holi: Mae genni faddeuant o<isp/>'m
+<lb/>h&ocirc;ll bechodeu tan law 'r <hi rend="italic">P&acirc;p</hi> ei hun, am i
+<lb/>mi ei wasanaethu e<isp/>'n ffyddlon, ynte roes i
+<lb/>mi gynnwysiad i fynd yn union i <hi rend="italic">Baradwys</hi>,
+<lb/>heb aros funud yn y purdan: Wrth hyn,
+<lb/>dyma 'r Brenin a<isp/>'r holl gegeu culion yn
+<lb/>rhoi oer-yscyrnygfa i geisio dynwared
+<lb/><hi rend="italic">chwerthin</hi>; a<isp/>'r llall yn ddigllon wrth y
+<lb/>chwerthin yn eu gorchymyn i ddangos
+<lb/>iddo 'i ffordd. Taw ff&wcirc;l colledig, ebr <w><hi rend="italic">An<lb rend="shy"/>geu</hi>,</w> tu draw i<isp/>'r W&agrave;l o<isp/>'th &ocirc;l y mae 'r <w><hi rend="italic">pur<lb rend="shy"/>dan</hi>,</w> canys yn dy fywyd y dylasit <w>ymbu<lb rend="shy"/>ro:</w> Ac ar y llaw ddeheu tu hwnt i<isp/>'r <w>A<lb rend="shy"/>gendor</w> yna, y mae <hi rend="italic">Paradwys</hi>. Ac nid oes
+<pb n="69"/>
+<lb/>dim ffordd bossibl i ti ddianc weithian, na
+<lb/>thros yr Agendor i <hi rend="italic">Baradwys</hi>, na thrwy 'r
+<lb/>W&agrave;l-derfyn yn d'<isp/>&ocirc;l i<isp/>'r <hi rend="italic">Byd</hi>: Canys, pe
+<lb/>rhoit dy frenhiniaeth (lle ni feddi <w>ddim<lb rend="shy"/>meu</w> i roi) ni cheit gan borthor y drysau
+<lb/>yna, spio unwaith trwy dwll y clo. Y
+<lb/><hi rend="italic">Walddiadlam</hi> y gelwir hon, canys pan <w>dde<lb rend="shy"/>ler</w> unwaith trwyddi, yn i&acirc;ch fyth <w>ddy<lb rend="shy"/>chwelyd.</w> Ond gan eich bod cymmaint yn
+<lb/>llyfreu 'r P&acirc;p, cewch fynd i gyweirio 'i
+<lb/>wely ef at y P&acirc;p oedd o<isp/>'i flaen, ac yno
+<lb/>cewch gusanu 'i fawd ef byth, ac ynte fawd
+<lb/><hi rend="italic">Lucifer</hi>. Ar y gair, dyma bedwar o<isp/>'r m&acirc;n
+<lb/>angheuod yn ei godi, ag ynte erbyn hyn
+<lb/>yn crynu fel dail yr aethnen, ac ai <w>cippia<lb rend="shy"/>sant</w> fel y m&ecirc;llt allan o<isp/>'r golwg. Yn nesa
+<lb/>at hwn daeth M&acirc;b a Merch: Ef a fasei 'n
+<lb/><hi rend="italic">gydymaith da</hi>, a hithe 'n Ferch <hi rend="italic">fwyn</hi>, ne 'n
+<lb/>rhwydd o<isp/>'i chorph: Eithr galwyd hwy
+<lb/>yno wrth eu henwau noethion, <hi rend="italic">Meddwyn</hi> a
+<lb/><hi rend="italic">Phuttain</hi>. Gobeithio, ebr y <corr resp="transcr" sic="Meddwn">Meddwyn</corr>, y
+<lb/>c&acirc;fi gennych beth ffafr, mi yrrais i chwi
+<lb/>lawer ysclyfaeth dew mewn llifeiriant o
+<lb/>gwrw da; a phan fethais yn lladd eraill,
+<lb/>daethum fy hun yn 'wyllyscar i<isp/>'ch porthi.
+<lb/>Trwy gennad y C&wcirc;rt, nid hanner a yrrais
+<lb/>i iddo, ebr y Butten, wedi eu hoffrwm yn
+<lb/>ebyrth ll&ocirc;sc, yn G&icirc;g rh&ocirc;st parod i<isp/><apo/>w fwrdd.
+<lb/>Hai, hai, ebr Angeu, er eich trachwanteu
+<lb/>melltigedig eich hunain, ac nid i<isp/>'m porthi
+<lb/>i y gwnaed hyn oll: Rhwymwch y ddau,
+<pb n="70"/>
+<lb/>wyneb yn wyneb, gan eu bod yn h&ecirc;n <w>gy<lb rend="shy"/>feillion,</w> a bwriwch hwy i <hi rend="italic">Wl&acirc;d y tywyllwch</hi>,
+<lb/>a chwyded ef i<isp/><apo/>w ch&ecirc;g hi, pised hitheu d&acirc;n
+<lb/>i<isp/><apo/>w berfedd ynte hyd Ddyddfarn; yna <w>cip<lb rend="shy"/>piwyd</w> hwytheu allan a<isp/>'u penne 'n isa. Yn
+<lb/>nesa i<isp/>'r rhain, daeth saith <hi rend="italic">Recordor:</hi> peri
+<lb/>iddynt godi eu dwylo <corr resp="transcr" sic="a">ar</corr> y barr, ni chlywid
+<lb/>mo hynny, canys 'r oedd y cledreu 'n
+<lb/>ireiddlyd; ond dechreuodd un ddadleu 'n
+<lb/>hyfach, ni ddylasem gael dyfyn teg i <w>baro<lb rend="shy"/>toi</w> 'n hatteb, yn lle 'n rhuthro 'n <w>lledra<lb rend="shy"/>daidd.</w> O nid &ycirc;m ni rwymedig i roi i
+<lb/>chwi 'r un dyfyn pennodol, ebr <hi rend="italic">Angeu</hi>, am
+<lb/>eich bod yn cael ymh&ocirc;b lle, b&ocirc;b amser
+<lb/>o<isp/>'ch einioes rybudd o<isp/>'m dyfodiad i. Pa
+<lb/>sawl pregeth a glywsoch am <hi rend="italic">farwoldeb
+<lb/>dyn</hi>? Pa sawl llyfr, pa sawl bedd, pa
+<lb/>sawl clul, pa sawl clefyd, pa sawl <w>cen<lb rend="shy"/>nad</w> ac arwydd a welsoch? Beth yw 'ch
+<lb/>C&wcirc;sc ond fy mrawd i? Beth yw 'ch <w>pen<lb rend="shy"/>glogeu</w> ond fy llun i? Beth yw 'ch bwyd
+<lb/>beunyddiol ond creaduriaid <hi rend="italic">meirwon?</hi> Na
+<lb/>cheisiwch fwrw mo<isp/>'ch aflwydd arna fi,
+<lb/>chwi ni fynnech s&ocirc;n am y dyfyn er ei gael
+<lb/>ganwaith. Ertolwg, ebr un <hi rend="italic">Recordor</hi> coch,
+<lb/>be sy gennych i<isp/>'n herbyn? Beth, ebr <w>An<lb rend="shy"/>geu?</w> Yfed chw&ycirc;s a gwaed y tlodion, a
+<lb/>chodi dwbl eich cyflog. Dyma wr gonest,
+<lb/>eb ef, gan ddangos Cecryn oedd o<isp/>'u h&ocirc;l, a
+<lb/>&wcirc;yr na wnaethum i 'rioed ond tegwch: ac
+<lb/>nid t&ecirc;g i chwi 'n d&agrave;l ni yma heb gennych
+<pb n="71"/>
+<lb/>un bai pennodol i<isp/><apo/>w brofi i 'n herbyn. Hai,
+<lb/>hai, ebr Angeu, cewch brofi 'n eich erbyn
+<lb/>eich hunain: Gosodwch, ebr ef, y rhain
+<lb/>ar fin y <hi rend="italic">Dibyn</hi> ger bron Gorsedd <w><hi rend="italic">Cyfiawn<lb rend="shy"/>der</hi>,</w> hwy a g&acirc;nt yno uniondeb er nas
+<lb/>gwnaethant. Yr oedd yn &ocirc;l etto saith o
+<lb/>Garcharorion eraill, a rheiny 'n cadw 'r f&acirc;th
+<lb/>drafferth a thr&wcirc;st, rhai 'n gwenieithio,
+<lb/>rhai 'n ymrincian, rhai 'n bygwth, rhai 'n
+<lb/>cynghori, <hi rend="italic">&amp;c</hi>. Prin y galwasid hwy at y
+<lb/>barr, nad dyma 'r Ll&ycirc;s oll wedi duo 'n
+<lb/>saith hyllach nac o<isp/><apo/>r blaen, a grydwst, a
+<lb/>chyffro mawr o gylch yr Orseddfainc a<isp/>'r
+<lb/>Angeu 'n lasach nac erioed. Erbyn <w>ymo<lb rend="shy"/>rol</w> un o gennadon <hi rend="italic">Lucifer</hi> a ddaethei &acirc;&nbsp;<w>Lly<lb rend="shy"/>thyr</w> at Angeu, ynghylch y saith garcharor
+<lb/>hyn ac ymhen ennyd parodd <hi rend="italic">Tynged</hi>&nbsp;<w>ddar<lb rend="shy"/>llen</w> y Llythyr ar osteg, ac hyd yr wy 'n
+<lb/>cofio dyma 'r geirieu:
+
+<lb/><hi rend="italic"><hi rend="normal">Lucifer</hi> Brenin Brenhinoedd y Byd, <w>Twy<lb rend="shy"/>sog</w> Annw'n a Phrif-Reolwr y Dyfnder at
+<lb/>Ein naturiol F&acirc;b, y galluoccaf <w>Ddychryna<lb rend="shy"/>dwy</w> Frenin <hi rend="normal">Angeu</hi>, cyfarch a <w>gorucha<lb rend="shy"/>fiaeth</w> ac yspleddach dragwyddol.</hi><!--indented, para?-->
+
+<lb/>Yn gymaint a darfod i rai o<isp/>'n cennadon
+<lb/>cyflym sy 'n wastad allan ar Ysp&icirc;, yspysu i
+<lb/>ni ddyfod gynneu i<isp/>'ch Brenhinllys, saith
+<lb/>Garcharor o<isp/>'r saith rywogaeth ddihira 'n y
+<lb/>Byd, a pherycla, a<isp/>'ch bod chwi ar fedr eu
+<pb n="72"/>
+<lb/>hyscwyd tros y Geulan i<isp/>'m Teyrnas i:
+<lb/>Eich cynghori 'r wyfi i brofi p&ocirc;b ffordd
+<lb/>bossibl i<isp/><apo/>w gollwng hwy 'n eu h&ocirc;l i<isp/>'r Byd:
+<lb/>gwn&acirc;nt yno fwy o wasanaeth i chwi am
+<lb/>ymborth ac i mineu am well cwmnhi:
+<lb/>Canys, gwell gennym eu lle na<isp/>'u <w>cwm<lb rend="shy"/>peini,</w> cawsom ormod o heldrin gyda 'u
+<lb/>cymmeiriaid hwy er's talm, a<isp/>'m <w>Llywo<lb rend="shy"/>draeth</w> i<isp/>'n cythryblus eusys. Am hynny
+<lb/>trowch hwy 'n ei h&ocirc;l, neu gedwch gyda
+<lb/>chwi <corr resp="transcr" sic="hwyn">hwynt</corr>. Oblegid myn y Goron <w><corr resp="transcr" part="a" sic="Uffer">Uffer</corr><lb rend="shy"/><corr resp="transcr" part="b" sic="noi">nol</corr></w> os bwri hwy yma, mi a faluriaf tan
+<lb/>Seiliau dy Deyrnas di hyd oni syrthio 'n
+<lb/>un a<isp/>'m Teyrnas fawr fy hun.
+
+<lb/>O<isp/>'n Brenhinllys ar sugnedd yn y Fall-gyrch
+<lb/>eirias yn y Flwyddyn o<isp/>'n Teyrnasiad
+<lb/><hi rend="normal">5425</hi>.<!--indented-->
+
+<lb/>Safodd y Brenin Angeu a<isp/>'i wep yn wyrdd
+<lb/>ac yn l&acirc;s ennyd ar ei gyfyng-gyngor. Ond
+<lb/>tra bu e<isp/>'n myfyrio, dyma Dynged yn troi
+<lb/>atto 'r fath guwch haiarn-ddu a wnaeth
+<lb/>iddo grynu. Syre, ebr ef, edrychwch beth
+<lb/>a wneloch: Ni feiddia fi ollwng neb yn
+<lb/>ol trwy Derfyn glawdd Tragwyddoldeb y
+<lb/><hi rend="italic">W&agrave;l ddiadlam</hi>, na chwitheu eu llochi hwy
+<lb/>yma; am hynny, gyrrwch hwynt ymlaen
+<lb/>i<isp/><apo/>w destryw heb waetha i<isp/>'r Fall fawr; Fe
+<lb/>fedrodd drefnu llawer dalfa o fil neu
+<lb/>ddengmil o eneidieu b&ocirc;b un i<isp/><apo/>w le mewn
+<pb n="73"/>
+<lb/>munud, a pha 'r gledi fydd arno rwan gyda
+<lb/>saith er eu perycled? Pa ddelw bynnac, pe
+<lb/>troent y llywodraeth uffernol tros ei <w>cho<lb rend="shy"/>lyn,</w> gyrr di hwynt yno 'n sydyn, rhag
+<lb/>ofn i mi gael gorchymyn i<isp/>'th daro di 'n
+<lb/>ddim cyn d'<isp/>amser. Am ei fygythion <hi rend="italic">ef</hi>,
+<lb/>nid &ycirc;nt ond celwyddog: Canys er bod dy
+<lb/>ddiben di a<isp/>'r henddyn draw (gan edrych
+<lb/>ar <hi rend="italic">Amser</hi>) yn nesau o fewn ychydig <w>ddalen<lb rend="shy"/>neu</w> 'n fy Llyfr disommiant i; Etto nid
+<lb/>rhaid i ti <orig reg="unofn"><corr resp="transcr" sic="un o'n">uno'n</corr></orig> soddi at <hi rend="italic">Lucifer</hi>, er daed <w>fy<lb rend="shy"/>ddei</w> gan bawb yno dy gael di, etto byth
+<lb/>nis c&acirc;nt: Oblegid mae 'r Creigieu d&ucirc;r <corr resp="transcr" part="a" sic="a"></corr>
+<lb/><corr resp="transcr" part="b" sic="a">a</corr> diemwnt tragwyddol sy 'n toi Annwn
+<lb/>yn rhy gedyrn o beth i<isp/><apo/>w malurio. Ar
+<lb/>hynny galwodd Angeu 'n gyffrous am un
+<lb/>i sgrifennu 'r atteb fel hyn:
+<!--indented; letter over the next two pieces-->
+<lb/><hi rend="italic"><hi rend="normal">Angeu</hi>, Frenin y Dychryniadau, Cwncwerwr
+<lb/>y Cwncwerwyr at ein Parchediccaf G&acirc;r a<isp/>'n
+<lb/>Cymydog <hi rend="normal">Lucifer</hi> Brenin Hirnos, <w>Pen<lb rend="shy"/>llywodraethwr</w> y Llynclyn Diphwys <w>an<lb rend="shy"/>nerch.</w></hi>
+
+<lb/>Ar ddwfn ystyried eich brenhinol <w>ddy<lb rend="shy"/>muniant</w> hwn, gwelsom yn fuddiolach nid
+<lb/>yn unic i<isp/>'n Llywodraeth ni, eithr hefyd
+<lb/><corr resp="transcr" sic="ich'">i<isp/>'ch</corr> Teyrnas helaeth chwitheu, yrru 'r <w>car<lb rend="shy"/>charorion</w> hyn bella, bai bossibl, oddiwrth
+<lb/>ddryseu 'r Wal ddiadlam, rhag i<isp/><apo/>w Sawyr
+<lb/>drewedig ddychrynu 'r holl Ddinas <w><hi rend="italic">ddihe<pb rend="shy" n="74"/><lb/>nydd</hi>,</w> fel na dd&ecirc;l dyn byth i <w>Dragwyddol<lb rend="shy"/>deb</w> o<isp/>'r tu yma i<isp/>'r Agendor, ac felly ni
+<lb/>chawn i fyth oeri ngholyn, na chwitheu
+<lb/>ddim cwsmeriaeth rhwng Daiar ac Uffern.
+<lb/>Eithr gadawaf i chwi eu barnu a<isp/>'u bwrw
+<lb/>i<isp/>'r celloedd a welochwi gymmwysaf a <w>sic<lb rend="shy"/>craf</w> iddynt.
+
+<lb/><hi rend="italic">O<isp/>'m Brenhinllys isa yn y <hi rend="normal">Goll-borth</hi> fawr
+<lb/>ar <hi rend="normal">Ddistryw</hi>. Er blwyddyn <w>adnewy<lb rend="shy"/>ddiad</w> fy Nheyrnas, <hi rend="normal">1670</hi>.</hi>
+<!--end of letter-->
+
+<lb/>Erbyn clywed hyn oll, 'r oeddwn inne 'n
+<lb/>ysu am gael gwybod pa ryw bobl allei 'r
+<lb/><hi rend="italic">Seithnyn</hi> hynny fod, a<isp/>'r Diawliaid eu hunain
+<lb/>yn eu harswydo cymmaint. Ond cyn
+<lb/>pen nemor, dyma Glarc y Goron yn eu
+<lb/>galw hwy wrth eu henwau fel y canlyn.
+<lb/>Meistr <hi rend="italic"><corr resp="transcr" sic="Medleiwir">Medleiwr</corr></hi>,<!--order corr / hi?--> ali&agrave;s <hi rend="italic">Bys ym h&ocirc;b brywes</hi>,
+<lb/>'roedd hwn mor chwidr a phrysur yn
+<lb/>fforddio 'r lleill nad oedd e 'n cael mor
+<lb/>ennyd i atteb trosto 'i hun nes i Angeu
+<lb/>fygwth ei hollti a<isp/>'i saeth. Yna Meistr
+<lb/><hi rend="italic">Enllibiwr</hi>, ali&agrave;s <hi rend="italic">Gelyn y geirda</hi>, dim atteb:
+<lb/>mae e<isp/>'n orchwylus glywed ei ditlau, eb y
+<lb/>trydydd, nis gall aros mo<isp/>'r llysenwau.
+<lb/>Ai tybied, eb yr <hi rend="italic">Enllibiwr</hi>, nad oes <hi rend="italic">ditlau</hi> i
+<lb/>chwitheu? Gelwch, ebr ef, Meistr <hi rend="italic">Rhodreswr</hi>
+<lb/>mel-dafod, <hi rend="italic">ali&agrave;s</hi>, Llyfn y llwnc, <hi rend="italic">ali&agrave;s</hi>, Gw&ecirc;n
+<lb/>y gwenwyn. <hi rend="italic">Redi!</hi> ebr Merch oedd yno
+<lb/>tan ddangos y Rhodreswr. O, ebr ynte,
+<pb n="75"/>
+<lb/>Madam <hi rend="italic">Marchoges!</hi> eich gwasanaethwr tlawd,
+<lb/>da genni 'ch gweled yn i&acirc;ch ni weles i
+<lb/>'rioed ferch harddach mewn cl&ocirc;s; ond
+<lb/>o'ch<!--= och!--> feddwl druaned yw 'r Wl&acirc;d ar eich
+<lb/>&ocirc;l am lywodraethwraig odiaeth, etto 'ch
+<lb/>cwmnhi hyfryd chwi a wn&acirc; Uffern ei
+<lb/>hun yn beth gwell. O F&acirc;b y Fall fawr,
+<lb/>ebr hi, nid rhaid i n&ecirc;b gyda thi 'r un
+<lb/>Uffern arall, 'r wyti 'n ddigon. Yna <w>gal<lb rend="shy"/>wodd</w> y Criwr <hi rend="italic">Marchoges, <hi rend="normal">ali&acirc;s</hi>, Meistres y
+<lb/>Cl&ocirc;s!</hi>&nbsp;<hi rend="italic">Redi</hi>, <corr resp="transcr" sic="eb,">eb</corr> rhywun arall, ond hi ni
+<lb/>ddywedodd air, eisieu ei galw hi <hi rend="italic">Madam</hi>.
+<lb/>Yn nesa, galwyd <hi rend="italic">Bwriadwr Dyfeisieu, <hi rend="normal">ali&agrave;s</hi>,
+<lb/>Si&ocirc;n o bob <corr resp="transcr" sic="Creft">Crefft</corr></hi>. Ond ni attebei hwnnw
+<lb/>chwaith, 'r oedd e 'n prysur ddyfeisio 'r
+<lb/>ffordd i ddianc rhag <hi rend="italic">Gwl&acirc;d yr Anobaith</hi>.
+<lb/><hi rend="italic">Redi, redi</hi>, ebr un oi &ocirc;l, dyma fo 'n spio lle
+<lb/>i dorri 'ch brenhinllys, ac oni wiliwch, mae
+<lb/>ganddo gryn ddyfais i<isp/>'ch erbyn. Ebr y
+<lb/><hi rend="italic">Bwriadwr</hi>, gelwch ynte 'n rhodd, Meistr
+<lb/><hi rend="italic">Cyhuddwr</hi>, ei frodyr, <hi rend="italic">ali&agrave;s</hi>, Gwiliwr y <w>gwa<lb rend="shy"/>llieu,</w>&nbsp;<hi rend="italic">ali&agrave;s</hi>, Lluniwr Achwynion. <hi rend="italic">Redi,
+<lb/>redi</hi>, dyma fo, ebr Ceccryn cyfreithgar,
+<lb/>canys gwyddei bob un henw 'r llall, ond ni
+<lb/>addefei neb mo<isp/>'i henw ei hunan. <w>Ge<lb rend="shy"/>lw</w> chwitheu, ebr Cyhuddwr, Meistr <hi rend="italic">Ceccryn
+<lb/>cyfreithgar, <hi rend="normal">ali&agrave;s</hi>, Cwmbrus y cyrtieu:</hi> Tystion,
+<lb/>tystion o honoch, fel y galwodd y cn&acirc; fi,
+<lb/>ebr Cecryn. Hai, hai, ebr <hi rend="italic">Angeu</hi>, nid wrth
+<lb/>y Bedyddfaen, ond wrth y Beieu 'r <w>hen<lb rend="shy"/>wir</w> pawb yn y Wlad yma, a thrwy 'ch
+<pb n="76"/>
+<lb/>cennad, Meistr <hi rend="italic">Ceccryn</hi>, dyna 'ch henweu
+<lb/>a sai arnoch o hyn allan byth. Aie, ebr
+<lb/><hi rend="italic">Ceccryn</hi>, myn Diawl, mi wn&acirc; 'n h&acirc;llt i
+<lb/>chwitheu, er y galleich fy lladd, nid oes
+<lb/>gennych ddim awdurdod i<isp/>'m llysenwi.
+<lb/>Mi r&ocirc;f gydcwyn am hynny, ac am <w>gam<lb rend="shy"/>garchariad</w> arnoch wi ach c&acirc;r <hi rend="italic">Lucifer</hi>&nbsp;<w>yn<lb rend="shy"/>ghwrt</w>&nbsp;<hi rend="italic">Cyfiawnder</hi>. Erbyn hyn, gwelwn
+<lb/>fyddinoedd <hi rend="italic">Angeu</hi> wedi ymdrefnu, ac <w>ymar<lb rend="shy"/>fogi,</w> a<isp/>'u golwg ar y Brenin am roi 'r gair.
+<lb/><corr resp="transcr" sic="Yn">Yna</corr>, ebr y Brenin, wedi ymsythu ar ei <w>fren<lb rend="shy"/>hinfainc,</w> Fy lluoedd ofnadwy anorchfygol
+<lb/>na arbedwch ofal a phrysurdeb i hebrwng
+<lb/>y Carcharorion hyn allan o<isp/>'m Terfyneu i
+<lb/>rhag diwyno Ngwl&acirc;d; a bwriwch hwy
+<lb/>'n rhwym tros y Dibyn diobaith, au penne
+<lb/>'n isa. Ond <corr resp="transcr" sic="yrwythfed">yr wythfed</corr> y gwr cwmbrus
+<lb/>yna sy 'n fy mygwth i, gedwch ef yn
+<lb/>rh&ycirc;dd uwchben y Geulan tan Gwrt <w><hi rend="italic">Cy<lb rend="shy"/>fiawnder</hi>,</w> i brofi, gwneud ei gwyn yn dd&acirc;
+<lb/>i<isp/>'m herbyn i, os geill. A chyda 'i fod e 'n
+<lb/>eistedd, dyma 'r holl Fyddinoedd marwol
+<lb/>wedi amgylchu a rhwymo 'r Carcharorion,
+<lb/>ac yn eu cychwyn tu a<isp/>'u lletty. A <w>min<lb rend="shy"/>neu</w> wedi mynd allan, ac yn lled-spio ar
+<lb/>eu h&ocirc;l, Tyrd yma, ebr <hi rend="italic">Cwsc</hi>, ac a<isp/>'m <w>cip<lb rend="shy"/>piodd</w> i ben y T&wcirc;r ucha ar y Ll&ycirc;s. <w>O<lb rend="shy"/>ddiyno,</w> gwelwn y Carcharorion yn mynd
+<lb/>rhagddynt i<isp/><apo/>w dihenydd tragwyddol: A
+<lb/>chyn pen nemor, cododd pwff o gorwynt,
+<lb/>ac a chwalodd y Niwl pygdew cyffredin
+<pb n="77"/>
+<lb/>oedd ar wyneb <hi rend="italic">Tir Ango</hi>, <corr resp="transcr" sic="o nid">onid</corr> aeth hi 'n
+<lb/>llwyd oleu, lle gwelwn i fyrdd fyrddiwn
+<lb/>o ganhwylleu gleision, ac wrth y rheiny,
+<lb/>c&ecirc;s olwg o hirbell ar fin y <hi rend="italic">Geulan <w>ddiwae<lb rend="shy"/>lod:</w></hi> Ond os golwg dra echryslawn oedd
+<lb/>honno, 'roedd yno uwchben olwg <w>erchy<lb rend="shy"/>llach</w> na hitheu, sef, <hi rend="italic">Cyfiawnder</hi> ar ei <w><hi rend="italic">Gor<lb rend="shy"/>seddfainc</hi></w> yn cadw drws Uffern, ar Frawdle
+<lb/>neilltuol uwchben y safn i roi barn ar y
+<lb/>Colledigion fel y delont. Gwelwn daflu
+<lb/>'r lleill bendramwnwgl, a <hi rend="italic">Checcryn</hi> ynteu
+<lb/>yn rhuthro 'i daflu ei hun tros yr ymyl
+<lb/>ofnadwy, rhag edrych unwaith ar Gwrt
+<lb/><hi rend="italic">Cyfiawnder</hi>, canys och! 'r oedd yno olwg
+<lb/>rydost i wyneb euog. Nid oeddwn i ond
+<lb/>yspio o <hi rend="italic">hirbell</hi>, etto mi a welais fwy o <w>er<lb rend="shy"/>chylldod</w> arswydus, nac a fedrai rwan ei
+<lb/>draethu, nac a fedrais i<isp/>'r pryd hynny ei
+<lb/>oddef; canys, ymdrechodd a dychlammodd
+<lb/>f' yspryd gan y dirfawr ddychryn, ac <w>y<lb rend="shy"/>morchestodd</w> mor egniol, oni thorrodd holl
+<lb/>gloieu C&wcirc;sc, a dychwelodd f' enaid iw
+<lb/>chynnefin swyddeu: A bu lawen iawn
+<lb/>genni <orig reg="fy ngweled">'ngweled</orig> fy hun etto yn ym&ycirc;sc y
+<lb/>rhai <hi rend="italic">byw</hi>; a bwriedais fyw well-well, gan
+<lb/>fod yn esmwythach genni gan mlynedd o
+<lb/>gystudd yn llwybreu sancteiddrwydd, na
+<lb/>gorfod gweled cip arall ar erchylldod y <w>No<lb rend="shy"/>son</w> honno.
+</p>
+</div>
+</body>
+</text>
+</TEI.2>
