@@ -1,0 +1,2407 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../prose_dipl.xsl"?>
+<!-- normal stylesheet: prose_dipl.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+    
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Corpws Hanesyddol yr Iaith Gymraeg 1500-1850: Drych y prif oesoedd</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by <name id="transcr">Ingo Mittendorf</name></resp>
+<resp>Notes by <name>Ingo Mittendorf</name></resp>
+</respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, November 2004</edition></editionStmt>
+
+<publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+</publicationStmt> 
+
+<notesStmt>
+<note type="text">The text is divided into two parts, differing quite radically from one another. The corpus includes two extracts from the first, and one extract from the second part: the whole of part i., chapter 4, dealing with the arrival of the Saxons in Britain; the second half of part i., chapter 5, namely the part dealing with the Welsh language; and the whole of part ii., chapter 5, dealing with religious disputes surrounding the sacrament of baptism.</note>
+    
+<note type="bibl" lang="eng">The text has previously been edited in a highly reliable edition by Garfield H. Hughes:
+<lb/>Theopilus Evans, <title>Drych y Prif Oesoedd yn &ocirc;l yr argraffiad cyntaf: 1716</title>, edited by Garfield H. Hughes (Cardiff: Gwasg Prifysgol Cymru, 1961).</note>
+
+<note type="bibl" lang="cym">Golygwyd y testun mewn argraffiad eithaf dibynadwy gan Garfield H. Hughes:
+<lb/>Theopilus Evans, <title>Drych y Prif Oesoedd yn &ocirc;l yr argraffiad cyntaf: 1716</title>, golygwyd gan Garfield H. Hughes (Caerdydd: Gwasg Prifysgol Cymru, 1961).</note>
+</notesStmt>
+
+<sourceDesc>
+<bibl>
+<title>Drych y prif oesoedd</title>
+<author><name>Theophilus Evans (1693-1767)</name></author>
+<imprint>
+<pubPlace>Y Mwythig</pubPlace>
+<publisher>gan John Rhydderch tros yr Awdur</publisher>
+<date value="1716">1716</date>
+</imprint>
+<biblScope>64-102, 116-23, 230-49</biblScope>
+</bibl>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<p>The original contains numerous footnotes, marked by a lower-case italic letter in parentheses, followed by a comma, detailing soures. The content of these footnotes has been omitted in the transcription, but their position is marked in the XML-TEI file by a gap-element (&lt;gap desc="footnote"/&gt;). At several points (for instance, 75.18 88.24 and 237.2), where the footnote is the only content of a given line, omission of footnotes has lead to empty (but numbered) lines in the transcription, and the punctuation has been adjusted slightly as a result. A second set of explanatory footnotes and glosses is marked in the original using asterisks and various similar symbols. The content of these footnotes has also been omitted in the transcription, but their position is marked with the original symbol used. Authorial glosses, also marked in the original with asterisks, are included in the transcription, and marked up using the &lt;note&gt; element.</p>
+<p>The original uses italics for argument summaries and for poetry. These are marked up using the rend-attribute of the argument-element and lg-element respectively. Italics are maintained where found for individual words and phrases within the main body of the text. Caesuras in poetry (represented in the source by a gap) have been marked up using the &lt;caesura/&gt; element. Catchwords have also been omitted throughout. Note that the original contains square brackets in a number of places.</p>
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs> (including some transcriptions in the <rs id="ipa">International Phonetic Alphabet</rs>).</p>
+    </langUsage>
+</profileDesc>
+
+<revisionDesc>
+    <change>
+        <date>September 2004</date>
+        <respStmt><resp>David Willis</resp></respStmt>
+        <item>Revisions and additions to TEI header; Line numbering corrected on pages where the transcription begins mid page; Line break elements before trailer elements moved to inside the trailer element throughout.</item>
+    </change>
+    
+<change>
+<date></date>
+<respStmt>
+<resp></resp>
+</respStmt>
+<item>
+[ok = these have been dealt with adequately in the encoding description or elsewhere.]
+DPO I.4
+smallcaps; italics (everywhere)
+catch-words omitted - ok; 
+all (alphabetical) footnotes omitted ("gap", check again; - lines 75.18 and 88.24 are empty now, punctuation slight problem) - ok
+poetry marked up (AB); marginal text?
+Word count: poetry and quote from Hywel Dda add up to c. 1270 (adjusted: 1350) words.
+Removed ABetc.;
+Inserted W (also with PB)
+DPO I.5
+catch-words omitted - ok;
+italics in prose parts (not in argument, or poetry) - ok;
+poetry marked up (AB)
+all (alphabetical) footnotes deleted ("gap") - ok;
+Removed AB around poetry (but not tables);
+inserted W (also with PB).
+DPO II.5
+catch-words omitted - ok; 
+all (alphabetical) footnotes deleted ("gap"; check!; line 237.2 now empty) - ok;
+italics in prose parts
+poetry marked up (AB); marginal text?
+Removed AB around LG.
+Inserted W (also with PB)
+</item>
+</change>
+
+<change>
+<date>20 June 2002</date>
+<respStmt>
+<resp/>
+</respStmt>
+<item>Finished input, basic XML-conversion</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text id="DPO">
+<group>
+
+<text>
+<body>
+<pb n="64"/>
+<div type="chapter" n="i.4">
+<head><lb n="13"/>PEN. IV.</head>
+
+<argument rend="italic">
+<p>
+<lb n="14"/>Yr achos y galwyd y Saeson i Frydain. Llythyr
+<lb n="15"/>y Brutaniaid attynt. Hwythau'n dyfod yn <w>ewyll<lb n="16" rend="shy"/>ysgar,</w> ac ym mhen yspaid yn troi'n fradwyr.
+<lb n="17"/>Y Brutaniaid a'r hynny yn eu hymlid hwy <w>a<lb n="18" rend="shy"/>dref.</w>&nbsp;<hi rend="normal">Rhonwen</hi> y Saesones yn gwenwyno <hi rend="normal"><w>Gwr<lb n="19" rend="shy"/>thefyr</w></hi> fendigaid y Brenin. A'r Saeson a'r <w>hyn<lb n="20" rend="shy"/>ny</w> yn dyfod drachefn i Frydain. Twyll y <w>Cyll<lb n="21" rend="shy"/>ill</w> hirion. Marwolaeth echryslawn y brenin
+<lb n="22"/><hi rend="normal">Gwrtheyrn</hi>. Y Saeson yn myned adref o'i gwir
+<lb n="23"/>fodd, Ac yn cael groesaw hagr a'r eu <w>dyfo<lb n="24" rend="shy"/>diad</w> eilwaith. Lladd <hi rend="normal">Hengist</hi> eu Tywysog. <w>Go<lb n="25" rend="shy"/>sod</w> cebystr am wddf pob Sais. Gwrthryfel <w>Pas<lb n="26" rend="shy"/>gen.</w> Sais yn gwenwyno Emrys wledig y Brenin.
+<lb n="27"/>Y Drwg a wnaethpwyd ganddynt a'r hynny, ac
+<lb n="28"/>yn cael eu hymlid gan <hi rend="normal">Uthr Bendragon</hi>. <w>Anghyt<lb n="29" rend="shy"/>tundeb</w> ym mysc y Brutaniaid eu hun. Dynion
+
+<pb n="65"/>
+
+<lb/>drwg yn eu chwerwder yn gollwng Swyddogion
+<lb/>y <hi rend="normal">Saeson</hi> yn rhyddion o'r Carchar, a hwythau
+<lb/>yn myned i <hi rend="normal">Germani</hi> i godi gwyr. Yr <w>ym<lb rend="shy"/>ddiddan</w> a fu rhyngddynt a'i cydwladwyr yno.
+<lb/>Yn dyfod a ch&acirc;d luosog i <hi rend="normal">Frydain</hi> ac yn <w>gwen<lb rend="shy"/>wyno</w>&nbsp;<hi rend="normal">Uthr ben-dragon</hi>. Y modd y c&acirc;s <hi rend="normal">Arthur</hi>
+<lb/>y Goron. Ychydig hanes a'm ei weithredoedd. Y
+<lb/><hi rend="normal">Saeson</hi> yn goresgyn <hi rend="normal">Lloegr</hi> wedi marwolaeth
+<lb/><hi rend="normal">Arthur</hi>. Tywysogion <hi rend="normal">Cymru</hi>. Ychydigyn o <w>gy<lb rend="shy"/>fraith</w>&nbsp;<hi rend="normal">Howel-dda</hi>. Yr amser y daethant i <w>u<lb rend="shy"/>fuddhau</w> Cyfraith Loegr.
+</p>
+</argument>
+
+<p>
+<lb/>WEdi dangos eusys i ba gyflyrau <w>gre<lb rend="shy"/>synol</w> y dycpwyd ein Hynafiaid gan
+<lb/>y llofrudd-enaid hwnnw PECHOD,
+<lb/>bellach mi a &acirc;f rhagof i ddangos eu
+<lb/>hynfydrwydd di-gymmar wrth<gap desc="footnote"/>
+<lb/>ddeisyf porth gan y <hi rend="italic">Saeson</hi>. Etto
+<lb/>nid oedd hyn onid y peth y mae Duw yn fwgwth
+<lb/>yn erbyn anufudd-dod. <hi rend="italic">Oni wrandewi a'r lais yr
+<lb/>Arglwydd dy Dduw, Yr Arglwydd a'th dery di
+<lb/>ag ynfydrwydd, ac a dallineb, ac a syndod calon.</hi>
+<lb/>Deut. 28, 15, 28. Ofnasant y <hi rend="italic">Saeson</hi> o'r blaen
+<lb/>yn fwy nag angau ei hun.<gap desc="footnote"/> Etto dallwyd hwy yn y
+<lb/>cyfryw fodd, fel y danfonasant gennadon attynt, i'w
+<lb/>gwahawdd hwy trosodd. Mae etto beth anghyttundeb
+<lb/>ym mysc Historiawyr am ba achos y galwyd y <hi rend="italic">Saeson</hi>
+<lb/>yma gyntaf. 1, Rhai a ddywedant ddarfod eu galw
+<lb/>yn borth yn erbyn y <hi rend="italic">Ffichtiaid</hi>, a hyn sydd <w>debyc<lb rend="shy"/>caf</w> i fod yn wirionedd, gan nad yw <hi rend="italic">Gildas</hi> ei hun
+
+<pb n="66"/>
+
+<lb/>yn crybwyll am un achos arall<gap desc="footnote"/>. 2. Eraill a
+<lb/>ddywedant fod Amgylchiadau y Brutaniaid fal hyn
+<lb/>y pryd hwnnw. Fe ddescynnodd Coron y <w>Deyr<lb rend="shy"/>nas</w> i wr graslawn a elwid <hi rend="italic">Constans</hi>, yr hwn a
+<lb/>ddycpwyd i fynu mywn Monachlog, ac o'r achos
+<lb/>hwnnw, yr oedd ef yn anghydnabyddus ag <w>ar<lb rend="shy"/>ferion</w> y Ll&ycirc;s, a'r gyfraith wladol. Felly efe a
+<lb/>osododd Ddistain, neu oruchel <hi rend="italic">Stiwart</hi> tano i
+<lb/>lywodraethu'r Deyrnas. Y Distain hwnnw a <w>el<lb rend="shy"/>wid</w>&nbsp;<hi rend="italic">Gwrtheyrn</hi>, a dyn balch, rhodresgar aniwair
+<lb/>oedd efe. A gwedi cael awdurdod brenhinawl
+<lb/>yn ei law, efe a feddyliodd ladd ei feistir. Felly
+<lb/>efe a roddes aur ac arian i ryw ysgerbydiaid ofer,
+<lb/>a'r iddynt ruthro am ben ystafell y Brenhin a'i
+<lb/>ladd ef. Ac yn ddiattreg hwy a aethant, ac a <w>wae<lb rend="shy"/>ddasant</w> hyd yr heolydd, <hi rend="smallcaps">Gwrtheyrn Sydd
+<lb/>Frenin Teilwng</hi> o deyrn-wialen ynys
+<lb/>Brydain, a <hi rend="smallcaps">Chonstans Sydd <w>An<lb rend="shy"/>heilwng.</w></hi> Ac yn ddianoed cychwyn a <w>wnae<lb rend="shy"/>thant</w> a'm ben ystafell y Brenin, a'i ladd a <w>oru<lb rend="shy"/>gant,</w> a dwyn eu ben ger bron <hi rend="italic">Gwrtheyrn</hi>. A
+<lb/>phan welodd ef hynny, tristau megis wylaw a
+<lb/>wnaeth, ac eusys ni bu erioed lawenach yn ei galon.
+<lb/><gap desc="footnote"/>A gwedi ei eneinio ef yn Frenin, efe a <w>al<lb rend="shy"/>wodd</w> y <hi rend="italic">Saeson</hi> atto, rhac i gyfnesyfiaid <hi rend="italic">Constans</hi>
+<lb/>ymddial arno: Ond nid yw hyn wirionedd, gan
+<lb/>na bu <hi rend="italic">Constans</hi> erioed yn Frenin ym Mhrydain,
+
+<pb n="67"/>
+
+<lb/>can's efe a laddwyd yn yr Ital.<gap desc="footnote"/> 3. Eraill a
+<lb/>ddywedant fod Amgylchiadau <hi rend="italic">Gwrtheyrn</hi> fal hyn.
+<lb/>Ni bu dim trefn neu lywodraeth weddaidd ym
+<lb/>mysc y Brutaniaid wedi'r Rhufeiniaid ddilyssu'r
+<lb/>deyrnged iddynt. Eneinid Brenin heddyw, ac a'i <w>di<lb rend="shy"/>freinid</w> ysgatfydd yr ail ddiwrnod, a dewisid un arall
+<lb/>yn ei le: Ac y mae'n ddiddadl eu bod yn <w>anwadal<lb rend="hyphen"/>farn</w> jawn yn eu llywodraeth, canys y mae <hi rend="italic">Gildas</hi>
+<lb/>(y <hi rend="italic">Brittwn</hi> dysgedig hwnnw) yn siccrhau hynny.
+<lb/>Ac yno <hi rend="italic">Gwrtheyrn</hi> (rhac y gwneid yr un castiau
+<lb/>ag ynteu) a fwriadodd i siccrhau ei orseddfaingc
+<lb/>yn gadarn fal y tygasai ef. Felly efe a alwodd
+<lb/>a'm y <hi rend="italic">Saeson</hi> i amddiffyn ei goron, os cynnygid ei
+<lb/>ddifreinio ef.<gap desc="footnote"/> Hyn a allai fod yn ddiau yn
+<lb/>beth achlysur, ond i ymladd a'r <hi rend="italic">Ffichtiaid</hi> oedd
+<lb/>y prif ddiben i alw'r Saeson i Frydain, can's nid
+<lb/>yw <hi rend="italic">Gildas</hi> (fal y dywedais eusys) yn crybwyll
+<lb/>am un achos arall.
+</p>
+
+<p>
+<lb/>Felly <hi rend="italic">Gwrtheyrn</hi> a alwodd ei ben-cynghoriaid
+<lb/>a'i Uchel-Swyddogion atto, a gwedi eu dyfod, efe
+<lb/>a dywedodd wrthynt fal hyn, " Chwi wyddoch
+<lb/>f'Arglwyddi fod y Rhufeiniaid wedi ein <w>gom<lb rend="shy"/>medd</w> er ys talm, a ninnau yn llwyr anigonol i
+<lb/>roddi c&acirc;d a'r faes i'n gelynion, ynteu <w>anghen<lb rend="shy"/>rheidiol</w> ydyw i ni ddanfon at ryw genedl a'm
+<lb/>borth. Ac yr ydwyf fi yn barnu fod y <hi rend="italic">Saeson</hi>
+<lb/>yn bobl wychr, lewion, galonnog. Ac os bydd
+<lb/>gwiw ganddynt i wneuthur ammod a ni, yr wyf
+<lb/>yn gobeithio y bydd raid i'r <hi rend="italic">Ffichtiaid</hi>
+<lb/>a'r <hi rend="italic">Scotiaid</hi> gymmeryd eu Coryglau tua'r <hi rend="italic"><w><corr resp="transcr" part="a" sic="I">I</corr><pb rend="shy" n="68"/><lb/><corr resp="transcr" part="b" sic="Iwerddon">werddon</corr></w></hi> etto. (&Dagger;), <hi rend="italic">A hwy a attebasant gan
+<lb/>ddywedyd</hi>, O Arglwydd frenin pwy all dy <w>lu<lb rend="shy"/>ddias</w> di rhac gwneuthur y peth sydd dda yn dy
+<lb/>olwg? Wele ni oll (fal y gweddai i ddeiliaid
+<lb/>ufuddhau gorchymmyn eu brenin) yn <w>llwyr<lb rend="hyphen"/>gyttuno</w> a thydi am y peth a ddywedaist, sef <w>dan<lb rend="shy"/>fon</w> cennadwri at y <hi rend="italic">Gwyr da y Saeson</hi>, os bydd
+<lb/>gwiw ganddynt ammodi a ni. Ac yno yr <w>ysgri<lb rend="shy"/>fennwyd</w> Llythyr i ddanfon at y <hi rend="italic">Saeson</hi> yn yr ystyr
+<lb/>hyn nid amgen.
+</p>
+
+<p>
+<lb/><hi rend="italic">Y</hi> SAESON <hi rend="italic">Ardderchoccaf.</hi>
+<lb/>Nyni y <hi rend="italic">Brutaniaid</hi> truain wedi'n harcholli
+<lb/>a'n dugn-friwio gan hygyrch ruthr ein <w>gelyni<lb rend="shy"/>on,</w> ydym yn danfon y llythyr hwn attoch chwi
+<lb/>y <hi rend="italic">Saeson</hi> anrhydeddus (s&wcirc;n eich gweithredoedd
+<lb/>enwog sydd wedi ehangu cymmaint) i ddeisyf
+<lb/>porth gennych y cyfamser hwn. Ein gwlad
+<lb/>sydd ehang ddigon, fflwch mywn pob peth <w>per<lb rend="shy"/>thynasol</w> i'n cynhaliaeth, digon yw hi i ni a
+<lb/>chwithau. Hyd yn hyn y bu'r <hi rend="italic">Rhufeiniaid</hi> yn
+<lb/>ymgeleddwyr tirion i ni, nessaf at ba rai ni <w>ad<lb rend="shy"/>waenom</w> neb a ddangosodd brawf mo'r helaeth
+<lb/>o'i grymysdra a chwychwi. Boed 'ich harfau
+<lb/>ddatcan allan eich hanghyfartal galondid yn yr
+<lb/>ynys hon, ac ni fydd flin gennym ddwyn un
+<lb/>gwasanaeth a esyd eich hardderchawgrwydd
+<lb/>chwi arnom.<gap desc="footnote"/> Hoff a dymunol jawn a fu'r
+<lb/>wahawdd hon i'r <hi rend="italic">Saeson</hi>: <hi rend="italic">Felly attebasant</hi>, <w>Gell<lb rend="shy"/>wch</w> hyderu <hi rend="italic">Frutaniaid anrhydeddus</hi>, y bydd
+<lb/>y <hi rend="italic">Saeson</hi> yn gyfeillon cywir i chwi, ac yn <w>ba<lb rend="shy"/>rodol</w> i'ch cynnorthwyo yn yr ing a'r trallod
+<lb/>mwyaf.
+<lb/>Hengist <hi rend="italic">a'i frawd</hi> Hors <hi rend="italic">Arglwydi Germania</hi>.
+</p>
+
+<pb n="69"/>
+
+<p>
+<lb/>PAn ddychwelodd y Gennadwri adref i <w>Fry<lb rend="shy"/>dain,</w> bu gorfoledd a llawenydd mawr ym
+<lb/>mhlith y <hi rend="italic">Brutaniaid</hi>, ac yn ddiattreg hwy a
+<lb/>ddechreuasant arlwyo a pharottoi danteithion a
+<lb/>melus-bethau'r ynys i'w groesawi hwy i mywn.
+<lb/>Ac yn y flyddyn o <hi rend="italic">oedran Christ</hi> 449, y tiriasant
+<lb/>ym Mhrydain tan y ddau Gad-pen uchod <hi rend="italic"><w>Hen<lb rend="shy"/>gist</w></hi> a'i frawd <hi rend="italic">Hors</hi>. &Dagger; Derbynniwyd hwy yn
+<lb/>anrhydeddus gan y <hi rend="italic">Brutaniaid</hi>, a gwedi iddynt
+<lb/>wledda a bod yn llawen dros yspaid, tynnwyd
+<lb/>Ammodau'r Gyngrair rhyngddynt, sef yw hynny,
+<lb/>y <hi rend="italic">Saeson</hi> a addunedasant trwy lw i fod yn ffyddlon
+<lb/>gwas'naethgar ac ufudd i'r <hi rend="italic">Brutaniaid</hi>: A'r <w>Bruta<lb rend="shy"/>niaid</w> hwythau a gymmerasant l&wcirc; o'r tu arall i <w>wo<lb rend="shy"/>brywo</w>'r <hi rend="italic">Saeson</hi> yn ol y cyttundeb. Ac ni bu'r
+<lb/><hi rend="italic">Saeson</hi> yn swrth neu legenraid a'r y cyntaf.<gap desc="foot"/>
+<lb/>Canys ymladdasant yn hoyw-brysur, ac ynillwyd
+<lb/>trwy eu porth hwy, Fuddugoliaeth enwog a'r
+<lb/>y <hi rend="italic">Ffichtiaid</hi> a'r <hi rend="italic">Scotiaid</hi>.
+</p>
+
+<p>
+<lb/>Ond ffyddlondeb y <hi rend="italic">Saeson</hi> onest a wiwodd pan
+<lb/>welsont mo'r flodeuog oedd ein gwl&acirc;d. Felly
+<lb/>hwy a ddanfonasant adref at eu cyd-wladwyr i
+<lb/>gwahawdd hwythau trosodd i fod yn gyfrannogion
+<lb/>o'r un moethau da.<gap desc="footnote"/>&nbsp;<hi rend="italic">Y wlad</hi>, (eb'r hwy)
+
+<pb n="70"/>
+
+<lb/>Sydd yn ffrwythlawn a llawn o bob danteithion
+<lb/>a'r a all calon dyn ewyllysio, ond y trigolion
+<lb/>ydynt lwrfion llesc a diofal. Os ydych gall,
+<lb/>na arhoswch gartref i newynu, ond deuwch i
+<lb/>Frydain i fod yn gyfrannogion o'n moethau da
+<lb/>ni. Canys ni a wyddom pa luniaeth s&acirc;l <w>fol<lb rend="hyphen"/>dwyllog</w> sydd gartref ond chwi a gewch yma
+<lb/>eich digoni a'r Fara gwyn a chig a chwrwf da.
+<lb/>. . . . . Ond i draethu'n meddyliau wrthych
+<lb/>chwi'n ddirgel, yr &ycirc;m yn bwriadu i ruthro
+<lb/>trwy frad a'r y trigolion diofal hyn, fal y <w>by<lb rend="shy"/>ddo</w> y wlad yn eiddo ein hunain. Ac am <w>hyn<lb rend="shy"/>ny</w> deued y gwrolaf o honoch chwi trosodd, ond
+<lb/>gwybyddwch fod eich harfau yn gywrain ac yn
+<lb/>dacclus. Byddwch wych<gap desc="footnote"/>.
+</p>
+
+<p>
+<lb/>Pan ddarllenasant y llythyr hwn, prin na <w>thren<lb rend="shy"/>gasant</w> gan lawenydd wrth glywed y fath <w>hapus<lb rend="shy"/>rwydd</w> a gadd eu cyd-wladwyr. Ond yn anad
+<lb/>dim pan ystyriasant eu diragrithiol <w>ewyllysgar<lb rend="shy"/>wch</w> i gwahawdd hwythau trosodd i gael rhan o'i
+<lb/>moethau da. Ac yn ddiattreg bryssio a <w>wnae<lb rend="shy"/>thant</w> ac a hwyliasant <hi rend="italic">tua gwlad yr Addewid</hi>.
+<lb/>Gyd-a'r fyddin hon y daeth Merch <hi rend="italic">Hengist</hi>&nbsp;<w>tro<lb rend="shy"/>sodd</w> a elwid Rhonwen, ac herlodes <w>weddeidd<lb rend="hyphen"/>dlos</w> l&acirc;n ydoedd hi. Ac yno y ceisiodd <hi rend="italic">Hengist</hi>
+<lb/>y Sais gan <hi rend="italic">Wrtheyrn</hi> y Brenin ryw Gastell neu
+<lb/>ddinas <hi rend="italic">Fal y byddwyf</hi> [eb'r ef<sic>)</sic>&nbsp;<hi rend="italic">yn anrhydeddus ym
+<lb/>mhlith y Tywysogion</hi>. Ond attebawdd <hi rend="italic">Gwrtheyrn</hi>,
+<lb/>Ha &wcirc;r da nid yw hynny weddus, canys estron a
+<lb/>Phagan ydwyt ti, a phe i'th anrhydeddwn di <w>me<lb rend="shy"/>gis</w> Dluedog o'm gwlad fy hun, y Tywysogion
+<lb/>a gyfodent i'm herbyb. <hi rend="italic">Ond Arglwydd</hi> [eb'r
+
+<pb n="71"/>
+
+<lb/>Hengist] <hi rend="italic">caniatt&acirc; i'th w&acirc;s gymmaint o dir i <w>adai<lb rend="shy"/>ladu</w> Castell ag yr amgylchyna Carrai.</hi> Di a gei
+<lb/>gymmaint a hynny yn rhwydd, <hi rend="italic">eb'r Gwrtheyrn</hi>.<gap desc="footnote"/>
+<lb/>Ac yno y cymmerth <hi rend="italic">Hengist</hi> groen tarw, ac a'i
+<lb/>holltodd yn un garrai, ac yn y lle cadarnaf, efe a
+<lb/>amgylchynodd gymmaint a chae gweddol o dir,
+<lb/>ac a adailadodd yno Gaer hoyw, yr hon a elwid
+<lb/>yn Gymraeg gynt <hi rend="italic">Caer y garrai</hi>, eithr yn-awr
+<lb/>gan y <hi rend="italic">Saeson</hi>, <hi rend="italic">Dancastre, i. e.</hi> Thong-chester.
+</p>
+
+<p>
+<lb/>Ac yno <hi rend="italic">Hengist</hi> a wahoddodd <hi rend="italic">Gwrtheyrn</hi> y <w>Bre<lb rend="shy"/>nin</w> i weled y Castell a wnaethpwyd, a'r <w>Marcho<lb rend="shy"/>gion</w> a ddaethai o <hi rend="italic">Germani</hi>. A gwnaethpwyd
+<lb/>gwledd fawr yno, a gwybu <hi rend="italic">Hengist</hi> fod <hi rend="italic">Gwrtheyrn</hi>
+<lb/>y Brenin yn wr mursennaidd, felly efe a archodd i
+<lb/><hi rend="italic">Ronwen</hi> ei ferch, i wisgo'n wych odidog am dani,
+<lb/>ac i ddyfod i'r Bwrdd i lenwi gwin i'r Brenin.
+<lb/>A daeth ystryw <hi rend="italic">Hengist</hi> fal yr ewyllysiodd, canys
+<lb/><hi rend="italic">Gwrtheyrn</hi> aniwair a hoffodd yr Enaith, ac a <w>ddy<lb rend="shy"/>munodd</w> gael cyscu gyd-a hi y noson honno, a phan
+<lb/>geryddwyd ef am hynny gan Esgob <hi rend="italic">Llundain</hi> a
+<lb/>elwid <hi rend="italic">Fodin</hi>, efe a'i trywanodd a'r cleddyf,<gap desc="footnote"/>
+<lb/>ac a gymmerth <hi rend="italic">Rhonwen</hi> yn gariad-ferch iddo,
+<lb/>yr hon er tecced oedd, oedd lawn o bob ystryw
+<lb/>drwg. Geiriau'r Chronicl sydd fal hyn, <hi rend="italic">A Gwedi
+<lb/>meddwi</hi> Gwrtheyrn, <hi rend="italic">neidiaw a orug Diawl yntho,
+<lb/>a pheri iddaw gytsynniaw a'r Baganes ysgymmun
+<lb/>heb fedydd arni<gap desc="footnote"/>.</hi>
+</p>
+
+<p>
+<lb/>A'r ol hyn y <hi rend="italic">Saeson</hi> a geisiasant amser cyfaddas
+<lb/>i ruthro a'r y <hi rend="italic">Brutaniaid</hi>, ac yn gyntaf hwy a
+<lb/>achwynasant i fod eu gwobr yn rhy brin, a <w>chaw<lb rend="shy"/>sant</w> 'chwaneg gan y <hi rend="italic">Brutaniaid</hi>, yr hyn a'i
+
+<pb n="72"/>
+
+<lb/>distawodd dros ennyd.<gap desc="footnote"/> Ond <corr resp="transcr" sic="canafant">canasant</corr> yr un
+<lb/>D&ocirc;n yn ebrwydd eilwaith (er nad oedd hynny
+<lb/>ddim ond lliw ac escus) ac a fwgythasant i <w>an<lb rend="shy"/>rheithio</w>'r cwbl o amgylch. <hi rend="italic">A allwn ni</hi> [eb'r
+<lb/>hwy] <hi rend="italic">ymddwyn y fath lafur a lludded am sothach
+<lb/>a ffylbri? A raid ini fentro'n hoedlau i'ch cadw
+<lb/>chwi'n ddiogel a difraw a'm fawach a choeg-bethau
+<lb/>di-fudd? Nid ym ni y cyfryw ffyliaid.</hi> Ac yno
+<lb/>heddychasant a'r <hi rend="italic">Ffichtiaid</hi>, cyd-ymgynnullasant
+<lb/>eu byddinoedd, a rhuthrasant dros yr Ynys or
+<lb/>Dwyrain i'r gorllewin. Prin y gall Tafod fynegi
+<lb/>Dywalder y Lladdfa echryslawn honno; <w>cyffelyp<lb rend="shy"/>pach</w> oedd Gwedd yr ynys hon i Fynydd <w>llosce<lb rend="shy"/>dig</w> megis <hi rend="italic">Etna</hi> nag i wlad ffrwythlawn mal y
+<lb/>buasai hi o'r blaen; canys y <hi rend="italic">Saeson</hi> a gynneuasant
+<lb/>dan ym mhob Llannerch, yn y Dinasoedd, yn yr
+<lb/>&ycirc;d, nes oedd y wl&acirc;d oll megis Goddaith; A'r
+<lb/>trigolion a leddid pa le bynnag y cyfarfyddid a
+<lb/>hwy, ac a'i gadewid yn dorfeydd rhyd y <w>mae<lb rend="shy"/>sydd</w> yn borthiant i adar ysglyfaeth! Byddei'r
+<lb/>cestyll a'r tai annedd yn bentwr o gerrig, ac <w>ae<lb rend="shy"/>lodau</w> drylliedig y Merthyron yn gymmysc a hwy!
+<lb/>Byddei'r Afonydd megis cynnifer gwythen goch
+<lb/>gan waed y lladdedigion oedd yn ffrydio iddynt!
+<lb/>Byddei'r Ogofau yn llawn o gelaneddau <w>meir<lb rend="shy"/>won,</w> sef, y rhai a ffoesant yno, ac a drengasant
+<lb/>gan Newyn.<gap desc="footnote"/> A'r fyr eiriau Ni adawsant
+<lb/>na th&ycirc; na thwlc heb ei losci, na dyn nac anifail
+<lb/>heb ei ladd y ffordd y cerddasant, <hi rend="italic">Eu bwau a
+<lb/>ddrylliasant y gwyr ieuaingc, ac wrth ffrwyth
+
+<pb n="73"/>
+
+<lb/>bru ni thosturiasant, Eu llygaid nid eiriachasant
+<lb/>y rhai bach</hi>.
+</p>
+
+<p>
+<lb/>Wedi'r Ffeilson digred o'r diwedd flino lladd a
+<lb/>llosci, y rhan fwyaf o honynt [ansicr am ba achos]
+<lb/>a ddychwelasant adref i <hi rend="italic">Germani</hi>.<gap desc="footnote"/> Dywed
+<lb/>rhai mae'r achos o'i mynediad adref oedd, o <w>her<lb rend="shy"/>wydd</w> iddynt lwytho eu cylla yn rhy lawn, ac
+<lb/>iddynt ddewis, er mwyn cael eu cynnefinol jechyd,
+<lb/>fyned tuag adref er cael lheshad y F&ocirc;r-wybr. Ac
+<lb/>ni ddylai y rheswm hwn gael ei wawdio gan neb,
+<lb/>canys siccr ydyw fod * Gartrefol fuchedd y <hi rend="italic"><w>Sae<lb rend="shy"/>son</w></hi> yn arw-f&wcirc;yd S&acirc;l ddigon, ond wedi cael prawf
+<lb/>o ddanteithion <hi rend="italic">Brydain</hi>, pwy all dybied amgen
+<lb/>oni fwyttausant nes cael bolwst neu <hi rend="italic">Surffet</hi>?
+<lb/>A arbedai y fath farbariaid newynog ddanteithion,
+<lb/>pethau amheuthun, a melus-fwydydd? Ac i ba
+<lb/>ddiben y dychwelent hwy i <hi rend="italic">Germani</hi> y pryd <w>hwn<lb rend="shy"/>nw,</w> pe ni fuasent yn swrth a bol-gleifion? Ond
+<lb/>boed yr achos o'i mynediad adref beth a fynno,
+<lb/>mae'n sicr na chawsant onid groesaw hagr a'r eu
+<lb/>dyfodiad eilwaith i <hi rend="italic">Frydain</hi>. Can's y Brutaniaid
+<lb/>a ddifreiniasant <hi rend="italic">Wrtheyrn</hi> felltigedig, ac a <w>ethol<lb rend="shy"/>asant</w> ei f&acirc;b a elwid <hi rend="italic">Gwrthefyr</hi> yn frenin yn ei le;
+<lb/>a g&wcirc;r duwiol arafaidd, etto dwys a glew oedd
+<lb/>hwnnw, ac a gyfenwir o ran ei sancteiddrwydd,
+<lb/><hi rend="italic">Gwrthefyr Fendigaid</hi>. Felly'r Brutaniaid a
+<lb/>ddychwelasant yn edifeiriol at yr Arglwydd eu
+<lb/>Duw, gan alw arno yn egniol, yn wresog ac yn
+<lb/>ddifrifol.<gap desc="footnote"/> Ac yno hwy a ymgynnullasant at
+<lb/>eu gilydd o bob parth, fal y Gwenyn i'r cwch
+
+<pb n="74"/>
+
+<lb/>a'r dymmestl, a gwedi parhau yspaid mywn <w>gwe<lb rend="shy"/>ddi</w> ac ymbil, hwy a wersyllasant eu g&wcirc;yr, ac
+<lb/>a gyrchasant eu gelynion, ac nid allodd y <hi rend="italic">Saeson</hi>
+<lb/>er lluosocced oeddynt eu gwrthsefyll, canys buan
+<lb/>y ffoesant, a'r <hi rend="italic">Brutaniaid</hi> a'i herlidiasant ac a <w>la<lb rend="shy"/>ddasant</w> nifer fawr o honynt. Cad-pen y Brutaniaid
+<lb/>yn y frwydr honno a elwid <hi rend="italic">Emrys</hi>, yr hwn oedd
+<lb/>wr pwyllog arafaidd. <hi rend="italic">Bl. yr Argl.</hi> 464, <hi rend="italic">y bu hynny.</hi>
+</p>
+
+<p>
+<lb/>Y <hi rend="italic">Saeson</hi> a ollyngasant eu pennau'n llibin
+<lb/>a'r hyn o aflwydd, Ond <hi rend="italic">cymmerwn gyssur etto</hi> (eb
+<lb/>'r hwy) <hi rend="italic">nid yw hyn ond damwain</hi>. Felly <w>anfona<lb rend="shy"/>sant</w> adref i <hi rend="italic">Germani</hi> i ddeisyf a'r eu cyd-wladwyr
+<lb/>i'w cynnorthwyo a g&wcirc;yr ac arfau i oresgyn <w>yn<lb rend="shy"/>ys</w>&nbsp;<hi rend="italic">Brydain</hi>; a danfonwyd iddynt yn ddianoed
+<lb/>l&ucirc; mawr o wyr arfog cedyrn, ac a ymladdasant
+<lb/>bedeir brwydr a'r <hi rend="italic">Brutaniaid</hi>, ond y <w>Brutani<lb rend="shy"/>aid</w> trwy borth Duw a ynnillasant y maes ym
+<lb/>mhob un o honynt; canys <hi rend="italic">Gwell yw Duw yn G&acirc;r na
+<lb/>llu Daear</hi>. A gorfu a'r y <hi rend="italic">Saeson</hi> fyned i D&icirc;r eu
+<lb/>gwl&acirc;d, heb fwriad i ddychwelyd fyth drachefn i
+<lb/><hi rend="italic">Frydain</hi>.<gap desc="footnote"/>&nbsp;<hi rend="italic">Bl. yr Argl,</hi> 467 <hi rend="italic">y bu hynny.</hi>
+</p>
+
+<p>
+<lb/>Er gyrru y g&wcirc;yr arfog fal hyn a'r ffo, etto
+<lb/>chwith fu gan y Brutaniaid i ruthro a'r y <w>gwra<lb rend="shy"/>gedd</w> a'r plant a adawodd y <hi rend="italic">Saeson</hi> a'r eu h&ocirc;l.
+<lb/>Eithr yr addfwynder hynny a fu achlysur o'i <w>di<lb rend="shy"/>nistr</w> hwy, sef y Brutaniaid. Canys pan wybu
+<lb/><hi rend="italic">Rhonwen</hi> y Saesones felltigedig (Llys-fam <hi rend="italic"><w>Wrthe<lb rend="shy"/>fyr</w></hi> y Brenin) i'r <hi rend="italic">Saeson</hi> golli'r maes, a'i <w>hym<lb rend="shy"/>lid</w> adref, hi a lidiodd yn ddirfawr, ac a <w>ddychy<lb rend="shy"/>mygodd</w> ynddi ei hun p'odd y gallai hi ladd
+<lb/><hi rend="italic">Wrthefyr</hi> y brenin. Ac o herwydd nad oedd <w>bos<lb rend="shy"/>sibl</w> iddi hi ei hun gyflawni ei hystryw drwg, hi a
+<lb/>fynegodd ei bwriad, i un o'i gwas'naethwyr <w>ffydd<pb rend="shy" n="75"/><lb/>lonaf.</w> Ac am <hi rend="italic">Swm</hi> o arian efe a gyttunodd a hi,
+<lb/>a'r <hi rend="italic">Melltigedig du</hi> a wenwynodd <hi rend="italic">Wrthefyr</hi>&nbsp;<w>clod<lb rend="shy"/>fawryssaf</w> o holl frenhinoedd y Brutaniaid namyn
+<lb/>un sef <hi rend="italic">Arthur ab Uthyr Bendragon</hi>.<gap desc="footnote"/> Pan
+<lb/>wybu <hi rend="italic">Wrthefyr</hi> ddarfod ei wenwyno, efe a barodd
+<lb/>alw ei holl dywysogion atto a chyngori a orug
+<lb/>bawb o naddynt i amddiffyn eu gwlad, a'i gwir
+<lb/>ddl&ecirc;d rhag estron-genhedl. A rhannu ei Swllt
+<lb/>[i. e. cyfoeth] a wnaeth i bawb o'r tywysogion,
+<lb/>a gorchymmyn llosci ei gorph ef, a rhoi y lludw
+<lb/>hwnnw mywn Delw o efydd a'r l&ucirc;n g&wcirc;r yn y
+<lb/>porthladd lle bai estron-genedl yn ceisio dyfod i
+<lb/>dir, gan ddywedyd, <hi rend="italic">Mae diau oedd na ddeuent
+<lb/>fyth tra gwelynt ei lun ef yno</hi>. Ond wedi marw
+<lb/><hi rend="italic">Gwrthefyr</hi>, ni wnaeth y Tywysogion megis yr
+<lb/>archasai efe iddynt, ond ei gladdu ef yng <hi rend="italic"><w>Nghaer<lb rend="hyphen"/>Ludd</w></hi> yr hon ddinas a elwir heddyw <hi rend="italic">Llundain</hi><supplied reason="deletion of footnote">.</supplied>
+<lb/><gap desc="footnote"/>
+</p>
+
+<lg><!--in italic-->
+<lb/><l>Llyma <hi rend="normal">Rhonwen</hi> loyw-wen lon</l>
+<lb/><l>Lawn ystryw o lin Estron.</l>
+<lb/><l>Hwyr y tybir gwir gofiad</l>
+<lb/><l>Mywn peth teg bod breg a brad!</l>
+<lb/><l>Gorug [gwae ni] y Garan</l>
+<lb/><l>Gwymp i ddynion glowion gl&acirc;n</l>
+<lb/><l>Sorrodd y llances sarrug:</l>
+<lb/><l>Torrodd hi w&ecirc;n ll&ecirc;n a llug.</l>
+</lg>
+
+<p>
+<lb/>Naill yr ydoedd y <hi rend="italic">Brutaniaid</hi> yn ffyliaid <w>di<lb rend="shy"/>gymmar</w> y pryd hwnnw, neu <hi rend="italic">Ynys Brydain</hi> oedd
+<lb/>wedi ei rhag-ordeinio i'r <hi rend="italic">Saeson</hi>. Canys wedi
+<lb/><hi rend="italic">Wrthefyr fendigaid</hi> farw, hwy a etholasant
+
+<pb n="76"/>
+
+<lb/><hi rend="italic">Wrtheyrn</hi> felltigedig yn frenin eil-waith, yr hwn
+<lb/>a ddifreiniasant ychydig o'r blaen am ei <w>ysgeler<lb rend="shy"/>dr</w> a'i ddrygioni. Ac nid oedd <hi rend="italic">Rhonwen</hi> yn <w>ewy<lb rend="shy"/>llysio</w> ond hynny, canys wedi ei eneinio ef yn <w>fren<lb rend="shy"/>in</w> drachefn, hi a anfonodd Gennadon hyd yn <hi rend="italic"><w>Ger<lb rend="shy"/>mani</w></hi> i yspysu i'w th&acirc;d fod <hi rend="italic">Gwrthefyr</hi> ei elyn
+<lb/>marwol wedi marw. <hi rend="italic">Ha, ha</hi> eb'r <hi rend="italic">Hengist</hi> wrth
+<lb/>ei &wcirc;yr, <hi rend="italic">Y mae i ni obaith etto</hi>. Ond attebasant
+<lb/>yn lled athrist, Gobaith ansiccr jawn ydyw, canys
+<lb/>ni a ddirmygasom ormod a'r y <hi rend="italic">Brutaniaid</hi> eusys,
+<lb/>a phobl lewion ydynt hwythau wedi llidio. <hi rend="italic">Ffi,
+<lb/>Ffi,</hi> ebe Hengist, <hi rend="italic">na soniwch chwedl cyfryw a
+<lb/>hwnnw, yr ydym ni yn gyfrwysach na hwy, Pan
+<lb/>ballo nerth, ni a fedrwn wneud castieu.</hi> Ac yno
+<lb/><hi rend="italic">Hengist</hi> a gynullodd atto dri chan mil o &wcirc;yr arfog,
+<lb/>ac a hwyliodd i <hi rend="italic">Frydain</hi>; Ond pan welodd y <w>Bru<lb rend="shy"/>taniaid</w> y fath Lynges fawr yn hwylio parth ag <w>at<lb rend="shy"/>tynt,</w> hwy a siccrhausant y Porthladd fal nad allent
+<lb/>dirio. Ac yno y gosododd <hi rend="italic">Hengist</hi> arwydd <w>tang<lb rend="shy"/>neddyf</w> i siommi'r <hi rend="italic">Brutaniaid</hi>, ac a ddanfonodd
+<lb/>gennadon i fynegi i'r Brenin, mae nid er molest
+<lb/>yn y b&ycirc;d y daeth efe i <hi rend="italic">Frydain</hi> y waith honno
+<lb/>a'r fath lu ganddo, ond i gynnorthwyo'r Brenin i
+<lb/>ynnill ei Goron yr hon a gippiwyd yn anghyfiawn
+<lb/>oddiwrtho: Canys ni wyddem ni ddim amgen,
+<lb/>[<hi rend="italic">eb'r hwy,</hi>] onid oedd <hi rend="italic">Gwrthefyr</hi> dy fab yn fyw
+<lb/>etto.<gap desc="footnote"/> Cymmerodd <hi rend="italic">Gwrtheyrn</hi> y brenin <w>hoff<lb rend="shy"/>der</w> yn yr ymadrodd hwnnw, ac a ddiolchodd
+<lb/>iddynt am eu cariad. Ac yno hwy a ofynnasant
+<lb/>i'r Brenin, o byddai gwiw gan ei Fawrhydi ef
+<lb/>i appwyntio rhyw ddiwrnod fal y cai <hi rend="italic">Hengist</hi> eu
+<lb/>harglwydd siarad ag ef. Efe a gaiff yn rhwydd
+<lb/>hynny o ffafor, <hi rend="italic">ebe Gwrtheyrn</hi>. Eithr o Arglwydd
+
+<pb n="77"/>
+
+<lb/>frenin [<hi rend="italic">eb'r hwy etto</hi>] fal yr ymddangoso etto'n
+<lb/>eglurach ein bod ni yn wir ewyllysio tangneddyf
+<lb/>nid cynnen, deued pawb yn ddiarfog i'r lle <w>goso<lb rend="shy"/>dedig</w> a w&ecirc;l eich mawrhydi chwi yn dda i'w
+<lb/>appwyntio. <hi rend="italic">Da y dywedwch</hi> (ebe Gwrtheyrn)
+<lb/><hi rend="italic">ac ni a gyfarfyddwn ddydd</hi> calan-mai <hi rend="italic">nessaf yng
+<lb/>wastadedd Caer-Caradoc.</hi>
+</p>
+
+<p>
+<lb/>Wedi hyn gymmeryd affaith <hi rend="italic">Hengist</hi> a alwodd
+<lb/>ei farchogion atto ac a archodd iddynt i wneuthur
+<lb/>fal y cynghorai efe. A gwedi iddynt addaw
+<lb/>a'r wneuthur hynny, <hi rend="italic">Hengist</hi> a aeth rhago
+<lb/>gan ddywedyd, <hi rend="italic">Dydd calan-mai</hi> nessaf yr &ycirc;m yn
+<lb/>cyfarfod y Brutaniaid tan rith i heddychu a hwy,
+<lb/>ond mywn gwirionedd i'w lladd. Canys wedi i ni
+<lb/>ladd y Pennaethiaid, &ecirc; ddyd hynny gymmaint o
+<lb/>fraw yn y Gwerinos, fal na bo gan un o naddunt
+<lb/>galon i'n gwrthsefyll. Ond i affeithio hyn o
+<lb/>orchwyl yn gyfrwys, Dygwch bob un o honoch
+<lb/>gyllell awch-lem flaen-fain (megis cyllill y <w>cigy<lb rend="shy"/>ddion)</w> yn ei lawes; A phan ddywedaf i wrthych
+<lb/><hi rend="italic">Nemet eour Saxes</hi> lladded pawb y nessaf atto.
+<lb/>Hynny a fydd yr Arwydd. Ac a'r y dydd
+<lb/>'pwyntiedig cyfarfod a wnaethant yn heddychlon ac
+<lb/>yn gariadus, ac a eisteddasant <hi rend="italic">Frittwn</hi> a <hi rend="italic">Sais</hi> blith
+<lb/>draphlith o amgylch y byrddau: Ond wedi eu
+<lb/>myned yn llawen, cododd <hi rend="italic">Hengist</hi> a'r ei draed,
+<lb/>ac a waeddodd <hi rend="italic">Nemet eour Saxes</hi>. Ac yn <w>ddiat<lb rend="shy"/>treg</w> hwy a dynnasant eu cyllill hirion allan, ac a
+<lb/>laddasant ynghylch tri chant o bendefigion y
+<lb/>deyrnas yn dosturus jawn.<gap desc="footnote"/> Ac ni ddiangodd
+<lb/>neb o Dywysogion ynys Brydain ond <hi rend="italic">Eidiol</hi> Jarll
+<lb/><hi rend="italic">Caer-loyw</hi> yr hwn a ddiangodd o nerth trosol a
+
+<pb n="78"/>
+
+<lb/>gafas ef dan ei draed, ac a'r trosol hwnnw, efe a
+<lb/>laddodd ddeng &wcirc;r a thriugain o'r <hi rend="italic">Saeson</hi>, canys
+<lb/>g&wcirc;r glew oedd hwnnw<gap desc="footnote"/> Ystyr y geiriau
+<lb/><hi rend="italic">Nemet eour Saxes</hi>, yw Cymmerwch eich cyllill.
+<lb/><hi rend="italic">Bl. yr Argl.</hi> 473 y bu hynny.
+</p>
+
+<p>
+<lb/>Fe ddamweiniodd i mi weled un o 'r cyllill <w>hi<lb rend="shy"/>rion</w> hynny, ac un hagr hell ydoedd hi; Y llafn
+<lb/>oedd ynghylch 7 modfedd o hyd, ac yn 'chwaneg
+<lb/>na hanner modfedd o l&ecirc;d, ac yn ddau finiog
+<lb/>5 modfedd o'r saith. Ei charn oedd
+<lb/>Elephant, a manyl-waith cywrain arno, a llun
+<lb/>gwraig noeth, a b&wcirc;l crwn yn y llaw afrwy, a'r
+<lb/>llaw ddeheu a'r ben ei chlun. Ac yr oedd llun
+<lb/>gw&acirc;s ieuangc wrth y tu deheu o honi, a'r Haul
+<lb/>o amgylch ei ben. Ei gwain oedd Elephant <w>hef<lb rend="shy"/>yd,</w> wedi ei gweithio yn gywrain jawn: Ac <w>me<lb rend="shy"/>ddant</w> hwy, yr oedd y Gyllell hon yn un o'r rhai
+<lb/>fu gan y <hi rend="italic">Saeson</hi> yn lladd Pennaethiaid y <hi rend="italic">Cymru</hi>.
+<lb/>Ac wrth ystyried y drwg a wnaeth hi, nid allaf
+<lb/>lai na doydyd.
+</p>
+
+<lg rend="italic">
+<lb/><l>Gwae ni ddydd anedwydd Haf!</l>
+<lb/><l>Gwell oedd bl&icirc;n guch-hin gauaf:</l>
+<lb/><l>Gwae rhag Gwrtheyr' gwr gwrthun!</l>
+<lb/><l>A gwae fawr rhag gwe ei fun!</l>
+<!-- marginal note in right margin with curly brackets spanning 'A gwae' to 'geithiw' -->
+<lb/><lg type="note-target" id="n78-1"><l><hi rend="italic">A gwae fwy etto tro trist!</hi></l>
+<lb/><l><hi rend="italic">Angau trwch rhag llafn <hi rend="normal">Hengist</hi>!</hi></l>
+<lb/><l><hi rend="italic">Pa ddifriaeth gaeth geithiw</hi></l></lg>
+<lb/><l>Haeddai'r gyllell hell ei lliw?</l>
+<lb/><l>M&icirc;n Judas yn lliasu;</l>
+<lb/><l>Dant ci cr&ocirc;g cyndeiriog du;</l>
+<lb/><l>Cilwg anfad y fad fawr;</l>
+<lb/><l>Colyn sarphes gelain-sawr;</l></lg>
+<!--continued on next page-->
+
+<note resp="author" place="right-centred" target="n78-1"><hi rend="normal">} <w>Rhon<lbNoN rend="shy"/>wen</w></hi><lbNoN/>oedd<lbNoN/>honno</note>
+
+<pb n="79"/>
+
+<lg rend="italic"><!-- continuation of previous page-->
+<lb/><l>Swch ellyll ddigellwair;</l>
+<lb/><l>Saeth hagr hell fel cyllell wair;</l>
+<lb/><l>Dagr garnwen, gethren gythrawl;</l>
+<lb/><l>Neddai ddu a naddai Ddiawl.</l>
+</lg>
+
+<p>
+<lb/>Er mwyn rhoddi i'ch ystyriaeth siampl hynod
+<lb/>o farnedigaeth y Goruchaf a'r Bechod a Rhyfyg,
+<lb/>tybiais yn addas i osod yma hanes o farwolaeth
+<lb/>Echrys-lawn <hi rend="italic">Gwrtheyrn</hi> y brenin, can's ni <w>ladda<lb rend="shy"/>sant</w> mo'no ef yn y wledd waedlyd honno, eithr
+<lb/>cadwynasant ef dros ychydig ddyddiau, ac o <w>her<lb rend="shy"/>wydd</w> ei fod yn fab ynghyfraith i <hi rend="italic">Hengist</hi>, <w>gollyn<lb rend="shy"/>gasant</w> ef yn rhydd i fyned pa le y mynnei ei hun.
+<lb/>Ac yn ddiattreg efe a aeth a'r encil tua <hi rend="italic">Gwynedd</hi>,
+<lb/>ac i ddeleu coffadwriaeth ei wynfydedigrwydd
+<lb/>gynt, a dugn-frad y <hi rend="italic">Saeson</hi>, efe a fwriadodd i
+<lb/>adailadu o fywn <hi rend="italic">Eryri</hi> yng <hi rend="italic">Gwynedd</hi> Gastell i
+<lb/>fyw'n ddiogel tua ei Butteiniaid yno. * Ond
+<lb/>cymmaint a adailadid y Dydd a Syrthiai'r nos, ac
+<lb/>ni ellid mywn modd yn y b&ycirc;d i beri'r gwaith
+<lb/>sefyll. Synnu a wnaeth pawb yn ddirfawr i
+<lb/>weled y fath ddamwain ryfeddol a honno, ac o'r
+<lb/>diwedd y Brenin a ymgynghorodd a'i <hi rend="italic">ddauddeg
+<lb/>prif-fardd</hi> am yr achos na safai'r gwaith. Ond
+<lb/>ni allent mywn modd yn y byd chwilio allan yr
+<lb/>achos. Ac yno y dywad y Synwyrolaf o honynt,
+<lb/>Rhac i'n celfyddyd fod yn watworgerdd, <w>dy<lb rend="shy"/>wedwn</w> beth amhossibl i fod<gap desc="footnote"/> Felly hwy a <w>ddy<pb rend="shy" n="80"/><lb/>wedasant</w> wrth y Brenin, <hi rend="italic">Pe ceid gwaed mab heb
+<lb/>dad iddo, a phe cymmyscid hwnnw a'r dwfr ac
+<lb/>a'r calch, fe saif y gwaith</hi>. Ac yn ddianoed y
+<lb/>Brenin a anfonodd ei Swyddogion i bob man o
+<lb/><hi rend="italic">Gymru i</hi> ymofyn <hi rend="italic">pa le y ganesid un mab heb Dad
+<lb/>iddo</hi>. A gwedi tramwyo gan mwyaf yr holl
+<lb/>wl&acirc;d, y daeth dau o'r cennadon i Dref a elwid
+<lb/>wedi hynny, <hi rend="italic">Caer-fyrddin</hi>, ac ym mhorth y
+<lb/>y<!--sic--> ddinas hwy a welynt ddau langc ieuangc yn
+<lb/>chwarau p&ecirc;l; enw'r naill oedd <hi rend="italic">Myrddin</hi>, ac enw'r
+<lb/>llall oedd <hi rend="italic">Dunawt</hi>. A'r llangciau hyn (fal y mae
+<lb/>hi'n damweinio etto yn y fath achos) a <w>ymrys<lb rend="shy"/>sonasant</w> a'i gilydd, a <hi rend="italic">Dunawt</hi> a ddwad wrth
+<lb/><hi rend="italic">Myrddin</hi>, <hi rend="italic">Pa achos ydd ymryssoni di a myfi ? <w>Can<lb rend="shy"/>ys</w> dyn tynghetfenawl wyt ti, heb Dad, a minnau
+<lb/>sydd o lin brenhinawl o ran Mam a th&acirc;d.</hi> Pan <w>gly<lb rend="shy"/>bu</w> y Cennadon yr ymadrodd hwnnw, hwy a
+<lb/>edrychasant yn graff a'r <hi rend="italic">Myrddin</hi>, ac a <w>ofynna<lb rend="shy"/>sant</w> i'r dynion oedd yn sefyll o amgylch, pwy oedd
+<lb/><hi rend="italic">y gwas ieuangc hwnnw</hi>? Hwy a attebasant na
+<lb/>wyddent hwy pwy oedd ei D&acirc;d, ond ei fam oedd
+<lb/>ferch i frenin <hi rend="italic">Dyfet</hi> ac yn Fynaches yn y Dref
+<lb/>honno. Ac yn ddianoed hwy a aethant at <hi rend="italic"><w>Gwn<lb rend="shy"/>stab</w></hi> y ddinas, ac a archasant iddo trwy awdurdod y
+<lb/>Brenin anfon <hi rend="italic">Myrddin</hi> a'i fam at ei Fawrhydi
+<lb/>yng-Wynedd.
+</p>
+
+<p>
+<lb/>A gwedi eu dyfod ger bron y Brenin, y <w>gofyn<lb rend="shy"/>wyd</w> i <hi rend="italic">Myrddin</hi> pwy oedd ei D&acirc;d ef? A'i fam
+<lb/>a attebodd <hi rend="italic">Na's gwyddai hi Pwy</hi>? Pa fodd y
+<lb/>gall hynny fod, eb'r <hi rend="italic">Brenin</hi>? <hi rend="italic">Un ferch oeddwn</hi>
+<lb/>[eb'r hi] <hi rend="italic">i frenin Dyfet, a'n nhad a'm rhoddes i
+<lb/>yn Fynaches yng Nghaerfyrddin; Ac fal yr oeddwn
+<lb/>yn cyscu ryw noswaith rhwng fy nghyfeillesau mi a
+<lb/>dybiwn yn fy h&ucirc;n fod rhyw was iefangc teccaf yn y byd
+
+<pb n="81"/>
+
+<lb/>yn ymgydio a mi, eithr pan dduhunais i nid oedd yno
+<lb/>neb namyn fi am cyfeillesau; A'r amser hwnnw y
+<lb/>beichogais i ac y ganwyd y mab rhaccw, ac i'm cyffes i
+<lb/>Dduw ni bu i mi achos gwyr ond hynny;</hi> A rhyfeddu
+<lb/>yn fawr a wnaeth y brenin i glywed hynny, ac a <w>ar<lb rend="shy"/>chodd</w> ddwyn <hi rend="italic">Meugan ddewin atto</hi>, ac a ofynnodd
+<lb/>iddo, <hi rend="italic">a allai hynny fod</hi>? A <hi rend="italic">Meugan</hi> a attebodd,
+<lb/><hi rend="italic">Gall o Arglwydd frenin</hi>, ac a draethodd ei <w>resym<lb rend="shy"/>mau</w> i brofi hynny.<gap desc="footnote"/> Ac yno y dywad y
+<lb/>Brenin wrth <hi rend="italic">Myrddin</hi>, Mae'n rhaid i mi gael dy
+<lb/>waed. Pa les a wna fy ngwaed i mwy na gwaed
+<lb/>dyn arall <hi rend="italic">ebe Fyrddin</hi>? <hi rend="italic">A'm ddywedyd o'm <w>dau<lb rend="shy"/>ddeg</w> prif-fardd y pair dy waed di i'r gwaith <w>se<lb rend="shy"/>fyll</w> yn dragywydd</hi>, eb'r Brenin, Ac yno y <w>go<lb rend="shy"/>fynnodd</w>&nbsp;<hi rend="italic">Myrddin</hi> i'r prif-feirdd, <hi rend="italic">Pa beth oedd yn
+<lb/>llestair y gwaith</hi>? Ac ni allasant roddi atteb
+<lb/>iddaw. Ac yno y galwodd <hi rend="italic">Myrddin</hi> hwy yn,
+<lb/><hi rend="italic">Dywyllwyr</hi>, a <hi rend="italic">Bradwyr celwyddog</hi>. Felly efe a <w>ba<lb rend="shy"/>rodd</w> gloddio y ddaear yno, ac yn ebrwydd y
+<lb/>cafwyd llyn o ddwfr, a gwedi dyhyspyddu'r llyn
+<lb/>trwy ei arch ef y cafwyd yn ei gwaelod ddeu
+<lb/>faen geuon, a dwy ddraig, un wen, a'r llall yn
+
+<pb n="82"/>
+
+<lb/>goch yn cyscu ynddynt. A hynny oedd yr achos
+<lb/>na safai'r gwaith. Felly y Brenin a roddes <w>an<lb rend="shy"/>rhydedd</w> mawr i <hi rend="italic">Fyrddin</hi>, ond efe a laddodd y
+<lb/>Dauddeg Prif-fardd o herwydd iddynt eu siommi
+<lb/>ef, ac y mae eu beddau i'w gweled yno hyd <w>he<lb rend="shy"/>ddyw</w> yn adnabyddus wrth enw <hi rend="italic">Beddau'r <w>Dewini<lb rend="shy"/>aid.</w></hi> Pa un a wnaeth y Gwaith a sefyll gwedi'n
+<lb/>neu syrthio, ni's gwn i, ond y mae 'n siccr i'r <w>Bren<lb rend="shy"/>in</w> symmud oddi yno i Ddeheubarth, ac a'r lan
+<lb/><hi rend="italic">Teifi</hi> y gorphwysodd mywn lle anial yno, ac a
+<lb/>wnaeth Gastell hoyw. Ond wedi iddo efe <w>fwyn<lb rend="shy"/>hau</w> ei rodres aniwair tua ei Butteiniaid yno ryw
+<lb/>dalm o amser, y daeth Gwr duwiol * heibio yn
+<lb/>galon-ofidus jawn i weled y fath ddiystyr ac <w>am<lb rend="shy"/>harch</w> a'r gyfraith Duw ac ydoedd yn Ll&ycirc;s y
+<lb/>Brenin <hi rend="italic">Gwrtheyrn</hi>, ac efe a'i ceryddodd a'm
+<lb/>ei bechodau ffiaidd. Ond pan ddeallodd na <w>thyc<lb rend="shy"/>ciai</w> ei argyoeddiad, efe a weddiodd Dduw o <w>ddi<lb rend="shy"/>frif</w> na adawai efe y fath ffieidd-dra 'Sceler i lwyddo
+<lb/>rhac bod yn gwymp a thramgwydd i eraill. Ac
+<lb/>yno, gwedi iddo barhau dri niwrnod a thair n&ocirc;s
+<lb/>mywn gweddi, y syrthiodd t&acirc;n o'r wybr yn y
+<lb/>bedwaredd n&ocirc;s, ac a loscodd y Castell a'r <w>Bren<lb rend="shy"/>in</w> a'i holl Gyfeillion yn ulw.<gap desc="footnote"/> Digwyddodd
+<lb/>y farnedigaeth hon <hi rend="italic">Bl. yr Argl.</hi> 480. Ac y
+<lb/>mae Relyw y Castell yn weledig hyd heddyw yn
+<lb/>adnabyddus wrth enw <hi rend="italic">Craig Wrtheyrn</hi>. Y lle
+<lb/>hwnnw sydd bedair milltir is-law <hi rend="italic">Llan-petr <w>Pont<lb rend="hyphen"/>Stephan</w></hi> yn S&icirc;r Gaerfyrddin a'r Lan <hi rend="italic">Teifi</hi>.
+</p>
+
+<pb n="83"/>
+
+<p>
+<lb/>Ond i ddychwelyd etto at amgylchiadau'r <hi rend="italic"><w>Bru<lb rend="shy"/>taniaid</w></hi> wedi lladd y Dluedogion. Bu hi gyfyng
+<lb/>arnynt dalm mawr o amser wedi hynny, ac nid
+<lb/>oedd nawdd ond y Diffaithwch a chromlechydd y
+<lb/>Mynyddoedd, canys cyn ffyrnicced oedd y <hi rend="italic">Saeson</hi>,
+<lb/>fal na ddiangai neb a'i fywyd ganddo ag a ddeuai
+<lb/>o fywn eu crafangau. Ond y prif-achos o hyn oll,
+<lb/>oedd pechodau ffiaidd a drwg-fuchedd y <w>Brutani<lb rend="shy"/>aid,</w> ac am hynny <hi rend="italic">Pawb a'r a'i cawsant a'i <w>difa<lb rend="shy"/>sant,</w> a'i gelynion a ddywedasant Ni wnaethom ni
+<lb/>a'r fai, canys hwy a bechasant yn erbyn yr <w>Argl<lb rend="shy"/>wydd,</w> trigle cyfiawnder sef yr Arglwydd gobaith
+<lb/>eu tadau.</hi> Jer. 5, 7. Ac o'r diwedd ein <w>Hyna<lb rend="shy"/>fiaid</w> ninnau a ystyriasant hynny o ddifrif, ac a
+<lb/>ddychwelasant yn Edifeiriol at yr Arglwydd. Ac
+<lb/>yno, yr Etholasant Wr duwiol a elwid <hi rend="italic">Emrys
+<lb/>wledig</hi> * yn Frenin arnynt, yr hwn a fuasai yn <w>Gad<lb rend="hyphen"/>pen</w> o'r blaen yn amser <hi rend="italic">Gwrthefyr fendigaid</hi>, ac
+<lb/>a lwyddodd fal y darllenasoch eusys. Ond y
+<lb/>waith hon wedi ei goroni ef yn frenin, efe a <w>ddyrch<lb rend="shy"/>afodd</w> Fraint y Brutaniaid hyd y Nen, ac a <w>ostyn<lb rend="shy"/>godd</w> greulonder y <hi rend="italic">Saeson</hi> hyd y ll&wcirc;ch. Canys
+<lb/>mywn brwydr a ymladdasai a hwy, y <w>gwasgar<lb rend="shy"/>wyd</w> eu holl lu, a daliwyd <hi rend="italic">Hengist</hi> eu tywysog
+<lb/>yn garcharor; a'r Milwyr a'i llyscasant gerfydd
+<lb/>ei farf i'w ladd ef, eithr rhai o'r pennaethiaid
+<lb/>nid y gwyr callaf) a ewyllysiasant ei arbed ef,
+<lb/>ond yno y dywad Esgob a elwid <hi rend="italic">Dyfrig</hi>, <hi rend="italic">Pettai
+<lb/>bob un o honoch chwi am ei ryddhau ef, myfi, ie myfi,
+<lb/>ag wyf yn Esgob, a'i drylliwn ef yn chwilfriw,
+
+<pb n="84"/>
+
+<lb/>canys mi a ganlynwn Siampl y Prophwyd Samuel
+<lb/>yr hwn pan oedd Agag Brenin Abimelec yn ei law
+<lb/>a ddywedodd,</hi> Fal y diblantodd dy gleddyf di <w>wra<lb rend="shy"/>gedd,</w> felly y diblentir dy fam ditheu ym mysc
+<lb/>gwragedd. A Samuel a ddarniodd Agag ger
+<lb/>bron yr Arglwydd yn Gilgal. 1. Sam. 15, 33.
+<lb/><hi rend="italic">Gwnewch chwitheu Anwylwyr yr un ffunud i</hi>
+<lb/>Hengist, <hi rend="italic">yr hwn sydd megis ail Agag</hi>: Ac yno
+<lb/><hi rend="italic">Eidiol</hi> Jarll <hi rend="italic">Caer-loyw</hi> brawd <hi rend="italic">Dyfrig</hi> yr Esgob,
+<lb/>a ddrylliodd <hi rend="italic">Hengist</hi>, yn dameidiau.<gap desc="footnote"/> A <w>thy<lb rend="shy"/>na</w> ddiwedd am y Bradwr hwnnw. <hi rend="italic">Bl. yr Argl-</hi><!--sic-->
+<lb/>489 y bu hynny.
+</p>
+
+<p>
+<lb/>Pan ystyriwyf greulonder a ffalstedd anhygar y
+<lb/><hi rend="italic">Saeson</hi>, yr wyf yn rhyfeddu lariedd-dra'r <hi rend="italic"><w>Bruta<lb rend="shy"/>niaid</w></hi> y pryd hwnnw. Ond etto pan ystyriwyf eu
+<lb/>diffuant ewyllysgarwch i garu tangneddyf a hedd,
+<lb/>synnu nid wyf ddim. A diammeu ydyw iddynt
+<lb/>ddangos ffafor arbennig i'r <hi rend="italic">Saeson</hi> y pryd hwnnw.
+<lb/>Canys wedi'r <hi rend="italic">Brutaniaid</hi> gael buddugoliaeth <w>gyff<lb rend="shy"/>redinol,</w> ac yn eu gallu i wneud a hwy fal y
+<lb/>gwelynt yn dda, etto'r holl gospedigaeth a <w>osod<lb rend="shy"/>wyd</w> arnynt ydoedd, i bob <hi rend="italic">Sais</hi> osod cebystr am ei
+<lb/>wddf, cydnabod ei fai, deisyf maddeuant am yr hyn
+<lb/>aeth heibio, ac ymrwymo trwy l&wcirc; i fod yn <w>Gaeth<lb rend="hyphen"/>was</w> i'r <hi rend="italic">Brutaniaid</hi>.<gap desc="footnote"/> Eithr i'm tyb i, y prif <w>a<lb rend="shy"/>chos</w> o larieidd-dra'r <hi rend="italic">Brutaniaid</hi> ydoedd gan mwyaf
+<lb/>yn oruwch-naturiol, <hi rend="italic">Sef yw hynny</hi>, i'r <w>Goru<lb rend="shy"/>chaf</w> Dduw liniaru eu hysprydoedd fal na <w>lwyr<lb rend="hyphen"/>ddifethent</w> y <hi rend="italic">Saeson</hi>; a bod yn ei arfaeth <w>dragy<lb rend="shy"/>wyddol</w> ef i ddewis Sainct ac Etholedigion o'r <w>gen<lb rend="shy"/>hedl</w> honno. Ac amlwg ydyw eu bod mywn
+<lb/>dysc a duwioldeb yn cystadlu un genhedl tan Haul
+
+<pb n="85"/>
+
+<lb/>wedi iddynt dderbyn y Grefydd Grist'nogol, (yn
+<lb/>enwedig wedi adgyweiriad Crefydd.
+</p>
+
+<p>
+<lb/>Dros ennyd fechan y bu llonyddwch, <w>tangne<lb rend="shy"/>ddyf</w> a diogelwch; ond wele gymmylau dryg-hin
+<lb/>etto'n cyfodi! Yr oedd m&acirc;b i <hi rend="italic">Wrtheyrn</hi> a
+<lb/>wnaeth aflonyddwch mawr a elwid <hi rend="italic">Pasgen</hi>, canys
+<lb/>hwnnw a wnaeth deyrn-frad yn erbyn y <w>Llywo<lb rend="shy"/>draeth.</w> Ond p'odd i ddwyn i ben ei amcan <w>an<lb rend="shy"/>hydyn</w> ni wyddai, a chalon-ofidus ac anesmwyth
+<lb/>a fu efe dalm o amser. Ond pan welodd <hi rend="italic">Sais</hi> ef
+<lb/>mo'r br&ucirc;dd a myfyriol, yspryd-blinderol ac
+<lb/>athrist, efe a ofynnodd iddo a'm ba achos yr oedd
+<lb/>cyn br&ucirc;dded ac athrist? O herwydd fy mod
+<lb/>(ebe <hi rend="italic">Pasgen</hi>) yn myfyrio a'r beth sydd agos yn
+<lb/>amhossibl i ddyfod i ben. Ha, <hi rend="italic">Ha</hi> (eb'r Sais)
+<lb/><hi rend="italic">Swllt i Geiniog ond bwriadu yr ydwyt a'm fod yn
+<lb/>frenin. Ac os hynny sy'n dy flino dod dy galon a'r
+<lb/>esmwythdra, ni a wnawn o'r goreu. Ond gwrando
+<lb/>etto, pa beth a roddi di i mi, os yr anturiaf fy
+<lb/>hoedl i wenwyno</hi> Emrys wledig <hi rend="italic">y Brenin?</hi> Ti a
+<lb/>gei [eb'r <hi rend="italic">Pasgen</hi>] ddim anrhydedd a'r a elli <w>ddy<lb rend="shy"/>muno.</w> Mi a'th wnaf yn <hi rend="italic">Dduwc</hi>, a thi fyddi'r
+<lb/>ail mywn anrhydedd yn y Deyrnas, o's byth y
+<lb/>coronir fi yn frenin. Ac yn yr amser hwnnw (fal
+<lb/>yr oedd gwaethaf y dynghedfen) <hi rend="italic">Emrys wledig</hi> y
+<lb/>Brenin oedd yn gl&acirc;f. A bryssio a orug y <hi rend="italic">Sais</hi> i
+<lb/>l&ycirc;s y Brenin ac a gymmerodd arno i fod yn <hi rend="italic">Feddyg</hi>.
+<lb/>Ac efe a ddywedodd wrth Weision y Brenin ei fod
+<lb/>efe yn <hi rend="italic">Feddyg</hi> celfyddgar ac yn jachau pob math
+<lb/>o haint a chlefyd, <hi rend="italic">Ac o bydd gwiw</hi> (eb'r ef) <hi rend="italic">gan
+<lb/>ardderchoccaf fawrhydi y Brenin i gymmeryd o'r
+<lb/>Feddyginiaeth sydd gennyf i, fy mywyd i trosto oni
+<lb/>bydd cyn pen nemmawr o amser yn holl jach.</hi> A
+<lb/>mynegwyd hynny i'r brenin, ac efe a barodd alw
+<lb/>y Meddyg i'w stafell. Ond yn lle meddyginiaeth,
+
+<pb n="86"/>
+
+<lb/>rhoddes y Bradwr melldigedig iddo gwppanaid o
+<lb/>wenwyn marwol, yr hwn a'i gwenwynodd ef yn
+<lb/>ebrwydd, Ond y <hi rend="italic">Sais</hi> a ddiangodd yn <w>ddiarwy<lb rend="shy"/>bod</w> iddynt.<gap desc="footnote"/> Fe ddywedir i Seren gynffonnog
+<lb/>ymddangos a'r yr awr honno, y bu y Brenin farw,
+<lb/>ac i <hi rend="italic">Myrddin</hi> (wedi manwl-graffu a'r y Seren)
+<lb/>ddywedyd fal hyn, <hi rend="italic">O genhedl y Brutaniaid, <w>yn<lb rend="hyphen"/>awr</w> yr ydych chwi'n weddw ac yn ymddifaid am</hi>
+<lb/>Emrys Wledig. <hi rend="italic">Chwi a gawsoch golled nad ellir ond
+<lb/>prin ei ynnill fyth drachefn<gap desc="footnote"/>.</hi>
+</p>
+
+<p>
+<lb/>Tost a gresynol a fu Gorthrymderau'r <hi rend="italic"><w>Bruta<lb rend="shy"/>niaid</w></hi> wedi marw y Brenin ardderchog hwnnw:
+<lb/>Canys er i'r <hi rend="italic">Saeson</hi> (fal y darllenasoch eusys) osod
+<lb/>cebystrau am eu gyddfau, a chymmeryd llw i fod
+<lb/>yn gaeth-weision trag'wyddol i'r <hi rend="italic">Brutaniaid</hi>, <w>et<lb rend="shy"/>to</w> wedi marw <hi rend="italic">Emrys Wledig</hi> hwy a ddadleuasant
+<lb/>eu bod hwy yn-awr yn &wcirc;yr rhyddion. <hi rend="italic">Canys</hi> (eb'r
+<lb/>hwy) <hi rend="italic">tyngu ffyddlondeb i</hi> Emrys Wledig <hi rend="italic">yn unig
+<lb/>a wnaethom ni, nid i neb a'r ei ol.</hi> Ac yn <w>ddiat<lb rend="shy"/>treg</w> bryssio a wnaethant, ac a ddanfonasant i <w>Ger<lb rend="shy"/>mani,</w> a <hi rend="italic">Phasgen</hi> ynteu i'r Iwerddon a'm borth.
+<lb/>Ac yn ddianoed y daeth <hi rend="italic">Cilamwri</hi> brenin yr
+<lb/><hi rend="italic">Iwerddon</hi> i'r gorllewin, ac Arglwyddi <hi rend="italic">Germani</hi> i'r
+<lb/>Dwyrain gyd-a llu mawr ganddynt. A'r Brutaniaid
+<lb/>hwythau a etholasant frawd i <hi rend="italic">Emrys</hi> a elwid <hi rend="italic">Uthur
+<lb/>bendragon</hi> yn frenin arnynt. Ond ysywaeth y <w>ge<lb rend="shy"/>lynion</w> a diriasant yn ddiarwybod iddynt, ac ni
+<lb/>adawsant na th&ycirc; na thwlc heb ei losci, na dyn na
+<lb/>llwdn heb ei ladd y ffordd y cerddasant: Yr oedd
+<lb/>y <hi rend="italic">Saeson</hi> wedi difrodi y dwyrain ran o'r ynys hyd
+<lb/>yng <hi rend="italic">Ngaer-Efroc</hi>, a'r <hi rend="italic">Gwyddelod</hi> hwythau wedi
+<lb/>dinystrio y cwbl y ffordd y cerddasant o'r <w>Gorlle<lb rend="shy"/>win</w> hyd yng <hi rend="italic">Nghaer Baddon</hi>. A phan oedd y <hi rend="italic"><w>Sae<lb rend="shy"/>son</w></hi> yn dechreu ymladd a <hi rend="italic">Chaer Efroc</hi> y daeth
+
+<pb n="87"/>
+
+<lb/><hi rend="italic">Uthur</hi> a'i lu yn borth i'r ddinas, ac yno y bu
+<lb/>Brwydr waedlyd, ond o'r diwedd y <hi rend="italic">Saeson</hi> a <w>ffoe<lb rend="shy"/>sant<gap desc="footnote"/></w> ac a ddaethant at y <hi rend="italic">Gwyddelod</hi>, y rhai oedd
+<lb/>y pryd hwnnw gar-llaw <hi rend="italic">Caer baddon</hi> (neu'r <hi rend="italic">Bath</hi>)
+<lb/>ac ni allwn fwrw amcan i fod yno Gad luosog rhwng
+<lb/>y ddwy blaid. Ond er lluosocced oeddynt, ni <w>lae<lb rend="shy"/>sodd</w> gwrol-fryd y Brutaniaid i ymladd a hwy; ac
+<lb/>atti yr aethant yn lewion a dwys-gadarn, ac un-waith
+<lb/>yn ddiau y bwriadodd un asgell C&acirc;d y Brutaniaid
+<lb/>i ffoi, ond yno <hi rend="italic">Arthur</hi> Mab y Brenin a'i cyssurodd
+<lb/>gan ddywedyd wrthynt <hi rend="italic">O gyfeillion anwyl a <w>ad<lb rend="shy"/>ewch</w> chwi i'r Barbariaid digred melldigedig hyn i
+<lb/>draws-feddiannu ein gwlad? Ynteu Gobeithiwch
+<lb/>yn Nuw Holl-alluog, ac ymwrolwch</hi><gap desc="footnote"/> Ac a'r
+<lb/>hynny hwy a gymmerasant galon o newydd, ac a
+<lb/>ergydiasant eu saethau cyn amled a chawod o <w>Gen<lb rend="shy"/>llysc</w> at y Gelynion, ac ni laesodd y dewrder, yr
+<lb/>arial, a'r egni hwnnw ynddynt, nes ynnill <w>Buddugo<lb rend="shy"/>liaeth</w> enwog,<gap desc="footnote"/>&nbsp;<hi rend="italic">Bl. yr Argl.</hi> 493 <hi rend="italic">y bu hynny.</hi>
+<lb/><hi rend="italic">Arthur</hi> a ymddugodd yn wrol-wych ac yn <w>ddwys<lb rend="hyphen"/>gadarn</w> yn y frwydr honno; Felly y Beirdd a <w>ym<lb rend="shy"/>egniasant</w> i gyfansoddi Pennillion ac odlau i'w
+<lb/>foli: Ac ym mysc eraill <hi rend="italic">Taliesin</hi> sy'n canu fal
+<lb/>hyn.
+</p>
+
+<lg rend="italic">
+<lb/><l>Gwae yntwy yr <term>ynfydion *</term> pan fu waith Faddon
+<note resp="author" place="right-margin"><hi rend="normal">* [ Saeson</hi></note></l>
+<lb/><l>Arthur ben-haelion y llafneu bu gochion</l>
+<lb/><l>Gwnaeth a'r y alon gwaith gwyr gafynnion</l>
+<trailer><lb/><hi rend="normal">Taliesin ben-Beirdd a'i cant.</hi></trailer>
+</lg>
+
+<pb n="88"/>
+
+<p>
+<lb/>Wedi hyn y bu hi gyfyng jawn a'r y <hi rend="italic">Saeson</hi> dalm
+<lb/>mawr o amser Canys eu Capteniaid a garcharwyd,
+<lb/>a'r milwyr cyffredin a fuont yn gaeth-weision i'r
+<lb/>Brutaniaid. Ond wedi D&ocirc; arall gyfodi, bu'r <hi rend="italic"><w>Bru<lb rend="shy"/>taniaid</w></hi> yn gaeth-weision, a'r <hi rend="italic">Saeson</hi> yn Feistri.
+<lb/><hi rend="italic">Sic transit gloria mundi.</hi> Canys a'r ol talm o <w>am<lb rend="shy"/>ser</w> y tyfodd anghyttundeb ac amrafael rhwng y
+<lb/>Brenin a'i ddeiliaid ei hun, ac yn eu chwerwder
+<lb/>a'i bustledd tu-ag atto y gollyngasant <w>Bennaeth<lb rend="shy"/>iaid</w> y <hi rend="italic">Saeson</hi> yn rhyddion o'r carchar [gwelwn yma
+<lb/>affaith llidiawgrwydd a Malais yn cymmell dynion
+<lb/>i niweidio, ie eu hunain] Ac yn ddianoed bryssio
+<lb/>a wnaethant, ac a fordwyasant tua th&icirc;r eu gwlad.
+<lb/>Ac yno y danfonasant eu deisyfiadau at Arglwyddi
+<lb/><hi rend="italic">Germani</hi>, i gael cennad i godi Gwyr i oresgyn
+<lb/>Ynys <hi rend="italic">Brydain</hi>. Ond (eb'r hwy) yn lled-ddigofus,
+<lb/>pa sawl gwaith y buoch yma eusys a'r y neges
+<lb/>hwn? Dyna'ch chwedl yn wastadol, <hi rend="italic">I oresgyn
+<lb/>ynys Brydain; i oresgyn ynys Brydain</hi>. Ond mae
+<lb/>'n debygol i chwi ofer-dreulio'ch amser yno mywn
+<lb/>gloddest a meddwdod, ped amgen, os ydyw'r <w>tri<lb rend="shy"/>golion</w> yn bobl mo'r lwrfion a llesc ag y <w>dywed<lb rend="shy"/>wch</w> chwi, chwi ynnillasech y wl&acirc;d er ys talm<supplied reason="deletion of footnote">.</supplied>
+<lb/><gap desc="footnote"/>
+</p>
+
+<p>
+<lb/><hi rend="italic">Milwyr</hi>) Na ddywedwch, Sirs, i ni <w>ofer-dreu<lb rend="shy"/>lio</w>'r amser. Canys i ddwyn a'r gof i'wch <w>ychy<lb rend="shy"/>dig</w> o lawer o'n cyfrwysdra. 1, Ni a dorrasom
+<lb/>ammod a hwy, ac a laddasom y pryd hwnnw <w>fyrdd<lb rend="shy"/>iynau</w> o honynt. 2, Ni a wenwynasom <hi rend="italic">Wrthefyr</hi>
+<lb/>3, Onid cyfrwys oeddem pan y lladdasom dri
+<lb/>chant o Ddluedogion y Deyrnas tan rith heddychu
+<lb/>a hwy? 4, Ni a wenwynasom hefyd <hi rend="italic">Emrys wledig</hi>
+<lb/>ein gelyn marwol yn dichellgar ddigon: P'odd
+
+<pb n="89"/>
+
+<lb/>gan hynny y gellwch ddywedyd i ni ofer-dreulio'n
+<lb/>hamser?
+</p>
+
+<p>
+<lb/><hi rend="italic">Arglwyddi Germani</hi>) Cyfrwys ddigon: Etto'r
+<lb/>ydym ni yn rhyfeddu beth ydyw'r achos yr &ycirc;ch
+<lb/>yn methu tyccio i oresgyn yr holl wl&acirc;d.
+</p>
+
+<p>
+<lb/><hi rend="italic">Milwyr</hi>) I'n tyb ni, yr achosion &ycirc;nt, o <w>her<lb rend="shy"/>wydd</w> eu bod ambell-waith yn cyhoeddi ympryd
+<lb/>ac yn gweddio eu Duw i ymladd trostynt: Ac er
+<lb/>eu bod y prydiau hynnny yn arafaidd, yn sobr,
+<lb/>yn bwyllog o ran eu hymwareddiad, etto, fal yr
+<lb/>ydym ni'n dal sulw hwy a fyddant siccr i dyccio
+<lb/>yn ein herbyn ni. Ac hefyd, math o ddynion <w>rhy<lb rend="shy"/>feddol</w> ydynt, can's weithiau y maent mo'r llesgc
+<lb/>a methedig, fal y gall un <hi rend="italic">Sais</hi> yrru ugain o naddynt
+<lb/>a'r ff&ocirc;, ond yn y man, hwy a ymwrolant felly
+<lb/>yn eu chwerwder, fal nad yw'n ddiberygl i <w>han<lb rend="shy"/>ner</w> cant o honom ni y <hi rend="italic">Saeson</hi> wynebu a'r un
+<lb/><hi rend="italic">Brittwn</hi>.
+</p>
+
+<p>
+<lb/><hi rend="italic">Argl. Germani.</hi>) Od oes gennych chwi fwriad
+<lb/>diyscog i ymladd o amser bwygilydd a'r <hi rend="italic"><w>Brutani<lb rend="shy"/>aid</w></hi> nes eu llwyr orchyfygu hwy, yr &ycirc;m ni'n <w>ty<lb rend="shy"/>stio</w> wrthych, ni chaiff fod arnoch ddim eisiau
+<lb/>gw&ycirc;r nac arfau, deuwch cyn fynyched ac y fynnoch.
+</p>
+
+<p>
+<lb/>Ac yno hwy a gynnullasant l&ucirc; mawr jawn o'i
+<lb/>dynion gwammal ac ysgerbydiaid ofer eu gwlad,
+<lb/>ac a ddaethant i Frydain. Ond ysywaeth yr oedd
+<lb/><hi rend="italic">Uthur Bendragon</hi> brenin y Brutaniaid yn gl&acirc;f a'r
+<lb/>y cyfamser hwnnw: Eithr efe a orchymmynodd
+<lb/>i'w f&acirc;b ynghyfraith a elwid <hi rend="italic">Llew ap Cynfarch</hi> i
+<lb/>fod yn Ben-ciwdod a'r frwydr y Brutaniaid. Ac
+<lb/>yn w&icirc;r ddiau ni fu efe ond trwch ac aflwyddiannus
+<lb/>jawn yn ei waith yn ymladd a <hi rend="italic">chenawon Germani</hi>
+<lb/><gap desc="footnote"/>Can's ni bu nemmawr rhyngddynt a <w>gores<pb rend="shy" n="90"/><lb/>gyn</w> yr holl wl&acirc;d. Blin jawn ydoedd gan <hi rend="italic">Uthur</hi> i
+<lb/>glywed y newyddion galarus hyn, a chan ei l&icirc;d,
+<lb/>efe a orchymmynodd i alw holl Foneddigion y wl&acirc;d
+<lb/>ger ei fron; a chwedi eu dyfod, efe a edliwiodd
+<lb/>iddynt eu llesgedd gan ddywedyd. <hi rend="italic">Pe buaswn i
+<lb/>yn jach, yr wyf yn meddwl, na fuasai i'r barbariaid
+<lb/>hyn gymmaint achlysur gorfoledd a'r y sydd <w>gan<lb rend="shy"/>ddynt</w> yr awr-hon. Eithr attolwg, dygwch fi a'r
+<lb/>elor o flaen y Ll&ucirc;, can's yr wyf yn gobeithio y
+<lb/>bydd i'r milwyr hwythau ymwroli, gan weled eu
+<lb/>Brenin yn diystyru ei hoedl er mwyn cadw allan
+<lb/>Estron genhedl.</hi> A hwy a wnaethant megis y
+<lb/>gorchymmynodd y Brenin iddynt, ond pan <w>we<lb rend="shy"/>lodd</w> y <hi rend="italic">Saeson</hi> hynny, hwy a'i gwatworasant, gan
+<lb/>weiddi a ll&ecirc;f groch, <hi rend="italic">Wele accw y ffyliaid sy'n
+<lb/>ymddiried mywn dyn hanner marw! Ha'r <w>Ffyli<lb rend="shy"/>aid!</w></hi> Ac a'r hynny y Brutaniaid a chwerwasant
+<lb/>yn eu hysprydoedd, ac a ddywedasant, <hi rend="italic">Pa genhedl
+<lb/>tan haul a all ddioddef y fath ddirmyg a'r ydym ni
+<lb/>tano gan y Barbariaid hyn, ynteu ymwrolwn ac
+<lb/>ymddialwn arnynt.</hi> Ac ar hynny hwy a <w>ergydi<lb rend="shy"/>asant</w> yn chwyrn at y <hi rend="italic">Saeson</hi>, ac ni phallodd y <w>ca<lb rend="shy"/>londid</w> hwnnw, nes lladd gan mwyaf eu holl <w>ely<lb rend="shy"/>nion,</w> a gyrrasant y lleill a'r ff&ocirc;. Ac yno y <w>cod<lb rend="shy"/>odd</w>&nbsp;<hi rend="italic">Uthur</hi> yn ei eistedd a'r ei wely (a chyn hynny
+<lb/>ni allodd efe droi ond o nerth dau wyr gryfion)
+<lb/>gan ddywedyd, <hi rend="italic">Ha'r twyllwyr! am galwent i <w>han<lb rend="shy"/>ner</w> gwr marw, gwell yw hanner gwr marw
+<lb/>a orfyddo, na gwr byw a orfydder: A
+<lb/>gwell yw marw yn glodfawr, na byw yn <w>gywily<lb rend="shy"/>ddus.</w></hi> Ond ni fu <hi rend="italic">Uthur</hi> odidog fyw nemmawr o
+<lb/>amser wedi hynny, canys y <hi rend="italic">Saeson</hi> (o ran <w>cyn<lb rend="shy"/>ddeiriogrwydd</w> iddynt golli y fuddugoliaeth) a
+<lb/>fwriasant wenwyn i'r ffynnon, lle'r arferai efe
+
+<pb n="91"/>
+
+<lb/>yfed.<gap desc="footnote"/> Plant y fall ag oeddynt, dyna eu castiau
+<lb/>yn wastadol! <hi rend="italic">Bl. Argl.</hi> 510 <hi rend="italic">y bu hynny, sef yr
+<lb/>ymladdfa honno.</hi>
+</p>
+
+<p>
+<lb/>Wedi marw <hi rend="italic">Uthur</hi> y bu ymrafael a dadl ym
+<lb/>mhlith y Brutaniaid <corr resp="transcr" sic="ymghylch">ynghylch</corr> dewis brenin. Ac
+<lb/>fe ddywedir i <hi rend="italic">Fyrddin</hi> alw Pendefigion y deyrnas
+<lb/>i <hi rend="italic">Lundain</hi>, a gorchymmyn yr offeiriaid weddio
+<lb/>Duw o byddai gwiw ganddo yspysu trwy arwydd
+<lb/>weledig, pwy oedd frenin teilwng i deyrnasu <w>ar<lb rend="shy"/>nynt.</w>&nbsp;<corr resp="transcr" sic="A c">Ac</corr> erbyn y boreu dranoeth y cafwyd yno
+<lb/>garreg fawr bedair ochrog, ac yn ei chanol <w>gyffe<lb rend="shy"/>lyb</w> i Einion ddur, ac yn yr Einion yr oedd <w>cle<lb rend="shy"/>ddyf</w> yn sefyll erbyn ei flaen, a llythyrennau <w>eu<lb rend="shy"/>raid</w> yn Scrifennedig arno; a'r geiriau oeddynt y
+<lb/>rhai hyn, <hi rend="smallcaps">Pwy Bynnag A Dynn Y
+<lb/>Cleddyf Hwn, Allan Or Einion,
+<lb/>Hwnnw Sydd Frenin Cyfiawn I
+<lb/>Ynys Brydain</hi>. A phan wybu y <w>Pendefi<lb rend="shy"/>gion</w> a'r Offeiriaid hynny, hwy a roddasant y <w>Go<lb rend="shy"/>goniant</w> i Dduw, am fod gwiw ganddo atteb eu
+<lb/>gweddiau. A rhai o honynt a brofasant i dynnu y
+<lb/>cleddyf allan, ond ni's gallent: Ac yno y <w>dywe<lb rend="shy"/>dodd</w> yr Offeiriaid wrthynt, nad oedd yno neb yn
+<lb/>deilwng i gael y Goron. Ac o fywn ychydig <w>am<lb rend="om-shy"/>ser,</w> pwy a ddeuai heibio ond <hi rend="italic">Arthur</hi>: [<hi rend="italic">Arthur</hi>
+<lb/>oedd f&acirc;b <hi rend="italic">Uthur Ben-dragon</hi>, etto a ynnillasid cyn
+<lb/>priodas, a hynny oedd gwreiddyn yr ymrysson]
+<lb/>Pan welodd <hi rend="italic">Arthur</hi> y cleddyf, a'r Scrifen euraid
+<lb/>arno, efe a ymaflodd ynddo, ac a'i tynnodd allan
+<lb/>yn ddi-rwystr. Ac yno Pendefigion y deyrnas a
+<lb/>ddaethant atto, ac a ddeisyfiasant arno i ddodi y
+<lb/>cleddyf yn y lle y buasai: Ac efe a wnaeth hynny;
+<lb/>Ac yno y profasant bob yn un ac yn un i dynnu y
+
+<pb n="92"/>
+<lb/>cleddyf allan, ond ni's gallent. Ond <hi rend="italic">Arthur</hi> a'i
+<lb/>tynnodd ef allan drachefn yn eu gwydd hwynt oll.
+<lb/>Ac yn ddianoed yr Arch-esgob a'i heneiniodd ef
+<lb/>yn frenin ac a wisgodd Goron y deyrnas am ei
+<lb/>ben<gap desc="footnote"/>.
+</p>
+
+<p>
+<lb/>A'i stori wirioneddol neu chwedl dychymmygol
+<lb/>ydyw hon, ni's gwn i. Ond ys yw gennyf mae
+<lb/>Tywysog gwychr, godidog, clodfawr, a <w>digym<lb rend="shy"/>mar</w> oedd <hi rend="italic">Arthur</hi>. Ac yr wyf yn credu'n <w>holl<lb rend="shy"/>awl,</w> nad yw'r Chronicl yn celwyddu pan y <w>dy<lb rend="shy"/>wed</w> o'i blegid, <hi rend="italic">Ac ny chlywyssit a'r neb cyn noc
+<lb/>ef yr ryw devodau a oed arnaw o nerth a chadernyt,
+<lb/>a glewder, a daeoni; a chymmeint o r&acirc;t a rodassai
+<lb/>Duw idaw ac nat oedd neb ar ae clywai nys carei.</hi>
+<lb/>(*), Er nad wyf yn credu y cwbl a edrydd y
+<lb/>Chronicl am dano, sef iddo oresgyn deng teyrnas
+<lb/>a'r hugain a'i goroni yn Ymherawdr yn Rhufain,
+<lb/>etto ys yw gennyf, iddo gadw ei wl&acirc;d ei hun yn
+<lb/>wrol-wych rhac y <hi rend="italic">Saeson</hi>. Je, er iddynt fwriadu a
+<lb/>chyd-fwriadu trwy undeb a chyttundeb Arglwyddi,
+<lb/><hi rend="italic">Germani</hi>, na's diffygient fyth nes goresgyn ynys
+<lb/>Brydain, etto hi a fu gyfyng arnynt yn Amser
+<lb/>Arthur. <hi rend="italic">Ond ni bu</hi> Arthur <hi rend="italic">ond tra fu.</hi>
+</p>
+
+<p>
+<lb/>Y mae ein cymmydogion yn ddigofus wrthym
+<lb/>ein bod yn ymffrostio am <hi rend="italic">Arthur</hi>. Ac ambell
+<lb/>geccryn a gais ddywedyd na fu erioed y cyfryw
+<lb/>wr ag ef yn y b&ycirc;d. Ond gwybydded y Darllenydd
+<lb/>hyn, a chreded ef megis gwirionedd disiommedig
+<lb/>nad oes gan y cyfryw un fwy sail i ddywedyd
+<lb/>hynny, na phe taerai d&ycirc;n na chododd yr Haul
+<lb/>erioed, o herwydd ei bod hi'n fachludiad Haul pan
+<lb/>yr ynfydai efe hynny. Y Gwirionedd ydyw, yr
+
+<pb n="93"/>
+
+<lb/>oedd <hi rend="italic">Arthur</hi> yn casau y <hi rend="italic">Saeson</hi> yn ddi-ragrithiol;
+<lb/>a hynny ydyw'r achos eu bod hwy yn ceisio lladd
+<lb/>ei enw, pan fethu arnynt ladd ei Berson. Ond ni
+<lb/>ch&acirc;f i wag-dreulio'r amser i wrth-brofi <w>ynfyd<lb rend="shy"/>rwydd</w> neu enllib y dynionach hynny trwy <w>resym<lb rend="shy"/>mau</w> lawer, (oblegid fod y peth cyn eglured fal
+<lb/>nad oes ond ambell geccryn enllibus a ryfyga <w>ddy<lb rend="shy"/>wedyd</w> hynny) ond ystyried y darllenydd <w>cym<lb rend="shy"/>maint</w> a hyn, sef. 1. P'odd y buasai <hi rend="italic">Beirdd</hi> yr
+<lb/>oes honno yn crybwyll mo'r Sathredig o'i blegid,
+<lb/>pe ni fuasai y fath Frenin yn teyrnasu arnynt.
+<lb/>Darllenasoch eusys <hi rend="italic">tu dal.</hi> 87. Bennill <hi rend="italic">Taliesin</hi>; Ac
+<lb/>os nid yw Awdurdod y Bardd melus-ber hwnnw
+<lb/>yn ddigonol, angwanegaf yma un arall, sef <w>Pen<lb rend="shy"/>nill</w> o waith <hi rend="italic">Llywarch h&ecirc;n</hi> yr hwn a scrifennodd
+<lb/>ynghylch y flwyddyn 590<gap desc="footnote"/> Ei eiriau &ycirc;nt.
+</p>
+
+<lg rend="italic">
+<lb/><l>Yn Llong-borth llas i <hi rend="normal"><hi rend="smallcaps">Arthur</hi></hi>,</l>
+<lb/><l>Gwyr dewr cymmynynt a dur;</l>
+<lb/><l>Amherawdr llywiawdr llafur,</l>
+<trailer><lb/><hi rend="normal">Llywarch h&ecirc;n a'i cant.</hi></trailer>
+</lg>
+
+<p>
+<lb/>Mae rhai yn tybied mae <hi rend="italic">Llundain</hi> yw'r lle
+<lb/>hwnnw a elwir gan y Bardd <hi rend="italic">Llong-borth</hi>. Ond
+<lb/>gwell gan eraill dybied mae lle o fywn S&icirc;r <w>Aber<lb rend="hyphen"/>teifi</w> a elwir heddyw <hi rend="italic">Llanborth</hi> yw efe. Ac nid
+<lb/>yw hynny anhebygol i fod yn wirionedd, Can's
+<lb/>1. Nid oes dim ond ychydigyn gwahaniaeth rhwng
+<lb/>y ddau air. 2, Mae lle yn gyfagos yno yr hwn
+<lb/>a elwir yn gyffredin <hi rend="italic">Maes gl&acirc;s</hi>, ond yr enw <w>cysse<lb rend="shy"/>fin</w> oedd <hi rend="italic">Maes y ll&acirc;s</hi>, neu ysgatfydd <hi rend="italic">Maes galanas</hi>:
+<lb/>Ac yn y lle hwnnw drwy bob tebygoliaeth y <w>lla<lb rend="shy"/>ddwyd</w> Gwyr <hi rend="italic">Arthur</hi>. 3, Y mae man arall yn
+<lb/>agos yno sef o fywn Plwyf <hi rend="italic">Penbryn</hi> a elwir <hi rend="italic">Perth
+<lb/>Gereint</hi>, ac yno drwy bob tebygoliaeth y mae
+
+<pb n="94"/>
+
+<lb/>Beddrod <hi rend="italic">Gereint</hi> yr hwn a l&acirc;s yn <hi rend="italic">Llongborth</hi> fal y
+<lb/>dywed yr un Bardd.
+</p>
+
+<lg rend="italic">
+<lb/><l>Yn Llongborth y ll&acirc;s <hi rend="normal">Gereint</hi>,</l>
+<lb/><l>Gwr dewr o goddir Dyfneint,</l>
+<lb/><l>Hwynt-hwy yn lladd; gyd as lleddeint.</l>
+<trailer><lb/><hi rend="normal">Llywarch hen a'i dywawt.</hi></trailer>
+</lg>
+
+<p>
+<lb/>Fe gafwyd, ei feddrod ef tua diwedd teyrnasiad
+<lb/><hi rend="italic">Harri</hi>'r ail, a'r geiriau hyn oedd yn argraphedig a'r
+<lb/>groes blwm, yr hon oedd wedi ei hoelio wrth yr
+<lb/>Ysgrin, <hi rend="smallcaps">Yma Y Gorwedd Arthur
+<lb/>Brenin Enwog Y Brutaniaid, Yn
+<lb/>Yr Ynys Afallon</hi> * Hyn sydd yn <w>dan<lb rend="shy"/>gos.</w> 1, Fod y Fath &wcirc;r ag <hi rend="italic">Arthur</hi> ryw bryd.
+<lb/>2, Fod efe yn Frenin. 3, Fod efe yn Frenin <hi rend="italic"><w>En<lb rend="shy"/>wog.</w></hi> Ac yn w&icirc;r ddiau ni fuasai'r Argraphydd
+<lb/>ddim yn celwyddu, pe gosodasai yno, <hi rend="smallcaps">Yma Y
+<lb/>Gorwedd Arthur Y Brenin <w>En<lb rend="shy"/>woccaf</w> A Fu Erioed Ym <w>Mhry<lb rend="shy"/>dain;</w></hi> canys da yr haeddodd efe ei alw felly.
+</p>
+
+<p>
+<lb/>Y mae'n ormod tasc i mi geisio gosod yma hanes
+<lb/>neilltuol am Weithredoedd <hi rend="italic">Arthur</hi>, y rhai &ycirc;nt
+<lb/>cyn odidocced, fal prin y mae, onid &ycirc;nt wedi dallu
+<lb/>fy llygaid i wrth graffu arnynt. Dywedir i <hi rend="italic"><w>Fyr<lb rend="shy"/>ddin</w></hi> brophwydo o'i blegid fal hyn, <hi rend="italic">Ei ddiwedd a
+<lb/>fydd petrus; yng ngeneuau y bobl ydd <w>anrhydedd<lb rend="shy"/>ir,</w> a'i weithredoedd a fydd bwyd i'r neb a'i <w>dat<lb rend="shy"/>canant.</w></hi><gap desc="footnote"/> Ei ddiwedd a fu <hi rend="italic">betrus</hi>, can's ni
+<lb/>choeliai'r Brutaniaid iddo farw oll, a hwy a fuont
+
+<pb n="95"/>
+
+<lb/>yn ei geisio ef lawer cant o flynyddoedd a'r ol ei
+<lb/>farwolaeth. Ac ys yw gennyf, ein bod ni etto
+<lb/>yn gwenu ac yn ymhyfrydu wrth glywed S&ocirc;n am
+<lb/>ei weithredoedd. Pa ham ynteu y gelwid <hi rend="italic"><w>Myr<lb rend="shy"/>ddin</w></hi> y gau Brophwyd? Ac yma mi a derfynaf i
+<lb/>son <corr resp="transcr" sic="ychawaneg">ychwaneg</corr> am y Rhyfel a fu rhyngom ar <hi rend="italic"><w>Sae<lb rend="shy"/>son</w></hi> ond yspysaf a'r fyr eiriau i'r matter fyned
+<lb/>yn waeth-waeth beunydd gyd a'r <hi rend="italic">Brutaniaid</hi> wedi
+<lb/>Marwolaeth <hi rend="italic">Arthur</hi>. Canys lluosowgrwydd o
+<lb/>bobl oedd yn <hi rend="italic">Germani</hi> gwl&acirc;d y <hi rend="italic">Saeson</hi>, a phob
+<lb/>amser y byddai raid wrthynt, hwy a ddeuent a'r
+<lb/>fr&ycirc;s i Frydain i gynnorthwyo eu Brodyr.<gap desc="footnote"/>
+<lb/>Ac yno o herwydd y lliaws gwastadol hwnnw,
+<lb/>ac o herwydd amrafaelion gynhennau yn ein plith ein
+<lb/>hunain, ond yn bennaf dim o herwydd Digofaint
+<lb/>Duw arnom o ethryb ein pechodau, gyrrwyd ein
+<lb/>Hynafiaid i gyrrau salaf yr ynys sef <hi rend="italic">Cymru</hi> a <hi rend="italic"><w>Cher<lb rend="shy"/>niw.</w></hi> P'le'r ydym yn cyfanneddu hyd heddyw.
+<lb/>A'r <hi rend="italic">Saeson</hi> hwythau sy'n arglwyddiaethu arnom
+<lb/>y rhai er eu bod a'r y cyntaf yn ddugn-ormesol a
+<lb/>chreulon, etto er ys talm y maent) yn hygar ac
+<lb/>addfwyn. <hi rend="italic">O bobtu Bl. yr Argl.</hi> 590 <hi rend="italic">oedd amser
+<lb/>ein hymadawiad o Loegr. Gwel. Rhan.</hi> II.
+<lb/><hi rend="italic">Pen.</hi> III.
+</p>
+
+<p>
+<lb/>YR hwn sy'n chwennych hanes gyflawn am <w>he<lb rend="shy"/>lynt</w> Tywysogion Cymru, darllened <hi rend="italic">Ghronicl
+<lb/>Caradoc</hi> o <hi rend="italic">Lancarfan</hi>, yr hwn er nad yw wedi ei <w>argra<lb rend="shy"/>phu</w> etto yn Gymraeg, etto yr wyf yn gobeithio
+<lb/>y bydd wiw gan y Pendefig digymmar hwnnw
+<lb/>Mr. <hi rend="italic">Wiliam Lewis</hi> o <hi rend="italic">Lwynderw</hi> ganiattau i ryw
+<lb/>un ei osod ef mywn <hi rend="italic">Print</hi>, canys ganddo ef y mae
+<lb/>'r coppi perffeithiaf a'r a welais i. Ac o'r achos
+
+<pb n="96"/>
+
+<lb/>hwnnw, ni chaf i ddywedyd ond ychydig yma am
+<lb/>helynt y Tywysogion. Un Tywysog oedd yn
+<lb/>rheoli a'r y cyntaf Gymru oll. Ond <hi rend="italic">Rhodri mawr</hi>
+<lb/>yr hwn a ddechreuodd ei Deyrnasiad <hi rend="italic">Bl. yr Argl.</hi>
+<lb/>843, a rannodd Gymru yn dair rhan rhwng ei dri
+<lb/>maib. Gosododd un yng <hi rend="italic">Ngwynedd</hi>, un arall
+<lb/>ym <hi rend="italic">Mhowis</hi>, a'r trydydd yn <hi rend="italic">Neheubarth</hi>, ond
+<lb/>Tywysog Gwynedd oedd y pennaf. Brenin-llys
+<lb/>Tywysog Gwynedd ydoedd <hi rend="italic">Aberffraw</hi> ym M&ocirc;n.
+<lb/>Palas Tywysog Powys oedd ym <hi rend="italic">Mathrafael</hi>, * A
+<lb/>Phencyfeistedd Tywysog Deheubarth ydoedd <w>Ca<lb rend="shy"/>stell</w>&nbsp;<hi rend="italic">Dinefwr</hi> a'r lan Tywy. Ynghylch y <w>weith<lb rend="shy"/>red</w> hon y c&acirc;n y Bardd fal hyn.
+</p>
+
+<lg rend="italic">
+<lb/><l>Tri meib i <hi rend="normal">Rodri</hi> mywn tremyn <caesura/> eu c&acirc;d</l>
+<lb/><l><hi rend="normal">Cadell, 'Narawd, Merfyn:</hi></l>
+<lb/><l>Rhannu wnaeth yr hyn oedd yn</l>
+<lb/><l>Rhoddiad, holl Gymru rhy'ddyn?</l>
+</lg>
+<lg rend="italic">
+<lb/><l>Wyth cant llawn a'i wrantu, <caesura/> pen rhinwedd</l>
+<lb/><l>Pan y rhannwyd holl Gymru,</l>
+<lb/><l>A saith deg llawn waneg llu</l>
+<lb/><l>Eisioes oedd oed Jesu.</l>
+</lg>
+<lg rend="italic">
+<lb/><l>Rhannodd a gadodd er gwell, <caesura/> dawn ufudd,</l>
+<lb/><l><hi rend="normal">Dinefwr</hi>, i <hi rend="normal">Gadell</hi>,</l>
+<lb/><l>Y m&acirc;b hunaf o'i stafell;</l>
+<lb/><l>Pennaf o wyr pwy un well.</l>
+</lg>
+<lg rend="italic">
+<lb/><l>Anarawd gwastawd dan go' <caesura/> yn gyfan</l>
+<lb/><l>A g&acirc;fas <hi rend="normal">Aberffro</hi>:</l>
+<lb/><l>A daioni Duw yno;</l>
+<lb/><l>Fe biau breiniau a bro.</l>
+</lg>
+
+<pb n="97"/>
+
+<lg rend="italic">
+<lb/><l>Gwir, gwir a ddywedir i ddyn, <caesura/> Paun ieuangc,</l>
+<lb/><l><hi rend="normal">Powys</hi> gafas <hi rend="normal">Merfyn</hi>.</l>
+<lb/><l>Llyna'r modd yr adroddyn'</l>
+<lb/><l>Treiir rhwng y tri wyr hyn</l>
+<trailer><lb/><hi rend="normal">Dafydd Nanmor a'i cant.</hi></trailer>
+</lg>
+
+<p>
+<lb/>Ni wnaeth hyn ond gwanhychu ein gwlad ni,
+<lb/>canys yn lle cydymgynnull eu byddinoedd yn
+<lb/>erbyn y <hi rend="italic">Saeson</hi>, hwy a syrthient allan a'i gilydd;
+<lb/>a chyn chwannocced oeddynt i'r castieu hagr <w>hyn<lb rend="shy"/>ny,</w> fal prin y gwladychodd un o honynt heb
+<lb/>frwydrau gartrefol. Ond yn gymmaint a <orig reg="fy mod">mod</orig>
+<lb/>i yn gobeithio y daw <hi rend="italic">Chronicl Caradoc</hi> a'r <w>gy<lb rend="shy"/>hoedd,</w> mi a dawaf.
+</p>
+
+<p>
+<lb/>Yr enwoccaf o holl Dywysogion Cymru oedd
+<lb/><hi rend="italic">Hywel Dda</hi>, yr hwn a ddechreuodd ei Deyrnasiad
+<lb/><hi rend="italic">Bl. yr Argl.</hi> 940. Efe a drefnodd gyfreithiau da
+<lb/>i'w cadw drwy holl Gymru, y rhai a arferid gan
+<lb/>mwyaf hyd yn amser <hi rend="italic">Harri</hi> yr wythfed: Pan
+<lb/>welodd <hi rend="italic">Hywel</hi> (eb'r Chronicl) gam-arfer <w>defo<lb rend="shy"/>dau</w> ei wl&acirc;d, efe a anfones am Arch-esgob <hi rend="italic">Mynyw</hi>
+<lb/>[T&ycirc; Ddewi] a'r holl Esgobion eraill a oeddynt
+<lb/>yng Nghymru, a'r holl brif eglwyswyr a oedd
+<lb/>tanynt, y rhai oeddynt i gyd yn saith ugeint. Ac
+<lb/>holl Arglwyddi, Baryniaid a Phendefigion
+<lb/>y wl&acirc;d. Ac a beris i chwech o'r rhai doethaf ym
+<lb/>mhob Cwmmwd ddyfod ger ei fron ef, yr rhai a
+<lb/>a<!--sic--> orchymmynodd efe iddynt ymgyhwrdd oll
+<lb/>ynghyd yn ei l&ycirc;s ef yn y <hi rend="italic">Ty gwyn ar Daf</hi>. Lle y
+<lb/>daeth efe ei hunan ac a arhosodd yno, gyd a'i <w>Bende<lb rend="shy"/>figion,</w> Esgobion, Eglwyswyr a'i Ddeiliaid drwy'r
+<lb/>grawys mywn ympryd a gweddiau am gymmorth
+<lb/>yr yspryd Gl&acirc;n, a'i drysglwyddiad, modd y gallai
+<lb/>adferu ac adgyweiriaw Cyfreithiau a defodau
+
+<pb n="98"/>
+
+<lb/>gwlad Cymru, er anrhydedd i Dduw, ac er <w>lly<lb rend="shy"/>wodraethu</w>'r bobloedd mywn heddwch a <w>chyfi<lb rend="shy"/>awnder.</w> Ac ym mhen diwedd y grawys, efe a
+<lb/>ddetholodd ddauddeg o'r rhai doethaf o'r cwbl,
+<lb/>gyd-a'r Doctor enwog o'r gyfraith <hi rend="italic">Blegwyryd</hi>,
+<lb/>gwr doeth dyscedig jawn, ac a orchymmynodd
+<lb/>iddynt chwilio yn fanwl holl gyfreithiau a <w>defo<lb rend="shy"/>dau</w> Cymru, a chynnull allan y rhai oeddynt <w>fu<lb rend="shy"/>ddiol,</w> ac Esponi y rhai a oeddynt dywyll ac <w>am<lb rend="shy"/>heuys,</w> a diddymmu y rhai a oeddynt arddigonaidd.
+<lb/>Ac felly yr ordeiniodd efe dair rhyw
+<lb/>a'r gyfraith, sef yn gyntaf, Cyfraith ynghylch <w>lly<lb rend="shy"/>wodraeth</w> y Ll&ycirc;s, a theulu y Tywysog: Yr ail
+<lb/>ynghylch y Cyfoeth cyffredinol: A'r drydedd
+<lb/>ynghylch y prif ddefodau, a breiniau neilltuol.
+<lb/>Ac yna, gwedi eu darllen a'i cyhoeddi, y peris
+<lb/>efe yscrifennu tri llyfr o'r gyfraith, sef un i'w <w>ar<lb rend="shy"/>fer</w> yn oestadol yn ei L&ycirc;s, a'r ail i'w gadw yn
+<lb/>ei L&ycirc;s ef yn <hi rend="italic">Aberffraw</hi>, a'r Trydydd yn Ll&ycirc;s
+<lb/><hi rend="italic">Dinefwr</hi> modd y gallai y tair talaith eu harfer
+<lb/>a'i mynychu pan fyddai achosion; Ac i gymmell
+<lb/>ufudd-dod iddynt, efe a beris i Arch-esgob <hi rend="italic">Mynyw</hi>
+<lb/>gyhoeddi ysgymmyndod yn erbyn y Sawl oll o'i
+<lb/>ddeiliaid a'i gwrth-laddei hi.<gap desc="footnote"/> Yr wyf yn
+<lb/>meddwl na fyddai lwyr anghymmwys ped <w>ang<lb rend="shy"/>wanegwn</w> yma ryw ychydigyn o'r Gyfraith honno,
+<lb/>yr hon a gefais gan y Periglor dysgedig, a'r <w>Cym<lb rend="shy"/>reigydd</w> cywreiniaf hwnnw, Mr. <hi rend="italic">Samuel Wiliams</hi>,
+<lb/>Person <hi rend="italic">Llangynllo</hi> yng <hi rend="italic">Ngheredigion</hi>.
+</p>
+
+<p>
+<lb/>&ldquo;Barnwr a ddylai wrando yn llwyr, dyscu yn
+<lb/>graff, datcanu yn w&acirc;r, a barnu yn drugarog.
+<lb/>A llyma yr oed y dylyir gwneuthur dyn yn
+<lb/>farnwr, pan fo pum mhlwydd a'r hugeint oed.
+
+<pb n="99"/>
+
+<lb/>Sef achos yw hynny, wrth na bydd cyflawn o
+<lb/>synwyr a dysc, hyd pan fo barf arno; ac ni bydd
+<lb/>g&wcirc;r neb, hyd pan ddel barf arno: Ac nid teg
+<lb/>gweled m&acirc;b yn barnu a'r wr h&ecirc;n.
+</p>
+
+<p>
+<lb/>&ldquo;A oes dau frodyr, y rhai ni ddylyant gael
+<lb/>mwy na rhan un brawd, un-dad un-fam? Oes.
+<lb/>O genir dau f&acirc;b yn un dorllwyth y wraig,
+<lb/>ni ddylai y ddau hynny, eithr rhan un etifedd.
+</p>
+
+<p>
+<lb/>&ldquo;O derfydd bod ymrysson, pwy a ddylyai <w>war<lb rend="shy"/>chadw</w> etifedd cyn y d&ecirc;l i oedran gwr; a'i
+<lb/>cenhedl ei dad, a'i cenhedl ei fam? Cyfraith a
+<lb/>ddywed, mae gwr o genhedl ei fam a ddylai,
+<lb/>rhac i neb o genhedl ei dad wneuthur brad am
+<lb/>y t&icirc;r, neu ei wenwyno.
+</p>
+
+<p>
+<lb/>&ldquo;Os ymrwym gwraig wrth &wcirc;r heb gyngor
+<lb/>ei chenedl, y plant a ynniller o honaw, ni ch&acirc;nt
+<lb/>ran o dir gan genhedl eu mam o gyfraith.
+</p>
+
+<p>
+<lb/>&ldquo;Os gwr a gwraig a ysgarant cyn pen y saith
+<lb/>mhlynedd, taler iddi ei <term>hegweddi, *</term>
+<lb/>a'i <term>hargyffreu &Dagger;</term> a'i <term>chowyll, &dagger;</term>, <note resp="author" place="right-margin">*<hi rend="italic">Gwaddol</hi></note>
+<lb/>os yn forwyn y daeth hi. Ond <note resp="author" place="right-margin">&Dagger;<hi rend="italic">Dodrefn ty.</hi></note>
+<lb/>os cyn pen y saith mhlynedd yr <note resp="author" place="right-margin">&dagger;<hi rend="italic">Dillad priodas.</hi></note>
+<note resp="transcr">Line break in pri|odas.</note>
+<lb/>ymedy hi a'i g&wcirc;r, hi a gyll y
+<lb/>cwbl ond ei chowyll.
+</p>
+
+<p>
+<lb/>&ldquo;Tri phrifrei gwraig y sydd, ei chowyll, ei
+<lb/>hargyffreu, a'i hwynebwerth, nid amgen y
+<lb/>gwarthrudd; sef yw gwarthrudd, pan gydio
+<lb/>gwr a gwraig arall; y waith gyntaf y t&acirc;l <w>chwei<lb rend="shy"/>geint</w> iddi, a'r ail-waith punt, a'r trydedd waith
+<lb/>ysgar a eill a'i gwr heb golli dim o'r eiddi.
+</p>
+
+<p>
+<lb/>&ldquo;O derfydd bod deu ddyn yn cerdded trwy
+<lb/>goed, ac esgynniaw gwrysgen a'r lygad yr olaf
+<lb/>gan y blaenaf, onis rhybuddia, taled iddo ei <w>ly<lb rend="shy"/>gad</w> os cyll, ac os rhybuddia, ni thal ddim.
+</p>
+
+<pb n="100"/>
+
+<p>
+<lb/>"O derfydd bod deu yn cerdded ffordd, a <w>cha<lb rend="shy"/>phael</w> o'r naill denot; Os y blaenaf a'i caiff,
+<lb/>rhanned a'r olaf. Os yr olaf a'i caiff, ni's
+<lb/>rhan a'r blaenaf.
+</p>
+
+<p>
+<lb/>"Ni pherthyn dau boen am yr un weithred.
+</p>
+
+<p>
+<lb/>"Y neb a ddywetto air garw, neu air hagr
+<lb/>wrth y brenin, taled <term>* gamlwrw</term> iddo.<note resp="author" place="right-margin">* <hi rend="italic">ff&icirc;n.</hi></note>
+</p>
+
+<p>
+<lb/>"O derfydd i ddyn roddi bonclust i ddyn arall,
+<lb/>ac na's gwatto, taled iddaw y sarh&acirc;d herwydd ei
+<lb/>fraint, a phedair a'r hugeint arian dros y <w>bon<lb rend="shy"/>clust.</w>
+</p>
+
+<p>
+<lb/>"Pwy bynnag a gwyno rhac arall, ac a fo
+<lb/>gwell gantho tewi na chanlyn, cennad yw iddo
+<lb/>tewi,, a thaled gamlwrw i'r brenin, ac yn oes y
+<lb/>brenin hwnnw ni wrandewir.
+</p>
+
+<p>
+<lb/>"O derfydd fod da yng nghyd rhwng deu ddyn,
+<lb/>a threulio o'r naill y da hwnnw yn ddiwahardd,
+<lb/>ni ddylai colli dirwy na chamlwrw, namyn <w>yn<lb rend="shy"/>nill</w> i'r dyn ei eiddo.
+</p>
+
+<p>
+<lb/>"O derfydd i ddyn brynu anifail gan arall, a
+<lb/>gwedi ei brynu bod dannedd iddo yn eisiau, a
+<lb/>mynnu eu difwyn: Cyfreith a ddywed, na
+<lb/>ddiwygir, canys <hi rend="italic">Anaf eithyr y croen</hi> yw: A
+<lb/>ph' le bynnag ni thorro na chig na chroen, <hi rend="italic">Anaf
+<lb/>eithyr y croen</hi> yw.
+</p>
+
+<p>
+<lb/>Dyma ychydigyn o Gyfraith <hi rend="italic">Hywel Dda</hi>, &ecirc;
+<lb/>fyddai yn glamp o lyfr mawr ped ei hysgrifennid
+<lb/>i gyd oll. Hi a barhaawdd mywn grym ynghylch
+<lb/>tri chant a deg a deugain o flynyddoedd. Can's
+<lb/>yr amser y diddymmwyd hi ydoedd ynghylch <hi rend="italic">Bl.
+<lb/>yr Argl.</hi> 1293, (ond hi a barhaawdd gan mwyaf
+<lb/>hyd yn amser <hi rend="italic">Harri</hi>'r wythfed) ym mha amser
+<lb/>y dycpwyd ein Hynafiaid trwy ddichell a ffalsder
+<lb/>tan gyfraith Loegr yn gyntaf. Can's pan fu farw
+<lb/><hi rend="italic">Llywelyn ap Gruffydd</hi> (yr hwn a fu y tywysog
+
+<pb n="101"/>
+
+<lb/>diweddaf yng Nghymru) y danfonodd Brenin
+<lb/><hi rend="italic">Edwart y cyntaf</hi>, at Bennaethiaid y Cymru i
+<lb/>erchi iddynt ufuddhau i'w lywodraeth ef. Ond
+<lb/>yno yr attebasant, na ymddarostyngent hwy fyth
+<lb/>i neb ond un o'i cenedl eu hun. Ac y byddai
+<lb/>raid i hwnnw fod o ymarweddiad a Moesau da, <hi rend="italic">Ac
+<lb/>heb air o saesonaeg ganddo</hi>. Ac yno'r Brenin,
+<lb/>pan ddeallodd na thycciai eu bygylu, a <w>ddychy<lb rend="shy"/>mygodd</w> ffalsder i'w siommi. Yn y cyfamser <w>hwn<lb rend="shy"/>nw</w> yr oedd gwraig y brenin yn feichiog, ac efe
+<lb/>a'i danfones hi i dr&ecirc;f <hi rend="italic">Caernarfon</hi> i esgor. A
+<lb/>phan anwyd iddi fachgen, y danfonodd <hi rend="italic">Edw ffals</hi>
+<lb/>eilwaith at Bennaethiaid y Cymru, gan ofyn iddynt,
+<lb/><hi rend="italic">A oeddynt o'r un bwriad ac or blaen</hi>? A hwy
+<lb/>a ddywedasant <hi rend="italic">eu bod</hi>, Ac yno y dywad y <w>Bren<lb rend="shy"/>in</w> wrthynt, <hi rend="italic">Mi a enwaf Dywysog o'r cyneddfau
+<lb/>pa rai ydych chwi'n ewyllysio. Ganwyd i mi f&acirc;b
+<lb/>yng Nghaernarfon, a hwnnw a gaiff fod yn <w>Dywy<lb rend="shy"/>sog</w> i chwi. Un ydyw ni wyr air o Saes'neg, ac nid
+<lb/>all fod dim bai a'r ei ymarweddiad.</hi> Prin y <w>bu<lb rend="shy"/>ont</w> fodlon i dderbyn y Baban, ond ni wn i pa
+<lb/>fodd, hwy a gyttunasant. Ac o hynny allan y
+<lb/>cyfenwyd mab hunaf Brenin lloegr <hi rend="italic">Tywysog
+<lb/>Cymru</hi>.
+</p>
+
+<p>
+<lb/><hi rend="italic">Llywelyn ap Gruffydd</hi> oedd y Tywysog <w>diwe<lb rend="shy"/>ddaf</w> (o waed diledryw y Brutaniaid) a fu'n llywiaw
+<lb/>Cymru. Ac ys yw gennyf nad yw'r Bardd yn
+<lb/>celwyddu pan y dywed o'i blegid.
+</p>
+
+
+<lg rend="italic">
+<lb/><l>Colles Cymru fawr gwawr gwreiddiaf,</l>
+<lb/><l>Cyweithlon esgud gloywddydd glewaf;</l>
+<lb/><l>Gwreiddlyw nid byw ba wnaf o'i golled!</l>
+<lb/><l>Gwreiddlew hyged rhoddged rhwyddaf.</l>
+</lg>
+
+<lg rend="italic" part="I">
+<lb/><l>Gwr a l&acirc;s drosom gwr o oedd drosaf,</l>
+<lb/><l>Gwr oedd dros Gymru hy y henwaf.</l>
+</lg><!--continued on next page-->
+
+<pb n="102"/>
+
+<lg rend="italic" part="F"><!--continuation of previous page-->
+<lb/><l>Gwrawl <hi rend="normal">Lywelyn</hi> gwraf o Gymro:</l>
+<lb/><l>Gwr ni charodd ff&ocirc; i'r ffordd nessaf.</l>
+</lg>
+
+<lg rend="italic">
+<lb/><l>Gwr gwrdd yn cyrchu llu lledeithaf:</l>
+<lb/><l>Gwr gwrdd ei bebyll gwersyll gorsaf.</l>
+<lb/><l>Gwreiddfab <hi rend="normal">Gruffydd</hi> digraffaf; am reg,</l>
+<lb/><l>Yn ddeddfau mawrdeg <hi rend="normal">Nudd</hi> a <hi rend="normal">Mordaf</hi>.</l>
+</lg>
+
+<lg rend="italic">
+<lb/><l>Gwr gayw-rudd gwr prudd fegis <hi rend="normal">Priaf</hi>;</l>
+<lb/><l>Gwr gwin yn frenin fyddin falchaf;</l>
+<lb/><l>Gwr hylwydd ei glod gwr haelaf am draul;</l>
+<lb/><l>Hyd y cerddai'r Haul i'r fan bellaf.</l>
+</lg>
+
+<lg rend="italic">
+<lb/><l>Gwr dig i ddistryw llyw llyseiddiaf;</l>
+<lb/><l>Gwr dygn i alar, c&acirc;r cywiraf;</l>
+<lb/><l>Gwr cywirgoeth doeth detholaf o <hi rend="normal">F&ocirc;n</hi></l>
+<lb/><l>Hyd yng <hi rend="normal">Nghaerlleon</hi> y lle teccaf.</l>
+<trailer><lb/><hi rend="normal">Bleddyn fardd a'i cant.</hi></trailer>
+</lg>
+
+<p>
+<lb/>Efe a l&acirc;s ym <hi rend="italic">Muellt</hi> yn y flwyddyn 1282, sef,
+<lb/>un mil dau cant, a dau a phedwar ugain, dydd
+<lb/>gwener y trydydd o <hi rend="italic">Idiau Rhagfyr</hi>, sef yw hynny,
+<lb/>yr unfed dydd a'r ddeg o <hi rend="italic">Rhagfyr</hi>. Gosodwyd
+<lb/>ei ben anwyl ef a'r ben pawl haiarn cas a'r d&wcirc;r
+<lb/><hi rend="italic">Llundain</hi>, fal y dywed Bardd melusber arall fal hyn.
+</p>
+
+<lg rend="italic">
+<lb/><l>P&ocirc;b cantref p&ocirc;b tref ynt yn treiddiaw,</l>
+<lb/><l>P&ocirc;b tylwyth p&ocirc;b llwyth y sy'n llithraw,</l>
+<lb/><l>P&ocirc;b gwan p&ocirc;b cadarn cadwed o'i law.</l>
+<lb/><l>P&ocirc;b m&acirc;b yn ei grud y sy'n udaw;</l>
+<lb/><l>Bychan lles oedd i'm am fy'n twyllaw,</l>
+<lb/><l>Gadel pen arnaf heb pen arnaw;</l>
+<lb/><l>Pen pan l&acirc;s ni bu gas Gymraw,</l>
+<lb/><l>Pen pan l&acirc;s oedd lesach peidiaw.</l>
+<lb/><l>Pen milwr pen moliant rhag llaw,</l>
+<lb/><l>Pen dragon pen draig oedd arnaw.</l>
+<lb/><l>Pen <hi rend="normal">Llywelyn</hi> deg, dygn a braw,</l>
+<lb/><l>I'r byd fod <hi rend="normal">pawl haiarn</hi> trwyddaw</l>
+<trailer><lb/><hi rend="normal">Gruffydd ap yr Ynad c&ocirc;ch a'i cant.</hi></trailer>
+</lg>
+
+</div>
+</body>
+</text>
+
+<text>
+<body>
+<pb n="116"/>
+<div>
+<head><supplied>Rhan i., Pennod 5, 116-23.</supplied></head>
+<p>
+<lb n="9"/>Sonniwn bellach ryw ychydigyn am y Jaith.
+<lb n="10"/>Ac ys nid allaf siarad llawer, oblegid nad wyf yn
+<lb n="11"/>deall ei chywrainrwydd fal y dymunwn, etto'r wyf
+<lb n="12"/>yn deall cymmaint a hyn, sef, nad oes jaith (hyd
+<lb n="13"/>y gwn i) yn cadw y purdeb cyssefin cystal a hi,
+<lb n="14"/>yr hon a sieredir yn gyffredin ym mysc y <w>Gweri<lb n="15" rend="shy"/>nos.</w> Can's beth yw jaith ein cymmydogion gan
+<lb n="16"/>mwyaf (mi wn y gallaf enwi tair cenhedl) ond
+<lb n="17"/>lladin wedi gymmysgu ag ambell air o'i h&ecirc;n jaith
+<lb n="18"/>eu hun? Ac y mae y lladin hwnnw wedi anafu yn
+<lb n="19"/>y fath fodd ganddynt, fal prin y gall neb ei ddeall
+<lb n="20"/>ond hwynt-hwy eu hunain: Ond eu geiriau eu hun
+<lb n="21"/>sydd yn newid agwedd cymmaint (ym mhob oes
+<lb n="22"/>agos) fal pettai eu Hynafiaid yn eu clywed yn <w>sia<lb n="23" rend="shy"/>rad</w> heddyw, y rhai a fuont fyw ynghylch wyth
+<lb n="24"/>cant o flynyddoedd a aethant heibio, diau ydyw,
+<lb n="25"/>na ddeallent hwy ond ychydig neu ddim o'r hyn
+<lb n="26"/>a ddywedent. Ond mi a brofaf y deall pob un,
+<lb n="27"/>a'r a fo ond ychydig o Ddarllenydd, waith ein
+<lb n="28"/>scrifennyddion ni yn sathredig, er eu bod wedi
+<lb n="29"/>scrifennu er ys 'chwaneg na m&icirc;l o flynyddoedd.
+<lb n="30"/>Ond er hynny gyd yr ydys yn diystyru y Jaith
+<lb n="31"/>odidog hon yn dra ysgeler heddyw gan &wcirc;yr o'n
+<lb n="32"/>gwl&acirc;d ein hun, y rhai &ycirc;nt, oddigerth hynny, yn
+<lb n="33"/>&wcirc;yr call dysgedig. Ac oni fuasai iddi gael rhai
+<pb n="117"/>
+<lb/>achleswyr da, hi a aethai drwy bob debygoliaeth
+<lb/>yn llwyr-ddiystyr gan bawb. Gwnaeth y Brittwn
+<lb/>uchel-ddysg hwnnw, <hi rend="italic">S&icirc;on Dafydd R&ycirc;s</hi> M. D. ei
+<lb/>ran ef yn hoyw-odidog, ac iddo ef yn unig y mae
+<lb/>'r Beirdd yn rhwym am Reol eu Celfyddyd.
+<lb/>Gwnaeth y byth tra enwog <hi rend="italic">S&icirc;on Dafies</hi> D. D. ei
+<lb/>ran ynteu yn odiaeth, ac yn odidog rhagorol, trwy
+<lb/>gyfansoddi Gramadeg a Geir-lyfr i hyfforddi ei
+<lb/>gydwladwyr i ddysgu cywrainrwydd eu hiaith.
+<lb/>Ac yr awr-hon y mae'r Parchedig Mr. <hi rend="italic">Moses
+<lb/>Wiliams</hi> B. A. trwy lafurus boen a diwydrwydd
+<lb/>wedi chwilio allan berffeithrwydd y cwbl, a'r y
+<lb/>sydd bossibl i gael y ffordd honno: Canys mi
+<lb/>allaf ddywedyd yn h&ycirc;, na fydd wiw i neb ddisgwyl
+<lb/>am ychwaneg o berffeithrwydd mywn Geir-lyfr a
+<lb/>Gramadeg, nag y fydd<!--!--> yn y gwaith y mae efe yn
+<lb/>ei osod allan. <hi rend="italic">Uno avulso, non deficit alter, Qui
+<lb/>spartam quam nactus est ornavit.</hi>
+</p>
+<p>
+<lb/>Nid wyf anhyspys fod llawer o eiriau Lladin
+<lb/>yn ein Jaith ninnau, ond y mae llawer o &wcirc;yr <w>dys<lb rend="shy"/>gedig</w> yn tybied, iddynt hwy fenthygio mwy oddi
+<lb/>wrthym ni, nag a fenthycciasom ni oddi wrthynt
+<lb/>hwy. Ac yn wir ddiau y mae rhai yn tybied,
+<lb/>mae o'r un cyff y daethom allan o'r cyntaf. Ond
+<lb/>pa fodd bynnag yw hynny, ys yw gennyf, mae nid
+<lb/>oddiar y <hi rend="italic">Rhufeiniaid</hi> neu'r <hi rend="italic">Lladinwyr</hi>, y<w> ben<lb rend="shy"/>thycciasom</w> ni yr holl eiriau cydystyrol a'r <hi rend="italic"><w>Lla<lb rend="shy"/>din</w></hi> y rhai sydd yn ein Hiaith, er nad wyf yn
+<lb/>amheu i'n Hynafiaid echwyna ambell un.<gap desc="footnote"/>
+<lb/>Ond yr hyn oeddwn ar oddeu ddywedyd ydyw
+<lb/>hyn, sef, fod y Jaith Gymraeg yn cadw ei <w>phur<pb rend="shy" n="118"/><lb/>deb</w> cyssefin yn <corr resp="transcr" sic="holloll">hollol</corr> dda, fal yr ymddengys wrth
+<lb/>y tystoliaethau hyn.
+</p>
+
+<lg rend="italic">
+<lb/><l>Dychymmyg di pwy greawdr cread cyn Duliw,</l>
+<lb/><l>Creawdr cadarn heb gig heb asgwrn.</l>
+<lb/><l>Heb wythen heb waed heb pen heb traed:</l>
+<lb/><l>Ac ef ni aned, ac ef ni weled:</l>
+<lb/><l>Ef a'r f&ocirc;r, ef a'r D&icirc;r, ni wyl ni welir;</l>
+<lb/><l>Ac ef yn anghywir ni ddaw pan ofynnir.</l>
+<lb/><l>Ef yn anamlwg, canys ni's guyl golwg;</l>
+<lb/><l>Ef yn ddrwg ef yn dda, ef hwnt ac yma.</l>
+<trailer><lb/><hi rend="normal">Taliesin</hi> ben-beirdd a'i cant i'r Gwynt.
+<lb/>	Ac efe a scrifennodd ynghylch Bl. yr Argl. 556.</trailer>
+</lg>
+
+<lg rend="italic">
+<lb/><l>Afallen bren beraf ei haeron,</l>
+<lb/><l>A dyf yn Argel yn argoed Celyddon;</l>
+<lb/><l>Cyd ceisier, ofer fydd herwydd ei haddon,</l>
+<lb/><l>Oni ddel Cadwaladr i gynal rhyd rheon.</l>
+<lb/><l>Cynan yn erbyn cychwyn a'r saeson:</l>
+<lb/><l>Cymru a orfydd cain fyddai Dragon:</l>
+<lb/><l>Caffant bawb ei deithi llawen fu Brithon;</l>
+<lb/><l>Cantor cyrn elwch cathl heddwch a hinon</l>
+
+<trailer><lb/><hi rend="normal">Myrddin</hi> Wyllt a'i cant; yr hwn
+<lb/>A scrifennodd o bobtu'r flwyddyn 570.</trailer>
+</lg>
+
+<lg rend="italic">
+<lb/><l>Y dref wen ym mron y coed,</l>
+<lb/><l>Y sef yw y hefras erioed;</l>
+<lb/><l>A'r wyneb y gwellt y gwaed.</l>
+<lb/><l>Dyn dewis a'r fy meibion</l>
+<lb/><l>Pan gyrchai pawb ei alon</l>
+<lb/><l>Oedd <hi rend="normal">Pyll -----------</hi></l>
+<!--Long horizontal line after Pyll-->
+
+<trailer><lb/><hi rend="normal">Llywarch</hi> hen a'i cant; yr hwn a
+<lb/>Scrifennodd <corr resp="transcr" sic="ynghych">ynghylch</corr> Bl. Argl. 590.</trailer>
+</lg>
+
+<pb n="119"/>
+
+<p>
+<lb/>Mi a wn y gall pawb ddeall y pennillion hyn
+<lb/>fel Cymraeg sathredig. Gwelwn ynteu brawf
+<lb/>eglur mae'r un Jaith sydd gennym ni fyth, er ei
+<lb/>bod er ys talm wedi dirywio ennyd, trwy gymmyscu
+<lb/>Saesoneg a hi. Ond camsynniad ydyw tybied
+<lb/>mae oddi wrth y <hi rend="italic">Saeson</hi> y cawsom ni yr holl <w>ei<lb rend="shy"/>riau</w> cydystyrol a'r <hi rend="italic">Saes'neg</hi>, y rhai sydd yn ein
+<lb/>Jaith ni. Nage, hwynt-hwy yn wir ddiau a'i <w>ben<lb rend="shy"/>thycciasant</w> oddi wrthym ni; a hynny a brofaf
+<lb/>allan o Gywyddau <hi rend="italic">Dafydd ap Gwilym</hi>, yr hwn oedd
+<lb/>&wcirc;r o <hi rend="italic">Lanbadarn fawr</hi> yng <hi rend="italic">Ngheredigion</hi>. Mi a
+<lb/>ddewisais y Bardd hwn yn hyttrach nag un arall,
+<lb/>o herwydd fod Dr. <hi rend="italic">Dafies</hi> ei hun yn arddel pob
+<lb/>gair y mae efe yn arfer, yn lle Cymraeg gywrain
+<lb/>ddiledryw. Ac yn ddi-ddadl efe yw'r Bardd
+<lb/>hoywaf a'r a scrifennodd erioed (dodir heibio <w>fas<lb rend="shy"/>wedd</w> ei destunau gan mwyaf) Ac fe all pawb
+<lb/>a'r a wyddant ddim mywn Cerdd Dafod, wybod
+<lb/>na arferodd ond Cymraeg l&acirc;n loyw yn ei Gerdd.
+<lb/>Can's &ecirc; fuasai <hi rend="italic">Saes'neg</hi>, yn edrych cyn haccred
+<lb/>yn yr amser hwnnw mywn cerdd, a barf ddu fawr
+<lb/>a'r langces fonheddig ieuangc. Ac y mae hi'n
+<lb/>ddadl pa un a'i fod efe yn gwybod dim <hi rend="italic">Saes'neg</hi>,
+<lb/>a'i nad oedd; Can's ni wn i fod dim hoffder mywn
+<lb/>Bonheddig na gwr&ecirc;ng i siarad Saesoneg yn yr amser
+<lb/>hwnnw, er eu bod yn deall eu gwala o Ladin, Groeg,
+<lb/>ac Hebraeg; fal y mae'n amlwg wrth y siampl
+<lb/>nodedig hon. Yr oedd Pendefig urddasol o <hi rend="italic">S&icirc;r
+<lb/>Fon</hi> a elwid <hi rend="italic">Owen Tudur</hi> wedi priodi y <w>Frenhi<lb rend="shy"/>nes</w>&nbsp;<hi rend="italic">Catherin</hi> yr hon a fuasai yn briod gynt a
+<lb/>Henri y pummed, Brenin Lloegr. Ni wyddai'r
+<lb/>Frenhines <hi rend="italic">Catherin</hi> (gan ei bod yn wraig o <hi rend="italic">Ffraingc</hi>
+<lb/>ddim gwahaniaeth rhwng y <hi rend="italic">Cymru</hi> a'r <hi rend="italic">Saeson</hi>, cyn
+<lb/>iddi briodi <hi rend="italic">Owen Tudur</hi>, yr hyn a wnaeth iddi
+<lb/>chwennych yn fawr i weled rhyw nifer o <w>gydw<pb rend="shy" n="120"/><lb/>ladwyr</w> ei Phriod, i edrych a oeddynt cyn s&acirc;led <w>dy<lb rend="shy"/>nion</w> ac oedd y <hi rend="italic">Saeson</hi> yn ddywedyd eu bod. Ond
+<lb/>yn y cyfamser y daliwyd <hi rend="italic">Owen Tudur</hi> a'i <w>Frenhi<lb rend="shy"/>nes</w> yn garcharorion, ac a ddycpwyd yn rhwym i
+<lb/><hi rend="italic">Gaer-lleon a'r Wysc</hi>, yr hyn a wnaeth i <hi rend="italic">Owen</hi> i
+<lb/>anfon at eu gyfnesyfiaid i ddyfod i ymweled ag ef.
+<lb/>Ac allan o law y daeth atto ynghylch cant o Wyr
+<lb/>Boneddigion <hi rend="italic">Gwynedd</hi>, y rhai oeddynt oll yn wyr
+<lb/>hoywion tacclus, ond heb wybod gair o <hi rend="italic">Saes'neg</hi>
+<lb/>na <hi rend="italic">Ffrangeg</hi>; Canys pan lefarodd y Frenhines
+<lb/>wrthynt mywn amryw Jeithoedd, ni allent roddi
+<lb/>gair o atteb iddi, yr hyn a wnaeth iddi ddywedyd,
+<lb/><hi rend="italic">Mae'r Creaduriaid mudion hoywaf oeddynt a'r
+<lb/>a welsai hi erioed.</hi> Hyn sydd yn dangos yn <w>eg<lb rend="shy"/>lur</w> nad oedd na Bonheddig na gwr&ecirc;ng yn medru
+<lb/><hi rend="italic">Saes'neg</hi> yn yr amser hwnnw, ac am hynny ni <w>all<lb rend="shy"/>wn</w> gasglu yn dra rhesymmol nad oedd <hi rend="italic">Dafydd ap
+<lb/>Gwilym</hi> yn gwybod dim. Ond os oedd efe yn
+<lb/>deall <hi rend="italic">Saesonaeg</hi>, mi a wn na osododd efe un gair
+<lb/>seisnig yn ei gerdd. Y geiriau, pa rai ydys yn
+<lb/>dybied eu bod yn Saes'neg, a osodir yn y <hi rend="italic"><w>Mar<lb rend="shy"/>gent,</w></hi> fal y galloch eu canfod yn ebrwyddach, ac a
+<lb/>wahenir a llythyrennau breision oddiwrth y <w>geiri<lb rend="shy"/>au</w> yn y Pennill.
+</p>
+
+<!-- Poetry with items at left-hand side. This markup treats it as a table.-->
+<ab type="table">
+<table>
+<row><cell><lb/></cell><cell><note resp="author">Anghwrteis.</note></cell>
+<cell><hi rend="italic">Un <hi rend="normal">Anghwrteis</hi> yn lleisio,</hi></cell></row>
+
+<row><cell><lb/></cell><cell><note resp="author">Byclau.</note></cell>
+<cell><hi rend="italic">Yn greiau <hi rend="normal">bycclau</hi> y bo.</hi></cell></row>
+
+<row><cell><lb/></cell><cell></cell>
+<cell><hi rend="italic">Beth a d&acirc;l i't anwadalu</hi></cell></row>
+
+<row><cell><lb/></cell><cell><note resp="author">Bargen.</note></cell>
+<cell><hi rend="italic">Wedi'r hen <hi rend="normal">fargen</hi> a fu ?</hi></cell></row>
+
+<row><cell><lb/></cell><cell><note resp="author">Cap.</note></cell>
+<cell><hi rend="italic">Dod chwap dan ei <hi rend="normal">gap</hi> gwedd,</hi></cell></row>
+
+<row><cell><lb/></cell><cell></cell>
+<cell><hi rend="italic">Er duw a'r ei war dewedd.</hi></cell></row>
+
+<row><cell><lb/></cell><cell><note resp="author">Clap.</note></cell>
+<cell><hi rend="italic">Yn is fy <hi rend="normal">nghlap</hi> anhappys</hi></cell></row>
+
+<row><cell><lb/></cell><cell><note resp="author">Anhappus</note></cell>
+<cell><hi rend="italic">I'm bryd ar beidio am brys.</hi></cell></row>
+</table>
+</ab>
+
+<pb n="121"/>
+<!-- Continuation of poetry with items at left-hand side. This markup treats it as a table.-->
+<ab type="table">
+<table>
+<row><cell><lb/><note resp="author">Cost.</note></cell>
+<cell><hi rend="italic">A meistrawl ar fawl wiw lamp,</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">A'r <hi rend="normal">gost</hi> lle bu gorau'r gamp,</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Gwaith anorphen sydd gennyf,</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Crefft.</note></cell>
+<cell><hi rend="italic">Caru <hi rend="normal">crefft</hi> er curio cryf.</hi></cell>
+</row>
+
+<row><cell><lb/><note resp="author">Crwpper.</note></cell>
+<cell><hi rend="italic">Nid oes <hi rend="normal">Sadler crwpper</hi> crach</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Sadler.<lbNoN/>Teiler,</note></cell>
+<cell><hi rend="italic">Neu <hi rend="normal">Deiler</hi> anwadalach.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Cwcwallt.</note></cell>
+<cell><hi rend="italic">Yn <hi rend="normal">gwcwallt</hi> salw i'm galwant</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Wb o'r nad am wedd berw nant.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Cwrs.</note></cell>
+<cell><hi rend="italic">Cerais un dyn <hi rend="normal">cwrs</hi> hindeg</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Cariad y teirgwl&acirc;d teg.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Dart.</note></cell>
+<cell><hi rend="italic">Llym ei ruthr llammwr eithin,</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Llewpart.</note></cell>
+<cell><hi rend="italic"><hi rend="normal">Llewpart</hi> a <hi rend="normal">dart</hi> yn ei d&icirc;n.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Egr.</note></cell>
+<cell><hi rend="italic">Llyn gwin <hi rend="normal">egr</hi> llanw gwineugoch,</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Lloches lle'r ymolches moch.</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Bydd di ffrom n'&acirc;d dy siommi,</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Ffael.</note></cell>
+<cell><hi rend="italic">Glyn heb <hi rend="normal">ffael</hi> yn d'afael di.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Ffals.</note></cell>
+<cell><hi rend="italic">A'i chrochwaedd aml ei chrechwen</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">A'i <hi rend="normal">ffals</hi> gywyddoliaeth o'i phen.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Ffwl.</note></cell>
+<cell><hi rend="italic">Wybren wen heb'r un anair</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Ffair.</note></cell>
+<cell><hi rend="italic">A chwmmwl yw <hi rend="normal">ffwl</hi> y <hi rend="normal">ffair</hi>.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Gr&acirc;n.</note></cell>
+<cell><hi rend="italic">A'r <hi rend="normal">gr&acirc;n</hi> megis y manod,</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Ingc.</note></cell>
+<cell><hi rend="italic">A'r ael fel <hi rend="normal">ingc</hi> a'r liw'r od.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Gronyn</note></cell>
+<cell><hi rend="italic">Nid egor hon un <hi rend="normal">gronyn</hi>,</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Ymddiddan odd' allan ddyn.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Het.</note></cell>
+<cell><hi rend="italic">Eraill a rydd deunydd dig,</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Am y t&acirc;l im' <hi rend="normal">het</hi> helig.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Hittia</note></cell>
+<cell><hi rend="italic">Noeth hyd twyn, cyd nithyd tal</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Ni <hi rend="normal">hittia</hi> neb i'th attal.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Hap.</note></cell>
+<cell><hi rend="italic">Dan fy swydd lawer blwyddyn,</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">D&ecirc;l i'm o <hi rend="normal">hap</hi> d&acirc;l am hyn.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Lifrai.</note></cell>
+<cell><hi rend="italic">Dy <hi rend="normal">lifrai</hi> o'r mwtlai main;</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Dy lewys di o liain.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Malais</note></cell>
+<cell><hi rend="italic">Pan glywais hoyw <hi rend="normal">falais</hi> hon,</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Tybiais ddalld ei hattebion.</hi></cell></row>
+</table>
+</ab>
+
+<pb n="122"/>
+
+<!-- Continuation of poetry with items at left-hand side. This markup treats it as a table.-->
+<ab type="table">
+<table>
+<row><cell><lb/><note resp="author">Maer.</note></cell>
+<cell><hi rend="italic">Myfi yw ffraethlyw ffrwythlawn,</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic"><hi rend="normal">Maer</hi> dy dda mawr yw dy ddawn.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Pert.</note></cell>
+<cell><hi rend="italic">Fy nuwies <hi rend="normal">bert</hi> Fenws ber.</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Afal Awst o felyster.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Pl&acirc;s</note></cell>
+<cell><hi rend="italic">Esgyd ei <hi rend="normal">phl&acirc;s</hi> a'r lasrew,</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Ysgwd o'i flaen esgid flew.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Plwm.</note></cell>
+<cell><hi rend="italic">Ystyr di Gruffudd rudd-lwm</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Fod blaen dy dafod yn <hi rend="normal">blwm</hi>.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Sad.</note></cell>
+<cell><hi rend="italic">Ci glew llafarflew llwfrwlad,</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Cawn ddrwg sen cynddeiriog <hi rend="normal">Sad</hi>.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Siwrnai</note></cell>
+<cell><hi rend="italic">Sych nattur creawdur craff</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Sereniawg wybr <hi rend="normal">Siwrnai</hi> gobraff.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Ystryd</note></cell>
+<cell><hi rend="italic">Ac ar <hi rend="normal">ystryd</hi> o gyrs drain;</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Siop.</note></cell>
+<cell><hi rend="italic"><hi rend="normal">Siopau</hi> lawnd fel Siep Lundain.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Tasc.</note></cell>
+<cell><hi rend="italic">Haws gennyt drwy naws gynnydd</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">A'r <hi rend="normal">dasg</hi> b&ocirc;b amser o'r dydd.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Tafarn.</note></cell>
+<cell><hi rend="italic">Da ufudd hwyl ddisgwyl farn,</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Dyfod yn frwysg o <hi rend="normal">Dafarn</hi>.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Plwm.</note></cell>
+<cell><hi rend="italic">Cariad fel <hi rend="normal">plwm</hi> trwm y trig</hi></cell></row>
+
+<row><cell><lb/><note resp="author">T&wcirc;r</note></cell>
+<cell><hi rend="italic">Cadi mywn <hi rend="normal">twr</hi> caedig.</hi></cell></row>
+
+<row><cell><lb/><note resp="author">Twrn.</note></cell>
+<cell><hi rend="italic">Teyrnaidd waith <hi rend="normal">twrn</hi> oedd wiw.</hi></cell></row>
+
+<row><cell><lb/></cell>
+<cell><hi rend="italic">Tyrau troellau fal trilliw.</hi></cell>
+</row>
+</table>
+</ab>
+
+<p>
+<lb/><hi rend="smallcaps">Dafydd</hi> ap <hi rend="smallcaps">Gwilym</hi> o <hi rend="italic">Lanbadarn
+<lb/>fawr</hi> a'i cant hwy oll; Am ba un y Prophwydodd
+<lb/><hi rend="italic">Taliesin</hi>.
+</p>
+<lg rend="italic">
+<lb/><l>Y genid ym mro Ginin,</l>
+<lb/><l>Brydydd a'i gywydd fal gw&icirc;n.</l>
+</lg>
+<p>
+<lb/>Nid yw hyn ddim wrth y lliaws a fenthycciodd y
+<lb/><hi rend="italic">Saeson</hi> o amser bwygilydd oddi wrth genhedloedd
+<lb/>eraill, i gyfoethogi eu hiaith: <hi rend="italic">Lladin</hi> a <hi rend="italic">Ffrangeg</hi>
+<lb/>yw y rhan fwyaf o honi, ynghyd ag ambell air
+<lb/>bychan ar antur o'i hen jaith gynt, etto wedi <w>new<pb rend="shy" n="123"/><lb/>id</w> agwedd yn ddirfawr o'r hyn a fu a'r y cyntaf.
+<lb/>Ac nid yw hynny ryfedd, ped ystyrid fod y <w>Gwe<lb rend="shy"/>rinos</w> yn cydffurfio eu hunain (megis ym mhob
+<lb/>peth arall agos) felly at jaith y Pendefigion hyd y
+<lb/>gallont, a <hi rend="italic">Ffrangeg</hi> oedd y Pendefigion yn siarad
+<lb/>o hyd er amser <hi rend="italic">Gwilym gwncwerwr</hi>. Canys (eb
+<lb/>'r Chronicl) yn amser y Cwncwerwr nid oedd
+<lb/>Swyddog o <hi rend="italic">Sais</hi> yn Lloegr: A Gwradwydd
+<lb/>mawr oedd alw un yn <hi rend="italic">Sais</hi>, neu ymgyfathrachu
+<lb/>ag un or genedl honno, canys hwy a gasheid
+<lb/>yn ddirfawr. Ac wrth hynny y mae'n amlwg
+<lb/>nad oes un Pendefig yn Lloegr, eithr o <w>hilioga<lb rend="shy"/>eth</w> un a'i 'r <hi rend="italic">Normaniaid</hi>, a'i o'r <hi rend="italic">Ffrangcod</hi>,
+<lb/>a'i ynteu o'r <hi rend="italic">Brutaniaid</hi>; Ac yno yr ydoedd yn
+<lb/>Ddihareb: Jack <hi rend="italic">would be a Gentleman, but
+<lb/>that he can speak no French.</hi>
+</p>
+</div>
+</body>
+</text>
+
+<text>
+<body>
+<pb n="230"/>
+<div>
+<head><lb n="6"/>PEN. V.</head>
+<argument rend="italic">
+<p>
+<lb n="7"/>Gweinidogaeth y ddau Sacrafen, sef <hi rend="normal">Bedydd</hi>, a
+<lb n="8"/><hi rend="normal">Swpper yr Arglwydd</hi> yn y Brif Eglwys. <w>Dei<lb n="9" rend="shy"/>liaid</w> Bedydd o ddau ryw. Plant bychain, a
+<lb n="10"/>rhai mywn oedran. Profir fod yr Eglwys <w>Ga<lb n="11" rend="shy"/>tholic</w> yn bedyddio plant Rhi&ecirc;ni crediniol ym
+<lb n="12"/>mhob Oes er amser yr Apostolion. Tadau
+<lb n="13"/>Bedydd. Arwydd y Gr&ocirc;g. Y modd y <w>gweiny<lb n="14" rend="shy"/>ddid</w> Bedydd. Trochiad gan mwyaf. Taenelliad
+<lb n="15"/>hefyd. Ystori nodedig ynghylch gwr a elwid
+<lb n="16"/><hi rend="normal">Athanasius</hi>. Yr <hi rend="normal">Heretic</hi> cyntaf a ryfygodd i
+<lb n="17"/>ail fedyddio. Y Wisg wen y gwisgid y rhai <w>new<lb n="18" rend="shy"/>ydd</w> fedyddio. Gweinidogaeth y Sacrafen arall,
+<lb n="19"/>sef <hi rend="normal">Swpper yr Arglwydd</hi> yn y Brif Eglwys.
+</p>
+</argument>
+<p>
+<lb n="20"/>ER na cheir y fath air a <hi rend="italic">Sacrafen</hi> yn
+<lb n="21"/>yr holl Destament Newydd, etto
+<lb n="22"/>efe a gymhwysir mywn ystyr <w>ber<lb n="23" rend="shy"/>thynasol</w> i arwyddoccau y ddau <w>Or<lb n="24" rend="shy"/>dinh&acirc;d</w> sanctaidd, <hi rend="italic">Bedydd</hi> a <hi rend="italic">Swpper
+<lb n="25"/>yr Arglwydd</hi>. Canys Sacrafen a
+<lb n="26"/>gymmerwyd gan y <hi rend="italic">Rhufeiniaid</hi> yn y tair ystyr
+<lb n="27"/>hyn. 1, Gwystl a roddai g&wcirc;r a gwynid arno
+<lb n="28"/>mywn cyfraith i'w rwymo ef i atteb tan berygl
+<lb n="29"/>o golli'r gwystl. 2, Ll&wcirc; a gymmerai'r Milwyr
+<lb n="30"/>er bod yn gywir a ffyddlon i'r C&acirc;d-pen. 3,
+
+<pb n="231"/>
+<lb/>Toccyn, neu Lifrai gwahanol, fal yr adnabyddid
+<lb/>Milwyr pob C&acirc;d-pen wrth eu Llifrai. Ac y mae
+<lb/>rhai yn tybied y gellir galw Bedydd a Swpper yr
+<lb/>Arglwydd yn <hi rend="italic">Sacrafennau</hi> yn y tair ystyr hynny.
+<lb/>Canys. 1, Y mae Duw, pan y byddom megis
+<lb/>yn cwyno arno a'r ei Addewidion, yn siccrhau i
+<lb/>ni trwy arwyddion gweledig oddi allan, megis
+<lb/>trwy Wystlon sanctaidd, ei R&acirc;s, a'i Drugaredd.
+<lb/>Ac 2, Ninnau a gymmerwn L&wcirc; (ein Hadduned
+<lb/>Fedydd) i fod yn Filwyr cywir i Ghrist ein
+<lb/>Cad-pen, a'n Tywysog. Ac 3, Nyni a wahenir
+<lb/>wrth y nodau hyn (Arddangosiadau'n Proffes)
+<lb/>oddi wrth bawb eraill, y rhai nid &ycirc;nt yn proffesu
+<lb/>Christ<gap desc="footnote"/>.
+</p>
+<p>
+<lb/>Ped ymostyngai dynion i farnu pyngciau <w>dad<lb rend="shy"/>leugar</w> wrth Reol yr Ysgrythur, neu wrth Arfer y
+<lb/>Brif Eglwys (cyn i neb llygredigaethau ddyfod
+<lb/>iddi) yr wyf yn meddwi y byddai'r Ddadl <w>ddi<lb rend="shy"/>weddar</w> hon ynghylch Deiliaid Bedydd yn <w>ddi<lb rend="hyphen"/>ddadl;</w> Sef yw hynny, na ddylai neb betruso (a'r
+<lb/>y sy'n dirnad y 'Sgrythurau, neu yn darllen am
+<lb/>Ddisgyblaeth y Brif Eglwys) a ddylid bedyddio
+<lb/>plant bychain, onid &ycirc;nt yn chwennych fyned
+<lb/>yn Gyssegr-ladron, ac i wrthwynebu Ordinh&acirc;d
+<lb/>Duw ei hun. Canys y Cyfammod a wnaeth
+<lb/>Duw ag <hi rend="italic">Abraham</hi> oedd yn gyfammod <w>dragywy<lb rend="shy"/>ddol,</w> nid terfynnedig wrth H&acirc;d <hi rend="italic">Abraham</hi> yn unig
+<lb/>yn &ocirc;l y Cnawd, ond y Cenhedloedd hefyd a <w>ddycp<lb rend="shy"/>wyd</w> i mywn, wedi'r byth bendigedig Jesu dorri
+<lb/>'r canol-fur rhyngddynt. <hi rend="italic">Gwybyddwch felly mae
+<lb/>y rhai hynny sy o ffydd, y rhai hynny yw plant
+
+<pb n="232"/>
+<lb/>Abraham</hi> Gal. 3. 7. Ynteu, gan fod Plant <w>bych<lb rend="shy"/>ain</w> y Cenhedloedd crediniol yn y cyfammod
+<lb/>ac yn Blant i <hi rend="italic">Abraham</hi> trwy ffydd, oni ddylid
+<lb/>rhoddi S&ecirc;l y Cyfammod iddynt? Sef yw hynny,
+<lb/>oni ddylid eu bedyddio hwy yn-awr tan yr Efengyl,
+<lb/>megis ac yr Enwaedwyd plant yr <hi rend="italic">Israeliaid</hi> tan y
+<lb/>Ddeddf? Canys y mae Bedydd yn canlyn <w>Enwae<lb rend="shy"/>diad,</w> fal y profir yn helaeth gan holl h&ecirc;n <w>Athra<lb rend="shy"/>won</w> yr Eglwys<gap desc="footnote"/>.
+</p>
+<p>
+<lb/>Yn ganlynol i hyn y mae Scrifennadau'r hen
+<lb/>Deidau yn dangos yn eglur, hynny ydyw, cyn <w>am<lb rend="shy"/>lycced</w> ac all Tafod fynegi, fod Bedydd plant yn
+<lb/>arferedig yn Eglwys Dduw er Amser yr <w>Apo<lb rend="shy"/>stolion.</w> Y mae <hi rend="italic">Origen</hi> Sanctaidd (yr hwn a <w>Scri<lb rend="shy"/>fennodd</w> ynghylch <hi rend="italic">Bl. yr Argl.</hi> 230) yn dywedyd fal
+<lb/>hyn. <hi rend="italic">Plant bychain a fedyddir er maddeuant <w>pe<lb rend="shy"/>chodau:</w> Pa bechodau? Canys pa bryd y pechasant?
+<lb/>Neu pa fodd y gall Bedydd gymmodi a Phlant <w>by<lb rend="shy"/>chain,</w> ond yn yr ystyr a ddywedais eusys</hi>, Pa beth
+<lb/>yw d&ycirc;n i fod yn l&acirc;n, a'r hwn a aned o Dd&ycirc;n i
+<lb/>fod yn gyfiawn? Job. 15. 14. <hi rend="italic">Ynteu gan y purir
+<lb/>aflendid ein Genedigaeth trwy Fedydd, y bedyddir
+<lb/>plant bychain.</hi>
+<gap desc="footnote"/> Ac y mae'r un Tad duwiol
+<lb/>yn ei Esponiad a'r Ps. 51. 5. yn dywedyd etto fal
+<lb/>hyn, <hi rend="italic">O herwydd hyn</hi> (eb'r ef), <hi rend="italic">sef y pechod
+<lb/>gwreiddiol hwn, y c&acirc;dd yr Eglwys Draddodiad oddi
+<lb/>wrth yr Apostolion i fedyddio Plant bychain.</hi>
+<gap desc="footnote"/>
+<lb/>A'r Traddodiad hwnnw oedd un o'r rhai y mae'r
+
+<pb n="233"/>
+<lb/>Apostol yn orchymmyn i'r <hi rend="italic">Thessaloniaid</hi> lynu
+<lb/>wrthynt, pan yw yn dywedyd, <hi rend="italic">Am hynny, <w>Fro<lb rend="shy"/>dyr,</w> sefwch, a deliwch y</hi> Traddodiadau <hi rend="italic">a <w>ddyscas<lb rend="shy"/>och,</w> pa un bynnag a'i trwy ymadrodd, a'i trwy
+<lb/>ein Epistol ni.</hi> 2. Thess. 2. 15. Wrth ba destun y
+<lb/>mae'n amlwg, mae nid dychymmyg dyn yw pob
+<lb/>
+<hi rend="italic">Traddodiad</hi>, ond Egwyddor Ffydd a gafwyd oddi
+<lb/>wrth yr Apostolion Sanctaidd eu hun. Ac medd
+<lb/>S. <hi rend="italic">Paul</hi> mywn lle arall, <hi rend="italic">A'r pethau a glywaist
+<lb/>gennyf trwy lawer o dystion,</hi> traddoda <hi rend="italic">y rhai hynny
+<lb/>i ddynion ffyddlon, y rhai a fyddant gymmwys i
+<lb/>ddysgu eraill hefyd.</hi> 2 Tim. 2. 2.
+</p>
+<p>
+<lb/>Yn Amser y Merthyr Sanctaidd hwnnw <hi rend="italic"><w>Sy<lb rend="shy"/>prian,</w></hi> y bu dadl (nid ynghylch a ddylid bedyddio
+<lb/>plant bychain, canys yr oedd hynny yn ddi-ddadl)
+<lb/>ond ynghylch yr Amser y dylid eu bedyddio.
+<lb/>Canys yr oedd rhyw Esgob a'i enw <hi rend="italic">Ffidus</hi> yn <w>pet<lb rend="shy"/>ruso</w> a ellid yn gyfreithlawn fedyddio plant <w>by<lb rend="shy"/>chain</w> cyn yr wythfed Dydd? Yn-awr rhac bod
+<lb/>hynny yn achos Amrafael a Schism yn yr <w>Egl<lb rend="shy"/>wys,</w> fe gynhaliwyd Cymanfa yn <hi rend="italic">Affrica</hi>, <hi rend="italic">Bl. yr
+<lb/>Argl.</hi> 254 ynghylch hynny, lle'r ymgynnullodd
+<lb/>tri ugain a chwech o Esgobion uniown-gred;
+<lb/>A'i Barn hwy oll un ac arall ydoedd, Na ddylid
+<lb/>cadw Plant bychain cyhyd a'r wythfed Dydd rhac
+<lb/>Bedydd. Yr wyf yn meddwl, na fyddai <w>anghym<lb rend="shy"/>mwys</w> pe cymreigwn ryw ran o'r Llythyr a <w>anfo<lb rend="shy"/>nasant</w> at y <hi rend="italic">Ffidus</hi> hwnnw, yr hwn sydd fal y
+<lb/>canlyn.
+</p>
+<p>
+<lb/>"Am yr hyn a ddywedaist ynghylch perthynas
+<lb/>Plant, na ddylid eu bedyddio a'r yr ail neu'r
+<lb/>trydydd Dydd, wedi eu genedigaeth, ond a'r
+<lb/>yr wythfed Dydd, megis tan y Ddeddf, Ein
+<lb/>Cymanfa ni a farnodd yn llwyr wrthwyneb.
+
+<pb n="234"/>
+<lb/>
+<gap desc="footnote"/>Ac ni chyttunodd un o honom a thydi <w>yn<lb rend="shy"/>ghylch</w> hynny, ond barnasom oll un ac arall,
+<lb/>na ddylid naccau trugaredd a gr&acirc;s Duw i neb
+<lb/>rhyw ddyn. Canys yn gymmaint ac i'n <w>Hargl<lb rend="shy"/>wydd</w> ddywedyd yn ei Efengyl, <hi rend="italic">Na ddaeth
+<lb/>Mab y dyn i ddestrywio Eneidiau dynion, ond i'w
+<lb/>cadw.</hi> Luc. 9. 56. Felly y mae'n rhaid i ni edrych
+<lb/>attom ein hunain rhag bod un Enaid yn golledig
+<lb/>hyd y mae ynom ni. Canys pa beth sydd yn fyrr
+<lb/>yn yr hwn a luniwyd un-waith trwy allu Duw
+<lb/>yn y Groth? &para; <orig reg="fe ymddengys">F'ymddengys</orig> i ni fod Plant yn
+<lb/>tyfu, fal y maent yn cynnyddu mywn Oedran:
+<lb/>Ond pa bethau bynnag a greawdd Duw, ydynt
+<lb/>yn berffaith trwy waith a mawrhydi Duw eu
+<lb/>gwneuthurwr.---- Er fod cynnydd corphorol yn
+<lb/>peri gwahaniaeth mywn perthynas i Ddynion,
+<lb/>ond nid yw &ecirc; ddim mywn perthynas i Dduw,
+<lb/>oddigerth fod y gr&acirc;s hwnnw a roddir i'r rhai
+<lb/>wedi eu bedyddio, yn fwy neu yn llai o ran
+<lb/>oedran dynion. Ond yr Yspryd glan a roddir
+<lb/>yn ddiwahan i bawb, nid yn &ocirc;l maintioli dynion, &Dagger;
+<lb/>ond yn ol trugaredd ac ewyllys y T&acirc;d nefol.
+<lb/>Canys megis nad yw Duw yn Dderbynniwr
+<lb/>wyneb, felly nid yw efe chwaith yn dderbynniwr
+<lb/>Oedran. Y mae efe yn cynnyg i bawb, fawrion
+<lb/>a bychain, fwynh&acirc;d o'i R&acirc;s nefol:---- O herwydd
+<lb/>pa ham, ein hanwyl Frawd, ein Barn ni ydyw,
+<lb/>na ddylid llestair un dyn a fo'n addas rhac cael
+<lb/>Bedydd. Ond yn anad neb, bydded i ni ofalu
+<lb/>tros Blant bychain newydd eni, y rhai sy'n
+
+<pb n="235"/>
+<lb/>megis yn ymbil arnom, wrth eu gwaith yn
+<lb/>wylo, ac yn gweiddi, a'r i ni dosturio <w>wrth<lb rend="shy"/>ynt.<gap desc="footnote"/></w>
+</p>
+<p>
+<lb/>Y Llythyr hwn a Ysgrifennwyd, pan oedd <w>Oe<lb rend="shy"/>dran</w> Christ 254, ac fe osododd tri-ugain Esgob a
+<lb/>chwech eu dwylaw wrtho: A'r achos nad yw'r
+<lb/>Tadau hyn yn amddiffyn Bedydd Plant trwy <w>Re<lb rend="shy"/>symmau</w> Sgrythurol, ydyw o herwydd nad oedd
+<lb/>neb yn yr Amser hwnnw yn petruso a ddylid
+<lb/>Bedyddio Plant bychain. Amheuaeth y <hi rend="italic">Ffidus</hi>
+<lb/>hwnnw oedd ynghylch Amser, nid ynghylch <w>Dei<lb rend="shy"/>liaid</w> Bedydd; Ac i hynny y mae hwythau yn
+<lb/>atteb yn unig. Ac nid oedd hyn ddim peth <w>new<lb rend="shy"/>ydd,</w> neu weithred a ddychymygasant eu hunain,
+<lb/>ond Cadernid Gwirionedd amlwg a g&acirc;dd yr <w>Egl<lb rend="shy"/>wys</w> oddi wrth yr Apostolion, fal y mae'r Tad
+<lb/>digymmar hwnnw (o ran dysg a Duwioldeb) S.
+<lb/>
+<hi rend="italic">Awstin</hi> Esgob <hi rend="italic">Hippo</hi>, yn traethu'n helaeth.<gap desc="footnote"/>
+<lb/>Ac y mae'r un T&acirc;d Duwiol yn dywedyd yn
+<lb/>eglur, ac yn profi trwy Resymmau di-amheuol
+<lb/>fod yr Eglwys Gatholic yn bedyddio Plant <w>by<lb rend="shy"/>chain</w> hyd ei Amser ef ym mh&ocirc;b gwl&acirc;d<gap desc="footnote"/> Ac
+<lb/>efe a Sgrifennodd ynghylch <hi rend="italic">Bl. yr Argl.</hi> 408.
+</p>
+<p>
+<lb/>Ynghylch <hi rend="italic">Bl. yr Argl.</hi> 370 yr ysgrifennodd
+<lb/>T&acirc;d parchedig a elwid <hi rend="italic">Gregori Nazianzen</hi>, ac efe
+<lb/>a ddywed fal hyn; <hi rend="italic">Pa beth a ddywedi am Blant
+<lb/>bychain, y rhai ni allant wybod trwy brofiad, y
+<lb/>lles&acirc;d sydd o Fedydd, na'r colled trwy ei eisiau. A
+
+<pb n="236"/>
+<lb/>fedyddiwn ni hwynt hwy? Bedyddiwn yn w&icirc;r ddiau,
+<lb/>Canys gwell yw iddynt gael eu Sancteiddio, er na
+<lb/>b&ocirc;nt deimladwy o hynny, na myned allan o'r B&ycirc;d
+<lb/>heb s&ecirc;l Christ'nogaeth.</hi>
+<gap desc="footnote"/> Digon yw y <w>tystio<lb rend="shy"/>laethau</w> hyn i brofi fod Eglwys Dduw yn bedyddio
+<lb/>Plant Rhi&ecirc;ni Christ'nogol er Amser yr Apostolion;
+<lb/>A Digon &ycirc;nt hefyd i wrthbrofi anwybodaeth ac
+<lb/>ynfydrwydd y Dynionach gwrthun hynny, y rhai
+<lb/>a welsant mywn Breuddwyd (neu ysgatfydd mywn
+<lb/>Llesmeir ysprydol) nad oedd yr Eglwys Gatholic
+<lb/>yn bedyddio Neb Plant bychain, hyd yn Amser
+<lb/>Pabyddiaeth. Mi a ewyllysiwn iddynt edrych
+<lb/>attynt eu hunain, ac edifarhau o herwydd eu <w>cy<lb rend="shy"/>feiliornad.</w>&nbsp;<hi rend="italic">Mywn addfwynder yn dyscu y rhai
+<lb/>gwrthwynebus i edrych a roddo Duw iddynt hwy
+<lb/>ryw Amser Edifeirwch i adnabod y Gwirionedd.</hi> 2
+<lb/>Tim 2. 25.
+</p>
+<p>
+<lb/>Nid wyf anhyspys fod rhai (a gymmerant arnynt
+<lb/>fod yn Historiawyr da) yn yscrifennu, mae <hi rend="italic"><w>Dy<lb rend="shy"/>chymmyg</w></hi> a gafwyd allan yn ddiweddar, sef <w>yn<lb rend="shy"/>ghylch</w>&nbsp;<hi rend="italic">Bl. yr Argl.</hi> 405 yw Tadau Bedydd<gap desc="footnote"/>
+<lb/>Ond y maent yn wir ddiau yn colli yn rhy hagr
+<lb/>yn eu cyfrifon; canys y mae'n orchwyl hawdd i
+<lb/>brofi fod Tadau bedydd yn atteb dros Blant er ys
+<lb/>'chwaneg na thri chant o flynyddoedd cyn yr <w>Am<lb rend="shy"/>ser</w> hwnnw, hynny ydyw, er Amser yr <w>Apost<lb rend="shy"/>olion,</w> fal yr ymddengys oddiwrth dystiolaeth h&ecirc;n
+<lb/>Athraw a elwid <hi rend="italic">Tertulian</hi>, yr hwn a scrifennodd
+<lb/>ynghylch <hi rend="italic">Bl. yr Argl.</hi> 180. <hi rend="italic">Pa raid i Dadau <w>Be<lb rend="shy"/>dydd</w></hi> (eb'r efe) <hi rend="italic">ddwyn eu hunain i berygl, y rhai
+<lb/>allant farw cyn cyflawni yr Addewidion a <w>wnae<lb rend="shy"/>thant;</w> neu fe all y rhai y maent yn addaw trostynt,
+
+<pb n="237"/>
+<lb/>fyned yn ddynion ysgeler, gwneler a fynnir iddynt.</hi>
+<lb/>
+<gap desc="footnote"/>
+</p>
+<p>
+<lb/>Gwir jawn y mae efe yn Scrifennu yn erbyn
+<lb/>Tadau Bedydd, a hynny am ddau achos, fal y
+<lb/>mae'n amlwg wrth ei Eiriau. Etto f'ymddengys
+<lb/>fod Tadau Bedydd yn atteb tros Blant yn yr <w>Am<lb rend="shy"/>ser</w> hwnnw, ped amgen ni allasai efe ddywedyd
+<lb/>dim yn eu herbyn. Y gwirionedd ydyw, fe <w>wy<lb rend="shy"/>rodd</w> yr hen Athraw godidog hwn tua diwedd ei
+<lb/>hoedl oddiwrth y ffydd Apostolic, &Dagger; ac am hynny
+<lb/>efe a ddyrchafa ei D&ycirc;b neilltuol ei hun o flaen
+<lb/>Athrawiaeth yr Eglwys Gatholic. Felly y gwnaeth
+<lb/>efe ynghylch Bedydd plant hefyd, canys efe
+<lb/>a ddywed, <hi rend="italic">Pa ham y mae'r Oes ddiniweid yn bryssio
+<lb/>i dderbyn maddeuant pechodau, Deuent i'w <w>Be<lb rend="shy"/>dyddio</w> wedi iddynt ddyfod i Oedran,</hi>&nbsp;&amp;c.<gap desc="footnote"/>
+<lb/>Gwraidd y cyfeiliornad oedd ei anwybodaeth o
+<lb/>Bechod gwreiddiol, canys efe a eilw Plant bychain
+<lb/>yr <hi rend="italic">Oes ddiniweid</hi>; Ac am hynny nid oedd raid
+<lb/>iddynt wrth Fedydd yn ei D&ycirc;b ef: Etto y mae
+<lb/>hyn yn dangos fod Bedydd Plant a Thadau Bedydd
+<lb/>yn arferedig yn yr Eglwys Gatholic yn ei Amser
+<lb/>ef, ac am hynny er Amser yr Apostolion.
+</p>
+<p>
+<lb/>Wedi'r Tadau bedydd hyn ddyfod ynghyd,
+<lb/>Yr Offeiriad a'i cynghorai hwy i edrych a'r <w>gyflaw<lb rend="shy"/>ni</w>'r Addewid ac oeddynt yn myned i'w wneuthur,
+<lb/>sef a'r iddynt ymegnio hyd eithaf eu gallu i <w>add<lb rend="shy"/>ysgu</w>'r Plentyn yn y Ffydd Grist'nogol, a'i ddwyn
+
+<pb n="238"/>
+<lb/>i fynu yn Ofn Duw. Ac yno, gwedi gweddio
+<lb/>am nerth yr Yspryd Gl&acirc;n, yr Offeiriad a <w>gym<lb rend="shy"/>merai</w>'r plentyn yn ei Freichiau, a gwedi cael ei
+<lb/>Enw gan y Tadau bedydd, efe a'i trochai dair
+<lb/>gwaith yn y Dwfr yn enw'r Drindod, ond os
+<lb/>byddai'r Plentyn yn wan, efe a daenellid dwfr
+<lb/>arno. A gwedi gorphen hynny, yr Offeiriad a
+<lb/>wnai Groes yn nhalcen y dyn bach, gan <w>arwyddo<lb rend="shy"/>ccau</w> trwy hynny ei fod efe yn Ddisgybl i Ghrist,
+<lb/>ac yn dwyn ei nod ef arno. Nid yw ef ond gwaith
+<lb/>afreidiol i brofi fod yr hen Grist'nogion, (er
+<lb/>Amser yr Apostolion) yn arfer y Seremoni honno
+<lb/>wrth fedyddio, canys cyn amlycced ydyw hynny,
+<lb/>fal nad all neb a'r a ddarllenodd ond rhyw <w>ychy<lb rend="shy"/>digyn</w> yng ngwaith y Teidau fod yn anwybodol o
+<lb/>honaw.<gap desc="footnote"/> Ie y mae <hi rend="italic">Tertulian</hi> ei hun yn <w>mawr<lb rend="shy"/>ygu</w> y Seremoni honno,<gap desc="footnote"/> er ei fod mywn
+<lb/>llawer o bethau eraill yn gwyro. Ac o hynny y
+<lb/>bu dihareb ganddynt, <hi rend="italic">Talcen wedi nodi ag arwydd y
+<lb/>Gr&ocirc;g</hi>, * hynny ydyw, <hi rend="italic">Christion wedi ei fedyddio</hi>.
+</p>
+<p>
+<lb/>Er fod yr hen Grist'nogion yn wir-ddiau gan
+<lb/>mwyaf yn trochi yr holl gorph tan y Dwfr, etto
+<lb/>ni chyfrifwyd un trochiad ddim yn Fedydd oll, fal
+<lb/>yr ymddengys oddi wrth eiriau hen Historiawr a
+<lb/>elwid <hi rend="italic">Sozomen</hi>, yr hwn a Scrifennodd hannes yr
+<lb/>Eglwys ynghylch <hi rend="italic">Bl. yr Argl.</hi> 430. Canys efe
+<lb/>ddywed, <hi rend="italic">Fod y sawl a drochwyd onid un-waith yn
+<lb/>ei farn ef yn yr unrhyw berygl, a'r Sawl na ch&acirc;dd
+<lb/>Fedydd erioed</hi>.<gap desc="footnote"/> Ond Taenelliad dair gwaith a
+
+<pb n="239"/>
+<lb/>gyfrifid cystal a thair trochiad, canys S. <hi rend="italic">Syprian</hi> a
+<lb/>ddywed, <hi rend="italic">Nad allai efe ddirnad fod y Dawn nefol
+<lb/>yn cael ei attal ddim llai y ffordd honno, trwy
+<lb/>Daenelliad, nac yn y ffordd arall, o hydd Ff&ycirc;dd i'w
+<lb/>dderbyn. Canys ein pechodau trwy Fedydd</hi> (eb'r ef)
+<lb/>
+<hi rend="italic">a olchir mywn modd amgen, na budreddi ein Cyrph
+<lb/>mywn Ffynnon. Ac na ryfedded neb ein bod yn <w>be<lb rend="shy"/>dyddio</w> y rhai gweinon trwy daenellu Dwfr arnynt,
+<lb/>gan fod yr Yspryd Gl&acirc;n yn dywedyd,</hi> Ac a <w>daene<lb rend="shy"/>llaf</w> arnoch ddwfr gl&acirc;n, fal y byddoch l&acirc;n, oddi
+<lb/>wrth eich holl frynti <hi rend="italic">Ezec.</hi> 36. 25. Ac hefyd
+<lb/>
+<hi rend="italic">Num.</hi> 8. 7. <hi rend="italic">Ac fel hyn y gwnei iddynt i'w glanhau,
+<lb/>taenella ddwfr puredigaeth.</hi> Wrth hyn y mae'n
+<lb/>amlwg (<hi rend="italic">ebr ef</hi>) fod Tanelliad cystal a <w>thro<lb rend="shy"/>chiad.<gap desc="footnote"/></w>
+</p>
+<p>
+<lb/>Pa un a'i yn Faban, a'i mywn Oedran, <corr resp="transcr" sic="tryw">trwy</corr>
+<lb/>Daenelliad, neu Drochiad y bedyddid neb, ni <w>ail<lb rend="hyphen"/>fedyddid</w> hwnnw drachefn, canys yr holl h&ecirc;n
+<lb/>Grist'nogion a lynasant yn ddi-yscog wrth Reol yr
+<lb/>Apostol <hi rend="italic">Un Arglwydd, un Ffydd, un Bedydd</hi>.
+<lb/>Eph. 4. 5. Yr &ycirc;m yn cael Ystori nodedig ynghylch
+<lb/>Llangc a Elwid <hi rend="italic">Athanasius</hi>, yr hon sydd fal y
+<lb/>canlyn. "Yr oedd <hi rend="italic">Alexander</hi> Esgob <hi rend="italic">Alexandria</hi>
+<lb/>yn cadw dydd Gwyl S. <hi rend="italic">Petr</hi>, yn &ocirc;l Arfer yr
+<lb/>Eglwys, a thra fu efe yn aros ei Henuriaid atto,
+<lb/>wedi gorphen yr W&ycirc;l, efe a rodiodd allan i'r
+<lb/>Maesydd, lle y gwelai langciau jeuaingc yn
+<lb/>chwareu; Ond o'r diwedd efe a welai un o <!--include o in W?--><w>ho<lb rend="shy"/>nynt</w> yn tywys y lleill at Afon, ac yn eu bedyddio
+<lb/>hwy yno, fal pe buasai Offeiriad. Pan <w>ddych<lb rend="shy"/>welodd</w>&nbsp;<hi rend="italic">Alexander</hi> adref, efe a fynegodd yr hyn
+<lb/>a welsai i'w Henuriaid, y rhai a synnasant yn
+<lb/>fawr i glywed hynny, ac felly y danfonwyd am
+
+<pb n="240"/>
+<lb/>y Llangciau, a gwedi eu dyfod, y gofynnwyd
+<lb/>iddynt ynghylch yr hyn ag oeddynt yn <w>wneu<lb rend="shy"/>thur</w> wrth chwareu yn y Maes. A hwy a <w>ddy<lb rend="shy"/>wedasant,</w> mae y Llangc a elwid <hi rend="italic">Athanasius</hi> a
+<lb/>gymmerodd arno ddynwared yr Offeiriad yn
+<lb/>bedyddio. Ac yno'r Esgob wedi clywed hynny
+<lb/>a ymgynghorodd a'i Henuriaid ynghylch y <w>weith<lb rend="shy"/>red,</w> a'i Barn hwy oll, un ac arall oedd, na
+<lb/>ddylid ail-fedyddio mo'nynt, gan fod y ffurf yn
+<lb/>enw'r Drindod yn uniawn.<gap desc="footnote"/>
+</p>
+<p>
+<lb/>Yn w&icirc;r ddiau nid ellir naccau onid oedd rhai
+<lb/>
+<hi rend="italic">Hereticiaid</hi> aflan yn ail-fedyddio yn y prif Amser
+<lb/>gynt; A'r pennaf o'r g&wcirc;yr da hynny a Elwid
+<lb/>
+<hi rend="italic">Eunomius</hi>, yr hwn a wyrdroawdd Draddodiad yr
+<lb/>Apostolion, ac a ddychymygodd Ffurf amgen
+<lb/>wrth fedyddio, nag a orchymmynodd ein <w>Hia<lb rend="shy"/>chawdwr;</w> Canys efe a daerodd na ddylid bedyddio
+<lb/>neb yn Enw'r T&acirc;d a'r M&acirc;b a'r Yspryd Gl&acirc;n, ond
+<lb/>y Ffurf a ddylai fod, <hi rend="italic">Yr wyf yn dy fedyddio di i
+<lb/>farwolaeth Christ</hi>
+<gap desc="footnote"/> A pha broselytiaid bynnag
+<lb/>a allai'r Heretic hwnnw i ynnill, efe a'i <w>hail-fe<lb rend="shy"/>dyddiai</w> (megis y mae ei Ddisgyblion yn <w>gwneu<lb rend="shy"/>thur</w> etto) er eu bod wedi eu bedyddio o'r blaen,
+<lb/>pa un a'i yn Fabanod, a'i ynteu mywn Oedran.
+<lb/>
+<gap desc="footnote"/>A'r un Heretic oedd y Cyfaill a newidiodd
+<lb/>gyntaf y tair trochiad, canys efe a daerodd fod un
+<lb/>yn ddigonol. Ac er ei fod yn Araithydd da, ac yn
+
+<pb n="241"/>
+<lb/>lew mywn ffraethder Ymadrodd, etto efe a <w>gyfrif<lb rend="shy"/>wyd</w> gan y Jawn-ffyddiog yn <hi rend="italic">Heretic</hi>, ac ni <w>lan<lb rend="shy"/>heir</w> yr Enw gwrthun hwnnw oddi wrtho fyth,
+<lb/>canys yn <hi rend="italic">Heretic</hi> y cyfrifir ef, tra fo
+</p>
+
+<ab type="table">
+<table>
+<row><cell><note resp="author" place="left-centred"><lbNoN/><hi rend="normal">Rhupunt <lbNoN/>h&icirc;r.</hi></note></cell>
+<cell>
+<lb/><hi rend="italic">Gwynt yn chwythu; Dwr yn tarddu;</hi>
+<lb/><hi rend="italic">S&ecirc;r yn harddu, sy ran urddas:</hi>
+<lb/><hi rend="italic">Mawn yn llosgi; M&ecirc;r yn hoffi;</hi>
+<lb/><hi rend="italic">M&ocirc;r yn heli, Mawr jawn hylas.</hi></cell></row>
+</table>
+</ab>
+
+<p>
+<lb/>Myfi a dybygwn wrth eiriau <hi rend="italic">Justin y Merthyr</hi>,
+<lb/>(yr hwn a Scrifennodd ynghylch <hi rend="italic">Bl. yr Argl.</hi>
+<lb/>155) eu bod hwy yn bedyddio y rhai a gredent,
+<lb/>sef y rhai a ddychwelid o eilun-addoliaeth, yn
+<lb/>ddiattreg wedi iddynt ddyfod i gredu. Canys efe
+<lb/>a ddywed, "Pwy bynnag, wedi addyscir iddynt
+<lb/>byngciau'r ffydd, a'r sydd yn ewyllysgar i
+<lb/>fyw yn &ocirc;l Rheol (yr Efengyl) a gynghorir i
+<lb/>ymprydio a gweddio, er cael maddeuant <w>pe<lb rend="shy"/>chodau</w> [sef pechodau eu hanghrediniaeth gynt]
+<lb/>Ac nyni a weddiwn ac a ymprydiwn gyda
+<lb/>hwy. Ac yno, nyni a'i dygwn lle bo Dwfr,
+<lb/>ac fal yr adgenhedlwyd ni, felly yr <w>adgenhed<lb rend="shy"/>lir</w> hwythau.<gap desc="footnote"/> Ond tua'r Drydedd oes,
+<lb/>ac o hynny allan yr appwyntiwyd i weinyddu
+<lb/>Bedydd a'r ddau Amser o'r flwyddyn yn unig,
+<lb/>sef y <hi rend="italic">Pasg</hi>, a'r <hi rend="italic">Sulgwyn</hi>; etto os byddai dim <w>pe<lb rend="shy"/>rygl</w> marwolaeth a'r un, efe a fedyddid y pryd
+<lb/>hwnnw, digwydded hynny a'r ba amser bynnag
+<lb/>o'r Flwyddyn. Ac a'r ddydd yr Arglwydd a
+<lb/>elwir <hi rend="italic">Sulgwyn</hi>, y gwisgid y rhai <w>newydd-fedy<lb rend="shy"/>ddio</w> mywn <hi rend="italic">Gwisg-wen</hi>.<gap desc="footnote"/> Ac o'r achos hwnnw
+
+<pb n="242"/>
+<lb/>y galwyd y Sul hwnnw <hi rend="italic">Sul-gwyn</hi>, oblegid y <w>by<lb rend="shy"/>ddai</w> torfeydd o'r rhai newydd-fedyddio yn myned
+<lb/>i'r Eglwys yn eu Gwisgoedd gwynnion y Dydd
+<lb/>hwnnw; A hyn yw meddwl y Bardd, pan yw yn
+<lb/>canu<gap desc="footnote"/>.
+</p>
+
+<lg rend="italic">
+<lb/><l>J&ocirc;r Nef a Daear, Gwel y rhai hygar</l>
+<lb/><l>A fu'n ddiweddar tan yr Elfen:</l>
+<lb/><l>Gwel y frwydr-lan sy'n myned allan</l>
+<lb/><l>O'r Aipht i Ganan, mywn gwisg bur-wen.</l>
+</lg>
+<lg>
+<lb/><l>Mae peisiau gwynnion y glan Ddyniadon</l>
+<lb/><l>Yn rhoi Arwyddion meddwl dien:</l>
+<lb/><l>Hyn sydd lawenydd, a chyssur hylwydd</l>
+<lb/><l>I'r Bugail jawn-ffydd, Dorf ddisglair-wen.</l>
+</lg>
+
+<p>
+<lb/>Fe dybygai d&ycirc;n anghyfarwydd fod yr Athraw
+<lb/>a grybwyllwyd ddiweddaf, sef <hi rend="italic">Justin y Merthyr</hi>,
+<lb/>yn yscrifennu, fal pe ni fuasent yn bedyddio neb
+<lb/>plant bychain yn ei amser ef. Ond nid yw efe
+<lb/>ddim; Canys. 1, Y rhai a droawdd o <w>Eilun-addo<lb rend="shy"/>liaeth</w> y mae efe yn feddwl a dderbynnid felly i'r
+<lb/>Eglwys, fal y mae'n amlwg wrth ei eiriau. 2, Y
+<lb/>mae efe yn crybwyll ei hun mywn lle arall ynghylch
+<lb/>Bedydd plant megis peth arferedig yn ei Amser
+<lb/>ef ym mhob gwl&acirc;d.<gap desc="footnote"/> Ac am hynny, ni ddylir
+<lb/>gwyr-droi y fath ymadroddion a'r rhai hynny i
+<lb/>amddiffyn Opiniynau gwrthun. Ond ysywaeth y
+<lb/>mae'r <hi rend="italic">Anyscedig a'r anwastad yn gwyr-droi y
+<lb/>Scrythrau</hi>, chwaethach yscrifennadau dynol, <hi rend="italic">i'w <w>di<lb rend="shy"/>nystr</w> eu hunain</hi>. 2 Pet. 3, 16.
+</p>
+<pb n="243"/>
+<p>
+<lb/>SOnniwn bellach ryw ychydig ynghylch y <w>Sacra<lb rend="shy"/>fen</w> arall, sef, Swpper yr Arglwydd. Ac yma,
+<lb/>mi a ganlynaf y Drefn hon. 1, Yr amser y derbynnid.
+<lb/>2, Y Personau a farnwyd yn gymmwys i'w <w>dder<lb rend="shy"/>byn.</w> 3, Y modd yr oeddid yn ei dderbyn.
+</p>
+<p>
+<lb/>1, Yr Amser cyffredinolaf a mwyaf arferedig
+<lb/>ydoedd wedi gorphen y Gwasanaeth yn yr <w>Egl<lb rend="shy"/>wys,</w> a'r Ddydd yr Arglwydd. Canys <hi rend="italic">Justin y
+<lb/>Merthyr</hi> a ddywed, <hi rend="italic">mae'r Amser yr arferent i
+<lb/>fwytta'r Cymmun oedd wedi iddynt, ddarllen,
+<lb/>canu mawl, pregethu, a gweddio</hi>.<gap desc="footnote"/> Ond yn w&icirc;r
+<lb/>ddiau y mae'n anhawdd i wybod yn <w>berffaith<lb rend="hyphen"/>gwbl,</w> ym mha amser o'r dydd yr oedd yr hen
+<lb/>Grist'nogion yn cymmuno; Mae'n Eglur i'n
+<lb/>Hiachawdwr bendigedig ei ordeinio liw n&ocirc;s yn
+<lb/>&ocirc;l yr amser y cedwid y Pasg Iddewig; Ond a oedd
+<lb/>yr Apostolion, a'r Christ'nogion a'r &ocirc;l eu
+<lb/>dyddiau hwy, yn cadw'r un amser, fydd anhawdd
+<lb/>i siccrhau. Etto y mae'n ddiau fod yr Arfer
+<lb/>mywn ambell fan i gymmuno a'r yr amser hwnnw,
+<lb/>sef, Liw n&ocirc;s.<gap desc="footnote"/> Ond mi a dybygwn mae
+<lb/>
+<hi rend="italic">Anghenrhaid</hi> oedd yn eu cymmell i wneuthur
+<lb/>hynny yn amser Erlidigaeth, pryd ni byddai rydd
+<lb/>iddynt, ymgynnull liw Dydd. Canys y mae'r <w>Tei<lb rend="shy"/>dau</w> a yscrifennasant tua'r drydedd Oes yn sicrhau
+<lb/>mae yn y boreu y derbynnient y Cymmun:<gap desc="footnote"/>
+<lb/>Ac felly y parhawyd o hynny allan, i ganlyn yr un
+<lb/>amser, oddigerth mywn rhyw leoedd o'r <hi rend="italic">Aipht</hi>
+<lb/>gerllaw <hi rend="italic">Alecsandria</hi>, p'le yr arferent i <w>gymmu<pb rend="shy" n="244"/><lb/>no</w> yn yr llwyr, wedi iddynt fwytta ac yfed eu
+<lb/>llonaid<gap desc="footnote"/>.
+</p>
+<p>
+<lb/>Yn y Prif Amser yr oedd Yspryd Crist'nogaeth
+<lb/>yn fywiog yng nghalonnau ei Phroffeswyr, a'i
+<lb/>Cariad hwythau oedd yn wresog at eu Harglwydd;
+<lb/>Ac felly hwy a farnasant pa fynyched y deuent i
+<lb/>Fwrdd yr Arglwydd, well-well y byddent, a <w>gall<lb rend="shy"/>uoccach</w> i wrthsefyll holl Ruthrau'r Fall. Ac
+<lb/>am hynny hwy a dderbynniasant y Cymmun bob
+<lb/>Dydd trwy'r Flwyddyn, yn bendifaddau mywn
+<lb/>Dinasoedd a Threfi, lle byddai pawb yn agos, fal
+<lb/>y mae'n amlwg, oddi wrth eiriau S. <hi rend="italic">Syprian</hi>, yr
+<lb/>hwn a ddywed, <hi rend="italic">Yr &ycirc;m yn derbyn y Cymmun bob
+<lb/>dydd, megis Ymborth s&ycirc;dd yn ein meithrin i <w>Je<lb rend="shy"/>chydwriaeth.</w></hi><gap desc="footnote"/> Yr arfer hwn i dderbyn y
+<lb/>Cymmun bob dydd a barhaodd yn 'chwaneg na
+<lb/>phedwar Cant o Flynydoedd, yn enwedig yn <w>Egl<lb rend="shy"/>wysi</w>'r Gorllewin, oblegid y mae S. <hi rend="italic">Awstin</hi>&nbsp;<w>Es<lb rend="shy"/>gob</w>&nbsp;<hi rend="italic">Hippo</hi> yn dywedyd yn eglur fod y <w>Christ'<lb rend="shy"/>nogion</w> yn cymmuno bob dydd yn ei Amser ef,
+<lb/>
+<gap desc="footnote"/>hynny ydyw, ynghylch <hi rend="italic">Bl. yr Argl.</hi> 415.
+<lb/>Canys <hi rend="italic">Bl. yr Argl.</hi> 430, y bu'r T&acirc;d parchedig
+<lb/>hwnnw farw. Ond ym mhen talm o amser wedi
+<lb/>hynny, y cwttogwyd yr amser i fod bedair gwaith
+<lb/>yn yr Wythnos, ac a'r &ocirc;l hynny bob Wyth-nos, ac
+<lb/>yno bob M&icirc;s, &amp;c. Pan ballod y Z&ecirc;l, y cryfhaodd
+<lb/>Diofalwch, pan oerodd y Cariad, y brydiodd <w>am<lb rend="shy"/>harch,</w> a phan sychodd grym dwywolder, y <w>ffry<lb rend="shy"/>diodd</w> ysgelerdr a phechod.
+</p>
+<pb n="245"/>
+<p>
+<lb/>2, <hi rend="italic">Am y Personau a farnwyd yn gymmwys
+<lb/>i dderbyn y Cymmun.</hi> Nid pob un a fyddai ag
+<lb/>Enw Christion arno, a dderbynnid i Fwrdd yr
+<lb/>Arglwydd, Canys medd un o'r hen Deidau, <hi rend="italic">Ni
+<lb/>pherthyn i bob un fwytta'r Bara hwn, ac i yfed
+<lb/>o'r Cwppan hwn.</hi>
+<gap desc="footnote"/> Wrth hyn y mae'n canlyn,
+<lb/>nad oedd rydd i Bechaduriaid nodedig, megis
+<lb/>Anudonwyr, Llofruddiaid, Meddwon, &amp;c <w>ddy<lb rend="shy"/>nessau</w> at fwrdd yr Arglwydd yn y Brif Eglwys;
+<lb/>Eithr yn unig. 1, Y rhai a fyddai o <w>ymarwe<lb rend="shy"/>ddiad</w> da. 2, Yn credu holl byngciau sylfaenol y
+<lb/>Grefydd Grist'nogol. 3, O gynnulleidfa'r <w>Egl<lb rend="shy"/>wys</w> Gatholic. 4, Wedi derbyn Bedydd. 5, <w>We<lb rend="shy"/>di</w> cael <hi rend="italic">Conffirmasiwn</hi> gan yr Esgob, neu <hi rend="italic">Fedydd
+<lb/>Esgob</hi>, fal y dywedir yn gyffredin. Yr wyf yn
+<lb/>meddwl nad oes neb, a'r a w&ycirc;r ddim, a ryfyga
+<lb/>ddywedyd fod <hi rend="italic">Conffirmasiwn</hi> yn Ddychymmyg
+<lb/>dyn, gan fod y 'Scrythur lan yn rhoddi tystiolaeth
+<lb/>ddisiommedig fod yr Apostolion eu hunain yn <w>ar<lb rend="shy"/>fer</w> Arddodiad dwylaw i roddi'r Yspryd Gl&acirc;n
+<lb/>i'r neb a fedyddid. <hi rend="italic">Act.</hi> viii. 14, 15, 16, 17.
+<lb/>Ac ni bu'r Esgobion yn yr Oesoedd canlynol yn
+<lb/>ddiffygiol i gyflawni'r Arfer Efangylaidd hon,
+<lb/>fal y gallwn yn hawdd brofi trwy liaws o <w>dystio<lb rend="shy"/>laethau</w>'r hen Athrawon.<gap desc="footnote"/> Ac yn wir ddiau
+<lb/>ni chyfrifwyd neb yn Gristion perffaith ganddynt,
+<lb/>nes cael <hi rend="italic">Conffirmasiwn</hi> gan yr Esgob, oblegid eu bod
+<lb/>yn edrych a'r hynny, megis peth hanffodol i <w>Grist'<lb rend="shy"/>nogaeth.</w> Y rhai mywn oedran a gonffirmid yn
+
+<pb n="246"/>
+<lb/>ddiattreg wedi eu bedyddio, a phlant bychain,
+<lb/>pan y delent i oedran G&wcirc;yr.
+</p>
+<p>
+<lb/>O byddai neb o'r Ffyddloniaid yn gleifion, neu
+<lb/>o byddai rhyw fethiant, neu ddamwain yn eu <w>hat<lb rend="shy"/>tal</w> rhac dyfod i'r Eglwys, fe ddanfonid Diacon,
+<lb/>a thammaid o'r Bara Cyssegredig wedi wlychu yn
+<lb/>y Gw&icirc;n attynt hwy adref; Canys felly y dywed
+<lb/>
+<hi rend="italic">Justin y Merthyr, Y Diaconiaid a roddant y bara
+<lb/>a'r Gw&icirc;n i'r rhai presennol, ac a'i danfonant
+<lb/>adref i'r rhai Absennol</hi>.<gap desc="footnote"/> Ond nid pawb
+<lb/>o'r rhai Absennol a gaent y ffafor hwnnw. Canys
+<lb/>gorchymmynwyd mywn Cymanfa a gynhaliwyd
+<lb/>
+<hi rend="italic">Bl. yr Argl.</hi> 314. Yn <hi rend="italic">Ffraingc</hi>, na chai un <hi rend="italic"><w>Apo<lb rend="shy"/>stat</w></hi> (neu'r hwn a ymadawodd a'r ffydd) ei <w>dder<lb rend="shy"/>byn</w> mywn Cymmundeb, os syrthiai yn gl&acirc;f, ond
+<lb/>y dylid edrych a fyddai gwellh&acirc;d Buchedd ynddo.
+<lb/>
+<gap desc="footnote"/>Ac yn yr un Gymanfa y gorchymmynwyd
+<lb/>hefyd, y dylid attal y sawl a ddygent gam <w>dystio<lb rend="shy"/>laeth</w> yn erbyn eu Cymmydogion, tra fyddent hwy
+<lb/>byw rhac y Cymmun. <hi rend="italic">Gwel Pen.</hi> 2. <hi rend="italic">tu. dal.</hi> 158.
+</p>
+<p>
+<lb/>3, <hi rend="italic">Ynghylch y modd y derbynnid y Cymmun.</hi>
+<lb/>Yn gyntaf y <hi rend="italic">Diacon</hi> a ddygai ddwfr i'r Esgob
+<lb/>a'i Henuriaid, y rhai a safent o bobtu'r <w>Bwrdd<lb rend="hyphen"/>Cymmun,</w> i olchi eu Dwylaw, gan arwyddoccau
+<lb/>trwy hynny y <hi rend="italic">Purdeb</hi> a ddylai fod yn y rhai
+<lb/>hynny sy'n nessau at Dduw,<gap desc="footnote"/> megis y dywed
+<lb/>y Salmydd, <hi rend="italic">Golchaf fy nwylaw mywn <w>diniweid<lb rend="shy"/>rwydd;</w> a'th Allor o Arglwydd a amgylchynaf</hi>,
+<lb/>Ps. xxvi. 6. Ac yno'r Diacon, a groch-waeddai
+<lb/>
+<hi rend="italic">Cussenwch eich gilydd</hi>. Yr oedd yr arfer hwn o
+<lb/>gussanu eu gilydd, yn gynnar jawn yn yr Eglwys,
+
+<pb n="247"/>
+<lb/>a hynny medd rhai, yw meddwl yr Apostol pan
+<lb/>yw yn dywedyd, <hi rend="italic">Anherchwch yr holl frodyr a <w>chu<lb rend="shy"/>san</w> sancteiddiol</hi>. Thess. v. 26. A hynny a <w>wnae<lb rend="shy"/>thant</w> i arwyddoccau eu bod mywn cariad perffaith
+<lb/>a'i gilydd, a bod pob atgasrwydd a malais wedi
+<lb/>diweddu, yn &ocirc;l cynghor ein Hiachawdwr, <hi rend="italic">Gan
+<lb/>hynny, os dygi dy rodd i'r Allor ac yno dyfod i'th gof
+<lb/>fod gan dy frawd ddim yn dy erbyn, Gad yno dy
+<lb/>r&ocirc;dd ger bron yr Allor, a dos ymaith: Yn gyntaf
+<lb/>cymmoder di a'th frawd, ac yno tyred, ac offrwm
+<lb/>dy r&ocirc;dd</hi>. Mat. v. 23, 24.
+</p>
+<p>
+<lb/>A'r &ocirc;l hyn hwy a aent i weddio eu Gweddi
+<lb/>gyffredin am dangneddyf ac undeb gyffredinol yn
+<lb/>yr Eglwys, am lonyddwch a h&ecirc;dd yn y deyrnas,
+<lb/>am lwyddiant yr Oes, am h&icirc;n dymmerus, tros
+<lb/>bob math o ddynion, Brenhinoedd, Ymherodron,
+<lb/>a phawb mywn Awdurdod, tros y Ll&ucirc;, a'r <w>Mil<lb rend="shy"/>wyr,</w>&nbsp;<corr resp="transcr" sic="tos">tros</corr> y rhai Credadwy, ac anghredadwy, tros
+<lb/>gyfeillion, a chydymdeithion, tros y cleifion a'r
+<lb/>blinderus, a'r fyrr eiriau, tros bawb mywn diffyg
+<lb/>ac eisiau cymmorth.<gap desc="footnote"/> [Y weddi gyffredin hon
+<lb/>oedd Ffurf weddi, ac nid yw raid wrth ychwaneg
+<lb/>i brofi hynny, nag y ddau Reswm hyn. 1, Y
+<lb/>mae'r Teidau yn dywedyd mae Ffurf ydoedd,
+<lb/>yr hon sydd i'w chael etto yn eu gwaith.<gap desc="footnote"/>
+<lb/>2, Yr oedd yr holl Gynnulleidfa yn canlyn yr
+<lb/>Offeiriad wrth weddio, yr hyn a fuasai yn <w>am<lb rend="shy"/>hossibl</w> iddynt, pe nid ffurf osodedig a fuasai'r
+<lb/>Weddi.
+</p>
+<p>
+<lb/>Wedi gorphen hynny, y Gweinidog a ddywedai,
+<lb/>
+<hi rend="italic">Yr Arglwydd a f&ocirc; gyda chwi</hi>: A'r Bobl a <w>atte<pb rend="shy" n="248"/><lb/>bai,</w>&nbsp;<hi rend="italic">A chyd-a'th Yspryd ditheu</hi>.<gap desc="footnote"/> Yr <w>Offeir<lb rend="shy"/>iad</w> a ddywedai drachefn, <hi rend="italic">Dyrchefwch eich <w>calonn<lb rend="shy"/>au.</w></hi> Y Bobl a attebai, <hi rend="italic">Yr ydym yn eu <w>dyrcha<lb rend="shy"/>fael</w> i'r Arglwydd</hi>.<gap desc="footnote"/> Yr Offeiriad a ai rhago,
+<lb/>gan ddywedyd y drydedd waith, <hi rend="italic">Diolchwn i'n
+<lb/>Harglwydd Dduw</hi>. Ac attebid efe gan y <w>Gynull<lb rend="shy"/>eidfa,</w>&nbsp;<hi rend="italic">Mae yn addas, ac yn gyfiawn gwneuthur
+<lb/>hynny</hi>.<gap desc="footnote"/> Ac yno, wedi'r Offeiriad gyssegru
+<lb/>y Bara a'r Gw&icirc;n, y rhoddid ef i'r <w>Cymmun<lb rend="shy"/>wyr,</w> y rhai fyddent naill yn sefyll, a'i ynteu a'r
+<lb/>eu dau-lin.<gap desc="footnote"/> Ond ni chlybuwyd erioed etto
+<lb/>fod neb o'r h&ecirc;n Grist'nogion yn eistedd wrth
+<lb/>dderbyn, oblegid i fod ganddynt fwy o barch at
+<lb/>yr Arglwydd Jesu, nag y deuent i goffau ei <w>far<lb rend="shy"/>wolaeth</w> yn y fath fodd anweddaidd. Ond <hi rend="italic">P&acirc;b
+<lb/>Rhufain</hi> yn wir sydd yn eiftedd wrth dderbyn
+<lb/>y Cymmun, oblegid fod chwith ganddo benlynio,
+<lb/>etto y mae hyn (ym mysc nodau eraill) yn <w>dan<lb rend="shy"/>gos</w> yn eglur mae <hi rend="italic">Anghrist</hi> ydyw.
+</p>
+<p>
+<lb/>Rhac i neb wrthddadleu fod ein Hiachawdwr
+<lb/>yn eistedd pan yr ordeiniodd efe ei Swpper
+<lb/>Sanctaidd: Yr wyf yn atteb mae dygn-gamsynniad
+<lb/>ydyw tybied hynny: Canys ein Hiachawdwr a
+<lb/>ddilynodd arfer yr <hi rend="italic">Juddewon</hi> yn bwytta'r <hi rend="italic">Pasc</hi>,
+<lb/>pa rai a orweddent o'r wla&ucirc;; byddai tri a'r bob
+<lb/>gwely, a thri gwely, gan mwyaf, a fyddai o <w>am<lb rend="shy"/>gylch</w> pob bwrdd.<gap desc="footnote"/> Ond gan na roddes ein
+<lb/>Harglwydd un Gorchymmyn ynghylch hynny, y
+<lb/>Christ'nogion yn ddiattreg a farnasant, mae'r modd
+
+<pb n="249"/>
+<lb/>gostyngeiddiaf a fyddai'r modd cymmeradwyaf;
+<lb/>Ac y mae Histori yn tystio'n eglur eu bod yn
+<lb/>derbyn y Cymmun yn wastadol yn yr un modd ac
+<lb/>y byddent yn gweddio, ac yn gymmaint a bod
+<lb/>arfer ganddynt i weddio bob Dydd Sul gan
+<lb/>mwyaf o'i sefyll, felly hwy a gymmunasant <w>he<lb rend="shy"/>fyd</w> o'i sefyll gan mwyaf y Suliau;<gap desc="footnote"/> Ond pa
+<lb/>bryd bynnag y byddent yn gweddio a'r eu <w>dau<lb rend="hyphen"/>lin,</w> hwy a dderbynnient y Cymmun yn wastadol yn
+<lb/>yr un modd. Gwelwn ynteu wall-synwyr ac <w>yn<lb rend="shy"/>fydrwydd</w> ddigymmar y dynionach hynny y rhai
+<lb/>a welsant (mywn breuddwyd yn ddiammau,
+<lb/>Canys nid oes mo'r fath beth mywn un Histori)
+<lb/>na chlybuwyd s&ocirc;n erioed am y fath beth a <w>phen<lb rend="shy"/>linio</w> wrth dderbyn y Cymmun cyn y flwyddyn
+<lb/>1226<gap desc="footnote"/>.
+</p>
+</div>
+</body>
+</text>
+
+</group>
+</text>
+
+</TEI.2>
