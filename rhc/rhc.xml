@@ -1,0 +1,5632 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="C:\Program Files\XML Spy 3.5\Project HCWL\XSL\drama.xsl"?>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; --> 
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Y Rhyfel Cartrefol</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by </resp><name id="transcr">Ingo Mittendorf</name>
+<resp>Notes by <name>David Willis and Ingo Mittendorf</name></resp></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, October 2004</edition></editionStmt>
+
+ <publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+</publicationStmt> 
+
+<notesStmt>
+	<note type="text">Other figures mentioned in the text include:
+	
+	<list>
+	<item><name id="Leslie">Leslie, Alexander, first earl of Leven (c. 1580-1661)</name></item>
+	<!-- Conceivably, but less likely David Leslie, first Lord Newark (1601-1682) -->
+	<item><name id="Strafford">Thomas Wentworth, first earl of Strafford (1593-1641), lord deputy of Ireland</name></item>
+	<item><name id="Hotham">Sir John Hotham, first baronet (1589-1645), parliamentarian army officer</name></item>
+	<item><name id="Brereton">Sir William Brereton, first baronet (1604-61), parliamentarian army officer</name>.</item>
+	<item><name id="Ireton">Henry Ireton, (bap. 1611, d. 1651), parliamentarian army officer, commissioner at the trial of Charles I and signatory to his death warrant</name></item>
+	<item><name id="Waller">Sir Hardress Waller (c.1604-66), parliamentarian army officer, commissioner at the trial of Charles I and signatory to his death warrant</name></item>
+	<item><name id="Whalley">Edward Whalley (d. 1674/5), parliamentarian major-general, commissioner at the trial of Charles I and signatory to his death warrant</name></item>
+	<item><name id="Penington">Isaac Penington (<hi rend="italic">c.</hi> 1584-1661), politician, commissioner at the trial of Charles I and signatory to his death warrant</name></item>
+	<item><name id="Grey">Henry Grey, first earl of Stamford (<hi rend="italic">c.</hi> 1599-1673), parliamentarian army officer, commissioner at the trial of Charles I and signatory to his death warrant</name></item>
+	<item><name id="Monson">William Monson, first Viscount Monson of Castlemaine (d. 1673?), politician</name></item>
+	<item><name id="Danvers">Sir John Danvers (1584/5-1655), politician, commissioner at the trial of Charles I and signatory to his death warrant</name></item>
+	<item><name id="Marten">Henry Marten (1601/2-80), politician, commissioner at the trial of Charles I and signatory to his death warrant</name></item>
+	<item><name id="Chaloner">Thomas Chaloner (1595-1660), politician, commissioner at the trial of Charles I and signatory to his death warrant</name></item>
+	<item><name id="Jones">John Jones (<hi rend="italic">c.</hi> 1597-1600) of Llanbedr, Merionethshire, parliamentarian army officer, commissioner at the trial of Charles I and signatory to his death warrant</name></item>
+	<item><name id="Mostyn">Mostyn, Sir Roger, first baronet (<hi rend="italic">c.</hi> 1624-90), colonel in the royalist army in Flintshire</name></item>
+	<item><name id="Lloyd">Sir Evan Lloyd, baronet (died 1663/4), royalist army officer, of Bodidris, Llandegla, Denbighshire</name></item>
+	<item><name id="Owen">Sir John Owen (1600-66), royalist army officer, of Clenennau, Caernarfonshire</name></item>
+	<item><name id="Craddock">Walter Craddock (<hi rend="italic">c.</hi> 1606-59), Independent minister</name></item>
+	<item><name id="Lambert">John Lambert (1619-84), parliamentary soldier and politician</name></item>
+	</list>
+	</note>
+	
+	<note>The work contains a number of references to events specifically related to north-east Wales, such of the sequestration of assets of Sir Roger Mostyn (1646) and Sir Evan Lloyd (page 41). Other local references include a reference to the Ruabon coalmines (<mentioned>pylle gl&ocirc; Rhiwabon</mentioned>) at line 543.</note>
+	<note type="bibl">Details of the historical figures are taken from the online Oxford Dictionary of National Biography (http://www.oxforddnb.com).</note>
+	<note type="text">Broadly chronological: Bishops' wars, Charles's agreement with Parliament (Pym), execution of Earl of Strafford.</note>
+	
+	<note type="source">Various errors, particularly in the reproduction of names, indicate that the text is a copy. For instance, the form of the name of Chaloner as &lt;Chalwer&gt; on page 33 suggests a misreading of &lt;on&gt; as &lt;w&gt;; the text on page suggests a misunderstanding or misreading of <mentioned>ysgafell</mentioned> 'scaffold' as <mentioned>ystafell</mentioned> 'room'. The corrections <mentioned>nghneifio</mentioned> for <mentioned>mling</mentioned> on page 45 (line 1221) and <mentioned>nodedig</mentioned> for <mentioned>caredig</mentioned> on page 62 (line 1721) suggest eye-skip errors during copying. The metre indicates that a line of text has been omitted with no indication at one point, further evidence of copying. This line has been numbered 1109 in the transcription, and left blank. The copyist appears to have confused the characters of the Earl of Essex and the Sequestrator, presumably through misinterpreting &lt;Esex&gt; in his original as an abbreviation for <mentioned>Esexquestrator</mentioned>, the form used throughout for Sequestrator. In the transcription corrections (corr-tags) have been added to restore the distinction.</note>
+	
+	<note type="lang">A number of linguistic and orthographic features are noteworthy:
+	<list>
+	<item>loss of immediately pretonic vowels (e.g. <mentioned>clomennod</mentioned> (1523)) (generally tagged)</item>
+	<item>reduction of first person singular present ending and pronoun -<mentioned>af i</mentioned> to -<mentioned>ai</mentioned> (not tagged)</item>
+	<item>the first person singular present ending -<mentioned>e</mentioned> is also found (for instance, <mentioned>wele</mentioned> (line 1672)) (tagged)</item>
+	<item>reduction of first person singular prefixed genitive pronoun (<mentioned>fy</mentioned>) to <mentioned>y</mentioned> or zero (with retention of nasal mutation as the marker of person) (mostly tagged)</item>
+	
+	
+	</list>
+	</note>
+</notesStmt>
+
+<sourceDesc>
+<bibl>
+<title type="ms">Y rhyfel cartrefol, Cwrtmawr 42</title>
+<author><name>Huw Morys (?)</name></author>
+<dateRange from="1660">ar &ocirc;l 1660</dateRange>
+<biblScope lang="cym">testun cyflawn</biblScope>
+<biblScope lang="eng">entire text</biblScope>
+</bibl>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<p>The manuscript has been corrected and added to in various places by a second hand. The two hands found in the manuscript are identified, where necessary, using resp-attributes, the <rs id="hd1">main scribe</rs> (hand 1) as &quot;hd1&quot;, and the <rs id="hd2">second hand</rs> (hand 2) as &quot;hd2&quot;. The emendations of the second hand have been marked up in two different ways: where the emendations seem to be correct, the original text is marked up with a corr-element, with the original reading as a sic-attribute (that is, &lt;corr sic=&quot;hand 1's text&quot; resp=&quot;hd2&quot;&gt;hand 2's emendation&lt;/corr&gt;); where these corrections do not seem to be justified, the original is marked up with a sic-element, with hand 2's emendation as a corr-attribute (that is, &lt;sic corr=&quot;hand 2's emendation&quot; resp=&quot;hd2&quot;&gt;hand 1's text&lt;/sic&gt;).</p>
+
+<p>Editorial punctuation has been added throughout and capitalisation has been adjusted accordingly. Speaker headings and stage directions are in the left margin throughout, and this has not been tagged separately in each case. They have generally been placed at the end of the speech to which they relate.</p>
+
+<p>Line groups are identified either as couplets or quatrains using the type-attribute of the lg-element (possible values &quot;couplet&quot;, &quot;quatrain&quot;, or &quot;unknown&quot;).</p>
+
+<p>On page 6, a gap is left, with a speaker heading in the margin, approximately the size of a stanza. The lines of the gap have been numbered 139-42 in the diplomatic version and concordance. Another two lines, numbered 195-6, have been left blank in the same way pn page 7.</p>
+
+<p>It has been assumed that the maid (<mentioned>y forwyn</mentioned>) who appears on page 16 is the same character as the Queen's handmaid (<mentioned>y llawforwyn</mentioned>) on pages 23-4.</p>
+
+<p>Note that the text includes square brackets from the original at one point (line 1572).</p>
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs> (including some transcriptions in the <rs id="ipa">International Phonetic Alphabet</rs>).</p>
+    </langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date>22 Feb 2003</date>
+<respStmt>
+<resp></resp>
+</respStmt>
+<item>Removed line numbers; check empty lines!</item>
+</change>
+
+<change>
+<date>4 July 2002</date>
+<respStmt>
+<resp></resp>
+</respStmt>
+<item>All corr-elements now have a resp-attribute; all add-elements that did not yet have a place-attribute got 'supralinear'; this needs checking!</item>
+</change>
+
+<change>
+<date>29.06.02</date>
+<respStmt>
+<resp></resp>
+</respStmt>
+<item>Expansions only partly updated</item>
+</change>
+
+<change>
+<date>5 Dec 2001</date>
+<respStmt>
+<resp/>
+</respStmt>
+<item>Removed sp from around prologue; created castlist, moved this to Front, marked it as 'supplied', deleted duplicates</item>
+</change>
+
+<change>
+<date>3 Dec 2001</date>
+<respStmt>
+<resp/>
+</respStmt>
+<item>Deleted, illegible letters encoded with gap (needs checking)</item>
+</change>
+
+<change>
+<date>7 Nov. 2001</date>
+<respStmt>
+<name>IM</name>
+<resp>transcr.</resp>
+</respStmt>
+<item>Made some changes on p. 1 of text; still mostly problematic</item>
+</change>
+
+<change>
+<date>3 Nov 2001</date>
+<respStmt>
+<name>IM</name>
+<resp>transcr.</resp>
+</respStmt>
+<item>Inserted div (types 'prologue, body, epilogue' respectively); fw for 'speaker-repeat' finished; one more correction to iso-lat1.ent (ucirc/Ucirc): scribal notes integrated into main text; accepted corr. by Hd2: used corr-tag (Hd2-reading in sic-attr.) - rejected corr by Hd2: used sic-tag (with Hd2-corr. in corr-attr.)</item>
+</change>
+</revisionDesc>
+</teiHeader>
+<!-- CURRENT FILE -->
+<!-- Revision history:
+UNCLEAR-tag occasionally used for unclear meaning!
+abbreviations expanded except Mr/M.r
+Line group types introduced (couplet, quatrain, unknown)
+Check l. 493 tagging
+Capitalized speakers (within SPEAKER tags)
+
+Where stanzas are interrupted by stage directions, use part attribute! -->
+<text id="RhC">
+<front>
+<div type="supplied-castlist">
+<p>
+<castList>
+<castItem type="role">
+<role id="Ff">Ffwl</role>
+</castItem>
+<castItem type="role">
+<role id="Ss">Sais</role>
+</castItem>
+<castItem type="role">
+<role id="St">Scot</role>
+</castItem>
+<castItem type="role">
+<role id="Cw">Cwnstable</role>
+</castItem>
+<castItem type="role">
+<role id="Gw">Gwyddel</role>
+</castItem>
+<castItem type="role">
+<role id="Cy">Cymro</role>
+</castItem>
+<castItem type="role">
+<role id="C1">Brenin Charles I</role>
+<name id="Charles_I">King Charles I (1600-49)</name>
+</castItem>
+<castItem type="role">
+<role id="Ex">Esex</role>
+<name id="Essex">Devereux, Robert, third earl of Essex (1591-1646), parliamentarian army officer</name>
+</castItem>
+<castItem type="role">
+<role id="Pm">Arglwydd Pum</role>
+<name id="Pym">John Pym (1584-1643), parliamentarian politician</name>
+</castItem>
+<castItem type="role">
+<role id="Sb">Ysbeier</role>
+</castItem>
+<castItem type="role">
+<role id="Fr">Y Frenhines</role>
+<name id="Henrietta_Maria">Princess Henrietta Maria of France (1609-69), consort of Charles I</name>
+</castItem>
+<castItem type="role">
+<role id="Fo">Y (Llaw)Forwyn</role>
+</castItem>
+<castItem type="role">
+<role id="Hp">Pedler alias Capten Hampar alias Sequestrator / Esexwestrator</role>
+</castItem>
+<castItem type="role">
+<role id="Hs">Cobler alias Hu(w)son</role>
+<name id="Hewson">John Hewson (<hi rend="italic">fl.</hi> 1630-60), parliamentarian army officer</name>
+</castItem>
+<castItem type="role">
+<role id="Bx">Lifftenant Genaral Brwx</role>
+<name id="Brooke">Robert Greville, second Baron Brooke of Beauchamps Court (1607-43), parliametarian army officer</name>
+</castItem>
+<castItem type="role">
+<role id="Jd">Genaral Jarad</role>
+</castItem>
+<castItem type="role">
+<role id="Mo">Prins Moris alias Y Cabelir</role>
+<name id="Maurice">Maurice, prince palatine of the Rhine (1621-52), royalist army and naval officer</name>
+</castItem>
+<castItem type="role">
+<role id="Rb">Prins Rubert</role>
+<name id="Rupert">Rupert, prince and count palatine of the Rhine and duke of Cumberland (1619-82), royalist army and naval officer</name>
+</castItem>
+<castItem type="role">
+<role id="Hn">Hwsmon</role>
+</castItem>
+<castItem type="role">
+<role id="Cr">Olifer Crwm(w)el</role>
+<name id="Cromwell">Oliver Cromwell (1599-1658), Lord Protector</name>
+</castItem>
+<castItem type="role">
+<role id="Bd">Brodsaw<isp/>'r Justus</role>
+<name id="Bradshaw">John Bradshaw (1602-59), judge at the trial of Charles I</name>
+</castItem>
+<castItem type="role">
+<role id="Fe">Y Ferch Cariad i Jarad</role>
+</castItem>
+<castItem type="role">
+<role id="C2">Brenin Charles II</role>
+<name id="Charles_II">King Charles II (1630-85)</name>
+</castItem>
+<castItem type="role">
+<role id="Sr">Saer</role>
+</castItem>
+<castItem type="role">
+<role id="Jn">Jane L&acirc;n</role>
+</castItem>
+<castItem type="role">
+<role id="Hr">Harris(hon)</role>
+<name id="Harrison">Thomas Harrison (1616-60), parliamentarian army officer</name>
+</castItem>
+<castItem type="role">
+<role id="Fd">Fflitwd</role>
+<name id="Fleetwood">Charles Fleetwood (<hi rend="italic">c.</hi> 1618-92), parliamentarian army officer</name>
+</castItem>
+<castItem type="role">
+<role id="Hg">Hasrig</role>
+<name id="Hesilrige">Sir Arthur Hesilrige, second baronet (1601-61), parliamentarian army officer and politician</name>
+</castItem>
+<castItem type="role">
+<role id="Mw">Mwngc</role>
+<name id="Monck">George Monck, first duke of Albermarle (1608-70), army and naval officer</name>
+</castItem>
+</castList>
+</p>
+</div>
+</front>
+
+<body>
+<pb n="1"/>
+<div type="prologue">
+<head><lb/>Prolog</head>
+<lg type="couplet">
+<l>Dydd da fo ich 'r lan gynlleidfa,</l>
+<l>hawddgar wreiddyn Riddyn Adda</l>
+</lg>
+<lg type="couplet">
+<l>a llin Gomer a nifer nwyfus,</l>
+<l>jawn ddi brattio Eppil Bruttus.</l>
+</lg>
+<lg type="quatrain">
+<l>I mae Langc <sic corr="neu langces" resp="hd2">a llances</sic></l>
+<l><unclear>Yn</unclear> Cym'ryd Enw y frenhines</l>
+<l><damage><c/><c/><c/></damage> gyflawni yr chware<isp/>'n jawn</l>
+<l><damage><c/><c/><c/></damage>yn o gyflawn hanes</l>
+</lg>
+<lg type="quatrain">
+<l><name key="Pym">Pum</name>, <name key="Essex">Esex</name> a <name key="Brooke">Brwx</name> oedd dechre<isp/>'r <sic corr="ymrafel" resp="hd2">Rhyfel</sic>;</l>
+<l>ag yno y daeth <name key="Harrison">Harrishon</name> ag <name key="Cromwell">Olifer <unclear>Crwmwel</unclear></name>.</l>
+<l>Yn ol hyny <name key="Fleetwood">fflittwd</name> beniaeth boeth</l>
+<l>a <name key="Hesilrige">Hesalig</name> ryboeth Rebel.</l>
+</lg>
+<lg type="quatrain">
+<l>Ymhartti cyfiawnder daw<isp/>'r <name key="Gerard">Genaral Jarad</name>,</l>
+<l><name key="Rupert">Prins Rubert</name> a <name key="Maurice">Maurice</name> <unclear>yn gowir</unclear> drwy gariad,</l>
+<l>a <name key="Monck">Genaral Mwngc</name>, pob Cymro a<isp/><apo/>i <unclear>c&acirc;r</unclear>,</l>
+<l>yn <unclear>ddyddiwr ar ddiwediad</unclear>.</l>
+</lg>
+<lg type="quatrain">
+<l>Ynghanol y terfysc cewch weled 'r <unclear>hwsmon</unclear></l>
+<l><unclear>yn</unclear> brydd ag <unclear>'n llidiog</unclear> yn cwyno ei <unclear>golledion</unclear></l>
+<l><damage><c/><c/><c/><c/><c/><c/><c/><c/></damage> y Comitti yn mynd <damage><c/><c/><c/><c/></damage> 'st&ocirc;r</l>
+<l><damage><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/></damage><unclear>sequestrator</unclear> creulon.</l>
+</lg>
+<lg type="quatrain">
+<l><damage><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/></damage> ferch fonheddig ddi ball</l>
+<l><damage><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/></damage>ol ei synwyr a<isp/><apo/>i deall</l>
+<l><damage><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/></damage> frenhin dros y mor</l>
+<l><damage><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/><c/></damage></l>
+</lg>
+<addSpan hand="hd2" place="right-margin" to="addstanzahd2"/>
+<lg type="quatrain">
+<l>Mae un arall o<isp/><apo/>r chwaryddion</l>
+<l>yn cymryd henw aer y goron</l>
+<l>i ddangos gaethed oedd i le</l>
+<l>pan oedd o wrth dre <orig reg="Gaerwrangon">Gaerang<add place="supralinear" hand="hd2">on</add></orig></l>
+</lg>
+<anchor id="addstanzahd2"/>
+
+<pb n="2"/>
+<lg type="quatrain">
+<l>I mae yma ferch arall yn cwyno rhag cariad;</l>
+<l>Ciwpud a<isp/><apo/>i saethodd dros Genaral Jarad.</l>
+<l>Mae<isp/>'r consymsiwn dan ei bronn</l>
+<l>yn barod llon ei llugad.</l>
+</lg>
+<lg type="quatrain">
+<l>Daw amryw chwaryddion daith union doeth yma;</l>
+<l>ni ddweydai i chwi rwan yn hynod mo<isp/><apo/>i hennwa.</l>
+<l>Os byddwch distawedd i glywed yn glir</l>
+<l>a<isp/><apo/>i gweled nhw ar dir golau.</l>
+</lg>
+</div>
+<!-- End of prologue -->
+<div type="body">
+<stage><lb/>Enter y  <name>Ffwl</name>.</stage>
+<sp who="Ff ">
+<lg type="quatrain">
+<l>Myfi sydd yn dwad yn gynta</l>
+<l>i gym'ryd meddiant yma.</l>
+<l>Mi wela yma lawer o ferched gl&acirc;n;</l>
+<l>ymdynu a wn&acirc;n am<dsp/>dana.</l>
+</lg>
+<lg type="quatrain">
+<l>Mi ddaethym heddyw o<isp/><apo/>r <orig reg="Iwerddon">Werddon</orig></l>
+<l>i ddywedyd i chwi newyddion.</l>
+<l>Gelwch yma modrub mallt,</l>
+<l>hi a fedr ddallt breuddwydion.</l>
+</lg>
+<lg type="couplet">
+<l>Mi welais neithiwr freuddwyd garw:</l>
+<l>y gaseg l&acirc;s yn cym'ryd tarw</l>
+</lg>
+<lg type="couplet">
+<l>a<isp/><apo/>r fuwch g&ocirc;ch a<isp/><apo/>i phedair pedol</l>
+<l>ymron marw yn bwrw ebol.</l>
+</lg>
+<lg type="couplet">
+<l>Myfi a welswn hefyd</l>
+<l>gyw gwengci yn curro<isp/>'r barcud</l>
+</lg>
+<lg type="couplet">
+<l>ag a welwn ryw beth yn yr aw&ycirc;r,</l>
+<l>y dryw b&acirc;ch yn ll&acirc;dd yr eryr.</l>
+</lg>
+<lg type="couplet">
+<l>Os ydwi yn medru dallt hyn yma,</l>
+<l>bydd rhyfeddod fawr y flwyddyn nesa.</l>
+</lg>
+
+<pb n="3"/>
+<fw type="speaker-repeat"><lb/>Ffwl</fw>
+<lg>
+<l>Cewch weled llawer o ffolineb</l>
+<l>a<isp/><apo/>r byd yn myned yn y gwrthwyneb.</l>
+</lg>
+<lg type="couplet">
+<l>Mi dybygwn wrth y mreuddwyd</l>
+<l>fy mod i naill ai<isp/>'n ff&wcirc;l ai<isp/>'n brophwyd.</l>
+</lg>
+<stage><lb/>Enter Sais att y Ffwl.</stage>
+<!--in margin-->
+<lg type="couplet">
+<l>Pwy sydd yma yn <sic>gledde</sic></l>
+<l>yn dywedyd gwers y bedlem gyne?</l>
+</lg>
+<lg type="couplet">
+<l>Os doi o h&ucirc;d <sic corr="i" cert="?">iw</sic> Scot neu Saisyn,</l>
+<l>am ei gorwagedd mi a<isp/><apo/>i gwna nhw<isp/>'n gregyn!</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="couplet" part="I">
+<l>Pwy <corr sic="sydd" resp="hd1">ydi</corr><isp/>'r cn&acirc; sy' yma 'n bostio?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Gweithiwr tylawd sy mynd i gloddio.</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="couplet" part="I">
+<l>Ple mae dy arfe di, r&ocirc;g diog?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Dyma fy rhaw; mi &acirc;f i geisio fy mattog.</l>
+</lg>
+</sp>
+
+<stage><lb/> : Allan Ffwl.</stage>
+<stage><lb/>Entr Scot.</stage>
+<!--IN LEFT MARGIN OF THE TWO PRECEDING LINES-->
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="couplet" part="I">
+<l>Ffordd rwydd i chwi 'r cyfarwydd fab Seisnig!</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="couplet" part="F">
+<l>Ffordd rwydd i chwithe<isp/>'r gwr bonheddig!</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="couplet" part="I">
+<l>Pa ryw newydd sydd y rwan?</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="couplet" part="F">
+<l>Dim nid allai ddywedyd allan.</l>
+</lg>
+<lg type="couplet">
+<l>Mi a<isp/><apo/>ch gwela chwi yn drafaeliwr ebrwydd.</l>
+<l>Yn rhodd, dywedwch i mi newydd.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="couplet">
+<l>Gwell iw gwadu na dweud chwedel</l>
+<l>rhag fy h&ycirc;do am fy hoedel.</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="couplet">
+<l>Chwi ellwch ddweyd y peth a fynoch</l>
+<l>i mi yn weddol am a wyddoch.</l>
+</lg>
+<lg type="couplet">
+<l>Er gwell, er gwaeth, er drwg, er d&acirc;,</l>
+<l>ni chonfesiai byth i gna.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain">
+<l>I mae fy nghalon i yn gwenwyno</l>
+<l>wrth <name key="Strafford">Arglwydd Debiti</name> am fod yn swccrio</l>
+
+<pb n="4"/>
+<fw type="speaker-repeat"><lb/>Scot</fw>
+<l>pobri papist; os byddant byw,</l>
+<l>ni styriwn i<isp/><apo/>w distrywio.</l>
+</lg>
+<lg type="quatrain" part="I">
+<l>Mi wn yn dda wrth bwy rwy<isp/>'n dywedyd.</l>
+<l>A allai ymddiried i chwi am y mywyd?</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="quatrain" part="F">
+<l>Gellwch; gwisgwch y <corr resp="transcr" sic="gyddel">Gwyddel</corr> gwyllt</l>
+<l>a<isp/><apo/>r Cymro hoyw-wyllt hefyd.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain" part="I">
+<l>Pa'r ffydd sy drecha ymysc Bruttaniaid?</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="quatrain" part="F">
+<l>Rhai Protistaniaid, rhai Pabistiaid,</l>
+<l>ag i mae sect newydd ohonom ni</l>
+<l>y elwir Purittaniaid.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain">
+<l>Yr ydym ni 'r Scotiaid</l>
+<l>y part mwya yn Buwrittaniaid.</l>
+<l>Ni fedrwn dwyllo<isp/>'r Prottistant plaen</l>
+<l>yn Lloegr o flaen ei llugaid.</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="quatrain">
+<l>Mae ohonom ni army lawer</l>
+<l>a godant gyd'a chy'chwi yn Lloeger</l>
+<l>i gosbi 'r ffuliad sydd ar fai.</l>
+<l>Ni fwrdriwn rai ar fyrder.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain">
+<l>Ffarwel i <name key="Strafford">Stafford</name> a<isp/><apo/>r Frenhines!</l>
+<l>Nid ydynt hwy i<isp/><apo/>n mysc ond di <gap reason="deleted"/> wres,</l>
+<l>yn llochi<isp/>'r Pabistiaid i amlh&acirc;&ucirc;</l>
+<l>i seintiau a delwau di-les.</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="quatrain">
+<l>Pe gallen i ddisodli 'r rheini</l>
+<l>a gwneythr diben ar ei harmi,</l>
+<l>ni gosben y Cymru yn ddi-g&ecirc;l</l>
+<l>ag a wnaen i Wyddel weiddi.</l>
+</lg>
+</sp>
+
+
+<pb n="5"/>
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain" part="I">
+<l>Par<!--reg, apo?--> fodd i gallwn drwy ddichellion</l>
+<l>ei dadwreiddio o d&icirc;r y Werddon?</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="quatrain" part="F">
+<l>Oni fedri, g&acirc;d i<isp/><apo/>r Sais;</l>
+<l>mae ynddo ddyfais ddigon.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain" part="I">
+<l>Rwy<isp/>'n meddylio er ys dyddiau</l>
+<l>pa'r fodd y mae i mi chware 'nghardiau.</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="quatrain" part="F">
+<l>Yn faleusus gwna dy bart;</l>
+<l>cais <corr resp="transcr" sic="odro" cert="?">ordro</corr> card i ddechreu.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain">
+<l>Pe cawn y decc i<isp/><apo/>m llaw i ddechre,</l>
+<l>mi fyddwn perygl am y chware,</l>
+<l>ond cael ei sifflo mewn jawn drefn,</l>
+<l>a<isp/><apo/>r brenin ar gefn y cardie.</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="quatrain">
+<l>Ni fynwn sifflo 'r decc yn filen</l>
+<l>a<isp/><apo/>i rhannu hefyd i ni ein hunen</l>
+<l>nes cael unwaith dynu yn d&ecirc;g</l>
+<l>am un ar ddeg ar <orig reg="hugain">hugien</orig>.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain">
+<l>Mae tair teyrnas Brenin Lloeger</l>
+<l>wedi ei pesgi yn dew o fraster;</l>
+<l>ag ynte yn drugarog jawn,</l>
+<l>ei dwyllo a wnawn ar fyrder.</l>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="quatrain">
+<l>Rhaid ini fynd mewn gwisc <orig reg="colomennod">clome<expan>n</expan>nod</orig></l>
+<l>i wenheitho i<isp/><apo/>n Brenhin hynod</l>
+<l>a dal yn dynn i<isp/><apo/>w herbyn h&wcirc;</l>
+<l>mor arw ag eryrod.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain">
+<l>Nyni a ddechreuwn dynu <sic>'meirie</sic></l>
+<l>ag a neidiwn o<isp/><apo/>n peiriane.</l>
+<l>Nyni ein dau a wnawn y plott;</l>
+<l>myfi Scot a ddechre.</l>
+</lg>
+</sp>
+
+
+<pb n="6"/>
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="quatrain">
+<l>Mine <corr resp="transcr" sic="anhosa">arhosa</corr> yn fywiog</l>
+<l>peth gyda<isp/><apo/>r ci, peth gyda<isp/><apo/>r 'scyfarnog.</l>
+<l>Mae yno i ffyrnigrwydd ffel</l>
+<l>fy lloned fel y llwynog.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<!--
+
+<space extent="4 lines" id="space06"/>
+<note target="space06">4 lines left empty in the manuscript.</note> -->
+<lg type="unknown">
+<l/>
+<l/>
+<l/>
+<l/>
+</lg>
+</sp>
+
+<sp who="Ss">
+<speaker><lb/>Sais</speaker>
+<lg type="quatrain">
+<l>Rhoi rhyw fesur o ddyfeisie</l>
+<l>yn erbyn y Prottistan a<isp/><apo/>r Pabistie.</l>
+<l>Dros yr hatch, os bww a wna i,</l>
+<l>mi a<isp/><apo/>th wthia di a nhwythe.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit &ocirc;ll.</stage>
+<stage><lb/>Enter y  <name>Ffwl</name>.</stage>
+<sp who="Ff ">
+<lg type="quatrain">
+<l>Ni bu 'n y byd erioed y fath gyffro!</l>
+<l>Mae ynddo ryw rwystur mawr brysus i bresio.</l>
+<l>A gai fynd, meinir, <gap reason="deleted"/> &mdash; ni ddygai <orig reg="yr un">r&ycirc;n</orig> trais &mdash;</l>
+<l>dan odre<isp/>'ch pais i ymguddio?</l>
+</lg>
+<lg type="quatrain">
+<l>Diengwch, diengwch, y llangcie!</l>
+<l>Rhag eich gelynion cymrwch galone!</l>
+<l>I mae fy nghalon i 'n llai na d&icirc;s,</l>
+<l>ychydig &icirc;s na<isp/><apo/>m glinie.</l>
+</lg>
+<lg type="quatrain">
+<l>Pe cawn i fynd oddi yma i ryw le!</l>
+<l>Mae<isp/>'r cwnstablied wrth fy sodle.</l>
+<l>Os cai ddigon o le i ffoi,</l>
+<l>ni fynai mo<isp/><apo/>i pres-monie.</l>
+</lg>
+<lg type="quatrain">
+<l>Wel daccw<isp/>'r cwnstablied, ai whw, ai whw!</l>
+<l>Nid allai mo<isp/><apo/>r diangc tros geunant mor arw.</l>
+<l>Pa un ore i mi n<unclear>o</unclear>l, meddwch chwi,</l>
+<l>ai neidio a thorri 'ngwddw?</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Cwnstable</name>.</stage>
+<sp who="Cw ">
+<lg type="quatrain" part="I">
+<l>Tewch a siarad, trowch yma, syre.</l>
+<l>Na ddiengwch, os mynwch, hwdiwch bres-mone.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>Mi ges gyne godwm maith</l>
+<l>ag a dorais saith o<isp/><apo/>m asenne.</l>
+</lg>
+</sp>
+
+
+<pb n="7"/>
+<sp who="Cw">
+<speaker><lb/>Cwnstable</speaker>
+<lg type="quatrain" part="I">
+<l>Ni welai neb cyn ffittied</l>
+<l>i fenttro yn galonog o flaen Scottied.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>Nid iw fy nghalon i haner hu</l>
+<l>er y mod i yn rhythu fy lluged.</l>
+</lg>
+<lg type="couplet">
+<l>Pwy a geidw fy mhlantos <orig reg="bychain">bychin</orig></l>
+<l>os ai yn sawdwr dros y Brenin?</l>
+</lg>
+</sp>
+
+<sp who="Cw">
+<speaker><lb/>Cwnst</speaker>
+<lg type="couplet">
+<l>Pa sawl un o blant sydd i ti?</l>
+<l>Fe geiff y plwy gadw y rheini.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l>Mae i mi naw, Huw a<isp/><apo/>i bendithio,</l>
+<l>rhai yn dechre cerdded, rhai yn dechre cropio;</l>
+<l>nid ydynt fwy na <corr resp="transcr" sic="chywio">chywion</corr> gwydde</l>
+<l>na 'r hyna ond tair blwydd heno.</l>
+</lg>
+</sp>
+
+<sp who="Cw">
+<speaker><lb/>Cwns</speaker>
+<lg type="couplet" part="I">
+<l>Pwy all dy goelio? <unclear>Peth</unclear> iw dy gelwydd?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Mae i mi naw heb un fam a<isp/><apo/>i gilydd</l>
+</lg>
+<lg type="couplet">
+<l>a<isp/><apo/>r naw mam sydd iddynt yma</l>
+<l>a rheini yn ferched o<isp/><apo/>r gonesta.</l>
+</lg>
+</sp>
+
+<sp who="Cw">
+<speaker><lb/>Cwns</speaker>
+<lg type="couplet" part="I">
+<l>di a gest gryn drafferth yn ei ceisio.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Roedd cymdogion da yn fy helpio.</l>
+</lg>
+</sp>
+
+<sp who="Cw">
+<speaker><lb/>Cwns</speaker>
+<lg type="quatrain" part="I">
+<l>Tyrd oddi yma, gw&acirc;s aflawen,</l>
+<l>i gymryd arfe att y capten.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>Ni ddoi yno ond o h&ycirc;d fy nhin.</l>
+<l>Ni thalai i frenin frwynen.</l>
+</lg>
+<lg type="quatrain">
+<l>Ffarwel i chwi<isp/>'r holl ferched!</l>
+<l>Criwch ag wylwch, ni chewch i fyth mo<isp/><apo/>m gweled.</l>
+<l>Och! ni chawn ryw goffor dofn</l>
+<l>i lechu rhag ofn yr 'Scotied!</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y 2.</stage>
+<stage><lb/>Enter y Gwyddel a<isp/><apo/>r Cymro.</stage>
+<!--ON LEFT MARGIN of PRECEEDING STANZA-->
+<sp who="Gw">
+<speaker><lb/>Gwyddel</speaker>
+<lg type="unknown" part="I">
+<l>Dydd da fo <orig reg="ichwi">ichw</orig> y Cymro tawel.</l>
+</lg>
+</sp>
+
+<sp who="Cy">
+<speaker><lb/>Cymro</speaker>
+<lg type="unknown" part="F">
+<l>Dydd da fo i chwithe<isp/>'r Gwyddel.</l>
+</lg>
+</sp>
+
+<sp who="Gw">
+<speaker><lb/>Gwydde</speaker>
+<!--
+
+<space extent="1 line" id="space07a"/>
+<note target="space07a">Line left empty in the manuscript.</note> -->
+<!--this must be changed-->
+<lg type="unknown">
+<l/>
+</lg>
+</sp>
+
+<sp who="Cy">
+<speaker><lb/>Cymro</speaker>
+<!--
+
+<space extent="1 line" id="space07b"/>
+<note target="space07b">Line left empty in the manuscript.</note> -->
+<lg type="unknown">
+<l/>
+</lg>
+</sp>
+
+<!--THE PRECEEDING COULD BE A 2- OR A 4-LINE STANZA!-->
+
+<pb n="8"/>
+<sp who="Gw">
+<speaker><lb/>Gwyddel</speaker>
+<lg type="quatrain" part="I">
+<l>Pa ryw newydd sydd, y Cymro?</l>
+</lg>
+</sp>
+
+<sp who="Cy">
+<speaker><lb/>Cymro</speaker>
+<lg type="quatrain" part="F">
+<l>I mae gofal mawr a chyffro,</l>
+<l>a llawer gwr a llangc</l>
+<l>yn diangc rhag ei bresio.</l>
+</lg>
+</sp>
+
+<sp who="Gw">
+<speaker><lb/><corr resp="transcr" sic="Gwydde">Gwyddel</corr></speaker>
+<lg type="quatrain">
+<l>Fe aeth yr armi i <orig reg="ffordd">ffor</orig> er ys dyddie</l>
+<l>i siwrnai hirfaith yn ei harfe,</l>
+<l>ag i mae nhw heddyw yn y n&ocirc;d</l>
+<l>yn cyfarfod <name key="Leslie">Lasle</name>.</l>
+</lg>
+<lg type="quatrain">
+<l>Nhw aethon ynghyd, wel <corr resp="transcr" sic="dyn">dyna</corr> nhw<isp/>'n saethu.</l>
+<l>Deliwch wrthynt hwy, Saeson a Chymru,</l>
+<l>a gwnewch nad all un Scott</l>
+<l>ddyfeisio plott ond hynny.</l>
+</lg>
+</sp>
+
+<sp who="Cy">
+<speaker><lb/>Cymro</speaker>
+<lg type="quatrain">
+<l>Peth heb raid iw hyn o redfa?</l>
+<l>Gwr&ecirc;s gwyr cadarn a<isp/><apo/>i<!--ms Cadarn'ai--> mawr draha</l>
+<l>sydd yn dechre cynen c&acirc;s</l>
+<l>o anrheithio 'r deyrnas yma.</l>
+</lg>
+</sp>
+
+<sp who="Gw">
+<speaker><lb/>Gwyddel</speaker>
+<lg type="quatrain">
+<l>Tewch, tewch, nid rhaid mo<isp/><apo/>r gofalon</l>
+<l>rhwng Gwyddelod, Cymru a Saeson.</l>
+<l>Ni adawant un Scott yn fyw;</l>
+<l>pwy safia 'r cyfryw ladron?</l>
+</lg>
+</sp>
+
+<sp who="Cy">
+<speaker><lb/>Cymro</speaker>
+<lg type="quatrain">
+<l>Rwy<isp/>'n ofni fod rhai o<isp/><apo/>r Saeson</l>
+<l>yn ddau<dsp/>wynebog ag yn ffeilsion</l>
+<l>fel y gwnaethont frwydr hyll</l>
+<l>yn 'nhwyll y cyllyll hirion.</l>
+</lg>
+</sp>
+
+<sp who="Gw">
+<speaker><lb/>Gwyddel</speaker>
+<lg type="quatrain">
+<l>Mae fy nghenedl i yn y Werddon</l>
+<l>yr joed heb garu s&ocirc;n am Saeson.</l>
+
+<pb n="9"/>
+<fw type="speaker-repeat"><lb/>Gwyddel</fw>
+<lb/>
+<l>Tywyllodrus ydynt ymhob m&ocirc;dd</l>
+<l>yn brathu fel nadrodd brithion.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter y <name>Ffwl</name>.</stage>
+<sp who="Ff">
+<lg type="quatrain" part="I">
+<l>Pwy sydd yma mor ben uchel:</l>
+<l>ai chwi 'r Cymro gl&acirc;n a<isp/><apo/>r Gwyddel?</l>
+</lg>
+</sp>
+
+<sp who="Cy">
+<speaker><lb/>Cymro</speaker>
+<lg type="quatrain" part="F">
+<l>Wyt ti yn rhodio a<isp/><apo/>th draed yn rhydd?</l>
+<l>Pa<unclear>r</unclear><!--apo?--> newydd sydd o<isp/><apo/>r fattel?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l>Battel fawr, nid battel fechan.</l>
+<l>Fo ddarfu i mi ollwng un ergyd allan</l>
+<l>ag a wneythim i <name key="Leslie">Lasle</name> ofyn nawdd,</l>
+<l>do, 'n ddigon hawdd fy hunan.</l>
+</lg>
+<lg type="couplet">
+<l>Fe ddarfu iddynt hwy gyttuno:</l>
+<l>fe gadd y sawdwyrs ei disbandio.</l>
+</lg>
+<lg type="couplet">
+<l>Hwy amcanasant yn y fattel</l>
+<l>fy 'ngwneythr i<isp/>'n farchog mawr o ryfel.</l>
+</lg>
+</sp>
+
+<!--REST OF PAGE LEFT EMPTY; 'CYMRO' ERASED-->
+
+<pb n="10"/>
+<sp who="Cy">
+<speaker><lb/>Cymro</speaker>
+<lg type="quatrain" part="I">
+<l>Siwr ni byddynt ddim mor ddi<dsp/>bris.</l>
+<l>Gwilia yr Gwyddel sydd yn Bapis't.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>Rwy<isp/>'n dywedyd y gwir i ti, gn&acirc;.</l>
+<l>Cilia neu wna dy ddewis.</l>
+</lg>
+<lg type="quatrain">
+<l>Awn i ymofyn pa ryw newyddion</l>
+<l>sydd yn mysc y gwyr bon'ddigion.</l>
+<l>I rwy<isp/>'n ofni, drwg iw<isp/>'r peth,</l>
+<l>na cheir un gyfreth union.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit oll.</stage>
+<stage><lb/>Enter y Brenin Jarls, <corr resp="transcr" sic="Esexwestrator">Esex</corr>, Arglwydd Pum.</stage>
+<!--IN LEFT MARGIN OF THE PRECEEDING FIVE LINES-->
+<sp who="Ex">
+<speaker><lb/><corr resp="transcr" sic="Esexqe">Esex</corr></speaker>
+<lg type="quatrain">
+<l>Henffych well, Frenhin! <add place="supralinear" hand="hd1">Mae</add> Saeson a 
+Chymru,</l>
+<l>Yscodiad, Gwyddelod ei gyd wedi codi</l>
+<l>i fynd i eiste ar h&ecirc;n 'stent</l>
+<l>ar Barliament y foru.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>I rydwi 'n eich dewis, fy anwyl <orig reg="garedigion">gar'digion</orig>,</l>
+<l>i settlio fy nhernas i a<isp/><apo/>m achosion.</l>
+<l>Rhag digwydd amryfusedd maith</l>
+<l>gwnewch gyfraith unwaith union.</l>
+</lg>
+<lg type="quatrain">
+<l>Meddyliwch, meddyliwch, fy 'ngwir ddeiliad,</l>
+<l>na wnewch gam di<dsp/>bwyll a neb rhu danbaid.</l>
+<l>Gwnewch na bytho i<isp/><apo/>r isel fri</l>
+<l>yn rhoi arnoch i mo<isp/><apo/>i ochenaid.</l>
+</lg>
+<lg type="quatrain">
+<l>Sylfaenwch ych gwaith ar dduwiolder,</l>
+<l>dilynwch linyn y cyfiawnder</l>
+<l>er mwyn amddiffyn ffydd loyw lw&ycirc;s</l>
+<l>l&acirc;n eglur Eglwys Loeger.</l>
+</lg>
+</sp>
+
+<sp who="Pm">
+<speaker><lb/>Pum</speaker>
+<lg type="quatrain">
+<l>A rowch chwi yr holl bower rhyngon</l>
+<l>i eiste 'n llesol ar hyder 'wyllysion,</l>
+
+<pb n="11"/>
+<fw type="speaker-repeat"><lb/>Pum</fw>
+<l>a<isp/><apo/>ch llaw ar sefyll fyth heb feth</l>
+<l>ag wrth y peth a wnelon?</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Wel dyna gondisiwn anweddol; chwi a wyddoch</l>
+<l>fy rhwymo i sefyll wrth bob peth a wneloch</l>
+<l>rhag ofn digwydd bob rhyw ball</l>
+<l>neu fai rhu angall rhyngoch.</l>
+</lg>
+</sp>
+
+<sp who="Pm">
+<speaker><lb/>Pum</speaker>
+<lg type="quatrain">
+<l>Ni wnawn ni ddim ond a fo cyfaddas</l>
+<l>er lleshant a daioni i<isp/><apo/>r deyrnas</l>
+<l>fel y gallo yn synw&ycirc;r ni</l>
+<l>ych harddu chwi a<isp/><apo/>ch urddas.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Dan gondisiwn i chwi wneuthyr</l>
+<l>pob rhyw fosiwn yn gymhesur</l>
+<l>mi r&ocirc; fy llaw i fod bob tr&ocirc;</l>
+<l>i g&ycirc;dseinio a<isp/><apo/>ch synwyr.</l>
+</lg>
+</sp>
+
+<sp who="Ex Pm">
+<speaker><lb/><corr resp="transcr" sic="Esexqe">Esex</corr> <unclear>a</unclear> Phum</speaker>
+<lg type="quatrain">
+<l>A<isp/><apo/>r amod hwnw ni a eistedd<!--KORR-->wn;</l>
+<l>a<isp/><apo/>r tair teyrnas ni a<isp/><apo/>i chwiliwn:</l>
+<l>os bydd camwedd mewn un lle,</l>
+<l>yn onest ni a<isp/><apo/>i unionwn.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y 2.</stage>
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Mae digon o synwyr yn eich penne.</l>
+<l>O does cydwybod i<isp/><apo/>w calo<expan>n</expan>ne,</l>
+<l>gobeithio y rh&ocirc;nt bob peth dan s&ecirc;l</l>
+<l>yn deilwng fel y dyle.</l>
+</lg>
+<lg type="quatrain">
+<l>Rwy<isp/>'n gweddio yn wastadol</l>
+<l>ar i Dduw l'wyddo fy holl bobol,</l>
+<l>planu doethineb yn ei mysc</l>
+<l>yn llawn o addysc weddol.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Ysbeier</name>.</stage>
+<!--ADD HD2 'spec-ABBR-er'-->
+<sp who="Sb">
+<lg type="couplet">
+<l>Cenad wy, Frenhin, oddiwrth y Parliament</l>
+<l>i ddywedyd i chwi yr modd yr ydent</l>
+</lg>
+
+<pb n="12"/>
+<fw type="speaker-repeat"><lb/>Ysbeier</fw>
+<lg type="couplet">
+<l>gwedi cuttuno a<isp/><apo/>r holl cwmpeini</l>
+<l>i dorri pen yr <name key="Strafford">Arglwydd Debitti</name>.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain" part="I">
+<l>Nid yw fy <corr resp="transcr" sic="nhalon">nghalon</corr> i yn cuttuno</l>
+<l>mor ddi-anerch fwrw mono.</l>
+</lg>
+</sp>
+
+<sp who="Sb">
+<speaker><lb/>Ysbeier</speaker>
+<lg type="quatrain" part="F">
+<l>Fo basiodd sentens ganthynt hwy;</l>
+<l>nid ellir mwy mo<isp/><apo/>i safio.</l>
+</lg>
+</sp>
+
+<!--SPEAKER; BRENIN?-->
+<sp who="C1">
+<speaker><lb/><supplied>Brenin</supplied></speaker>
+<lg type="quatrain">
+<l>I mae<isp/>'n ofud yn fy 'nghalon</l>
+<l>golli <name key="Strafford">Debitti</name> bugail y Werddon.</l>
+<l>O<isp/><apo/>m nerth a<isp/><apo/>m cryfder colles ddarn.</l>
+<l>Nhw a wnaethont farn aghyfion.</l>
+</lg>
+</sp>
+
+<sp who="Sb">
+<speaker><lb/>Ysbeier</speaker>
+<lg type="couplet">
+<l>Mae geni Act o Barliament etto.</l>
+<l>Edrychwch pa fodd yr ych i<isp/><apo/>w leiccio.</l>
+</lg>
+<lg type="quatrain">
+<l>Arglwydd y Pum a welai yn gyfaddas</l>
+<l>i gasglu maleisia i<isp/><apo/>r holl deyrnas</l>
+<l>dan law <name key="Hotham">Hotham</name> i dre H&wcirc;l:</l>
+<l>wel dyna ei <corr resp="transcr" sic="cwbwb">cwbwl</corr> bwrpas.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain" part="I">
+<l>A gyttunasont hwy ar hynny?</l>
+</lg>
+</sp>
+
+<sp who="Sb">
+<speaker><lb/>Ysbeier</speaker>
+<lg type="quatrain" part="F">
+<l>Do, er gwaetha yr holl Gymru</l>
+<l>hwy a<isp/><apo/>ch codant chwi allan o<isp/><apo/>r T&wcirc;r Gwyn</l>
+<l>drwy fwriad cyn y foru.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain" part="I">
+<l>Yn fy nghalon rydwi 'n ofni</l>
+<l>ei bod mewn dichell i<isp/><apo/>m bradychu.</l>
+</lg>
+</sp>
+
+<sp who="Sb">
+<speaker><lb/>Ysbeier</speaker>
+<lg type="quatrain" part="F">
+<l>Pei cyflawnid 'wllys rhai,</l>
+<l>ni wnaent hwy lai na hynny.</l>
+</lg>
+<lg type="quatrain">
+<l>Mae geni waeth newyddion:</l>
+<l>I mae nhw yn erbyn yr esgobion;</l>
+<l>nhw a r&ocirc;nt gyfraith Lwydlo i lawr;</l>
+<l>fo ddigia<isp/>'r mawr swyddogion.</l>
+</lg>
+
+<pb n="13"/>
+<fw type="speaker-repeat"><lb/>Ysbeier</fw>
+<lg type="quatrain">
+<l>Ni cheir darllen yn yr eglwysi</l>
+<l>mo<isp/><apo/>r Comon Prayer; mae<isp/>'n rhaid ei losgi.</l>
+<l>Fe gollir ffrwyth 'scrythur b&ecirc;r,</l>
+<l>chwi wyddoch lawer gweddi.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Os torant hwy i lawr fraint esgobion</l>
+<l>a<isp/><apo/>r Comon Prayer, ni awn yn ddeillion.</l>
+<l>Ni bydd y trefi a<isp/><apo/>r wlad ar l&ecirc;d</l>
+<l>ond fel anifeilied <orig reg="gwylltion">gwlldion</orig>.</l>
+</lg>
+</sp>
+
+<sp who="Sb">
+<speaker><lb/>Ysbeier</speaker>
+<lg type="quatrain">
+<l>I mae nhw gwedi danfon armi</l>
+<l>yn erbyn Gwyddelod sydd yn codi.</l>
+<l>Crogi 'r Saeson ydi 'r sw&ycirc;dd</l>
+<l>am golli <name key="Strafford">Arglwydd Debitti</name>.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Bren</speaker>
+<lg type="quatrain">
+<l>Pe basent hwy mor bur galonna</l>
+<l>ag oedd hwnw yn ei feddylia,</l>
+<l>ni base Brydain fawr ei bri</l>
+<l><unclear>mi</unclear> browes i mor bryche.</l>
+</lg>
+</sp>
+
+<sp who="Sb">
+<speaker><lb/>Ysbeier</speaker>
+<lg type="quatrain">
+<l>Mae<isp/>'nhw yn ceisio, mawr ydi<isp/>'r andras,</l>
+<l>droi y Frenhines allan o<isp/><apo/>r deyrnas.</l>
+<l>Mi <corr sic="wna" resp="hd1">wn</corr> ar fr&ycirc;s mae hynny 
+a wn&acirc;n</l>
+<l>os nhw a g&acirc;n ei pwrpas.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Yrwan rwy<isp/>'n dechre da'llt ei dichellion.</l>
+<l>Ni wna'nhw lai na dwyn y nghoron.</l>
+<l>Och, och! ai<isp/>'n eifr di<dsp/>gr&ecirc;d</l>
+<l>yr aeth fy nefaid <orig reg="gwynion">gwnion</orig>?</l>
+</lg>
+<lg type="quatrain">
+<l>Ni safai byth dros golli mywyd</l>
+<l>wrth ei cyfraith anferth ynfyd.</l>
+<l>Attynt bellach, na naccewch,</l>
+<l>yn ddidwyll ewch i ddywedyd.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit ysbeier.</stage>
+<stage><lb/>Enter y <name>Pum</name>.</stage>
+<sp who="Pm">
+<lg type="quatrain">
+<l>Ai nid ydech chwi yn bodloni</l>
+
+<pb n="14"/>
+<fw type="speaker-repeat"><lb/>Pum</fw>
+<lb/>
+<l>i synwyr jeirll ag arglwyddi</l>
+<l>i wneuthur ordor ar y byd</l>
+<l>yn erbyn ynfyd bopri?</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Nid ydi weddus i mi ddiodde</l>
+<l>oddiar y nghlyn ddwyn fy nghledde.</l>
+<l>Os rhof i<isp/><apo/>ch dwylo chwi fy ffon,</l>
+<l>bydd siwr i<isp/><apo/>m bronn gael briwie.</l>
+</lg>
+<lg type="quatrain">
+<l><orig reg="Debygaswn">Dygaswn</orig> eich bod fel gwinwydd ffrwythlon</l>
+<l>a wnai ddaioni i bob rhyw ddynion.</l>
+<l>Chwith iw<isp/>'r sain, a chwithe sydd</l>
+<l>fel c&wcirc;n o<isp/><apo/>r gelldydd <orig reg="gwylltion">gwlldion</orig>.</l>
+</lg>
+<lg type="quatrain">
+<l>Pa beth sydd rhyngoch a<isp/><apo/>r esgobion</l>
+<l>s&ycirc; rhoi goleuni i bob rhyw ddeillion?</l>
+<l>Wel dyna chwi yn dadwreiddio ff&ycirc;dd</l>
+<l>a phob rhyw grefydd g<unclear>r</unclear>yfion.</l>
+</lg>
+</sp>
+
+<sp who="Pm">
+<speaker><lb/>Pum</speaker>
+<lg type="quatrain">
+<l>Peth bynnag a wnaethont, ni safwn wrtho.</l>
+<l>I mae 'r holl bower yn ein dwylo.</l>
+<l>Cl&ocirc;ch heb dafod ydech chwi.</l>
+<l>Fe ddarfu i ni guttuno</l>
+</lg>
+<lg type="quatrain" part="I">
+<l>gore i chwi fod yn fodlon</l>
+<l>rhag ych curo am eich coron.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain" part="F">
+<l>Pa<isp/><apo/>n waeth i mi ei cholli hi yn eich mysc</l>
+<l>na cholli dysc esgobion?</l>
+</lg>
+</sp>
+
+<sp who="Pm">
+<speaker><lb/>Pum</speaker>
+<lg type="quatrain" part="I">
+<l>Ni chewch i nag esgob nag ofer weddiau.</l>
+<l>Gwnewch ych gwaetha' a chwarewch eich cardiau!</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain" part="F">
+<l>Onid iw fy oes i yn fer,</l>
+<l>mi fynaf gyfiawnder finnau.</l>
+</lg>
+</sp>
+
+<sp who="Pm">
+<speaker><lb/>Pum</speaker>
+<lg type="couplet">
+<l>Dan ein dwylo ni mae<isp/>'r arfe.</l>
+<l>Ni <orig reg="chwynnwn">chwnwn</orig> Loegr cyn pen tridie.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit Pum.</stage>
+
+<pb n="15"/>
+<stage><lb/>Enter y <name>Frenhines</name>.</stage>
+<sp who="Fr">
+<lg type="quatrain">
+<l>Fy Mrenin parchedig a<isp/><apo/>m gwr priodol,</l>
+<l>fe aeth eich deiliaid chwi 'n gynhwynol.</l>
+<l>Dywedwch i mi pa newyd sydd;</l>
+<l>mi a<isp/><apo/>ch gwela chwi yn brydd anianol.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Gormod gorthrymder 'syweth sydd imi.</l>
+<l>Nid oes obaith dim daioni:</l>
+<l>yn y 'ngardd winwydden gain</l>
+<l>fe dyfodd drain a drysni.</l>
+</lg>
+<lg type="quatrain">
+<l>Hwy gawsent genad wrth ei gweniaith</l>
+<l>genif i ddosbarthu 'r gyfraith,</l>
+<l>a hwythe yn llosgi<isp/>'r Comon Prayer</l>
+<l>ag yn gwneuthyr ta&ecirc;r dratturiaith.</l>
+</lg>
+</sp>
+
+<sp who="Fr">
+<speaker><lb/>Frenhine<supplied>s</supplied></speaker>
+<lg type="quatrain">
+<l>I ryd wi yn ymul torri <orig reg="fy nghalon">nghalon</orig></l>
+<l>drosoch chwi fy Mrenhin ffyddlon.</l>
+<l>Ewch i ffordd o<isp/><apo/>i mysc ar fr&ucirc;s;</l>
+<l>mae nhw yn gwerylus greulon.</l>
+</lg>
+<lg type="quatrain">
+<l>Gyd'a nhw y mae<isp/>'r prentisiaid,</l>
+<l>y trains-band mewn arfe tanbaid,</l>
+<l>ag a<isp/><apo/>i bwriad fore a hw&ycirc;r</l>
+<l>ar ddal ar gywyr ddeiliaid.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Gyda nhw mae<isp/>'r nerth a<isp/><apo/>r gallu,</l>
+<l>ag maent mewn dichell i<isp/><apo/>m bradychu.</l>
+<l>Mi &acirc;f i ffordd cyn colli gwaed</l>
+<l>i geisio aed <orig reg="i">ei</orig> Gymru.</l>
+</lg>
+<lg type="quatrain" part="I">
+<l>Ffarwel, ffarwel, fy mh&ecirc;r winwydden!</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit Brenin.</stage>
+<sp who="Fr">
+<speaker><lb/>Frenhine<supplied>s</supplied></speaker>
+<lg type="quatrain" part="F">
+<l>Ffarwel! Trwy jechyd etto yn llawen</l>
+<l>ei deloch eilwaith yn eich &ocirc;l</l>
+<l>mewn braint yn ol i Lundain.</l>
+</lg>
+
+<pb n="16"/>
+<fw type="speaker-repeat"><lb/>Frenhines</fw>
+<lg type="quatrain">
+<l>Ni wn i yn y byd i ba le 'r a fine</l>
+<l>rhag ofn syrthio yn ei rhwyde.</l>
+<l>I mae nhw yn wastad drwy ei h&ucirc;d</l>
+<l>yn gosod gl&ucirc;d a<isp/>'i magle.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter y <name>Forwyn</name>.</stage>
+<sp who="Fo">
+<lg type="quatrain">
+<l>Dowch i ffordd i<isp/><apo/>r wl&acirc;d i dario</l>
+<l>i bl&acirc;s rhyw jarll lle i caffon groeso</l>
+<l>tan obeithio troi o rh&ocirc;d</l>
+<l>ar hyn o gafod heibio.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter y <name>Ffwl</name>.</stage>
+<sp who="Ff">
+<lg type="quatrain" part="I">
+<l>Diengwch, diengwch, y Frenhines!</l>
+<l>Am<dsp/>danoch chwi ymofyn a glywes.</l>
+</lg>
+</sp>
+
+<sp who="Fr">
+<speaker><lb/>Frenhine</speaker>
+<lg type="quatrain" part="F">
+<l>Awn i ffordd mewn dillad gwael</l>
+<l>rhag iddynt gael ein hanes.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y 3.</stage>
+<stage><lb/>Enter <name>Pedler</name>.</stage>
+<sp who="Hp">
+<lg type="couplet">
+<l>Wel dyma le <corr resp="transcr" sic="trefnu">trefnus</corr>: mi osoda yma 
+siop;</l>
+<l>mi a<isp/><apo/>i llenwa hi a lliain yn llawn hyd y top.</l>
+</lg>
+<lg type="couplet">
+<l>Colere; sidane; a<isp/><apo/>m <orig reg="careiau">creie</orig> fydd crair!</l>
+<l>Ni welwn i hauach siop ffeindiach mewn ffair.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Cobler</name>.</stage>
+<sp who="Hs">
+<lg type="quatrain">
+<l>Mi a wele yma gornel odiaeth</l>
+<l>i mi osod sett o <corr sic="gryddiaeth" resp="hd1">cobleriaeth</corr>.</l>
+<l>Mi a g&acirc;f weithan dy gwmni di</l>
+<l>yn hawddgar i gwmnhiaeth.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Pedler</speaker>
+<lg type="quatrain">
+<l>A brynwch i 'r bechgin ddim pine a <orig reg="nodwyddau">nydwydde</orig>,</l>
+<l>o fesul y dwsin y cardia na<isp/>'r disie?</l>
+<l>Mi a wele yma lawer d&ycirc;n:</l>
+<l>oes neb a brynn rybanne?</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Cobler</speaker>
+<lg type="quatrain">
+<l>Oes neb a fyn waltysu ei esgidie?</l>
+<l>Am ychydig o arian ceiff wniad o<isp/><apo/>r gore!</l>
+<l>Gwell i chwi dalu am drwsio 'ch cl&ocirc;</l>
+<l>nag anrheithio ych <orig reg="hosanau">sane</orig>.</l>
+</lg>
+<lg type="quatrain">
+<l>Da i medrai drwsio sodle merched,</l>
+
+<pb n="17"/>
+<fw type="speaker-repeat"><lb/>Cobler</fw>
+<l>a fydd yn pwyso ar i wared.</l>
+<l>Rwy<isp/>'n gystal cobler amser h&acirc;</l>
+<l>a wniodd a mynawed.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Brwx</name>.</stage>
+<sp who="Bx">
+<lg type="couplet">
+<l>Sawdwr dan jarll <name key="Essex">Esex</name> <orig reg="ydwyf">ydyw</orig>,</l>
+<l><name key="Brooke">Lifftenant Genaral Brwx</name><note resp="transcr">Robert Greville, second Baron Brooke of Beauchamps Court (1607-43), commanded a foot regiment that fought at the battle of Edgehill (1642) in the earl of Essex's army.</note> iw fy enw.</l>
+</lg>
+
+<lg type="couplet">
+<l>Oes yma neb a gymer fenter</l>
+<l>i ddwad gyda myfi yn soldier?</l>
+</lg>
+<lg type="couplet">
+<l>Ceiff swllt yn y dydd a ffriquarters</l>
+<l>am ddwad i blundrio y Cabaliers!</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Cobler</speaker>
+<lg type="quatrain" part="I">
+<l>Myfi a fentra yn ddigon talwych;</l>
+<l>i blundrio yn chwanog rwy fi<isp/>'n chwenych.</l>
+</lg>
+</sp>
+
+<sp who="Bx">
+<speaker><lb/>Brwx</speaker>
+<lg type="quatrain" part="F">
+<l>Os ymleddi yn sownd, ti gei jawn sw&ycirc;dd</l>
+<l>a dwyn yr w&ycirc;dd a fynych.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Pedler</speaker>
+<lg type="couplet">
+<l>Mine a fentre yn 'wllysgar</l>
+<l>ei grogi iddo a &ecirc;l i gario hamper.</l>
+</lg>
+<lg type="couplet">
+<l>Ymladd rwy fi yr<dsp/>joed am sodle</l>
+<l>a brith gonfeio fforio ffeirie.</l>
+</lg>
+</sp>
+
+<sp who="Bx">
+<speaker><lb/>Brwx</speaker>
+<lg type="couplet" part="I">
+<l>Dowch att y gw&ycirc;r i<isp/><apo/>r gwndwn.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Cobler</speaker>
+<lg type="couplet" part="F">
+<l>Ewch ymlaen, ni a<isp/><apo/>ch canlynwn.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y 3.</stage>
+<stage><lb/>Enter y Genaral <name key="Gerard">Jarad</name>.</stage>
+<sp who="Jd">
+<lg type="quatrain">
+<l>Myfi a elwir <name key="Gerard">Genaral Jarad</name>.</l>
+<l>Mae f' armi yn <corr resp="transcr" sic="drefnu">drefnus</corr> ar fy &ocirc;l i<isp/>'n dywad.</l>
+<l>Rhaid i mi yma foreu a n&ocirc;s</l>
+<l>gwrtrio tros yr holl-wlad.</l>
+</lg>
+<lg type="quatrain">
+<l>Mae<isp/>'n <name key="Charles_I">Brenin Jarls</name> pur o galon</l>
+<l>yn dwad i<isp/><apo/>m cyfarfod a gwyr ddigon</l>
+<l>i fynd y foru i Edgus-hul</l>
+<l>ynghweryl yr Aur Goron.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit<note resp="transcr">The stage direction here is erroneous, as is apparent from Gerard's continued conversation with the Fool.</note>.</stage>
+<stage><lb/>Enter y <name key="Ffwl">Ffwl</name>.</stage>
+<sp who="Ff">
+<lg type="quatrain">
+<l>Cyddiwch y pethe! Mae<isp/>'r ddwy armi yn dwad.</l>
+
+<pb n="18"/>
+<l>ag yn dwyn cyffyle<isp/>'r holl-wlad.</l>
+<l>Nhw ddygant y cloff wedi torri ei gl&ycirc;n</l>
+<l>ar llegis <gap reason="deleted" hand="hd1" extent="1 letter"/> heb un llygad.</l>
+</lg>
+<lg type="couplet">
+<l>Mae<isp/><orig reg="nhw">'nh</orig> yn plundrio gwydde a defed,</l>
+<l>ag yn dwyn morwyndod merched.</l>
+</lg>
+<lg type="couplet">
+<l>Ni adawsont un o Ddofr i Gaergybi</l>
+<l>o fewn y deyrnas heb fynd arni.</l>
+</lg>
+</sp>
+
+<sp who="Jd">
+<speaker><lb/>Jarad</speaker>
+<lg type="couplet" part="I">
+<l>Oes llawer o w&ycirc;r gyd a<isp/><apo/>r Brenin?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Mae<isp/>'r holl bur ddeiliad yn ei ddilin;</l>
+</lg>
+<lg type="quatrain">
+<l>mae<isp/>'r <name key="Maurice">Prins Morus</name>, chwi adwaenoch hwnw,</l>
+<l>y Cornol Robins a<isp/><apo/>r Cornol <sic>marw</sic></l>
+<l>a <name key="Vavasour">S<expan>y</expan>r Williams</name><note resp="transcr">Perhaps Sir William Vavasour, baronet (d. 1659) and royalist army officer, who commanded the Welsh forces at the siege of Gloucester in August 1643.</note> ag armi gr&ecirc;.</l>
+<l>Nhw losgant Dre Caer Loyw.</l>
+</lg>
+</sp>
+
+<sp who="Jd">
+<speaker><lb/>Jarad</speaker>
+<lg type="couplet">
+<l>Oes yma neb ymysc y gwerin</l>
+<l>o gywir fron a garo ei Frenin?</l>
+</lg>
+<lg type="couplet">
+<l>Od oes, doed mewn gwrol gariad</l>
+<l>i<isp/><apo/>w amddiffyn rhag y Rowndiad.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l>Myfi a fentra, os mentra undyn.</l>
+<l>Rwy cyn <orig reg="wyllted">wllted</orig> a<isp/><apo/>r aderyn.</l>
+<l>O nerth y <orig reg="mraich">mrauch</orig> a<isp/><apo/>r cledde hwn</l>
+<l>mi a gurra grwn ei goryn.</l>
+</lg>
+</sp>
+
+<sp who="Jd">
+<speaker><lb/>Jarad</speaker>
+<lg type="couplet">
+<l>Rwyt ti yn rhagorol ar dy dafod.</l>
+<l>Dwad i mi dy henw hynod.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Nis gwni mo<isp/><apo/>m henw, mi a<isp/><apo/>i gollynges o yn ango.</l>
+<l>Ni ddaw c&ocirc; geni mo<isp/><apo/>m bedyddio.</l>
+</lg>
+<lg type="quatrain">
+<l>Cilsix y gelwid fy 'nghledde:</l>
+<l>mi a leddais chwech ar bymp o ddyrnodie.</l>
+<l>Ni w&ycirc;r un dyn a<isp/><apo/>r sydd yn fyw</l>
+<!--NEW SPEAKER?-->
+<l>mor <orig reg="wychion">wchio</orig> yw fy mreichie.</l>
+</lg>
+</sp>
+
+<sp who="Jd">
+<speaker><lb/>Jarad</speaker>
+<lg type="couplet">
+<l>Tyrd i<isp/><apo/>r maes, mentra yn hoyw.</l>
+
+<pb n="19"/>
+<fw type="speaker-repeat"><lb/>Jarad</fw>
+<l>Capten Cilsix y cei dy alw.</l>
+</lg>
+<lg type="couplet">
+<l>Mi wele<isp/>'r Brenin, rwy<isp/>'n ei <corr resp="transcr" sic="adnabob">adnabod</corr>,</l>
+<l>yn dwad a<isp/><apo/>i filwyr i<isp/><apo/>n cyfarfod.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter y Brenin a Moris.</stage>
+<!--MOVE TWO LINES UP?-->
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="couplet">
+<l>Ydech chwi yn barod, fy neiliad ffyddlon,</l>
+<l>i ymladd gyd a<isp/><apo/>r ffydd a<isp/><apo/>r goron?</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>Morus</speaker>
+<lg type="couplet" part="I">
+<l part="I"> Parod wy fi!</l>
+</lg>
+</sp>
+
+<sp who="Jd">
+<speaker><lb/>Jarad</speaker>
+<lg type="couplet" part="M">
+<!-- Repeat number?-->
+<l part="F"> Parod wy fine!</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="couplet" part="F">
+<l>Hwdiwch gomisiwn: tynwch ych cledde!</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>Prins Morus</speaker>
+<lg type="couplet">
+<l>Ple cowsoch chwi<isp/>'r capten yma?</l>
+<l>Mae fo<isp/>'n wr sownd, mi a<isp/><apo/>i gwranta.</l>
+</lg>
+</sp>
+
+<sp who="Jd">
+<speaker><lb/>Jarad</speaker>
+<lg type="couplet">
+<l>Ni chais ef ond ei h&ucirc;n i<isp/><apo/>w ganmol:</l>
+<l>fe laddodd chwech o w&ycirc;r cyneddfol.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l><orig reg="cryf">Cru</orig> iw f' <orig reg="mraich">mrauch</orig> ac awchlym iw fy nghledde.</l>
+<l>Ni fedrwch chwi handlio mo<isp/><apo/>ch cledde!</l>
+</lg>
+<lg type="couplet">
+<l>Edrychwch arnai yn dysgu ymffensio,</l>
+<l>onide chwi gewch ych curro.</l>
+</lg>
+<lg type="couplet">
+<l>Oni wnewch i fel hyn, ni th&acirc;l i chwi ddraen:</l>
+<l>cilio yn eich &ocirc;l a neidio yn eich blaen.</l>
+</lg>
+<lg type="couplet">
+<l>Cychwnwch tuag yma, ewch tu a thraw,</l>
+<l>edrychwch ar ei draed a threwch ar i law.</l>
+</lg>
+<lg type="quatrain">
+<l>Myfi ymladda 'n ddigon chwanog</l>
+<l>a<isp/><apo/>m rhaw, a<isp/><apo/>m pigfforch, a<isp/><apo/>m caib, a<isp/><apo/>m battog.</l>
+<l>Mi a<isp/><apo/>i bratha nhw a<isp/><apo/>r mynawydydd a <orig reg="gw&euml;yll">gwiall</orig> gwau.</l>
+<l>Ffwrdd, Rowndied dauwynebog!</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter y Cobler a<isp/><apo/>r ysbeier.</stage>
+<!--MOVE UP?-->
+<sp who="Hs Sb">
+<speaker><lb/>Cobler a<isp/><apo/>r Ysbeier</speaker>
+<lg type="couplet">
+<l>Cenad ym ni, sydd yn trafaelio</l>
+<l>oddiwrth <name key="Essex">jarll Esex</name> i<isp/><apo/>ch sialensio.</l>
+</lg>
+<lg type="couplet">
+<l>Pa un a wnewch i: ai gildio, dywedwch,</l>
+<l>ai dwad i faes, os lafeswch?</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>P Moris</speaker>
+<lg type="couplet">
+<l>Nyni a ymladdwn gyd a<isp/><apo/>r efengil</l>
+<l>a chyda<isp/>'r holl <orig reg="dywysogol">d'wysogawl</orig> eppil.</l>
+</lg>
+</sp>
+
+
+<pb n="20"/>
+<sp who="Hs Sb">
+<speaker><lb/>Cobler, Ysbeier</speaker>
+<lg type="couplet">
+<l>Gyda<isp/>'r Parliament nine a fentrwn.</l>
+<l>Y foru y bore ni a<isp/><apo/>ch cyfarfyddwn.</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>P Moris</speaker>
+<lg type="quatrain" part="I">
+<l>Pam y rwyt i gwedi synnu?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>Oni ddarfu hwn accw fy llugaid tynnu?</l>
+<l>Och, na fawn i <orig reg="ym mol">ym&ocirc;l</orig> h&ecirc;n fuwch</l>
+<l>neu yngwaelod lluwch yn llechu!</l>
+</lg>
+</sp>
+
+<sp who="Jd">
+<speaker><lb/>Jarad</speaker>
+<lg type="couplet">
+<l>Nid rhaid <add place="supralinear" hand="hd1">it</add> ofni mo<isp/><apo/>r gwasanaeth,</l>
+<l>a thithe yn ll&acirc;dd chwe g&wcirc;r ar unwaeth.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Nid chwe g&wcirc;r ond chwe gwybedyn</l>
+<l>oedd yn sefyll ar fiswelyn;</l>
+</lg>
+<lg type="couplet">
+<l>a chwedi i mi dorri <orig reg="clun">cl&ycirc;n</orig> y seithfed</l>
+<l>fo amcanodd dynu un o<isp/><apo/>m llyged.</l>
+</lg>
+<lg type="quatrain" part="I">
+<l>A gai sefyll yn ola</l>
+<l>fel y gallwi ddiangc yn gynta?</l>
+</lg>
+</sp>
+
+<sp who="Jd">
+<speaker><lb/>Jarad</speaker>
+<lg type="quatrain" part="F">
+<l>Tyn dy gledde a <orig reg="chwyd">chwad</orig> dy gl&ocirc;s!</l>
+<l>Fulen, d&ocirc;s ymlaena!</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter Brwx, Esex, cobler, pedler.</stage>
+<!--COBLER ALREADY ON STAGE-->
+<sp who="Ex">
+<speaker><lb/>Esex</speaker>
+<lg type="couplet" part="I">
+<l>Rhowch d&acirc;n arnynt! Cyrwch, cyrwch!</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>P Moris</speaker>
+<lg type="couplet" part="F">
+<l>Dowch, y ngw&ycirc;r ine, attynt, gollyngwch!</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l>Ai dyma<isp/>'r parch sydd ar Gris'nogion?</l>
+<l>Peidiwch, na chanlynwch, fulens, fel y gelynion!</l>
+<l>Gwyn ei fyd a gae le i ff&ocirc;</l>
+<l>i bylle gl&ocirc; Rhiwabon.</l>
+</lg>
+</sp>
+
+<stage><lb/>Syrthio i lawr yn farw.</stage>
+<sp who="Jd">
+<speaker><lb/>Jarad</speaker>
+<lg type="couplet" part="I">
+<l>Ple mae 'r <name key="Rupert">Prins Rubert</name> l&acirc;n <!--l&ocirc;n?--> galonog?</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name key="Rupert">Rubert</name>.</stage>
+<sp who="Rb">
+<lg type="couplet" part="F">
+<l>Dyma fi<isp/>'n dwad, ymleddwch yn gefnog!</l>
+</lg>
+</sp>
+
+<sp who="Ex">
+<speaker><lb/>Esexqe</speaker>
+<lg type="couplet">
+<l>Nhw aethont yn rhy <orig reg="gryf">gru</orig> i ni weithan.</l>
+<l>Ymsifftiad pawb drosto ei hunan!</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit <name key="Essex">Esexqe</name> a<isp/><apo/>i w&ycirc;r &ocirc;ll.</stage>
+<sp who="Rb">
+<speaker><lb/>Rubert</speaker>
+<lg type="couplet">
+<l>Siriwch, Frenin, byddwch lawen!</l>
+
+<pb n="21"/>
+<fw type="speaker-repeat"><lb/>Rubert</fw>
+<l>Nid &acirc; cyfiawnder i<isp/><apo/>r ddaiaren.</l>
+</lg>
+<lg type="couplet">
+<l>Fe fy<isp/>'r diwrnod gyda ny'ni;</l>
+<l>ni laddason beth aneiri.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Mae hyn yn drwblaeth ar fy meddwl:</l>
+<l>fe fy heb ddiben yn ddau ddwbwl;</l>
+<l>er lladd llawer heddyw ar goedd</l>
+<l>fy ngw&ycirc;r i oedd y cwbwl.</l>
+</lg>
+<lg type="couplet">
+<l>Dowch i<isp/><apo/>r gariss i orphwyso.</l>
+<l>Marchogwch yn suful, gwiliwch flino.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit oll ond y ffwl a<isp/><apo/>r pedler.</stage>
+<stage><lb/><lb/>
+<name>Pedler</name> yn chwilio<isp/>'r Ff&wcirc;l.</stage>
+<sp who="Hp">
+<lg type="quatrain">
+<l>Mi a chwilia boccedau<isp/>'r bobl feirwon</l>
+<l>ag a ddiosga ei dillad <orig reg="gwychion">gwchion</orig>.</l>
+<l>Wel dyma glamp o gaptain gl&acirc;n:</l>
+<l>caf aur ag arian ddigon!</l>
+</lg>
+<lg type="quatrain">
+<l>Nid oedd gronun o dryssor gantho</l>
+<l>ond dwy geniog a chettyn tobacco.</l>
+<l>Hawddfyd i mi am ben crwn</l>
+<l>ni fedrau hwn mo<isp/><apo/>r plundrio.</l>
+</lg>
+</sp>
+
+<stage><lb/>Toro<isp/>'r ff&wcirc;l a<isp/><apo/>r cledde, a<isp/><apo/>r ffwl yn 
+codi.</stage>
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l>Ai wh&wcirc;, lleidr, ai wch&wcirc;!</l>
+<l>A 'sbeili di ddyn gwedi marw?</l>
+<l>Gwilia rhag ofn fy yspryd i</l>
+<l>dy daflu di i dorri dy wddw!</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Pedler</speaker>
+<lg type="couplet" part="I">
+<l>Qwarters, qwarters, hwde fy nghledde!</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Moes i mi fy arian, picciwr poccede!</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Pedler</speaker>
+<lg type="couplet" part="I">
+<l>Hwde fy aur a<isp/><apo/>m harian hefyd.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Diolch i mi am gael dy fywyd.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Pedler</speaker>
+<lg type="quatrain" part="I">
+<l>Diolch ichwi, a Huw a<isp/><apo/>th gattwo.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit pedler.</stage>
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>D&ocirc;s di nerth dy draed i blyndrio.</l>
+<l>Pan ddarffo itti <corr resp="transcr" sic="galglu">gasglu</corr><isp/>'r g&ocirc;d,</l>
+<l>mi a dd&ocirc;f i<isp/><apo/>th gyfarfod etto.</l>
+</lg>
+
+<pb n="22"/>
+<fw type="speaker-repeat"><lb/>Ffwl</fw>
+<lg type="quatrain">
+<l>Ni welais ddyn mor llwfr yn unlle:</l>
+<l>fi yn ei ofni fo ag ynte yn fy ofni ine.</l>
+<l>Mi faswn yn diangc fel y c&icirc;</l>
+<l>ped fasei<isp/>'n codi yr cledde.</l>
+</lg>
+<lg type="quatrain">
+<l>Ond dedwydd a fy'm<!--=fu+m--> i gyne fentro</l>
+<l>yn fy mraw cyn fy mrifo.</l>
+<l>Ac os deil fy nghledde a<isp/><apo/>m trex,</l>
+<l>mi dala i Esex etto.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Esex</name>.</stage>
+<sp who="Ex">
+<lg type="couplet" part="I">
+<l>Weld dyma fi Esex yn dwad.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Nid ydwyf i yn codi amrant llygad.</l>
+</lg>
+</sp>
+
+<sp who="Ex">
+<speaker><lb/>Esex</speaker>
+<lg type="couplet">
+<l>Rwy ti yn un o<isp/><apo/>r Cabeliers.</l>
+<l>Gwna naill ai ymladd ai gofyn quarters!</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="I">
+<l>Ych nawdd, y gwr bonheddig!</l>
+<l>Na leddwch h&ecirc;n ddyn briwiedig.</l>
+</lg>
+</sp>
+
+<sp who="Ex">
+<speaker><lb/>Esex</speaker>
+<lg type="quatrain" part="M">
+<l>Ai sawdwr a<isp/><apo/>th <orig reg="saethodd">saethoedd</orig> di drwy dy ben?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>Nage, dwy lugoden Ffrengig.</l>
+</lg>
+</sp>
+
+<sp who="Ex">
+<speaker><lb/>Esex</speaker>
+<lg type="couplet" part="I">
+<l>Oni buost yn sawdwr dan y Brenin?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Do, o<isp/><apo/>m hanfodd; ni ymleddais i un tippin.</l>
+</lg>
+</sp>
+
+<sp who="Ex">
+<speaker><lb/>Esex</speaker>
+<lg type="couplet">
+<l>Powlia dy ben a d&ocirc;s yn Rowndied,</l>
+<l>tyrd gyd'a myfi a thro dy sieccaed.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Mi dro fel y gwynt; os ca fi well cyflog,</l>
+<l>mi a ladda fy mam am ddwy geniog.</l>
+</lg>
+<lg type="couplet">
+<l>Mi fentra wneud llawer o drix.</l>
+<l>Oni chlywsoch chwi s&ocirc;n am Gapten Cilsix?</l>
+</lg>
+</sp>
+
+<sp who="Ex">
+<speaker><lb/>Esex</speaker>
+<lg type="couplet" part="I">
+<l>Ai capten ydech chwi 'r pendefig?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Ie, h&ecirc;n sawdwr ffyrnig.</l>
+</lg>
+<lg type="couplet">
+<l>Oni welsoch chwi fi yn Scotland enwog</l>
+<l>yn gapten ar y Rig<unclear>h</unclear>ment Garpiog?</l>
+</lg>
+
+<pb n="23"/>
+<fw type="speaker-repeat"><lb/>Ffwl</fw>
+<lg type="couplet">
+<l>Mi a <gap reason="deleted" hand="hd1"/> dynais yno ffrittog o ffrau.</l>
+<l>Ni thalasoch <add place="supralinear" hand="hd1">imi</add> etto am hynny mo<isp/><apo/>m pau.</l>
+</lg>
+</sp>
+
+<sp who="Ex">
+<speaker><lb/>Esex</speaker>
+<lg type="couplet" part="I">
+<l>Ti gei dy bau; hwde swllt o ernest.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Croes yn y post eich <corr resp="transcr" sic="bob">bod</corr> yn wr gonest.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Cobler</name>.</stage>
+<sp who="Hs">
+<lg type="quatrain">
+<l>Mae geni newydd i<isp/><apo/>ch confforddio:</l>
+<l>fe ddarfu i mi enill Brusto.<note resp="transcr">Bristol fell to a Royalist assault at the end of July 1643, and was recatpured by Parliamentarian forces in September 1645.</note></l>
+<l>Am Gabeliers ni bydd mo<isp/><apo/>r s&ocirc;n;</l>
+<l>nid rhaid mo<isp/><apo/>i hunon heno.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Pedler</name>.</stage>
+<sp who="Hp">
+<lg type="quatrain">
+<l>Nyni ein dau oedd <orig reg="wychaf">wcha</orig> yn tarro.</l>
+<l>Chwi a<dsp/>ddawsoch i ni swydd am 
+fentro.</l>
+<l>Ni a gawson ag a roeson lawer br&acirc;th.</l>
+<l>Nid oedd mo<isp/><apo/>n bath am fwrdrio.</l>
+</lg>
+</sp>
+
+<sp who="Ex">
+<speaker><lb/>Esex</speaker>
+<lg type="quatrain">
+<l>Am eich bod chwi mor ymladdgar,</l>
+<l>di gei dy alw Capten Hampar,</l>
+<l>a thithe yn Gapten, s&acirc; n dy r&ycirc;ch,</l>
+<l>Huwson w&ycirc;ch ymladdgar.<note resp="transcr">The cobler is John Hewson, a cobbler in Westminster in the 1630s, who rose to become a colonel in the Parliamentarian army in December 1645, and was appointed Lord Hewson under the Protectorate. He was commissioner at the trial of Charles I and signatory to his death warrant.</note></l>
+</lg>
+<lg type="quatrain">
+<l>Dowch eich trioedd gyd a myfi</l>
+<l>yn galonog ag yn lysti</l>
+<l>y foru i ymladd; cl&ocirc;d a gawn;</l>
+<l>yn ebrwydd ni awn i <orig reg="Newbury">Nubri</orig>.<note resp="transcr">The battle of Newbury, 20 September 1643.</note></l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y <corr resp="transcr" sic="3">4</corr>.</stage>
+<stage><lb/>Enter y <name>Frenhines</name> a<isp/><apo/>i llawforwyn.</stage>
+<sp who="Fr">
+<lg type="quatrain">
+<l>Ni bu erioed i wraig gymaint gorthrymder</l>
+<l>nag sydd i mi Brenhines Loegr.</l>
+<l>Gwell oedd i mi farw yn y man</l>
+<l>na byw mewn an-esmwythder.</l>
+</lg>
+<lg type="quatrain">
+<l>Ymado a<isp/><apo/>r deyrnas hon s&ycirc; chwithdod,</l>
+<l>a<isp/><apo/>m plant bychain, gormod pechod,</l>
+<l>oddiwrth ei gilydd fel w&ycirc;n gw&acirc;r</l>
+<l>yn myned &acirc;r ddisberod.</l>
+</lg>
+
+<pb n="24"/>
+<fw type="speaker-repeat"><lb/>Frenhines</fw>
+<lg type="quatrain">
+<l>Dros y dwr y mae<isp/>'n rhaid i mi fyned</l>
+<l>rhag ofn syrthio dan draed bleiddied.</l>
+<l>Och, na bawn o blith ei b&acirc;r</l>
+<l>mewn gwely o ddaiar galed!</l>
+</lg>
+<lg type="quatrain">
+<l>Ystyriwch, ystyriwch, wragedd a merched</l>
+<l>a phob g&wcirc;r sydd yn fy 'nghlywed:</l>
+<l>mae yn fy mynwes feddwl trwm,</l>
+<l>ni bu<isp/>'r<dsp/>ioed blwm cyn drymed.</l>
+</lg>
+</sp>
+
+<sp who="Fo">
+<speaker><lb/><corr resp="transcr" sic="Forwy">Forwyn</corr></speaker>
+<!--LLAWFORWYN TREATED AS IDENTICAL WITH FORWYN P. 16-->
+<lg type="quatrain">
+<l>Na byddwch r&ucirc; brydd i dorri 'ch calon</l>
+<l>dan obeithio gwell newyddion.</l>
+<l>Parhau byth yn fawr i bai</l>
+<l>ni ddichon rhai anghyfion.</l>
+</lg>
+</sp>
+
+<sp who="Fr">
+<speaker><lb/>Frenhines</speaker>
+<lg type="quatrain">
+<l>Nid eill calon mor <sic corr="dr&ucirc;garog" resp="hd2">anrhugarog</sic></l>
+<l>a maint ei gofal fod mor gefnog.</l>
+<l>Ffarwel i Lundain burlan b&ecirc;r,</l>
+<l>ffarwel i Loegr wresog!</l>
+</lg>
+</sp>
+
+<sp who="Fo">
+<speaker><lb/><corr resp="transcr" sic="Forwy">Forwyn</corr></speaker>
+<lg type="quatrain">
+<l>Rwy mor br&ycirc;dd a chwithe</l>
+<l>am fy nghariad sydd mewn arfe.</l>
+<l>Os colli a wnaeth hwnw ei oes,</l>
+<l>mi a golla fy einioes fine.</l>
+</lg>
+<lg type="quatrain">
+<l>Och, na bawn i yn ei freichie</l>
+<l>yn lle <orig reg="mynd">myn</orig> i hyn o siwrne</l>
+<l>yn ymwasgu a gl&acirc;n ei br&ycirc;d</l>
+<l>a gwyn ei fyd a fydde.</l>
+</lg>
+<lg type="quatrain">
+<l>Mae<isp/>'r gw&ycirc;r creulon drwg ei crefydd</l>
+<l>wedi enill part mwya o<isp/><apo/>r gwledydd.</l>
+<l>Ffarwel i<isp/><apo/>m Brenin! Ofni rwy</l>
+<l>na welwn mwy mo<isp/><apo/>n gilydd.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y 2.</stage>
+<stage><lb/>Enter y Capten Hamper a<isp/><apo/>r Capten Huson.</stage>
+<sp who="Hp">
+<speaker><lb/>Hamper</speaker>
+<lg type="couplet">
+<l>Rwy<isp/>'n wr bonheddig hawddgar</l>
+<l>rhagor bod yn cario hampar,</l>
+</lg>
+
+<pb n="25"/>
+<fw type="speaker-repeat"><lb/>Hamper</fw>
+<lg type="couplet">
+<l>yn cael fy nghyfarth gan bob corgi</l>
+<l>a<isp/><apo/>r plant yn taflu cerrig i mi.</l>
+</lg>
+<lg type="couplet">
+<l>Bym lawer gwaith yn <orig reg="wlyb">l&ucirc;b</orig> <orig reg="fy niblau">y nible</orig>,</l>
+<l>yn s&acirc;l fy ff&acirc;r yn cerdded ffeirie.</l>
+</lg>
+<lg type="couplet">
+<l>Rhaid oedd gwneythr wyneb truan</l>
+<l>a diolch am lastwr oer neu succan.</l>
+</lg>
+<lg type="couplet">
+<l>Nid rhyfedd i mi fod yn falch o<isp/><apo/>m codiad.</l>
+<l>I mae lasie ar fy 'nillad;</l>
+</lg>
+<lg type="couplet">
+<l>mi alla gymryd fy hunan heddyw</l>
+<l>y cwrw a<isp/><apo/>r cig a<isp/><apo/>r peth a fynnw.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain">
+<l>Rwy fine o<isp/><apo/>m codiad yn balchio.</l>
+<l><corr resp="transcr" sic="edrchwch">Edrychwch</corr>
+<orig reg="wyned">wned</orig> iw fy nwylo.</l>
+<l>A welsoch chwi <orig reg="erioed">'r<dsp/>joed</orig> wr mor syth?</l>
+<l>Nid ai mwy byth i bwytho.</l>
+</lg>
+<lg type="quatrain">
+<l>Peth llwyddiannus ydyw trawster</l>
+<l>rhagor bod yn byw mewn prinder</l>
+<l>wrth drin y <corr sic="llestr ar m&wcirc;g d&ucirc;" resp="hd2">cwyr a<isp/><apo/>r lleder d&ucirc;</corr></l>
+<l>a phawb yn cablu<isp/>'r cobler.</l>
+</lg>
+<lg type="couplet">
+<l>Rwan ni gawn y gwyr <orig reg="boneddigion">bon'ddigion</orig></l>
+<l>ddydd a nos i ni yn weision,</l>
+</lg>
+<lg type="couplet">
+<l>a byd br&acirc;f i gasglu braster!</l>
+<l>Na dd&ecirc;l heddwch byth i Loegr!</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Hwsmon</name>.</stage>
+<sp who="Hn">
+<lg type="quatrain">
+<l>Gwae fine fyth, gwae fine!</l>
+<l>A welsoch chwi ddim o<isp/><apo/>r sawdwyr's yn un lle?</l>
+<l>Fe ddarfu <orig reg="ymaelyd"></orig>meulyd yn y <orig reg="ngh&ecirc;g">ng&ecirc;g</orig></l>
+<l>a dwyn <orig reg="fy">y</orig> nghaseg inne.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/><unclear>Hampr</unclear></speaker>
+<lg type="couplet" part="I">
+<l>Pwy a <orig reg="chwaraeodd">chwr&acirc;dd</orig> a chwi mor hager?</l>
+</lg>
+</sp>
+
+
+<pb n="26"/>
+<sp who="Hn">
+<speaker><lb/>Hwsmon</speaker>
+<lg type="couplet" part="F">
+<l>Rhai o w&ycirc;r y Capten Hamper.</l>
+</lg>
+<lg type="couplet">
+<l>Ond da y dyle hwnnw ei grogi</l>
+<l>am gadw lladron yn ei gwmni?</l>
+</lg>
+<lg type="quatrain">
+<l>Fe ddarfu i un o w&ycirc;r y Brenin</l>
+<l>ddwyn y cyfrwy; fe aeth ynte a<isp/><apo/>r pilin.</l>
+<l>Nis gwn i p&acirc;'r fodd yn y b&ycirc;d</l>
+<l>yr <orig reg="af">&acirc;</orig> ine a<isp/><apo/>r &ycirc;d i<isp/><apo/>r felin.</l>
+</lg>
+<lg type="quatrain">
+<l>O flaen y fattel fawr yn Nubri</l>
+<l>dygason y cwbwl oll oedd genni;</l>
+<l>dw&ycirc;n y forwyn &mdash; ond dyna f&acirc;r? &mdash;</l>
+<l>a<isp/><apo/>r ferch yn legar ladi;</l>
+</lg>
+<lg type="couplet">
+<l>dwyn y ddiod a<isp/><apo/>r bwyd o<isp/><apo/>r bwttri;</l>
+<l>dwyn pais y wraig wedi mynd arni;</l>
+</lg>
+<lg type="couplet">
+<l>dwyn dillad y gw&acirc;s oddiwrth y gwely:</l>
+<l>yn ei gr&ycirc;s y mae o<isp/>'n dyrnu.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hampar</speaker>
+<lg type="couplet">
+<l>Mae arnai eisio hettan finne:</l>
+<l>cerdda di yn ben-noeth adre.</l>
+</lg>
+</sp>
+
+<sp who="Hn">
+<speaker><lb/>Hwsmon</speaker>
+<lg type="quatrain">
+<l>Nad ewch a<isp/><apo/>m hett i, y gwr bonheddig!</l>
+<l>Gan ffrind gyne y c&ecirc;s ei benthig.</l>
+<l>Rhag digio fy 'nghymydog, moeswch hi i mi;</l>
+<l>myfi a roddaf i chwi galenig.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamper</speaker>
+<lg type="couplet" part="I">
+<l>Di a<isp/><apo/>i cei hi yn &ocirc;l; moes i mi arian!</l>
+</lg>
+</sp>
+
+<sp who="Hn">
+<speaker><lb/>Hwsmon</speaker>
+<lg type="couplet" part="F">
+<l>Hwdiwch swllt o glempyn llydan.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamper</speaker>
+<lg type="couplet">
+<l>Hawdd i<isp/><apo/>r call dwyllo<isp/>'r ynfyd:</l>
+<l>mi &acirc;f a<isp/><apo/>r <corr resp="transcr" sic="swsllt">swllt</corr> a<isp/><apo/>r hettan hefyd.</l>
+</lg>
+<lg type="couplet">
+<l>D&ocirc;s di <corr sic="yn ol" resp="hd1">adre</corr> i drin dy 
+gattel;</l>
+<l>di gest ddigon o gwrs rhyfel.</l>
+</lg>
+</sp>
+
+
+<pb n="27"/>
+<sp who="Hn">
+<speaker><lb/>Hwsmon</speaker>
+<lg type="quatrain" part="I">
+<l>Ni <orig reg="lafasaf i">lyfasai</orig> fyth fynd adre</l>
+<l>wedi dwyn fy swllt a<isp/><apo/>m hett ore.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain" part="F">
+<l>Diang i ffordd a bydd fw&ycirc;n</l>
+<l>rhag i mi ddwyn dy esgidie.</l>
+</lg>
+</sp>
+
+<sp who="Hn">
+<speaker><lb/>Hwsmon</speaker>
+<lg type="couplet">
+<l>Gwell i mi fynd adre 'n ben-noeth;</l>
+<l>nid ai adre dridie<isp/>'n droed noeth.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit hwsmon.</stage>
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain">
+<l>Rwyt ti<isp/>'n gyfrwysach, gwn, o<isp/><apo/>r haner</l>
+<l>na myfi er maint fy nhrawster</l>
+<l>i sbeilio pen ffordd neu fygwth gwr&acirc;ch;</l>
+<l>mi a<isp/><apo/>th wele di yn lewach lawer.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamper</speaker>
+<lg type="quatrain">
+<l>Ond ffein y medrais iddo brattio</l>
+<l>nes cael ei arian yn y nwylo?</l>
+<l>Dowch i rodio tu'a<isp/><apo/>r bryn;</l>
+<l>ni dwyllwn ryw un etto.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y 2.</stage>
+<stage><lb/>Enter Brenin, a Genaral Jarad, Prince Morys.</stage>
+<sp who="Mo">
+<speaker><lb/>Morys</speaker>
+<lg type="couplet" part="I">
+<l>Wel, pa f&ycirc;d a gawn i bellach?</l>
+</lg>
+</sp>
+
+<sp who="Jd">
+<speaker><lb/>Jarad</speaker>
+<lg type="couplet" part="F">
+<l>Ny nhw sy<isp/>'n <orig reg="mynd">myn</orig> yn gryf&acirc;ch gryfach;</l>
+</lg>
+<lg type="couplet">
+<l>mynd yn wanach rydym nine,</l>
+<l>waeth waeth bob dydd er's dyddie,</l>
+</lg>
+<lg type="couplet">
+<l>er darfod lladd Brwx ar wndwn<note resp="transcr">Brooke was killed by a single shot from the spire of Lichfield Cathedral on 2 March 1643.</note></l>
+<l>a throi Esex o<isp/><apo/>i gomisiwn <note resp="transcr">Essex, captain-general of the Parliamentarian army from July 1642, first tendered his resignation on 28 March 1643, and again threatened to resign in October 1643 in an attempt to have Sir William Waller removed from his command. After military defeats in the south-west in the summer of 1644, day-to-day command of the Parliamentarian army was transferred to a coucnil of war, with Essex ultimately resigning his commissions in March 1645.</note>.</l>
+</lg>
+<lg type="couplet">
+<l>Mae rhai eraill gwaeth o<isp/><apo/>r haner:</l>
+<l><name key="Brereton">S<expan>y</expan>r William Brutwn</name><note resp="transcr">Sir William Brereton (1604-61), commander-in-chief of Parliamentarian forces in Cheshire from spring 1643.</note>, <name key="Waller">S<expan>y</expan>r <corr resp="transcr" sic="Willian">William</corr> Walter</name>.<note resp="transcr">Sir William Waller, major general of Parliamentarian forces in the west from February 1643. Waller's role increased after the autumn of 1644, when those Parliamentarian generals who advocated total victory held the upper hand over those, such Essex, who proposed peace with the King.</note></l></lg>
+<lg type="couplet">
+<l>Mae un a elwir <name key="Cromwell">Olifer Crwmel</name><note resp="transcr">Cromwell was made a colonel in February 1643 and thereafter took a leading role in commanding the Parliamentarian army in East Anglia. An opponent of Essex in the power struggle of October 1643, he served under Waller's command, rising to prominance in the battles of Marston Moor (July 1644) and Naseby (June 1645).</note>,</l>
+<l>sydd yn bena yn riwlio rhyfel,</l>
+</lg>
+<lg type="couplet">
+<l>ac un <name key="Harrison">Harison</name><note resp="transcr">Thomas Harrison (bap. 1616, d. 1660), parliamentarian army officer who took part in the battles of Marston Moor (1644) and Naseby (1645). He was a commissioner at the trial of Charles I and signatory to his death warrant</note> yn nesa atto</l>
+<l>yn gwneythr mawr drais ag yn mwrdrio.</l>
+</lg>
+<lg type="quatrain">
+<l>Fe ddarfu i <name key="Fairfax"><sic>Fferfflax</sic></name> ynte rowtio;</l>
+
+<pb n="28"/>
+<fw type="speaker-repeat"><lb/>Jarad</fw>
+<l>armi<isp/>'r <name key="Rupert">Prince <corr resp="transcr" sic="Robts">Rubert</corr></name> a<isp/><apo/>i dinistrio.<note resp="transcr">Presumably a reference to the battle of Marston Moor.</note></l>
+<l>Mae <orig reg="s&icirc;j">seets</orig> wrth Gaer lleon gawr</l>
+<l>a<isp/><apo/>r sitti fawr ar glemio.<note resp="transcr">Chester was besieged intermittently from late 1644, falling to an army under the command of Sir William Brereton in February 1646.</note></l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="couplet">
+<l>Mae nhw wedi mynd yn gryfion.</l>
+<l>Moeswch 'ch cyngor, filwyr <orig reg="gwychion">gwchion</orig>:</l>
+</lg>
+<lg type="couplet">
+<l>tu'a pha le yr awn i yn gynta</l>
+<l>i relivio rhai o<isp/><apo/>r trefydd mwya?</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>P Moris</speaker>
+<lg type="quatrain">
+<l>Mae digon o gryfdwr genym etto.</l>
+<l><orig reg="Od oes">O d&ocirc;s</orig> dim lwcc, scorn genym 
+gilio.</l>
+<l>Nyni a ymladdwn am y b&ecirc;l.</l>
+<l>Mae <name key="Cronwell">Crwmel</name> yn returio.</l>
+</lg>
+<lg type="couplet">
+<l>Nyni a fentrwn i faes <sic>Asbri</sic>,<note resp="transcr">Either Naseby or (the second battle of) Newbury is intended.</note></l>
+<l>un ai cael ein lladd ai colli.</l>
+</lg>
+<lg type="couplet">
+<l>Ag oddi <corr resp="transcr" sic="yno yno">yno</corr> ni awn yn union</l>
+<l>i relivio gw&ycirc;r Caer lleon.</l>
+</lg>
+<lg type="couplet">
+<l>Trowch yn &ocirc;l, w&ycirc;r Bonddigion:</l>
+<l>cymerwch galone, dyma<isp/>'r gelynion!</l>
+</lg>
+<stage><lb/><lb/>
+<add hand="hd1" place="right-margin">Enter Harison a Huson a Hamper, yn ymladd heb 
+ddweyd gair.</add></stage>
+<lg type="couplet" part="I">
+<l>Criwch, criwch, ceisiwch becavi!</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet" part="F">
+<l>Dowch, <name key="Cromwell">Olifer Crwmel</name>, trowch yn y mharti!</l>
+</lg>
+</sp>
+
+<stage><lb/><supplied>Enter Olifer Crwmel.</supplied></stage>
+
+<sp who="Cr">
+<speaker><lb/>Olifer</speaker>
+<lg type="couplet" part="I">
+<l>Ymleddwch, ymleddwch, mae hi<isp/>'n mynd yn hw&ycirc;r.</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>Moris</speaker>
+<lg type="couplet" part="F">
+<l>Rhaid i ni ildio: fe a<isp/><apo/>n lladded ni<isp/>'n llw&ycirc;r.</l>
+</lg>
+</sp>
+
+<stage><lb/><lb/>
+<add hand="hd1" place="right-margin">Gado y cleddyfe a diangc, ag exit Jarad a 
+Moris.</add></stage>
+<!--APPARENTLY NO EXIT BRENIN!-->
+<sp who="Cr">
+<speaker><lb/>Olifer Crwm</speaker>
+<lg type="couplet">
+<l>Arnynt, canlynwch! Mi a<isp/><apo/>i gwele nhw<isp/>'n ff&ocirc;.</l>
+<l>Deliwch y Brenin er dim ar a f&ocirc;.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit oll.</stage>
+<stage><lb/>Enter <name>Ffwl</name>.</stage>
+<sp who="Ff">
+<lg type="couplet">
+<l>Oes neb a bryn gleddyfe,</l>
+<l>mynawydydd na nodwydde?</l>
+</lg>
+<!--ALIGN WITH STANZA ABOVE?:-->
+<stage><lb/>Ffwl yn codi y cleddyfe.</stage>
+<lg type="couplet">
+<l>Ni bydd yn Lloegr nag ynghy<unclear>mr</unclear>u</l>
+<l>mo<isp/><apo/>r s&ocirc;n am Gabelir ond hynny.</l>
+</lg>
+<lg type="couplet">
+<l>Diryfedd oedd i<isp/><apo/>r Brenin golli</l>
+<l>a maint o dwyll oedd yn ei armi,</l>
+</lg>
+<lg type="couplet">
+<l>yn ddau<dsp/>wynebog ag yn ffeilsion</l>
+
+<pb n="29"/>
+<fw type="speaker-repeat"><lb/>Ffwl</fw>
+<lb/>
+<l>yn gwerthu am aur y trefi mawrion.</l>
+</lg>
+<lg type="couplet">
+<l>Mi werthais i lawer tre fy hunan,</l>
+<l>yn brysur, heb achos, am bris bychan.</l>
+</lg>
+<lg type="couplet">
+<l>Ni cheisiais i ond gwerth grott o benwig</l>
+<l>yn amheythyn am Dre<dsp/>'<isp/>r Mwythig.</l>
+</lg>
+<lg type="quatrain">
+<l>Mi &acirc;f a<isp/><apo/>r cledde i <name key="Cromwell">Mr Crwmel</name></l>
+<l>i ddangos mae fi a enillodd y fattel.</l>
+<l><orig reg="Efallai">Walle</orig> y cai gan felldith ei fam</l>
+<l>ryw beth am y trafel.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit ffwl.</stage>
+<!-- Discontinous stage direction -->
+<stage id="stage29a" next="stage29b">Enter <name>Moris</name>.</stage>
+<sp who="Mo">
+<lg type="couplet">
+<l>I ba wl&acirc;d yr awn i weithan?</l>
+<l>Yn Asbri ffight wan troed ni allan.</l>
+</lg>
+</sp>
+
+<stage id="stage29b" prev="stage29a">a <name>Jarad</name>.</stage>
+<sp who="Jd">
+<lg type="couplet">
+<l>Mae<isp/>'n ddrwg geni dros y Brenin,</l>
+<l>fo drosedded yn ei erbyn.</l>
+</lg>
+<lg type="couplet">
+<l>Trwm i <orig reg="fy nghalon">nghalon</orig>, mi a gonffesia,</l>
+<l>am y ferch a garai fwya.</l>
+</lg>
+<lg type="quatrain">
+<l>Pe gallaswn fyned atti,</l>
+<l>hi fase yn mentro gyd'a myfi.</l>
+<l>Gwae fi nad allwn ar ei mw&ycirc;n</l>
+<l>farw ar dw&ycirc;n am<dsp/>dani!</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>P Moris</speaker>
+<lg type="couplet">
+<l>Ai cariad a dr&ucirc; Ryfelwr?</l>
+<l>Mentrwch i ffordd, gariadus filwr.</l>
+</lg>
+<lg type="couplet">
+<l><orig reg="Fe aeth">Waeth</orig> y Brenin tu'a Scotland;</l>
+<l>nine yn hwylus awn i Holand.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y 2.</stage>
+<stage><lb/>Enter Huson, Crwmel, Hamper.</stage>
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain">
+<l>Ny ni <corr resp="transcr" sic="nillallon">nillasson</corr> gestyll Cymru.</l>
+<l>Oes dim o<isp/><apo/>r gwaith genych ond <orig reg="hynny">hynu</orig>?</l>
+<l>O Gabelir ni adawson i</l>
+<l>mewn dichell heb i bradychu.</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwmel</speaker>
+<lg type="quatrain">
+<l>Os ewch i ymladd etto i<isp/><apo/>r Werddon,</l>
+<l>chwi gewch aur ag arian ddigon;</l>
+
+<pb n="30"/>
+<l>ag yno fyth y cewch chwi fod</l>
+<l>yn lle<isp/>'r Gwyddelod gwlldion.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain">
+<l>Am aur ag arian nyni a ymladdwn,</l>
+<l>ag yn ei tai a<isp/><apo/>i tir ni dariwn;</l>
+<l>tyny cleddyfe yn y dydd</l>
+<l>o achos ffydd ni phoenwn.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Scot</name>.</stage>
+<sp who="St">
+<lg type="couplet" part="I">
+<l>Pa ryw newydd, noble Crwmel?</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwmel</speaker>
+<lg type="couplet" part="F">
+<l>Dim ond darfod cwrs y rhyfel.</l>
+</lg>
+<lg type="couplet">
+<l>Myfi sy<isp/>'n raenio gyd a<isp/><apo/>m soldiers;</l>
+<l>fe dored gwres y Cabeliers.</l>
+</lg>
+<lg type="quatrain" part="I">
+<l>Ai gyd'a chwi<isp/>'r Scotiaid dichlyn</l>
+<l>y mae Jarls, hwn oedd yn frenin?</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain" part="F">
+<l>Yno y daeth pan drodd y rh&ocirc;d</l>
+<l>i ochel y gafod ddychryn.</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwmwel</speaker>
+<lg type="couplet">
+<l>Chwi gewch gyweth a<isp/><apo/>ch bodlono.</l>
+<l>Gadewch i mi gael gafel ynddo.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain">
+<l>Dan amod i chwi roi iddo bardwn</l>
+<l>ag aur i nine faint a fynwn</l>
+<l>y rwan yn eich dwylo chwi</l>
+<l>yn <corr resp="transcr" sic="ones">onest</corr> ni a<isp/><apo/>i dilifrwn.</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwme</speaker>
+<lg type="couplet" part="I">
+<l>Wel dyna ben, dowch ag efo.</l>
+</lg>
+</sp>
+
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="couplet" part="F">
+<l>Dyna fo, ymeulwch ynddo.</l>
+</lg>
+</sp>
+
+<!--ALIGN WITH PRECEEDING STANZA:-->
+<stage><lb/>Rhaid bod a<isp/><apo/>r Brenin yn barod i<isp/><apo/>w roi.</stage>
+<sp who="Cr">
+<speaker><lb/>Crwm</speaker>
+<lg type="quatrain">
+<l>Ewch ag efo, Huson hawddgar,</l>
+<l>i <orig reg="Carisbrooke">garis Brwx</orig> Castl;<note resp="transcr">Charles was imprisoned in Carisbrooke Castle on the Isle of Wight in November 1647.</note> rhowch o 'ngharchar.</l>
+<l>Myfi sydd heddyw yn uwch na neb</l>
+<l>a<isp/><apo/>r sydd ar wyneb daiar.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Ffwl</name>.</stage>
+<sp who="Ff">
+<lg type="couplet">
+<l>Ai ffair sy yma? Pwy sy<isp/>'n prynu?</l>
+<l>Pa beth yr ydech yn ei werthu?</l>
+</lg>
+</sp>
+
+
+<pb n="31"/>
+<sp who="St">
+<speaker><lb/>Scot</speaker>
+<lg type="quatrain" part="I">
+<l>Mi wn pa beth a ddaw o<isp/><apo/>r Deyrnas:</l>
+<l>myfi a werthais y Brenin Charlas.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>Mi wn na cherddi gam yn rhwydd.</l>
+<l>Ail iw dy swydd i Suddas.</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwm</speaker>
+<lg type="quatrain" part="I">
+<l>Ni gawson y Brenin dan ein dwylo;</l>
+<l>pa beth weithan a wnawn iddo?</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain" part="F">
+<l>Pa beth a wnawn ond gwasgu<isp/>'r feg</l>
+<l>a rhoddi deuddeg arno?</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwm</speaker>
+<lg type="couplet">
+<l>Ny<dsp/>ni ddechreuwn gadw sesiwn;</l>
+<lg type="note-target" id="n31-1"><l>yr ustus <name key="Bradshaw">Brodsaw</name> i<isp/><apo/>w farn a fynwn.</l></lg>
+</lg>
+</sp>
+
+<note target="n31-1" resp="hd1" place="right-margin">Brodsaw, hwn oedd yn haris</note>
+
+<stage><lb/>Enter <name>Brodsaw 'r Justus</name>.</stage>
+<sp who="Bd">
+<lg type="couplet">
+<l>Ai myfi sydd ar Charls yn farnwr,</l>
+<l>ystwart sydd garcharwr?</l>
+</lg>
+<lg type="couplet">
+<l>Gwae fo ddwad dan <corr sic="ei" resp="transcr">ein</corr> dwylo!</l>
+<l>Rwy<isp/>'n barod i<isp/><apo/>r swydd, mae browes iddo.</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwm</speaker>
+<lg type="couplet">
+<l>Bwriwch er dim y fo i farwolaeth;</l>
+<l>bydd hynny i chwi yn oruchafiaeth.</l>
+</lg>
+<lg type="couplet">
+<l>Ni gawn holl wchder llawnder llawen</l>
+<l>a<isp/><apo/>i frenhiniaeth i ni ein hunen.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brodsaw</speaker>
+<lg type="couplet">
+<l>Ple mae <name key="Fairfax">Ffairfax</name>? Ewch i<isp/><apo/>w <orig reg="ymofyn">mofyn</orig></l>
+<l>pam nad ydyw y fo<isp/>'n canlyn.<note resp="transcr">Fairfax was the leader of a group of parliamentarians who opposed the trial and execution of Charles, and failed to attend any sessions of the trial.</note></l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwmel</speaker>
+<lg type="couplet">
+<l>Nid ydi <name key="Fairfax">Ffairfax</name> yn bodloni</l>
+<l>fwrw mono ddim i<isp/><apo/>w golli.</l>
+</lg>
+<lg type="couplet">
+<l>I mae fo yn gweddio</l>
+<l>drwy wir ddeusyfiad am ei safio.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brodsaw</speaker>
+<lg type="couplet">
+<l>Os felly y mae, fo safed heibio.</l>
+<l>Nedwch yma fo rhag fy rhwystro.</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwme</speaker>
+<lg type="couplet">
+<l>Mi af i gadw iddo fyrdwn</l>
+<l>tra b&ocirc;ch yn eiste ar hyn o sesiwn.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit Crwmwel.</stage>
+<sp who="Bd">
+<speaker><lb/>Brodsaw</speaker>
+<lg type="couplet" part="I">
+<l>Nolwch y <name key="Charles_I">Brenin</name> i<isp/><apo/>w examnio.</l>
+</lg>
+</sp>
+
+
+<pb n="32"/>
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet" part="F">
+<l>Dyma fo, byd rhyngoch ag efo.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brods</speaker>
+<lg type="couplet" part="I">
+<l>A flinasoch chwi yn rhyfela?</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="couplet" part="F">
+<l>Do, cyn dechre 'r fattel gynta.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brods</speaker>
+<lg type="couplet" part="I">
+<l>Pam yr aech o Lundain allan?</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Bren</speaker>
+<lg type="couplet" part="F">
+<l>Ond i geisio safio f'<isp/>eiddo fy hunan.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brods</speaker>
+<lg type="couplet" part="I">
+<l>Fo fy 'n Lloegr lawer lledfa.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Bren</speaker>
+<lg type="couplet" part="F">
+<l>Do, o<isp/><apo/>m hanfodd, Duw a<isp/><apo/>i tystia.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brods</speaker>
+<lg type="couplet" part="I">
+<l>Ond eich ffoledd chwi wnaeth ddechre?</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Bren</speaker>
+<lg type="couplet" part="F">
+<l>Nage, 'ch trawster chwi a nhwythe.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brods</speaker>
+<lg type="couplet" part="I">
+<l>Pa beth a heuddech yn lle pardwn?</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Bren</speaker>
+<lg type="couplet" part="F">
+<l>Cael y nernas fy h&ucirc;n a heuddwn.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brods</speaker>
+<lg type="couplet" part="I">
+<l>Chychwi a heuddech gosbedigaeth.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Bren</speaker>
+<lg type="couplet" part="F">
+<l>Ni chosbir monai os cai y gyfraeth.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brods</speaker>
+<lg type="couplet">
+<l>Chwi gewch gyfraeth newydd ddefod;</l>
+<l>gwae chwi ddwad dan ein dyrnod!</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Bren</speaker>
+<lg type="couplet">
+<l>Nid &ycirc;ch chwi ond dierth i mi.</l>
+<l>Ni by rhyngoi ddim a chychwi.</l>
+</lg>
+<lg type="couplet">
+<l>Ple mae 'r Parliament a fu<isp/>'n eiste?</l>
+<l>Hwy wyddant ei bod mewn gormod beie.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brods</speaker>
+<lg type="couplet">
+<l>Pa beth i mae fo yn ei brattio</l>
+<l>heb fod un dyn yn ei wrando?</l>
+</lg>
+<lg type="couplet">
+<l>Syre, syre, pam yr ych yn siarad</l>
+<l>o flaen y barnwr heb gael cenad?</l>
+</lg>
+<lg type="couplet">
+<l>Gelwch y cwest sydd wedi ei dyfyn</l>
+<l>a wittness i brofi yn ei erbyn.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamper</speaker>
+<lg type="couplet" part="I">
+<l>Myfi a alwa ar y cwest ar wittness.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Galw ar bob fulen drwg fales!</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamper</speaker>
+<lg type="couplet">
+<l>Rhowch osteg fel y caffeir clywed!</l>
+
+<pb n="33"/>
+<fw type="speaker-repeat"><lb/>Hamper</fw>
+<l>Mae rhai yn fyddar a rhai<isp/>'n ddeilliad.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Dewised iddynt fod yn ddeillion</l>
+<l>os bydd arfer a thyngu anudon!</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamper</speaker>
+<lg type="couplet" part="I">
+<l>Take him, geler! Pwy sy<isp/>'n disbrisio?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Taw, taw! Rwy fi wedi peidio.</l>
+</lg>
+</sp>
+
+<!--HAMPER SPEAKING?-->
+<sp who="Hp">
+<speaker><lb/><supplied>Hamper</supplied></speaker>
+<!-- number prose lines separately -->
+<p>
+<lb/><name key="Ireton">Henry Ieriton</name>, <name key="Waller">Harders Wallew</name>,
+<lb/><name key="Walton">Valentine Walton</name>, <name key="Harrison">John Harris</name>,
+<lb/><name key="Whalley">Edward Welew</name>, <name key="Penington">Isaac Penington</name>,
+<lb/><name key="Grey">Lord Grau</name>, <name key="Monson">Lord Mounser</name>,<note resp="transcr">William Monson was nominated a commissioner at the trial of Charles I, but, although he attended the court three times, he withdrew from the proceedings on 26 January and did not sign the death warrant. Nevertheless, after the restoration, he was treated as a regicide, deprived of his honours and property and incarcerated in Fleet prison from 1660 until his death in 1673.</note>
+<lb/><name key="Danvers">S<expan>y</expan>r John Derfes</name>, <name key="Marten">Henry Marttyn</name>,
+<lb/><name key="Chaloner">Thomas Chalwer</name>, <name key="Jones">John Jones</name>,
+<lb/><name key="Hewson">John Huson</name>, <name key="Bradshaw">Edward Bradlaw</name>, <name key="Fleetwood">Charles Fflittwd</name>.</p>
+<!--LINE IN MANUSCRIPT-->
+<lg type="couplet">
+<l>Dyma<isp/>'r cwest wedi ympirio.</l>
+<l>Ni alwn wittnes i<isp/><apo/>w <orig reg="examnio">examio</orig>:</l>
+</lg>
+<!--LINE IN MS-->
+<p>
+<lb/>Edward Robert o Dre Esgob,
+<lb/>Robert L<unclear>a</unclear>si <corr resp="transcr" sic="paetiwr">paentiwr</corr>,
+<lb/>Robert Lloyd y Towr,
+<lb/>James Williams y Cr&ycirc;dd,
+<lb/>Richard Patt y Tafarnwr,
+<lb/>Samuel Morgan Hettiwr,
+<lb/><corr resp="transcr" sic="Goerge">George</corr> Pile Rhaffwr,
+<lb/>Richard Broffild y gwehydd o Lundain,
+<lb/>William Huson y Bragwr,
+<lb/>George Crwmwel y Melinydd,
+<lb/>John Edwards Cigydd.</p>
+</sp>
+
+
+<pb n="34"/>
+<sp who="Bd">
+<speaker><lb/>Brodsaw</speaker>
+<lg type="couplet">
+<l>Wel dyma<isp/>'r bilia yn ffurm wedy tynu.</l>
+<l>Mae accw wittnes yn barod i dyngu.</l>
+</lg>
+<lg type="quatrain">
+<l>I examnio wittness ni awn yn dalgrwn</l>
+<l>ac i roddi 'r cwest ddurectiwn</l>
+<l>lle i mynwn i y bydd y bai</l>
+<l>yn brysys ni a<isp/><apo/>i disbrisiwn.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamper</speaker>
+<lg type="couplet">
+<l>Cilsix, <orig reg="dos">does</orig> accw i dyngu!</l>
+<l>Di gei fodd i fyw am hynny.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l>Mi dynga ag a rege yn ddigon cethin.</l>
+<l>C&icirc;g dryw, d&ocirc;s, mi dora dy esgirn !</l>
+<l>Gwell gen i dyngu dy fod wrth bren</l>
+<l>na thyngu am ben y Mrenin.</l>
+</lg>
+<lg type="couplet">
+<l>Mi ddygaswn nad oedd <corr sic="neb a dynga yn fy erbyn" resp="hd1">un dyn</corr></l>
+<!-- new line?-->
+<!--					CROSSED OUT; UNDERLINE HD1 -->
+<l>a dynga nag a ddyweda yn fy erbyn.</l>
+</lg>
+<lg type="couplet">
+<l>Ni thalai ddraen mae accw dyngu</l>
+<l>onid ydi y T&wcirc;r Gwyn yn crynnu.</l>
+</lg>
+<lg type="quatrain">
+<l>Mae accw rog's wedi llosgi ei dwylo</l>
+<l>yn tyngu oni dydi 'r wybr yn duo</l>
+<l>nhw a wn&acirc;n y llegis tua<isp/><apo/>r hw&ycirc;r</l>
+<l>i<isp/><apo/>r creigie a<isp/><apo/>r awyr r&ucirc;o.</l>
+</lg>
+<lg type="couplet">
+<l>Ni wyddant hwy mwy na mine</l>
+<l><orig reg="ym mha le">ymhale</orig> nag ar bwy mae<isp/>'r beie.</l>
+</lg>
+<lg type="couplet">
+<l>Ond nhw dyngant am ei cyflog,</l>
+<l><orig reg="mai">mae</orig> oen llyweth ydi 'r llwynog.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brodsaw</speaker>
+<lg type="couplet">
+<l>Fo dyngodd digon accw ar gyhoedd</l>
+<l>er torri pen chwech o frenhinoedd.</l>
+</lg>
+<lg type="couplet">
+<l><name key="Charles_I">Charlas y Stwart</name> rwy<corr resp="transcr" sic="'n yn"><isp/>'n</corr> ei fwrw,</l>
+<l>o<isp/><apo/>i anrhydeddd mae 'n rhaid iddo farw.</l>
+</lg>
+</sp>
+
+
+<pb n="35"/>
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="couplet">
+<l>Siwr ni wnaethont waith mor aflan</l>
+<l>heb gael rhoi atteb drosta fy hunan.</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brods</speaker>
+<lg type="couplet">
+<l>Nid oes mo<isp/><apo/>r dadle wedi barnu.</l>
+<l>Chwi gewch dorri eich pen y foru.</l>
+</lg>
+</sp>
+
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="couplet">
+<l>A gai <orig reg="afael">afal</orig> ar y chaplan</l>
+<l>i<isp/><apo/>m paratoi tuag att fy nien?</l>
+</lg>
+</sp>
+
+<sp who="Bd">
+<speaker><lb/>Brods</speaker>
+<lg type="couplet">
+<l>Os daw fo i siarad gair a chychwi,</l>
+<l>fo fydd siwr o gael eich gosbi.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit Brodsaw.</stage><note resp="transcr">In fact, all characters except the King exit at this point.</note>
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="couplet">
+<l>Fe w&ycirc;r y b&ycirc;d fod hyn yn draha,</l>
+<l>rhwystro 'r ffeiriad ddwad atta.</l>
+</lg>
+<lg type="couplet">
+<l>Fe gae leidr ei wasaneth</l>
+<l>a<isp/><apo/>i baratoi att ddydd marwolaeth.</l>
+</lg>
+<lg type="quatrain">
+<l>Fe dyngodd digon accw yn fy erbyn,</l>
+<l>y peth na wyddwn ddim oddiwrthyn.</l>
+<l>Fe ddaw t&acirc;l am hyn ryw ddydd</l>
+<l>yn ddilawenydd iddyn.</l>
+</lg>
+<lg type="quatrain">
+<l>Mae<isp/>'n gwilydd ag yn gamwedd gormod</l>
+<l>i<isp/><apo/>r euog fy mwrw i yn ddigydwybod</l>
+<l>i farw fel oen gwirion gw&acirc;r</l>
+<l>o achos b&acirc;r gwiberod. &mdash;&mdash;&mdash;</l>
+</lg>
+<lg type="couplet">
+<l>Hai how i ple mae fy Mrenhines</l>
+<l>a<isp/><apo/>m plant hefyd? Nis gwn mo<isp/><apo/>i hanes.</l>
+</lg>
+<lg type="couplet">
+<l>Gwae i<isp/><apo/>w calone pan gaffont glywed</l>
+<l>mae tori fy mhen iw f' nhynged. &mdash;</l>
+</lg>
+<lg type="couplet">
+<l><name key="Charles_II">Charls</name>, Charls, gwir aer y goron,</l>
+<l>fy anwyl fab, hwdiwch fy mendithion!</l>
+</lg>
+<lg type="couplet">
+<l>Gyd'a Duw i rydwi 'n danfon,</l>
+<l>er darfod y 'nghurro gwnewch fy 'nghynghorion.</l>
+</lg>
+<lg type="couplet">
+<l>Canlynwch gwmpeini y cyfion ffyddloniad;</l>
+<l>gwrthodwch y geifr, dilynwch y defaid.</l>
+</lg>
+
+<pb n="36"/>
+<lg type="couplet">
+<l>Er colli 'ch tair teyrnas a llawer o<isp/><apo/>ch deiliaid</l>
+<l>cedwch <corr resp="transcr" sic="ych">yn</corr><note resp="transcr">Probably the &lt;ch&gt; at the end of <mentioned>cedwch</mentioned> led the scribe to repeat it in <mentioned>ych</mentioned> instead of <mentioned>yn</mentioned>. Alternatively perhaps emend to <mentioned>cedwch ych ffydd.</mentioned></note> ffyddlon, na chollwch mo<isp/><apo/>ch enaid.</l>
+</lg>
+<lg type="couplet">
+<l>Ir drwg dros amser mae rhydddid<note resp="transcr">The form <mentioned>rhydd-did</mentioned> here is correct.</note> yn llydan;</l>
+<l>er i<isp/><apo/>r gwynt dori y pren tecca yn y berllan,</l>
+</lg>
+<lg type="couplet">
+<l>o ffrwyth y gwraidd melus fo ddichon gwinwydden</l>
+<l>dyfu a chynuddu yn frigog <orig reg="drachefn">dychrefen</orig>.</l>
+</lg>
+<lg type="couplet">
+<l>Gwae, gwae, yn fy erbyn a gododd</l>
+<l>drwy ryfel mawr gwrthyn, a gwae rhai a<isp/><apo/>m gwerthodd.</l>
+</lg>
+<lg type="couplet">
+<l>Gwae<isp/>'r anudonw&ycirc;r yn fy erbyn a dyngodd;</l>
+<l>gwae<isp/>'r cwest a<isp/><apo/>m bwriodd; gwae<isp/>'r justus a<isp/><apo/>m barnodd.</l>
+</lg>
+<lg type="couplet">
+<l>Nid wy mor h&ecirc;n ag mor ynfyd</l>
+<l>y rhaid im fod yn flin o<isp/><apo/>m bywyd.</l>
+</lg>
+<lg type="couplet">
+<l>Nid wy hefyd mor ddiobaeth</l>
+<l>ag yr ofnai loes marwolaeth.</l>
+</lg>
+<lg type="couplet">
+<l>O<isp/><apo/>i hachos rwy 'n mynd i fywyd arall,</l>
+<l>lle mae <orig reg="tangnefedd">tangnheddyf</orig> uwch law pob deall,</l>
+</lg>
+<lg type="couplet">
+<l>a lle nas geill un gwaedlyd elyn</l>
+<l>drwy dwyll yn byrbwyll godi yn f'<isp/>erbyn.</l>
+</lg>
+<lg type="quatrain">
+<l>Mae<isp/>'n ddrwg geni dros fy milwyr ffyddlon</l>
+<l>sy<isp/>'n diodde dirmyg dan ddwylo rhai trawsion.</l>
+<l>Ffarwel! Nhw a<isp/><apo/>m daliason i</l>
+<l>mewn mieri mawrion.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Hamper</name>.</stage>
+<sp who="Hp">
+<lg type="couplet">
+<l>Hai, S<expan>y</expan>r, gwnewch ddiben o<isp/><apo/>ch gweddi.</l>
+<!-- Perhaps to be corrected, not reguralized -->
+<l>Mae<isp/>'r <orig reg="ysgafell, ysgafellau">ystaffle</orig><note resp="transcr">Perhaps a miscopying of <mentioned>yscaffle</mentioned> or <mentioned>yscafell</mentioned> in an earlier manuscript? The word seems to have been misunderstood by the copyist: the form <mentioned>ystafell</mentioned> in line 982 seems to be another misunderstanding of <mentioned>yscafell</mentioned>.</note> gwedi codi,</l>
+</lg>
+<lg type="couplet">
+<l>a<isp/><apo/>r hangmon ynte a<isp/><apo/>r fwyach finiog</l>
+<l>yn barod i<isp/><apo/>r gwaith am ei gyflog.</l>
+</lg>
+<lg type="quatrain">
+<l>Ry'chwi yn twyso yn an-wellysgar.</l>
+<l>Oni ddowch o<isp/><apo/>ch bodd, chwi ddowch drwy hagar.</l>
+<!-- Perhaps to be corrected, not reguralized -->
+<l>I<isp/><apo/>r ystafell daccw hi</l>
+<l>mi a<isp/><apo/>th lysga di yn Ewyllysgar.</l>
+</lg>
+</sp>
+
+
+<pb n="37"/>
+<sp who="C1">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Gwr a<isp/><apo/>m rhaglyniodd gwrandawed y <orig reg="nghyffes">ng<add place="supralinear" hand="hd1">h</add>yffes</orig>.</l>
+<l>Rwy<isp/>'n barod i<isp/><apo/>m diwedd, fy hoedl a golles.</l>
+<l>Brenin Brenhinoedd uchel fri,</l>
+<l>dod fy enaid i yn dy fynwes!</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y 2.</stage>
+<stage><lb/>Enter <name>Ferch</name>.</stage>
+<sp who="Fe">
+<!--IN RIGHT MARGIN:-->
+<stage><lb/>Enter y ferch cariad i Jarad.</stage>
+<lg type="quatrain">
+<l>Rwy<isp/>'n gla jawn, mi ges y consymsion;</l>
+<l>mae swp o serch dan y nwy fron;</l>
+<l>sythion saethau fawr ei nwy</l>
+<l>a<isp/><apo/>m rhedodd drwy fy nghalon.</l>
+</lg>
+<lg type="quatrain">
+<l>Rwy mor alarus a<isp/><apo/>r oen am y ddafad.</l>
+<l>Dros y mor yr aeth <orig reg="fy">y</orig> nghariad;<note resp="transcr">Having fallen out of favour with the Royalist command, Gerard went into exile sometime after the capture of Oxford in the second half of 1646. He spent the next fourteen years in the Netherlands and France, returning to England only with the restoration in 1660.</note></l>
+<l>gwae fi nad allwn fynd ar ei &ocirc;l,</l>
+<l>y gwrol <name key="Gerard">Genaral Jarad</name>!</l>
+</lg>
+<lg type="quatrain">
+<l>Mwy o bleser yn fy nghlistieu</l>
+<l>oedd glywed s&wcirc;n un gair o<isp/><apo/>i eneu:</l>
+<l>na chlywed muwsic yr holl fyd</l>
+<l>ple mae fy anwylyd inne.</l>
+</lg>
+<lg type="couplet">
+<l>Ni <orig reg="lafasaf i">lyfasai</orig> gan dratturied</l>
+<l>ddwed lle caffwy mwy mo<isp/><apo/>i weled.</l>
+</lg>
+<lg type="couplet">
+<l>Cyn pen hir o gariad mwyn-bur</l>
+<l>marw a wnawn ein dau o<isp/><apo/>r un dolur.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Huson</name>.</stage>
+<sp who="Hs">
+<lg type="quatrain" part="I">
+<l>Dywedwch i mi, meinir weddus,</l>
+<l>am bwy 'r ydych mor alarus?</l>
+</lg>
+</sp>
+
+<sp who="Fe">
+<speaker><lb/>Ferch</speaker>
+<lg type="quatrain" part="F">
+<l>Am wr t&ecirc;g aeth o<isp/><apo/>r tir,</l>
+<l>glan Gabelir caradus.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain">
+<l>Ni charai neb o<isp/><apo/>r Cabelier;</l>
+<l>ni bydd hwnw byth ond eger.</l>
+<l>Gwell i chwi rwan, mwy ydi ei rent,</l>
+<l>gael gwrol Parlamentier.</l>
+</lg>
+</sp>
+
+
+<pb n="38"/>
+<sp who="Fe">
+<speaker><lb/>Ferch</speaker>
+<lg type="couplet">
+<l>Gwell oedd geni fegio <orig reg="fy">y</orig> mara</l>
+<l>gyd'a gwrol fab a gara</l>
+</lg>
+<lg type="couplet">
+<l>na phe cawn dir y deyrnas</l>
+<l>er bod yn wraig i Rowndied diflas.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet">
+<l>Nid yw y Cabeliers ond gweision</l>
+<l>i ni Rowndied s&ycirc; gywaethogion.</l>
+</lg>
+</sp>
+
+<sp who="Fe">
+<speaker><lb/>Ferch</speaker>
+<lg type="couplet">
+<l>Ped faechwi ar hyn cyn gywaethoged</l>
+<l>a Job, ni byddech ond tratturied.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet">
+<l>Os cerwch fi, mi a<isp/><apo/>ch bodlona,</l>
+<l>mewn dillad o sidan a melfed mi a<isp/><apo/>ch gwisga</l>
+</lg>
+<lg type="couplet">
+<l>i fod yn well eich st&acirc;t o<isp/><apo/>r haner</l>
+<l>nag un o ferched Brenin Lloegr.</l>
+</lg>
+</sp>
+
+<sp who="Fe">
+<speaker><lb/>Ferch</speaker>
+<lg type="quatrain">
+<l>Nid eich aur a<isp/><apo/>ch dillad plundrio</l>
+<l>&mdash; rwyn well fy hyder &mdash; eill fy hudo.</l>
+<l>Mae llawer melldith ar ei h&ocirc;l;</l>
+<l>nid wy mor ff&ocirc;l a<isp/><apo/>i gwisgo.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain" part="I">
+<l>A <gap reason="deleted" hand="hd1" extent="3 letters"/> gerwch i neb o<isp/><apo/>r Rowndied gwchion?</l>
+</lg>
+</sp>
+
+<sp who="Fe">
+<speaker><lb/>Ferch</speaker>
+<lg type="quatrain" part="M">
+<l>Na chara byth yn <orig reg="fy">y</orig> nghalon.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain" part="M">
+<l>Ow, pam hyny, gwen lliw<isp/>'r &ocirc;d?</l>
+</lg>
+</sp>
+
+<sp who="Fe">
+<speaker><lb/>Ferch</speaker>
+<lg type="quatrain" part="F">
+<l>Ond <corr resp="transcr" sic="an">am</corr> ei bod yn ffeilsion.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain">
+<l>Pa beth a wneithym yn eich erbyn</l>
+<l>i beri i chwi fod mor gyndyn?</l>
+<l>Edrychwch arnai; rwy<isp/>'n wr gw&ycirc;ch.</l>
+<l>Pam nad ych yn chwerthin?</l>
+</lg>
+</sp>
+
+<sp who="Fe">
+<speaker><lb/>Ferch</speaker>
+<lg type="quatrain">
+<l>Chwi a yrasoch i ffordd o<isp/><apo/>r deyrnas yma</l>
+<l>y gweddus fab a garai fwya.</l>
+<l>Os marw o<isp/><apo/>i gariad &ocirc; wna i,</l>
+<l>rhof arnoch chwi nglanastra.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Ffwl</name>.</stage>
+<sp who="Ff">
+<lg type="quatrain">
+<l>Ai am<dsp/>dana i yr wyt ti yn wylo?</l>
+<l>Taw s&ocirc;n, druan, paid ac ochneidio.</l>
+
+<pb n="39"/>
+<fw type="speaker-repeat"><lb/>Ffwl</fw>
+<l>Hwra hon, meinir wen;</l>
+<l>hi a<isp/><apo/>th wneiff di yn llawen etto.</l>
+</lg>
+</sp>
+
+<sp who="Fe">
+<speaker><lb/>Ferch</speaker>
+<lg type="quatrain" part="I">
+<l>Ffei, ffei, cedwch eich pethe!</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>Ceriwch nhw yn eich ffedog adre;</l>
+<l>fe fydd noswaith lawen ffri</l>
+<l><corr resp="transcr" sic="rhynoch">rhyngoch</corr> chwi a nhwythe.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet">
+<l>A wyddost a phwy yr wyt ti yn siarad?</l>
+<l>Paid, gna, na thwitsia ar ei dillad!</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Cn&acirc;f a ddwad cnaf yn gynta.</l>
+<l>Moes dy law, nis gwn i pa'r un gnafeiddia.</l>
+</lg>
+<lg type="couplet">
+<l>Gwell iddi roi peth am fy 'nghael i</l>
+<l>na chael cyflog am dy garu di.</l>
+</lg>
+<lg type="quatrain">
+<l>Mae geni living lawer</l>
+<l>o lai heuad pecced a haner.</l>
+<l>Gwna draean o hynny arna ti.</l>
+<l>Hawdd i ti borthi balchder.</l>
+</lg>
+<lg type="quatrain">
+<l>Ac mae geni bl&acirc;s o ddwy lath uchder</l>
+<l>a ch&acirc;th i arlwyo a chywoeth lawer.</l>
+<l><orig reg="Wyt">Wy</orig> ti yn tybied y cei di hi</l>
+<l>yn legar ladi ar fyrder?</l>
+</lg>
+</sp>
+
+<sp who="Fe">
+<speaker><lb/>Ferch</speaker>
+<lg type="quatrain">
+<l>Nid allai edrych ar un ohonoch;</l>
+<l>mwy na<isp/>'r neidr chwi a<isp/><apo/>m digiasoch.</l>
+<l>Da yr ymdrawsoch, gnafiad c&acirc;s,</l>
+<l>mi a wranta, yr andras ynoch.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet">
+<l>Ewch lle mynoch, mi a<isp/><apo/>ch canlyna.</l>
+<l>Oni chai chwi o<isp/><apo/>ch bodd, o<isp/><apo/>ch <orig reg="anfodd">anmodd</orig> mi a<isp/><apo/>ch myna.</l>
+</lg>
+</sp>
+
+<sp who="Fe">
+<speaker><lb/>Ferch</speaker>
+<lg type="couplet">
+<l>Os doi di, Rowndied, yn y <orig reg="nghyfer">nghyfel</orig>,</l>
+<l>myfi a <orig reg="waeddaf">weudda</orig> hai wchw yn uchel.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit.</stage>
+<!--OBVIOUSLY EXIT FERCH & HUSON-->
+
+<pb n="40"/>
+<stage><lb/>Enter <name>Sequestrator</name>.</stage>
+<sp who="Hp">
+<lg type="couplet">
+<lg type="note-target" id="n40-1">
+<l>Gwrandewch ar Act yr holl Gyffredin:</l>
+<l>fe ddarfu torri pen y Brenin.<note resp="hd1" place="right-margin" target="n40-1">Sequestrator iw<lb/>Hamper a<isp/><apo/>r ffwl.</note></l></lg>
+</lg>
+
+<lg type="couplet">
+<l>Pwy bynnag a sonio am<dsp/>dano</l>
+<l>yn ddiffyniant caiff ei ffinio.</l>
+</lg>
+<lg type="couplet">
+<l><name key="Cromwell">Oliver Crwmwel</name> aeth yn arglwydd;</l>
+<l>tan haul a lleuad mae<isp/>'n ben llywydd.</l>
+</lg>
+<lg type="couplet">
+<l>Drwy holl gr&ecirc;d y flwyddyn nesa</l>
+<l>fo fydd yn emprwr, myfi a<isp/><apo/>i gwranta.</l>
+</lg>
+<lg type="couplet">
+<l>Ni cheir darllain dim wrth gladdu</l>
+<l>rhag i<isp/><apo/>r meirw godi y fynu.</l>
+</lg>
+<lg type="couplet">
+<l>Ewch a<isp/><apo/>r Comon <corr resp="transcr" sic="praeyr">Prayer</corr> i<isp/><apo/>w losgi.</l>
+<l>Torrwch groese ar y bedydd feini.</l>
+</lg>
+<lg type="quatrain">
+<l>Gwiliwch gadw dyddiau gwylion.</l>
+<l>Gweithiwch eich gore ag ewch yn gybyddion</l>
+<l>i gael casglu aur i ni;</l>
+<l>cewch taly trethi trymion.</l>
+</lg>
+<lg type="quatrain">
+<l>Mi gefais swydd o<isp/><apo/>r gore:</l>
+<l>rwy 'n sequestratu gwair, gwartheg a lloye.</l>
+<l>A glywi di arnat<!-- arnaf?--> <orig reg="fynd">fyn</orig> mewn c&acirc;s</l>
+<l>a dwad yn w&acirc;s i mine?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l>Do, do, rwy<isp/>'n wr o<isp/><apo/>r gore.</l>
+<l>Mi af att y g&ocirc;f i roi swmbl yn fy <orig reg="irai">jre</orig>.</l>
+<l>Gwyn ein byd y swydd y gawn.</l>
+<l>i<isp/><apo/>r Bala ni awn i ddechre.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Seque</speaker>
+<lg type="couplet">
+<l>I roi dychryn yn y dechre</l>
+<l>ni awn yn union i<isp/><apo/>r <orig reg="Clenennau">Clynnene</orig>.<note resp="transcr">Clenennau is an estate in Caernarfonshire, near Porthmadog; see GPC 459, which also gives the spoken pronunciation <mentioned>Clenna</mentioned>. During the Civil War it was home to Sir John Owen, royalist major-general and governor of Conwy, who led the defence of the town in summer and autumn of 1646. Sir John was obliged to pay fines totalling £4842 to Parliament in 1647. A further £1000 in fines was extracted as a result of his participation in the north-Wales rebellion of 1648. His estates were seized again in 1659 after a royalist rising in Gwynedd.</note></l>
+</lg>
+<lg type="couplet">
+<l>Ni ddown adre heibio i fuches</l>
+<l>y Cabelier yr Hughes o <orig reg="Werclas">Wercles</orig>.</l>
+</lg>
+
+<pb n="41"/>
+<fw type="speaker-repeat"><lb/>Seque</fw>
+<lg type="quatrain">
+<l>Ni awn a da y <name key="Mostyn">Curnel Mostyn</name><note resp="transcr">Mostyn was fined £852, one-tenth of the value of his estate in 1647.</note>;</l>
+<l>ni adawn i<isp/><apo/>r tulwyth un cattelyn,</l>
+<l>nag i <name key="Lloyd">S<expan>y</expan>r Euan Lloyd</name> o J&acirc;l<note resp="transcr">Sir Evan Lloyd of Bodidris-in-Yale (Denbighshire) was High Sheriff of Denbighshire from 1643, and was fined £1000 after Parliament's victory for his role (see Norman Tucker, <title>Denbighshire officers in the Civil War</title> (Denbigh: Gee and Son, 1964), 47&ndash;51).</note></l>
+<l>oni th&acirc;l am<dsp/>danyn.</l>
+</lg>
+<lg type="quatrain">
+<l>Lle i bytho gwr a chregin gare</l>
+<l>er na bu fo erioed mewn arfe</l>
+<l>nid adwen i mono, teuraf yn glir,</l>
+<l>ei fod <corr resp="transcr" sic="y">yn</corr> Gabelir o<isp/><apo/>r pura.</l>
+</lg>
+</sp>
+
+<!-- INCOMPLETE 4- OR 2-LINE STANZA FOLLOWING -->
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<!-- COMPLETE 2-LINE STANZA
+	OR BEGINNING OF INCOMPLETE 4-LINE STANZA -->
+<lg type="unknown" part="N">
+<lg type="unknown" part="I">
+<l>Ond gore i mi yru gynta galla.</l>
+</lg>
+</lg>
+<!--check this-->
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Seque</speaker>
+<lg type="unknown" part="F">
+<l>Prisia 'r &ycirc;d &acirc;<isp/><apo/>r gwair yn gynta</l>
+</lg>
+<!-- INCOMPLETE 2-LINE STANZA
+	OR END OF INCOMPLETE 4-LINE STANZA -->
+<lg type="unknown" part="Y">
+<l>a phob dim a<isp/><apo/>r sydd <orig reg="yn">y'</orig> nesa,<note resp="transcr">A line appears to have been omitted in copying, either before this line (forming a complete quatrain), or following this line (forming a complete couplet).</note></l>
+<l/><!--empty line-->
+</lg>
+<lg type="couplet">
+<l>a phrisia yr holl ger hwsmoneth</l>
+<l>a phob dim cyn myned ymeth;</l>
+</lg>
+<lg type="quatrain">
+<l>prisia 'r gwl&acirc;n a<isp/><apo/>r coffre,</l>
+<l>prisia 'r pedill a<isp/><apo/>r crochane,</l>
+<l>a chwilia bob cornel gl&ucirc;d</l>
+<l>nes dwad o h&ycirc;d i<isp/><apo/>r code.</l>
+</lg>
+<lg type="quatrain">
+<l>Dwg y fflagen a<isp/><apo/>r dysgle</l>
+<l>yn esgus gwneud bwlede.</l>
+<l>Brysia, tyrd a nhw i ffwrdd!</l>
+<l>Prisia 'r bwrdd a<isp/><apo/>r meingcie.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>I rydwi yn prisio yn ddigon prysur,</l>
+<l>ond nid y fi ydi sequestratur.</l>
+</lg>
+<!--ONE LINE CROSSED OUT BY HD 1-->
+<lg type="quatrain">
+<l>Mi brisia y piccyne a<isp/><apo/>r llwye<isp/>'n llawen,</l>
+<l>y dillad brethyn a<isp/><apo/>r dillad llien,</l>
+<l>y gogr rhawn a<isp/><apo/>r rhidill rhwth</l>
+<l>a<isp/><apo/>r drybedd a<isp/><apo/>r cr&wcirc;th halen.</l>
+</lg>
+
+<pb n="42"/>
+<fw type="speaker-repeat"><lb/>Ffwl</fw>
+<lg type="couplet" part="I">
+<l>Gore i mi brisio 'r bwyd a<isp/><apo/>r ddiod.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Seque</speaker>
+<lg type="couplet" part="F">
+<l>Prisia; gwilia yfed gormod.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="I">
+<l>A brisiai 'r dorth sydd wedi ei thorri?</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Seque</speaker>
+<lg type="couplet" part="F">
+<l>Prisia<isp/>'r gyllell gyd ag i hi.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l>A brisiai y mynawydydd a<isp/><apo/>r nodwydde</l>
+<l>a<isp/><apo/>r efel binsio a<isp/><apo/>r corn esgidie</l>
+<l>a<isp/><apo/>r haiarn crochon sy<isp/>'n y'nen<!--reg-->,</l>
+<l>y gyllell wen a<isp/><apo/>r gwelle?</l>
+</lg>
+<lg type="quatrain">
+<l>A brisiai y wraig a<isp/><apo/>r plant sy<isp/>'n gweiddi,</l>
+<l>Rich<expan>a</expan>rd a Margred, Roger a Mari?</l>
+<l>Nid ydynt hwy ond st&wcirc;ff g&ocirc; s&acirc;l,</l>
+<l>ychydig a d&acirc;l y rheini.</l>
+</lg>
+<lg type="quatrain" part="I">
+<l>Mi chwiliais yn llwyr bob cilfach</l>
+<l>ac a brisiais y cwbl bellach.</l>
+<l>Gore i mi yru, mae<isp/>'r dydd yn furr.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Seque</speaker>
+<lg type="quatrain" part="F">
+<l>Hai, tyrd, gur, nag eiriach!</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l>Hai how, yswan ag yswitting,</l>
+<l>briad a brown a Duwc a darling.</l>
+<l>Ni wnawn yma fyches lom,</l>
+<l>a gwae chwi llom eich living!</l>
+</lg>
+<lg type="quatrain" part="I">
+<l>A yrai yr &ycirc;ch gwan ei afel</l>
+<l>a<isp/><apo/>r llall s&ycirc; ar ll&ycirc;g ar ei hegel?</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Seque</speaker>
+<lg type="quatrain" part="F">
+<l>Gyrr hwnnw a rhwngc yn ei gl&ycirc;n;</l>
+<l>na &acirc;d yno un anifel.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Hob how, y bychod a<isp/><apo/>r teirw!</l>
+<l>A glywch chwi neb yn gweiddi hi whw?</l>
+</lg>
+<lg type="couplet">
+<l>Hys hys y defaid, sihwa<isp/>'r ceffyle,</l>
+<l>tat tat y moch, lac lac y gwydde.</l>
+</lg>
+
+<pb n="43"/>
+<fw type="speaker-repeat"><lb/>Ffwl</fw>
+<lg type="quatrain" part="I">
+<l>Gore i mi yru 'r geifr a<isp/><apo/>r mynod.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Seque</speaker>
+<lg type="quatrain" part="M">
+<l>Gyrr y cwn a<isp/><apo/>r cathod!</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>Hai sihwa, cath o h&ycirc;d,</l>
+<l>a gwyn ei f&ycirc;d y llygod!</l>
+</lg>
+<lg type="couplet">
+<l>Hai how, gyrwch y meister!</l>
+<l>Neidiwch i<isp/><apo/>r groesffordd, hi aeth yma<isp/>'n brysyrder.</l>
+</lg>
+<lg type="couplet">
+<l>Gwiliwch golli yr un o<isp/><apo/>r gwartheg.</l>
+<l>Os cawn i le, ni ddygwn ychwaneg.</l>
+</lg>
+<lg type="quatrain">
+<l>Rhedwch o<isp/><apo/>i blaen, neidiwch y pylle.</l>
+<l>Rydech chwi yn <corr resp="transcr" sic="ei">eich</corr> bwtties a mine yn fy esgidie.</l>
+<l>Ffe ni gawson siwrne drom,</l>
+<l>o<isp/><apo/>r diwedd daethom adre.</l>
+</lg>
+<lg type="quatrain">
+<l>Fe ddarfu i ni flino, rwy gwedi chwsu.</l>
+<l>Gelwch am ddiod rhag ofn i mi dagu.</l>
+<l>Pott i fynu ag yfed gwin!</l>
+<l>Celfyddyd flin iw gyru.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y 2.</stage>
+<stage><lb/>Enter <name>Hwsmon</name>.</stage>
+<sp who="Hn">
+<lg type="quatrain">
+<l>Oes un ohonoch chwi 'r Cwmpeini</l>
+<l>a r&ycirc;dd chweigian i daly trethi.</l>
+<l>Fe ddarfu i<isp/><apo/>r <gap reason="deleted" hand="hd1" extent="1 letter"/> rwbars ddwyn fy march</l>
+<l>a gwneythyr amarch i mi.</l>
+</lg>
+<lg type="quatrain">
+<l>Ni ch&ecirc;s i noswaith ddiofal ddiflin</l>
+<l>er pan dorwyd pen y Brenin.</l>
+<l>Breibio comitti a bygwth fy ll&acirc;dd</l>
+<l>tra i parh&acirc;dd fy lifin.</l>
+</lg>
+<lg type="quatrain">
+<l>Breibio 'r comitti a<isp/><apo/>r capteiniaid</l>
+<l>rhag iddynt dynu fy llygaid.</l>
+<l>Taly trethi a chwartrio cl&ecirc;rs</l>
+<l>o riw<!--reg?--> ddrwg wners gweiniaid.</l>
+</lg>
+<lg type="quatrain">
+<l>Roedd rhai yn tybied <orig reg="mai">mae</orig> rhyw angel</l>
+
+<pb n="44"/>
+<fw type="speaker-repeat"><lb/>Hwsmon</fw>
+<lb/>
+<l>ar y cynta oedd <name key="Cromwell">Arglwydd Crwmwel</name>.</l>
+<l>Y rwan fe aeth wrth ei drin</l>
+<l>fel rhyw ysgethrin gythrael.</l>
+</lg>
+<lg type="quatrain">
+<l>Mae ganthynt hwy ryw gyfraith newydd</l>
+<l>i ffordd ar h&ycirc;d ar g<unclear>ly</unclear>d y gwledydd:</l>
+<l>ni ellir tyngu llw yn y byd,</l>
+<l>ond fe ellir dywedyd celwydd.</l>
+</lg>
+<lg type="quatrain">
+<l>Pe bae nhw ei gyd wedi ei crogi,</l>
+<l>os oes ynthynt ddim daioni.</l>
+<l>Oni ddaw <corr resp="transcr" sic="rhy">rhyw</corr> dro ar f&ycirc;d,</l>
+<l>gwae ni ei g&ycirc;d ein geni!</l>
+</lg>
+<lg type="quatrain">
+<l>Mi glywais gan wr oddiyma i Rythyn</l>
+<l>ei bod mewn gofal mawr a dychryn.</l>
+<l>Ag os gwir a glywais i,</l>
+<l>fe ddarfy llosgi Dylyn.</l>
+</lg>
+<lg type="quatrain">
+<l>Fe ddywedodd gwraig oedd ar ei siwrne</l>
+<l>i mi chwedl newydd gyne,</l>
+<l>fod llawer o longe ag ymladd trwm</l>
+<l>yn Aber-Cwm-dau-gledde.</l>
+</lg>
+<lg type="quatrain">
+<l>Fe landiodd llawer o<isp/><apo/>r Iddewon</l>
+<l>ddoe i ryde 'r cerig gwnion.</l>
+<l>Mi glowais ddweyd fod yn ei br&ycirc;d</l>
+<l>fyd ynghyd a<isp/><apo/>r Saeson.</l>
+</lg>
+<!-- Stage direction in left margin above from 'ag os...' to 'ddoe' -->
+<stage><lb/>Enter <name key="Maurice">Morus</name> ag yn ddierth yn siarad a<isp/><apo/>r Hwsmon.</stage>
+<lg type="quatrain" part="I">
+<l>Wel dyma un o<isp/><apo/>r <sic>Cabelir</sic> gwchion.</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>Moris</speaker>
+<lg type="quatrain" part="M">
+<l>Pa ryw bwynt, y poenus hwsmon?</l>
+</lg>
+</sp>
+
+<sp who="Hn">
+<speaker><lb/>Hwsmon</speaker>
+<lg type="quatrain" part="F">
+<l>Edrychwch g&ucirc;led iw fy 'ngrydd:</l>
+<l>i rydwi yn brydd <orig reg="fy">y</orig> nghalon.</l>
+</lg>
+<lg type="quatrain">
+<l>Cul a thene iw pob hwsmon</l>
+<l>yml&acirc;dd a gweithio i gadw carn lladron,</l>
+
+<pb n="45"/>
+<fw type="speaker-repeat"><lb/>Hwsmon</fw>
+<lb/>
+<l>a hwythe yn segur heb ddim chw&ycirc;s</l>
+<l>yn mynd ar fr&ycirc;s yn freision.</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>Moris</speaker>
+<lg type="quatrain">
+<l>Diodde, diodde ychydig etto</l>
+<l>a bydd fyw dan wir obeithio.</l>
+<l>Maent gwedi dringo i frig <corr sic="ucha" resp="hd1">y gangen ucha</corr> i gyd</l>
+<l>yn swrth mae yn ei bryd syrtho.</l>
+</lg>
+</sp>
+
+<sp who="Hn">
+<speaker><lb/>Hwsm</speaker>
+<lg type="quatrain">
+<l>Ie, diodde ychydig etto!</l>
+<l>Ai diodde iddynt hwy fy mlingo?</l>
+<l>Mi ddioddefais trwy fawr boen</l>
+<l>hyd fy nghroen fy <corr sic="mling" resp="hd1">nghneifio</corr>.</l>
+</lg>
+<lg type="couplet">
+<l>Mi a ddioddefais fel y ddafaid</l>
+<l>a ddioddefai dynu ei llygaid.</l>
+</lg>
+<lg type="couplet">
+<l>Oni bae fy mod i ddur neu gareg,</l>
+<l>nid allai ddiodde dim ychwaneg.</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>Moris</speaker>
+<lg type="couplet">
+<l>Diodde etto haner blwyddyn</l>
+<l>nes iddynt gael y m&ecirc;l yn wenwyn.</l>
+</lg>
+<lg type="couplet">
+<l>Ni bydd hyd Loegr deg ei ll&ycirc;n</l>
+<l>hanes am un ohonyn.</l>
+</lg>
+</sp>
+
+<sp who="Hn">
+<speaker><lb/>Hwsm</speaker>
+<lg type="quatrain" part="I">
+<l>A glywsoch i ddwad o<isp/><apo/>r Iddewon</l>
+<l>yn siwr i r&ycirc;d y cerig gwnion?</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>Moris</speaker>
+<lg type="quatrain" part="F">
+<l>Chwedle gwanwyn sydd gan ti;</l>
+<l><gap reason="deleted" hand="hd1" extent="2 letters"/>di gei gan i newyddion.</l>
+</lg>
+<lg type="quatrain">
+<l>Mae<isp/>'r Brenin jeuaing <corr sic="newydd" resp="hd1">gwedi</corr> ei goroni</l>
+<l>yn Yscottland, dedwydd i ni.<note resp="transcr">Charles II was declared king after landing in Scotland in 1650.</note></l>
+<l>Rhaid i nine rhag cael barn</l>
+<l>i<isp/><apo/>w blaid yn gadarn godi.</l>
+</lg>
+</sp>
+
+<sp who="Hn">
+<speaker><lb/>Hwsm</speaker>
+<lg type="quatrain" part="I">
+<l>Ai gwir iw hyn, <orig reg="fy">y</orig> ngharwr ffyddlon?</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>Moris</speaker>
+<lg type="quatrain" part="F">
+<l>Gwir, gwir, fe gadd ei goron.</l>
+<l>Mae fo a chanddo armi gr&ecirc;</l>
+<l>yn ymul tr&ecirc; <orig reg="Gaerwrangon">Gaer-frangon</orig>.<note resp="transcr">At the Battle of Worcester (22 August 1651), Charles II was defeated by a much larger parliamentary army led by Oliver Cromwell. Charles subsequently escaped to France.</note></l>
+</lg>
+</sp>
+
+
+<pb n="46"/>
+<sp who="Hn">
+<speaker><lb/>Hwsmon</speaker>
+<lg type="quatrain">
+<l>Dow bow, dow bow, mae <orig reg="fy nghalon">nghalon</orig>&nbsp;<orig reg="yn">y</orig> neidio.</l>
+<l>Mi af yno i ymladd; mae <orig reg="fy nwylo">nwylo</orig> yn merwino.</l>
+<l>Er darfod dwyn y cledde a<isp/><apo/>r gwn</l>
+<l>mae geni bastwn etto.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name key="Hewson">Huson</name>.</stage>
+<sp who="Hs">
+<lg type="quatrain">
+<l>Pwy sydd yma<isp/>'n dywedyd celwydd</l>
+<l>ag yn plottio yn mysc ei gilydd?</l>
+<l>A fynwch i frenin? Cewch yn haws</l>
+<l>y cledde ar draws eich ysgwydd!</l>
+</lg>
+</sp>
+
+<stage><lb/>
+<add hand="hd1" place="right-margin">mynd ynghyd a<isp/><apo/>r hwsmon a Moris yn diangc.</add></stage>
+<sp who="Hn">
+<speaker><lb/>Hwsm</speaker>
+<lg type="quatrain">
+<l>Nid oeddwn i ond siarad</l>
+<l>ynghylch yr haul a<isp/><apo/>r lleuad,</l>
+<l>a s&ocirc;n i roeddwn am rannu tr&ecirc;th;</l>
+<l>fe godwyd peth ar fagad.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain" part="I">
+<l>Onid<!--onide?, possibly with -e erased--> oeddwn i yn eich clywed <del resp="hd1">yn siarad <unclear>s&ocirc;n</unclear></del></l>
+<l>yn son am frenin D&ocirc;n ag Scotied?</l>
+</lg>
+</sp>
+
+<sp who="Hn">
+<speaker><lb/>Hwsm</speaker>
+<lg type="quatrain" part="F">
+<l>Celwydd y M.r ydi hyn.</l>
+<l>Myfi oedd yn gofyn defed.</l>
+</lg>
+<lg type="couplet">
+<l>Deliwch y fo, gollyngwch y fine;</l>
+<l>fe aeth att y Brenin i gym'ryd arfe.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit Moris.</stage>
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet">
+<l>Rhyhwyr iddo fyned atto;</l>
+<l>mae aer y goron newydd i guro.</l>
+</lg>
+<lg type="quatrain">
+<l>I <orig reg="roeddech">roedde</orig> chwi eich dau ar fedr myned</l>
+<l>i godi arfe yn erbyn Rowndied.</l>
+<l>Mi dyna y pedole oddi dana ti</l>
+<l>am fod i mi cyn <corr resp="transcr" sic="ffasled">ffalsed</corr>.</l>
+</lg>
+<lg type="couplet">
+<l>Tyrd oddi yna i<isp/><apo/>th roi mewn carchar.</l>
+<l><orig reg="Rwyt">Rwy</orig> ti yn tywys yn an-wyllysgar.</l>
+</lg>
+</sp>
+
+<stage><lb/>Ymeylyd yn ei glyst yn ffast, ag Exit y 2.</stage>
+<stage><lb/>Enter Brenin Charles 2.</stage>
+<sp who="C2">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Och! wel dyma anlwch greulon</l>
+<l>wedi enill tre <orig reg="Gaerwrangon">Gaer-frangon</orig></l>
+
+<pb n="47"/>
+<l>llabyddio <orig reg="fy">y</orig> 'ngwyr a cholli <orig reg="fy ngwaed">ngwaed</orig></l>
+<l>i lawr dan draed gelynion.</l>
+</lg>
+
+<!--WRITTEN IN RIGHT MARGIN-->
+<stage><lb/>Saer yn cael y Brenin yn y coed.</stage>
+
+<lg type="quatrain">
+<l>Ni wn i ble tuedda;</l>
+<l>syched mawr sydd arna;</l>
+<l>a reble hwythe yn waeth na dim</l>
+<l>yn barod i<isp/><apo/>m difetha.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter.</stage>
+<sp who="Sr">
+<speaker><lb/>Saer</speaker>
+<lg type="quatrain" part="I">
+<l>I ble y rydech chwi yn trafaelio?</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain" part="M">
+<l>Ni choeliai yr ai chwath <orig reg="nepell">heppell</orig> heno.</l>
+</lg>
+</sp>
+
+<sp who="Sr">
+<speaker><lb/>Saer</speaker>
+<lg type="quatrain" part="F">
+<l>I rydech yn fy meddwl i</l>
+<l>yn barod wedi blino.</l>
+</lg>
+<lg type="couplet" part="I">
+<l>Ai ymladd y byoch wrth dre <orig reg="Gaerwrangon">Gaerfrangon</orig>?</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="couplet" part="F">
+<l>Ie, am hynny pr&ycirc;dd iw fy 'nghalon.</l>
+</lg>
+</sp>
+
+<sp who="Sr">
+<speaker><lb/>Saer</speaker>
+<lg type="couplet">
+<l>Cymerwch gyssur, chwi gewch gyfrinach.</l>
+<l>Mi wn <orig reg="mai">mae</orig> ffrind y Brenin yd&acirc;ch.</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="quatrain">
+<l>O ran eich rheswm rwy<isp/>'n ych leiccio.</l>
+<l>A fedrwch chwi mo<isp/><apo/>m cyfarwyddo</l>
+<l>i ryw ffyddlon dirion d&ycirc;</l>
+<l>lle <corr sic="caffwy" resp="hd1">gallwi</corr> 'n h&ucirc; orffwyso?</l>
+</lg>
+</sp>
+
+<sp who="Sr">
+<speaker><lb/>Saer</speaker>
+<lg type="couplet">
+<l>Medra 'n siwr; mi a<isp/><apo/>ch cyfrwydda</l>
+<l>att &wcirc;r bonheddig o<isp/><apo/>r gonesta.</l>
+</lg>
+<lg type="couplet">
+<l>Dyma ei ferch o<isp/>'n gweddio ar ddeilin;</l>
+<l>mae hi yn gadarn gyd'a<isp/><apo/>r Brenin.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Jane L&acirc;n</name>.</stage>
+<sp who="Jn">
+<lg type="quatrain" part="I">
+<l>Ai Cabelier pur caredig</l>
+<l>a ydych chwi, y gwr bonheddig?</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="quatrain" part="F">
+<l>Ie, bychan iw fy mharch</l>
+<l>a mawr iw fy amarch oerddig.</l>
+</lg>
+</sp>
+
+<sp who="Jn">
+<speaker><lb/>Jane</speaker>
+<lg type="quatrain" part="I">
+<l>A wyddoch i a ddiengodd y Brenin</l>
+<l>o ddwylo<isp/>'r mwrdwyr oedd i<isp/><apo/>w erbyn?</l>
+</lg>
+</sp>
+
+
+<pb n="48"/>
+<sp who="C2">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain" part="M">
+<l>Do, fe ddiengodd am hyn o dro.</l>
+</lg>
+</sp>
+
+<sp who="Jn">
+<speaker><lb/>Jane</speaker>
+<lg type="quatrain" part="F">
+<l>Oh Duw <corr resp="transcr" sic="o">a</corr> fo <corr sic="yn ei" resp="hd1">i<isp/><apo/>w</corr> amddiffyn!</l>
+</lg>
+<lg type="couplet" part="I">
+<l>Ydech chwi yn siwr na ddiengodd mono?</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="couplet" part="F">
+<l>Myfi a<isp/><apo/>i gwranta <add place="supralinear" hand="hd1">fo</add> yn <orig reg="ddiargel">ddiargol</orig> etto.</l>
+</lg>
+</sp>
+
+<sp who="Jn">
+<speaker><lb/>Jane</speaker>
+<lg type="couplet" part="I">
+<l>Pa fodd y gellwch chwi dystiolaethu hynny?</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="couplet" part="F">
+<l>Credu rwy fod Crist i<isp/><apo/>w helpu.</l>
+</lg>
+</sp>
+
+<sp who="Jn">
+<speaker><lb/>Jane</speaker>
+<lg type="couplet" part="I">
+<l>Gwyn ei fyd a gawse ei weled.</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="couplet" part="F">
+<l>Edrychwch, i mae o flaen eich lluged.</l>
+</lg>
+</sp>
+
+<sp who="Jn">
+<speaker><lb/>Jane</speaker>
+<lg type="couplet" part="I">
+<l>Ai chwi ydi Brenin Lloegr fawrgu?</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="couplet" part="F">
+<l>Myfi ydyw Tywysog Cymru.</l>
+</lg>
+</sp>
+
+<!--IN MARGIN-->
+<stage><lb/>Jane yn ymgrymu iddo.</stage>
+<sp who="Jn">
+<speaker><lb/>Jane</speaker>
+<lg type="quatrain">
+<l>Chy<dsp/>chwi o radde reiol wreiddin</l>
+<l>ger fy mronn iw fy mrenin.</l>
+<l>Deuwch gyda myfi er ll&ecirc;s;</l>
+<l>mi a<isp/><apo/>ch rh&ocirc;f mewn achles ddichlin.</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="quatrain">
+<l>Nis gwn pa fodd y gallai 'n ddirgel</l>
+<l>fynd o<isp/><apo/>r deyrnas; blin iw 'r drafel.</l>
+<l>Siwr a fyddai o dorri <orig reg="fy mhen">mhen</orig></l>
+<l>os ai dan aden <name key="Cromwell">Crwmwel</name>.</l>
+</lg>
+</sp>
+
+<sp who="Jn">
+<speaker><lb/>Jane</speaker>
+<lg type="quatrain">
+<l>Myfi a fentra gyda chychwi</l>
+<l>dros y m&ocirc;r, o cerwch <orig reg="fy">y</orig> nghwmni,</l>
+<l>y chwi yn w&acirc;s da ar <corr sic="ychll&ecirc;s" resp="hd1">ych 
+ll&ecirc;s</corr></l>
+<l>a mine yn feistres ichwi.</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="quatrain" part="I">
+<l>Pa fodd i<isp/><apo/>ch gelwir, blodeu Europia?</l>
+<l>Gwas ufuddol i chwi a fydda.</l>
+</lg>
+</sp>
+
+<sp who="Jn">
+<speaker><lb/>Jane</speaker>
+<lg type="quatrain" part="F">
+<l>Jane L&acirc;n; i<isp/><apo/>ch achub chwi</l>
+<l>dros foroedd myfi a fentra.</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="quatrain" part="I">
+<l>Os mentrwch i, mi fentra yn fuan</l>
+<l>naill ai cael ai colli 'r cyfan.</l>
+</lg>
+</sp>
+
+
+<pb n="49"/>
+<sp who="Sr">
+<speaker><lb/>Saer</speaker>
+<lg type="quatrain" part="F">
+<l>Mine a waettia ar eich Gr&acirc;s</l>
+<l>i fynd o<isp/><apo/>r deyrnas allan.</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="quatrain">
+<l>I chwi eich deuwedd mi ymddirieda</l>
+<l>am fy mywyd; mi wn y galla.</l>
+<l>Os doi byth i<isp/><apo/>m braint na<isp/><apo/>m bri,</l>
+<l>yn deilwng <orig reg="i chwi">i chw</orig> mi dala.</l>
+</lg>
+</sp>
+
+<sp who="Jn">
+<speaker><lb/>Jane</speaker>
+<lg type="quatrain" part="I">
+<l>Er eich mwyn chwi, Frenin graslon,</l>
+<l>myfi a <orig reg="gollaf">golle</orig> waed <orig reg="fy">y</orig> nghalon.</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Bren</speaker>
+<lg type="quatrain" part="F">
+<l>Tewch, tewch, siaredwch lai!</l>
+<l>Wel daccw rai o<isp/><apo/>r gelynion.</l>
+</lg>
+</sp>
+
+<stage>Enter <name key="Harrison">Harris</name> a <name key="Cromwell">Chrwmwel</name>.</stage>
+<sp who="Hr">
+<lg type="couplet">
+<l>Oes neb a fedr chware hasard</l>
+<l>nes dwad o hyd i <name key="Charles_II">Charles Ystward</name>?</l>
+</lg>
+<lg type="couplet">
+<l>Pwy by<expan>n</expan>nag a ddel ag efo i<isp/><apo/>m magle</l>
+<l>am ei ben ceiff fil o bynne.<note resp="transcr">It is not entirely clear in the manuscript whether this couplet is spoken by Harris or by Crwmwel.</note></l>
+</lg>
+</sp>
+
+<stage><lb/><add hand="hd1" place="right-margin">Jane yn gollwn ei maneg i lawr, ynte yn ei chodi fyny, ei hystyn a<isp/><apo/>i hett am ei ben iddi.</add></stage>
+<sp who="Jn">
+<speaker><lb/>Jane</speaker>
+<lg type="couplet">
+<l>N<apo/><isp/>ad Duw mor anystwyth a gwnaethbwyd y chwi</l>
+<l>Ymgrynnwch a chodwch fy maneg i mi.</l>
+</lg>
+<lg type="couplet">
+<l>Nid ydi hi y rwan yn wynt nag yn law.</l>
+<l>Ai <corr resp="transcr" sic="nid nid">nid</corr> ellwch i ddal mo<isp/><apo/>ch hett yn eich llaw?</l>
+</lg>
+</sp>
+
+<sp who="Hr">
+<speaker><lb/>Harris</speaker>
+<lg type="couplet">
+<l>I mae hwn yn rhy fynyddig</l>
+<l>i fynd i dendio a<isp/><apo/>r ferch fonheddig.</l>
+</lg>
+</sp>
+
+<sp who="Jn">
+<speaker><lb/>Jane</speaker>
+<lg type="couplet">
+<l>Nid yw fo a<isp/><apo/>r peth ddim yn ymarfer.</l>
+<l>Mi wna iddo brynny ei ddysc ar fyrder.</l>
+</lg>
+</sp>
+
+<stage><lb/>y hi yn ei daro fo a<isp/><apo/>i llaw.</stage>
+<stage><lb/><sic>Exith</sic> y 3.</stage>
+<!--IE, BRENIN JANE SAER-->
+<sp who="Cr">
+<speaker><lb/><corr resp="transcr" sic="Cwrwm"></corr>Crwm</speaker>
+<lg type="couplet">
+<l>Bellach y fi a pia y teyrnasoedd,</l>
+<l>tr&ecirc;f a thyre, m&ocirc;r a thiroedd.</l>
+</lg>
+<lg type="couplet">
+<l>Cyn pen hir mi <orig reg="fynnaf">fyne</orig> fyned</l>
+<l>i gongcwerio cred ag angred.</l>
+</lg>
+<lg type="quatrain">
+<l>Nid rhaid mwy mo<isp/><apo/>r gofal yma;</l>
+<l>mi yra y sawdwyr i Jamacca.</l>
+
+<pb n="50"/>
+<fw type="speaker-repeat"><lb/><corr resp="transcr" sic="Brenin">Crwm</corr></fw> 
+<l>Er y byd ni roi ddraen;</l>
+<l>m&wcirc;n aur o Spaen mi sbeilia.</l>
+</lg>
+</sp>
+
+<sp who="Hr">
+<speaker><lb/>Harris</speaker>
+<lg type="couplet">
+<l>Chy<dsp/>chwi y rwan sydd orucha.</l>
+<l>Cael un rhodd genych a ddymuna.</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwm</speaker>
+<lg type="couplet">
+<l>Ffyddlon jawn i mi a fuoch;</l>
+<l>pam na chewch i y rhodd a fynoch?</l>
+</lg>
+</sp>
+
+<sp who="Hr">
+<speaker><lb/>Harris</speaker>
+<lg type="couplet">
+<l>Mi fyna i chwi gosbi 'r Cymru,</l>
+<l>crogi y rhan fwya o<isp/><apo/>r rheini</l>
+</lg>
+<lg type="couplet">
+<l>a<isp/><apo/>i distrywio nhw yn egin.</l>
+<l>Hwy wnant daly am ei Brenin.</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwm</speaker>
+<lg type="quatrain">
+<l>Yn ar&acirc; d&ecirc;g mi a<isp/><apo/>i gostega</l>
+<l>mewn caethiwed hyd yr eitha;</l>
+<l>ar hyder iddynt allu troi</l>
+<l>ni fynai mo<isp/><apo/>i difetha.</l>
+</lg>
+<!-- in left margin -->
+<stage><lb/>Enter Hamper.</stage>
+<lg type="quatrain">
+<l>Mi <orig reg="ddyblaf">ddyble</orig> ei trethi yn fil o ddyble</l>
+<l>ag a ddyga ei meirch a<isp/><apo/>i harfe.</l>
+<l>Ni ch&acirc;nt hefyd, tra bwy byw,</l>
+<l>mo fedydd yr eglwyse.<note resp="transcr">The rhyme here is faulty: there is no internal rhyme for <mentioned>byw</mentioned>.</note></l>
+</lg>
+</sp>
+
+<sp who="Hr">
+<speaker><lb/>Haris</speaker>
+<lg type="quatrain">
+<l>Oni ddygwch i ei hoedl hwythe</l>
+<l>mewn caethiwed hyd yr eithe,</l>
+<l>ni orphwysant <corr sic="fyth" resp="hd1">hwy fyth</corr> nes dial gwaed;</l>
+<l>nhw fynant aed o rywle.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamp</speaker>
+<lg type="quatrain">
+<l>Nyni rwan dan yr awyr</l>
+<l>sydd yn curo pob rhyfelwyr.</l>
+<l>Aed i Frenin o ble a d&ocirc;nt</l>
+<l>oni ddont o<isp/><apo/>r <corr sic="aw" resp="hd1">wybyr</corr>?</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwm</speaker>
+<lg type="couplet">
+<l>Na thyrd i<isp/><apo/>m <corr resp="transcr" sic="golw">golwg</corr> i, yr h&ecirc;n gowart,</l>
+<l>oni ddeli di Charles Ystwart.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamp</speaker>
+<lg type="couplet">
+<l>P&acirc;r fodd y gallwn, gadewch glywed,</l>
+<l>ddal y gwr heb ei weled?</l>
+</lg>
+
+<pb n="51"/>
+<fw type="speaker-repeat"><lb/>Hamp</fw>
+<lg type="quatrain">
+<l>Edrych am<dsp/>dano nid yw bwrpas;</l>
+<l>fe aeth yn barod allan o<isp/><apo/>r deyrnas.</l>
+<l>Mae iddo lwcc yn ddigon siwr</l>
+<l>i fentro<isp/>'r dwr fel Johnass.</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwm</speaker>
+<lg type="couplet" part="I">
+<l>Rhyfedd gen i pa fodd y diengodd.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamp</speaker>
+<lg type="couplet" part="F">
+<l>Rhyw ferch fonheddig a<isp/><apo/>i cnafeiddiodd.</l>
+</lg>
+</sp>
+
+<sp who="Hr">
+<speaker><lb/>Harris</speaker>
+<lg type="couplet">
+<l>Mi a<isp/><apo/>i canf&ucirc;m hwy, pei gwybaswn;</l>
+<l>a<isp/><apo/>m llaw<isp/>'n ddwysedd mi a<isp/><apo/>i lladdaswn.</l>
+</lg>
+<lg type="couplet">
+<l>Gwae oedd i<isp/><apo/>r gangen a<isp/><apo/>i confeie.</l>
+<l>Och, na bae hi ar flaen <orig reg="fy nghleddyf">y ngheledde</orig>!</l>
+</lg>
+</sp>
+
+<sp who="Cr">
+<speaker><lb/>Crwm</speaker>
+<lg type="couplet">
+<l>O frynted ei fynd o<isp/><apo/>r deyrnas allan;</l>
+<l>pwy nad ymgroga ohono ei hunan?</l>
+</lg>
+<lg type="couplet">
+<l>Os daw o fyth i Loegr etto,</l>
+<l>ni fynwn roddi waich i waittio.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit &ocirc;ll.</stage>
+<stage><lb/>Enter <name>Huson</name>.</stage>
+<sp who="Hs">
+<lg type="quatrain">
+<lg type="note-target" id="n51-1"><l>Myfi ydi pen comitti</l>
+<l>i settlio cyfraith yr eglwysi.<note target="n51-1" resp="hd1" place="right-margin">Huson yn Gomitti.</note></l></lg>
+<l>Mi fedra hynny, fe w&ycirc;r pawb,</l>
+<l>yn well nag esgawb gwisgi.</l>
+</lg>
+<lg type="quatrain">
+<l>Ni cheiff neb mo<isp/><apo/>r bod yn swyddog</l>
+<l>ond yr Independant's rhywiog.</l>
+<l>Na ddisgwiliwch fyth mo<isp/><apo/>r ffydd a fu</l>
+<lg type="note-target" id="n51-2"><l>ond pawb yn credu <name key="Craddock">Cariadog</name>.<note target="n51-2" resp="hd1" place="right-margin">Crodog iw.</note></l></lg>
+</lg>
+<lg type="quatrain">
+<l>Ni fynwn ein ffydd ein hunen</l>
+<l>dros wyneb y ddaiaren.</l>
+<l>I lawr ni rown ni a<isp/><apo/>i trown o<isp/><apo/>i tr&ecirc;s</l>
+<l>bob math yn Bres'bitterien.</l>
+</lg>
+<lg type="quatrain">
+<l>y <orig reg="gw&euml;ydd">gw&ycirc;dd</orig> a<isp/><apo/>r <orig reg="eurych">eurach</orig> minddu</l>
+<l>a<isp/><apo/>r g&ocirc;f a geiff bregethu</l>
+<l>a phawb a fu<isp/>'n colli ei gwaed</l>
+<l>a<isp/><apo/>r person aed i ddyrnu.</l>
+</lg>
+
+<pb n="52"/>
+<fw type="speaker-repeat"><lb/>Huson</fw>
+<lg type="quatrain">
+<l>Ni cheir na chymun na chrefydd,</l>
+<l>nag ofer fiwsic, cerddor na phrydydd,</l>
+<l>na brenin byth yn Lloegr wenn,</l>
+<l>ond pawb ymhen ei gylydd.</l>
+</lg>
+<lg type="quatrain">
+<l>Yr Justus sydd ar osteg</l>
+<l>yn priodi 'r merched glandeg.</l>
+<l>Ni cheir mwy fedyddio <orig reg="yr un">r&ucirc;n</orig></l>
+<l>nes i'r elo hi yn un ar bymtheg.</l>
+</lg>
+</sp>
+
+<!--
+ CROSSED OUT-->
+<sp who="Ff">
+<speaker><lb/><corr resp="hd1" sic="Fflittwd">Ffwl</corr></speaker>
+<lg type="couplet" part="I">
+<l>Gyd'a<isp/><apo/>ch cenad, y gw&ycirc;r sy<isp/>'n cowrttrio!</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet" part="F">
+<l>O ba wlad y rwyt i yn rhodio?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Myfi a rodiais bart o<isp/><apo/>r hollfyd</l>
+<l>ag a dreiais bob celfyddyd.</l>
+</lg>
+<lg type="couplet">
+<l>Ond y rwan rwy<isp/>'n amcanu</l>
+<l>peidio a gweithio a mynd i bregethu.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain" part="I">
+<l>A fedri di ddarllain llyfre?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l><orig reg="Medraf">Medre</orig><isp/>'r wyddor Gymraeg o<isp/><apo/>r gore;</l>
+<l>na ffendiwch arnai ormod bai</l>
+<l>er misio rhai llythrenne.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet">
+<l>Oni chyfarfuost di a<isp/><apo/>r yspryd,</l>
+<l>ni fedri di yn jawn mo<isp/><apo/>r gelfyddyd.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Roeddwn i neithiwr yn ddigon chwannog</l>
+<l>yn troi <orig reg="fy ngheffyl">ngheffyl</orig> i gae fy nghymydog.</l>
+</lg>
+<lg type="quatrain">
+<l>Rhyngddwy a<isp/><apo/>r clawdd mi welwn ryw huttan;</l>
+<l>rwy<isp/>'n tybiad <orig reg="mai">mae</orig><isp/>'r yspryd roedd o<isp/>'n croppian.</l>
+<l>Ond tebyccach ei ystym ydoedd i chwi</l>
+<l>nag i mi fy hunan.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet" part="I">
+<l>Dangos dy waith, beth a fedri?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Gwrandewch-ithe yn ddyfal ar <orig reg="fy">y</orig> ngweddi:</l>
+</lg>
+
+<pb n="53"/>
+<fw type="speaker-repeat">Ffwl</fw>
+<lg type="quatrain">
+<!--'QUOTED'-->
+<l>Yn <name key="Cromwell">Arglwydd Prottector</name> a<isp/><apo/>r Comitti,</l>
+<l><name key="Fleetwood">Fflittwd</name> a <name key="Lambert">Lambart</name> a<isp/><apo/>r holl armi,</l>
+<l>Cymru a Lloegr, Gwlad yr H&acirc;</l>
+<l>a fyddo gyda ny<dsp/>ni.</l>
+</lg>
+<lg type="couplet">
+<l>Wel dyna i chwi weddi weddus.</l>
+<l>Gwrandewch ar dext y bregeth felus:</l>
+</lg>
+<lg type="quatrain">
+<!--'QUOTED' Link quotes!-->
+<l>Edrychwch, cewch weled yn y rebel</l>
+<l><orig reg="mai">mae</orig> peth daionus ydi rhyfel</l>
+<l>i gael ei fyd wrth ei fodd,</l>
+<l>a hynny a gododd <name key="Cromwell">Grwmwel</name>.</l>
+</lg>
+<lg type="couplet">
+<l>Pwy a fydde mor anrhesymol</l>
+<l>a chadw meibion yn yr ysgol</l>
+</lg>
+<lg type="couplet">
+<l>i ddarllen Ladin, Groeg, h&ecirc;n chwedle,</l>
+<l>jaith anweddol fel jaith hen wydde,</l>
+</lg>
+<lg type="couplet">
+<l>a<isp/><apo/>n brodur ni heb fedr ei habsi</l>
+<l>yn wyr grasol mewn eglwysi.</l>
+</lg>
+<lg type="quatrain">
+<l>Beth a wneir a <orig reg="Cambridge">Chamridge</orig> a Rhyd-Ychen</l>
+<l>pa<isp/><apo/>n waeth Gwrexam neu Lan-gollen?</l>
+<l>Ni gawn yno ormod o ddysc</l>
+<l>yn ein mysc ein hunen!</l>
+</lg>
+<lg type="quatrain">
+<l>Cewch weled yn Llyfr y Cybyddion</l>
+<l><orig reg="mai">mae</orig> drwg iw chware ddyddie gwylion.</l>
+<l>Chware a bair werthu tir;</l>
+<l>wrth weithio fe gesglir digon.</l>
+</lg>
+<lg type="quatrain">
+<l>Peth llwyddiannus ydi trawster</l>
+<l>i<isp/><apo/>r sawl a fedro ei drin a<isp/><apo/>i arfer</l>
+<l>i gael ei fyd yn jawn i<apo/><isp/>w fodd;</l>
+<l>hyn yma a gododd <name key="Cromwell">Grwmwel</name>.</l>
+</lg>
+<lg type="quatrain">
+<l>Edrych yn Llyfr y Mawr Draha</l>
+
+<pb n="54"/>
+<fw type="speaker-repeat"><lb/>Ffwl</fw>
+<lb/>
+<l>yn y bennod faleusus a<isp/><apo/>r wers nesa,</l>
+<l><orig reg="mai">mae</orig> trawster a gododd i fynu 'n rhwydd</l>
+<l>yr Justus <gap reason="deleted" hand="hd1" extent="3 letters"/> brydswydd <sic><name key="Bradshaw">Bradsa-w</name></sic>.</l>
+</lg>
+<lg type="couplet">
+<l>Bydd rhai pobl yn ymgroesi;</l>
+<l>ynfydion <corr resp="transcr" sic="cattttyliaid">cattyliaid</corr> ydi y rheini.</l>
+</lg>
+<lg type="couplet">
+<l>Wrth godi ei bodie att ei penne,</l>
+<l>mae nhw yn sigo b&ocirc;n ei breichie.</l>
+</lg>
+<lg type="couplet">
+<l>Edrychwch ym <orig reg="mhennod">henod</orig> yr Anghyfiawnder</l>
+<l>ag chwi beidiwch a dywedyd eich pader.</l>
+</lg>
+<lg type="couplet">
+<l>Madde i ni ein dyledion fel y maddeuwn ni i<isp/><apo/>n dyledwyr.</l>
+
+<l>Wel dyna air heb <orig reg="ronyn"><corr sic="ronus" resp="transcr">ronun</corr></orig> o synwyr.</l>
+</lg>
+<lg type="couplet">
+<l>Dyled y wlad yw taly i ni ein trethi;</l>
+<l>nid ym ni mor ffol ag y maddeuwn i y rheini.</l>
+</lg>
+<lg type="couplet">
+<l>Yn enw<isp/>'r Arglwydd a<isp/><apo/>r Prottector,</l>
+<l>mi a<isp/><apo/>i tyna nhw o groen y <orig reg="colector">clector</orig>.</l>
+<!--END QUOTE HERE?-->
+</lg>
+<lg type="couplet">
+<l>Mi dorra ar fyr &mdash; mae<isp/>'r dydd yn pasio &mdash;</l>
+<l>rhag ych dal chwi yn rhy hir heb eich cinio.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet">
+<l>Mi a<isp/><apo/>th <orig reg="welaf">wele</orig> di 'n bregethwr odieth;</l>
+<l>mae <orig reg="gennyt">geni</orig> ti ormod o ddysgeidieth.</l>
+</lg>
+<lg type="couplet">
+<l>Di gei rent eglwys geni yn rhywle</l>
+<l>am bregethu hyd y teie.</l>
+</lg>
+<lg type="couplet">
+<l>O chai<isp/>'r fan i rwy<isp/>'n ei ddewis,</l>
+<l>trowch i ffordd y ficcar Jervis. &mdash;</l>
+</lg>
+<lg type="couplet">
+<l><orig reg="gwedd&iuml;ai">gweddi-ai</orig> am rent Llan Silin &mdash;</l>
+<l>mae fo<isp/>'n gweddio gyd'a<isp/><apo/>r Brenin.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Hamper</name>.</stage>
+<sp who="Hp">
+<lg type="quatrain">
+<l>Rhedwch am yr hoedel</l>
+<l>i hebrwng corph <name key="Cromwell">Oliver Cwrwmwel</name>!</l>
+<l>Fe ddarfu i<isp/><apo/>r ange i daro i lawr,</l>
+<l>reolwr mawr o ryfel.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l>A fu farw y Prottector</l>
+
+<pb n="55"/>
+<fw type="speaker-repeat"><lb/>Ffwl</fw>
+<lb/>
+<l>yn <unclear>j</unclear>&acirc;ch <unclear>b</unclear>regeth mewn esgybor?</l>
+<l>Mi dafla fy llyfre i ficcer y plwy;</l>
+<l>ni phoenai mwy yn ei hagor.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain">
+<l>Ond rhyfedd ag ystowtiad fydde</l>
+<l>yn rheoli ei wyr a<isp/><apo/>i arfe.</l>
+<l>Pa fodd y dichon ange gwan - pa</l>
+<l>fentro dan ei gledde?</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamp</speaker>
+<lg type="couplet">
+<l>Fo fwried o<isp/>'i lawr yn un llam;</l>
+<l>mae<isp/>'n ddrwg i holl Gomitti Gwrexam.</l>
+</lg>
+<lg type="couplet">
+<l>Awn i<isp/><apo/>w gladdu; ni welir dridie</l>
+<l>un w&ecirc;n lawen ar <orig reg="fy">y</orig> ngene.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Mae<isp/>'n chwith jawn gan ine am<dsp/>dano;</l>
+<l>mi gymrwn ychydig ag ochneidio.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit oll.</stage>
+<!--CHECK ENTERS-->
+<stage><lb/>Enter <name>Hwsmon</name> a<isp/><apo/>r Cabelir <name key="Maurice">P. Moris</name>.</stage>
+<sp who="Hn">
+<lg type="couplet">
+<l>Oes neb a bryn nag &ocirc;g nag <orig reg="aradr">ared</orig>,</l>
+<!-- og = 'harrow' -->
+<l>jau na th&icirc;d, rhaw na hatched?</l>
+</lg>
+<lg type="couplet">
+<l>Mi gymres ormod y boen yn methu;</l>
+<l>nid ai i lafurio tir ond hyny<!--RETRACED HD2?-->.</l>
+</lg>
+<lg type="quatrain">
+<l>Er ys ugain mlynedd rydwi yn poeni,</l>
+<l>a<isp/><apo/>r sawdwyr segur sy<isp/>'n gwresogi,</l>
+<l>mynd a<isp/><apo/>m gwair a mynd a<isp/><apo/>m h&ycirc;d,</l>
+<l>a<isp/><apo/>m harian i g&ycirc;d yn drethi;</l>
+</lg>
+<lg type="quatrain">
+<l>dwyn yr w&ycirc;n a<isp/><apo/>r mynnod,</l>
+<l>y gwydde a<isp/><apo/>r jeir a<isp/><apo/>r <orig reg="colomennod">clomennod</orig>.</l>
+<l>Nid allai fagu dim ond chwain</l>
+<l>oddi gerth brain neu lugod.</l>
+</lg>
+<lg type="quatrain">
+<l>Gwaetha dim sy<isp/>'n torri <orig reg="fy">y</orig> nghalon</l>
+<l>eisio cael ei galw yn lladron</l>
+<l>plundrio a dw&ycirc;n fy holl dda<isp/>'n gl&icirc;n</l>
+<l>oer ddiwedd i<isp/><apo/>r Jddewon!<note resp="transcr">Note the failure of the rhym <mentioned>gl&icirc;n</mentioned> : <mentioned>i<isp/><apo/>r</mentioned> here.</note></l>
+</lg>
+<lg type="couplet">
+<l>Er pan rhyw beth a<isp/><apo/>r Protector</l>
+
+<pb n="56"/>
+<fw type="speaker-repeat"><lb/><corr resp="hd1" sic="Ffwl">Hwsmon</corr></fw>
+<lb/>
+<l>nid oes arnynt hwy mor ordor</l>
+</lg>
+<lg type="couplet">
+<l>o ffydd i ffydd yn gwau trwy ei gilydd</l>
+<l>yn dweyd yn deg a thyngu celwydd.</l>
+</lg>
+<lg type="couplet">
+<l>Mab Crwmwel sy dda ei gydwybod;</l>
+<l>mae fo ar swydd yn ymwrthod.</l>
+</lg>
+<lg type="couplet">
+<l>Pe cae fo i wllys, fe roe i goron</l>
+<l>yn wir cofus i<isp/><apo/>r aer cyfion.</l>
+</lg>
+<lg type="couplet">
+<l>Y rwan un <name key="Hesilrige">Hasrig</name> a <name key="Fleetwood">Fflittwd</name></l>
+<l>ag un <name key="Lambert">Lambart</name> gefel<unclear>l</unclear> gofrwd</l>
+</lg>
+<!--STROKE HERE INDICATING NEW SPEAKER; PROBABLY ERRONEOUS-->
+<lg type="couplet" part="I">
+<l>ydyw fo<isp/>'n erbyn Rwmp o Lundain.</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>Cabelir</speaker>
+<lg type="couplet" part="F">
+<l>Mi glywais ei fod gan Bresbiteriain.</l>
+</lg>
+</sp>
+
+<sp who="Hn">
+<speaker><lb/>Hwsm</speaker>
+<lg type="couplet">
+<l>Os dechre <name key="Monck">Mwngc</name> a<isp/><apo/>i armi daro,</l>
+<l>mina fentrwn gyd ag efo.</l>
+</lg>
+<lg type="couplet">
+<l>Hai how, Wyddelod a Chymru,</l>
+<l>gwell i ni 'n lladd yn l&acirc;n na nychu.</l>
+</lg>
+<lg type="couplet">
+<l>Mi a fine o nerth <orig reg="y">y</orig> nhraed tuag adre</l>
+<l>i chwilio<isp/>'r clawdd a<isp/><apo/>m cledde.</l>
+</lg>
+</sp>
+
+<sp who="Mo">
+<speaker><lb/>Cabelir</speaker>
+<lg type="couplet">
+<l>Aros, aros, cymer gwmni;</l>
+<l>mi dd&ocirc;f fine gyd<dsp/>a thydi.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y 2.</stage>
+<!-- Discontinuous stage direction -->
+<stage id="stage56a" next="stage56b">Enter y 2 <name key="Fleetwood">Fflitwd</name>.</stage>
+<sp who="Fd">
+<lg type="couplet" part="I">
+<l>Fy ffrind <name key="Hesilrige">Hasrig</name>, rwy mewn trymder.</l>
+</lg>
+</sp>
+
+<stage id="stage56b" prev="stage56a">
+<name key="Hesilrige">Hasrig</name>.</stage>
+<sp who="Hg">
+<lg type="couplet" part="F">
+<l>Fy ffrind <name key="Fleetwood">Fflittwd</name>, beth iw<isp/>'r matter?</l>
+</lg>
+</sp>
+
+<sp who="Fd">
+<speaker><lb/>Fflittw</speaker>
+<lg type="couplet">
+<l>Rwy<isp/>'n ofni mae gwell a fase i ni</l>
+<l>gadw <name key="Lambert">Lambert</name> gyd<dsp/>a nyni</l>
+</lg>
+<lg type="couplet">
+<l>rhag ofn bod <name key="Monck">General Mwngc</name> mewn males;</l>
+<l>pwy wyr pa feddwl sy<isp/>'n i fynwes?</l>
+</lg>
+</sp>
+
+<sp who="Hg">
+<speaker><lb/>Hasrig</speaker>
+<lg type="couplet">
+<l>Os oes ond hynny, byddwn lawen.</l>
+<l>Gadewch iddo ddwad i Lunden.</l>
+</lg>
+<lg type="couplet">
+<l>Oni wneiff o<isp/>'r peth a fynwn,</l>
+<l>mewn cur chwerwedd ni a<isp/><apo/>i carcharwn.</l>
+</lg>
+</sp>
+
+
+<pb n="57"/>
+<stage><lb/>Enter <name>Mwngc</name>.</stage>
+<sp who="Mw">
+<lg type="couplet">
+<l><name key="Fleetwood">Fflittwd</name> a <name key="Hesilrige">Hasarig</name>, aedwyr penna,</l>
+<l>chychwi ei deuwedd a gyfarcha.</l>
+</lg>
+</sp>
+
+<sp who="Fd">
+<speaker><lb/>Fflittwd</speaker>
+<lg type="couplet">
+<l><name key="Monck">General Mwngc</name>, a ddarfu i chwi flino?</l>
+<l>I Citti Lundain mae i chwi groeso.</l>
+</lg>
+</sp>
+
+<sp who="Mw">
+<speaker><lb/>Mwngc</speaker>
+<lg type="couplet">
+<l>Mi drafaelias yma attoch</l>
+<l>i edrych pa ddiffyg a fu arnoch.</l>
+</lg>
+<lg type="couplet">
+<l>Mi glywais eich bod chwi heb jawn gyttuno;</l>
+<l>yn gandryll jawn pwy all ych coelio?</l>
+</lg>
+</sp>
+
+<sp who="Fd">
+<speaker><lb/>Fflittw</speaker>
+<lg type="quatrain">
+<l>A sefwch i gyd'a nyni yn jawn-wych</l>
+<l>i chwilio 'r deyrnas yn gadarn-wych?</l>
+<l>Dywedwch eich meddwl i ni 'n rhydd,</l>
+<l>pa ffordd i<isp/><apo/>r ffydd s&ycirc; genych?</l>
+</lg>
+</sp>
+
+<sp who="Mw">
+<speaker><lb/>Mwngc</speaker>
+<lg type="couplet">
+<l>Dirgelwch gwr ydyw <orig>&lsqb;celu ei&rsqb;</orig>&nbsp;<corr resp="transcr" sic="fedd">feddwl</corr>.</l>
+<l>Mi ddyweda i chwi beth, ni ddweydai mo<isp/><apo/>r cwbbwl.</l>
+</lg>
+<lg type="couplet">
+<l>Pa'r ymrafel sydd yn Llundain</l>
+<l>rhyngoch chwi a<isp/><apo/>r Presbitterian?</l>
+</lg>
+</sp>
+
+<sp who="Hg">
+<speaker><lb/>Hasrig</speaker>
+<lg type="couplet">
+<l>Gwyr North Cymru oedd yn gweinio;</l>
+<l><orig reg="yng Nghaer">yng-Haer</orig> y byont hwy<isp/>'n rubelio.</l>
+</lg>
+<lg type="couplet">
+<l>Os sefwch chwithe gyda nyni,</l>
+<l>ni wnawn ein rhann am guro y rheini.</l>
+</lg>
+<lg type="couplet">
+<l>Mae prentisiad Llundain hefyd</l>
+<l>a haeddent gosbedigaeth waedlyd.</l>
+</lg>
+<lg type="couplet">
+<l>Mae nhw yn ymgodi yn gyttun</l>
+<l>ag yn an ufudd yn <corr resp="transcr" sic="ei">ein</corr> herbyn.</l>
+</lg>
+</sp>
+
+<sp who="Mw">
+<speaker><lb/>Mwng</speaker>
+<lg type="couplet">
+<l>Ffri Parliament i<!--?--> yn gynta</l>
+<l>i ddadwreiddio 'r anwiredda.<note resp="transcr">After entering London with his army in February 1660, Monck readmitted to Parliament those MPs who had been excluded in 1648, on condition that Parliament would disolve itself and a new Parliament would be elected.</note></l>
+</lg>
+<lg type="couplet">
+<l>Nes cael gwybod ar bwy mae<isp/>'r beie,</l>
+<l>mi a<isp/><apo/>ch carchara chwi a nhwythe.</l>
+</lg>
+
+<pb n="58"/>
+<fw type="speaker-repeat"><lb/>Mwngc</fw>
+<lg type="couplet">
+<l>Yr ydwi yn comittio <name key="Fleetwood">Fflittwd</name> a <name key="Hesilrige">Hasarig</name></l>
+<l>ac yn comittio pob ffenattig</l>
+</lg>
+<lg type="couplet">
+<l>ag yn ufuddhau i bob gofernor</l>
+<l>a fy<isp/>'n rhwyda 'r h&ecirc;n Brottector.</l>
+</lg>
+<lg type="couplet">
+<l>Pob gofernor, pob capteiniad a phob offis</l>
+<l>dan y Rwmp sy<isp/>'n byw<isp/>'n gariss.</l>
+</lg>
+<lg type="couplet">
+<l>Gildio, rhoddwch i lawr eich arfe</l>
+<l>ag ewch yn fuan i<isp/><apo/>ch trigfanne.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Ffwl</name>.</stage>
+<sp who="Ff">
+<lg type="couplet">
+<l>Mr <name key="Monck">Mwngc</name>, Duw a<isp/><apo/>ch cattwo;</l>
+<l>myfi yn gynta sydd yn ildio.</l>
+</lg>
+<lg type="couplet">
+<l>Mi flinais yn plundrio gyd'a Rowndied;</l>
+<l>i rydwi 'n leiccio troi fy siecced.</l>
+</lg>
+</sp>
+
+<sp who="Mw">
+<speaker><lb/>Mwngc</speaker>
+<lg type="couplet">
+<l>Mae i tti groeso. Gl&ycirc;n yn ei harfe</l>
+<l>a dyro y gwyr gerfydd ei sodle.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l><name key="Fleetwood">Fflittwd</name> a <name key="Hesilrige">Hasrig</name>, y ddau rebel,</l>
+<l>seccuttorion <name key="Cromwell">Oliver Crwmwel</name>,</l>
+<l>dowch yn fuan gyda mi</l>
+<l>i ofun mersi i<isp/><apo/>r marsiel.<note resp="transcr">Neither Hesilrige nor Fleetwood was imprisoned until after the return of Charles II in May 1660.</note></l>
+</lg>
+</sp>
+
+<stage><lb/>Exit y 3.</stage>
+<!--IE: Ff, Fd, Hg-->
+<sp who="Mw">
+<speaker><lb/>Mwngc</speaker>
+<lg type="couplet">
+<l>Gwrandewch drwy<isp/>'r deyrnas, bonedd a gwerin!</l>
+<l>I riwlio<isp/>'ch bonedd chwi gewch ych Brenin.</l>
+</lg>
+<lg type="couplet">
+<l>Myfi sy<isp/>'n ei <corr resp="hd1" sic="ddeddol">ddethol</corr> a Duw sy<isp/>'n ei <orig reg="amddiffin">mddiffin</orig></l>
+<l>ag yn ei blannu lle 'r oedd yr h&ecirc;n wreiddin.</l>
+</lg>
+<lg type="couplet">
+<l>Charles; Charles a fydd reolwr,</l>
+<l>aer y goron, wiw-lan gongcweriwr.</l>
+</lg>
+<lg type="couplet">
+<l>Ni chewch i weled mwy o<isp/><apo/>r trattur</l>
+<l>o h&ecirc;n dreftadaeth Owen Tudur.</l>
+</lg>
+</sp>
+
+<stage><lb/>
+<supplied>Exit Mwngc</supplied>.</stage>
+<stage><lb/>Enter 4
+<!--TOP LEFT MARGIN NEXT PAGE-->
+<lb/>1 Fflitwd a
+<lb/>2 <name key="Hesilrige">Has<add place="supralinear" hand="hd1">a</add>rig</name> a
+<lb/>3 Hamper a
+<lb/>4 Huson.</stage>
+<!--SUCCESSIVE ENTERS?; SPEAKING TOGETHER?-->
+<sp who="Fd">
+<speaker><lb/>Fflitwd</speaker>
+<lg type="couplet">
+<l>Ffei, ffei, ni aethon yn <gap reason="deleted" hand="hd1" extent="2 letters"/> ffylied;</l>
+<l>Mwngc a<isp/><apo/>n tywyllodd o flaen ein llyged.</l>
+</lg>
+
+<pb n="59"/>
+<!--SEE ABOVE-->
+<lg type="couplet">
+<l>Ei ollwng a wnaethon i dre Lundain</l>
+<l>a rhoi iddo ein harfe i<isp/><apo/>n lladd ein hunain.</l>
+</lg>
+<lg type="couplet">
+<l>Och, na chawson dirion derfyn</l>
+<l>cyn clywed proclaimio<isp/>'r Brenin!</l>
+</lg>
+<lg type="couplet">
+<l>Llawenach a fase gan <orig reg="fy">y</orig> nghalon</l>
+<l>fy mrathu a chledde dan <orig reg="fy">y</orig> nwy fron.</l>
+</lg>
+</sp>
+
+<sp who="Hg">
+<speaker><lb/><corr resp="transcr" sic="Haris">Hasrig</corr></speaker>
+<lg type="couplet">
+<l>Gwaeth na dim mae<isp/>'r Cabeliers</l>
+<l>gwedi myned <corr resp="transcr" sic="y yn">yn</corr> ffri howlders,</l>
+</lg>
+<lg type="couplet">
+<l>uwch ein penne ni yn 'swagrio</l>
+<l>a nine tan ei traed ar syrthio.</l>
+</lg>
+<lg type="couplet">
+<l>Ffei, ffei ini fod mor feddal!</l>
+<l>Ffei, o lid am fedru ymddial,</l>
+</lg>
+<lg type="couplet">
+<l>am na basem ni yn ei fwrdrio,</l>
+<l>pan oedd dialedd dan ein dwylo.</l>
+</lg>
+<lg type="couplet">
+<l>Diymadferth iawn a fuom nine</l>
+<l>a di<dsp/>goel jawn a di<dsp/>galonne</l>
+</lg>
+<lg type="couplet">
+<l>am golli 'r trefydd mawr a<isp/><apo/>r cestyll</l>
+<l>ni lesen o<isp/><apo/>i hanfodd fyth mo<isp/><apo/>i henyll.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamper</speaker>
+<lg type="quatrain">
+<l>Roeddem ni ei gyd wedi diffrwytho;</l>
+<l>roedd rhyw beth yn dal ein dwylo.</l>
+<l>Er maint ein serch i golli ein gwaed,</l>
+<l>nid alle ein traed symudo.</l>
+</lg>
+</sp>
+
+<sp who="Fd">
+<speaker><lb/>Fflittwd</speaker>
+<lg type="couplet">
+<l>Er bod ympiniwn yn ein penne,</l>
+<l>ni fedrwn droi mo<isp/><apo/>n tafode,</l>
+</lg>
+<lg type="couplet">
+<l>nag i ddywedyd gair i<isp/><apo/>n safio,</l>
+<l>pan ddaeth y matter i<isp/><apo/>n comuttio.</l>
+</lg>
+</sp>
+
+<sp who="Hg">
+<speaker><lb/>Hasrig</speaker>
+<lg type="quatrain">
+<l>Na ymrowch i farw cyn eich condemio.</l>
+<l>Mae geni newydd i<isp/><apo/>ch confforddio;</l>
+<l>rhag colli ych parch a<isp/><apo/>ch uchel r&acirc;dd,</l>
+
+<pb n="60"/>
+<fw type="speaker-repeat"><lb/>Hasrig</fw>
+<lb/>
+<l>ni ymrown i ymladd etto.</l>
+</lg>
+<lg type="couplet">
+<l>Ny<dsp/>ni a 'scrifennwn lythyr</l>
+<l>drwy dir Brydain att ein brodur.</l>
+</lg>
+<lg type="couplet">
+<l>Ni ddown fel eirth ei gyd ar unwaith</l>
+<l>i<isp/><apo/>w mwrdrio yn ei <orig reg="gwelyau">gwla&ycirc;</orig> ryw noswaith.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain">
+<l>Hynny a wnawn a byddwn barrod.</l>
+<l>Ni fynwn bowdwr gwyn ryw ddiwrnod,</l>
+<l>ag a ymladdwn yn ddi<dsp/>s&wcirc;n</l>
+<l>yn waeth na<isp/><apo/>r c&wcirc;n cynddeiriogod.</l>
+</lg>
+</sp>
+
+<stage><lb/>Enter <name>Ffwl</name>.</stage>
+<sp who="Ff">
+<lg type="couplet">
+<l>Ai yma<isp/>'r ydych i gyd yn plottio?</l>
+<l>Ewch att y marsiel, rwy<isp/>'n rhybiddio.</l>
+</lg>
+</sp>
+
+<sp who="Fd">
+<speaker><lb/>Fflittwd</speaker>
+<lg type="couplet">
+<l>Pam y rhaid i ti ein cyhyddo?</l>
+<l>Ny<dsp/>ni a<isp/><apo/>th gododd di i falchio.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Mi a<isp/><apo/>ch gadawaf i chwithe, y gwyr bonddigion,</l>
+<l>pan ddarffo i<isp/><apo/>r coedydd dyfu digon.</l>
+</lg>
+<stage><lb/>Huson a Hamper yn cychwyn ymaith.</stage>
+<!-- ?? -->
+<fw type="speaker-repeat"><lb/>Ffwl</fw>
+<lg type="couplet">
+<l>Arhoswch yma etto!</l>
+<l>Mae geni awdurdod i<isp/><apo/>ch disbandio.</l>
+</lg>
+<lg type="couplet" part="I">
+<l>Moeswch arfe, ladron breision!</l>
+</lg>
+</sp>
+
+<sp who="Hg">
+<speaker><lb/>Hasarig</speaker>
+<lg type="couplet" part="F">
+<l>Cymer iti ynh&wcirc;; yn boeth a bothon.</l>
+</lg>
+<stage><lb/>Rhoi 'r arfe i lawr.</stage>
+<lg type="quatrain" part="I">
+<l>Pa beth a gawn ni i<isp/><apo/>n maentaenio</l>
+<l>gan fod y matter i<isp/><apo/>n comuttio?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>Dydd a n&ocirc;s, hai, dos di</l>
+<l>o nerth dy wythi i weithio.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet">
+<l>Os rhaid i ni sydd wedi pesgi</l>
+<l>deithio a gweithio o nerth y gwythi</l>
+</lg>
+<lg type="couplet">
+<l>ymado a<isp/><apo/>r bir a<isp/><apo/>r cwrw croyw-deg,</l>
+<l>yr ydwi yn ofni y tawdd <orig reg="fy">y</orig> mloneg.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Mi a<isp/><apo/>th <orig reg="welaf">wele</orig> di wedi casglu braster,</l>
+<l>yn din dew jawn ag yn dender</l>
+</lg>
+
+<pb n="61"/>
+<fw type="speaker-repeat"><lb/>Ffwl</fw>
+<lg type="couplet">
+<l>ag yn barod jawn i<isp/><apo/>r hatched</l>
+<l><sic>a fynd di</sic> n&ocirc;l y gigydd attad?</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hampr</speaker>
+<lg type="quatrain" part="I">
+<l>Nid wy abl byth i weithio;</l>
+<l>nid all <orig reg="fy">y</orig> nghefn i mo<isp/><apo/>r ystwytho.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain" part="F">
+<l>Ow, pa<dsp/>ham iw hynny 'n rhodd?</l>
+<l>Ai pawl a dyfodd drw&ycirc;ddo?</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamper</speaker>
+<lg type="couplet">
+<l>Wrth gael cymaint o seguryd,</l>
+<l>mi ollyngais dros g&ocirc; fy 'nghelfyddyd.</l>
+</lg>
+<lg type="couplet">
+<l>Nid oes geni ond gweddio;</l>
+<l>bid byan yr &ecirc;l hi yn rhyfel etto.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Ofer iti roi dy weddi;</l>
+<l>dysg wers arall rhag dy grogi.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamp</speaker>
+<lg type="couplet">
+<l>Nis gwn i ple ar ddeu pen daiar</l>
+<l>i gadewais i fy hampar.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Di a<isp/><apo/>i <corr resp="transcr" sic="gadewais">gadewaist</corr> hi yn <name key="Llandderfel">Llan<dsp/>dderfel</name>,</l>
+<l>yngwystl cwrw wrth fynd i <sic>rhyfel</sic>.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet">
+<l>Pe cawn i fenthyg manawed,</l>
+<l>mi awn i drwsio sodle 'r merched.</l>
+</lg>
+<lg type="couplet">
+<l>Os medrai ddim o<isp/><apo/>r h&ecirc;n gelfyddyd,</l>
+<l>mi ai i chwilio am hemp i wneythr pwyntryd.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Ni chei di hempen y<dsp/>leni,</l>
+<l>pe <orig reg="rhoddet">rhoi</orig> ti aur am<dsp/>dani.</l>
+</lg>
+<lg type="couplet">
+<l>Nid ei i goblerieth i blygu garra</l>
+<l>nes darfod naw mis y cebysta.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet">
+<l>Gofyn i <name key="Monck">Fwngc</name> a gawn i fynd tano;</l>
+<l>ni drown yn Gabeliers etto.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Ffwrdd, ffwrdd a chwi ffalswyr!</l>
+<l>Ni wnewch fyth wasan'eth cywir.</l>
+</lg>
+</sp>
+
+
+<pb n="62"/>
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="couplet" part="I">
+<l>Awn, ni chawn mo<isp/><apo/>r aros yma.</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet" part="F">
+<l>Gwared ohonoch gore <orig reg="po 'n">pan</orig> bella.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamp</speaker>
+<lg type="quatrain">
+<l>Awn, ni chawn ddim o<isp/><apo/>r croeso</l>
+<l>ffordd y b&ycirc;on gynt yn cwarttio</l>
+<l>am ein castie pam y cawn</l>
+<l>och Huw, i ble<isp/>'r awn heno?</l>
+</lg>
+</sp>
+
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="couplet">
+<l>Canlynwch eich trwyn tua<isp/><apo/>r Nordd</l>
+<l>i dreio 'r dr&acirc;tt i sbeilio pen ffordd.</l>
+</lg>
+</sp>
+
+<sp who="Hs">
+<speaker><lb/>Huson</speaker>
+<lg type="quatrain" part="I">
+<l>Am ein bod ni c&ycirc;d yn y sbeilio,</l>
+<l>mi ro i ti fflagen wrth ymado.</l>
+</lg>
+</sp>
+
+<sp who="Hp">
+<speaker><lb/>Hamp</speaker>
+<lg type="quatrain" part="F">
+<l>Mi ddo gyd<dsp/>a thi yn y man</l>
+<l>i geisio rhan ohono.</l>
+</lg>
+</sp>
+
+<stage><lb/>Exit &ocirc;ll.</stage>
+<!-- Discontinuous stage direction -->
+<stage id="stage62a" next="stage62b">Enter 2 <corr sic="Brenin" resp="hd1">
+<name key="Monck">Mwngc.</name>
+</corr></stage>
+<sp who="Mw">
+<lg type="quatrain">
+<l>Fy <name key="Charles II">Mrenin Charles</name> o reiol waed cyfan,</l>
+<l>mae 'n groeso wrthych i<apo/><isp/>ch eiddo eich hunan,</l>
+<l>a dilynwch eich jawn ff&ycirc;dd</l>
+<l>ag impiwch newydd winllan!</l>
+</lg>
+</sp>
+
+<stage id="stage62b" prev="stage62a">a <name>Brenin</name>.</stage>
+<sp who="C2">
+<lg type="quatrain">
+<l>I chwi rwy' yn rhwymedig,</l>
+<l>fy amddiffynwr <name key="Monck">Mwngc</name> garedig.</l>
+<l>Mi alla eich cyfri yn ddi<dsp/>w&acirc;d</l>
+<l>yn anwyl dad <corr sic="caredig" resp="hd1">nodedig</corr>.</l>
+</lg>
+</sp>
+
+<sp who="Mw">
+<speaker><lb/>Mwngc</speaker>
+<lg type="couplet">
+<l>Gwyr gonest y deyrnas, bonedd a gwerin,</l>
+<l>ufuddhewch, chwi gewch eich Brenin</l>
+</lg>
+<lg type="couplet">
+<l>i gael troi 'r ffanattig ymaeth</l>
+<l>a raglyniodd y gelyniaeth.</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/><add place="supralinear" hand="hd2">Brenin</add></speaker>
+<lg type="quatrain">
+<l>Chwi wyddoch y cam a wnaethont a myfi,</l>
+<l>dwyn y teyrnasoedd a<isp/><apo/>r cwbl oedd geni.</l>
+<l>Hynny oedd yn peri i chwi gael pw&ycirc;s</l>
+<l>a<isp/><apo/>ch llwytho yn ddw&ycirc;s a threthi.</l>
+</lg>
+<lg type="couplet">
+<l>Nid wy<isp/>'n 'wllysio <corr sic="llosgi" resp="hd1">cosbi</corr> undyn</l>
+<l>a fy 'n ymladd yn fy erbyn,</l>
+</lg>
+
+<pb n="63"/>
+<fw type="speaker-repeat"><lb/>Brenin</fw>
+<lg type="couplet">
+<l>ond dial ar y rhai a dore heb derfysc</l>
+<lg type="note-target" id="n63-1"><l>wir arglwyddi gloyw ddysc.</l></lg>
+</lg>
+</sp>
+<note resp="hd2" place="right-margin" target="n63-1">be<expan>n</expan>n fy nhad a<isp/><apo/>i arglwyddi gloewddysg</note>
+
+<sp who="Mw">
+<speaker><lb/>Mwng</speaker>
+<lg type="quatrain">
+<l>Chwi ddywedasoch wreiddin fy meddwl:</l>
+<l>y nhw a haeddant anferth drwbl,</l>
+<l>y cigyddion a wnaeth gam;</l>
+<l>can ddiodde am y cwbl.</l>
+</lg>
+<lg type="couplet">
+<l>Mi ddaethim unwaith etto i Lundain</l>
+<l>lle bym a<isp/><apo/>m llywydd yn byw<isp/>'n llawen.</l>
+</lg>
+<lg type="couplet">
+<l>Gwae fi; gwae hwythe dreigie drygfodd</l>
+<l>pen grynion dwysion a<isp/><apo/>i di<dsp/>osodd.</l>
+</lg>
+<stage><lb/>Enter <name key="Henrietta_Maria">Frenhines</name>.</stage>
+</sp>
+
+<sp who="Mw"><speaker><lb/><add resp="hd2">Mwngc<note resp="transcr">The addition here by hand 2 is unnecessary as Monck is already speaking.</note></add></speaker>
+
+
+<lg type="quatrain">
+<l>Yr Urddas <name key="Henrietta_Maria">Frenhines Mari</name>,</l>
+<l>mae<isp/>'n groeso wrthych i Lundan Citti.</l>
+<l>Chwi ellwch bellach ddydd a n&ocirc;s</l>
+<l>yn ddiofal aros ynddi.</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Chwi, <name key="Monck">General Mwngc</name> gywirlan,</l>
+<l>i mae i mi ddiolch am y cyfan.</l>
+<l>Chwi godasoch ar ei draed <del rend="hd1">o reio</del></l>
+<l>o reiol waed y rwan.</l>
+</lg>
+</sp>
+
+<sp who="Fr">
+<speaker><lb/>Frenhines</speaker>
+<lg type="couplet">
+<l>Fy mab, fy mab, na byddwch ry feddal!</l>
+<l>Nid ellwch i fod un awr yn ddiofal</l>
+</lg>
+<lg type="couplet">
+<l>nes ichwi grogi yr holl dratturied</l>
+<l>a fu i<isp/><apo/>ch erlyd mewn caethiwed.</l>
+</lg>
+</sp>
+
+<sp who="C2">
+<speaker><lb/>Brenin</speaker>
+<lg type="quatrain">
+<l>Rhaid i mi fod yn drugaroccach</l>
+<l>a <corr resp="transcr" sic="chmryd">chymryd</corr> y matter yn arafach</l>
+<l>nes i<isp/><apo/>r Parliament yn gyfion</l>
+<l>farnu<isp/>'r drwg a chadw<isp/>'r gwirion.</l>
+</lg>
+</sp>
+
+</div>
+<!-- End of body of drama -->
+
+<pb n="64"/>
+<div type="epilogue">
+<sp who="Ff">
+<speaker><lb/>Ffwl</speaker>
+<lg type="quatrain">
+<l>Oes yma neb yn ofni y Rowndied?</l>
+<l>Doed i<isp/><apo/>r tir gole, dim hwy nag ymguddied!</l>
+<l>Mae<isp/>'r Cabelir yn mynd yn fr&acirc;s</l>
+<l>drwy jawn wych urddas chwardded!</l>
+</lg>
+<lg type="couplet">
+<l>A welodd neb yr Justus <name key="Bradshaw">Brodsa</name>?</l>
+<l>A fu'o er ystalwm ddim <orig reg="ffordd">fordd</orig> yma?</l>
+</lg>
+<lg type="couplet">
+<l>Gwr synhwyrol jawn oedd hwnw;</l>
+<l>fo fu farw ddoe rhag ei grogi heddyw.<note resp="transcr">Bradshaw died on 31 October 1659. After the Restoration, his body was exhumed and hanged on 30 January 1661.</note></l>
+</lg>
+<lg type="quatrain">
+<l>Chwi gewch yr un fath ar gyfreithie</l>
+<l>ag oedd yn amser eich hen dade</l>
+<l>a<isp/><apo/>ch teidie wnae gadw diwrnod gwyl.</l>
+<l>Wel dyna<isp/>'r gorchwyl gore:</l>
+</lg>
+<lg type="couplet">
+<l>rhag ofn penyd nid eill undyn</l>
+<l>o fewn y deyrnas fyned ar'nyn.</l>
+</lg>
+<lg type="couplet">
+<l>Pan edrychwi ar ei thegwedd,</l>
+<l>mi glywa s&wcirc;n y gynffon senedd.</l>
+</lg>
+<lg type="quatrain">
+<l>Pob un sy<isp/>'n caru hawddgarwch</l>
+<l>yn well na<isp/><apo/>r trwst na<isp/><apo/>r tristwch,</l>
+<l>gan fod ein Brenin yn ein br&ocirc;</l>
+<l>fe ddarfu cwyno. Cenwch!</l>
+</lg>
+</sp>
+
+</div>
+<!-- End of epilogue -->
+</body>
+</text>
+</TEI.2>
