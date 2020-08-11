@@ -1,0 +1,836 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../prose_dipl.xsl"?>
+<!-- normal stylesheet: prose_dipl.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY yr ".r.">
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title lang="cym">Llythyrau gan ymfudwyr Cymraeg o Sir Gaerfyrddin i'r Unol Daleithiau allan o NLW 14873E (1797&ndash;1807)</title>
+<title lang="eng">Letters by Welsh settlers from Carmarthenshire in the United States from NLW 14873E (1797&ndash;1807)</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by </resp><name id="transcr">Ingo Mittendorf and David Willis</name>
+<resp>Notes by <name>Ingo Mittendorf and David Willis</name></resp></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, November 2004</edition></editionStmt>
+
+<publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+</publicationStmt>
+
+<notesStmt>
+  <note lang="cym" type="source">Mae catalog Llyfrgell Genedlaethol Cymry yn disgrifio'r llythyrau fel hyn:</note>
+  <note lang="eng" type="source">The National Library of Wales catalogue describes the letters thus:</note>
+  <note type="source">A group of letters, 1797&ndash;1832, sent to Welsh emigrants in Pennsylvania and Ohio. Five letters were sent to Theophilus Rees at the Cambria Settlement, Beulah, Pennsylvania, mostly by Samuel Thomas of Carllegan, [parish of Mydrim, co. Carmarthen], the other correspondents being John and Ann Thomas at London, and a sixth letter from John D. Evans at Beulah writing to Theophilus Rees in Seiotha, Ohio. There is also a letter to David R. Thomas of Granville, Ohio, from D. Thomas at Swansea, as well as biographical details concerning Theophilus Rees and his family.</note>
+<note type="source">All the letters in Welsh are transcribed here. The letter from John and Ann Thomas, dated 20 June 1801, and another undated letter in the same hand, are in English, and are not transcribed. The letter from D. Thomas to David Thomas of Granville, OH, dated 14 April 1832, is also in English, and has not been transcribed.</note>
+
+<note type="source">The letters by <rs id="scribe">Samuel Thomas</rs> all appear to be originals in his own hand, and contain consistent idiosyncrasies of spelling. Most notable is the use of &lt;c&gt; instead of &lt;g&gt;. The letter by <rs id="hd3">Moses David</rs> also appears to be original, although it would seem that he had it written for him by <rs id="hd2">William Richard</rs>, who then added his own short letter at the end. The letter by <rs id="hd4">John D. Evans</rs> also appears to be original. Some bibliographical notes in <rs id="hd5">another, presumably later hand</rs> have also been transcribed for information, along with some <rs id="otherhand">other additions</rs>.</note>
+
+<note type="lang">The letters contain extensive features of Carmarthenshire dialect.</note>
+  
+</notesStmt>
+
+<sourceDesc>
+<bibl sameAs="NLW14873E_1">
+<idno type="CHIG">1</idno>
+<title type="ms" lang="cym">Llythyr oddiwrth Samuel Thomas (Caerfyrddin) at Theophilus Rees a'i wraig Elizabeth Thomas (Beulah, PA), 18 Rhagfyr 1797</title>
+<title type="ms" lang="eng">Letter from Samuel Thomas (Carmarthen) to Theophilus Rees and his wife Elizabeth Thomas (Beulah, PA), 18 December 1797</title>
+<biblScope>NLW 14873E</biblScope>
+</bibl>
+
+<bibl sameAs="NLW14873E_2">
+<idno type="CHIG">2</idno>
+<title type="ms" lang="cym">Llythyr oddiwrth Samuel Thomas (Caerfyrddin) at Theophilus Rees a'i wraig Elizabeth Thomas (Beulah, PA), 25 Mehefin 1800</title>
+<title type="ms" lang="eng">Letter from Samuel Thomas (Carmarthen) to Theophilus Rees and his wife Elizabeth Thomas (Beulah, PA), 25 June 1800</title>
+<biblScope>NLW 14873E</biblScope>
+</bibl>
+
+<bibl sameAs="NLW14873E_3">
+<idno type="CHIG">3</idno>
+<title type="ms" lang="cym">Llythyr oddiwrth Samuel Thomas (Carllegan) at Theophilus Rees (Beulah, PA), 28 Mai 1801</title>
+<title type="ms" lang="eng">Letter from Samuel Thomas (Carllegan) to Theophilus Rees (Beulah, PA), 28 May 1801</title>
+<biblScope>NLW 14873E</biblScope>
+</bibl>
+
+<bibl sameAs="NLW14873E_4">
+<idno type="CHIG">4</idno>
+<title type="ms" lang="cym">Llythyr oddiwrth Samuel Thomas (Carllegan) at Theophilus Rees (Beulah, PA), 13 November 1802</title>
+<title lang="eng">Letter from Samuel Thomas (Carllegan) to Theophilus Rees (Beulah, PA), 28 May 1801</title>
+<biblScope>NLW 14873E</biblScope>
+</bibl>
+
+<bibl sameAs="NLW14873E_5">
+<idno type="CHIG">5</idno>
+<title type="ms" lang="cym">Llythyr oddiwrth Samuel Thomas (Carllegan), heb ddyddiad [1802/3?]</title>
+<title type="ms" lang="eng">Letter from Samuel Thomas (Carllegan), undated [1802/3?]</title>
+<biblScope>NLW 14873E</biblScope>
+</bibl>
+
+<bibl sameAs="NLW14873E_6">
+<idno type="CHIG">6</idno>
+<title type="ms" lang="cym">Llythyr oddiwrth Moses David (Trelech), 4 Mehefin 1806</title>
+<title type="ms" lang="eng">Letter from Moses David (of Trelech), 4 June 1806</title>
+<biblScope>NLW 14873E</biblScope>
+</bibl>
+
+<bibl sameAs="NLW14873E_7">
+<idno type="CHIG">7</idno>
+<title type="ms" lang="cym">Llythyr oddiwrth John D. Evans (Beulah, PA) at Theophilus Rees (Seiotha, OH), 5 Mai 1807</title>
+<title type="ms" lang="eng">Letter rom John D. Evans (Beulah, PA) to Theophilus Rees (Seiotha, OH), 5 May 1807</title>
+<biblScope>NLW 14873E</biblScope>
+</bibl>
+
+<bibl sameAs="NLW14873E_8">
+<idno type="CHIG">8</idno>
+<title type="ms" lang="cym">Manylion bywgraffiadol am Theophilus Rees</title>
+<title type="ms" lang="eng">Bibliographical details of Theophilus Rees</title>
+<biblScope>NLW 14873E</biblScope>
+</bibl>
+
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+<p/>
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs> and <rs id="eng">English</rs> with editorial notes in Welsh and English (including some transcriptions in the <rs id="ipa">International Phonetic Alphabet</rs>).</p>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+  <date>November 2004</date>
+  <respStmt><resp>David Willis</resp></respStmt>
+  <item>Letter 5 transcribed; Whole text proofread; comments turned into orig-tags or removed; checked apo, isp and dsp-elements; corrected some difficult readings; standardised english attribute as "eng"; revised TEI-header, including adding source description and notes; added opener (dateline and salute) structure for the start of the each letter.</item>
+</change>
+
+
+<change>
+<date>19 Sept 2003</date>
+<respStmt>
+<resp/>
+</respStmt>
+<item>
+Basic XML-conversion;
+parts in English marked with SEG.
+Inserted W, ISP and ISP+APO (but not APO alone), corrections converted. Insertions (<add place="supralinear">...</add> in original) all SUPRALINEAR, needs checking)
+</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text id="NLW14873E">
+<group>
+
+<text id="NLW14873E_1">
+<body>
+
+<div>
+<pb n="1"/>
+<opener>
+<dateline><lb/>Carmarthen <date>Dece.<hi rend="superscript">r</hi> 18. 1797</date></dateline>
+<salute><lb/><seg lang="eng">Dear Brother and Sister /</seg></salute>
+</opener>
+
+<p>
+<lb/><s><seg lang="eng">I rece<expan>ive</expan>d your Letter Dated the 5. of
+<lb/>Aug.<hi rend="superscript">st</hi> last, and have given me, great Satisfaction <corr resp="transcr" part="a" sic="to">to</corr>
+<lb/><corr resp="transcr" part="b" sic="to"></corr> hear of your being all well, and it gave me great
+<lb/>Happyness that,</seg> y fod Sam, bach mewn <orig reg="iechyd">uechid</orig>, ag euch
+<lb/>bod <orig reg="chwithau">chwthe</orig> wedy <orig reg="sefydlu">Sufidly</orig> wrth euch bodd a<isp/><apo/>r Hollallyog
+<lb/>a<isp/><apo/>ch Benduthyo chwy oll, hyn yw fy Nyminuad, er fy mod
+<lb/><damage><supplied reason="damaged">yn </supplied><c/><c/><c/><c/><c/></damage>s yn y gnawd, <unclear>er hynny y</unclear><damage><supplied>r</supplied></damage> wyf guda <corr resp="transcr" sic="chw">chwy</corr> yn yr
+<lb/>yspryd yn gweled eych Trefen chwy, <unclear><c/><c/><c/></unclear></s>
+<lb/><s>My a <orig reg="ysgrifennais">Screfenes</orig> gopp o<isp/><apo/>ch llythyr</s> <s>My a<isp/><apo/>u Hales <add resp="scribe" place="supralinear">y</add> John Thomas
+<lb/>yn Lyndain, ag y <orig reg="eraill">eryll</orig> fel ag y gorchyminasoch,</s> <s>y may
+<lb/>Llawer o <orig reg="Llythyrau">Llythere</orig> wedy ei <orig reg="ysgrifennu">Sgrefeny</orig> o feidrym ag o faney
+<lb/>eryll atoch chwu o bryd ey gulydd,</s> <s>fe ddarfy <corr resp="transcr" sic="my">fy</corr> Mrawd
+<lb/>Rees, Scryfenny awst Dywetha, ag mu ddymynais ynne
+<lb/>ar eych <corr resp="transcr" sic="Brwd">Brawd</corr> John o Llyndayn y Scryfenny lawer gwaith ag
+<lb/>yr wy yn bwryadi yddo<isp/>e wneithyr felly</s> &mdash; <s>Nyd oes dym <w>cyfnew<lb rend="shy"/>yda<damage><supplied>d</supplied></damage></w>&nbsp;<damage><supplied>y</supplied></damage>n fy Nheyly y yr yn Ny oll yn yach, ag felly Teyly
+<lb/>fy <damage><supplied>mra</supplied></damage>wd,</s> <s>y may Richard eto yn Llynden</s> <s>y <orig reg="mae">mey</orig> David
+<lb/>yn d<damage><supplied>al</supplied></damage> gweithyo Rhaffe</s> <s>y may B<damage><supplied>e</supplied></damage>ttsy yn <orig reg="tyfu">Tyddy</orig> yn fawr</s> &mdash;
+<lb/><s>y mae y try a<dsp/>rall yn bwyta bwy<damage><supplied>d</supplied></damage> Segyr ag yn yach</s> &mdash; 
+<lb/><s>y <orig reg="mae">mey</orig> Sam.<hi rend="superscript">l</hi> a William Meibon Re<damage><supplied>es</supplied></damage> ar Bwrdd Llong y Buny<hi rend="superscript">n</hi>
+<lb/>y <orig reg="mae">mey</orig> John wedy pryodi a Merc<damage><supplied>h </supplied><c/><c/><c/><c/><c/></damage></s> <s>Nyd <orig reg="ydych">ydych</orig> chwy yn
+<lb/>adnabyddys a thylwyth ey wraig e</s> <s>y mae e yn gwaithyo yn
+<lb/>Aberystwith</s> <s>y may Bett yn gwasnaythy a Sall yn Bwyta
+<lb/>Bwyd Segyr</s> &mdash; <s>y ddarfych Screfenny yn byr Heleth. <orig reg="ond">on</orig> y may
+<lb/>gyda fi Lawer o Gwestwne I ofyn y chwy on Ny chynwis
+<lb/>fy Mhapyr yn bresenol</s> &mdash; <s>Pwy mor belled <orig reg="ydych">ydych</orig> oddy wrth <orig reg="Philidelphia">Philid<hi rend="superscript">phe</hi></orig></s>
+<lb/>&mdash; <s>beth gostodd y Tyr</s> &mdash; <s>a oedd<isp/>e wedy ei arllwys, ney yn, anyalwch</s>
+<lb/>&mdash; <s>o beth y<hi rend="superscript">r</hi><!--ms y.r--> ych yn byldo y Tay</s> &mdash; <s>Pwy mor belled <orig reg="ydych">ydch</orig> oddy
+<lb/>wrth Afon Sydd yn arwen, y<isp/><apo/>r Mor, a beth yw y henw hy</s> &mdash; <s>a
+<lb/>odych yn dechre cody llafyr</s> &mdash; <s>pwy mor belled ydch oddy
+<lb/>wrth Dref Marchnad a beth yw ey henw hy</s> &mdash; <s>a ody &nbsp;<add place="supralinear">rhan bena</add> yr coed
+<lb/>ag yr ych y Son am<dsp/>danyn yn <orig reg="tyfu">Tyddi</orig> ar eych Tyr chwy yn mwya penodol,
+<lb/>y pren <orig reg="siwgr">Swgir</orig></s> &mdash; <s>a <orig reg="tyfiff">dyddyff</orig> y pren hwn, yn y wlad hon, pe bay hynny
+<lb/>yn bod fe ayr <orig reg="teulu">Taily</orig> (Shors) ar 5. ran o<dsp/>hono</s> &mdash; <s>Pwy amser y mai
+
+<pb n="2"/>
+<lb/>Gayaf yn dufod y mewn ag felly yr Haf,</s> <s>a Oes llawer o <orig reg="gyfnewidiad">Gyfnewedad</orig> yn yr
+<lb/>Hyn, hyny wy yn feddwl, a ody yr gayaf, yn oer yawn, a<isp/><apo/>r Haf yn Dwym yawn</s> &mdash;
+<lb/><s>a ody Teyly David fy Nay, wedy chwanegy</s> &mdash; <s>y <orig reg="mae">mey</orig> dda genym glywed fod
+<lb/>Mary wedy <orig reg="sefydlu">Syfydly</orig> yr wy yn gobeythio wrth ei Bodd, a bod ei chydmar yn
+<lb/>Ofny yr Arglwydd,</s> <s>y <orig reg="mae">mei</orig> yn deddol gyda ny ofyn a oedd e yn abal yawn gadew<add resp="scribe" place="supralinear">ch</add>
+<lb/>hynny yn y man yna</s> &mdash; <s>a Ode yn rhyw <orig reg="celfyddyd">glefyddyd</orig> ney grefftwr</s> &mdash; <s>pa le may
+<lb/>Martha, Bett,</s> <s>a odyn hwy mewn gwasaneth</s> &mdash; <s>pwy mor belled <orig reg="ydych">ydch</orig> oddywrth yr
+<lb/>Anyalwch lle may <orig reg="creaduriaid">cryadyryad</orig> Rheibys</s> &mdash; <s>a odych chwy yn agos y <orig reg="bythynau">fyffyne</orig>
+<lb/>y Dynion <orig reg="gwylltion">Gwillion</orig></s> &mdash; <s>a ody ffouls Gwylltyon yn amal yn y wlad a beth
+<lb/>yw ey <orig reg="enwau">henwea</orig></s> &mdash; <s>yr ydys yn dwaid <corr resp="transcr" sic="for">fod</corr> Nadrodd Mawryon yn eych <orig reg="gwlad">glad</orig></s> <s>a ody
+<lb/>felly</s> &mdash; <s>a Oes Geifyr, Bwch ddanas, Moch gwyllton, da, a cheffyle gwyllton
+<lb/>a pwy ffordd ydys yn ey dala hwy</s> &mdash; <s>a Oes defed gyda chwy</s> &mdash; <s>a oes
+<lb/>Llwynogod Lawer</s> &mdash; <s>a ody yr anyfeliad yn geffredyn yr yn faint an <!--ar?-->
+<lb/>ag o wahanol <orig reg="lliwiau">Lwyea</orig> fel ag y maen yn y wlad hon</s> &mdash; <s>y maynt yn
+<lb/>dwaid fod <orig reg="dyfnder">Dufnwnder</orig> mawr dail a Mwswn cyn yr eloch ar y ddayar
+<lb/>Bryddlyd a beth yw ey Llyw hi</s> &mdash; <s>a oes Clai dan y ddayar ney graig
+<lb/><add resp="scribe" place="supralinear">fel</add> Clos y<unclear>r</unclear> hen <orig reg="Treasgell">Draskell</orig></s> &mdash; <s>a ody <orig reg="Treasgell">Draskell</orig> Newydd yn Sefyll ar Lether</s>
+<lb/><s>a ody y Dwfwr yn Tarddy yn agos at y Ty &mdash; Ni ddarfych Son am farlys na
+<lb/><orig reg="ceirch">cyrch</orig> yn ych Llythyr</s> <s>am hyny yr wy i<isp/><apo/>n bwryady nad oes dym,</s> <s>a oes
+<lb/>gyda chwy ddym Cwrw ney ddyod gadarn</s> &mdash; <s>beth <orig reg="ydych">ydch</orig> yn yfed fwy<add resp="scribe" place="supralinear">a</add>ch</s>
+<lb/><s>O ba le yr <orig reg="ydych">ydch</orig> yn <orig reg="cael">cal</orig> Halen &mdash; Tea &mdash; a Coffy</s> &mdash; <s>pwy fys yr <orig reg="ydych">ydch</orig> yn Hay
+<lb/>Llafyr, ag ym Mhwy fys yr ydch yn Medy</s> &mdash; <s>a Oes n<unclear>e</unclear>m<supplied reason="damaged">or</supplied> afaleu
+<lb/>Plwms &amp;c yn y wlad</s> &mdash; <s>a Oes potato, Erfyn, Garesh a ffanas</s> &mdash; <s>yr ydys yn
+<lb/>dwaid fod Eyra Mawr, a Hwnw yn rhewy, fel gallo wag<supplied reason="damaged">ons</supplied> fyned drosto
+<lb/>yn <gap reason="damaged" extent="4 letters"/> y flwyddyn,</s><note resp="transcr">Supply <mentioned>aeaf</mentioned>?</note> <s>a <supplied reason="damaged">ody</supplied> hyny yn bod</s> &mdash; <s>a ody yr <supplied reason="damaged">ani</supplied>felyad yn
+<lb/>mynd y Brys mawr (pob math o anyfeyliad</s> <s>pwy brys yw<isp/><apo/>r menyn y Caws a<isp/><apo/>r
+<lb/>Cyg o <corr resp="transcr" sic="bod">bob</corr> Rhyw</s> &mdash; <s>a ody <orig reg="edafedd">ydeufydd</orig> gwlan ar Lly<unclear>cu</unclear> yn ddryd</s> &mdash; <s>a Oes
+<lb/>Llyn a Hemp yn <orig reg="tyfu">Tyddy</orig> yn y Wlad</s> &mdash; <s>o ba <orig reg="lle">lea</orig> yr ydch yn <orig reg="cael">cal</orig> rhafe</s>
+<lb/><s>pwy Mor nesed attoch chwy</s> <s>gall Rope maker wneythyr bwyolyeth</s>
+<lb/><s>a Oes Nemor o waith y Auctioneer yn eych gwlad chwy</s> &mdash; <s>o ba Le yr
+<lb/>ydch yn <orig reg="cael">cal</orig> <orig reg="lledr">Llider</orig> <orig reg="esgidiau">scydeu</orig>, a beth y may ych <orig reg="esgidiau">scydea</orig> chwy <apo/>n<isp/>y gosty</s>
+<lb/><s>Yn awr my ro ychydyg o hanes eyn gwlad nyney</s> &mdash; <s>y mae yr
+<lb/>anyfeylied o bob rhyw <corr resp="transcr" sic="wed">wedi</corr> gostwng yn rhyfedd oddi wrth fel<isp/>y
+<lb/>byont yn <sic>dyweddar</sic>, ychen &pound;30 y par yn nawr a<unclear>m</unclear> &pound;20 &mdash; y fywch &pound;16
+<lb/>am &pound;10 Mochyn &pound;5. nawr &pound;2..15..0 &mdash; ceffyl &pound;30 nawr &pound;12..12s..0</s>
+<lb/>y cyg <add resp="scribe" place="supralinear">eydon a Maharen</add><note resp="transcr"><mentioned>eydon a Maharen</mentioned> is incorrectly inserted after <mentioned>wedi</mentioned> rather than after <mentioned>cyg</mentioned>.</note> wedy cwmpo O 6 y 3<hi rend="superscript">d</hi>/2 a 4<hi rend="superscript">d</hi> cyg moch o 6<hi rend="superscript">d</hi> y 3<hi rend="superscript">d</hi> a 3<hi rend="superscript">d</hi>/2, Gwenyth o
+<lb/>6 y 7<hi rend="superscript">s</hi>/6<hi rend="superscript">d</hi>, Barlys 3<hi rend="superscript">s</hi> a 3<hi rend="superscript">s</hi>/9<hi rend="superscript">d</hi> <orig reg="ceirch">cyrch</orig> 16<hi rend="superscript">d</hi> y 20 pob yn o<isp/><apo/>r rhayn yn
+
+<pb n="3"/>
+<lb/>ddrwg yawn gan Egyn, <s>y <orig reg="cynhaeaf">Cyniah a fu yn anhemerys yawn</orig> <s>y Mae yr
+<lb/>Towydd yn Nawr gyfatal ag yn <orig reg="wlyb">lwyb</orig> yawn</s> &mdash; pwy fath <corr resp="transcr" sic="dowy">dowydd</corr> sydd yn
+<lb/>eych gwlad chwy yn <corr resp="transcr" sic="gyfredyn">gyffredyn</corr></s> &mdash; <s>a Oes Llawer o fellt a Tharane</s> &mdash; <s>a odyn
+<lb/>Nhw yn gadarn yawn</s> &mdash; <s>My ddymynwn roy ychydyg o hanes y <orig reg="llywodraeth">Llwodrell</orig></s>
+<lb/><s>y mae yr papyr yn cwtogy</s> &mdash; <s>y mae y trethy yn amalhay,</s> <s>y mae pob ceffyl
+<lb/>ffarmwr yn 6s o dreth yn nawr</s> <s>y mae yr cwn heb gody eto</s> <s>y mae y <orig reg="llywodraeth">Llwodrell</orig>
+<lb/>medden nhwy yn, resolfo pery y<isp/><apo/>w deylyad, Daly y Dreth fawr, y Gole, y cwn
+<lb/>a<isp/><apo/>r Ceffyle beder gwaith <orig reg="drostynt">Drostin</orig> y flwyddyn hon ag ar hyny fe fydd &pound;20
+<lb/>ar bob &pound;100. ney 4s ar bob pynt</s> &mdash; <s>y may yr Deylyed o bob gradd yn grwgnach
+<lb/>yn rhyfedd ond y mae pethe hyn eto heb gymerid <orig reg="lle">Llea</orig></s> &mdash; <s>may yr Stamps
+<lb/>wedy cody yn rhyfedd</s> <s>y mae 6<hi rend="superscript">d</hi> yn 8<hi rend="superscript">d</hi> Stamp am fond o &pound;100 yn costy 10<hi rend="superscript">s</hi>
+<lb/>&amp;c</s> <s>yr ydys yn dwayd fod y dwymyn felen wedy bod yn gadarn yawn yn <orig reg="cyffiniau">nghyfynea</orig>
+<lb/>Philidelphia ag fod Mylodd wedy <orig reg="cael">cal</orig> ey Symyd y dragwyddoldeb</s> &mdash; <s>a ody hyn
+<lb/><sic>y</sic> wyr</s> &mdash; <s>a oes <gap reason="damaged" extent="5 letters"/> yn eych gwlad chwy</s> &mdash; <s><gap reason="damaged" extent="5 letters"/> Trefen y gadw Cyfeillach,</s> <s>yr wy
+<lb/>bwryady Screfeny <supplied reason="damaged">a</supplied>toch bob Quarter, hyny yw y <unclear>cynta a</unclear> fydd 25 o Mawrth 2<hi rend="superscript">nd.</hi> 25 June
+<lb/>3 25 Sepm. 4 25 Decb. yn gyson pa yn y byddaf w<supplied reason="damaged">edy</supplied> derbyn Llythyr nay beido, ag yr
+<lb/>wyf yn Deisyf arno<supplied reason="damaged">ch</supplied> scryfeny ateb mor gynted ag y delo hwn y<isp/><apo/>ch Llaw, ag wedy hynny yn
+<lb/>gyson fel ag y gwel<supplied reason="damaged">wch</supplied> Ichod, ag felly chwy fyddwch yn gwybod y dydd y byddaf y yn Screfenny
+<lb/><supplied reason="damaged">ac</supplied> felly fyne <supplied reason="damaged">yn gwy</supplied>bod y dydd y byddwch chwythe <supplied reason="damaged">fel</supplied> Dwad Agrypa wrth Paul</s>
+<lb/><s>Rece<expan>ive</expan>d January
+<lb/>26 1799</s>
+
+<lb/><s>y fod<isp/>e wedy ey Enyll o<isp/>fewn y<dsp/>chydyg y fod yn
+<lb/>Grystion</s> <s>may <orig reg="arnaf innau">arnaynne</orig> chwant
+<lb/>dwaid fod eych Llythyr chwithe yn agos yn perswadio yne ymadel a<isp/><apo/>r wlad ormessog
+<lb/>Hon</s> &mdash; <s>beth y mae yr Rhaglynieth yn drefny Nis gwn</s> &mdash; <s>dymynaf arnoch Gofyo
+<lb/><s>am<dsp/>danaf y a<isp/><apo/>m plant amddyfad Ger bron yr Orsedd</s> &mdash; yr Arglwydd yr hwn
+<lb/>a bya yr fendyth a<isp/><apo/>y cyfrano y<isp/><apo/>ch Teyly chwy a fyne byth Amen</s>
+<lb/><s>Rhowch fy Ngharyad Gwresog y<isp/><apo/>ch Blant y gyd, ag y gwraig Dafydd
+<lb/>ych Mab ag y fy anwil chwar, a<isp/><apo/>r Nodi ysod <add resp="scribe">nay Sel</add> sydd yn arwydd
+<lb/>y My roddy cysan yddo, ag felly rhodded hythe, dym yn
+<lb/>chwaneg oddy wrth eych anwillaf frawd</s>
+<lb/><s>y mae y ffryns yn ey cofyo             Sam<hi rend="superscript">l.</hi><!-- =Samuel --> Thomas
+<lb/>atoch</s>
+
+</p>
+</div>
+</body>
+</text>
+
+
+<text id="NLW14873E_2">
+<body>
+<div>
+<pb n="1"/>
+<opener>
+<dateline><lb/><name><seg lang="eng">Carmarthen</seg></name>&nbsp;<date><seg lang="eng">June 25 1800</seg></date></dateline>
+<salute><lb/>Anwyl Frawd A<isp/><apo/>m Chwar /</salute>
+</opener>
+<p>
+<lb/><s>yr wy yn gobeithyo y bydd
+<lb/>yr Llythyr hwn ych <orig reg="cwrdd">gwrdd</orig> mewn yechyd chwy a<isp/><apo/>ch holl
+<lb/>Dylwyth yn america fel ag y<isp/>mae yn ein gadel Ny
+<lb/>oll</s> &mdash; <s>My a screfenes atoch yn ddywethar yn mys may ag
+<lb/>mi ades Le <del resp="scribe">iny</del> in y Llythyr y Shon ych Brawd o Lindain
+<lb/>y Sgrifeny <orig reg="ynddo">intho</orig>, yn mha yn my a roddes y chwy hanes
+<lb/>y wlad yn byr heleth, ag am ych frynde yn y parthe yma
+<lb/>y rhai a ddymynasant e<supplied reason="damaged">u</supplied> cofyo atoch yn fawr, Mr. W<hi rend="superscript">ms.</hi><!-- =Williams --> Watch
+<lb/>Maker Mr. Watkins, Mr. Morris a<isp/><apo/>y deily y Lew ayr, Tho<hi rend="superscript">s.</hi> Jephtha
+<lb/>a <apo/>y wraig, Benjamyn B<unclear><c/><c/><c/></unclear>on a Llawer o<isp/><apo/>r hen frindea
+<lb/>nas gallaf ey henwy,</s> <s><supplied reason="damaged">yr</supplied> wy wedy halu atoch <gap reason="damaged" extent="4 letters"/> <unclear>o <c/><c/><c/><c/><c/></unclear>
+<lb/>o Bryd y gylydd <orig reg="ond">on</orig> wrth eich Llythere nyd yw fy <supplied reason="damaged">L</supplied>lythere y
+<lb/>yn <corr resp="transcr" sic="do">dod</corr> y<isp/><apo/>ch Llaw, peidwch a thybed fy mod yn gollwng yn
+<lb/>ango yr addewyd, o a<supplied reason="damaged">ch</supplied>os fod fy Llythere yn methy dod
+<lb/>y<isp/><apo/>ch Law</s> <s>mae hynny yn pery y mi screfeny yr yn pethe mwya
+<lb/>hynod yn y dyddye hin</s> &mdash; <s>y llafyr sydd wedy mynd
+<lb/>yn Rhyfedd o brys a Llawer <orig reg="wedi">wed</orig> marw o <orig reg="eisiau">eyse</orig> Bara</s>
+<lb/><s><supplied reason="damaged">y</supplied> <orig reg="mae">me</orig> newyn yn wyneby ein gwlad</s> <s>y mae yr
+<lb/><supplied reason="damaged">gwe</supplied>nyth 17<hi rend="superscript">s</hi>/ Barlys 9<hi rend="superscript">s</hi>/5<hi rend="superscript">d</hi> <orig reg="ceirch">cyrch</orig> 5<hi rend="superscript">s</hi>/ Wynchester
+<lb/>potatos hene 2/6 ffy<supplied reason="damaged">o</supplied>led Rhay newydd 4s/
+<lb/>Gyg eidon 8<hi rend="superscript">d</hi> <corr resp="transcr" sic="Dfed">Defed</corr> 6<hi rend="superscript">d.</hi> a 7<hi rend="superscript">d</hi>, Moch 6<hi rend="superscript">d</hi>,</s> <s>y<isp/>mae yn dda
+<lb/>y ny fod eych gwlad chwy a llafyr ynthy oblegyd
+<lb/>y mae Llawer yn dod o<dsp/>hony yma o flawd a
+<lb/>Llafyr,</s> <s>mae R<unclear><c/><c/></unclear> yn gwerthy am 5<hi rend="superscript">d.</hi> y pound ag y mae yn
+<lb/><orig reg="cael">cal</orig> ey faly am ben Barlys y wneuthyr Bara<del resp="scribe">g</del> ag hefyd
+<lb/>maynt yn cymiscy Bran a<isp/>flwr lloyger y<isp/>wneythyr Bara</s>
+<lb/><s>y mae <unclear>ann</unclear> o<isp/><apo/>r felly, a Mab gyda hy,</s> <s>hy a<isp/><apo/>y henwodd
+<lb/>Theophilus o gof am<dsp/><supplied reason="damaged">da</supplied>noch,</s> <s>y mae Mab Tho<hi rend="superscript">s.</hi><!-- =Thomas --> David o
+<lb/>St. Clears wedy <orig reg="cael">cal</orig> p<supplied reason="damaged">len</supplied>tyn o<isp/><apo/>r <orig reg="morwyn">forwn</orig>,</s> <s>yr wy wedy <supplied reason="damaged">h</supplied>yspysy
+<lb/>hyn y chwy <unclear>mor</unclear> <gap reason="damaged" extent="5 letters"/> <unclear><c/><c/><c/><c/><c/><c/></unclear>, caffw<unclear>ch</unclear> <gap reason="damaged" extent="2 letters"/> <unclear><c/><c/><c/>y yn</unclear>
+<lb/>dyfal</s> <s>mi screfenaf yno,</s> <s>y mae yn bleser mawr yawn genyf
+<lb/>weled Enw Sam Bach yn eich Llythyr</s> <s>Gofywch
+<lb/>hynny, y mae yn dewydd da yawn ar y <orig reg="cynhaeaf">cyneia</orig> wayr ag
+<lb/>ar ol Llafyr da ar y ddaiar, Menyn Llestry <unclear><c/><c/></unclear> 10<hi rend="superscript">d</hi> y pound</s>
+<lb/><s>y mae y Rhyfel yn cael ey garyo yn y blan mewn
+<lb/>forse fawr rhwngom ny a<isp/><apo/>r french,</s> <s>may plant Rees yn fyw
+<lb/>ag ynte yn yach</s> <s>may Richard a David fy Meibon <unclear>yn</unclear> Lyndain</s>
+<lb/><s>mae lleyll o<isp/><apo/>r tylwyth yn yach ag yn eich anerch,</s> <s>Nid oes genyf ddym
+<lb/>y ddywaid yn Rhagor, <orig reg="ond">on</orig> dymyno fod ystryd yr <corr resp="transcr" sic="Hollalluod">Hollall<supplied reason="damaged">u</supplied>og</corr> yn
+<lb/>preswylyo ynoch, <orig reg="cymaint">cymynt</orig> a hynny oddy wrth eych anwyll frawd</s>
+<lb/><s>Saml. Thomas</s>
+
+<pb n="2"/>
+<lb/><s>y mae y llythyr hwn yn dod gyda Llong o<isp/>fryste
+<lb/>y Philedelphia,</s> <s>my weles <del resp="scribe"><c/><c/></del> James Penlan Dydd
+<lb/>Sadwrn dywethaf</s> <s>maynt oll yn yach,</s> <s>y mae Mr
+<lb/>John Williams o fynon Clwyd a myne wedi <corr resp="transcr" sic="add">addo</corr> y<isp/><apo/>w gylydd ddod
+<lb/>y roy tro ych gweled, ag y mae e yn caryo fy nghost y
+<lb/>yn <orig reg="ol">nol</orig> ag <orig reg="ymlaen">yn mlan</orig>.</s>
+</p>
+<p>
+<lb/>Mr. Theophilus Rees
+<lb/>Bula State of Pensylvania<note resp="transcr"><mentioned>Bula State of Pensal</mentioned> written below in another hand.</note>
+<lb/>/Via/ Harrisburg &amp; Huntingdon
+<lb/>America
+</p>
+</div>
+</body>
+</text>
+
+<text id="NLW14873E_3">
+<body>
+<div>
+<pb n="1"/>
+<opener>
+<dateline><lb/><name>Carllegan</name>&nbsp;<date>May 28 1801</date></dateline>
+<salute><lb/><corr resp="transcr" sic="Aanwil">Anwil</corr> frawd yn Berthunas oreu</salute>
+</opener>
+<p>
+<lb/><s>yr wif yn awr wedu cael y Cufleustra hwn
+<lb/>I<isp/><apo/>ch<isp/>anerch can<isp/>obeithio y Cuferfudd hyn o<isp/>leine
+<lb/>a<isp/>chwi yn<isp/>iach a<isp/><apo/>ch Teilu fel yr<isp/>udym ni mewn
+<lb/>mesur heleith yn <orig reg="presennol">Bresnol</orig></s> <s>Rhwyme mawr Sudd
+<lb/>arnom I fod yn dduolchgar i<isp/><apo/>r arglwidd am ei fawr
+<lb/>Dirondeb Tiac<isp/>atom</s> <s>y<isp/>mae y dwumun wedu bod
+<lb/>yn Teilu ond heb w<add resp="scribe" place="supralinear">n</add>eithur<isp/>yn Rw&iuml;giad eto</s> <s>y<isp/>may
+<lb/>Bety fu ngwraig wedu bod yn <sic>claf</sic> <orig reg="agos">acos</orig> <orig reg="chwarter">cwrter</orig>
+<lb/>blwidd Sef y flwiddun hon ac heb wella fel ar<isp/>fend</s>
+<lb/><s>y<isp/>mae <orig reg="gennyf">cenif</orig> 4 Lluthur <corr resp="transcr" sic="ynbesenol">y<hi rend="superscript">n</hi><isp/>bresenol</corr> o<isp/>fu<isp/>mlan ar y ford y 1
+<lb/>chwefrol 15 1799 2 Mawrth 18 1800 3 Hidref 14 1800
+<lb/>4 o philadelphia Ionor 20 1801</s> <s>yr wif yn ddiolchcar
+<lb/>Iawn I chwi am fod mor Llafuris I <sic>cofio</sic> am danaf</s>
+<lb/><s>chwi a<isp/>ofunsoch yn eich lluthur am fu nglun Dost
+<lb/>ac <corr resp="transcr" sic="addarllnwni">a<isp/>ddarllenwn<isp/>i</corr> Heb<isp/>yn Sbectel</s> <s>y<isp/>mae fu nglun
+<lb/>a Llai o<isp/>boen o beth nac<isp/>oedd ynddi ond yr wif
+<lb/><orig reg="gorfod">Corfod</orig> Iwso Sbectel yn <sic>Cuson</sic></s> <s>chwi ddwedsoch
+<lb/>a <orig reg="leiciwch">Leico'ch</orig> wibod pa<isp/>rai o ailode Salem Sudd <corr resp="transcr" sic="wed">wedi</corr>
+<lb/>Sefull at <sic>Crefudd</sic> <del resp="scribe"><c/><c/><c/><c/><c/></del> yn awr</s> <s>mi ddwedaf
+<lb/>I chwchwi <orig reg="yr ydym">yrudm</orig> ni o 80 100 aelode yn <orig reg="bresennol">besenol</orig> Rhai
+<lb/>wedu cael <orig reg="digon">dicon</orig> ar y Cibei yn troi un<isp/>ol ac yn tustio
+<lb/>ei bod wedu cael<isp/>ei twillo</s> <s>y<isp/>mau y tu cwrdd bob <orig reg="yn ail">nail</orig>
+<lb/>Saboth <orig reg="gyda ni">cuda<isp/>ni</orig> ar cwrdde erill yn <orig reg="Treasgell">Drassgell</orig>
+<lb/>a<isp/><apo/>r Llaell yn Troedurhin</s> <s>y<isp/>mae John Llwelun
+<lb/>weddol Iach ac yn erchi ei cofio atoch David Rees
+<lb/>yn Buw yn <orig reg="Treasgell">Dreasgell</orig> nid Dafudd Eich brawd ond
+<lb/>y perchen &mdash; ac yn erchi ei cofio at<dsp/>och <unclear>B<c/><c/><c/></unclear></s>
+<lb/><s>y<isp/>rhai Sudd wedu ymadel a ni Iw Job Lewis W<hi rend="superscript">m.</hi>
+<lb/>John crudd a<isp/><apo/>i wraig W<hi rend="superscript">m.</hi> <orig reg="Dafydd">Davidd</orig> a<isp/><apo/>i wraig <orig reg="Michael">meichal</orig>
+<lb/>a<isp/><apo/>i wraig Sioni saer <orig reg="Jenkin">Jinkin</orig> a <orig reg="Dafydd">Davidd</orig> Cof
+<lb/>ana hansel Bety Drefach
+
+<pb n="2"/>
+<lb/>a<isp/>rhiw ferchetos bach erill o<isp/><apo/>r Cumdogeth nad<isp/>oes
+<lb/>fawr o<isp/>ran Crefudd <orig reg="arnynt">arnent</orig></s> <s><orig reg="Dafydd">Davidd</orig> panturhedn<!-- =Pant-y-rhedyn -->
+<lb/>yn pregethy <orig reg="gyda nhw">cuda<isp/>nhwi</orig> Tho<hi rend="superscript">s.</hi> William penlan
+<lb/>wedu Bod Cwarter blwiddun yn <sic>Claf</sic> ac <orig reg="yn">y</orig> cadw yr
+<lb/><orig reg="gwely">cwelu</orig></s> <s>yn awr y mae yn Dechre <orig reg="gwella">Cwella</orig>&nbsp;<corr resp="transcr" sic="ymo">yno</corr>
+<lb/>wedu bod yn <orig reg="pregethu">precethu</orig> 3 Saboth ac y<isp/>mae yn
+<lb/>obeithiol Iawn I fod <add place="supralinear">yn</add> <orig reg="weinidog">weinidoc</orig> Da I Iesu Crist</s>
+<lb/><s>y<isp/>mae y<isp/>rhwiciade ac Sudd wedu <orig reg="cymryd">Cumrd</orig> lle un
+<lb/>yr Eclwysi un Suro ysprudodd Dun&iuml;on at Ei<isp/>cilidd un
+<lb/>Dost fel y<isp/>mae Crefudd wedu mund I cael ei <unclear>dan</unclear>
+<lb/>Sien<add resp="scribe" place="supralinear">cun</add> + Ei <orig reg="gelynion">celinion</orig></s> <s>ni Does neb o<isp/><apo/>r bud un admeuro dim
+<lb/>ar yr athrawieth newidd yn Salem <add resp="scribe" place="supralinear">nac yn lle arall</add> + y<isp/>mae W<hi rend="superscript">m.</hi>
+<lb/>Richards o Lynn wedu Rhoi funu <orig reg="agos">acos</orig> yn Lan a
+<lb/><orig reg="pregethu">precethu</orig></s> &mdash; <s>Leicwn wibod yn eich Lluthur nesaf
+<lb/>a odu yr athrawieth o Ewllus Rhudd yn amal
+<lb/>yn eich <orig reg="gwlad">cwlad</orig> ai nid iw ac os iw pa fodd y<isp/>mae
+<lb/>yn Llwiddo</s> &mdash; <s>y<isp/>mau yr Cumanfa yr flwiddun hon
+<lb/>yn Llan Clophan + ac y<isp/>mau crefudd wedu mund
+<lb/>un farwedd Iawn yn Cuffredin yn yr ynus hon yn
+<lb/>bresenol</s> <s>mi a ddumunwn <add place="supralinear">i fod</add>: Seion yn Clafuchu ac
+<lb/>yn Escor ar feibion a<isp/>merched</s> <s>eto mi a ddwedaf yr
+<lb/>arglwidd a fuwhaio ei waith eto ac a baro fod ffurdd
+<lb/>Seion yn fwu Sathredig</s> &mdash; <s>fe ddaeth amriw o <orig reg="llythyrau">Luthre</orig>
+<lb/>i<isp/><apo/>r Cumdogeth hon oddiwrthich oddiar pan <sic>ymadawsa</sic>
+<lb/>Rhai I p<supplied>lw</supplied>y Llethrach Rhai I Cabrel<!-- =Gabriel --> Rees gun I
+<lb/>Moses <orig reg="Dafydd">Davidd</orig> ac y<isp/>mae mosus<!-- =Moses --> yn <corr resp="scribe" sic="Bwriad">bwriadu</corr> dod
+<lb/>Trosodd</s> <s>yna mi Bruneis <add place="supralinear">y Leas</add> ar y Cwbwl ac oedd <orig reg="ganddo">canto</orig>
+<lb/>Ef yn felin panthowel ac y<isp/><orig reg="mae">maeu</orig> fani<!-- =Ffani --> fu
+<lb/>merch a<isp/><apo/>i <orig reg="g&wcirc;r">Cwr</orig> yn Buw yno oddiar Dechre
+<lb/>Ebrill <orig reg="Gabriel">Cabrel</orig> yn buw yn panthowel
+<lb/>a chwedu prynu yr Les a<isp/><apo/>r Cwbwl ac oedd yn
+<lb/>pant howel</s> <s>Thomas fu mab <corr resp="transcr" sic="wdu">wedu</corr> priodu ac yn
+
+<pb n="3"/>
+<lb/>Buw yn penRhoscain yn <orig reg="plwyf">plwidd</orig> <orig reg="Trelech">Trlech</orig> ac y<isp/>mae
+<lb/>arno &pound;52 <corr resp="transcr" sic="orerent">or rent</corr> am<dsp/>dano</s> <s>Ei wraig iw merch
+<lb/>Davis o <orig reg="Abernant">Abrnant</orig></s> <s>yn awr nid<isp/>oes <orig reg="gennyf">cenif</orig> ddim llawer
+<lb/>newiddion</s> <s>Thos Jephtha a claddwid ddoe yn
+<lb/>Salem ac fe Rhows pencoed bet ei<isp/>wur a<isp/><apo/>r
+<lb/>tu <orig reg="sydd yn">Suddiyn</orig> y Caerfurddin ac yma bet wedu
+<lb/>priodu a Teitus Lewis o blaenuwaen<!-- =Blaen-y-waun --> mab
+<lb/>yr hen Lewis Thomas o Cilf<unclear>owis</unclear></s> <s>yr wif
+<lb/>yn barny ei fod heb ddechre <orig reg="pregethu">precethu</orig> pan
+<lb/>ymadawsochwi</s> <s>ni Does un <orig reg="yng Nghymru">ynghmri</orig> o un
+<lb/>parti yn cael <orig reg="gadael">Cadel</orig> fod Custal pregethwr ac
+<lb/>ef yn bresenol</s> &mdash; <s>y<isp/>mau wedu <orig reg="mynd">mun</orig> yn amser
+<lb/>Caled Iawn ar <orig reg="dlodion">dulodion</orig> yr ynus hon yn presenol</s>
+<lb/><s>y<isp/>mae<isp/><apo/>r Llafur yn ddrud iawn <orig reg="gwenith">cwenith</orig>&nbsp;<add place="supralinear"><orig reg="Winchester">winsister</orig></add><!--really inserted?--> &pound;1 .s barlis
+<lb/><supplied>o</supplied> 12s I 14s <orig reg="ceirch">Curch</orig> 5s a 5s:6d <orig reg="Winchester">Winsister</orig> Ci<supplied>g Maha</supplied>ren 8
+<lb/><gap reason="damaged"/> Eidon 8d pound</s> &mdash; <s>Symau yr fath B<gap reason="damaged" extent="4 letters"/> ar
+<lb/>da yn awr nad<isp/>os neb yn cofio <orig reg="erioed">ariod</orig> I w<gap reason="damaged" extent="4 letters"/>
+<lb/>fath yr<isp/>uchen yn <orig reg="mynd">mun</orig> o &pound;15 I &pound;20 r Eidon <orig reg="gwartheg">Cwartheg</orig>
+<lb/>O &pound;8 i &pound;14 aneirod o &pound;6 I &pound;10 y Defed o &pound;1 10s</s>
+<lb/><s>Leicwn Wibod pa<isp/>beth Iw eich biwolieth chwi
+<lb/>a pha beth y<isp/>mau James y <orig reg="gweydd">Cweudd</orig> yn ei<isp/>wneid
+<lb/>a Thomas ei fab a odu
+<gap extent="9 lines"/>
+
+<pb n="4"/>
+<lb/>nid ym ni yn deall <orig reg="fod">for</orig> Mr. Rhees wedi gwneid dim angyfiawnder a
+<lb/>Mr Griffiths a<isp/><apo/>r executors oedd ef i Sefydlu &mdash; a<isp/><apo/>u fod ef unwaith wedu
+<lb/><add place="supralinear">roddi</add> yr papurau a<isp/><apo/>r Llyfrau cyfrifon W<hi rend="superscript">m</hi> Griffith iddynt hwy sef
+<lb/>Mr. Houghton a Mr. Maywell y<isp/><apo/>w sefydlu, wedi iddo gymeryd
+<lb/>llawer o boen yn gyntaf i gasclu yr dyledion, eithur yr ym
+<lb/>yn clywed yn awr ei bod hwy heb sefydlu 'r materion a<isp/><apo/>u bod hwy
+<lb/>yn meddwl taflu yr boen a<isp/><apo/>r drafferth ar Morgan <unclear><c/><c/><c/><c/><c/><c/><c/><c/></unclear>
+<lb/>drachefn &mdash; yr a fydd yn niwiedol iddo o herwydd ei <corr resp="transcr" sic="sefylfa">sefyllfa</corr></s>
+</p>
+<p>
+<seg lang="eng">
+<lb/>Mr. Theophilus Rees
+<lb/>Bula
+<lb/>Cambria Settlement
+<lb/>by way of Harrisburgc
+<lb/>and Hunting Ton
+<lb/>America Philedelphia
+</seg>
+</p>
+</div>
+</body>
+</text>
+
+<text id="NLW14873E_4">
+<body>
+<div>
+<pb n="1"/>
+<opener>
+<dateline><lb/>Carllegan <date>Tachwedd 13<hi rend="superscript">th</hi> 1802</date></dateline>
+<salute><lb/><s>anwil frawd yn y berthunas ore</s></salute>
+</opener>
+<!-- NB still on the same line as the salute -->
+<p><s>mi dderbenes
+<lb/>eich lluthur cida<isp/>llawenudd a scrufensoch mi<dsp/>hefin
+<lb/>diwetha <del resp="scribe">cida</del> ac yn dda<isp/>iawn <orig reg="gennyf">cenif</orig> cliwed ei<dsp/>ch<isp/>bod
+<lb/>chwi a<isp/><apo/>ch <orig reg="tylwyth">Tlwith</orig> yn<isp/>iach fel ac yr <orig reg="ydym">ydm</orig> ni yn bresnol</s>
+<lb/><s>mawr jw<isp/>rhwyme sudd arnom j cudnabod daioni
+<lb/>athrycaredd yr arclwidd ti atom</s>
+<lb/><s>yrydum ni er ein<isp/>calar yn munegu Ichwi I fod
+<lb/>ffani fu merch wedu ei chladdu oddiar dechre
+<lb/>mihefin diwetha a dwu ferch fach a<isp/><apo/>r <unclear>un</unclear> yn 
+<lb/>3 blwidd ar<isp/>llall yn 3 mis pan farw ei<isp/>mam</s> &mdash;
+<lb/><s>yn y lluthur <orig reg="diwethaf">dweth</orig> chwi ofunsoch am hanes crefudd
+<lb/>yn Salem</s> <s>y mae yr tucwrdd yn cael ei atal oddiwrth
+<lb/>ym bob yn ail Saboth ond yr <orig reg="ydym">yudm</orig> yn hedduchol
+<lb/>yn ein plith ein<isp/>hinein trwi ddaioni yr<isp/>arglwydd ar cwran<lb rend="shy"/><supplied reason="damaged">d</supplied>awur yn amalhai a<isp/>rhai yn chawanegu</s> <s>y mai Tad a
+<lb/>mam cwraic <orig reg="Ffynnonlwyd">funonlwid</orig> wedu ei Beduddio a John
+<lb/>Llwelin Dreasgell ac fe<isp/>wnath brophes crand  
+<lb/>o flan yr eclwis,</s> <s>y mae ein brawd Thomas William
+<lb/>o<isp/>benlan wedi ei<isp/>ordaino un weinidoc yn ein plith
+<lb/>ac y<isp/>mae yn barchus Iawn yn <unclear>yc</unclear>mudeth ar
+<lb/>eclwis</s> <s>y<isp/>mae yr achos yn <orig reg="gwanhau">cwanhu</orig> yn mlith yr
+<lb/>arminied</s> <s>nid oes neb yn dufod I<isp/><apo/>w<isp/>ei<isp/><orig reg="gwrando">cwrando</orig></s>
+<lb/><s>W<hi rend="superscript">m</hi> David ai wraig wedu mund I Carfurdd<unclear>in</unclear>
+<lb/>I fuw</s> <s>llawer wedu Dufod yn ol atom ni</s>
+<lb/><s>Ben Philps wedu mund yn Sosinian a<isp/>chwedu
+<lb/>ei wrthod <orig reg="gan">can</orig> <add resp="scribe">ei</add> bobol ac nid oes yn lle <orig reg="ganddo">canto</orig> fe
+<lb/>yn bresnol I lefaru</s> <s>maent yn ei wrthod yn
+<lb/>Carfurddin ac may yn Debig I fund yn dlawd
+<lb/>arno fe</s> <s>yr wif yn<isp/>meddwl na feddiliodd ef <orig reg="erioed">ariod</orig>
+<lb/>y deithei arno fel ac y daith
+
+<pb n="2"/>
+<lb/>y<isp/>mae llawer iawn o<isp/>achwnion can lawer o<isp/>bobol ac
+<lb/>a<isp/>funa fel yr<isp/>isralied a<isp/>fu yn spo <orig reg="gwlad">cwlad</orig> canan y<isp/><orig reg="maent">mant</orig>
+<lb/>yn rhoddi anair <add resp="scribe" place="supralinear">i<isp/><apo/>r</add> wlad,</s> <s>budde yn dda Iawn <orig reg="gennyf">cenyf</orig>
+<lb/>cliwed yn eich lluthur nesaf pa beth I<dsp/>w eich 
+<lb/><orig reg="galwedigaeth">Calwediceth</orig> pa<isp/>yn ai farmwr ai <orig reg="tafarnwr">tfarnwr</orig> ai
+<lb/>Carier o Dref I Dref fel y mau rhai ac y
+<lb/>f<supplied reason="damaged">u</supplied> yna un dweid</s> <s>y meu wedu bod yn flwiddun
+<lb/>oer Iawn yn ein cwlad ni <orig reg="y flwyddyn">rfliddin</orig> hon ond ni cawso<unclear>n</unclear>
+<lb/><orig reg="cynhaeaf">cunhaia</orig> dumunol ond y mae <apo/>r<isp/>crop yn waeth
+<lb/>na llunedd ond y mae llawer hen lafur yn ein
+<lb/><orig reg="gwlad">cwlad</orig> eto heb<isp/>ei ddurnu y barlis am 2<hi rend="superscript">s</hi>. 6<hi rend="superscript">d</hi> Winscester
+<lb/>y cyrch 1<hi rend="superscript">s</hi>. <unclear>0</unclear><hi rend="superscript">d</hi> Winscester ar Cenith o 6<hi rend="superscript">s</hi> = 9<hi rend="superscript">d</hi> Winscester
+<lb/>y da ar defed ar Cuffule ar moch <del resp="scribe">aphri</del> pris
+<lb/>mawr arnunt,</s> <s>y<isp/>mae Davit Traed yrhiw wed
+<lb/>marw ers 6 withnos a mab wedu priodi a John
+<lb/>howel <add resp="scribe">nanty<unclear>tregl</unclear></add> ac fe aned mab iddi nos ar<isp/>wil ei mam</s>
+<lb/><s>Beni Howel Salem wedu marw Cwanwn
+<lb/>Diwetha</s> <s>ni does cenif yn Bresenol ddim
+<lb/>llawer o<isp/>newiddion I rhoddi Ichwi y<isp/>mau ana
+<lb/>fu merch wedu priodi <orig reg="G&wcirc;yl Mihangel">Wilmhengel</orig> 1801 ac
+<lb/>y<isp/>may mab cuda<isp/>hi</s> <s>ei phriod <add resp="scribe">iw</add> mab John Lewis
+<lb/>o<isp/><apo/>r tu <orig reg="gwyn">cwun</orig> ac maent yn buw y Berllan dow,
+<lb/><unclear>ell</unclear> ac yn cadw 2 fuwch <gap reason="damaged" extent="1 letter"/> fe<isp/>un dilin ei creft 
+<lb/>crudd</s> <s>mi fues yn disgwl eich <orig reg="gweled">cweled</orig> yn
+<lb/>fawr <orig reg="yr haf">rha</orig> diwetha yn <unclear>o</unclear>elei bw<unclear><c/><c/><c/></unclear>
+<lb/>ond mi cefes fu siomi</s> <s>mi fuddwn yn
+<lb/>llawen iawn ei<add resp="scribe" place="supralinear">ch</add> <orig reg="gweled">cweled</orig> yr ochor hun I<isp/><apo/>r
+<lb/><unclear>Be</unclear>dd ond ni<dsp/>d<isp/>oes <orig reg="gennyf">cenif</orig> fawr obaith eich
+<lb/><orig reg="gweled">cweled</orig> ond <orig reg="gobeithio">cobeithio</orig> cawn cwrdd yr ochor
+<lb/>Draw lle na<isp/>budd rhaid ymadel mwu
+
+<pb n="3"/>
+<lb/>a<isp/><apo/>r<isp/>dde<unclear>h</unclear>ilw barnr <orig reg="gyda">cida</orig><isp/>llaweudd,</s> <s>Leicwn wibod
+<lb/><orig reg="hanes">hnes</orig> James y <orig reg="gweydd">cweidd</orig> a<isp/><apo/>i bobol yn y lluthur nesaf</s>
+<lb/><s>y<isp/><orig reg="mae">me</orig> Gryphudd Morus or Llew auredd a<isp/><apo/>i wraig
+<lb/>yn <orig reg="dymuno">dumno</orig> ei cofio at<dsp/>och</s> &mdash;
+<lb/><s>David Thomas <orig reg="Cilcoed">Cilcod</orig> wedu claddu ei inig
+<lb/>fab ac y may un alarus Iawn efe a<isp/><apo/>wraig</s>
+<lb/><s><gap reason="damaged" extent="12 letters"/> <unclear>yn a</unclear>wr farwl y tro hwn</s> <s>nid
+<lb/>oes <orig reg="gennyf">cenif</orig> ond ei <orig reg="gorchymyn">corchmn</orig> I dduw ei <gap reason="damaged" extent="5 letters"/></s>
+<lb/><s>yr udum y ni oll <del resp="scribe">f</del> fel Teilu yn roddi <corr resp="transcr" sic="ei">ein</corr>
+<lb/><orig reg="gwasanaeth">Cwasneth</orig> I chwi a<isp/><apo/>Teilu</s>
+<lb/><s>Samuel Thomas</s></p>
+
+<p><lb/><seg lang="eng"><add place="inline" resp="otherhand">I have opend this Letter in
+<lb/>order to put the other <del resp="otherhand"><c/><c/><c/></del> Letter
+<lb/>Inclosd as they will have a better chance to com to hand</add></seg>
+</p>
+
+</div>
+</body>
+</text>
+
+<text id="NLW14873E_5">
+<body>
+<div>
+<pb n="1"/>
+<opener>
+<dateline><lb/>Carllegan Samuel Thomas</dateline>
+<salute><lb/>Anwil Frawd yn y Berthunas Ore,</salute>
+</opener>
+<p>
+<lb/><s>Yr wyf Gwedi Gweled Eich Llythur Chwi
+<lb/>ag yn Llawen Iawn Genuf Glywed Eich Bod Gwedi
+<lb/>Sefudlu Eich hunain Mor Ddumunol</s> &mdash; <s>yr wyf
+<lb/>Gwedi Cael y Cyfle hwn I <orig reg="ysgrifennu">Isgrufenu</orig> r ychudig
+<lb/>Leine hun Attoch Gan Obaithio y Bydd<unclear>an</unclear>t ddod yn
+<lb/>Ddiogel I<isp/>ich Llaw Chwi ag y <orig reg="cyfarfyddant">Cafarfuddan</orig> a Chwi oll
+<lb/>yn Eich <orig reg="cynefinol">Cenfunol</orig> <orig reg="iechyd">Ieichud</orig> fel ag yr ym ni oll yn Bresenol
+<lb/>ag Nid oes yn Cyfnewidad yn ein plith fel Teilu Oddi ar
+<lb/>pan ymadawsoch a<isp/>ni</s> <s>Mawr Iw r Rhwime Sydd arnom
+<lb/>I Ddiolch yr Arglwydd am Ei ddaioni Tu<supplied reason="damaged">ag</supplied> Attom</s>
+<lb/><s>Yn awr Mi Roddaf <supplied reason="damaged">y</supplied>chudig hanes Eglwys S<supplied reason="damaged">ale</supplied>m</s> <s>yr ydym
+<lb/>Mewn Yndeb a Heddwch a<isp/><apo/>i Gilydd Trwi Dd<supplied reason="damaged">a</supplied>ioni Ein
+<lb/>Duw Da</s> &mdash; <s>Er Ein Gofid yr yn Gwedi Gorfod Rhoi Rhai
+<lb/>A Dderbuniasom yn Llawen oddi ar yr Enw Rhagorol a Chwi
+<lb/>Arnom Ymusg y Rhai</s> <s>y mai Daniel John wedi Cael Ei
+<lb/>Ddiaelodi ag nid oes un Argoel Iddo Droi Ei a<gap reason="damaged" extent="2 letters"/>eb yn ol
+<lb/>A Rhai gwedi mund y ffordd yr holl Ddaiar David Thos fu
+<lb/>Mrawd a Thos David Laugharne; Rhai Gwidi Cael Ei
+<lb/>Derbun y<isp/><apo/>n plith: Benj<hi rend="superscript">n.</hi><!-- =Benjamin --> Davies <orig reg="gwedi">Gwidi</orig> Cael Ei Ddewis yn
+<lb/><orig reg="weinidog">Winidog</orig> Yn funon<!-- =Ffynnon --> <unclear>w</unclear>ill Na B<unclear><c/></unclear>wch ag mae Llwyddiant
+<lb/>Mawr yno</s> &mdash; <s>Y mae Thomas Williams Benlan yn Pregethu
+<lb/>Yn Ein plith</s> &mdash; <s>Nid oes fawr Cyfnewidad Etto yn y <w>Gymd<lb rend="shy"/>-ogaeth</w></s> <s>Y mae David Traedyruch Gwidi Marw a<isp/><apo/>i wraig
+<lb/>a Blant mewn Tylodi mawr</s><note resp="transcr">Is this the same person as the <mentioned>Davit Traed yrhiw</mentioned> who is mentioned in the letter dated 13 November 1802? If so, the current letter could be dated from autumn 1802 to spring 1803.</note> &mdash; <s>yn awr mi Rhoddaf hanes
+<lb/>pa fodd yr ymdrawis a<isp/><apo/>ch helunt</s> <s>fe orfu arnaf Rhoi &pound;8..10s..6d. at y
+<lb/>&pound;0..10s..6d. a Roisoch y mi yn Lawreni Cyn Cael Gyda John Evans
+<lb/>I Goncern Dim G<supplied reason="damaged">y</supplied>da mi I Derbin yr ari<supplied reason="damaged">an</supplied> <gap reason="damaged" extent="5 letters"/><unclear> fu</unclear> yn Ofidu<unclear>s</unclear>
+<lb/>Iawn arnaf Cyn Ei Cael ag fe aeth &pound;20..0s..0d. o arian parod
+<lb/>I mi Dalu Griffith Evans</s> <s>ag mi fues Ine yn Ei Derbun
+<lb/>Bob yn ychudug o gwmpas Dau fis yn ol sydd oddiar pan
+<lb/>Darfuddes a<isp/><apo/>r Count ag mi Golles &pound;0..12s..0d. yn y Count
+<lb/>y ffair</s> <s>y Cwbwl <orig reg="wyf">ywf</orig> y maes o Bocket yw &pound;4..2s..6d.</s> &mdash;
+<lb/><s>Mi Ddymunwn gael gwybod hanes Eich Crefydd yn America
+<lb/>yn y Llythir Nesaf</s> &mdash; <s>y mae Michael James wedi priodi a Chwaer
+<lb/>Thos.<!-- =Thomas --> Thomas Frowen,</s> &mdash; <s>y mae <unclear>L</unclear>ettie ffynon
+<lb/>Beder<!-- =Bedr --> Gwedi Cael Plentin<!-- =Plentyn --> o Mr. Williams Ofeirad Meidrim</s>
+<lb/><s>y mae Jn<hi rend="superscript">o.</hi> Lewis <orig reg="Corngafar">Corngavor</orig> gwidi Priodi</s> &mdash; <s>yr ydum ni yn
+<lb/>Dymyno Ein <orig reg="cariad">Carid</orig> I Chwi oll fel Teulu a<isp/><apo/>m Gw<unclear><c/><c/><c/></unclear> at Eich Gwraig
+<lb/>yn Benodol</s> / <s>ydwyf Eich Caredig frawd (yn yr Arglwidd
+<lb/>Samuel Thomas</s>
+</p>
+</div>
+</body>
+</text>
+
+<text id="NLW14873E_6">
+<body>
+<div>
+<pb n="1"/>
+<opener>
+<dateline><lb/>Velindre Trelech, <date><seg lang="eng">June 4.<hi rend="superscript">th</hi> 1806</seg></date></dateline>
+<salute><lb/>parchedig Sir,</salute>
+</opener>
+<!-- NB still on the same line -->
+<p>
+<s>Mai yn ddrwg iawn
+<lb/>genif am fy mod wedi eich twyllo
+<lb/>cy<dsp/>hyd ag fy mod yn<isp/>ffeily cyflawny fy
+<lb/>addewid ag nis gallswn ei chyflawny
+<lb/>am i mi newid fy sefyllfa a symyd o
+<lb/>Llanwinio i<isp/><apo/>r feli<unclear>n</unclear> felindre Trelech ag
+<lb/>amgylchiad mawr arall sef fy merch
+<lb/>Briodi.</s> <s>yr oedd genif feddwl mawr I
+<lb/>ddyfod trosodd y gwanwyn hyn ond mi
+<lb/>ffeiles <orig reg="paratoi">bartoi</orig> erbyn yr amser yr aith y
+<lb/>llong ymaith o milfford,</s> <s>yr ydwyf yn
+<lb/>meddwl Dyfod trosodd atoch y spring nesaf
+<lb/>os gallaf mewn un modd yn y byd</s> <s>yr ydwyf
+<lb/>yn <orig reg="dymuno">dymuna'</orig> arnoch os halwch lythyr i<isp/><apo/>n <corr resp="transcr" sic="glwad">gwlad</corr> ni
+<lb/>I hala atteb hwn os gwelwch fod yn dda, a cadwch
+<lb/>y tir i mi os ydy yn ei llaw,</s>
+<lb/><s>y mae yn bron yn amhosibl i fyw yn y wlad hon</s>
+<lb/><s>Nis gwelsoch chwi y fath galedi yr ys holl amser
+<lb/>y buoch chwy ynddi a<isp/><apo/>r fath brinder</s> <s>n<supplied reason="damaged">i</supplied>d oes
+<lb/>yma <orig reg="ond">on</orig> ychydig <sic>of</sic> fara ond sydd yn dyfod o wledydd
+<lb/>erill yn mis mai ag mai y trethe yn<isp/>codi yn <w>anherfy<lb rend="shy"/>nol.</w> ar dai bach a mawr:</s> <s>y mai chwech swllt o
+<lb/>dreth ar bob math o geffyl gwaith ag 16s o<isp/>dreth
+<lb/>ar bob ceffyl cyfryw a 4s o dreth ar bob ci yn ein
+<lb/>gwlad ni nawr</s> <s>onid yw hyn yn<isp/>gathiwed <w>anrhesy<lb rend="shy"/>mol</w> a ffein mawr os na rodder y cyfri yn gowir
+<lb/>am bob ci a ceffyl i<isp/><apo/>r trethwyr</s>
+
+<pb n="2"/>
+<lb/><s>A pheth sydd waeth y mai erledigeth
+<lb/>grefyddol yn amalhai yn ofnadwy ag ymraniade
+<lb/>dinistrol rhwng crefeddwyr o<isp/><apo/>r un sectau canys
+<lb/>y mai y calfiniested yn cyfri pawb ag sydd yn
+<lb/><orig reg="wahanol">whahanol</orig> farn a nhwi yn heriticied damniol
+<lb/>ag yn parhay yn anymynol Rhwng cynlleidfa Salem
+<lb/>r hyd</s> <s>yr ydwyf yn eich cyfri chwi yn happys
+<lb/>am eich<isp/>bod wedi ymadel a<isp/><apo/>r wlad hon mewn
+<lb/>ystyr tymorol ag ysprydol, ag yr ydwyf fine
+<lb/><orig reg="yn">y'n</orig> gobeitho y caf yr yn fraint ag y mai
+<lb/>pawb o<isp/><apo/>ch perthnase yn fyw ac yn iach hyd
+<lb/>ddim ag a wn i.</s> <s>Byddwch wych</s>
+<lb/><s>y<isp/>mai Richard Richard waynllan yn cofio ei gariad
+<lb/>atoch ag yn dymyno eich bod yn iach ag yn
+<lb/>llawen,</s>
+<lb/><s>    Yr ydywyf eich ewellyswr da ag
+<lb/>yn eich anwyl ffrynd. Moses David</s><note resp="transcr">Moses David's signature is in a different hand.</note>
+</p>
+
+<p>
+<seg lang="eng"><lb/>Dear sir<note resp="transcr">This addition is in the same hand as the rest of the letter.</note> if you please Send some account
+<lb/>What sort of employment is there to a
+<lb/>Landsurveyor for I am a young man which
+<lb/>cannot get any good employment here and if please
+<lb/>your honour to send me an account <supplied reason="damaged" resp="transcr">if</supplied> such
+<lb/>employment is to a Landsurveyor there and how
+<lb/>much is for surveying Land there the Acre
+<lb/>Honoured sir I am your humble servant
+<lb/>William Richard
+<lb/>Landsurveyor
+<lb/><orig reg="Waunllan">Wein llan</orig> Llanwinio South Wales</seg></p>
+</div>
+</body>
+</text>
+
+<text id="NLW14873E_7">
+<body>
+<div>
+<pb n="cefn"/>
+<p><seg lang="eng">
+<lb/>Mr.
+<lb/>Theophilus Rees
+<lb/>Seiotha,
+<lb/>State of Ohio.</seg>
+</p>
+<p>
+<lb/>Mi Gamsinies yn y <w>Lly<lb rend="shy"/>thyr</w>. <s>Nid oedd Ef wedy
+<lb/>Scrifenny attoech
+<lb/>sef David Thomas</s></p></div>
+
+<div>
+<pb n="1"/>
+<opener>
+<salute><lb/>Fy hen Gyfell /</salute>
+<dateline>Beulah <date>Mai 5<hi rend="superscript">fed</hi> 1807.</date></dateline>
+</opener>
+<p>
+<lb/><s>Yr ydwyf <orig reg="yn">an</orig> cofledio
+<lb/>y cyfleistra presenol i ddanfon gyda
+<lb/>James Evans y Llythyr hwn attoch
+<lb/>gan obeithio eich bod Chwi a<isp/><apo/>ch Teuly
+<lb/>yn mwynhau eich <orig reg="cynefinol">Cynefenol</orig> iechyd
+<lb/>fel ag yr ydwyf i yn bresenol diolch
+<lb/>i Awdwr pob daioni.</s> &mdash; <s>Mi a <w>dderby<lb rend="shy"/>nies</w> lythyr <orig reg="neithiwr">nythwr</orig> o Lunden <orig reg="oddiwrth">oddiwr</orig>
+<lb/>Thos.<!-- =Thomas --> Thomas fy Mrawd yn nghyfreth
+<lb/>a<isp/><apo/>ch hen Gymodog chwitheu</s> <s>oedd fe a<isp/><apo/>i
+<lb/>deuly yn iach <del resp="hd4">yn bresenol</del> pan yr
+<lb/>yscrifenodd y llythyr, yr hyn oedd <w>Maw<lb rend="shy"/>rth</w> 10<hi rend="superscript">fed</hi> 1807</s> <s>Fe fu Ef ddwy <corr resp="transcr" sic="flyned">flynedd</corr> a
+<lb/>hanner yn lled afiach, a chwech mis o
+<lb/>hynny <add place="supralinear">mor</add> glaf ag iddo fethy Gweithio.</s> <s>fe a
+<lb/>aeth i Gymry Mis Awst, ag yn mhen
+<lb/>chydig amser a ddaeth yn hollol iach.
+<lb/>ag a aeth yn ol i Lunden Nadolig
+<lb/>canlynol. sef y Nadolig dywedda.</s>
+<lb/><s>yn mhen saith diwarnod wedy mynd
+<lb/>adre. fe aeth yn Glaf a<isp/><apo/>r Plurys ag
+
+<pb n="2"/>
+<lb/>a fu yn debig iawn yn ngolwg dinion i ymadel a<isp/><apo/>r byd
+<lb/>hwn, ond fe gas ei adferyd <add place="supralinear">y<isp/><apo/>w</add> gynefinol iechyd trwy <w>ddai<lb rend="shy"/>oni</w> yr hollalluog. fel mai yn debygol i wneud
+<lb/>drosto ei hun a<isp/><apo/>i deulu.</s> &mdash; <s>Mi Scrifenes lythyr at
+<lb/>Simon James o Attebyad i un a dderbynies i <w>oddi<lb rend="shy"/>wrtho</w> fe gyda James James Evans,</s> <s>Yr oeddwn wedi Sulwy yn
+<lb/>hwnnw bod llawer o<isp/><apo/>r Cymru yn son am fyned oddi
+<lb/>yma i Dir yr <hi rend="underlined">Holand Company</hi>,</s> <s>fe aeth rhai o<dsp/><w>ho<lb rend="shy"/>nynt</w> ar yr Eira i weld y tir hynny, ag a aethant
+<lb/>yno yr ail waith i pigo y tir goreu yn gynta iddint
+<lb/>ei hunen, a rhai o<isp/><apo/>r Saeson gyda nhwy, ond Erbyn
+<lb/>hyn yr oedd yr eira wedi myned i bant,</s> <s>hwy a
+<lb/>ffeilsant a chael gafel yn y tir da a Gwastad
+<lb/>a welsant y tro cynta,</s> <s>hwy a <orig reg="ddychwelsant">ddychelsant</orig> fel Gwyr
+<lb/>Dafydd <hi rend="underlined">Canys y Gwyr oedd wedi Cywilyddio yn
+<lb/>Lawr</hi>. 2 Sam 10.5</s> &mdash; <s>Ni wn i ddim pa le byddont
+<lb/>yn meddwl o <orig reg="son">So'n</orig> am<dsp/>dano nesa.</s> &mdash; <s>Wedi i fy<w>Scrifen<lb rend="shy"/>ny</w> llythyr Simon James dychwelsant i nol yr ailwaith,</s>
+</p>
+<p>
+<lb/><s>Mae yn ddrwg gen i glywad eich <orig reg="bod">boed</orig> mor
+<lb/>anamal o Lefarwyr. Gobeithio cewch y fraint yma.
+<lb/>sef ymarferyd yn Gydwybodol a moddion gras</s> <s>fe
+<lb/>ofala yr Arglwydd am ei achos.</s> <s>ni  Edi Efe ei bobl.</s>
+<lb/><s>Mi a ddyweda yr un peth wrthych ag a ddiwedes i
+<lb/>wrth Simon James, yr ymdrechaf i <sic>dyfod</sic> i<isp/><apo/>ch
+<lb/>gweled cynted ag y Gallwyf,</s> <s>Arwydd dda yw bod
+<lb/><orig reg="teimlad">tymlad</orig> o 'r dyffyg yn aros, o hireth am weled <w>Cus<lb rend="shy"/>tal,</w> ag os ewyllys Duw gwell na<isp/><apo/>r amser gynt.</s>
+<lb/><s>Ag fel y byoch yn ymdrechgar dros yr Achos goreu
+<lb/>flynyddeu maith, mae lle <unclear>cryf,</unclear> ar sail dda i
+<lb/>hyderu, na chewch<orig reg="fod"> fo'd</orig> mewn newyn o gael clywed
+<lb/>y Gair yn eich hen dduddieu</s> &mdash; <s>Ar amserau mai
+<lb/>llawer o Lyfarwyr mewn rhai manneu a manneu
+<lb/>erill heb neb.</s> <s>mai rhyw ddoeth ddibenion yn hyn</s>
+
+<pb n="3"/>
+<lb/><s>Yr ydwyf fi custal ag y dymynwn o ran fy <w>Am<lb rend="shy"/>gylchiadau</w> <orig reg="tymhorol">temhorol</orig>, ond <orig reg="bod">bo'd</orig> arian yn bring iawn
+<lb/>yma yn bresenol,</s> <s>Ni<!--Mi?--> wneuthym i yn burion yn
+<lb/>yr amser, er pan daethym yn ol o <hi rend="underlined">Mary land</hi>
+<lb/>tair Blynedd i nawr.</s> <s>mae Sefyllfa gusurus yn
+<lb/>dieddol i wneud y meddwl yn llonydd,</s> <s>Pan
+<lb/>bo y meddwl trwy lywodreth gra's yn Sefydlog
+<lb/>ar bethau o bwys, mai yn hawsach lefaru,</s> <s>trwy h<unclear><supplied>yn</supplied></unclear>
+<lb/>rwyf fi yn fwy gusurus i fy hun. ag a fwy lles
+<lb/>i erill, nag oeddwn y tro cynta cyn myned i
+<lb/><hi rend="underlined">Mary land</hi>, fel nad wyf o ddim pwys ar y Cymry,</s>
+<lb/><s>trwy Diriondeb Duw yr ydwyf yn mwynhau <w>iech<lb rend="shy"/>yd</w> da yma, dyna un peth sy yn fy nghadw
+<lb/>yma. <orig reg="ynghyd">nghyd</orig> a <orig reg="bod">boed</orig> arwyddion fy mod o les yn
+<lb/>rhai o Cymry. a<isp/><apo/>r Saeson yn y Sefylad <orig reg="yn">y</orig>
+<lb/><hi rend="underlined">Brush Valley</hi>. ar <hi rend="underlined">Black</hi>,</s> &mdash; <s>Ag etto mai o <w>Bo<lb rend="shy"/>sibl</w> bydd gwaith y<isp/><apo/>w wneud yn eich ardalo<add resp="hd4" place="supralinear">d</add><expan>d</expan>
+<lb/>chwi: yn y Gorllewynol dir.</s>
+<lb/><s>Cofiwch fy yn Garedig at
+<lb/>    Betty a<isp/><apo/>r plant, David Thos, a<isp/><apo/>i wraig
+<lb/>a Martha Eich Merch. nid wyf yn nabod ei gwr,
+<lb/>ag at Martha eich hen ferch yn <orig reg="yng-nghyfraith">Ynghyfreth.</orig></s>
+<lb/>    <s>Ydwyf Eich Ewyllysiwr Da
+<lb/>                             John D Evans</s>
+<lb/>    <s>Mae Tho<hi rend="superscript">s</hi> Thomas fy Mrawd yn nghyfreth yn
+<lb/>un o<isp/><apo/>r Pregethwyr Sefydlog yn Llunden
+<lb/>yn misg y Methodists cymraeg,</s> &mdash;
+<lb/><s>Mi ddymynwn gael llythyr yn ol cynted a
+<lb/>byddo yn gyfleis i chwi, a hanes llawn o<isp/><apo/>ch
+<lb/>rhan Chwi o<isp/><apo/>r wlad,</s> &mdash; <s>R<add resp="hd4" place="supralinear">w</add>yf yn dyall <orig reg="bod">bo'd</orig> David,
+<lb/>Thomas a Bet wedi Scrifeny attochi</s> <s>Mi gweles
+<lb/>E heddyw.</s> <s>maent oll yn iach.</s>
+</p>
+</div>
+</body>
+</text>
+
+<text id="NLW14873E_8">
+<body>
+<div>
+<pb n="1"/>
+<p>
+<lb/>Mr Theophilus Rhees
+<lb/>Cambria Settlement
+<lb/>near Beula
+<lb/>Pennsulvania
+</p>
+<pb n="2"/>
+<p>
+<lb/><s>Theop<hi rend="superscript">h</hi> Rees o Shir Gaerfyrddin a anwid n Lan<unclear>w</unclear>rth<add resp="hd5" place="supralinear">ginin</add>
+<lb/>ym mhlwif Midrim yn y flwiddin 1747
+<lb/>a fediddiwid n Rhydevelin gan David Thomas n 17 oed</s>
+</p>
+<p>
+<lb/><s>Elizabeth ei wraig anwid n r un Shir n y <unclear>grove</unclear> <!-- grore? -->
+<lb/>m mhlwif <corr resp="transcr" sic="ganginin">llanginin</corr> n y flwiddin 1743 a fediddiwid
+<lb/>n eglwis abartawe gan Griffith David</s>
+<lb/><s>y Cyfriw oedd n ailode gwreiddiol n Corffoli eglwis
+<lb/>Salem n Shir Caerfyrddin n y flwiddin 1753</s>
+</p>
+<p>
+<lb/><s>David Rees a anwid n y Dreascell n Shir Gaerfyrddin
+<lb/>ym mhlwif Llanfihangel abar-Cowin <del><c/><c/><c/></del> n y flwiddin
+<lb/>1773 a fediddiwid n Salem gan Benj Phillips
+<lb/>n y flwiddin 1794</s>
+</p>
+</div>
+</body>
+</text>
+
+</group>
+</text>
+</TEI.2>
