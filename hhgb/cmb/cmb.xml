@@ -1,0 +1,2434 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="C:\Program Files\XML Spy 3.5\Project HCWL\XSL\running.xsl"?>
+<!-- normal stylesheet: prose.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY lsquo "'">
+<!ENTITY rsquo "'">
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Crefydd mewn bwthyn, neu, Hanes Jane Bach</title>
+<author>Legh Richmond<!--, 1772-1827--></author>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal>David Willis</principal>
+<respStmt><resp>Transcribed by </resp><name id="DW">David Willis (pp. 1-33)</name><name id="IM">Ingo Mittendorf (pp. 33-48)</name>
+<resp>TEI conversion and corrections by </resp><name id="transcr">Ingo Mittendorf</name></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, September 2004</edition></editionStmt>
+
+ <publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+</publicationStmt>  
+
+<sourceDesc>
+<bibl>
+<author><name id="author">Richmond, Legh</name></author>
+<title>Crefydd mewn bwthyn; neu, Hanes Jane Bach, yn dangos y buddioldeb o egwyddori plant. A adroddwyd ac a gyfieithwyd gan weinidog o Eglwys Loegr.</title>
+<imprint>
+<pubPlace>Bala</pubPlace>
+<publisher>Argraffedig ac ar werth gan R. Saunderson; i'w gael hefyd gan Poole a Harding, a Parry, Caerlleon; a T. Gee, Dinbych</publisher>
+<date>1819</date>
+</imprint>
+<extent>48 pp.</extent>
+<biblScope><rs lang="cym">testun cyflawn</rs> / <rs lang="eng">entire text</rs></biblScope>
+<note type="text">The text is a translation of <title>The Young Cottager; a true story</title> ... By the author of the Dairyman's Daughter [i.e. Legh Richmond]. W. Whittemore: London, [c. 1820.] [First Series Tracts of the Religious Tract Society. no. 151.]  [[Re-ed. in Annals of the poor]]</note>
+<note type="lang">The text is in literary nineteenth-century Welsh, and poses few linguistic difficulties.</note>
+</bibl>
+</sourceDesc>
+
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>Quotation marks are used in the text for both direct speech and for quotations. These are distinguished in the TEI-XML file, the first being marked off with the &lt;q&gt; element, the latter with the &lt;quote&gt; element. In both cases, the form of the quotation mark is given by using the appropriate character entity (&amp;ldquo; for left double quotation mark etc.). The text contains various pieces of poetry within in. These are marked up using the normal conventions for poetry. The poetry is not placed within any paragraph element.</p>
+    <!-- Connected q's need checking and marking up -->
+    <!-- Reinserted LB before L in poems; removed AB etc. and transferred indentation to LG and L -->
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs> (including some transcriptions in the <rs id="ipa">International Phonetic Alphabet</rs>).</p>
+</langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date>18 Oct 2002</date>
+<respStmt><resp>Elisa Rogers</resp></respStmt>
+<item>Text corrected (second proof-reading); ISP-elements inserted before apostrophes where appropriate</item>
+</change>
+
+<change>
+<date>October 2002</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>w inserted, punctuation outside</item>
+</change>
+
+<change>
+<date>24 Sept 2002</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>Transcription of rest of text;
+LB-elements deleted before head, some corrections and adjustments of David Willis's text;
+First proof-reading and corrections.</item>
+</change>
+
+<change>
+<date>19 June 2002</date>
+<respStmt><resp>Ingo Mittendorf</resp></respStmt>
+<item>TEI conversion of David Willis's excerpt</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<text id="CMB">
+<body>
+<pb n="3"/>
+<div type="entire text">
+<head><lb/>Hanes Jane Bach.</head>
+
+<div type="rhan" n="1">
+<head><lb/>RHAN I.</head>
+
+<p>
+<lb/><hi rend="rubric">J</hi>ANE S&mdash;&mdash;, oedd ferch i r&iuml;eni tlodion yn y Plwyf
+<lb/>lle y gwelodd Duw yn dda fy ngalw i ddechreu fy
+<lb/>ngweinidogaeth&mdash;a<isp/>'r hyn a<isp/>'m dygodd i<isp/>'w hadnabod
+<lb/>oedd fel y canlyn: Dechreuais ryw fath o Ysgol yn fy
+<lb/>nh&ycirc; ar <orig reg="brynhawn">brydnawn</orig> ddydd Sadwrn, a gwahoddais blant
+<lb/>y lle i ddyfod iddi; ac ym mhlith eraill daeth Jane S.
+<lb/>Yr oedd hi y pryd hynny ddeuddeg oed. Arferai y
+<lb/>plant hyn ddarllen, ac adrodd neu ddywedyd eu 
+<w>Cate<lb rend="shy"/>cism,</w> Psalmau, Hymnau, a Phennodau o<isp/>'r <orig reg="Beibl">Bibl</orig>. 
+<w>Ar<lb rend="shy"/>ferais</w> hwynt hefyd i ymddiddan yn gyfeillgar &acirc;<isp/>'u
+<lb/>gilydd, yn ol eu hoed a<isp/>'u galluoedd, am y pethau ag
+<lb/>oedd yn perthynu i<isp/>'w heddwch. Yn fynych yn yr
+<lb/>h&acirc;f cymmerwn y teulu ieuangc hwn allan i fy ngardd,
+<lb/>ac eisteddem yn y cysgod. Oddi yma y gwelem
+<lb/>ddarn mawr o wlad brydferth; ac nid oedd ond clawdd
+<lb/>rhyngom a<isp/>'r Fynwent. Yno yr oedd yn gorphwys y
+<lb/>rhan farwol i filoedd, y rhai o oes i oes a roddasid yn
+<lb/>y bedd&mdash;<quote>&ldquo;daear i<isp/>'r ddaear, pridd i<isp/>'r pridd, lludw i<isp/>'r
+<lb/>lludw.&rdquo;</quote> Yma y gorwedd yn dawel lwch y gwych a<isp/>'r
+<lb/>gwael, y cyfoethog a<isp/>'r uchel-radd, yn gystal a<isp/>'r tlawd
+<lb/>a<isp/>'r angenus, yn disgwyl am adgyfodiad y meirw. Nid
+<lb/>oedd achos i mi fyned ym mhell i ymofyn testun i 
+<w>ry<lb rend="shy"/>buddio</w> ac annog y praidd bychan o dan fy ngofal.
+
+<pb n="4"/>
+<lb/>Yr oedd y twmpathau gleision, y rhai oedd yn 
+<w>dar<lb rend="shy"/>lunio</w> h&ycirc;d a lled yr amrywiol feddau, yn destynau
+<lb/>addas i sylwi arnynt. Gallwn ddangos i<isp/>'m disgyblion
+<lb/>ieuaingc, nad oedd neb yn rhy ieuangc i farw; canys
+<lb/>fe allai bod mwy na hanner y rhai oedd wedi eu claddu
+<lb/>yn blant. Defnyddiais hyn fel achlysur i lefaru am
+<lb/>natur a gwerth yr enaid, ac i ofyn iddynt i ba le yr
+<lb/>oeddynt hwy yn meddwl myned wedi marw.
+</p>
+<p>
+<lb/>Dywedais wrthynt pwy oedd yr <quote>&ldquo;Adgyfodiad a<isp/>'r
+<lb/>Bywyd;&rdquo;</quote> a phwy a allai dynnu colyn angeu. 
+<w>Myneg<lb rend="shy"/>ais</w> iddynt, bod <quote>&ldquo;yr awr yn dyfod yn yr hon y caiff
+<lb/>pawb a<isp/>'r sydd yn y beddau glywed ei leferydd Ef: a
+<lb/>hwy a ddeuant allan; y rhai a wnaethant dda i 
+<w>adgyf<lb rend="shy"/>odiad</w> bywyd, ond y rhai a wnaethant ddrwg i 
+<w>adgyf<lb rend="shy"/>odiad</w> barn.&rdquo;</quote> Byddwn rai troion yn dwyn ar g&ocirc;f 
+<w>idd<lb rend="shy"/>ynt</w> farwolaeth ddiweddar rhai o<isp/>'u ceraint neu eu 
+<w>cym<lb rend="shy"/>mydogion.</w> Yr oedd rhai o<isp/>'r plant hyn wedi colli tad,
+<lb/>mam, brawd, neu chwaer&mdash;rhai fe allai wedi colli pob
+<lb/>un o<isp/>'r <orig reg="rhain">rhai'n</orig>, ac wedi eu gadael yn ymddifaid i 
+<w>dru<lb rend="shy"/>garedd</w> eu cymmydogion. Yr oedd amgylchiadau fel
+<lb/>hyn weithiau yn fuddiol i gyffroi eu serchiadau 
+<w>tyner<lb rend="shy"/>af,</w> ac yn tueddu i<isp/>'w sobreiddio. Mynych yr anfonais
+<lb/>hwynt i<isp/>'r Fynwent i ddysgu 'r Englynion ar yr amryw
+<lb/>gerrig beddau yno: ac fel hyn gwnaethym y Fynwent
+<lb/>fel llyfr, a<isp/>'r cerrig-beddau fel dalenau 'r llyfr, i 
+<w>hy<lb rend="shy"/>fforddi</w> fy nisgyblion.
+</p>
+<p>
+<lb/>Yng nghanol y Fynwent yr oedd yr Eglwys. Yr
+<lb/>oedd yn adeilad hen a helaeth. Yn yr adeilad hon y
+<lb/>dechreuais gyhoeddi cennadwri Duw at bechaduriaid.
+<lb/>Ar brydiau, pan y byddai y plant o<isp/>'m hamgylch yn
+<lb/>y Fynwent, llefarwn wrthynt am natur a diben 
+<w>gwas<lb rend="shy"/>anaeth</w> cyhoeddus&mdash;am werth y Sabboth&mdash;am y 
+<w>ddy<lb rend="shy"/>ledswydd</w> o<isp/>'i gadw&mdash;ac annogwn hwynt i ymarferiad
+<lb/>difrifol o foddion gras. Dywedwn wrthynt am gyflwr
+<lb/>gresynol llawer o wledydd, lle nid oes nac Eglwys na
+
+<pb n="5"/>
+<lb/><orig reg="Beibl">Bibl</orig>: ac hefyd am gyflyrau truenus llawer yn ein
+<lb/>gwlad ni, y rhai ydynt yn esgeuluso yn bechadurus
+<lb/>addoliad Duw, ac yn dibrisio ei Sanctaidd Air. Fy
+<lb/>ymgais yn hyn oedd eu dwyn i weled gwerth y 
+<w>breint<lb rend="shy"/>iau</w> yr oeddynt hwy yn eu mwynhau.
+</p>
+<p>
+<lb/>Heblaw hyn, yr oedd o<isp/>'m hamgylch wrthddrychau
+<lb/>eraill i sylwi arnynt. I<isp/>'r dwyrain i ni yr oedd darn o
+<lb/>f&ocirc;r yn ymddangos, ac arno yr oedd llongau o amryw
+<lb/>faintioli. I<isp/>'r dehau-orllewinol i<isp/>'m gardd yr oedd
+<lb/>cefnen wedi ei brithio &acirc; channoedd o ddefaid, a<isp/>'i
+<lb/>hochrau wedi eu harddu &acirc; choedydd. Wrth droed y
+<lb/>gefnen hon yr oedd y Pentref; yr hwn oedd yn raddol
+<lb/>dderchafu at y fan lle yr oedd yr Eglwys. Yr oedd
+<lb/>cymmysgiad y tai, y gerddi, y perllanau a<isp/>'r coedydd,
+<lb/>yn gwneuthur gwrthddrych hyfryd i<isp/>'r golwg. I<isp/>'r
+<lb/>dwyrain a<isp/>'r gogledd i<isp/>'m gardd yr oedd meusydd, yn
+<lb/>y rhai yr oedd anifeiliaid amryw yn pori. Pe buasai
+<lb/>peraidd ganiadydd Israel yn y lle, buasai yn 
+<w>ysgrif<lb rend="shy"/>ennu</w> Psalm i osod allan fawredd a doethineb y 
+<w>Cre<lb rend="shy"/>awdwr</w> yn y pethau oddiamgylch. Er na fedraf ganu
+<lb/>psalmau fel Dafydd, etto dymunwn, yn ol fy ngallu,
+<lb/>foli yr Arglwydd am ei ddaioni, a<isp/>'i ryfeddodau tu ag
+<lb/>at feibion dynion. A phe buasai yntau yng nghanol
+<lb/>tyrfa o ddisgyblion ieuaingc, buasai unwaith etto yn
+<lb/>dywedyd, <quote>&ldquo;o enau plant bychain, a rhai yn sugno, y
+<lb/>peraist nerth.&rdquo;</quote>
+</p>
+<p>
+<lb/>Y mae cofio am y pethau hyn yn felus i mi; ac y
+<lb/>mae 'n ddyledswydd arnaf eu cofio; o herwydd y 
+<w>ben<lb rend="shy"/>dithion</w> a dderbyniais y pryd hwnnw&mdash;ac nid y lleiaf
+<lb/>o<isp/>'r bendithion hynny oedd cael Jane S&mdash;&mdash; yn ferch
+<lb/>ysprydol.
+</p>
+<p>
+<lb/>Nid oedd neb mwy dyfal a chysson yn fy nh&ycirc; ar
+<lb/>amser ysgol na Jane; ond ni sylwais ar ddim yn 
+<w>neill<lb rend="shy"/>duol</w> ynddi dros y flwyddyn gyntaf. Nid oedd hi yn
+
+<pb n="6"/>
+<lb/>hynod am un dawn&mdash;yr oeddwn yn ei barnu yn 
+<w>araf<lb rend="shy"/>ach</w> yn ei hamgyffred am bethau na<isp/>'r rhan fwyaf o<isp/>'i
+<lb/>chyfeillion. Adroddai yr hyn a roddid iddi i<isp/>'w ddysgu
+<lb/>yn gywir; ond anfynych y rhoddai attebion i 
+<w>ofyn<lb rend="shy"/>iadau,</w> oni byddai wedi eu rhag-ddysgu. Nid oedd hi
+<lb/>o ran pryd na gwedd yn serchog, ac nid oedd 
+<w>byw<lb rend="shy"/>iogrwydd</w> neillduol i<isp/>'w ganfod yn ei hedrychiad. Yr
+<lb/>oedd hi yn medru darllen ychydig; ond trwy boen a
+<lb/>llafur gwellhaodd yn hyn. Tiriondeb a llonyddwch
+<lb/>oedd prif nodau ei hymddygiad cyffredin. Yr oedd
+<lb/>bob Sul yn yr Eglwys, a phob dydd Sadwrn yn fy nh&ycirc;;
+<lb/>etto nid oedd fawr sylw yn cael ei wneuthur o honi.
+<lb/>Pe buasid yn gofyn i mi y pryd hwn, am ba un o<isp/>'m
+<lb/>disgyblion ieuaingc yr oeddwn yn meddwl oreu, yr
+<lb/>wyf yn meddwl buasai Jane heb ei henwi. O, leied
+<lb/>yr ym ni yn fynych yn wybod am yr hyn y mae Duw
+<lb/>yn ei wneuthur yng nghalonau dynion eraill! Nid ein
+<lb/>meddyliau ni yw ei feddyliau Ef, ac nid ein ffyrdd ni
+<lb/>yw ffyrdd Duw!
+</p>
+<p>
+<lb/>Darfu ei pharodrwydd i gyflawni fy nymuniad ar
+<lb/>un tro, tua diwedd y flwyddyn, dynnu fy sylw atti.&mdash;
+<lb/>Anfonais hi i<isp/>'r Fynwent i ddysgu ychydig o linellau
+<lb/>yno, y rhai oedd yn fy moddhau. Dychwelodd, a
+<lb/>dywedodd iddi ddysgu rhai heblaw y rhai a enwaswn,
+<lb/>ac ychwanegodd gan ddywedyd, ei bod hi yn meddwl
+<lb/>bod y rhai hynny yn bur dda. Pan y clywais hwynt
+<lb/>daethym o<isp/>'r un meddwl a Jane&mdash;ac fe allai y bydd y
+<lb/>darllenydd felly hefyd; am hynny rhoddaf hwynt o<isp/>'i
+<lb/>flaen. Y llinellau y danfonais hi i<isp/>'w dysgu oedd i<isp/>'r
+<lb/>ystyr a ganlyn:
+</p>
+<!-- poem; may have to go into preceding paragraph-->
+<lg rend="centred">
+<lb/><l>Maddeu, O gyfaill, i'm sy<isp/>'n brudd,</l>
+<lb/><l>Os deigryn syrth oddiar fy ngrudd:</l>
+<lb/><l>Wrth gofio 'th gariad mwyn a<isp/>'th hedd,</l>
+<lb/><l>Pan 'r ochr hyn i<isp/>'r duoer fedd.</l>
+</lg>
+
+<pb n="7"/>
+
+<lg rend="centred">
+<lb/><l>Nid wylo mwy a ddylwn i,</l>
+<lb/><l>Ond meddwl am d'<isp/>ogoniant di;</l>
+<lb/><l>Nid mwy yn byw mewn t&ycirc; o glai,</l>
+<lb/><l>Ond 'n uchel fry yn llawenhau.</l>
+</lg>
+
+<p>
+<lb/>Yr hyn a ddysgodd hi o honi ei hun ydoedd yn
+<lb/>debyg i hyn:
+</p>
+<!--poetry; into prec. para?-->
+<lg rend="centred">
+<lb/><l>Rhaid bod fel hyn<isp/>----<isp/>ein tad ni oll,</l>
+<lb/><l>Trwy drosedd mawr, a<isp/>'n dug ar goll;</l>
+<lb/><l>Heb obaith byth y <orig reg="buasem">b'asem</orig> ni,</l>
+<lb/><l>On' <orig reg="bai">b'ai</orig> dy ras a<isp/>'th <orig reg="efengyl">'fengyl</orig> di.</l>
+</lg>
+<lg rend="centred">
+<lb/><l>Ond mae Efengyl Crist yn llawn</l>
+<lb/><l>O addewidion melus iawn,</l>
+<lb/><l>I<isp/>'n dysgu mewn hyfrydwch fyw,</l>
+<lb/><l>A <orig reg="mynd">myn'd</orig> i<isp/>'r bedd mewn hedd &acirc; Duw.</l>
+</lg>
+
+<p>
+<lb/>Deallais, ar ol hyn, i<isp/>'r llinellau diweddaf hyn
+<lb/>wneuthur argraph dwys ar ei meddwl. Ond yn yr
+<lb/>amser y digwyddodd, nid oeddwn yn gwybod dim am
+<lb/>ei meddwl. Yr oeddwn mewn cymhariaeth wedi ei
+<lb/>hesgeuluso hi&mdash;a mynych <orig reg="y">i</orig><isp/>'m ceryddwyd gan fy
+<lb/>nghydwybod o herwydd hynny, pan y deallais <orig reg="wedyn">wedi'n</orig>
+<lb/>yr hyn a wnaethai yr Arglwydd i<isp/>'w henaid hi.
+</p>
+<p>
+<lb/>Yr oedd ei hymddygiad rheolaidd, a<isp/>'i hymwadiad
+<lb/>&acirc;g arferion pechadurus a ffol ei chyfoedion yn dwyn
+<lb/>arni lawer o wawd a dirmyg; etto hi a ddioddefai y
+<lb/>cwbl yn amyneddgar. Ond ni wyddwn i hyn y pryd
+<lb/>hwnnw&mdash;ieuangc oeddwn yn y weinidogaeth, ac yr
+<lb/>oeddwn yn ieuangach mewn gwybodaeth wirioneddol
+<lb/>o bethau crefyddol. Dysgwr oeddwn y pryd hwn, a
+<lb/>llawer gennyf i<isp/>'w ddysgu. Ond beth wyf yn awr?
+<lb/>Dysgwr etto. Ac os dysgais ddim, mi a ddysgais
+<lb/>hyn, bod gennyf bob dydd lawer iawn etto i<isp/>'w ddysgu.
+<lb/>Yr wyf yn sicr o hyn, i<isp/>'m disgybles ieuangc yn fuan
+<lb/>fyned yn athraw i mi. Gwelais, am y tro cyntaf, beth
+<lb/>a allai gwir grefydd ei wneuthur, wrth sylwi ar ei
+
+<pb n="8"/>
+<lb/>phrofiad hi o honi. Galwodd ein Harglwydd unwaith
+<lb/>atto fachgenyn, ac a<isp/>'i gosododd yng nghanol ei 
+<w>ddis<lb rend="shy"/>gyblion,</w> er dangos ac egluro ei athrawiaeth. Ond
+<lb/>gwnaeth fwy na hyn yn achos Jane: canys nid yn
+<lb/>unig fe<isp/>'i galwodd hi fel plentyn, i ddangos trwy 
+<w>gy<lb rend="shy"/>ffelybiaeth</w> beth yw troedigaeth; ond Efe a<isp/>'i galwodd
+<lb/>hi trwy ei ras, i fod yn llestr trugaredd, a thyst byw
+<lb/>o<isp/>'r nerthol weithrediad trwy 'r hwn y trowyd ei chalon
+<lb/>at Dduw.
+</p>
+</div>
+
+<div type="rhan" n="2">
+<head><lb/>RHAN II.</head>
+
+<p>
+<lb/><hi rend="smallcaps">Bu</hi> Jane yn dyfod i<isp/>'m t&ycirc; dros agos i flwyddyn a
+<lb/>chwarter: ond tu a phen y pymthegfed mis mi a<isp/>'i
+<lb/>collais hi o<isp/>'r Ysgol ac o<isp/>'r Eglwys. Disgwyliais am
+<lb/>dair wythnos ei gweled yn rhyw le; yna gofynais am
+<lb/>dani; a dywedwyd wrthyf, nad oedd hi yn bur iach.
+<lb/>Gan ystyried ei hafiechyd yn ysgafn, aeth agos i ddau
+<lb/>fis heibio cyn i mi glywed yn iawn am dani. Yn y
+<lb/>diwedd daeth attaf ryw hen wraig o<isp/>'r pentref, am yr
+<lb/>hon yr oeddwn yn meddwl yn dda, a gofynodd i mi
+<lb/>gan ddywedyd, <q>&ldquo;Syr, a welsoch chwi ddim eisieu
+<lb/>Jane S&mdash;&mdash; yn eich t&ycirc; ar <orig reg="brynhawn">brydnawn</orig> ddydd Sadwrn?</q>
+<!-- end quotation mark missing -->
+</p>
+<p>
+<lb/><q>&ldquo;Do,&rdquo;</q> ebe fi, <q>&ldquo;yr wyf yn meddwl nad yw hi yn
+<lb/>bur iach.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Nac ydyw,&rdquo;</q> eb 'r hen wraig, <q>&ldquo;ac mae arna'i ofn
+<lb/>na bydd hi felly byth.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Beth! a ydych chwi yn tybied ei bod hi mewn
+<lb/>perygl?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr, y mae hi yn glaf iawn, ac 'rwyf yn meddwl
+<lb/>ei bod yn y darfodedigaeth. Y mae arni hiraeth am
+<lb/>eich gweled chwi; ond y mae yn ofni na ddeuwch
+<pb n="9"/>
+<lb/>chwi ddim i<isp/>'w gweled hi; canys nid yw hi ond gwael
+<lb/>a thlawd.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ddim i ymweled &acirc;<isp/>'r tlawd a<isp/>'r afiach! paham y
+<lb/>mae hi yn meddwl felly? <orig reg="ym mha">y'mha</orig> le mae hi yn byw?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yn wir, Syr, nid yw ei th&ycirc; ond gwael a thlawd,
+<lb/>ac mae arni <orig reg="gywilydd">g'wilydd</orig> gofyn i chwi ddyfod yno. Hefyd
+<lb/>y mae ei chymydogion yn drwstfawr ac annuwiol. A
+<lb/>rhyw bobl go aflawen yw ei thad a<isp/>'i mam. Y maent
+<lb/>oll yn chwerthin am ben Jane druan, am ei bod yn
+<lb/>darllen cymmaint ar ei <orig reg="Beibl">Bibl</orig>.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Na soniwch wrthyf am dlodi 'r lle, na drygioni 'r
+<lb/>bobl; canys ym mysg y cyfryw y mae galwad a lle i
+<lb/>weinidog yr efengyl wneuthur daioni&mdash;mi a ddeuaf
+<lb/>i<isp/>'w gweled hi&mdash;dywedwch hynny wrthi.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Mi wnaf, Syr. 'Rwyf yn myned yno agos bob
+<lb/>dydd i siarad &acirc; hi&mdash;ac y mae ei chlywed hi yn siarad
+<lb/>yn llonni fy nghalon i.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yn wir! am ba beth y mae hi yn siarad?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O, Syr! am ddim ond pethau da&mdash;am y <orig reg="Beibl">Bibl</orig>&mdash;
+<lb/>am Iesu Grist&mdash;am fywyd&mdash;am angeu&mdash;am ei henaid
+<lb/>&mdash;am y nef&mdash;am uffern&mdash;am eich pregethau a<isp/>'ch<!--apo?-->&nbsp; 
+<w>ym<lb rend="shy"/>adroddion</w> chwi&mdash;ac am y llyfrau da yr oeddych yn
+<lb/>arfer ei dysgu ynddynt. Y mae ei thad yn dywedyd
+<lb/>weithiau na fyn ef ddim o<isp/>'r fath dduwioldeb yn ei d&ycirc;:
+<lb/>ac y mae ei mam yn ei gwawdio, gan ddywedyd, <q>O, y
+<lb/>mae Jenny yn meddwl ei hun yn well na phobl eraill.</q>
+<lb/>Etto, er hyn i gyd, a llawer mwy, nid yw Jane yn
+<lb/>gadael heibio ddarllen ei <orig reg="Beibl">Bibl</orig>, na<isp/>'i llyfrau eraill.&mdash;
+<lb/>Siaradai yn fedrus hynod &acirc;<isp/>'i mam, gan ei hannog i
+<lb/>feddwl am ei henaid.&rdquo;</q>
+</p>
+<p>
+<lb/>Wrth glywed hyn dywedodd fy meddwl, <q>&ldquo;Yr 
+<w>Ar<lb rend="shy"/>glwydd</w> a faddeuo fy esgeulusdod o<isp/>'r eneth dlawd hon.&rdquo;</q>
+</p>
+<p>
+<lb/>Aethym dranoeth i edrych am Jane. Yr oedd ei th&ycirc;
+<lb/>yn un o<isp/>'r gwaelaf&mdash;yr oedd yn sefyll yn moel gallt&mdash;
+<lb/>ac yr oedd gardd fechan y tu cefn iddo. Yn hon ni
+
+<pb n="10"/>
+<lb/>allai ond ychydig bethau dyfu; ac yr oedd yr ychydig
+<lb/>bethau hynny yn dangos dau beth: sef tlodi ei 
+<w>pher<lb rend="shy"/>chenog,</w> a daioni Duw yn gofalu gogyfer &acirc;g eisieu ei
+<lb/>greaduriaid, hyd yn oed yn yr amgylchiad gwaelaf.&mdash;
+<lb/>Yr oedd wyneb y t&ycirc; wedi ei guddio a<isp/>'i harddu gan
+<lb/>winwydd. Dringodd hon ar hyd y mur, ac 
+<w>amgylch<lb rend="shy"/>odd</w> y drws a<isp/>'r ffenestri, &iuml;e, hyd yn oed y simdde, &acirc;<isp/>'i
+<lb/>changenau ffrwythlon. Yr oedd ei blodau yn arogli
+<lb/>yn beraidd; a llanwyd fy ffroenau gan ei bereidd-dra
+<lb/>ar fy mynediad i<isp/>'r t&ycirc;. Ocheneidiais i<isp/>'r nef, a 
+<w>medd<lb rend="shy"/>yliais</w> y gallai ei ber-arogl amlygu eiriolaeth effeithiol
+<lb/>y Cyfryngwr yn achos yr eneth fechan hon gyd &acirc;<isp/>'i
+<lb/>Thad nefol.
+</p>
+<p>
+<lb/>Pan ddaethym i<isp/>'r t&ycirc;, ni chefais neb ar lawr. Yr
+<lb/>oedd Jane, a<isp/>'r hen wraig y soniwyd eisoes am dani, i
+<lb/>fynu 'r grisiau. Aethym innau i fynu attynt; a phan
+<lb/>welais Jane, nid allwn lai na sylwi, bod cyfnewidiad
+<lb/>mawr yn ei golwg er pan welswn hi o<isp/>'r blaen. Cyn
+<lb/>gynted ag y gwelodd fi, gwenodd arnaf; yna hi a 
+<w>dorr<lb rend="shy"/>odd</w> allan i wylo, a dywedodd,
+</p>
+<p>
+<lb/><q>&ldquo;O Syr, y mae mor dda gennyf eich gweled!&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Mae 'n bur ddrwg gennyf eich bod chwi mor
+<lb/>glaf, fy anwylyd; ac y mae 'n ddrwg gennyf na 
+<w>buas<lb rend="shy"/>wn</w> yn gwybod yn gynt am eich saldra. Ond yr wyf yn
+<lb/>gobeithio bod yr Arglwydd yn bwriadu eich lles yn y
+<lb/>peth hyn.&rdquo;</q> Dywedodd ei hedrychiad ac nid ei thafod,
+<lb/><q>&ldquo;Yr wyf innau yn gobeithio ac yn meddwl hynny.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Wel, fy mhlentyn anwyl, gan nad ellwch ddyfod
+<lb/>attaf fi, mi a ddeuaf attoch chwi, ac ni a 
+<w>ymddiddan<lb rend="shy"/>wn</w> am y pethau y buoch yn eu dysgu yn fy nh&ycirc;.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yn wir, Syr, fe fydd hyn yn dda iawn gennyf.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Felly y bydd, mi a wn,&rdquo;</q> eb 'r hen wraig; 
+<q><w>&ldquo;o<lb rend="shy"/>blegid</w> y mae hi yn caru ymddiddan am y pethau a
+<lb/>glywodd yn eich pregethau chwi, ac am y llyfrau a
+<lb/>roddasoch iddi.&rdquo;</q>
+</p>
+
+<pb n="11"/>
+<p>
+<lb/><q>&ldquo;Ydych chwi, fy anwylyd, yn hiraethu mewn
+<lb/>gwirionedd am fod yn wir Gristion?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O! ydywf, ydywf yn wir, Syr; yr wyf yn sicr
+<lb/>fy mod yn hiraethu am hynny yn fwy nac am un peth
+<lb/>arall. O! Syr,</q> (ebe hi) <q>meddyliais yn fynych yn yr
+<lb/>wythnosau a aeth heibio, wrth orwedd yn y gwely
+<lb/>yma, mor dda oeddech chwi am i chwi hyfforddi plant
+<lb/>tlodion fel fi ac eraill&mdash;a pha beth a ddaethai o honom
+<lb/>heb hyn?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yn wir, y mae yn llonni fy enaid i weled nad
+<lb/>aeth fy llafur yn ofer; ac yr wyf yn gwedd&iuml;o ar Dduw
+<lb/>am i<isp/>'ch afiechyd presennol fod yn offerynol yn ei law
+<lb/>fendithiol ef i<isp/>'ch profi, i<isp/>'ch darostwng, a<isp/>'ch 
+<w>sanct<lb rend="shy"/>eiddio.</w> Ond, fy anwyl blentyn, y mae gennych enaid,
+<lb/>enaid anfarwol i feddwl am dano; yr y<isp/>'ch yn cofio yr
+<lb/>hyn a ddywedais yn fynych wrthych am werth enaid:
+<lb/><quote>&lsquo;Pa leshad i ddyn os ynnill efe yr holl fyd, a cholli ei
+<lb/>enaid ei hun.</quote>&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr, yr wyf yn cofio i chwi ddywedyd, pan y
+<lb/>byddem farw y dychwelai 'r corph i<isp/>'r ddaear fel y bu,
+<lb/>a<isp/>'r enaid i le da neu i le drwg.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Wel, i ba un o<isp/>'r ddau le hyn yr ydych chwi fel
+<lb/>pechadur yn haeddu myned?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;I<isp/>'r lle drwg, Syr.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Beth! i d&acirc;n tragywyddol?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;I&euml;, Syr.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa'm felly?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Oblegid mai pechadur mawr ydywf fi.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;A raid i bob pechadur mawr fyned i uffern?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Y maent oll yn haeddu hynny; ac yr wyf yn sicr
+<lb/>fy mod i yn haeddu hynny.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ond, a oes un ffordd i ddiangc? a oes un ffordd i
+<lb/>achub pechaduriaid mawrion?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Oes; Crist yw 'r Iachawdwr.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pwy y mae Efe yn eu hachub?&rdquo;</q>
+</p>
+
+<pb n="12"/>
+<p>
+<lb/><q>&ldquo;Pawb a gredant ynddo.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;A ydych chwi yn credu ynddo?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yn wir, nis gwn i, Syr; ond yr wyf yn gwybod
+<lb/>fy mod yn ei garu ef.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Am ba beth yr y'ch yn ei garu ef?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Am ei fod yn dda wrth eneidiau plant tlodion
+<lb/>fel fi.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa beth a wnaeth ef drosoch chwi?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr, efe a fu farw droswyf, a pheth mwy a 
+<w>all<lb rend="shy"/>asai</w> ei wneuthur droswyf?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;A pha beth yr ydych yn gobeithio am dano trwy
+<lb/>ei farwolaeth ef?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Os credaf ynddo a<isp/>'i garu, lle da, Syr, yn ol
+<lb/>marw.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;A brofasoch erioed ddim anesmwythder a gofid
+<lb/>yn achos eich henaid?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O! do, Syr, lawer gwaith. Pan y byddech chwi
+<lb/>yn siarad &acirc; ni <orig reg="brynhawn">brydnawn</orig> Sadyrnau o braidd yr 
+<w>oedd<lb rend="shy"/>wn</w> weithiau yn gallu dioddef yr ymadrodd, ac yr
+<lb/>oeddwn yn rhyfeddu bod eraill yn gallu bod mor 
+<w>ddi<lb rend="shy"/>ofal.</w> Yr oeddwn yn ymddangos i<isp/>'m fy hun yn 
+<w>ang<lb rend="shy"/>hymmwys</w> i fyw ac yn anghymmwys i farw. 
+<w>Medd<lb rend="shy"/>yliais</w> am yr holl drwg-bethau a wnaethpwyd gennyf,
+<lb/>neu a ddywedasid gennyf erioed; a chredais mewn
+<lb/>gwirionedd bod Duw yn ddig iawn wrthyf: canys 
+<w>dy<lb rend="shy"/>wedasoch</w> lawer gwaith wrthym, na watwerid Duw, ac
+<lb/>hefyd i Grist ddywedyd, oddieithr ein troi a<isp/>'n 
+<w>cyf<lb rend="shy"/>newid</w> na allem fyned i mewn i<isp/>'r nef. Weithiau 
+<w>bydd<lb rend="shy"/>wn</w> yn meddwl fy mod yn rhy ieuangc i feddwl am y
+<lb/>pethau hyn; bryd arall byddwn yn ystyried hyn yn
+<lb/>bechadurus: canys yr oeddwn yn ddigon hen i wybod
+<lb/>gwahaniaeth rhwng da a drwg; am hynny yr oedd gan
+<lb/>Dduw achos cyfiawn i fod yn ddig wrthyf, pan y
+<lb/>gwnawn yr hyn oedd ddrwg. Heblaw hyn, yr
+<lb/>oeddwn yn gweled nad oedd fy nghalon yn uniawn,
+
+<pb n="13"/>
+<lb/>a pha fodd y gallai y fath galon fod yn gymmwys i<isp/>'r
+<lb/>nef? Yn wir, Syr, yr oeddwn yn hynod o anesmwyth
+<lb/>o herwydd y pethau hyn.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O! fy anwylyd, buasai yn dda iawn gennyf
+<lb/>wybod yn gynt am y pethau hyn. Paham na 
+<w>ddy<lb rend="shy"/>wedasoch</w> wrthyf ryw bryd neu gilydd am hyn?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O! Syr, ni feiddiwn; ac, yn wir, ni fedrwn i
+<lb/>ddywedyd yn iawn beth oedd arnaf; ac yr oeddwn yn
+<lb/>ofni yr ystyriech fi yn hyf iawn, pe buaswn yn siarad
+<lb/>&acirc; gwr bonheddig fel chwi am danaf fy hun. Etto, yn
+<lb/>fynych y dymunais eich bod yn gwybod fy nghyflwr.
+<lb/>Weithiau, wrth fyned adref o<isp/>'ch t&ycirc;, nid allwn beidio
+<lb/>wylo a llefain; yna byddai y plant eraill yn fy
+<lb/>ngwawdio, ac yn dywedyd, <q>O, y mae hi yn <orig reg="mynd">myn'd</orig>
+<lb/>yn dda, neu y mae hi yn ewyllysio bobl eraill i feddwl
+<lb/>hynny.</q> Yr oeddwn weithiau yn ofni nad oeddech yn
+<lb/>meddwl mor dda am danaf ag am y plant eraill;<!--semicolon faint--> a
+<lb/>byddai hynny yn peri blinder i mi. Gwyddwn nad
+<lb/>oeddwn yn haeddu un sylw neillduol; oblegid y 
+<w>pen<lb rend="shy"/>naf</w> o bechaduriaid oeddwn.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Fy anwyl blentyn, paham y dywedodd St. Paul
+<lb/>mai efe oedd y pennaf o bechaduriaid? Ym mha le
+<lb/>o<isp/>'r <orig reg="Beibl">Bibl</orig> y mae 'r geiriau? A fedrwch chwi ddywedyd
+<lb/>yr adnod?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Gwir yw 'r gair, ac yn haeddu pob derbyniad,
+<lb/>ddyfod Crist Iesu i<isp/>'r byd i gadw pechaduriaid:&mdash;onid
+<lb/>felly mae 'r geiriau, Syr?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;I&euml;, fy anwylyd; ac yr wyf yn gobeithio mai yr
+<lb/>hyn a barodd i St. Paul lefaru y geiriau, sydd yn peri
+<lb/>i chwithau eu dywedyd am danoch eich hun. Crist a
+<lb/>ddaeth i<isp/>'r byd i gadw pechaduriaid. Cofiwch hyn, fy
+<lb/>anwylyd, &iuml;e, cofiwch i Grist Iesu ddyfod i<isp/>'r byd i gadw
+<lb/>y pennaf o bechaduriaid.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O! Syr, nis gallaf ddywedyd mor dda yw gennyf
+<lb/>feddwl am hyn. Y mae hyn yn peri i mi obeithio y
+
+<pb n="14"/>
+<lb/>ceidw ef finnau, er nad wyf ond geneth dlawd a 
+<w>phech<lb rend="shy"/>adurus.</w> Yr wyf yn bur glaf, ac nid wyf yn meddwl y
+<lb/>deuaf byth yn iach. Y mae arnaf chwant myned at
+<lb/>Grist yn ol marw.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ewch at Grist yn eich bywyd, ac nis gwrthyd
+<lb/>chwi yn amser marwolaeth; canys efe a ddywedodd,
+<lb/><quote>&lsquo;Gadewch i blant bychain ddyfod attaf fi,&rsquo;</quote> ac y mae
+<lb/>yn hoffi trugarhau wrthynt.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa beth a barodd i chwi fod mor ddifrifol yn
+<lb/>achos eich henaid?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Eich ymddiddanion chwi yn y fynwent, pan yr
+<lb/>oeddech yn mynegu ac yn dangos i ni, pa nifer o blant
+<lb/>oedd wedi eu claddu yno. Yr wyf yn cofio i chwi
+<lb/>ryw ddiwrnod, er's agos i flwyddyn, ddywedyd 
+<w>wrth<lb rend="shy"/>ym,</w>&nbsp;<!-- simple q-marks at beginning of foll. lines deleted --><q>&lsquo;Blant! p'le byddwch chwi gan mlynedd i 
+<w>hedd<lb rend="shy"/>yw?</w> Blant! i b'le yr y'ch yn meddwl yr ewch
+<lb/>chwi yn ol marw? Blant! pe byddech farw heno,
+<lb/>a ydych yn sicr yr ewch chwi at Grist a 
+<w>dedwydd<lb rend="shy"/>wch?&rsquo;</w></q> Syr, ni anghofiaf byth y modd difrifol y
+<lb/>dywedasoch, <q>Blant! Blant! Blant!</q> deirgwaith.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;A ddarfu chwi erioed cyn hynny feddwl yn 
+<w>ddif<lb rend="shy"/>rifol</w> am eich henaid?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Do, Syr, yr wyf yn meddwl i mi brofi rhyw 
+<w>ddy<lb rend="shy"/>muniadau</w> am iachawdwriaeth yn fuan ar ol dyfod i<isp/>'ch
+<lb/>t&ycirc; chwi i<isp/>'r ysgol: ond ni bum erioed o<isp/>'r blaen fel y
+<lb/>diwrnod hwnnw; ac nis anghofiaf hynny byth. Wrth
+<lb/>fyned adref ar hyd y ffordd, a thrwy 'r holl nos hono
+<lb/>nid oedd dim yn fy meddwl ond y geiriau hyn, <q>Blant,
+<lb/>i ba le yr ydych yn meddwl yr ewch yn ol marw?</q>&mdash;
+<lb/>Meddyliais bod yn rhaid i mi adael fy ffyrdd 
+<w>dryg<lb rend="shy"/>ionus,</w> ac onid&ecirc; pa beth a ddeuai o honof yn ol marw?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;A pha effaith a gafodd y meddyliau hyn 
+<w>ar<lb rend="shy"/>noch</w> chwi?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr, mi a geisiais fyw yn well, ac a adewais
+<lb/>heibio lawer o arferion drwg; ond po mwyaf yr
+
+<pb n="15"/>
+<lb/>oeddwn yn ceisio hyn, mwyaf anhawdd yr oeddwn yn
+<lb/>ei brofi. Yr oedd fy nghalon yn galed&mdash;ac nid allwn
+<lb/>pryd hynny ledu fy achos ger bron neb.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;A <orig reg="allasech">all'sech</orig> chwi ddim gwneuthur hynny ger
+<lb/>bron Duw; canys gwrandawr gweddi ydyw ef?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr</q> (ebe hi, dan wridio) <q>nid yw fy ngwedd&iuml;au
+<lb/>i ond gwael iawn ar y goreu&mdash;a<isp/>'r pryd hwnnw ni
+<lb/>wyddwn ond ychydig am wedd&iuml;o: etto gofynais
+<lb/>weithiau am galon newydd gan yr Arglwydd.&rdquo;</q>
+</p>
+<p>
+<lb/>Yn yr holl ymddiddan hyn yr oedd rhyw beth yn
+<lb/>ymddangos ag oedd yn profi didwylldra, ac yn 
+<w>myn<lb rend="shy"/>egu</w> am gyflwr goleu ei henaid. Hi a lefarai gyda
+<lb/>diniweidrwydd y plentyn, a difrifoldeb y Cristion.
+<lb/>Ac, yn wir, o braidd yr oeddwn yn gallu credu fy
+<lb/>ngolwg mai Jane S&mdash;&mdash; oedd hi. Pan yr oedd yn
+<lb/>llefaru am y pethau hyn, yr oedd ei hwynebpryd yn
+<lb/>llawn bywyd a serchowgrwydd&mdash;yr oedd hi yn 
+<w>mwyn<lb rend="shy"/>hau</w> mwy rwyddineb ymadrodd wrth lefaru nac a 
+<w>wel<lb rend="shy"/>swn</w> erioed ynddi o<isp/>'r blaen; etto, er hyn, yr oedd hi
+<lb/>yn wylaidd, yn ostyngedig, a diryfyg. Yr oedd nodau
+<lb/>ei chyfnewidiad yn rhy amlwg i neb eu 
+<w>cam-gym<lb rend="shy"/>meryd.</w> Dyma 'r tro cyntaf i mi fod yn dyst o<isp/>'r fath
+<lb/>gyfnewidiad; a phwy all draethu mor annogaethol a
+<lb/>buddiol ydoedd i<isp/>'m henaid!
+</p>
+<p>
+<lb/>Ond aeth Jane yn y blaen.&mdash;<q>&ldquo;Yr oeddwn ryw
+<lb/>ddiwrnod yn meddwl nad oeddwn gymmwys i fyw nac
+<lb/>i farw: canys nid oeddwn yn cael dim cysur yn y byd
+<lb/>hwn; a gwyddwn nad oeddwn yn haeddu dim yn y
+<lb/>byd a ddaw. A<isp/>'r diwrnod hwnnw chwi a<isp/>'m 
+<w>hanfon<lb rend="shy"/>asoch</w> i<isp/>'r fynwent i ddysgu y llinellau oedd ar 
+<w>fedd<lb rend="shy"/>garreg</w> Mrs. B&mdash;&mdash;, a darllenais y rhai oedd ar y bedd
+<lb/>nesaf.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O, yr wyf yn cofio o<isp/>'r goreu, Jane, chwi a
+<lb/>ddaethoch yn ol wedi dysgu y llinellau ar y ddau
+<lb/>fedd.&rdquo;</q>
+</p>
+
+<pb n="16"/>
+<p>
+<lb/><q>&ldquo;Yr oedd llinellau yn y diweddaf, y rhai a 
+<w>bar<lb rend="shy"/>asant</w> i mi feddwl a myfyrio llawer.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa rai oeddent, Jane?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Y rhai hyn, Syr.&rdquo;</q>
+</p>
+
+<!-- poetry-->
+<lg rend="centred">
+<lb/><l>Ond mae Efengyl Duw yn llawn</l>
+<lb/><l>O addewidion melus iawn,</l>
+<lb/><l>I<isp/>'n dysgu mewn hyfrydwch fyw,</l>
+<lb/><l>A <orig reg="mynd">myn'd</orig> i<isp/>'r bedd mewn hedd &acirc; Duw.</l>
+</lg>
+
+<p>
+<lb/><q>Hiraethais am fod yr efengyl ogoneddus hon yn eiddo
+<lb/>i minnau, fel y gallwn fyw mewn hyfrydwch, a marw
+<lb/>mewn heddwch; ac ymddangosodd yn bur debyg i mi
+<lb/>y byddai felly. Ni b&ucirc;m erioed o<isp/>'r blaen mor gysurus
+<lb/>yn achos fy enaid. Mynych, fynych yr oedd y 
+<w>geir<lb rend="shy"/>iau</w> hyn yn fy meddwl, O, Efengyl werthfawr!&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Fy anwylyd, beth yw ystyr y gair Efengyl?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Newyddion da.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Newyddion da i bwy?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;I bechaduriaid tlodion.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pwy sydd yn danfon y newyddion da hyn at
+<lb/>bechaduriaid?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yr Arglwydd Hollalluog.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pwy sydd yn cyhoeddi y newyddion da hyn?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Chwi a<isp/>'i dygasant i mi.&rdquo;</q>
+</p>
+<p>
+<lb/>Wrth yr attebiad hwn torrais i wylo; canys ni 
+<w>all<lb rend="shy"/>aswn</w> ymattal. Yr oedd yr attebiad mor 
+<w>annisgwyl<lb rend="shy"/>iadwy</w> a chyffrous. Teimlais dynerwch a 
+<w>diolchgar<lb rend="shy"/>wch</w> tad am gyntaf-anedig. Wylodd Jane hefyd.
+<lb/>Yna, ar ol ychydig ddistawrwydd, hi a ddywedodd,
+</p>
+<p>
+<lb/><q>&ldquo;O, Syr! gwnewch siarad, da chwi, &acirc;&nbsp;<orig reg="fy nhad">nhad</orig> a
+<lb/><orig reg="fy mam">mam</orig>, a<isp/>'m brawd bach; canys y mae arnaf ofn eu bod
+<lb/>yn myned ym mlaen mewn ffordd ddrwg iawn.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa fodd felly?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr, y maent yn meddwi, yn tyngu, ac yn 
+<w>ym<lb rend="shy"/>ladd,</w> ac y mae yn gas ganddynt yr hyn sydd dda; ac
+
+<pb n="17"/>
+<lb/>y mae hyn yn peri i mi fwy o ofid nac a allaf <w>ddy<lb rend="shy"/>wedyd.</w> Os dywedaf air wrthynt y maent yn digio
+<lb/>wrthyf, ac yn fy ngwawdio, ac yn peri i mi dewi, a
+<lb/>pheidio a ryfygu i<isp/>'w dysgu hwy. Yn wir, y mae 
+<w>ar<lb rend="shy"/>naf</w> gywilydd dywedyd am danynt wrthych; ond 
+<w>go<lb rend="shy"/>beithio</w> nad yw hyn yn ddrwg; eu lles hwy yr wyf yn
+<lb/>ei chwennych.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Gobeithio</q> (ebe fi) <q>y bydd eich cynghorion a<isp/>'ch
+<lb/>gwedd&iuml;au er lles iddynt; minnau a wnaf yr hyn a
+<lb/>allwyf.&rdquo;</q>
+</p>
+<p>
+<lb/>Yna gwedd&iuml;ais gyda hi, ac ymadewais, gan addaw
+<lb/>ymweled &acirc; hi yn fynych.
+</p>
+<p>
+<lb/>Wrth fyned adref, llanwyd fy nghalon &acirc;&nbsp;
+<w>diolchgar<lb rend="shy"/>wch</w> am hyn a welswn ac <orig reg="a">y</orig> glywswn. Yr oedd Jane
+<lb/>yn ymddangos fel blaen-ffrwyth fy ngweinidogaeth;
+<lb/>a rhoddodd hyn nerth a chalondid <orig reg="im">i'm</orig> yn y swydd.
+</p>
+</div>
+
+<div type="rhan" n="3">
+<head><lb/>RHAN III.</head>
+<p>
+<lb/><hi rend="smallcaps">Pan</hi> aethum y tro nesaf i ymweled &acirc; Jane, mi
+<lb/>a<isp/>'i cefais yn y gwely yn darllen Hymnau y Dr. Watts
+<lb/>i Blant. Gofynais iddi,
+</p>
+<p>
+<lb/><q>&ldquo;Beth yr ydych yn ei ddarllen?&rdquo;</q>
+</p>
+<p>
+<lb/>Attebodd hithau, <q>&ldquo;Bum yn darllen ac yn meddwl
+<lb/>lawer ar y geiriau hyn yn y llyfr bach yma.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa rai?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Y rhai hyn.&rdquo;</q>
+</p>
+
+<!-- poetry-->
+<lg rend="centred">
+<lb/><l>Y mae awr pan rhaid <orig reg="im">i'm</orig> farw,</l>
+<lb/><l rend="indented">Ac ni wn pa bryd y daw;</l>
+<lb/><l>Mil o blant mor fach a finnau,</l>
+<lb/><l rend="indented">Aeth i<isp/>'r farn sy <orig reg="ymron">'mron</orig> gerllaw.</l>
+</lg>
+
+<pb n="18"/>
+
+<lg rend="centred">
+<lb/><l>Duw rho ras i<isp/>'m dreulio 'n addas</l>
+<lb/><l rend="indented">'M horiau gwerthfawr yn dy hedd;</l>
+<lb/><l>Can's nid oes nac edifeirwch,</l>
+<lb/><l rend="indented">Gras na phardwn yn y bedd.</l>
+</lg>
+
+<p>
+<lb/><q>&ldquo;Syr, yr wyf yn gweled yn eglur mai gwir yw
+<lb/>hyn, ac yr wyf yn ofni na threuliais fy oriau fel y
+<lb/>dylaswn. Yr wyf yn credu na byddaf ond dros
+<lb/>ychydig iawn yn y byd hwn; a phan edrychwyf ar fy
+<lb/>meiau yr wyf yn dywedyd,</q>
+</p>
+
+<!--poetry-->
+<lg rend="centred">
+<lb/><l>'Rwy 'n dod, 'rwy 'n dod, fy Arglwydd Dduw,</l>
+<lb/><l rend="indented">I <orig reg="ymofyn">'mofyn</orig> am y gwaed;</l>
+<lb/><l>O golch yn l&acirc;n y dua 'i liw,</l>
+<lb/><l rend="indented">Sy<isp/>'n disgwyl wrth dy draed.</l>
+</lg>
+
+<p>
+<lb/><q>A wna efe hyn i mi, Syr?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Fy anwylyd, yr wyf yn dra hyderus ei fod ef wedi
+<lb/>maddeu eich holl anwiredd; wedi atteb eich 
+<w>gweddi<lb rend="shy"/>au;</w> wedi eich gwaredu o feddiant y tywyllwch, a<isp/>'ch
+<lb/>symmud i deyrnas ei anwyl Fab. Chwi a brofasoch
+<lb/>lawer o arwyddion sicr o<isp/>'i drugaredd ef i<isp/>'ch henaid.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Do, yn wir, Syr; ac yr wyf am ei garu a<isp/>'i 
+<w>fen<lb rend="shy"/>dithio</w> am hynny. Y mae efe yn dda, yn dda iawn.&rdquo;</q>
+</p>
+<p>
+<lb/>Meddyliais y gallai ymddiddan rheolaidd am 
+<w>eg<lb rend="shy"/>wyddorion</w> dechreuol crefydd fod yn fuddiol i Jane;
+<lb/>ac ymddangosodd y Catecism i mi fel sylfaen addas i<isp/>'r
+<lb/>fath ymddiddanion. Am hynny, gofynais,
+</p>
+<p>
+<lb/><q>&ldquo;Jane, a fedrwch chwi eich Catecism?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Medraf, Syr; ond yr wyf yn ofni bod hynny wedi
+<lb/>ychwanegu fy mhechod ger bron Duw.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Beth! medru dywedyd eich Catecism wedi
+<lb/>chwanegu eich pechod?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Nage, Syr; ond ei ddywedyd ef yn y ffordd yr
+<lb/>oeddwn i yn ei ddywedyd.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa ffordd oedd hono, Jane?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr, yr oeddwn yn ei ddywedyd yn bur 
+<w>ddifedd<lb rend="shy"/>wl,</w> ac heb ystyried yr hyn yr oeddwn yn ei ddywedyd:
+
+<pb n="19"/>
+<lb/>ac y mae dywedyd peth da yn anystyriol yn waith
+<lb/>drwg iawn. Y mae 'r Catecism yn llawn o bethau da;
+<lb/>ac fe fyddai yn dda gennyf allu eu deall yn well.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Wel, fy anwylyd, ni a ymddiddanwn ychydig am
+<lb/>y pethau da hyn. A ddarfu i chwi erioed ystyried
+<lb/>beth yw bod yn aelod i Grist, yn blentyn i Dduw, ac
+<lb/>yn etifedd teyrnas nefoedd?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yn wir, Syr, fe feddyliais lawer am y pethau
+<lb/>hyn yn ddiweddar; ac y mae ar fy enaid chwant bod
+<lb/>felly mewn gwirionedd, ac nid mewn enw yn unig.
+<lb/>Yr wyf yn cofio i chwi ddywedyd wrthyf ryw dro,
+<lb/>mai fel y mae 'r gangen i<isp/>'r pren, y garreg i<isp/>'r adeilad,
+<lb/>a<isp/>'r aelod i<isp/>'r corph a<isp/>'r pen, felly y mae y credadyn i<isp/>'r
+<lb/>Arglwydd Iesu Grist. Ond pa fodd yr wyf i wybod
+<lb/>fy mod yn aelod i Grist?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ydych chwi yn caru Crist yn fwy nac y byddech?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yn wir, yr wyf yn meddwl fy mod i.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa'm yr ydych yn ei garu ef?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Am iddo ef yn gyntaf fy ngharu i.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa fodd y gwyddoch iddo ef yn gyntaf eich
+<lb/>caru chwi?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Oblegid iddo roddi i mi addysg, a<isp/>'m dwyn i 
+<w>ad<lb rend="shy"/>nabod</w> pla fy nghalon; a fy nysgu i wedd&iuml;o am 
+<w>fadd<lb rend="shy"/>euant,</w> a charu ei ffyrdd ef. Efe a<isp/>'ch danfonodd chwi
+<lb/>yma i<isp/>'m dysgu, ac i ddangos i mi ffordd yr 
+<w>iechyd<lb rend="shy"/>wriaeth;</w> ac yn awr y mae arnaf eisieu cael fy achub
+<lb/>yn y ffordd a drefnodd efe. Yr wyf rai prydiau yn
+<lb/>profi 'r fath gariad tu ag atto, am yr hyn oll a wnaeth
+<lb/>ac a ddywedodd, fel y dymunwn i feddwl am ddim
+<lb/>arall byth. Mi a wn nad oeddwn felly bob amser, ac
+<lb/>am hynny yr wyf yn meddwl, pe na buasai Iesu Grist
+<lb/>wedi fy ngharu i yn gyntaf, na buasai fy nghalon 
+<w>lygr<lb rend="shy"/>edig</w> i yn meddwl dim am dano ef. Yr oeddwn 
+<w>un<lb rend="shy"/>waith</w> yn caru pob peth yn fwy na duwioldeb; ond yn
+<lb/>awr duwioldeb sydd bob peth i mi.&rdquo;</q>
+
+<pb n="20"/>
+</p>
+<p>
+<lb/><q>&ldquo;Ydych chwi yn credu o<isp/>'ch calon y gall Iesu Grist
+<lb/>eich hachub, a<isp/>'i fod yn ewyllysgar i achub y pennaf
+<lb/>o bechaduriaid?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ydwyf.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa beth ydych chwi?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pechadur ieuangc, ond un mawr.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ai nid o<isp/>'i drugaredd ef y mae eich bod chwi yn
+<lb/>cydnabod mai pechadur ydych?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;I&euml;, yn sicr, Syr; y mae 'n rhaid mai felly y
+<lb/>mae.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ydych chwi yn mawr ddymuno ymadael &acirc; phob
+<lb/>pechod?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yn wir, yr wyf; os wyf yn adnabod fy hun.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ydych chwi yn cael ynoch yspryd yn 
+<w>gwrth<lb rend="shy"/>wynebu</w> pechod, ac yn gweithio ynoch gasineb at 
+<w>an<lb rend="shy"/>nuwioldeb?&rdquo;</w></q>
+</p>
+<p>
+<lb/><q>&ldquo;Yr wyf yn gobeithio fy mod.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pwy a roddodd i chwi yr yspryd hwn? Oeddech
+<lb/>chwi bob amser felly?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Y mae 'n amlwg mai Crist, yr hwn a<isp/>'m carodd,
+<lb/>ac a<isp/>'i rhoddes ei hun droswyf, a roddodd hyn ynof.
+<lb/>Nid oeddwn felly bob amser.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yn awr, fy anwylyd, onid yw hyn yn eglur 
+<w>ddang<lb rend="shy"/>os</w> bod rhyw undeb rhwng eich henaid chwi &acirc; Iesu
+<lb/>Grist? Onid yw yn ymddangos fel pe baech yn byw,
+<lb/>yn symmud, ac wedi derbyn bod ysprydol o hono ef?
+<lb/>Fel y mae un o aelodau eich corph mewn undeb &acirc;<isp/>'ch
+<lb/>corph a<isp/>'ch pen, yn derbyn maeth, cynnydd, a nerth i
+<lb/>fyw a gweithredu trwy 'r undeb hwn; felly yr ydych
+<lb/>chwithau, os ydych yn credu yng Nghrist, yn aelod
+<lb/>ysprydol o Grist; a thrwy hynny yr ydych yn derbyn
+<lb/>gallu i<isp/>'w garu a mynegu ei rinweddau. Ydych chwi
+<lb/>yn fy neall i?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yr wyf yn meddwl fy mod; ac y mae yn rhoddi
+<lb/>llawer o ddiddanwch i mi i edrych i fynu at Grist fel
+
+<pb n="21"/>
+<lb/>fy mywiol ben, ac ystyried fy hun fel un o<isp/>'i aelodau
+<lb/>ef, er fy mod y gwaelaf o honynt.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ond dywedwch wrthyf, pa beth yw eich meddwl
+<lb/>am fod yn blentyn i Dduw?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yr wyf yn sicr, Syr, nad wyf yn haeddu fy ngalw
+<lb/>felly.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pwy sydd yn haeddu hyn?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Nid oes neb.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa fodd, gan hynny, y mae rhai yn dyfod yn
+<lb/>blant i Dduw, gan ein bod ni oll wrth naturiaeth yn
+<lb/>blant digofaint?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Trwy ras Duw, Syr.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa beth y mae 'r gair gras yn arwyddo?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ewyllys da Duw; rhad ewyllys da Duw i 
+<w>bech<lb rend="shy"/>aduriaid?&rdquo;</w></q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa beth y mae Duw yn ei roddi i blant digofaint
+<lb/>pan y mae yn eu gwneuthur yn blant gras?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Marwolaeth i bechod, a genedigaeth newydd i
+<lb/>gyfiawnder; onide, Syr?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;I&euml;; a ffrwyth cariad Crist yw hyn: gobeithio eich
+<lb/>bod chwithau yn gyfrannog o<isp/>'r fendith hon. Y mae
+<lb/>holl deulu Duw yn cael eu henwi oddiwrtho ef, ac efe
+<lb/>yw 'r cyntaf-anedig ym mhlith brodyr lawer. O! y
+<lb/>fath drugaredd yw, bod Iesu Grist yn galw ei hun yn
+<lb/>Frawd i ni! Fy anwylyd, y mae Iesu Grist yn Frawd
+<lb/>i chwi; ac ni bydd cywilydd ganddo eich harddel a<isp/>'ch
+<lb/>cyflwyno i<isp/>'w Dad yn y dydd diweddaf, fel un o<isp/>'r rhai
+<lb/>a bwrcasodd efe &acirc;<isp/>'i werthfawr waed.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O na bawn yn gallu caru fy Nhad a<isp/>'m Brawd o<isp/>'r
+<lb/>nef yn well nac yr wyf! Duw bydd drugarog wrthyf
+<lb/>fi bechadur! Os wyf yn blentyn i Dduw, yr wyf yn
+<lb/>meddwl fy mod yn fynych yn un gwrthryfelgar. Y
+<lb/>mae efe yn dangos rhyfedd diriondeb tu ag attaf fi
+<lb/>yn fwy nag eraill; ond O mor wael yr wyf yn atdalu
+<lb/>iddo ef!&rdquo;</q>
+</p>
+
+<pb n="22"/>
+<!-- poetry-->
+<lg rend="centred">
+<lb/><l>Gan d' fod yn rhoi yn rhad i mi,</l>
+<lb/><l>Fy Nuw, fendithion uwchlaw rhi';</l>
+<lb/><l>Fy mywyd innau fyddo i gyd,</l>
+<lb/><l>Er mawl i ti tra bwy 'n y byd.</l>
+</lg>
+
+<p>
+<lb/><q>&ldquo;Dyna 'r ffordd oreu, Jane, i brofi eich bod yn
+<lb/>blentyn i Dduw. Dangoswch eich cariad a<isp/>'ch diolch
+<lb/>i<isp/>'r fath Dad yn eich bywyd. Cofiwch iddo barottoi i
+<lb/>chwi etifeddiaeth ym mhlith y saint yn y goleuni.
+<lb/>Efe a<isp/>'ch gwnaeth chwi yn etifedd teyrnas nefoedd yn
+<lb/>gystal ag yn aelod i Grist, a phlentyn iddo ei hun.
+<lb/>A wyddoch chwi beth a feddylir wrth deyrnas 
+<w>nef<lb rend="shy"/>oedd?&rdquo;</w></q>
+</p>
+<p>
+<lb/>Ar hyn daeth ei mam i<isp/>'r t&ycirc;, a dechreuodd lefaru
+<lb/>wrth frawd ieuangaf Jane mewn yspryd chwerw, a
+<lb/>llais cecrus, a chan arfer geiriau anweddus a ffiaidd;
+<lb/>ond tawodd cyn gynted ag y clywodd ni yn ymddiddan
+<lb/>yn llofft.
+</p>
+<p>
+<lb/><q>&ldquo;O mam!&rdquo;</q> ebe Jane, <q>&ldquo;ni thawsech mor fuan oni
+<lb/>buasai i chwi glywed llais Mr. R. O, Syr! chwi
+<lb/>glywsoch fel y mae fy mam yn tyngu; da chwi, 
+<w>dy<lb rend="shy"/>wedwch</w> ryw beth wrthi; ni wrendy hi ddim arnaf fi.&rdquo;</q>
+</p>
+<p>
+<lb/>Aethum tua phen y grisiau, gan feddwl siarad &acirc;<isp/>'r
+<lb/>ddynes; ond hi a redodd allan, ac a ddiangodd y tro
+<lb/>hyn yn ddigerydd.
+</p>
+<p>
+<lb/><q>&ldquo;Syr,&rdquo;</q> ebe Jane, <q>&ldquo;y mae arnaf ofn mawr, os &acirc;f fi
+<lb/>i<isp/>'r nefoedd, na chaf byth weled fy mam yno. Byddai
+<lb/>yn dda gennyf ei gweled; ond y mae hi yn tyngu ac
+<lb/>yn rhegu, ac yn cadw y fath gwmpeini drwg. Clywaf
+<lb/>weithiau, fel yr wyf yn gorwedd yn fy ngwely, i lawr
+<lb/>y grisiau y fath ddrygioni, swn, ac ymladd, fel na wn
+<lb/>yn iawn beth i<isp/>'w wneuthur. Y mae 'n bur drwm pan
+<lb/>y bo tad a mam fel hyn. Fy ngweddi at Dduw 
+<w>dros<lb rend="shy"/>tynt</w> yw, am iddynt droi a bod yn gadwedig. Ond 
+<w>dy<lb rend="shy"/>wedwch</w> wrthyf ychydig beth yw bod yn etifedd 
+<w>teyrn<lb rend="shy"/>as</w> nefoedd.&rdquo;</q>
+</p>
+
+<pb n="23"/>
+<p>
+<lb/><q>&ldquo;Yr ydych yn cofio i mi, wrth egluro y Catecism
+<lb/>yn yr Eglwys, ddywedyd, bod teyrnas nefoedd yn y
+<lb/><orig reg="Beibl">Bibl</orig> yn arwyddo eglwys Crist yn y byd hwn, yn 
+<w>gys<lb rend="shy"/>tal</w> a gogoniant yn y byd a ddaw. Y mae un yn 
+<w>ba<lb rend="shy"/>rottoad</w> i<isp/>'r llall. Y mae pob gwir Gristion yn etifedd
+<lb/>i Dduw, ac yn gyd-etifedd &acirc; Christ; a hwy a g&acirc;nt
+<lb/>etifeddu gogoniant a dedwyddwch ei deyrnas ef, a
+<lb/>byw gyda Christ dros dragywyddoldeb. Rhad rodd
+<lb/>Duw yw hyn i<isp/>'w holl blant mabwysiadol; a phob un
+<lb/>ag y sydd yn credu ym Mab Duw, a brofant felusder
+<lb/>a gwirionedd yr addewid hon, <quote>&ldquo;rhyngodd bodd i<isp/>'ch
+<lb/>Tad roddi i chwi y deyrnas.&rdquo;</quote> Geneth dlawd ydych
+<lb/>chwi yr awr hon; etto, er hyn, yr wyf yn meddwl y
+<lb/>trefnir i chwi fynediad helaeth i mewn i dragywyddol
+<lb/>deyrnas ein Harglwydd a<isp/>'n Hiachawdwr Iesu Grist.
+<lb/>Yr ydych yn awr yn dioddef; etto, er hyn, onid y'ch
+<lb/>yn foddlon i ddioddef er ei fwyn ef, ac i ddwyn yn
+<lb/>amyneddgar yr holl bethau y mae efe yn eu rhoddi
+<lb/>arnoch i<isp/>'w dwyn?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ydwyf, ydwyf yn wir; yn bur foddlon i<isp/>'r cwbl.
+<lb/>Y mae pob peth yn dda iawn.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yna, fy anwylyd, chwi a deyrnaswch gyd &acirc;g ef.
+<lb/>Fe allai mai trwy lawer o orthrymderau y mae 'n rhaid
+<lb/>i chwi fyned i mewn i deyrnas Dduw; ond y mae 
+<w>gor<lb rend="shy"/>thrymder</w> yn peri amynedd, ac amynedd brofiad, a
+<lb/>phrofiad obaith. Dangoswch eich hun yn blentyn
+<lb/>ufudd i Dduw, fel gwir aelod i Grist, a<isp/>'ch rhan fydd
+<lb/>etifeddiaeth ym mhlith y saint yn y goleuni. 
+<w>Ffydd<lb rend="shy"/>lon</w> yw 'r hwn a addawodd, <quote>&lsquo;Treigla dy ffordd ar yr
+<lb/>Arglwydd, ac ymddiried ynddo, ac efe a<isp/>'i dwg i ben.</quote>&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Diolch i chwi, Syr; nis gallaf ddywedyd mor dda
+<lb/>yw gennyf glywed am y pethau hyn: ac yr wyf yn
+<lb/>meddwl nad allwn eu caru gymmaint, pe na byddai i
+<lb/>mi ran ynddynt. Ond, Syr, y mae un peth ar fy
+<lb/>meddwl i ofyn i chwi&mdash;y mae 'n beth mawr&mdash;ac fe
+
+<pb n="24"/>
+<lb/>allai fy mod i mewn camsynied&mdash;ac etto yr wyf yn
+<lb/>meddwl nad wyf&mdash;&rdquo;</q>
+</p>
+<p>
+<lb/>Yna hi a fethodd fyned ym mlaen, ac a dawodd.
+<lb/>Pan welais hyn, gofynais,
+</p>
+<p>
+<lb/><q>&ldquo;Beth yw hynny, Jane? Nac ofnwch ofyn.&rdquo;</q>
+</p>
+<p>
+<lb/>Ar hyn hi wridiodd, ac a dorrodd i wylo: ac wedi
+<lb/>hyn hi a gododd ei golwg am ychydig tu a<isp/>'r nef, ac
+<lb/>yna hi a drodd ei llygaid tu ag attaf yn y modd mwyaf
+<lb/>difrif, ac a ofynodd,
+</p>
+<p>
+<lb/><q>&ldquo;A all un mor ieuangc a thlawd a myfi gael 
+<w>cyf<lb rend="shy"/>rannogi</w> o Swpper yr Arglwydd? Y mae arnaf chwant
+<lb/>am hyn er's tro yn ol, ond yr oedd arnaf ofn gofyn,
+<lb/>rhag eich bod chwi yn tybied hyn yn anaddas a
+<lb/>drwg.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Gellwch yn sicr, Jane; a bydd dda iawn gennyf
+<lb/>gael ymddiddan &acirc; chwi am hynny. Gobeithio y gwna
+<lb/>yr hwn a roddodd y dymuniad hynny ynoch ei 
+<w>fen<lb rend="shy"/>dithio</w> hefyd i<isp/>'ch henaid. A ewyllysiech ei gael ef
+<lb/>heddyw, ynte foru?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;<orig reg="Yfory">Y foru</orig>, os gwelwch yn dda, Syr&mdash;a ddowch chwi
+<lb/><orig reg="yfory">foru</orig> i ymddiddan am hyn?&mdash;ac os byddwch yn
+<lb/>meddwl hynny yn addas, myfi a fyddaf ddiolchgar&mdash;
+<lb/>yr wyf yn teimlo fy hun yn bur llesg, ond gobeithio y
+<lb/>byddaf yn well pan ddeloch nesaf.&rdquo;</q>
+</p>
+<p>
+<lb/>Cefais lawer o hyfrydwch wrth feddwl cael gweled
+<lb/>Cristion mor ieuangc a didwyll, fel hyn yn ymroddi
+<lb/>i<isp/>'r Arglwydd, ac yn derbyn gwystl sacramentaidd o
+<lb/>gariad Crist at ei henaid.
+</p>
+<p>
+<lb/>Yr oedd ei hafiechyd yn cryfhau yn gyflym, ac yr
+<lb/>oedd hi yn gweled hynny. Ond fel yr oedd ei dyn
+<lb/>oddiallan yn gwanychu, yr oedd ei dyn oddimewn yn
+<lb/>cael ei gryfhau &acirc; nerth gan Yspryd Duw. Yr oedd
+<lb/>yn amlwg ei bod yn aeddfedu yn gyflym i ogoniant.
+</p>
+</div>
+
+<pb n="25"/>
+<div type="rhan" n="4">
+<head><lb/>RHAN IV.</head>
+
+<p>
+<lb/><hi rend="smallcaps">Dranoeth</hi> aethum yn ol fy addewid i ymweled
+<lb/>&acirc; Jane. Ar fy mynediad i<isp/>'r t&ycirc;, cyfarfu yr hen wraig,
+<lb/>y soniais eisoes am dani, &acirc; myfi, ac a ddywedodd
+<lb/>wrthyf:
+</p>
+<p>
+<lb/><q>&ldquo;Fe allai na ddeffrowch hi yn union; canys y mae
+<lb/>newydd gysgu; ac, O druan! anfynych y mae hi yn
+<lb/>cael gorphwysdra.&rdquo;</q>
+</p>
+<p>
+<lb/>Aethum yn ddistaw i fynu 'r grisiau, ac wele yr
+<lb/>oedd hi yn y gwely, ar ei lled eistedd, a<isp/>'i phen yn
+<lb/>pwyso ar ei llaw ddehau, a<isp/>'i <orig reg="Beibl">Bibl</orig> yn agored o<isp/>'i blaen.
+<lb/>Yr oedd yn amlwg iddi gysgu wrth ei ddarllen. Yr
+<lb/>oedd sirioldeb a thawelwch i<isp/>'w canfod yn ei 
+<w>hwyneb<lb rend="shy"/>pryd;</w> a rhai dagrau wedi treiglo dros ei gruddiau a
+<lb/>ddisgynasant (fe allai yn ddiarwybod iddi hi) ar ei
+<lb/><orig reg="Beibl">Bibl</orig>. Yn yr adeg hon edrychais o<isp/>'m hamgylch ar yr
+<lb/>ystafell, ac wele nid oedd ond gwael ac anghysurus.
+<lb/>Yr oedd y mur yn ammharus; y t&ocirc; yn ddrylliog; y
+<lb/>llawr yn anwastad a thyllog; ac nid oedd y dodrefn
+<lb/>ond ychydig o ran nifer, a salw o ran gwerth. Dau
+<lb/>hen bren gwely, yst&ocirc;l deirtroed, a hen gist derw, 
+<w>yd<lb rend="shy"/>oedd</w> yr holl ddodrefn. Yr oedd y ffenestr yn dyllog
+<lb/>iawn, a darnau o bapur wedi eu rhoi arni yma a thraw.
+<lb/>Ar y mur wrth ben y gwely lle yr oedd Jane, yr oedd
+<lb/>ystyllen wedi ei gosod i ddal pethau; ac ar hon yr oedd
+<lb/>ei meddyginiaeth, ei bwyd, a<isp/>'i llyfrau.
+</p>
+<p>
+<lb/><q>&ldquo;Yma,&rdquo;</q> dywedais ynof fy hun, <q>&ldquo;y gorwedd 
+<w>etif<lb rend="shy"/>edd</w> gogoniant, yn disgwyl am ollyngdod heddychol!
+<lb/>Nid yw ei th&ycirc; daearol ond tlawd iawn; etto y mae
+<lb/>ganddi d&ycirc; nid o waith llaw, tragywyddol yn y nefoedd.
+<lb/>Nid oes ganddi ond ychydig i beri iddi hoffi bywyd;
+
+<pb n="26"/>
+<lb/>ond, O! y fath bwys gogoniant sydd iddi yr ochr
+<lb/>draw! Y mae ffydd yn ystyried yr ystafell wael hon
+<lb/>yn balas ardderchog; oblegid y mae ynddi etifeddes
+<lb/>coron.&rdquo;</q>
+</p>
+<p>
+<lb/>Nes&euml;ais at y gwely yn ddistaw, heb ei deffroi, a
+<lb/>gwelais mai 'r drydydd bennod ar hugain o St. Luc yr
+<lb/>oedd hi yn ei darllen pan gysgodd. Yr oedd bys ei
+<lb/>llaw chwith ar y bennod hon, fel pe buasai yn ei
+<lb/>arferyd fel arweinydd i<isp/>'w llygad wrth ddarllen.
+<lb/>Edrychais ar ba eiriau yr oedd ei bys yn gorphwys,
+<lb/>a gwelais, gyda hyfrydwch, mai wrth y geiriau hyn
+<lb/>yr oedd, <quote>&ldquo;Arglwydd, cofia fi pan ddelych i<isp/>'th 
+<w>deyrn<lb rend="shy"/>as.&rdquo;</w></quote> Meddyliais, <q>A ydyw hyn yn ddamweiniol? neu,
+<lb/>ynte, fel hyn yr oedd hi? Pa un bynnag y mae yn
+<lb/>beth rhyfedd.</q> Ond cyn pen ychydig cefais 
+<w>foddlon<lb rend="shy"/>rwydd</w> ar hyn; canys hi a hanner ddeffr&ocirc;dd, ond nid
+<lb/>digon i ganfod neb, a hi a ddywedodd yn ddistaw,
+</p>
+<p>
+<lb/><q>&ldquo;Arglwydd, cofia fi&mdash;cofia fi&mdash;cofia eneth dlawd&mdash;
+<lb/>Arglwydd, cofia fi&mdash;&mdash;&rdquo;</q>
+</p>
+<p>
+<lb/>Ar hyn hi a gyflawn ddeffr&ocirc;dd; a phan y<isp/>'m 
+<w>gwel<lb rend="shy"/>odd,</w> cyffrodd ychydig, a chododd gwrid yn ei 
+<w>hwyn<lb rend="shy"/>eb,</w> ond darfu yn fuan iawn.
+</p>
+<p>
+<lb/><q>&ldquo;Modryb K&mdash;&mdash;, pa h&ycirc;d y cysgais? Y mae yn
+<lb/>ddrwg iawn gennyf, Syr&mdash;&mdash;&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Y mae 'n dda iawn gennyf innau eich cael chwi fel
+<lb/>hyn&mdash;chwi a ellwch ddywedyd gyda Dafydd, <quote>&lsquo;Mi a<!-- simple quotes at beginning of lines deleted -->
+<lb/>orweddais ac a gysgais, ac a ddeffroais; canys yr
+<lb/>Arglwydd a<isp/>'m cynnaliodd.&rsquo;</quote> Pa beth y buoch yn ei
+<lb/>ddarllen?&rsquo;</q><!-- q-marks?-->
+</p>
+<p>
+<lb/><q>&ldquo;Hanes croeshoeliad Iesu Grist.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Hyd pa le y darllenasoch cyn cysgu?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Hyd at weddi 'r lleidr ar y groes; canys pan
+<lb/>ddarllenais hon, mi a ystyriais y fath drugaredd
+<lb/>fyddai, os cofiai Iesu Grist finnau hefyd&mdash;ac wrth
+<lb/>fyfyrio ar hyn mi a gysgais; ac yr oeddwn yn meddwl
+
+<pb n="27"/>
+<lb/>yn fy ngwsg fy mod yn gweled Iesu Grist ar y groes,
+<lb/>a fy mod yn dywedyd wrtho, <q>&lsquo;Arglwydd, cofia fi&rsquo;</q>&mdash;
+<lb/>ac, yn wir, nid oedd efe ddim yn edrych yn ddigllon
+<lb/>arnaf&mdash;ac ar hyn mi a ddeffr&ouml;ais.&rdquo;</q>
+</p>
+<p>
+<lb/>Ystyriais hyn fel esponiad ar y testun, ac fel 
+<w>parot<lb rend="shy"/>toad</w> i<isp/>'r gwasanaeth yr oeddym i<isp/>'w gyflawni.
+</p>
+<p>
+<lb/><q>&ldquo;Wel, fy anwylyd, yr wyf wedi dyfod yn ol eich
+<lb/>dymuniad i roddi i chwi <hi>sacrament</hi> corph a gwaed
+<lb/>Crist ein Hiachawdwr; ac nid wyf yn ammeu na wna
+<lb/>modryb K&mdash;&mdash; ei dderbyn gyda ni.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Siaradwch &acirc; mi ychydig yn gyntaf ynghylch y
+<lb/><hi>sacrament</hi>, os gwelwch yn dda, Syr.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yr ydych yn cofio yr hyn a ddysgasoch yn eich
+<lb/>Catecism am dano. Ond ystyriwn&mdash;Sacrament, fel y
+<lb/>gwyddoch, <!-- repeated q-marks deleted--><quote>&lsquo;sydd arwydd gweledig oddi allan, o ras
+<lb/>ysprydol oddi fewn, a roddir i ni; yr hwn a 
+<w>ordein<lb rend="shy"/>iodd</w> Crist ei hun, megis modd i ni i dderbyn y gras
+<lb/>hwnnw trwyddo, ac i fod yn wystl i<isp/>'n sicrhau ni o<isp/>'r
+<lb/>gras hwnnw.&rsquo;</quote> Yn awr y mae Iesu Grist wedi 
+<w>or<lb rend="shy"/>deinio</w> 'r bara a<isp/>'r gwin yn y Swpper sanctaidd fel
+<lb/>gwrthddrychau allanol, y rhai a allwn eu gweled &acirc;<isp/>'n
+<lb/>llygaid. Ac y mae 'n arwydd, n&ocirc;d, a gwystl o<isp/>'i 
+<w>gar<lb rend="shy"/>iad,</w> ei ras, a<isp/>'i fendith, y rhai y mae efe yn eu haddaw
+<lb/>ac yn eu rhoddi i bawb ag sydd yn derbyn y 
+<w>sacra<lb rend="shy"/>ment,</w> gan iawn gredu ac ymddiried ynddo ef, a<isp/>'i
+<lb/>waith. Yn y modd hwn y mae efe yn cadw yn ein
+<lb/>plith ni goffadwriaeth dragywyddol am ei angeu
+<lb/>gwerthfawr ef, a<isp/>'r lleshad yr ydym ni yn ei dderbyn
+<lb/>oddiwrtho.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa beth yr ydych chwi, Jane, yn gredu am 
+<w>farw<lb rend="shy"/>olaeth</w> Crist?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yr wyf yn credu, Syr, mai o herwydd ei 
+<w>farwol<lb rend="shy"/>aeth</w> ef yr y'm ni yn fyw.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa fywyd yr y'm ni yn fyw trwy ei 
+<w>farwol<lb rend="shy"/>aeth</w> ef?&rdquo;</q>
+</p>
+
+<pb n="28"/>
+<p>
+<lb/><q>&ldquo;Bywyd o ras a thrugaredd yma, a bywyd o 
+<w>ogon<lb rend="shy"/>iant</w> a dedwyddwch yn y byd a ddaw. Onide, Syr?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;I&euml;, siwr; ffrwyth marwolaeth Crist yw hyn: ac
+<lb/>fel hyn <quote>&lsquo;agorodd efe deyrnas nef i bawb a gredant.&rsquo;</quote>
+<lb/>Fel y mae bara a gwin yn cryfhau ac adfywio eich
+<lb/>corph llesg chwi yn eich afiechyd; felly y mae 
+<w>ben<lb rend="shy"/>dith</w> corph a gwaed Crist yn cryfhau a diddanu 
+<w>en<lb rend="shy"/>eidiau</w> yr holl rai sydd yn ymddiried, gyda ffydd,
+<lb/>gobaith, a chariad, ynddo ef, yr hwn a<isp/>'n carodd, ac
+<lb/>a<isp/>'i rhoddes ei hun drosom.&rdquo;</q>
+</p>
+<p>
+<lb/>Yna hi a ddywedodd, ac wrth ddywedyd rhedodd
+<lb/>ffrwd o ddagrau lawr ei gruddiau.
+</p>
+<p>
+<lb/><q>&ldquo;O! 'r fath Iachawdwr!&mdash;O! 'r fath bechadur!&mdash;
+<lb/>O! mor hynaws&mdash;mor dda&mdash;a hyn droswyf fi!&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Nac ofnwch, fy anwylyd, canys y mae yr hwn a
+<lb/>barodd i chwi ei garu ef fel hyn, yn eich caru yn 
+<w>or<lb rend="shy"/>mod</w> i<isp/>'ch gadael na<isp/>'ch rhoddi i fynu. Ni fwrw efe,
+<lb/>mewn un modd, neb allan ag a ddaw atto ef.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr,&rdquo;</q> ebe hi, <q>&ldquo;nis gallaf un amser feddwl am
+<lb/>Iesu Grist, a<isp/>'i gariad tu ag at bechaduriaid, heb 
+<w>ry<lb rend="shy"/>feddu</w> wrth hynny. Nid wyf yn haeddu ond llid a
+<lb/>digofaint, o herwydd fy mhechod. Paham gan hynny
+<lb/>y mae yn fy ngharu? Y mae fy nghalon yn ddrwg.
+<lb/>Paham y mae yn fy ngharu? Yr wyf yn barhaus yn
+<lb/>anghofio ei holl ddoniau ef. Paham gan hynny y mae
+<lb/>yn fy ngharu? Nid wyf nac yn gwedd&iuml;o, nac yn 
+<w>di<lb rend="shy"/>olch</w> iddo megis y dylwn. Paham, ynte, y mae 'r fath
+<lb/>gariad tu ag attaf fi?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Y mae 'n eglur oddiwrth hyn, fy mhlentyn anwyl,
+<lb/>mai o drugaredd rad y mae 'r cwbl o<isp/>'r dechreu i<isp/>'r
+<lb/>diwedd; ac y mae hyn yn chwanegu melusder i<isp/>'r 
+<w>fen<lb rend="shy"/>dith.</w> Ai nid ydych yn foddlon, fy anwylyd, i roddi
+<lb/>i Grist holl anrhydedd eich iechydwriaeth, ac i 
+<w>gym<lb rend="shy"/>meryd</w> i chwi eich hunan holl waradwydd eich 
+<w>pech<lb rend="shy"/>odau?&rdquo;</w></q>
+</p>
+
+<pb n="29"/>
+<p>
+<lb/><q>&ldquo;Ydwyf, yn wir, Syr, yr ydwyf. Fy ngh&acirc;n yw,</q><!-- q-marks?-->
+</p>
+
+<!-- poetry-->
+<lg rend="centred">
+<lb/><l>Danfonodd Duw ei Fab ei hun,</l>
+<lb/><l>I <orig reg="gymryd">gym'ryd</orig> arno natur dyn;</l>
+<lb/><l>Ac i ddwyn heddwch i nyni,</l>
+<lb/><l>Tywalltodd ef ei waed yn lli'.</l>
+</lg>
+<lg rend="centred">
+<lb/><l>I holl gyfreithiau pur ei Dad,</l>
+<lb/><l>Rhoddodd ogoniant a mawrhad:</l>
+<lb/><l>Am hyn boed iddo 'r parch a<isp/>'r bri,</l>
+<lb/><l>Trwy<isp/>'r nef uwch ben, a<isp/>'n daear ni.</l>
+</lg>
+
+<p>
+<lb/><q>&ldquo;Y mae 'n dda gennyf, Jane, eich bod yn cofio
+<lb/>eich hymnau cystal.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O, Syr, ni ellwch feddwl yr hyfrydwch yr wyf yn
+<lb/>gael ynddynt. O! mor dda yw gennyf i chwi roddi
+<lb/>i mi y Llyfr Hymnau i Blant!&rdquo;</q>
+</p>
+<p>
+<lb/>Yma rhwystrwyd hi gan besychu i ddywedyd 
+<w>rha<lb rend="shy"/>gor.</w> Yr hen wraig a gynnaliodd ei phen. Ac yn wir
+<lb/>yr oedd yn ofidus edrych arni yn ymdrechu am 
+<w>an<lb rend="shy"/>adl,</w> ac hefyd megis am fywyd.
+</p>
+<p>
+<lb/><q>&ldquo;Druan bach!&rdquo;</q> ebe 'r hen wraig, <q>O na fedrwn dy
+<lb/>gynnorthwyo ac esmwythau arnat! Ond ni phery
+<lb/>byth.&rsquo;</q><!--quote-mark?-->
+</p>
+<p>
+<lb/><q>&ldquo;Y mae Duw yn fy nghymmorth i,&rdquo;</q> ebe hi, pan
+<lb/>gafodd ychydig hamdden, <q>&ldquo;y mae Duw yn fy 
+<w>nghyn<lb rend="shy"/>northwyo;</w> ac efe a<isp/>'m dwyn trwy 'r cwbl&mdash;Syr, 
+<w>peid<lb rend="shy"/>iwch</w> a dychrynu&mdash;nid oes arnaf fi ddim ofn&mdash;nid yw
+<lb/>hyn ddim&mdash;yr wyf yn well yn awr. Diolch i chwi,
+<lb/>modryb, diolch i chwi. Yr wyf yn rhoddi llawer o
+<lb/>drafferth i chwi; ond fe d&acirc;l yr Arglwydd i chwi am
+<lb/>hyn, ac am eich holl diriondeb tu ag attaf: &iuml;e, Syr,
+<lb/>ac fe d&acirc;l i chwithau hefyd. Yn awr, Syr, ewch ym
+<lb/>mlaen am y Sacrament.&rsquo;</q><!--quote-mark?-->
+</p>
+<p>
+<lb/><q>&ldquo;Pa beth sy raid i<isp/>'r rhai a dd&ecirc;l i Swpper yr 
+<w>Ar<lb rend="shy"/>glwydd</w> ei wneuthur?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Y mae pum peth, Syr, wedi eu henwi yn y 
+<w>Cate<lb rend="shy"/>cism.&rdquo;</w></q>
+</p>
+
+<pb n="30"/>
+<p>
+<lb/><q>&ldquo;Pa beth yw 'r cyntaf?&rdquo;</q>
+</p>
+<p>
+<lb/>Ystyriodd ychydig, a dywedodd, gyd &acirc;g edrychiad
+<lb/>difrifol,
+</p>
+<p>
+<lb/><q>&ldquo;Holi eu hunain, a ydynt hwy yn wir edifeiriol am
+<lb/>eu pechodau a aethant heibio.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yr wyf yn gobeithio ac yn meddwl y gwyddoch
+<lb/>chwi beth yw hyn, Jane: rhoddodd yr Arglwydd i
+<lb/>chwi yspryd edifeirwch.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ni &wcirc;yr neb, Syr, y fath ofid a brofais wrth 
+<w>ad<lb rend="shy"/>gofio</w> 'r pechodau a aeth heibio. Ond fe &wcirc;yr Duw;
+<lb/>ac y mae hynny yn ddigon; ac yr wyf yn hyderu ei
+<lb/>fod ef wedi eu maddeu er mwyn Crist. Y mae ei
+<lb/>waed ef yn glanhau oddiwrth bob pechod. Syr, yr
+<lb/>wyf rai prydiau yn crynu gan ofn wrth feddwl am fy
+<lb/>mhechodau; ac y mae yn peri i mi lefain ac wylo
+<lb/>feddwl i mi bechu yn erbyn Duw mor dda; yna y mae
+<lb/>yn fy niddanu &acirc; meddyliau hyfryd am Grist.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Y mae hyn yn dda, fy merch fach i.&mdash;Ond beth
+<lb/>yw 'r peth nesaf?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Sicr amcanu dilyn buchedd newydd.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa beth ydych yn feddwl wrth hyn?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ni bydd fy mywyd ond byrr; a da fuasai gennyf,
+<lb/>pe buasai yn well. Yr wyf o<isp/>'m calon yn dymuno bod
+<lb/>yr hyn sydd yn ol o<isp/>'m bywyd yn fywyd newydd.
+<lb/>Yr wyf yn hiraethu am ymadael &acirc; phob arferion,
+<lb/>meddyliau, geiriau, a chymdeithion drwg; ac am
+<lb/>wneuthur pob peth y mae Duw yn ei orchymyn, a<isp/>'r
+<lb/>pethau yr ydych chwi yn ddywedyd sydd yn iawn,
+<lb/>a<isp/>'r pethau yr wyf yn ddarllen yn fy <orig reg="Meibl">Mibl</orig>. Ond y
+<lb/>mae arnaf ofn nad wyf yn gwneuthur hynny; y mae
+<lb/>fy nghalon mor llawn o bechod. Etto, er hyn, yr
+<lb/>wyf yn gwedd&iuml;o Duw am iddo fy <orig reg="nghynorthwyo">ngynnorthwyo</orig>. Ni
+<lb/>bydd fy nyddiau ond ychydig, a dymunwn eu treulio
+<lb/>er gogoniant i Dduw.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Bendith yr Arglwydd a fo gyda chwi, Jane, fel
+
+<pb n="31"/>
+<lb/><!--simple q-mark here -->pa un bynnag ai byw, y byddech fyw iddo ef; ai
+<lb/>marw, y byddech marw i<isp/>'r Arglwydd; ac felly pa un
+<lb/>bynnag ai byw ai marw y byddoch eiddo yr Arglwydd.
+<lb/>&mdash;Ond pa beth yw 'r trydydd peth?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;A oes ganddynt ffydd fywiol yn nhrugaredd Duw
+<lb/>trwy Grist.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ydych chwi yn credu bod Duw yn drugarog i
+<lb/>chwi, gan ei fod yn maddeu eich pechodau?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ydwyf, yn wir, Syr.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Wel, os yw yn maddeu i chwi, ai er eich mwyn
+<lb/>chwi y mae yn gwneuthur hyn?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Nage, nage, Syr; er mwyn Crist&mdash;er mwyn fy
+<lb/>Iachawdwr Iesu Grist&mdash;ac er ei fwyn ef yn unig&mdash;
+<lb/>Crist yw 'r cwbl.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;A ellwch chwi ymddiried ynddo ef?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr, ni ddylwn ei anghredu ef; ac ni wnawn pe
+<lb/>medrwn.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Gwir, fy anwylyd; y mae efe yn anfeidrol 
+<w>deil<lb rend="shy"/>wng</w> o<isp/>'n holl ymddiried ni.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yn nesaf, Syr, fe ddylai fod ynof ddiolchus g&ocirc;f
+<lb/>am ei angau ef. Ni fedraf un amser feddwl am ei
+<lb/>farwolaeth ef, heb ystyried hefyd pa fath adyn tlawd
+<lb/>ac annheilwng ydwyf fi&mdash;etto y mae efe mor dda i mi
+<lb/>&mdash;O na fedrwn ddiolch iddo!&mdash;Syr, mi fum yn 
+<w>dar<lb rend="shy"/>llen</w> am ei farwolaeth ef. Pa fodd y gallodd yr 
+<w>Iudd<lb rend="shy"/>ewon</w> wneuthur felly iddo ef&mdash;ond y cwbl oedd er ein
+<lb/>hiechydwriaeth ni. A<isp/>'r lleidr ar y groes, O mor felus
+<lb/>yw 'r hanes! Yr wyf yn gobeithio y cofia efe finnau
+<lb/>hefyd, ac y cofiaf innau am dano ef a<isp/>'i farwolaeth
+<lb/>byth, gyd &acirc;<isp/>'r diolchgarwch mwyaf.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ond, yn ddiweddaf, Jane, ydych chwi mewn
+<lb/>cariad perffaith &acirc; phob dyn? Ydych chwi yn maddeu
+<lb/>i bawb a wnaethant ddim yn eich erbyn? A oes c&acirc;s
+<lb/>neu ddigasedd yn eich calon i neb?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Anwyl Syr, nac oes. Pa fodd y gallaf fod felly,
+
+<pb n="32"/>
+<lb/>a Duw mor dda wrthyf fi? Os yw Duw mor dda
+<lb/>wrthyf fi&mdash;os yw ef yn maddeu i mi, pa fodd y gallaf
+<lb/>finnau lai na maddeu i eraill? Nid oes neb ar wyneb
+<lb/>y ddaear nad wyf yn dymuno yn dda iddo, er mwyn
+<lb/>Crist, a hyn o eigion fy nghalon.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Pa fodd yr y'ch yn teimlo tu ag at y merched
+<lb/>h&ycirc;f, anllad, a drygionus, sy<isp/>'n byw yn y t&ycirc; nesaf, y
+<lb/>rhai sydd yn eich gwatwor ac yn eich gwawdio o 
+<w>her<lb rend="shy"/>wydd</w> eich crefydd?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr, y peth gwaethaf yr wyf yn ddymuno iddynt
+<lb/>yw, i<isp/>'r Arglwydd roddi iddynt edifeirwch, a 
+<w>chyf<lb rend="shy"/>newid</w> eu calon, a maddeu eu holl bechodau. 
+<w>Madd<lb rend="shy"/>eued</w> ef iddynt, fel yr wyf finnau, &acirc;<isp/>'m holl enaid.&rdquo;</q>
+</p>
+<p>
+<lb/>Ar hyn hi a dawodd&mdash;a meddyliais nad oedd eisiau
+<lb/>gofyn dim yn rhagor; canys yr oedd hyn yn ddigon&mdash;
+<lb/>yr oedd fy enaid yn foddlon. Dywedais ynof fy hun,
+<lb/><q>&ldquo;Ai attebion a chrefydd plentyn yw hyn? O na bai
+<lb/>yr holl blant fel hon!&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Estynwch i mi 'r Llyfr yna, a<isp/>'r phiol a<isp/>'r ddysgl.
+<lb/>Fy anwyl gyfeillion, gyda bendith Duw, cymmeraf yn
+<lb/>awr gyda chwi y cymmun sanctaidd, er c&ocirc;f am 
+<w>farw<lb rend="shy"/>olaeth</w> ein Hiachawdwr a<isp/>'n Hachubwr Iesu Grist.&rdquo;</q>
+</p>
+<p>
+<lb/>Yr amser oedd felus a syml. Aethum trwy 'r 
+<w>gwas<lb rend="shy"/>anaeth</w>&mdash;yr oedd ymddangosiad yr eneth yn dangos
+<lb/>bod ei henaid yn profi dylanwadau cryfion. Yr oedd
+<lb/>dagrau a gwenau yn cydymddangos ar ei gruddiau.
+<lb/>Yr oedd i<isp/>'w weled ynddi ymroddiad a gobaith&mdash;<w>gos<lb rend="shy"/>tyngeiddrwydd</w> a ffydd&mdash;gwyldra plentyn a deall yr
+<lb/>oedrannus: diolchgarwch, tangnefedd, duwioldeb, ac
+<lb/>amynedd&mdash;y rhai hyn oll oeddynt i<isp/>'w gweled. 
+<w>Medd<lb rend="shy"/>yliais</w> fy mod yn eu gweled hwynt oll ynddi&mdash;ac nid
+<lb/>myfi yn unig&mdash;ydyw yn ormod dywedyd, bod 
+<w>cread<lb rend="shy"/>uriaid</w> eraill, uwch radd na myfi, y rhai ni allwn eu
+<lb/>gweled &acirc; llygaid y corph, yn dystion o<isp/>'r pethau hyn.
+<lb/>Ac os yw 'r ysprydion gwasanaethgar, sef yr angelion,
+
+<pb n="33"/>
+<lb/>yn esgyn ac yn disgyn, gan garrio 'r newyddion da
+<lb/>rhwng daear a nefoedd, meddyliwn iddynt wneuthur
+<lb/>hynny y tro hwn.
+</p>
+<p>
+<lb/>Ar ol darfod y gwasanaeth, dywedais,
+</p>
+<p>
+<lb/><q>&ldquo;Yn awr, fy anwylyd, yr ydych yn wir yn chwaer
+<lb/>yn eglwys Crist. Triged ei Yspryd a<isp/>'i fendith gyda
+<lb/>chwi&mdash;nerthed a lloned chwi!&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Y mae ei drugaredd ef tu ag attaf fi yn fawr, yn
+<lb/>fawr iawn&mdash;yn fwy nag y gallaf fi ddywedyd am dani
+<lb/>&mdash;Diolch i chwi am y tro hwn&mdash;yr oeddwn yn meddwl
+<lb/>fy mod yn rhy ieuangc&mdash;yr oedd yn edrych fel peth
+<lb/>rhy fawr i mi feddwl yn ei gylch&mdash;ond y mae 'n 
+<w>ddi<lb rend="shy"/>ogel</w> gennyf yn awr, fod yr Arglwydd yn dda i mi, ac
+<lb/>yr wyf yn gobeithio i minnau wneuthur yr hyn sydd
+<lb/>uniawn yn ei olwg.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Do, Jane; ac yr wyf yn hyderu eich bod wedi
+<lb/>eich selio gan yr Yspryd Gl&acirc;n hyd ddydd 
+<w>prynedig<lb rend="shy"/>aeth.&rdquo;</w></q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr, ni anghofiaf hyn byth.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Ac yr wyf yn meddwl ni wnaf innau.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Na minnau <orig reg="ychwaith">'chwaith</orig>,&rdquo;</q> ebe 'r hen wraig, <q>&ldquo;yn
+<lb/>ddiau yr oedd yr Arglwydd yn ein canol ni heddyw,
+<lb/>er nad oeddym ond tri wedi ymgynnull yn ei enw ef.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Syr,&rdquo;</q> ebe Jane, <q>&ldquo;fe fyddai yn dda iawn gennyf
+<lb/>os gwnewch siarad &acirc;&nbsp;<orig reg="fy mam">mam</orig> y tro nesaf. Ond y mae
+<lb/>hi yn cadw o<isp/>'ch ffordd chwi. Y mae gofid dibaid i mi
+<lb/>o<isp/>'i herwydd; canys y mae arnaf ofn nad yw hi yn
+<lb/>meddwl dim am ei henaid.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Gobeithio y c&acirc;f fi gyfleusdra i siarad &acirc; hi y tro
+<lb/>nesaf. Duw fo gyda chwi, fy anwylyd.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;A chyda chwithau, Syr; a diolch i chwi am eich
+<lb/>holl diriondeb tu ag attaf.&rdquo;</q>
+</p>
+<p>
+<lb/>Meddyliais, wrth ymadael, yn ddiau fe flodeua y
+<lb/>blaguryn hwn yn hardd ym mharadwys. Symmuded
+<lb/>yr Arglwydd hi yno yn ei amser da ei hun! Etto, os
+
+<pb n="34"/>
+<lb/>gwel ef yn dda, bydded iddi fyw ychydig yn h&wcirc;y, fel
+<lb/>y bo i mi gael ychwaneg o fudd a lles ysprydol trwy
+<lb/>ei hymddiddanion a<isp/>'i hesampl.
+</p>
+</div>
+
+<!--David's text ends here-->
+
+<div type="rhan" n="5">
+<head><lb/>RHAN V.</head>
+<p>
+<lb/><hi rend="smallcaps">Yr</hi> oedd dwy ffordd i fyned o<isp/>'m t&ycirc; i at d&ycirc; Jane;
+<lb/>un drwy y caeau, a<isp/>'r llall ydoedd y brif ffordd. Wrth
+<lb/>fyned ar hyd y ffordd yr oeddid yn dyfod i olwg y t&ycirc;
+<lb/>lle yr oedd Jane, ym mhell cyn dyfod atto; ac fel hyn
+<lb/>fe fyddai mam yr eneth yn fy ngweled yn dyfod ac yn
+<lb/>ffoi: ond wrth fyned ar hyd y llwybr trwy 'r caeau,
+<lb/>deuech at y t&ycirc; cyn y gallai neb yn t&ycirc; eich gweled.
+<lb/>Penderfynais fyned y tro hwn trwy 'r caeau; a 
+<w>daeth<lb rend="shy"/>um</w> at y t&ycirc; ac aethum i mewn, heb i neb o bobl y t&ycirc;
+<lb/>fy ngweled na <orig reg="fy nghlywed">nghlywed</orig>. Ar ol fyned i mewn, clywn
+<lb/>siarad ac ymddiddan yn llofft. Deallais mai Jane
+<lb/>oedd yn siarad &acirc;<isp/>'i mam; am hynny eisteddais i wrando
+<lb/>arnynt. Clywn hi yn dywedyd,
+</p>
+<p>
+<lb/><q>&ldquo;Mam! mam! nid oes gennyf fawr o amser i fyw.
+<lb/>Ni bydd fy amser i ond byrr iawn. Etto y mae 'n
+<lb/>rhaid i mi, yn wir, y mae 'n rhaid i mi ddywedyd
+<lb/>rhyw beth wrthych, cyn fy marw. O, mam! y mae
+<lb/>gennych enaid! y mae gennych enaid! A pha beth
+<lb/>a ddaw o<isp/>'r enaid yna, pan y byddoch farw? O, fy
+<lb/>mam! ni fedraf ddywedyd y gofid sydd i mi yn achos
+<lb/>eich henaid chwi &mdash;&mdash;&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O 'r anwyl! mi a gollaf fy mhlentyn&mdash;a pha beth
+<lb/>a wnaf, Jenny bach, pan <orig reg="boch">bo'ch</orig> chwi marw?&rdquo;</q> a hi a
+<lb/>dorrodd allan i wylo.
+</p>
+<p>
+<lb/><q>&ldquo;Mam, meddyliwch am eich henaid. Oni ddarfu
+<lb/>chwi esgeuluso hwnnw?&rdquo;</q>
+</p>
+
+<pb n="35"/>
+<p>
+<lb/><q>&ldquo;Do, <orig reg="fy merch">merch</orig> fach i; fe fum i yn ddrwg iawn, ac yn
+<lb/>cas&acirc;u pob peth da. Pa beth a wnaf?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Mam, rhaid i chwi wedd&iuml;o Duw am faddeuant,
+<lb/>er mwyn Crist. Y mae 'n rhaid i chwi wedd&iuml;o.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O, Jenny bach, ni fedraf i wedd&iuml;o; ni wedd&iuml;ais i
+<lb/>ddim erioed. Yr wyf yn rhy ddrwg i wedd&iuml;o.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Mam, yr oedd arnaf eisieu siarad &acirc; chwi er ystalm
+<lb/>am y peth hyn; ond yr oedd arnaf ofn gwneuthur
+<lb/>hynny. Nid oeddech yn caru nac yn ewyllysio clywed
+<lb/>dim gennyf am grefydd, ac yn wir ni wyddwn innau
+<lb/>pa fodd i ddechreu. Ond yn wir, mam, y mae yn
+<lb/>rhaid i mi siarad &acirc; chwi yn awr; ac onite, yr wyf yn
+<lb/>ofni y bydd hi yn rhy ddiweddar. O na buasai Mr. R.
+<lb/>yma; canys fe fuasai ef yn medru siarad &acirc; chwi yn
+<lb/>well nag y medraf i. Ond fe allai y meddyliwch am
+<lb/>y pethau yr wyf fi yn eu dywedyd yn o drwsgl, pan
+<lb/>y byddwyf farw. Nid wyf ond plentyn, ac am hynny
+<lb/>yn anghymmwys i lefaru wrth neb am bethau 
+<w>cref<lb rend="shy"/>yddol.</w> Ond, mam, yr ydych chwi yn perthyn mor
+<lb/>agos i mi, ac ni allaf oddef meddwl y collir chwi am
+<lb/>dragywyddoldeb. Dangosodd fy Nuw a<isp/>'m 
+<w>Hiach<lb rend="shy"/>awdwr</w> i mi fy mhechod a<isp/>'m llygredd&mdash;Efe a<isp/>'m carodd,
+<lb/>ac a<isp/>'i rhoddes ei hun droswyf&mdash;Efe a fu farw, ac a
+<lb/>gyfododd drachefn. O na allwn ei ganmol ef am hyn
+<lb/>byth ac yn dragywydd! Yr wyf yn disgwyl ei weled
+<lb/>ef yn y nef. Ond, O mam, y mae arnaf eisieu eich
+<lb/>gweled chwithau yno hefyd! Da mam, da mam,
+<lb/>gadewch heibio dyngu, ac arferion drwg. Ewch i<isp/>'r
+<lb/>eglwys, a gwrandewch ar y gweinidog yn llefaru am
+<lb/>Iesu Grist, a<isp/>'r hyn a wnaeth efe dros bechaduriaid.
+<lb/>Y mae efe yn ewyllysio yn dda i eneidiau. Efe a
+<lb/>ddysgodd i mi y ffordd, ac efe a<isp/>'i dysg i chwithau.
+<lb/>Paham yr oeddech yn wastad yn myned allan o<isp/>'r t&ycirc;
+<lb/>pan y gwyddech ei fod ef yn dyfod? Na ddigiwch,
+<lb/>mam; er eich lles yr wyf yn dywedyd y pethau hyn.
+
+<pb n="36"/>
+<lb/>Chwi a wyddoch fy mod i unwaith mor ddifeddwl am
+<lb/>bethau Duw ag yr ydych chwithau; ond gwelais fy
+<lb/>nghamsyniad. Yr oeddwn yn rhodio 'r ffordd lydan,
+<lb/>yr hon sydd yn arwain i ddistryw, fel llawer eraill o
+<lb/>blant y plwyf; ond edrychodd yr Arglwydd arnaf, a
+<lb/>thrugarhaodd wrthyf.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Oeddech, fy mhlentyn, yr oeddech chwi bob 
+<w>am<lb rend="shy"/>ser</w> yn eneth dda, ac yn caru eich llyfr.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Na, na mam; nid oeddwn felly bob amser: chwi
+<lb/>a wyddoch nad oeddwn yn meddwl dim am ddaioni,
+<lb/>nac am fy Mibl, hyd ddyfodiad y gweinidog yma i<isp/>'n
+<lb/>plwyf, yr hwn a<isp/>'n gwahoddodd i<isp/>'w d&ycirc; ar brydnawn
+<lb/>Sadyrnau. Onid y'ch yn cofio eich bod chwi yn 
+<w>an<lb rend="shy"/>foddlon</w> ar y cyntaf i mi <orig reg="fynd">fyn'd</orig> yno, ac i chwi ddywedyd
+<lb/>na fynnech y fath dduwioldeb o amgylch eich t&ycirc;; a
+<lb/>bod yn well gennych i mi chwarae yn yr heol a<isp/>'r caeau,
+<lb/>nag i mi gael fy ngwatwar a<isp/>'m gwawdio am gymmeryd
+<lb/>arnaf fod yn grefyddol? Ond, O mam! ni wyddoch
+<lb/>chwi i ba beth yr oeddwn yn myned yno, na pha beth
+<lb/>yr oedd Duw yn fwriadu wneuthur i<isp/>'m henaid tlawd ac
+<lb/>euog. Ond, diolch i Dduw, i mi fyned yno, a dysgu
+<lb/>yno ffordd yr iechydwriaeth. O na buasai chwithau,
+<lb/>mam, wedi dysgu 'r ffordd hon!&rdquo;</q>
+</p>
+<p>
+<lb/>Wrth wrando ar yr ymddiddan pwysfawr hwn, mi
+<lb/>a feddyliais, wrth swn a dull y wraig yn llefaru, bod
+<lb/>mwy o ofid iddi o achos afiechyd ei merch, nag o 
+<w>her<lb rend="shy"/>wydd</w> drwg gyflwr ei henaid. Etto, llawenychais wrth
+<lb/>glywed y fath gynghorion ffyddlon yn cael eu rhoddi
+<lb/>gan un mor ieuangc. Gwelais lawer tro wedi hyn, yr
+<lb/>annuwiol a<isp/>'r anystyriol, wrth welyau ceraint neu 
+<w>gyf<lb rend="shy"/>eillion,</w> yn tywallt dagrau yn helaeth, ac yn addunedu
+<lb/>diwygio; ond etto, fel y ci yn ymchwelyd at ei 
+<w>chwyd<lb rend="shy"/>iad.</w> Gwelais hefyd amgylchiadau fel hyn yn cael eu
+<lb/>bendithio, er ymchweliad eraill at Dduw.
+</p>
+<p>
+<lb/>Ar hyn agorwyd y drws gan frawd ieuangaf Jane,
+
+<pb n="37"/>
+<lb/>a gofynodd y wraig o<isp/>'r llofft, pwy oedd yno; ac 
+<w>atteb<lb rend="shy"/>odd</w> y bachgen: ac felly ni ddaeth i lawr y grisiau.
+<lb/>Gwneuthum amnaid ar y bachgen i eistedd; ac am
+<lb/>hynny ni wyddai y rhai oedd yn llofft fy mod i
+<lb/>yn t&ycirc;.
+</p>
+<p>
+<lb/><q>&ldquo;Mam,&rdquo;</q> ebe Jane, <q>&ldquo;fy mrawd yw hwna; ac efe
+<lb/>cyn pen ychydig fydd eich unig blentyn chwi. Da,
+<lb/>mam bach, annogwch ef i ddilyn yr hyn sydd dda.
+<lb/>Danfonwch ef at <sic>Mr,</sic> R&mdash;&mdash;, ac efe a fydd yn dda
+<lb/>wrtho, fel y bu wrthyf innau. Y mae efe yn fachgen
+<lb/>gwyllt; ond gobeithio y dyger ef i feddwl am ei enaid.
+<lb/>Dysgodd y plant annuwiol a drwg yna ef i dyngu ac
+<lb/>i ymladd, ac i redeg i bob drwg. Cynnorthwyed yr
+<lb/>Arglwydd ef i ffoi rhag y llid a fydd.&rdquo;</q>
+</p>
+<p>
+<lb/>Gwnes<!--reg?--> amnaid ar y bachgen i wrando ar hyn; ac
+<lb/>yr oedd yn ymddangos, fel pe buasai yn gwrando yn
+<lb/>astud; canys yr oedd y dagrau yn treiglo dros ei
+<lb/>ruddiau.
+</p>
+<p>
+<lb/><q>&ldquo;I&euml;, Jenny bach, gobeithio y bydd iddo ef a 
+<w>min<lb rend="shy"/>nau</w> ffoi rhag y llid hwnnw.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Mam, os felly, y mae 'n rhaid i chwi ffoi at Grist.
+<lb/>Ni all neb, na dim a<isp/>'r a wneloch chwi, heb hyn, eich
+<lb/>hachub. Y mae 'n rhaid i chwi edifarhau a throi
+<lb/>oddiwrth bechod&mdash;heb ras Duw ni ellwch wneuthur
+<lb/>hyn&mdash;ond ceisiwch a chwi a gewch&mdash;gwnewch hyn
+<lb/>er eich lles eich hun, er fy mwyn i, ac er mwyn fy
+<lb/>mrawd bach.&rdquo;</q>
+</p>
+<p>
+<lb/>Torrodd y wraig allan i wylo, ac ni allodd atteb&mdash;
+<lb/>a meddyliais ei bod yn amser i minnau ymddangos.
+<lb/>Aethum at droed y grisiau, a gofynais, <q>&ldquo;A gaiff
+<lb/>cyfaill ddyfod i fynu?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Trugaredd i mi!&rdquo;</q> ebe 'r wraig, <q>&ldquo;dyma Mr. R&mdash;.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Dowch i fynu, Syr,&rdquo;</q> ebe Jane, <q>&ldquo;y mae 'n dda
+<lb/>iawn gennyf eich bod yma yn awr. Mam, estynwch
+<lb/>gadair.&rdquo;</q>
+</p>
+
+<pb n="38"/>
+<p>
+<lb/>Yr oedd y wraig yn edrych yn euog; ond Jane 
+<w>yd<lb rend="shy"/>oedd</w> yn gwenu.
+</p>
+<p>
+<lb/><q>&ldquo;Gobeithio,&rdquo;</q> ebe fi, <q>&ldquo;y maddeu y fam a<isp/>'r ferch i
+<lb/>mi, am aros cyhyd i lawr y grisiau i wrando yr 
+<w>ym<lb rend="shy"/>ddiddan</w> pwysfawr a fu rhyngoch. Yr oeddwn yn
+<lb/>dyfod heddyw dan obeithio eich cael ynghyd; canys
+<lb/>yr oedd arnaf er ys tro eisieu cyfleustra i siarad &acirc;
+<lb/>chwi, Sarah, am y pethau y bu eich merch yn siarad
+<lb/>&acirc; chwi yn eu cylch. Esgeulusasoch y pethau hyn
+<lb/>dros hir amser bellach; ac yr oedd arnaf eisieu cael
+<lb/>rhyw gyfleustra i<isp/>'ch rhybuddio ac i ddywedyd wrthych
+<lb/>am y perygl yr ydych ynddo&mdash;ond dywedodd Jane
+<lb/>wrthych yr holl bethau yr oeddwn innau yn meddwl
+<lb/>eu dywedyd&mdash;yn awr, gan hynny, yr wyf yn gofyn i
+<lb/>chwi, yn y modd mwyaf difrif, a yw y pethau 
+<w>pwys<lb rend="shy"/>fawr</w> a ffyddlon a ddywedodd eich merch wrthych,
+<lb/>ddim wedi eich deffroi i feddwl am eich henaid? Chwi
+<lb/>a ddylasai fod yn ei hyfforddi hi yn llwybrau 
+<w>cyfiawn<lb rend="shy"/>der;</w> ond yn lle hynny, wele, hi yn eich dysgu chwi.
+<lb/>Gwyn eich byd chwi, pa fodd bynnag, os byddwch
+<lb/>ddoeth, ac ystyried eich diwedd, a<isp/>'r pethau sydd yn
+<lb/>perthyn i<isp/>'ch heddwch, cyn y byddont yn guddiedig
+<lb/>oddiwrth eich llygaid! Edrychwch ar eich geneth,
+<lb/>yr hon sydd yn nyffryn cysgod angeu&mdash;a meddyliwch
+<lb/>am eich mab hefyd, eich unig blentyn agos, a 
+<w>dywed<lb rend="shy"/>wch,</w> onid yw hyn yn galw yn uchel arnoch i wrando
+<lb/>ac ofni?&rdquo;</q>
+</p>
+<p>
+<lb/>Yr oedd llygaid Jane yn llawn o ddagrau tra yr
+<lb/>oeddwn yn llefaru; ond daliodd y wraig ei phen i
+<lb/>lawr, ond er hynny dangosodd arwyddion o 
+<w>anfodd<lb rend="shy"/>lonrwydd</w> i<isp/>'r dull ffyddlon hwn o ymddiddan &acirc; hi.
+</p>
+<p>
+<lb/>Dywedais wrth Jane, <q>&ldquo;Fy anwylyd, pa sut yr 
+<w>yd<lb rend="shy"/>ych</w> chwi heddyw?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Siaradais lawer, Syr; ac am hynny yr wyf yn
+<lb/>teimlo fy hun yn o lesg a blinedig: ond fe fu fy
+
+<pb n="39"/>
+<lb/>meddwl yn bur gysurus er pan welais chwi ddiweddaf.
+<lb/>Yr wyf yn hollol ewyllysgar i farw, pan welo Duw yn
+<lb/>dda. Nid oes gennyf ond un peth y dymunwn fyw o<isp/>'i
+<lb/>herwydd, a hynny yw, gweled fy ngheraint a<isp/>'m 
+<w>cyf<lb rend="shy"/>eillion</w> mewn gwell cyflwr cyn fy ymadawiad. Byddai
+<lb/>arnaf ofn ymddiddan &acirc; hwynt am y pethau hyn; ond
+<lb/>heddyw yr wyf wedi cael yspryd arall, ac nid allaf
+<lb/>ymattal rhag eu cynghori, a dywedyd wrthynt am yr
+<lb/>hyn a wnaeth yr Arglwydd i<isp/>'m henaid, a pha fodd yr
+<lb/>wyf yn teimlo yn eu hachos hwy.&rdquo;</q>
+</p>
+<p>
+<lb/>Yr oedd y fath gadernid a godidawgrwydd yn ei
+<lb/>hymadrodd y tro hwn, nes yr oeddwn yn gorfod 
+<w>rhy<lb rend="shy"/>feddu.</w> Yr oedd y plentyn megis wedi ei lyngcu i
+<lb/>fynu gan y Cristion. Yr oedd ei gwyldra naturiol
+<lb/>wedi rhoddi lle i hyfdra sanctaidd, yn tarddu oddi ar
+<lb/>ei chysuron ysprydol, a<isp/>'i dymuniadau gwresog i
+<lb/>wneuthur daioni i<isp/>'w mam. Hyn a barodd wrid yn ei
+<lb/>hwyneb gwelwlas, yr hyn a wnaeth yr olwg arni yn
+<lb/>hynod ddymunol. Yr oedd y Bibl yn agored o<isp/>'i
+<lb/>blaen, fel yr oedd yn eistedd yn y gwely; a hi a 
+<w>gyd<lb rend="shy"/>iodd</w> yn llaw ei mam &acirc;<isp/>'i llaw ddehau, ac a ddywedodd
+<lb/>wrthi,
+</p>
+<p>
+<lb/><q>&ldquo;Mam, ni fedrwch chwi ddarllen y llyfr hwn; fe
+<lb/>ddylech am hynny fyned bob tro i<isp/>'r Eglwys i glywed
+<lb/>ei eglurhau. Llyfr Duw yw hwn; ac y mae yn 
+<w>myn<lb rend="shy"/>egu</w> i ni y ffordd i<isp/>'r nefoedd&mdash;gobeithio y dysgwch ac
+<lb/>y cedwch ef, a than fendith Duw efe a geidw eich 
+<w>en<lb rend="shy"/>aid.</w> Meddyliwch am hyn, mam; da mam, 
+<w>meddyl<lb rend="shy"/>iwch</w> am hyn. Yr wyf fi ym min marwolaeth.
+<lb/>Rhowch y Bibl hwn i<isp/>'m brawd bach&mdash;ac a fyddwch
+<lb/>chwithau cystal a<isp/>'i addysgu ef, Syr. Mam, cofiwch
+<lb/>yr hyn yr wyf yn ei ddywedyd; ac y mae y gwr 
+<w>bon<lb rend="shy"/>heddig</w> yma yn dyst. Nid oes iechydwriaeth i<isp/>'r fath
+<lb/>bechaduriaid a chwi a finnau, ond <orig reg="yng ngwaed">y'ngwaed</orig> Crist.
+<lb/>Efe a ddichon achub hyd yr eithaf. Efe a achub bob
+
+<pb n="40"/>
+<lb/>un a ddaw atto. Y mae yn disgwyl i drugarhau.
+<lb/>Bwriwch eich hun ar ei drugaredd ef. O! yr wyf yn
+<lb/>ewyllysio<isp/>--<isp/>yr wyf yn dymuno<isp/>--<isp/>yr wyf<isp/>--<isp/>yr wyf<isp/>--<isp/>yr&mdash;&rdquo;</q>
+</p>
+<p>
+<lb/>Methodd a gorphen yr hyn a ddechreuodd; canys
+<lb/>llewygodd. Dywedodd ei mam, y byddai hi gryn 
+<w>am<lb rend="shy"/>ser</w> cyn dadebru.
+</p>
+<p>
+<lb/>Dywedais amryw o bethau wrth Sarah; ac yna
+<lb/>aethum i fyned ymaith. Ond fel yr oeddwn yn gadael
+<lb/>y llofft, dywedodd Jane, mewn llais distaw,
+</p>
+<p>
+<lb/><q>&ldquo;Dowch toc etto, Syr; nid oes i mi ond ychydig
+<lb/>amser yn h&wcirc;y.&rdquo;</q>
+</p>
+<p>
+<lb/>Aethum adref ar hyd yr un llwybr ag y daethum,
+<lb/>dan fyfyrio ar y nodau eglur o dduwioldeb a ffydd a
+<lb/>welswn yn yr eneth ieuangc hon.
+</p>
+<p>
+<lb/>Yn ddiau, ebe fi, plentyn anghyffredin yw 'r eneth
+<lb/>hon. Beth ni all gras ei wneuthur? A ellir ammeu,
+<lb/>ar ol hyn, pwy yw awdwr a pherffeithydd ein 
+<w>hiech<lb rend="shy"/>ydwriaeth</w> ni? neu oddiwrth bwy y mae pob rhoddiad
+<lb/>daionus, a phob rhodd berffaith, yn dyfod? Mor
+<lb/>llawn, mor rhad yw trugaredd yr Arglwydd! Oni
+<lb/>ddewisodd Duw wan bethau 'r byd, fel y 
+<w>gwarad<lb rend="shy"/>wyddai</w> y pethau cedyrn? Na orfoledded un cnawd
+<lb/>ger ei fron ef; <quote>&ldquo;ond yr hwn sydd yn ymffrostio, 
+<w>ym<lb rend="shy"/>ffrostied</w> yn yr Arglwydd.&rdquo;</quote>
+</p>
+</div>
+
+<div type="rhan" n="6">
+<head><lb/>RHAN VI.</head>
+<p>
+<lb/><hi rend="smallcaps">Yn</hi> bur fore dranoeth deffrowyd fi cyn ei dyddhau
+<lb/>gan gennad a yrrasid i<isp/>'m galw at Jane; canys yr oedd
+<lb/>hi yn marw. Pan ddaethum i<isp/>'w th&ycirc;, ni chefais neb ar
+<lb/>lawr. Arosais ychydig heb fyned i<isp/>'r llofft, a chlywn
+<lb/>Jane yn gofyn yn ddistaw, mewn llais gwanllyd,
+</p>
+
+<pb n="41"/>
+<p>
+<lb/><q>&ldquo;Ydych chwi yn meddwl y daw o? O fe fyddai
+<lb/>yn dda iawn gennyf&mdash;yn dda iawn gennyf ei weled ef
+<lb/>cyn fy marw!&rdquo;</q>
+</p>
+<p>
+<lb/>Aethum ar hyn i fynu 'r grisiau, a chefais yno yng
+<lb/>nghyd ei thad a<isp/>'i mam, ei brawd bach a<isp/>'r hen wraig
+<lb/>y soniwyd eisoes am dani. Gwelais bod angeu yn
+<lb/>bur agos: etto, er mor agos ydoedd angeu, yr oedd
+<lb/>rhyw <orig reg="serchowgrwydd">serchawgrwydd</orig> rhyfedd i<isp/>'w ganfod yn ei 
+<w>hwyn<lb rend="shy"/>ebpryd.</w> Pan y gwelodd fi, adfywiodd ychydig; ac
+<lb/>ymddangosodd cariad a diolchgarwch yn sirioldeb ei
+<lb/>golygon. Buasai yn siarad ychydig cyn i mi ddyfod
+<lb/>i<isp/>'r llofft, am hynny bu yn ddistaw tros dro; ond ni
+<lb/>thynnodd ei golwg oddi arnaf yr holl amser. Yr oedd
+<lb/>y fath sirioldeb a bywiogrwydd yn ei hwynebpryd&mdash;
+<lb/>&iuml;e, yr oedd rhywbeth mwy na hyn&mdash;rhywbeth fel
+<lb/>blaen-brawf o<isp/>'r nefoedd; ac yr oedd hyn yn peri iddi
+<lb/>edrych yn angeu yn neillduol brydferth.
+</p>
+<p>
+<lb/>O<isp/>'r diwedd hi a ddywedodd, <q>&ldquo;O! Syr, y mae hyn
+<lb/>yn dirion iawn&mdash;yr wyf fi yn <orig reg="mynd">myn'd</orig> yn gyflym iawn
+<lb/>&mdash;yr oedd arnaf ofn na chawswn eich gweled mwy yn
+<lb/>y byd hwn.&rdquo;</q>
+</p>
+<p>
+<lb/>Dywedais, <q>&ldquo;Fy anwylyd, ydych chwi yn foddlon
+<lb/>i farw?&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O! yn hollol.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Y'mhle y mae eich gobaith chwi?&rdquo;</q>
+</p>
+<p>
+<lb/>Hi a gododd ei bys ac a<isp/>'i estynodd tu a<isp/>'r nefoedd,
+<lb/>ac wedi'n hi a<isp/>'i gosododd ar ei chalon, gan 
+<w>ddy<lb rend="shy"/>wedyd,</w>&nbsp;<q>&ldquo;Crist <hi rend="italic">accw</hi>, a Christ <hi rend="italic">yma</hi>.&rdquo;</q>
+</p>
+<p>
+<lb/>Nid ellir cyfleu mewn geiriau yspryd y weithred
+<lb/>a<isp/>'r ymadrodd hwn.
+</p>
+<p>
+<lb/>Yna cymmerwyd hi gan ddirdyniad <hi rend="italic">(spasm)</hi>&mdash;yn
+<lb/>edrych ar ei mam yn wylo, dywedodd, <q>&ldquo;Yr wyf yn
+<lb/>bur oer&mdash;ond nid yw o fawr bwys&mdash;fe fydd y cwbl ar
+<lb/>ben yn fuan&mdash;&rdquo;</q>
+</p>
+<p>
+<lb/>Cauodd ei llygaid dros fynyd, ac, wrth eu hagoryd,
+
+<pb n="42"/>
+<lb/>dywedodd wrthyf, <q>&ldquo;Yr wyf yn dymuno arnoch chwi,
+<lb/>Syr, ar ol fy marwolaeth, i ddywedyd wrth holl blant
+<lb/>y plwyf, mor dda fu 'r Arglwydd i mi, bechadur
+<lb/>tlawd&mdash;dywedwch wrthynt, y bydd i<isp/>'r sawl a<isp/>'i 
+<w>ceis<lb rend="shy"/>iant</w> yn foreu ei gael&mdash;dywedwch wrthynt, mai ffyrdd
+<lb/>uffern a dinystr yw ffyrdd anwybodaeth a phechod&mdash;
+<lb/>a da chwi, dywedwch wrthynt, oddiwrthyf fi, mai
+<lb/>Crist yw 'r ffordd, a<isp/>'r gwirionedd, a<isp/>'r bywyd&mdash;
+<w>dywed<lb rend="shy"/>wch,</w> na fwrw efe allan, mewn un modd, neb a ddel
+<lb/>atto&mdash;dywedwch wrthynt, fy mod i, eneth dlawd&mdash;&rdquo;</q>
+</p>
+<p>
+<lb/>Ar hyn hi a aeth megis mewn llesmair; ond daeth
+<lb/>atti ei hun yn lled fuan, a dywedodd,
+</p>
+<p>
+<lb/><q>&ldquo;Y'mhle 'rwyf fi? meddyliais fy mod yn myned&mdash;
+<lb/>Arglwydd, cadw fi!&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Fy anwylyd, chwi a fyddwch cyn pen ychydig,
+<lb/>dros byth yn ei freichiau ef, yr hwn sydd yn awr &acirc;<isp/>'i
+<lb/>w&iuml;alen a<isp/>'i ffon yn eich arwain trwy ddyffryn cysgod
+<lb/>angeu.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Yr wyf yn credu hynny, yn wir, yr wyf,&rdquo;</q> ebe hi;
+<lb/><q>&ldquo;yr wyf yn hiraethu am fod gyd &acirc;g ef. O, mor dda!
+<lb/>O, mor fawr! O, mor drugarog!&mdash;Iesu, achub fi!&mdash;
+<lb/>cymmorth fi trwy y cyfyngder olaf hyn!&rdquo;</q>
+</p>
+<p>
+<lb/>Yna hi a roddodd un llaw i<isp/>'w thad, a<isp/>'r llall i<isp/>'w
+<lb/>mam, ac a ddywedodd, <q>&ldquo;Duw a<isp/>'ch bendithio chwi&mdash;
+<lb/>Duw a<isp/>'ch bendithio&mdash;ceisiwch yr Arglwydd&mdash;
+<w>medd<lb rend="shy"/>yliwch</w> am danaf ar ol fy marwolaeth&mdash;fe allai y bydd
+<lb/>er lles i chwi&mdash;cofiwch am eich eneidiau&mdash;O! er
+<lb/>mwyn Crist, cofiwch am eich eneidiau&mdash;yna fe fydd
+<lb/>pob peth yn dda&mdash;ni ellwch feddwl na dirnad faint a
+<lb/>oddefais yn eich achos chwi i<isp/>'ch dau&mdash;O, Arglwydd,
+<lb/>maddeu bechodau, ac achub fy nhad a<isp/>'m mam!&rdquo;</q>
+</p>
+<p>
+<lb/>Yna hi a gydiodd yn llaw ei brawd, ac a 
+<w>ddywed<lb rend="shy"/>odd,</w>&nbsp;<q>&ldquo;Thomas bach, yr wyf yn erfyn arnoch adael
+<lb/>heibio eich arferion drwg&mdash;darllenwch eich Bibl&mdash;yr
+<lb/>wyf yn rhoddi fy Mibl innau i chwi&mdash;cefais ef yn llyfr
+
+<pb n="43"/>
+<lb/>gwerthfawr&mdash;ydych chwi yn cofio ein brawd bach a
+<lb/>fu farw er's tro yn ol&mdash;yr oedd ef yn gwedd&iuml;o hyd y
+<lb/>mynydau olaf o<isp/>'i fywyd&mdash;dysgwch wedd&iuml;o tra yr 
+<w>yd<lb rend="shy"/>ych</w> yn iach, a chwi a gewch brofi ei lles pan ddeloch
+<lb/>i farw&mdash;ond, yn gyntaf, gwedd&iuml;wch am galon newydd
+<lb/>&mdash;heb hyn ni chewch byth weled Duw&mdash;y mae eich
+<lb/>arferion presennol yn arwain i ddistryw a thrueni&mdash;
+<lb/>rhodded yr Arglwydd i chwi droedigaeth, i<isp/>'w garu
+<lb/>a<isp/>'i ddilyn ef.&rdquo;</q>
+</p>
+<p>
+<lb/>Wrth yr hen wraig, hi a ddywedodd, <q>&ldquo;Yr wyf yn
+<lb/>diolch i chwi, modryb K&mdash;&mdash; bach, am eich holl 
+<w>dir<lb rend="shy"/>iondeb</w> tu ag attaf, er pan wyf yn s&acirc;l&mdash;chwi a fuoch
+<lb/>yn gyfaill Crist'nogol i mi&mdash;ac yr wyf yn gobeithio y
+<lb/>cofio 'r Arglwydd chwi am hynny, yn ol cyfoeth ei
+<lb/>drugaredd&mdash;ymddiddanasom lawer am farw; ac er
+<lb/>mai fi yw 'r ieuangaf, etto myfi sydd yn cael ei galw
+<lb/>gyntaf&mdash;ond, bendigedig fyddo Duw, nid oes arnaf
+<lb/>ofn. Meddyliais lawer o weithiau na allwn farw yn
+<lb/>ddiofn; ond yn wir yr wyf yn teimlo fy hun yn hollol
+<lb/>gysurus, er fy mod yn awr yn safn marwolaeth; ac
+<lb/>felly y byddwch chwithau, os ymddiriedwch ynddo ef
+<lb/>&mdash;y mae efe yn Dduw i<isp/>'r hen yn gystal a<isp/>'r ieuangc.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;O, fy mhlentyn anwyl!</q> (ebe<isp/>'r hen wraig) <q>da 
+<w>fu<lb rend="shy"/>asai</w> gennyf pe buaswn mor barod a chymmwys i farw
+<lb/>ag ydych chwi; ond y mae arnaf ofn na byddaf byth
+<lb/>felly&mdash;y mae fy mhechodau yn fawrion ac aml iawn.&rdquo;</q>
+</p>
+<p>
+<lb/><q>&ldquo;Y mae gwaed Iesu Grist ei Fab ef yn glanhau
+<lb/>oddiwrth bob pechod,&rdquo;</q> ebe 'r plentyn.
+</p>
+<p>
+<lb/>Ar hyn, yn lle gwanhau wrth ymddiddan, 
+<w>ym<lb rend="shy"/>ddangosodd</w> fel pe <sic>puasai</sic> yn cryfhau ac adfywio, a hi
+<lb/>a drodd tu ag attaf, gan ddywedyd,
+</p>
+<p>
+<lb/><q>&ldquo;Syr, chwi fu 'r cyfaill goreu i mi ar y ddaear&mdash;
+<lb/>dysgasoch i mi 'r ffordd i<isp/>'r nef; yr wyf am hynny yn
+<lb/>eich caru, ac yn diolch i chwi&mdash;fe ddarfu 'ch 
+<w>gyd<lb rend="shy"/>ymddwyn</w>&nbsp;&acirc;&nbsp;<sic>lawer</sic> o ffaeleddau ac anwybodaeth ynof&mdash;
+
+<pb n="44"/>
+<lb/>a dywedasoch lawer wrthyf am gariad Crist, ac efe a
+<lb/>barodd <orig reg="im">i'm</orig> ei brofi yn dywalltedig yn fy nghalon&mdash;mi
+<lb/>g&acirc;f ei weled wyneb yn wyneb&mdash;ni wna efe fy ngadael
+<lb/>na<isp/>'m rhoddi i fynu&mdash;y mae efe yr un, ac nid yw yn
+<lb/>cyfnewid. Anwyl Syr, Duw a<isp/>'ch bendithio.&rdquo;</q>
+</p>
+<p>
+<lb/>Ar hyn hi a gododd yn ei eistedd yn y gwely, a
+<lb/>chyd &acirc;g ymdrechiad annisgwiliadwy, hi a daflodd ei
+<lb/>breichiau teneuon o<isp/>'m hamgylch fel yr oeddwn yn
+<lb/>eistedd ar ochr y gwely, a rhoddodd ei phen ar fy 
+<w>ys<lb rend="shy"/>gwydd,</w> a dywedodd, yn glywedig a dealladwy,
+</p>
+<p>
+<lb/><q>&ldquo;Duw a<isp/>'ch bendithio, ac a<isp/>'ch gwobrwyo&mdash;
+<w>diolch<lb rend="shy"/>wch</w> iddo droswyf&mdash;achubwyd fy enaid&mdash;Crist sydd
+<lb/>bob peth i mi&mdash;Syr, ni a gyfarfyddwn etto yn y nef,
+<lb/>oni wnawn ni&mdash;gwnawn, gwnawn&mdash;yna y cwbl fydd
+<lb/>heddwch&mdash;heddwch&mdash;heddwch&mdash;&mdash;&rdquo;</q>
+</p>
+<p>
+<lb/>Wedi hyn, syrthiodd yn ol ar y gwely, ac ni
+<lb/>ddywedodd air mwy&mdash;ucheneidiodd, gwenodd, a 
+<w>di<lb rend="shy"/>ffoddodd.</w>
+</p>
+<p>
+<lb/>Ar hyn ymddangosodd yr haul uwch ei gaerau, a
+<lb/>llewyrchodd i mewn i<isp/>'r ystafell lle yr oeddwn, a 
+<w>phar<lb rend="shy"/>odd</w> hyn i mi feddwl am <quote>&ldquo;diriondeb trugaredd ein
+<lb/>Duw, trwy 'r hon yr ymwelodd &acirc; ni godiad haul o<isp/>'r
+<lb/>uchelder, i lewyrchu i<isp/>'r rhai sydd yn eistedd ym mro
+<lb/>a chysgod angeu, i gyfeirio ein traed i ffordd 
+<w>tang<lb rend="shy"/>nefedd.&rdquo;</w></quote> Rhedodd fy meddwl oddiwrth yr 
+<w>amgylch<lb rend="shy"/>iad</w> hwn ar y cyfnewidiad gogoneddus yr oedd Jane, ar
+<lb/>darawiad amrant, wedi ei brofi. Meddyliais hefyd y
+<lb/>gallasai y pelyderau hyn arwyddo y gobaith cysurus
+<lb/>tywalltedig ar feddyliau tystion ei hymadawiad. Yr
+<lb/>oedd yr amgylchiad yn tarddu oddi ar achos naturiol,
+<lb/>ond yr oedd yn arwain fy meddyliau yn 
+<w>anwrthwyn<lb rend="shy"/>ebol</w> at bethau ysprydol.
+</p>
+<p>
+<lb/>B&ucirc;m am dro yn syllu mewn distawrwydd ar y corph
+<lb/>marw, ac o<isp/>'r braidd yr oeddwn yn gallu credu nad
+<lb/>oedd Jane yma mwy.
+</p>
+
+<pb n="45"/>
+<p>
+<lb/>Wrth fyned adref ni fedrais attal gweithrediadau
+<lb/>cryfion fy serchiadau ar yr achos: ac yn wir ni 
+<w>cheis<lb rend="shy"/>iais.</w> Canys bernais bod crefydd, rheswm, a phrofiad
+<lb/>yn cyttuno i<isp/>'n hannog, yn hytrach na pheidio, i roddi
+<lb/>ufudd-dod i<isp/>'r cyfryw dyner gyffroadau ag sydd yn 
+<w>tu<lb rend="shy"/>eddu</w> i gadw y galon yn fyw i<isp/>'w deimladau buddiolaf.
+<lb/>Gwneuthur yn y gwrthwyneb nid yw ond tueddu i
+<lb/>galedu 'r galon, ac i gloi 'r pyrth sydd yn arwain at
+<lb/>wreiddyn egwyddorion goreu ein holl weithrediadau.
+</p>
+<p>
+<lb/>Ein Harglwydd bendigedig ei hun a wylodd wrth
+<lb/>rag-weled gofidiau Jerusalem. Tywalltodd ddagrau
+<lb/>hefyd wrth fedd ei gyfaill Lazarus. Y mae 'r cyfryw
+<lb/>esampl yn cyfiawnhau dagrau cariad, ac yn ein dysgu
+<lb/>i <quote>&ldquo;beidio a thrist&acirc;u fel rhai heb obaith am y rhai a
+<lb/>hunasant ynddo ef.&rdquo;</quote>
+</p>
+<p>
+<lb/>Ond buan yr arweiniwyd fy meddwl i fyfyrio ar y
+<lb/>peth dirgelaidd hwnnw, sef ehediad enaid o<isp/>'r byd
+<lb/>hwn i fyd yr ysprydoedd.
+</p>
+<p>
+<lb/><q part="i">&ldquo;Cyflymach,&rdquo;</q> meddyliais, <q>&ldquo;nac ehediad y saeth
+<lb/>o<isp/>'r bwa, na rhediad y goleuni o<isp/>'r haul, fu mynediad
+<lb/>enaid yr enethig hon, mewn ufudd-dod i w&ycirc;s a 
+<w>gor<lb rend="shy"/>chymyn</w> ei Harglwydd, o<isp/>'r byd hwn i<isp/>'w bresennoldeb
+<lb/>goleuwych ef. O! wirionedd teilwng o<isp/>'n 
+<w>hystyr<lb rend="shy"/>iaethau</w> difrifolaf! Ond, <quote>&lsquo;wedi ei golchi yng ngwaed
+<lb/>yr Oen,&rsquo;</quote> ac wedi profi ei effeithiau glanhaol ef, cafodd
+<lb/>dderbyniad croesawus ger bron gorseddfaingc Duw.
+<lb/>Nid oedd iddi ddim i<isp/>'w ofni oddiwrth ddwyfol 
+<w>gyf<lb rend="shy"/>iawnder.</w> Yr oedd pechod, angeu, ac uffern wedi eu
+<lb/>gorchfygu ganddo Ef yr hwn a<isp/>'i gwnaeth hi yn fwy
+<lb/>na choncwerwr. Cyflwyna ef hi i<isp/>'w Dad fel un o<isp/>'r
+<lb/>&wcirc;yn a bwrcasodd efe &acirc;<isp/>'i br&iuml;od waed&mdash;fel un a seliwyd
+<lb/>gan Yspryd Dduw hyd ddydd prynedigaeth.</q>
+</p>
+<!-- q continues-->
+<p>
+<lb/><q part="m">&ldquo;O, pa fath gyfnewidiad oedd hwn iddi hi! o 
+<w>ys<lb rend="shy"/>tafell</w> wael, dyllog, i baradwys Duw! o wely gwellt i
+<lb/>fynwes Abraham! o dlodi, afiechyd, a gofid, i <w>gyf<pb rend="shy" n="46"/><lb/>oeth,</w> iechyd, a dedwyddwch tragywyddol! o fod yn
+<lb/>bererin llesg a blinedig, i fod yn ddedwydd ar ben y
+<lb/>daith, yn yr orphwysfa nefol yr hon sydd etto yn ol i
+<lb/>bobl Dduw!</q>
+</p>
+<p>
+<lb/><q part="f">&ldquo;Collais i ddisgybles ieuangc, yr hon yr oeddwn
+<lb/>yn ei charu fel fy mhlentyn. Ond pa fodd y gallaf
+<lb/>ddywedyd yn achwyngar golli yr hon a gafwyd gan
+<lb/>Dduw? Y mae 'n wir nid yw Jane yma mwy yn ceisio
+<lb/>nac yn rhoddi hyfforddiad nac addysg; ond y mae hi
+<lb/>ynghylch pethau llawer gwell. Y mae 'r angelion, y
+<lb/>rhai a lawenychasant ar ei throedigaeth cyntaf at
+<lb/>Dduw, y rhai a sylwasant gyda hyfrydwch ar ei 
+<w>chyn<lb rend="shy"/>nyddiad</w> ysprydol yn ysdod ferr ei phererindod, a<isp/>'r
+<lb/>rhai a<isp/>'i dygasant yn orfoleddus i fynwes Abraham,
+<lb/>wedi ei dysgu cyn hyn,
+<!-- poem-->
+
+<lg rend="centred">
+<lb/><l>Mewn cl&ocirc;d, a mawl, a pheraidd g&acirc;n,</l>
+<lb/><l>I uno &acirc;<isp/>'r ysprydion gl&acirc;n.</l>
+</lg>
+
+<lb/>Paham gan hynny y galaraf? Ni welaf yn perthyn
+<lb/>iddi hi ond llawenydd ac anfarwoldeb. <quote>&lsquo;Angeu a
+<lb/>lyngcwyd mewn buddugoliaeth!&rsquo;</quote>&rdquo;</q>
+</p>
+<p>
+<lb/>Ar y pedwerydd dydd ar ol ei marwolaeth, 
+<w>cladd<lb rend="shy"/>wyd</w> Jane. Nid oeddwn erioed o<isp/>'r blaen wedi rhoddi
+<lb/>neb o<isp/>'m plwyfolion i<isp/>'r ddaear gyd &acirc;<isp/>'r cyffelyb 
+<w>serch<lb rend="shy"/>iadau.</w> Ychydig oedd nifer y bobl yn ei 
+<w>chladdedig<lb rend="shy"/>aeth;</w> ond da oedd gennyf i weled ym mhlith yr 
+<w>ych<lb rend="shy"/>ydig</w> hyn, rai o<isp/>'r plant a arferent gyd-gyrchu &acirc; Jane
+<lb/>i<isp/>'m t&ycirc; prydnawn Sadyrnau. Dymunais am fendith
+<lb/>Duw ar y tro, er lles a buddioldeb ysprydol y rhai
+<lb/>ieuaingc hyn.
+</p>
+<p>
+<lb/>Fel yr oeddwn yn sefyll wrth ben ei bedd, daeth
+<lb/>llawer o<isp/>'r pethau a ddigwyddasant yn y fynwent honno
+<lb/>i<isp/>'m c&ocirc;f. Cofiais, mai yma y gwelodd Jane gyntaf
+<lb/>werth yr efengyl yr hon a achubodd ei henaid. Yn
+<lb/>gyfagos i<isp/>'w bedd hi yr oedd y llinellau a adroddwyd
+<lb/>eisoes, y rhai a fuont offerynol i<isp/>'w hargyhoeddi. Yr
+
+<pb n="47"/>
+<lb/>oedd yn ymddangos y pryd hyn fel tyst hynod o blaid
+<lb/>y gwirioneddau yr oedd yn eu cyhoeddi wrth bawb a<isp/>'u
+<lb/>darllenai.
+</p>
+<p>
+<lb/>Yr oedd y prydnawn yn deg a thawel&mdash;ac ni 
+<w>ddig<lb rend="shy"/>wyddodd</w> dim a allasai dueddu i rwystro 'r tawelwch
+<lb/>a<isp/>'r difrifoldeb ag oedd yn gweddu ar y cyfryw achos.
+</p>
+<p>
+<lb/><quote>&ldquo;Heddwch&rdquo;</quote> oedd y gair olaf a ddywdasai Jane;
+<lb/>a gallesid meddwl bod <hi rend="italic">heddwch</hi> yn argraffedig ar y
+<lb/>weithred ddiweddaf wrth y bedd lle y rhoddwyd ei
+<lb/>chorph hi i orphwys. Y mae diolchus 
+<w>goffadwr<lb rend="shy"/>iaeth</w> am yr heddwch hwnnw yn adfywio yn fy enaid
+<lb/>wrth sgrifennu y cofnodau hyn am dani: ac O! am
+<lb/>i<isp/>'r heddwch a<isp/>'r tangnefedd hwnnw yr hwn sydd 
+<w>uwch<lb rend="shy"/>law</w> pob deall, fod yn ei gyflawn weithrediad pan 
+<w>gyf<lb rend="shy"/>arfyddwn</w> nesaf yn y dydd diweddaf.
+</p>
+<p>
+<lb/>Serch at y fan lle y dodwyd y Cristion ieuangc hon
+<lb/>i orphwys, a<isp/>'m cymhellodd i blannu ywen wrth ben ei
+<lb/>bedd, yn agos i fur dwyreiniol yr eglwys. Fy amcan
+<lb/>ydoedd cadw coffadwriaeth parhaus am un deilwng ei
+<lb/>chofio. Ymddangosodd y planhigyn ieuangc hwn dros
+<lb/>dro yn iach a gwyrddlas, ac fel pe buasai yn addaw hir
+<lb/>barhad: Ond gwywodd yn fuan a diflannodd; yn lled
+<lb/>debyg i<isp/>'r eneth er coffadwriaeth am yr hon y planwyd
+<lb/>hi.&mdash;Er na bu yr ywen ond coffadwriaeth wael a 
+<w>byr<lb rend="hyphen"/>barhad</w><!--or shy?--> am Jane, etto y mae iddi goffadwriaeth well a
+<lb/>hir-oedlog wedi ei argraffu ar lechau fy nghalon. Ac
+<lb/>hwyrach y caniatteir i<isp/>'r hanes hwn ddywedyd am Jane
+<lb/>wrth genhedlaethau etto i ddyfod, pan y byddo llaw a
+<lb/>chalon yr ysgrifenydd yn llonydd yn y llwch.
+</p>
+<p>
+<lb/>Y mae 'r hanes hwn yn eglur ddangos rhadlondeb
+<lb/>gweithrediadau gras Duw ar galonnau dynion; yr 
+<w>an<lb rend="shy"/>wahanol</w> undeb sydd rhwng gwir ffydd a thueddrwydd
+<lb/>sanctaidd; a<isp/>'r symlrwydd y mae gwir gariad at Grist
+<lb/>yn ei argraffu ar yr enaid.
+</p>
+<p>
+<lb/>Pa nifer o deulu 'r ffydd a deithiasant ym mhob oes,
+
+<pb n="48"/>
+<lb/>ac sydd yn awr yn teithio, trwy 'r byd anial hwn i
+<lb/><quote>&ldquo;ddinas gyfanneddol,&rdquo;<!--qu-marks faint--></quote> mewn distawrwydd, heb sylw
+<lb/>na choffa am danynt! Gwaith tra buddiol a melus
+<lb/>yw i weinidog Crist chwilio ym mhlith y drain am y
+<lb/>blodau tyner hyn, harddwch ac arogl pa rai sydd agos
+<lb/>yn guddiedig yn y cysgod. I fagu a meithrin y
+<lb/>blodau hyn, i arddangos eu rhagoriaethau, ac i ddwyn
+<lb/>allan eu ffrwyth mewn amser dyled<unclear>us,</unclear> sydd orchwyl
+<lb/>a wobrwya yn hyfryd holl lafur y gweithiwr.
+</p>
+<p>
+<lb/>Ond, fe allai, tra y mae efe fel hyn yn llafurio yn
+<lb/>diwyd yng ngwinllan ei Arglwydd, fe ddaw rhyw 
+<w>fall<lb rend="shy"/>dod,</w> rhyw gafod, neu ryw dymhestl, ac a gymmer
+<lb/>ymaith flodeuyn ieuangc, anwyl a hawddgar, cyn iddo
+<lb/>aeddfedu. Os felly, hwyrach y gwna efe, fel y
+<lb/>gwneuthum innau lawer tro, pan yn sefyll yn 
+<w>feddyl<lb rend="shy"/>gar</w> alarus uwch ben bedd Jane bach, wneuthur 
+<w>cym<lb rend="shy"/>mwysiad</w> o<isp/>'r llinellau hyn, y rhai sydd argraffedig ar
+<lb/>garreg-fedd yn yr un fynwent lle y llecha ei llwch hi
+<lb/>hyd fore yr adgyfodiad,
+</p>
+<!--poetry-->
+<lg rend="centred">
+<lb/><l>Ni ddaeth y teg flodeuyn hyn,</l>
+<lb/><l rend="indented">A <orig reg="gadd">ga'dd</orig> mor synn ei symmud,</l>
+<lb/><l>Ond prin i ddangos pa mor hardd,</l>
+<lb/><l rend="indented">Yw blodau gardd y bywyd.</l>
+</lg>
+</div>
+<trailer>DIWEDD</trailer>
+</div>
+</body>
+</text>
+</TEI.2>
