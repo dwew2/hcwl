@@ -1,0 +1,1860 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="C:\Program Files\XML Spy 3.5\Project HCWL\XSL\running.xsl"?>
+<!-- normal stylesheet: prose.xsl -->
+<!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
+"../dtds/xteipvdmod.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!--%Conc;-->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<TEI.2>
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Corpws hanesyddol yr iaith Gymraeg 1500-1850: Yr American</title>
+<sponsor>Department of Linguistics, University of Cambridge</sponsor>
+<funder>Arts and Humanities Research Board</funder>
+<principal><name id="principal">David Willis</name></principal>
+<respStmt><resp>Transcribed by</resp> <name id="transcr">Ingo Mittendorf</name></respStmt>
+</titleStmt>
+
+<editionStmt><edition n="1">First edition, September 2004</edition></editionStmt>
+
+<publicationStmt>
+<publisher>Department of Linguistics, University of Cambridge</publisher>
+ </publicationStmt>   
+ 
+ <notesStmt>
+     <note type="source">The transcription follows the second edition of 1840. The first editon was published in 1839 (Llanfair: Argraffwyd dros yr awdwr gan E. Davis, 1839).</note>
+ </notesStmt>
+ 
+<sourceDesc>
+<bibl>
+<author><name id="author">Chidlaw, B[enjamin] W[illiams], 1811-1892</name></author>
+<title>Yr American: yr hwn sydd yn cynnwys nodau ar daith o Ddyffryn Ohio i Gymru, golwg ar dalaeth Ohio, hanes sefydliadau Cymreig yn America, cyfarwyddiadau i ymofynwyr cyn y daith, ar y daith, ac yn y wlad.</title>
+<edition>Ail arg.</edition>
+<imprint>
+<pubPlace>Llanrwst</pubPlace>
+<publisher>Argraffwyd gan John Jones</publisher>
+<date value="1840">1840</date>
+</imprint>
+<extent>48 pp.</extent>
+<biblScope><rs lang="cym">testun cyflawn</rs> / <rs lang="eng">entire text</rs></biblScope>
+</bibl>
+</sourceDesc>
+</fileDesc>
+
+<encodingDesc>
+<editorialDecl>
+    <quotation>
+        <p>Double quotation marks are represented as entity references &amp;ldquo; (left double quotation mark) and &amp;rdquo; (right double quotation mark).</p>
+    </quotation>
+</editorialDecl>
+</encodingDesc>
+
+<profileDesc>
+<langUsage>
+<p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in Welsh and <rs id="eng">English</rs> (including some transcriptions in the <rs id="ipa">International Phonetic Alphabet</rs>).</p>
+    </langUsage>
+</profileDesc>
+
+<revisionDesc>
+<change>
+<date>February 2004</date>
+<respStmt>
+<resp>Matthew Reeve</resp>
+</respStmt>
+<item>Text corrected. These corrections are marked as MR in comments, and should be rechecked against the original.</item>
+</change>
+
+<change>
+    <date>16 Sept 2003</date>
+<respStmt>
+<resp>Ingo Mittendorf</resp>
+</respStmt>
+<item>Data capture completed; correct representation of shy and hyphen checked.
+inserted W, APO where appropriate; replaced LBNON with LB, inserted LB before ROW and L; regs.
+</item>
+</change>
+</revisionDesc>
+</teiHeader>
+
+<!--nn/n, rr/r unmodern; (bresenol, bressennol, cer(r)ig
+a few uncertainties about /j/
+note: yn (unchanged) + Nas
+dy- in dyeithr, dyoddef, dystaw, dyfetha, dygwydd, dyogel, dysgwyl, ymddybynu
+oeddym, oeddynt, byddis
+ni's, ne's
+-->
+<text id="Amer">
+<body>
+<pb n="3"/>
+<!--this front; argument?-->
+<div>
+<head><lb/><hi rend="italic">YR AMERICAN, &amp;c.</hi></head>
+<head><lb/>CYNNWYSIAD Y PENNODAU.</head>
+<p>
+<lb/>I. Dinas Cincinnati&mdash;Columbus&mdash;Carchardy&mdash;Cymanfa&mdash;Y Plains&mdash;
+<lb/>Llyn Erie&mdash;Rhaiadr Niagara&mdash;Pentref yr Indiaid&mdash;Rochester&mdash;Syracuse
+<lb/>&mdash;Indiaid Onandago&mdash;Utica&mdash;Y Llywydd&mdash;Cyfarfodydd Blynyddol&mdash;
+<lb/>New York&mdash;Mordaith&mdash;Gweled Llong-ddrylliad&mdash;Claddu ar y M&ocirc;r&mdash;
+<lb/>Cyraedd y tir.
+</p>
+<p>
+<lb/>II. Talaeth Ohio&mdash;Eglurhad ar y gair Ohio&mdash;Rhaniadau&mdash;Poblogaeth&mdash;
+<lb/>Ansawdd y tir&mdash;Cynnyrch&mdash;Glo&mdash;Haiarn&mdash;Halen&mdash;Cerrig&mdash;Camlasau
+<lb/>&mdash;Ffyrdd&mdash;Climate&mdash;Trethi&mdash;Llywodraeth&mdash;Colegau ac Ysgolion&mdash;
+<lb/>Crefydd.
+</p>
+<p>
+<lb/>III. Sefydliadau Cymreig&mdash;Paddy's Run&mdash;Radnor&mdash;Welsh Hills&mdash;
+<lb/>Columbus&mdash;Cincinnatti&mdash;Owl Creek&mdash;Palmyra&mdash;Galia a Jackson&mdash;
+<lb/>Putnam a Vanwert, yn Ohio&mdash;Utica&mdash;Deerfield&mdash;Ffloyd&mdash;Steuben&mdash;
+<lb/>Remsen, a dinas New York, Pittsburg&mdash;Ebensburg a Pottsville&mdash;<w>Pen<lb rend="shy"/>sylvania,</w>
+</p>
+<p>
+<lb/>IV. Cyfarwyddiadau pa gymwysiadau sydd yn ofynol mewn pobl a fyddo
+<lb/>yn debyg o lwyddo, a bod yn gysurus yn America&mdash;Liverpool&mdash;<w>Cym<lb rend="shy"/>eryd</w> Llong&mdash;Newid arian&mdash;Dillad&mdash;Ymborth&mdash;Ymarweddiad ar y m&ocirc;r
+<lb/>Cyrhaedd tir America&mdash;Teithio&mdash;Traul.
+</p>
+</div>
+
+
+<div>
+<head><lb/>PENNOD 1.</head>
+
+<head><lb/>MORDAITH</head>
+<p>
+<lb/><hi rend="rubric"><hi rend="smallcaps">Nid</hi></hi> hawdd amgyffred ysgogiadau y meddwl
+<lb/>wrth ymadael &acirc; theulu anwyl, eglwys, a <w>chynull<lb rend="shy"/>eidfa</w> garedig, i wynebu hir daith dros f&ocirc;r a thir.
+<lb/>Gyda theimladau na fedr neb eu mynegu, Awst
+<lb/>26, 1839, ymadewais &acirc;g ardal <hi rend="italic">Paddy's Run</hi>, ac ar
+<lb/>ol teithio 20ain milldir yn nghwmni hynaws <w>gyf<lb rend="shy"/>eillion,</w> daethum i ddinas Cincinnati; y ffordd yn
+<lb/>dda, ond y tywydd yn hynod o boeth. Yn yr
+<lb/>hwyr, Areithiais ar Ddirwest, yn Nghapel y
+<lb/>Cymry;&mdash;mae<isp/>'r achos ar gynydd, a llawer trwyddo
+<lb/>wedi eu hachub o grafangau marwol meddwdod.
+<lb/>Wrth adael y Capel, clywais adsain gorfoleddu
+<lb/>yn treiddio o addoldy y Negroes Wesleyaidd:
+<lb/>ar ol myned iddo, mawr oedd fy llawenydd wrth
+
+<pb n="4"/>
+
+<lb/>weled tyrfa o bobl dduon wrth eu bodd yn moli
+<lb/>Duw, trwy daer weddio, canu, a gorfoleddu.
+<lb/>Gofynwyd i mi ddweyd ychydig, ac arweiniwyd
+<lb/>fi gan bregethwr d&ucirc; at yr Areithfa; ac ar ol cael
+<lb/>ychydig ddistawrwydd, dywedodd y dyn d&ucirc;,
+<lb/>&ldquo;<hi rend="italic">Come, dear bredren, try be still, de white broder
+<lb/>going to talk to de sinners.</hi>&rdquo; Mor hardd a dymunol
+<lb/>oedd yr olygfa, hen blant duon Ethiopia yn
+<lb/>mhellder y Gorllewin-fyd yn mwynhau rhyddid
+<lb/>meibion Duw. Y mae 5 neu 6 mil o bobl dduon
+<lb/>yn y ddinas, oll yn rhydd, ac yn byw yn gysurus.
+<lb/>Y mae Cincinnati, ar lan Afon Ohio, yn cynnwys
+<lb/>50,000 o drigolion. Yn 1808, nid oedd ynddi
+<lb/>ond 5,000; yn awr yn ddinas fawr, canol-bwynt
+<lb/>masnachol y Gorllewin. Wrth sefyll ar y <hi rend="italic">Landing</hi>,
+<lb/>gwelir agerdd-fadau mawrion, rhai yn myned i
+<lb/>fynu i Pittsburg, 500 milldir, ereill i lawr i New
+<lb/>Orleans, 1,500, ac eraill i Raiadr St. Anthony,
+<lb/>1,800 o filldiroedd. Yn y Gauaf y mae o 4 i 5 can
+<lb/>mil o foch tewion, yn pwyso o 2 i 3 chant, yn cael
+<lb/>eu lladd a<isp/>'u halltu, a<isp/>'u hanfon i<isp/>'r gwahanol
+<lb/>farchnadoedd, mewn agerdd-fadau; dyma sydd
+<lb/>yn gwobrwyo yr amaethwyr am eu llafur; maent
+<lb/>yn eu pesgi gyda<isp/>'r <hi rend="italic">Indian Corn</hi>, ac yn eu gwerthu
+<lb/>am o 2 i 3 ceiniog y pwys. Mae y tai yn gyffredin
+<lb/>o briddfeini, yn hardd a helaeth; yr heolydd yn
+<lb/>sythion ac yn llydain. Y mae yma 30 o gapeli,
+<lb/>a 9 o ysgoldai mawrion. Y maent yn argraffu
+<lb/>20 o Newyddiaduron, rhwng dyddiol a wythnosol;
+<lb/>4 Ariandy, a 4 Marchnad-t&ycirc;, lle y cynnhelir
+<lb/>marchnadoedd bob dydd, ond ar y Sabboth,
+<lb/>a dechreuant ar doriad y dydd, a diweddant am
+<lb/>9 neu 10 y boreu; 2 Goleg, un i feddygon, ac
+<lb/>arall i gyfreithwyr; y mae un dan olygiad y <w>Pab<pb rend="shy" n="5"/><lb/>yddion;</w>&nbsp;<orig reg="ynghyd &acirc;">yn nghyda</orig> llawer iawn o adeiliadau <w>defn<lb rend="shy"/>yddiol</w> a godidog eraill. Haner can mlynedd
+<lb/>yn ol, yr oedd y lle yma yn anialwch hollol,
+<lb/>trigfanau creaduriaid, ac Indiaid gwylltion; mawr
+<lb/>y cyfnewidiad a wnaeth amser mor fyr. Awst 27,
+<lb/>1839, teithiais oddiyma mewn cerbyd drwy wlad
+<lb/>hyfryd a ffrwythlon i Columbus, 115 milldir;
+<lb/>yr oedd yr amaethwyr yn hau gwenith, a<isp/>'r <orig reg="meysydd">meusydd</orig>
+<lb/>o<isp/>'r <hi rend="italic">Indian Corn</hi> yn dechreu addfedu; y trefydd
+<lb/>yn lled aml, ac yn dangos eu bod ar gynnydd.
+<lb/>Yn fore yr 28ain, cyrhaeddais Columbus, <w>prif<lb rend="shy"/>ddinas</w> y dalaeth, ar lan afon Scioto, yr hon sydd
+<lb/>yn cynnwys 7 neu 8 mil o drigolion. Cynnhelir
+<lb/>ynddi Eisteddfod y Llywodraeth. Y mae ynddi
+<lb/>Noddfeydd (<hi rend="italic">Assylums</hi>) i<isp/>'r deillion, mudion, <w>bydd<lb rend="shy"/>ariaid,</w> a gwallgofion, yn adeiladau mawrion ac
+<lb/>ardderchog o briddfeini a cherig nadd. Gerllaw y
+<lb/>ddinas, ar lan yr afon, y mae carchardy y dalaeth,
+<lb/>(<hi rend="italic">Penitentiary</hi>). Wrth weled yr adeilad ardderchog
+<lb/>hwn, a<isp/>'r gerddi o<isp/>'i amgylch, gellid meddwl mai
+<lb/>palas boneddwr ydyw; ond wrth sylwi ar y drysau
+<lb/>a<isp/>'r ffenestri <orig reg="heyrn">heiyrn</orig> sydd arno, deallir yn fuan mai
+<lb/>drwg-weithredwyr sydd ynddo. Yma yr anfonir
+<lb/>yr holl ddrwg-weithredwyr yn mhlith 1,500,000
+<lb/>o drigolion sydd yn nhalaeth Ohio, i<isp/>'w cospi trwy
+<lb/>weithio yn galed tros ystod eu carchariad, sef o
+<lb/>flwyddyn hyd eu hoes, yn ol y drosedd. Yr oedd
+<lb/>ynddo y pryd hwn 445 o garcharorion, rhai o bob
+<lb/>Swydd (<hi rend="italic">County</hi>) yn y dalaeth, o bob oedran, a
+<lb/>phob gradd mewn cymdeithas. Bu gwaith y <w>carch<lb rend="shy"/>arorion</w> y llynedd, ar ol talu traul y carchardy, yn
+<lb/>ennill i<isp/>'r dalaeth &pound;3,000, yr hyn a achubodd <w>gy<lb rend="shy"/>maint</w> a hyny o dreth oddiar y dinasyddion. Yn
+<lb/>y dydd y maent oll yn llafurio&mdash;neb yn cael siarad
+
+<pb n="6"/>
+
+<lb/>un gair; y nos mewn celloedd, heb ddim ond y Bibl
+<lb/>i<isp/>'w difyru. Eu dillad yn frithion&mdash;cant ddigonedd o
+<lb/>ymborth iachus, ond pob peth arall yn gosp i<isp/>'r
+<lb/>eithaf. Y mae gweinidog yr efengyl yn llafurio
+<lb/>yn eu plith, yn pregethu iddynt ar y Sabbothau, yn
+<lb/>cadw dyledswydd deuluaidd yn ddyddiol, ac yn
+<lb/>ymweled &acirc; hwy yn fynych yn eu cellau; ac y
+<lb/>mae y moddion, dan fendith Duw, yn llwyddo i
+<lb/>dynu dagrau o lawer llygad na wylodd erioed o<isp/>'r
+<lb/>blaen, ac i ddryllio llawer calon adamentaidd. Y
+<lb/>mae llawer o<dsp/>honynt yn rhoddi arwyddion <w>bodd<lb rend="shy"/>haol</w> o ddiwygiad a theyrnasiad gras yn yr enaid;
+<lb/>a gellir dywedyd fod yr efengyl oedd a<isp/>'i chofnodau
+<lb/>o fuddugoliaeth yn mhalas Nero, a<isp/>'i cholofnau byw
+<lb/>o fewn muriau carchardy talaeth Ohio.
+</p>
+<p>
+<lb/>Pregethais yn yr hwyr yn y dref uchod, i <w>gyn<lb rend="shy"/>nulleidfa</w> Gymreig. Dranoeth, cyrhaeddais <w>Rad<lb rend="shy"/>nor,</w> yn swydd Delaware. Y mae yma lawer o
+<lb/>Gymry, a<isp/>'u rhifedi yn cynnyddu yn barhaus. <w>Cyn<lb rend="shy"/>naliwyd</w> cymanfa yma gan yr Annibynwyr, Medi
+<lb/>1, 1839, sef y gyntaf yn y lle hwn. Nid oedd yno
+<lb/>ond ychydig o bregethwyr, sef Parchedigion H. R.
+<lb/>Pryce, Worthington; S. Howells, Columbus;
+<lb/>M. M. Jones, (gynt o Ebensburg,) a Rees Powell.
+<lb/>Yr oedd y gwrandawyr yn lluosog, yr odfeuon yn
+<lb/>wlithog, a gobeithiwn, er budd i<isp/>'n cydwladwyr
+<lb/>mewn gwlad bellenig<damage><supplied>.</supplied></damage> Medi 4ydd, ymadewais &acirc;
+<lb/>Radnor mewn cerbyd, trwy wlad wastad a <w>ffrwyth<lb rend="shy"/>lawn,</w> 85 milldir, i Sandusky, ar lan Llyn Erie.
+<lb/>Y mae y tir yma yn isel, ac weithiau yn wlyb. Y
+<lb/>mae llawer o<isp/>'r gwastadtir, a alwant hwy <hi rend="italic">Plains</hi>,
+<lb/>yn naturiol heb ddim coed. Mae rhai o<isp/>'r <hi rend="italic">Plains</hi>
+<lb/>yn 20 milldir o gwmpas, a gwellt gwyllt yn tyfu
+<lb/>ar hyd-ddynt, yn borfa ac yn wair. Y mae y <hi rend="italic">Plains</hi>
+
+<pb n="7"/>
+
+<lb/>sychion yn cael eu haredig, pa rai sydd yn hynod o
+<lb/>ffrwythlawn: maent yn anhawdd iawn i<isp/>'w haredig
+<lb/>y tro cyntaf. Gwelais un wedd yn cynnwys tair iau
+<lb/>o <orig reg="ychen">ychain</orig> a dau o geffylau, yn aredig. Ar ol aredig
+<lb/>y tro cyntaf, y mae yn rhydd fel lludw, ac yn
+<lb/>hawdd ei drin. Cyfrifais ar un weirglawdd, dros
+<lb/>gant o ddeisi gwair, o ddwy i dair tunell yr un,
+<lb/>yn barod erbyn y gauaf yn ymborth i<isp/>'r anifeiliaid.
+<lb/>Medi y 5ed, gadewais dalaeth Ohio, yn yr <w>agerdd<lb rend="hyphen"/>f&acirc;d</w>&nbsp;&ldquo;<hi rend="italic">Erie</hi>,&rdquo; 230 o filldiroedd,<!--comma MR--> i Buffaloe, yn
+<lb/>nhalaeth New York. Yr oedd ar y b&acirc;d oddeutu
+<lb/>300 o deithwyr; cefais dywydd hyfryd, a daethum
+<lb/>i Buffaloe y dydd canlynol. Y mae Llyn Erie
+<lb/>yn 270 milldir o hyd, ac o 30 i 40 o led, yn ddwfr
+<lb/>croyw, ac yn nofiadwy i longau 400 tunell; a
+<lb/>rhyfedd y nifer o f&acirc;dau a llongau sydd yn <w>mor<lb rend="shy"/>dwyo</w> arno. Medi 6ed, cymerais eisteddfa yn
+<lb/>y <hi rend="italic">Rail Road Car</hi>, am 15 milldir, i ymweled a
+<lb/>Rhaiadr Niagara, rhwng Llyn Erie ag Ontario, lle
+<lb/>y mae holl ddyfroedd y llynoedd Gogleddol yn
+<lb/>treiglo mewn ffrwst a mawredd annhraethol dros
+<lb/>graig serth, 164 troedfedd o uchder. Dyma un
+<lb/>o brif ryfeddodau cyfandir America, yr hwn sydd
+<lb/>a<isp/>'i ddyfroedd rhuadwy fel mynegfys tragywyddol,
+<lb/>yn dangos ardderchawgrwydd gweithredoedd y
+<lb/>B&ocirc;d anfeidrol a<isp/>'i gosododd. Ar ol edrych arno
+<lb/>oddifynu ac oddiwaered a<isp/>'m llygaid heb haner eu
+<lb/>boddloni, ymadewais ar y <hi rend="italic">Rail-Road</hi> i Lockport,
+<lb/>ac oddiyno ar y gamlas i Utica. Gwelais ar y daith
+<lb/>hon bentref a gwlad gyfaneddol gan lwyth o
+<lb/>Indiaid, (y <hi rend="italic">Tuscaroras</hi>,) wedi eu gwareiddio, ac
+<lb/>yn byw fel eu cymydogion gwynion. Yn y pentref
+<lb/>hwn y mae capel, a chenadwr yn llafurio yn eu
+<lb/>plith, a<isp/>'r efengyl wedi gwneuthur iddynt bethau
+
+<pb n="8"/>
+
+<lb/>mawrion. Yr oeddynt unwaith yn llwyth enwog
+<lb/>a lluosog, ond trwy ryfeloedd a meddwdod, y
+<lb/>maent wedi myned gan lleied a 300 mewn rhifedi.
+<lb/>Aethum ar y gamlas oddiyma i Utica, a chefais
+<lb/>fy nghario a<isp/>'m hymborth am 10 swllt y can milldir:
+<lb/>hon oedd y daith hyfrydaf o<isp/>'r holl ffordd y <w>daeth<lb rend="shy"/>um</w> i Utica, 234 o filldiroedd mewn 4 diwrnod.
+<lb/>Y mae llawer o drefi mawrion i<isp/>'w gweled ar
+<lb/>lenydd y gamlas; ac yn eu plith y mae tref <w>Ro<lb rend="shy"/>chester;</w> ar lan Afon Gennesse, yr hon sydd hynod
+<lb/>am ei melinau; cyfrifais 16, ac yn mhob un o
+<lb/>honynt<!--DSP--> o 6 i 12 p&acirc;r o gerig, yn malu gwenith, i<isp/>'w
+<lb/>ddanfon ar y gamlas i New York. Yn Syracuse
+<lb/>y mae gwaith halen helaethaf yn y wlad. Yma
+<lb/>gwelais lawer o Indiaid wedi eu haner wareiddio,
+<lb/>o lwyth yr Onandagos; y mae ganddynt dir yn
+<lb/>agos i<isp/>'r dref, ond trwy eu bod wedi gwrthod yr
+<lb/>efengyl a<isp/>'i chenhadau, nid oes cystal golwg arnynt
+<lb/>a<isp/>'r lleill a welais; y mae o<dsp/>honynt dros 400 dan hen
+<lb/>benaeth a elwir Antioga, yr hwn sydd yn 90
+<lb/>mlwydd oed. Yr oedd y dynion yn eu gwisg yn
+<lb/>debyg i<isp/>'r bobl wynion; ond y merched a<isp/>'r plant
+<lb/>mewn dillad Indiaidd, sef Moccasons o grwyn am
+<lb/>eu traed, peisiau o frethyn yn llawn o dlysau o
+<lb/>wahanol ddefnyddiau a lliwiau, <hi rend="italic">bed-gown callicco</hi>,
+<lb/>gwrthban dros eu penau a<isp/>'u hysgwyddau, tlysau
+<lb/>arian yn eu clustiau ac ar eu dwylaw. Cyfrifais
+<lb/>haner cant o ddarnau arian fel cadwyn ar wddf
+<lb/>bachgen 5 neu 6 oed. Yr oedd y mamau yn cario
+<lb/>eu plant, y rhai oedd dan flwydd oed, yn <w>rhwym<lb rend="shy"/>edig</w> ar ystyllen, fel y byddent yn uniawn ac yn
+<lb/>hardd pan gyrhaeddant oedran dynion. Wrth
+<lb/>fyned trwy y dref, gwelais nifer o<isp/>'r Indiaid, rhai o
+<lb/>honynt<!--DSP--> yn lled afreolus gan waith yr <orig reg="alcohol">Alchol</orig>,
+
+<pb n="9"/>
+
+<lb/>gelyn y coch, du, a<isp/>'r gwyn, yr hwn oedd a<isp/>'i fachau
+<lb/>yn un o<dsp/>honynt, ac yn cael ei gymeryd ymaith gan
+<lb/>rai ag oedd yn fwy sobr. Gofynais i Indiad yn fy
+<lb/>ymyl, pwy oedd y meddwyn. Atebodd, gan wenu,
+<lb/>&ldquo;<hi rend="italic">He no Indian now, white man make him drunk.</hi>&rdquo;
+<lb/>Mae yr Indiaid, o ran maintioli, yn debyg i <w>drig<lb rend="shy"/>olion</w> Ewrop; eu lliw fel copr, eu gwallt yn ddu,
+<lb/>hir, a garw, fel rhawn ceffyl. Galarus yw meddwl
+<lb/>am goch drigolion coedwigoedd &euml;ang y Gorllewin,
+<lb/>a fu gynt yn meddiannu y wlad, a<isp/>'i theg <w>ddyffryn<lb rend="shy"/>oedd</w> yn dir helwriaeth ganddynt; ond yn awr y
+<lb/>mae rhyfeloedd a gwirodydd wedi eu hysglyfaethu
+<lb/>fel nad oes ond gweddillion gwael i<isp/>'w gweled, pa
+<lb/>rai sydd yn diflanu fel niwl o flaen pelydrau
+<lb/><orig reg="tanbaid">tambaid</orig> yr haul: mae llawer o ymdrech yn cael
+<lb/>ei wneyd gan y Cymdeithasau Cenhadol yn eu
+<lb/>hachos; ond fel dynoliaeth yn gyffredin, derbyniad
+<lb/>oeraidd sydd i<isp/>'r efengyl, a gwrthodiad o<isp/>'i <w>chyng<lb rend="shy"/>horion</w>  tirion; ei bendithion rhad yw eu <w>maen<lb rend="hyphen"/>tramgwydd,</w> a<isp/>'u rhwystr i fwynhau eu breintiau
+<lb/>gwerthfawr yn y byd presenol, a<isp/>'r hwn a ddaw.
+</p>
+<p>
+<lb/>Yn Utica, gwelais Martin Van Buren, llywydd
+<lb/>yr Unol Daleithiau, yn marchogaeth ar geffyl, heb
+<lb/>un gwas yn ei ddilyn, yn edrych yn fwy tebyg i
+<lb/>amaethydd cyffredin na llywydd 15,000,000 o <w>dri<lb rend="shy"/>golion.</w> Yn swydd Oneida, treuliais amser hyfryd
+<lb/>yn ardaloedd y Cymry, yn cynnorthwyo fy mrodyr
+<lb/>i gynal eu Cyfarfodydd Blynyddol. Wrth weled
+<lb/>lluosogrwydd y gwrandawyr, helaethrwydd yr
+<lb/>addoldai, ac ysbryd y gwaith, braidd na <w>feddylias<lb rend="shy"/>wn</w> fy mod yn ngwlad fy ngenedigaeth. Ar ol
+<lb/>mwynhau hyfrydlawn gyfeillach gyda hwy, a <w>chyf<lb rend="shy"/>ranogi</w> yn helaeth o garedigrwydd yr eglwysi, <w>ym<lb rend="shy"/>adewais</w> oddiyma Medi 26ain, ar y <hi rend="italic">Rail-Road</hi>, 96
+
+<pb n="10"/>
+
+<lb/>milldir, i Albany; ychydig oriau a <orig reg="f&ucirc;m">fu'm</orig> yn dyfod
+<lb/>i ben y daith. Yn min yr hwyr, yn yr <w>agerdd<lb rend="hyphen"/>f&acirc;d</w>&nbsp;<hi rend="italic">Dewit Clinton</hi>, ymadewais i fyned lawr Afon
+<lb/>Hudson, 160 milldir, i New York; ac erbyn boreu
+<lb/>dranoeth, gwelwn oddiar fwrdd y b&acirc;d, y ddinas
+<lb/>yn ei hardderchogrwydd yn ymddangos o<isp/>'m blaen,
+<lb/>yr hon sydd yn cynnwys 320,000 o drigolion. <w>Preg<lb rend="shy"/>ethais</w> yma i<isp/>'r Americaniaid, yn <hi rend="italic">Pearl Street</hi>, ac
+<lb/>i<isp/>'r Annibynwyr Cymreig, yn <hi rend="italic">Broome Street</hi>.
+<lb/>Treuliais yma ychydig ddyddiau, lle y cefais
+<lb/>garedigrwydd anarferol.
+</p>
+<p>
+<lb/>Hydref 1af, ar y llong <hi rend="italic">Columbus</hi>, (670 tunell,)
+<lb/>yn rhwym i <hi rend="italic">Liverpool</hi>, ymadewais, am 10 o<isp/>'r gloch
+<lb/>yn y boreu, &acirc; thir America, i wynebu y geirwon
+<lb/>d&ograve;nau. Gan nad oedd dim gwynt pan oeddym yn
+<lb/>cychwyn, bu orfod i agerdd-f&acirc;d lusgo ein llestr i
+<lb/>lawr hyd <hi rend="italic">Sandyhook</hi>. Yr oedd llawer o longau
+<lb/>ereill yn cyd-gychwyn &acirc; ni, ac yn eu plith yr <w>en<lb rend="shy"/>wog</w> agerdd-long, <hi rend="italic">British Queen</hi>, yr hon oedd yn
+<lb/>saethu heibio gyda chyflymdra y fellten fforchog.
+<lb/>Ar ol cyrhaedd y m&ocirc;r mawr, a<isp/>'r b&acirc;d ein gollwng,
+<lb/>cododd y gwynt&mdash;lledwyd yr hwyliau&mdash;a <w>dechreu<lb rend="shy"/>odd</w> yr hen Columbus rwygo trwy y t&ograve;nau ddeg
+<lb/>milldir yn yr awr. Fel ag yr oedd llen y nos
+<lb/>yn ein gorchuddio, collasom olwg ar y tir, heb ddim
+<lb/>ond gwyrdd d&ograve;nau a glas awyr i<isp/>'w gweled. Yr
+<lb/>oedd yn y <hi rend="italic">cabin</hi> dri o<dsp/>honom o Ohio, un o New
+<lb/>York, ac un o Pensylvania, yn cael pob ymborth
+<lb/>ag ymgeledd addas er ein cysur. Yr oedd yn y
+<lb/><hi rend="italic">Steerage</hi> o 70 i 80 o deithwyr, ac yn eu plith <w>am<lb rend="shy"/>ryw</w> yn afreolus ac anystyriol. Yn y <hi rend="italic">cabin</hi> yr
+<lb/>oeddym yn talu (trwy gael pobpeth oedd yn ofynol
+<lb/>i<isp/>'r fordaith) &pound;20 yr un. Yn y <hi rend="italic">Steerage</hi> yr <w>oedd<lb rend="shy"/>ynt</w> yn talu, heb gael dim ond eu <hi rend="italic">passage</hi>, eu dwfr,
+
+<pb n="11"/>
+
+<lb/>a<isp/>'u t&acirc;n, &pound;4. Hydref 3ydd, ymwelodd &acirc; myfi
+<lb/>glefyd y m&ocirc;r, er fy mlino yn egniol dair mordaith
+<lb/>o<isp/>'r blaen; eto ymwelodd &acirc; mi y pedwerydd gwaith;
+<lb/>ond trwy gael ymgeledd addas, ni <orig reg="ddioddefais">ddyoddefais</orig>
+<lb/>gymaint ag a ddisgwyliais oddiwrtho.&mdash;Cymwynas
+<lb/>mewn rhith anghymwynas ydyw,&mdash;drwg fel y
+<lb/>daw da, am fod gwell iechyd i<isp/>'w fwynhau ar ei ol.<!--full stop not in text MR-->
+<lb/>Hydref 7fed, pan yn mhell ar y gwyrddlas eigion,
+<lb/>clywais un o<isp/>'r morwyr yn gwaeddi o ben yr <w>hwyl<lb rend="shy"/>bren,</w>&nbsp;&ldquo;<hi rend="italic">Ship in distress</hi>.&rdquo; Yn fuan ar ol hyn,
+<lb/>gwelwn long dau hwylbren, a<isp/>'r t&ograve;nau yn lluchio
+<lb/>yn gynddeiriog-wyllt drosti, a phob peth wedi eu
+<lb/>golchi oddiar y bwrdd. Ni wyddom ei henw&mdash;
+<lb/>o<!--+o MR--> ba le y daeth&mdash;i ba le yr oedd yn myned&mdash;na
+<lb/>beth a ddigwyddodd<!-- -dd- MR--> i<isp/>'r morwyr. Efallai iddynt
+<lb/>gael gwaredigaeth; ond mwy na thebyg iddynt oll
+<lb/>suddo i<isp/>'r dyfrllyd fedd.
+</p>
+<p>
+<lb/>Hydref 14, clywais fod plentyn wedi marw yn
+<lb/>y <hi rend="italic">Steerage</hi>, unig blentyn ei fam, a hi yn weddw.
+<lb/>Gwisgwyd y corff mewn darn o hen hwyl, a
+<lb/>rhoddwyd careg wrth ei draed, a daeth un o<isp/>'r
+<lb/>morwyr ag ef i<isp/>'r bwrdd, a gosododd ef ar ystyllen
+<lb/>ar ochr y llong; a thra yr oeddwn yn darllen rhan
+<lb/>o bennod y claddu, gollyngodd ef i<isp/>'r dyfnder mawr,
+<lb/>i orphwys hyd y boreu y rhydd y m&ocirc;r i fynu ei
+<lb/>feirw. Hydref 15, yn y nos, gwelwyd goleu
+<lb/>Goleudy <hi rend="italic">Cape Clear</hi>, yn yr Iwerddon; ac ar ol
+<lb/>mordaith gysurus, ar foreu yr 20fed dydd, <w>cyr<lb rend="shy"/>haeddasom</w> Liverpool, heb un ddamwain anghysurus
+<lb/>ein cyfarfod, wedi mordwyo yn agos i 3,500 o <w>fill<lb rend="shy"/>diroedd.</w>
+</p>
+</div>
+
+<pb n="12"/>
+
+<div>
+<head><lb/>PENNOD II.</head>
+
+<div>
+<head><lb/>GOLWG AR DALAETH <corr resp="transcr" sic="OHIO,">OHIO.</corr></head>
+<p>
+<lb/><hi rend="smallcaps">Y</hi> mae yn hysbys i<isp/>'r rhan fwyaf o<isp/>'r Cymry fod
+<lb/>llawer o<isp/>'u cyd-genedl yn trigianu yn y lle hwn.
+<lb/>Y mae Ohio yn un o daleithiau yr Undeb, ac yn
+<lb/>debyg o ran ei hansawdd i<isp/>'r taleithiau Gorllewinol
+<lb/>ereill. Y mae yma ddyeithriaid o bob gwlad yn
+<lb/>dyfod yn barhaus. Nid hawdd penderfynu ystyr
+<lb/>y gair <hi rend="italic">Ohio</hi>; enw ydyw sydd wedi ei roddi i<isp/>'r
+<lb/>afon a<isp/>'r dyffryn hyfrydaf yn y Gorllewin. Dywedir
+<lb/>fod <hi rend="italic">Ohio</hi> yn arwyddo gwaedlyd, a<isp/>'i fod wedi ei
+<lb/>briodoli i<isp/>'r afon, o herwydd y tywallt gwaed a<isp/>'r
+<lb/>ymladdfeydd dychrynllyd a fu ar ei glanau gan
+<lb/>yr Indiaid. Ereill a ddywedant mai oddiwrth
+<lb/>arferiad yr Indiaid o waeddi &ldquo;<hi rend="italic">O-hi-o</hi>&rdquo; wrth rwyfo
+<lb/>eu badau.
+</p>
+<p>
+<lb/>Y mae talaeth Ohio yn gorwedd rhwng lledred
+<lb/>33&deg; 30' a 42&deg; 15' Gogleddol, ac hydred 80&deg; a 40' a
+<lb/>85&deg; Gorllewinol o Lundain. Y mae y dalaeth
+<lb/>hon yn 220 milldir o hyd, a 200 o led, ac yn <w>cyn<lb rend="shy"/>nwys</w> 26,000,000 o Acrau o dir; wedi eu rhanu yn
+<lb/>75 o swyddi, a<isp/>'r swyddi yn blwyfydd. Yn 1790,
+<lb/>nid oedd yn y dalaeth hon ond 700 o drigolion,
+<lb/>heblaw yr Indiaid. Cynnyddodd y boblogaeth,
+<lb/>yn y 50 mlynedd diweddaf, i rifedi, bron, yn <w>an<lb rend="shy"/>nghredadwy.</w> Eu rhifedi yn bressennol yw 1,500,000
+<lb/>o bobl wynion, 1,500 o Indiaid, ac o 15,000
+<lb/>i 20,000 o Negroes rhyddion. Y mae Ohio yw<!--check, corr to yn? MR-->
+<lb/>llywodraeth rydd, ac yn gymysgfa o drigolion yr
+<lb/>hen daleithiau, a<isp/>'r gwahanol wledydd Ewropa.
+<lb/>Saesonaeg yw iaith gyffredin y wlad, er fod llawer
+<lb/>o ieithoedd ereill yn cael eu harferyd. Y mae
+<lb/>y dyeithriaid yn arferyd iaith y Saeson, eu dull o
+
+<pb n="13"/>
+
+<lb/>fyw, a thrin y tir, ac yn syrthio i drefn y wlad; yn
+<lb/>mwynhau rhyddid gwladol a chrefyddol; a mawr
+<lb/>a gwerthfawr yw eu breintiau.
+</p>
+<p>
+<lb/>Haner can mlynedd yn ol, Indiaid ac anifeiliaid
+<lb/>gwylltion oedd yn meddianu y dyffrynoedd Ohio,
+<lb/>ac adsain eu bloeddiadau rhyfelgar, <orig reg="ynghyd &acirc;">yn nghyda</orig>
+<lb/>drwg-nadau bwystfilod rheibus yn unig oedd yn
+<lb/>tori distawrwydd nattur. Ond nid felly yn awr;
+<lb/>y gwylltfilod wedi eu difa, a<isp/>'r Indiaid wedi eu
+<lb/>gwareiddio, neu gilio yn mhellach i<isp/>'r anialwch. Y
+<lb/>mae yma wlad helaeth a ffrwythlawn, yn drigle i
+<lb/>1,500,000 o drigolion rhydd, moesol, a chysurus.
+<lb/>Barna dynion deallus, cyfarwydd &acirc;g ansawdd y
+<lb/>wlad, pe byddai yr holl dir sydd yn addas i<isp/>'w
+<lb/>lafurio, wedi ei arllwyso a<isp/>'i drin fel tiroedd Ewrop,
+<lb/>y byddai ei gynyrchiad yn ddigonol <hi rend="italic">chwe gwaith</hi>
+<lb/>i<isp/>'w thrigolion presenol; a gellir dywedyd yr un
+<lb/>peth am yr holl daleithiau Gorllewinol. Diogi a
+<lb/>meddwdod yn unig sydd yn achosi tylodi mewn
+<lb/>gwlad mor helaeth a ffrwythlawn a hon. Y mae
+<lb/>y rhan <orig reg="Ddeheuol">Ddeheuhol</orig><!-- -ho- MR--> o<isp/>'r dalaeth yn gyffredin yn dir
+<lb/>toredig; a<isp/>'r Gogledd yn wastadedd, ac yn lled laith,
+<lb/>heb nemawr o<dsp/>hono yn rhy uchel i<isp/>'w aredig, neu
+<lb/>yn rhy wlyb i<isp/>'w weirgloddi. Y mae coed yn tyfu
+<lb/>yn naturiol ar y tir, (ond y <hi rend="italic">Plains</hi>,) ac o wahanol
+<lb/>rywogaethau, sef, derw, cyll ffrengig, <orig reg="ynn">&ycirc;n</orig>, llwyfenau,
+<lb/><hi rend="italic">cherry</hi>, <hi rend="italic">hicory</hi>, ffawydd, <hi rend="italic">poplars</hi>, &amp;c., y rhai sydd
+<lb/>o 40 i 50 troedfedd yn unionsyth at y canghenau.
+<lb/>Weithiau nid oes dim llawer o f&acirc;n-goediach i<isp/>'w
+<lb/>gweled; a thro arall prin y gellir marchogaeth yn
+<lb/>rhwydd drwyddynt. Y mae rhai o<isp/>'r derw yn 15
+<lb/>troedfedd o gwmpas, ac yn 100 o uchder: yn hyn
+<lb/>y maent yn rhagori ar goed y wlad hon, ond nid
+<lb/>cystal eu parhad. Coed yw tanwydd cyffredin
+
+<pb n="14"/>
+
+<lb/>y wlad, er fod digonedd o lo ar lan afon Ohio.
+<lb/>Mae y tir, wrth osod treth arno, yn cael ei ranu
+<lb/>yn dair gradd, fel y canlyn:&mdash;Y gyntaf yn cynnwys
+<lb/>y tir brasaf, yr hwn sydd yn y dyffrynoedd, ac ar
+<lb/>geulanau yr afonydd, yn bridd du, rhydd, a bras.
+<lb/>Gwelais <orig reg="feysydd">feusydd</orig> o<dsp/>hono wedi eu llafurio am 40
+<lb/>mlynedd heb wrtaith na gorphwysiad, a chystal
+<lb/>golwg am gnwd eleni ag a welwyd erioed. Y mae
+<lb/>yn hawdd adnabod tir da wrth y coed a fyddo yn
+<lb/>tyfu arno; nid wrth eu maintioli neu eu rhifedi,
+<lb/>ond wrth eu rhywogaeth; o herwydd wrthynt hwy
+<lb/>y bernir brasder a ffrwythlonder y tir <hi rend="italic">Indian Corn</hi>
+<lb/>sydd yn ateb oreu yn y dyffrynoedd, yr hwn sydd
+<lb/>yn dwyn o 80 i 100 bwsiel yr Acr. Yr ail radd:
+<lb/>Y mae tir o<isp/>'r ail radd yn fwy cyffredin na<isp/>'r gyntaf,
+<lb/>yn bridd tywyll, rhydd, ac yn lled fras, yn dwyn
+<lb/>gwenith, haidd, ceirch, clover, &amp;c., ac yn addas
+<lb/>i<isp/>'r <hi rend="italic">Indian Corn</hi>, ac yn rhoddi o 40 i 60 bwsiel yr
+<lb/>Acr. Y drydedd radd: Gosodir y tir bryniog
+<lb/>yn y drydedd radd, ac yn werthfawr am y coed
+<lb/>sydd arno: weithiau am y glo, haiarn, cerig, &amp;c.
+<lb/>yr hwn sydd addas i fod yn dir gwair a phorfa,
+<lb/>ac i ddwyn gwenith rhagorol; ac un peth arall, y
+<lb/>mae yn well am ffynhonau ac iechyd na<isp/>'r <w>gwastad<lb rend="shy"/>edd.</w> Os na bydd ffynon i<isp/>'w chael, ceir dwfr yn
+<lb/>mhob man ond tori pydew o 10 i 50 troedfedd o
+<lb/>ddyfnder. Felly, gwelwn fod mantais ac anfantais
+<lb/>yn berthynol i bob gradd; cymysgedd o<isp/>'r graddau
+<lb/>yw y goreu os gellir ei gael: dyffryn a bryn sydd
+<lb/>yn gwneyd tyddyn yn gyfleus a gwerthfawr, yn
+<lb/>hawdd ei drin, ac yn hir ei barhad. Ni welais
+<lb/>erioed galchu tir yn Ohio; ond y mae gwrtaith
+<lb/>yn llesol i hen dir, a<isp/>'r ail a<isp/>'r drydedd radd.
+<lb/>Ar lenydd Afonydd Meeskingum a<isp/>'r Ohio, hyd at
+
+<pb n="15"/>
+
+<lb/>Portsmouth, y mae digonedd o lo, haiarn, halen,
+<lb/>a cherig n&acirc;dd, yn nghrombil y ddaear, ac yn
+<lb/>hawdd eu cael. Y mae cerig calch yma a thraw
+<lb/>dros yr holl dalaeth. Nid llawer o weithio sydd
+<lb/>eto gyda<isp/>'r glo, haiarn, a<isp/>'r halen. Rhwng y gwl&acirc;n
+<lb/>a<isp/>'r ll&icirc;n, cynnyrch y maes, a<isp/>'r ardd, gwneyd sebon<damage><supplied>,</supplied></damage>
+<lb/>siwgr, a chanhwyllau, nid rhaid i<isp/>'r amaethydd <w>ym<lb rend="shy"/>drechgar</w> a<isp/>'i deulu ofni, trwy fendith Duw, am
+<lb/>ddigonedd o ymborth a gwisgoedd addas. Y mae
+<lb/>yn Ohio lawer o afonydd yn rhoddi cyfleusderau
+<lb/>i wneyd melinau, <hi rend="italic">factories</hi> gwl&acirc;n a chottwm, a
+<lb/>gweithydd ereill. Ychydig o<isp/>'r afonydd hyn sydd
+<lb/>yn fordwyol i agerdd-fadau, er fod llawer o <hi rend="italic">rafts</hi> a
+<lb/>badau eraill yn dyfod i lawr ar lifeiriant. Y mae
+<lb/>afon Ohio yn golchi glanau y dalaeth am 450 o
+<lb/>filldiroedd, ac yn nofiadwy i<isp/>'r badau mwyaf; braidd
+<lb/>y mae awr yn y dydd nad oes rhai o<dsp/>honynt yn
+<lb/>rhwygo trwyddi; a syndod y fasnach sydd ar
+<lb/>hyd-ddi.<!--full stop not in text, MR--> Y mae 150 o filldiroedd o Lyn Erie,<!--comma MR-->
+<lb/>yn gorwedd ar ei ffin Gogleddol, a llawer o <w>borth<lb rend="shy"/>laddoedd</w> ar ei lan. Y mae yn Ohio lawer o
+<lb/>gamlasau a ffyrdd haiarn, wedi eu gorphen, ac ar
+<lb/>waith. Y mae camlas yn 334 milldir o hyd, sef
+<lb/>o Cleaveland, ar lan Llyn Erie, trwy ganol y
+<lb/>dalaeth, i Portsmouth, <!--del tir MR--> ar lan afon Ohio; ac un
+<lb/>arall o Cincinnatti ar hyd dyffryn Miami, i ben
+<lb/>Gogleddol y Llyn Erie, ac Afon Maumee, 190 o
+<lb/>filldiroedd; mae y gamlas yma yn myned trwy y
+<lb/>wlad newydd, lle mae y Cymry yn sefydlu, sef
+<lb/>Putnam a Vanwert, yr hon, pan ei gorphenir, a fydd
+<lb/>yn gyfleustra nid bychan i<isp/>'r holl wlad. Mae yr
+<lb/>anifeiliaid gwylltion wedi darfod neu gilio draw,
+<lb/>ac nid rhaid ofni nadroedd na bwystfilod rheibus.
+<lb/>Y mae yno geffylau, gwartheg, defaid, moch,
+
+<pb n="16"/>
+
+<lb/>gwyddau, hwyaid, a ieir, megys yn y wlad hon.
+<lb/>Gan fod y wlad mor wastad, hawdd yw gwneyd
+<lb/>camlasan a ffyrdd trwyddi; fel y mae trigolion
+<lb/>yn cynyddu, y maent yn myned yn mlaen. Y mae
+<lb/>ansawdd yr hin a<isp/>'r <hi rend="italic">climate</hi> yn wahanol i<isp/>'r wlad
+<lb/>hon; gwres yr Haf, ac oerfel y Gauaf yn fwy;
+<lb/>yr Haf yn hwy, a<isp/>'r gauaf yn fyrach nag yma.
+<lb/>Y cynhauaf yn Mehefin a Gorphenaf; y tywydd
+<lb/>sych sydd weithiau am ddau fis heb fawr o wlaw.
+<lb/>Y Gauaf yn sych a rhewllyd, heb ond ychydig o
+<lb/>eira: nid oes bron neb yn rhwymo eu gwartheg,
+<lb/>ond yn eu porthi allan y maent.
+</p>
+<p>
+<lb/>Yn mhob gwlad y mae dynoliaeth yn agored i
+<lb/>ddamweiniau, clefydau, a marwolaethau, ac yn
+<lb/>fynych yn eu cyfarfod mewn gwlad ddyeithr, a
+<lb/>hyny o herwydd cam-arferiad ac anwybodaeth.
+<lb/>Yr oedd Ohio yn llawer mwy afiachus ychydig o
+<lb/>flynyddau yn ol nac ydyw yn bresenol; eto, nid
+<lb/>ydyw mor iachus a<isp/>'r hen Gymru fynyddig. Y
+<lb/>mae y dyeithriaid yn fwy agored i<isp/>'r afiechyd na<isp/>'r
+<lb/>gwladyddion genedigol; felly y mae yn ofynol
+<lb/>iddynt fod yn hynod o ofalus am eu hiechyd, trwy<!--comma del'd MR-->
+<lb/>beidio yfed gormod o ddwfr oer ar amser cynes,
+<lb/>pan yn chwys; arferyd a gwisgo dillad ysgafn y
+<lb/>yr Haf, a chynes yn y Gauaf; i beidio eistedd na
+<lb/>gorwedd ar y ddaear, a bod heb ddillad addas
+<lb/>hwyr a boreu yn y tywydd cynes. Y clefydau
+<lb/>mwyaf cyffredin ydynt, y cryd, y <hi rend="italic">billious</hi>, a<isp/>'r <hi rend="italic"><w>inter<lb rend="shy"/>mitting</w> fever</hi>, <hi rend="italic">plurisy</hi>, <hi rend="italic">rhumatism</hi>, a<isp/>'r <w>darfodedig<lb rend="shy"/>aeth.</w> Mewn afiechyd, y mae y cymydogion yn
+<lb/>hynod o gymwynasgar a ffyddlon, a meddygon yn
+<lb/>hawdd eu cael; a phan <orig reg="ddigwyddo">ddygwyddo</orig> marwolaeth, y
+<lb/>mae yr un cydymdeimlad a<isp/>'r caredigrwydd yn cael
+<lb/>ei ddangos. Bydd y marw yn cael ei gladdu yr ail
+
+<pb n="17"/>
+
+<lb/>dydd; ac yn ei ddilyn i<isp/>'r <orig reg="distaw">dystaw</orig> fedd, dyrfa ar
+<lb/>draed, ar geffylau, ac mewn cerbydau, gyda phob
+<lb/>symlrwydd a pharch; a gwasanaeth crefyddol,
+<lb/>addas i<isp/>'r amgylchiad, yn cael ei gyflawni: nid oes
+<lb/>ond ychydig o alar-wisgoedd i<isp/>'w gweled yma. Y
+<lb/>mae cyfreithiau hynod o dda yma mewn perthynas
+<lb/>i eiddo y trancedig&mdash;cyfiawnder i bawn yn ol
+<lb/>deddf natur a rheswm. Os bydd ewyllys wedi
+<lb/>cael ei gwneyd, hono fydd yn sefyll; os heb yr un,<!--comma MR-->
+<lb/>y weddw fydd yn cael, dros ei hoes, y drydedd ran,
+<lb/>a<isp/>'r ddwy ran arall yn cael eu rhanu yn gyfartal
+<lb/>rhwng y plant, pan ddelo yr ieuengaf i gyrhaedd
+<lb/>oedran gwr. Y mae priodasau yn cael eu <w>gwein<lb rend="shy"/>yddu</w> gan bregethwyr yr efengyl, neu Ynad <w>hedd<lb rend="shy"/>wch,</w> yn nh&ycirc; y ferch ieuanc, heb wahaniaeth amser,<!--comma MR-->
+<lb/>hwyr neu foreu. Nid yw yn arferiad cyffredin
+<lb/>gan rieni roddi llawer o feddiannau i<isp/>'w plant wrth
+<lb/>ddechreu eu byd; rhoddant ychydig iddynt i <w>gych<lb rend="shy"/>wyn,</w> ac wedi hyny cant ymdrechu drostynt eu
+<lb/>hunain. Y mae hyn yn fendith fawr i bobl <w>ieu<lb rend="shy"/>ainc,</w> ac yn unol &acirc; nattur y wladwriaeth, ac <w>egwydd<lb rend="shy"/>orion</w> ymdrechgar yr Americaniaid, sef dysgu
+<lb/>iddynt <orig reg="ymddibynnu">ymddybynu</orig> arnynt eu hunain, ac nid i
+<lb/>ddisgwyl wrth ereill, ond iawn ddefnyddio eu
+<lb/>meddianau trwy wybod eu gwerth.
+</p>
+<p>
+<lb/>Oddiwrth natur y llywodraeth, nid oes ond trethi
+<lb/>ysgafn. Ychydig sydd yn ofynol at draul y <w>wlad<lb rend="shy"/>wriaeth;</w> ond at wneuthur <orig reg="camlasau">camlesau</orig> a ffyrdd y mae
+<lb/>y rhan fwyaf o<isp/>'r trethi yn cael eu gosod, yr hyn oll
+<lb/>sydd er lleshad y cyffredin. Nid oedd cyflog ein
+<lb/><damage><supplied>l</supplied></damage>lywodraethwyr<!--ltr miss-->, a thraul y llywodraeth, y <w>flwydd<lb rend="shy"/>yn</w> ddiweddaf, ond &pound;35,000, yr hyn oedd yn cael
+<lb/>eu casglu oddiwrth 1,500,000 o drigolion<damage><supplied>.</supplied></damage> Y
+<lb/>mae pawb yn talu treth yn ol eu meddianau; yr
+
+<pb n="18"/>
+
+<lb/>amaethwr sydd ganddo 300 o Acrau o dir, a<isp/>'r <hi rend="italic">stock</hi>
+<lb/>yn gyflawn, ni bydd arno ond &pound;5, ac ychydig o
+<lb/>ddyddiau o waith ar y ffordd fawr. Y mae hefyd
+<lb/>ychydig o dreth, yn ol yr eiddo, at ysgolion; yn
+<lb/>hyn y mae y cyfoethog yn cynnorthwyo y tylawd,
+<lb/>i roddi dysg i<isp/>'w blant. Os bydd arian gan un ar y
+<lb/>ll&ocirc;g, rhaid talu punt y cant o dreth; ond ceir o 6
+<lb/>i 12 punt y cant yn hawdd am arian ar dir, neu
+<lb/><orig reg="fechn&iuml;aeth">feichniaeth</orig> diogel. Am dreth y tylodion, anaml
+<lb/>yn Ohio y clywir s&ocirc;n am<dsp/>dani; ond am y degwm
+<lb/>ni chrybwyllir am<dsp/>dano ond mewn diolchgarwch
+<lb/>nad oes y fath orthrymwr yn ein plith. Y mae
+<lb/>plwyfydd yn mhob swydd, ac addas ymgeledd i<isp/>'r
+<lb/>tylawd: ond anfynych y mae achos am hyn. Y
+<lb/>mae yma le, trwy gael iechyd, a byw yn sobr a
+<lb/>diwyd, fel y gall pawb gael eu digonedd o bob
+<lb/>peth angenrheidiol, heb ofyn dim i blwyf.
+</p>
+</div>
+
+<div>
+<head><lb/>LLYWODRAETH.</head>
+
+<p>
+<lb/><hi rend="smallcaps">Yn</hi> Ohio y mae cyfreithiau taleithiol yn cael <corr resp="transcr" sic="en">eu</corr><!--corr MR-->
+<lb/>gwneyd gan 36 o Seneddwyr, a 75 o <w>Gynnrychiol<lb rend="shy"/>wyr,</w> y rhai sy<isp/>'n cael eu dewis gan y wladwriaeth.
+<lb/>Y mae y gynghorfa yn eistedd yn flynyddol am
+<lb/>2 neu 3 mis, yn Columbus, a phob aelod yn cael 15
+<lb/>swllt y dydd, ar ei draul ei hun. Nid helaethrwydd
+<lb/>meddianau sydd yn codi dynion i<isp/>'r gynghorfa hon,
+<lb/>ond cymhwysderau; nid un g&wcirc;r mawr yn pleidio
+<lb/>y llall, ond rhydd ddewisiad pob dinasydd, y
+<lb/>tylawd fel y cyfoethog. Y mae Rhaglaw Ohio yn
+<lb/>cael ei ddewis yr un modd, bob yn ail blwyddyn;
+<lb/>ac nid yw yn cael ond &pound;300 yn flynyddol. Nid
+<lb/>yw holl draul llywodraeth Ohio, er ei maint a<isp/>'i
+<lb/>phoblogaeth, yn fwy na thraul ambell fonheddwr
+<lb/>yn y wlad hon: dyma sydd yn achosi fod y trethi
+
+<pb n="19"/>
+
+<lb/>mor isel. Y mae hawl a chyfleusderau i bawb i
+<lb/>sicrhau eu hiawnderau cyfreithlawn, trwy fod
+<lb/>Ustus heddwch yn mhob plwyf, a llys gwladol yn
+<lb/>chwarterol yn mhob swydd, i brofi troseddwyr, ac i
+<lb/>drefnu pob achos arall. Y mae pob prawf gerbron
+<lb/>y barnwr a<isp/>'r rheithwyr, megys yn y wlad hon, ac
+<lb/>eithaf cyfiawnder yn cael ei weinyddu.
+</p>
+</div>
+
+<div>
+<head><lb/>YSGOLION.<!--full stop MR--></head>
+<p>
+<lb/><hi rend="smallcaps">Mae</hi> haelioni y wladwriaeth wedi rhoddi drws
+<lb/>agored o flaen pawb, yn ddiwahaniaeth, i gael dysg
+<lb/>angenrheidiol i<isp/>'w gwneyd yn addas ddinasyddion
+<lb/>rhydd lywodraeth, ac i ymdrin &acirc; phob masnach
+<lb/>gyffredin. Ar wybodaeth a moesoldeb y werin y
+<lb/>mae colofnau y llywodraeth yn sefyll; os gwna
+<lb/>anwybodaeth ac annuwioldeb deyrnasu, fe ddaw
+<lb/>terfysg ac annhrefn, yn lle heddwch a llwyddiant;
+<lb/>am hyny y mae yr holl wlad yn ymdrechu i roddi
+<lb/>dysg i<isp/>'r ieuenctyd; a thra parhao yr ymdrech o
+<lb/>blaid dysg a moesau da, fe saif rhyddid gwladol a
+<lb/>chrefyddol, yn yr Unol Daleithiau, yn gadarn a
+<lb/>diysgog. Y mae yn Ohio 1,280 o blwyfydd, ac
+<lb/>ynddynt yn barod 7,500 o ysgolion dan nawdd y
+<lb/>llywodraeth. Y mae yr arian yn dyfod oddiwrth
+<lb/>y tir, a<isp/>'r dreth yn cael ei rhanu yn mhob plwyf,
+<lb/>yn ol rhifedi y plant: yn ein plwyf ni, y mae naw
+<lb/>o ysgoldai, a 756 o ieuenctyd rhwng 4 ac<!--ac MR--> 20 oed,
+<lb/>ac ysgol yn mhob un o<dsp/>honynt y rhan fwyaf o<isp/>'r
+<lb/>flwyddyn; y mae athrawon da, dysgedig, a diwyd
+<lb/>yn cael o 4 i 6 phunt y mis; athrawesau addas, o
+<lb/>3 i 4 bunt y mis, ar eu traul eu hunain. Y mae
+<lb/>yn Ohio lawer o athrofau, i feibion a merched i
+<lb/>gael helaethach dysg nag yn yr ysgolion cyffredin;
+<lb/>heblaw amryw o golegau gan y gwahanol bleidiau
+
+<pb n="20"/>
+
+<lb/>crefyddol; a dwy brif athrofa dan awdurdod y
+<lb/>llywodraeth. Yn yr ysgolion yma y mae lle i
+<lb/>bawb, os bydd ganddynt arian at y draul, sef o 30
+<lb/>i 50<!--MR--> punt yn y flwyddyn; ac ar ol iddynt fod yno
+<lb/>4 blynedd, maent yn cael y gradd A. B.; ac ar
+<lb/>ol bod 7 mlynedd, cant y gradd A. M. Barnaf
+<lb/>fod yn yr athrofeydd hyn yn bresenol o 800 i 1,000
+<lb/>o fyfyrwyr, a<isp/>'u rhifedi yn cynnyddu yn barhaus.
+</p>
+</div>
+
+<div>
+<head><lb/>CREFYDD.</head>
+<p>
+<lb/><hi rend="smallcaps">Ymffrost</hi> yr Unol Daleithiau ydyw, fod
+<lb/>crefydd yn llwyddo heb gynnorthwy sefydliadau
+<lb/>gwladol; fod capeli yn cael eu hadeiliadu, a
+<lb/>gweinidogion yn cael eu cynnal, heb dreth eglwys
+<lb/>na degwm, ond rhydd ac ewyllysgar gyfraniadau y
+<lb/>bobl. Yn sicr, nid oes digon o bregethwyr, na
+<lb/>chapeli, i ateb gofyniadau y trigolion; y mae yno
+<lb/>lawer o annuwioldeb yn uchel ei ben; eto, y mae
+<lb/>cynnydd crefydd, undeb a brawdgarwch y <w>gwa<lb rend="shy"/>hanol</w> enwadau, yn rhoddi lle i ddysgwyl y bydd
+<lb/>t&ecirc;g ddyffrynoedd y Gorllewin cyn hir, megys gardd
+<lb/>yr Arglwydd. Y mae llawer o gyhoeddiadau
+<lb/>crefyddol (yn Saesonaeg) yn cael eu cyhoeddi yn
+<lb/>wythnosol a misol, gair Duw, a llyfrau buddiol,
+<lb/>yn ymledaenu dros yr holl wlad. Y pleidiau
+<lb/>crefyddol mwyaf lluosog yn Ohio, yw y <w>Trefn<lb rend="shy"/>yddion</w> Wesleyaidd, Bedyddwyr, Presbyteriaid
+<lb/>Annibynwyr, Eglwys Esgobawl, Dutch Reformed,
+<lb/>Lutheriaid, a<isp/>'r Pabyddion; er fod yno lawer o
+<lb/>bleidiau crefyddol ereill, sef y <hi rend="italic">Shaking Quakers</hi>,
+<lb/>Campeliaid, <hi rend="italic">Universalists</hi>, os teilwng eu galw yn
+<lb/>enwadau crefyddol. Y mae llawer o eglwysi yn
+<lb/>weiniaid, a thrwy hyny dan anfantais i gynnal
+<lb/>gweinidogion; ond os bydd cynnorthwy yn ofynol,
+
+<pb n="21"/>
+
+<lb/>y mae gan y gwahanol enwadau gymdeithasau at
+<lb/>gynnal gweinidogion ffyddlawn yn y fath eglwysi;
+<lb/>ac yn mhen ychydig flynyddoedd, trwy fendith
+<lb/>Duw, byddant yn alluog i gynal pregethwyr eu
+<lb/>hunain, heb ofyn dim i neb, ac yn eu tro yn
+<lb/>cyfranu at angenrheidiau eglwysi gweiniaid ereill.
+<lb/>Y mae yr Ysgol Sabbothol, Cymdeithas Dirwest,
+<lb/>y Beibl, Traethodau, a<isp/>'r <hi rend="italic">Antislavery</hi>, yn cael eu
+<lb/>pleidio yn wresog, ac felly yn gwneyd llawer o
+<lb/>ddaioni.
+</p>
+</div>
+</div>
+
+<div>
+<head><lb/>PENNOD III.</head>
+
+<div>
+<head><lb/>HANES PADDY'S<!--caps MR--> RUN.</head>
+<p>
+<lb/><hi rend="smallcaps">Dyma<isp/>'r</hi> sefydliad Cymreig hynaf yn Ohio, yr
+<lb/>hwn sydd 20 milldir o Cincinnatti, yn swydd Butler.
+<lb/>Dywedir i<isp/>'r enw gwyddelig yma gael ei osod ar y
+<lb/>sefydliad hwn, o herwydd i Wyddel, pan yn <w>rhy<lb rend="shy"/>fela</w>&nbsp;&acirc;<isp/>'r Indiaid, syrthio i nant sydd yn rhedeg trwy
+<lb/>y dyffryn, a bron foddi ynddi; ac o ganlyniad
+<lb/>galwyd y nant a<isp/>'r dyffryn yn <hi rend="italic">Paddy's Run</hi>.
+<lb/>Ezekiel Hughes, Edward Bebb, John Roberts,
+<lb/>ac Ann Rowlands, (y Gymraes gyntaf a aeth i
+<lb/>wlad Ohio,) o Lanbrynmair, William a Morgan
+<lb/>Gwilym, o Langiwc, Morganwg, a ymadawsant &acirc;
+<lb/>Chymru, Awst 4, 1795, y rhai a gawsant lawer
+<lb/>iawn o drafferth a helbul y blynyddoedd cyntaf
+<lb/>yma, trwy lafurio yn ddiflino i orchfygu yr <w>anial<lb rend="shy"/>wch:</w> ac y mae yn debyg mai hwy, a<isp/>'r rhai a<isp/>'i <w>can<lb rend="shy"/>lynasant</w> i<isp/>'r Gorllewin pell, sydd wedi cael y tir
+<lb/>goreu o<isp/>'r holl Gymry sydd yn America. Y mae y
+<lb/>dyffryn hwn yn dir rhagorol, a<isp/>'r bryniau yn llawn
+<lb/>o goed a cherig. Y mae, bron, bob tyddyn yn
+<lb/>dir gwastad a bryniog. Y mae y tir yn addas i
+
+<pb n="22"/>
+
+<lb/>bob math o &ycirc;d, ond yn neillduol i<isp/>'r <hi rend="italic">Indian Corn</hi>.
+<lb/>Prif waith yr amaethwyr yw codi <hi rend="italic">Indian Corn</hi>, a
+<lb/>phesgi moch; rhai o<dsp/>honynt o 40 i 150 yn <w>flynydd<lb rend="shy"/>ol,</w> yn ol maint ac ansawdd eu tyddynod. Y mae
+<lb/>yma lawer o <orig reg="feysydd">feusydd</orig> o 10 i 25 o Acrau yn <w>cyn<lb rend="shy"/>nyrchu</w>&nbsp;<hi rend="italic">Indian Corn</hi> am o 30<!--MR--> i 40 mlynedd, heb
+<lb/>orphwysiad na gwrtaith. Y mae y tir bryniog yn
+<lb/>well at wenith, ceirch, a chloron, na<isp/>'r gwastadedd.
+<lb/>Y mae yr ardal hon yn un o<isp/>'r rhai iachaf yn y
+<lb/>dalaeth, ac wedi bod felly er ei sefydliad. Nid
+<lb/>oes ond o 200 i 250 o Gymry yn y lle, ac oll bron
+<lb/>yn amaethwyr yn meddianu eu tyddynod, y rhai
+<lb/>sy<isp/>'n cynwys o 80 i 400 Acrau, ar ba rai y mae
+<lb/>digonedd o goed tu ag at danwydd a <hi rend="italic">fences</hi>. Y
+<lb/>mae y tir yn ddrud ac yn anhawdd ei gael ar
+<lb/>werth yma; a dyna yr achos na <orig reg="bai">b'ai</orig> y Cymry yn
+<lb/>cynnyddu yn fwy. Y mae y tyddynod yma yn
+<lb/>werth o 6 i 18 punt yr Acr; yn cael eu rhentu am
+<lb/>o bunt i ddeg swllt ar hugain y flwyddyn; gweision
+<lb/>yn cael o 25 i 36 punt y flwyddyn, a<isp/>'r morwynion
+<lb/>o 15 i 20. Y mae cynnyrch y tir a<isp/>'r anifeiliaid yn
+<lb/>hawdd eu gwerthu am brisiau da. Yn 1804, <w>sef<lb rend="shy"/>ydlwyd</w> eglwys yma gan yr Annybynwyr, er nad
+<lb/>ydoedd ond 5 o<dsp/>honynt rhwng Cymry a Saeson.
+<lb/>Yn 1817, y dechreuwyd pregethu Cymraeg gyntaf
+<lb/>yma gan y diweddar Barch. Rees Lloyd. Y mae
+<lb/>un o<isp/>'r nifer fechan a ddechreuodd yr achos yma,
+<lb/>eto yn fyw, Mrs. Bebb, (chwaer y diweddar
+<lb/>Barch. J. Roberts, Llanbrynmair,) yr hon sy<isp/>'n
+<lb/>addurn hardd i<isp/>'r achos. Mai 26, 1836, <w>neilldu<lb rend="shy"/>wyd</w> i gyflawn waith y weinidogaeth, y Parch.
+<lb/>B. W. Chidlaw, A. M. o brif ysgol Miami, yr hwn
+<lb/>sy<isp/>'n enedigol o<isp/>'r Bala, Meirionydd, ond wedi ei
+<lb/>fagu yn Ohio. Wrth ddechreu ei weinidogaeth
+
+<pb n="23"/>
+
+<lb/>nid oedd yma ond o 25 i 30 o aelodau, &acirc;<isp/>'r <w>gwran<lb rend="shy"/>dawyr</w> yn anaml, ond yn awr y mae dros 100 o
+<lb/>aelodau, a chynydd mawr ar bob rhan o<isp/>'r gwaith.
+</p>
+</div>
+
+<div>
+<head><lb/>RADNOR.</head>
+<p>
+<lb/><hi rend="smallcaps">Enw</hi> plwyf yn swydd Delaware, ar Afon Scioto,
+<lb/>32 milltir o Columbus, ac 8 o dref Delaware. Y
+<lb/>mae y wlad yn wastad, ac yn dir da, ond braidd
+<lb/>yn isel a llaith. Dechreuwyd y sefydliad yma yn
+<lb/>1804. Clywais rai o<isp/>'r hen sefydlwyr yn darlunio
+<lb/>eu dechreuad yma yn y coed&mdash;heb ddim crefftwyr,
+<lb/>masnach-dai, melinau, na chapeli&mdash;eu dillad a<isp/>'u
+<lb/>hymborth oedd ffrwyth llafur eu dwylaw eu hunain.
+<lb/>Cyn hir, ar ol llawer o ymdrechiadau, daeth y
+<lb/>goedwig afluniaidd yn gartref hyfryd iddynt hwy
+<lb/>a<isp/>'u plant. Y mae yma fwy o Gymry nag un lle
+<lb/>arall yn Ohio<damage><supplied>.</supplied></damage> Y mae y tir yn addas i godi pob
+<lb/>math o &ycirc;d, ac yn rhagorol am wair a phorfa. Gellir
+<lb/>prynu tyddyn a rhan o<dsp/>hono wedi ei arllwyso, a
+<lb/>th&ycirc; ac ysgubor arno, o 4 i 6 phunt; y mae tir
+<lb/>gwyllt am yr haner neu lai. Gwell i ddyeithriaid,
+<lb/>os gallant, brynu tyddyn wedi ei arllwyso yn barod,
+<lb/>os na byddant yn gyfarwydd a hyny, fel y caffont
+<lb/>fywioliaeth yn uniongyrchol o<dsp/>hono. Y mae y
+<lb/>Cymry sydd yma, y rhan fwyaf, o swyddi <w>Trefald<lb rend="shy"/>wyn</w> a Brycheiniog. Y mae yma ddigonedd o
+<lb/>ysgolion yn nghyraedd yr holl drigolion, a phob
+<lb/>mantais i ddysgu eu plant. Y mae prisiau da i<isp/>'w
+<lb/>cael yn y marchnadoedd am bob peth a fyddo i<isp/>'w
+<lb/>gwerthu. Y mae gan y gwahanol enwadau <w>cref<lb rend="shy"/>yddol</w> eglwysi a chapeli. Y mae diwygiad mawr
+<lb/>wedi bod yma yn ddiweddar gan yr Annybynwyr;
+<lb/>eu gweinidog yw y Parch. R. Powell. Y mae
+<lb/>y Bedyddwyr a<isp/>'r Wesleyaid Cymreig, wedi uno
+
+<pb n="24"/>
+
+<lb/>&acirc;<isp/>'r Saeson, er fod pregethwyr Cymreig yn eu plith,
+<lb/>sef y Parch. D. Cadwalader ac Elias George. Y
+<lb/>mae yma le da i amaethwyr i fagu anifeiliaid, codi
+<lb/>&ycirc;d, a gwneuthur enllyn, o herwydd fod tiroedd yn
+<lb/>hawdd i<isp/>'w cael, a<isp/>'r marchnadoedd mor gyfleus.
+</p>
+</div>
+
+<div>
+<head><lb/>NEWARK A<isp/>'R WELSH HILLS.</head>
+<p>
+<lb/><hi rend="smallcaps">Y</hi> mae Newark yn dref ar gynydd mawr, ar
+<lb/>lan y gamlas sy<isp/>'n arwain o Lyn Erie i Afon Ohio.
+<lb/>Y mae llawer o grefftwyr o Gymry yn trigianu
+<lb/>yma, ac yn byw yn hynod o gysurus. I<isp/>'r <w>Gogledd<lb rend="hyphen"/>Orllewin</w> oddiyma y mae y Welsh Hills, lle y
+<lb/>mae rhai canoedd o<isp/>'r Cymry yn preswylio. Y
+<lb/>mae y wlad hon yn lled agored ac iachus, a phob
+<lb/>digonedd o ddwfr rhedegog ynddi. Dechreuwyd
+<lb/>y sefydliad hwn gan Theophilus Rees ac ereill, yn
+<lb/>1803, a chodwyd achos crefyddol gan y <w>Bedydd<lb rend="shy"/>wyr,</w> yr hwn sy<isp/>'n llwyddo dan weinidogaeth y
+<lb/>Parch. Thomas Hughes. Yn 1832, unodd yr
+<lb/>Annybynwyr a<isp/>'r Trefnyddion Calfinaidd, i godi
+<lb/>achos crefyddol, ac i adeiladu capel&mdash;y mae <w>llwydd<lb rend="shy"/>iant</w> yn dilyn eu hymdrechiadau&mdash;y Parch. W.
+<lb/>Parry, (Calfiniad) sydd yn llafurio yn eu plith,
+<lb/>ac yn yr ardaloedd oddiamgylch, lle y mae Cymry
+<lb/>yn cyfaneddu. Amaethwyr yw y bobl yn gyffredin.
+<lb/>Y mae y tir yn uchel o bris, ac yn anhawdd ei
+<lb/>gael, sef o 5 i 10 punt yr Acr. Wrth feddwl am
+<lb/>amgylchiadau presenol y Cymry sydd yn Ohio, y
+<lb/>rhai sydd wedi byw yn sobr, diwyd, ac ymdrechgar,
+<lb/>y mae cyfnewidiadau mawr yn eu sefyllfaoedd, ac
+<lb/>arnynt fawr achos i ddiolch am diriondeb Duw
+<lb/>tuag atynt. Y mae llawer o<dsp/>honynt wedi dechreu
+<lb/>heb ddim, ond yn awr yn perchen tyddyn o dir da,
+<lb/>a golwg am fywioliaeth gysurus.
+</p>
+</div>
+
+<pb n="25"/>
+
+<div>
+<head><lb/>COLUMBUS.</head>
+<p>
+<lb/><hi rend="smallcaps">Y</hi> mae yma lawer o ieuenctyd Cymru yn <w>gwas<lb rend="shy"/>anaethu,</w> ond nid llawer o deuluoedd, ac y maent
+<lb/>yn dyfod yma yn barhaus. Y mae yma ddigonedd
+<lb/>o waith i bawb, a chyflogau da; y gweision o 3 i
+<lb/>5 punt y mis, a<isp/>'r morwynion o 7 i 10 swllt yr <w>wyth<lb rend="shy"/>nos;</w> y crefftwyr yn ol eu gwaith a<isp/>'u medrusrwydd,
+<lb/>4s a 6d i 6s y dydd, a<isp/>'u bwyd. Y mae gan yr
+<lb/>Annybynwyr a<isp/>'r Bedyddwyr achos yma, ond yn
+<lb/>lled isel, a phregethu Cymraeg.
+</p>
+</div>
+
+<div>
+<head><lb/>CINCINNATTI.</head>
+<p>
+<lb/><hi rend="smallcaps">Gellir</hi> dywedyd yr un peth am y ddinas hon
+<lb/>ag a ddywedwyd am Columbus, ond fod yma lawer
+<lb/>mwy o Gymry yn byw. Yr unig anhawsder y
+<lb/>mae dyeithriaid yn wynebu arno wrth ddyfod i le
+<lb/>fel hyn, ydyw, i gael gwaith a chartref i ddechreu;
+<lb/>ac ar ol cael lle, a dangos eu hunain yn deilwng a
+<lb/>ffyddlon, nid rhaid ofni mwy. Mae y gweithydd
+<lb/>mawrion sydd yn y ddinas hon yn rhoddi <w>cyfleus<lb rend="shy"/>derau</w> i bob celfyddydwyr, a chyflogau uchel, yn ol
+<lb/>y gwaith, sef o 6 i 8 swllt y dydd; cant ymborth a
+<lb/>llety am o 10 i 16<hi rend="italic">s</hi>. yr wythnos. Adeiladant yma
+<lb/>agerdd-fadau, a thai helaeth; adeiliadwyd yma
+<lb/>400 o dai pridd-feini y flwyddyn ddiweddaf, ac y
+<lb/>mae y ddinas ar gynydd yn barhaus. Y mae yma
+<lb/>addoldai perthynol<!--MR--> i<isp/>'r Cymry. Y mae rhai o<isp/>'r
+<lb/>ieuenctyd, sef crefftwyr, ar ol cynnhilo ychydig o
+<lb/>arian, yn prynu tiroedd &acirc; hwynt mewn gwlad
+<lb/>newydd, ac yn myned iddynt i fyw; ereill a<isp/>'u
+<lb/>gosodant, ac a ddilynant eu galwedigaeth yn y
+<lb/>ddinas. Y mae yn Newport a Corington, yn
+<lb/>Kentucky, yr ochr arall i Ohio, weithydd haiarn,
+<lb/>a llawer o Gymry yn byw yno.
+</p>
+</div>
+
+<pb n="26"/>
+
+<div>
+<head><lb/>OWL CREEK.</head>
+<p>
+<lb/><hi rend="smallcaps">Enw</hi> afon yn Swydd Knox, 36 o filldiroedd
+<lb/>o Columbus, lle y mae amrywiol o deuluoedd
+<lb/>Cymreig yn byw. Y mae yr amaethwyr yma yn
+<lb/>gwneyd yn dda; y tir yn lled isel, ac yn dwyn &ycirc;d
+<lb/>a gwair lawer; a marchnad dda i gynnyrch y tir.
+<lb/>Y mae yma achos gan y Bedyddwyr, a 110 o
+<lb/>aelodau, a chapel helaeth; y Parch. John Thomas
+<lb/>yw eu gweinidog, yr hwn sydd yn pregethu yn
+<lb/>Gymraeg a Saesonaeg. Mae y tir wedi codi yn
+<lb/>ei bris yn ddiweddar; ac ychydig o dir coediog
+<lb/>sydd i<isp/>'w gael yma.
+</p>
+</div>
+
+<div>
+<head><lb/>PALMYRA.</head>
+<p>
+<lb/><hi rend="smallcaps">Plwyf</hi> yn Swydd Portage, 40 milldir o Lyn
+<lb/>Erie, a 22 o gamlas Ohio. Ni ddechreuodd y
+<lb/>Cymry yma yn yr anialwch, ond prynasant eu tir
+<lb/>ar ail law, ni roddasant y pryd hyny ond o 1 i 3
+<lb/>punt yr Acr am<dsp/>dano; ond yn awr y mae yn werth
+<lb/>o 3 i 8 punt. Y Cymro cyntaf a ddaeth yma oedd
+<lb/>John Davies, yn 1829. Nid yw ansawdd y tir
+<lb/>yma cystal a llawer o<isp/>'r sefydliadau ereill, ond ei
+<lb/>agosrwydd at y camlas a Llyn Erie, sydd yn ei
+<lb/>wneyd yn fanteisiol iawn. Y mae gan y gwahanol
+<lb/>enwadau crefyddol Cymreig, addoldai ac eglwysi
+<lb/>yma, a<isp/>'u hachos ar gynydd.
+</p>
+</div>
+
+<div>
+<head><lb/>GALIA A JACKSON.</head>
+<p>
+<lb/><hi rend="smallcaps">Yn</hi> y Swyddi yma y mae llawer o Gymry wedi
+<lb/>sefydlu yn ddiweddar, sef o 20 i 30 o filldiroedd
+<lb/>o Ohio; y mae y tir yn hynod o doredig a chleiog.
+<lb/>Dyma y wlad a<isp/>'r tir salaf a ddewisodd y Cymry
+<lb/>yn Ohio. Daeth yma ganoedd o Swydd Aberteifi
+<lb/>yn y blynyddau diweddaf; ond gwell o lawer a
+
+<pb n="27"/>
+
+<lb/>fuasai iddynt fyned 1,000 o filldiroedd yn mhellach,
+<lb/>i ddyffryn Mississipi, i gael tir o werth i<isp/>'w
+<lb/>arlwyso. Y mae yma ddigonedd o gerig a glo yn
+<lb/>y bryniau; ond tylawd am &ycirc;d a phorfa. Er nad
+<lb/>yw y wlad yn wastad a br&acirc;s, y mae yn lle hynod
+<lb/>o iachus, a<isp/>'r trigolion yn cael bywioliaeth gysurus<damage><supplied>.</supplied></damage>
+</p>
+</div>
+
+<div>
+<head><lb/>PUTNAM A VANWERT.</head>
+<p>
+<lb/>&ldquo;<!--? no closing quo-->Saith mlynedd yn ol Indiaid oedd yn meddianu
+<lb/>ag yn gwladychu yn y siroedd yma, yn y gongl
+<lb/>Ogledd-Orllewinol o<isp/>'r dalaeth. Gwerthodd yr
+<lb/>Indiaid y tir i<isp/>'r llywodraeth, a<isp/>'r llywodraeth ar ol
+<lb/>ei fesur, yn ei werthu i bwy bynag a ewyllysio ei
+<lb/>brynu am 6 swllt a 9 ceiniog yr acr. Yn bresenol
+<lb/>hawdd cael tyddynod wedi dechreu ei agoryd&mdash;t&ycirc;
+<lb/>wedi ei godi ag o 10 i 30 acr wedi ei arlwyso am o
+<lb/>2 i 4 punt yr acr, mae tyddynod yn cynnwys o
+<lb/>80 i 320 neu 640 acr yn gyffredin er fod rhai
+<lb/>Cymry wedi prynu o 800 i 1600 o acre.<!-- -e! --> Y mae yn
+<lb/>gorwedd ar Afon y Maumee, yr hon sydd yn rhedeg
+<lb/>i ben Gogleddol y Llyn Erie; y mae camlas yn
+<lb/>cael ei gwneyd trwyddi, o ddinas Cincinnatti i
+<lb/>Lyn Erie; ac y mae y wlad yn goediog, a<isp/>'r tir yn
+<lb/>fr&acirc;s, a<isp/>'r gwastadedd braidd yn wlyb. Yn 1834,
+<lb/>daeth amrywiol o Deuluoedd Cymreig o sefydliad
+<lb/>Paddy's Run, i ddechreu yma yn y coed; ac ar
+<lb/>ol <orig reg="dioddef">dyoddef</orig> ychydig o galedi, a llawer o lafur, y
+<lb/>mae ganddynt yn awr ffermydd agored, a digon
+<lb/>o bob peth at eu gwasanaeth er eu cysur. Y mae
+<lb/>yma yn bresenol o 40 i 50 o deuluoedd Cymreig,
+<lb/>a llawer yn dyfod yn barhaus. Y mae y tir yn codi,
+<lb/>ac nid llawer o dir y llywodraeth sydd i<isp/>'w gael, ond
+<lb/>y mae yma wlad o dir da, a gellir ei brynu ar yr
+<lb/>ail law heb wneuthur dim iddo, neu ac ychydig o
+
+<pb n="28"/>
+
+<lb/>agoriad arno am o 15 swllt i 2 bunt yr acr. Mae
+<lb/>yma gyfleusderau da i brynu tir i<isp/>'w adael i godi
+<lb/>pris, neu i fyned i fyw arno. Nid oes treth ar
+<lb/>dir y llywodraeth am bum mlynedd, felly, nid
+<lb/>oes traul wrth adael y tir i sefyll; ac fe fydd yn
+<lb/>sicr o ddyblu ei werth yn yr amser. Gan fod y
+<lb/>tir mor isel, a<isp/>'r camlesydd mor gyfleus, y mae yn
+<lb/>debygol y bydd yma yn fuan fwy o Gymry nac
+<lb/>un dalaeth arall yn Ohio. Y mae yma beth o dir y
+<lb/>llywodraeth eto heb ei werthu; ond nid yw o<isp/>'r
+<lb/>radd oreu. Y mae yn hawdd cael tyddynod a
+<lb/>pheth diwygiad arnynt; ac os gall dyeithriaid eu
+<lb/>cael, dyma y rhai goreu iddynt i<isp/>'w prynu. Y mae
+<lb/>yma lawer o bobl grefyddol, ond gan fod y wlad
+<lb/>mor newydd, nid oes eglwysi wedi eu ffurfio eto,
+<lb/>nac addoldai wedi eu cyfodi; y mae gan yr <w>Anny<lb rend="shy"/>bynwyr</w> bregethwr yma, ac y maent yn paratoi i
+<lb/>sefydlu achos.
+</p>
+</div>
+
+<div>
+<head><lb/>UTICA.</head>
+<p>
+<lb/><hi rend="smallcaps">Yn</hi> y ddinas hon, yn cynnwys 11,000 o <w>drigol<lb rend="shy"/>ion,</w> y mae lluoedd o Gymry yn byw, a golwg
+<lb/>gysurus a llwyddianus arnynt, yn gymeradwy fel
+<lb/>cenedl, ac yn ddiwyd a defnyddiol yn eu <w>galwedig<lb rend="shy"/>aethau.</w> Y mae y cyfryw ag sydd yn y ddinas yn
+<lb/>fasnachwyr, celfyddydwyr, ac mewn gwasanaeth;
+<lb/>ond yn y wlad oddiamgylch, y maent yn <w>amaeth<lb rend="shy"/>wyr,</w> yn trin y tir, ac yn cadw gwartheg. Y mae
+<lb/>y ddinas hon ar wastadedd ar lan Afon Mohawk,
+<lb/>mewn dyffryn yr hwn sy<isp/>'n dir da; ond yn mhell
+<lb/>oddiwrth yr afon, y mae y wlad yn doredig, heb
+<lb/>fod yn gwbl mor ffrwythlon, ond yn well am <w>weir<lb rend="shy"/>gloddiau</w> a phorfaoedd nag am &ycirc;d. Dechreuodd y
+<lb/>Cymry sefydlu yma yn 1800. Yr Annybynwyr
+
+<pb n="29"/>
+
+<lb/>Cymreig a agorodd yr addoldy cyntaf yn y ddinas
+<lb/>hon, sef yn y flwyddyn 1802; er nad oeddynt ond
+<lb/>13 mewn rhifedi y pryd hwnw, y mae ganddynt
+<lb/>yn awr gapel o bridd-feini hardd a helaeth, a 250
+<lb/>o aelodau, dan weinidogaeth y Parch. J. Griffiths.
+<lb/>Y mae yma achos gan y Bedyddwyr, wedi dechreu
+<lb/>yn 1803, a chanddynt gynnulleidfa luosog, ac ar
+<lb/>gynydd. Y mae yma gan y Trefnyddion Calfinaidd
+<lb/>gapel o bridd-feini, a llawer o wrandawyr, a<isp/>'r
+<lb/>achos yn cael ei gynal yn ffyddlon ganddynt. Y
+<lb/>mae gan yr enwadau uchod ysgolion, a phregethu
+<lb/>Cymraeg pob Saboth. Hyfrydwch mawr oedd
+<lb/>genyf weled fy nghydwladwyr, mewn gwlad <w>bell<lb rend="shy"/>enig,</w> yn mwynhau y fath freintiau crefyddol a
+<lb/>thymhorol. Y mae y tymhor haf yn gysurus
+<lb/>iawn yma, ond y Gauaf yn oer a maith&mdash;bydd eira
+<lb/>ar y ddaear am bedwar mis. Mae y tir yn ddrud,
+<lb/>ac yn anhawdd i<isp/>'w gael; y mae yma well lle i
+<lb/>gelfyddydwyr a gwasanaethwyr, nac i<isp/>'r amaethwyr.
+<lb/>Y mae yma alwad mawr am gelfyddydwyr a <w>gwas<lb rend="shy"/>anaethwyr;</w> y mae cyflogau y celfyddydwyr yn
+<lb/>4s a 6c y dydd, a<isp/>'u bwyd; gwasanaeth-ddynion o
+<lb/>3s i 4s; morwynion o 6s i 10s yn yr wythnos.
+<lb/>Y mae y dillad yn llawer drutach yma nag yn
+<lb/>Nghymru.
+</p>
+</div>
+
+<div>
+<head><lb/>DEERFIELD.</head>
+<p>
+<lb/><hi rend="smallcaps">Enw</hi> plwyf, ychydig i<isp/>'r Gogledd o Utica, lle y
+<lb/>mae llawer o Gymry yn trigianu, a<isp/>'r rhan fwyaf
+<lb/>o<dsp/>honynt yn meddianu tir, ac yn gwneuthur caws,
+<lb/>ymenyn, &amp;c., ac yn cael bywioliaeth gysurus.
+<lb/>Y mae y wlad yn doredig, a<isp/>'r tir yn ganolig o dda,
+<lb/>ac wedi ei phoblogi yn aml. Ychydig o dir
+<lb/>coediog sydd yma, ond a berthyn i<isp/>'r tyddynod sydd
+
+<pb n="30"/>
+
+<lb/>wedi eu harllwyso. Y mae gan y gwahanol <w>enw<lb rend="shy"/>adau</w> crefyddol gapeli, a phregethu yn Saesoneg.
+<lb/>Y Parch. J. Griffiths, Utica, yw gweinidog yr
+<lb/>Annybynwyr yn y lle hwn; a rhifedi yr aelodau
+<lb/>yw 50 neu 60; eu capel sydd o goed.
+</p>
+</div>
+
+<div>
+<head><lb/>FFLOYD.</head>
+<p>
+<lb/><hi rend="smallcaps">Plwyf</hi>, sydd 12 milldir o Utica, lle y mae
+<lb/>llawer o Gymry yn byw. Amaethwyr ydynt yn
+<lb/>gyffredin, yn ddiwyd ac ymdrechgar yn y pethau a
+<lb/>berthynant i<isp/>'r bywyd hwn, a<isp/>'r hwn a fydd. Mae
+<lb/>yma ddau gapel Cymraeg, un gan y Trefnyddion
+<lb/>Calfinaidd, a<isp/>'r llall gan yr Annybynwyr. Bethesda
+<lb/>yw enw capel yr Annybynwyr: yr Aelodau sydd o
+<lb/>40 i 50, dan weinidogaeth y Parch. Hugh Lewis.
+</p>
+</div>
+
+<div>
+<head><lb/>STEUBEN.</head>
+<p>
+<lb/><hi rend="smallcaps">Enw</hi> plwyf sydd 20 milldir i<isp/>'r Gogledd o Utica,
+<lb/>lle na welir ond epil Gomer yn ei boblogi yn
+<lb/>gyffredin. Pan mewn cymanfa yma, wrth edrych
+<lb/>ar y dyrfa luosog a siriol oedd yn gwrandaw, eu
+<lb/>gwynebau gwrid-coch iachus, a<isp/>'r bryniau <w>gwyrdd<lb rend="shy"/>leision</w> oddiamgylch, meddyliais fy mod wedi
+<lb/>cyrhaedd gwlad Gwalia. Y mae yr amaethwyr,
+<lb/>yn gyffredin, yn byw ar eu tiroedd eu hunain.
+<lb/>Nid ydynt yn codi llawer o &ycirc;d, ond gweirgloddiau
+<lb/>a phorf&auml;u yw eu tiroedd yn gyffredin. Y mae
+<lb/>caws ac ymenyn yr ardaloedd hyn yn uchel eu
+<lb/>clod yn mhell ac yn agos. Y maent yn cadw yr
+<lb/>ymenyn mewn tybiau o 100 i 120 pwys yr un, ac
+<lb/>yn ei werthu yn yr Hydref, yn Utica, am o 9c. i
+<lb/>swllt y pwys; oddiyno anfonant ef ar y gamlas i
+<lb/>New York. Y mae yr amaethwyr yn cadw o 10
+<lb/>i 40 o wartheg godro, yn ol helaethrwydd eu
+
+<pb n="31"/>
+
+<lb/>tyddynod.<!--MR--> Y c&wcirc;n sydd yn corddi y llaeth &acirc;<isp/>'r
+<lb/>peiriant, (<hi rend="italic">machine</hi>;) y mae hyn i<isp/>'w gael yn mhob
+<lb/>t&ycirc;, ac yn arbed llawer o lafur i<isp/>'r merched; nid
+<lb/>yw yn costio ond ychydig, sef o ddwy i dair punt.
+<lb/>Y mae y teuluoedd sydd yn y wlad er's <w>blynydd<lb rend="shy"/>oedd,</w> wedi llwyddo yn fawr yn y byd&mdash;hwy a<isp/>'i
+<lb/>plant yn meddianu tir, ac yn byw<!--MR--> yn y mwynhad
+<lb/>o bob bendith angenrheidiol i wneyd bywyd yn
+<lb/>ddymunol. Y mae plwyf arall, a elwir Remsen,
+<lb/>i<isp/>'r Dwyrain oddiyma, wedi ei boblogi gan y Cymry,
+<lb/>ac yn debyg o ran gwlad a manteision i Steuben.
+<lb/>Y peth mwyaf annghysurus yn y gymydogaeth
+<lb/>hon yw y tywydd oer a<isp/>'r eira mawr yn y Gauaf,
+<lb/>yr hwn sydd yn parhau o bedwar i bum mis. Y
+<lb/>mae y wlad hon yn iachach na<isp/>'r sefydliadau
+<lb/>Cymreig yn Ohio: nid yw y tir mor ffrwythlon,
+<lb/>a thymorau y flwyddyn mor gysurus. Yn Ohio,
+<lb/>ychydig sydd yn rhwymo eu gwartheg yn y
+<lb/>Gauaf; ond yma y maent yn gofalu am eu
+<lb/>hanifeiliaid megys yn Nghymru. Y mae yma
+<lb/>ddigonedd o waith i<isp/>'w gael yn yr Haf, ond nid
+<lb/>cymaint yn y Gauaf. Y mae gwasanaeth-ddynion
+<lb/>yn cael o ugain i ddeg punt ar hugain yn y <w>flwydd<lb rend="shy"/>yn,</w> a<isp/>'r merched o ddeg i bymtheg punt. Y mae
+<lb/>y tir yn anhawdd iawn i<isp/>'w gael yma: y mae y
+<lb/>tyddynod wedi eu harllwyso, ac adeiliadau
+<lb/>da arnynt, o wyth i ddeuddeg punt yr Acr. Y
+<lb/>mae adeiliadau da i<isp/>'w gweled ar bob tyddyn,
+<lb/>a chyfleusderau da i wneyd melinau, &amp;c.; a <w>march<lb rend="shy"/>nadoedd</w> yn gyfleus iawn. Y mae crefydd a
+<lb/>dirwest yn llwyddo yn yr ardaloedd hyn. Y mae
+<lb/>gan yr Annybynwyr ddau o gapeli helaeth; yn un
+<lb/>o<dsp/>honynt y mae 220 o aelodau, ac yn y llall 50,
+<lb/>o dan weinidogaeth y Parch. R. Everett. Hefyd,
+
+<pb n="32"/>
+
+<lb/>yn Remsen, y mae ganddynt ddau o gapeli, ac yn
+<lb/>un o<dsp/>honynt 150 o aelodau, dan weinidogaeth
+<lb/>y Parch. Morris Roberts. Yn y flwyddyn
+<lb/>ddiweddaf, bu diwygiad mawr a grymus yn mhlith
+<lb/>yr Annybynwyr, ac y mae y gwaith yn llwyddo yn
+<lb/>barhaus. Y mae ganddynt ysgoldai, a manau
+<lb/>ereill i bregethu, heblaw a enwyd uchod. Y mae
+<lb/>yr Ysgol Sabbothol, a<isp/>'r Cymdeithasau Crefyddol,<!--comma MR-->
+<lb/>Cartrefol a Thramor, yn derbyn eu cynnorthwy.
+<lb/>Y mae yma lawer o Fedyddwyr yn yr ardaloedd
+<lb/>hyn; y mae ganddynt bedwar o addoldai, sef,
+<lb/>Bethesda, yn yr hwn y mae 110 o aelodau&mdash;Capel
+<lb/>y Bont 46&mdash;y ddau o dan weinidogaeth y Parch.
+<lb/>Jesse Jones&mdash;Bethel, yn Remsen, 50 o aelodau,
+<lb/>o dan weinidogaeth y Parch. David Michael&mdash;
+<lb/>Capel South Trenton, o dan weinidogaeth y Parch.
+<lb/>J. Richards. Methais gael gwybod rhifedi aelodau
+<lb/>a phregethwyr y Trefnyddion Calfinaidd; y mae
+<lb/>ganddynt bump o addoldai yn y gwahanol <w>gymyd<lb rend="shy"/>ogaethau</w> Cymreig. Mae gan y Wesleyaid un
+<lb/>capel ac agos 100 o aelodau; y <corr resp="transcr" sic="Parch,">Parch.</corr><!--corr MR--> J. Jones
+<lb/>sydd yn gweinidogaethu arnynt. Y mae yma bob
+<lb/>cyfleusderau crefyddol, ac ysgolion da i blant, yn
+<lb/>y sefydliadau hyn. Er nad ydyw y tir mor wastad
+<lb/>a br&acirc;s ag yn Ohio, y mae golwg byw yn gysurus
+<lb/>ar y miloedd o drigolion Cymreig sydd yn cartrefu
+<lb/>yn y wlad hon.
+</p>
+</div>
+
+<div>
+<head><lb/>DINAS NEW YORK.</head>
+<p>
+<lb/><hi rend="smallcaps">Y</hi> mae yma lawer iawn o Gymry yn byw; ond
+<lb/>nid cymaint o deuluoedd ag sydd o bobl ieuainc.
+<lb/>Y mae llaweroedd wedi gorfod aros yn y ddinas
+<lb/>hon o herwydd prinder arian i fyned yn mhellach;
+<lb/>ond ar ol iddynt ddyfod mewn gallu, y maent yn
+
+<pb n="33"/>
+
+<lb/>ymsymud yn mhellach i<isp/>'r Gorllewin: gweithwyr,
+<lb/>celfyddydwyr, a masnachwyr, yw y cyffredin o
+<lb/>honynt;<!--DSP--> ac y mae y rhai sydd yn llafurus, <w>ym<lb rend="shy"/>drechgar,</w> a sobr, a golwg gwych arnynt, a
+<lb/>digonedd o waith, a chyflogau da. Y mae yma
+<lb/>beth anhawsdra i ddyeithriaid i gael gwaith
+<lb/>ar y cyntaf, ond ar ol iddynt ddechreu, a
+<lb/>dyfod yn gymeradwy, nid rhaid iddynt ofni. Y
+<lb/>mae yma gapel helaeth, a chynulleidfa luosog,
+<lb/>gan yr Annybynwyr, dan weinidogaeth y Parch.
+<lb/>J. S. Jones. Hefyd y mae yma addoldai <w>Cym<lb rend="shy"/>reig</w> gan y Bedyddwyr a<isp/>'r Trefnyddion Calfinaidd.
+<lb/>Yn gyffredin, os bydd modd, gwell i<isp/>'r dyeithriaid
+<lb/>fyned ymlaen i<isp/>'r wlad nag aros yn y dinasoedd
+<lb/>ar lan y m&ocirc;r, yn neillduol bawb ag sydd a <w>theulu<lb rend="shy"/>oedd</w>&nbsp;<corr resp="transcr" sic="gadddynt">ganddynt</corr>.<!--MR-->
+</p>
+</div>
+
+<div>
+<head><lb/>PITTSBURG.</head>
+<p>
+<lb/><hi rend="smallcaps">Gelwir</hi> y ddinas hon yn gyffredin <hi rend="italic">Birmingham</hi>.
+<lb/>Y mae yn y ddinas yma a<isp/>'i hamgylchoedd, amryw
+<lb/>filoedd o Gymry, a<isp/>'r rhan fwyaf o<dsp/>honynt yn dyfod
+<lb/>o ddeheudir Cymru. Gweithfeydd glo, a haiarn, a
+<lb/>gwydr, sydd yma yn fwyaf neillduol. Y mae
+<lb/>golwg gwneuthur yn dda ar y rhan fwyaf o<isp/>'n <w>cyd<lb rend="shy"/>wladwyr,</w> er fod meddwdod yn llwyr <orig reg="ddifetha">ddyfetha</orig>
+<lb/>llawer yma fel yn Mrydain. Y mae yma <w>gyn<lb rend="shy"/>nulleidfa</w> luosog, ac achos blodeuog, gan yr <w>Anny<lb rend="shy"/>bynwyr,</w> dan weinidogaeth y Parch. Thomas
+<lb/>Edwards. Hefyd,<!--comma MR--> y mae yma eglwysi Cymreig
+<lb/>gan y Bedyddwyr a<isp/>'r Trefnyddion Calfinaidd.
+</p>
+</div>
+
+<div>
+<head><lb/>EBENSBURG.</head>
+<p>
+<lb/><hi rend="smallcaps">Y</hi> mae uchelderau mynyddoedd Allegany yn
+<lb/>breswylfod i lawer o Gymry<damage><supplied>.</supplied></damage> Dechreuwyd y
+
+<pb n="34"/>
+
+<lb/>sefydliad hwn yn 1796, a chan fod y tir yn lled
+<lb/>dylawd a<isp/>'r wlad yn fynyddig, nid oes yma fawr
+<lb/>o gynydd. Y mae yn debyg iawn i Gymru,
+<lb/>ond ei bod yn fwy coediog, yn iachus a hyfryd yn
+<lb/>yr Haf. Nid ydynt yn codi llawer o lafur, ond
+<lb/>yn cadw gwartheg a gwneyd enllyn. Y mae
+<lb/>gan yr Annybynwyr achos Cymreig yma, ac
+<lb/>addoldai yn y dref a<isp/>'r wlad, dan weinidogaeth y
+<lb/>Parch. W. Williams. Yma bu y Parch. George
+<lb/>Roberts yn ffyddlon lafurio am hir o flynyddoedd,
+<lb/>ne's i<isp/>'w hen ddyddiau, i raddau ei anghymwyso
+<lb/>i<isp/>'r gwaith; ac y mae yn gorphen ei fywyd defnyddiol
+<lb/>yn barchus yn ngolwg byd ac eglwys; a
+<lb/>gobeithio y bydd i haul ei fywyd fyned i lawr yn
+<lb/>ddi-boen, i wawrio am byth yn ardaloedd <w>anfarw<lb rend="shy"/>oldeb.</w> Y mae gan y Bedyddwyr achos a <w>gweinid<lb rend="shy"/>og</w> yma, er fod rhai o<dsp/>honynt wedi troi yn ddilynwyr
+<lb/>i Alexander Campell.
+</p>
+</div>
+
+<div>
+<head><lb/>POTTSVILLE.</head>
+<p>
+<lb/><hi rend="smallcaps">Y</hi> mae Pottsville yn y rhan Ddwyreiniol o
+<lb/>dalaeth Pensylvania. Y mae yma, ac yn <w>Miners<lb rend="shy"/>ville,</w> a Corbendale, lawer o weithfeydd glo a
+<lb/>haiarn. Nid oes yma amaethwyr, ond gweithwyr
+<lb/>ydynt, a<isp/>'r rhan fwyaf o<dsp/>honynt yn dyfod o <w>Dde<lb rend="shy"/>heudir</w> Cymru. Y mae gan y Cymry dri o <w>addol<lb rend="shy"/>dai,</w> a gweinidogion ymdrechgar perthynol iddynt.
+<lb/>Y mae y Parch. Evan B. Evans, yn llafurio yn
+<lb/>dderbyniol a llwyddiannus yn mhlith yr <w>Annybyn<lb rend="shy"/>wyr.</w>
+</p>
+<!--actually new DIV starts here-->
+<p>
+<lb/>Nid hawdd gwybod cryfder y gwahanol enwadau
+<lb/>crefyddol yn yr Unol Daleithiau, ond, mor agos
+<lb/>ag y gallwn <orig reg="ddeall">ddyall</orig>, eu bod yn debyg fel y canlyn:&mdash;
+
+<pb n="35"/>
+
+<table rows="5" cols="2">
+<row><cell><lb/>Annybynwyr</cell><cell>16 o Eglwysi 15 o Weinidogion.</cell></row>
+<row><cell><lb/>Bedyddwyr</cell><cell>13 --------- 9</cell></row>
+<row><cell><lb/>Trefn. Calfinaidd</cell><cell>12 --------- 10</cell></row>
+<row><cell><lb/>Wesleyaid</cell><cell>3 --------- 3</cell></row>
+<row><cell><lb/>Eglwys Loegr</cell><cell>2 --------- 1</cell></row>
+</table>
+</p>
+</div>
+</div>
+
+<div>
+<head><lb/>PENNOD IV.</head>
+
+<div>
+<p>
+<lb/><hi rend="smallcaps">Peth</hi> pwysig a difrifol yw ymadael &acirc; gwlad
+<lb/>ein genedigaeth, ein cartref, a<isp/>'n <corr resp="transcr" sic="cyfelllion">cyfeillion</corr>&mdash;teithio
+<lb/>miloedd o filldiroedd dros f&ocirc;r a thir, a bod yn
+<lb/>estroniaid mewn gwlad bell a dyeithr<damage><supplied>.</supplied></damage> Peth
+<lb/>anaddas iawn i neb fod yn ddifeddwl, ac mewn
+<lb/>anwybodaeth, wynebu taith annghynefin a hirbell;
+<lb/>y mae yn angenrheidiol ceisio cyfarwyddyd gan
+<lb/>yr Arglwydd, a difrifol <corr resp="transcr" sic="ystryied">ystyried</corr> y peth cyn
+<lb/>cychwyn. Y mae llawer o drigolion Cymru wedi
+<lb/>myned i America er llesiant mawr iddynt hwy
+<lb/>a<isp/>'u hiliogaeth, wedi cyfnewid tylodi am ddigonedd
+<lb/>o bob bendithion ag sydd yn gwneyd bywyd yn
+<lb/>ddymunol, ond nid heb lawer o anhawsderau, a
+<lb/>llawer o ymdrechiadau diflino i<isp/>'w mwynhau. Y
+<lb/>mae ereill drwy gyfnewid gwlad, wedi gwaethygu
+<lb/>eu sefyllfaoedd; eu holl ddisgwyliadau <w>hyfryd<lb rend="shy"/>lawn</w><!--MR--> wedi troi allan yn siomedigaeth a thor-calon
+<lb/>iddynt. Y mae America mor &euml;ang, ac o<isp/>'r fath
+<lb/>amrywiaethau o dir a manteision, y sefydliadau
+<lb/>Cymreig mor annhebyg i<isp/>'w gilydd, fel na bydd
+<lb/>darluniad cywir o un rhan, neu un sefydliad, ddim
+<lb/>yn ateb i<isp/>'r cwbl. Fel y mae gwahaniaeth mawr
+<lb/>rhwng dyffrynoedd ar lenydd Hafren, &acirc; mynyddig
+<lb/>wlad Meirionydd; felly yn gymwys yn yr Unol
+<lb/>Daleithiau, a<isp/>'r sefydliadau Cymreig yn y Dwyrain
+<lb/>a<isp/>'r Gorllewin. Dynion a theuluoedd, y rhai sydd
+<lb/>yn byw yn gysurus, a golwg am yr un fendith i<isp/>'w
+
+<pb n="36"/>
+
+<lb/>plant ar eu hol, afreidiol iddynt symud o wlad eu
+<lb/>genedigaeth, o herwydd nad allant ddysgwyl yn
+<lb/>amgen mewn un wlad arall. Nid hawdd-fyd a
+<lb/>chyfoeth, gyda diogi a diota, sydd i<isp/>'w ddysgwyl
+<lb/>wrth fyned i America. Cofier nad oes yno loches
+<lb/>glyd i<isp/>'r rhai sydd yn ffoi o afael y gyfraith wladol,
+<lb/>ond gallant fod yn sicr &ldquo;y goddiwedda eich <w>pech<lb rend="shy"/>od</w> chwi.&rdquo; Nid ffoi o gyrhaedd gofid, ymdrech,
+<lb/>a llafur y maent, ond i gyrhaedd gwell <w>cyfleus<lb rend="shy"/>derau</w> i lafurio, os bydd gwroldeb a chalon i<isp/>'w
+<lb/>defnyddio, nag sydd yn gyffredin yn y wlad hon.
+<lb/>Cynghoraf y rhai sydd heb arferyd &acirc; gweithio, ac
+<lb/>heb fawr o awydd at hyny, i beidio a chroesi y
+<lb/>dyfnder mawr. Ymroad a diwydrwydd yw <w>cymer<lb rend="shy"/>iad</w> pawb sydd yn llwyddo yn America, a hwy yn
+<lb/>unig sydd a hawl i ddisgwyl am fod yn gysurus a
+<lb/>llwyddiannus yn eu hamgylchiadau. Er fod y
+<lb/>cyflog yn fawr, nid oes yno le da i fyw wrth lafur
+<lb/>dynion ereill heb wneyd dim eu hunain. Y mae pob
+<lb/><hi rend="italic">Freeholder</hi> yno, os yn iach, ac yn trin tir, yn gofalu
+<lb/>ac yn llafurio ar ei dyddyn. Mae y plant yn cael
+<lb/>eu dysgu i lafurio, ac felly rhwng ymdrech rhieni
+<lb/>a<isp/>'u plant, y mae golud yn cynnyddu yn mhob
+<lb/>gwlad. &ldquo;Deisyfiad y diog a<isp/>'i lladd; canys ei
+<lb/>ddwylaw a wrthodant weithio: ond llaw y diwyd
+<lb/>a gyfoethoga.&rdquo; Y mae rhai pobl yn myned i
+<lb/>America, gan feddwl y bydd pob peth yn dylifo
+<lb/>iddynt, yn dysgwyl am ddim ond llwyddiant a
+<lb/>hyfrydwch parhaus, ond yn ddiameu y c&acirc;nt eu
+<lb/>siomi yn hyn yn ddirfawr. Ni weddai i neb fyned
+<lb/>i America, sydd yn &ldquo;cyfeiliorni trwy win, ac yn
+<lb/><orig reg="amryfuso">ymryfysu</orig> trwy ddiod gadarn,&rdquo; ni waeth iddynt
+<lb/>warth, dirmyg, bywoliaeth, a bedd y meddwyn
+<lb/>yma nag yno. Pob un ag sydd yn meddwl treulio
+
+<pb n="37"/>
+
+<lb/>ei amser mewn segurdod a diota, na ddysgwylied
+<lb/>gysur na llwyddiant yn y wlad lle y mae y diodydd
+<lb/>meddwawl mor rhadlawn a digonol. Dymunaf ar
+<lb/>bob un ag sydd am wynebu America, am fod o
+<lb/>egwyddor ac arferiad yn llwyr-ymataliwr <w>oddi<lb rend="shy"/>wrth</w> bob math o<isp/>'r diodydd meddwawl, gan nad
+<lb/>ydynt o ddim lles i gyfansoddiad, ond y mawr
+<lb/>ddrwg i bob dyn. Pobl, wedi cyrhaedd oedran
+<lb/>mawr a hen ddyddiau eu goddiweddyd, cynghoraf
+<lb/>hwynt gyda golwg ar eu cysur personol, i aros yn
+<lb/>ngwlad eu genedigaeth: ond os ydynt am wneuthur
+<lb/>daioni i<isp/>'w plant, trwy aberthu<!--MR--> peth o<isp/>'u cysur wrth
+<lb/>newid eu gwlad, gwell iddynt hwy a<isp/>'u teulu fyned i
+<lb/>America, yr hyn a fydd yn sicr yn fendith fawr
+<lb/>i<isp/>'w hiliogaeth. Ond yn awr pwy sydd yn debyg
+<lb/>o wella eu hamgylchiadau wrth gyfnewid gwlad?
+<lb/>Nid allaf ddywedyd yn benderfynol, ac <w>anffael<lb rend="shy"/>edig,</w> am fod hyny dan fendith yr Arglwydd,
+<lb/>yn <orig reg="ymddibynnu">ymddybynu</orig> arnynt eu hunain: ond gallaf
+<lb/>ddywedyd hyn, nad ydyw <hi rend="italic">myned yn unig</hi> i wlad
+<lb/>dda, yn gwneyd neb yn gyfoethog na chysurus.
+<lb/>Y mae yn ofynol iddynt ddysgwyl gwynebu peth
+<lb/>caledi, ac <orig reg="amddifadrwydd">ymddifadrwydd</orig> o lawer o bethau, ac i
+<lb/>fod yn llafurus a diwyd, onide byddant yn yr <corr resp="transcr" sic="uu">un</corr>
+<lb/>amgylchiad ac yr oeddynt cyn cychwyn. Rhieni,
+<lb/>y rhai sydd yn magu teuluoedd, a chanddynt eiddo
+<lb/>yn eu meddiant, ac yn methu, bron, a thalu eu
+<lb/>ffordd, er gwneyd pob ymdrech tuag at hyny,
+<lb/>byddai yn llawer iawn gwell i<isp/>'r cyfryw fyned i
+<lb/>America, lle y caent, yn ddiamau, cyn hir, weled
+<lb/>cyfnewidiad mawr ar eu byd, a hyny er gwell; y
+<lb/>mae yno, ar ol eu llafur a<isp/>'u hymdrech, lawer gwell
+<lb/>lle iddynt ddysgwyl cael mwynhau eu gwobr.
+<lb/>Y mae llawer o anhawsderau yn goddiweddyd
+
+<pb n="38"/>
+
+<lb/>dyeithriaid mewn gwlad bell&mdash;anadnabyddiaeth o
+<lb/>waith, ac iaith y lle; weithiau afiechyd a <w>siom<lb rend="shy"/>edigaethau;</w> ond er y cwbl, ar ol <orig reg="dioddef">dyoddef</orig>, a diflin
+<lb/>ymdrechu, fe fydd i<isp/>'r teulu well taledigaeth: ac yn
+<lb/>mhen y flwyddyn, gallant lawenhau fod gwenau
+<lb/>Duw arnynt, a<isp/>'u bod yn mhell o gyrhaedd yr <hi rend="italic">House
+<lb/>of Industry</hi>, ac fod ganddynt gartref cysurus, a
+<lb/>golwg am yr unrhyw gynysgiaeth i<isp/>'w plant, pan y
+<lb/>byddant hwy yn pydru yn y <orig reg="graean">graian</orig> oer. Pobl
+<lb/>ieuainc, sobr, diwyd, a ffyddlawn, morwynion a
+<lb/>gweision, <orig reg="ynghyd">yn nghyd</orig> a chelfyddydwyr cyffredin,
+<lb/>gweithgar, a medrus, sydd addas i fyned i America.
+<lb/>Y mae traul am ddilladu yn llawer mwy yno nag
+<lb/>yma, er hyny, ond iddynt fod yn gynnil, gallant
+<lb/>gadw llawer o<isp/>'u henill. Yn mhell yn y Gorllewin,
+<lb/>sef, Ohio, Indiana, ac Illinois, a<isp/>'r taleithiau newydd,
+<lb/>Jowa a Wisconsen, ydyw y lle goreu i gael tir da
+<lb/>am ychydig o arian. Y mae llaweroedd yn oedi
+<lb/>newid eu gwlad hyd ne's byddo <corr resp="transcr" sic="en">eu</corr> meddianau
+<lb/>bron wedi darfod, a braidd y bydd digon ganddynt
+<lb/>i<isp/>'w dwyn i dir, a thrwy hyny yn aros yn yr hen
+<lb/>daleithiau, neu yn dechreu mewn gwlad newydd,
+<lb/>dan lawer o anfanteision. Peth lled galed yw i
+<lb/>deulu ddechreu gydag ychydig o foddion mewn
+<lb/>gwlad estronol; ond gallaf ddweyd fod llawer
+<lb/>wedi gosod eu traed ar dir America heb ddim,
+<lb/>ond yn awr yn esmwyth eu hamgylchiadau, wedi
+<lb/>gwneyd eu hunain, trwy ymdrech, yn gysurus eu
+<lb/>byd. Ond eto, nid pawb sydd felly. Gwlad dda
+<lb/>y mae miloedd o hen Gymry wedi cael yr Unol
+<lb/>Daleithiau; a bydd gan eu plant achos priodol i
+<lb/>ddiolch yn barhaus am wrolder eu tadau yn
+<lb/>gwynebu y geirwon d&ograve;nau, i sefydlu yn yr <w>anial<lb rend="shy"/>wch,</w> a throsglwyddo iddynt etifeddiaeth hyfryd,
+
+<pb n="39"/>
+
+<lb/>a mwynhad o iawnderau dynol i farnu drostynt
+<lb/>eu hunain mewn pethau gwladol a chrefyddol.
+<lb/>Ychydig ar ol bod yn America, a dychwelyd i<isp/>'w
+<lb/>hen wlad, sydd yn dewis aros ynddi; eu tyniad
+<lb/>sydd yn ol i fyw a marw dan gysgod canghenau y
+<lb/><hi rend="italic">Tree of Liberty</hi>. Pobl ieuainc sydd wedi arfer &acirc;
+<lb/>gweithio, a chanddynt arian, y mae yn America
+<lb/>bob cyfleusdra iddynt i gael ll&ocirc;g da am<dsp/>danynt;
+<lb/>neu brynu tir mewn gwledydd newyddion, yr hwn,
+<lb/>trwy ei adael am ychydig flynyddau, fydd wedi
+<lb/>codi, a dyfod yn werthfawr iawn. Gormod o duedd
+<lb/>sydd yn y Cymry i aros yn yr hen sefydliadau,
+<lb/>neu i ddewis tir uchel a thoredig; ar ol gadael
+<lb/>cartrefi, a chyfleusderau crefyddol, oedd unwaith
+<lb/>yn eu meddiant; ni waeth iddynt ymdrechu i gael lle
+<lb/>da, a thir ffrwythlawn, fe fydd i<isp/>'r wlad gynnyddu,
+<lb/>a breintiau crefyddol i<isp/>'w chanlyn. Ond iddynt
+<lb/>hwy gadw gyda<isp/>'r arch yn bersonol a theuluaidd,
+<lb/>fe fydd moddion gras yn fuan yn eu cyraedd.
+<lb/>Nid oes yn bresenol lawer <corr resp="transcr" sic="or">o<isp/>'r</corr> dir y llywodraeth
+<lb/>heb ei werthu, yr hwn sydd yn 6<hi rend="italic">s</hi> a 6<hi rend="italic">c</hi> yr acr; ond
+<lb/>y mae digonedd yn mhellach i<isp/>'r Gorllewin, yr hwn
+<lb/>sydd yn lle manteisiol iawn i brynu, gyda golwg
+<lb/>ar gael tyddynod mewn amser dyfodol, neu i<isp/>'w
+<lb/>hail-werthu.
+</p>
+<p>
+<lb/>Pan ar y m&ocirc;r, clywais hen Sais o Loegr, wrth
+<lb/>ddychwelyd i<isp/>'w wlad, wedi cael ei siomi yn
+<lb/>America, yn dywedyd ei wrthwynebiadau yn ei
+<lb/>herbyn fel y canlyn:&mdash;1. Fod yno ormod o <w>gyd<lb rend="shy"/>radd</w> rhwng y gwas a<isp/>'r meistr, y ddau yn <w>cyd<lb rend="hyphen"/>weithio,</w> yn cyd-fwyta, ac yn cyd-gyfeillachu
+<lb/>&mdash;merch i <hi rend="italic">Independent Freeholder</hi> yn codi <w>oddi<lb rend="shy"/>wrth</w> y ford i wneyd lle i<isp/>'r gwas: a fu erioed y
+<lb/>fath beth?&mdash;ni allaswn ei <orig reg="ddioddef">ddyoddef</orig>.&mdash;2. Ni's gall
+
+<pb n="40"/>
+
+<lb/><hi rend="italic">Gentleman Farmer</hi> fyw yn America, y mae pawb
+<lb/>yno yn gweithio, ac heb hyn nid oes llwyddo.
+<lb/>Gyru fy ngweision, ac edrych arnynt, a bod yn
+<lb/>ddiymdrech fy hun, yw fy ffordd i; ond ni etyb
+<lb/>hyny yno; y mae yn rhaid i bawb weithio; ni
+<lb/>allaswn i byth blygu i hyn.&mdash;3. Dynion sydd
+<lb/>am gael cysuron yn eu bywyd, trwy dreulio eu
+<lb/>hamser mewn segurdod, diota, a chwmni difyr,
+<lb/>hela, a rhedeg ceffylau, er fod ganddynt <w>ddigon<lb rend="shy"/>edd</w> o arian, nid ydynt yn cael y parch sydd yn
+<lb/>ddyledus iddynt, nac ychwaith gyfleusderau i
+<lb/>fwynhau bywyd difyr.&mdash;4. Nid ydyw eu cwrw a<isp/>'u
+<lb/>gwirod cystal!! Y mae yn rhaid cyfaddef fod
+<lb/>llawer o wirioneddau yn y gwrthddywediadau
+<lb/>hyn, eto dymunaswn fod mwy. Wrth weled a
+<lb/>chlywed y dyn siomedig, braidd nad ofnais ei fod
+<lb/>ar y ffordd i fyned i ddiweddu ei ddyddiau o
+<lb/>fewn muriau yr <hi rend="italic">House of Industry</hi>; neu, o leiaf,
+<lb/>heb fod yn <hi rend="italic">Gentleman Farmer</hi>. Dyna <orig reg="enghraifft">angraifft</orig>
+<lb/>dda o ddynion, y rhai sydd yn anaddas i fyned i
+<lb/>America; canys hyn fydd eu rhan, naill ai bod
+<lb/>yn annedwydd yno, neu ddychwelyd adref wedi
+<lb/>cael eu siomi. Y dynion sydd a chymhwysderau
+<lb/>addas i<isp/>'r daith hon, ydynt y rhai sydd yn dysgwyl
+<lb/>cael dail surion, a chwpaneidiau chwerwon, yn
+<lb/>gymysgedig &acirc;<isp/>'r melus win; dyna y rhai na ch&acirc;nt
+<lb/>eu siomi wrth gyfnewid eu gwlad. Wrth fyned i
+<lb/>America y mae llawer o anhawsderau i<isp/>'w gwynebu,
+<lb/>sef gadael gwlad, teithio dros f&ocirc;r a thir, iaith ac
+<lb/>arferiadau newyddion i<isp/>'w dysgu, a dechreu y byd
+<lb/>drachefn&mdash;mewn gair, y mae myned i America yn
+<lb/>chwyldr&ouml;ad mewn bywyd dyn.
+</p>
+</div>
+
+<pb n="41"/>
+
+<div>
+<head><lb/>Y DAITH.</head>
+<p>
+<lb/><hi rend="smallcaps">Ychydig</hi> o bethau sydd yn talu y draul a<isp/>'r
+<lb/>drafferth i<isp/>'w cludo i America, am eu bod mor isel
+<lb/>eu pris, a hawdd i<isp/>'w cael yno fel yma. Dillad o
+<lb/>frethyn a lliain wedi eu gwneyd, gwelyau (y rhai
+<lb/>fydd barod ar y daith) ac ychydig o f&acirc;n bethau
+<lb/>ereill, sydd o werth eu cludo mor bell. Da fyddai
+<lb/>rhoddi gorchudd o liain bras am y gwelyau i<isp/>'w
+<lb/>cadw yn ddiogel ar y daith. Ceir llestri addas at y
+<lb/>fordaith, a chyfarwyddiadau beth fydd yn ofynol,
+<lb/>yn <hi rend="italic">Liverpool</hi>; rhwystr ac anhwylusdod parhaus
+<lb/>fydd i<isp/>'r teithwyr oddiwrth eu <hi rend="italic">luggage</hi>; goreu pwy
+<lb/>leiaf fydd o<dsp/>honynt. Y mae pob math o ddillad,
+<lb/>llestri pridd, a chyllill a ffyrch, yn llawer drutach
+<lb/>yno nag yma; ni cheir myned a dim, ond yr hyn
+<lb/><corr resp="transcr" sic="afyddo">a fyddo</corr><!--MR--> angen ar y teulu, heb dalu teyrnged (<hi rend="italic">duty</hi>)
+<lb/>am<dsp/>danynt. Yn gyffredin, byddaf yn gweled fod
+<lb/>arian yn well na llawer o <hi rend="italic">luggage</hi>, ar ol cyrhaedd
+<lb/>tir America. Mewn perthynas i gyfnewid arian, os
+<lb/>bydd aur Lloegr, (<hi rend="italic">Sovereigns</hi>) ni raid eu cyfnewid,
+<lb/>am eu bod yn gymeradwy trwy yr holl Unol
+<lb/>Daleithiau. Bydd yn well i deuluoedd, ar ol
+<lb/>cyrhaedd <hi rend="italic">Liverpool</hi>, gymeryd ystafell, (<hi rend="italic">room</hi>) a
+<lb/>byw ynddi ar eu hymborth eu hunain, hyd nes
+<lb/>y byddo y llong yn barod i gychwyn. <hi rend="italic">Liverpool</hi>
+<lb/>yw y lle goreu i gymeryd llong i fyned i America,
+<lb/>am fod yno rai yn hwylio yn wythnosol, ac weithiau
+<lb/>yn ddyddiol, a thrwy hyny yn rhoddi llawer o le i
+<lb/>ddewis. Mewn trefydd mawrion, fe fydd i<isp/>'r <w>teith<lb rend="shy"/>wyr</w> gyfarfod &acirc; phob math o ddynion; gwelant
+<lb/>lawer mewn rhith-gyfeillion, yn ymddangos yn
+<lb/>hynod o barod i<isp/>'w cynnorthwyo, trwy gymeryd
+<lb/>llong, a pharotoi ymborth iddynt; ond dylai pawb
+<lb/>fod yn wiliadwrus, i beidio a chredu pob peth a
+
+<pb n="42"/>
+
+<lb/>glywant, ond edrych a siarad drostynt eu hunain,
+<lb/>wrth gymeryd llong: ond fe fydd cynnorthwy
+<lb/>dynion ag sydd deilwng o ymddiriediad, ac yn
+<lb/>gyfarwydd &acirc; llongau, a pharotoi erbyn mordaith,
+<lb/>yn llawer o leshad a boddlonrwydd; dylai pawb
+<lb/>fod yn ofalus rhag iddynt gael eu cam-arwain a<isp/>'u
+<lb/>twyllo. Yr arwydd oreu fod llong yn myned i
+<lb/>hwylio yn ddioed, ydyw, pan y byddo wedi ei
+<lb/>llwytho; ac nid geiriau teg am gychwyn, ond cael
+<lb/>golwg ar y llwyth ; dyna y ffordd sicraf i wybod ei
+<lb/>hagosrwydd i gael codi ei hwyliau. Y mae rhai,
+<lb/>ar ol cymeryd llong, wedi gorfod aros yn <hi rend="italic">Liverpool</hi>,
+<lb/>weithiau, am amser maith, heb gael cychwyn yn
+<lb/>ol y cytundeb. Gan fod y llongau yn aros yn
+<lb/><hi rend="italic">Liverpool</hi> yn hwy na<isp/>'r addewid heb gychwyn,
+<lb/>byddai yn ddoethach i<isp/>'r teithwyr fynu cael eu
+<lb/>cytundeb yn ysgrifenedig ganddynt; ac addewid
+<lb/>am hyn a hyn y dydd, am bob diwrnod y byddant
+<lb/>yn gorfod aros am y llong tros yr amser penodedig.
+<lb/>Y draul am gario gyda<isp/>'r <hi rend="italic">Packets</hi>, (yn y <hi rend="italic">Steerage</hi>)
+<lb/>ydyw o 4 i 5 punt; yn y <hi rend="italic">Cabin</hi> am &pound;25. Ceir
+<lb/>myned gyda llongau Marsiandwyr da a chyflym,
+<lb/>am o 3 i bedair punt, yn y <hi rend="italic">Steerage</hi>; yn y <hi rend="italic">Cabin</hi> am
+<lb/>o 15 i 20 punt. Y mae llongau yr America yn
+<lb/>rhagori yn fawr ar rai Brydain i fyned yno; ac y
+<lb/>maent i<isp/>'w cael yn barhaus yn <hi rend="italic">Liverpool</hi>. Y mae
+<lb/><hi rend="italic">Packets</hi> yn wastad yn gadael y porthladd ar y
+<lb/>dydd pennodedig, os bydd y tywydd yn caniatau;
+<lb/>ond nid oes cymaint o ddal ar y lleill. Ar ol
+<lb/>cymeryd llong, gwell cael pob peth yn brydlawn
+<lb/>ar ei bwrdd; gosod y <hi rend="italic">luggage</hi> a<isp/>'r ymborth yn
+<lb/><orig reg="ddiogel">ddyogel</orig> cyn cychwyn, fel na byddo dim yn rhydd
+<lb/>i gael ei daflu yma a thraw ar y m&ocirc;r; gwell i<isp/>'r
+<lb/>Cymry barotoi bara, a blawd ceirch, ymenyn, caws,
+
+<pb n="43"/>
+
+<lb/>a chig, cyn gadael eu cartref&mdash;dyma yr ymborth
+<lb/>iachaf, a goreu ar y fordaith; ceir t&ecirc;, coffi, siwgr,
+<lb/>triagl, halen, &amp;c., yn <hi rend="italic">Liverpool</hi>. Dyna yr ymborth
+<lb/>sydd yn angenrheidiol, er y gall pawb fyned a
+<lb/>ddewisant. Rhaid parotoi ymborth gogyfer a 6
+<lb/>neu 8 wythnos; gwell gormod na rhy fach: ond
+<lb/>fe fydd y gweddill yn fuddiol ar ol cyrhaedd New
+<lb/>York. Gwell i ddyeithriaid, am ychydig amser
+<lb/>ar ol myned yno, ddilyn eu harferiad cyffredin o
+<lb/>fyw, fel y byddo eu hiechyd yn well. Nid oes
+<lb/>angen am wirodydd ar y fordaith; os byddant yn
+<lb/>ofynol fel meddyginiaeth, byddant i<isp/>'w cael gan y
+<lb/><orig reg="capten">Cadben</orig>; cadw y corff yn dymherus sydd yn beth
+<lb/>da iawn tuag at fwynhau iechyd ar y m&ocirc;r: am
+<lb/>hyny bydd ychydig o <hi rend="italic">Epsom salts</hi>&nbsp;<corr resp="transcr" sic="nen">neu</corr><!--MR-->&nbsp;<hi rend="italic">Rhubarb</hi> yn
+<lb/>llesol, os bydd angen am hyny. Iselder meddwl,
+<lb/>difaterwch, a segurdod, yw haner afiechyd y m&ocirc;r;
+<lb/>myned ar y bwrdd, a cherdded oddiamgylch, a
+<lb/>chyfeillach siriol gyda<isp/>'u gilydd, yw y meddyg
+<lb/>goreu i gadw rhagddo, ac hefyd i<isp/>'w wellhau. Ar y
+<lb/>m&ocirc;r, dylai pawb ymdrechu i gydymddwyn &acirc;<isp/>'u
+<lb/>gilydd, ac i fod yn gariadus a chymwynasgar, fel
+<lb/>y byddo eu taith yn gysurus, a phawb i ymadael
+<lb/>mewn tangnefedd. Ar ol cyrhaedd y tir, os yn
+<lb/>aros yn y porthladd, gwell iddynt ymdrechu am
+<lb/>waith yn ddioed; a bod yn ofalus am eu hiechyd,
+<lb/>eu cymeriad, a<isp/>'u llwyddiant, trwy beidio segura,
+<lb/>diota, a myned i gwmni afreolus. Dyma sydd
+<lb/>wedi drygu canoedd o ddynion ar ol cyrhaedd
+<lb/>America. Y mae yma le da i weision, a morwynion,
+<lb/>a chrefftwyr, yn y dinasoedd mawrion; ond nid
+<lb/>cystal i deuluoedd; gwell lle i<isp/>'r cyfryw mewn
+<lb/>gwlad neu bentrefi.
+</p>
+</div>
+
+<pb n="44"/>
+
+<div>
+<head><lb/>CYFARWYDDYD O NEW YORK.</head>
+<p>
+<lb/>Na wrandewch ar ffug-gyfeillion yma yn fwy
+<lb/>nag yn <hi rend="italic">Liverpool</hi>; ceir digon yn barod i<isp/>'ch <w>cyf<lb rend="shy"/>arwyddo,</w> ond gwell chwilio a barnu drostoch eich
+<lb/>hunain. Y mae <hi rend="italic">Offices</hi> yn New York i gael
+<lb/>gwybodaeth am y daith; yma ceir clywed a
+<lb/>gwybod pob peth, fel y gall pawb wybod y ffordd
+<lb/>oreu i fyned yn eu blaen. Os am fyned i Utica,
+<lb/>neu y rhanau Gogleddol o Ohio, gofyner am y fan
+<lb/>lle mae yr agerdd-fadau i Albany yn cychwyn;
+<lb/>yno<!--MR--> fe w&ecirc;l pawb drostynt eu hunain; felly am bob
+<lb/>man arall. Gan mai arian America a droir yma,
+<lb/>rhoddaf y prisiau yn ddolars&mdash;pob dolar yn <w>cyf<lb rend="shy"/>ateb</w> i 4s a 6d. Y daith a<isp/>'r prisiau fel y canlyn:&mdash;
+
+<table rows="8" cols="2">
+<row><cell><lb/>O New York i Albany, 160 mill. (agerdd-fad)......</cell><cell>2 ddolar</cell></row>
+<row><cell><lb/>O Albany i Utica<!--comma del'd MR--> 110 mill. (camlas)..............</cell><cell>1<isp/>&frac12; eto</cell></row>
+<row><cell><lb/>O Utica, i Buffalloe, 254 mill. (camlas)............</cell><cell>3<isp/>&frac34; eto</cell></row>
+<row><cell><lb/>O Buffalloe i Cleaveland, 193 mill. (agerdd-f&acirc;d)....</cell><cell>2<isp/>&frac12; eto</cell></row>
+<row><cell><lb/>O Cleaveland i Newark, 171 mill. (camlas)........</cell><cell>2 eto</cell></row>
+<row><cell><lb/>O Newark i Columbus, 40 mill. (camlas) ........</cell><cell><isp/>&frac34; eto</cell></row>
+<row><cell><lb/>O Columbus i afon Ohio, 82 mill. (camlas)........</cell><cell>1<isp/>&frac14; eto</cell></row>
+<row><cell><lb/>O Afon Ohio i Cincinnatti, 100 mill. (agerdd-f&acirc;d)..</cell><cell>1 eto</cell></row>
+<row><cell><lb/>Y daith oll yn 1,110 milldir.&mdash;Y draul oll yn 14<isp/>&frac34; dollars.</cell></row>
+</table>
+</p>
+<p>
+<lb/>Gwybydded pawb nad ydynt i gael eu hymborth
+<lb/>a<isp/>'u cludiad am y prisiau uchod, ond eu gwelyau
+<lb/>a<isp/>'u cludiad yn unig. Os <orig reg="byddir">byddis</orig> yn cymeryd y
+<lb/><hi rend="italic">Cabin Passage</hi>, bydd o 42 i 50 dollars. Gorphenir
+<lb/>y daith uchod gyda rhwyddineb cyffredin, mewn
+<lb/>o 15 i 18 o ddyddiau. Y ffordd i fyned i Putnam
+<lb/>a Vanwert, yn Ohio, ydyw o Cleaveland i
+<lb/>Perrysburg, ar Afon Maumee; ac oddiyno i Kalida,
+<lb/>neu Lima, mewn gwageni.
+</p>
+<p>
+<lb/>Taith arall i Cincinnatti, trwy Pensylvania:&mdash;
+
+<table rows="5" cols="2">
+<row><cell><lb/>O New York i Philadelphia, 100 mill. (agerdd-f&acirc;d)</cell>	<cell>1<isp/>&frac12; dol.</cell></row>
+
+<pb n="45"/>
+
+<row><cell><lb/>O Philadelphia i Columbia. 81 mill. (Rail-Road)....</cell><cell>1<isp/>&frac12; eto</cell></row>
+<row><cell><lb/>O Columbia i Pittsburg, 313 mill. (camlas)........ </cell><cell>4<isp/>&frac12; eto</cell></row>
+<row><cell><lb/>O Pittsburg i Cincinnatti, 500 mill.<!--full stop MR--> (agerdd-f&acirc;d)....</cell><cell>3 eto</cell></row>
+<row><cell><lb/>Y daith oll yn 994 milldir.&mdash;Y draul oll yn 10<isp/>&frac12; dollars.</cell></row>
+</table>
+</p>
+<p>
+<lb/>Y <hi rend="italic">Cabin Passage</hi> o 40 i 45 dollars. Gorphenir
+<lb/>y daith mewn o ddeg i ddeuddeg diwrnod. Y
+<lb/>mae yn ofynol i dalu am y <hi rend="italic">luggage</hi> wrth y cant,
+<lb/>os bydd mwy na deugain pwys.
+</p>
+<p>
+<lb/>Y neb a fyddo am fyned i Palmyra, dylent
+<lb/>ymadael &acirc;<isp/>'r gamlas yn Akron, 39 milldir o
+<lb/>Cleaveland; os i Radnor, gadael y gamlas yn
+<lb/>Columbus; os i Ebensburg, gadael y gamlas yn
+<lb/>Johnstown, 285 milldir o Philadelphia; os i Galia,
+<lb/>neu Jackson, gadael Afon Ohio yn Galliopolis,
+<lb/>270 milldir o Pittsburg. Gellir dyfod y ffordd
+<lb/>hon i Cincinnatti, ac oddiyno, ar y gamlas, i Piqua,
+<lb/>90 milldir; ac oddiyno, 40 neu 50 milldir, i <w>Put<lb rend="shy"/>nam</w> a Vanwert, mewn gwagen. Os am fyned i
+<lb/>Indianna, Illinois, Wisconsin, neu Iowa, i lawr
+<lb/>Afon Ohio ydyw y ffordd oreu.
+</p>
+<p>
+<lb/>Wrth deithio, gofaled pawb am beidio yfed dwfr
+<lb/>oer pan yn chwys; i beidio aros allan yn y nos; ac
+<lb/>o fwyta ymborth iachus yn brydlawn; a thrwy
+<lb/>wneuthur felly, ni byddant mor debyg o gael
+<lb/>afiechyd. Ar ol cyrhaedd pen y daith, cymeryd
+<lb/>amser, a gwrandaw ar gynghorion cyfeillion sydd
+<lb/>wedi bod yn hir yno, sydd beth hynod o lesiol.
+<lb/>Os bydd arian ganddynt, gwell iddynt brynu tir
+<lb/>wedi ei arlwyso; ond os na fydd ganddynt, gwell
+<lb/>iddynt brynu tir coed, o 20 i 40 o Acrau, a<isp/>'u crino,
+<lb/>trwy dori eu rhisgl hwynt, a<isp/>'u gadael am dair
+<lb/>blynedd, wedi hyny bydd yn hawdd i<isp/>'w arlwyso.
+<lb/>Ar ol iddynt brynu tir coediog, a thori eu rhisgl,
+<lb/>gwell iddynt gymeryd tir ar rent am dair blynedd,
+
+<pb n="46"/>
+
+<lb/>a chodi <hi rend="italic">stock</hi> dda arno, wedi hyny bydd y coed
+<lb/>wedi crino, ac yn hawdd i<isp/>'w llosgi, a<isp/>'r tir yn barod
+<lb/>i<isp/>'w arlwyso. Nid da i ddyeithriaid fyned yn
+<lb/>uniongyrchol i agoryd tir coediog, am fod cymaint
+<lb/>yn fwy o waith gydag ef na phe baent yn aros
+<lb/>iddynt grino.
+</p>
+</div>
+
+<div>
+<head><lb/>DYFFRYN MISSISSIPPI.</head>
+<p>
+<lb/><hi rend="smallcaps">Dyma</hi> yr enw a roddir i<isp/>'r rhan hono o<isp/>'r Unol
+<lb/>Daleithiau sydd yn cael ei ddwfrhau gan Afon
+<lb/>Mississippi, a<isp/>'i holl ganghenau, yr hwn sydd yn
+<lb/>gorwedd rhwng yr Allegany a<isp/>'r Mynyddoedd
+<lb/>Creigiog, yn 1,400 milldir o<isp/>'r De i<isp/>'r Gogledd;
+<lb/>ac yn 1,500 o<isp/>'r Dwyrain i<isp/>'r Gorllewin; yn cynwys
+<lb/>833,000,000 o gyfeiriau o dir. Yn y dyffryn
+<lb/>helaeth hwn y mae taleithiau Ohio, Indiana, <w>Illi<lb rend="shy"/>nois,</w> Missouri, Mechigan, Kentucky, Tennessee,
+<lb/>Mississippi, Alabama, Arkansas, Louisiana, Jowa,
+<lb/>a Wisconsin; <orig reg="ynghyd &acirc;">yn nghyda</orig> gwlad helaeth sydd yn
+<lb/>feddiannol gan yr Indiaid. Yn y flwyddyn 1790,
+<lb/>nid oedd yno ond 100,000 o bobl wynion; ond yn
+<lb/>bresenol y mae mwy na 7,000,000. Meddylir nad
+<lb/>oes un rhan o<isp/>'r byd yn cynwys y fath helaethrwydd
+<lb/>o dir da a ffrwythlawn a hwn. Y mae pob rhan o<isp/>'r
+<lb/>dyffryn yn cael ei ddwfrhau gan afonydd mawrion
+<lb/>a mordwyol; ac yn addas i wneyd camlasau a
+<lb/>ffyrdd. Nid oes ynddo un mynydd i<isp/>'w weled; y
+<lb/>tir yma a thraw yn fryniog; ond yn gyffredin yn
+<lb/>wastadedd. Y mae yn cael ei ranu yn ddwy ran,
+<lb/>sef yr <hi rend="italic">Isaf</hi> a<isp/>'r <hi rend="italic">Uchaf</hi>. Y mae yr Isaf yn y <w>De<lb rend="shy"/>heudir,</w> islaw arllwysiad Afon Ohio i<isp/>'r Mississippi,
+<lb/>yr hwn sydd yn cynwys saith o daleithiau, sef,
+<lb/>Kentucky, Tennessee, Alabama, Mississippi,
+<lb/>Louisiana, Arkansas, a Missouri, yn mha rai y
+
+<pb n="47"/>
+
+<lb/>maent yn codi cottwm, siwgr, tobacco, a rice: y
+<lb/>mae y gaethfasnach yn flodeuog yma hefyd. Mae
+<lb/>y tir yn wastad, ac yn hynod o fras a ffrwythlawn.
+<lb/>Ei afonydd ydynt y Mississippi, Missouri, y Goch,
+<lb/>Cumberland, Arkansas, Tazoo, Jabine, Alabama,
+<lb/>Ossage, &amp;c. Cyfrifir Mississippi yn un o<isp/>'r <w>afon<lb rend="shy"/>ydd</w> penaf yn y byd; y mae yn cario yr holl
+<lb/>ddyfroedd ag sydd yn rhedeg drwy y dyffryn
+<lb/>anferth hwn i<isp/>'r m&ocirc;r. Y mae ei chychwyniad o<isp/>'r
+<lb/>Llyn Ceder Coch Uchaf, (<hi rend="italic">Upper Red Ceder Lake</hi>,)
+<lb/>ac yn ymarllwys i gyfyngfor Mexico. Y mae
+<lb/>ei rhediad oddeutu tair mil o filldiroedd. Y mae ei
+<lb/>lled, gyferbyn a<isp/>'r Afon Missouri, o ddwy fil i
+<lb/>ddwy fil a phum cant o latheni. Yn New Orleans,
+<lb/>a thu isaf i hyny, y mae hi oddeutu chwech ugain
+<lb/>o droedfeddi o ddyfnder. Y mae ynddi lifeiriaint
+<lb/>mawrion ddwy neu dair gwaith yn y flwyddyn;
+<lb/>y cyntaf o<dsp/>honynt oddeutu dechreu y flwyddyn
+<lb/>newydd; a<isp/>'r olaf yn yr wythnos gyntaf yn mis
+<lb/>Gorphenaf, pryd y bydd lled yr Afon yn New
+<lb/>Orleans o 80 i 100 milldir o led.
+</p>
+<p>
+<lb/>Y mae y Dyffryn Uwchaf yn cynwys chwech
+<lb/>o daleithiau, sef Ohio, Indiana, Illinois, Michigan,
+<lb/>Jowa, a Wisconsin. Nid oes yma ddim caethion
+<lb/>&mdash;ond pawb yn rhyddion&mdash;a mawr yw y fendith
+<lb/>i<isp/>'r wladwriaeth yn gyffredinol, canys y mae y
+<lb/>taleithiau rhyddion yn cynnyddu mewn pob peth,
+<lb/>yn llawer mwy na<isp/>'r taleithiau caeth. Y mae y
+<lb/>tir yn dda, ac yn dwyn cnydau helaeth o <hi rend="italic">Indian
+<lb/>Corn</hi>, gwenith, haidd, rhyg, ceirch, cloron, &amp;c.
+<lb/>Ei afonydd ydynt Ohio, Wabash, Illinois, Rock,
+<lb/>Kaskaskia, Miami, Sciotio, Muskingum<!--MR-->, &amp;c. Y
+<lb/>mae yr hin yma yn fwy tymherus ac yn iachach
+<lb/>nag yn y Dyffryn Isaf. Y mae glo, plwm, halen,
+
+<pb n="48"/>
+
+<lb/>a haiarn i<isp/>'w cael<!--MR--> mewn llawer o fanau yma. Y
+<lb/>mae gweithfeydd plwm helaeth yn Illinois a <w>Mis<lb rend="shy"/>souri;</w> a haiarn, glo, a halen yn Ohio. Y mae
+<lb/>yma goed o bob rhywogaeth. Yn y fath ddyffryn
+<lb/>anferth a hwn y mae amrywiaeth o dywydd&mdash;
+<lb/>poeth ac oer&mdash;gwlyb a sych&mdash;iach ac afiach. Yn
+<lb/>y Dyffryn Isaf y mae poethder yn yr Haf, ac
+<lb/>ychydig o rew ac eira yn y Gauaf&mdash;braidd yn
+<lb/>Wanwyn a Haf parhaus. Yn Ohio, Indiana, &amp;c.,
+<lb/>y mae yn fwy tymherus yr Haf, ond yn oerach y
+<lb/>Gauaf&mdash;y pedwar tymhor fel yn y wlad hon; ond
+<lb/>fod yr Haf yn gynnesach ac yn hwy; a<isp/>'r Gauaf yn
+<lb/>fyrach. Nid yw y tywydd poeth <hi rend="italic">neillduol</hi> yn para
+<lb/>ond am ychydig ddyddiau; ac felly y tywydd
+<lb/>oeraf. Yn ardaloedd Cincinnatti, gwelais lawer
+<lb/>Gauaf heb braidd ddigon o eira i orchuddio y
+<lb/>ddaear. Y mae Afon Ohio yn rhewi yn gyffredin
+<lb/>bob Gauaf&mdash;Ond nid yw y Mississippi byth <corr resp="transcr" sic="felly,">felly.</corr>
+<lb/>Anaml y gwelir gwartheg dan d&ocirc;, ond yn cael eu
+<lb/>porthi allan. Y mae llawer o wahaniaeth rhwng
+<lb/>trigolion y ddau ddyffryn uchod&mdash;Yn yr <hi rend="italic">Isaf</hi> y
+<lb/>maent yn cynnal y gaethfasnach&mdash;yn byw ar lafur
+<lb/>annghyfreithlawn&mdash;yn ddiog&mdash;yn ddiymdrech&mdash;yn
+<lb/>falch&mdash;yn anfoesol&mdash;yn caru pob oferedd&mdash;ac yn
+<lb/>gyffredin yn ddiofn Duw. Ond yn yr <hi rend="italic">Uchaf</hi>, y
+<lb/>maent yn gyffredin yn gwbl groes i<isp/>'r nodweddiad<damage><supplied>.</supplied></damage>
+</p>
+</div>
+</div>
+
+<div>
+<lg>
+<head><lb/>ENGLYN.</head>
+<lb/><l>TEITHIAF<!--caps MR-->&mdash;hwyliaf f&ocirc;r heli&mdash;ar antur&mdash;</l>
+<lb/><l rend="indented">Mi <orig reg="warantaf">w'rantaf</orig> rhag siomi;</l>
+<lb/><l rend="indented">Caf yno waith maith i mi,</l>
+<lb/><l rend="indented">Ag <hi rend="smallcaps">Arian</hi> sy<isp/>'n rhagori.</l>
+<trailer><lb/><hi rend="smallcaps">Mervinian.</hi></trailer>
+</lg>
+
+<p>
+<lb/>LLANRWST: ARGRAFFWYD GAN J. JONES.
+</p>
+</div>
+</body>
+</text>
+</TEI.2>
