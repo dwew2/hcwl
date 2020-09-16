@@ -1,0 +1,177 @@
+body {background-color: #ffffff;
+font-family: Trebuchet MS, Arial, sans-serif;
+line-height: 22px;
+font-size: 12px;	
+text-align: left;
+}
+
+p, div, li { font-size: 12px;
+	text-align: left;
+	color:  #000000;
+}
+
+hr {color: #006c43; size="2"; width="90%"; text-align="left"; noshade; 
+}
+
+.foot_hr {size="1"; width="20%";
+}
+
+.foot {size="1"; width="20%";
+}
+
+ul { list-style-type: disc;
+}
+
+ol {list-style-type: lower-roman;
+}
+
+H1, H2, H3 {color: #ff3300;
+}
+
+H1 { font-size: 20px; text-align: center; padding-top: 2px;
+}
+
+H2 { font-size: 16px; font-style: italic; padding-top: 5px;
+}
+
+H3 { font-size: 14px;
+       padding-top: 8px;
+}
+
+H4 {font-size: 12px;
+	padding-top: 6px;
+	line-height: 16px;
+}
+
+H5 {font-size: 12px;
+	padding-top: 0px;
+}
+
+H6 {font-size: 12px;
+line-height: 12px;
+padding-top: 0;
+}
+
+li {padding-bottom: 6px;
+}
+
+table { font-size: 12px; border="0"; cellspacing="0"; cellpadding="0";
+}
+
+table.conc { width="350"; border="0"; cellspacing="0"; cellpadding="0"; line-height: 12px;
+}
+
+.title { font-style: italic;
+}
+
+.h2_title { font-style: normal;
+}
+
+.cited_text { font-style: italic;
+}
+
+.code { font-family: Monaco, Courier, Courier New;
+}
+
+.copyright_statement { font-size: 9px;
+	text-align: center;
+	line-height: 10px;
+}
+
+.corr { color: #ff3300;
+	font-style: italic;
+}
+
+.damage { color: #0432b1;
+}
+
+.end_material { font-weight: bold;
+	padding-bottom: 12px;
+}
+
+.english { color: #cc9900;
+    font-style: italic;
+}
+
+.eng { color: #cc9900;
+    font-style: italic;
+}
+
+.headword { color: #ff3300;
+}
+
+<!-- This class attribute should not be used, but still exists in some files -->
+.line_group { font-size: 12px;
+padding-bottom: 12px;
+}
+
+.ipa { font-family: Arial Unicode MS, DoulosSIL, Lucida Sans Unicode;
+}
+
+.lg { font-size: 12px;
+padding-bottom: 12px;
+}
+
+<!-- Line numbers -->
+.ln { font-style:normal;
+text-decoration:none;
+}
+
+.page_number { font-size: 12px;
+font-style: italic;
+font-weight: bold;
+color: #0432b1;
+padding-top: 12px;
+}
+
+.pg { font-size: 12px;
+font-style: italic;
+font-weight: bold;
+color: #0432b1;
+padding-top: 12px;
+}
+
+.sic {font-style: normal;
+color: #ff3300;
+}
+
+.speaker { font-weight: bold;
+}
+
+.stage { font-style: italic;
+padding-bottom: 12px;
+}
+
+.tag {color: #ffffff;
+font-size: 10px;
+}
+
+.term { text-decoration: underline;
+}
+
+.unclear { font-weight: bold;
+font-style: italic;
+}
+
+.v { color: #ff3300;
+font-weight: bold;
+}
+
+.front_material { font-weight: bold;
+	padding-bottom: 12px;
+}
+
+a { text-decoration: none;
+}
+
+a:link { color: #006c43;
+}
+
+a:active { color: silver;
+}
+
+a:visited { color: #cc9900;
+}
+
+a:hover   { text-decoration: underline;
+}

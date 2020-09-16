@@ -1,0 +1,91 @@
+
+body {background-color: #006c43;
+font-family: Trebuchet MS, Arial, sans-serif
+} 
+
+h1, h2, h3, h4, h5, h6, p, div, body {color: #FFFFFF;
+}
+
+h1 { font-size: 20px; text-align: center; padding-top: 2px;
+}
+
+h2 { font-size: 16px;
+      font-style: italic;
+      padding-top: 15px;
+}
+
+h3 { font-size: 14px;
+       padding-top: 15px;
+}
+
+h4 {font-size: 12px;
+	padding-top: 10px;
+}
+	
+h5 {font-size: 12px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 15px;
+}
+
+h6 {font-size: 12px;
+padding-top: 0px;
+}
+
+hr {color: #FFFFFF; size="2"; width="90%"; text-align="left"; noshade; 
+}
+
+p {	font-size: 12px;
+	line-height: 18px;	
+	text-align: justify;
+}
+
+div { font-size: 12px;
+	line-height: 18px;	
+	text-align: justify;
+}
+
+caption { align="bottom", "left";
+}
+
+.copyright_statement { font-size: 9px;
+	text-align: center;
+	line-height: 10px;
+	padding-top: 0px;
+}
+
+table { font-size: 12px; border="0" cellspacing="6" cellpadding="6";
+}
+
+.title { font-style: italic;
+}
+
+.english { color: #cc9900;
+    font-style: italic;
+}
+
+.eng { color: #cc9900;
+    font-style: italic;
+}
+
+.tag {color: #006c43;
+}
+
+A {	font-size: 12px;
+ font-weight: bold; 
+text-decoration: none;
+}
+
+A:link { 
+ color: #ffffff;
+}
+
+A:active { color: silver;
+}
+
+A:visited { color: #ff3300;
+}
+
+A:hover   { text-decoration: underline;
+}
+
