@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/xsl" href="verse_conc.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../verse_conc.xsl"?>
 <!DOCTYPE TEI.2 PUBLIC "-//TEI Consortium//DTD TEI P4//EN"
-"dtds/xteipvdmod.dtd" [
+"../dtds/xteipvdmod.dtd" [
 	<!ENTITY % Conc SYSTEM "dtds/conc.ent">
 <!--%Conc;-->
-	<!ENTITY % TEI.extensions.ent SYSTEM "dtds/hcwl.ent">
+	<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
 	%TEI.extensions.ent;
-	<!ENTITY % TEI.extensions.dtd SYSTEM "dtds/hcwl.dtd">
+	<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
 	%TEI.extensions.dtd;
 	<!ENTITY % TEI.prose 'INCLUDE'>
 	<!ENTITY % TEI.linking 'INCLUDE'>
 	<!ENTITY % TEI.figures 'INCLUDE'>
 	<!ENTITY % TEI.analysis 'INCLUDE'>
 	<!ENTITY % TEI.XML 'INCLUDE'>
-	<!ENTITY % ISOlat1 SYSTEM "dtds/iso-lat1.ent">
+	<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
 	%ISOlat1;
-	<!ENTITY % ISOlat2 SYSTEM "dtds/iso-lat2.ent">
+	<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
 	%ISOlat2;
-	<!ENTITY % ISOnum SYSTEM "dtds/iso-num.ent">
+	<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
 	%ISOnum;
-	<!ENTITY % ISOpub SYSTEM "dtds/iso-pub.ent">
+	<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
 	%ISOpub;
 ]>
 <TEI.2>

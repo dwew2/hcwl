@@ -71,6 +71,12 @@ Removed LB before L in poems; removed ABetc and transfered indentation to LG and
 </editorialDecl>
 </encodingDesc>
 
+    <profileDesc>
+        <langUsage>
+            <p>The text is in <rs id="cym">Welsh</rs>, with editorial notes in <rs id="eng">English</rs>).</p>
+        </langUsage>
+    </profileDesc>
+
 <revisionDesc>
 <change>
 <date>29 Aug 2004</date>

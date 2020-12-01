@@ -236,9 +236,11 @@ Inserted some foreign tags, but stopped ('end f.')
 <lb/><corr resp="transcr" sic="yu">yn</corr> ei law roddi nerth i ymryson; ag i orchfygu, yr
 <lb/>Hunan a<isp/><apo/>r trueni, Sydd yn fy Nghalon I ag eraill Amen.
 </p>
-<p><lb/><salute>Eich Gwasanaethydd distadl,</salute></p>
+<closer>
+<lb/><salute>Eich Gwasanaethydd distadl,</salute>
 
-<p><lb/><signed>THOMAS EDWARDS.</signed></p>
+<lb/><signed>THOMAS EDWARDS.</signed>
+</closer>
 </div>
 </div>
 <pb n="3"/>
