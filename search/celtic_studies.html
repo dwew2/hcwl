@@ -1,0 +1,76 @@
+<html>
+	<body style=
+		"background-color: rgb(255, 255, 255);
+		color: rgb(0, 0, 0);
+		font-family: Arial, Helvetica, sans-serif;"
+	>
+		<!-- <script src="hcwl_sketchengine_v4.txt.js"></script> -->
+		<script src="celtic_studies.js"></script>
+
+		<h3>Search</h3>
+		<div>
+			<label for="corpus">Corpus</label>
+			<select name="corpus" id="corpus" onchange="select_corpus()">
+				<option value="pwyllwb">PwyllWB</option>
+				<option value="hcwl">hcwl</option>
+			</select>
+		</div>		
+		<br>
+		<div>
+			<input type="text" 
+				id="search" 
+				name="search"
+				style="width: 300px;" 
+				>
+			<!-- ẏ -->
+			<!-- <button onclick="add_char('&#7823')">&#7823</button> -->
+			<!-- ỽ -->
+			<button onclick="add_char('&#7933')">&#7933</button>
+			<button onclick="search()">Search</button>
+		</div>
+		<br>
+		<div>
+			<input type="checkbox" id="regex" name="regex">
+			<label for="regex">Regex Search</label>
+		</div>
+		<div>
+			<input type="checkbox" id="markup" name="markup">
+			<label for="markup">Include Markup</label>
+		</div>
+		<div>
+			<input type="checkbox" id="accents" name="accents">
+			<label for="accents">Ignore Accents</label>
+		</div>
+		<div>
+			<input type="checkbox" id="welsh_v" name="welsh_v">
+			<label for="welsh_v">v=&#7933</label>
+		</div>
+		<div>
+			<input type="checkbox" id="case_sensitive" name="case_sensitive">
+			<label for="case_sensitive">Case Sensitive</label>
+		</div>
+		<div>
+			<input type="checkbox" id="whole_word" name="whole_word">
+			<label for="whole_word">Whole Word</label>
+		</div>
+		<br>
+		<div>
+			Show <input id="lines_before" type="number" min="0" max="5" value="0" onchange="on_lines()"> lines before
+		</div>
+		<div>
+			Show <input id="lines_after" type="number" min="0" max="5" value="0" onchange="on_lines()"> lines after
+		</div>
+		<div id="results" style="margin-top: 50px;"></div>
+
+		<script>
+			//text box enter
+			document.getElementById('search').addEventListener("keyup", ({key}) => 
+			{
+				if (key === "Enter") 
+				{
+					search()
+				}
+			})
+		</script>
+	</body>
+</html>
