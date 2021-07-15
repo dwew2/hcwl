@@ -299,7 +299,7 @@ function search()
 	// {
 	// 	res='No Results'
 	// }
-	res=`<div><u>${num_results} Results</u></div><br>`+res
+	res=`<div><u>${num_results} <span class="cymraeg">o Ganlyniadau</span> <span class="english">Results</span></u></div><br>`+res
 	document.getElementById("results").innerHTML = res
 }
 

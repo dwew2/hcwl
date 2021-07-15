@@ -1,3 +1,19 @@
+<!-- 
+Search = Chwilio
+Corpus = Corpws
+Regex Search = Chwilio Regex
+Include Markup = Cynnwys Tagiau
+Ignore Accents = Anwybyddu Acenion
+Case Sensitive =
+Whole Word = Geiriau Cyfan
+Show … lines before = Dangos … o linellau cyn yr allweddair
+Show … lines after = Dangos … o linellau ar ôl yr allweddair
+
+x Results = x o Ganlyniadau
+
+Also, in both languages, expand v=ỽ to English 'Treat ỽ as v' and Welsh 'Trin ỽ fel v'. 
+-->
+
 <html>
 	<head>
 		<link REL=STYLESHEET HREF="../hcwl2.css" TYPE="text/css" />
@@ -10,12 +26,12 @@
 	>-->
 		<script src="search.js"></script>
 
-		<h3>Search</h3>
+		<h3><span class="cymraeg">Chwilio</span> <span class="english">Search</span></h3>
 		<div>
-			<label for="corpus">Corpus</label>
+			<label for="corpus"><span class="cymraeg">Corpws</span> <span class="english">Corpus</span></label>
 			<select name="corpus" id="corpus" onchange="select_corpus()">
-				<option value="pwyllwb">PwyllWB</option>
-				<option value="hcwl">hcwl</option>
+				<option value="pwyllwb">PARSHCWL</option>
+				<option value="hcwl">Corpws Hanesyddol yr Iaith Gymraeg / Historical Corpus of the Welsh Language</option>
 			</select>
 		</div>		
 		<br>
@@ -29,39 +45,40 @@
 			<!-- <button onclick="add_char('&#7823')">&#7823</button> -->
 			<!-- ỽ -->
 			<button onclick="add_char('&#7933')">&#7933</button>
-			<button onclick="search()">Search</button>
+			<button onclick="search()">Chwilio / Search</button>
 		</div>
 		<br>
 		<div>
 			<input type="checkbox" id="regex" name="regex">
-			<label for="regex">Regex Search</label>
+			<label for="regex"><span class="cymraeg">Chwilio Regex</span> <span class="english">Regex Search</span></label>
 		</div>
 		<div>
 			<input type="checkbox" id="markup" name="markup">
-			<label for="markup">Include Markup</label>
+			<label for="markup"><span class="cymraeg">Cynnwys Tagiau</span> <span class="english">Include Markup</span></label>
 		</div>
 		<div>
 			<input type="checkbox" id="accents" name="accents">
-			<label for="accents">Ignore Accents</label>
+			<label for="accents"><span class="cymraeg">Anwybyddu Acenion</span> <span class="english">Ignore Accents</span></label>
 		</div>
 		<div>
 			<input type="checkbox" id="welsh_v" name="welsh_v">
-			<label for="welsh_v">v=&#7933</label>
+			<!-- <label for="welsh_v">v=&#7933</label> -->
+			<label for="welsh_v"><span class="cymraeg">Trin ỽ fel v</span> <span class="english">Treat ỽ as v</span></label>
 		</div>
 		<div>
 			<input type="checkbox" id="case_sensitive" name="case_sensitive">
-			<label for="case_sensitive">Case Sensitive</label>
+			<label for="case_sensitive"><span class="english">Case Sensitive</span></label>
 		</div>
 		<div>
 			<input type="checkbox" id="whole_word" name="whole_word">
-			<label for="whole_word">Whole Word</label>
+			<label for="whole_word"><span class="cymraeg">Geiriau Cyfan</span> <span class="english">Whole Word</span></label>
 		</div>
 		<br>
 		<div>
-			Show <input id="lines_before" type="number" min="0" max="5" value="0" onchange="on_lines()"> lines before
+			<span class="cymraeg">Dangos</span> <span class="english">Show</span> <input id="lines_before" type="number" min="0" max="5" value="0" onchange="on_lines()"> <span class="cymraeg">o linellau cyn yr allweddair</span> <span class="english">lines before</span>
 		</div>
 		<div>
-			Show <input id="lines_after" type="number" min="0" max="5" value="0" onchange="on_lines()"> lines after
+			<span class="cymraeg">Dangos</span> <span class="english">Show</span> <input id="lines_after" type="number" min="0" max="5" value="0" onchange="on_lines()"> <span class="cymraeg">o linellau ar ôl yr allweddair</span> <span class="english">lines after</span>
 		</div>
 		<div id="results" style="margin-top: 50px;"></div>
 
