@@ -287,7 +287,8 @@ function search()
 				//console.log(j)
 				if(utts[j].code!=null)
 				{
-					res+='<div style="font-family:courier;font-size:10pt">'+utts[j].code+'</div><br><br>'
+					//res+='<div style="font-family:courier;font-size:10pt">'+utts[j].code+'</div><br><br>'
+					res+='<div style="font-style: italic;font-size:smaller;">'+utts[j].code+'</div><br>'
 					break
 				}
 			}
