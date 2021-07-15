@@ -24,6 +24,7 @@ Also, in both languages, expand v=ỽ to English 'Treat ỽ as v' and Welsh 'Tri
 		color: rgb(0, 0, 0);
 		font-family: Arial, Helvetica, sans-serif;" 
 	>-->
+		<script src="FileSaver.js"></script>
 		<script src="search.js"></script>
 
 		<h3><span class="cymraeg">Chwilio</span> <span class="english">Search</span></h3>
@@ -67,7 +68,7 @@ Also, in both languages, expand v=ỽ to English 'Treat ỽ as v' and Welsh 'Tri
 		</div>
 		<div>
 			<input type="checkbox" id="case_sensitive" name="case_sensitive">
-			<label for="case_sensitive"><span class="english">Case Sensitive</span></label>
+			<label for="case_sensitive"><span class="cymraeg">Gwahaniaethu Maint Llythrennau</span> <span class="english">Case Sensitive</span></label>
 		</div>
 		<div>
 			<input type="checkbox" id="whole_word" name="whole_word">
@@ -80,6 +81,8 @@ Also, in both languages, expand v=ỽ to English 'Treat ỽ as v' and Welsh 'Tri
 		<div>
 			<span class="cymraeg">Dangos</span> <span class="english">Show</span> <input id="lines_after" type="number" min="0" max="5" value="0" onchange="on_lines()"> <span class="cymraeg">o linellau ar ôl yr allweddair</span> <span class="english">lines after</span>
 		</div>
+		<br>
+		<button onclick="download_result()"> Lawrlwytho canlyniad / Download result</button>
 		<div id="results" style="margin-top: 50px;"></div>
 
 		<script>

@@ -14,6 +14,7 @@ let corpora=
 let utts=[]
 let lines_before=0
 let lines_after=0
+let results_csv=''
 
 loadPosFile('PwyllWB.pos.txt')
 
@@ -170,7 +171,6 @@ function loadHtmlFile(filename)
 
 function search()
 {
-	let res=''
 	let search=document.getElementById('search').value //search string
 	let regex=document.getElementById('regex').checked
 	let markup=document.getElementById('markup').checked
@@ -179,71 +179,73 @@ function search()
 	let whole_word=document.getElementById('whole_word').checked
 	let case_sensitive=document.getElementById('case_sensitive').checked
 
+	//construct regex
+	let re
+	let re_expr
+	if(regex)
+	{
+		re_expr=search
+	}
+	else
+	{
+		re_expr=search
+
+		//escape special chars
+		re_expr=re_expr.replaceAll(/[|\\{}()[\]^$+*?.]/g, '\\$&')
+
+		// ẏ & y equivalent
+		re_expr=re_expr.replaceAll(/y/g,'[y\u1e8f]')
+
+		// v & ỽ equivalent
+		if(welsh_v)
+		{
+			re_expr=re_expr.replaceAll(/v/g,'[v\u1efd]')
+		}
+
+		//whole word
+		if(whole_word)
+		{
+			//re_expr='\\s'+re_expr+'\\s'
+			// \b doesn't work for non-ascii text
+			// match space or beginning/end with non-capturing groups
+			re_expr='(?:^|\\s)'+re_expr+'(?:$|\\s)'
+		}
+	}
+	let flags= 'g'+ (case_sensitive ? '':'i')
+	try
+	{
+		re=new RegExp(re_expr,flags)
+	}
+	catch
+	{
+		document.getElementById("results").innerHTML = 'Regex Error'
+		return		
+	}	
+	
+	//do search
 	let num_results=0
+	let res=''
+	results_csv=re_expr+'\n'
 	for(let [i,utt] of utts.entries())
 	{
 		let text=markup ? utt.text : utt.plain_text
 		let match=false
 		let text_to_search=text
-		let re
-		let re_expr
 
-		if(regex)
+		//remove accents
+		if(!regex && accents)
 		{
-			re_expr=search
-		}
-		else
-		{
-			//replace ẏ with y
-			//text_to_search=text_to_search.replaceAll(/\u1e8f/g,'y')
-			
-			//remove accents
-			if(accents)
-			{
-				text_to_search=text_to_search.normalize("NFD").replaceAll(/[\u0300-\u036f]/g,"")
-			}
-
-			// //replace welsh_v with v
-			// if(welsh_v)
-			// {
-			// 	text_to_search=text_to_search.replaceAll(/\u1efd/g,'v')
-			// }
-
-			re_expr=search
-
-			//escape special chars
-			re_expr=re_expr.replaceAll(/[|\\{}()[\]^$+*?.]/g, '\\$&')
-
-			// ẏ & y equivalent
-			re_expr=re_expr.replaceAll(/y/g,'[y\u1e8f]')
-
-			// v & ỽ equivalent
-			if(welsh_v)
-			{
-				re_expr=re_expr.replaceAll(/v/g,'[v\u1efd]')
-			}
-
-			//whole word
-			if(whole_word)
-			{
-				//re_expr='\\s'+re_expr+'\\s'
-				// \b doesn't work for non-ascii text
-				// match space or beginning/end with non-capturing groups
-				re_expr='(?:^|\\s)'+re_expr+'(?:$|\\s)'
-			}
+			text_to_search=text_to_search.normalize("NFD").replaceAll(/[\u0300-\u036f]/g,"")
 		}
 
 		//do test
 		try
 		{
-			let flags= 'g'+ (case_sensitive ? '':'i')
-			re=new RegExp(re_expr,flags)
 			match=re.test(text_to_search)
 		}
 		catch
 		{
-			res='Regex Error'
-			document.getElementById("results").innerHTML = res
+			document.getElementById("results").innerHTML = 'Regex Error'
 			return		
 		}	
 
@@ -256,30 +258,31 @@ function search()
 
 			//construct paragraph from lines_before to lines_after
 			let para=''
+			let csv=''
 			//include last line if lb tag was hyphenated
-			for(let j=i-(lines_before+utt.hyphenated ? 1:0); j<i; j++)
+			for(let j=i-lines_before-(utt.hyphenated ? 1:0); j<i; j++)
 			{
 				if(j>=0)
 				{
 					let u=utts[j]
 					para += markup ? u.text : u.plain_text
+					csv += markup ? u.text : u.plain_text
 				}
 			}
+
 			para+=text_highlighted //matched line
+			csv+=text
+
 			for(let j=i+1; j<i+1+lines_after; j++)
 			{
 				if(j<utts.length)
 				{
 					let u=utts[j]
 					para += markup ? u.text : u.plain_text
+					csv += markup ? u.text : u.plain_text
 				}
 			}
 			res+=para+'<br>'
-
-			//console.log(re)
-			//console.log(text)
-			//console.log(text_to_search)
-			//console.log(text_highlighted)
 
 			//look for next code
 			for(let j=i; j<utts.length; j++)
@@ -289,18 +292,19 @@ function search()
 				{
 					//res+='<div style="font-family:courier;font-size:10pt">'+utts[j].code+'</div><br><br>'
 					res+='<div style="font-style: italic;font-size:smaller;">'+utts[j].code+'</div><br>'
+					csv+='\n'+utts[j].code
 					break
 				}
 			}
+
+			results_csv+=csv+'\n'
 		}
 	}
 
-	// if(res=='')
-	// {
-	// 	res='No Results'
-	// }
 	res=`<div><u>${num_results} <span class="cymraeg">o Ganlyniadau</span> <span class="english">Results</span></u></div><br>`+res
 	document.getElementById("results").innerHTML = res
+
+	//console.log(results_csv)
 }
 
 function add_char(c)
@@ -311,6 +315,12 @@ function add_char(c)
 	// const [start, end] = [input.selectionStart, input.selectionEnd]
 	// input.setRangeText(c, start, end, 'preserve')
 
+}
+
+function download_result()
+{
+	var blob = new Blob([results_csv], {type: "text/plain;charset=utf-8"})
+	saveAs(blob, "results.txt")
 }
 
 //pure regex - failed!
