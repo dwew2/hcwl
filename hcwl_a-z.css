@@ -1,7 +1,7 @@
 body {
 	font-size: 11px;
-	background-color: #006c43;
-	font-family: Trebuchet MS, Arial, sans-serif;
+	background-color: #009e73;
+	font-family: Calibri, Trebuchet MS, Arial, sans-serif;
 	line-height: 12px;
 	padding: 0px;
 	margin: 0px;
@@ -9,7 +9,7 @@ body {
 }
 
 #content {
-	background-color: #006c43;
+	background-color: #009e73;
 	padding: 0px;
 	margin: auto;
 	voice-family: "\"}\""; 
@@ -77,12 +77,12 @@ ul {
 
 #nav li a:hover {
 	padding: 0px;
-	color: #cc9900;
+	color: #f0e442;
 }
 
 #nav li li a:hover {
 	padding: 0px;
-	color: #cc9900;
+	color: #f0e442;
 }
 
 li {
@@ -91,7 +91,7 @@ li {
 	width: 16px;
 	text-align: center;
 	cursor: default;
-	background-color: #006c43;
+	background-color: #009e73;
 }
 
 li ul {
