@@ -16,8 +16,17 @@ let lines_before=0
 let lines_after=0
 let results_csv=''
 
-loadPosFile('PwyllWB.pos.txt')
+//INIT
+select_corpus() //set to hcwl to begin
 
+//text box enter
+document.getElementById('search').addEventListener("keyup", ({key}) => 
+{
+	if (key === "Enter") 
+	{
+		search()
+	}
+})
 
 function select_corpus()
 {
@@ -66,8 +75,7 @@ function loadPosFile(filename)
 			//text=unescape(text)
 
 			//remove line endings
-			text=text.replaceAll(/\r/g,'')
-			text=text.replaceAll(/\n/g,'')
+			//text=text.replaceAll(/[\r\n]/g,'//')
 
 			let utts_array=text.split('<utt>')
 
@@ -98,12 +106,18 @@ function loadPosFile(filename)
 						utt.words.push([text,markup]) //[text,markup]
 						utt.plain_text+=(text+' ')
 					}
-					//remove special symbols
-					utt.plain_text=utt.plain_text.replaceAll('#','')
-					utt.plain_text=utt.plain_text.replaceAll('*','')
-					utt.plain_text=utt.plain_text.replaceAll('!','')
-					utt.plain_text=utt.plain_text.replaceAll('+','')
 				}
+				//remove line endings & tabs
+				utt.plain_text=utt.plain_text.replaceAll(/^[\s]+/g,'') //remove from beginning of string
+				utt.plain_text=utt.plain_text.replaceAll(/[\s]+$/g,'') //remove from end of string
+				utt.plain_text=utt.plain_text.replaceAll(/[\r\n]+/g,'//') //replace with // within string
+				utt.plain_text=utt.plain_text.replaceAll(/[\t]/g,' ')
+				//remove special symbols
+				utt.plain_text=utt.plain_text.replaceAll('#','')
+				utt.plain_text=utt.plain_text.replaceAll('*','')
+				utt.plain_text=utt.plain_text.replaceAll('!','')
+				utt.plain_text=utt.plain_text.replaceAll('+','')
+
 				utts.push(utt)
 			}
 
@@ -152,6 +166,13 @@ function loadHtmlFile(filename)
 			}
 
 			let plain_text=lb.innerText
+			//remove line endings & tabs
+			plain_text=plain_text.replaceAll(/^[\s]+/g,'') //remove from beginning of string
+			plain_text=plain_text.replaceAll(/[\s]+$/g,'') //remove from end of string
+			plain_text=plain_text.replaceAll(/[\r\n]+/g,'//') //replace with // within string
+			plain_text=plain_text.replaceAll(/[\t]/g,' ')
+
+			//remove markup
 			plain_text=plain_text.replaceAll(/\{[^]*?(\}|$)/g,'') // {...} or {...
 			plain_text=plain_text.replaceAll(/[^]*?\}/g,'') // ...}
 			plain_text=plain_text.replaceAll(/\[[^]*?(\]|$)/g,'') // [...] or [...
@@ -225,7 +246,7 @@ function search()
 	//do search
 	let num_results=0
 	let res=''
-	results_csv=re_expr+'\n'
+	results_csv='text\treference\n'//re_expr+'\n'
 	for(let [i,utt] of utts.entries())
 	{
 		let text=markup ? utt.text : utt.plain_text
@@ -292,7 +313,7 @@ function search()
 				{
 					//res+='<div style="font-family:courier;font-size:10pt">'+utts[j].code+'</div><br><br>'
 					res+='<div style="font-style: italic;font-size:smaller;">'+utts[j].code+'</div><br>'
-					csv+='\n'+utts[j].code
+					csv+='\t'+utts[j].code
 					break
 				}
 			}

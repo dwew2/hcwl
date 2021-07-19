@@ -19,20 +19,12 @@ Also, in both languages, expand v=ỽ to English 'Treat ỽ as v' and Welsh 'Tri
 		<link REL=STYLESHEET HREF="../hcwl2.css" TYPE="text/css" />
 	</head>
 	<body>
-	<!-- <body style=
-		"background-color: rgb(255, 255, 255);
-		color: rgb(0, 0, 0);
-		font-family: Arial, Helvetica, sans-serif;" 
-	>-->
-		<script src="FileSaver.js"></script>
-		<script src="search.js"></script>
-
 		<h3><span class="cymraeg">Chwilio</span> <span class="english">Search</span></h3>
 		<div>
 			<label for="corpus"><span class="cymraeg">Corpws</span> <span class="english">Corpus</span></label>
 			<select name="corpus" id="corpus" onchange="select_corpus()">
-				<option value="pwyllwb">PARSHCWL</option>
 				<option value="hcwl">Corpws Hanesyddol yr Iaith Gymraeg / Historical Corpus of the Welsh Language</option>
+				<option value="pwyllwb">PARSHCWL</option>
 			</select>
 		</div>		
 		<br>
@@ -85,15 +77,7 @@ Also, in both languages, expand v=ỽ to English 'Treat ỽ as v' and Welsh 'Tri
 		<button onclick="download_result()"> Lawrlwytho canlyniad / Download result</button>
 		<div id="results" style="margin-top: 50px;"></div>
 
-		<script>
-			//text box enter
-			document.getElementById('search').addEventListener("keyup", ({key}) => 
-			{
-				if (key === "Enter") 
-				{
-					search()
-				}
-			})
-		</script>
+		<script src="FileSaver.js"></script>
+		<script src="search.js"></script>
 	</body>
 </html>
