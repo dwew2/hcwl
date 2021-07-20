@@ -1,5 +1,5 @@
 body {background-color: #ffffff;
-font-family: Trebuchet MS, Arial, sans-serif;
+font-family: Calibri, Trebuchet MS, Arial, sans-serif;
 line-height: 22px;
 font-size: 12px;	
 text-align: left;
@@ -10,7 +10,7 @@ p, div, li { font-size: 12px;
 	color:  #000000;
 }
 
-hr {color: #006c43; size="2"; width="90%"; text-align="left"; noshade; 
+hr {color: #009e73; size="2"; width="90%"; text-align="left"; noshade; 
 }
 
 .foot_hr {size="1"; width="20%";
@@ -78,10 +78,10 @@ table.conc { width="350"; border="0"; cellspacing="0"; cellpadding="0"; line-hei
 	line-height: 10px;
 }
 
-.corr { color: #ff3300;
+.corr { color: #d55e00;
 }
 
-.damage { color: #0432b1;
+.damage { color: #0072b2;
 }
 
 .dateline { text-align: right;
@@ -99,10 +99,10 @@ table.conc { width="350"; border="0"; cellspacing="0"; cellpadding="0"; line-hei
     font-style: italic;
 }
 
-.cymraeg { color: #ff3300;
+.cymraeg { color: #d55e00;
 }
 
-.headword { color: #ff3300;
+.headword { color: #d55e00;
 }
 
 <!-- This class attribute should not be used, but still exists in some files -->
@@ -110,7 +110,7 @@ table.conc { width="350"; border="0"; cellspacing="0"; cellpadding="0"; line-hei
 padding-bottom: 12px;
 }
 
-.ipa { font-family: Arial Unicode MS, DoulosSIL, Lucida Sans Unicode;
+.ipa { font-family: Lato, Arial Unicode MS, DoulosSIL, Lucida Sans Unicode;
 }
 
 .lg { font-size: 12px;
@@ -125,19 +125,19 @@ text-decoration:none;
 .page_number { font-size: 12px;
 font-style: italic;
 font-weight: bold;
-color: #0432b1;
+color: #0072b2;
 padding-top: 12px;
 }
 
 .pg { font-size: 12px;
 font-style: italic;
 font-weight: bold;
-color: #0432b1;
+color: #0072b2;
 padding-top: 12px;
 }
 
 .sic {font-style: normal;
-color: #ff3300;
+color: #d55e00;
 }
 
 .speaker { font-weight: bold;
@@ -147,11 +147,11 @@ color: #ff3300;
 padding-bottom: 12px;
 }
 
-.super { color: #ff3300;
+.super { color: #d55e00;
 font-size: 9pt;  
 }
 
-.tag {color: #ffffff;
+.tag {color: #ebf1f2;
 font-size: 10px;
 }
 
@@ -162,7 +162,7 @@ font-size: 10px;
 font-style: italic;
 }
 
-.v { color: #ff3300;
+.v { color: #c2c2c2;
 font-weight: bold;
 }
 
@@ -173,7 +173,7 @@ font-weight: bold;
 a { text-decoration: none;
 }
 
-a:link { color: #006c43;
+a:link { color: #009e73;
 }
 
 a:active { color: silver;

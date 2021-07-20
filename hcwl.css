@@ -1,6 +1,6 @@
 
-body {background-color: #006c43;
-font-family: Trebuchet MS, Arial, sans-serif
+body {background-color: #009e73;
+font-family: Calibri, Trebuchet MS, Arial, sans-serif
 } 
 
 h1, h2, h3, h4, h5, h6, p, div, body {color: #ffffff;
@@ -32,7 +32,7 @@ h6 {font-size: 12px;
 padding-top: 0px;
 }
 
-hr {color: #FFFFFF; size="2"; width="90%"; text-align="left"; noshade; 
+hr {color: #ffffff; size="2"; width="90%"; text-align="left"; noshade; 
 }
 
 p, div {	font-size: 12px;
@@ -63,7 +63,7 @@ table { font-size: 12px; border="0" cellspacing="6" cellpadding="6";
     font-style: italic;
 }
 
-.tag {color: #006c43;
+.tag {color: #009e73;
 }
 
 a {	font-size: 12px;
@@ -78,7 +78,7 @@ a:link {
 a:active { color: silver;
 }
 
-a:visited { color: #ff3300;
+a:visited { color: #c2c2c2;
 }
 
 a:hover   { text-decoration: underline;
