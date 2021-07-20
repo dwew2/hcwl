@@ -165,7 +165,19 @@ function loadHtmlFile(filename)
 				}
 			}
 
-			let plain_text=lb.innerText
+			//replacement for innerText that does not include descendents
+			let node_text=''
+			for(let child of lb.childNodes)
+			{
+				if(child.nodeType==Node.TEXT_NODE)
+				{
+					node_text+=child.textContent
+				}
+			}
+
+			// let plain_text=lb.innerText
+			let plain_text=node_text
+
 			//remove line endings & tabs
 			plain_text=plain_text.replaceAll(/^[\s]+/g,'') //remove from beginning of string
 			plain_text=plain_text.replaceAll(/[\s]+$/g,'') //remove from end of string
@@ -180,10 +192,12 @@ function loadHtmlFile(filename)
 
 			let utt=
 			{
-				text:lb.innerText,
+				// text:lb.innerText,
+				text:node_text,
 				plain_text:plain_text,
 				code:tags,
-				hyphenated:hyphenated //hyphenated lb tag
+				hyphenated:hyphenated, //hyphenated lb tag
+				lb_node:lb
 			}
 			utts.push(utt)
 		}
@@ -246,7 +260,7 @@ function search()
 	//do search
 	let num_results=0
 	let res=''
-	results_csv='text\treference\n'//re_expr+'\n'
+	results_csv='testun/text\tcyfeiriad/reference\n'//re_expr+'\n'
 	for(let [i,utt] of utts.entries())
 	{
 		let text=markup ? utt.text : utt.plain_text
@@ -286,21 +300,21 @@ function search()
 				if(j>=0)
 				{
 					let u=utts[j]
-					para += markup ? u.text : u.plain_text
-					csv += markup ? u.text : u.plain_text
+					para += markup ? u.text : u.plain_text+' '
+					csv += markup ? u.text : u.plain_text+' '
 				}
 			}
 
-			para+=text_highlighted //matched line
-			csv+=text
+			para+=text_highlighted+' ' //matched line
+			csv+=text+' '
 
 			for(let j=i+1; j<i+1+lines_after; j++)
 			{
 				if(j<utts.length)
 				{
 					let u=utts[j]
-					para += markup ? u.text : u.plain_text
-					csv += markup ? u.text : u.plain_text
+					para += markup ? u.text : u.plain_text+' '
+					csv += markup ? u.text : u.plain_text+' '
 				}
 			}
 			res+=para+'<br>'
