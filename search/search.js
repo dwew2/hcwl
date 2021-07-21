@@ -1,3 +1,4 @@
+// ADD SECTION FOR EACH CORPUS - key should match the dropdown option value in search.html, type should be one of 'pos' or 'html'
 let corpora=
 {
 	pwyllwb:
@@ -11,6 +12,7 @@ let corpora=
 		type:'html'
 	}
 }
+
 let utts=[]
 let lines_before=0
 let lines_after=0

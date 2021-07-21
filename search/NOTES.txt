@@ -1,0 +1,6 @@
+To add a corpus:
+
+- include the data file in the search folder
+- add an option to the corpus selection dropdown in search.html
+- add a section to the corpora object in search.js with a key matching the option value
+
