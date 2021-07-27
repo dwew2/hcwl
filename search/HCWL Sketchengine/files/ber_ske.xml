@@ -1,0 +1,7850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../sketchengine.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+
+ <text id="BER">
+     
+
+
+
+     <text id="BWB_268-2">
+        <pb n="">
+        
+
+
+
+
+
+    <lb n="td. 7">"Anhawdd Ymadael."
+    </lb>
+
+
+    <lb n="1">HYD attoch benillion yn gyson i gyd,</lb>
+
+
+    <lb n="2">Yn gywraint rwy 'n gyrru y leni 'n ddi lid,</lb>
+
+
+    <lb n="3">I 'ch cofio ag i 'ch cyfarch naws annerch yn siwr,</lb>
+
+
+    <lb n="4">Un Edward Sion Edward da ei gariad yw 'r gwr.</lb>
+
+
+
+
+
+    <lb n="5">Hwsmon mwyneiddlan a diddan ei daith,</lb>
+
+
+    <lb n="6">Fe weithiai mewn heiddiant yn gywraint bob gwaith;</lb>
+
+
+    <lb n="7">Pan fyddo fo yn 'smala [~ ysmala] yn y Gaia' mi a 'i gwn,</lb>
+
+
+    <lb n="8">Clocsiwr pur drefnus a hwylus iw hwn.</lb>
+
+
+
+
+
+    <lb n="9">Wrth glywed eich canmol wr re&iuml;ol erioed,</lb>
+
+
+    <lb n="10">Am glocsen pur daclus wr trefnus i 'm troed,</lb>
+
+
+    <lb n="11">A wnaeth imi yrwan oer gwynfan ar gais,</lb>
+
+
+    <lb n="12">A lledu fy hopran yn llydan a 'm llais.</lb>
+
+
+
+
+
+    <lb n="13">Am b&acirc;r o glocs mawrion a hirion ar hynt,</lb>
+
+
+    <lb n="14">I 'm cadw ymhob [~ ym mhob] cornel rhag oerfel a gwynt,</lb>
+
+
+    <lb n="15">Gwnewch hwy o newydd wych beunydd o 'ch bodd,</lb>
+
+
+    <lb n="16">Ac imi danfonwch a rhoddwch hwy 'n rhodd.</lb>
+
+
+
+
+
+    <lb n="17">Rwyfi etto 'n dymuno ichwi eu llunio hwy 'n llawn,</lb>
+
+
+    <lb n="18">Crwyn dau o geffylau yn eu cefnau pe cawn;</lb>
+
+
+    <lb n="19">A gwadnau o goed gwydnion yn llyfnion o 'ch llaw</lb>
+
+
+    <lb n="20">Ni fynnai 'run [~ yr un] wernen na bedwen bren baw.</lb>
+
+
+
+
+
+    <lb n="21">Rhaid imi gael derwen mae 'n dirion y gwaith,</lb>
+
+
+    <lb n="22">I gerdded y dolydd ar mynydd oer maith,</lb>
+
+
+
+    <lb n="23">A rheini rhwng dwylath a thairllath o dew,</lb>
+
+
+    <lb n="24">Hwy fyddan yn burion rhag barrug a rhew.</lb>
+
+
+
+
+
+    <lb n="25">Gwisg certwen yn waltas o 'n cwmpas wr call;</lb>
+
+
+    <lb n="26">Yn llawn o str&ocirc;c hoelion yn bolion di ball;</lb>
+
+
+    <lb n="27">A dwy fil o llympiau yn eu sodlau nhw yn siwr,</lb>
+
+
+    <lb n="28">I guro mewn cerrig oer derrig a dwr.</lb>
+
+
+
+
+
+    <lb n="29">Mi af ynddynt i garu tan ganu t&ocirc;n gu,</lb>
+
+
+    <lb n="30">Fe adwaenir fy rhediad yn dwad at dy,</lb>
+
+
+    <lb n="31">Mi fydda yn fras gammwr a neidiwr y nos,</lb>
+
+
+    <lb n="32">Mi gerdda bob ceunant a phennant a ffos.</lb>
+
+
+
+
+
+    <lb n="33">Mi ddarfum yn sydyn eu gofyn i 'r gwr,</lb>
+
+
+    <lb n="34">Rwy 'n ofni beth gormod mae 'n syndod yn siwr,</lb>
+
+
+    <lb n="35">Fy nghoesau sydd feinion rhw foddion rhy faith,</lb>
+
+
+    <lb n="36">Nid allai mo 'i cario na 'i chwimio nhw ychwaith.</lb>
+
+
+
+
+
+    <lb n="37">Dymuno rwy yrwan y truan di drai,</lb>
+
+
+    <lb n="38">Gael fy nwy glocsen wr llawen beth llai:</lb>
+
+
+    <lb n="39">Ni waeth geni wernen na derwen gwir yw,</lb>
+
+
+    <lb n="40">Mae honno 'n ysgafnach a llonnach ei lliw.</lb>
+
+
+
+
+
+    <lb n="41">I 'ch dysgu wr dawnus nid trefnus mo 'r tro,</lb>
+
+
+    <lb n="42">Gwell y gwyr creftwr [~ crefftwr] digynnwr dan go,</lb>
+
+
+    <lb n="43">Na dyn sy 'n pen synnu tan ganu ton gall,</lb>
+
+
+    <lb n="44">Heb feddu mo 'r llygad i weled ei wall.</lb>
+
+
+
+
+
+    <lb n="45">Ond gweithiwch nhw 'n gryfion yn burion trwy bwyll,</lb>
+
+
+    <lb n="46">Yn glampiau o glocs newydd a deunydd di dwyll</lb>
+
+
+    <lb n="47">Pan ddelont i 'm dwylo mae 'n deilwng i mi,</lb>
+
+
+    <lb n="48">Roi diolch yn bendant wych haeddiant ichwi.</lb>
+
+
+
+
+    <lb n="td. 8.diwedd">DIWEDD.
+    </lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_271-2">
+        <pb n="">
+        
+
+
+
+
+
+    <lb n="td. 4">I 'w chanu ar "King's Farewell."
+    </lb>
+
+
+
+
+    <lb n="1">Y Brawd Tomas dyma 'r tymmor,</lb>
+
+
+    <lb n="2">I mi d' anrhegu a geiriau 'n rhagor;</lb>
+
+
+    <lb n="3">A dod dy ferdyd i mi ar fyrder,</lb>
+
+
+    <lb n="4">Pwy dynnodd lygaid Eglwys Loegr?</lb>
+
+
+
+    <lb n="5">Am nad yw brwd nag oer ei geiriau,</lb>
+
+
+    <lb n="6">Ond yn glaiar a than gloiau,</lb>
+
+
+    <lb n="7">Heb nefol sain 'r Efengyl gain,</lb>
+
+
+
+
+    <lb n="8">I gywrain ragori</lb>
+
+
+    <lb n="9">I godi dynion i 'r da&iuml;oni,</lb>
+
+
+    <lb n="10">A 'u dadwreiddio o fudredi:</lb>
+
+
+
+
+    <lb n="11">Ow! Darfu 'r awdurdodau didwyll,</lb>
+
+
+    <lb n="12">A fyddeu i gynne 'r fuddiol ganwyll,</lb>
+
+
+    <lb n="13">I oleuo dyn i 'w wel'd ei hun,</lb>
+
+
+
+
+    <lb n="14">Ar ffyrdd y golyn gwaeledd,</lb>
+
+
+    <lb n="15">A 'i fod mewn gyrfa draw yn gorfedd,</lb>
+
+
+    <lb n="16">Ym mhell aneiri ymhwll [~ ym mhwll] anwiredd.</lb>
+
+
+
+
+
+
+
+    <lb n="17">Ow! Eglwys Loegr dwl olygon,</lb>
+
+
+    <lb n="18">Tu mewn i odineb y mae ei dynion;</lb>
+
+
+    <lb n="19">Ac at y Buttain Babilonaidd,</lb>
+
+
+    <lb n="20">Mae pawb yn 'nynnu [~ enynnu] bob yn enaid,</lb>
+
+
+    <lb n="21">Ond o wiriondeb ant i wrando,</lb>
+
+
+    <lb n="22">Mae 'n dosturus, heb ystyrio,</lb>
+
+
+    <lb n="23">Na cheisio byw yn ol gair Duw,</lb>
+
+
+
+
+    <lb n="24">Ond swyro [~ sawru] rhyw bleserau,</lb>
+
+
+    <lb n="25">A rheini ddaliant eu meddyliau,</lb>
+
+
+    <lb n="26">Mewn cyfyng ing rhag cofio angau</lb>
+
+
+
+
+    <lb n="27">Ac a ddarllenant yn y llannau,</lb>
+
+
+    <lb n="28">Am drugaredd Duw mewn geiriau,</lb>
+
+
+    <lb n="29">Heb geisio efe, na theyrnas Ne'</lb>
+
+
+
+
+    <lb n="30">Ond ar dafodau 'n fydol,</lb>
+
+
+    <lb n="31">A 'u holl galonnau hwy 'n olynol,</lb>
+
+
+    <lb n="32">Mewn dull anafus dwyll annuwiol.</lb>
+
+
+
+
+
+
+
+    <lb n="33">Fy ffrynd considra hyn mewn sadrwydd,</lb>
+
+
+    <lb n="34">Pa sut orau yw ffordd sancteiddrwydd?</lb>
+
+
+    <lb n="35">A'i [~ Ai] fel mae dynion gwael eu doniau,</lb>
+
+
+    <lb n="36">Yn gwneud gwaith saled ar y Suliau?</lb>
+
+
+    <lb n="37">Hwy ant i 'r Eglwys mae 'n beryglon,</lb>
+
+
+
+    <lb n="38">A 'r byd yn gywlaid yn y galon;</lb>
+
+
+    <lb n="39">Chwantau 'r cnawd, gwyn a gwawd,</lb>
+
+
+
+
+    <lb n="40">Yn llys y brawd Nefolgu,</lb>
+
+
+    <lb n="41">Mewn dwl hanes a d&acirc;l hynny,</lb>
+
+
+    <lb n="42">Mynd mor ddiras trwy byrth yr Iesu ?</lb>
+
+
+
+
+    <lb n="43">Ac o ran ffasiwn gwnant gyffesiad,</lb>
+
+
+    <lb n="44">Eu bod yn daerion bechaduriaid,</lb>
+
+
+    <lb n="45">Gan adde i gyd, eu bod mewn byd,</lb>
+
+
+
+
+    <lb n="46">Heb ddim o 'r iechyd iachus,</lb>
+
+
+    <lb n="47">Ger bron ar osteg Nefol Ustus,</lb>
+
+
+    <lb n="48">Dweud celwyddau, byd cywilyddus.</lb>
+
+
+
+
+
+
+
+    <lb n="49">A thrwy 'r Gwasanaeth yn gysonol,</lb>
+
+
+    <lb n="50">Hwy wrandawant fel rhai duwiol;</lb>
+
+
+    <lb n="51">Gwrandawant Bregeth hefyd yno,</lb>
+
+
+    <lb n="52">A 'r holl hanes sydd am honno:</lb>
+
+
+    <lb n="53">Ni hwrach [~ hwyrach] y dywed rhai rhagrithiol,</lb>
+
+
+    <lb n="54">Fod y geiriau yn dda rhagorol,</lb>
+
+
+    <lb n="55">Ac yno o hyd, ant at y byd,</lb>
+
+
+
+
+    <lb n="56">Dewisol fryd i ymdesach;</lb>
+
+
+    <lb n="57">"Un i 'w faes, a 'r llall i 'w fasnach,"</lb>
+
+
+    <lb n="58">Heb fawr ymofyn am Dduw mwyach:</lb>
+
+
+
+
+    <lb n="59">Fe aeth Gwasanaeth Eglwys Loegr,</lb>
+
+
+    <lb n="60">Ymgais ofer megis arfer;</lb>
+
+
+    <lb n="61">Mynd i 'r Llan, o fan i fan,</lb>
+
+
+
+
+    <lb n="62">Fel rhai o ran pleser,</lb>
+
+
+    <lb n="63">Heb geisio dim ond pasio 'r amser,</lb>
+
+
+    <lb n="64">Yn ail i nwyfus ddynion ofer.</lb>
+
+
+
+
+
+
+
+    <lb n="65">Fe luniwyd dau o ddyddiau mawrion,</lb>
+
+
+    <lb n="66">Yn Eglwys Loegr mewn golygon,</lb>
+
+
+    <lb n="67">Y Pasg a 'r Sulgwyn yw eu henwau,</lb>
+
+
+    <lb n="68">Gwyliau nodawl i 'r eneidiau;</lb>
+
+
+    <lb n="69">Gwyliau i fwyta Bara Nefol,</lb>
+
+
+    <lb n="70">Gwyliau......................ol!</lb>
+
+
+
+    <lb n="71">Amser yw, i gyduno a Duw,</lb>
+
+
+
+
+    <lb n="72">Trwy Grist gwir yw 'r ystyr,</lb>
+
+
+    <lb n="73">I iachau a chodi pob pechadur,</lb>
+
+
+    <lb n="74">I gym'ryd gafael ar ffordd gywir;</lb>
+
+
+
+
+    <lb n="75">Trwy addaw bod o hynny allan,</lb>
+
+
+    <lb n="76">Yn ddi wahaniaeth yn Nghrist ei hunan,</lb>
+
+
+    <lb n="77">Ond nid felly bydd, prin cadw un dydd,</lb>
+
+
+
+
+    <lb n="78">I ymgeisio ffydd gyson,</lb>
+
+
+    <lb n="79">Ar ol eu Cymmun, troi i ffyrdd ceimion,</lb>
+
+
+    <lb n="80">Heb ddim mwy cofio am waed y Cyfion.</lb>
+
+
+
+
+
+
+
+    <lb n="81">Os ceiff Duw cyfran bach o 'r Suliau,</lb>
+
+
+    <lb n="82">Mae 'r ddau ddydd Llun i 'r Satan yntau;</lb>
+
+
+    <lb n="83">Ceir gweled amryw fu 'n cymmuno,</lb>
+
+
+    <lb n="84">Wrth Butt Ceiliogod yn cyd lygio,</lb>
+
+
+    <lb n="85">Rhai efo Thenis, rhai efo Thannau,</lb>
+
+
+    <lb n="86">Bawb yn ymgyrraedd ar y gorau;</lb>
+
+
+    <lb n="87">Pwy bynnag fydd am gario 'r dydd,</lb>
+
+
+
+
+    <lb n="88">Dig'wilydd [~ Digywilydd] o du 'r gelyn,</lb>
+
+
+    <lb n="89">I 'w riwlio camwedd ar ol eu Cymmun,</lb>
+
+
+    <lb n="90">Bydd ynte i 'w coledd ac i'w ca'lyn [~ canlyn];</lb>
+
+
+
+
+    <lb n="91">Bydd rhai yn llafar dyngu llyfon,</lb>
+
+
+    <lb n="92">A rhai yn fyddar ac yn feddwon,</lb>
+
+
+    <lb n="93">Ar ol cael cnawd Crist Iesu frawd,</lb>
+
+
+
+
+    <lb n="94">A 'i waed ddiffawd i 'w golchi;</lb>
+
+
+    <lb n="95">Ant at y gowdel fel ci gwedi,</lb>
+
+
+    <lb n="96">Neu' r hwch a dreiddiff i fudreddi.</lb>
+
+
+
+
+
+
+
+    <lb n="97">Wel meddi di 'r gwir frawd hyfrydol,</lb>
+
+
+    <lb n="98">Ai 'n groes i 'r Bibl y mae 'r bobl,</lb>
+
+
+    <lb n="99">Yn meddwl myned i Baradwys,</lb>
+
+
+    <lb n="100">A hwythau yn cadw 'r ffasiwn Eglwys;</lb>
+
+
+    <lb n="101">Ond trwm yw gwel'd y rhai feddylied,</lb>
+
+
+    <lb n="102">Heb berchi 'r un Duw mwy na 'r Indiaid,</lb>
+
+
+    <lb n="103">Gwneuthur gwawd o fwyta cnawd,</lb>
+
+
+
+
+
+    <lb n="104">Crist Iesu ein brawd a 'n T'wysog [~ Tywysog];</lb>
+
+
+    <lb n="105">Ac ail ddirynnu 'r goron ddreiniog,</lb>
+
+
+    <lb n="106">Ar ben ein anwyl Oen eneiniog;</lb>
+
+
+
+
+    <lb n="107">Ow! Poeri i wyneb un pur ei anwedd,</lb>
+
+
+    <lb n="108">Ac a ' i groeshoelio Nefol Sylwedd,</lb>
+
+
+    <lb n="109">Oh! ffiaidd aed, sathru a thraed,</lb>
+
+
+
+
+    <lb n="110">Cof i ni Waed Cyfammod,</lb>
+
+
+    <lb n="111">O ran drwy 'r Cymmun y mae 'r cymmod,</lb>
+
+
+    <lb n="112">I 'mendio [~ emendio] buchedd pawb o bechod:</lb>
+
+
+
+
+
+
+
+    <lb n="113">P'le 'r aeth 'r Efengyl wen a 'i dyfais,</lb>
+
+
+    <lb n="114">A 'n hadgenhedlau ni a 'i hadlais?</lb>
+
+
+    <lb n="115">Yn Physygwriaeth byddau ei geiriau,</lb>
+
+
+    <lb n="116">Iawn hynodawl i 'n heneidiau;</lb>
+
+
+    <lb n="117">Ni welir weithian fawr gyfnewid,</lb>
+
+
+    <lb n="118">Yma ar undyn ond byw 'n ei wendid,</lb>
+
+
+    <lb n="119">A llwyr ymroi, heb geisio troi,</lb>
+
+
+
+
+    <lb n="120">Ac wedi ymgloi mewn pechod:</lb>
+
+
+    <lb n="121">Nid oes o 'u ddeutu neb i 'w ddattod,</lb>
+
+
+    <lb n="122">Nes y geilw Crist nhw o 'r gwaelod;</lb>
+
+
+
+
+    <lb n="123">Wel dyma 'r tymmor dywed Tomas,</lb>
+
+
+    <lb n="124">.wyth oer uchel beth yw 'r achos,</lb>
+
+
+    <lb n="125">Bod eglwys Crist mewn byd mo'r [~ mor] drist,</lb>
+
+
+
+
+    <lb n="126">A 'r ffasiwn anghrist ynddi,</lb>
+
+
+    <lb n="127">I roi iddi 'n berffaith lanwaith 'leuni [~ oleuni],</lb>
+
+
+    <lb n="128">Duw a 'i dda lwyddiant a ddel iddi.</lb>
+
+
+
+
+
+    <lb n="td. 8.diwedd">DIWEDD.
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_332-1">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="td. 2">Cwynfan Brydain.
+    </lb>
+
+
+
+    <lb n="1">CLYWCH alar Clychau wylo,</lb>
+
+
+    <lb n="2">Trwm gwyno tra mawr gynnwr [~ gynnwrf],</lb>
+
+
+
+    <lb n="3">Am Lestr Cadarn dichlyn</lb>
+
+
+    <lb n="4">a sydde [~ suddai] i 'r goflin gyflwr</lb>
+
+
+
+    <lb n="5">Amdani hi mae colled</lb>
+
+
+    <lb n="6">a dwned am ei dynion,</lb>
+
+
+
+    <lb n="7">A newydd d&acirc; sy o 'i cholli</lb>
+
+
+    <lb n="8">y leni i 'n gelynion,</lb>
+
+
+
+    <lb n="9">Hi oedd yn llawn o arfe</lb>
+
+
+    <lb n="10">am fyned oddi Cartre,</lb>
+
+
+    <lb n="11">I roi dwys boena [~ boenau] i Longe 'Spaen,</lb>
+
+
+    <lb n="12">Ni bu ar F&ocirc;r mo 'i chystled,</lb>
+
+
+    <lb n="13">Na Llongwyr cyn gowreiniaid,</lb>
+
+
+    <lb n="14">Am yrru bleiddiaid dr&#373;g o 'i blaen,</lb>
+
+
+    <lb n="15">Ow Royal George&nbsp;*gyflymma,</lb>
+
+
+    <lb n="16">Drwy 'r Deyrnas a 'r gadarna,</lb>
+
+
+    <lb n="17">H&icirc; oedd y fwya ond un ar F&ocirc;r,</lb>
+
+
+
+    <lb n="18">Pob Batle a 'r ymladde</lb>
+
+
+    <lb n="19">mewn 'wllys hi a 'i en&icirc;lle,</lb>
+
+
+    <lb n="20">Bu 'n bur bob siwrne i 'r Brenin SIOR.</lb>
+
+
+
+
+
+    <lb n="21">Yr awr yr aeth hi i 'r gwaelod,</lb>
+
+
+    <lb n="22">Roedd diwrnod prydd i 'r Deyrnas,</lb>
+
+
+    <lb n="23">Sef gweled yno 'n feirwon,</lb>
+
+
+    <lb n="24">Ei champion oll o 'i Chwmpas,</lb>
+
+
+    <lb n="25">Rhai ddywed ma'i [~ mai] diofalwch,</lb>
+
+
+    <lb n="26">Gwybyddwch oedd ei boddi,</lb>
+
+
+
+    <lb n="27">Ei gadel hi ar ei hochor</lb>
+
+
+    <lb n="28">i fwrw 'r Cefnfor iddi,</lb>
+
+
+    <lb n="29">Pedfese [~ Ped fuasai] Dduw 'n i gwilio,</lb>
+
+
+    <lb n="30">Ni allase 'r M&ocirc;r mo 'i thwtsio,</lb>
+
+
+    <lb n="31">Nag i suddo hi yno yn siwr,</lb>
+
+
+    <lb n="32">Pur debyg mai gwaith pechod,</lb>
+
+
+    <lb n="33">A bare i 'r Nefol Dduwdod,</lb>
+
+
+
+    <lb n="34">Roddi dyrnod iddi a 'r d&#373;r,</lb>
+
+
+
+    <lb n="35">Fe fase hi a 'i dynion</lb>
+
+
+    <lb n="36">mewn llawer mwy beryglon</lb>
+
+
+    <lb n="37">Ym mysc gelynion fryntion fryd,</lb>
+
+
+    <lb n="38">Nag oedd yr amser honno.</lb>
+
+
+    <lb n="39">O sywaeth cadd hi suddo,</lb>
+
+
+    <lb n="40">A 'i departio o olwg byd.</lb>
+
+
+
+
+
+    <lb n="41">Peth na fynno 'r Arglwydd,</lb>
+
+
+    <lb n="42">Da lywydd byth ni lwydda,</lb>
+
+
+
+    <lb n="43">O achos digio 'r Cyfion</lb>
+
+
+    <lb n="44">dialeddion aeth i laddfa,</lb>
+
+
+    <lb n="45">O herwydd pechod gwirfodd,</lb>
+
+
+    <lb n="46">Y boddodd hi gwybyddwch,</lb>
+
+
+    <lb n="47">Fel na chadd hi mwach [~ mwyach] nofio,</lb>
+
+
+    <lb n="48">Ar ol digio Duw a 'i d&ecirc;gwch,</lb>
+
+
+    <lb n="49">Fe gafodd hir lwyddiant,</lb>
+
+
+    <lb n="50">Dros saith ar hugain pendant,</lb>
+
+
+    <lb n="51">O flwydde dweudant [~ dywedant] ar y d&#373;r,</lb>
+
+
+
+    <lb n="52">Hi oedd y Llong gad&acirc;rne [~ gadarnaf]</lb>
+
+
+    <lb n="53">oedd gan y brenin pura</lb>
+
+
+    <lb n="54">A 'r gyflyma a 'r sada yn si&#373;r,</lb>
+
+
+    <lb n="55">Ow Royal George oedd wisgi,</lb>
+
+
+    <lb n="56">A 'r Cowraint w&#375;r oedd arni,</lb>
+
+
+    <lb n="57">Sydd wedi boddi Cledi [~ Caledi] clir,</lb>
+
+
+    <lb n="58">Ag nid ymhell mewn gyrfa,</lb>
+
+
+    <lb n="59">Ond yma yn ymyl cartre,</lb>
+
+
+    <lb n="60">Moddion taera ymin [~ ym min] ein t&icirc;r,</lb>
+
+
+
+
+
+    <lb n="61">Tri chant oedd ynddi o Ferched,</lb>
+
+
+    <lb n="62">Roedd hyn yn flaenad flina,</lb>
+
+
+
+    <lb n="63">A dynne donne 'r Cefn-for,</lb>
+
+
+    <lb n="64">ar dymor o 'r byd yma</lb>
+
+
+
+    <lb n="65">Ni *achubwyd un honyn [~ ohonynt],</lb>
+
+
+    <lb n="66">o 'r sydyn ddwr arswydus,</lb>
+
+
+    <lb n="67">Nhw gawsant yno drengu,</lb>
+
+
+
+    <lb n="68">A 'i llwyr ddibennu 'n boenus,</lb>
+
+
+    <lb n="69">Mae 'r Nefol frenin Cyfion,</lb>
+
+
+    <lb n="70">Yn gweled pob dirgel&icirc;on,</lb>
+
+
+    <lb n="71">I lawr yn union o wlad N&ecirc;,</lb>
+
+
+    <lb n="72">Er ei fod &ecirc; yn hir ei amynedd,</lb>
+
+
+    <lb n="73">Fe ddaw i daro o 'r diwedd,</lb>
+
+
+    <lb n="74">Heb un trugaredd gyd [~ gydag]&nbsp;&ecirc;,</lb>
+
+
+    <lb n="75">Daeth help o law puteindra,</lb>
+
+
+    <lb n="76">I syddo 'r Llestr ymma,</lb>
+
+
+    <lb n="77">I ddigio 'r penna doetha Duw,</lb>
+
+
+    <lb n="78">Danfonodd wynt ar donne,</lb>
+
+
+    <lb n="79">Mewn ychydig o funude,</lb>
+
+
+    <lb n="80">Gwnaeth fel na fydde neb yno 'n fyw,</lb>
+
+
+
+
+
+    <lb n="81">Pan oeddent ar *ei Cinio,</lb>
+
+
+    <lb n="82">Heb neb am goelio o 'i galon,</lb>
+
+
+    <lb n="83">Na chlywed yn ei ffroena [~ ffroenau],</lb>
+
+
+    <lb n="84">Ddim arogle drwg beryglon,</lb>
+
+
+    <lb n="85">A chyn dau bedwar munud,</lb>
+
+
+    <lb n="86">Caen [~ Caent] symmud o 'r oes ymma,</lb>
+
+
+    <lb n="87">Aeth mil i lawr i 'r gwaelod,</lb>
+
+
+    <lb n="88">Yn gafod yno yn gyfa,</lb>
+
+
+    <lb n="89">Tri Chant a ffoes oddi yno,</lb>
+
+
+    <lb n="90">Oedd ar y Dec yn waitio,</lb>
+
+
+    <lb n="91">Dan gyd ddylifo doent i 'r lan,</lb>
+
+
+    <lb n="92">Yn &ocirc;l 'roedd d&ecirc;g o gantoedd,</lb>
+
+
+    <lb n="93">Drwy Ange a 'r d&#373;r a drengodd,</lb>
+
+
+    <lb n="94">Oll yno foddodd yn y fan,</lb>
+
+
+    <lb n="95">Roedd hyn yn olwg drymllyd,</lb>
+
+
+    <lb n="96">I gymaint golli *ei bywyd,</lb>
+
+
+    <lb n="97">Heb arnyn glefyd ymin [~ ym min] ei gwlad,</lb>
+
+
+
+    <lb n="98">Mae aml heilltion ddagre,</lb>
+
+
+    <lb n="99">I 'w hanwyl geraint gore,</lb>
+
+
+    <lb n="100">Mae i Dade a Mame 'r briwie br&acirc;d,</lb>
+
+
+
+
+
+    <lb n="101">Mae yn golled fawr &icirc; 'n Brenin,</lb>
+
+
+    <lb n="102">Sydd ben pob gwer&icirc;n gwiwras,</lb>
+
+
+    <lb n="103">Am Royal George a 'i thegwch,</lb>
+
+
+    <lb n="104">Cadarnwch oedd i 'w Deyrnas,</lb>
+
+
+    <lb n="105">A cholli ei W&#375;r hwylusa,</lb>
+
+
+    <lb n="106">G&acirc;dd am *Ryfela foliant,</lb>
+
+
+    <lb n="107">Oedd gowraint am drin arfe,</lb>
+
+
+    <lb n="108">Nhw ymladde dros ei lwyddiant,</lb>
+
+
+    <lb n="109">Roedd h&ecirc;n lawenydd Calon,</lb>
+
+
+    <lb n="110">I bob un o 'i ddrwg elynion,</lb>
+
+
+    <lb n="111">Roedd ei golledion &ocirc; i 'w gwellhau,</lb>
+
+
+    <lb n="112">'Ran 'roedd y Llong nodedig,</lb>
+
+
+    <lb n="113">A 'i Hadmiral parchedig,</lb>
+
+
+    <lb n="114">Yn curo 'r ffreinig W&#375;r bob ffrau,</lb>
+
+
+    <lb n="115">Yr Arglwydd a warchodo,</lb>
+
+
+    <lb n="116">Wyr SIOR lle bont yn Morio,</lb>
+
+
+    <lb n="117">Rhag etto syddo &icirc; flin senn,</lb>
+
+
+    <lb n="118">A ymgadw mewn gofalon,</lb>
+
+
+    <lb n="119">Rhag aflan druhwant creulon,</lb>
+
+
+    <lb n="120">I gid 'run [~ yr un] moddion oll Amen.</lb>
+
+
+
+
+    <lb n="td. 5.diwedd">E Roberts
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_334-1">
+        <pb n="">
+        
+
+
+
+
+
+    <lb n="td. 2">Duw gadwo'r Brenhin.
+    </lb>
+
+
+
+    <lb n="1">CYD ganwn ar gynnydd, o foliant ir Arglwydd</lb>
+
+
+    <lb n="2">A roddodd nerth newydd i ni,</lb>
+
+
+    <lb n="3">I ymladd an creulon aflonydd elyn&icirc;on,</lb>
+
+
+    <lb n="4">Llu diclon rai bryntion ei bri,</lb>
+
+
+    <lb n="5">Er cryfed ei Harmy er amled ei llestri,</lb>
+
+
+    <lb n="6">Er c&icirc;min yw llenwi 'roedd llid,</lb>
+
+
+    <lb n="7">Doe Admiral Rodney i dorri ar ei chwareu,</lb>
+
+
+    <lb n="8">Fo wnaeth a nhw or goreu yno'i gid,</lb>
+
+
+    <lb n="9">Ag iddyn nhw y talodd ar *furie 'r hen forodd,</lb>
+
+
+    <lb n="10">Fo'i torrodd fo'i drylliodd nhw draw,</lb>
+
+
+    <lb n="11">Cadd allu gan yr Arglwydd iw gostwn i gystudd</lb>
+
+
+    <lb n="12">Ai gwneuthur yn llonydd gerllaw.</lb>
+
+
+
+
+
+    <lb n="13">Ar ffordd i West India y Brenhin gorucha,</lb>
+
+
+    <lb n="14">Danghosodd [~ Dangosodd] anwyldra yno yno i ni,</lb>
+
+
+    <lb n="15">Drwy Rodney'r gwr nerthol rheolwr ei bobol,</lb>
+
+
+    <lb n="16">Rhinweddol &icirc;awn freiniol fre&icirc;niol o fri,</lb>
+
+
+    <lb n="17">Mawr fyddin or ffrangcod ai drylliodd i drallod</lb>
+
+
+    <lb n="18">Fo'i taflodd i benod o bwys,</lb>
+
+
+    <lb n="19">Fe gowsont ei cludo yn rhwym i Jewmacco,</lb>
+
+
+    <lb n="20">Am iddyn nh&#373; ddeilio mor ddwys,</lb>
+
+
+    <lb n="21">Deg Cistied o Arian a golle 'r llu aflan,</lb>
+
+
+    <lb n="22">Yn gyfan bu'n an&icirc;an y nod,</lb>
+
+
+    <lb n="23">Oi gwaith bod yn giedd iw dilyn doe'r dialedd</lb>
+
+
+    <lb n="24">Iw herbyn troe'n rhyfedd y Rhod,</lb>
+
+
+
+
+
+
+
+    <lb n="25">Mae colled nhw oi cyfri am 9 oi mawr Lestri</lb>
+
+
+    <lb n="26">Ag un gadd ei llosgi yn y lle,</lb>
+
+
+    <lb n="27">Tri chant ar ddeg union o aflonydd elynion,</lb>
+
+
+    <lb n="28">Oedd ar un Llong greulon o gr&ecirc;</lb>
+
+
+    <lb n="29">Hon oedd fawr aneiri a Chanans pr&ecirc;s arni,</lb>
+
+
+    <lb n="30">Gwir ydi yn ei broi yn ei bryd,</lb>
+
+
+    <lb n="31">I Hadmiral ciedd roedd yno faint rhyfedd</lb>
+
+
+    <lb n="32">Saith droedfedd un hoywedd o hyd,</lb>
+
+
+    <lb n="33">Er cryfed y fulen hen wr deg a thrugain</lb>
+
+
+    <lb n="34">A roddodd un diben ar *daith,</lb>
+
+
+    <lb n="35">Er pob nerth a chryfdwr Duw ydi Rhyfelwr,</lb>
+
+
+    <lb n="36">Cyntreifiwr a gw&ecirc;ithiwr y gwaith,</lb>
+
+
+
+
+
+    <lb n="37">Un awr ar ddeg cyfa parhaes yr ymladdfa,</lb>
+
+
+    <lb n="38">Heb wybod pwy'n benna oedd yn bod,</lb>
+
+
+    <lb n="39">Ond er cimin oedd cryfder y ffrangcod di 'sgeler</lb>
+
+
+    <lb n="40">Aeth Lloegr eglurber ar glod,</lb>
+
+
+    <lb n="41">Gwyr Rodney gyfarwydd,</lb>
+
+
+    <lb n="42">G&acirc;dd nerth gan yr Arglwydd,</lb>
+
+
+    <lb n="43">I wneuthur gonestrwydd mewn nerth,</lb>
+
+
+    <lb n="44">Er cimin y llarpio drwy 'r *diwrnod a darnio,</lb>
+
+
+    <lb n="45">Fe ddarfu congcwerio' llu'r certh,</lb>
+
+
+    <lb n="46">Gwyr brydain oreurog ymladde'n galonnog,</lb>
+
+
+    <lb n="47">Yn erbyn rhai llid&icirc;og yn llawn,</lb>
+
+
+    <lb n="48">Dan Sior frenin ffyddlon,</lb>
+
+
+    <lb n="49">Gw&#375;r ffraingc a gurason,</lb>
+
+
+    <lb n="50">Ymhob moddion nhw wnaethon yn iawn.</lb>
+
+
+
+
+
+    <lb n="51">Llaw Duw gogoneddus sy'n cynnal ein hynys,</lb>
+
+
+    <lb n="52">Yn erbyn rhai barus sy'n bod,</lb>
+
+
+    <lb n="53">Neu base'n holl ddynion dan draed ein gelynion,</lb>
+
+
+    <lb n="54">Er ei bod yn rhai glewion o gl&ocirc;d</lb>
+
+
+
+    <lb n="55">Mae brenhin y Nefoedd i'n cadw nin rhywfodd,</lb>
+
+
+    <lb n="56">Yn erbyn teyrnasoedd o nerth,</lb>
+
+
+    <lb n="57">Saf pedair o honyn sydd dost yn ein herbyn,</lb>
+
+
+    <lb n="58">A gallu pob gelyn sydd gerth,</lb>
+
+
+    <lb n="59">Cynhalied yr Arglwydd,</lb>
+
+
+    <lb n="60">Ein teyrnas mewn sadrwydd,</lb>
+
+
+    <lb n="61">In brenhin ai Goron an heglwys lan dirion,</lb>
+
+
+    <lb n="62">Ai dynion run moddion Amen.</lb>
+
+
+
+
+    <lb n="td. 4.diwedd">E Roberts
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_334-2">
+        <pb n="">
+        
+
+
+
+    <lb n="td. 4">Gwel yr Adeilad
+    </lb>
+
+
+
+    <lb n="1">TRIGOLION union anwyl, deffrowch,</lb>
+
+
+    <lb n="2">At nefol orchwyl, ar berwyl bore,</lb>
+
+
+    <lb n="3">Mae'n wyl M&acirc;b Duw sancteiddlan, i gofio</lb>
+
+
+    <lb n="4">Ei henw 'n gyfan a gl&acirc;n galone,</lb>
+
+
+    <lb n="5">Dydd mawr: llowydd nef llawr,</lb>
+
+
+    <lb n="6">Diffoddodd fflame Uffern loesa,</lb>
+
+
+    <lb n="7">Fe agorodd gaera nef ole gore'i g&#373;awr,</lb>
+
+
+    <lb n="8">Clod fyth yw enw hyfryd bob munud enyd awr,</lb>
+
+
+    <lb n="9">Mae'n ddydd: yn Seion ffyddlon ffydd,</lb>
+
+
+    <lb n="10">Llawenydd inni darfu gen&icirc; or forwyn Fari,</lb>
+
+
+    <lb n="11">Un Duw in rhoddi 'n rhydd,</lb>
+
+
+    <lb n="12">Fe dynodd golyn ange,</lb>
+
+
+    <lb n="13">An rhoesa an bronne 'n brudd.</lb>
+
+
+
+
+
+    <lb n="14">Fe roddodd Duw 'n T&acirc;d Adda, Yngardd Eden</lb>
+
+
+    <lb n="15">Gwir a ddweuda man lowna am luniaeth,</lb>
+
+
+    <lb n="16">Fe roes orchymyn arno, 'n wybodol</lb>
+
+
+    <lb n="17">Yno beidio, a phren gwybodaeth,</lb>
+
+
+    <lb n="18">Mewn ffost: daeth sattan filen fost,</lb>
+
+
+
+    <lb n="19">I'w denu 'n dynar i ddigio ei meistr,</lb>
+
+
+    <lb n="20">Mewn llid a *ffalster gorthrymdor caethder cost,</lb>
+
+
+    <lb n="21">Ag afal gwaharddedig,</lb>
+
+
+    <lb n="22">Fe '&icirc; rhoes mewn dirmyg dost</lb>
+
+
+    <lb n="23">Rol hyn: daeth tr&acirc;llod syndod synn,</lb>
+
+
+    <lb n="24">Yn boenus benyd fe'i troes Duw hyfryd,</lb>
+
+
+    <lb n="25">Nhw o dir y bywyd i adfyd tynfyd tyn,</lb>
+
+
+    <lb n="26">I lawr ir wae dragwyddol,</lb>
+
+
+    <lb n="27">O ardd nefol freiniol frynn.</lb>
+
+
+
+
+
+    <lb n="28">Daeth iddyn dost anff&ocirc;rtyn, am iddyn,</lb>
+
+
+    <lb n="29">Goelio gelyn &acirc;&acirc;hydun hudwr,</lb>
+
+
+    <lb n="30">Nhw gollant wlad trugaredd, nhw aent</lb>
+
+
+    <lb n="31">I bwll anwiredd, mewn gwaeledd gyflwr,</lb>
+
+
+    <lb n="32">Ei braint rhyfeddol yw ei faint,</lb>
+
+
+    <lb n="33">Cyn rhoi tragwyddol Baradwys nefol,</lb>
+
+
+    <lb n="34">Am ffwrn Uffernol poenydiol hydol haint,</lb>
+
+
+    <lb n="35">Collasoch chwech o oesa drysore Duw ai sain,</lb>
+
+
+    <lb n="36">Fe ddaeth dychryndod syndod saeth,</lb>
+
+
+    <lb n="37">Ai gwaith am golli gwlad golenni,</lb>
+
+
+    <lb n="38">Rhoi plant mewn cledi trueni gwe&icirc;ddi gwaeth</lb>
+
+
+    <lb n="39">Ond clod ir arglwydd santedd</lb>
+
+
+    <lb n="40">Trugaredd deiwedd daeth.</lb>
+
+
+
+
+
+    <lb n="41">Ni allase angylion *nefodd, na lluoedd</lb>
+
+
+    <lb n="42">Daear Moroedd roi fyth ymwared</lb>
+
+
+    <lb n="43">Nes dyfod m&acirc;b Duw santedd, a agore</lb>
+
+
+    <lb n="44">Ddrws trugaredd di oferedd fwriad,</lb>
+
+
+    <lb n="45">Ei hun yn Dduw nefol ddoniol ddyn,</lb>
+
+
+    <lb n="46">Or Nefoedd ucha ir Ddaear isa</lb>
+
+
+    <lb n="47">I achub gwaela hil Adda llyma llun,</lb>
+
+
+    <lb n="48">In codi o bwll trueni in golchi bod ag un,</lb>
+
+
+
+    <lb n="49">Mewn cnawd: doe'r brenin Iesu ein brawd,</lb>
+
+
+    <lb n="50">Mewn nerth dragywyddol i safio ei bobol,</lb>
+
+
+    <lb n="51">Mewn byd cystuddiol, di lesol yn dylawd,</lb>
+
+
+    <lb n="52">Dioddefodd flin gystuddie,</lb>
+
+
+    <lb n="53">Blindere geirie gwawd.</lb>
+
+
+
+
+
+    <lb n="54">Ni chadd y Nefol Iesu, ond lletty oer</lb>
+
+
+    <lb n="55">Mewn beudy, gwely galar,</lb>
+
+
+    <lb n="56">Gwell helynt na'r Duw pura, a gafodd</lb>
+
+
+    <lb n="57">Y tylotta ar sala ei sylwedd;</lb>
+
+
+    <lb n="58">Fe roed ir gw&acirc;ela er Adda erioed,</lb>
+
+
+    <lb n="59">Amgenach triniaeth ddydd genedigaeth,</lb>
+
+
+    <lb n="60">Nag ir Duw perffaith,</lb>
+
+
+    <lb n="61">Mewn purffydd fodd di-foed,</lb>
+
+
+    <lb n="62">Iw sywyd cadd ffordd bigog,</lb>
+
+
+    <lb n="63">A dreiniog iw ddau droed,</lb>
+
+
+    <lb n="64">Ei oes: o hyd oi gryd iw Groes,</lb>
+
+
+    <lb n="65">C&acirc;dd flin ofidie a gorthrymdere,</lb>
+
+
+    <lb n="66">A chwerwon loesa, fe gerdda l&#373;ybre loes,</lb>
+
+
+    <lb n="67">Er hynny Iesu'r Cyfion yn rhyddion ef an rhoes</lb>
+
+
+
+
+
+    <lb n="68">Fe gafodd erledigaeth, a mawr</lb>
+
+
+    <lb n="69">Gystuddie helaeth cyn diodde hoel&icirc;on,</lb>
+
+
+    <lb n="70">Fe ge&icirc;siodd Herod oerddu, drwy fwrdro</lb>
+
+
+    <lb n="71">Yr plant oi *ddeutu, ladd Iesu'r cyfion,</lb>
+
+
+    <lb n="72">Pan ddaeth: dan bechod pawb yr aeth,</lb>
+
+
+    <lb n="73">Yr Oen sancteiddiol, yr I&ocirc;r tragwyddol,</lb>
+
+
+    <lb n="74">Gwnae wrthie nerthol rhyfeddol foddol faith</lb>
+
+
+    <lb n="75">Ir gole ef an galwodd, fe an cododd o le caeth,</lb>
+
+
+    <lb n="76">Troi'r d&#373;r: yn w&icirc;n yn sydyn siwr,</lb>
+
+
+    <lb n="77">Rhoi clyw &icirc;r byddarion, tafode i fudion,</lb>
+
+
+    <lb n="78">Traed ir cloffion, ein tirion Dduw an twr,</lb>
+
+
+
+    <lb n="79">Ir Eglwys mae fe'n gymwys,</lb>
+
+
+    <lb n="80">Yn burlwys wiwlwys &#373;r,</lb>
+
+
+
+
+
+    <lb n="81">Fe ymendiodd y cythreilig, bu'n feddyg</lb>
+
+
+    <lb n="82">Ir rhai lloerig, Oen Duw llariedd,</lb>
+
+
+    <lb n="83">Fe gododd Lazarus hwnnw, a unig,</lb>
+
+
+    <lb n="84">F&acirc;b y weddw, o feirw i fowredd,</lb>
+
+
+    <lb n="85">Rhoi'r dall: i weled pob rhyw wall,</lb>
+
+
+    <lb n="86">Fe borthe gwaelion bum mil dynion,</lb>
+
+
+    <lb n="87">Fe ddysge'r gw&icirc;rion ffordd gyfion i syw'n gall,</lb>
+
+
+    <lb n="88">Datododd rwyde an daliodd,</lb>
+
+
+    <lb n="89">Difrododd waith y fall,</lb>
+
+
+    <lb n="90">Gwir I&ocirc;r a gauodd Uffern dd&ocirc;r,</lb>
+
+
+    <lb n="91">Fe ddaeth in prynnu at nefol deulu,</lb>
+
+
+    <lb n="92">I wlad nefolgu i ganu nefol g&ocirc;r,</lb>
+
+
+    <lb n="93">Gostegodd nerthol donne fe gerdde ymyle 'r m&ocirc;r</lb>
+
+
+
+
+
+    <lb n="94">Dioddefodd ef bob dirmyg, er mwyn</lb>
+
+
+    <lb n="95">Ein troi 'n gadwed&icirc;g, un didwyll haeledd,</lb>
+
+
+    <lb n="96">Fe gafodd ei gernodio, e&icirc; focio</lb>
+
+
+    <lb n="97">Ai wawdio ai guro'n ddi-drugaredd,</lb>
+
+
+    <lb n="98">Fe'i gwnaed gan Iuddewon eirwon aed,</lb>
+
+
+    <lb n="99">Yn ferthyr mwya ar Ddaear yma</lb>
+
+
+    <lb n="100">Bu'Ngardd Gethsemane yn chwsu wiwdda waed</lb>
+
+
+    <lb n="101">Yn llys yr Arch-Offeiriad yno,</lb>
+
+
+    <lb n="102">Yr Nef Athro ei guro a gaed,</lb>
+
+
+    <lb n="103">Ei ben ef: Eneiniog brenin Nef,</lb>
+
+
+    <lb n="104">Ar bigog *Goron o ddrain llymion,</lb>
+
+
+    <lb n="105">Ai ddal rhwng Lladron ar groes oedd greulon gre</lb>
+
+
+    <lb n="106">Bu'n diodde poen a dirmyg,</lb>
+
+
+    <lb n="107">Hyll oerddig oedd y llef,</lb>
+
+
+
+
+
+
+
+    <lb n="108">Wrth ddiodde 'r groes Oen grasol,</lb>
+
+
+    <lb n="109">Bu farw ei natur ddynol i fywiol fywyd,</lb>
+
+
+    <lb n="110">Gorchfyge ai farwolaeth, nerth Uffern</lb>
+
+
+    <lb n="111">Golledigaeth, fe an dyge i wynfyd,</lb>
+
+
+    <lb n="112">Gwaith ni: Oen Duw ath roddodd d&icirc;,</lb>
+
+
+    <lb n="113">I dost ferthyrdod milen chwerdod,</lb>
+
+
+    <lb n="114">Eist dan ein p&ecirc;chod, oedd bechod cryndod cri</lb>
+
+
+    <lb n="115">Ti gollist waed dy galon tros ddynion fryntion fri</lb>
+
+
+    <lb n="116">Oen Duw ein bywyd gwynfyd gwiw,</lb>
+
+
+    <lb n="117">Doist in codi o bob trueni ag etto gwedi,</lb>
+
+
+    <lb n="118">Ymhob caledi ti an clyw,</lb>
+
+
+    <lb n="119">Di wyt waredwr nerthol ar ran y dynol-ryw.</lb>
+
+
+
+
+
+    <lb n="120">Mil faith gant pedwar ugain a dwy flwydd,</lb>
+
+
+    <lb n="121">Oed ein perchen, Duw cyfiawn cofir,</lb>
+
+
+    <lb n="122">Ymgeisiwn bawb ein goreu, am fyned</lb>
+
+
+    <lb n="123">Hyd dy lwybre mewn geirie geirwir,</lb>
+
+
+    <lb n="124">Drwy'n craig cawn Nefol siriol saig,</lb>
+
+
+    <lb n="125">Cawn fynd yn union i Gaersalem dirion,</lb>
+
+
+    <lb n="126">I fysg Angylion drwy roddion had y wraig,</lb>
+
+
+    <lb n="127">A llwyddiant ar e&icirc;n siwrne,</lb>
+
+
+    <lb n="128">Oddi wrth holl holl ddryge 'r Ddraig,</lb>
+
+
+    <lb n="129">Ein pen: M&acirc;b Duw or Nefoedd wen,</lb>
+
+
+    <lb n="130">Gwir gadw 'n gyfion ein brenin ffyddlon,</lb>
+
+
+    <lb n="131">An Heglwys dirion rhag dynion surion sen,</lb>
+
+
+    <lb n="132">Dod heddwch i ni'n Lloegr a mwynder oll Amen</lb>
+
+
+
+
+    <lb n="td. 8.diwedd">Ellis Roberts
+    </lb>
+
+
+
+    <lb n="td. 8.diwedd">TERFYN
+    </lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_342-1">
+        <pb n="">
+        
+
+
+
+
+
+    <lb n="td. 2">Duw gadwo 'r Brenhin.
+    </lb>
+
+
+
+    <lb n="1">CYD ddowch or un duedd</lb>
+
+
+    <lb n="2">Yn Ysbryd gwirionedd,</lb>
+
+
+    <lb n="3">I ystyr yn buredd drwy bwys,</lb>
+
+
+    <lb n="4">Fel 'rydych yn gorwedd ynghanol anwiredd,</lb>
+
+
+    <lb n="5">Heb weled y diwedd blin dwys,</lb>
+
+
+    <lb n="6">Na chanfod y moddion er addysg arwyddion,</lb>
+
+
+    <lb n="7">Fel 'rydoedd Duw 'n danfon bob d&#375;dd,</lb>
+
+
+    <lb n="8">Nag attal chwaith etto,</lb>
+
+
+    <lb n="9">Na chymryd dim cyffro,</lb>
+
+
+    <lb n="10">Na ystyrio ond rhodio 'n ben rhydd,</lb>
+
+
+    <lb n="11">Mis Awst y daunawfed y gwelwyd coch Flaned,</lb>
+
+
+    <lb n="12">Yn arwydd or caled fyd caeth,</lb>
+
+
+    <lb n="13">Fod Angeu du'n dyfod am wneud ein dibendod,</lb>
+
+
+    <lb n="14">Bydd chwerdod a syndod y saeth,</lb>
+
+
+
+
+
+    <lb n="15">Ni waeth gin ange diclon pa fuchedd a fyddom</lb>
+
+
+    <lb n="16">Fo an gwneiff yno'n feirwon &icirc;r fan,</lb>
+
+
+    <lb n="17">Na pha'run or ddau feistr fydd ini'n yr amser,</lb>
+
+
+    <lb n="18">Pan ddelo dydd llymder y llan,</lb>
+
+
+    <lb n="19">Os byddwn n&icirc; meirw yn y pechod blin chwerw,</lb>
+
+
+    <lb n="20">Cawn fod y dydd hwnnw 'n ddi-hedd,</lb>
+
+
+    <lb n="21">Os awn tan law ange cyn 'mado an pechode,</lb>
+
+
+    <lb n="22">Ni erus ein beie yn y B&ecirc;dd,</lb>
+
+
+    <lb n="23">Drachefn doen iw gweled yn Nydd adgyfodiad,</lb>
+
+
+    <lb n="24">I beri caethiwed caeth iawn,</lb>
+
+
+    <lb n="25">Pan ddelo d&#375;dd Iesu trwy bur nerth in barnu,</lb>
+
+
+    <lb n="26">Lle cawn ein colledu yno'n llawn,</lb>
+
+
+
+
+
+
+
+    <lb n="27">Digofaint Duw 'r lluoedd sy'n ofid or Nefoedd,</lb>
+
+
+    <lb n="28">A hyn a rybyddiodd y byd,</lb>
+
+
+    <lb n="29">Yn Flaned oer flina cyn dyfod trom wasgfa</lb>
+
+
+    <lb n="30">Yn ddalfa ac yn draha blin drud,</lb>
+
+
+    <lb n="31">Mae'r Arglwydd ar fedr an rhoddi ar fyrr amser</lb>
+
+
+    <lb n="32">Ir caethder ar trymder mawr trist,</lb>
+
+
+    <lb n="33">Rhag penyd cystuddiol dau gwell i ni ymorol,</lb>
+
+
+    <lb n="34">Fel unol rai grasol am Grist,</lb>
+
+
+    <lb n="35">Marwolaeth di ddarfod geifr dyn yn ei bechod,</lb>
+
+
+    <lb n="36">Heb gaffael iawn gymod yn gu,</lb>
+
+
+    <lb n="37">A hynny cyn clefyd pan oedd yn ei iechyd,</lb>
+
+
+    <lb n="38">Yn unfryd ei fywyd a fu.</lb>
+
+
+
+
+
+    <lb n="39">Rhybyddion or Nefoedd bu deni laweroedd,</lb>
+
+
+    <lb n="40">Ar Mellt yma *laddodd gryn lu,</lb>
+
+
+    <lb n="41">'Nifeilied a dynion yngwledydd y Saeson,</lb>
+
+
+    <lb n="42">Rhyw greulon o foddion a fu,</lb>
+
+
+    <lb n="43">Rhyw bobl a leche pan oedd y mawr Drane</lb>
+
+
+    <lb n="44">Ynghysgod dwys gore Das gwain,</lb>
+
+
+    <lb n="45">A Mellten a&icirc; trawodd ar cwbl ennynnodd,</lb>
+
+
+    <lb n="46">Ar t&acirc;n yno ympiriodd fel pair,</lb>
+
+
+    <lb n="47">Y gwair aeth ny ulw ar bobl yn feirw,</lb>
+
+
+    <lb n="48">Ai Cnawd oedd yn lludw hyd y lawr,</lb>
+
+
+    <lb n="49">Ni welwyd un Corphyn yn hynod o honyn</lb>
+
+
+    <lb n="50">A hyn mewn munudyn un awr,</lb>
+
+
+
+
+
+    <lb n="51">'Roedd eraill wrth Dderwen</lb>
+
+
+    <lb n="52">Yn gochel gwlaw milen,</lb>
+
+
+    <lb n="53">Ag attyn doe Fellten go fawr,</lb>
+
+
+    <lb n="54">Hi wnaeth y pren creulon wasgarog ysgyrion</lb>
+
+
+    <lb n="55">Ai daflu 'n ddellt llymion ir llawr,</lb>
+
+
+
+    <lb n="56">Rhai yno fynafodd ar lleill a ddychrynodd,</lb>
+
+
+    <lb n="57">Ar cwbl a synodd yn siwr,</lb>
+
+
+    <lb n="58">'Nifeilied yn cwympio gan Fellt yn ei dragio,</lb>
+
+
+    <lb n="59">A syndod yn gwyro pob gwr,</lb>
+
+
+    <lb n="60">Oni bae fod yr Arglwydd,</lb>
+
+
+    <lb n="61">Yn llawn trugarogrwydd,</lb>
+
+
+    <lb n="62">Fe allase fwy tramglwydd ar dro,</lb>
+
+
+    <lb n="63">A rhoddi dibenion ar filoedd o ddynion,</lb>
+
+
+    <lb n="64">Oedd ymma 'n rhai bryntion in br&ocirc;.</lb>
+
+
+
+
+
+    <lb n="65">Bu 'r Ddaear yn crynnu,</lb>
+
+
+    <lb n="66">Hyd fanne yngwlad Cymru,</lb>
+
+
+    <lb n="67">Mae 'n debyg fod Iesu M&acirc;b Duw,</lb>
+
+
+    <lb n="68">Ar fyrrder am ddyfod i farn in cyfarfod,</lb>
+
+
+    <lb n="69">Gwae rhai sy dan bechod yn byw,</lb>
+
+
+    <lb n="70">Bu leni golofne o Niwl hyd ein parthe,</lb>
+
+
+    <lb n="71">Ar Haul yma goche yn ein gwydd,</lb>
+
+
+    <lb n="72">Roedd llawer o bobl yn disgwyl nerth Nefol,</lb>
+
+
+    <lb n="73">A Christ yn orseddfol iw swydd,</lb>
+
+
+    <lb n="74">Ni hwyrach yn bene cyn del y ffair nesa,</lb>
+
+
+    <lb n="75">Y gelwir ni ir Noddfa uwch y nenn,</lb>
+
+
+    <lb n="76">Yr Arglwydd Dduw hynod,</lb>
+
+
+    <lb n="77">An gwnelo n&icirc; 'n barod,</lb>
+
+
+    <lb n="78">I ennill y mawr glod Amen.</lb>
+
+
+
+
+    <lb n="td. 4.diwedd">Ellis Roberts a'i Cant
+    </lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_342-2">
+        <pb n="">
+        
+
+
+
+
+
+    <lb n="td. 5">Parson Parish
+    </lb>
+
+
+
+    <lb n="1">CLOWCH hanes gwraig di duedd,</lb>
+
+
+    <lb n="2">Am wneud trugaredd gu,</lb>
+
+
+    <lb n="3">A chandd&icirc; hi 'r oedd moddion,</lb>
+
+
+    <lb n="4">Jaith un&icirc;on yn ei th&#375;,</lb>
+
+
+    <lb n="5">Daeth atti hi gymdoges,</lb>
+
+
+    <lb n="6">Mae 'r hanes yma o hyd,</lb>
+
+
+    <lb n="7">Mewn alar mawr dan wylo,</lb>
+
+
+    <lb n="8">I dreio amser drud.</lb>
+
+
+
+
+
+    <lb n="9">N&icirc; fedde hon yn llymed,</lb>
+
+
+    <lb n="10">Na thamaid yn ei th&#375;,</lb>
+
+
+    <lb n="11">A phedwar o Blant bychain,</lb>
+
+
+    <lb n="12">Yn llefain yno 'n llu,</lb>
+
+
+    <lb n="13">Yn Crio i gid gan Newyn,</lb>
+
+
+    <lb n="14">Ond gerwin oedd y gwaith,</lb>
+
+
+    <lb n="15">Ag un yn fychan yno,</lb>
+
+
+    <lb n="16">Yn sugno mawrdro maith.</lb>
+
+
+
+
+
+    <lb n="17">Ei Mam nhw gododd allan,</lb>
+
+
+    <lb n="18">Yn egwan iawn ei nerth,</lb>
+
+
+    <lb n="19">Heb feddu o fewn ei Chaban,</lb>
+
+
+    <lb n="20">Nag Arian chwaith na'&icirc; gwerth</lb>
+
+
+    <lb n="21">Hi gymre ei phais ai ffedog,</lb>
+
+
+    <lb n="22">Ddyledog Wraig dylawd,</lb>
+
+
+    <lb n="23">Dan obaith cael am danyn,</lb>
+
+
+    <lb n="24">Mewn gerwin flwyddyn Flawd.</lb>
+
+
+
+
+
+    <lb n="25">Hi aeth i d&#375; Cymdoges,</lb>
+
+
+    <lb n="26">Iuddewas drwg di Dduw,</lb>
+
+
+
+    <lb n="27">I ddeisyf ei syberwyd,</lb>
+
+
+    <lb n="28">i safio ei bywyd byw,</lb>
+
+
+    <lb n="29">Ai Dillad iw rhoi 'n wystl,</lb>
+
+
+    <lb n="30">Yn syfyl am y saig,</lb>
+
+
+    <lb n="31">I aros trugaredde o rywle i dalu ir wraig,</lb>
+
+
+
+
+
+    <lb n="32">Y Wraig ddi deimlad honno,</lb>
+
+
+    <lb n="33">Er Cwyno ai naccaes,</lb>
+
+
+    <lb n="34">Er maint a grefa hi yno,</lb>
+
+
+    <lb n="35">Dan wylo a lleisio yn llaes,</lb>
+
+
+    <lb n="36">N&icirc; chadd hi un briwsionyn,</lb>
+
+
+    <lb n="37">Fe berthyn hyn i bwys,</lb>
+
+
+    <lb n="38">I safio ei phedwar Plentyn,</lb>
+
+
+    <lb n="39">Rhag Newyn dygn dwys.</lb>
+
+
+
+
+
+    <lb n="40">Y Plant yn dweud iw gilydd,</lb>
+
+
+    <lb n="41">Ein Mam ddedwydd toc a ddaw,</lb>
+
+
+    <lb n="42">Daw inni rhag marwolaeth,</lb>
+
+
+    <lb n="43">A lluniaeth pur oi llaw,</lb>
+
+
+    <lb n="44">Cawn oddiwrth ei phais ai Ffedog,</lb>
+
+
+    <lb n="45">Yn fowiog iawn o fwyd,</lb>
+
+
+    <lb n="46">Fel na bo'm mewn eisie,</lb>
+
+
+    <lb n="47">An lliwie oll mor llwyd.</lb>
+
+
+
+
+
+    <lb n="48">Ei Mam ddoe'n fuan adre,</lb>
+
+
+    <lb n="49">Heb gael gwerth Dime ar dir,</lb>
+
+
+    <lb n="50">Heb ddim i dorri ei Newyn,</lb>
+
+
+    <lb n="51">Bu 'n erwin hyn yn wir,</lb>
+
+
+    <lb n="52">Hi gymmerth ei dyn bychan,</lb>
+
+
+    <lb n="53">Modd breulan at ei bron,</lb>
+
+
+    <lb n="54">Gan Newyn daeth marwolaeth,</lb>
+
+
+    <lb n="55">Anhowaeth toc ar hon.</lb>
+
+
+
+
+
+
+
+    <lb n="56">Y Wraig oedd anrhugarog,</lb>
+
+
+    <lb n="57">Yn gefnog dweuda iw gwr,</lb>
+
+
+    <lb n="58">Y modde y naccause,</lb>
+
+
+    <lb n="59">Y Wraig ar siwrne'n siwr,</lb>
+
+
+    <lb n="60">A fase am wystlo ei dillad,</lb>
+
+
+    <lb n="61">Ai ll&icirc;w mewn llygriae lwyd,</lb>
+
+
+    <lb n="62">Fel cowse ei phlant rhag eisie,</lb>
+
+
+    <lb n="63">Yn rhyw fodde ganddi fwyd,</lb>
+
+
+
+
+
+    <lb n="64">Y gwr pan glywodd hynny,</lb>
+
+
+    <lb n="65">A gode i fynu 'n fwyn,</lb>
+
+
+    <lb n="66">Ag aeth a lluniaeth iddi,</lb>
+
+
+    <lb n="67">I dorri ei chyni ai chwyn,</lb>
+
+
+    <lb n="68">Ond erbyn iddo fyned,</lb>
+
+
+    <lb n="69">Yn fwynedd iw Th&#375; h&icirc;,</lb>
+
+
+    <lb n="70">Fe wele'r Wraig yn farwedd,</lb>
+
+
+    <lb n="71">Ar Plant dan groywedd gr&icirc;,</lb>
+
+
+
+
+
+    <lb n="72">Roedd plentyn b&acirc;ch yw sugno,</lb>
+
+
+    <lb n="73">Ar ol iddo drigo draw,</lb>
+
+
+    <lb n="74">Ar ol iddi farw o Newyn,</lb>
+
+
+    <lb n="75">Drwy niwed mawr a braw,</lb>
+
+
+    <lb n="76">Ar Gwr yn gweiddi allan,</lb>
+
+
+    <lb n="77">Yn fuan yno fu,</lb>
+
+
+    <lb n="78">Nes codi 'r holl gymdogion,</lb>
+
+
+    <lb n="79">Modd tirion at y t&#375;.</lb>
+
+
+
+
+
+    <lb n="80">Nhw aent ar plant iw porthi,</lb>
+
+
+    <lb n="81">Ag iw digoni 'n gu,</lb>
+
+
+    <lb n="82">A rhoddi ei Mam drwy alar,</lb>
+
+
+
+    <lb n="83">I bridd y Ddaear ddu,</lb>
+
+
+    <lb n="84">Y G&#373;r a fu dd&icirc;cllonus,</lb>
+
+
+    <lb n="85">Am anghysurus saig,</lb>
+
+
+    <lb n="86">Ei waith yn anrhugaredd,</lb>
+
+
+    <lb n="87">Mor ryfedd ar ei Wraig,</lb>
+
+
+
+
+
+    <lb n="88">Gwynf&#375;d a fo 'n drugarog,</lb>
+
+
+    <lb n="89">Medd gwir Eneiniog N&ecirc;,</lb>
+
+
+    <lb n="90">Bydd hwnnw i gael ei alw,</lb>
+
+
+    <lb n="91">I hoyw loyw l&ecirc;,</lb>
+
+
+    <lb n="92">Ce&icirc;st fod yn fendiged&icirc;g,</lb>
+
+
+    <lb n="93">Nodedig wedi ei daith,</lb>
+
+
+    <lb n="94">A mynd ir Deyrnas dirion,</lb>
+
+
+    <lb n="95">Am ffyddlon wiwlon wa&icirc;th:</lb>
+
+
+
+
+
+    <lb n="96">Peth drwg iw calon gledwch,</lb>
+
+
+    <lb n="97">D&icirc; degwch medd gair Duw,</lb>
+
+
+    <lb n="98">Pedfase ai porthase fe fase hon yn fyw,</lb>
+
+
+    <lb n="99">Yr Arglwydd an gwaredo,</lb>
+
+
+    <lb n="100">Rhag syrthio i ffasiwn sen,</lb>
+
+
+    <lb n="101">I ado neb mewn newyn,</lb>
+
+
+    <lb n="102">Na niwed fyth Amen.</lb>
+
+
+
+
+    <lb n="td. 8.diwedd">Ellis Roberts a'i Cant
+    </lb>
+
+
+
+    <lb n="td. 8.diwedd">DIWEDD
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_346-1">
+        <pb n="">
+        
+
+
+
+
+    <lb n="td. 2">Ffarwel Brydain.
+    </lb>
+
+
+
+    <lb n="1">FFARWEL fo i 'r enwog l&acirc;n lu arfog,</lb>
+
+
+    <lb n="2">Dan SIOR Goronog gywir r&acirc;s,</lb>
+
+
+    <lb n="3">I fynd o 'i cartre i bell siwrne,</lb>
+
+
+    <lb n="4">I gadw ein caera [~ caerau] rhag rhai c&acirc;s,</lb>
+
+
+    <lb n="5">Sy a meddwl creulon am l&acirc;dd ein dynion,</lb>
+
+
+    <lb n="6">D&icirc;stryw estron fryntion fryd,</lb>
+
+
+    <lb n="7">E&icirc; dyfais waedlyd sydd bob munud,</lb>
+
+
+    <lb n="8">Am ddwyn ein bywyd oll o 'r byd,</lb>
+
+
+    <lb n="9">Nerth i fyned i 'r h&ecirc;n Frutanied,</lb>
+
+
+    <lb n="10">Oedd gynt ddiniwed dan y N&ecirc;,</lb>
+
+
+    <lb n="11">I gadw allan holl lu Satan,</lb>
+
+
+    <lb n="12">Sy ar gefnfor llydan ym mhob lle.</lb>
+
+
+
+
+
+    <lb n="13">Dowch yn un galon ddownus ddynion,</lb>
+
+
+    <lb n="14">Holl Langcie dewrion mwynion Mon,</lb>
+
+
+    <lb n="15">Byddwch barod i ymgyfarfod,</lb>
+
+
+    <lb n="16">A 'r lluoedd Ffrangcod syndod s&ocirc;n,</lb>
+
+
+    <lb n="17">Byddwch fentrus dros eich Yn&#375;s,</lb>
+
+
+    <lb n="18">H&ecirc;n wlad barchus ddilys dda,</lb>
+
+
+    <lb n="19">Yn hon mae golud ymborth bywyd,</lb>
+
+
+    <lb n="20">Mewn enw hyfryd Aua [~ aeaf] a H&acirc;,</lb>
+
+
+    <lb n="21">Dowch chwi rai lysti Langcie yr Yri [~ Eryri],</lb>
+
+
+    <lb n="22">Mae clod fawr i chwi yn Army o nerth,</lb>
+
+
+    <lb n="23">I attal bleiddied aflan willied,</lb>
+
+
+    <lb n="24">Gwag Babistied synied serth.</lb>
+
+
+
+
+
+
+
+    <lb n="25">Gw&#375;r Dimbych dirion ddownus ddynion,</lb>
+
+
+    <lb n="26">Chwi yn un galon oll ymgwyd,</lb>
+
+
+    <lb n="27">Yn 3 chant o 'ch gwirfodd dowch mewn dewrfodd</lb>
+
+
+    <lb n="28">'Run [~ Yr un] modd a lluoedd Athan Llwyd,</lb>
+
+
+    <lb n="29">I attal milain bradwyr Brydain,</lb>
+
+
+    <lb n="30">Duw drachefen fo gyda chwi,</lb>
+
+
+    <lb n="31">Ag a 'ch dygo adre yn ol o 'ch siwrne,</lb>
+
+
+    <lb n="32">Mewn moddion gore breintie a bri,</lb>
+
+
+    <lb n="33">Doed da dynghedfen i 'r cant ag ugien [~ ugain],</lb>
+
+
+    <lb n="34">O 'r Fflint drachefen lawen l&ecirc;,</lb>
+
+
+    <lb n="35">Duw fo 'n eich gwarchod chiw 'n eich gorchwyl,</lb>
+
+
+    <lb n="36">Mewn dawn anwyl dan y N&ecirc;.</lb>
+
+
+
+
+
+    <lb n="37">Daion&icirc; i ddynion mawrwych Meirion,</lb>
+
+
+    <lb n="38">I droi gelynion drawsion draw,</lb>
+
+
+    <lb n="39">A 'i harfe gloywion nhw sydd ddewrion,</lb>
+
+
+    <lb n="40">I rwystro estron fryntion fraw,</lb>
+
+
+    <lb n="41">Chwi w&#375;r addfwyn S&icirc;r Drefaldwyn,</lb>
+
+
+    <lb n="42">Sy 'n gwchol gochwyn rwyddfwyn rai,</lb>
+
+
+    <lb n="43">Gl&acirc;n ddysgawdwyr dewr ryfelwyr,</lb>
+
+
+    <lb n="44">Gore Sawdwyr chwi ni sai,</lb>
+
+
+    <lb n="45">Byddwch ddewrion oll un galon,</lb>
+
+
+    <lb n="46">Na ddel caseion brenin SIOR,</lb>
+
+
+    <lb n="47">Sy 'n llawn mewn Llonge o danllyd arfe,</lb>
+
+
+    <lb n="48">Yn nofio tonne murie 'r m&ocirc;r.</lb>
+
+
+
+
+
+    <lb n="49">Chwi w&#375;r gwisgi Aberteifi,</lb>
+
+
+    <lb n="50">Sy mynd o ddifri y leni ar led,</lb>
+
+
+    <lb n="51">Byddwch ffyddlon dan y goron,</lb>
+
+
+    <lb n="52">Rhag gelynion cryfion cred,</lb>
+
+
+    <lb n="53">Duw fo 'n llwyddo gw&#375;r Sir Benfro,</lb>
+
+
+
+    <lb n="54">Caerfyrddin gryno gore e&icirc; grym,</lb>
+
+
+    <lb n="55">Doed gwyr purlan hen wlad Morgan,</lb>
+
+
+    <lb n="56">Yn erbyn llydan gledde llym,</lb>
+
+
+    <lb n="57">Doed llu enwog gw&#375;r Mercheiniog</lb>
+
+
+    <lb n="58">Yn erbyn enwog lidiog lu,</lb>
+
+
+    <lb n="59">I gadw beunydd gaera [~ gaerau] ein gwledydd,</lb>
+
+
+    <lb n="60">A Duw fo 'n llywydd ar y llu.</lb>
+
+
+
+
+
+    <lb n="61">Chwi langcie cywir y DEHEUDIR,</lb>
+
+
+    <lb n="62">A GWYNEDD siccr gwn a sai,</lb>
+
+
+    <lb n="63">Rhyfelwyr Cymru oedd gynt yn ffynnu,</lb>
+
+
+    <lb n="64">I 'w rhifo i synu yn rhai di fai,</lb>
+
+
+    <lb n="65">Byddwch ddichlyn dan eich brenin,</lb>
+
+
+    <lb n="66">Yn erbyn gerwin fyddin fawr,</lb>
+
+
+    <lb n="67">Os bydd Duw Celi yn gymorth i chwi,</lb>
+
+
+    <lb n="68">Fe gewch ei torr&icirc; y leni i lawr,</lb>
+
+
+    <lb n="69">Mae 'n fyd peryglus ar ein hyn&#375;s,</lb>
+
+
+    <lb n="70">Tr&icirc; chant iw dewis ymhen pob dau,</lb>
+
+
+    <lb n="71">Sydd yn yr atgas bedair teyrnas,</lb>
+
+
+    <lb n="72">Sy yn awr o 'i cwmpas ymron cau,</lb>
+
+
+
+
+
+    <lb n="73">Boed llaw Duw pura ymhlaid [~ ym mhlaid] MILITIA,</lb>
+
+
+    <lb n="74">I 'w rhwystro nhw yma garwa gwyr,</lb>
+
+
+    <lb n="75">Nhw fasen drosodd er's blynyddoedd,</lb>
+
+
+    <lb n="76">Ond fel ympur&icirc;odd Arglwydd pur,</lb>
+
+
+    <lb n="77">Nid &#375;m ni i'n gweled ond megis dyrned</lb>
+
+
+    <lb n="78">Wrth beder llonged fawr o 'r llu,</lb>
+
+
+    <lb n="79">Ond mae Duw yn attal ei nerth nhw etto,</lb>
+
+
+    <lb n="80">Rhag ein darnio a 'r cledde du,</lb>
+
+
+    <lb n="81">Mae rhyw drugaredd maith di ddiwedd</lb>
+
+
+    <lb n="82">Ond pur ryfedd mae 'n parhau,</lb>
+
+
+
+
+
+    <lb n="83">Mae i ni ragluniaeth y Duw perffaith,</lb>
+
+
+    <lb n="84">A 'i nefol gywaeth heb ei gau.</lb>
+
+
+
+
+
+    <lb n="85">Gw&#375;r Ifeingc Cymru ymwnewch mewn gallu,</lb>
+
+
+    <lb n="86">Os Duw sy 'n ffynnu hyn &icirc; fod.</lb>
+
+
+    <lb n="87">Y 3 blynedd yma fydd ddiwaetha,</lb>
+
+
+    <lb n="88">Drwy 'r Messeia glana ei gl&ocirc;d,</lb>
+
+
+    <lb n="89">Ymrowch bob calon am Dduw cyfion,</lb>
+
+
+    <lb n="90">Nhw fyddan blinion lymion lid,</lb>
+
+
+    <lb n="91">Nid oes ond trugaredd y Duw santedd</lb>
+
+
+    <lb n="92">Na basen gaethedd oll eu gid [~ i gyd],</lb>
+
+
+    <lb n="93">Mae hynny yn ddigon Duw tro bob calon,</lb>
+
+
+    <lb n="94">I roi gweddion yma yn ddwys,</lb>
+
+
+    <lb n="95">Gwna n&icirc; 'n unig yn gadwedig,</lb>
+
+
+    <lb n="96">Cyn y pergyg mawr a 'r pwys.</lb>
+
+
+
+
+
+    <lb n="97">Y glan Frutaniaid na fyddwch ddiriaid,</lb>
+
+
+    <lb n="98">Ond din&icirc;waid dan y N&ecirc;,</lb>
+
+
+    <lb n="99">Gadewch bob traha a phuteindra,</lb>
+
+
+    <lb n="100">Rhag del lladdfa &icirc; bob ll&ecirc;,</lb>
+
+
+    <lb n="101">3 blynedd blinion llawn peryglon,</lb>
+
+
+    <lb n="102">A gewch chwi yn drymion hyn o dro,</lb>
+
+
+    <lb n="103">Rhag i Dduw y purder ddanfon trymder,</lb>
+
+
+    <lb n="104">Neu ryw brinder mawr i 'n bro,</lb>
+
+
+    <lb n="105">Pawb sy 'n caru Militia Cymru,</lb>
+
+
+    <lb n="106">Rhoed Wedd&icirc; gu heb synnu sen,</lb>
+
+
+    <lb n="107">Ar Ddu&#373; 'r uchel-ne i gadw o 'r dryge,</lb>
+
+
+    <lb n="108">I gyd mewn gore modde Amen.</lb>
+
+
+
+
+    <lb n="td. 5.diwedd">Ellis Roberts
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_346-2">
+        <pb n="">
+        
+
+
+
+
+    <lb n="td. 6">Amorylis.
+    </lb>
+
+
+
+    <lb n="1">CLOWCH hanes creulon moddion mawr,</lb>
+
+
+    <lb n="2">Am ferch fonhedd&icirc;g glan ei gwawr,</lb>
+
+
+    <lb n="3">Mewn agwedd noeth mynega yn awr,</lb>
+
+
+    <lb n="4">Fel a bu dirfawr derfyn,</lb>
+
+
+    <lb n="5">Beichiogi o 'r gw&acirc;s a wnaeth hi 'n faith,</lb>
+
+
+    <lb n="6">Mewn hudol waith anhydyn,</lb>
+
+
+    <lb n="7">Hi l&icirc;niodd [~ luniodd] fyned gyd ag &ecirc;,</lb>
+
+
+    <lb n="8">I arswydus siwrne sydyn.</lb>
+
+
+
+
+
+    <lb n="9">Hi a gychwyne i ffwrdd o 'i phlas,</lb>
+
+
+    <lb n="10">Gyda ei mor&#373;yn bur a 'i gw&acirc;s,</lb>
+
+
+    <lb n="11">I 'r Bath y dweuda y ferch ddir&acirc;s,</lb>
+
+
+    <lb n="12">Yr ae hi o bwrpas yno,</lb>
+
+
+    <lb n="13">I edrych oedd mewn moddion ffri,</lb>
+
+
+    <lb n="14">Ddim mwynder iddi ymendio,</lb>
+
+
+    <lb n="15">Yr a&icirc;l n&ocirc;s o 'i chartre daeth,</lb>
+
+
+    <lb n="16">Yn glafedd aeth i glwyfo.</lb>
+
+
+
+
+
+    <lb n="17">Roedd gwely e&icirc; morwyn lan ei bri,</lb>
+
+
+    <lb n="18">Yn yr un Siamber efo hi,</lb>
+
+
+    <lb n="19">Ond ei meistres yno yn wael ei chri,</lb>
+
+
+    <lb n="20">Trwm o&ecirc;dd y cledi [~ caledi] a 'i cludodd,</lb>
+
+
+    <lb n="21">A 'r gowlaid [~ goflaid] bach pan ddaeth i 'r byd,</lb>
+
+
+    <lb n="22">Gwall hefyd hi a 'i lladdodd,</lb>
+
+
+    <lb n="23">A 'i morwyn hefyd glan ei gwawr,</lb>
+
+
+    <lb n="24">O 'i chlefyd mawr ni chlwyfodd.</lb>
+
+
+
+
+
+    <lb n="25">'Rol [~ Ar ol] iddi fygu 'r gowlaid [~ goflaid] wan,</lb>
+
+
+
+    <lb n="26">Hi gode yn ddistaw yn y man,</lb>
+
+
+    <lb n="27">Ag at y forwyn oedd liw 'r can,</lb>
+
+
+    <lb n="28">Rhoe 'r gelan [~ gelain] dan ei gwely,</lb>
+
+
+    <lb n="29">A hon oedd flin ar ol ei thaith,</lb>
+
+
+    <lb n="30">Mewn cysgod waith yn cysgu,</lb>
+
+
+    <lb n="31">H&ecirc;b fawr feddwl yn hynny o l&ecirc;,</lb>
+
+
+    <lb n="32">Fod allan ddrygau felly.</lb>
+
+
+
+
+
+    <lb n="33">Fe fore g&ocirc;de 'r ferch ddi-r&acirc;s,</lb>
+
+
+    <lb n="34">Yn sydyn galwodd ar i gw&acirc;s,</lb>
+
+
+    <lb n="35">Dan dd&#373;eud yr ae hi 'n ol i 'w phl&acirc;s,</lb>
+
+
+    <lb n="36">Fod achos addas iddi,</lb>
+
+
+    <lb n="37">Fod yno hardd gwmpeini mwyn,</lb>
+
+
+    <lb n="38">Yn galw ar dwyn amdani,</lb>
+
+
+    <lb n="39">Ag ar y ffordd y gwas mewn braw</lb>
+
+
+    <lb n="40">Dechreua e&icirc; hylaw holi.</lb>
+
+
+
+
+
+    <lb n="41">A gofyn iddi yn hynny o bryd,</lb>
+
+
+    <lb n="42">A ddaetha 'r plentyn b&acirc;ch i 'r byd,</lb>
+
+
+    <lb n="43">Fel galle fagu hwn o hyd,</lb>
+
+
+    <lb n="44">A gado bywyd iddo,</lb>
+
+
+    <lb n="45">I 'w synnu o hyd pan sonie hyn,</lb>
+
+
+    <lb n="46">Dechreue 'n ddygn ddigio,</lb>
+
+
+    <lb n="47">Yn y pentre *nesa ymlaen pan ae,</lb>
+
+
+    <lb n="48">Yn union gwnae 'i wenwyno.</lb>
+
+
+
+
+
+    <lb n="49">Ar hyn fe ddaeth Swyddogion aed,</lb>
+
+
+    <lb n="50">I 'w dwyn yn ol a 'i dal a wnaed,</lb>
+
+
+    <lb n="51">Cae forwyn gloie ar ei dwylo a 'i thraed,</lb>
+
+
+
+    <lb n="52">A 'i barnu a wnaed yn euog,</lb>
+
+
+    <lb n="53">A 'i barnu i 'w chrogi ar ddiwrnod prydd,</lb>
+
+
+    <lb n="54">Mawr gerydd anrhugarog,</lb>
+
+
+    <lb n="55">Oni bae ragluniaeth Duw o 'r N&ecirc;,</lb>
+
+
+    <lb n="56">A 'i dyge o friwie afrowiog.</lb>
+
+
+
+
+
+    <lb n="57">Doe 'r gwas a gawse ei wenwyno i 'r lle,</lb>
+
+
+    <lb n="58">A 'r Plentyn bychan gyd ag &ecirc;,</lb>
+
+
+    <lb n="59">O flaen y faingc drwy waith Duw N&ecirc;,</lb>
+
+
+    <lb n="60">I ddweud geiria [~ geiriau] dros y gwirion,</lb>
+
+
+    <lb n="61">A 'r feistres yno yn ei ll&ecirc;,</lb>
+
+
+    <lb n="62">Gadd ddiodde loesa [~ loesau] creulon,</lb>
+
+
+    <lb n="63">Mae Duw yn gweled o 'i nefol fro,</lb>
+
+
+    <lb n="64">Ag i 'w gofio sawl sy gyfion.</lb>
+
+
+
+
+    <lb n="td. 8.diwedd">E. R.
+    </lb>
+
+
+    <lb n="td. 8.diwedd">DIWEDD.
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_347-1">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="td. 2">Ffarwel Trefaldwyn,
+    </lb>
+
+
+
+    <lb n="1">DOWCH bechaduriaid oll i glywed,</lb>
+
+
+    <lb n="2">Ar hyn o ganied [~ ganiad] bod ag un,</lb>
+
+
+    <lb n="3">Modd y mae 'r Arglwydd hylwydd haela,</lb>
+
+
+    <lb n="4">Yn rhoi dalfa ar bob dyn,</lb>
+
+
+    <lb n="5">Pob un a ddalio &icirc; 'w ddigio yn ddygn,</lb>
+
+
+    <lb n="6">Fo geiff arswydus ddiwedd sydyn,</lb>
+
+
+    <lb n="7">Fel rhoes &ecirc; 'r Diluw a 'r Dialedd,</lb>
+
+
+    <lb n="8">I foddi byd o anwiredd,</lb>
+
+
+    <lb n="9">Am gamwedd budredd ffiedd ffol,</lb>
+
+
+    <lb n="10">A 'i bwrw i ffwrn Uffernol,</lb>
+
+
+    <lb n="11">Na ddeuen dros dragwyddol,</lb>
+
+
+    <lb n="12">Bethe annuwiol byth yn ol,</lb>
+
+
+
+
+
+    <lb n="13">Mae 'r Duw dihalog Nefol Dwysog,</lb>
+
+
+    <lb n="14">Yn drugarog digon gwir,</lb>
+
+
+    <lb n="15">Ag mae fe 'n gyfion dalwr diclon,</lb>
+
+
+    <lb n="16">I 'r dynion bryntion cledion [~ caledion] clir,</lb>
+
+
+    <lb n="17">Y becho i 'w erbyn &ecirc; 'n ddi arbed,</lb>
+
+
+    <lb n="18">Yn ddi-gywilydd galon galed,</lb>
+
+
+    <lb n="19">Fe rydd Duw felldith hirdrom,</lb>
+
+
+    <lb n="20">F&ecirc;l rhoes o gynt yn Sodom,</lb>
+
+
+    <lb n="21">Yn ystorom t&acirc;n tost iawn,</lb>
+
+
+    <lb n="22">A 'i wlaw&icirc;o yn fflame trymfodd,</lb>
+
+
+    <lb n="23">I 'w nafu [~ anafu] oll o 'r Nefoedd,</lb>
+
+
+    <lb n="24">I losgi lluoedd oedd yno 'n llawn,</lb>
+
+
+
+
+
+    <lb n="25">Yngwlad [~ Yng ngwlad]&nbsp;Italia y flwyddyn yma,</lb>
+
+
+    <lb n="26">Bu drom wasgfa tyna taith,</lb>
+
+
+
+    <lb n="27">Mae 'n gyffelybrwydd mae digio 'r Arglwydd,</lb>
+
+
+    <lb n="28">Yn ddi gywilydd a fu 'r gwaith,</lb>
+
+
+    <lb n="29">Fe roes y cofus frenin cyfion,</lb>
+
+
+    <lb n="30">Ar Dir a Moroedd Daranau mowrion,</lb>
+
+
+    <lb n="31">A 'r Mellt yn Saethe tanllyd,</lb>
+
+
+    <lb n="32">Bob moment &acirc; phob munud,</lb>
+
+
+    <lb n="33">Yn ddychrynllyd embyd [~ enbyd] iawn,</lb>
+
+
+    <lb n="34">A 'r Ddaear oedd yn *siglo,</lb>
+
+
+    <lb n="35">A 'r Trefydd mawr yn syrthio,</lb>
+
+
+    <lb n="36">I lawr yn llithro yno 'n llawn,</lb>
+
+
+
+
+
+    <lb n="37">Y T&acirc;n yn fflamio a 'r M&ocirc;r yn rhuo,</lb>
+
+
+    <lb n="38">A 'r tai yn cwympio yn llithro o 'i ll&ecirc;,</lb>
+
+
+    <lb n="39">A 'r holl wlad burlan liwdeg lydan,</lb>
+
+
+    <lb n="40">Yn 'nynny [~ enynnu] 'n anian dan y N&ecirc;,</lb>
+
+
+    <lb n="41">A 'r Trefydd cryfion fowrion furie,</lb>
+
+
+    <lb n="42">Yn mynd i 'r gwaelod hefo 'i gwalie,</lb>
+
+
+    <lb n="43">Aeth tr&icirc; chant o Bentrefydd,</lb>
+
+
+    <lb n="44">I 'r gwaelod hefo 'i gilydd,</lb>
+
+
+    <lb n="45">I 'r un dihenydd cerydd c&acirc;s,</lb>
+
+
+    <lb n="46">Dros drigain mil o ddynion,</lb>
+
+
+    <lb n="47">Ei bywyd a gollason,</lb>
+
+
+    <lb n="48">O rai pen ryddio oedd ddi-ras,</lb>
+
+
+
+
+
+    <lb n="49">Tair o Ddinasoedd yno gwympiodd,</lb>
+
+
+    <lb n="50">Ac a suddodd oll yn siwr,</lb>
+
+
+    <lb n="51">Nid oes hanes un ohonyn,</lb>
+
+
+    <lb n="52">Ar llawr derfyn ond llyn dwfr,</lb>
+
+
+    <lb n="53">Na 'r un &icirc; 'w gweled o 'r trigolion</lb>
+
+
+    <lb n="54">I gell isel a gollason,</lb>
+
+
+    <lb n="55">Ow 'r plant a 'r glan famhaethod,</lb>
+
+
+
+    <lb n="56">Mewn galar aeth i 'r gwaelod,</lb>
+
+
+    <lb n="57">Mae wedi darfod oll ei dydd,</lb>
+
+
+    <lb n="58">Ple bynnag y mae cartre,</lb>
+
+
+    <lb n="59">Hynodol i 'w Heneidie,</lb>
+
+
+    <lb n="60">Nhw aent i 'r siwrne a 'i brone 'n brudd,</lb>
+
+
+
+
+
+    <lb n="61">Dyma ddychryn sadwedd sydyn,</lb>
+
+
+    <lb n="62">Dyma anffortyn dygn dwys,</lb>
+
+
+    <lb n="63">Dyma adfyd na chawsen ddiengud,</lb>
+
+
+    <lb n="64">Cyn cwrdd a drygfyd penyd pwys,</lb>
+
+
+    <lb n="65">Yr holl achosion mawr trwch ysig,</lb>
+
+
+    <lb n="66">Oedd achos digio 'r bendigedig,</lb>
+
+
+    <lb n="67">Sef ffiedd bechod hagr,</lb>
+
+
+    <lb n="68">Agorodd safn y Ddaear,</lb>
+
+
+    <lb n="69">I 'w llyngcu i 'r galar bod ag un,</lb>
+
+
+
+    <lb n="70">Ni buon heb ddepartio</lb>
+
+
+    <lb n="71">mor ugain munud cryno</lb>
+
+
+    <lb n="72">I waelod yno ni welwyd un,</lb>
+
+
+
+
+
+    <lb n="73">Dyma *syndod mawr di ddarfod,</lb>
+
+
+    <lb n="74">Am fod dan bechod drwg yn byw,</lb>
+
+
+    <lb n="75">Dyma gyffro hir y 'w gofio,</lb>
+
+
+    <lb n="76">A 'r achos yno oedd digio Duw,</lb>
+
+
+    <lb n="77">Dyma 'r dygn farnedigaeth,</lb>
+
+
+    <lb n="78">Mynd i 'r dyfnsiwn oll ar unwaith,</lb>
+
+
+
+    <lb n="79">Heb hanes un ohonyn</lb>
+
+
+    <lb n="80">yn ffoi o 'r blin anffortyn,</lb>
+
+
+    <lb n="81">Ond syrthio i 'r gerwin dychryn du,</lb>
+
+
+    <lb n="82">Drwy 'r maith anfeidrol ddyffryn,</lb>
+
+
+    <lb n="83">Yn awr ni weliff undyn,</lb>
+
+
+    <lb n="84">Ddim ol na Thyddyn chwaith na Th&#375;.</lb>
+
+
+
+
+
+
+
+    <lb n="85">Dyma 'r garwa ddiwedd tosta,</lb>
+
+
+    <lb n="86">Fel llu Cora tryma tr&ocirc;,</lb>
+
+
+    <lb n="87">Y Ddaear embyd [~ enbyd] yn agoryd,</lb>
+
+
+    <lb n="88">I ddwyn ei bywyd gaethfyd go,</lb>
+
+
+    <lb n="89">Ni chaent mor cimin o waith camwedd,</lb>
+
+
+    <lb n="90">Ag un munud nag amynedd,</lb>
+
+
+    <lb n="91">Ond mynd i lawr yr eigion,</lb>
+
+
+    <lb n="92">I dywyllwch fel rhai deillion,</lb>
+
+
+    <lb n="93">A bod trwm foddion yno fyth,</lb>
+
+
+    <lb n="94">Gwae rhai a ddigio 'r Arglwydd,</lb>
+
+
+    <lb n="95">Ni welant yn dragywydd,</lb>
+
+
+    <lb n="96">Ddim o 'r llawenydd sadrwydd syth.</lb>
+
+
+
+
+
+    <lb n="97">Rhain oedd ddynion uchel feilchion,</lb>
+
+
+    <lb n="98">Yn rhith Crisnogion [~ Cristnogion] waelion wedd,</lb>
+
+
+    <lb n="99">Nhw aeth o 'i Cartre o 'r un Ange,</lb>
+
+
+    <lb n="100">Mewn aswy boena yn is na 'r Bedd,</lb>
+
+
+    <lb n="101">Rhain oedd daeredd bechaduriaid,</lb>
+
+
+    <lb n="102">Ag er na wyddent mo 'r diweddiad,</lb>
+
+
+    <lb n="103">Fod Cledde Duw mor agos,</lb>
+
+
+    <lb n="104">I 'w torri nhw 'n ddi ymaros,</lb>
+
+
+    <lb n="105">I wl&acirc;d yr h&icirc;rnos byr nos ben,</lb>
+
+
+    <lb n="106">Cymerwn ninne rybydd,</lb>
+
+
+    <lb n="107">Holl bobl Cymru beunydd,</lb>
+
+
+    <lb n="108">Mewn hendre a mynydd oll Amen.</lb>
+
+
+
+
+    <lb n="td. 5.diwedd">Ellis Roberts
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_347-2">
+        <pb n="">
+        
+
+
+
+
+
+    <lb n="td. 6">
+Ymddiddan rhwng Gwr Ifangc a 'i Gariad bob
+yn ail penill; ar Loath to Depart fyrraf.
+    </lb>
+
+
+
+    <lb n="td. 6.siaradwr">Mab.
+        </lb>
+
+
+    <lb n="1">Y Ganaid iredd gain a dewrwych,</lb>
+
+
+    <lb n="2">Clos yn adrod clws yn edrych,</lb>
+
+
+    <lb n="3">A rowch i genad un deg union,</lb>
+
+
+    <lb n="4">I ddweud fy meddwl hardd ei moddion.</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">Ferch
+        </lb>
+
+
+    <lb n="5">Mae ganddoch Dafod landdyn mwynlan,</lb>
+
+
+    <lb n="6">Dd&acirc; wych enw o 'ch eiddo 'ch hunan,</lb>
+
+
+    <lb n="7">Y mwyndeg rosyn mae i chwi groeso,</lb>
+
+
+    <lb n="8">Wneud was hynod iws ohono,</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">Mab
+        </lb>
+
+
+    <lb n="9">Doeth ymadrodd iawn pe 'i medrwn,</lb>
+
+
+    <lb n="10">Y Chwi o filoedd a ganfolwn,</lb>
+
+
+    <lb n="11">Rhown i chwi beunydd ym&acirc; yn benna,</lb>
+
+
+    <lb n="12">Fawl daionus fel Diana,</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">Ferch,
+        </lb>
+
+
+    <lb n="13">Nid wi 'n ymorol am gymyreth,</lb>
+
+
+    <lb n="14">Tyfiad gwan na 'r tafod gweiniaeth,</lb>
+
+
+    <lb n="15">Gwell geni o 'r galon un gair gole,</lb>
+
+
+    <lb n="16">Na mil ar g&acirc;n o fawl o 'r gene,</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">Mab
+        </lb>
+
+
+    <lb n="17">Nid ar Dafad hynod hanes,</lb>
+
+
+    <lb n="18">Y doethum yma i goffa 'r gyffes,</lb>
+
+
+    <lb n="19">Ond o 'r galon enw gwiwlwys,</lb>
+
+
+    <lb n="20">Yn ffyddlon burffydd un berffeiddiwys,</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">Ferch
+        </lb>
+
+
+    <lb n="21">Mi glywais ddweudyd fod y meibion,</lb>
+
+
+
+    <lb n="22">O d&ecirc;g olwg a dwy galon,</lb>
+
+
+    <lb n="23">Un mewn dwyfron ymin [~ ym min] darfod,</lb>
+
+
+    <lb n="24">A 'r llall yn tyfu yngwraidd [~ yng gwraidd] y tafod.</lb>
+
+
+
+
+
+
+    <lb n="td. 7.siaradwr">mab
+        </lb>
+
+
+    <lb n="25">Rwyfi mor bur a 'r dur heb dorri,</lb>
+
+
+    <lb n="26">Fel roedd y Puramws a Thesbi,</lb>
+
+
+    <lb n="27">Mi dybiais i eich bod lliw 'r eira,</lb>
+
+
+    <lb n="28">Yn fwy tybyccach [~ tebycach] i Rebecca.</lb>
+
+
+
+
+
+
+    <lb n="td. 7.siaradwr">*ferch
+        </lb>
+
+
+    <lb n="29">Rwyfi o synwyr fel Siwsanna,</lb>
+
+
+    <lb n="30">I garu 'r parod landdyn pura,</lb>
+
+
+    <lb n="31">Pedfawn yn gwybod pwy ydi hwnnw,</lb>
+
+
+    <lb n="32">Mi fyddwn ffyddlon iddo hyd farw,</lb>
+
+
+
+
+
+
+    <lb n="td. 7.siaradwr">mab
+        </lb>
+
+
+    <lb n="33">Fi ydi 'r dyn ei hun i 'w henwi,</lb>
+
+
+    <lb n="34">Mewn byrr atteb yn bur itti,</lb>
+
+
+    <lb n="35">Ag di gei weled gwen lliw 'r hinon,</lb>
+
+
+    <lb n="36">Fod pura golwg fel y galon,</lb>
+
+
+
+
+
+
+    <lb n="td. 7.siaradwr">ferch
+        </lb>
+
+
+    <lb n="37">Mi glywais ddweudyd fod rhai meibion,</lb>
+
+
+    <lb n="38">Yn angharedig pan br&icirc;odon,</lb>
+
+
+    <lb n="39">Wedi altro 'r tafod melfed,</lb>
+
+
+    <lb n="40">A 'i droi fel Cefn y Draenog caled.</lb>
+
+
+
+
+
+
+    <lb n="td. 7.siaradwr">mab
+        </lb>
+
+
+    <lb n="41">O na choelia pur ei Chalon,</lb>
+
+
+    <lb n="42">Na bydda yn ddi-dwyll fy addewidion,</lb>
+
+
+    <lb n="43">Mentra di a choelia ngeiria [~ fy ngeiriau]</lb>
+
+
+    <lb n="44">Y byddai yn bur i ti hyd Anga [~ Angau].</lb>
+
+
+
+
+
+
+    <lb n="td. 7.siaradwr">ferch
+        </lb>
+
+
+
+    <lb n="45">Mi fenrwn [~ fentrwn] hefo chwi yn fwy hyfach,</lb>
+
+
+    <lb n="46">Pedfae 'r Farchnad yn beth rhatta,</lb>
+
+
+    <lb n="47">Ofni rwy na chawn mo 'r lluniaeth,</lb>
+
+
+    <lb n="48">I gael gafeil&icirc;o [~ gafaelio] mewn bywoliaeth,</lb>
+
+
+
+
+
+
+    <lb n="td. 8.siaradwr">mab
+        </lb>
+
+
+    <lb n="49">Fe istwn &#375;d daw byd o 'r gore,</lb>
+
+
+    <lb n="50">Nid ydym ni ond dau o benne,</lb>
+
+
+    <lb n="51">Cyn delo chwaneg taw na chwyna,</lb>
+
+
+    <lb n="52">Bydd haws cael bwyd y flwyddyn nesa.</lb>
+
+
+
+
+
+
+    <lb n="td. 8.siaradwr">ferch
+        </lb>
+
+
+    <lb n="53">Ofni rwy na fyddwn flwyddyn,</lb>
+
+
+    <lb n="54">Nag un Chwarter heb y Plentyn,</lb>
+
+
+    <lb n="55">I 'r Cyflwr hwnnw cyd fodlonwn,</lb>
+
+
+    <lb n="56">Ran ein bod mor glos i 'r ffasiwn</lb>
+
+
+
+
+
+
+    <lb n="td. 8.siaradwr">mab
+        </lb>
+
+
+    <lb n="57">Paid fy Anwylyd ac anghoelio,</lb>
+
+
+    <lb n="58">Ni gawn ddigon gan Dduw Iago,</lb>
+
+
+    <lb n="59">Ni gawson hyd yn hyn ein lluniaeth,</lb>
+
+
+    <lb n="60">Ni a 'i cawn yn felys hyd farwolaeth,</lb>
+
+
+
+
+
+
+    <lb n="td. 8.siaradwr">Ferch
+        </lb>
+
+
+    <lb n="61">Geiriau teg sy 'n gwyro meddwl,</lb>
+
+
+    <lb n="62">I rwy fi yn gwybod hyn yn gwbl,</lb>
+
+
+    <lb n="63">Pedfawn i gyda chwi 'n ddyweddi,</lb>
+
+
+    <lb n="64">Mi gawn yn gegnoeth genych goegni.</lb>
+
+
+
+
+
+    <lb n="65">Rwy fi 'n dy garu di fy anwylyd,</lb>
+
+
+    <lb n="66">O flaen un ferch o fewn yr hollfyd,</lb>
+
+
+    <lb n="67">Mae genyf aur ac arian ddigon,</lb>
+
+
+    <lb n="68">Di gei fyd wrth fodd dy gal&ocirc;n.</lb>
+
+
+
+
+
+    <lb n="td. 8.diwedd">Ellis Roberts.
+    </lb>
+
+
+
+    <lb n="td. 8.diwedd">DIWEDD.
+    </lb>
+
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_348-1">
+        <pb n="">
+        
+
+
+
+
+
+    <lb n="td. 2">Cwynfan Brydain.
+    </lb>
+
+
+
+    <lb n="1">RHOWCH genad immi draethu,</lb>
+
+
+    <lb n="2">Neu ganu hyn &ocirc;m gene,</lb>
+
+
+    <lb n="3">Fel mae rhagluni&acirc;eth Nefol,</lb>
+
+
+    <lb n="4">Dedwyddol yn ein dyddiau;</lb>
+
+
+    <lb n="5">Ma&ecirc;'r Arglwydd mawr yn clywed,</lb>
+
+
+    <lb n="6">Mae 'n gweled pob dirgelion,</lb>
+
+
+    <lb n="7">Fe &#373;yr cyn inni feddwl yn fanwyl ein g&ocirc;fynion</lb>
+
+
+    <lb n="8">Mae Duw trugarog ffyddlon,</lb>
+
+
+    <lb n="9">Mae'n borthwr y tylodion,</lb>
+
+
+    <lb n="10">Cofus cyfion union iw:</lb>
+
+
+    <lb n="11">A'i ofal sydd drachefen,</lb>
+
+
+    <lb n="12">Dros bob gwaelion truain,</lb>
+
+
+    <lb n="13">Neu ni basen ddim yma 'n byw,</lb>
+
+
+    <lb n="14">Danghosodd mewn ffordd ryfedd,</lb>
+
+
+    <lb n="15">Ir weddw wael dylodedd,</lb>
+
+
+    <lb n="16">O'i ddwylo'r llynedd dda wellh&acirc;d,</lb>
+
+
+    <lb n="17">Hon oedd ai phedwar Plentyn,</lb>
+
+
+    <lb n="18">Yn ymyl marw o Newyn,</lb>
+
+
+    <lb n="19">Ond rhoes Duw 'n sydyn i hon leshad.</lb>
+
+
+
+
+
+    <lb n="20">*Ymhlwy&nbsp;Stutn roedd hi 'n tario,</lb>
+
+
+    <lb n="21">Yn sir Kent er cofio 'r cyfan,</lb>
+
+
+    <lb n="22">Ai gwr oedd wedi marw,</lb>
+
+
+    <lb n="23">Heb ond ei henw ei hunan;</lb>
+
+
+    <lb n="24">At gadw ei phedwar plentyn,</lb>
+
+
+    <lb n="25">O dyddiau Newyn oeddynt</lb>
+
+
+    <lb n="26">Ar plwy heb roi fawr iddi,</lb>
+
+
+    <lb n="27">Na'i holi am ei helynt,</lb>
+
+
+
+    <lb n="28">Ei henw oedd Mary Blacca,</lb>
+
+
+    <lb n="29">Doeth arni flin gyfyngdra,</lb>
+
+
+    <lb n="30">O eisio bara llymdra llwyd,</lb>
+
+
+    <lb n="31">Ar plant yn gwneud oer leisie,</lb>
+
+
+    <lb n="32">Yn wylo 'r heilltion ddagre,</lb>
+
+
+    <lb n="33">Ar n&ocirc;s a bore o eisio bwyd,</lb>
+
+
+    <lb n="34">Er cerdded drwy 'r gymdogaeth,</lb>
+
+
+    <lb n="35">Ni chadd h&icirc; ddim cynhaliaeth,</lb>
+
+
+    <lb n="36">Ran mor ddiluniaeth oedd y Wl&acirc;d,</lb>
+
+
+    <lb n="37">Er c&#375;min oedd ei chledi,</lb>
+
+
+    <lb n="38">Ni ystyrient mewn tosturi,</lb>
+
+
+    <lb n="39">I geisio ei lloni a dim gwelhad.</lb>
+
+
+
+
+
+    <lb n="40">Ag yno 'r aeth ei Newyn,</lb>
+
+
+    <lb n="41">Yn drablin ag yn drwblus,</lb>
+
+
+    <lb n="42">Ar Wraig dechreuodd alw,</lb>
+
+
+    <lb n="43">Ar d&acirc; enw Duw daionus,</lb>
+
+
+    <lb n="44">Ar plant yn wylo yn chwerwedd,</lb>
+
+
+    <lb n="45">Yn ddi duedd fyth heb dewi,</lb>
+
+
+    <lb n="46">Ow Mam mae 'n helynt galed,</lb>
+
+
+    <lb n="47">Rhowch unwaith damed inni,</lb>
+
+
+    <lb n="48">Ar hyn doe fastiff yno,</lb>
+
+
+    <lb n="49">A darn mawr o fare ganddo,</lb>
+
+
+    <lb n="50">Dan ei gario fo'n ei e&ecirc;g,</lb>
+
+
+    <lb n="51">A rhwng y plant gollyngodd,</lb>
+
+
+    <lb n="52">Yn ol ar fr&#375;s prysurodd,</lb>
+
+
+    <lb n="53">Fo ai gadawodd yno yn d&ecirc;g,</lb>
+
+
+    <lb n="54">Y plant a lawenhasan,</lb>
+
+
+    <lb n="55">Yn union nhw ai cymmeran,</lb>
+
+
+    <lb n="56">Ag ai bwyttason rwyddlon ri,</lb>
+
+
+    <lb n="57">Ei mam hefyd a ddymune,</lb>
+
+
+    <lb n="58">Iddyn dd&icirc;olch ar ei glinie,</lb>
+
+
+    <lb n="59">Ir hwn yrase iw cartre 'r Ci,</lb>
+
+
+
+
+
+
+
+    <lb n="60">Ae'r Wraig ar frys ir siambr,</lb>
+
+
+    <lb n="61">Drwy alar mawr dan wylo,</lb>
+
+
+    <lb n="62">Dan ddweud gwna ben yn fuan,</lb>
+
+
+    <lb n="63">I mi fy hunan heno,</lb>
+
+
+    <lb n="64">Dan ofni na chae eilweth,</lb>
+
+
+    <lb n="65">Ddim lluniaeth fyth iw llenwi,</lb>
+
+
+    <lb n="66">Ar Plant oedd yn Rheol,</lb>
+
+
+    <lb n="67">Gogwyddol yn rhoi gweddi,</lb>
+
+
+    <lb n="68">Ar fyrr doe ddau wr heibio,</lb>
+
+
+    <lb n="69">Pan oedden nhw 'n gweddio,</lb>
+
+
+    <lb n="70">Nhw droen yno i ymgomio yn gu,</lb>
+
+
+    <lb n="71">Ir Plant y ddau ofyne,</lb>
+
+
+    <lb n="72">Pam 'roedden ar ei glin&icirc;e,</lb>
+
+
+    <lb n="73">A nhwythe attebe pa fodde a fu,</lb>
+
+
+    <lb n="74">Mae nhw oedd mewn tost newyn,</lb>
+
+
+    <lb n="75">A dyfod Ci i ryw un,</lb>
+
+
+    <lb n="76">A bare yw galyn yn ei g&ecirc;g,</lb>
+
+
+    <lb n="77">A nine roes weddion,</lb>
+
+
+    <lb n="78">Ar yr hwn a wnaeth ei ddanfon,</lb>
+
+
+    <lb n="79">Mewn pur foddion tirion t&ecirc;g.</lb>
+
+
+
+
+
+    <lb n="80">Ag yno doe 'r Wraig allan,</lb>
+
+
+    <lb n="81">Ei hunan yn un hoenus,</lb>
+
+
+    <lb n="82">Dan ddweudyd faint ei Newyn,</lb>
+
+
+    <lb n="83">Mewn sydyn fodd arswydus,</lb>
+
+
+    <lb n="84">Gwyr yma wrth ei chlywed,</lb>
+
+
+    <lb n="85">Wnae ystyried ei thost eirie,</lb>
+
+
+    <lb n="86">Ag a roes iddi arian, iw chodi o druan droye,</lb>
+
+
+    <lb n="87">A hynny a fu y llynedd,</lb>
+
+
+    <lb n="88">Y Gwanwyn tost oedd gaethedd,</lb>
+
+
+    <lb n="89">Cadd weled mowredd doethedd Duw,</lb>
+
+
+    <lb n="90">Yn danfon y gwyr Duwiol,</lb>
+
+
+
+    <lb n="91">Drwy bur ragluniaeth Nefol,</lb>
+
+
+    <lb n="92">I'w dwyn yn fywiol i ail fyw,</lb>
+
+
+    <lb n="93">Mae Duw mewn ffordd ryfeddol,</lb>
+
+
+    <lb n="94">Ai galon yn dosturiol,</lb>
+
+
+    <lb n="95">Yn cadw ei bobl yn y byd,</lb>
+
+
+    <lb n="96">Bu yn borthwr ir rhai gwana,</lb>
+
+
+    <lb n="97">Drwy 'r flwyddyn ddrud ddiwaetha,</lb>
+
+
+    <lb n="98">Ir munud yma yn haela o hyd.</lb>
+
+
+
+
+
+    <lb n="99">Mae Duw yn rhoddi ymwared</lb>
+
+
+    <lb n="100">Drwy wael greaduriaid oerion,</lb>
+
+
+    <lb n="101">Mae'r cwbl at ei orchwyl,</lb>
+
+
+    <lb n="102">Yn anwyl ac yn union,</lb>
+
+
+    <lb n="103">Run modd ar Gigfran atgas,</lb>
+
+
+    <lb n="104">Yn porthi Elias loyw,</lb>
+
+
+    <lb n="105">A Bara a Chig yn buredd,</lb>
+
+
+    <lb n="106">Rhag iddo oi fowredd farw,</lb>
+
+
+    <lb n="107">Rhagluniaeth a fu 'n danfon,</lb>
+
+
+    <lb n="108">I borthi 'r plant tylodion,</lb>
+
+
+    <lb n="109">Y Bara a gawson gan ryw gi,</lb>
+
+
+    <lb n="110">Ni ddoethe 'r fath beth aflan,</lb>
+
+
+    <lb n="111">A dim oi ran eu hunan,</lb>
+
+
+    <lb n="112">Mewn gwedd anian gwyddon ni</lb>
+
+
+    <lb n="113">Pob rhyw sy yn nwylo 'r Arglwydd,</lb>
+
+
+    <lb n="114">Yn weinidogion hylwydd,</lb>
+
+
+    <lb n="115">Ni wyddom beunydd ymhob oes</lb>
+
+
+    <lb n="116">Ni thwtsie 'r barus Lewod,</lb>
+
+
+    <lb n="117">Ar gorph un Daniel hynod,</lb>
+
+
+    <lb n="118">Yn iach oi ffauod ef o ffoes,</lb>
+
+
+
+
+
+
+
+    <lb n="119">Mae'r T&acirc;n yn elfen chwerw,</lb>
+
+
+    <lb n="120">Gwna 'n ulw bob anialwch,</lb>
+
+
+    <lb n="121">Nid eill hwn er maint ei gyffro,</lb>
+
+
+    <lb n="122">Ddim digio 'r Nefol degwch,</lb>
+
+
+    <lb n="123">Oni te fe fase yn llosgi,</lb>
+
+
+    <lb n="124">Y Llangcie rheini ai rhinwedd,</lb>
+
+
+    <lb n="125">Ar ol ei taflu nhw iddo,</lb>
+
+
+    <lb n="126">Ai gwyro 'n ddi drugaredd,</lb>
+
+
+    <lb n="127">Rhagluniaeth Duw sy'n riwl&icirc;o,</lb>
+
+
+    <lb n="128">Morfilod sy 'n trafaelio,</lb>
+
+
+    <lb n="129">Yn tynnu nofio tano y N&ecirc;,</lb>
+
+
+    <lb n="130">Oni te ni ddaethe Jona,</lb>
+
+
+    <lb n="131">Dros byth &icirc;r bywyd yma,</lb>
+
+
+    <lb n="132">Nag i un noddfa i Ninife,</lb>
+
+
+    <lb n="133">Trugarog fu 'r Gorucha,</lb>
+
+
+    <lb n="134">Ir weddw o Serepia,</lb>
+
+
+    <lb n="135">Rhoes iddi fara pu. pen</lb>
+
+
+    <lb n="136">Gogoniant mawl di-ddiwedd,</lb>
+
+
+    <lb n="137">A fytho yw enw Sainctaidd,</lb>
+
+
+    <lb n="138">Mewn gore mowredd fyth Amen.</lb>
+
+
+
+
+    <lb n="td. 6.diwedd">Ellis Robets a'i Cant
+    </lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_358-1">
+        <pb n="">
+        
+
+
+
+
+
+    <lb n="td. 2">Duw gadwo'r Brenin
+    </lb>
+
+
+
+    <lb n="1">CLYWCH hanes mab hwsmon,</lb>
+
+
+    <lb n="2">O diroedd Iwerddon,</lb>
+
+
+    <lb n="3">I Ddulyn yn dirion y daeth,</lb>
+
+
+    <lb n="4">Yn Ystward distawedd i &#373;r mawr &icirc; fonedd,</lb>
+
+
+    <lb n="5">Yn rhyfedd dan rinwedd yr aeth,</lb>
+
+
+    <lb n="6">Fo oedd o ddysg uchel yn landdyn mwyn tawel,</lb>
+
+
+    <lb n="7">Synhwyrol ei chwedl gwych iawn,</lb>
+
+
+    <lb n="8">Ag Aeres fonheddig ai hoffodd &ocirc; yn unig,</lb>
+
+
+    <lb n="9">Ddyn ystig nodedig mewn dawn,</lb>
+
+
+    <lb n="10">Ag atto fo'n brysur y gyrrodd yn eglur,</lb>
+
+
+    <lb n="11">Yn gywir y Llythyr oi llaw,</lb>
+
+
+    <lb n="12">Mynega iddo 'n ddiwad fel 'rydoedd oi gariad,</lb>
+
+
+    <lb n="13">Dan nychiad o brofiad or braw,</lb>
+
+
+
+
+
+    <lb n="14">Yn llonwych Darlleniodd,</lb>
+
+
+    <lb n="15">Rhyw foddion rhyfeddodd,</lb>
+
+
+    <lb n="16">Pa fodd y danfonodd y fun,</lb>
+
+
+    <lb n="17">Hi yn Aeres ar dyddyn,</lb>
+
+
+    <lb n="18">Pum Cant yn y flwyddyn,</lb>
+
+
+    <lb n="19">Ag ynte yn wael lengcyn dwl un,</lb>
+
+
+    <lb n="20">Ond rhyngddyn nhw'n helaeth,</lb>
+
+
+    <lb n="21">Y prifiodd Carwriaeth,</lb>
+
+
+    <lb n="22">Heb neb mewn gwybodaeth ei bod,</lb>
+
+
+    <lb n="23">Ond truan gwybued ai Th&acirc;d a g&acirc;dd glywed,</lb>
+
+
+    <lb n="24">Fel 'rydoedd mynediad ei n&ocirc;d,</lb>
+
+
+    <lb n="25">Ysgrifenodd ar fyrder ar fr&#375;s at i feistr,</lb>
+
+
+    <lb n="26">Iw droi &ocirc;'n ddwl egr oi le,</lb>
+
+
+    <lb n="27">Pan glywe'r wen Eneth hi hwyliodd yn heleth</lb>
+
+
+    <lb n="28">Iw galyn o dranoeth or dr&ecirc;.</lb>
+
+
+
+
+
+
+
+    <lb n="29">Fe yrre ei Th&acirc;d weision,</lb>
+
+
+    <lb n="30">A rheini ai daliason,</lb>
+
+
+    <lb n="31">Dygason nh&#373; 'n *union yn ol,</lb>
+
+
+    <lb n="32">Y ferch a glos gadwed,</lb>
+
+
+    <lb n="33">Ag ynte a garchared,</lb>
+
+
+    <lb n="34">Fe ai bwried mewn rhediad yn rh&ocirc;l</lb>
+
+
+    <lb n="35">Ynghyfraith Iwerddon,</lb>
+
+
+    <lb n="36">Iw golli yno 'n union,</lb>
+
+
+    <lb n="37">Drwy lyfon cau dystion oer daith,</lb>
+
+
+    <lb n="38">Am ddwyn y Ferch honno,</lb>
+
+
+    <lb n="39">Gwnaent ladrad mawr arno,</lb>
+
+
+    <lb n="40">Gael iddo ei fyr wyro am ei waith,</lb>
+
+
+    <lb n="41">Yn fuan doe'r diwrnod i wneud ei ddibendod,</lb>
+
+
+    <lb n="42">Iw edrych doe rheini am ddwyn y fath ladi,</lb>
+
+
+    <lb n="43">Gwir ydi iw iawn brofi ryw bryd,</lb>
+
+
+
+
+
+    <lb n="44">Mewn Coach oi d&#375; annedd,</lb>
+
+
+    <lb n="45">Ei Th&acirc;d di drugaredd,</lb>
+
+
+    <lb n="46">I edrych ei ddiwedd l&acirc;n dd&#375;n,</lb>
+
+
+    <lb n="47">Ar ferch oedd iw garu,</lb>
+
+
+    <lb n="48">Oedd wedi ei chloi i fynu,</lb>
+
+
+    <lb n="49">Yn galaru ag yn llygru yno 'n llyn,</lb>
+
+
+    <lb n="50">Ond Erl o Gilclear a welo'n waith hagr,</lb>
+
+
+    <lb n="51">Wneud diwedd d&#375;n howddgar am hyn,</lb>
+
+
+    <lb n="52">Aeth at y Lord Debit fo fegiodd ei fywyd,</lb>
+
+
+    <lb n="53">Nad ellid mo'i symyd &ocirc;'n synn,</lb>
+
+
+    <lb n="54">Dros ddeugain d&#375;dd tyner,</lb>
+
+
+    <lb n="55">'Rol hyn daeth i *Loegr,</lb>
+
+
+    <lb n="56">At SIOR frenin aur-ber yr aeth,</lb>
+
+
+    <lb n="57">I Daniel migwear c&acirc;dd bardwn .wyllysgar</lb>
+
+
+    <lb n="58">Fo ai tynodd or Carchar blin caeth.</lb>
+
+
+
+
+
+
+
+    <lb n="59">Pan glywodd yr henddyn,</lb>
+
+
+    <lb n="60">Na chae &ocirc; mor Cortyn,</lb>
+
+
+    <lb n="61">Fo ymlenwodd yn ddygn o ddig,</lb>
+
+
+    <lb n="62">Fo b.ifiodd o eilweth mewn ll&icirc;d at ei Eneth</lb>
+
+
+    <lb n="63">Fo neidie bob bregwaith iw brig,</lb>
+
+
+    <lb n="64">Ag iddi gofyne oedd hi fyth or un modde,</lb>
+
+
+    <lb n="65">Yn dal mo'r ben dene yma ar dir,</lb>
+
+
+    <lb n="66">Hi attebe iw Th&acirc;d hynod,</lb>
+
+
+    <lb n="67">Fod Cariad heb ddarfod,</lb>
+
+
+    <lb n="68">Os mynne ga&ecirc;l gwaelod y gwir,</lb>
+
+
+    <lb n="69">Fo gippiodd ei Gledde yn sydyn fo ai brathe,</lb>
+
+
+    <lb n="70">Gwnae hithe oer leisie drwy loes,</lb>
+
+
+    <lb n="71">Fo redodd yn union oer ofid &icirc;r afon,</lb>
+
+
+    <lb n="72">A boddodd y creulon d.yn croes.</lb>
+
+
+
+
+
+    <lb n="73">Ni chowse'r l&acirc;n eneth,</lb>
+
+
+    <lb n="74">Dd&icirc;m briwie marwolaeth,</lb>
+
+
+    <lb n="75">Ond dychryn di berffaith yn boen,</lb>
+
+
+    <lb n="76">Y Cledde redase tu allan iw 'senne,</lb>
+
+
+    <lb n="77">Heb dwtsio ei gwych radde na'i chroen,</lb>
+
+
+    <lb n="78">Y newydd a yrrodd iw chariad oi gwirfodd,</lb>
+
+
+    <lb n="79">Ag ynte ai priododd pur yw,</lb>
+
+
+    <lb n="80">Yn Iwerddon l&acirc;n hyfryd,</lb>
+
+
+    <lb n="81">Mae'n etto 'n ddau anwylyd,</lb>
+
+
+    <lb n="82">Yn unfryd dan fywyd yn fyw,</lb>
+
+
+    <lb n="83">Pur gariad gl&acirc;n effro pwy ddichon ei rwystro,</lb>
+
+
+    <lb n="84">Lle tyfo mae'n llwyddo mewn ll&ecirc;s,</lb>
+
+
+    <lb n="85">Nid yw dyfroedd y Moroedd,</lb>
+
+
+    <lb n="86">Mor digon iw ddiffodd</lb>
+
+
+    <lb n="87">Lle ennynnodd iawn wreiddiodd i wr&ecirc;s.</lb>
+
+
+
+
+    <lb n="td. 4.diwedd">Ellis Robets a'i Cant
+    </lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_358-2">
+        <pb n="">
+        
+
+
+
+
+
+    <lb n="td. 5">Siwsan Lygeid-ddu.
+    </lb>
+
+
+
+
+    <lb n="1">GWRANDEWCH fy nghwynfan anian iw,</lb>
+
+
+    <lb n="2">Synna son im bron mae briw,</lb>
+
+
+    <lb n="3">Nid hir ir cledi hwn o hyd,</lb>
+
+
+    <lb n="4">Yn baeddu'r byd y byddai byw,</lb>
+
+
+    <lb n="5">My fym handi Ladi l&acirc;n,</lb>
+
+
+    <lb n="6">Yn caru Llangcie fawr a m&acirc;n,</lb>
+
+
+    <lb n="7">Mi gedwais gwmni llawer d&ecirc;g,</lb>
+
+
+    <lb n="8">Mewn croeso t&ecirc;g wrth wr&ecirc;s y t&acirc;n,</lb>
+
+
+    <lb n="9">Ar ol hynny ag ymdynnu ir gwely,</lb>
+
+
+    <lb n="10">A chusanu yno 'n siwr,</lb>
+
+
+    <lb n="11">Ond misies heb gel gan siwred ar S&ecirc;l,</lb>
+
+
+    <lb n="12">Yn ddirgel ddal gafael mewn g&#373;r,</lb>
+
+
+    <lb n="13">Ni chymrwn ar wndwn,</lb>
+
+
+    <lb n="14">Ni charwn a gowswn i'n gu,</lb>
+
+
+    <lb n="15">Ag ni chawn un Llangc p&ecirc;r,</lb>
+
+
+    <lb n="16">A hoffwn dan ser,</lb>
+
+
+    <lb n="17">Mae 'n drymder hen fater a fu,</lb>
+
+
+
+
+
+
+    <lb n="18">Rwan rydwi yn oer fy nghwyn,</lb>
+
+
+    <lb n="19">Heb un dyn yn troi mo nhrwyn,</lb>
+
+
+    <lb n="20">Pawb wedi ngado i dremio draw,</lb>
+
+
+    <lb n="21">Heb &#373;r im llaw im gwyro ir llwyn,</lb>
+
+
+    <lb n="22">Rwi'n byw mewn siamber bach fy hyn,</lb>
+
+
+    <lb n="23">Mewn asw daith o eisio dyn,</lb>
+
+
+    <lb n="24">O eisio cymryd un yn fy oed,</lb>
+
+
+    <lb n="25">'N ufudda erioed ni feddai run,</lb>
+
+
+
+    <lb n="26">Fe am witsied i yn galed,</lb>
+
+
+    <lb n="27">I fyned cyn hyned a hyn,</lb>
+
+
+    <lb n="28">Ow na chawn dd&#375;n im helw fy hun,</lb>
+
+
+    <lb n="29">Un melyn iw galyn nid gwyn,</lb>
+
+
+    <lb n="30">Ni chai bellach on gelach,</lb>
+
+
+    <lb n="31">Moel afiach go legach ei liw,</lb>
+
+
+    <lb n="32">Oni chai un cyn yr H&acirc;',</lb>
+
+
+    <lb n="33">Ar fyrr *mi af yn glaf,</lb>
+
+
+    <lb n="34">Ag a dynga na byddai ddim byw,</lb>
+
+
+
+
+
+
+    <lb n="35">Chwith geni heno ar fy hynt,</lb>
+
+
+    <lb n="36">Aeth pob h&ecirc;n garwr gyda'r gwynt,</lb>
+
+
+    <lb n="37">Ond ni base &acirc;rnai yn ddigon si&#373;r,</lb>
+
+
+    <lb n="38">Ddim eisie g&#373;r pedfaswn gynt,</lb>
+
+
+    <lb n="39">Yn cymryd rhywyn brigin brau,</lb>
+
+
+    <lb n="40">Yn lle nghymendod i naccau,</lb>
+
+
+    <lb n="41">Och or hiraeth toraeth tynn,</lb>
+
+
+    <lb n="42">Sy'n hwyr am hyn yn hir barhau,</lb>
+
+
+    <lb n="43">'Doe Lengcyn lled wrthyn,</lb>
+
+
+    <lb n="44">Neu henddyn go ddygn ei ddull,</lb>
+
+
+    <lb n="45">Mi ai cymrwn mi ai gwn.</lb>
+
+
+    <lb n="46">Heb ddweud yn gair twnn,</lb>
+
+
+    <lb n="47">Mi ai cymrwn ni hidiwn ddyn hyll,</lb>
+
+
+    <lb n="48">Ow hyllbeth neu rywbeth,</lb>
+
+
+    <lb n="49">O helaeth drwch afiaeth drachefn</lb>
+
+
+    <lb n="50">I fod yn y nghell oni fedre fo 'n well,</lb>
+
+
+    <lb n="51">I orwedd fel cyfaill im cefn,</lb>
+
+
+
+
+
+
+
+
+    <lb n="52">Pob dynes Ifangc downus iawn,</lb>
+
+
+    <lb n="53">Sydd yn e&icirc; blode lliwie llawn,</lb>
+
+
+    <lb n="54">Ymroed rhag bod fel fi fy hun,</lb>
+
+
+    <lb n="55">I chware am ddyn a chowyr ddawn,</lb>
+
+
+    <lb n="56">Rhag bod fel fina amser dryd,</lb>
+
+
+    <lb n="57">Heb ddim i brynnu blawd nag &#375;d,</lb>
+
+
+    <lb n="58">Am na cheisiaswn &#373;r om bodd,</lb>
+
+
+    <lb n="59">Wel dyna'r modd rwi'n dene myd,</lb>
+
+
+    <lb n="60">Heb fymryn o Ymenyn brisionyn,</lb>
+
+
+    <lb n="61">Na Chosyn na Chig,</lb>
+
+
+    <lb n="62">Fel hyn rydwi 'n si&#373;r o eisio bod g&#373;r,</lb>
+
+
+    <lb n="63">Am cyflwr dan ddwndwr go ddig,</lb>
+
+
+    <lb n="64">Trwm w&#375;lo rwy heno am wallgo,</lb>
+
+
+    <lb n="65">Sy im ledio yn dylawd,</lb>
+
+
+    <lb n="66">Mewn glyd rydwi yn gl&acirc;,</lb>
+
+
+    <lb n="67">Nis gwn beth a wna,</lb>
+
+
+    <lb n="68">Mae hefyd ryw gnofa im hen gnawd,</lb>
+
+
+
+
+
+
+    <lb n="69">Mwy gwell a fase yn boena ar bant,</lb>
+
+
+    <lb n="70">Fod gen i naw neu ddeg o blant,</lb>
+
+
+    <lb n="71">Na bod fel hyn yn ddigon siwr,</lb>
+
+
+    <lb n="72">Fod daf wych &#373;r i ddofi'r chwant,</lb>
+
+
+    <lb n="73">Rwy'n ffaelio credu bwytta un pryd,</lb>
+
+
+    <lb n="74">Rwy heb ddifyrrwch yn y byd,</lb>
+
+
+    <lb n="75">Rwy 'n wylo yn drwm yn llwm fy llaw,</lb>
+
+
+    <lb n="76">Di arianswm draw ar amser drud,</lb>
+
+
+
+    <lb n="77">Breuddwydio rwy heno 'rol deffro,</lb>
+
+
+    <lb n="78">Mewn gwallgo am gael gwr,</lb>
+
+
+    <lb n="79">Fel hyn 'rydwi 'n bod,</lb>
+
+
+    <lb n="80">Yn ddigon di glod,</lb>
+
+
+    <lb n="81">Mewn gormod o syndod yn siwr,</lb>
+
+
+    <lb n="82">Lodesi glan gwisgi sydd heini,</lb>
+
+
+    <lb n="83">Y leni yn y wl&acirc;d,</lb>
+
+
+    <lb n="84">Cofiwch fel yr wy,</lb>
+
+
+    <lb n="85">Yn glafedd dan glwy,</lb>
+
+
+    <lb n="86">Rol dyddie fy nwy 'n cadw n&acirc;d,</lb>
+
+
+
+
+    <lb n="td. 8.diwedd">Ellis Robert ai Cant
+    </lb>
+
+
+
+    <lb n="td. 8.diwedd">DIWEDD
+    </lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_359-1">
+        <pb n="">
+        
+
+
+
+
+
+
+
+    <lb n="td. 2">New Cast a way care.
+    </lb>
+
+
+
+    <lb n="1">WEL deued pawb i wrando ar unweth,</lb>
+
+
+    <lb n="2">Sy o gr&ecirc;d a Bedydd a gwybodaeth,</lb>
+
+
+    <lb n="3">I wrando ar hanes Michael Jaccar,</lb>
+
+
+    <lb n="4">A gadd iw galon ddyddie galar,</lb>
+
+
+    <lb n="5">Ymhell oddi cartre trafaelie fo 'n faith,</lb>
+
+
+    <lb n="6">Bu'n w&acirc;s g&#373;r bonheddig deg &acirc;urfrig y gwaith,</lb>
+
+
+    <lb n="7">'Rol hyn ae'n Exiscemon mwyn radlon o ryw,</lb>
+
+
+    <lb n="8">Priododd yn Iorc-Sir un lonbur lan liw,</lb>
+
+
+    <lb n="9">Ag iddo bu geneth iawn loweth o lun,</lb>
+
+
+    <lb n="10">Ag efo'i mam etto mae 'n tario'n gyttun,</lb>
+
+
+
+
+
+    <lb n="11">Ar ol priodi i wraig berydlon,</lb>
+
+
+    <lb n="12">Fo roes i fynu wa&icirc;th Exiscemon,</lb>
+
+
+    <lb n="13">O achos taro dyn tafodrwg,</lb>
+
+
+    <lb n="14">Wnaeth iddo gilio &icirc; ffordd or golwg,</lb>
+
+
+    <lb n="15">Pan oedd oddi-cartre ai siwrne bell si&#373;r,</lb>
+
+
+    <lb n="16">Fo drawodd dygase dda eirie wrth ddau &#373;r,</lb>
+
+
+    <lb n="17">O e nwog fonddigion rai mowrion a maith,</lb>
+
+
+    <lb n="18">Ond chware go chwerwedd fu diwedd y daith</lb>
+
+
+    <lb n="19">Yn lle rha&icirc; gonest mewn gorchest yn gall,</lb>
+
+
+    <lb n="20">Nid oeddynt ond lladron ynfydion y fall,</lb>
+
+
+
+
+
+    <lb n="21">Brydnhawn dranoeth mewn dewr eryd,</lb>
+
+
+    <lb n="22">Yn Nhr&ecirc;&nbsp;Gemrits caen ei cymryd,</lb>
+
+
+    <lb n="23">Ai rhoi 'n y S.&ecirc; mewn gafael gyfan,</lb>
+
+
+    <lb n="24">Am ddwyn chwech o Watches arian,</lb>
+
+
+    <lb n="25">Or mowrth 3.dd diwrnod bu darfod ei d&acirc;l</lb>
+
+
+
+    <lb n="26">Ai rhoi mewn twll glowddu a gwely min gwal</lb>
+
+
+    <lb n="27">A Jaccar iw calyn anffortyn di ff&ocirc;,</lb>
+
+
+    <lb n="28">Lle cafodd ei ddiwedd bu trymedd y tr&ocirc;,</lb>
+
+
+    <lb n="29">Troes un or ddau Leidr di glaear o gl&ocirc;d,</lb>
+
+
+    <lb n="30">Yn aflan gyhoeddwr yn nyfndwr y nod,</lb>
+
+
+
+
+
+    <lb n="31">Ei l&#373; yno ar gam cymerodd,</lb>
+
+
+    <lb n="32">Yn egr donnog ag a dyngodd,</lb>
+
+
+    <lb n="33">Ofl&acirc;en y gwyr yn erbyn Jaccar,</lb>
+
+
+    <lb n="34">Mae fo hyll ydoedd oedd y lleidr,</lb>
+
+
+    <lb n="35">A hyn ymhen trydydd oer ddeunydd ar ddeg,</lb>
+
+
+    <lb n="36">Or Mowrth y cadd yno ei frifo trwm fr&ecirc;g,</lb>
+
+
+    <lb n="37">Y Cw&ecirc;st yno ai barnodd ai bwriodd or byd,</lb>
+
+
+    <lb n="38">O waith Smith creulon anhirion o hyd,</lb>
+
+
+    <lb n="39">Or Mowrth y Daunaw fed bu'n galed y gost,</lb>
+
+
+    <lb n="40">Cadd farw o waith celwydd bu'r deunydd yn dost</lb>
+
+
+
+
+
+    <lb n="41">Aeth at y pren mewn llawen galon,</lb>
+
+
+    <lb n="42">Dan gywir foli Duw drwy ofalon,</lb>
+
+
+    <lb n="43">A day berson gyd ag efo,</lb>
+
+
+    <lb n="44">Oedd yno yn ddiwyd yn gweddio,</lb>
+
+
+    <lb n="45">Ag wrth y pren diodde gweddie fo'n ddwys,</lb>
+
+
+    <lb n="46">Gael madde ei bechode ar beie mawr bwys,</lb>
+
+
+    <lb n="47">Moliannodd yr Iesu dan ganu Hymn gu,</lb>
+
+
+    <lb n="48">Ag wylo ar ei gyfer roedd llawer or llu,</lb>
+
+
+    <lb n="49">Dymune ir Oen Nefol oedd rasol o ryw,</lb>
+
+
+    <lb n="50">Droi calon ei elynion oedd ddyn&icirc;on di Dduw,</lb>
+
+
+
+
+
+    <lb n="51">Fo ysgr&icirc;fenodd lythyr yno</lb>
+
+
+    <lb n="52">Iw yrru iw chwaer oedd bell oddiwrtho,</lb>
+
+
+    <lb n="53">I ddymuno arni na chymera [~ chymerai],</lb>
+
+
+    <lb n="54">Ddim braw oi ddiwedd o yn ei ddyddie,</lb>
+
+
+
+    <lb n="55">Ai fod gan wir&icirc;oned or weithred ddi-ras,</lb>
+
+
+    <lb n="56">Ar plentyn bach sugno oedd deg yno di-gas</lb>
+
+
+    <lb n="57">Dymuno na chymre mor briwie yn ei bron,</lb>
+
+
+    <lb n="58">Fod brenin y Nefoedd ir lluoedd mawr llon,</lb>
+
+
+    <lb n="59">Yn derbyn ei enaid mewn canaid fodd ou,</lb>
+
+
+    <lb n="60">I fywyd tragwyddol at lesol fwyn lu,</lb>
+
+
+
+
+
+    <lb n="61">Roedd hwn iw erbyn ef a dynge,</lb>
+
+
+    <lb n="62">Wedi crogi un arall oi flaen ynte,</lb>
+
+
+    <lb n="63">Mae hyn yn achos i bob Cristion,</lb>
+
+
+    <lb n="64">I ochel cwmni drwg anraslon,</lb>
+
+
+    <lb n="65">Gweddiodd o droso i ddymuno ar Dduw mawr</lb>
+
+
+    <lb n="66">Am fadde iddo ei gamwedd anwiredd yn awr,</lb>
+
+
+    <lb n="67">Ag yno gorchmynodd ir Nefoedd ai nerth,</lb>
+
+
+    <lb n="68">Ei dderbyn o iw mynwes dwys obeth di serth,</lb>
+
+
+    <lb n="69">Ai gymryd o i fynu i fwynedd Nef wen,</lb>
+
+
+    <lb n="70">I fyw yn dragwyddol dymunol Amen.</lb>
+
+
+
+
+    <lb n="td. 4.diwedd">Ellis Robets a'i Cant
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_359-2">
+        <pb n="">
+        
+
+
+
+    <lb n="td. 4">Ymddiddan rhwng y ffarmwr ar tylawd ar ffarwel gwyr dyfi,
+    </lb>
+
+
+
+
+    <lb n="1">DYDD d&acirc; fo i chwi'r Ffarmwr</lb>
+
+
+    <lb n="2">Y gwladwr gwiwl&ecirc;s,</lb>
+
+
+    <lb n="3">Ag attoch y doethim i ymdeithio os wy nes,</lb>
+
+
+    <lb n="4">De&icirc;syf ynghoelio rwi heno yma o hyd,</lb>
+
+
+    <lb n="5">A hyn yn hoff hwylys am ffioled o &#375;d,</lb>
+
+
+
+
+
+
+    <lb n="td. 4.siaradwr">Ffarmwr.
+        </lb>
+
+
+    <lb n="6">Dim Tryst nid oes rwan ir truan un tr&ocirc;</lb>
+
+
+
+    <lb n="7">Aethost ti yn ynfyd neu yn anferth oth go,</lb>
+
+
+    <lb n="8">Heb arian na o. y llesol im llaw,</lb>
+
+
+    <lb n="9">Cais fuan b......a throedio tu a thraw.</lb>
+
+
+
+
+
+
+    <lb n="td. 5.siaradwr">Tylawd.
+        </lb>
+
+
+    <lb n="10">Mae geni blant bychain yn ochain yn awr,</lb>
+
+
+    <lb n="11">Heb damaid iw fwytta pur gwla ydi gwawr,</lb>
+
+
+    <lb n="12">Gobeithio yr ystyriwch a byddwch yn bur,</lb>
+
+
+    <lb n="13">Am helpu y tro yma mae'n gaetha flin gur,</lb>
+
+
+
+
+
+
+    <lb n="td. 5.siaradwr">Ffarmwr.
+        </lb>
+
+
+    <lb n="14">'Does rwan ddim trystio na choelio neb chwaith</lb>
+
+
+    <lb n="15">Ni Wiw iti geisio di gysur dy daith.</lb>
+
+
+    <lb n="16">Mae 'n rhaid itti ystyrio a ymlowio 'n o lym,</lb>
+
+
+    <lb n="17">Neu ddiodde pob dirmyg yn ddiddig heb ddim,</lb>
+
+
+
+
+
+
+    <lb n="td. 5.siaradwr">T.
+        </lb>
+
+
+    <lb n="18">Mae rwan ddrudaniaeth mawr helaeth o hyd,</lb>
+
+
+    <lb n="19">A phrisie anesgorol garwinol ar &#375;d,</lb>
+
+
+    <lb n="20">Yn para er's dwy flynedd ai tuedd ir tair,</lb>
+
+
+    <lb n="21">Ag a beru chwech etto os gwirio wna'r gair,</lb>
+
+
+
+
+
+
+    <lb n="td. 5.siaradwr">Ff
+        </lb>
+
+
+    <lb n="22">Os peru hi felly cai wasgu ar dy wep,</lb>
+
+
+    <lb n="23">Yn llesgedd yn siccir fe glywir dy glep,</lb>
+
+
+    <lb n="24">Mae 'n debyg y peidi a meddwi yn y man,</lb>
+
+
+    <lb n="25">Pryd hyn gan dylodi di weiddi yn o wan,</lb>
+
+
+
+
+
+
+    <lb n="td. 5.siaradwr">T
+        </lb>
+
+
+    <lb n="26">Ni fedrwn ddal allan wr hoywlan yn hir,</lb>
+
+
+    <lb n="27">Mi'ch gwelis heb fedru ddim talu am y tir,</lb>
+
+
+    <lb n="28">Pan fydd bris saledd ddwy flynedd ddi-les</lb>
+
+
+    <lb n="29">A chwithe w&#375;r taeredd yn torri'n un rhes,</lb>
+
+
+
+
+
+
+    <lb n="td. 5.siaradwr">Ff.
+        </lb>
+
+
+    <lb n="30">A chwithe oedd yn feddwon rai llyfrion i lliw</lb>
+
+
+
+    <lb n="31">Heb arnoch na gofid na gafael am fyw,</lb>
+
+
+    <lb n="32">Chware ac yn chwerthin yn gwilrin mewn gwg,</lb>
+
+
+    <lb n="33">Ond yn awr fel y dylech cewch dalu am y drwg</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">T
+        </lb>
+
+
+    <lb n="34">Pwy sy gan falched a chaned a chwi,</lb>
+
+
+    <lb n="35">Pan gododd y farchnad sy yn nychiad i ni,</lb>
+
+
+    <lb n="36">Ach mawrion geffyle hyd y ffeirie mor ffeind</lb>
+
+
+    <lb n="37">Ach penne yn rubane modd gore 'n bur geind</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">Ff.
+        </lb>
+
+
+    <lb n="38">Bu'r dydd arnoch chwithe rhyw fodde rhyfaith</lb>
+
+
+    <lb n="39">Caech ddigon o ddiogi heb gyfri mewn gwaith,</lb>
+
+
+    <lb n="40">Ach gwragedd yn dyfod ar draethod ir dre,</lb>
+
+
+    <lb n="41">I chwilio am ysnisin neu dippin o D&ecirc;,</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">T
+        </lb>
+
+
+    <lb n="42">A chwitha sy weithan y rwan mae'r &#375;d,</lb>
+
+
+    <lb n="43">Ich cynal i fynu yn fwynedd mae'ch byd,</lb>
+
+
+    <lb n="44">Yn gyrru ar geffyle hwyr a bore bob un,</lb>
+
+
+    <lb n="45">A ninne'r tylodion yn llymion ein llun,</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">Ff
+        </lb>
+
+
+    <lb n="46">Nid oes fater o ronyn er dirwyn yn dynn,</lb>
+
+
+    <lb n="47">Fe allasech fyw yn gynil do ganwaith cyn hyn,</lb>
+
+
+    <lb n="48">Yn lle treilio 'ch d&#375;ddie i chware drwy chwant</lb>
+
+
+    <lb n="49">A llenwi 'ch gwag fythod o fwythus ddrwg blant</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">T
+        </lb>
+
+
+    <lb n="50">Ymh&acirc; le bydd eich arian &#373;r hoywlan o hyd,</lb>
+
+
+    <lb n="51">Ddwy flynedd 'rol gostwn ar wyndwn yr &#375;d</lb>
+
+
+    <lb n="52">'Rol prynnu tegane rubane gryn bwn,</lb>
+
+
+    <lb n="53">Lle ceiff yr holl eiddo ei gwario mi ai gwn,</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">Ff
+        </lb>
+
+
+    <lb n="54">Mae ganddoch chwi gastie,</lb>
+
+
+    <lb n="55">Yn y dyddie yma dwyn,</lb>
+
+
+
+    <lb n="56">Sef myned ar Blwyfydd rhyw gystudd di gwyn,</lb>
+
+
+    <lb n="57">A threthi at eich cadw ond garw ydi 'r gwangc</lb>
+
+
+    <lb n="58">Chwi heddech eich cofi er profi a chael prangc</lb>
+
+
+
+
+
+
+    <lb n="td. 7.siaradwr">T
+        </lb>
+
+
+    <lb n="59">Nid oes gani at eich plwyfydd,</lb>
+
+
+    <lb n="60">Nac awydd nac aingc,</lb>
+
+
+    <lb n="61">Ni waeth i ni ein cyrchu ir carchar i Ffraingc,</lb>
+
+
+    <lb n="62">Rwi 'n coelio fod yno i ymgydio hefo ag &ecirc;,</lb>
+
+
+    <lb n="63">Na bod ar blwy egr fod llawer gwell lle,</lb>
+
+
+
+
+
+
+    <lb n="td. 7.siaradwr">Ff
+        </lb>
+
+
+    <lb n="64">Mae 'n ddigon o gyflog ir diog bob dydd,</lb>
+
+
+    <lb n="65">Dair ceiniog o arian yn gyfan ddi-gudd,</lb>
+
+
+    <lb n="66">I brynnu iddo luniaeth i lenwi ei hen fol,</lb>
+
+
+    <lb n="67">I gene lled amur so segur ei siol,</lb>
+
+
+
+
+
+
+    <lb n="td. 7.siaradwr">T
+        </lb>
+
+
+    <lb n="68">Pa faint am dair ce&icirc;niog y rhywiog wr hael,</lb>
+
+
+    <lb n="69">Sydd gannddoch chwi o wenith,</lb>
+
+
+    <lb n="70">Yn gyrrith iw gael,</lb>
+
+
+    <lb n="71">Haner peint bychan mae'n eg wan y r&ocirc;d,</lb>
+
+
+    <lb n="72">Sy i gael am yr arian yn burlan yn bod,</lb>
+
+
+
+
+
+
+    <lb n="td. 7.siaradwr">Ff
+        </lb>
+
+
+    <lb n="73">Ffarwel mae o'n ddigon i ddynion di-ddawn,</lb>
+
+
+    <lb n="74">Heblaw aml gerdod fyth hynod faith iawn,</lb>
+
+
+    <lb n="75">Ach helpo ymhob angen rhyw ddiben rhu-ddwys</lb>
+
+
+    <lb n="76">Chwi sydd yngwlad Cymru yn peri bod pwys.</lb>
+
+
+
+
+    <lb n="td. 7.diwedd">Ellis Robert ai Cant
+    </lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_370-1">
+        <pb n="">
+        
+
+
+
+
+
+    <lb n="td. 2">Torriad y D&#375;dd.
+    </lb>
+
+
+
+    <lb n="1">DEFFROWN daw'r Arglwydd Iesu,</lb>
+
+
+    <lb n="2">I farny hyn o f&#375;d.</lb>
+
+
+    <lb n="3">Cawn weled brenin nefol un breiniol gl&acirc;n i bryd,</lb>
+
+
+    <lb n="4">Yn eiste ar gymmyle a miloedd gyd ag &ecirc;,</lb>
+
+
+    <lb n="5">a chanddo lyfre cywir darllenir yn y lle.</lb>
+
+
+    <lb n="6">Gwyn f&#375;d yr henwau gaed sydd wedi croesi gwaed</lb>
+
+
+    <lb n="7">Aen yn dragwyddol gyda 'r bywiol,</lb>
+
+
+    <lb n="8">Ddewisol unol aed,</lb>
+
+
+    <lb n="9">Gwae rhai ai henwau sydd, ir golwg yn ddi-gudd</lb>
+
+
+    <lb n="10">Rhain fydd yno yn uchel floeddio,</lb>
+
+
+    <lb n="11">Dan grynnu yn duo 'r grudd,</lb>
+
+
+    <lb n="12">Bydd ffarwel yno sai dros fyth rhwng llawer rhai,</lb>
+
+
+    <lb n="13">Nid oes dim gwynfyd ond fydd hefyd,</lb>
+
+
+    <lb n="14">ai fy&#373;yd yn ddifai,</lb>
+
+
+    <lb n="15">Ni ddown yno bod ag un yn &ocirc;l ni erys un,</lb>
+
+
+    <lb n="16">O flaen ein SILO cawn ympirio,</lb>
+
+
+    <lb n="17">Gw&acirc;e fu mewn gwallgo a gw&ucirc;n.</lb>
+
+
+
+
+
+    <lb n="18">Wel yn y Sessiwn yma *bydd treial mwya trist,</lb>
+
+
+    <lb n="19">A chwbl euog farnu</lb>
+
+
+    <lb n="20">pob un sy heb gredu i Grist,</lb>
+
+
+    <lb n="21">Nid iw lladd na'i llosgi ond i taflu i dwllni [~ dywyllni] du</lb>
+
+
+    <lb n="22">I bo ni dros dragwyddol i fysg aflesol lu,</lb>
+
+
+    <lb n="23">Byd yno helynt fawr, a gweiddi a duo gwawr,</lb>
+
+
+    <lb n="24">a holl ynfydion dalledd deillion,</lb>
+
+
+    <lb n="25">Yn llownion hyd y llawr,</lb>
+
+
+    <lb n="26">Yn ffaelio cael dim ll&ecirc; gan nerth y fflam fydd gr&ecirc;</lb>
+
+
+    <lb n="27">a'i cariad dirgel hefo'r Cythrel iw nadel byth ir n.</lb>
+
+
+    <lb n="28">Bydd yno fyd di hedd a newydd godi oi b&ecirc;dd</lb>
+
+
+
+    <lb n="29">Clywed Iesu i&#373; diystyru yn gwasgu ar ei gw&ecirc;dd,</lb>
+
+
+    <lb n="30">Yn dweudyd wrthynt Ewch,</lb>
+
+
+    <lb n="31">Ffwrn Uffern byth a gewch,</lb>
+
+
+    <lb n="32">am fyw yn aflan buchedd anian,</lb>
+
+
+    <lb n="33">at Satan cyd nesewch,</lb>
+
+
+
+
+
+
+    <lb n="34">Dyma ddiwrnod chwerw ir meirw fawr a man</lb>
+
+
+    <lb n="35">Pan fotho 'r byd yn fflame fel mor yn donne o dan</lb>
+
+
+    <lb n="36">Gwae'r cwbl oedd iw bywyd heb gael anwylyd ne</lb>
+
+
+    <lb n="37">ar ddiwrnod barn y diwedd</lb>
+
+
+    <lb n="38">Bydd tynnedd f&#375;d ond te?</lb>
+
+
+    <lb n="39">Bydd edifer [~ edifar] pan ddaw 'r d&#375;dd,</lb>
+
+
+    <lb n="40">Ir dynion ffol di ff&#375;dd,</lb>
+
+
+    <lb n="41">Yr amser hynny o flaen yr Iesu,</lb>
+
+
+    <lb n="42">Wynebe yn barddu y bydd,</lb>
+
+
+    <lb n="43">Bydd arnyn olwg trist rol codi or dyfn-fedd gist</lb>
+
+
+    <lb n="44">Ni wiw ceisio yr amser honno,</lb>
+
+
+    <lb n="45">Er crio ger bron Crist,</lb>
+
+
+    <lb n="46">Fe ai tru nh&#373; ar aswy law yn bruddion yn i braw</lb>
+
+
+    <lb n="47">Nhw wnaen oer leisie ar y creigie,</lb>
+
+
+    <lb n="48">Iw cuddio ar droie draw,</lb>
+
+
+    <lb n="49">Bydd rhain gan wres y t&acirc;n mynd yn dameidie man</lb>
+
+
+    <lb n="50">Ni ddaw darfod ar ei trallod a chymod byth ni chan</lb>
+
+
+
+
+
+    <lb n="51">Ow na feddylia dynion pen ryddion dr&#373;g di r&acirc;s</lb>
+
+
+    <lb n="52">Beth am y diwrnod hwnnw ar Ddaear loyw l&acirc;s</lb>
+
+
+    <lb n="53">a gweddio am yspryd gweddi cyn ange i torri or tir</lb>
+
+
+    <lb n="54">a deisyf help yr Iesu iw dysgu i garu'r gwir,</lb>
+
+
+    <lb n="55">Yn ei drwg os meirw wn&acirc;n,</lb>
+
+
+    <lb n="56">Hyn ydi 'r croeso a g&acirc;nm</lb>
+
+
+    <lb n="57">Yr I&ocirc;r nefolgu wrth i barnu fe fyn ei taflu ir t&acirc;n,</lb>
+
+
+    <lb n="58">Dros fyth iw llosgi ir drwyth,</lb>
+
+
+    <lb n="59">Y prenie drwg di ffrwyth,</lb>
+
+
+
+    <lb n="60">Run modd ar lluoedd gynta foddodd</lb>
+
+
+    <lb n="61">Ni adawodd ef ond wyth,</lb>
+
+
+    <lb n="62">Gobeithio y byddwn ni yn well ein gr&acirc;s an bri,</lb>
+
+
+    <lb n="63">Na rhai fu feirw ymarn y Diluw,</lb>
+
+
+    <lb n="64">Ai boddi ir llanw ar Lli,</lb>
+
+
+    <lb n="65">Mae un a fu'n ein gwl&acirc;d yn Ddadlewr gyda'r Tad</lb>
+
+
+    <lb n="66">Os n&icirc; a mendiwn atto deuwn,</lb>
+
+
+    <lb n="67">Mae 'n rhoddi pardwn rh&acirc;d.</lb>
+
+
+
+
+
+    <lb n="68">Rhyw ymarfer ddrwg wrth bechu,</lb>
+
+
+    <lb n="69">Sy'n tynnu bywyd d&#375;n.</lb>
+
+
+    <lb n="70">I lwyr angho'r Arglwydd yn ddigwilydd bod ac un</lb>
+
+
+    <lb n="71">ag yno'r ange 'n dwad di gariad ydi'r g&#373;r,</lb>
+
+
+    <lb n="72">Fo'n teru modd y byddwn ni syflwn byth yn si&#373;r</lb>
+
+
+    <lb n="73">Bydd d&acirc; gan Satan hyn os cawn ni'r siwrne'n synn</lb>
+
+
+    <lb n="74">Cyn ini ddyfod i'mgyfarfod am gymod Iesu gwyn,</lb>
+
+
+    <lb n="75">Fel hyn 'raeth llawer cant i eigion Uffern bant</lb>
+
+
+    <lb n="76">Gwaith yn diystyru cyngori Iesu,</lb>
+
+
+    <lb n="77">a charu byw yn i chwant,</lb>
+
+
+    <lb n="78">Fel hyn 'raeth aml rai ir gwys dan bwys ei bai,</lb>
+
+
+    <lb n="79">I golli 'r nefoedd dros byth bythoedd,</lb>
+
+
+    <lb n="80">Oi t&icirc;roedd mawr a&icirc; tai</lb>
+
+
+    <lb n="81">Duw rotho yn ddi sen dda synwyr ymhob pen</lb>
+
+
+    <lb n="82">Fynd cyn ein claddu dan law yr Iesu,</lb>
+
+
+    <lb n="83">Os bydd Duw yn mynnu Amen.</lb>
+
+
+
+
+    <lb n="td. 4.diwedd">E Robert ai Cant
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_370-2">
+        <pb n="">
+        
+
+
+
+
+    <lb n="td. 4">Ymddiddan rhwng yr Enaid ar Corph
+bob yn ail penill: ar Belisle March.
+    </lb>
+
+
+
+
+    <lb n="1">WEL wel greadur bydew budr</lb>
+
+
+    <lb n="2">.. natur am y ne,</lb>
+
+
+
+    <lb n="3">Cyn ing a marw cais ymorol am nefol lesol le</lb>
+
+
+    <lb n="4">Dy boeth enw di beth anian sy'm gado i druan draw</lb>
+
+
+    <lb n="5">Di am llusgi i benyd tragwyddolfyd,</lb>
+
+
+    <lb n="6">Dwl embyd yn dy law.</lb>
+
+
+    <lb n="7">Corphilin cyndyn c&acirc;s 'does genyt ti ddim blas</lb>
+
+
+    <lb n="8">I fynd at orsedd I&ocirc;r trugaredd i geisio ei ryfedd r&acirc;s</lb>
+
+
+    <lb n="9">Pa bleser itti gael mawrhydi yn lysti wisgi wawr</lb>
+
+
+    <lb n="10">ath enaid unig yn golledig o eisio 'r meddyg mawr</lb>
+
+
+    <lb n="11">Ow rwan coelia fi cyn del tragwyddol gri,</lb>
+
+
+    <lb n="12">Dan bridd a cherrig cyn pen ychydig,</lb>
+
+
+    <lb n="13">Mae'n debyg byddi di,</lb>
+
+
+    <lb n="14">Ple bydda finne ond mewn gofidie,</lb>
+
+
+    <lb n="15">O waith ein dryge yn drist,</lb>
+
+
+    <lb n="16">I aros itti i farn a chyfri ail godi or Ddaear gist</lb>
+
+
+
+
+
+
+    <lb n="td. 5.siaradwr">Corph.
+        </lb>
+
+
+    <lb n="17">Taw a son enaid mewn sain union,</lb>
+
+
+    <lb n="18">Bydd fodlon ymma i fyw,</lb>
+
+
+    <lb n="19">Mae priffordd inni o lawn oleuni i dirion foli Duw</lb>
+
+
+    <lb n="20">Ni ddown or gore i ben ein siwrne,</lb>
+
+
+    <lb n="21">Cyn delo yr ange du,</lb>
+
+
+    <lb n="22">Mae gwaed yr Iesu wedi ein prynu,</lb>
+
+
+    <lb n="23">Fe feddu yr hyn a fu,</lb>
+
+
+    <lb n="24">Mi dr&ocirc; ag ymro fy mryd &acirc;f at Dduw&icirc;olion b&#375;d,</lb>
+
+
+    <lb n="25">Llaw nefolgu am tyn i fynu,</lb>
+
+
+    <lb n="26">Er glynu gynt mewn glud,</lb>
+
+
+    <lb n="27">Drwy nerth tragwyddol tro fi'n dduwiol,</lb>
+
+
+    <lb n="28">Om pur hyfrydol fron,</lb>
+
+
+    <lb n="29">Or twyll sy im gwallio arhosai yn effro,</lb>
+
+
+    <lb n="30">Drwy beidio a butio yn hon,</lb>
+
+
+    <lb n="31">Ow f' enaid dibaid dwys ni chei mor bod dan bwys</lb>
+
+
+    <lb n="32">Gan Oen Israel Iesu o Nasreth,</lb>
+
+
+    <lb n="33">Cawn gywaeth cyn daw'r gwys,</lb>
+
+
+
+    <lb n="34">Mae'n gw&acirc;dd y llwythog ar blinderog,</lb>
+
+
+    <lb n="35">Trugarog tri ag un,</lb>
+
+
+    <lb n="36">Ni gawn wynfyd bywyd bywiol,</lb>
+
+
+    <lb n="37">Trwy 'r doniol Dduw a d&#375;n.</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">Enaid.
+        </lb>
+
+
+    <lb n="38">Taw ath barod grefydd dafod,</lb>
+
+
+    <lb n="39">Cais ganfod gwaelod gwir,</lb>
+
+
+    <lb n="40">Pedfeit yn caru yr *Arglwydd Iesu,</lb>
+
+
+    <lb n="41">Ceit ganddo ymglymu yn glir,</lb>
+
+
+    <lb n="42">Cawn ninne siccrwydd yn yr Arglwydd,</lb>
+
+
+    <lb n="43">a newydd mawr or N&ecirc;,</lb>
+
+
+    <lb n="44">a chanu Clyche om dyfod adre a lleisie mwyn ir lle</lb>
+
+
+    <lb n="45">Rwi rwan ar ymroi mewn ofne byth na ymroi,</lb>
+
+
+    <lb n="46">Mae ange ffiedd am dy gyrredd,</lb>
+
+
+    <lb n="47">Was gwagedd cais ysgoi,</lb>
+
+
+    <lb n="48">Considra heddyw y byddi farw cafinne groyw gr&icirc;</lb>
+
+
+    <lb n="49">Dim terfyn bywyd am un munud,</lb>
+
+
+    <lb n="50">Ni ymyrryd byth a mi,</lb>
+
+
+    <lb n="51">Rol treilio can mlwydd maith d&icirc;m nes ni fyddai chwaith</lb>
+
+
+    <lb n="52">am bob seren dan yr wybren dim diben ar y daith,</lb>
+
+
+    <lb n="53">Dim nes i ddyddie pen y siwrne,</lb>
+
+
+    <lb n="54">Ow Gorph mae diddoe yn dost,</lb>
+
+
+    <lb n="55">Haws itti ystyio a throi i W&ecirc;ddio,</lb>
+
+
+    <lb n="56">Na mynd &icirc; gowntio 'r g&ocirc;st,</lb>
+
+
+
+
+
+
+    <lb n="td. 6.siaradwr">Corph
+        </lb>
+
+
+    <lb n="57">O fy Enaid anwyl trwm yw 'r perwyl,</lb>
+
+
+    <lb n="58">Iw disgwyl am y d&#375;dd;</lb>
+
+
+    <lb n="59">O wynfyd calon y Crisnogion ymynydd Seion sydd</lb>
+
+
+    <lb n="60">O anadl bywiol awel nefol yn anherfynol wyt,</lb>
+
+
+    <lb n="61">Yr I&ocirc;r perffeiddlon cofus cyfion,</lb>
+
+
+    <lb n="62">Yr owron ow ple'r wyt,</lb>
+
+
+    <lb n="63">Dod help i gorphyn gwael i dreio ceisio cael,</lb>
+
+
+
+    <lb n="64">I roi enaid yn feddianol or nefol fywiol fael,</lb>
+
+
+    <lb n="65">Oh 'r Pren y bywyd anwyl wynfyd,</lb>
+
+
+    <lb n="66">Dod ffrwyth dy yspryd ffri,</lb>
+
+
+    <lb n="67">Yn lle clorian bregus barn gyhoeddus,</lb>
+
+
+    <lb n="68">Pur waed oth ystlys di,</lb>
+
+
+    <lb n="69">ar yr unfed awr dd&ecirc;g o chwyth ddeheu wynt teg</lb>
+
+
+    <lb n="70">Fel 'rel llong fy enaid drwy afonydd,</lb>
+
+
+    <lb n="71">I fronydd glan di freg,</lb>
+
+
+    <lb n="72">I ffoi rhag Pharo help gan Silo,</lb>
+
+
+    <lb n="73">Im cario drwy 'r m&ocirc;r c&ocirc;ch,</lb>
+
+
+    <lb n="74">ar gibe gweigion mi g&ecirc;s ddigon,</lb>
+
+
+    <lb n="75">Ym mysc rhyw feirwon foch.</lb>
+
+
+
+
+
+
+    <lb n="td. 7.siaradwr">Enaid.
+        </lb>
+
+
+    <lb n="76">Wel gwilia gilio ar ol &icirc;t addo ymrwymo dan i r&acirc;s</lb>
+
+
+    <lb n="77">Neu cei weled blin ddiweddiad;</lb>
+
+
+    <lb n="78">Mawr golled galed g&acirc;s.</lb>
+
+
+    <lb n="79">Os troi 'n ddi ragrith di gei fendith,</lb>
+
+
+    <lb n="80">ac yn un o dylwyth Duw,</lb>
+
+
+    <lb n="81">Ca finne lythyr o nef eglur</lb>
+
+
+    <lb n="82">a fydd immi'n gysur gwiw,</lb>
+
+
+    <lb n="83">Caf anwyl wledd or ne a ffydd drwy grefydd gre,</lb>
+
+
+    <lb n="84">a siccrwydd hefyd or ail fywyd a gwynfyd gyd ag e</lb>
+
+
+    <lb n="85">Caf dyst&icirc;olaeth jechydwriaeth,</lb>
+
+
+    <lb n="86">Gw&#375;bodaeth odiaeth iawn,</lb>
+
+
+    <lb n="87">Fod ein pechode wedi madde,</lb>
+
+
+    <lb n="88">Trwy Grist ai ddonie ai ddawn,</lb>
+
+
+    <lb n="89">Daw'r Bugail mawr ei chwant,</lb>
+
+
+    <lb n="90">Fu'n gado namun cant.</lb>
+
+
+    <lb n="91">I gael nol adre 'r Ddafad ddie,</lb>
+
+
+    <lb n="92">Yr hon aethe er bore i bant,</lb>
+
+
+    <lb n="93">Daw'r wraig a gafodd y dryll a gollodd,</lb>
+
+
+
+    <lb n="94">Or aur a dre&icirc;nglodd draw,</lb>
+
+
+    <lb n="95">ai chyfellesau i ymweld a minne,</lb>
+
+
+    <lb n="96">Pan ddelwi om briwie am braw.</lb>
+
+
+
+
+
+
+    <lb n="td. 8.siaradwr">Corph
+        </lb>
+
+
+    <lb n="97">Cyn ange ciedd wneud y niwedd a'n llariedd at y lle</lb>
+
+
+    <lb n="98">I geisio eli un ai oel&icirc;on sy'n awr yn nwyfron ne</lb>
+
+
+    <lb n="99">Fel yr afradlon mi af yn union,</lb>
+
+
+    <lb n="100">air tirion at Dduw T&acirc;d;</lb>
+
+
+    <lb n="101">Caf yno ymborthi a phob daioni,</lb>
+
+
+    <lb n="102">a byw yn oleuni i wlad;</lb>
+
+
+    <lb n="103">Gwaith lladron eirwon aed;</lb>
+
+
+    <lb n="104">Rwi yn friwie om pen im Traed,</lb>
+
+
+    <lb n="105">Oen uchelne or nefoedd  ole,</lb>
+
+
+    <lb n="106">Yw 'r meddyg gore a gaed;</lb>
+
+
+    <lb n="107">Fy Yspryd ffyddlon cymer galon;</lb>
+
+
+    <lb n="108">Mae addewidi&ocirc;n doethion Duw:</lb>
+
+
+    <lb n="109">Yn dweud ond ceisio heh wrth gilio,</lb>
+
+
+    <lb n="110">Bydd fy Enaid etto yn fyw,</lb>
+
+
+    <lb n="111">Nerth nerth yn niwedd fy oes;</lb>
+
+
+    <lb n="112">I basio ange ai loes.</lb>
+
+
+    <lb n="113">Ffydd a gallu yn ddi derfynu;</lb>
+
+
+    <lb n="114">I gredu yn Oen y Groes;</lb>
+
+
+    <lb n="115">I&ocirc;r bendiged cadw fy Enaid;</lb>
+
+
+    <lb n="116">Ir pur drugaredd pen;</lb>
+
+
+    <lb n="117">Cael trugaredd y Duw puredd;</lb>
+
+
+    <lb n="118">Iw 'r mowredd gore Amen.</lb>
+
+
+
+
+    <lb n="td. 8.diwedd">E Roberts.
+    </lb>
+
+
+    <lb n="td. 8.diwedd">DIWEDD.
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_371-1">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="td. 2">Farwel Gwyr-dyfi.
+    </lb>
+
+
+
+    <lb n="1">GWRANDEWCH ar Gerdd newydd, Er rhybydd yn rh&ecirc;s;</lb>
+
+
+    <lb n="2">Rhag i chwi greuloni wrth brofi 'r dr&#373;g Br&ecirc;s</lb>
+
+
+    <lb n="3">Mae cynwr gerwinol ar Bobl drwy 'r b&#375;d,</lb>
+
+
+    <lb n="4">Wrth werthu p&ocirc;b gronyn o 'r Enllyn a 'r &#375;d,</lb>
+
+
+    <lb n="5">Mae llawer yn dondio ymin [~ ym min] cydio fel C&#373;n,</lb>
+
+
+    <lb n="6">Yn fagad drwy 'r Farchnad mae siarad a s&#373;n;</lb>
+
+
+    <lb n="7">Yn erbyn y Delyn mae 'n erwin ei n&acirc;d,</lb>
+
+
+    <lb n="8">Ag ymaith a 'r Ferwig ddiawledig o 'r wl&acirc;d,</lb>
+
+
+    <lb n="9">Ni waeth inni soppen o 'r dommen o dail,</lb>
+
+
+    <lb n="10">Oni ddigerth h&ecirc;n geiniog Sior enwog yr ail,</lb>
+
+
+    <lb n="11">A ysbio 'n nhin honno a 'i ffugrio hi 'n ffest,</lb>
+
+
+    <lb n="12">A gwilio bod arni na chrychni na chr&ecirc;st.</lb>
+
+
+
+
+
+    <lb n="13">Mae rhai *anllythrennog yn gefnog i gid,</lb>
+
+
+    <lb n="14">Am ddarllain pr&ecirc;s Cochion yn llawnion mewn llid,</lb>
+
+
+    <lb n="15">Pedfaen am ei Eneidie a 'i geirie mor gall,</lb>
+
+
+    <lb n="16">Fe fydde lai ohonyn yn fyddin i 'r fall,</lb>
+
+
+    <lb n="17">Gwae i bob henddyn cibddail ond angall i don,</lb>
+
+
+    <lb n="18">Sy heb ganfod ei ffigurs yn ffagl y bon,</lb>
+
+
+    <lb n="19">Er digon o rheini y leni yn ei law,</lb>
+
+
+    <lb n="20">Ni waeth iddo yn ei bocced grafanged o faw,</lb>
+
+
+    <lb n="21">Gwae i bob un sy 'n pobi yn maith ddiogi ar i thin</lb>
+
+
+    <lb n="22">Mae honno ar Br&ecirc;s diffaeth aflanwaith yn fl&icirc;n</lb>
+
+
+    <lb n="23">A mwyn wraig y Dafarn fel haiarn bydd hi</lb>
+
+
+    <lb n="24">Wrth weld ei hwynebe a 'i 'nabod [~ adnabod] ei rhi,</lb>
+
+
+
+
+
+
+
+    <lb n="25">Mae Harri Ferthgelert a 'i galon yn blwm,</lb>
+
+
+    <lb n="26">Wrth dderbyn rhyw syrffed gan saled i swm</lb>
+
+
+    <lb n="27">Sy 'n gwneuthur wynebe tu a 'r Deheu bob d&#375;dd,</lb>
+
+
+    <lb n="28">A 'r lleill at y Gogledd o 'r gwagle draw sydd;</lb>
+
+
+    <lb n="29">Nh&#373; ddiengan yn fuan rai gwantan ei gwawr</lb>
+
+
+    <lb n="30">Boed rhwydeb cythreilig i 'r h&ecirc;n ferwig fawr</lb>
+
+
+    <lb n="31">Ag na botho am y Delyn friwsionyn o son</lb>
+
+
+    <lb n="32">A Dimeue pen rhawie o ryw fanne o Sir&nbsp;Fon,</lb>
+
+
+    <lb n="33">O wa&icirc;th y Pr&ecirc;s Cochion mae 'r Werddon yn wyrdd</lb>
+
+
+    <lb n="34">O egin debygwn daeth myrddiwn a myrdd</lb>
+
+
+    <lb n="35">Dweudant fod Cymry rifedi ryw faint</lb>
+
+
+    <lb n="36">Yn leicio cyduno i brintio mewn braint.</lb>
+
+
+
+
+
+    <lb n="37">O wffti 'r Pr&ecirc;s gwrthyn hyll erwin i lliw,</lb>
+
+
+    <lb n="38">Ni thal Ceiniog un Brenhin sy ar fyddin yn fyw</lb>
+
+
+    <lb n="39">Fe sy yn Rheolwr ymgleddwr i 'n gwl&acirc;d,</lb>
+
+
+    <lb n="40">Ac ni thal un Ddime ers dyddie bu i D&acirc;d</lb>
+
+
+    <lb n="41">Ni chymer y Person a 'r tirion air t&ecirc;g,</lb>
+
+
+    <lb n="42">D&icirc;m o 'r Pr&ecirc;s Cochion sydd fryntion dan freg</lb>
+
+
+    <lb n="43">Ni chymer y Deepper&nbsp;di ymgleddgar [~ diymgeleddgar] i 'r gl&ocirc;ch</lb>
+
+
+
+    <lb n="44">Mae 'r Methodist ynte Yn gwneud cichie [~ cuchiau] ar Bres coch,</lb>
+
+
+    <lb n="45">Ni fynn un Sect newydd yn hylwydd na h&ecirc;n,</lb>
+
+
+
+    <lb n="46">Mo 'r gwisgo 'r hardd Ferwig, Sydd glaerwig go gl&ecirc;n,</lb>
+
+
+    <lb n="47">Na 'r Ifangc na 'r hen &#373;r mewn cynwr min cant</lb>
+
+
+    <lb n="48">Yn Sydyn i 'w calyn na Thelyn na thant.</lb>
+
+
+
+
+    <lb n="td. 3.diwedd">ELIS ROBERTS
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_371-2">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="td. 4">Ffarwel Trefbaldwyn.
+    </lb>
+
+
+
+    <lb n="1">CLYWCH hanes Gwragedd drwg di-fuchedd</lb>
+
+
+    <lb n="2">Aflan ffiedd ciedd c&acirc;s,</lb>
+
+
+    <lb n="3">Gwaeth i moddion na 'nifeiliaid [~ anifeiliaid] gwylltion,</lb>
+
+
+    <lb n="4">Rai pen ryddion a di r&acirc;s,</lb>
+
+
+    <lb n="5">Mae 'n galed gweled gwraig ddigwilydd,</lb>
+
+
+    <lb n="6">Er mwyn elw garw o gerydd,</lb>
+
+
+    <lb n="7">Anedwydd yn i anwyde,</lb>
+
+
+    <lb n="8">'Rol [~ Ar ol] magu a Llaeth ei bronne,</lb>
+
+
+    <lb n="9">Ei phlant a garie i barthe 'r Byd,</lb>
+
+
+    <lb n="10">Ac iddi brynnu ei hoedl,</lb>
+
+
+    <lb n="11">I 'w geni trwm yw 'r chwedl,</lb>
+
+
+    <lb n="12">A 'i magu heb gel mewn cornel cyd,</lb>
+
+
+
+
+
+    <lb n="13">Mae 'n drwm gweled Mam mor galed</lb>
+
+
+    <lb n="14">Mo'r [~ Mor] ddi-ystyried o 'i yst&ocirc;r,</lb>
+
+
+    <lb n="15">A gwerthu ei phlentyn at bethe anhydyn</lb>
+
+
+    <lb n="16">Sy 'n draws fyddin draw dros F&ocirc;r,</lb>
+
+
+    <lb n="17">I fysc paganied drwg i gwnie,</lb>
+
+
+    <lb n="18">Ar Ddaear boeth sy 'n dduon bethe,</lb>
+
+
+    <lb n="19">Rhai a 'i hwynebe yn frychion,</lb>
+
+
+    <lb n="20">Nifeiliaid [~ Anifeiliaid] di ofalon,</lb>
+
+
+    <lb n="21">Digaru dynion nag ofni DUW</lb>
+
+
+    <lb n="22">Ffei brywnt i fam Crisnogion [~ Cristnogion],</lb>
+
+
+    <lb n="23">Fod mor ddigwilydd galon,</lb>
+
+
+    <lb n="24">At bethe chwerwon werthu i Chyw.</lb>
+
+
+
+
+
+    <lb n="25">Mae 'i ffordd a 'i trafel achos uchel,</lb>
+
+
+    <lb n="26">I fin&icirc;on cornel Affricca,</lb>
+
+
+
+    <lb n="27">I wl&acirc;d y twllni [~ tywyllni] a 'r trueni,</lb>
+
+
+    <lb n="28">Heb ronyn ynddi o 'r daioni d&acirc;,</lb>
+
+
+    <lb n="29">Och o fyned Plant Efengyl,</lb>
+
+
+    <lb n="30">Obaith tringar i 'r fath dreigl,</lb>
+
+
+    <lb n="31">At heppil dr&#373;g anhappus,</lb>
+
+
+    <lb n="32">O waith ei Mamme rheibus,</lb>
+
+
+    <lb n="33">Oedd ddrygionus fregus fryd,</lb>
+
+
+    <lb n="34">Rhyw gywilydd mawr di orphen.</lb>
+
+
+    <lb n="35">Oedd gwerthu eu Cnawd ei hunain,</lb>
+
+
+    <lb n="36">Na gwneuthur bargen yn y byd;</lb>
+
+
+
+
+
+    <lb n="37">Mae 'r Eirth a 'r Llewod a 'r Llwynogod,</lb>
+
+
+    <lb n="38">A 'r Gwnhingod mewn eu nyth,</lb>
+
+
+    <lb n="39">Yn magu i Cywion mewn gofalon,</lb>
+
+
+    <lb n="40">I 'w lladd ni byddan bodlon byth,</lb>
+
+
+    <lb n="41">Mae 'r holl greaduriaid cryfion dewredd,</lb>
+
+
+    <lb n="42">A nhwythe a 'i rhediad mewn anrhydedd,</lb>
+
+
+    <lb n="43">Mewn gofal rhyfedd hefyd,</lb>
+
+
+    <lb n="44">I 'w heppil gael ei bywyd,</lb>
+
+
+    <lb n="45">Dan ofni ei symud nh&#373; i le sal</lb>
+
+
+    <lb n="46">A Gwragedd gwl&acirc;d Gristnogol,</lb>
+
+
+    <lb n="47">A 'i nofiad mor annuwiol,</lb>
+
+
+    <lb n="48">Yn gwerthu ei dynol Blant am d&acirc;l.</lb>
+
+
+
+
+
+    <lb n="49">Ow p'le yr aeth hiraeth calon mamaeth</lb>
+
+
+    <lb n="50">Yn hofflanwaith am ei phlant,</lb>
+
+
+    <lb n="51">Fu 'n sugno o ddifri ei gwythenni,</lb>
+
+
+    <lb n="52">Cyn ei geni ddyddie gant.</lb>
+
+
+    <lb n="53">A chwedi breiniol Laeth ei bronne,</lb>
+
+
+    <lb n="54">Modd cain hylwydd a 'i cynhalie,</lb>
+
+
+
+    <lb n="55">Pwy fam a werthe yn wrthyn,</lb>
+
+
+    <lb n="56">O 'i chroth ei hanwyl blentyn,</lb>
+
+
+    <lb n="57">Oedd iddi yn perthyn purffydd h&acirc;d</lb>
+
+
+    <lb n="58">Roedd iddi 'n rhanne o honno,</lb>
+
+
+    <lb n="59">Mae 'n debyg inni i 'w dybio,</lb>
+
+
+    <lb n="60">Bum waith i 'w dystio mwy na 'i D&acirc;d,</lb>
+
+
+
+
+
+
+
+    <lb n="61">Ffei o Wraig mae 'n ffiedd rwygi&acirc;d,</lb>
+
+
+    <lb n="62">Fod mor ddigariad i 'w h&acirc;d ei h&ucirc;n,</lb>
+
+
+    <lb n="63">'Roedd gwell Cydwybod yn nyddie Herod</lb>
+
+
+    <lb n="64">Gan Famhaethod lawn glod lun,</lb>
+
+
+    <lb n="65">Roedd llef fawr rymmus gwragedd Rama,</lb>
+
+
+    <lb n="66">Yn uwch yn cyrredd na llais Cora,</lb>
+
+
+    <lb n="67">Am blant anwyla oedd ganddyn,</lb>
+
+
+    <lb n="68">Ar &ocirc;l ei dirfawr derfyn,</lb>
+
+
+    <lb n="69">A 'i ll&acirc;dd yn sydyn yno 'n siwr,</lb>
+
+
+    <lb n="70">Nh&#373; oedd yn wylo dagre;</lb>
+
+
+    <lb n="71">Mewn galar a chystuddie </lb>
+
+
+    <lb n="72">Nid oes dim geirie wylo un G&#373;r,</lb>
+
+
+
+
+
+    <lb n="73">Y ddwy Buttain oedd yn llefen,</lb>
+
+
+    <lb n="74">Am gael y Bachgen *llawen llon,</lb>
+
+
+    <lb n="75">Rhai gyttynwyd yn net iawndda,</lb>
+
+
+    <lb n="76">Drwy sylwedd mwyna Solomon,</lb>
+
+
+    <lb n="77">Ni glywson fel yr wylodd Rachel,</lb>
+
+
+    <lb n="78">Ar ol i 'w hade fyn'd o 'i hoedl,</lb>
+
+
+    <lb n="79">Wel ffarwel yn hoffiredd,</lb>
+
+
+    <lb n="80">DUW mendio 'r di r&acirc;s Wragedd.</lb>
+
+
+
+    <lb n="81">Os aent mo'r [~ mor] giedd sadwedd senn,</lb>
+
+
+    <lb n="82">Na yrront mo 'i Plant allan,</lb>
+
+
+    <lb n="83">I fysg Paganiad aflan,</lb>
+
+
+    <lb n="84">Yn faith am arian fyth Amen.</lb>
+
+
+
+
+    <lb n="td. 7.diwedd">Ellis Roberts
+    </lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_373-1">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="td. 2">Cons&ecirc;t y Brenin Wiliam.
+    </lb>
+
+
+
+    <lb n="1">CYD neswch yma 'n dyrfa ar dwyn</lb>
+
+
+    <lb n="2">I wrando geire modde mwyn,</lb>
+
+
+    <lb n="3">Sy 'n cymell arnoch tra bo'ch [~ boch] byw,</lb>
+
+
+    <lb n="4">Cyn mynd i daith am gofio Duw</lb>
+
+
+    <lb n="5">A gwneud eich cownt ac ef wrth r&ocirc;l,</lb>
+
+
+    <lb n="6">Rhag ofn na ddeuwch byth yn &ocirc;l,</lb>
+
+
+
+
+
+    <lb n="7">Fe wyr pob dyn pan el o 'i d&#375;</lb>
+
+
+    <lb n="8">Ag nid eill hwn mo 'r dweud yn hy,</lb>
+
+
+    <lb n="9">Ar gynnydd teg heb gennad Duw,</lb>
+
+
+    <lb n="10">Fyth at y fan daw etto 'n fyw,</lb>
+
+
+    <lb n="11">gwir help yr arglwydd llywydd lla&#373;n</lb>
+
+
+    <lb n="12">Mewn cadarn nerth a 'n ceidw'n iawn</lb>
+
+
+
+
+
+    <lb n="13">Na ddweuded neb ni awn o 'n tai,</lb>
+
+
+    <lb n="14">Ac a farchnattwnn yn ddi fai,</lb>
+
+
+    <lb n="15">Ac ni ennillwn ar ein taith,</lb>
+
+
+    <lb n="16">Ni ddown yn ol o 'r siwrne faith,</lb>
+
+
+    <lb n="17">Heb nerth llaw Duw i 'n dal yn syth</lb>
+
+
+    <lb n="18">Ni ddoe nhw yn ol yn foddol fyth,</lb>
+
+
+
+
+
+
+
+    <lb n="19">Mae 'n debyg fod teuluoedd M&ocirc;n,</lb>
+
+
+    <lb n="20">Y rhain a suddodd cly&#373;soch s&ocirc;n,</lb>
+
+
+    <lb n="21">Yn bwriadu dyfod bod ac un,</lb>
+
+
+    <lb n="22">Sef pawb yn &ocirc;l i 'w gartre ei hun,</lb>
+
+
+    <lb n="23">Ond erbyn rhifo rhain mewn rh&ocirc;l</lb>
+
+
+    <lb n="24">Roedd saith ar hugain wedi ar &ocirc;l.</lb>
+
+
+
+
+
+    <lb n="25">Y pumed dydd ar hugain syn</lb>
+
+
+    <lb n="26">O F&icirc;s Mehefin y by hyn,</lb>
+
+
+    <lb n="27">Wrth ddyfod adre o Fangor fawr,</lb>
+
+
+    <lb n="28">Y Cwch o 'i le singcie i lawr,</lb>
+
+
+    <lb n="29">Ar gyfer y Beumares Dr&ecirc;,</lb>
+
+
+    <lb n="30">Yn fawr ei grym y waedd oedd gre</lb>
+
+
+
+
+
+    <lb n="31">Trwm oedd y galar hagr hwn</lb>
+
+
+    <lb n="32">I bawb a 'i care yn boene yn bwnn</lb>
+
+
+    <lb n="33">Pob un y bore yn mynd o 'i d&#375;,</lb>
+
+
+    <lb n="34">Yn iach a llawen wcha llu,</lb>
+
+
+    <lb n="35">A chyn y n&ocirc;s drwy angau 'n siwr</lb>
+
+
+    <lb n="36">Nhw gowson derfyn yn y d&#373;r</lb>
+
+
+
+
+
+    <lb n="37">Mater trymedd sadwedd synn,</lb>
+
+
+    <lb n="38">Fel cloie tost oedd clywed hyn,</lb>
+
+
+    <lb n="39">Clywed gwaedd y ffasiwn lu,</lb>
+
+
+    <lb n="40">Yn suddo i lawr y dyfnfor du,</lb>
+
+
+
+
+
+    <lb n="41">Yngolwg [~ Yng ngolwg] goleuni tir ei gwlad,</lb>
+
+
+    <lb n="42">Mae 'n ing yn brudd gwnaeth angau brad,</lb>
+
+
+
+
+
+    <lb n="43">Mae llawer calon ddwyfron ddwys,</lb>
+
+
+    <lb n="44">O 'i dyddie i ben yn dynn dan bwys,</lb>
+
+
+    <lb n="45">Aml Wraig sydd am ei Gwr,</lb>
+
+
+    <lb n="46">Mewn mawr drallod syndod siwr,</lb>
+
+
+    <lb n="47">Plant am ei T&acirc;d rhai am ei Mam,</lb>
+
+
+    <lb n="48">Rhai am eu ceraint yn ddi nam,</lb>
+
+
+
+
+
+    <lb n="49">Rhai yn wylo am ffrindie pur,</lb>
+
+
+    <lb n="50">Rhai am eu cariad yn dwyn cur,</lb>
+
+
+    <lb n="51">Tri deg a dau mewn troiau trwch,</lb>
+
+
+    <lb n="52">Yn Mangor aeth i mewn i 'r Cwch</lb>
+
+
+    <lb n="53">A chyda 'r n&ocirc;s n&icirc;&nbsp;&acirc;dawodd *Duw,</lb>
+
+
+    <lb n="54">Ond pedwar Enaid yno 'n fyw,</lb>
+
+
+
+
+
+    <lb n="55">Dyma 'r eilwaith clywsoch s&ocirc;n,</lb>
+
+
+    <lb n="56">A darfu am drigolion M&ocirc;n,</lb>
+
+
+    <lb n="57">Yn Abermenai llowna lli,</lb>
+
+
+    <lb n="58">Boddi wnaeth pum deg a thri,</lb>
+
+
+    <lb n="59">Ac un yn rhagor i 'r Cefnfor caeth</lb>
+
+
+    <lb n="60">Ag un yn fyw i 'r lan a ddaeth,</lb>
+
+
+
+
+
+    <lb n="61">Ynrhaeth [~ Yn nhraeth] oer Lefen diben d&#375;dd,</lb>
+
+
+
+    <lb n="62">Saith ar hugain aeth dan gudd,</lb>
+
+
+    <lb n="63">A phedwar i 'r Bewmares fan,</lb>
+
+
+    <lb n="64">O 'r daith oer li a ddaeth i 'r lan,</lb>
+
+
+    <lb n="65">Gwarchoded Duw yr hen Fon dan g&ocirc;</lb>
+
+
+    <lb n="66">Rhag ofn y trymedd drydydd tr&ocirc;,</lb>
+
+
+
+
+
+    <lb n="67">Wel hen fam Gymru lon-gu lwys,</lb>
+
+
+    <lb n="68">Cymerwch siampl ddyfal ddwys,</lb>
+
+
+    <lb n="69">Nad eled neb o 'ch dynol ryw,</lb>
+
+
+    <lb n="70">I gyfan daith heb gofio Duw,</lb>
+
+
+    <lb n="71">Rhoi 'ch Gweddi arno 'n fawr yn fach,</lb>
+
+
+    <lb n="72">Mewn dawn yn &ocirc;l eich dwyn yn jach</lb>
+
+
+
+
+
+    <lb n="73">Os bydd Duw gyda chwi ar eich taith</lb>
+
+
+    <lb n="74">A 'i yspryd nefol moddol maith,</lb>
+
+
+    <lb n="75">Nid rha&icirc;d &icirc; chwi ofni un angau yn siwr</lb>
+
+
+    <lb n="76">Ar wneb [~ wyneb] Daear nag mewn d&#373;r,</lb>
+
+
+    <lb n="77">Os misiwch fynd yn &ocirc;l i 'ch lle</lb>
+
+
+    <lb n="78">Mewn gwcha nerth chwi gewch y Ne</lb>
+
+
+
+
+    <lb n="td. 5.diwedd">ELIS ROBERTS
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_373-2">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="td. 6">Belisle march.
+    </lb>
+
+
+
+    <lb n="1">GWrandewch sancteiddiol jaith ysprydol</lb>
+
+
+    <lb n="2">Da lesol un di l&icirc;d,</lb>
+
+
+    <lb n="3">Ar ol porthi, y pum mil rheini,</lb>
+
+
+    <lb n="4">A 'i llawn ddigoni eu gid [~ i gyd]</lb>
+
+
+    <lb n="5">Fe ddaeth dynion pelledigion [~ pellenigion]</lb>
+
+
+    <lb n="6">Yn llawnion yno yn ll&ucirc;,</lb>
+
+
+    <lb n="7">I weld ei wrthie yn rhannu 'r Torthe,</lb>
+
+
+    <lb n="8">Un gore ei fodde a fu,</lb>
+
+
+    <lb n="9">Canlhynen [~ Canlynent] fe i bob Gwlad;</lb>
+
+
+    <lb n="10">O ran cael bwyd yn rh&acirc;d;</lb>
+
+
+    <lb n="11">I borthi ei llawen Gyrph eu hunain,</lb>
+
+
+    <lb n="12">Ni adwaenen nhw mo 'i D&acirc;d,</lb>
+
+
+    <lb n="13">Ond pan gynhygie Fara i 'w Heneidie;</lb>
+
+
+    <lb n="14">Nh&#373;y ni ddehalle hyn;</lb>
+
+
+    <lb n="15">Heb fedru teimlo llais yr Athro,</lb>
+
+
+    <lb n="16">Wrth sefyll yno yn synn.</lb>
+
+
+    <lb n="17">Fe ddweuda M&acirc;b Duw tri,</lb>
+
+
+    <lb n="18">Rych chwi 'n y ngheisio [~ yn fy ngheisio]&nbsp;&icirc;,</lb>
+
+
+    <lb n="19">Ran cael bwytta o 'r cnawdol Fara,</lb>
+
+
+    <lb n="20">Ar Ddaear brafia ei br&icirc;,</lb>
+
+
+    <lb n="21">Llafuriwch beunydd am fara newydd,</lb>
+
+
+    <lb n="22">Mawr gynnydd ydi ei gael,</lb>
+
+
+    <lb n="23">Sef Bara Nefol dros dragwyddol,</lb>
+
+
+    <lb n="24">Ysprydol fywiol fael,</lb>
+
+
+
+
+
+
+
+    <lb n="25">A fwyttatho yr croyw fara hwnnw,</lb>
+
+
+    <lb n="26">Ni bydd o marw mwy,</lb>
+
+
+    <lb n="27">Ceist ei ddigoni hen newyn gwedi,</lb>
+
+
+    <lb n="28">Na chledi [~ chaledi] chwaith na chlwy,</lb>
+
+
+
+    <lb n="29">Bu 'ch Tade cynta trwy Foses bura,</lb>
+
+
+    <lb n="30">Yn bwytta 'r Manna maith,</lb>
+
+
+    <lb n="31">Heb gael gwir ydi mo 'i digoni,</lb>
+
+
+    <lb n="32">Ond marw gwedi 'r gwa&icirc;th,</lb>
+
+
+
+    <lb n="33">Gofynen iddo fe,</lb>
+
+
+    <lb n="34">pa beth a wnaent i 'r ll&ecirc;,</lb>
+
+
+    <lb n="35">Fel y caen wynfyd bara 'r bywyd,</lb>
+
+
+    <lb n="36">Gan bur Anwylyd N&ecirc;,</lb>
+
+
+    <lb n="37">Rhaid ichwi gredu meddai 'r Iesu,</lb>
+
+
+    <lb n="38">I 'm T&acirc;d Nefolgu yn faith,</lb>
+
+
+    <lb n="39">Fe a 'm danfonodd &icirc; o 'r Nefoedd,</lb>
+
+
+    <lb n="40">O 'm gwirfodd at y gwaith,</lb>
+
+
+    <lb n="41">I 'ch porthi chwi bob pryd,</lb>
+
+
+    <lb n="42">A gwl&ecirc;dd a h&ecirc;dd o hyd.</lb>
+
+
+    <lb n="43">Canys Bara 'r Nefoedd ucha,</lb>
+
+
+    <lb n="44">Ddoeth ymma yn benn&acirc; i 'r B&#375;d,</lb>
+
+
+    <lb n="45">Fi ydi eich lluniaeth drwy ragluniaeth,</lb>
+
+
+    <lb n="46">Yn Ysprydoliaeth Duw,</lb>
+
+
+    <lb n="47">Mi adgyfoda y meirwon gwaela,</lb>
+
+
+    <lb n="48">I fowrdda etto yn fyw,</lb>
+
+
+
+
+
+
+    <lb n="49">Yr hen Iuddewon nis credason,</lb>
+
+
+    <lb n="50">Ni's Doethon at Fab Duw,</lb>
+
+
+    <lb n="51">Er bod yr Iesu yn addo ei helpu,</lb>
+
+
+    <lb n="52">A 'i codi i fynu yn fyw,</lb>
+
+
+    <lb n="53">Ffaelio gwybod chwaith na chanfod,</lb>
+
+
+    <lb n="54">Gan bechod trallod trist,</lb>
+
+
+    <lb n="55">Nes doe y Nefol D&acirc;d tragwyddol,</lb>
+
+
+    <lb n="56">I 'w dwyn nh&#373; i 'r grasol Grist,</lb>
+
+
+    <lb n="57">Ni ddaw neb i 'r Nefol Wl&acirc;d,</lb>
+
+
+    <lb n="58">Nes tynnir nhw gan y T&acirc;d,</lb>
+
+
+    <lb n="59">I 'w gwneud nhw o Newydd gan yr Arglwydd</lb>
+
+
+    <lb n="60">Dwys ufudd i lesh&acirc;d,</lb>
+
+
+    <lb n="61">Fe ydi 'r hyfryd Fara 'r Bywyd,</lb>
+
+
+
+    <lb n="62">Sy 'n unfryd yn y Ne,</lb>
+
+
+    <lb n="63">Fe ddioddefodd dan y Nefoedd,</lb>
+
+
+    <lb n="64">Dros lluoedd sy 'mhob [~ ym mhob] ll&ecirc;</lb>
+
+
+
+    <lb n="65">Fe ydi 'r nerthoedd mawr,</lb>
+
+
+    <lb n="66">a 'n cwyd ni fynu o 'r llawr,</lb>
+
+
+
+    <lb n="67">O 'r mawr dwllni [~ dywyllni] i 'r goleuni</lb>
+
+
+    <lb n="68">i weld ei wisgi wawr,</lb>
+
+
+    <lb n="69">Fe ydi 'n bywyd fe ydi 'n gwynfyd,</lb>
+
+
+    <lb n="70">I 'n codi o 'n tynfyd tost</lb>
+
+
+    <lb n="71">A 'i &#373;aed fe dalodd dros ei luoedd,</lb>
+
+
+    <lb n="72">Mewn gwirfodd yr hollt gost.</lb>
+
+
+
+
+
+
+
+    <lb n="73">O 'r bendigedig etholedig</lb>
+
+
+    <lb n="74">yr unig meddyg mawr</lb>
+
+
+    <lb n="75">Oen bendigied gwynfyd enaid,</lb>
+
+
+    <lb n="76">Oedd gweled dy lan wawr,</lb>
+
+
+    <lb n="77">Wyt ti yngolygon [~ yng ngolygon] Cadwedigion,</lb>
+
+
+    <lb n="78">IOR cyfion Sion Saint,</lb>
+
+
+    <lb n="79">Wyt ti 'n ysprydol hefo 'r Duwiol,</lb>
+
+
+    <lb n="80">A 'th nefol freiniol fraint.</lb>
+
+
+    <lb n="81">Rhoist ti dy waed o 'th gnawd,</lb>
+
+
+    <lb n="82">O IESU ein hanwyl frawd,</lb>
+
+
+
+    <lb n="83">Ond yspryd ucha sy ffieiddia</lb>
+
+
+    <lb n="84">o ledia ni 'n dylawd,</lb>
+
+
+    <lb n="85">Nid oes lle &icirc; ymgudd&icirc;o ond poenydio,</lb>
+
+
+    <lb n="86">I neb a 'th adawo di.</lb>
+
+
+    <lb n="87">Pan ddel d&#375;dd prudd-der diwedd amser,</lb>
+
+
+    <lb n="88">I 'r Nefoedd cymmer ni,</lb>
+
+
+
+    <lb n="89">Bydd inni o 'r nef yn aed</lb>
+
+
+    <lb n="90">i galyn &ocirc;l dy draed.</lb>
+
+
+    <lb n="91">Mae hyd y llwybre y bu dy siwrne,</lb>
+
+
+    <lb n="92">I 'w gweled ddafne gwaed,</lb>
+
+
+    <lb n="93">Dydi ydi 'r hyfryd Bara 'r bywyd,</lb>
+
+
+    <lb n="94">Dwys hyfryd a di sen,</lb>
+
+
+    <lb n="95">I 'r Arglywydd hynod ail gyfammod,</lb>
+
+
+    <lb n="96">Bo mawrglod byth Amen.</lb>
+
+
+
+
+    <lb n="td. 8.diwedd">Ellis Roberts
+    </lb>
+
+
+    <lb n="td. 8.diwedd">TERFYN
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_374-2">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="td. 4">DUW gadwo 'r BRENIN.
+    </lb>
+
+
+
+    <lb n="1">FY anwyl ffrind cywir derbyniais dy Lythyr</lb>
+
+
+    <lb n="2">Rwy 'n canmol dy synwyr di Sion</lb>
+
+
+
+
+    <lb n="3">Cei barch genni o 'm calon O herwydd Cynghorion;</lb>
+
+
+    <lb n="4">Ddyn ffyddlon mae 'n dirion dy don.</lb>
+
+
+
+    <lb n="5">Cynhalied yr Arglwydd dydi mewn gwir sadrwydd,</lb>
+
+
+    <lb n="6">I galyn gl&acirc;n sobrwydd yn syth,</lb>
+
+
+    <lb n="7">Rwyfi wedi llithro fil canwaith rwy 'n cwyno</lb>
+
+
+    <lb n="8">A ffaelio rwy beidio yma byth,</lb>
+
+
+    <lb n="9">Mi dreiliais [~ dreuliais] fy Ifiengctid ar wndwn o wendid,</lb>
+
+
+    <lb n="10">I ddilyn aflendid di flas,</lb>
+
+
+    <lb n="11">Ag rwan rwi 'n henddyn ymin [~ ym min] angau melyn,</lb>
+
+
+    <lb n="12">Heb geisio fawr ronyn o r&acirc;s,</lb>
+
+
+
+
+
+    <lb n="13">Mi syrthiais i fale 'r h&ecirc;n satan er's dyddie,</lb>
+
+
+    <lb n="14">Wrth gellwair am droie dyn dr&#373;g;</lb>
+
+
+    <lb n="15">Am iddo ddynwared caeth riwlio Cythreilied</lb>
+
+
+    <lb n="16">Och frynted a garwed y g&#373;g,</lb>
+
+
+
+    <lb n="17">A hwn a droes atta yr araith ddihira,</lb>
+
+
+    <lb n="18">Ffieiddia er Adda fu erioed;</lb>
+
+
+
+    <lb n="19">Ni bu mo 'r fath eirie; Mewn llyfr nag mewn gene,</lb>
+
+
+    <lb n="20">Na chwaith ar dafode di foed;</lb>
+
+
+    <lb n="21">Edliw *nghenedlaeth [~ fy nghenhedlaeth] mewn budr wybodaeth;</lb>
+
+
+    <lb n="22">A barodd elyniaeth o lid;</lb>
+
+
+    <lb n="23">Rhag codwm mor galed ymysg pechaduried;</lb>
+
+
+    <lb n="24">M&acirc;b Duw fo 'n ein gwared ni gid [~ i gyd].</lb>
+
+
+
+
+
+    <lb n="25">O 'r Seilo gl&acirc;n sylwedd agoro 'i drugaredd</lb>
+
+
+    <lb n="26">A 'n dygo i 'r un duedd ein dau,</lb>
+
+
+    <lb n="27">Ymostwn ar ddeulin o flaen n&ecirc;f Frenin</lb>
+
+
+    <lb n="28">Rhag cael mewn lle cyfyng ein cau,</lb>
+
+
+
+
+    <lb n="29">Doed gallu 'r IOR nefol ag awen ysbrydol</lb>
+
+
+    <lb n="30">a fotho 'n fwy llesol i 'w ll&ecirc;,</lb>
+
+
+    <lb n="31">Oddi wrth ffiedd fadroddion celwyddog a budron</lb>
+
+
+    <lb n="32">Duw a 'n golcho ni yn afon yn n&ecirc;,</lb>
+
+
+
+    <lb n="33">Drwy 'r Diawl cawson rydid, I edliw pob gwendid;</lb>
+
+
+    <lb n="34">a hynny drwy ferdid y fall;</lb>
+
+
+    <lb n="35">I fod yn anhydyn mewn buchedd ysgymun</lb>
+
+
+    <lb n="36">Ond oeddem yn ddeddyn pur ddall,</lb>
+
+
+
+
+
+    <lb n="37">Yr arglwydd agoro ein llygaid i ddeffro,</lb>
+
+
+    <lb n="38">Rhag ofn ini syrthio i le s&acirc;l,</lb>
+
+
+
+    <lb n="39">Am iwsio drwg fuchedd, a phob geirie ffiedd,</lb>
+
+
+    <lb n="40">Rhy debyg o 'r diwedd cawn d&acirc;l</lb>
+
+
+    <lb n="41">Ni feddwn ddim esgus o 'n gorchwyl cwilyddus,</lb>
+
+
+
+    <lb n="42">Pan fo [~ f&ocirc;m] n&icirc; o flaen Ustus y g&ecirc;,</lb>
+
+
+    <lb n="43">am r&acirc;s ceisiwn sengud tra bo'n [~ b&ocirc;m] yn ein bywyd</lb>
+
+
+    <lb n="44">Rhag bod yn hyll embyd [~ enbyd] ein ll&ecirc;,</lb>
+
+
+    <lb n="45">Cofiwn y rheini a fydd yno 'n gweiddi,</lb>
+
+
+    <lb n="46">Eu cuddio rhag goleuni 'r Oen gl&acirc;n,</lb>
+
+
+    <lb n="47">A 'r Brenin nefolgu yn ordro i 'w deulu;</lb>
+
+
+    <lb n="48">O 'i olwg fe 'i taflu nhw i 'r t&acirc;n.</lb>
+
+
+
+
+
+
+    <lb n="49">Wel William ddi waeledd, Yn lle dilyn jaith fudredd,</lb>
+
+
+    <lb n="50">Ymorol am sylwedd y Saint;</lb>
+
+
+    <lb n="51">Trin Llyfre 'r Diafol sy 'n ddr&#373;g anesgorol;</lb>
+
+
+    <lb n="52">a phechod anferthol o faint,</lb>
+
+
+
+    <lb n="53">Yr Arglwydd a 'th drotho,  Mewn mwynder i ymendio [~ emendio];</lb>
+
+
+    <lb n="54">Duw fotho yn dy lwyddo yn dy l&ecirc;</lb>
+
+
+
+    <lb n="55">Mae ngobaith [~ fy ngobaith] dy weled; Er maint ein cam synied,</lb>
+
+
+    <lb n="56">ar rediad at nodded y ne;</lb>
+
+
+
+    <lb n="57">Rwi 'n madde i ti farnu, ar fy merch wedi chladdu [~ ei chladdu],</lb>
+
+
+    <lb n="58">Gad lonydd ond hynny i 'm plant i;</lb>
+
+
+    <lb n="59">Er maint o ddrygion&icirc; fu rhynthoch [~ rhyngoch] a myfi,</lb>
+
+
+    <lb n="60">Ni leiciwn ond daioni i 'th blant ti;</lb>
+
+
+
+
+
+    <lb n="61">Os leici di ganu yn rasol fawl Iesu,</lb>
+
+
+    <lb n="62">Neu rwbeth i deulu mab Duw.</lb>
+
+
+    <lb n="63">Mi fydda pur fodlon o ewyllys fy nghalon</lb>
+
+
+    <lb n="64">a hynny tra byddom ni byw.</lb>
+
+
+    <lb n="65">Mi atteba 'n wyllysgar ac nid ymrysongar:</lb>
+
+
+    <lb n="66">Bydd felly 'n fwy claear ein *clod;</lb>
+
+
+    <lb n="67">Na gyrru gwag araeth i gege rhai diffaeth,</lb>
+
+
+    <lb n="68">O sywaeth anobaith y n&ocirc;d;</lb>
+
+
+
+    <lb n="69">Rhown ffarwel y rwan; Bob sut i 'r h&ecirc;n Satan;</lb>
+
+
+    <lb n="70">Daw 'n dyddie yn dra buan i benn.</lb>
+
+
+
+    <lb n="71">Mae ngobaith [~ fy ngobaith] i weled; o 'th ddywlo well canied;</lb>
+
+
+    <lb n="72">Rwy 'n cwbl ddymuned Amen.</lb>
+
+
+
+
+
+    <lb n="td. 7.diwedd">ELLIS ROBERTS
+    </lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="BWB_374-3">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="td. 8">Penill i 'r Arian Cochion ar B&ecirc;lisle March
+    </lb>
+
+
+
+    <lb n="1">FFEI o 'r budron Arian Cochion;</lb>
+
+
+    <lb n="2">Mae 'n dorriad calon Cawr;</lb>
+
+
+    <lb n="3">Mae pawb yn ffyrnig felldigedig;</lb>
+
+
+    <lb n="4">Yn rhegi 'r ferwig fawr;</lb>
+
+
+    <lb n="5">O frenhinoedd cowntir cantoedd;</lb>
+
+
+    <lb n="6">Gweiniodd newydd g&ecirc;r,</lb>
+
+
+    <lb n="7">Ni thal wedi yr un o rhein&icirc;</lb>
+
+
+    <lb n="8">o flaen cwmpeini per;</lb>
+
+
+    <lb n="9">Nid neb ar draed na Horse;</lb>
+
+
+    <lb n="10">A wneiff mo 'i fol yn gors,</lb>
+
+
+    <lb n="11">Heb arian Cochion llafne llyfnion.</lb>
+
+
+    <lb n="12">Fu 'n nyddie 'r Secon SIORS,</lb>
+
+
+    <lb n="13">oes neb yn unlle yn fyw 'n ei ddyddie,</lb>
+
+
+    <lb n="14">A wneiff Ddime a gerdde yn goch,</lb>
+
+
+    <lb n="15">Ar ol marw 'r brenin hwnnw.</lb>
+
+
+    <lb n="16">Gwnawn grio yn groyw groch,</lb>
+
+
+    <lb n="17">ow Twm o 'r Uchel Bont,</lb>
+
+
+    <lb n="18">Wnaeth lawer Dime front</lb>
+
+
+    <lb n="19">Bu hwnnw yn Cweinio [~ cyweinio] a mold ddu ganddo</lb>
+
+
+    <lb n="20">Nid ffeilio a syddo o 'r sond,</lb>
+
+
+    <lb n="21">ond beth bynnag a fo 'n beniaeth,</lb>
+
+
+    <lb n="22">Daw rhywbeth cyn yr Ha,</lb>
+
+
+    <lb n="23">Rho&ecirc;d perchen dedwydd gred a bedydd,</lb>
+
+
+    <lb n="24">I Ddafydd Ddime dda.</lb>
+
+
+
+
+    <lb n="td. 8.diwedd">Ellis Roberts
+    </lb>
+
+
+    <lb n="td. 8.diwedd">TERFYN
+    </lb>
+
+
+
+
+
+
+
+
+     </pb>
+     </text>
+
+
+    </text>

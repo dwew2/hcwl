@@ -1,0 +1,4863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../sketchengine.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+<text id="b1588"><text id="b1588gen">
+
+
+        <head>
+        LLyfr cyntaf Moses yr hwn a elwir Genesis
+        </head>
+            
+ 
+
+<pb n="37">
+
+
+        <head>
+         PEN. XXXVII.
+        </head>
+            
+<lb n="argument">
+
+
+ 2 Ioseph yn achwyn ar ei frodyr wrth ei dâd. 5 Efe
+ yn breuddwydio, a 'i frodyr yn ei gasau. 28 Ac yn ei
+
+ 
+ werthu ef i 'r Ismaeliaid. 34 Galar Iacob am Ioseph.
+</lb>
+
+<lb n="1">
+
+ 1 A Thrigodd Iacob yng-wlâd ymddaith ei
+ dâd sef yng-wlâd Canaan.
+
+</lb>
+<lb n="2">
+
+ 2 Dymma genhedlaethau Iacob: Ioseph
+ yn fab dwy flwydd ar bymthec oedd fugail gyd
+ a 'i frodyr ar y praidd: ac efe oedd yn llangc gyd
+ a meibion Bilha, a chyd a meibion Zilpha gwragedd ei dâd ef: yna Ioseph a ddygodd eu
+ drwg enllib hwynt at eu tâd hwynt.
+
+</lb>
+<lb n="3">
+
+ 3 Ac Israel oedd hoffach ganddo Ioseph
+ nai holl feibion, o blegit efe a 'i cawse ef yn ei henaint: ac efe a wnaeth siacced fraith iddo ef.
+
+</lb>
+<lb n="4">
+
+ 4 Pan welodd ei frodyr, fod eu tâd yn ei
+ garu ef yn fwy nai holl frodyr: yna hwy a 'i casasant ef, ac ni fedrent ymddiddan [ag] ef yn
+ heddychol.
+
+</lb>
+<lb n="5">
+
+ 5 Ac Ioseph a freuddwydiodd freuddwyd,
+ ac a 'i mynegodd i 'w frodyr: am hynny y casasant
+ ef etto yn ychwaneg.
+
+</lb>
+<lb n="6">
+
+ 6 O blegit dywedase wrthynt, gwrandewch
+ atolwg y breuddwyd hwn, yr hwn a freuddwydiais.
+
+</lb>
+<lb n="7">
+
+ 7 Ac wele rhwymo ysgubau 'r oeddem ni
+ yng-hanol [~ ynghanol ] y maes, ac wele fy yscub mau fi a
+ gyfododd, ac a safodd hefyd, ac wele eich yscubau chwi a ddaethant o amgylch ac a ymgrymmasant i 'm hysgub mau fi.
+
+</lb>
+<lb n="8">
+
+ 8 Yna ei frodyr a ddywedasant wrtho ef,
+ ai gan deyrnasu y teyrnesi arnom ni? ai gan arglwyddiaethu 'r arglwyddieithi arnom ni? etto
+ am hynny y chwanegasant ei gasau ef, o blegit
+ ei freuddwydion, ac o blegit ei eiriau ef.
+
+</lb>
+<lb n="9">
+
+ 9 Hefyd efe a freuddwydiodd etto freuddwyd arall, ac a 'i mynegodd i 'w frodyr, ac a
+ ddywedodd: wele yr haul, a 'r lleuad, ac vn ar
+ ddec o sêr yn ymgrymmu i mi.
+
+</lb>
+<lb n="10">
+
+ 10 Ac efe a 'i mynegodd i 'w dâd, ac i 'w frodyr,
+ a 'i dâd a feiodd arno ef, ac a ddywedodd wrtho ef
+ pa freuddwyd yw hwn, yr hwn a freuddwydiaist? ai gan ddyfod y deuwn ni, mi a 'th fam
+ a 'th frodyr, i ymgrymmu i lawr i ti?
+
+</lb>
+<lb n="11">
+
+ 11 A 'i frodyr a genfigennasant wrtho ef, ond
+ ei dâd a gadwodd y peth [mewn côf:]
+
+</lb>
+<lb n="12">
+
+ 12 Yna ei frodyr ef a aethant i fugeilio
+ praidd eu tâd yn Sichem.
+
+</lb>
+<lb n="13">
+
+ 13 Ac Israel a ddywedodd wrth Ioseph, onid [yw] dy frodyr yn bugeilio yn Sichem?
+ tyret, a mi a 'th anfonaf attynt: yntef a ddywedodd wrtho ef, wele fi.
+
+</lb>
+<lb n="14">
+
+ 14 Yna y dywedodd ei [dâd] wrtho ef, dos
+ weithian, edrych [pa] lwyddiant [sydd] i 'th frodyr, a [pha] lwyddiant [sydd] i 'r praidd, a dŵg
+ eilchwael [~ eilchwyl ] air [i] mi: felly efe a 'i hanfonodd ef o
+ lynn Hebron, ac efe a ddaeth i Sichem.
+
+</lb>
+<lb n="15">
+
+ 15 Yna y cyfarfu gŵr ag ef: ac wele efe yn
+ cyrwydro [~ crwydro ] yn y maes, a 'r gŵr a ymofynnodd
+ [ag] ef, gan ddywedyd, pa beth yr ydwyt yn ei
+ geisio?
+
+</lb>
+<lb n="16">
+
+ 16 Yntef a ddywedodd ceisio fy-mrodyr yr
+ ydwyf fi: mynega atolwg i mi pa le y maent
+ hwy yn bugeilio?
+
+
+ 
+</lb>
+<lb n="17">
+
+ 17 A 'r gŵr a ddywedodd  cychwnnasant [~ cychwynasant ] oddi
+ ymma, o blegit clywais hwynt yn dywedyd,
+ awn i Dothan: yna Ioseph a aeth a'r [~ ar ] ôl ei frodyr, ac a 'i cafodd hwynt o fewn Dothan.
+
+</lb>
+<lb n="18">
+
+ 18 Hwythau a 'i canfuant ef o bell, a chyn ei
+ ddynessu attynt hwy 'r ymfwriadasant hefyd
+ [yn] ei [erbyn] ef, i 'w ladd ef.
+
+</lb>
+<lb n="19">
+
+ 19 A dywedasant bôb vn ŵrth ei gilydd, wele accw y breuddwyd-wr yn dyfod.
+
+</lb>
+<lb n="20">
+
+ 20 Deuwch gan hynny yn awr, a lladdwn
+ ef, a thaflwn ef yn vn o 'r pydewau, a dywedwn,
+ bwyst-fil drwg a 'i bwyttaodd ef: yna y cawn weled beth fydd ei freuddwydion ef.
+
+</lb>
+<lb n="21">
+
+ 21 A Ruben a glybu, ac a 'i hachubodd ef,
+ o 'i llaw hwynt, ac a ddywedodd, na laddwn ef yn
+ farw.
+
+</lb>
+<lb n="22">
+
+ 22 Ruben a ddywedodd hefyd wrthynt, na
+ thywelltwch waed: bwriwch ef i 'r pydew
+ hwn, yr hwn [sydd] yn yr anialwch, ac nac   law arno ef: fel yr achube ef o 'i llaw
+ hwynt i 'w ddwyn eil-waith at ei dâd.
+
+</lb>
+<lb n="23">
+
+ 23 A phan ddaeth Ioseph at ei frodyr, yna
+ y gwnaethant i Ioseph ddiosc ei siacced [sef] y
+ siacced fraith 'r hon [ydoedd] a'm dano [~ amdano ] ef.
+
+</lb>
+<lb n="24">
+
+ 24 Yna y cymmerasant ef, a thaflasant ef
+ i 'r pydew, a 'r pydew [oedd] wâg hêb ddwfr
+ ynddo.
+
+</lb>
+<lb n="25">
+
+ 25 Yna 'r eisteddasant i fwytta bwyd, ac a
+ dderchafasant eu llygaid, ac a edrychasant: ac   fintai o Ismaeliaid yn dyfod o Gilead yn myned i wared i 'r Aipht, a 'i camelod yn dwyn llyssiau, a balm, a myrr.
+
+</lb>
+<lb n="26">
+
+ 26 Yna y dywedodd Iuda wrth ei frodyr, pa
+ lesaad [a fydd,] ôs lladdwn ein brawd, a chêlu
+ ei waed ef?
+
+</lb>
+<lb n="27">
+
+ 27 Deuwch a gwerthwn ef i 'r Ismaeliaid,
+ ac na fydded ein llaw ni arno ef: o blegit ein
+ brawd ni a 'n cnawd ni ydyw efe: a 'i frodyr a gytunasant.
+
+</lb>
+<lb n="28">
+
+ 28 A phan ddaeth y marchnad-wyr o Midian heibio, y tynnasant, ac y cyfodasant Ioseph
+ i fynu o 'r pydew, ac a werthasant Ioseph i 'r Ismaeliaid, er vgain darn o arian: hwyntau a
+ ddygasant Ioseph i 'r Aipht.
+
+</lb>
+<lb n="29">
+
+ 29 Wedi hynny Ruben a ddaeth eil-waith
+ i 'r pydew, ac wele nid [ydoedd] Ioseph yn y
+ pydew: ac yntef a rwygodd ei ddillad.
+
+</lb>
+<lb n="30">
+
+ 30 Ac a ddychwelodd at ei frodyr, ac a   y llangc nid [ydyw] accw: a minne i
+ ba le 'r âf fi?
+
+</lb>
+<lb n="31">
+
+ 31 Yna hwy a gymmerasant siacced Ioseph,
+ ac a laddasant lwdn gafr, ac a drochasant y siacced yn y gwaed.
+
+</lb>
+<lb n="32">
+
+ 32 Ac a anfonasant y siacced fraith, ac a 'i
+ dugasant at eu tâd hwynt, ac a ddywedasant,
+ honn a gawsom, mynn ŵybod weithian ai siacced dy fâb [yw] hi, ai nad e.
+
+</lb>
+<lb n="33">
+
+ 33 Yntef a 'i hadnabu hi, ac a ddywedodd, siacced fy mab [yw hi] bwyst-fil drwg a 'i
+ bwyttaodd ef: gan larpio y llarpiwyd Ioseph.
+
+</lb>
+<lb n="34">
+
+ 34 Ac Iacob a rwygodd ei ddillad, ac a osododd sach-len am ei lwynau, ac a alarodd am ei
+ fâb ddyddiau lawer.
+
+</lb>
+<lb n="35">
+
+ 35 A 'i holl feibion, a 'i holl ferched a godasant i 'w gyssuro ef, ond efe a wrthododd gymmeryd cyssur, ac a ddywedodd: yn ddiau descynnaf yn alarus at fy mâb i 'r beddrod, a 'i dâd a
+ wylodd [am dano] ef.
+
+</lb>
+<lb n="36">
+
+ 36 A 'r Midianiaid a 'i gwerthasant ef i 'r
+ Aipht i Putiphar tywysog Pharao, [a 'r] distain.
+
+
+
+ 
+</lb>
+        </pb>
+    
+<pb n="39">
+
+
+        <head>
+         PEN. XXXIX.
+        </head>
+            
+<lb n="argument">
+
+
+ 1 Gwerthu Ioseph i Putiphar. 2 Gwraig Putiphar
+ yn ei demptio ef. 13 Ac yn achwyn arno ef. 20
+ Ei garchar ef. 21 Ymgeledd Duw iddo ef.
+</lb>
+
+<lb n="1">
+
+ 1 FElly Ioseph a ddygwyd i wared i 'r Aipht, a
+ Phutiphar yr Aipht-wr tywysog Pharao
+ [a 'i] ddistain a 'i prynnodd ef o law  'r Ismaeliaid,
+ y rhai a 'i dygasent ef ei wared yno.
+
+</lb>
+<lb n="2">
+
+ 2 Ac yr oedd yr Arglwydd gyd ag Ioseph,
+ ac efe oedd ŵr llwyddiannus: tra fu efe yn nhŷ
+ ei feistr yr Aiphtiad.
+
+</lb>
+<lb n="3">
+
+ 3 A 'i feistr ef a welodd mai yr Arglwydd [oedd] gyd ag ef, a [bod] yr Arglwydd yn llwyddo yn ei law ef yr hyn oll a wnele efe.
+
+</lb>
+<lb n="4">
+
+ 4 Felly Ioseph a gafodd ffafor yn ei olwg
+ ef, ac a 'i gwasanaethodd ef, yntef a 'i gwnaeth ef
+ yn ben-golygwr ar ei dŷ ef, ac a roddes [yr hyn]
+ oll oedd eiddo dan ei law ef.
+
+</lb>
+<lb n="5">
+
+ 5 Ac er pan wnaethe efe ef yn ben-golygwr
+ ar ei dŷ, ac ar yr hyn oll [oedd] eiddo ef, darfu i 'r
+ Arglwydd fendithio tŷ 'r Aiphtiad er mwyn
+ Ioseph: ac yr oedd bendith yr Arglwydd ar yr
+ hyn oll oedd eiddo ef yn y tŷ, ac yn y maes.
+
+</lb>
+<lb n="6">
+
+ 6 Am hynny y gadawodd efe yr hyn oll [oedd] ganddo tan law Ioseph, ac nid adwaene
+ ddim ar [a oedd] gyd ag ef, oddi eithr y bwyd
+ yr hwn yr oedd efe yn ei fwytta: Ioseph hefyd
+ oedd dêg o brŷd, a glân yr olwg.
+
+</lb>
+<lb n="7">
+
+ 7 A darfu wedi y petheu hynny i wraig ei
+ feistr ef dderchafu ei golwg ar Ioseph, a dywedydd: gorwedd gyd a mfi [~ myfi ].
+
+</lb>
+<lb n="8">
+
+ 8 Yntef a wrthododd, ac a ddywedodd wrth
+ wraig ei feistr, wele fy meistr nid edwyn pa beth
+ [sydd] gyd a 'm'fi [~ myfi ] yn y tŷ: rhoddes hefyd yr hyn
+ oll [sydd] eiddo ef, tan fy llaw i.
+
+</lb>
+<lb n="9">
+
+ 9 Nid oes [neb] fwy yn y tŷ hwn na myfi,
+ ac ni waharddodd efe ddim rhagof, onid ty di, o
+ blegit ei wraig ef [wyt] ti: pa fodd gan hynny
+ y gallaf wneuthur y mawr-ddrwg hwn, a phechu yn erbyn Duw?
+
+</lb>
+<lb n="10">
+
+ 10 Ac fel yr oedd hi yn dywedyd wrth Ioseph beunŷdd, ac yntef heb wrando arni hi, i orwedd yn ei hymyl hi, gan fod gyd a hi.
+
+</lb>
+<lb n="11">
+
+ 11 Yna yng-hylch [~ ynghylch ] y cyfamser hwnnw y bu
+ i Ioseph ddyfod i 'r tŷ i wneuthur ei orchwyl:
+ ac nid [oedd] yr vn o ddynion y tŷ yno yn
+ tŷ.
+
+</lb>
+<lb n="12">
+
+ 12 Hithe a 'i daliodd ef erbyn ei wisc, gan
+ ddywedyd, gorwedd gyd a mi: yntef a adawodd ei wisc yn ei llaw hi, ac a ffoawdd, ac a aeth
+ allan.
+
+</lb>
+<lb n="13">
+
+ 13 A phan welodd hi adel o honaw ef ei
+ wisc yn ei llaw hi, a ffoi ohonaw allan.
+
+</lb>
+<lb n="14">
+
+ 14 Yna hi a alwodd ar ddynion ei thŷ, ac a
+ draethodd wrthynt gan ddywedyd: gwelwch,
+ efe a ddûg i ni Hebrewr i 'n gwradwyddo: daeth attafi i orwedd gyd a my fi, minne a waeddais a llêf vchel.
+
+</lb>
+<lb n="15">
+
+ 15 A phan glywodd efe dderchafu o honofi fy
+ llef, a gweiddi: yno efe a ffoawdd, ac a aeth allan,
+ ac adawodd ei wisc yn fy ymmyl i.
+
+</lb>
+<lb n="16">
+
+ 16 A hi a osododd ei wisc ef yn ei hymmyl,
+ hyd oni ddaeth ei feistr ef adref.
+
+</lb>
+<lb n="17">
+
+ 17 Yna hi a lefarodd wrtho yn y modd hyn,
+ gan-ddywedyd [~ gan ddywedyd ]: yr Hebre was, yr hwn a ddugaist i ni a ddaeth attaf i 'm gwradwyddo.
+
+</lb>
+<lb n="18">
+
+ 18 Ond pan dderchefais fy llef, a gweiddi, yna efe a adawodd ei wisc yn fy ymmyl, ac a ffoawdd allan.
+
+</lb>
+<lb n="19">
+
+ 19 A phan glybu ei feistr ef eiriau ei wraig
+ yrhai [~ y rhai ] a lefarase hi wrtho ef, gan ddywedyd, yn y
+ modd hwn y gwnaeth dy wâs di i mi: yna yr
+ enynnodd ei lid ef.
+
+</lb>
+<lb n="20">
+
+ 20 Yna meistr Ioseph a 'i cymmerth ef, ac a 'i
+ rhoddes ef yn y carchar dŷ, lle yr oedd carcharorion y brenin yn rhwym. Ac yno y bu efe yn y
+ carchar-dŷ.
+
+</lb>
+<lb n="21">
+
+ 21 Ond yr Arglwydd oedd gyd a Ioseph, ac
+ a ddangosodd iddo ef drugaredd, ac a roddes ffafor iddo ef yngolwg pennaeth y carchar-dŷ.
+
+</lb>
+<lb n="22">
+
+ 22 A phennaeth y carchar-dŷ, a roddes tan
+ law Ioseph yr holl garcharorion, y rhai [oeddynt] yn y carchardŷ, ac efe oedd yn gwneuthur
+ yr hyn oll a fuasent hwy yn ei wneuthur yno.
+
+</lb>
+<lb n="23">
+
+ 23 Nid [oedd] pennaeth y carchar-dy yn edrych am ddim oll [a 'r a oedd] tann ei law ef, am
+ [fod] yr Arglwydd gyd ag ef: a 'r hyn a wnai efe
+ yr Arglwydd a 'i llwydde.
+
+
+</lb>
+        </pb>
+    
+<pb n="40">
+
+
+        <head>
+         PEN. XL.
+        </head>
+            
+<lb n="argument">
+
+
+ 3 Pharao yn carcharu ei ben-trulliad a 'i ben-pobydd.
+ 8 O Dduw y daw deongliad breuddwydion. 19 Ioseph yn deonglio breuddwyd y ddau garcharor.
+ 23 Aniolchgarwch y pen-trulliad tu ag at Ioseph.
+</lb>
+
+<lb n="1">
+
+ 1 A Darfu wedi y petheu hynny i drulliad
+ brenin yr Aipht, a 'r pobydd bechu yn erbyn eu harglwydd hwynt, brenin yr Aipht.
+
+</lb>
+<lb n="2">
+
+ 2 A Pharao a lidiodd wrth ei ddau bennaeth
+ [sef] wrth y pen-trulliad, a 'r pen-pobydd.
+
+</lb>
+<lb n="3">
+
+ 3 Ac a 'i rhoddes hwynt mewn dalfa, yn nhŷ
+ y distain [sef] yn y carchar-dŷ, lle 'r oedd Ioseph yn rhwym.
+
+</lb>
+<lb n="4">
+
+ 4 A 'r distain a wnaeth Ioseph yn olygwr arnynt hwy: yna efe a 'i gwasanaethodd hwynt, a buant hwy mewn dalfa ddyddiau [lawer.]
+
+</lb>
+<lb n="5">
+
+ 5 Yna breuddwydiasant freuddwyd ill dau,
+ pob vn ei freuddwyd ei hun yn yr vn nôs [a]
+ phob vn ar ol deongliad ei freuddwyd ei hun, y
+ trulliad a 'r pobydd, y rhai [oeddynt] eiddo brenin yr Aipht, ac yn rhwym yn y carchardŷ.
+
+</lb>
+<lb n="6">
+
+ 6 A 'r borau y daeth Ioseph attynt, ac a edrychodd arnynt, ac wele hwynt yn athrist.
+
+</lb>
+<lb n="7">
+
+ 7 Ac efe a ymofynnodd a phennaethiaid Pharao, 'rhai [oeddynt] gyd ag ef mewn dalfa [yn]
+ nhŷ ei feistr ef gan-ddywedyd [~ gan ddywedyd ]: pa ham [y mae]
+ eich wynebau yn ddrwg heddyw?
+
+</lb>
+<lb n="8">
+
+ 8 Yna y dywedasant wrtho, breuddwydiasom freuddwyd, ac nid [oes] a 'i deonglo ef: yna Ioseph a ddywedodd wrthynt, onid i Dduw
+ 
+ [y perthyn] dehongli? mynegwch adolwyn i mi.
+
+</lb>
+<lb n="9">
+
+ 9 Yna y pen-trulliad a fynegodd ei freuddwyd ef i Ioseph, ac a ddywedodd wrtho: yn
+ fy mreuddwyd [yr oeddwn,] ac wele winwŷdden o 'm blaen.
+
+</lb>
+<lb n="10">
+
+ 10 Ac yn y win-wŷdden [yr oedd] tair
+ caingc, ac [yr ydoedd] hi megis yn blaendarddu: ei blodeun [~ blodeuyn ] a dorrasse allan, ei gwrysc hi
+ oeddynt addfed [~ aeddfed ] [eu] grawn-win.
+
+</lb>
+<lb n="11">
+
+ 11 Hefyd [yr oedd] cwppan Pharao yn fy
+ llaw, a chymmerais y grawn-wîn, a gwescais
+ hwynt i gwppan Pharao, a rhoddais y cwppan yn llaw Pharao.
+
+</lb>
+<lb n="12">
+
+ 12 Yna Ioseph a ddywedodd wrtho ef, dymma ei ddeongliad ef: tri diwrnod yw y tair
+ caingc.
+
+</lb>
+<lb n="13">
+
+ 13 O fewn tri diwrnod etto Pharao a dderchafa dy ben di, ac a 'th rŷdd di eilwaith yn dy
+ swydd, a rhoddi gwppan Pharao yn ei law ef
+ fel y buost arferol yn y cyntaf pan oeddyt drulliad iddo.
+
+</lb>
+<lb n="14">
+
+ 14 Etto cofia fi gyd a thi, pan fo daioni i ti,
+ a gwna attolwg a mi drugaredd a choffâ fi wrth
+ Pharao, a dwg fi allan o 'r tŷ hwn.
+
+</lb>
+<lb n="15">
+
+ 15 O blegit yn lledrad i 'm lladrattawyd o
+ wlâd yr Hebreaid, ac ymma hefyd ni wneuthum
+ ddim, fel y gosodent fi yng-harchar [~ yng ngharchar ].
+
+</lb>
+<lb n="16">
+
+ 16 Pan welodd y pen-pobydd mai daioni a
+ ddeonglase efe, yna y dywedodd wrth Ioseph,
+ minne hefyd [oeddwn] yn fy mreuddwyd, ac
+ wele dri chawell rhwyd-dylloc ar fy mhen.
+
+</lb>
+<lb n="17">
+
+ 17 Ac yn y cawell vchaf [yr oedd] peth o
+ bôb bwyd Pharao o waith pobydd: ar ehediaid yn eu bwytta hwynt o 'r cawell oddi ar fy
+ mhen.
+
+</lb>
+<lb n="18">
+
+ 18 Yna Ioseph a attebodd, ac a ddywedodd, dymma ei ddeongliad ef: tri diwrnod yw
+ y tri chawell.
+
+</lb>
+<lb n="19">
+
+ 19 O fewn tri diwrnod etto y cymmer Pharao dy benn di oddi arnat, ac a 'th groga di
+ ar brenn, a 'r ehediaid a fwyttant dy gnawd ti oddi
+ am danat.
+</lb>
+<lb n="20">
+
+ 20 Ac ar y trydydd dydd, yr oedd dydd ganedigaeth Pharao, yna efe a wnaeth wledd, i 'w
+ holl weision, ac efe a dderchafodd ben y pentrulliad, a phen y pen-pobydd ym mysc ei weision ef.
+
+</lb>
+<lb n="21">
+
+ 21 Ac a osododd y pen-trulliad eilwaith yn
+ ei swydd, ac yntef a roddes y cwppan i law
+ Pharao.
+
+</lb>
+<lb n="22">
+
+ 22 A 'r pen-pobydd a grogodd efe, fel y dehongliase Ioseph iddynt hwy.
+
+</lb>
+<lb n="23">
+
+ 23 Ond y pen-trulliad ni chofiodd Ioseph
+ eithr anghofiodd ef.
+
+
+</lb>
+        </pb>
+    
+<pb n="41">
+
+
+        <head>
+         PEN. XLI.
+        </head>
+            
+<lb n="argument">
+
+
+ 26 Dehongliad breuddwyd Pharao. 40 Ioseph yn lywyawdur ar yr holl Aipht. 50 Ganedigaeth daufab Ioseph, Manasses, ac Ephraim. 54 Y newyn yn dechreu ar hyd yr holl wledydd.
+</lb>
+
+<lb n="1">
+
+ 1 YNa ym mhen dwy flynedd lawn y bu i
+ Pharao freuddwydio: ac wele efe yn sefyll
+ 
+ wrth yr afon.
+
+</lb>
+<lb n="2">
+
+ 2 Ac wele yn escyn o 'r afon saith [o] wartheg têg yr olwg, a thewon o gig, ac mewn
+ gwyrglodd-dir [~ gweirglodd-dir ] y porasent.
+
+</lb>
+<lb n="3">
+
+ 3 Wele hefyd saith o wartheg eraill yn escyn ar eu hol hwynt o 'r afon yn ddrwg yr olwg,
+ ac yn gulion o gîg: a safasant yn ymmyl y
+ gwartheg [cyntaf] ar lann yr afon.
+
+</lb>
+<lb n="4">
+
+ 4 A 'r gwartheg drwg yr olwg a chulion o
+ gîg a fwyttasant y gwartheg têg yr olwg, a
+ breision: yna y dihunodd Pharao.
+
+</lb>
+<lb n="5">
+
+ 5 Efe a gyscodd hefyd, ac a freuddwydiodd
+ eil-waith: ac wele saith o dwysennau [~ dywysennau ] yn tyfu
+ ar vn gorsen, o [dwysennau [~ dywysennau ]] breiscion a dâ.
+
+</lb>
+<lb n="6">
+
+ 6 Wele hefyd saith o dwysennau [~ dywysennau ] teneuon,
+ ac wedi eu deifio gan wynt y dwyrein, yn tarddu allan ar eu hol hwynt.
+
+</lb>
+<lb n="7">
+
+ 7 A 'r twysennau [~ tywysennau ] teneuon a lyngcasant y
+ saith dwysen [~ dywysen ] fraisc, a llawn: yna y deffroawdd
+ Pharao, ac wele breuddwyd [oedd.]
+
+</lb>
+<lb n="8">
+
+ 8 Ac yn foreu y darfu i 'w yspryd gynhyrfu,
+ yna efe a anfonodd, ac a alwodd am holl ddewiniaid yr Aipht, a 'i holl ddoethion hi: a Pharao
+ a fynegodd iddynt hwy ei freuddwydion: ond
+ nid [oedd] a 'i deongle hwynt i Pharao.
+
+</lb>
+<lb n="9">
+
+ 9 Yna y llefarodd y pen-trulliad wrth Pharao, gan ddywedyd: yr wyf fi yn cofio fy meiau
+ heddyw.
+
+</lb>
+<lb n="10">
+
+ 10 Llidio a wnaethe Pharao wrth ei weision, ac efe a 'm rhoddes mewn carchar [yn] nhŷ y
+ distain, my fi a 'r pen-pobydd.
+
+</lb>
+<lb n="11">
+
+ 11 Yna y breuddwydiasom freuddwyd yn
+ yr vn nos, mi ag ef: breuddwydiasom bob vn ar
+ ol deongliad ei freuddwyd ei hun.
+
+</lb>
+<lb n="12">
+
+ 12 Ac [yr oedd] yno gyd a nyni langc o
+ Hebread, gwâs i 'r distain, pan fynegasom
+ [ein breuddwydion] iddo ef, yntef a ddeonglodd i ni ein breuddwydion, yn ol breuddwyd
+ pôb vn, y deongliodd efe.
+
+</lb>
+<lb n="13">
+
+ 13 A darfu fel y deonglodd i ni felly y bu:
+ rhoddwyd fi eilwaith i 'm swydd, ac yntef a
+ grogwyd.
+
+</lb>
+<lb n="14">
+
+ 14 Pharao gan hynny a anfonodd, ac a alwodd am Ioseph: hwytheu ar redec a 'i cyrchasant ef, o 'r carchar: yntef a eilliodd [ei wallt,]
+ ac a newidiodd ei ddillad, ac a ddaeth at Pharao.
+
+</lb>
+<lb n="15">
+
+ 15 A Pharao a ddywedodd wrth Ioseph,
+ breuddwydiais freuddwyd, ac nid [oes] a 'i deonglo ef: ond myfi a glywais ddywedyd am
+ danat ti, y gwrandewi freuddwyd i 'w ddeonglu.
+
+</lb>
+<lb n="16">
+
+ 16 Yna Ioseph a attebodd Pharao gan ddywedyd: Duw nid my fi a ettyb lwyddiant i
+ Pharao.
+
+</lb>
+<lb n="17">
+
+ 17 Pharao gan hynny a ddywedodd wrth
+ Ioseph: wele fi yn fy mreuddwyd yn sefyll ar
+ fin yr afon.
+
+</lb>
+<lb n="18">
+
+ 18 Ac wele 'n escyn o 'r afon saith o wartheg tewon o gîg, a theg yr olwg, ac mewn
+ gwyrglodd-dir [~ gweirglodd-dir ] y porasent.
+
+</lb>
+<lb n="19">
+
+ 19 Wele hefyd saith o wartheg eraill yn escyn ar eu hôl hwynt, culion, a thra drwg yr olwg,
+ ac yn druain o gîg: ni welais rai cynddrwg a
+ hwynt yn holl dîr yr Aipht.
+
+</lb>
+<lb n="20">
+
+ 20 A 'r gwartheg culion, a drwg a fwyttasant y saith muwch tewon cyntaf.
+
+</lb>
+<lb n="21">
+
+ 21 Er eu myned i 'w boliau, ni wyddyd iddynt fyned i 'w boliau, canys yr olwg arnynt oedd
+ ddrwg megis yn y dechreuad: yna mi a dde ffroais.
+
+
+</lb>
+<lb n="22">
+
+ 22 Gwelais hefyd yn fy mreuddwyd, ac
+ wele saith dwysen [~ dywysen ] llawn, a thêg yn cyfodi o 'r
+ vn gorsen.
+
+</lb>
+<lb n="23">
+
+ 23 Ac wele saith dwysen [~ dywysen ] teneuon, meinion,
+ wedi eu deifio [gan] ddwyrain-wynt yn tyfu ar
+ eu hol hwynt.
+
+</lb>
+<lb n="24">
+
+ 24 Yna y twysennau [~ tywysennau ] teneuon, a lyngcasant
+ y saith dwysen [~ dywysen ] dêg: a dywedais [hyn] wrth y
+ dewiniaid, ond nid oedd a 'i deongle i mi.
+
+</lb>
+<lb n="25">
+
+ 25 Yna y dywedodd Ioseph wrth Pharao,
+ breuddwyd Pharao sydd vn, yr hyn y mae
+ Duw yn ei wneuthur a fynegodd efe i Pharao.
+
+</lb>
+<lb n="26">
+
+ 26 Y saith o wartheg têg saith mlynedd
+ [ydynt] hwy: a 'r saith dwysen [~ dywysen ] têg, saith
+ mlynedd [ydynt] hwy, vn breuddwyd yw hyn.
+
+</lb>
+<lb n="27">
+
+ 27 Hefyd y saith muwch culion a drwg y
+ rhai [oeddynt] yn escyn ar eu hol hwynt, saith
+ mlynedd [ydynt] hwy: a 'r saith dwysen [~ dywysen ] gwag
+ gwedi eu deifio [gen [~ gan ]] y dwyrain wynt, a fyddant saith mlynedd o newyn.
+
+</lb>
+<lb n="28">
+
+ 28 Hwn yw y peth yr hwn a ddywedais i
+ wrth Pharao: yr hyn a wna Duw efe a 'i dangosodd i Pharao.
+
+</lb>
+<lb n="29">
+
+ 29 Wele saith mlynedd yn dyfod: o amldra mawr trwy holl wlad yr Aipht.
+
+</lb>
+<lb n="30">
+
+ 30 Ond ar eu hol hwynt y cyfyd saith mlynedd o newyn, fel yr anghofir yr holl amlder
+ trwy wlad yr Aipht: a newyn a ddifetha y
+ wlâd.
+
+</lb>
+<lb n="31">
+
+ 31 Ac ni wybyddir [oddi wrth] yr amldra
+ cyntaf trwy y wlâd, o herwydd y newyn hwnnw yr hwn [a fydd] wedi hynny: o blegit
+ trwm iawn [fydd] ef.
+
+</lb>
+<lb n="32">
+
+ 32 Hefyd am ddyblu y breuddwyd i Pharao
+ ddwywaith, [hynny a fu] o blegit siccrhau y
+ peth gan Dduw, a bod Duw yn bryssio i 'w
+ wneuthur.
+
+</lb>
+<lb n="33">
+
+ 33 Weithian gan hynny edryched Pharao
+ [am] wr deallgar a doeth, a gosoded ef yn swyddog ar wlâd yr Aipht.
+
+</lb>
+<lb n="34">
+
+ 34 Gwnaed Pharao hyn, sef gosoded olygwyr ar y wlâd a chymmered bummed ran
+ [cnwd] gwlad yr Aipht tros saith mlynedd yr
+ amldra.
+
+</lb>
+<lb n="35">
+
+ 35 Yna casglant holl ymborth y blynyddoedd daionus hynny y rhai ydynt ar ddyfod:
+ sef casclant ŷd dan law Pharao, a chadwant
+ [ymborth] mewn dinasoedd.
+
+</lb>
+<lb n="36">
+
+ 36 A bydded yr ymborth yng-hadw [~ yng nghadw ] i 'r wlâd
+ tros saith mlynedd y newyn, y rhai fyddant
+ yng-wlad yr Aipht, fel na ddifether y wlâd gan
+ y newyn.
+
+ 
+</lb>
+<lb n="37">
+
+ 37 A 'r peth oedd dda yng-olwg Pharao ac
+ yng-olwg ei holl weision.
+
+</lb>
+<lb n="38">
+
+ 38 Yna y dywedodd Pharao wrth ei weision, a gaem ni ŵr fel hwn, yr hwn [y mae] yspryd Duw yndo?
+
+
+</lb>
+<lb n="39">
+
+ 39 Dywedodd Pharao hefyd wrth Ioseph,
+ wedi gwneuthur o Dduw i ti wybod hyn oll,
+ nid deallgar, na doeth neb wrthit ti.
+
+</lb>
+<lb n="40">
+
+ 40 Ty di a oruwchwili [~ oruchwyli ] fy nhŷ fi, ac ar dy fîn
+ y cusana fy mhobl oll: [yn] y deyrn-gader yn
+ vnic y byddaf fwy na thy di.
+
+</lb>
+<lb n="41">
+
+ 41 Yna y dywedodd Pharao wrth Ioseph,
+ edrych, rhoddais di [yn swyddog] ar holl wlad
+ yr Aipht.
+
+</lb>
+<lb n="42">
+
+ 42 A thynnodd Pharao ei fodrwy oddi ar ei
+ law, ac a 'i rhoddes hi ar law Ioseph, ac a 'i gwiscodd ef mewn gwiscoedd sidan ac a osododd
+ gadwyn aur a'm [~ am ] ei wddf ef.
+
+</lb>
+<lb n="43">
+
+ 43 Ac a wnaeth iddo ef farchogeth yn yr ail
+ cerbyd yr hwn [oedd] iddo ef ei hun: a llefwyd
+ o 'i flaen ef Abrec: felly y gosodwyd ef ar holl
+ wlad yr Aipht.
+
+</lb>
+<lb n="44">
+
+ 44 Dywedodd Pharao hefyd wrth Ioseph
+ my fi [ydwyf] Pharao: ac hebot ti ni chyfyd
+ gŵr ei law, nai droed trwy holl wlad yr Aipht.
+
+</lb>
+<lb n="45">
+
+ 45 A Pharao a alwodd henw Ioseph Zaphnath Paaneah, ac a roddes iddo Asnath merch
+ Potiperah offeiriad On yn wraig: yna yr aeth
+ Ioseph allan dros wlad yr Aipht.
+
+</lb>
+<lb n="46">
+
+ 46 Ac Ioseph [ydoedd] fâb deng-mlwydd
+ ar hugain pan safodd ef ger bron Pharao brenin yr Aipht: ac Ioseph aeth allan o wydd Pharao, ac a drammwyodd drwy holl wlad 'r Aipht.
+
+</lb>
+<lb n="47">
+
+ 47 A 'r ddaiar a gnydiodd, tros saith mlynedd yr amldra, yn ddyrneidiau.
+
+</lb>
+<lb n="48">
+
+ 48 Yntef a gasclodd holl ymborth y saith
+ mlynedd y rhai a fuant yng-wlad yr Aipht, ac a
+ roddes ymborth mewn dinasoedd: ymborth
+ maes y ddinas yr hwn [fyddei] o 'i hamgylch, a
+ roddes ef o 'i mewn.
+
+</lb>
+<lb n="49">
+
+ 49 Felly Ioseph a gynnullodd ŷd fel tywod
+ y môr, yn dra lluosoc, hyd oni pheidiodd a 'i rifo,
+ o blegit [yr ydoedd] heb rifedi.
+
+</lb>
+<lb n="50">
+
+ 50 Ond cyn dyfod [vn] flwyddyn o newyn
+ y ganwyd i Ioseph ddau fâb, y rhai a ymddûg
+ Asnath merch Potiperah offeiriad On iddo ef.
+
+</lb>
+<lb n="51">
+
+ 51 Ac Ioseph a alwodd henw y cyntafanedic Manasses: oblegit [eb efe] Duw a wnaeth
+ i mi anghofio fy llafur oll, a thylwyth fy-nhad
+ oll.
+
+</lb>
+<lb n="52">
+
+ 52 Ac efe a alwodd henw 'r ail Ephraim, oblegit [eb efe] Duw a 'm ffrwythlonodd i - fyng-orthrymder.
+
+</lb>
+<lb n="53">
+
+ 53 Yna y darfu saith mlynedd yr amldra, y
+ rhai a fuant yng-wlad yr Aipht.
+
+</lb>
+<lb n="54">
+
+ 54 A 'r saith mlynedd newynoc, a ddechreuasant ddyfod fel y dywedase Ioseph: ac yr oedd
+ newyn yn yr holl wledydd: ond yn holl wlad yr
+ Aipht yr ydoedd bara.
+
+</lb>
+<lb n="55">
+
+ 55 Felly y newynodd holl wlad yr Aipht:
+ a 'r bobl a waeddodd ar Pharao, am fara: a Pharao a ddywedodd wrth yr holl Aiphtiaid, ewch
+ at Ioseph: yr hyn a ddywedo efe wrthych gwnewch.
+
+
+</lb>
+<lb n="56">
+
+ 56 Y newyn hefyd ydoedd, ar holl wyneb y
+ ddaiar: Ioseph gan hynny a agorodd yr holl
+ [leoedd] yr hai [~ y rhai ] [ 'r ydoedd ŷd] ynddynt, ac a werthodd i 'r Aiphtiaid: o blegit gorfuase y newyn
+ yng-wlad yr Aipht.
+
+</lb>
+<lb n="57">
+
+ 57 A 'm [~ Am ] hynny y daeth holl wledydd yr Aipht
+ at Ioseph i brynnu: o herwydd gorfuase y newyn yn yr holl wledydd.
+
+
+
+</lb>
+                    </pb>
+                </text><text id="b1588sam">
+
+
+        <head>
+        Llyfr cyntaf i Samuel
+
+        </head>
+            
+ 
+
+<pb n="16">
+
+
+        <head>
+         PEN. XVI.
+        </head>
+            
+<lb n="argument">
+
+
+ Duw yn peri i Samuel eneinio Dafydd yn frenin. 13.
+ Ac yn rhoddi ei yspryd ei hun ar Ddafydd.
+</lb>
+
+<lb n="1">
+
+ 1 A 'R Arglwydd a ddywedodd wrth Samuel, pa hyd y galêri di am Saul, gan i mi
+ ei fwrw ef ymmaith o deyrnasu ar Israel? llanw dy gorn ag olew, a dos, mi a 'th anfonaf di at
+ Isai y Bethlehemiad, canys ym mysc ei feibion
+ ef y canfyddais i'm [~ im ] frenin.
+
+</lb>
+<lb n="2">
+
+ 2 A Samuel a ddywedodd pa fodd yr âfi?
+ canys Saul a glyw, ac a 'm lladd i: yna y dywedodd yr Arglwydd, cymmer anner [o blith]
+ y gwartheg gyd a thi, a dywet, deuthum i aberthu i 'r Arglwydd.
+
+
+</lb>
+<lb n="3">
+
+ 3 A galw ar Isai i 'r aberth, a mi a yspyssaf i
+ ti yr hyn a wnelech, fel yr eneiniech i mi yr hwn
+ a ddywedaf wrthit.
+
+</lb>
+<lb n="4">
+
+ 4 Felly y gwnaeth Samuel yr hyn a archase yr Arglwydd, ac a ddaeth i Bethlehem, ac
+ henuriaid y ddinas a ddychrynnasant wrth gyfarfod ag ef, ac a ddywedasant, ai heddychlon
+ [yw] dy ddyfodiad?
+
+</lb>
+<lb n="5">
+
+ 5 Ac efe a ddywedodd, heddychlon: deuthum
+ i aberthu i 'r Arglwydd, ymsancteiddiwch a deuwch gyd a mi i 'r aberth: ac efe a sancteiddiodd
+ Isai, a 'i feibion, ac a 'i galwodd hwynt i 'r aberth.
+
+</lb>
+<lb n="6">
+
+ 6 A phan ddaethant, yna efe a welodd Eliab, ac a ddywedodd: diau [ddyfod] ei eneiniog
+ ger bron yr Arglwydd.
+
+</lb>
+<lb n="7">
+
+ 7 A 'r Arglwydd a ddywedodd wrth Samuel, nac edrych ar ei olŵg ef, nac ar vchter ei
+ gorpholaeth ef, canys gwrthodais ef: o herwydd
+ nid [edrych Duw ar] yr hyn a edrych dyn, canys dŷn a edrych ar y llygaid, ond yr Arglwydd
+ a edrych ar y galon.
+
+</lb>
+<lb n="8">
+
+ 8 Yna Isai a alwodd am Abinadab, ac a
+ barodd iddo ef fyned o flaen Samuel: a dywedodd yntef, ni ddewisodd yr Arglwydd hwn ychwaith.
+
+</lb>
+<lb n="9">
+
+ 9 Yna y gwnaeth Isai i Samma ddyfod, a
+ ddywedodd yntef, ni ddewisodd yr Arglwydd
+ hwn ychwaith.
+
+</lb>
+<lb n="10">
+
+ 10 Yna y parodd Isai i 'w saith mab ddyfod
+ ger bron Samuel: a Samuel a ddywedodd
+ wrth Isai, ni ddewisodd yr Arglwydd [yr vn]
+ o 'r rhai hyn.
+
+</lb>
+<lb n="11">
+
+ 11 Dywedodd Samuel hefyd wrth Isai, a
+ ddarfu y plant? yntef a ddywedodd, yr ieuangaf
+
+ 
+ etto sydd yn aros, ac wele [y mae] efe yn bugeilio y defaid: yna y dywedodd Samuel wrth
+ Isai, danfon, a chyrch ef, canys nid eisteddwn ni i
+ lawr, nes ei ddyfod ef ymma.
+
+</lb>
+<lb n="12">
+
+ 12 Yna yr ynfonodd [~ anfonodd ], ac y cyrchodd ef, ac efe
+ [oedd] wrid-coch [~ writgoch ] a thêg yr olwg, a hardd o
+ wedd: a dywedodd yr Arglwydd, cyfot, eneinia ef, canys dymma efe.
+
+</lb>
+<lb n="13">
+
+ 13 Yna y cymmerth Samuel gorn yr olew,
+ ac a 'i heneiniodd ef yng-hanol [~ ynghanol ] ei frodyr, a daeth
+ yspryd yr Arglwydd ar Ddafydd o 'r dydd
+ hwnnw allan: yna Samuel a gyfododd, ac a
+ aeth i Ramah.
+
+</lb>
+<lb n="14">
+
+ 14 Ond yspryd yr Arglwydd a giliodd oddi
+ wrth Saul: ac yspryd drwg oddi wrth yr Arglwydd a 'i poenodd ef.
+
+</lb>
+<lb n="15">
+
+ 15 A gweision Saul a ddywedasant wrtho
+ ef, wele yn awr drwg yspryd Duw yn dy boeni di.
+
+</lb>
+<lb n="16">
+
+ 16 Dyweded attolwg ein meistr ni [wrth]
+ dy weision [y rhai ydynt] ger dy fron [am]
+ yddynt [~ iddynt ] geisio gŵr yn medru canu telyn, a bydded pan ddelo drwg yspryd Duw arnat ti, yna
+ iddo ef ganu a 'i law, a [hynny] fydd da i ti.
+
+</lb>
+<lb n="17">
+
+ 17 Yna y dywedodd Saul wrth ei weision,
+ edrychwch yn awr i mi [am] ŵr yn medru canu
+ yn ddâ, a dugwch ef attafi.
+
+</lb>
+<lb n="18">
+
+ 18 Ac vn o 'r llangciaid a attebodd, ac a ddywedodd, wele gwelais fab i Isai y Bethlehemiad yn medru canu, ac yn gadarn [o] nerth, ac yn
+ rhyfel-wr, yn ddoeth o ymadrodd hefyd, ac yn
+ ŵr lluniaidd, a 'r Arglwydd [sydd] gyd ag ef.
+
+</lb>
+<lb n="19">
+
+ 19 Yna yr anfonodd Saul gennadau at Isai, ac a ddywedodd: anfon atafi Ddafydd dy
+ fab yr hwn [sydd] gyd a 'r praidd.
+
+</lb>
+<lb n="20">
+
+ 20 Ac Isai a gymmerth assyn [llwythoc] o
+ fara, a chostrêled o wîn, ac vn mynn gafr, ac a 'i
+ hanfonodd gyd a Dafydd ei fab at Saul.
+
+</lb>
+<lb n="21">
+
+ 21 A Dafydd a ddaeth at Saul, ac a safodd
+ ger ei fron ef, yntef a 'i hoffodd ef yn ddirfawr, ac
+ efe a aeth yn gludydd arfau iddo ef.
+
+</lb>
+<lb n="22">
+
+ 22 Yna Saul a anfonodd at Isai, gan ddywedyd: arhosed Dafydd attolwg ger fy mron
+ i, canys efe a gafodd ffafor yn fyng-olwg.
+
+</lb>
+<lb n="23">
+
+ 23 A phan fydde [drwg] yspryd Duw ar
+ Saul yna y cymmere Dafydd y delyn, ac y câne a 'i [ddwylaw:] a bydde esmwythdra i Saul, a
+ dâ [oedd hynny] iddo ef, a 'r yspryd drwg a gilie
+ oddi wrtho ef.
+
+
+</lb>
+        </pb>
+    
+<pb n="17">
+
+
+        <head>
+         PEN. XVII.
+        </head>
+            
+<lb n="argument">
+
+
+ Y modd y gorchfygodd Dafydd Goliath.
+</lb>
+
+<lb n="1">
+
+ 1 Yna y Philistiaid a gasclasant eu byddinoedd i ryfel, ac a ymgynnullasant i Socho,
+ yr hon [sydd] yn Iuda, ac a werssyllasant rhwng
+ Socho, ac Azecah yng-hwrr [~ yng nghwr ] Dammim.
+
+</lb>
+<lb n="2">
+
+ 2 Saul hefyd a gwŷr Israel a ymgasclasant,
+ ac a werssyllasant yn nyffryn Elah: ac a luniaethasant ryfel yn erbyn y Philistiaid.
+
+</lb>
+<lb n="3">
+
+ 3 A 'r Philistiaid oeddynt yn sefyll ar fynydd
+ 
+ o 'r naill du, ac Israel oeddynt yn sefyll ar fynydd o 'r tu arall, a 'r dyffryn [oedd] rhyngddynt.
+
+</lb>
+<lb n="4">
+
+ 4 Yna y daeth gŵr rhyngddynt hwy o werssylloedd y Philistiaid a 'i enw Goliath o Gath: ei
+ vchter [oedd] chwe chufydd a rhychwant.
+
+</lb>
+<lb n="5">
+
+ 5 A hêlm o brês ar ei ben, a lluric emmoc a
+ wiscodd efe, a phwys y lluric [oedd] bum mil o
+ siclau prês.
+
+</lb>
+<lb n="6">
+
+ 6 A bottyssau prês [oeddynt] am ei draed ef,
+ a tharian prês rhwng ei yscwyddau.
+
+</lb>
+<lb n="7">
+
+ 7 A phaladr ei waiw-ffon ef [oedd] fel carfan gwehyddion, a blaen ei waiw-ffon ef [oedd]
+ chwe-chant sicl o haiarn: a 'r hwn oedd yn dwyn
+ y tarian oedd yn myned o 'i flaen ef.
+
+</lb>
+<lb n="8">
+
+ 8 Ac efe a safodd, ac a waeddodd ar fyddinoedd Israel, ac a ddywedodd wrthynt: i ba beth
+ y deuwch i luniaethu rhyfel, onid [ydwyf] fi
+ Philistiad? a chwithau yn weision i Saul? dewiswch i chwi ŵr i ddyfod i wared attafi.
+
+</lb>
+<lb n="9">
+
+ 9 Os efe a orchfyga wrth ymladd a mi, ac
+ a 'm lladd i, yna y byddwn ni yn weision i chwi,
+ ond os myfi a 'i gorchfygaf ef, ac a 'i laddaf ef, yna
+ y byddwch chwi yn weision i ni, ac y gwasanaethwch ni.
+
+</lb>
+<lb n="10">
+
+ 10 Y Philistiad hefyd a ddywedodd, myfi a
+ wradwyddais fyddinoedd Israel y dydd hwn,
+ moeswch attafi ŵr fel y cyd-ymladdom ni.
+
+</lb>
+<lb n="11">
+
+ 11 Pan glybu Saul, a holl Israel y geiriau
+ hynny [gan] y Philistiad, yna y brawychasant,
+ ac yr ofnasant yn ddirfawr.
+
+</lb>
+<lb n="12">
+
+ 12 A 'r Dafydd hwn [oedd] fab i - o Bethlehem Iuda, a 'i enw ef Isai, ac iddo ef
+ [yr oedd] ŵyth o feibion: a 'r gŵr [oedd] yn nyddiau Saul yn hên yn dyfod ym mhlith [hên]
+ ddynion.
+
+</lb>
+<lb n="13">
+
+ 13 A thri mab hynaf Isai a aethant [ac] a
+ ddaethant ar ôl Saul i 'r rhyfel: ac enw ei dri
+ mab ef y rhai a aethant i 'r rhyfel [oeddynt] Eliab y cyntafanedic, ac Abinadab yr ail, a Samma y trydydd.
+
+</lb>
+<lb n="14">
+
+ 14 A Dafydd hwnnw [oedd] ieuangaf: a 'r
+ tri hynaf a aethant ar ôl Saul.
+
+</lb>
+<lb n="15">
+
+ 15 Dafydd hefyd a aeth, ond efe a ddychwelodd oddi wrth Saul i fugeilio defaid ei dad yn
+ Bethlehem.
+
+</lb>
+<lb n="16">
+
+ 16 Felly y Philistiad a nessaodd yn foreu, ac
+ yn hwyr, ac a barhaodd ddeugain nhiwrnod [~ niwrnod ].
+
+</lb>
+<lb n="17">
+
+ 17 A dywedodd Isai wrth Ddafydd ei fab,
+ cymmer yn awr i 'th frodyr Epha o 'r crâs-ŷd
+ hwn, a 'r dêc torth hyn: ac ar redeg dwg [hwynt] i 'r gwerssyll at dy frodyr.
+
+</lb>
+<lb n="18">
+
+ 18 Dŵg hefyd y dêc cossyn îr hyn i dywysog y mîl, ac ymwel a 'th frodyr mewn heddwch, a dwg [yn rhydd] eu gwystl hwynt.
+
+</lb>
+<lb n="19">
+
+ 19 Yna Saul, a hwythau, a holl wŷr Israel
+ [oeddynt] yn nyffryn Elah yn ymladd a 'r Philistiaid.
+
+</lb>
+<lb n="20">
+
+ 20 Felly Dafydd a gyfododd yn foreu, ac a
+ adawodd y defaid gyd a cheidwad, ac a gymmerth y pethau hynny, ac a aeth megis y gorchymynnase Isai iddo ef: ac a ddaeth i 'r gwerssyll,
+ 
+ a 'r llu a aethe allan i 'r gâd, ac a floeddiasent yn
+ y rhyfel.
+
+</lb>
+<lb n="21">
+
+ 21 Canys Israel a 'r Philistiaid a fyddinasent fyddin yn erbyn byddin.
+
+</lb>
+<lb n="22">
+
+ 22 A Dafydd a adawodd y mûd oddi wrtho
+ tann law ceidwad y dodrefn: ac a redodd i 'r fyddin, ac a ddaeth, ac a gyfarchodd ei frodyr.
+
+</lb>
+<lb n="23">
+
+ 23 Pan oedd Dafydd yn ymddiddan a hwynt, yna wele yr gŵr (yr hwn [oedd yn sefyll]
+ rhwng y ddeu-lu) yn dyfod i fynu o fyddinoedd
+ y Philistiaid (Goliath y Philistiad o Gath [oedd] ei enw ef,) ac efe a ddywedodd yr vn fath eiriau fel y clybu Dafydd.
+
+</lb>
+<lb n="24">
+
+ 24 A holl wŷr Israel pan welsant y gŵr
+ hwnnw a ffoasant rhagddo ef, ac a ofnasant yn
+ ddirfawr.
+
+</lb>
+<lb n="25">
+
+ 25 Dywedodd gwŷr Israel hefyd oni welsoch chwi y gwr hwn yn dyfod i fynu? diau i
+ wradwyddo Israel y mae yn dyfod i fynu: a 'r
+ gŵr yr hwn a 'i lladdo ef, y brenin a gyfoethoga
+ hwnnw a chyfoeth mawr, ei ferch hefyd a rydd
+ efe iddo ef, a thŷ ei dâd ef a wnaiff efe yn
+ rhydd yn Israel.
+
+</lb>
+<lb n="26">
+
+ 26 Yna y llefarodd Dafydd wrth y gwŷr
+ y rhai oeddynt yn sefyll gyd ag ef gan ddywedyd: beth a wneir i 'r gŵr yr hwn a laddo
+ y Philistiad hwn? ac a dynn ymmaith y gwradwydd oddi ar Israel? canys pwy [yw] y Philistiad dienwaededic hwn, pan wradwydde efe fyddinoedd y Duw byw?
+
+</lb>
+<lb n="27">
+
+ 27 A 'r bobl a ddywedodd wrtho ef fel hyn,
+ gan ddywedyd: felly y gwneir i 'r gŵr yr hwn
+ a 'i lladdo ef.
+
+</lb>
+<lb n="28">
+
+ 28 Ac Eliab ei frawd hynaf ef a 'i clybu ef
+ pan oedd efe yn ymddiddan a 'r gwŷr, a digter
+ Eliab a enynnodd yn erbyn Dafydd, ac efe a
+ ddywedodd, pa ham y daethost i wared ymma?
+ a chyd a phwy y gadewaist yr ychydic ddefaid
+ hynny yn yr anialwch? myfi a adwen dy falchder di, a drygioni dy galon di, canys i weled y  rhyfel y daethost di i wared.
+
+</lb>
+<lb n="29">
+
+ 29 Yna y dywedodd Dafydd, beth a wneuthum i yn awr? onid oedd neges [i mi?]
+
+</lb>
+<lb n="30">
+
+ 30 Ac efe a ddychwelodd oddi wrtho ef at
+ vn arall, ac a ddywedodd yr vn modd, a 'r bobl a 'i
+ hattebasant ef air yng-air [fel] o 'r blaen.
+
+</lb>
+<lb n="31">
+
+ 31 Pan glybuwyd y geiriau y rhai a lefarodd Dafydd, yna y mynegwyd hwynt ger bron
+ Saul, ac efe a barodd ei ddwyn ef [atto ef.]
+
+</lb>
+<lb n="32">
+
+ 32 A Dafydd a ddywedodd wrth Saul, na
+ lwfrhaed calon dŷn erddo ef, dy wâs di a aiff, ac
+ a ymladd a 'r Philistiad hwn.
+
+</lb>
+<lb n="33">
+
+ 33 Yna y dywedodd Saul wrth Ddafydd, ni
+ elli di fyned at y Philistiad hwn i ymladd ag ef,
+ canys llangc [ydwyt] ti, ac yntef sydd yn rhyfel-wr o 'i febyd.
+
+</lb>
+<lb n="34">
+
+ 34 A Dafydd a ddywedodd wrth Saul, bugail oedd dy wâs di ar ddefaid ei dâd, pan ddaeth y llew, a 'r arth a chymmeryd oen o 'r praidd.
+
+</lb>
+<lb n="35">
+
+ 35 A mi a euthum ar ei ôl ef, ac a 'i tarewais
+ ef, ac [a 'i] hachubais o 'i safn ef: pan gyfododd
+ 
+ ef i 'm herbyn i, yna mi a ymaflais yn ei farf ef,
+ ac a 'i tarewais, ac a 'i lleddais ef.
+
+</lb>
+<lb n="36">
+
+ 36 Felly dy wâs di a laddodd y llew, a 'r
+ arth: a 'r Philistiad dienwaededic hwn fydd
+ megis vn o honynt, canys efe a amharchodd fyddinoedd y Duw byw.
+
+</lb>
+<lb n="37">
+
+ 37 Dywedodd Dafydd hefyd, yr Arglwydd
+ yr hwn a 'm hachubodd i o grafangc y llew, ac o
+ balf yr arth, efe a 'm hachub i o law y Philistiad
+ hwn: yna y dywedodd Saul wrth Ddafydd,
+ dos, a 'r Arglwydd fyddo gyd a thi.
+
+</lb>
+<lb n="38">
+
+ 38 A Saul a wiscodd Ddafydd a 'i wiscoedd
+ ei hun, ac a roddodd helm o brês ar ei benn ef:
+ ac a 'i gwiscodd ef [mewn] lluric.
+
+</lb>
+<lb n="39">
+
+ 39 Yna y gwregysodd Dafydd ei gleddyf
+ ar vchaf ei wiscoedd, ac a geisiodd gerdded am
+ na phrofase efe, yna y dywedodd Dafydd wrth
+ Saul, ni allafi fyned yn y rhai hyn, canys ni
+ phrofais i: am hynny y dioscodd Dafydd hwynt oddi am dano.
+
+</lb>
+<lb n="40">
+
+ 40 Yna y cymmerth efe ei ffon yn ei law,
+ ac a ddewîsodd iddo bump o gerric llyfnion o 'r
+ afon, ac a 'i gosododd hwynt yng-hôd [~ yng nghod ] y bugeiliaid yr hon [oedd] ganddo, sef yn yr screpan: a 'i ffon
+ dafl [oedd] yn ei law ef: ac efe a nessaodd at
+ y Philistiad.
+
+</lb>
+<lb n="41">
+
+ 41 A 'r Philistiad a gerddodd, gan fyned, a
+ nessau at Ddafydd: a 'r gŵr oedd yn cludo y tarian o 'i flaen ef.
+
+</lb>
+<lb n="42">
+
+ 42 Pan edrychodd y Philistiad o amgylch,
+ a chanfod Dafydd, yna efe a 'i dremygodd ef, canys llangc oedd efe, gwrid-coch [~ gwritgoch ], a thêg yr olwg.
+
+</lb>
+<lb n="43">
+
+ 43 A 'r Philistiad a ddywedodd wrth Ddafydd, ai cî ydwyfi, gan dy fod yn dyfod attafi a
+ ffynn? a 'r Philistiad a regodd Ddafydd drwy
+ ei dduwiau ef.
+
+</lb>
+<lb n="44">
+
+ 44 Y Philistiad hefyd a ddywedodd wrth
+ Ddafydd, tyret attafi, a rhoddaf dy gnawd i ehediaid y nefoedd, ac i anifeiliaid y maes.
+
+</lb>
+<lb n="45">
+
+ 45 Yna y dywedodd Dafydd wrth y Philistiad, ti ydwyt yn dyfod attafi a chleddyf, ac a
+ gwaiw-ffon, ac a tharian: a minne ydwyf yn
+ dyfod attat ti yn enw Arglwydd y lluoedd,
+ Duw byddinoedd Israel yr hwn a geblaist ti.
+
+</lb>
+<lb n="46">
+
+ 46 Y dydd hwn y dyru yr Arglwydd dydi
+ yn fy llaw i, a mi a 'th darawaf di, ac a gymmeraf ymmaith dy ben di oddi arnat ti, ac a roddaf
+ gelanedd gwerssyll y Philistiaid y dydd hwn i
+ ehediaid y nefoedd, ac i fwyst-filod y ddaiar:
+ a holl [drigolion] y ddaiar a gânt ŵybod fod
+ Duw i Israel.
+
+</lb>
+<lb n="47">
+
+ 47 A 'r holl gynnulleidfa hon a gant ŵybod,
+ nad a chleddyf, nac a gwaiw-ffon y gwared yr
+ Arglwydd: canys eiddo yr Arglwydd [yw]
+ y rhyfel, ac efe a 'ch rhydd chwi yn ein llaw ni.
+
+</lb>
+<lb n="48">
+
+ 48 A phan gyfododd y Philistiad, a dyfod a
+ nessau i gyfarfod Dafydd: yna y bryssiodd Dafydd, ac y rhedodd tu a 'r fyddin i gyfarfod a 'r
+ Philistiad.
+
+</lb>
+<lb n="49">
+
+ 49 A Dafydd a estynnodd ei law i 'r gôd, ac a
+ 
+ gymmerth oddi yno garrec, ac a chwrndaflodd [~ chwyrndaflodd ],
+ ac a darawodd y Philistiad yn ei dalcen: a 'r
+ garrec a soddodd yn ei dalcen ef, ac efe a syrthiodd i lawr ar ei wyneb.
+
+</lb>
+<lb n="50">
+
+ 50 Felly y gorthrechodd Dafydd y Philistiad, a ffon-dafl, ac a charrec, ac a darawodd y
+ Philistiad, ac a 'i lladdodd ef: er nad [oedd] cleddyf yn llaw Dafydd.
+
+</lb>
+<lb n="51">
+
+ 51 Yna y rhedodd Dafydd, ac a safodd ar y
+ Philistiad, ac a gymmerth gleddyf hwnnw, ac a 'i
+ tynnodd o 'r wain, ac a 'i lladdodd ef, ac a dorrodd
+ ei benn ag ef: pan welodd y Philistiaid farw o 'i
+ cawr hwynt, yna y ffoasant hwy.
+
+</lb>
+<lb n="52">
+
+ 52 A gwŷr Israel, ac Iuda a gyfodasant, ac
+ a floeddiasant, ac a erlydiasant y Philistiaid hyd
+ [y ffordd] y dêlech i 'r dyffryn, ac hyd byrth Acaron: a 'r Philistiaid a syrthiasant yn archolledic
+ ar hyd ffordd Saarim, sef hyd Gath, ac hyd Acaron.
+
+</lb>
+<lb n="53">
+
+ 53 Yna meibion Israel a ddychwelasant o
+ ymlid ar ôl y Philistiaid: ac a anrheithiasant
+ eu gwerssylloedd hwynt.
+
+</lb>
+<lb n="54">
+
+ 54 A Dafydd a gymmerodd benn y Philistiad, ac a 'i dûg i Ierusalem: a 'i arfau ef a osododd efe yn ei babell.
+
+</lb>
+<lb n="55">
+
+ 55 A phan welodd Saul Ddafydd yn myned i gyfarfod a 'r Philistiad, efe a ddywedodd
+ wrth Abner tywysog y filwriaeth, mab i bwy
+ [yw] 'r llangc hwn, Abner? ac Abner a ddywedodd [fel] y mae yn fyw dy enaid ô frenin
+ nis gŵn.
+
+</lb>
+<lb n="56">
+
+ 56 Yna y dywedodd y brenin, ymofyn di
+ mab i bwy [yw] 'r gwr ieuangc hwn.
+
+</lb>
+<lb n="57">
+
+ 57 A phan ddychwelodd Dafydd o ladd y
+ Philistiad, yna Abner a 'i cymmerodd ef, ac a 'i
+ dûg ef o flaen Saul: a phenn y Philistiad yn ei
+ law.
+
+</lb>
+<lb n="58">
+
+ 58 A Saul a ddywedodd wrtho ef, mab i
+ bwy [wyt] ti y gwr ieuangc? yna y dywedodd
+ Dafydd, mab i 'th wâs Isai y Bethlehemiad.
+
+
+</lb>
+        </pb>
+    
+<pb n="18">
+
+
+        <head>
+         PEN. XVIII.
+        </head>
+            
+<lb n="argument">
+
+
+ Y Gefeillach a oedd rhwng Ionathan a Dafydd. 11
+ Saul yn casau, ac yn ofni Dafydd.
+</lb>
+
+<lb n="1">
+
+ 1 A Phan orphennodd efe ymddiddan a Saul,
+ yna enaid Ionathan a ymgylymmodd [~ ymglymodd ]
+ wrth enaid Dafydd: fel y carodd Ionathan ef,
+ megis ei enaid ei hunan.
+
+</lb>
+<lb n="2">
+
+ 2 A Saul a 'i cymmerth ef [atto] y diwrnod
+ hwnnw: ac ni adawodd iddo ddychwelyd i dŷ
+ ei dâd.
+
+</lb>
+<lb n="3">
+
+ 3 Yna Ionathan a wnaeth gyfammod a
+ Dafydd: o herwydd efe a 'i care megis ei enaid
+ ei hun.
+
+</lb>
+<lb n="4">
+
+ 4 Ac Ionathan a ddioscodd y fantell yr hon
+ [oedd] am dano ei hun, ac a 'i rhoddes i Ddafydd, a 'i wiscoedd, îe hyd yn oed ei gleddyf, a 'i
+ fwa, a 'i wregys.
+
+</lb>
+<lb n="5">
+
+ 5 A Dafydd a aeth yn gall i ba [le] bynnac
+ yr anfonodd Saul ef, a Saul a 'i gosododd ef ar
+ y rhyfel-wŷr: ac efe oedd gymmeradwy - yr holl bobl, ac yng-olwg gweision Saul
+ 
+ hefyd.
+
+</lb>
+<lb n="6">
+
+ 6 A bu (wrth ddyfod o honynt) pan ddychwelodd Dafydd o ladd y Philistiad, yna ddyfod
+ o 'r gwragedd allan o holl ddinasoedd Israel dan
+ ganu, a dawnsio i gyfarfod a 'r brenin Saul: a
+ thympanau, a gorfoledd, ac ag [offer] tri-thant.
+
+</lb>
+<lb n="7">
+
+ 7 A 'r gwragedd yn chware a ymmatebent,
+ ac a ddywedent: tarawodd Saul ar ei filoedd,
+ a Dafydd ar ei fyrddiwn.
+
+</lb>
+<lb n="8">
+
+ 8 Am hynny y digiodd Saul yn ddirfawr,
+ a 'r ymadrodd hwn oedd ddrwg yn ei olwg ef, ac
+ efe a ddywedodd, rhoddasant i Ddafydd fyrddiwn, ac i mi y rhoddasant filoedd: [beth]
+ mwy [a roddent] iddo ef, eithr y frenhiniaeth?
+
+</lb>
+<lb n="9">
+
+ 9 A bu Saul yn gwilied Dafydd o 'r dydd
+ hwnnw allan.
+
+</lb>
+<lb n="10">
+
+ 10 Bu hefyd drannoeth i ddrwg yspryd
+ Duw ddyfod ar Saul, ac efe a brophwydodd
+ yng-hanol [~ ynghanol ] y tŷ, yna Dafydd a ganodd a 'i law,
+ fel o 'r blaen: a gwaiw-ffon [oedd] yn llaw
+ Saul.
+
+</lb>
+<lb n="11">
+
+ 11 Yna Saul a siglodd y waiw-ffon, ac a
+ ddywedodd, tarawaf trwy Ddafydd, a thrwy 'r
+ pared: a Dafydd a giliodd ddwy-waith o 'i ŵydd
+ ef.
+
+</lb>
+<lb n="12">
+
+ 12 A Saul a ofnodd rhac Dafydd: o herwydd bod yr Arglwydd gyd ag ef, a chilio o
+ honaw ef oddi wrth Saul.
+
+</lb>
+<lb n="13">
+
+ 13 Am hynny Saul a 'i gyrrodd ef ymmaith
+ oddi wrtho ef, ac a 'i gosododd ef tano ei hun yn
+ dywysog [ar] fil: ac efe a lywodraethodd y
+ bobl.
+
+</lb>
+<lb n="14">
+
+ 14 A bu Ddafydd gall yn ei holl ffyrdd: a 'r
+ Arglwydd [oedd] gyd ag ef.
+
+</lb>
+<lb n="15">
+
+ 15 Pan welodd Saul ei fod ef yn gall iawn:
+ yna 'r ofnodd efe rhacddo ef.
+
+</lb>
+<lb n="16">
+
+ 16 Eithr holl Israel, ac Iuda a garodd Ddafydd: am ei fod ef yn eu llywodraethu hwynt.
+
+</lb>
+<lb n="17">
+
+ 17 Yna y dywedodd Saul wrth Ddafydd,
+ wele Merab fy merch hynaf, hi a roddafi i ti yn
+ wraig, yn vnic bydd i mi yn fab nerthol, ac ymladd ryfeloedd yr Arglwydd: (canys dywedase Saul, ni bydd fy llaw i yn ei erbyn ef, onid
+ llaw y Philistiaid fydd yn ei erbyn ef.)
+
+</lb>
+<lb n="18">
+
+ 18 A Dafydd a ddywedodd wrth Saul,
+ pwy [ydwyf] fi, a pheth [yw] fy mywyd [neu]
+ dŷlwyth fy nhâd i yn Israel, fel y byddwn yn
+ ddaw i 'r brenin?
+
+</lb>
+<lb n="19">
+
+ 19 Eithr yn yr amser [y dylesid] rhoddi Merab merch Saul i Ddafydd, yna hi a rhoddwyd
+ i Adriel y Meholathiad yn wraig.
+
+</lb>
+<lb n="20">
+
+ 20 Yna Michol merch Saul a garodd
+ Ddafydd: a mynegasant [hynny] i Saul, a 'r
+ peth fu fodlon ganddo.
+
+</lb>
+<lb n="21">
+
+ 21 (A dywedodd Saul, rhoddaf hi iddo ef,
+ fel y byddo hi iddo 'n fagl, ac y byddo llaw y
+ Philistiaid yn ei erbyn ef:) felly Saul a ddywedodd wrth Ddafydd, drwy 'r llall yr ymgyfathrechi a mi heddyw.
+
+</lb>
+<lb n="22">
+
+ 22 A Saul a orchymynnodd i 'w weision
+ [fel hyn:] ymddiddenwch a Dafydd yn ddistaw,
+ 
+ gan ddywedyd, wele y brenin sydd hoff ganddo
+ dydi, a 'i holl weision ef a 'th garant di: yn awr
+ gan hynny ymgyfathracha a 'r brenin.
+
+</lb>
+<lb n="23">
+
+ 23 A gweision Saul a adroddasant wrth
+ Ddafydd y geiriau hyn: a Dafydd a ddywedodd
+ ai yscafn [yw] yn eich golwg chwi ymgyfathrachu a brenin, a minne yn ŵr tlawd, a gwael?
+
+</lb>
+<lb n="24">
+
+ 24 A gweision Saul a fynegasant iddo, gan
+ ddywedyd: fel hyn y llefarodd Dafydd.
+
+</lb>
+<lb n="25">
+
+ 25 Yna y dywedodd Saul, fel hyn y dywedwch wrth Ddafydd, nid yw y brenin yn ewyllysio25  cynhyscaeth, onid [cael] cant o flaen-grwyn
+ y Philistiaid i ddial ar elynnion y brenin: (canys Saul a feddyliodd am ladd Dafydd drwy
+ law y Philistiaid.)
+
+</lb>
+<lb n="26">
+
+ 26 A 'i weision ef a fynegasant i Ddafydd y
+ geiriau hynn, a 'r ymadrodd fu fodlon gan Ddafydd am ymgyfathrachu a 'r brenin: ond ni ddaethe yr amser.
+
+</lb>
+<lb n="27">
+
+ 27 Yna y cyfododd Dafydd, ac efe a aeth,
+ a 'i wŷr, ac a darawodd ddau can-wr, o 'r Philistiaid, a Dafydd a ddygodd eu blaen-grwyn
+ hwynt, ac a 'i cwbl dalasant i 'r brenin, i ymgyfathrachu a 'r brenin: am hynny y rhoddes Saul
+ Michol ei ferch yn wraig iddo yntef.
+
+</lb>
+<lb n="28">
+
+ 28 Yna y gwelodd Saul, ac y gwybu mai 'r
+ Arglwydd [oedd] gyd a Dafydd: a Michol
+ merch Saul a 'i carodd ef.
+
+</lb>
+<lb n="29">
+
+ 29 A Saul a ofnodd fwy-fwy rhac Dafydd,
+ a bu Saul yn elyn i Ddafydd byth.
+
+</lb>
+<lb n="30">
+
+ 30 Yna tywysogion y Philistiaid a aent allan, a phan elent hwy, Dafydd a fydde gallach
+ na holl weision Saul, a 'i enw ef oedd anrhydeddus iawn.
+
+
+</lb>
+        </pb>
+    
+<pb n="19">
+
+
+        <head>
+         PEN. XIX.
+        </head>
+            
+<lb n="argument">
+
+
+ Ionathan yn rhybyddio Dafydd o gâs ei dâd Saul iddo
+ ef. 11 Michol ei wraig yn ei achub ef. 23 Saul
+ yn prophwydo wrth erlid Dafydd.
+</lb>
+
+<lb n="1">
+
+ 1 YNA y dywedodd Saul wrth Ionathan ei
+ fab, ac wrth ei holl weision am ladd Dafydd: ond Ionathan mab Saul oedd hôff iawn
+ ganddo Ddafydd.
+
+</lb>
+<lb n="2">
+
+ 2 Am hynny y mynegodd Ionathan i Ddafydd gan ddywedyd: Saul fy nhâd sy yn ceisio
+ dy ladd di: ac yn awr ymgadw attolwg hyd y
+ boreu, ac aros mewn [lle] dirgel, ac ymguddia.
+
+</lb>
+<lb n="3">
+
+ 3 A mi a âf allan, ac a safaf ger llaw fy nhâd
+ yn y maes, yr hwn [y byddi] di ynddo, mi hefyd
+ a ymddiddanaf a 'm tâd o 'th blegit ti: ac mi a
+ edrychaf beth [a ddywedo efe,] ac a fynegaf i
+ ti.
+
+</lb>
+<lb n="4">
+
+ 4 Ac Ionathan a ddywedodd yn dda am
+ Ddafydd wrth Saul ei dâd: ac a ddywedodd
+ wrtho ef, na pheched y brenin yn erbyn ei wâs,
+ [sef] yn erbyn Dafydd, o herwydd na phechodd
+ efe i 'th erbyn di, ac o herwydd [bod] ei weithredoedd ef yn dda iawn i ti.
+
+</lb>
+<lb n="5">
+
+ 5 Canys efe a osodes ei enioes [~ einioes ] yn ei law, ac
+ a darawodd y Philistiad, a 'r Arglwydd a wnaeth iechydwriaeth mawr i holl Israel, ti a welaist [hyn] ac a lawenychaist: pa ham gan hynny y pechi yn erbyn gwaed diniwed, gan ladd
+ Dafydd yn ddiachos?
+
+</lb>
+<lb n="6">
+
+ 6 Yna Saul a wrandawodd ar lais Ionathan, a Saul a dyngodd [nid] byw yw 'r Arglwydd os lleddir ef.
+
+</lb>
+<lb n="7">
+
+ 7 Felly Ionathan a alwodd ar Ddafydd, ac
+ Ionathan a fynegodd iddo ef yr holl eiriau hyn:
+ ac Ionathan a ddug Ddafydd at Saul, ac efe a
+ fu ger ei fron ef megis cynt.
+
+</lb>
+<lb n="8">
+
+ 8 Yna y bu chwaneg o ryfel: a Dafydd a aeth allan ac a ymladdodd yn erbyn y Philistiaid, ac a 'i tarawodd hwynt a phla mawr, ac hwy
+ a ffoasant rhagddo ef.
+
+</lb>
+<lb n="9">
+
+ 9 A drwg yspryd yr Arglwydd oedd ar
+ Saul pan oedd efe yn eistedd yn ei dŷ, a 'i waiwffon yn ei law: a Dafydd yn canu a 'i law.
+
+</lb>
+<lb n="10">
+
+ 10 A cheisiodd Saul daro a 'i waiwffon drwy
+ Ddafydd, a thrwy yr pared, ond efe a giliodd o
+ ŵydd Saul, ac yntef a darawodd y waiw-ffon
+ yn y pared, a Dafydd a ffoawdd, ac a ddiangodd
+ y noswaith honno.
+
+</lb>
+<lb n="11">
+
+ 11 Saul hefyd a anfonodd gennadau i dŷ
+ Ddafydd i 'w wilied ef, ac i 'w ladd ef y boreu: a
+ Michol ei wraig ef a fynegodd i Ddafydd gan
+ ddywedyd, onid achubi dy enioes [~ einioes ] heno, y foru
+ i 'th leddir.
+
+</lb>
+<lb n="12">
+
+ 12 Felly Michol a ollyngodd Ddafydd i
+ lawr drwy 'r ffenestr, ac efe a aeth, ac a ffôdd, ac
+ a ddiangodd.
+
+</lb>
+<lb n="13">
+
+ 13 Yna y cymmerodd Michol ryw ddelw,
+ ac a 'i gosododd yn y gwely, a chlustog [o flew]
+ geifr a osododd hi yn obennydd iddi: ac a 'i goblygodd a dillad.
+
+</lb>
+<lb n="14">
+
+ 14 Pan anfonodd Saul gennadau i ddala
+ Dafydd: yna hi a ddywedodd, [y mae] efe yn
+ glâf.
+
+</lb>
+<lb n="15">
+
+ 15 Anfonodd Saul eilwaith gennadau i edrych Dafydd, gan ddywedyd: dygwch ef i fynu attafi yn ei wely, fel y lladdwyf ef.
+
+</lb>
+<lb n="16">
+
+ 16 Pan ddaeth y cennadau, yna wele y ddelw
+ ar y gwely: a chlustog [o flew] geifr yn obennydd iddi.
+
+</lb>
+<lb n="17">
+
+ 17 Yna y dywedodd Saul wrth Michol,
+ pa ham y twyllaist fi fel hyn, ac y gollyngaist
+ fyng-elyn i ddiangc? a Michol a ddywedodd
+ wrth Saul, efe a ddywedodd wrthif, gollwng
+ fi, onid ê mi a 'th laddaf di.
+
+
+</lb>
+<lb n="18">
+
+ 18 Felly Dafydd a ffoawdd, ac a ddiangodd, ac a ddaeth at Samuel i Ramah, ac a fynegodd iddo yr hyn oll a wnaethe Saul i 'w erbyn ef, ac efe a aeth gyd a Samuel, ac a drigasant yn Naioth.
+
+</lb>
+<lb n="19">
+
+ 19 A mynegwyd i Saul gan ddywedyd:
+ wele [y mae] Dafydd yn Naioth o fewn Ramah.
+
+</lb>
+<lb n="20">
+
+ 20 Yna Saul a anfonodd gennadau i ddala
+ Dafydd, pan welsant gynnulleidfa y prophwydi yn prophwydo, a Samuel yn sefyll, wedi ei
+ osod arnynt hwy: yna yr oedd ar gennadau
+ Saul yspryd Duw, fel y prophwydasant hwythau hefyd.
+
+
+ 
+</lb>
+<lb n="21">
+
+ 21 Pan fynegasant [hyn] i Saul, yna efe a
+ anfonodd gennadau eraill, a hwythau hefyd a
+ brophwydasant: ac eilwaith y danfonodd Saul
+ gennadau y drydedd waith, a phrophwydasant
+ hwythau hefyd.
+
+</lb>
+<lb n="22">
+
+ 22 Yna yntef hefyd a aeth i Ramah, ac a ddaeth hyd y ffynnon fawr yr hon [sydd] yn Sechu, ac efe a ofynnodd, ac a ddywedodd, pa le [y
+ mae] Samuel a Dafydd? ac [vn] a ddywedodd wele [y maent hwy] yn Naioth o fewn
+ Ramah.
+
+</lb>
+<lb n="23">
+
+ 23 Ac efe a aeth yno i Naioth yn Ramah:
+ ac arno yntef hefyd y daeth yr vn yspryd Duw,
+ a chan fyned yr aeth, ac y prophwydodd, nes ei
+ ddyfod i Naioth yn Ramah.
+
+</lb>
+<lb n="24">
+
+ 24 Ac efe a ddioscodd ei ddillad, ac a brophwydodd hefyd ger bron Samuel, ac a syrthiodd
+ i lawr yn noeth yr holl ddiwrnod hwnnw, a 'r
+ holl nôs: am hynny y dywedent, a ydyw Saul
+ hefyd ym mysc y prophwydi?
+
+
+</lb>
+        </pb>
+    
+<pb n="20">
+
+
+        <head>
+         PEN. XX.
+        </head>
+            
+<lb n="argument">
+
+
+ Y cyfammod yr hwn a oedd rhwng Ionathan a Dafydd.
+ 30 Saul yn digio wrth Ionathan o achos Dafydd.
+ 36 Ionathan yn saethu tair saeth i rybyddio Dafydd.
+</lb>
+
+<lb n="1">
+
+ 1 YNA y ffoawdd Dafydd o Naioth yn Ramah, ac a ddaeth, ac a ddywedodd ger bron
+ Ionathan, beth a wneuthum? beth [yw] fy anwiredd, a pheth [yw] fy mhechod o flaen dy dâd
+ ti, gan ei fod efe yn ceisio fy enioes [~ einioes ] i?
+
+</lb>
+<lb n="2">
+
+ 2 Ac efe a ddywedodd wrtho, na atto Duw,
+ ni byddi farw, wele ni wnaiff fy nhâd na pheth
+ mawr, na pheth bychan heb [ei] fynegu i mi:
+ pa ham gan hynny y cêle fy nhâd y peth hyn oddi wrthifi? ni [wna efe] hyn.
+
+</lb>
+<lb n="3">
+
+
+ 3 Yna Dafydd a dyngodd eilwaith, (ac a ddywedodd, dy dâd a ŵyr yn hyspys i mi gael ffafor
+ yn dy olwg di, am hynny y dywedodd, na chaffed Ionathan ŵybod hyn rhac ei dristau ef:) 
+ cyn wîred a bod yr Arglwydd yn fyw, a 'th enaid
+ dithe yn fyw [nid oes] onid megis camm rhyngofi ag angeu.
+
+</lb>
+<lb n="4">
+
+ 4 Yna y dywedodd Ionathan wrth Ddafydd: dywet beth [yw] dy ewyllys, a mi a 'i
+ cwplhaf i ti.
+
+</lb>
+<lb n="5">
+
+ 5 A Dafydd a ddywedodd wrth Ionathan,
+ wele [y dydd cyntaf o 'r] mis [yw] foru, a minne
+ gan eistedd a ddylwn eistedd gyd a 'r brenin i
+ fwytta: gollwng fi gan hynny fel yr ymguddiwyf yn y maes hyd bryd nawn y trydydd
+ [dydd.]
+
+</lb>
+<lb n="6">
+
+ 6 Os dy dâd gan goffau a goffa am danaf:
+ yna y dywedi, Dafydd gan ofyn a ofynnodd
+ [gennad] gennifi i redeg i Bethlehem ei ddinas
+ ei hun, canys aberth blynyddawl [sydd] yno
+ gan yr holl genedl.
+
+
+</lb>
+<lb n="7">
+
+ 7 Os fel hyn y dywed efe, dâ, heddwch
+ [sydd] i 'th wâs: ond os gan ddigio y digia efe
+ gwybydd fod y malis wedi ei baratoi ganddo ef.
+
+</lb>
+<lb n="8">
+
+ 8 Felly y gwnei drugaredd a 'th wâs canys mewn cyfammod yr Arglwydd y dugaist
+ 
+ dy was gyd a thi: ac od oes anwiredd ynofi,
+ lladd di fi, canys i ba beth y dygi di fi at dy dâd?
+
+</lb>
+<lb n="9">
+
+ 9 Yna y dywedodd Ionathan, na atto Duw
+ [hynny] i ti: canys os gan wybod y caf wybod
+ fod y malis wedi ei baratoi gan fy nhâd i ddyfod i 'th erbyn, onis mynegwn i ti?
+
+</lb>
+<lb n="10">
+
+ 10 A Dafydd a ddywedodd wrth Ionathan,
+ pwy a fynega i mi os ettyb dy dâd ti ddim yn
+ galed?
+
+</lb>
+<lb n="11">
+
+ 11 Yna y dywedodd Ionathan wrth Ddafydd, tyret fel yr elom i 'r maes: ac hwy a aethant
+ ill dau i 'r maes.
+
+</lb>
+<lb n="12">
+
+ 12 Dywedodd Ionathan hefyd wrth Ddafydd, Arglwydd Dduw Israel [fyddo tŷst] y
+ chwiliafi [feddwl] fy nhad yng-hylch [~ ynghylch ] y pryd
+ [hyn] y foru [neu] drennydd, ac os daioni
+ [fydd] tu ag at Ddafydd, ac oni anfonaf yna
+ attati fel y mynegwyf it,
+
+</lb>
+<lb n="13">
+
+ 13 Fel hyn y gwnel yr Arglwydd i Ionathan ac y chwanego: os da fydd gan fy nhad
+ [ddwyn] y drwg i 'th erbyn yna y mynegaf it, ac
+ a 'th ollyngaf fel yr elech mewn heddwch: a bydded yr Arglwydd gyd a thi, megis y bu gyd
+ a 'm tad i.
+
+</lb>
+<lb n="14">
+
+ 14 Felly nid tra fyddwyfi byw, ac nid a mi
+ [yn vnic] y gwnei drugaredd yr Arglwydd fel
+ na byddwyf marw:
+
+
+</lb>
+<lb n="15">
+
+ 15 Ond na thorr ymmaith dy drugaredd a 'm
+ tŷ maufi byth, na phan ddestruwio 'r Arglwydd
+ elynnion Dafydd bob vn oddi ar wyneb y ddaiar.
+
+</lb>
+<lb n="16">
+
+ 16 Felly y cyfammododd Ionathan a thŷ
+ Ddafydd [ac efe a ddywedodd:] gofynned yr
+ Arglwydd oddi ar law gelynion Dafydd [eu
+ camwedd.]
+
+</lb>
+<lb n="17">
+
+ 17 Yna y chwanegodd Ionathan dyngu
+ wrth Ddafydd, o herwydd efe a 'i care ef: (canys
+ fel ei enaid ei hun y care efe ef.)
+
+</lb>
+<lb n="18">
+
+ 18 Ac Ionathan a ddywedodd wrtho ef, y foru [yw 'r dydd cyntaf o 'r] mis, a thi a goffeir,
+ am y bydd dy eisteddle yn wâg.
+
+</lb>
+<lb n="19">
+
+Wedi i ti lechu dridieu yna tyret i wared19  yn fuan, a thyret i 'r lle yr hwn yr ymguddiaist19  ynddo, yn y dydd [y bu] y gwaith hyn [o 'r
+ 19 blaen] ac aros wrth faen Ezel.
+
+</lb>
+<lb n="20">
+
+ 20 A mi a saethaf dair o saethau at [ei] ystlys
+ [ef:] fel pes gollyngwn [hwynt] at nôd.
+
+</lb>
+<lb n="21">
+
+Wele hefyd mi a anfonaf y llangc [gan
+ 21 ddywedyd,] dôs, cais y saethau: os gan ddywedyd y dywedaf wrth y llangc, wele y saethau
+ [ennyd] oddi wrthit o 'r tu ymma i ti dwg hwynt: yna tyret ti, canys heddwch [sydd] i ti, ac
+ ni bydd dim [niwed, fel] mai byw yw 'r Arglwydd.
+
+</lb>
+<lb n="22">
+
+ 22 Ond os fel hyn y dywedaf wrth y bachgen, wele y saethau [ennyd] oddi wrthit o 'r tu
+ hwnt: dôs ymmaith, canys yr Arglwydd a 'th
+ anfonodd ymmaith.
+
+</lb>
+<lb n="23">
+
+ 23 Am y peth yr hwn a leferais i, mi a thi:
+ wele 'r Arglwydd [fyddo] rhyngofi, a thi yn
+ dragywydd.
+
+ 
+</lb>
+<lb n="24">
+
+ 24 Felly 'r ymguddiodd Dafydd yn y maes, a phan oedd y dydd cyntaf o 'r mis, y brenin a
+ eisteddodd wrth y bwyd i fwytta.
+
+</lb>
+<lb n="25">
+
+ 25 Ie y brenin a eisteddodd ar ei eisteddfa,
+ megis ar amseroedd eraill, [sef] ar yr eisteddfa
+ wrth y pared, ac Ionathan a gyfododd, ac Abner
+ a eisteddodd wrth ystlys Saul: a lle Dafydd
+ oedd wag.
+
+</lb>
+<lb n="26">
+
+ 26 Ac nid yngênodd [~ ynganodd ] Saul ddim y diwrnod
+ hwnnw: canys meddyliodd [mai] damwain
+ [oedd] hyn, am nad [oedd] efe lân, o herwydd
+ [ei fod] yn aflan [ni ddaeth.]
+
+</lb>
+<lb n="27">
+
+ 27 A bu drannoeth, yr ail [dydd] o 'r mis fod
+ lle Dafydd yn wâg: yna y dywedodd Saul
+ wrth Ionathan ei fâb, pa ham na ddaeth mab Isai at y bwyd na doe, na heddyw?
+
+</lb>
+<lb n="28">
+
+ 28 Yna Ionathan a attebodd Saul: Dafydd gan ofyn a ofynnodd i mi [am gael myned] hyd Bethlehem.
+
+</lb>
+<lb n="29">
+
+ 29 Canys efe a ddywedodd, gollwng fi attolwg,29  o herwydd ein tylwyth ni [ydynt yn offrymmu]29  aberth yn y ddinas, a 'm brawd yntef
+ a 'm gwahoddodd i, ac yn awr o chefais ffafor yn
+ dy olwg di, gad i'm [~ im ] fyned attolwg, fel y gwelwyf fy mrodyr: o herwydd hyn ni ddaeth efe i
+ fwrdd y brenin.
+
+</lb>
+<lb n="30">
+
+ 30 Yna y llidiodd digter Saul yn erbyn
+ Ionathan, ac efe a ddywedodd wrtho, [ti] fab y
+ gyndyn wrthnyssic, oni ŵyddwn i ti ddewis
+ mab Isai yn wradwydd it, ac yn gywilydd [a]
+ gwarth i 'th fam?
+
+
+</lb>
+<lb n="31">
+
+ 31 Canys yr holl ddyddiau ar y byddo mab
+ Isai yn fyw ar y ddaiar, ni 'th sicrheuir di na 'th
+ deyrnas: yn awr gan hynny, anfon, a chyrch ef
+ attaf, canys marwolaeth [a gaiff] efe.
+
+</lb>
+<lb n="32">
+
+ 32 Yna Ionathan a attebodd Saul ei dad,
+ ac a ddywedodd wrtho: pa ham y bydd efe marw? beth a wnaeth efe?
+
+</lb>
+<lb n="33">
+
+ 33 Yna Saul a ergydiodd y waiw-ffon tu
+ ag atto ef, i 'w daro ef: wrth hyn y gwybu Ionathan [fod] y bwriad ymma gan ei dâd ef, sef
+ lladd Dafydd.
+
+</lb>
+<lb n="34">
+
+ 34 Felly Ionathan a gyfododd oddi wrth y
+ bwrdd mewn llid digllawn: ac ni fwyttâodd
+ fwyd yr ail dydd o 'r mis, canys gofidiodd dros
+ Ddafydd, o herwydd i 'w dâd ei wradwyddo ef.
+
+</lb>
+<lb n="35">
+
+ 35 A 'r borau, yr aeth Ionathan i 'r maes erbyn yr amser a osodase ef i Ddafydd: a bachgen
+ bychan gyd ag ef.
+
+</lb>
+<lb n="36">
+
+ 36 Ac efe a ddywedodd wrth ei fachgen,
+ rhêd, cais yn awr y saethau, y rhai 'r ydwyfi yn
+ eu saethu: y bachgen a redodd, yna yntef a saethodd saeth gan gyrheuddyd trosto ef.
+
+</lb>
+<lb n="37">
+
+ 37 Pan ddaeth y bachgen hyd y fan [yr oedd]
+ y saeth yr hon a saethase Ionathan: yna y llefodd Ionathan ar ôl y bachgen, ac a ddywedodd,
+ onid [yw] y saeth ennyd oddi wrthit o 'r tu hwnt?
+
+</lb>
+<lb n="38">
+
+ 38 Llefodd Ionathan drachefn ar ôl y bachgen, cyflymma, bryssia, na saf: yna bachgen
+ Ionathan a gasclodd y saethau, ac a ddaeth at
+ ei feistr.
+
+ 
+</lb>
+<lb n="39">
+
+ 39 A 'r bachgen ni ŵydded ddim, onid Ionathan a Dafydd a wyddent y peth.
+
+</lb>
+<lb n="40">
+
+ 40 Yna Ionathan a roddes ei offer at y
+ bachgen yr hwn [oedd] gyd ag ef, ac a ddywedodd wrtho ef, dos, dûg [~ dwg ] [y rhai hyn] i 'r ddinas.
+
+</lb>
+<lb n="41">
+
+ 41 Y bachgen a aeth ymmaith, yna Dafydd
+ a gyfododd o 'r tu dehau [i 'r maen,] ac a syrthiodd i lawr ar ei wyneb, ac a ymgrymmodd dair
+ gwaith: a hwy a ymgusanasant bob vn ei gilydd, ac a ŵylasant y naill wrth y llall, a Dafydd a ragorodd.
+
+</lb>
+<lb n="42">
+
+ 42 Yna y dywedodd Ionathan wrth Ddafydd, dôs mewn heddwch: yr hyn a dyngasom
+ ni ein dau yn enw 'r Arglwydd gan ddywedyd,
+ yr Arglwydd fyddo rhyngofi a thi, a rhwng fy
+ hâd i, a 'th hâd dithe, [safed hynny] yn dragywydd.
+
+</lb>
+<lb n="43">
+
+ 43 Yna [Dafydd] a gyfododd ac a aeth ymmaith: ac Ionathan a ddaeth i 'r ddinas.
+
+
+
+</lb>
+                    </pb>
+                </text><text id="b1588mat">
+
+
+        <head>
+        Efengyl Iesu Grist yn ôl Sanct Mathew
+        </head>
+            
+ 
+
+<pb n="26">
+
+
+        <head>
+         PEN. XXVI.
+        </head>
+            
+<lb n="argument">
+
+
+ 3 Bwriad yr offeiriaid yn erbyn Crist, tywalltiad yr
+ enaint ar ei ben ef. 26 Swper yr Arglwydd. 34 Petr
+ yn gwadu Crist. 47 Brâd Iudas. 56 Arwain Crist
+ at Caiphas.
+</lb>
+
+<lb n="1">
+
+ 1 AC fe a ddarfu wedi i 'r Iesu orphen
+ y geiriau hyn oll, efe a ddywedodd wrth
+ ei ddiscyblion,
+
+</lb>
+<lb n="2">
+
+ 2 Chwi a ŵyddoch mai ym mhen y ddau
+ ddŷdd y mae 'r Pasc: a Mâb y dŷn a roddir i 'w
+ groes-hoelio.
+
+</lb>
+<lb n="3">
+
+ 3 Yna y casclwyd yr arch-offeiriaid a 'r
+ scrifennyddion, a henuriaid y bobl i neuadd yr
+ arch-offeiriad, yr hwn a elwid Caiphas.
+
+</lb>
+<lb n="4">
+
+ 4 Ac hwy a ymgynghorâsant, pa fodd y
+ dalient yr Iesu trwy ddichell, ac y lladdent
+ [ef.]
+
+</lb>
+<lb n="5">
+
+ 5 Eithr hwy a ddywedâsant, nid ar yr ŵyl,
+ rhag bôd cynnwrf ym mhlith y bobl.
+
+</lb>
+<lb n="6">
+
+ 6 Ac fel yr oedd yr Iesu yn Bethania yn
+ nhŷ Simon wahan-glwyfus,
+
+</lb>
+<lb n="7">
+
+ 7 Fe ddaeth atto wraig, a chŷd â hi flwch o
+ enaint gwerthfawr, ac a 'i tywalltodd ar ei benn,
+ ac efe yn eistedd wrth y ford.
+
+</lb>
+<lb n="8">
+
+ 8 A phan welodd ei ddiscyblion, hwy a lidiasant gan ddywedyd, pa raid yr afrad hynn?
+
+</lb>
+<lb n="9">
+
+ 9 Canys fe a allasid gwerthu yr ennaint
+ hwn er llawer, a 'i roddi ef i 'r tlodion.
+
+</lb>
+<lb n="10">
+
+ 10 A 'r Iesu a ŵybu, ac a ddywedodd wrthynt, pa ham yr ydych yn gwneuthur blinder i 'r
+ wraig: canys hi a weithiodd weithred dda arnaf.
+
+</lb>
+<lb n="11">
+
+ 11 O blegit y tlodion a gewch bôb amser
+ gŷd â chwi, a mi ni's cewch bôb amser.
+
+</lb>
+<lb n="12">
+
+ 12 Canys hi yn tywallt yr ennaint hwn ar
+ fyng-horph [~ fy nghorff ], a wnaeth hyn i 'm claddu i.
+
+
+ 
+</lb>
+<lb n="13">
+
+ 13 Yn wir meddaf i chwi, pe [~ pa ] le bynnac y
+ pregethir yr Efengyl hon yn yr holl fŷd, hyn
+ ymma hefyd a wnaeth hi a fynegir, er coffa am
+ dani hi.
+
+</lb>
+<lb n="14">
+
+ 14 Yna yr aeth vn o 'r deuddec yr hwn a elwyd Iudas Iscariot at yr arch-offeiriaid,
+
+</lb>
+<lb n="15">
+
+ 15 Ac a ddywedodd wrthynt, pa beth a roddwch i mi, a mi a 'i rhoddaf ef i chwi? a hwy a
+ dalasant iddo ddêc ar hugain o arian.
+
+</lb>
+<lb n="16">
+
+ 16 Ac o hynny allan y ceisiodd efe amser cyfaddas i 'w fradychu ef.
+
+</lb>
+<lb n="17">
+
+ 17 Ac ar [y dydd] cyntaf o ŵyl y bara croiw,
+ ei ddiscyblion a ddaethant at yr Iesu gan ddywedyd wrtho, pa le y mynni i ni baratoi i ti fwytta 'r Pasc?
+
+</lb>
+<lb n="18">
+
+ 18 Ac yntef a ddywedodd, ewch i 'r ddinas at
+ y cyfryw vn, a dywedwch wrtho, y mae 'r Athro
+ yn dywedyd, fy amser sydd agos, gŷd â thi y
+ cynhaliaf y Pasc, mi a 'm discyblion.
+
+</lb>
+<lb n="19">
+
+ 19 A 'r discyblion a wnaethant y modd y
+ gorchymynnase 'r Iesu iddynt, ac a baratoasant y Pasc.
+
+</lb>
+<lb n="20">
+
+ 20 Ac wedi ei myned hi yn hwyr, efe a eisteddodd gŷd â 'r deuddec.
+
+</lb>
+<lb n="21">
+
+ 21 Ac fel yr oeddynt yn bwytta, efe a ddywedodd, yn wir yr wyf yn dywedyd i chwi, y
+ bradycha vn o honoch fi.
+
+</lb>
+<lb n="22">
+
+ 22 Yna yr aethant yn drist dros ben, ac a ddechreuasant bôb vn ddywedyd wrtho: ai myfi
+ Arglwydd yw [hwnnw?]
+
+</lb>
+<lb n="23">
+
+ 23 Ac efe a attebodd ac a ddywedodd, yr hwn
+ sydd yn trochi ei law gŷd â mi yn y ddyscl,
+ hwnnw a 'm bradycha i.
+
+</lb>
+<lb n="24">
+
+ 24 Mâb y dŷn yn ddiau sydd yn myned fel y
+ mae yn scrifennedic am dano, eithr gwae 'r dyn
+ hwnnw trwy 'r hwn y bradychir Mâb y dŷn:
+ da a fuase i 'r dŷn hwnnw pe na's genesid efe er
+ ioed [~ erioed ].
+
+</lb>
+<lb n="25">
+
+ 25 Ac Iudas yr hwn a 'i bradychodd ef, a attebodd ac a ddywedodd, ai myfi yw [efe] Athro?
+ yntef a ddywedodd wrtho, ti a ddywedaist.
+
+</lb>
+<lb n="26">
+
+ 26 Ac fel yr oeddynt yn bwytta, yr Iesu a
+ gymmerth y bara, ac wedi iddo fendigo efe a 'i
+ torrodd, ac a 'i rhoddes i 'r discyblion, ac a ddywedodd, cymmerwch, bwyttewch, hwn yw
+ fyng-horph [~ fy nghorff ].
+
+</lb>
+<lb n="27">
+
+ 27 Ac wedi iddo gymmeryd y cwppan a diolch, efe a 'i rhoddes iddynt, gan ddywedyd,
+ yfwch bawb o hwn:
+
+</lb>
+<lb n="28">
+
+ 28 Canys hwn yw fyng-waed o 'r Testament newydd, yr hwn a dywelltir tros lawer
+ er maddeuant pechodau.
+
+</lb>
+<lb n="29">
+
+ 29 Ac yr ydwyf yn dywedyd i chwi, nad yfaf
+ o hyn allan o ffrwyth hwn y winwydden, hyd y
+ dydd hwnnw, pan yfwyf ef yn newydd gŷd â
+ chwi yn nheyrnas fy Nhâd.
+
+</lb>
+<lb n="30">
+
+ 30 Ac wedi iddynt ganu mawl, hwy a aethant allan i fynydd yr Oliwŷdd.
+
+</lb>
+<lb n="31">
+
+
+ 31 Yna y dywedodd yr Iesu wrthynt, chwychwi oll a rwystrir heno o 'm plegit i: canys
+ scrifennedic yw, tarawaf y bugail, a defaid y
+ 
+ praidd a wascerir.
+
+</lb>
+<lb n="32">
+
+ 32 Eithr wedi fy adgyfodi, mi a âf o 'ch
+ blaen chwi i Galilæa.
+
+</lb>
+<lb n="33">
+
+ 33 Ac Petr a attebodd ac a ddywedodd wrtho, pe rhwystrid pawb o 'th plegit ti, etto ni 'm
+ rhwystrir fi byth.
+
+</lb>
+<lb n="34">
+
+ 34 Yr Iesu a ddywedodd wrtho, yn wîr yr
+ wyf yn dywedyd i ti, mai 'r nos hon cyn canu yr
+ ceiliog i 'm gwedi dair-gwaith.
+
+</lb>
+<lb n="35">
+
+ 35 Petr a ddywedodd wrtho, pe gorfydde i
+ mi farw gŷd â thi, etto ni 'th wadaf: a 'r vn modd
+ hefyd y dywedodd yr holl ddiscyblion.
+
+</lb>
+<lb n="36">
+
+ 36 Yna y daeth yr Iesu gŷd ag hwynt i fann a
+ elwid Gethsemane, ac a ddywedodd wrth ei ddiscyblion, eisteddwch ymma tra 'r elwyf, a gweddio accw.
+
+</lb>
+<lb n="37">
+
+ 37 Ac efe a gymmerth Petr a dau fâb Zebedeus, ac a ddechreuodd dristau ac ymofidio.
+
+</lb>
+<lb n="38">
+
+ 38 Yna efe a ddywedodd wrthynt, trîst yw
+ fy enaid hyd angeu, arhoswch ymma, a gwiliwch gŷd â mi.
+
+</lb>
+<lb n="39">
+
+ 39 Ac efe a aeth ychydig pellach, ac a syrthiodd ar ei wyneb, ac a weddiodd gan ddywedyd, fy Nhâd, os gellir aed y cwppan hwn oddi
+ wrthif, er hynny nid fel yr ewyllysiwyfi, ond fel
+ yr [ewyllysiech] di.
+
+</lb>
+<lb n="40">
+
+ 40 Ac efe a ddaeth at ei ddiscyblion, ac a 'u
+ cafas hwy yn cyscu, ac efe a ddywedodd wrth
+ Petr, pa ham? oni allech chwi wilied vn awr
+ gŷd â mi?
+
+</lb>
+<lb n="41">
+
+ 41 Gwiliwch a gweddiwch rhac ei'ch [~ eich ] myned mewn profedigaeth, yr yspryd yn ddiau
+ sydd yn barod, eithr y cnawd sydd wann.
+
+</lb>
+<lb n="42">
+
+ 42 Efe a aeth trachefn yr ailwaith, ac a weddiodd, gan ddywedyd, fy Nhâd, oni's gall y
+ cwppan hwn fyned oddi wrthif heb orfod i mi
+ ei yfed, gwneler dy ewyllys.
+
+</lb>
+<lb n="43">
+
+ 43 Ac efe a ddaeth, ac a 'u cafas hwy yn cyscu trachefn: canys eu llygaid hwy oeddynt
+ drymmion.
+
+</lb>
+<lb n="44">
+
+ 44 Ac efe a 'u gadawodd hwynt, ac a aeth ymmaith trachefn, ac a weddiodd y drydedd waith,
+ gan ddywedyd yr vn geiriau.
+
+</lb>
+<lb n="45">
+
+ 45 Yna y daeth efe at ei ddiscyblion, ac a ddywedodd wrthynt, cyscwch bellach a gorphywyswch: wele y mae 'r awr wedi nessau, a Mâb y
+ dŷn a roddir yn nwylo pechaduriaid.
+
+</lb>
+<lb n="46">
+
+ 46 Codwch, awn, wele, y mae ger llaw yr
+ hwn a 'm bradycha.
+
+</lb>
+<lb n="47">
+
+ 47 Ac efe etto yn dywedyd hyn, wele Iudas, vn o 'r deuddec, a thyrfa fawr gŷd ag ef â
+ chleddyfau, a ffynn oddi wrth yr arch-offeiriaid
+ a henuriaid y bobl.
+
+</lb>
+<lb n="48">
+
+ 48 A 'r hwn a 'i bradychodd ef a roese arwydd
+ iddynt, gan ddywedyd, pa vn bynnac â gusanwyf, hwnnw yw, deliwch ef.
+
+</lb>
+<lb n="49">
+
+ 49 Ac yn ebrwydd y daeth at yr Iesu, ac a
+ ddywedodd, henffych well Athro, ac a 'i cusanodd ef.
+
+</lb>
+<lb n="50">
+
+ 50 A 'r Iesu a ddywedodd wrtho, y cyfaill, i
+ ba beth y daethost? yna y daethant, ac y rhoesant ddwylo ar yr Iesu, ac a 'i daliâsant.
+
+</lb>
+<lb n="51">
+
+ 51 Ac wele vn o 'r rhai oeddynt gŷd â 'r Iesu
+ a estynnodd ei law, ac a dynnodd ei gleddyf, ac
+ a darawodd wâs yr arch-offeiriad, ac a dorrodd
+ ei glust ef.
+
+</lb>
+<lb n="52">
+
+ 52 Yna y dywedodd yr Iesu wrtho, dôd ti dy
+ gleddyf yn ei wain, canys pawb ar a gymmerant gleddyf, a ddifethir â chleddyf.
+
+</lb>
+<lb n="53">
+
+ 53 A ydwyt ti yn tybied na's gallaf yr awr
+ hon ddeisyf ar fy Nhâd fel y rhodde efe fwy nâ
+ ddeuddec lleng o angelion i mi?
+
+</lb>
+<lb n="54">
+
+ 54 Pa fodd yntef, y cyflawnir yr scrythyrau
+ y rhai a ddywedant, mai felly y gorfydd bôd?
+
+</lb>
+<lb n="55">
+
+ 55 Yn yr awr honno, y dywedodd yr Iesu
+ wrth y dyrfa, chwi a ddaethoch allan megis at
+ leidr â chleddyfau, ac â ffynn i 'm dala i: yr oeddwn beunydd yn eistedd, ac yn dyscu yn y Deml,
+ ac ni 'm daliasoch.
+
+</lb>
+<lb n="56">
+
+ 56 A hyn oll a wnaethpwyd er cyflawni 'r
+ scrythyrau, a 'r prophwydi: yna 'r holl ddiscyblion a 'i gadawsant ef, ac a ffoasant.
+
+</lb>
+<lb n="57">
+
+ 57 Hwythau a ddaliasant yr Iesu, ac a aethant ag ef at Caiphas yr arch-offeiriad, lle 'r
+ oedd yr scrifennyddion a 'r henuriaid wedi ymgasclu yng-hŷd [~ ynghyd ].
+
+</lb>
+<lb n="58">
+
+ 58 Ac Petr a 'i canlynodd ef o hir-bell hyd
+ yn llŷs yr arch-offeiriad, ac a aeth i mewn, ac a
+ eisteddodd gŷd â 'r gweision i weled y diwedd.
+
+</lb>
+<lb n="59">
+
+ 59 A 'r arch-offeiriad a 'r henuriaid, a 'r holl
+ gyngor a geisiasant gau destiolaeth yn erbyn yr
+ Iesu, i 'w roddi ef i farwolaeth.
+
+</lb>
+<lb n="60">
+
+ 60 Ac ni's cawsant, îe er dyfod yno gau-dystion lawer ni chawsant: eithr o 'r diwedd fe a
+ ddaeth dau gau dyst:
+
+</lb>
+<lb n="61">
+
+ 61 Ac hwy a ddywedâsant, hwn a ddywedodd, mi a allaf ddestruwio Teml Dduw, a 'i
+ hadailadu mewn tri diwrnod.
+
+
+</lb>
+<lb n="62">
+
+ 62 Yna y cyfododd yr arch-offeiriad, ac a
+ ddywedodd wrtho, a attebi di ddim? pa beth sydd
+ pan fyddo y rhai hyn yn testiolaethu yn dy erbyn?
+
+</lb>
+<lb n="63">
+
+ 63 A 'r Iesu a dawodd, yna yr attebodd yr
+ arch-offeiriad, ac a ddywedodd wrtho, yr ydwyf
+ yn dy dynghêdu di trwy 'r Duw byw, ddywedyd o honot i ni, os ty di yw Crist Mâb Duw.
+
+</lb>
+<lb n="64">
+
+ 64 Yr Iesu a ddywedodd wrtho, ti a ddywedaist: eithr meddaf i chwi, ar ôl hyn y gwelwch
+ Fâb y dyn yn eistedd ar ddeheu-law gallu
+ [Duw,] ac yn dyfod yn wybrennau 'r nef.
+
+</lb>
+<lb n="65">
+
+ 65 Yna y rhwygodd 'r arch-offeiriad ei ddillad, gan ddywedyd, efe a gablodd: pa raid i ni
+ wrth mwy o dystion: wele clywsoch ei gabledd
+ ef.
+
+</lb>
+<lb n="66">
+
+ 66 Beth dybygwch chwi? hwy a attebâsant,
+ gan ddywedyd, y mae efe yn euog i farwolaeth.
+
+</lb>
+<lb n="67">
+
+ 67 Yna y poerâsant yn ei wyneb, ac a 'i bonclustiasant, eraill a 'i cernodiasant ef,
+
+</lb>
+<lb n="68">
+
+ 68 Gan ddywedyd, prophwyda i ni, ô Crist,
+ pwy yw 'r hwn a 'th darawodd?
+
+</lb>
+<lb n="69">
+
+ 69 Petr oedd yn eistedd allan yn y neuadd,
+ 
+ ac fe a ddaeth morwyn atto, ac a ddywedodd, yr
+ oeddit tithe gŷd â 'r Iesu o Galilæa:
+
+</lb>
+<lb n="70">
+
+ 70 Ac efe a wadodd ger eu bron hwy oll, ac
+ a ddywedodd, ni's gwn beth yr wyt yn ei ddywedyd.
+
+</lb>
+<lb n="71">
+
+ 71 A phan aeth efe allan i 'r porth y gwelodd
+ [morwyn] arall ef, ac hi a ddywedodd wrth y
+ rhai oeddynt yno, yr oedd hwn hefyd gŷd â 'r
+ Iesu o Nazareth.
+
+</lb>
+<lb n="72">
+
+ 72 A thrachefn efe a wadodd, gan dyngu, nid
+ adwen i y dŷn.
+
+</lb>
+<lb n="73">
+
+ 73 Ac ychydig wedi hynny y daeth atto rai
+ a oeddynt yn sefyll ger llaw, ac a ddywedasant
+ wrth Petr, yn wîr yr wyt ti yn vn o honynt, canys y mae dy leferydd yn dy gyhuddo.
+
+</lb>
+<lb n="74">
+
+ 74 Yna y dechreuodd efe ymregu, a thyngu,
+ gan ddywedyd, nid adwen i y dŷn, ac yn y man
+ y cânodd y ceiliog.
+
+</lb>
+<lb n="75">
+
+ 75 Yna y cofiodd Petr eiriau 'r Iesu yr hwn
+ a ddywedase wrtho, cyn canu 'r ceiliog ti a 'm
+ gwedi fi dair gwaith, yna yr aeth efe allan, ac
+ yr ŵylodd yn dost.
+
+
+</lb>
+        </pb>
+    
+<pb n="27">
+
+
+        <head>
+         PEN. XXVII.
+        </head>
+            
+<lb n="argument">
+
+
+ Yr Iddewon yn rhoddi Crist yn rhwym at Pilat. 34
+ Hwy yn ei roddi ef ar y groes, ac yn ei gablu, 50 Ac
+ yntef yn marw. 57 Ioseph yn ei gladdu ef.
+</lb>
+
+<lb n="1">
+
+ 1 A Phan ddaeth y boreu, yr ymgynghorodd
+ yr holl arch-offeiriaid a henuriaid y bobl
+ yn erbyn yr Iesu fel y rhoddent ef i farwolaeth.
+
+</lb>
+<lb n="2">
+
+ 2 Ac hwy a aethant ymmaith ag ef yn rhwym, ac a 'i rhoesant at Pontius Pilatus y rhaglaw.
+
+</lb>
+<lb n="3">
+
+ 3 Yna pan weles Iudas yr hwn a 'i bradychodd ef fyned barn yn ei erbyn ef, fe a fu edifar
+ ganddo, ac a ddug trachefn y dêc ar hugain
+ arian i 'r arch-offeiriaid a 'r henuriaid,
+
+</lb>
+<lb n="4">
+
+ 4 Gan ddywedyd, pechais gan fradychu
+ gwaed gwirion, hwytheu a ddywedasant, pa beth
+ yw hynny i ni? edrych ti.
+
+</lb>
+<lb n="5">
+
+ 5 Ac wedi iddo daflu 'r arian yn y Deml, efe
+ a ymadawodd, ac a aeth, ac a ymgrogodd.
+
+</lb>
+<lb n="6">
+
+ 6 A 'r arch-offeiriaid a gymmerasant yr arian, ac a ddywedasant, nid cyfreithlon i ni eu
+ bwrw hwynt yn y tryssor-dŷ, canys gwerth
+ gwaed ydyw.
+
+</lb>
+<lb n="7">
+
+ 7 Ac wedi iddynt ymgynghori, hwy a brynnasant ag hwynt faes y crochenydd, yn gladdfa
+ diethriaid [~ dieithriaid ].
+
+</lb>
+<lb n="8">
+
+ 8 Ac am hynny y gelwir y maes hwnnw,
+ maes y gwaed, hyd heddyw.
+
+</lb>
+<lb n="9">
+
+
+ 9 (Yna y cyflawnwyd yr hyn a ddywetpwyd
+ trwy Ieremias y prophwyd, gan ddywedyd, ac
+ hwy a gymmerasant ddec ar hugain o arian,
+ gwerth y gwerthedic, yr hwn a brynnasant gan
+ feibion Israel.
+
+</lb>
+<lb n="10">
+
+ 10 Ac hwy a 'i rhoesant am faes y crochenydd,
+ megis y gosodes yr Arglwydd i mi.)
+
+</lb>
+<lb n="11">
+
+ 11 A 'r Iesu a safodd ger bron y rhaglaw,
+ a 'r rhaglaw a ofynnodd iddo, gan ddywedyd: a
+ wyt ti yn frenin yr Iddewon? a 'r Iesu a ddywedodd wrtho, ti a 'i ddywedaist.
+
+ 
+</lb>
+<lb n="12">
+
+ 12 A phan gyhuddwyd ef gan yr arch-offeiriaid a 'r henuriaid, nid attebodd efe ddim.
+
+</lb>
+<lb n="13">
+
+ 13 Yna y dywedodd Pilatus wrtho, oni
+ chlywi faint o bethau y maent hwy yn eu testiolaethu yn dy erbyn?
+
+</lb>
+<lb n="14">
+
+ 14 Ac nid attebodd efe iddo vn gair, fel y
+ rhyfeddodd y rhaglaw yn fawr.
+
+</lb>
+<lb n="15">
+
+ 15 Ac ar yr ŵyl honno yr arfere y rhaglaw
+ ollwng i 'r bobl vn carcharor, yr hwn a ofynnent.
+
+</lb>
+<lb n="16">
+
+ 16 Yna yr oedd ganddynt garcharor hynod
+ a elwyd Barrabas.
+
+</lb>
+<lb n="17">
+
+ 17 Ac wedi iddynt ymgasclu yng-hyd [~ ynghyd ], Pilatus a ddywedodd wrthynt, pa vn a fynnwch i
+ mi ei ollwng i chwi? Barrabas, ai 'r Iesu 'r
+ hwn a elwir Crist?
+
+</lb>
+<lb n="18">
+
+ 18 Canys efe a ŵydde yn dda, mai o genfigen y rhoddasent ef.
+
+</lb>
+<lb n="19">
+
+ 19 Ac efe yn eistedd ar yr orsedd-faingc, ei
+ wraig a ddanfonodd atto gan ddywedyd, na fydded i ti a wnelech â 'r cyfiawn hwnnw, canys
+ goddefais lawer heddyw mewn breuddwydion
+ o 'i achos ef.
+
+</lb>
+<lb n="20">
+
+ 20 A 'r arch-offeiriaid a 'r henuriaid a hudasant bobl i ofyn Barrabas, a difetha 'r Iesu.
+
+</lb>
+<lb n="21">
+
+ 21 A 'r rhaglaw a attebodd, ac a ddywedodd
+ wrthynt, pa vn o 'r ddau a fynnwch i mi ei ollwng i chwi? hwythau a ddywedasant, Barrabas.
+
+</lb>
+<lb n="22">
+
+ 22 Pilatus a ddywedodd wrthynt, pa beth
+ a wnaf i Iesu 'r hwn a elwir Crist? hwy oll a
+ ddywedâsant wrtho, croes-hoelier ef.
+
+</lb>
+<lb n="23">
+
+ 23 Yna y dywedodd y rhaglaw, ond pa
+ ddrwg a wnaeth efe? yna y llefâsant yn fwy,
+ gan ddywedyd, croes-hoelier ef.
+
+</lb>
+<lb n="24">
+
+ 24 Pan welodd Pilatus na thyccie iddo,
+ ond bôd mwy o gynnwrf yn codi, efe a gymmerth ddwfr, ac a olchodd ei ddwylo ger bron y
+ bobl, gan ddywedyd, dieuog ydwyf oddi wrth
+ waed y cyfiawn hwn, edrychwch chwi.
+
+</lb>
+<lb n="25">
+
+ 25 A 'r holl bobl a attebodd, ac a ddywedodd,
+ bydded ei waed ef arnom ni, ac ar ein plant.
+
+</lb>
+<lb n="26">
+
+ 26 Yna y gollyngodd efe Barrabas iddynt,
+ ac efe a fflangellodd yr Iesu, ac a 'i rhoddes i 'w
+ groes-hoelio.
+
+</lb>
+<lb n="27">
+
+ 27 Yna mil-wŷr y rhaglaw a gymmerasant yr Iesu i 'r dadleudŷ, ac a gynhullasant atto
+ yr holl fyddin.
+
+</lb>
+<lb n="28">
+
+ 28 Ac hwy a 'i dioscasant, ac a roesant am dano fantell o scarlat,
+
+</lb>
+<lb n="29">
+
+ 29 Ac a blethâsant goron ddrain, ac a 'i dodasant ar ei benn, a chorsen yn ei law, ac a blygasant eu gliniau ger ei fron ef, ac a 'i gwatwarâsant, gan ddywedyd, henffych well, Brenin yr
+ Iddewon.
+
+</lb>
+<lb n="30">
+
+ 30 Ac hwy a boerâsant arno, ac a gymmerasant gorsen, ac a 'i tarawsant ar ei benn.
+
+</lb>
+<lb n="31">
+
+ 31 Ac wedi iddynt ei watwar, hwy a 'i dioscasant ef o 'r fantell, ac a 'i gwiscasant ef â 'i ddillad ei hun, ac a aethant ag ef i 'w groes-hoelio.
+
+</lb>
+<lb n="32">
+
+ 32 Ac fel yr oeddynt yn myned allan, hwy
+ 
+ a gawsant ddŷn o Ciren a elwyd Simon: a
+ hwn a gymhellhâsant hwy i ddwyn ei groes ef.
+
+</lb>
+<lb n="33">
+
+ 33 A phan ddaethant i le a elwyd Golgatha, sef yr hwn yw y benglogfa,
+
+</lb>
+<lb n="34">
+
+ 34 Hwy a roesant iddo i 'w yfed finegr yn gymyscedic â bustl: ac wedi iddo ei brofi, ni fynnodd efe yfed.
+
+</lb>
+<lb n="35">
+
+
+ 35 Ac wedi iddynt ei groes-hoeli ef, hwy a
+ rannasant ei ddillad, ac a fwriasant goel-brennau, er cyflawni y peth a ddywetpwyd trwy 'r
+ prophwyd: hwy a rannasant fy nillad yn eu
+ plith, ac ar fyng-wisc y bwriasant goel-brennau.
+
+</lb>
+<lb n="36">
+
+ 36 Ac hwy a eisteddâsant, ac a 'i gwiliâsant
+ ef yno.
+
+</lb>
+<lb n="37">
+
+
+ 37 Ac hwy a osodâsant hefyd vwch ei benn
+ ef ei achos yn scrifennedic, Hwn Yw Iesv
+ Brenin Yr Iddewon.
+
+</lb>
+<lb n="38">
+
+ 38 Yna y croes-hoeliwyd dau leidr gŷd ag
+ ef, vn ar y llaw ddehau, ac arall ar yr asswy.
+
+</lb>
+<lb n="39">
+
+ 39 A 'r rhai oeddynt yn myned heibio a 'i cablasant ef, gan escwyt [~ ysgwyd ] eu pennau,
+
+</lb>
+<lb n="40">
+
+ 40 A dywedyd, ti 'r hwn a ddestruwi 'r
+ Deml, ac a 'i hadailedi mewn tri-diau, cadw dy
+ hun, os ti yw Mâb Duw, descyn oddi ar y
+ groes.
+
+</lb>
+<lb n="41">
+
+ 41 A 'r vn modd yr arch-offeiriaid a 'i gwatwarasant ef, gŷd â 'r scrifennyddion a 'r henuriaid, gan ddywedyd,
+
+</lb>
+<lb n="42">
+
+ 42 Efe a waredodd eraill, nis gall efe ei
+ ymwared ei hun: os Brenin yr Israel yw efe,
+ descynned yr awr hon oddi ar y groes, ac ni a
+ gredwn iddo.
+
+</lb>
+<lb n="43">
+
+ 43 Efe a ymddyriedodd yn Nuw, rhyddhaed efe ef yr awr hon os myn ef: canys efe a
+ ddywedodd, Mâb Duw ydwyf.
+
+
+</lb>
+<lb n="44">
+
+ 44 Yr vn peth hefyd a edliwiodd y lladron,
+ y rhai a grogasid gŷd ag ef, iddo ef.
+
+</lb>
+<lb n="45">
+
+ 45 Ac o 'r chweched awr y bu tywyllwch
+ mawr ar yr holl ddaiar, hyd y nawfed awr.
+
+</lb>
+<lb n="46">
+
+
+ 46 Ac yng-hylch [~ ynghylch ] y nawfed awr, y llefodd yr
+ Iesu â llef vchel, gan ddywedyd Eli, Eli, lama
+ sabachthani? hynny yw, fy Nuw, fy Nuw, pa
+ ham i 'm gwrthodaist?
+
+</lb>
+<lb n="47">
+
+ 47 A rhai o 'r sawl oeddynt yn sefyll yno, pan
+ glywsant, a ddywedâsant, y mae hwn yn galw
+ ar Elias.
+
+</lb>
+<lb n="48">
+
+ 48 Ac yn y fan vn o honynt a redodd, ac a
+ gymmerth yspwrn, ac a 'i llanwodd o finegr,
+ ac a 'i rhoddes ar gorsen, ac a 'i rhoes iddo, i 'w yfed.
+
+</lb>
+<lb n="49">
+
+ 49 Eraill a ddywedâsant, gad ti iddo: edrychwn a ddaw Elias i 'w waredu.
+
+</lb>
+<lb n="50">
+
+ 50 Yna y llefodd yr Iesu trachefn â llef vchel, ac a ymadawodd â 'r yspryd.
+
+</lb>
+<lb n="51">
+
+ 51 Ac wele, llen y deml a rwygwyd yn
+ ddau, o 'r cwrr vchaf hyd yr isaf, a 'r ddaiar a
+ grynodd, a 'r main a holltwyd.
+
+</lb>
+<lb n="52">
+
+ 52 A 'r beddau a ymagorâsant, a llawer o
+ gyrph y sainct y rhai a oeddynt yn huno, a godâsant,
+
+ 
+</lb>
+<lb n="53">
+
+ 53 Ac a ddaethant allan o 'r beddau ar ôl ei
+ gyfodiad ef, ac a aethant i mewn i 'r ddinas
+ sanctaidd, ac a ymddangosâsant i lawer.
+
+</lb>
+<lb n="54">
+
+ 54 Pan welodd y canwriad, a 'r rhai oeddynt gŷd ag ef yn gwilied yr Iesu, y ddaiar yn
+ crynu, a 'r pethau a wnaethid, hwy a ofnasant
+ yn fawr, gan ddywedyd, yn wir Mâb Duw ydoedd hwn.
+
+</lb>
+<lb n="55">
+
+ 55 Ac yr oedd yno lawer o wragedd yn edrych arno o hir-bell, y rhai a ganlynâsent yr
+ Iesu o 'r Galilæa gan weini iddo ef.
+
+</lb>
+<lb n="56">
+
+ 56 Ym mhlith y rhai 'r oedd Mair Magdalen, a Mair mam Iaco, ac Ioses, a mam meibion Zebedeus.
+
+</lb>
+<lb n="57">
+
+ 57 Ac wedi ei myned hi yn hwyr fe a
+ ddaeth gŵr goludog o Arimathia, a 'i henw Ioseph, yr hwn a fuase yntef yn ddiscybl i 'r Iesu.
+
+</lb>
+<lb n="58">
+
+ 58 Hwn a aeth at Pilatus, ac a ofynnodd
+ gorph yr Iesu: yna y gorchymynnodd Pilatus
+ roddi 'r corph.
+
+</lb>
+<lb n="59">
+
+ 59 Ac felly y cymmerth Ioseph y corph, ac
+ a 'i hamdoes â lliain main glân.
+
+</lb>
+<lb n="60">
+
+ 60 Ac a 'i rhoddes yn ei fedd newydd, yr
+ hwn a dorrase efe mewn craig, ac a dreiglodd
+ faen mawr wrth ddrws y bedd, ac a aeth ymmaith.
+
+</lb>
+<lb n="61">
+
+ 61 Ac yr oedd yno Mair Magdalen, a
+ Mair arall yn eistedd gyferbyn â 'r bedd.
+
+</lb>
+<lb n="62">
+
+ 62 A thrannoeth yr hwn sydd ar ôl y darparwyl yr ymgynhullodd 'r arch-offeiriaid a 'r
+ Pharisæaid at Pilatus,
+
+</lb>
+<lb n="63">
+
+ 63 Ac a ddywedasant, ô arglwydd y mae
+ yn gof gennym ddywedyd o 'r twyll-wr hwnnw, ac efe etto yn fyw, o fewn tri-diau y cyfodaf.
+
+
+</lb>
+<lb n="64">
+
+ 64 Gorchymyn gan hynny gadw y bedd
+ yn ddiogel hyd y trydydd dydd, rhag dyfod ei
+ ddiscyblion o hŷd nos a 'i ladratta ef, a dywedyd
+ wrth y bobl, efe a gyfododd o feirw, ac felly y
+ bydd yr amryfusedd dyweddaf [~ diweddaf ] yn waeth nâ 'r
+ cyntaf.
+
+</lb>
+<lb n="65">
+
+ 65 Yna y dywedodd Pilatus wrthynt, y
+ mae gennych wiliadwriaeth, ewch, gwnewch
+ mor ddiogel ac y medroch.
+
+</lb>
+<lb n="66">
+
+ 66 Ac hwy a aethant, ac a wnaethant y bedd
+ yn ddiogel a 'r wiliadwriaeth, ac a seliasant y
+ maen.
+
+
+</lb>
+        </pb>
+    
+<pb n="28">
+
+
+        <head>
+         PEN. XXVIII.
+        </head>
+            
+<lb n="argument">
+
+
+ Adgyfodiad Crist, 2 yr Angel yn cyssuro y gwragedd.
+ hwythau yn gweled Crist. 18 Crist yn anfon ei ddiscyblion i bregethu.
+</lb>
+
+<lb n="1">
+
+ 1 YNa yn niwedd y Sabboth, a hi yn dyddhau yn y dydd cyntaf o 'r wythnos, y daeth
+ Mair Magdalen a Mair arall i edrych y bedd.
+
+</lb>
+<lb n="2">
+
+ 2 Ac wele bu daiar-gryn mawr: canys descynnodd Angel yr Arglwydd o 'r nef, ac a ddaeth, ac a dreiglodd y garrec oddi wrth y drws,
+ ac a eisteddodd arni.
+
+</lb>
+<lb n="3">
+
+ 3 A 'i wyneb-pryd oedd fel mellten, a 'i wisc
+ yn wen fel eira.
+
+</lb>
+<lb n="4">
+
+ 4 A rhag ei ofn ef dychrynnodd y ceidwaid
+ ac aethant megis yn feirw.
+
+</lb>
+<lb n="5">
+
+ 5 A 'r Angel a attebodd, ac a ddywedodd
+ wrth y gwragedd, nac ofnwch: canys mi a wn
+ mai ceisio 'r ydych yr Iesu 'r hwn a groes-hoeliwyd,
+
+</lb>
+<lb n="6">
+
+ 6 Nid yw efe ymma, canys cyfododd megis y dywedodd, deuwch, a gwelwch y fann lle
+ y rhoddwyd yr Arglwydd.
+
+</lb>
+<lb n="7">
+
+ 7 Ac ewch ar ffrwst, a dywedwch i 'w ddiscyblion gyfodi o honaw o feirw: ac y mae efe
+ yn myned o 'ch blaen chwi i Galilæa: yno y
+ gwelwch ef: wele dywedais i chwi.
+
+</lb>
+<lb n="8">
+
+ 8 Yna 'r aethant yn ebrwydd o 'r fonwent [~ fynwent ]
+ gan ofn a llawenydd mawr, ac a redâsant i fynegu i 'w ddiscyblion.
+
+</lb>
+<lb n="9">
+
+ 9 Ac fel yr oeddynt yn myned i fynegu i 'w
+ ddiscyblion ef, yna wele cyfarfu 'r Iesu ag hwynt gan ddywedyd, henffych well, ac hwy a ddaethant, ac y ymafelâsant yn ei draed ef, ac a 'i
+ haddolâsant.
+
+</lb>
+<lb n="10">
+
+ 10 Yna y dywedodd yr Iesu wrthynt, nac
+ ofnwch: ewch a dywedwch i 'm brodyr, fel y delant i Galilæa, yno y gwelant fi.
+
+</lb>
+<lb n="11">
+
+ 11 Ac wedi eu myned hwy: wele rhai o 'r
+ wiliadwriaeth a ddaethant i 'r ddinas, ac a fynegâsant i 'r arch-offeiriaid yr hyn oll a wnaethid.
+
+</lb>
+<lb n="12">
+
+ 12 Ac wedi iddynt ymgasclu yng-hyd [~ ynghyd ] a 'r
+ henuriaid, hwy a ymgynghorâsant, ac a roesant
+ arian yn helaeth i 'r milwŷr,
+
+</lb>
+<lb n="13">
+
+ 13 Gan ddywedyd, dywedwch, ei ddiscyblion13  a ddaethant o hŷd nôs, ac a 'i lladratâsant ef,
+ a ni yn cyscu.
+
+
+</lb>
+<lb n="14">
+
+ 14 Ac os clyw y rhaglaw hyn, ni a 'i dygwn
+ ef i gredu, ac a 'ch gwnawn chwi yn ddiofal.
+
+</lb>
+<lb n="15">
+
+ 15 Ac hwy a gymmerasant yr arian, ac a
+ wnaethant fel yr addyscwyd hwynt: ac fe a gyhoeddwyd y gair hwn ym mhlith yr Iddewon
+ hyd y dydd heddyw.
+
+</lb>
+<lb n="16">
+
+ 16 Yna 'r aeth yr vn discybl ar ddêc i Galilæa, i 'r mynydd lle 'r archase yr Iesu iddynt.
+
+</lb>
+<lb n="17">
+
+ 17 A phan welsant ef, hwy a 'i haddolâsant
+ ef, a rhai a amheuasant.
+
+</lb>
+<lb n="18">
+
+ 18 A 'r Iesu a ddaeth, ac a lefarodd wrthynt
+ gan ddywedyd: rhoddwyd i mi bôb awdurdod
+ yn y nef, ac ar y ddaiar.
+
+</lb>
+<lb n="19">
+
+ 19 Ewch gan hynny a dyscwch yr holl genhedloedd, gan eu bedyddio hwy yn enw 'r Tâd,
+ a 'r Mâb, a 'r Yspryd glân.
+
+</lb>
+<lb n="20">
+
+ 20 Gan ddyscu iddynt gadw pôb peth a 'r a
+ orchymynnais i chwi: ac wele 'r ydwyf gŷd â
+ chwi bob amser, hyd diwedd y byd. Amen.
+
+
+
+</lb>
+                    </pb>
+                </text><text id="b1588cor">
+
+
+        <head>
+        Ail Epistol Paul at y Corinthiaid.
+        </head>
+            
+ 
+
+<pb n="1">
+
+
+        <head>
+         PENNOD. I.
+        </head>
+            
+<lb n="argument">
+
+
+ Y mae yn dangos fod ei gystudd yn Asia yn ddiddanwch
+ iddynt hwy. 17 Ac yn dangos nad o yscafnder meddwl yr oedâse efe ddyfod attynt pan addawse.
+</lb>
+
+<lb n="1">
+
+ 1 PAUL Apostol Iesu
+ Grist, a 'r brawd Timotheus trwy ewyllys Duw at eglwys
+ Dduw yr hon sydd
+ yn Corinth, gyd â 'r
+ holl seinctiau y rhai
+ sy yn holl Achaia:
+
+</lb>
+<lb n="2">
+
+ 2 Grâs fyddo gyd â
+ chwi, a thangneddyf gan Dduw ein Tâd, a 'r
+ Arglwydd Iesu Grist.
+
+</lb>
+<lb n="3">
+
+ 3 Bendigedic fyddo Duw Tâd ein Harglwydd ni Iesu Ghrist [~ Grist ], Tâd y trugareddau, a
+ Duw holl ddiddanwch,
+
+</lb>
+<lb n="4">
+
+ 4 Yr hwn sydd yn ein diddânu ni yn ein holl
+ orthrymder, fel y gallom ddiddânu y rhai sy
+
+ 
+ mewn dim gorthrymder, trwy y diddanwch ein
+ diddenir ninnau gan Dduw.
+
+</lb>
+<lb n="5">
+
+ 5 O blegit fel yr amlheir dioddefiadau Crist
+ ynom, felly yr amlheir ein diddanwch ni trwy
+ Grist.
+
+</lb>
+<lb n="6">
+
+ 6 Hefyd os cystuddir ni [y mae hynny] er
+ diddanwch, ac iechydwriaeth i chwi, yr hon a
+ weithir gan ymaros yn yr vn rhyw ddioddefiadau, y rhai yr ydym ni hefyd yn eu dioddef: ac
+ os diddenir ni, er diddanwch ac iechydwriaeth i
+ chwi [y mae hynny.]
+
+</lb>
+<lb n="7">
+
+ 7 Ac y mae ein gobaith yn siccr am danoch,
+ gan i ni ŵybod, mai megis yr ydych yn gyfrannogion o 'r dioddefiadau, felly [y byddwch] hefyd o 'r diddanwch.
+
+</lb>
+<lb n="8">
+
+ 8 Canys frodyr ni fynnem i chwi fod heb
+ ŵybod, am ein cystudd a ddaeth i ni yn Asia, bwyso arnom yn anfeidrol vwch ben [ein] gallu,
+ hyd onid oeddem yn ammeu na allem fyw.
+
+</lb>
+<lb n="9">
+
+ 9 Ond ni a dderbyniasom farn angeu ynom,
+
+ 
+ fel na obeithiom ynom ein hunain, onid yn
+ Nuw yr hwn sydd yn cyfodi i fynu y meirw.
+
+</lb>
+<lb n="10">
+
+ 10 Yr hwn a 'n gwaredodd ni oddi wrth gyfryw ddirfawr angeu, ac sy yn ein gwaredu: yn
+ yr hwn yr ydym yn gobeitho y gwared efe rhag
+ llaw.
+
+</lb>
+<lb n="11">
+
+ 11 Os chwy-chwi a gydweithiwch mewn
+ gweddi trosom, fel, am y rhoddiad a rodded i ni
+ o herwydd llawer, y rhodder diolch gan lawer
+ trosom,
+
+</lb>
+<lb n="12">
+
+ 12 Canys ein gorfoledd ni yw hyn, [sef,]
+ testiolaeth ein cydwybod ni, o blegit mewn disymlrwydd a duwiol burdeb, ac nid yn noethineb cnawdol, ond trwy râs Duw, y bu i ni ein
+ ymddwyn ein hunain yn y bŷd, ac yn enwedic yn
+ eich mysc chwi.
+
+</lb>
+<lb n="13">
+
+ 13 Canys nid ydym yn scrifennu amgen
+ bethau attoch, nac yr ydych yn eu darllen, neu
+ yr ydych yn eu cydnabod, ac yr ydwyf yn gobeithio y cydnabyddwch hyd y diwedd.
+
+</lb>
+<lb n="14">
+
+ 14 Ac megis y cydnabuoch ni, o rann ein
+ bôd yn orfolaeth i chwi, fel yr ydych chwithau i
+ ninnau yn nŷdd yr Arglwydd Iesu Grist.
+
+</lb>
+<lb n="15">
+
+ 15 Ac yn y gobaith hyn yr oeddwn yn ewyllysio dyfod attoch y waith gyntaf, fel y caffech ail grâs.
+
+</lb>
+<lb n="16">
+
+
+ 16 A myned (heb eich llaw chwi i Macedonia, a dyfod trachefn o Macedonia attoch, a
+ chael fy hebrwng gennwch i Iudæa.
+
+</lb>
+<lb n="17">
+
+ 17 Gan hynny pan oeddwn yn amcanu fel
+ hyn, a arferais i o yscafnder? neu a wyfi yn amcanu y petheu yr wyf yn amcanu, ar ôl y cnawd,
+ fel y bydde gyd â mi îe, îe, ac nag ê, nag ê?
+
+</lb>
+<lb n="18">
+
+ 18 Ond Duw sydd ffyddlon, canys nid îe,
+ ac nag ê ydoedd ein ymadrodd wrthych chwi.
+
+</lb>
+<lb n="19">
+
+ 19 Canys Mab Duw Iesu Grist yr hwn a
+ bregethwyd yn eich plith genym ni, sef myfi a
+ Silfanus a Timotheus, nid ydoedd, îe, ac nag e
+ eithr ynddo ef ie ydoedd.
+
+</lb>
+<lb n="20">
+
+ 20 O blegit holl addewidion Duw ynddo
+ ef ydynt, îe, ac ynddo ef [ydynt] Amen, er gogoniant Duw trwyddom ni.
+
+</lb>
+<lb n="21">
+
+ 21 A Duw [yw] 'r hwn a 'n cadarnhâ ni
+ gyd â chwi yng-Hrist [~ yng Nghrist ], ac a 'n enêiniodd ni.
+
+</lb>
+<lb n="22">
+
+ 22 Yr hwn hefyd a 'n seliodd, ac a roes
+ wystleidiaeth yr yspryd yn ein calonnau.
+
+</lb>
+<lb n="23">
+
+ 23 Ac yr ŵyf fi yn galw Duw yn dŷst i 'm
+ henaid, mai er eich arbed chwi na ddaethym
+ etto i Corinth.
+
+</lb>
+<lb n="24">
+
+ 24 Nid am ein bôd yn arglwyddiaethu ar
+ eich ffydd chwi, ond yr ydym yn gyd-weithwŷr
+ i 'ch llawenydd: o blegit trwy ffydd yr ydych yn
+ sefyll.
+
+
+</lb>
+        </pb>
+    
+<pb n="2">
+
+
+        <head>
+         PEN. II.
+        </head>
+            
+<lb n="argument">
+
+
+ Y mae yn dangos fod yr hwn a yscymunasid am loscach
+ neu insest yn beth achos na ddaethe efe attynt hwy.
+ 6 Yn maddeu i hwnnw, gan ewyllysio eu cydundeb
+ hwythau i hynny. 14 Yn diolch am ffynniant yr Efengyl. 17 Ac yn amddeffyn [~ amddiffyn ] ei athrawiaeth yn erbyn y gau athrawon.
+</lb>
+
+<lb n="1">
+
+ 1 EIthr mi a fwriadais hyn ynof fy hunan, na
+ ddelwn attoch trachefn mewn tristwch.
+
+ 
+</lb>
+<lb n="2">
+
+ 2 O blegit as [~ os ] myfi a 'ch tristâf chwi, pwy
+ yw 'r hwn a 'm llawenhâ fi, ond yr hwn a dristawyd gennifi?
+
+</lb>
+<lb n="3">
+
+ 3 A mi a scrifennais hyn ymma attoch, rhag
+ (pan ddelwn) cael o honof dristwch ar dristwch
+ gan y rhai y dylwn ymlawenhau: gan obeitho
+ am danoch oll, fôd fy llawenydd i yn llawenydd i chwi oll.
+
+</lb>
+<lb n="4">
+
+ 4 Canys mewn gorthrymder mawr, a chyfyngder calon yr scrifennais attoch â dagrau
+ lawer, nid fel i 'ch tristaid chwi, eithr fel y gwybyddech y cariad sy gennif yn enwedig i chwi.
+
+</lb>
+<lb n="5">
+
+ 5 Os gwnaeth nêb dristau, ni wnaeth efe i
+ mi dristau, ond o rann, rhag i mi bwyso arnoch
+ chwi oll.
+
+</lb>
+<lb n="6">
+
+ 6 Digon [yw] i 'r cyfryw [ddŷn] y cerydd
+ ymma yr hwn a rodded iddo gan lawer.
+
+</lb>
+<lb n="7">
+
+ 7 Megis yn hytrach yng-wrthwynêb, y dylech chwi faddeu iddo a 'i ddiddânu, rhag llyngcu y cyfryw gan ormod tristwch.
+
+</lb>
+<lb n="8">
+
+ 8 Am hynny yr ydwyf yn attolwg i chwi,
+ gadarnhau eich cariad arno.
+
+</lb>
+<lb n="9">
+
+ 9 Canys er mwyn hyn hefyd yr scrifennais,
+ fel y cawn ŵybod profedigaeth am danoch, a
+ fyddech vfydd ym mhob peth.
+
+</lb>
+<lb n="10">
+
+ 10 I 'r hwn yr ydych yn maddeu dim iddo,
+ [yr wyf] finne: canys os maddeuais i ddim, i 'r
+ hwn y maddeuais er eich mwyn chwi [y maddeuais] yng-olwg Crist.
+
+</lb>
+<lb n="11">
+
+ 11 Rhag ein siommi gan Satan: canys
+ nid ydym heb ŵybod ei amcannion ef.
+
+</lb>
+<lb n="12">
+
+ 12 Pan ddaethym i Troas i [bregethu] Efengyl Grist, ac agoryd drŵs i mi gan yr Arglwydd,
+
+</lb>
+<lb n="13">
+
+ 13 Ni chefais lonydd yn fy yspryd am na
+ chefais Titus fy mrawd, eithr gan ganu yn
+ iach iddynt, mi a euthym ymmaith i Macedonia.
+
+</lb>
+<lb n="14">
+
+ 14 Ond i Dduw y byddo 'r diolch, yr hwn,
+ yn oestad [~ wastad ] sydd yn peri i ni orfoledd yng-Hrist [~ yng Nghrist ],
+ ac sydd yn eglurhau arogledd ei ŵybodaeth
+ trwyddom ni ym mhôb lle.
+
+</lb>
+<lb n="15">
+
+ 15 Canys per-arogl Crist ydym ni i Dduw,
+ yn y rhai cadwedig, ac yn y rhai colledig.
+
+</lb>
+<lb n="16">
+
+ 16 I 'r naill yr [ydym] yn arogl marwolaeth i farwolaeth, ac i 'r lleill yn arogl bywyd i fywyd, a phwy sydd ddigonol i hyn?
+
+</lb>
+<lb n="17">
+
+ 17 Canys nid ydym ni fel y mae llawer, yn
+ gwneuthur twyll am air Duw, eithr megis o
+ burdeb, eithr megis o Dduw, yng-wydd Duw
+ yr ydym yn llefaru yng-Hrist [~ yng Nghrist ].
+
+
+</lb>
+        </pb>
+    
+<pb n="3">
+
+
+        <head>
+         PEN. III.
+        </head>
+            
+<lb n="argument">
+
+
+ I beidio a 'i ganmol ei hun y mae efe yn dangos fod ei
+ glôd ef i 'w gweled yn y Corinthiaid. 6 A bod yr Efengyl yn fwy gogoneddus nâ 'r gyfraith.
+</lb>
+
+<lb n="1">
+
+ 1 AI dechreu yr ydym ni ein canmol ein hunain trachefn? ai rhaid i ni fel i eraill wrth
+ lythyrau canmoliaeth attoch chwi, neu canmoliaeth oddi wrthych chwi?
+
+</lb>
+<lb n="2">
+
+ 2 Ein llythr ni ydych chwi yn scrifennedig
+ yn ein calonnau, yr hwn a ddeallir, ac a ddarllenir gan bôb dŷn.
+
+ 
+</lb>
+<lb n="3">
+
+ 3 Gan fod yn eglur eich bôd chwi yn llythr
+ Crist, yr hwn a roddwyd allan trwy ein gweinidogaeth ni, ac a scrifennwyd, nid ag ingc, ond
+ ag Yspryd Duw byw, nid mewn llechau cerrig, eithr mewn cnawdol lechau y galon.
+
+</lb>
+<lb n="4">
+
+ 4 A chyfryw obaith sydd gennym trwy
+ Grist ar Dduw.
+
+</lb>
+<lb n="5">
+
+ 5 Nid o herwydd ein bôd ni ddigonol o honom ein hunain i feddylio dim megis o honom
+ ein hunain, eithr ein digonedd ni sydd o Dduw.
+
+</lb>
+<lb n="6">
+
+ 6 Yr hwn hefyd a 'n gwnaeth ni yn weinidogion y Testament newydd, nid i 'r llythyren,
+ ond i 'r Yspryd: canys y mae y llythyren yn
+ lladd, a 'r Yspryd sydd yn bywhau.
+
+</lb>
+<lb n="7">
+
+ 7 Ac os oedd gweinidogaeth angeu yr hon a
+ argraphwyd â llythyrennau ar lechau yn ogoneddus, fel na alle plant yr Israel edrych yn
+ ŵyneb Moses gan ogoniant ei wyneb-pryd, yr
+ hwn [ogoniant] a ddeleuwyd [~ ddilewyd ],
+
+</lb>
+<lb n="8">
+
+ 8 Pa fodd nad mwy y bydd gweinidogaeth
+ yr Yspryd mewn gogoniant?
+
+</lb>
+<lb n="9">
+
+ 9 Canys os bu gweinidogaeth colledigaeth
+ yn ogoneddus, mwy o lawer y rhagora gweinidogaeth cyfiawnder mewn gogoniant.
+
+</lb>
+<lb n="10">
+
+ 10 Canys yr hyn a ogoneddwyd, ni ogoneddwyd yn y rhan hon, [sef] hyd y perthyn i 'r
+ gogoniant ardderchog.
+
+</lb>
+<lb n="11">
+
+ 11 O blegit os yr hyn a ddeleuid [~ ddileid ] ymmaith
+ oedd yn ogoneddus, mwy o lawer [fydd] yr
+ hyn a erys, yn ogoneddus.
+
+</lb>
+<lb n="12">
+
+ 12 Felly, gan fôd gennym gyfryw obaith, yr
+ ydym yn arfer hyfder.
+
+</lb>
+<lb n="13">
+
+ 13 Ac nid ydym ni fel Moses, yr hwn a rodde orchudd ar ei wyneb, rhag i blant Israel
+ edrych ar ddiwedd yr hyn a ddeleuid [~ ddileid ].
+
+</lb>
+<lb n="14">
+
+ 14 Am hynny y caledwyd eu meddwl hwy:
+ canys hyd y dydd heddyw y mae y gorchudd
+ hwnnw yn aros heb ei dadguddio wrth ddarllen y hên Destament, yr hwn yng-Hrist [~ yng Nghrist ] a dynnir ymmaith.
+
+</lb>
+<lb n="15">
+
+ 15 Eithr hyd y dydd heddyw pan ddarllenir
+ Moses, y rhoddir y gorchudd ar eu calonnau
+ hwynt.
+
+</lb>
+<lb n="16">
+
+ 16 Er hynny pan ymchweler at yr Arglwydd, y tynnir y gorchudd.
+
+</lb>
+<lb n="17">
+
+ 17 Yr awron yr Arglwydd yw 'r Yspryd,
+ a lle mae Yspryd yr Arglwydd, yno y mae
+ rhydd-did.
+
+</lb>
+<lb n="18">
+
+ 18 Eithr edrych yr ydym ni oll, megis mewn drych, ar ogoniant yr Arglwydd ag wyneb
+ agored, ac i 'n newidir ni i 'r vnrhyw ddelw, o
+ ogoniant i ogoniant, megis gan Yspryd yr Arglwydd.
+
+
+</lb>
+        </pb>
+    
+<pb n="4">
+
+
+        <head>
+         PEN. IIII.
+        </head>
+            
+<lb n="argument">
+
+
+ Dywydrwydd [~ Diwydrwydd ] Paul yn ei swydd. 13 A 'r achosion y rhai
+ sy yn peri.
+</lb>
+
+<lb n="1">
+
+ 1 AM hynny gan fôd i ni y weinidogaeth
+ hon, megis y cawsom drugaredd, nid
+ ydym yn pallu.
+
+</lb>
+<lb n="2">
+
+ 2 Eithr ni a wrthodasom ddirgelwch gwradwydd, heb rodio yn ddichellgar, nac arfer
+ 
+ twyll am air Duw: eithr trwy eglurhâd y gwirionedd yr ydym yn ein canmol ein hun wrth
+ bôb cydwybod dŷn ger bron Duw.
+
+</lb>
+<lb n="3">
+
+ 3 Ac os yw ein Efengyl ni yn guddiedic, yn
+ y rhai colledig y mae yn guddiedic.
+
+</lb>
+<lb n="4">
+
+ 4 Ym mha rai y dallodd Duw y bŷd hwn
+ feddyliau yr anffyddlonion, rhag tywynnu
+ iddynt lewyrch Efengyl gogoniant Crist, yr
+ hwn yw delw Dduw.
+
+</lb>
+<lb n="5">
+
+ 5 Canys nid ydym yn ein pregethu ein hunain, ond Crist Iesu yr Arglwydd, a ninneu
+ yn weision i chwi er mwyn Iesu.
+
+</lb>
+<lb n="6">
+
+ 6 Canys Duw yr hwn a orchymynnodd i 'r
+ goleuni lewyrchu o dywyllwch, [yw] yr hwn a
+ lewyrchodd yn ein calonnau, i roddi goleuni
+ gwybodaeth gogoniant Duw, yn ŵyneb Iesu Grist.
+
+</lb>
+<lb n="7">
+
+ 7 Eithr y tryssor hwn sydd gennym mewn
+ llestri pridd, fel y bydde ardderchogrwydd y meddiant hwnnw o Dduw, ac o honom ni.
+
+</lb>
+<lb n="8">
+
+ 8 Ym mhôb man ein cystuddir, er hynny nid
+ ydym mewn ing: y mae yn gaeth arnom, ond
+ nid ydym gwbl heb obaith.
+
+</lb>
+<lb n="9">
+
+ 9 Wedi ein herlid, ond heb ein gwrthod, wedi ein taflu i lawr eithr heb ein difetha.
+
+</lb>
+<lb n="10">
+
+ 10 Gan arwain bob amser o amgylch yn y
+ corph, farwolaeth yr Arglwydd Iesu, fel yr eglurer hefyd fywyd Iesu yn ein corph.
+
+</lb>
+<lb n="11">
+
+ 11 Canys yr ydys yn ein rhoddi ni y rhai
+ ydym yn oestad [~ wastad ] i farwolaeth er mwyn Iesu, fel
+ yr eglurhaer hefyd fywyd Iesu yn ein marwol
+ gnawd ni.
+
+</lb>
+<lb n="12">
+
+ 12 Ac felly y mae angeu yn gweithio ynom
+ ni, ac enioes [~ einioes ] ynoch chwithau.
+
+</lb>
+<lb n="13">
+
+ 13 A chan fôd i ni yr vn yspryd ffydd, megis
+ ac y mae yn scrifennedic, credais, ac am hynny y
+ dywedais, ninnau hefyd ydym yn credu, ac am
+ hynny y dywedwn,
+
+</lb>
+<lb n="14">
+
+ 14 Gan ŵybod y bydd i 'r hwn a gyfododd
+ yr Arglwydd Iesu, ein cyfodi ninnau hefyd
+ trwy Iesu, a 'n gosod gyd â chwi.
+
+</lb>
+<lb n="15">
+
+ 15 Canys pôb peth sydd er eich mwyn
+ chwi, fel yr amlhâo yr helaethaf râs trwy ddiolch llawer er gogoniant i Dduw.
+
+</lb>
+<lb n="16">
+
+ 16 Am hynny nid ydym ni yn ymollwng,
+ eithr er llygru ein dŷn oddi allan, er hynny y
+ dŷn oddi mewn a adnewyddir o ddydd i ddydd.
+
+</lb>
+<lb n="17">
+
+
+ 17 O blegit y mae yscafnder ein cystudd yr
+ hwn ni pheru ond munyd, yn peri i ni yn rhagorol [gael] rhagorol a thragywyddol bwys gogoniant.
+
+</lb>
+<lb n="18">
+
+ 18 Tra nid ydym yn ystyried y pethau a welir
+ ond y pethau ni welir: canys y pethau a welir
+ sy amserol, a 'r pethau ni welir sy dragywyddol.
+
+
+</lb>
+        </pb>
+    
+<pb n="5">
+
+
+        <head>
+         PEN. V.
+        </head>
+            
+<lb n="argument">
+
+
+ Mor fuddiol yw marwolaeth dduwiol i 'r duwiol. 14
+ Mawredd grâs Duw. 20 Swydd a braint eglwys-wyr.
+</lb>
+
+<lb n="1">
+
+ 1 CAnys ni a wyddom os daiarol dŷ ein presswylfod a ddotodir [~ ddatodir ], fôd i ni adeilad gan
+ Dduw, [sef] tŷ, nid o waith llaw, [ond] tragywyddol yn y nefoedd.
+
+ 
+</lb>
+<lb n="2">
+
+ 2 Canys am hynny yr ydym yn ocheneidio
+ gan ddeisyfio cael ein gwisco â 'n tŷ yr hwn sydd
+ o 'r nêf.
+
+</lb>
+<lb n="3">
+
+ 3 O blegit os gwiscir ni, ni 'n ceffir yn
+ noethion.
+
+</lb>
+<lb n="4">
+
+ 4 Canys yn ddiau [nyni] y rhai sy yn y babell hon ydym yn ocheneidio, ac yn llwythog
+ am nad ewyllysiem ein diosc, ond ymwisco, fel
+ y llyngcid yr hyn sydd farwol gan fywyd.
+
+</lb>
+<lb n="5">
+
+ 5 A 'r hwn a 'n creawdd ni i hyn yw Duw,
+ yr hwn hefyd a roddodd i ni ŵystleidiaeth yr
+ Yspryd.
+
+</lb>
+<lb n="6">
+
+ 6 Am hynny yr ydym bôb amser yn hyderus,
+ ac yn gŵybod tra fôm gartref yn y corph, ein
+ bôd oddi cartref oddi wrth yr Arglwydd.
+
+</lb>
+<lb n="7">
+
+ 7 Canys wrth ffydd yr ydym yn rhodio, ac
+ nid wrth y golwg.
+
+</lb>
+<lb n="8">
+
+ 8 Er hynny yr ydym yn hyderus, ac y mae
+ yn fodlonach gennym fod oddi cartref o 'r corph
+ a chartrefu gyd â 'r Arglwydd.
+
+</lb>
+<lb n="9">
+
+ 9 Am hynny hefyd yr ydym yn chwennychu
+ pa vn bynnag ai gartref y byddom, ai oddi cartref, fôd yn gymmeradwy ganddo ef.
+
+</lb>
+<lb n="10">
+
+ 10 Canys rhaid yw i ni oll ymddangos
+ ger bron brawdle Crist, fel y derbynio pob vn y
+ pethau a [wnaethpwyd] yn y corph, yn ôl yr
+ hyn a wnaeth, pa vn bynnag ai da ai drwg.
+
+</lb>
+<lb n="11">
+
+ 11 Felly gan i ni ŵybod ofn yr Arglwydd,
+ yr ydym ni yn peri i ddynion gredu, ac ni a wnaed yn hyspus i Dduw, ac yr ydwyf yn gobeithio hefyd ddarfod ein gwneuthur yn hyspus
+ yn eich cydwybodau chwi.
+
+</lb>
+<lb n="12">
+
+ 12 Canys nid ydym yn ymganmol trachefn wrthych, ond yn rhoddi i chwi achos gorfoledd o 'n plegit ni, fel y caffoch [beth i atteb] yn
+ erbyn y rhai sy a 'u gorfoledd yn yr wyneb, ac
+ nid yn y galon.
+
+</lb>
+<lb n="13">
+
+ 13 Canys os amhwyllo yr ydym, i Dduw yr
+ ydym, ac os bôd yn ein pwyll, i chwi [yr ydym.]
+
+</lb>
+<lb n="14">
+
+ 14 Canys y mae cariad Crist yn ein cymhell ni, gan i ni farnu hyn, os bu vn farw tros
+ bawb, yna mai meirw oedd pawb.
+
+</lb>
+<lb n="15">
+
+ 15 Ac efe a fu farw tros bawb, fel y bydde
+ i 'r rhai byw, na fyddent fyw rhag-llaw iddynt
+ eu hunain, ond i 'r hwn a fu farw trostynt, ac a
+ adgyfododd.
+
+</lb>
+<lb n="16">
+
+ 16 Am hynny o hyn allan, nid ydym yn adnabod nêb yn ôl y cnawd, ac os buom ni hefyd yn
+ adnabod Crist yn ôl y cnawd, er hynny o hyn
+ allan nid ydym yn ei adnabod ef mwy [felly.]
+
+</lb>
+<lb n="17">
+
+ 17 Gan hynny od oes nêb yng-Hrist [~ yng Nghrist ] [y
+ mae efe] yn greadur newydd, yr hên bethau a
+ aethant heibio, wele, gwnaethbwyd pob peth
+ yn newydd.
+
+</lb>
+<lb n="18">
+
+ 18 A 'r cwbl sydd o Dduw, yr hwn a 'n cymmododd ni ag ef ei hun trwy Iesu Grist, ac a
+ roddodd i ni weinidogaeth y cymmod.
+
+</lb>
+<lb n="19">
+
+ 19 Canys Duw oedd yng-Hrist [~ yng Nghrist ], yn cymmodi y bŷd ag ef ei hun, heb adliwio [~ edliwio ] iddynt eu
+ pechodau, ac a osododd ynom ni air y cymmod.
+
+</lb>
+<lb n="20">
+
+ 20 Am hynny yr ydym ni yn gennadau tros
+ 
+ Grist, megis pe bydde Duw yn ymbil â chwi
+ trwyddom ni: yr ydym yn attolwg i chwi tros
+ Grist, cymmodwch â Duw.
+
+</lb>
+<lb n="21">
+
+ 21 Canys efe a wnaeth yn bechod trosom
+ ni, yr hwn ni adnabu bechod, fel ein gwnelid ni
+ yn gyfiawnder Duw ynddo ef.
+
+
+</lb>
+        </pb>
+    
+<pb n="6">
+
+
+        <head>
+         PEN. VI.
+        </head>
+            
+<lb n="argument">
+
+
+ Y mae efe yn eu hannog hwynt i amryw rinweddau
+ rhagorol. 14 Ac yn anad dim i ochelyd ymgymharu â 'r rhai anghredadwy.
+</lb>
+
+<lb n="1">
+
+ 1 FElly ninnau gan gydweithio ydym yn attolwg i chwi na dderbynioch râs Duw yn ofer
+
+</lb>
+<lb n="2">
+
+ 2 (Canys medd efe, yn amser cymmeradwy i 'th warandewais, ac yn nydd iechydwrieth
+ i 'th gynhorthwyais: wele yn awr yr amser cymmeradwy, wele yn awr ddydd yr iechydwrieth)
+
+</lb>
+<lb n="3">
+
+ 3 Heb roddi dim achos tramgwydd mewn
+ dim, rhag beio ar y weinidogaeth.
+
+</lb>
+<lb n="4">
+
+ 4 Eithr gan ein gosod ein hun allan ym
+ mhôb peth fel gweinidogion Duw, mewn
+ ammynedd mawr, mewn cystudd, mewn angen,
+ ac mewn cyfyngder,
+
+</lb>
+<lb n="5">
+
+ 5 Mewn gwialennodau, mewn carcharau,
+ mewn terfyscau, mewn poen, mewn gwiliadwriaetheu, mewn ymprydiau,
+
+</lb>
+<lb n="6">
+
+ 6 Mewn purdeb, mewn gwybodaeth, mewn
+ ymaros, mewn tiriondeb yn yr Yspryd glân,
+ mewn cariad diragrith.
+
+</lb>
+<lb n="7">
+
+ 7 Yng-air gwirionedd, yn nerth Duw, mewn arfau cyfiawnder ar y llaw ddeheu, ac ar y
+ llaw asswy.
+
+</lb>
+<lb n="8">
+
+ 8 Mewn parch ac ammarch, mewn clôd, ac
+ anglod, megis twyllwŷr, ac er hynny yn gywir,
+
+</lb>
+<lb n="9">
+
+ 9 Megis anadnabyddus, ac [er hynny] yn
+ adnabyddus, megis yn meirw, ac wele ni yn
+ fyw, megis wedi ein cospi, ac heb ein lladd,
+
+</lb>
+<lb n="10">
+
+ 10 Megis yn dristion, ac etto yn oestad [~ wastad ] yn
+ llawen: megis yn dlodion, ac etto yn cyfoethogi
+ llawer: megis heb ddim cennym [~ gennym ], ac etto yn
+ meddiannu pôb peth.
+
+</lb>
+<lb n="11">
+
+ 11 Oh y Corinthiaid, ein genau a agorwyd
+ i chwi, ein calon a ehangwyd.
+
+</lb>
+<lb n="12">
+
+ 12 Ni chyfyngwyd arnoch ynom ni, eithr
+ chwi a gyfyngwyd arnoch yn eich ymyscaroedd eich hunain.
+
+</lb>
+<lb n="13">
+
+ 13 Am yr vn gwobr, megis wrth fy mhlant
+ yr wyf yn dywedyd, ymehengwch chwithau.
+
+</lb>
+<lb n="14">
+
+ 14 Nac iauer chwi yn anghymharus gyd â 'r
+ anffyddlonion, canys pa gymdeithas sydd
+ rhwng cyfiawnder, ac anghyfiawnder? a pha
+ gyfeillach rhwng goleuni a thywyllwch?
+
+</lb>
+<lb n="15">
+
+ 15 A pha gyssondeb sydd rhwng Crist a
+ Belial? neu pa ran sydd i 'r credadwy, ac i 'r
+ anghredadwy?
+
+
+</lb>
+<lb n="16">
+
+ 16 A pha gydfod sydd rhwng teml Dduw,
+ ac eulynnod? canys chwi yw teml Duw byw:
+ fel y dywedodd Duw, mi a bresswyliaf, ac a
+ rodiaf yn eu mysc hwynt: a mi a fyddaf eu Duw
+ hwynt, ac hwy a fyddant yn bobl i mi.
+
+</lb>
+<lb n="17">
+
+ 17 Am hynny deuwch allan o 'u plith hwy,
+ ac ymddidolwch, medd yr Arglwydd: ac na chyffyrddwch ddim aflan, yna mi a 'ch derbyniaf chwi
+
+</lb>
+<lb n="18">
+
+ 18 A mi a fyddaf yn Dâd i chwi, a chwi a
+ fyddwch yn feibion, ac yn ferched i mi: medd
+ yr Arglwydd holl-alluoc.
+
+
+</lb>
+        </pb>
+    
+<pb n="7">
+
+
+        <head>
+         PEN. VII.
+        </head>
+            
+<lb n="argument">
+
+
+ Y mae yn eu hannog i sancteiddrwydd gan gofio iddynt
+ addewidion Duw. 8 Yn ymescusodi am eu tristau
+ hwynt. 13 Ac yn ddiolchgar yn coffau eu caredigrwydd hwynt i Titus.
+</lb>
+
+<lb n="1">
+
+ 1 AM hynny, gan fôd i ni yr addewidion hyn
+ (annwylyd) ymlânhawn oddi wrth bob
+ halogrwydd cnawd, ac yspryd, gan berffeithio
+ sancteiddrwydd yn ofn Duw.
+
+</lb>
+<lb n="2">
+
+ 2 Derbyniwch ni, ni wnaethom gam i nêb,
+ ni lygrasom nêb, nid yspeiliasom nêb.
+
+</lb>
+<lb n="3">
+
+ 3 Nid i 'ch condemnio yr wyf yn dywedyd,
+ canys mi a ddywedais o 'r blaen eich bôd yn ein
+ calonnau ni, i gyd-farw, ac i gyd-fyw.
+
+</lb>
+<lb n="4">
+
+ 4 Y mae hyfder fy ymadrodd yn fawr wrthych: y mae gennif orfoledd mawr ynoch: yr
+ wyf yn llawn o ddiddanwch, ac yn dra-llawen
+ yn ein holl orthrymder.
+
+</lb>
+<lb n="5">
+
+ 5 Canys wedi ein dyfod i Macedonia ni
+ chai ein cnawd ni ddim llonydd, eithr ni a orthrymmid o bôb parth, rhyfeloedd oddi allan, ac
+ ofn oddi mewn.
+
+</lb>
+<lb n="6">
+
+ 6 Eithr Duw, yr hwn a ddiddâna y rhai cystuddiedig, a 'n diddanodd ni wrth ddyfodiad Titus
+
+</lb>
+<lb n="7">
+
+ 7 Ac nid âi ddyfodiad ef yn vnic, ond hefyd
+ â 'r diddanwch y diddanwyd ef gennych chwi,
+ pan fynegodd efe i ni eich awydd chwi, eich galar, eich annwyl-serch i mi, fel y llawenheais i
+ yn fwy.
+
+</lb>
+<lb n="8">
+
+ 8 Canys er i mi eich tristau chwi mewn llythyr, nid yw edifar gennif, er bôd yn edifar gennif: canys yr wyf yn gweled dristau o 'r llythr
+ hwnnw chwi, er [bôd hynny] tros amser.
+
+</lb>
+<lb n="9">
+
+ 9 Yn awr yr ydwyf yn llawen, nid am eich
+ tristau, ond am eich tristau i edifeirwch, canys
+ tristau a wnaethoch yn dduwiol, fel na chawsoch niwed mewn dim gennym ni.
+
+</lb>
+<lb n="10">
+
+ 10 Canys duwiol dristwch a bair edifeirwch er iechydwiaeth diedifarus: eithr bydol
+ dristwch a bair angeu.
+
+</lb>
+<lb n="11">
+
+ 11 Canys wele, pa ofal ei faint a weithiodd
+ hyn ynoch chwi? [sef] tristau o honoch yn dduwiol, îe pa amddeffyn [~ amddiffyn ], îe, pa ddigofaint, îe, pa ofn,
+ ie, pa chwant, îe, pa wŷnfydiaid, îe, pa ddial? ym
+ mhôb peth yr ymddangosasoch i fod yn bur yn
+ y peth hyn.
+
+</lb>
+<lb n="12">
+
+ 12 O herwydd pa ham, er scrifennu attoch,
+ ni [scrifennais] o 'i blegit ef a wnaethoedd y
+ cam, nac o blegit yr hwn a gafodd y cam, ond
+ er bôd yn eglur i chwi, ein gofal am danoch ger
+ bron Duw.
+
+</lb>
+<lb n="13">
+
+ 13 Am hynny ni a ddiddanwyd o achos eich
+ diddanwch chwi, eithr llawenach o lawer oeddem am lawenydd Titus, am lonni ei yspryd
+ ef gennych oll.
+
+</lb>
+<lb n="14">
+
+ 14 Canys os gorfoleddais ddim wrtho am
+ danoch, ni 'm cywilyddiwyd: eithr megis y
+ dywedasom wrthych bôb dim mewn gwirionedd, felly hefyd yr oedd ein gorfoleddiad ni
+ wrth Titus yn gywir.
+
+</lb>
+<lb n="15">
+
+ 15 Ac y mae ei galondid ef yn helaethach tu
+ ag attoch, wrth gofio eich vfydd-dod chwi oll,
+ pa fôdd trwy ofn a dychryn, y derbyniasoch ef.
+
+</lb>
+<lb n="16">
+
+ 16 Am hynny llawen wyf, am fod i mi hyder arnoch ym mhôb dim.
+
+
+</lb>
+        </pb>
+    
+<pb n="8">
+
+
+        <head>
+         PEN. VIII.
+        </head>
+            
+<lb n="argument">
+
+
+ Y mae efe yn eu hannog hwynt i fod yn hael i 'r brodyr
+ tlodion, gan ddwyn iddynt siampl y Macedoniaid, 9
+ A Christ ei hun: 24 Gan ddangos hefyd y galle fod
+ ar y Corinthiaid eu heisieu hwythau.
+</lb>
+
+<lb n="1">
+
+ 1 YR ydym hefyd yn yspysu i chwi, (frodyr) y
+ grâs Duw a roddwyd yn eglwysi Macedonia.
+
+</lb>
+<lb n="2">
+
+ 2 Canys mewn mawr brofedigaeth cystudd yr amlhaodd eu llawenydd hwynt, a 'i llwyr eithaf dlodi a amlhaodd i 'w helaeth gymmwynascarwch hwynt.
+
+</lb>
+<lb n="3">
+
+ 3 Canys yn eu gallu (yr wyfi yn testiolaethu) ac vwch-law eu gallu yr oeddent yn ewyllyscar.
+
+</lb>
+<lb n="4">
+
+ 4 Gan ddeisyfu arnom trwy lawer o ymbil,
+ ar dderbyn o honom ni yr haelioni a 'r cyfranniad
+ [a roddent] i wasanaethu 'r seinctiau.
+
+</lb>
+<lb n="5">
+
+ 5 A [hyn a wnaethant] nid fel yr oeddem yn
+ gobeitho, ond hwynt hwy a 'i rhoddasant eu hunain yn gyntaf i 'r Arglwydd, ac yna i ninnau,
+ trwy ewyllys Duw:
+
+</lb>
+<lb n="6">
+
+ 6 Fel y dymunasom ni a 'r Titus, (megis y
+ dechreuase efe o 'r blaen) felly hefyd orphen yr
+ vn-rhyw haelioni yn eich plith chwi.
+
+</lb>
+<lb n="7">
+
+ 7 Am hynny fel yr ydych yn amlhau yn
+ mhôb dim, mewn ffydd a gair, a gwybodaeth, ac
+ ym mhôb astudrwydd, ac yn eich cariad tu ag
+ attom ni, [ceisiwch] amlhau hefyd yn y grâs
+ hyn.
+
+</lb>
+<lb n="8">
+
+ 8 Nid o rann gorchymyn yr ydwyf yn dywedyd, ond o blegit diwydrwydd rhai eraill, a
+ chan brofi gwirionedd eich cariad chwi.
+
+</lb>
+<lb n="9">
+
+ 9 Canys chwi a adwaenoch râs ein Harglwydd Iesu Grist, ac efe yn gyfoethog, ei fyned er eich mwyn chwi yn dlawd, fel y cyfoethogid chwi trwy ei dlodi ef.
+
+</lb>
+<lb n="10">
+
+ 10 Ac yr ydwyf yn rhoddi cyngor yn hyn,
+ canys da fydde hyn i chwi, y rhai a ddechreusoch, nid yn vnic wneuthur, ond hefyd ewyllysio er yr llynedd.
+
+</lb>
+<lb n="11">
+
+ 11 Ac yn awr gorphennwch wneuthur hynny hefyd, fel, megis yr oedd y parodrwydd i ewyllsio [~ ewyllysio ], felly y byddo hefyd i gwblau o 'r hyn
+ sydd gennych.
+
+</lb>
+<lb n="12">
+
+ 12 Canys os bydd yn gyntaf ewyllyscarwch, cymmeradwy yw, yn ôl yr hyn sydd gan
+ ddŷn, nid yn ôl yr hyn nid yw ganddo.
+
+</lb>
+<lb n="13">
+
+ 13 Ac nid i fod esmwythdra i eraill, a chustudd [~ chystudd ] i chwithau.
+
+</lb>
+<lb n="14">
+
+ 14 Eithr mewn cymhwysdra y mae eich helaethrwydd chwi y pryd hyn, yn [diwallu] eu diffig hwy, fel y gallo hefyd eu helaethrwydd hwynt ddiwallu eich diffig chwithau, fel y byddo
+ cymhwysdra.
+
+ 
+</lb>
+<lb n="15">
+
+
+ 15 Megis y mae yn scrifennedic, yr hwn
+ a gasclodd lawer, nid oedd ganddo weddill, a 'r
+ hwn a gasclodd ychydig, nid oedd arno eisieu.
+
+</lb>
+<lb n="16">
+
+ 16 Ac i Dduw y byddo 'r diolch, yr hwn a
+ roddodd yng-halon [~ yng nghalon ] Titus yr vn-rhyw ofal
+ trosoch.
+
+</lb>
+<lb n="17">
+
+ 17 Am iddo gymmeryd y dymuniad, a chan
+ fod yn fwy gofalus, ddyfod attoch chwi o 'i waith
+ ei hun.
+
+</lb>
+<lb n="18">
+
+ 18 Ac ni a ddanfonasom hefyd gyd ag ef y
+ brawd yr hwn y mae ei glôd yn yr Efengyl,
+ trwy 'r holl eglwysi,
+
+</lb>
+<lb n="19">
+
+ 19 (Ac nid [hynny] yn vnic, eithr hefyd efe
+ a ddewiswyd gan yr eglwysi i gydymdeithio â
+ ni a 'r grâs hyn, yr hwn yr ydym ni yn ei wasanaethu, o herwydd gogoniant yr Arglwydd, ac
+ [amlygiad] eich ewyllyscarwch chwithau)
+
+</lb>
+<lb n="20">
+
+ 20 Gan ymochelyd hyn, rhag i nêb feio arnom yn yr helaethrwydd ymma, yr hwn yr ydym ni yn ei wasanaethu.
+
+</lb>
+<lb n="21">
+
+ 21 Y rhai ydym yn rhagddarpar pethau
+ onest, nid yn vnic ger bron yr Arglwydd, ond
+ hefyd o flaen dynion.
+
+</lb>
+<lb n="22">
+
+ 22 Ac ni a anfonasom gyd â hwynt ein brawd,
+ yr hwn a brofasom yn fynych o amser, ei fôd yn
+ ddyfal yn llawer o bethau, ac yn awr yn ddyfalach o lawer, am y mawr ymddyried [sydd gennif] ynoch.
+
+</lb>
+<lb n="23">
+
+ 23 Os [gofynnir] am Titus fyng-hydymaeth [~ fy nghydymaith ] [yw,] a chydweithydd tu ag attoch chwi:
+ neu [am] ein brodyr, cennadau yr eglwysi [ydynt,] a gogoniant Crist.
+
+</lb>
+<lb n="24">
+
+ 24 Am hynny dangoswch tu ag attynt hwy
+ ger bron yr eglwysi, brofedigaeth o 'ch cariad, ac
+ o 'n hymffrost ni am danoch chwi.
+
+
+</lb>
+        </pb>
+    
+<pb n="9">
+
+
+        <head>
+         PEN. IX.
+        </head>
+            
+<lb n="argument">
+
+
+ Y mae efe yn dangos yrru o honaw ef Titus, ac eraill attynt, fel y ceid hwynt yn barod, ac yn ewyllyscar i gyfrannu, 7 yr hwn beth sydd dda gan Dduw, 13
+ a moliannus iddo ef.
+</lb>
+
+<lb n="1">
+
+ 1 CAnys, tu ag at am y weinidogaeth i 'r
+ sainct, afraid yw i mi scrifennu attoch.
+
+</lb>
+<lb n="2">
+
+ 2 O herwydd mi a adwen eich ewyllyscarwch chwi, [am] yr hwn yr wyf yn gorfoleddu
+ am danoch wrth y Macedoniaid, fôd Achaia yn
+ barod er yr llynedd, a 'r zêl [a ddaeth] oddi wrthych chwi a annogodd lawer.
+
+</lb>
+<lb n="3">
+
+ 3 A mi a ddanfonais y brodyr, rhag i 'n gorfoledd ni am danoch fôd yn ofer, yn y rhann hon,
+ fel (megis y dywedais) y byddoch barod:
+
+</lb>
+<lb n="4">
+
+ 4 Rhag, os y Macedoniaid a ddeuant gyd â
+ mi, a 'ch cael chwi yn amharod, bôd i ni (ni ddywedaf i chwi) gael cywilydd yn hyn o sylwedd
+ gorfoledd.
+
+</lb>
+<lb n="5">
+
+ 5 O herwydd pa ham, mi a dybiais fôd yn
+ angenrhaid attolwg i 'r brodyr ddyfod o 'r blaen
+ attoch, ac i gwplau o 'r blaen eich bendith yr hon
+ a ragfynegwyd, fel y bydde yn barod, megis fel
+ bendith, nid fel o gymmell.
+
+</lb>
+<lb n="6">
+
+ 6 A hyn [a ddywedaf,] a hauo yn brin a fêd
+ hefyd yn brin, ac a hauo yn helaeth a fêd hefyd yn
+ 
+ helaeth.
+
+</lb>
+<lb n="7">
+
+ 7 Pob vn megis y mae yn amcanu yn ei galon, felly gwnaed nid yn athrist, neu wrth gymmell, canys y mae yn hoff gan Dduw roddwr
+ llawen.
+
+</lb>
+<lb n="8">
+
+ 8 Ac y mae Duw yn abl i beri i bob grâs
+ amlhau tu ag attoch, fel y galloch chwi (â phôb
+ digonoldeb gennych, ym mhôb dim, bôb amser)
+ amlhau i bôb gweithred dda,
+
+</lb>
+<lb n="9">
+
+
+ 9 Megis y mae yn scrifennedic, efe a wascarodd, [ac] a roddodd i 'r tlodion, y mae ei gyfiawnder yn parhau yn dragywydd.
+
+</lb>
+<lb n="10">
+
+ 10 Hefyd yr hwn sydd yn rhoddi hâd i 'r hauwr, rhodded hefyd fara yn ymborth, ac amlhaued eich hâd, a chwaneged ffrwyth eich cyfiawnder,
+
+</lb>
+<lb n="11">
+
+ 11 Fel ym mhôb ffordd i 'ch cyfoethoger i
+ bôb cymmwynascarwch, yr hyn a weithia trwyddom ni ddiolch i Dduw.
+
+</lb>
+<lb n="12">
+
+ 12 Canys y mae gweinidogaeth y swydd
+ hon, nid yn vnic yn cyflawni angenrhaid y
+ sainct, ond hefyd yn amlhau, gan lawer diolch i
+ Dduw, trwy brofiad y weinidogaeth hon,
+
+</lb>
+<lb n="13">
+
+ 13 [Y rhai sy] yn moliannu Duw am eich
+ cydsynniol ymostwng i Efengyl Grist, ac am
+ eich cymmwynascar gyfranniad iddynt hwy, ac
+ i bawb oll,
+
+</lb>
+<lb n="14">
+
+ 14 A thrwy eu gweddi hwythau y rhai ydynt yn hiraethu am danoch chwi, am yr ardderchawg râs Duw [yr hwn sydd] ynoch.
+
+</lb>
+<lb n="15">
+
+ 15 Ac i Dduw y byddo 'r diolch am ei anrhaethol dawn.
+
+
+
+</lb>
+                    </pb>
+                </text></text>

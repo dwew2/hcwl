@@ -1,0 +1,5168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../sketchengine.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+
+
+
+<text id="HHGB">
+   
+       
+   
+   <pb n="11.">
+   
+   
+   
+   <head>
+    
+   <lb n="1">Am y Grefydd&nbsp;Iuddewig.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="2">YR Iuddewon o ran eu dechreuad sy 'n deilliaw
+   </lb> 
+   <lb n="3">o hiliogaeth yr hen batriarc, sef Abraham;
+   </lb> 
+   <lb n="4">dyn ag oedd yn fawr ei anrhydedd, a chwedi ei
+   </lb> 
+   <lb n="5">ddewis gan Dduw amser byr ar ol y diluw, i 
+   </lb>
+   <lb n="5-6">gynnal
+   </lb>
+   <lb n="6">
+    adnabyddiaeth o 'r dwyfol undeb ymhlith 
+   </lb>
+   <lb n="6-7">cenhedloedd
+   </lb>
+   <lb n="7">
+    eilun-addolgar y byd. Y grefydd 
+   </lb>
+   <lb n="7-8">Iuddewig
+   </lb>
+   <lb n="8">
+    a welir yn ei llawn berffeithrwydd yn
+   </lb> 
+   <lb n="9">mhum llyfr Moses, sylfaenwr eu cyfreithiau 
+   </lb>
+   <lb n="9-10">gwladol
+   </lb>
+   <lb n="10">
+    ac eglwysig; yr hwn hefyd oedd eu harweinydd
+   
+   </lb>
+   </pb>
+   <pb n="12.">
+   
+    
+   <lb n="1">o dir y caethiwed yng wlad yr Aipht, i 'w dwyn i 
+   </lb>
+   <lb n="1-2">feddiannu
+   </lb>
+   <lb n="2">
+    'r addawedig wlad (ag oedd i fod yn gysgod
+   </lb> 
+   <lb n="3">o 'u tragywyddol ddedwyddwch) sef gwlad Canaan.
+   
+   
+   </lb> 
+   <lb n="4">Barn y bobl hynny ag oedd yn byw yn yr oesoedd
+   </lb> 
+   <lb n="5">cyntaf wedi 'r diluw, ymddengys fod yn syml, yn
+   </lb> 
+   <lb n="6">barchus, ac yn ddidwyll; yr oeddynt hwy yn edrych
+   </lb> 
+   <lb n="7">ar Dduw fel eu Creawdwr, ac yn hollol gredu yn
+   </lb> 
+   <lb n="8">ei ragluniaethau, trwy gyfeirio eu golwg ymlaen at
+   </lb> 
+   <lb n="9">y Person hwnnw ag oedd i fod yn offrwm dros 
+   </lb>
+   <lb n="9-10">bechod,
+   </lb>
+   <lb n="10">
+    neu yn gyfryngwr drostynt at Dduw. Ni
+   </lb> 
+   <lb n="11">welwn hefyd, mai mewn ychydig amser ar ol 
+   </lb>
+   <lb n="11-12">gwasgariad
+   </lb>
+   <lb n="12">
+    plant Noa, rhannu 'r teuluoedd, a 
+   </lb>
+   <lb n="12-13">chymmysgu
+   </lb>
+   <lb n="13">
+    'r ieithoedd, i lawer iawn o ddynol 
+   </lb>
+   <lb n="13-14">ddychymygiadau
+   </lb>
+   <lb n="14">
+    newyddion gymmeryd lle mewn crefydd,
+   </lb> 
+   <lb n="15">yr hyn fu 'n achos o alw Abraham o Ur y Caldeaid,
+   </lb> 
+   <lb n="16">fel y byddai iddo ef a 'i dylwyth gadw addoliad ac
+   </lb> 
+   <lb n="17">adnabyddiaeth o 'r gwir Dduw.
+   
+   
+   </lb> 
+   <lb n="18">Mewn trefn i ddangos gwreiddiol egwyddorion y
+   </lb> 
+   <lb n="19">grefydd Iuddewig, ni a gawn yn y lle nesaf osod i
+   </lb> 
+   <lb n="20">lawr o flaen y darllenydd swm eu ffydd, yr hon a
+   </lb> 
+   <lb n="21">gynhwysir mewn tair ar ddeg o erthiglau, y rhai
+   </lb> 
+   <lb n="22">ydynt y fath a all un genedl neu Grist'nogion eu
+   </lb> 
+   <lb n="23">harddel, ond honno yn unig mewn perthynas i 
+   </lb>
+   <lb n="23-24">ddyfodiad
+   </lb>
+   <lb n="24">
+    y Mesia.
+   
+   
+   </lb> 
+   <lb n="25">I. Yr wyf yn credu, trwy ffydd berffaith, mai
+   </lb> 
+   <lb n="26">Duw yw Creawdwr pob peth, ei fod ef yn tywys ac
+   </lb> 
+   <lb n="27">yn cynnal ei holl greaduriaid; mai efe a 'u gwnaeth;
+   </lb> 
+   <lb n="28">a 'i fod ef yn wastadol weithredu, ac yn parhau felly
+   </lb> 
+   <lb n="29">i bob tragywyddoldeb.
+   
+   
+   </lb> 
+   <lb n="30">II. Yr wyf yn credu fod un Duw, ac nad oes
+   </lb> 
+   <lb n="31">undeb ond efe: efe yn unig oedd, sydd, ac a fydd i
+   </lb> 
+   <lb n="32">bob tragywyddoldeb yn Dduw i ni.
+   
+   
+   </lb> 
+   <lb n="33">III. Yr wyf yn credu, nad yw Duw yn beth 
+   </lb>
+   <lb n="33-34">corphorol;
+   </lb>
+   <lb n="34">
+    na all fod ganddo un naturiol briodoledd;
+   </lb> 
+   <lb n="35">ac nad oes un hanfod gorpholaidd i 'w gydmaru ag
+   </lb> 
+   <lb n="36">ef.
+   
+   
+   </lb> 
+   <lb n="37">IV. Yr wyf yn credu, mai Duw yw dechreuad
+   </lb> 
+   <lb n="38">a diweddiad pob peth.
+   
+   
+   </lb> 
+   <lb n="39">V. Yr ydwyf yn credu, mai Duw yn unig a
+   
+   </lb>
+   </pb>
+   <pb n="13.">
+   
+    
+   <lb n="1">ddylid ei wasanaethu, ac na ddylid addoli dim arall
+   </lb> 
+   <lb n="2">ond efe.
+   
+   
+   </lb> 
+   <lb n="3">VI. Yr wyf yn credu beth bynnag a ddysgwyd i
+   </lb> 
+   <lb n="4">ni gan y prophwydi, ei fod yn wirionedd dwyfol.
+   
+   
+   </lb> 
+   <lb n="5">VII. Yr wyf yn credu, fod athrawiaeth a 
+   </lb>
+   <lb n="5-6">phrophwydoliaethau
+   </lb>
+   <lb n="6">
+    Moses yn wir; mai efe yw tad a
+   </lb> 
+   <lb n="7">phennaeth y doctoriaid, yr holl rai a fuant fyw o 'i
+   </lb> 
+   <lb n="8">amser ef hyd yn hyn, ac a fydd o hyn allan.
+   
+   
+   </lb> 
+   <lb n="9">VIII. Yr wyf yn credu, fod y gyfraith yn 
+   </lb>
+   <lb n="9-10">anghyfnewidiol,
+   </lb>
+   <lb n="10">
+    ac na roddir un arall yn ei lle.
+   
+   
+   </lb> 
+   <lb n="11">IX. Yr wyf yn credu, fod y gyfraith ag sydd
+   </lb> 
+   <lb n="12">gennym yn bresennol, yr un ag a roddwyd i Moses.
+   
+   
+   </lb> 
+   <lb n="13">X. Yr wyf yn credu, fod Duw yn gwybod holl
+   </lb> 
+   <lb n="14">feddyliau dynion a 'u gweithredoedd.
+   
+   
+   </lb> 
+   <lb n="15">XI. Yr wyf yn credu, y bydd i Dduw wobrwyo
+   </lb> 
+   <lb n="16">gweithredoedd pob un a gadwo ei orchymynion, a
+   </lb> 
+   <lb n="17">phoeni troseddwyr ei gyfraith.
+   
+   
+   </lb> 
+   <lb n="18">XII. Yr wyf yn credu, fod y Messia i ddyfod; ei
+   </lb> 
+   <lb n="19">fod yn oedi; mi a arosaf ac a ddisgwyliaf beunydd
+   </lb> 
+   <lb n="20">am ei ddyfodiad.
+   
+   
+   </lb> 
+   <lb n="21">XIII. Yr wyf yn credu adgyfodiad y meirw, yr
+   </lb> 
+   <lb n="22">hyn a fydd pan welo Duw fod yn dda. A 
+   </lb>
+   <lb n="22-23">bendigedig
+   </lb>
+   <lb n="23">
+    fyddo enw ein Creawdwr yn dragywydd.
+   
+   
+   </lb> 
+   <lb n="24">O ddeutu amser ein Iachawdwr, yr oedd yr 
+   </lb>
+   <lb n="24-25">Iuddewon
+   </lb>
+   <lb n="25">
+    wedi ymrannu yn amryw sectau; ond y
+   </lb> 
+   <lb n="26">rhai mwyaf nodedig o honynt oedd y Phariseaid, y
+   </lb> 
+   <lb n="27">Saduseaid, yr Esseniaid, a 'r Herodiaid.
+   
+   
+   </lb> 
+   <lb n="28">Phariseaid, sect nodedig, a elwid felly oddiwrth y
+   </lb> 
+   <lb n="29">gair Hebraeg (Pharesh) yr hwn sy 'n arwyddo 
+   </lb>
+   <lb n="29-30">ymraniad
+   </lb>
+   <lb n="30">
+    neu ymneillduad, o herwydd eu bod hwy yn
+   </lb> 
+   <lb n="31">cymmeryd arnynt i gadw 'r gyfraith a thraddodiadau,
+   </lb> 
+   <lb n="32">a rhodio yn fwy perffaith a sanctaidd nag eraill o 'r
+   </lb> 
+   <lb n="33">Iuddewon. Mae 'n rhy anhawdd gwybod yn iawn
+   </lb> 
+   <lb n="34">pa bryd y dechreuodd y sect hon; ond mae 'n ddigon
+   </lb> 
+   <lb n="35">tebygol iddynt godi fynu pan ddechreuodd 
+   </lb>
+   <lb n="35-36">traddodiadau
+   </lb>
+   <lb n="36">
+    ddyfod mewn ymarferiad yn lle cyfraith Dduw.
+   </lb> 
+   <lb n="37">Yr oedd y Phariseaid yn groes i opiniynau 'r 
+   </lb>
+   <lb n="37-38">Saduseaid,
+   </lb>
+   <lb n="38">
+    trwy ddala adgyfodiad y meirw, a 'r hanfod o
+   </lb> 
+   <lb n="39">angylion ac ysprydion, Act. xxiii. 8. Ond yn ol
+   
+   </lb>
+   </pb>
+   <pb n="14.">
+   
+    
+   <lb n="1">hanes Josephus, nid oedd yr adgyfodiad yma ddim
+   </lb> 
+   <lb n="2">yn 'chwaneg \ychwaneg\ nag athrawiaeth y Pythagoriaid; sef,
+   </lb> 
+   <lb n="3">fod yr enaid yn cael ei symmud o un corph i 'r llall,
+   </lb> 
+   <lb n="4">a 'i eni o newydd. Oddiwrth yr adgyfodiad hyn yr
+   </lb> 
+   <lb n="5">oeddynt yn cau allan y rhai drygionus, gan gredu
+   </lb> 
+   <lb n="6">fod eneidiau 'r cyfryw yn cael eu trosglwyddo i 
+   </lb>
+   <lb n="6-7">dragywyddol
+   </lb>
+   <lb n="7">
+    drueni. Ond am droseddiadau bychain yr
+   </lb> 
+   <lb n="8">oeddynt yn meddwl fod y rhei'ny i gael eu poeni yn
+   </lb> 
+   <lb n="9">y cyrph ag oedd yr eneidiau hynny (ag oedd yn euog
+   </lb> 
+   <lb n="10">o 'r trosedd) i gael eu danfon iddynt nesaf. Yn ol y
+   </lb> 
+   <lb n="11">farn hon, yr oedd disgyblion Crist yn gofyn mewn
+   </lb> 
+   <lb n="12">perthynas i 'r dyn dall, (Ioan ix. 2.) Pwy a bechodd,
+   </lb> 
+   <lb n="13">ai hwn neu ei rieni, fel y genid ef yn ddall? A phan
+   </lb> 
+   <lb n="14">y dywedodd y disgyblion wrth Grist, fod rhai yn 
+   </lb>
+   <lb n="14-15">dywedyd,
+   </lb>
+   <lb n="15">
+    mai Elias, Jeremia, neu un o 'r prophwydi
+   </lb> 
+   <lb n="16">oedd ef, (Mat. xvi. 14.) nid ydynt yn meddwl dim arall,
+   </lb> 
+   <lb n="17">ond eu bod hwy yn tybied fod enaid Elias, Jeremia,
+   </lb> 
+   <lb n="18">neu un o 'r hen brophwydi, wedi ei ddanfon ynddo.
+   </lb> 
+   <lb n="19">Gyd &acirc; 'r Eseniaid yr oeddynt yn dal rhag-arfaethiad
+   </lb> 
+   <lb n="20">ddiammodol, a chyd &acirc; 'r Saduseaid ewyllys rydd:
+   </lb> 
+   <lb n="21">ond pa fodd y gallent ostegu dwy athrawiaeth mor
+   </lb> 
+   <lb n="22">groes y naill i 'r llall, nid yw yn hawdd i eglurhau.
+   
+   
+   </lb> 
+   <lb n="23">Gwahanol nodau 'r Phariseaid oedd eu sel dros
+   </lb> 
+   <lb n="24">draddodiadau 'r henafiaid; yr oeddynt hwy yn haeru,
+   </lb> 
+   <lb n="25">eu bod yn deilliaw o 'r un gwreiddyn a 'r gyfraith
+   </lb> 
+   <lb n="26">ysgrifenedig ei hun. Yr oeddynt hefyd yn 
+   </lb>
+   <lb n="26-27">cymmeryd
+   </lb>
+   <lb n="27">
+    arnynt gadw cyfraith Dduw i 'r manylwch
+   </lb> 
+   <lb n="28">mwyaf; etto yn euog o 'r troseddiadau creulonaf
+   </lb> 
+   <lb n="29">mewn nattur, dan allanol liw o grefydd. Mae 'n
+   </lb> 
+   <lb n="30">Iachawdwr yn fynych yn eu galw 'n rhagrithwyr,
+   </lb> 
+   <lb n="31">o herwydd eu bod yn gwneuthur cyfraith Dduw yn
+   </lb> 
+   <lb n="32">ddieffaith trwy eu traddodiadau.
+   
+   
+   </lb> 
+   <lb n="33">Saduseaid, sect ymhlith yr Iuddewon a elwir felly,
+   </lb> 
+   <lb n="34">oddiwrth un Sadoc ei sylfaenwr. Hwy a 
+   </lb>
+   <lb n="34-35">ddechreuasant
+   </lb>
+   <lb n="35">
+    yn amser un Antigonus, o Socho, rhaglaw o 'r
+   </lb> 
+   <lb n="36">Sanhedrim, dysgawdwr cyfraith a difinyddiaeth y
+   </lb> 
+   <lb n="37">brif ysgol yn ninas Jerusalem. Fe fu farw yn 
+   </lb>
+   <lb n="37-38">amser
+   </lb>
+   <lb n="38">
+    Ptolomy Philadelphus, brenin yr Aipht. Yr
+   </lb> 
+   <lb n="39">Antigonus yma oedd yn mynych athrawiaethu ei
+   </lb> 
+   <lb n="40">ysgolheigion, nad o ofn slafaidd, nac er mwyn gwobr
+   
+   </lb>
+   </pb>
+   <pb n="15.">
+   
+    
+   <lb n="1">y dylid gwasanaethu Duw, ond yn unig trwy 
+   </lb>
+   <lb n="1-2">fabwysiadol
+   </lb>
+   <lb n="2">
+    gariad a dyledus barch. Dau o 'i 
+   </lb>
+   <lb n="2-3">ysgolheigion,
+   </lb>
+   <lb n="3">
+    Sadoc a Baithus, a gasglasant oddiwrth hyn,
+   </lb> 
+   <lb n="4">nad oedd un gwobrwyad i ddisgwyl ar ol y bywyd
+   </lb> 
+   <lb n="5">hwn; ac am hynny hwy a ymneillduasant oddiwrth
+   </lb> 
+   <lb n="6">eu hathraw, ac a ddysgasant i 'r bobl, nad oedd y
+   </lb> 
+   <lb n="7">fath beth ag adgyfodiad y meirw, na chyflwr 
+   </lb>
+   <lb n="7-8">tragywyddol;
+   </lb>
+   <lb n="8">
+    ac nid hynny yn unig, ond hefyd yr 
+   </lb>
+   <lb n="8-9">oeddynt
+   </lb>
+   <lb n="9">
+    yn gwadu 'r bod o angylion ac ysprydion, ac
+   </lb> 
+   <lb n="10">yn arddel ond Duw yn unig; felly yn agos o 'r un
+   </lb> 
+   <lb n="11">farn a 'r Epicuriaid, ond eu bod hwy yn addef mai
+   </lb> 
+   <lb n="12">gallu Duw a greodd y byd, ac mai wrth ei 
+   </lb>
+   <lb n="12-13">ragluniaeth
+   </lb>
+   <lb n="13">
+    ef yr oedd bob peth yn cael ei lywodraethu,
+   </lb> 
+   <lb n="14">yr hyn oedd yr Epicuriaid yn ei wadu.
+   
+   
+   </lb> 
+   <lb n="15">Mae 'n anhawdd deall, pa fodd y gallent wadu 'r
+   </lb> 
+   <lb n="16">bod o angylion, gan eu bod hwy yn derbyn llyfrau
+   </lb> 
+   <lb n="17">Moses, lle mae son yn fynych am angylion a 'u 
+   </lb>
+   <lb n="17-18">hymddangosiadau.
+   </lb>
+   <lb n="18">
+    Mae rhai 'n meddwl nad oeddynt yn
+   </lb> 
+   <lb n="19">edrych ar angylion fel bodau neillduol, neu hanfod o
+   </lb> 
+   <lb n="20">honynt eu hunain, ond megis galluoedd yn dylifo
+   </lb> 
+   <lb n="21">oddiwrth y Bod dwyfol, fel ag y mae llewyrch yn
+   </lb> 
+   <lb n="22">beth gwahanol oddiwrth yr haul. Neu, f'allai, eu
+   </lb> 
+   <lb n="23">bod yn dal, nad oedd angylion ac ysprydion ond rhai
+   </lb> 
+   <lb n="24">marwol; fel ag yr oeddent yn tybied am y defnydd
+   </lb> 
+   <lb n="25">sy 'n bywhau cyrph dynion, ac yn marw gyd &acirc; hwynt.
+   </lb> 
+   <lb n="26">Mae llawer o 'r sect hon etto ymhlith yr Iuddewon
+   </lb> 
+   <lb n="27">gwasgaredig; ond y mae 'r Phariseaid, y rhai mwyaf
+   </lb> 
+   <lb n="28">aml, yn eu galw hwynt yn Hereticiaid.
+   
+   
+   </lb> 
+   <lb n="29">Esseniaid, sect o bobl ag oedd ymhell tu hwnt i 'r
+   </lb> 
+   <lb n="30">Phariseaid am y manylwch i gadw 'r gyfraith. Mae
+   </lb> 
+   <lb n="31">rhai yn meddwl, a hynny yn ddigon tebygol, i 'r sect
+   </lb> 
+   <lb n="32">hon godi i fynu yn amser herledigaeth Antiogus
+   </lb> 
+   <lb n="33">Epiphanus, pan giliodd rhifedi mawr o 'r Iuddewon
+   </lb> 
+   <lb n="34">i 'r anialwch, lle y darfu iddynt arfer eu hunain i bob
+   </lb> 
+   <lb n="35">caled-fyd o fywiolaeth. Yr oedd dau fath o honynt,
+   </lb> 
+   <lb n="36">rhai yn byw yn gymdeithasol, yn priodi, ac yn 
+   </lb>
+   <lb n="36-37">cyfaneddu
+   </lb>
+   <lb n="37">
+    mewn dinasoedd, ac yn arferyd eu hunain
+   </lb> 
+   <lb n="38">mewn hwsmonaeth a rhyw gelfyddydau diniwaid
+   </lb> 
+   <lb n="39">eraill; yr oedd y rhai'n yn cael eu galw 'r ymarferol.
+   
+   </lb>
+   </pb>
+   <pb n="16.">
+   
+    
+   <lb n="1">Y lleill oeddent yn arferyd eu hunain i fyfyrdodau,
+   </lb> 
+   <lb n="2">am hynny yn cael eu galw yr Esseniaid myfyrdodol.
+   </lb> 
+   <lb n="3">Yr oedd y rhai'n yn gochelyd byw mewn trefydd,
+   </lb> 
+   <lb n="4">rhag ofn i hynny dynnu ymaith eu myfyrdodau 
+   </lb>
+   <lb n="4-5">duwiol,
+   </lb>
+   <lb n="5">
+    a 'u dwyn dan amryw fath o brofedigaethau.
+   </lb> 
+   <lb n="6">Yr oedd pob un o honynt yn dilyn yr un defodau.
+   </lb> 
+   <lb n="7">Nid oedd neb yn yfed gwin yn eu plith; yr oedd
+   </lb> 
+   <lb n="8">pob peth yn gyffredin yn eu mysg, yn llettygar i
+   </lb> 
+   <lb n="9">ddieithriaid, yn anghydmarol am eu diweirdeb, ac i
+   </lb> 
+   <lb n="10">bob math o bleserau yn llwyr ddieithriaid. Yr 
+   </lb>
+   <lb n="10-11">oeddent
+   </lb>
+   <lb n="11">
+    yn credu anfarwoldeb yr enaid a bywyd 
+   </lb>
+   <lb n="11-12">tragywyddol,
+   </lb>
+   <lb n="12">
+    ond yn gwadu adgyfodiad y corph.
+   
+   
+   </lb> 
+   <lb n="13">Er bod ein Iachawdwr yn argyhoeddi yr holl
+   </lb> 
+   <lb n="14">sectau Iuddewig eraill, etto, ni ddywedodd ef ddim
+   </lb> 
+   <lb n="15">am yr Esseniaid, ac nid oes air o son am danynt yn
+   </lb> 
+   <lb n="16">y Testament Newydd; yr achos o hyn oedd, mae 'n
+   </lb> 
+   <lb n="17">debyg, o herwydd eu neillduolrwydd oddiwrth bawb
+   </lb> 
+   <lb n="18">eraill ond y rhai a fyddai o 'r un farn a hwynt eu
+   </lb> 
+   <lb n="19">hunain. Yr oeddent yn derbyn dieithriaid, ac
+   </lb> 
+   <lb n="20">llettygar i drafaelwyr; nid oeddent byth yn newid
+   </lb> 
+   <lb n="21">eu dillad ne's byddent wedi eu llwyr dreulio; yr
+   </lb> 
+   <lb n="22">oeddent ymhob peth yn grefyddol. Nid oeddent
+   </lb> 
+   <lb n="23">byth yn chwedleua cyn codi haul, oddieithr gweddio
+   </lb> 
+   <lb n="24">ar Dduw, am iddo wneuthur i 'r haul godi arnynt.
+   </lb> 
+   <lb n="25">Yr oeddent yn manol chwilio 'sgrifenadau \ysgrifenadau\ 'r 
+   </lb>
+   <lb n="25-26">henuriaid;
+   </lb>
+   <lb n="26">
+    yn gyfarwydd i wella doluriau, ac yn adnabyddus
+   </lb> 
+   <lb n="27">ag amryw lysieuau meddyginiaethol. Rhai o 
+   </lb>
+   <lb n="27-28">honynt
+   </lb>
+   <lb n="28">
+    oedd yn cymmeryd arnynt ragfynegi pethau i
+   </lb> 
+   <lb n="29">ddyfod.
+   
+   
+   </lb> 
+   <lb n="30">Herodiaid, sect ag sy 'n cael ei henwi 'n fynych yn
+   </lb> 
+   <lb n="31">yr efengyl, er nad yw Josephus na Philo yn son dim
+   </lb> 
+   <lb n="32">am dani. Mae 'r disgedigion yn ymrannu 'n fawr
+   </lb> 
+   <lb n="33">mewn perthynas i 'r sect hon; ac fe ellir cyfrif naw
+   </lb> 
+   <lb n="34">gwahanol opiniwn mewn perthynas i 'w gwreiddiol
+   </lb> 
+   <lb n="35">ddechreuad. Mae rhai 'n barnu i 'r Herodiaid 
+   </lb>
+   <lb n="35-36">gymmeryd
+   </lb>
+   <lb n="36">
+    Herod yn lle 'r Messia; ond fel ag y bu 
+   </lb>
+   <lb n="36-37">llawer
+   </lb>
+   <lb n="37">
+    Herod yn llywodraethu ar yr Iuddewon, maent
+   </lb> 
+   <lb n="38">etto yn ymrannu mewn perthynas i ba un o honynt
+   </lb> 
+   <lb n="39">oedd yn cael ei adael yn Fessia. Mae y rhan fwyaf yn
+   
+   </lb>
+   </pb>
+   <pb n="17.">
+   
+    
+   <lb n="1">meddwl mai Herod y mwyaf, mab i Antipater, yr
+   </lb> 
+   <lb n="2">hwn a fu farw ychydig fisoedd wedi geni ein 
+   </lb>
+   <lb n="2-3">Iachawdwr.
+   </lb>
+   <lb n="3">
+    Fe ymddangosodd mewn amser pan oedd
+   </lb> 
+   <lb n="4">yr holl fyd yn disgwyl am y Messia. Yr oedd ef
+   </lb> 
+   <lb n="5">yn dywysog galluog, yn ddyn ardderchog, ac yn
+   </lb> 
+   <lb n="6">rhyfelwr enwog. Fe ddywedir iddo gasglu 
+   </lb>
+   <lb n="6-7">cof-resau
+   </lb>
+   <lb n="7">
+    cenhedlaethau t&#375; Ddafydd, a 'u llosgi, fel na allai
+   </lb> 
+   <lb n="8">neb brofi nad oedd ef yn dyfod o 'r hiliogaeth hynny,
+   </lb> 
+   <lb n="9">o ba un y gwyddid fod y Messia i ddyfod. Yn 
+   </lb>
+   <lb n="9-10">ddiweddaf,
+   </lb>
+   <lb n="10">
+    fe ddywed Persius, fod gwledd fawr i frenin
+   </lb> 
+   <lb n="11">Herod yn Rhufain ymhlith yr Iuddewon, ynghyd &acirc;
+   </lb> 
+   <lb n="12">goleuadau gorfoleddus. Eraill sydd o 'r meddwl,
+   </lb> 
+   <lb n="13">mai Herod II. a gyfenwir Antipas, a Thetrac o
+   </lb> 
+   <lb n="14">Galilea, oedd pen yr Herodiaid. Yr oedd ef yn
+   </lb> 
+   <lb n="15">dywysog gl&acirc;n, ac yn ddigon trachwantus; canys
+   </lb> 
+   <lb n="16">mae 'n Iachawdwr yn ei alw ef yn gadno, Luc xiii. 32.
+   </lb> 
+   <lb n="17">Fe ellid yn hawdd feddwl ei fod ef yn drachwantus,
+   </lb> 
+   <lb n="18">i gymmeryd arno mai ef oedd y Messia. Heblaw
+   </lb> 
+   <lb n="19">hyn, mae llawer o opiniynau eraill mewn perthynas
+   </lb> 
+   <lb n="20">i 'r sect hon, ond yr hwn a fynegwyd uchod, sy 'n
+   </lb> 
+   <lb n="21">cael fwyaf o dderbyniad gan ddifinyddion.
+   
+   
+   </lb> 
+   <lb n="22">Yn gymmaint a bod y gyfraith Iuddewig yn 
+   </lb>
+   <lb n="22-23">fygythiadau
+   </lb>
+   <lb n="23">
+    tymhorol, mae 'n gwestiwn, pa un a oedd
+   </lb> 
+   <lb n="24">ganddynt wybodaeth am gyflwr tragywyddol ar ol y
+   </lb> 
+   <lb n="25">bywyd hwn; mae 'r opiniwn yma wedi cael ei 
+   </lb>
+   <lb n="25-26">ymddiffyn
+   </lb>
+   <lb n="26">
+    yn ddysgedig gan Doctor Warburton, a 'i
+   </lb> 
+   <lb n="27">wrthwynebu gan Doctor Sykes, a rhai awdwyr
+   </lb> 
+   <lb n="28">cymmeradwy eraill.
+   
+   
+   </lb> 
+   <lb n="29">Mae 'r Phariseaid a 'r Saduseaid yn mynych gael
+   </lb> 
+   <lb n="30">eu henwi yn y Testament Newydd; adnabyddiaeth
+   </lb> 
+   <lb n="31">o 'u hegwyddorion a 'u harferiadau a all fod o fawr
+   </lb> 
+   <lb n="32">wasanaeth i oleuo llawer o ymadroddion a hanesion
+   </lb> 
+   <lb n="33">ysgrythurol.
+   
+   
+   </lb> 
+   <lb n="34">Yn bresennol mae 'r Iuddewon wedi ymrannu yn
+   </lb> 
+   <lb n="35">ddwy sect; sef, Carasists, y rhai na fynnant derbyn
+   </lb> 
+   <lb n="36">un rheol o grefydd ond cyfraith Moses yn unig, a 'r
+   </lb> 
+   <lb n="37">Rabbiniaid ag sydd yn chwanegu at y gyfraith, fel y
+   </lb> 
+   <lb n="38">dywedwyd uchod, amryw draddodiadau 'r Talmud.
+   </lb> 
+   <lb n="39">Ond gan nad oes fawr yn gwybod beth yr ydys yn
+   
+   </lb>
+   </pb>
+   <pb n="18.">
+   
+    
+   <lb n="1">ei feddwl wrth y gair Talmud, yn y lle nesaf ni a
+   </lb> 
+   <lb n="2">gawn roi ychydig o eglurhad o hono.
+   
+   
+   </lb> 
+   <lb n="3">Cynhulliad o athrawiaethau crefyddol a moesol
+   </lb> 
+   <lb n="4">yr Iuddewon yw 'r Talmud. Mae dau fath ag
+   </lb> 
+   <lb n="5">sy 'n myned dan yr enw hwn; y cyntaf a elwir y
+   </lb> 
+   <lb n="6">Talmud o Jerusalem; a 'r llall, y Talmud o 
+   </lb>
+   <lb n="6-7">Babilon;
+   </lb>
+   <lb n="7">
+    mae pob un o 'r rhai'n wedi eu cyfansoddi yn
+   </lb> 
+   <lb n="8">ddau ran, y *&nbsp;Misna a 'r Gamara.
+   
+   
+   </lb> 
+   <lb n="9">Mae 'r Talmud o Jerusalem yn fyrrach ac yn 
+   </lb>
+   <lb n="9-10">dywyllach
+   </lb>
+   <lb n="10">
+    n&acirc; hwnnw o Babilon, ond yn henach o ran
+   </lb> 
+   <lb n="11">amser. Mae 'r Iuddewon yn dewis y Talmud a
+   </lb> 
+   <lb n="12">gyfansoddwyd yn Babilon o flaen hwnnw o 
+   </lb>
+   <lb n="12-13">Jerusalem,
+   </lb>
+   <lb n="13">
+    am ei fod yn fwy goleu, ac yn helaethach. Y
+   </lb> 
+   <lb n="14">Talmud o Jerusalem a 'r Misna, yn ol dehongliad
+   </lb> 
+   <lb n="15">y Caldeaid, Onkelos, a Jonathan, yw 'r llyfrau hynaf
+   </lb> 
+   <lb n="16">o athrawiaeth ag sydd gan yr Iuddewon, ond yr
+   </lb> 
+   <lb n="17">awdwyr sanctaidd eu hunain. Mae Lightfoot wedi
+   </lb> 
+   <lb n="18">tynnu llawer iawn o oleuni o honynt at eglurhau
+   </lb> 
+   <lb n="19">amryw ymadroddion yn y Testament Newydd,
+   </lb> 
+   <lb n="20">trwy gydmaru geiriau 'r Misna a 'r apostolion &acirc; 'r
+   </lb> 
+   <lb n="21">efangylwr.
+   
+   
+   </lb> 
+   <lb n="22">Pan ddinystriwyd Jerusalem gan Titus 
+   </lb>
+   <lb n="22-23">ymmerawdwr
+   </lb>
+   <lb n="23">
+    Rhufain, yr hyn a ddigwyddodd yn y flwyddyn
+   </lb> 
+   <lb n="24">70 o oedran Crist, fe gafodd yr Iuddewon eu 
+   </lb>
+   <lb n="24-25">gwasgaru
+   </lb>
+   <lb n="25">
+    dros wyneb yr holl ddaear, fel nad oes braidd
+   </lb> 
+   <lb n="26">un wlad na thalaith heb rai o honynt yn ei 
+   </lb>
+   <lb n="26-27">chrwydro;
+   </lb>
+   <lb n="27">
+    maent hyd heddyw yn disgwyl y Messia, yr
+   </lb> 
+   <lb n="28">hwn yn y iaith Hebraeg sy 'n arwyddo Eneiniog.&#8212;
+   </lb> 
+   <lb n="29">Crist a elwir felly, canys efe yw 'r gwir Fesia, yr
+   </lb> 
+   <lb n="30">hwn sy 'n Frenin, Offeiriad, ac yn Brophwyd; ac o 'i
+   </lb> 
+   <lb n="31">herwydd ef y cafodd brenhinoedd, offeiriaid, a 
+   </lb>
+   <lb n="31-32">phrophwydi
+   </lb>
+   <lb n="32">
+    eu heneinio, yr hyn oedd yn cael ei wneud
+   </lb> 
+   <lb n="33">yn ffiguraidd neu 'n gysgodol o hono, oddiwrth y
+   </lb> 
+   <lb n="34">gair Mesach, fe eneiniwyd. Felly Saul, Dafydd,
+   </lb> 
+   <lb n="35">Solomon, Joash, a brenhinoedd Juda, a 
+   </lb>
+   <lb n="35-36">dderbyniasant
+   </lb>
+   <lb n="36">
+    y frenhinol eneiniad, Aaron a 'i feibion yr
+   
+   
+   </lb> 
+   <lb n="37">* Misna sy 'n arwyddo ail adroddiad, neu, ail gyfraith
+   </lb> 
+   <lb n="38">Gamara, math o agoriad ar y Misna.
+   
+   </lb>
+   </pb>
+   <pb n="19.">
+   
+    
+   <lb n="1">offeiriadol wisgoedd cyssegredig, Elisha, disgybl 
+   </lb>
+   <lb n="1-2">Elija,
+   </lb>
+   <lb n="2">
+    y brophwydol eneiniad.
+   
+   
+   </lb> 
+   <lb n="3">Mae 'r Crist'nogion yn credu, mai Iesu Grist
+   </lb> 
+   <lb n="4">yw 'r gwir Fesia, ymha un y mae 'r holl 
+   </lb>
+   <lb n="4-5">brophwydoliaethau
+   </lb>
+   <lb n="5">
+    wedi cael eu llwyr gyflawni. Ond y
+   </lb> 
+   <lb n="6">mae 'r Iuddewon etto, yn eu hynfydrwydd, yn 
+   </lb>
+   <lb n="6-7">parhau
+   </lb>
+   <lb n="7">
+    i ddysgywl am Fesia tymhorol, yr hwn, 
+   </lb>
+   <lb n="7-8">meddant
+   </lb>
+   <lb n="8">
+    hwy, a ddarostwng y byd, ac a osod i fynu un
+   </lb> 
+   <lb n="9">lywodraeth gyffredinol; felly yn credu yn ei 
+   </lb>
+   <lb n="9-10">ddyfodiad.
+   </lb>
+   <lb n="10">
+    Rhai mwy diweddar o honynt sy 'n tybied ei
+   </lb> 
+   <lb n="11">fod eisoes wedi dyfod, ond ei fod heb wneuthur
+   </lb> 
+   <lb n="12">ei hun yn amlwg, o herwydd mawr bechodau 'r
+   </lb> 
+   <lb n="13">Iuddewon: eraill yn meddwl fod dau Fesia i 
+   </lb>
+   <lb n="13-14">ddyfod,
+   </lb>
+   <lb n="14">
+    y naill ar ol y llall; un mewn cyflwr o 
+   </lb>
+   <lb n="14-15">ymddarostyngiad,
+   </lb>
+   <lb n="15">
+    a 'r llall mewn anrhydedd, 
+   </lb>
+   <lb n="15-16">godidowgrwydd,
+   </lb>
+   <lb n="16">
+    a gallu. Ond bydded i bob Cristion gofio,
+   </lb> 
+   <lb n="17">fod Iesu wedi dywedyd yn rhagflaenol, er ein 
+   </lb>
+   <lb n="17-18">rhybuddio,
+   </lb>
+   <lb n="18">
+   &nbsp;'Os dywed neb wrthych, Wele dyma Grist,
+   </lb> 
+   <lb n="19">neu dyna, na chredwch; canys cyfyd gau gristiau
+   </lb> 
+   <lb n="20">a gau brophwydi lawer.' Ac wrth y wraig o 
+   </lb>
+   <lb n="20-21">Samaria,
+   </lb>
+   <lb n="21">
+   &nbsp;'Myfi yr hwn wyf yn ymddiddan &acirc; thi yw
+   </lb> 
+   <lb n="22">hwnnw.'
+   
+   
+   </lb> 
+   <lb n="23">Yn ol y brophwydoliaeth hon, yr ydym yn cael
+   </lb> 
+   <lb n="24">hanes am lawer o dwyllodwyr a gymmerasant arnynt
+   </lb> 
+   <lb n="25">enw 'r Mesia. Pob oes ymysg yr Iuddewon sydd
+   </lb> 
+   <lb n="26">wedi bod yn hynod am ryw gau gristiau, neu gau
+   </lb> 
+   <lb n="27">brophwydi, y rhai oedd yn dra llwyddianus i 
+   </lb>
+   <lb n="27-28">dwyllo'r
+   </lb>
+   <lb n="28">
+     bobl. Y cyntaf, a 'r mwyaf enwog, oedd Simon
+   </lb> 
+   <lb n="29">Magus, yr hwn a gyhoeddodd ei hun yn Samaria,
+   </lb> 
+   <lb n="30">mai efe oedd gallu Duw. Yn yr oes ganlynol, un
+   </lb> 
+   <lb n="31">Barchochobas, trwy ei dwyll, a dynodd erledigaeth
+   </lb> 
+   <lb n="32">echryslawn ar yr Iuddewon. Yr ydys yn dywedyd iddo
+   </lb> 
+   <lb n="33">ef gymmeryd yr enw hwn, ag sy 'n arwyddo yn 
+   </lb>
+   <lb n="33-34">Hebraeg,
+   </lb>
+   <lb n="34">
+   &nbsp;Mab y Seren, o herwydd fod prophwydoliaeth
+   </lb> 
+   <lb n="35">Balaam yn dywedyd, y deuai seren allan o lwyth
+   </lb> 
+   <lb n="36">Jacob; yr hyn ag oedd ef yn ei osod iddo ei hun,
+   </lb> 
+   <lb n="37">gan roi allan, mai efe oedd y Mesia. Fe dynnodd
+   </lb> 
+   <lb n="38">yr Iuddewon i wrthryfela yn erbyn llywodraeth
+   </lb> 
+   <lb n="39">Adrian. Mae hanesion yn dywedyd fod ganddo
+   
+   </lb>
+   </pb>
+   <pb n="20.">
+   
+    
+   <lb n="1">25,000 o ddisgyblion; i Dduw ddatguddio amryw
+   </lb> 
+   <lb n="2">bethau iddo ef, ag a gadwodd yn guddiedig oddiwrth
+   </lb> 
+   <lb n="3">Moses; ac na allasai un llyfr gynnwys ei holl 
+   </lb>
+   <lb n="3-4">weithredoedd
+   </lb>
+   <lb n="4">
+    a 'i ymadroddion ynddo.
+   
+   
+   </lb> 
+   <lb n="5">O ddeutu 'r flwyddyn 434, fe ymddangosodd yn
+   </lb> 
+   <lb n="6">ynys Candy gau Fesia a elwid Moses; yr oedd hwn
+   </lb> 
+   <lb n="7">yn dywedyd mai efe a roddodd y gyfraith gyntaf i 'r
+   </lb> 
+   <lb n="8">Iuddewon, iddo ddyfod i lawr o 'r nef i waredu 'r
+   </lb> 
+   <lb n="9">Iuddewon o 'r ynys honno, trwy wneuthur iddynt
+   </lb> 
+   <lb n="10">basio dros y m&ocirc;r yn eu hol i dir yr addewid: fe fu 'r
+   </lb> 
+   <lb n="11">Iuddewon mor ddwled a 'i gredu, a llawer o honynt
+   </lb> 
+   <lb n="12">a neidiasant i 'r m&ocirc;r gan debyg y caent ffordd agored
+   </lb> 
+   <lb n="13">i fyned trwyddo. Llawer o honynt a foddasant, a 'r
+   </lb> 
+   <lb n="14">lleill a ddaethant allan fel y gallent; pan aed i 
+   </lb>
+   <lb n="14-15">ymofyn
+   </lb>
+   <lb n="15">
+    am y twyllwr, yr oedd ef wedi diflannu, am
+   </lb> 
+   <lb n="16">hynny hwy a dybiasant mai yspryd ydoedd ar ddull
+   </lb> 
+   <lb n="17">dyn wedi dyfod i amharchu 'r Iuddewon.
+   
+   
+   </lb> 
+   <lb n="18">Yn yr oes ganlynol, 530, fe ymddangosodd gau
+   </lb> 
+   <lb n="19">Fesia yn Palestina, a elwid Julian; fe roddodd hwn
+   </lb> 
+   <lb n="20">ei hun i maes yn goncwerwr i wared yr Iuddewon
+   </lb> 
+   <lb n="21">o ddwylaw gorthrymedig y Crist'nogion trwy nerth
+   </lb> 
+   <lb n="22">arfau. Hwy a gymmerasant eu camarwain trwy 'r
+   </lb> 
+   <lb n="23">addewidion hyn; fe gymmerodd yr Iuddewon i fynu
+   </lb> 
+   <lb n="24">eu harfau, ac a dorrasant yddfau llawer o 'r 
+   </lb>
+   <lb n="24-25">Crist'nogion;
+   </lb>
+   <lb n="25">
+    ond fe ddarfu i 'r ymmerawdwr Justinian
+   </lb> 
+   <lb n="26">ddanfon byddyn i 'w cynnorthwyo: Julian a 
+   </lb>
+   <lb n="26-27">gymmerwyd,
+   </lb>
+   <lb n="27">
+    ac a ddihenyddwyd, a 'i ganlynwyr a 
+   </lb>
+   <lb n="27-28">wasgarwyd.
+   </lb>
+   <lb n="28">
+   
+   
+   
+   </lb> 
+   <lb n="29">Yn y flwyddyn 714, Iuddew a elwid Serenus, a
+   </lb> 
+   <lb n="30">osododd ei hun i maes i 'r Iuddewon yn Yspain, mai
+   </lb> 
+   <lb n="31">ef oedd i 'w harwain i Palestina, ac i osod i fynu 
+   </lb>
+   <lb n="31-32">ymmerodraeth
+   </lb>
+   <lb n="32">
+    yno. Llawer (a gredasant mai efe
+   </lb> 
+   <lb n="33">oedd y Mesia,) a adawsant eu gwlad a 'u 
+   </lb>
+   <lb n="33-34">gorchwylion
+   </lb>
+   <lb n="34">
+    i 'w ganlyn. Ond hwy  a ddeallasant yn ebrwydd
+   </lb> 
+   <lb n="35">nad oedd ef ond twyllwr, ac a gawsant amser ddigon
+   </lb> 
+   <lb n="36">i edifarhau am eu ffolineb a 'u crediniaeth.
+   
+   
+   </lb> 
+   <lb n="37">O ddeutu 'r ddeuddegfed oes yr oedd yr amser yn
+   </lb> 
+   <lb n="38">bur ffrwythlon am dwyllwyr o 'r fath hyn; fe 
+   </lb>
+   <lb n="38-39">ymddangosodd
+   </lb>
+   <lb n="39">
+    ynghylch saith neu wyth o honynt yn
+   
+   </lb>
+   </pb>
+   <pb n="21.">
+   
+    
+   <lb n="1">Ffraingc, Yspaen, Persia, &amp;c. un nodedig yn 
+   </lb>
+   <lb n="1-2">Morafia,
+   </lb>
+   <lb n="2">
+    yr hwn, meddant hwy, a allai wneuthur ei hun
+   </lb> 
+   <lb n="3">yn anweledig pryd y mynnai, trwy swyno llygaid ei
+   </lb> 
+   <lb n="4">ganlynwyr. Yn yr oes ddiweddaf fe ymddangosodd
+   </lb> 
+   <lb n="5">twyllwr nodedig a elwid Sabatai Tzevi, a osododd ei
+   </lb> 
+   <lb n="6">hun i fynu yn lle Mesia, ond yn groes i ddisgwyliad
+   </lb> 
+   <lb n="7">yr Iuddewon, fe a drodd yn Fahometan, yn 1666.
+   
+   
+   </lb> 
+   <lb n="8">Yn olaf, fe ymddangosodd un Rabby Mordecai o
+   </lb> 
+   <lb n="9">ddeutu 'r flwyddyn 1682, yr hwn a gymmerodd arno
+   </lb> 
+   <lb n="10">yr enw o Fesia, ac a dwyllodd beth mawr o 'r 
+   </lb>
+   <lb n="10-11">Iuddewon
+   </lb>
+   <lb n="11">
+    yn Itali a Germany i 'w ganlyn; ond fe 
+   </lb>
+   <lb n="11-12">gafodd
+   </lb>
+   <lb n="12">
+    hwn ei gymmeryd i fynu gan yr Inquisition a 'i
+   </lb> 
+   <lb n="13">drin fel twyllwr, yn ol ei haeddiant. Fel hyn y
+   </lb> 
+   <lb n="14">mae 'r Iuddewon ymhob oes wedi bod yn gosod i fynu
+   </lb> 
+   <lb n="15">gau gristiau, y naill ar ol y llall, er amser ein 
+   </lb>
+   <lb n="15-16">Iachawdwr
+   </lb>
+   <lb n="16">
+    hyd yn awr, nid i un diben arall ond i 
+   </lb>
+   <lb n="16-17">ddangos
+   </lb>
+   <lb n="17">
+    eu ffolineb a 'u angrhediniaeth.
+   
+   
+   </lb> 
+   <lb n="18">Y pethau mwyaf neillduol a ddigwyddodd yn
+   </lb> 
+   <lb n="19">amser neu hanes yr Iuddewon yw, galw Abraham o
+   </lb> 
+   <lb n="20">wlad y Caldeaid, arwain yr Israeliaid o wlad
+   </lb> 
+   <lb n="21">yr Aipht trwy 'r m&ocirc;r coch; rhoddi y gyfraith i
+   </lb> 
+   <lb n="22">Moses ar fynydd Sinai, eu sefydlu yng wlad Canaan
+   </lb> 
+   <lb n="23">dan lywodraeth Josua, adeiladu teml Salomon;
+   </lb> 
+   <lb n="24">rhannu 'r llwythau, eu caethgludiad yn Babilon, eu
+   </lb> 
+   <lb n="25">hadymchweliad dan Zorobabel i adeiladu 'r deml yr
+   </lb> 
+   <lb n="26">ail waith, dinystrio hon drachefn gan Titus, a
+   </lb> 
+   <lb n="27">gwasgariad yr Iuddewon dros yr holl fyd. Mae 'n
+   </lb> 
+   <lb n="28">ddiammeu mai llyfrau 'r Hen Destament yw 'r 
+   </lb>
+   <lb n="28-29">hanesion
+   </lb>
+   <lb n="29">
+    goreu a 'r hynaf ag ydym ni yn adnabyddus o
+   </lb> 
+   <lb n="30">honynt. Yn dystiolaeth o hyn, edryched y 
+   </lb>
+   <lb n="30-31">darllenydd
+   </lb>
+   <lb n="31">
+    i waith Josephus, un o 'u haneswyr goreu, o ba
+   </lb> 
+   <lb n="32">waith y mae llawer cyfieithad yn Saesonaeg.
+   
+   
+   </lb> 
+   <lb n="33">Pob dyn ag sy 'n caru 'r gwirionedd, ac yn 
+   </lb>
+   <lb n="33-34">chwennych
+   </lb>
+   <lb n="34">
+    cael iawn dystiolaeth o 'i grefydd, nid oes achos
+   </lb> 
+   <lb n="35">i Gristion fyth gael gwell n&acirc; 'r hyn a welir mewn
+   </lb> 
+   <lb n="36">perthynas i gyflwr yr Iuddewon yn bresennol! Duw,
+   </lb> 
+   <lb n="37">er hynny, sy 'n ein gwarafun i wneuthur 
+   </lb>
+   <lb n="37-38">cam-ddefnydd
+   </lb>
+   <lb n="38">
+    o 'r tystion hyn, a 'u sarnu dan draed, ond yn
+   </lb> 
+   <lb n="39">hytrach i ddangos ein hynawsedd drugaredd tu ag
+   </lb> 
+   <lb n="40">at y bobl annedwydd yma, y rhai sydd a 'u calonnau
+   
+   </lb>
+   </pb>
+   <pb n="22.">
+   
+    
+   <lb n="1">yn awr wedi caledi mewn tywyllwch ac 
+   </lb>
+   <lb n="1-2">angrhediniaeth.
+   </lb>
+   <lb n="2">
+   
+   
+   
+   </lb> 
+   <lb n="3">Nid yw yn adnabyddus i ni, pa mor belled y
+   </lb> 
+   <lb n="4"> byddai i 'r bobl hyn ganiattau rhydd-did i 
+   </lb>
+   <lb n="4-5">Grist'nogion,
+   </lb>
+   <lb n="5">
+    pe byddai 'r llywodraeth yn eu dwylo; ond
+   </lb> 
+   <lb n="6">hyn a wyddom, nad oes gan Grist'nogion un hawl
+   </lb> 
+   <lb n="7">i erlid; canys arfau ein milwriaeth ni nid ydynt
+   </lb> 
+   <lb n="8">gnawdol, ond nerthol trwy Dduw, i ddyfod ag
+   </lb> 
+   <lb n="9">eneidiau yn ddarostyngedig i Grist.
+   
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="10">Am&nbsp;Eilun-Addoliaeth&nbsp;yn gyffredinol.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="11">EILUN neu ddelw-addoliaeth yw gwasanaeth
+   </lb> 
+   <lb n="12">grefyddol a roddir i ddelwau a gau dduwiau;
+   </lb> 
+   <lb n="13">ac yn gyffredinol a ddeallir am bob annuwioldeb a
+   </lb> 
+   <lb n="14">phob math o goel-grefyddau. Nid yw awdwyr
+   </lb> 
+   <lb n="15">yn gallu llwyr gyttuno mewn perthynas i wreiddiol
+   </lb> 
+   <lb n="16">ddechreuad na 'r achos o eilun-addoliad. Lucretius
+   </lb> 
+   <lb n="17">oedd yn meddwl y gallai dyn o fwriadau terfysglyd,
+   </lb> 
+   <lb n="18">a fyddai 'n deilliaw oddiwrth ofn, ddarlunio rhyw
+   </lb> 
+   <lb n="19">ddychymmyg o dduwiau iddo ei hun.
+   
+   
+   </lb> 
+   <lb n="20">Yr wrthddrych gyntaf o eilun-addoliaeth a ellir
+   </lb> 
+   <lb n="21">feddwl, oedd yr haul, lleuad, a 'r ser, ac yn gysgodol
+   </lb> 
+   <lb n="22">o honynt, y t&acirc;n. Eraill oedd yn credu fod yr 
+   </lb>
+   <lb n="22-23">addoliad
+   </lb>
+   <lb n="23">
+    yn y dechreuad yn cael ei wneuthur i angylion.
+   </lb> 
+   <lb n="24">Ffosius sy 'n gosod allan, pan ddarfu i ddynion 
+   </lb>
+   <lb n="24-25">gyntaf
+   </lb>
+   <lb n="25">
+    ymadael &acirc; 'r gwasanaeth ag oedd yn ddyledus i 'r
+   </lb> 
+   <lb n="26">gwir Dduw, iddynt roddi dwyfol anrhydedd i ddau
+   </lb> 
+   <lb n="27">egwyddor, sef, y da a 'r drwg.
+   
+   
+   </lb> 
+   <lb n="28">Mae rhai awdwyr yn meddwl bod eilun-addoliad
+   </lb> 
+   <lb n="29">yn henach n&acirc; 'r diluw, ac yn credu iddo ddechreu
+   </lb> 
+   <lb n="30">cyn amser Enos; a hyn y maent yn ei brofi trwy
+   </lb> 
+   <lb n="31">ddyfynnu yr adnod olaf o 'r bedwaredd bennod o
+   </lb> 
+   <lb n="32">Genesis, lle y dywedir, yn ol y cyfieithad cyffredin,
+   
+   </lb> 
+   <lb n="33">'I ddynion ddechreu galw ar enw 'r Arglwydd.'&#8212;
+   </lb> 
+   <lb n="34">Ond yn ol rhai awdwyr, y maent yn ei gyfieithu,
+   </lb> 
+   <lb n="35">'Pryd hynny dechreuodd dynion halogi enw 'r 
+   </lb>
+   <lb n="35-36">Arglwydd.'
+   </lb>
+   <lb n="36">
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="23.">
+   
+   
+    
+   <lb n="1">Yn fuan ar ol y diluw, fe aeth yr holl fyd yn
+   </lb> 
+   <lb n="2">benwan mewn eilun-addoliad; canys p'le bynnag y
+   </lb> 
+   <lb n="3">trown ein llygaid, er a chyn amser Abraham, ni chair
+   </lb> 
+   <lb n="4">gweled dim ond gau-addoliad ac eilunod trwy 'r
+   </lb> 
+   <lb n="5">holl ddaear. Tad Abraham, ac Abraham ei hun,
+   </lb> 
+   <lb n="6">a fuant yn euog o wasanaethu duwiau eraill tu hwnt
+   </lb> 
+   <lb n="7">i 'r afon Euphrates. Mae 'n ddigon eglur fod 
+   </lb>
+   <lb n="7-8">delwau
+   </lb>
+   <lb n="8">
+    gan Laban, pan yr y'm yn cael hanes i Rachel,
+   </lb> 
+   <lb n="9">o gariad iddynt, fyned &acirc; hwynt gyd &acirc; hi. Y rhai'n,
+   </lb> 
+   <lb n="10">ynghyd ag eraill ag oedd yn cael eu cadw yn y teulu,
+   </lb> 
+   <lb n="11">a guddiodd Jacob dan dderwen yn Sechem, fel na
+   </lb> 
+   <lb n="12">chaent eu defnyddio mwyach.
+   
+   
+   </lb> 
+   <lb n="13">Delwau eraill a sonier am danynt yn yr 
+   </lb>
+   <lb n="13-14">ysgrythurau,
+   </lb>
+   <lb n="14">
+    yw 'r Teraphim, y llo aur, Baal, Bel, 
+   </lb>
+   <lb n="14-15">Baalpeor,
+   </lb>
+   <lb n="15">
+    Baal-perith, Beelzebub, Meloc, Anam-melec
+   </lb> 
+   <lb n="16">Adramelec, Repham, Dagon, Nergal, Ashima, 
+   </lb>
+   <lb n="16-17">Nibaas,
+   </lb>
+   <lb n="17">
+    Tartac, Rimmon, Nisroc, Tammus, Sheshac,
+   </lb> 
+   <lb n="18">Nebo, Meni, Gad, Mahussin, Duw 'r pwerau, neu 'r
+   </lb> 
+   <lb n="19">duwiau cadwedigol gan y Papistiaid, Asharoth, a
+   </lb> 
+   <lb n="20"> Succoth-benoth. Ond llawer o 'r rhai'n oedd yr
+   </lb> 
+   <lb n="21">un peth dan wahanol enwau. Mewn amser 
+   </lb>
+   <lb n="21-22">dynion
+   </lb>
+   <lb n="22">
+    ardderchog, neu frenhinoedd wedi marw, 
+   </lb>
+   <lb n="22-23">anifeiliaid
+   </lb>
+   <lb n="23">
+    o bob rhyw, megis teirw, elephantiaid,
+   </lb> 
+   <lb n="24">llysiau, cerrig, a phob peth a allai daro yn eu 
+   </lb>
+   <lb n="24-25">pennau,
+   </lb>
+   <lb n="25">
+    oedd yn cael eu galw yn dduwiau a 'u haddoli.
+   </lb> 
+   <lb n="26">Dynion a 'u meddyliau wedi gwibio oddiwrth y wir
+   </lb> 
+   <lb n="27">orphwysfa yn y goruchel fod, ac heb gael dim 
+   </lb>
+   <lb n="27-28">gorphwysfa
+   </lb>
+   <lb n="28">
+    mewn delw, a chwanegasant eraill attynt.
+   </lb> 
+   <lb n="29">Yma, pan oedd pob gwlad a chenedl a delwau
+   </lb> 
+   <lb n="30">neillduol iddynt eu hunain, yr oeddent yn barod i
+   </lb> 
+   <lb n="31">dderbyn y rhei'ny perthynol i 'w cymmydogion. Ac
+   </lb> 
+   <lb n="32">er cymmaint oedd eu hawl i philosophi, nid oedd
+   </lb> 
+   <lb n="33">hynny yn yr hyn lleiaf yn gwella dim ar y wlad.
+   </lb> 
+   <lb n="34">Yr Aiphtiaid, er cymmaint oeddent hwy yn ei 
+   </lb>
+   <lb n="34-35">glaimio
+   </lb>
+   <lb n="35">
+    o ddoethineb, a wasanaethent deirw brithion,
+   </lb> 
+   <lb n="36">adar, cennin, winwyns, &amp;c. Yr oedd hefyd gan
+   </lb> 
+   <lb n="37">y Groegiaid ynghylch deng mil ar hugain o 
+   </lb>
+   <lb n="37-38">dduwiau.
+   </lb>
+   <lb n="38">
+    Y Gomeriaid a wnaethant dduwiau o 'u
+   </lb> 
+   <lb n="39">brenhinoedd a gwir ardderchog eraill; ac nid oedd
+   
+   </lb>
+   </pb>
+   <pb n="24.">
+   
+    
+   <lb n="1">y Caldeaid, y Rhufeiniaid, a 'r Chinesiaid, yn well
+   </lb> 
+   <lb n="2">n&acirc; hwythau am eu ffolineb: ac nid hyn yn unig,
+   </lb> 
+   <lb n="3">canys nid oeddent yn edrych dim ar dorri cyfraith
+   </lb> 
+   <lb n="4">nattur, trwy fwrddro lluoedd o 'u cymmydogion a 'u
+   </lb> 
+   <lb n="5">plant, i 'w hoffrymmu i 'w duwiau. Yr oedd rhai
+   </lb> 
+   <lb n="6">cenhedlaethau yn Germani, Scandinafia a Thartari,
+   </lb> 
+   <lb n="7">yn meddwl fod marwolaeth ddisyfed mewn rhyfel,
+   </lb> 
+   <lb n="8">neu hunan-laddiad, yn ffordd happus o ddiweddiad,
+   </lb> 
+   <lb n="9">at gael tragywyddol ddedwyddwch gyd &acirc; 'u duwiau.
+   </lb> 
+   <lb n="10">Yn ddiweddar amser yr offrymwyd ynghylch 64,080
+   </lb> 
+   <lb n="11">o ddynion, wrth gyssegru teml i eilunod, mewn 
+   </lb>
+   <lb n="11-12">yspaid
+   </lb>
+   <lb n="12">
+    pedwar diwrnod, yn America.
+   
+   
+   </lb> 
+   <lb n="13">Ni fu gan yr Hebreaid erioed ddelwau o 'u gwaith
+   </lb> 
+   <lb n="14">eu hunain; ond yr oe'nt \oeddent\ hwy yn dderbyniol o rhai
+   </lb> 
+   <lb n="15">ag oedd gan y cenhedlaethau o 'u hamgylch. Y 
+   </lb>
+   <lb n="15-16">parodrwydd
+   </lb>
+   <lb n="16">
+    i addoli 'r llo aur wrth fynydd Sinai, sy 'n rhoi 
+   </lb>
+   <lb n="16-17">achos
+   </lb>
+   <lb n="17">
+    i feddwl eu bod yn euog o 'r un ffieidd-dra yng wlad
+   </lb> 
+   <lb n="18">yr Aipht: wedi hynny hwy a wasanaethasant 
+   </lb>
+   <lb n="18-19">ddelwau
+   </lb>
+   <lb n="19">
+    'r Moabiaid, Ammoniaid, Canaaneaid, y 
+   </lb>
+   <lb n="19-20">Syriaid,
+   </lb>
+   <lb n="20">
+   &nbsp;&amp;c. Ac yn yr 862 o flynyddau y buant yn
+   </lb> 
+   <lb n="21">aros yng wlad Canaan, cyn eu caethiwo gan y 
+   </lb>
+   <lb n="21-22">Caldeaid,
+   </lb>
+   <lb n="22">
+    hwy a lithrasant bedair gwaith ar ddeg o leiaf
+   </lb> 
+   <lb n="23">i eilun-addoliaeth. Dan deyrnasiad y deg llwyth,
+   </lb> 
+   <lb n="24">yr oedd eilun-addoliad yn sefydledig yn eu plith; ac
+   </lb> 
+   <lb n="25">anfynych oedd teyrnas Juda yn cael ei phuro 
+   </lb>
+   <lb n="25-26">oddiwrthi.
+   </lb>
+   <lb n="26">
+    Gwedi 'r Iuddewon ddyfod yn eu hol o 
+   </lb>
+   <lb n="26-27">Babilon,
+   </lb>
+   <lb n="27">
+    yr oeddent yn llwyr wrthwyneb i addoli 
+   </lb>
+   <lb n="27-28">delwau,
+   </lb>
+   <lb n="28">
+    ac am hynny a oddefasant lawer o galedi o 'u
+   </lb> 
+   <lb n="29">hachos.
+   
+   
+   </lb> 
+   <lb n="30">Y Mahometaniaid ydynt hefyd yn cymmeryd 
+   </lb>
+   <lb n="30-31">arnynt
+   </lb>
+   <lb n="31">
+    fod ganddynt sel fawr yn erbyn eilun-addoliaeth.
+   </lb> 
+   <lb n="32">Y gwasanaeth y mae 'r Papistiaid yn ei roddi i 'r
+   </lb> 
+   <lb n="33">Forwyn Fair, i 'r seintiau eraill, ac i angylion heb
+   </lb> 
+   <lb n="34">rifedi, traws-sylweddiad yr elfennau yn y cymmun,
+   </lb> 
+   <lb n="35">y rhelywiau a 'u delwau, sy 'n drosedd nid bychan yn
+   </lb> 
+   <lb n="36">eu golwg, ac yn peri iddynt (nid yn ddiachos) 
+   </lb>
+   <lb n="36-37">edrych
+   </lb>
+   <lb n="37">
+    ar Grist'nogion yn eilun-addolwyr. Ac yn
+   </lb> 
+   <lb n="38">wir, nid yw Crist'nogion eglwys y Groeg ddim gwell,
+   </lb> 
+   <lb n="39">a 'u cymmeryd yn gyffredinol; y maent yn fwy 
+   </lb>
+   <lb n="39-40">tueddol
+   </lb>
+   <lb n="40">
+    n&acirc; 'r Papistiaid i eilun-addoliaeth.
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="25.">
+   
+   
+   
+   <head>
+    
+   <lb n="1">Dechreuad&nbsp;Paganiaeth&nbsp;ac&nbsp;
+   </lb>
+   <lb n="1-2">Eilun-Addoliaeth
+   </lb>
+   <lb n="2">
+   &nbsp;wedi 'r Diluw.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="3">ER bod eilun-addoliaeth wedi dechreu yn fuan ar
+   </lb> 
+   <lb n="4">ol y diluw, etto gallwn ddeall fod y grefydd
+   </lb> 
+   <lb n="5">honno a draddododd Noa i 'w hiliogaeth, yr hon
+   </lb> 
+   <lb n="6">hefyd a arferwyd gan rai o 'r Patriarciaid hyd amser
+   </lb> 
+   <lb n="7">Abraham, sef, addoliad o un gwir Dduw, 
+   </lb>
+   <lb n="7-8">Penllywodraethwr
+   </lb>
+   <lb n="8">
+    a Chreawdwr pob peth, a gobeithio yn ei
+   </lb> 
+   <lb n="9">drugaredd trwy Gyfryngwr. Canys yr 
+   </lb>
+   <lb n="9-10">angenrheidrwydd
+   </lb>
+   <lb n="10">
+    o Gyfryngwr rhwng Duw a dyn oedd,
+   </lb> 
+   <lb n="11">fel y gellid meddwl, yn farn gyffredinol, wedi 
+   </lb>
+   <lb n="11-12">gwreiddio
+   </lb>
+   <lb n="12">
+    yng nghalonnau holl ddynolryw mor fore a 'r
+   </lb> 
+   <lb n="13">dechreuad. Dynion, trwy lygredigaeth nattur, a 
+   </lb>
+   <lb n="13-14">ddechreuasant
+   </lb>
+   <lb n="14">
+    edrych arnynt eu hunain yn rhy wael, aflan
+   </lb> 
+   <lb n="15">ac amherffaith, i wneuthur eu herfyniadau at fod
+   </lb> 
+   <lb n="16">mor fawr, sanctaidd, a gogoneddus, ag oedd y Duw
+   </lb> 
+   <lb n="17">hwnnw, Creawdwr nef a daear. Hwy a feddyliasant
+   </lb> 
+   <lb n="18">ei fod yn rhy uchel ac ardderchog; eu hunain yn rhy
+   </lb> 
+   <lb n="19">isel, llygredig, ac anheilwng, i wneuthur cyfathrach
+   </lb> 
+   <lb n="20">ag ef; am hynny hwy a benderfynent fod yn 
+   </lb>
+   <lb n="20-21">angenrheidiol
+   </lb>
+   <lb n="21">
+    wrth Gyfryngwr neu Gyfryngwyr, trwy
+   </lb> 
+   <lb n="22">deilyngdod y cyfryw rai y gallent gyflwyno eu
+   </lb> 
+   <lb n="23">gweddiau a 'u deisyfiadau i gael eu cymmeradwyo
+   </lb> 
+   <lb n="24">ganddo.
+   
+   
+   </lb> 
+   <lb n="25">Yn ganlynol, hwy a gymmerasant mewn llaw
+   </lb> 
+   <lb n="26">ddychymmyg pwy a allsai fod yn fwyaf perthynol i 'r
+   </lb> 
+   <lb n="27">pwrpas; ymhlith y goleuadau nefol yr haul, lleuad,
+   </lb> 
+   <lb n="28">a 'r planedau, a darawsant gyntaf yn eu meddyliau;
+   </lb> 
+   <lb n="29">hwy a wyddent wrth nattur fod yr haul a 'r lleuad
+   </lb> 
+   <lb n="30">yn rhagori ar yr holl gyrph wybrennol eraill; ac
+   </lb> 
+   <lb n="31">heblaw hyn, hwy a dybiasant fod y goleuadau 
+   </lb>
+   <lb n="31-32">rhagorol
+   </lb>
+   <lb n="32">
+    yma 'n bebyll, neu yn drigfannau i ryw fath o
+   </lb> 
+   <lb n="33">ysprydion ardderchog ag oedd, o ran eu nattur, yn
+   </lb> 
+   <lb n="34">nes ac yn fwy teilwng o gymdeithas y Goruchaf n&acirc;
+   </lb> 
+   <lb n="35">hwy. Yr oeddent hefyd yn credu, fod rhyw 
+   </lb>
+   <lb n="35-36">ysprydion
+   </lb>
+   <lb n="36">
+    yn cyfaneddu ynddynt yn yr un dull ag y mae
+   </lb> 
+   <lb n="37">eneidiau dynion yn cyfaneddu yn eu cyrph daearol;
+   </lb> 
+   <lb n="38">ac yn eu dwyn trwy eu holl ysgogiadau tymhorol o
+   
+   </lb>
+   </pb>
+   <pb n="26.">
+   
+    
+   <lb n="1">amgylch y ffurfafen, ac nid yn unig i lywodraethu 'r
+   </lb> 
+   <lb n="2">cyrph hynny lle 'r oeddynt yn preswylio, ond hefyd,
+   </lb> 
+   <lb n="3">fod ganddynt awdurdod fawr ar bethau daearol;
+   </lb> 
+   <lb n="4">yn ganlynol, hwy a dybiasant mai y rhai'n oedd y
+   </lb> 
+   <lb n="5">bodau mwyaf addas at fod yn gyfryngwyr i ddwyn
+   </lb> 
+   <lb n="6">eu deisyfiadau a 'u gweddiau at Dduw. Yn y lle
+   </lb> 
+   <lb n="7">nesaf, hwy a ddechreuasant roi enwau ar y goleuadau
+   </lb> 
+   <lb n="8">hyn: Sadwrn hwy a alwent Cronos; Iau, Jove;
+   </lb> 
+   <lb n="9">Mawrth, Maros; Haul, Apollo; Gwener, 
+   </lb>
+   <lb n="9-10">Prosperina;
+   </lb>
+   <lb n="10">
+    Mercher, Hecat; a 'r Lleuad, Diana; ynghyd
+   </lb> 
+   <lb n="11">&acirc; llawer o enwau eraill perthynol i 'r pethau neu 'r
+   </lb> 
+   <lb n="12">lleoedd ag oeddent hwy yn ei dybied fod dan ei
+   </lb> 
+   <lb n="13">hawdurdod. Dyma y rhai a wnaeth y cenhedloedd
+   </lb> 
+   <lb n="14">gyntaf yn dduwiau; i 'r cyfryw yr oeddent yn 
+   </lb>
+   <lb n="14-15">offrymmu
+   </lb>
+   <lb n="15">
+    ac yn talu eu haddunedau, i 'r diben iddynt
+   </lb> 
+   <lb n="16">hwythau fod yn genhadon ffyddlon drostynt at
+   </lb> 
+   <lb n="17">Dduw.
+   
+   
+   </lb> 
+   <lb n="18">Etto nid oedd hyn ddim digon; hwy a aethant i
+   </lb> 
+   <lb n="19">gredu, fod gan ddynion da ac ardderchog, pan y
+   </lb> 
+   <lb n="20">byddent farw, allu mawr, o herwydd eu ffafr gyd &acirc;
+   </lb> 
+   <lb n="21">Duw o fod yn gyfryngwyr i eirioli drostynt; am
+   </lb> 
+   <lb n="22">hynny, fe ddarfu iddynt dduwio llawer o ddynion ag
+   </lb> 
+   <lb n="23">oedd wedi bod yn enwog yn eu bywyd, a chwedi
+   </lb> 
+   <lb n="24">haeddu mwy o glod nag eraill, naill ai am eu 
+   </lb>
+   <lb n="24-25">helusenau
+   </lb>
+   <lb n="25">
+    a 'u hathrawiaethau, neu o ran rhagorfraint eu
+   </lb> 
+   <lb n="26">hawdurdodau. Ond nid hyn yn unig; ni fuant
+   </lb> 
+   <lb n="27">hwyrach ne's iddynt gyssegru amryw eraill o is radd;
+   </lb> 
+   <lb n="28">hwy a lanwasant y byd o honynt, gan osod rhai i
+   </lb> 
+   <lb n="29">lywodraethu moroedd, rhai 'r coedydd, afonydd, 
+   </lb>
+   <lb n="29-30">mynyddau,
+   </lb>
+   <lb n="30">
+    taranau, tymhestlau, &amp;c. Ac yn y diwedd,
+   </lb> 
+   <lb n="31">hwy a aethant i addoli eu lluniau, eu delwau, a phob
+   </lb> 
+   <lb n="32">math o greaduriaid gwylltion a dofion, gl&acirc;n ac aflan,
+   </lb> 
+   <lb n="33">rheibus a gwenwynog; delwau o aur ac arian,
+   </lb> 
+   <lb n="34">coed a cherrig, o 'u gwaith eu hunain; i ba rai yr
+   </lb> 
+   <lb n="35">oeddent ac y maent, mewn rhai mannau, yn rhoi
+   </lb> 
+   <lb n="36">dwyfol anrhydedd ac addoliad iddynt hyd y dydd
+   </lb> 
+   <lb n="37">heddyw.
+   
+   
+   </lb> 
+   <lb n="38">Mae 'n ddiammeu i 'r grefydd hon o 
+   </lb>
+   <lb n="38-39">eilun-addoliaeth
+   </lb>
+   <lb n="39">
+    ddechreu ymhlith y Caldeaid; eu gwybodaeth
+   
+   </lb>
+   </pb>
+   <pb n="27.">
+   
+    
+   <lb n="1">mewn seryddiaeth a 'u cynnorthwyodd hwynt iddi;
+   </lb> 
+   <lb n="2">ac o herwydd hyn y cafodd Abraham ei neillduo,
+   </lb> 
+   <lb n="3">pan ddaeth ef allan o honi; oddiwrth y Caldeaid hi
+   </lb> 
+   <lb n="4">a dannodd ei hun dros holl wledydd y dwyrain, lle
+   </lb> 
+   <lb n="5">cafodd ei phroffeswyr yr enw o Sabiaid. Oddi yma
+   </lb> 
+   <lb n="6">hi aeth trosodd i wlad yr Aipht, ac oddi yno i blith
+   </lb> 
+   <lb n="7">y Groegiaid, y rhai a 'i tannodd trwy holl 
+   </lb>
+   <lb n="7-8">genhedlaethau
+   </lb>
+   <lb n="8">
+    gorllewinol y byd.
+   
+   
+   </lb> 
+   <lb n="9">Mae gweddill o 'r sect hon fyth yn parhau yn y
+   </lb> 
+   <lb n="10">dwyrain, dan yr enw Sabiaid; yr hon, fel y 
+   </lb>
+   <lb n="10-11">dywedant
+   </lb>
+   <lb n="11">
+    hwy, a dderbyniasant oddiwrth Sabas mab Seth.
+   </lb> 
+   <lb n="12">Ymhlith eu llyfrau, ag sy 'n cynnwys athrawiaeth eu
+   </lb> 
+   <lb n="13">sect, y mae un llyfr a elwir Seth, yr hwn, meddant
+   </lb> 
+   <lb n="14">hwy, a gyfansoddwyd gan y Patriarc hwnnw.
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="15">Ychydig mewn perthynas i 'Stad \Yst&acirc;d\ bresennol&nbsp;
+   </lb>
+   <lb n="15-16">EilunAddoliaeth
+   </lb>
+   <lb n="16">
+   &nbsp;ymhlith y&nbsp;Paganiaid, yn enwedig</lb>
+    
+   <lb n="17">y&nbsp;Chinese.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="18">YR ydym yn cael hanes fod y Chinese yn 
+   </lb>
+   <lb n="18-19">gyffredinol
+   </lb>
+   <lb n="19">
+    yn addoli un goruchaf Dduw, Brenin
+   </lb> 
+   <lb n="20">nef a daear, neu yn hytrach yr hwn y maent yn alw
+   </lb> 
+   <lb n="21">Y Meddwl Tragywyddol, yr hwn, yn ol eu 
+   </lb>
+   <lb n="21-22">hathrawiaeth
+   </lb>
+   <lb n="22">
+    hwy, yw bywyd yr holl greadigaeth: ond 
+   </lb>
+   <lb n="22-23">ymhellach,
+   </lb>
+   <lb n="23">
+    y maent yn credu ei fod ef yn llywodraethu
+   </lb> 
+   <lb n="24">pob peth trwy raglawiad, ac y maent hwy yn ei alw
+   </lb> 
+   <lb n="25">Laocon Tzanty; a thrwy 'r haul, yr hwn y maent
+   </lb> 
+   <lb n="26">yn ei gyfrif yn yspryd tragywyddol; a thrwy un
+   </lb> 
+   <lb n="27">dwyfol arall a elwir Chansay, yr hwn, meddant, sy
+   </lb> 
+   <lb n="28">ag awdurdod ar bob peth dan y lleuad. I 'r tri gradd
+   </lb> 
+   <lb n="29">hyn o ysprydion, ac i dri * arall o lywodraethwyr
+   </lb> 
+   <lb n="30">danynt, y llu nefol, ac eneidiau rhyw henafiaid 
+   </lb>
+   <lb n="30-31">ardderchog,
+   </lb>
+   <lb n="31">
+    y maent hwy yn talu eu haddoliadau a 'u
+   </lb> 
+   <lb n="32">gwasanaeth crefyddol; ond yn unig bod hyn o 
+   </lb>
+   <lb n="32-33">wahaniaeth,
+   </lb>
+   <lb n="33">
+    sef bod y brenin yn offrymmu i 'r cyrph
+   </lb> 
+   <lb n="34">nefol, megis yr haul, y lleuad, a 'r ser; yr arglwyddi,
+   
+   
+   </lb> 
+   <lb n="35">* Tangwam, llywodraethwr yr awyr a 'r gwlaw. 
+   </lb>
+   <lb n="35-36">Teiguam,
+   </lb>
+   <lb n="36">
+    dros genhedliad ffrwythau, ac anifeiliaid. 
+   </lb>
+   <lb n="36-37">Tzingwam,
+   </lb>
+   <lb n="37">
+    pennaeth y moroedd, &amp;c.
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="28.">
+   
+    
+   <lb n="1">a 'r rhai mwyaf ardderchog i bethau daearol; sef, i 'r
+   </lb> 
+   <lb n="2">mynyddau, gelltydd, llynoedd, a bryniau; 
+   </lb>
+   <lb n="2-3">boneddigion
+   </lb>
+   <lb n="3">
+    a swyddwyr i 'r gwlaw, taranau, a thymhorau 'r
+   </lb> 
+   <lb n="4">flwyddyn; a 'r bobl gyffredin i ddelwau neu dduwiau
+   </lb> 
+   <lb n="5">teuluaidd, ac i 'r angylion addysgiadol. Y wlad 
+   </lb>
+   <lb n="5-6">helaeth
+   </lb>
+   <lb n="6">
+    hon sy 'n llawn o demlau a monachlogydd,
+   </lb> 
+   <lb n="7">wedi eu llenwi &acirc; delwau, y rhai y mae 'r offeiriaid
+   </lb> 
+   <lb n="8">dichellgar yn porthi ag anwedd y bwyd, eithr yn
+   </lb> 
+   <lb n="9">bwyta 'r sylwedd eu hunain. Mae gan yr offeiriaid
+   </lb> 
+   <lb n="10">yma gymmaint o awdurdod ar y duwiau, fel ag y
+   </lb> 
+   <lb n="11">maent yn eu cospi a 'u chwipio pan na fyddont yn
+   </lb> 
+   <lb n="12">atteb eu dibenion. Mae ganddynt un ddelw a thri
+   </lb> 
+   <lb n="13">phen yn perthyn i 'r un corph, i 'r hon y maent yn
+   </lb> 
+   <lb n="14">rhoddi mawr barch: y mae hon yn personoli tri
+   </lb> 
+   <lb n="15">philosophydd mawr, Confusius, Xequiam, a Tanzu.
+   </lb> 
+   <lb n="16">Maent yn dala athrawiaeth y Pythagoriaid, neu
+   </lb> 
+   <lb n="17">drawsglwyddiad yr enaidiau i ryw greaduriaid eraill;
+   </lb> 
+   <lb n="18">am hynny mae rhai o honynt na laddant gymmaint
+   </lb> 
+   <lb n="19">ag un creadur mwyaf distadl. I 'r pwrpas yma mae
+   </lb> 
+   <lb n="20">parc yn Quinsay, wedi ei furio oddiamgylch, yn
+   </lb> 
+   <lb n="21">perthyn i Fonachlog, lle mae 'r Monachod yn 
+   </lb>
+   <lb n="21-22">porthi
+   </lb>
+   <lb n="22">
+    pedair mil o greaduriaid byw o bob math ar 
+   </lb>
+   <lb n="22-23">elusennau,
+   </lb>
+   <lb n="23">
+    er lles i eneidiau rhai pobl fawrion ag sydd
+   </lb> 
+   <lb n="24">wedi myned i mewn i gyrph y creaduriaid hyn i
+   </lb> 
+   <lb n="25">gyfaneddu. Nid oes neb yma yn cael ei rwymo at
+   </lb> 
+   <lb n="26">un addoliad neillduol, ond gallant ddewis y sect a
+   </lb> 
+   <lb n="27">fynnont. Am eu gwybodaeth mewn perthynas i
+   </lb> 
+   <lb n="28">ddedwyddwch nefol, neu boenau uffernol, nid yw
+   </lb> 
+   <lb n="29">ond ychydig neu ddim i son am dano: maent yn 
+   </lb>
+   <lb n="29-30">ofnus
+   </lb>
+   <lb n="30">
+    iawn pan welont ddiffyg ar yr haul neu 'r lleuad,
+   </lb> 
+   <lb n="31">y rhai y maent yn eu hystyried fel gwr a gwraig, ac
+   </lb> 
+   <lb n="32">yn meddwl eu bod yn ddig wrthynt ar y cyfryw
+   </lb> 
+   <lb n="33">amser. Mae yma lawer o seremoniau mewn 
+   </lb>
+   <lb n="33-34">perthynas
+   </lb>
+   <lb n="34">
+    i wyliau, newydd leuadau, genedigaethau, ac
+   </lb> 
+   <lb n="35">angladdau eu perthynasau, dros y rhai y maent yn
+   </lb> 
+   <lb n="36">fynych yn myned i lawer o draul. Nid oes neb o
+   </lb> 
+   <lb n="37">honynt heb eu Jos, neu dduw teuluaidd, y rhai y
+   </lb> 
+   <lb n="38">maent yn eu cospi yn lled ddrwg: canys os bydd
+   </lb> 
+   <lb n="39">iddynt weddio arnynt am ryw beth, ac heb gael dim
+   
+   </lb>
+   </pb>
+   <pb n="29.">
+   
+    
+   <lb n="1">effaith oddiwrth eu gweddi, hwy nid yn unig 
+   </lb>
+   <lb n="1-2">ddannodant
+   </lb>
+   <lb n="2">
+    iddynt y diofalwch, ond hefyd hwy a lusgant
+   </lb> 
+   <lb n="3">y ddelw trwy 'r lleoedd mwyaf drewllyd a diffaith ar
+   </lb> 
+   <lb n="4">hyd yr heolydd: etto os digwydd ar y pryd hynny
+   </lb> 
+   <lb n="5">iddynt gael eu herfyniad, hwy a osodant y ddelw yn
+   </lb> 
+   <lb n="6">ei lle, ac a syrthiant o 'i blaen i ddeisyf maddeuant,
+   </lb> 
+   <lb n="7">ac at ei heddychu, hwy a 'i golchant, ac a 'i paentiant
+   </lb> 
+   <lb n="8">hi yn ardderchog o 'r newydd.
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="9">Am Grefydd y&nbsp;Paganiaid&nbsp;yn y&nbsp;Carnatic, 
+   </lb>
+   <lb n="9-10">Colconda,
+   </lb>
+   <lb n="10">
+    Bisnagar, Decan,&nbsp;&amp;c.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="11">MAE 'r bobl hyn, medd hanesion, yn addoli yr
+   </lb> 
+   <lb n="12">un duwiau, er eu bod dan wahanol enwau,
+   </lb> 
+   <lb n="13">a 'r Bramiaid; yr ydys yn galw eu crefydd Banian,
+   </lb> 
+   <lb n="14">a 'r bobl Baniaid. Nid yw hwn ddim titl o 
+   </lb>
+   <lb n="14-15">waradwydd,
+   </lb>
+   <lb n="15">
+    ond gair ag sy 'n arwyddo dwysder, 
+   </lb>
+   <lb n="15-16">anrhydedd,
+   </lb>
+   <lb n="16">
+    a nodedigrwydd, mewn perthynas i 'r 
+   </lb>
+   <lb n="16-17">gerwindeb
+   </lb>
+   <lb n="17">
+    a 'r creulondeb y maent yn arferyd yn eu temlau
+   </lb> 
+   <lb n="18">a 'u bywydau.
+   
+   
+   </lb> 
+   <lb n="19">Mae 'r Baniaid, megis y rhan fwyaf o 'r Paganiaid,
+   </lb> 
+   <lb n="20">yn credu fod un Duw goruchaf, ac yn ei alw 
+   </lb>
+   <lb n="20-21">Parabrama,
+   </lb>
+   <lb n="21">
+    yr hyn yn eu iaith hwy sy 'n arwyddo 
+   </lb>
+   <lb n="21-22">perffaith;
+   </lb>
+   <lb n="22">
+    ei fod ef o hono ei hun yn anllygredig, ac yn
+   </lb> 
+   <lb n="23">anfarwol. Maent hwy 'n dywedyd iddo orchymyn
+   </lb> 
+   <lb n="24">pob peth perthynol i grefydd Brama ei fab hynaf; i
+   </lb> 
+   <lb n="25">Winstow, mab arall iddo, roddi gofal dros 
+   </lb>
+   <lb n="25-26">angenrheidiau
+   </lb>
+   <lb n="26">
+    a chyfiawnderau ei bobl; i 'r trydydd, dros
+   </lb> 
+   <lb n="27">yr elfennau a chyrph dynion. Mae y rhai'n yn
+   </lb> 
+   <lb n="28">cael eu haddoli ar ddull delw fawr, ac iddi dri phen.
+   </lb> 
+   <lb n="29">Ond o ran eu bod hwy 'n credu i Dduw greu 'r 
+   </lb>
+   <lb n="29-30">diafol,
+   </lb>
+   <lb n="30">
+    er mwyn tormento a gwneuthur rhyw ddrwg i
+   </lb> 
+   <lb n="31">ddynolryw, maent yn ei addoli yntef, nid o gariad,
+   </lb> 
+   <lb n="32">ond rhag ei ofn; ac y mae ganddynt ddelw o hono
+   </lb> 
+   <lb n="33">ar ddull hagr ac ofnadwy. Mae 'r bobl hyn yn 
+   </lb>
+   <lb n="33-34">arferyd
+   </lb>
+   <lb n="34">
+    puro eu hunain trwy offrymmau ac 
+   </lb>
+   <lb n="34-35">ymolchiadau,
+   </lb>
+   <lb n="35">
+    ac yn rhoddi llawer o 'u heiddo i 'r 
+   </lb>
+   <lb n="35-36">Braminiaid
+   </lb>
+   <lb n="36">
+    a fo 'n attendo arnynt. Mae 'n beth rhyfedd yr
+   
+   </lb>
+   </pb>
+   <pb n="30.">
+   
+    
+   <lb n="1">hybarch sydd gan y bobl hyn i 'r afon Ganges;
+   </lb> 
+   <lb n="2">maent yn ymolch ynddi o bur addoliad, ac yn 
+   </lb>
+   <lb n="2-3">mynych
+   </lb>
+   <lb n="3">
+    daflu iddi fel yn offrwm, ddarnau o aur ac 
+   </lb>
+   <lb n="3-4">arian.
+   </lb>
+   <lb n="4">
+    Llawer iawn o ymdeithyddion sy 'n wastadol
+   </lb> 
+   <lb n="5">yn dyfod i ymweled &acirc; 'r afon ardderchog hon; a thra
+   </lb> 
+   <lb n="6">maent yn ymdrochi ynddi, maent yn dala gwellten
+   </lb> 
+   <lb n="7">fer rhwng eu bysedd. Ar ol i 'r ymdeithwyr 
+   </lb>
+   <lb n="7-8">ymolchi
+   </lb>
+   <lb n="8">
+    eu hunain, a chyflawni eu seremoniau, maent
+   </lb> 
+   <lb n="9">yn cael eu derbyn gan y Bramins, a 'u dwyn i mewn
+   </lb> 
+   <lb n="10">i 'w padogau, lle maent yn cynnyg arian a reis.&#8212;
+   </lb> 
+   <lb n="11">Tra fo 'r seremoniau hyn yn cael eu gwneuthur,
+   </lb> 
+   <lb n="12">mae 'r ymdeithwyr yn ail adrodd llawer o weddiau;
+   </lb> 
+   <lb n="13">a hwy a ddywedant, fod pechod pob un wedi eu
+   </lb> 
+   <lb n="14">maddeu, trwy ymolchi yn y Ganges.
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="15">Crefydd y Bobl sy 'n trigfannu yn&nbsp;Japan.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="16">MEWN perthynas i 'r Japan&icirc;s, nid oes fawr o
+   </lb> 
+   <lb n="17">wahaniaeth rhyngddynt hwy a 'r Chinese;
+   </lb> 
+   <lb n="18">maent yn cyfaddef fod un goruchaf Dduw, ag sy 'n
+   </lb> 
+   <lb n="19">byw yn y nefoedd, a bod llawer o dduwiau eraill o
+   </lb> 
+   <lb n="20">is radd, ag sy 'n trigfannu ymhlith y ser; ond etto ni
+   </lb> 
+   <lb n="21">ellir meddwl eu bod yn addoli un o 'r rhai'n; eithr
+   </lb> 
+   <lb n="22">y duwiau y maent hwy yn addoli yw 
+   </lb>
+   <lb n="22-23">llywodraethwyr
+   </lb>
+   <lb n="23">
+    a fu 'n byw ryw amser ar y ddaear, ac a 
+   </lb>
+   <lb n="23-24">gawsant
+   </lb>
+   <lb n="24">
+    yr anrhydedd yma trwy ryw weithredoedd
+   </lb> 
+   <lb n="25">rhagorol; trwy rinwedd y rhai'n maent yn barnu y
+   </lb> 
+   <lb n="26">gallant fod yn ddedwydd neu 'n druenus yn y bywyd
+   </lb> 
+   <lb n="27">hwn, a thrwy eu cynnorthwy a 'u cyfryngdod, y
+   </lb> 
+   <lb n="28">c&acirc;nt eu gwobrwyo yn ol eu gweithredoedd yn y byd
+   </lb> 
+   <lb n="29">a ddaw. Maent yn meddwl fod llawer paradwys,
+   </lb> 
+   <lb n="30">lle mae pob un o 'u duwiau yn cario eu haddolwyr;
+   </lb> 
+   <lb n="31">i 'r fath ddychymygol ddedwyddwch a hyn y mae 'r
+   </lb> 
+   <lb n="32">bobl ddwlon yma mewn cariad, fel ag mae rhai yn
+   </lb> 
+   <lb n="33">myned i foddi, eraill yn torri eu gyddfau, neu 'n 
+   </lb>
+   <lb n="33-34">taflu
+   </lb>
+   <lb n="34">
+    eu hunain dros greigiau uchel; i hyn y maent yn
+   </lb> 
+   <lb n="35">cael eu hannog gan eu hoffeiriaid trachwantus,
+   </lb> 
+   <lb n="36">oddiwrth y cyfryw rai y maent hwy yn 
+   
+   </lb>
+   </pb>
+   <pb n="30-31.">
+   <lb n="36-1">ymgyfoethogi.
+   </lb>
+   </pb>
+   <pb n="31.">
+   <lb n="1">
+    Mae yma beth aneirif o Badogau; ymhlith y
+   </lb> 
+   <lb n="2">cyfryw, yn nheml Macca, mae un ddelw wedi ei
+   </lb> 
+   <lb n="3">gwneuthur o bres, ac yn cyrraedd hyd gronglwyd y
+   </lb> 
+   <lb n="4">deml; mae 'r gadair, medd Sir Thomas Herbert, yn
+   </lb> 
+   <lb n="5">drugain a deuddeg troedfedd o uwchder, ac yn bedwar
+   </lb> 
+   <lb n="6">ugain o led; ei phen yn ddigon mawr i ddala 
+   </lb>
+   <lb n="6-7">pumtheg
+   </lb>
+   <lb n="7">
+    o ddynion, a 'i fawd-fys yn ddeugain modfedd
+   </lb> 
+   <lb n="8">oddi amgylch.
+   
+   
+   </lb> 
+   <lb n="9">Maent yn cadw g&#373;yl, ymha un y maent yn 
+   </lb>
+   <lb n="9-10">llosgi
+   </lb>
+   <lb n="10">
+    peth aneirif o lampau wrth eu drysau, ac yn
+   </lb> 
+   <lb n="11">rhodio i fynu ac i wared ar hyd yr heolydd, i 
+   </lb>
+   <lb n="11-12">gyfarfod
+   </lb>
+   <lb n="12">
+    ag eneidiau eu cyfeillion a fuasant feirw 'n
+   </lb> 
+   <lb n="13">ddiweddar, o flaen pa rai y maent yn gosod bwyd a
+   </lb> 
+   <lb n="14">diod, ac yn eu gwawdd i 'w tai i orphwys, fel na
+   </lb> 
+   <lb n="15">ddiffygient yn eu siwrnai i baradwys, yr hyn 
+   </lb>
+   <lb n="15-16">meddant
+   </lb>
+   <lb n="16">
+    hwy, sy 'n daith tair blynedd o leiaf.
+   
+   
+   </lb> 
+   <lb n="17">Pan fyddo dyn marw, mae ei dylwyth yn gorfod
+   </lb> 
+   <lb n="18">dwyn dau neu dri o dystion, i brofi nad oedd ef ddim
+   </lb> 
+   <lb n="19">yn gristion ar amser ei farwolaeth, ac y maent yn
+   </lb> 
+   <lb n="20">myned mor belled a holi pa un a bu ef felly yn holl
+   </lb> 
+   <lb n="21">ystod ei fywyd; os deuir i wybod ei fod, mae ei
+   </lb> 
+   <lb n="22">gorph yn cael ei daflu i ryw dommen fel ci.
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="23">Crefydd y Bobl sy 'n trigfannu yn&nbsp;Pegu.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="24">PEGU yw un o 'r taleithau ag sydd tu hwnt i 'r
+   </lb> 
+   <lb n="25">afon Ganges; eu crefydd sefydlog yma yw
+   </lb> 
+   <lb n="26">Paganiaeth. Yn eu barn, mae 'r bobl yn meddwl
+   </lb> 
+   <lb n="27">yr un peth a 'r Crist'nogion hereticaidd, sef, y 
+   </lb>
+   <lb n="27-28">Manicheans;
+   </lb>
+   <lb n="28">
+    canys maent hwy 'n dala fod dau 
+   </lb>
+   <lb n="28-29">ben-llywodraethwr,
+   </lb>
+   <lb n="29">
+    un da a 'r llall yn ddrwg; ac am hynny
+   </lb> 
+   <lb n="30">y maent yn offrymmu i 'r diafol, fel yn awdwr o
+   </lb> 
+   <lb n="31">bob drwg; ac nid i 'r un da, am nad yw ef yn 
+   </lb>
+   <lb n="31-32">dymuno
+   </lb>
+   <lb n="32">
+    dim niwed iddynt: felly y maent yn addoli 'r
+   </lb> 
+   <lb n="33">diafol am gael ei ffafr a 'i diriondeb; ac iddo ef, trwy
+   </lb> 
+   <lb n="34">wahanol ddull o ddelwau, y maent yn cyfeirio eu
+   </lb> 
+   <lb n="35">haddunedau a 'u gweddiau. Maent yn credu mewn
+   </lb> 
+   <lb n="36">tragywyddol barhad o fydoedd, ac mor gynted y
+   
+   </lb>
+   </pb>
+   <pb n="32.">
+   
+    
+   <lb n="1">byddo un yn cael ei losgi, fod un arall yn codi o 'r
+   </lb> 
+   <lb n="2">lludw. Mae 'r fath barch anrhydeddus ganddynt i 'r
+   </lb> 
+   <lb n="3">crocadil, fel ag y maent yn credu, pwy bynnag a
+   </lb> 
+   <lb n="4">ddifethir ganddo, fod ei enaid yn cael ei ddwyn yn
+   </lb> 
+   <lb n="5">uniawn i 'r nef. Y maent hefyd yn credu fod gan
+   </lb> 
+   <lb n="6">yr epaid enaid dynol, a 'u bod gynt yn ddynion; ond
+   </lb> 
+   <lb n="7">at eu poeni, am ryw ddrwg weithredoedd a 
+   </lb>
+   <lb n="7-8">wnaethant,
+   </lb>
+   <lb n="8">
+    i 'r duwiau eu troi ar y dull hynny. Ond y
+   </lb> 
+   <lb n="9">creadur mwyaf ag sy 'n cael ei anrhydeddu yn eu
+   </lb> 
+   <lb n="10">plith hwy, yw 'r elephant wen; ac un o deitlau 
+   </lb>
+   <lb n="10-11">brenin
+   </lb>
+   <lb n="11">
+    Pegu yw, Arglwydd yr Elephant wen. Mae 'r
+   </lb> 
+   <lb n="12">creaduriaid hyn yn cael eu gwasanaethu ar ddisglau
+   </lb> 
+   <lb n="13">arian; a phan maent yn cael eu harwain allan i gael
+   </lb> 
+   <lb n="14">aer, mae cerddorion yn canu o 'u blaen ar lawer
+   </lb> 
+   <lb n="15">math o offerynau; a phan ddelont adref, mae un o
+   </lb> 
+   <lb n="16">weision y brenin yn golchi eu traed &acirc; dwfr o ddisgl
+   </lb> 
+   <lb n="17">arian.
+   
+   
+   </lb> 
+   <lb n="18">Mae yma rai temlau o faintioli mawr, ac fe 
+   </lb>
+   <lb n="18-19">ddywedir
+   </lb>
+   <lb n="19">
+    fod un o honynt yn cynnwys ynghylch chwech
+   </lb> 
+   <lb n="20">ugain mil o ddelwau; ond fe allai nad yw rhai o
+   </lb> 
+   <lb n="21">honynt ond bychain, neu fath o hieroglyphics, yr hyn
+   </lb> 
+   <lb n="22">sy 'n beth cyffredin yng wledydd y dwyrain. 
+   </lb>
+   <lb n="22-23">Ymhyrth
+   </lb>
+   <lb n="23">
+    y temlau hyn y mae ffont neu lestr mawr &acirc;
+   </lb> 
+   <lb n="24">dwfr, yn yr hon y mae 'r ymdeithyddion yn golchi
+   </lb> 
+   <lb n="25">eu traed cyn myned i mewn. Y rhan gyntaf o 'u
+   </lb> 
+   <lb n="26">haddoliad yw gosod eu dwylo ar eu pennau, yn 
+   </lb>
+   <lb n="26-27">arwydd
+   </lb>
+   <lb n="27">
+    o barch dyledus i wrthddrych eu haddoliad.
+   </lb> 
+   <lb n="28">Trwy 'r holl deyrnas hon, dydd Llun y maent hwy
+   </lb> 
+   <lb n="29">yn ei osod o 'r neilldu at addoliad crefyddol; ac ar y
+   </lb> 
+   <lb n="30">diwrnod hwnnw mae eu hoffeiriaid, neu 'r talapoins,
+   </lb> 
+   <lb n="31">yn pregethu i 'r dynion yn eu temlau.
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="32">Crefydd Pobl&nbsp;Siam.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="33">MAE 'r wlad helaeth hon tu draw i 'r Ganges;
+   </lb> 
+   <lb n="34">ond eu crefydd sydd yn agos yr un peth a 'r
+   </lb> 
+   <lb n="35">rhai a soniwyd am danynt eisoes yn y taleithau 
+   </lb>
+   <lb n="35-36">rhagflaenol.
+   </lb>
+   <lb n="36">
+    Mewn ychydig o bethau maent yn wahanol;
+   
+   </lb>
+   </pb>
+   <pb n="33.">
+   
+    
+   <lb n="1">yn hyn ni gawn ddala rhyw gymmaint o sylw.
+   </lb> 
+   <lb n="2">Mae eu holl gyfraith foesol yn gynhwysedig yn y
+   </lb> 
+   <lb n="3">pump gorchymyn canlynol, sef, na ladd, na wna un
+   </lb> 
+   <lb n="4">fath o aflendid; na ddwg gam-dystiolaeth; na 
+   </lb>
+   <lb n="4-5">ladratta;
+   </lb>
+   <lb n="5">
+    ac na &#375;f un math o ddiod i feddwi.
+   
+   
+   </lb> 
+   <lb n="6">Mae y rhai'n yn agos yr un peth ag sy 'n 
+   </lb>
+   <lb n="6-7">ysgrifenedig
+   </lb>
+   <lb n="7">
+    yng nghyfraith Moses, yr hyn a ddengys,
+   </lb> 
+   <lb n="8">fod crefydd nattur yn oestad yr un peth, ymhob oes,
+   </lb> 
+   <lb n="9">ac ymhlith pob cenhedlaeth, er ei bod yn cael ei
+   </lb> 
+   <lb n="10">dirywio trwy ymarferiadau a seremoniau o ddyfais
+   </lb> 
+   <lb n="11">dynolryw.
+   
+   
+   </lb> 
+   <lb n="12">Y duw y maent hwy yn ei addoli trwy fawr 
+   </lb>
+   <lb n="12-13">anrhydedd,
+   </lb>
+   <lb n="13">
+    yw Sommona Codon, am yr hwn y mae
+   </lb> 
+   <lb n="14">ganddynt yr hanes ddychymygol hon; mai efe yw
+   </lb> 
+   <lb n="15">brenin Seylon, ac iddo adael ol ei droed mewn tri
+   </lb> 
+   <lb n="16">man o 'r byd, sef yn nheyrnas Siam, Pegu, a 'r ynys
+   </lb> 
+   <lb n="17">ragddywededig Seylon. I 'r lleoedd hyn mae llawer
+   </lb> 
+   <lb n="18">o bererinion yn tramwyo bob blwyddyn, i roddi i
+   </lb> 
+   <lb n="19">fynu eu gweddiau iddo. Mae 'r pererinion yma yn
+   </lb> 
+   <lb n="20">cael cennad i weled esgyrn Sommona Codon, y rhai
+   </lb> 
+   <lb n="21">a ddywedant eu bod yn llewyrchu mor danbaid, fel
+   </lb> 
+   <lb n="22">na allant edrych arnynt dros un funud o amser.
+   
+   
+   </lb> 
+   <lb n="23">Yr oedd gan Sommona Codon ddau ddisgybl
+   </lb> 
+   <lb n="24">neillduol, delwau pa rai sy 'n sefyll o 'r tu iddo ar
+   </lb> 
+   <lb n="25">ei allor, ond nid cymmaint ag ef ei hun; enwau y
+   </lb> 
+   <lb n="26">rhai'n yw, Pra Molga, a Phra Scarabout; Pra
+   </lb> 
+   <lb n="27">Molga, yr hwn sy 'n sefyll ar ei law ddeheu, wrth
+   </lb> 
+   <lb n="28">ddeisyfiad rhai o 'r ysprydion damnedig, a drodd y
+   </lb> 
+   <lb n="29">ddaear &acirc; 'i hwyneb i lawr, ac a gymmerodd d&acirc;n 
+   </lb>
+   <lb n="29-30">uffern
+   </lb>
+   <lb n="30">
+    yng nghledr ei law; ond er cymmaint ei 
+   </lb>
+   <lb n="30-31">chwennychiad,
+   </lb>
+   <lb n="31">
+    ni allai mewn modd yn y byd ei ddiffodd:
+   </lb> 
+   <lb n="32">am hynny fe ddeisyfodd gael cynnorthwy Sommona
+   </lb> 
+   <lb n="33">Codon i wneuthur hyn o gariad drosto; ond fe
+   </lb> 
+   <lb n="34">wrthododd y duw hwn wneuthur hyn o 
+   </lb>
+   <lb n="34-35">gymmwynas,
+   </lb>
+   <lb n="35">
+    gan ddywedyd wrtho, pe b'ai \bai\ poenau uffern
+   </lb> 
+   <lb n="36">unwaith yn cael eu symmud oddiwrth ddynolryw,
+   </lb> 
+   <lb n="37">ni fyddai dim ond drygioni ac anlladrwydd yn y 
+   </lb> 
+   <lb n="38">byd. Mae rhyw beth yn y farn hon yn ddigon 
+   </lb>
+   <lb n="38-39">tebyg
+   </lb>
+   <lb n="39">
+    i 'r hyn sy 'n gynhwysedig mewn crefydd nattur;
+   
+   </lb>
+   </pb>
+   <pb n="34.">
+   
+    
+   <lb n="1">a 'r dull yr ydym ni, greaduriaid darfodedig, yn farnu
+   </lb> 
+   <lb n="2">am gyfiawnder ac anghyfiawnder.
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="3">Crefydd y&nbsp;Gaurs&nbsp;neu 'r&nbsp;Gueres&nbsp;yn&nbsp;Persia.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="4">MAE 'r bobl hyn mor grefyddol, ag na enwant
+   </lb> 
+   <lb n="5">eu duw ar un achos, heb lawer iawn o 
+   </lb>
+   <lb n="5-6">anrhydedd
+   </lb>
+   <lb n="6">
+    a pharch. Maent yn addef iddo yr un
+   </lb> 
+   <lb n="7">priodoliaethau a ninnau; ac yn edrych arno ef yn
+   </lb> 
+   <lb n="8">farnwr goruchel, gwobrwywr haelionus, cyfiawn,
+   </lb> 
+   <lb n="9">a thrugarog, ac yn barod i roi maddeuant; bod
+   </lb> 
+   <lb n="10">angylion a diafliaid yn wasanaethwyr dano, ac yn
+   </lb> 
+   <lb n="11">gweinyddu drosto dda a drwg. Mae 'r Gaurs 
+   </lb>
+   <lb n="11-12">hefyd
+   </lb>
+   <lb n="12">
+    yn meddwl bod dau angel yn perthyn i bob dyn
+   </lb> 
+   <lb n="13">yn neillduol; ac eraill i bob mis a phob diwrnod
+   </lb> 
+   <lb n="14">trwy 'r flwyddyn; ac i 'r rhai'n y maent yn cyfeirio
+   </lb> 
+   <lb n="15">eu gweddiau, yn ol y dull a 'r drefn y maent wedi
+   </lb> 
+   <lb n="16">eu gosod i lawr yn eu cyfraith; canys er eu bod yn
+   </lb> 
+   <lb n="17">credu fod un Duw ag sy 'n llywodraethu pob peth,
+   </lb> 
+   <lb n="18">etto, megis Paganiaid eraill, y maent yn cyfeirio eu
+   </lb> 
+   <lb n="19">gweddiau at dduwiau o is radd, y rhai y maent yn
+   </lb> 
+   <lb n="20">gyfrif fel yn gyfryngwyr ac eiriolwyr drostynt. Ni
+   </lb> 
+   <lb n="21">welwn i 'r ddefod hon gael ei harferyd gan y 
+   </lb>
+   <lb n="21-22">Groegiaid
+   </lb>
+   <lb n="22">
+    yn gystal a 'r Rhufeiniaid; ac onid &ecirc;, pa ham y
+   </lb> 
+   <lb n="23">maent yn gweddio ar y seintiau i fod yn eiriolwyr
+   </lb> 
+   <lb n="24">drostynt at Dduw?
+   
+   
+   </lb> 
+   <lb n="25">Mae 'r Gaurs yn haeru bod eu crefydd hwy 
+   </lb>
+   <lb n="25-26">wedi
+   </lb>
+   <lb n="26">
+    cael ei chynnal yn ddirwystr er amser Noa; ond
+   </lb> 
+   <lb n="27">os collodd y bobl hyn eu llywodraeth wladol, hwy
+   </lb> 
+   <lb n="28">a allant ymfalchio fod ganddynt ganlynoliad o 
+   </lb>
+   <lb n="28-29">offeiriaid
+   </lb>
+   <lb n="29">
+    a dull sefydledig o wasanaeth grefyddol er
+   </lb> 
+   <lb n="30">dyddiau Zoroaster; ac y maent yn addef fod Duw,
+   </lb> 
+   <lb n="31">neu egwyddor uwchlaw da a drwg; yr hyn yr oedd
+   </lb> 
+   <lb n="32">yr hen Bersiaid yn ei ddala fod yn awdwr goleuni
+   </lb> 
+   <lb n="33">a thywyllwch.
+   
+   
+   </lb> 
+   <lb n="34">Maent yn credu, yn ol athrawiaeth Zoroaster, i 'r
+   </lb> 
+   <lb n="35">byd gael ei greu mewn chwech o dymhorau, pob un
+   </lb> 
+   <lb n="36">yn cynnwys hyn a hyn o ddyddiau; sef, yn y 45 
+   
+   </lb>
+   </pb>
+   <pb n="34-35.">
+   <lb n="36-1">diwrnod
+   </lb>
+   </pb>
+   <pb n="35.">
+   <lb n="1">
+    cyntaf i Dduw greu 'r nefoedd; yn y 60 nesaf,
+   </lb> 
+   <lb n="2">iddo greu 'r dyfroedd; mewn 75 iddo greu 'r ddaear;
+   </lb> 
+   <lb n="3">yn y 30 nesaf y llysiau a 'r ffrwythau; mewn 80 yr
+   </lb> 
+   <lb n="4">holl greaduriaid ond dyn; ac yn y 75 diwrnodau
+   </lb> 
+   <lb n="5">nesaf, y creodd ef deidau holl ddynolryw, yr hyn sy 'n
+   </lb> 
+   <lb n="6">gwneuthur i fynu 365, sef blwyddyn gyfan.
+   
+   
+   </lb> 
+   <lb n="7">Mae eu hoffeiriaid yn gorfod gwilied ddydd a nos
+   </lb> 
+   <lb n="8">i gadw ar gyn y t&acirc;n cyssegredig yn y temlau, yr
+   </lb> 
+   <lb n="9">hwn, meddant hwy, nid yw byth yn cael ei ddiffodd;
+   </lb> 
+   <lb n="10">ac os hynny a ddigwydd, mae ef yn cael ei ennyn
+   </lb> 
+   <lb n="11">drachefn oddiwrth y pethau mwyaf pur, megis
+   </lb> 
+   <lb n="12">mellt, ignus fatus, neu rwbian dau bren ynghyd
+   </lb> 
+   <lb n="13">hyd ne's ennynont yn d&acirc;n goleu.
+   
+   
+   </lb> 
+   <lb n="14">Mae 'r Gaurs hefyd yn dala, fel ag yr oedd y byd
+   </lb> 
+   <lb n="15">i gael ei liosogi a 'i drigfannu gan ddau ddyn yn
+   </lb> 
+   <lb n="16">unig, i Dduw ordeinio i Efa ddwyn dau efyll bob
+   </lb> 
+   <lb n="17">dydd i 'r byd, ac nad oedd i angeu gael awdurdod ar
+   </lb> 
+   <lb n="18">eu had dros fil o flynyddau; i satan demtio 'n teidau
+   </lb> 
+   <lb n="19">cyntaf, er mwyn eu gwneuthur hwy yn atgas yng
+   </lb> 
+   <lb n="20">olwg Duw eu Creawdr; fod Duw yn gydwybodol
+   </lb> 
+   <lb n="21">o falais yspryd y tywyllwch; ni thybiodd yn gyfleus
+   </lb> 
+   <lb n="22">dynnu hynny o ddrwg yn llwyr oddi wrtho, ond a
+   </lb> 
+   <lb n="23">gymmerodd y drefn ganlynol i rwystro 'r effaith o
+   </lb> 
+   <lb n="24">hono:&#8212;Fe sefydlodd ryw nifer o angylion i fod yn
+   </lb> 
+   <lb n="25">fugeiliaid ac yn amddiffynwyr i 'w greaduriaid; fe
+   </lb> 
+   <lb n="26">wnaeth Hamael yn olygwr dros y nefoedd; Acrob
+   </lb> 
+   <lb n="27">yn oruchwiliwr dros angylion yr haul, y lleuad, y
+   </lb> 
+   <lb n="28">ddaear, y dyfroedd, dynion, llysiau, a holl 
+   </lb>
+   <lb n="28-29">greaduriaid
+   </lb>
+   <lb n="29">
+    y byd. Er hyn i gyd fe gynhyddodd drygioni,
+   </lb> 
+   <lb n="30">ac fe aeth dynion yn waeth ac yn fwy gwrthwyneb
+   </lb> 
+   <lb n="31">yn ymhob ffordd, ne's i Dduw ddanfon llifeiriaint
+   </lb> 
+   <lb n="32">o ddyfroedd i 'w difetha oddiar wyneb y ddaear.
+   
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="33">Crefydd yr&nbsp;Indiad&nbsp;o fewn i 'r&nbsp;Ganges.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="34">ER bod yma lawer o grefyddau wedi eu gosod i
+   </lb> 
+   <lb n="35">fynu gan y bobl ag sy 'n cymmeryd arnynt
+   </lb> 
+   <lb n="36">enw crist'nogion, ni wn i a ydynt hwy yn yr 
+   
+   </lb>
+   </pb>
+   <pb n="35-36.">
+   <lb n="36-1">ymweddiad
+   </lb>
+   </pb>
+   <pb n="36.">
+   <lb n="1">
+    lawer yn well n&acirc; 'r Indiaid. Maent yn
+   </lb> 
+   <lb n="2">credu fod llawer o fydoedd wedi bod y naill ar ol y
+   </lb> 
+   <lb n="3">llall, heb un achos o greadigaeth, ac hefyd aneirif o
+   </lb> 
+   <lb n="4">dduwiau yn eu llywodraethu; i 'r olaf o 'r rhai'n y
+   </lb> 
+   <lb n="5">maent hwy weithiau yn cynnyg eu herfyniadau;
+   </lb> 
+   <lb n="6">ond ymhob adfyd y maent yn gwneuthur eu 
+   </lb>
+   <lb n="6-7">cyfarchiad
+   </lb>
+   <lb n="7">
+    cyntaf i 'r diafol, yn addunedu iddo, ac yn eu
+   </lb> 
+   <lb n="8">cwplau yn ddiesgeulusdod; ac wrth fwytta, cyn y
+   </lb> 
+   <lb n="9">profont dammaid eu hunain, maent yn taflu rhan o
+   </lb> 
+   <lb n="10">hono dros eu hysgwyddau mewn ffordd o offrwm.
+   </lb> 
+   <lb n="11">Y bobl hynny sy 'n byw o ddeutu Bengal a addolant
+   </lb> 
+   <lb n="12">yr afon Ganges; ac fel y dywedwyd o 'r blaen,
+   </lb> 
+   <lb n="13">cymmaint yw ffolineb y bobl ddwlon hyn, eu bod
+   </lb> 
+   <lb n="14">yn meddwl pe b'ai \bai\ ddyn ar bwynt marwolaeth, ond
+   </lb> 
+   <lb n="15">cael yfed rhyw ychydig o 'r dwfr hyn, y cai ei enaid
+   </lb> 
+   <lb n="16">yn uniawn ei ddwyn i baradwys.
+   
+   
+   </lb> 
+   <lb n="17">Yn Goa, heblaw llawer o ddelwau dychrynedig
+   </lb> 
+   <lb n="18">i 'r olwg, hwy a addolant y peth cyntaf a 
+   </lb>
+   <lb n="18-19">gyfarfyddant
+   </lb>
+   <lb n="19">
+    yn y boreu dros yr holl ddiwrnod hwnnw, yn
+   </lb> 
+   <lb n="20">enwedig os mochyn a fydd; a phob lleuad newydd
+   </lb> 
+   <lb n="21">maent yn y gyfarch &acirc; rhyw ddeisyfiadau ar ben eu
+   </lb> 
+   <lb n="22">dau-lin. Ond i ddiweddu 'r hanes yn y parthau
+   </lb> 
+   <lb n="23">hyn&#8212;Mae gan pobl Narising a Bisnagar ddelw, at
+   </lb> 
+   <lb n="24">yr hon y mae llawer iawn o bererinion yn tramwy
+   </lb> 
+   <lb n="25">&acirc; rhaffau am eu gyddfau, a chyllill wedi sticco yn eu
+   </lb> 
+   <lb n="26">coesau a 'u breichiau; ac os digwydd i 'r rhai'n fyned
+   </lb> 
+   <lb n="27">yn sicrach, y mae hynny yn cael ei gyfrif yn 
+   </lb>
+   <lb n="27-28">sancteiddrwydd.
+   </lb>
+   <lb n="28">
+    Mae 'r ddelw hon bob blwyddyn yn
+   </lb> 
+   <lb n="29">cael ei chario o ddeutu gan liaws o bobl, 
+   </lb>
+   <lb n="29-30">morwynion
+   </lb>
+   <lb n="30">
+   &nbsp;&acirc; cherddorion yn myned o 'i blaen: os digwydd
+   </lb> 
+   <lb n="31">i bererin gael ei wasgu, neu ei lethu i farwolaeth,
+   </lb> 
+   <lb n="32">dan droellau 'r cerbyd fo 'n ei chario, y mae ei ludw
+   </lb> 
+   <lb n="33">yn cael ei gadw fel peth sanctaidd. Mae 'r 
+   </lb>
+   <lb n="33-34">eiddynwyr
+   </lb>
+   <lb n="34">
+    gwallgofus hyn yn gollwng eu gwaed mewn
+   </lb> 
+   <lb n="35">ffordd o offrwm, a rhai o 'r benywod mor haelionus
+   </lb> 
+   <lb n="36">a phutteinio eu hunain i gael arian at gadwraeth y
+   </lb> 
+   <lb n="37">ddelw, neu yn hytrach i 'r offeiriaid.
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="37.">
+   
+   
+   
+   <head>
+    
+   <lb n="1">Crefydd y&nbsp;Tartariaid, Suberiaid,&nbsp;a 'r&nbsp;
+   </lb>
+   <lb n="1-2">Tibetiaid
+   </lb>
+   <lb n="2">
+   .</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="3">MAE crefydd y Tartariaid ryw beth yn debyg
+   </lb> 
+   <lb n="4">i 'w cyfraith wladol, ac yn gyffredin wedi ei
+   </lb> 
+   <lb n="5">haddasu at hynny o 'u cymmydogaethau; canys mae
+   </lb> 
+   <lb n="6">yma rai Mahometaniaid, Gentws, Groegiaid, a 'r
+   </lb> 
+   <lb n="7">grefydd Babaidd. Rhai o honynt yw 'r gwaethaf o
+   </lb> 
+   <lb n="8">eilun-addolwyr, ac yn addoli delwau bychain wedi
+   </lb> 
+   <lb n="9">eu gwisgo i fynu &acirc; hen garpiau. Mae gan bob un
+   </lb> 
+   <lb n="10">dduw iddo ei hun, ac yn gwneuthur &acirc; hwynt fel y
+   </lb> 
+   <lb n="11">mynnont, os na fydd pob peth yn myned wrth eu
+   </lb> 
+   <lb n="12">bodd. Ond crefydd a llywodraeth teyrnas y 
+   </lb>
+   <lb n="12-13">Tibetiaid
+   </lb>
+   <lb n="13">
+    a 'r Lasiaid, ynghyffiniau China, yw 'r mwyaf
+   </lb> 
+   <lb n="14">hynod o honynt oll. Mae 'r Tibetiaid yn cael eu
+   </lb> 
+   <lb n="15">llywodraethu gan ddyn, neu dduw-dyn, yr hwn y
+   </lb> 
+   <lb n="16">maent yn ei alw Dalai Lama, i 'r hwn y maent yn
+   </lb> 
+   <lb n="17">talu 'r fath wageddol barch ac anrhydedd, fel ag y
+   </lb> 
+   <lb n="18">mae ymmerawdwr China, a 'r holl arglwyddi mwyaf,
+   </lb> 
+   <lb n="19">yn edrych arnynt eu hunain yn ddedwydd, trwy roi
+   </lb> 
+   <lb n="20">anrhegion gwerthfawr, i gael rhyw beth oddiwrtho
+   </lb> 
+   <lb n="21">at wisgo am eu gyddfau, fel yn ymddiffyniad rhag
+   </lb> 
+   <lb n="22">amryw drallodion ac adfyd. Mae 'r duw-dyn hwn
+   </lb> 
+   <lb n="23">yn cael ei gadw mewn palas ardderchog ar ben
+   </lb> 
+   <lb n="24">mynydd Patuli, yr hwn sydd wedi ei addurno &acirc;
+   </lb> 
+   <lb n="25">pheth aneirif o berlau a meini gwerthfawr, ac yn
+   </lb> 
+   <lb n="26">cael ei oleuo &acirc; rhifedi mawr o lampau. Mae 'r 
+   </lb>
+   <lb n="26-27">duwdyn
+   </lb>
+   <lb n="27">
+    yma yn cael ei ddangos yn eistedd ar orsedd
+   </lb> 
+   <lb n="28">ardderchog, a chwedi ei ddialladu&nbsp;mewn gwisg&nbsp;
+   </lb>
+   <lb n="28-29">gostfawr
+   </lb>
+   <lb n="29">
+    at dderbyn addoliad gan y bobl, y rhai sydd yn
+   </lb> 
+   <lb n="30">ymgynnull atto o bob cwr o 'r wlad helaeth hon, i
+   </lb> 
+   <lb n="31">ymostwng o 'i flaen, ac yn ei weled yn anrhydedd
+   </lb> 
+   <lb n="32">mawr i gael cusanu ei draed.
+   
+   
+   </lb> 
+   <lb n="33">Meddyliau y rhai ag sydd yn cael eu cyfrif yn
+   </lb> 
+   <lb n="34">bobl fwyaf deallus ymhlith y Tibetiaid yw, pan
+   </lb> 
+   <lb n="35">fyddo 'r Grand Lama mewn wyneb i farw, naill ai o
+   </lb> 
+   <lb n="36">ran oedran neu o ryw glefyd, nad yw ei enaid ond
+   </lb> 
+   <lb n="37">gadael ei hen sych gyfanneddiad i edrych am un
+   </lb> 
+   <lb n="38">arall mwy ifangc a gwell i drigfannu ynddo, yr hyn
+   
+   </lb>
+   </pb>
+   <pb n="38.">
+   
+    
+   <lb n="1">sy 'n cael ei ganfod yn fynych gan rai o 'r Tayshoo
+   </lb> 
+   <lb n="2">Lama mewn un arall. Yn y dull hyn maent yn
+   </lb> 
+   <lb n="3">peri i 'r bobl gredu ei fod yn parhau yn 
+   </lb>
+   <lb n="3-4">dragywyddol,
+   </lb>
+   <lb n="4">
+    o herwydd y mae 'r offeiriaid, ag sydd
+   </lb> 
+   <lb n="5">&acirc; 'r holl awdurdod yma yn eu dwylo, yn gosod un
+   </lb> 
+   <lb n="6">arall yn ei le mor debyg iddo a fo bossibl; a phan y
+   </lb> 
+   <lb n="7">byddo ef marw, maent yn ei gladdu mor ddirgel, fel
+   </lb> 
+   <lb n="8">nad yw 'r bobl yn gyffredin yn deall dim llai nad
+   </lb> 
+   <lb n="9">yw ef yn byw byth.
+   
+   
+   </lb> 
+   <lb n="10">Mae crefydd arall yn arddeladwy ymhlith y 
+   </lb>
+   <lb n="10-11">Tartariaid,
+   </lb>
+   <lb n="11">
+    a elwir Schamanism. Mae proffeswyr y sect
+   </lb> 
+   <lb n="12">hon yn cyfaddef fod un goruchaf Dduw, 
+   </lb>
+   <lb n="12-13">gwneuthurwr
+   </lb>
+   <lb n="13">
+    a chynhaliwr pob peth; ei fod ef yn caru ei
+   </lb> 
+   <lb n="14">greadigaeth a 'i greaduriaid; yn gwybod pob peth,
+   </lb> 
+   <lb n="15">ac yn hollalluog; ond nad yw ef ddim yn edrych
+   </lb> 
+   <lb n="16">cymmaint ar weithrediadau dynion, o herwydd ei
+   </lb> 
+   <lb n="17">fod yn rhy fawr iddynt wneuthur dim yn ei erbyn,
+   </lb> 
+   <lb n="18">neu chwanegu dim at ei anrhydedd. Ond y maent
+   </lb> 
+   <lb n="19">hwy 'n meddwl ei fod wedi rhannu awdurdodau 'r
+   </lb> 
+   <lb n="20">byd hwn dan amryw swyddwyr eraill o &icirc;s radd, yn
+   </lb> 
+   <lb n="21">enwedig i un a elwir Itoga, yr hwn, meddant hwy,
+   </lb> 
+   <lb n="22">yw duw 'r ddaear, i ba un y rhoddant eu holl 
+   </lb>
+   <lb n="22-23">addoliad.
+   </lb>
+   <lb n="23">
+    Maent yn credu fod bywyd ar ol hwn, a bod
+   </lb> 
+   <lb n="24">diafliaid ac ysprydion drwg, y rhai sy 'n fynych yn
+   </lb> 
+   <lb n="25">drygu ac yn poeni dynion yn y bywyd; am hynny
+   </lb> 
+   <lb n="26">y maent yn ceisio heddychu &acirc; hwynt trwy 
+   </lb>
+   <lb n="26-27">offrymmau,
+   </lb>
+   <lb n="27">
+    a rhoi gwobrwyon gwerthfawr iddynt.
+   
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="28">Hanes y Grefydd&nbsp;Baganaidd&nbsp;yn&nbsp;America.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="29">O 'r dwyrain ni gawn droi 'n hwynebau i barthau
+   </lb> 
+   <lb n="30">gorllewinol y byd; ac os cymmerwn olwg fer
+   </lb> 
+   <lb n="31">ar rai o 'r cenhedlaethau mwyaf nodedig ymhlith yr
+   </lb> 
+   <lb n="32">Indiaid, ni gawn weled fod eilun-addoliaeth yn eu
+   </lb> 
+   <lb n="33">plith hwynt yn agos o 'r un lliw. Yn Firginia y
+   </lb> 
+   <lb n="34">mae 'r trigolion ag sydd etto heb gael eu 
+   </lb>
+   <lb n="34-35">hymchwelyd
+   </lb>
+   <lb n="35">
+    yn grist'nogion, a chanddynt ryw idea am y
+   </lb> 
+   <lb n="36">goruchaf Dduw, yr hwn, meddant hwy, sydd er pob
+   
+   </lb>
+   </pb>
+   <pb n="39.">
+   
+    
+   <lb n="1">tragywyddoldeb; maent yn dweud, pan greodd Duw
+   </lb> 
+   <lb n="2">y byd, iddo ef wneuthur llawer o dduwiau o &icirc;s radd,
+   </lb> 
+   <lb n="3">at fod yn offerynau yn y greadigaeth; ac ar eu hol
+   </lb> 
+   <lb n="4">hwynt iddo greu 'r haul, y lleuad, a 'r s&ecirc;r, trwy
+   </lb> 
+   <lb n="5">effaith y rhai y mae 'r byd yn cael ei lywodraethu.
+   </lb> 
+   <lb n="6">Nid oes ganddynt un meddwl am ragluniaeth, am
+   </lb> 
+   <lb n="7">hynny nid ydynt yn rhoi un addoliad i 'r dwyfol
+   </lb> 
+   <lb n="8">Fod. Am y diafol, maent yn meddwl fod yn 
+   </lb>
+   <lb n="8-9">angenrheidiol
+   </lb>
+   <lb n="9">
+    i ymheddychu ag ef, rhag iddo ddinystrio
+   </lb> 
+   <lb n="10">eu hiechyd a 'u cyfoeth, neu ymweled &acirc; hwynt
+   </lb> 
+   <lb n="11">mewn taranau ac ystormydd dychrynllyd; yn yr
+   </lb> 
+   <lb n="12">achos hyn maent yn offrymmu plant bychain iddo
+   </lb> 
+   <lb n="13">er mwyn ei radloni. Mae gan y rhai'n beth 
+   </lb>
+   <lb n="13-14">aneirif
+   </lb>
+   <lb n="14">
+    o ddelwau, ond y rhan fwyaf o 'u haddoliadau
+   </lb> 
+   <lb n="15">yw dawnsio a lleisio o ddeutu 'r t&acirc;n, a chlindarddad
+   </lb> 
+   <lb n="16">rhyw degan yn eu dwylo, ffystio 'r daear &acirc; cherrig,
+   </lb> 
+   <lb n="17">ac offrwm tobacco, gw&ecirc;r, a gwaed, ar allorau, wedi
+   </lb> 
+   <lb n="18">eu gwneuthur o gerrig. Eu meddyliau mewn 
+   </lb>
+   <lb n="18-19">perthynas
+   </lb>
+   <lb n="19">
+    i fyd arall, sy 'n debyg i 'r Mahometaniaid, 
+   </lb>
+   <lb n="19-20">canys
+   </lb>
+   <lb n="20">
+    mae eu hoffeiriaid yn addo iddynt bob pleserau,
+   </lb> 
+   <lb n="21">benywod gl&acirc;n, gerddi hyfryd, a thragywyddol 
+   </lb>
+   <lb n="21-22">gynhuddiad
+   </lb>
+   <lb n="22">
+    o honynt; ond i 'r rhai drwg maent yn 
+   </lb>
+   <lb n="22-23">bygwth
+   </lb>
+   <lb n="23">
+    y c&acirc;nt eu taflu i lynoedd o d&acirc;n, a 'u poeni gan
+   </lb> 
+   <lb n="24">fath o hen fenywod, o ddull anferth a dychrynedig.
+   
+   
+   </lb> 
+   <lb n="25">Yn Canada mae 'r trigolion yn credu fod un Duw
+   </lb> 
+   <lb n="26">hollalluog, creawdwr a chynhaliwr bob peth, yr
+   </lb> 
+   <lb n="27">hwn maent yn ei alw, Yspryd mawr y bywyd; maent
+   </lb> 
+   <lb n="28">yn tybied ei fod ef yn gynhwysedig ymhob peth, yn
+   </lb> 
+   <lb n="29">gweithredu, ac yn peri symmudiad a chynhuddiad
+   </lb> 
+   <lb n="30">i holl fywiolion a ffrwythau 'r ddaear; am hynny
+   </lb> 
+   <lb n="31">maent yn cymmeryd arnynt ei addoli mewn pob
+   </lb> 
+   <lb n="32">gwrthddrych ag sy 'n ymddangos yn hardd, yn 
+   </lb>
+   <lb n="32-33">enwedig
+   </lb>
+   <lb n="33">
+    pethau gl&acirc;n a chiwrain, megis yr haul, y s&ecirc;r,
+   </lb> 
+   <lb n="34">a 'r cyfryw oleuadau nefol. Pob dim ag sydd tu
+   </lb> 
+   <lb n="35">hwnt i 'w deall, maent yn tybied mai ysprydoedd
+   </lb> 
+   <lb n="36">ydynt; o 'r cyfryw maent yn credu fod dau fath, sef,
+   </lb> 
+   <lb n="37">rhai da, ag sy 'n achos o bob llywddiant, a 'r lleill yn
+   </lb> 
+   <lb n="38">ddrwg awdwyr o bob aflwyddiant a ddigwyddo
+   </lb> 
+   <lb n="39">iddynt. Nid ydynt yn offrymmu dim creaduriaid
+   
+   </lb>
+   </pb>
+   <pb n="40.">
+   
+    
+   <lb n="1">byw i 'r ysprydion drwg, ond rhyw feddiannau ag y
+   </lb> 
+   <lb n="2">maent hwy yn eu derbyn oddiwrth eu gelynion; a
+   </lb> 
+   <lb n="3">phan y bont yn offrymmu, mae 'n rhaid bod yr awyr
+   </lb> 
+   <lb n="4">yn glir: yna mae pob un yn gosod ei offrwm ar garn
+   </lb> 
+   <lb n="5">o goed, a phan ddel yr haul yn ddigon uchel, mae 'r
+   </lb> 
+   <lb n="6">plant yn ei dano oddiamgylch, ac yn ei losgi, tra
+   </lb> 
+   <lb n="7">mae 'r milwyr yn dawnsio ac yn canu, yr hen bobl
+   </lb> 
+   <lb n="8">yn bloeddio ar yr ysprydion drwg, ac yn cynnyg
+   </lb> 
+   <lb n="9">iddynt bibau o thybacco; yn y modd hyn maent yn
+   </lb> 
+   <lb n="10">parhau dawnsio, canu, a bloeddio, hyd ne's 
+   </lb>
+   <lb n="10-11">machludo
+   </lb>
+   <lb n="11">
+    'r haul, oddieithr ambell gettyn y maent yn 
+   </lb>
+   <lb n="11-12">eistedd
+   </lb>
+   <lb n="12">
+    i lawr i smocco.
+   
+   
+   </lb> 
+   <lb n="13">Yn Florida, yr haul yw 'r ddelw fwyaf, yr hon
+   </lb> 
+   <lb n="14">maent yn addoli unwaith bob blwyddyn fel hyn:&#8212;
+   </lb> 
+   <lb n="15">Hwy a gymmerant groen bwch, ac a 'i llanwant &acirc;
+   </lb> 
+   <lb n="16">phob math o ffrwythau a llysiau peraidd, ac 
+   </lb>
+   <lb n="16-17">addurnant
+   </lb>
+   <lb n="17">
+    ei gyrnau a 'i wddf &acirc; rhybanau, gan ei osod ar
+   </lb> 
+   <lb n="18">gorph o hen bren, a 'i ben at yr haul; yna, hwy a
+   </lb> 
+   <lb n="19">benlyniant, ac a weddiant am i 'r haul eu bendithio
+   </lb> 
+   <lb n="20">hwynt, a 'r cyfryw ffrwythau ag y maent yn eu 
+   </lb>
+   <lb n="20-21">hoffrymmu
+   </lb>
+   <lb n="21">
+    iddo. Cyn yr elont i ryfel, y maent yn troi
+   </lb> 
+   <lb n="22">gyd &acirc; pharch mawr at yr haul, ac yn dymuno arno
+   </lb> 
+   <lb n="23">roddi llwyddiant a buddugoliaeth iddynt ar eu 
+   </lb>
+   <lb n="23-24">gelynion;
+   </lb>
+   <lb n="24">
+    yn hyn, os digwydd iddynt fod yn 
+   </lb>
+   <lb n="24-25">llwyddianus,
+   </lb>
+   <lb n="25">
+    maent yn talu mawr ddiolchgarwch am dano;
+   </lb> 
+   <lb n="26">ac mewn ffordd o offrwm, maent yn lladd iddo rai
+   </lb> 
+   <lb n="27">o 'u plant hynaf, trwy eu llabyddio &acirc; rhyw ddelbren,
+   </lb> 
+   <lb n="28">a churo allan eu 'mhennyddiau \ymenyddiau\.
+   
+   
+   </lb> 
+   <lb n="29">Yn Peru, y mae 'r bobl yn gyffredin yn addef fod
+   </lb> 
+   <lb n="30">un goruchaf-lywodraethwr ab bob peth, ac yn ei alw,
+   </lb> 
+   <lb n="31">Pacacamac, neu Greawdwr rhyfeddol y nef a 'r
+   </lb> 
+   <lb n="32">ddaear. Iddo ef y maent yn offrymmu y pethau
+   </lb> 
+   <lb n="33">mwyaf gwerthfawr yn eu meddiant, ac yn talu iddo
+   </lb> 
+   <lb n="34">y fath barch ac anrhydedd, yn gymmaint a bod eu
+   </lb> 
+   <lb n="35">brenhinoedd a 'u hoffeiriaid yn myned i mewn i 'w
+   </lb> 
+   <lb n="36">temlau a 'u cefnau at yr allor, ac felly i maes 
+   </lb>
+   <lb n="36-37">drachefn,
+   </lb>
+   <lb n="37">
+    am nad ydynt yn beiddio gymmaint ag 
+   </lb>
+   <lb n="37-38">edrych
+   </lb>
+   <lb n="38">
+    ar ei ddelw sanctaidd. Ond heb law hwn y
+   </lb> 
+   <lb n="39">maent yn addoli 'r haul, o herwydd y bendithion y
+   
+   </lb>
+   </pb>
+   <pb n="41.">
+   
+    
+   <lb n="1">mae 'r byd yn ei dderbyn oddiwrtho; y maent yn
+   </lb> 
+   <lb n="2">edrych ar y lleuad, fel yn chwaer, neu 'n wraig i 'r
+   </lb> 
+   <lb n="3">haul, a 'r s&ecirc;r, fel merched neu wasanaethwyr y t&#375;.
+   </lb> 
+   <lb n="4">Ymhlith y s&ecirc;r y mae ganddynt barch mawr i 'r 
+   </lb>
+   <lb n="4-5">blaned
+   </lb>
+   <lb n="5">
+    gwener, fel y maent yn tybied ei bod hi yn un
+   </lb> 
+   <lb n="6">o genhadon yr haul. Mae 'r Indiaid yma yn ofnus
+   </lb> 
+   <lb n="7">iawn o fellt a tharanau, ac yn edrych arnynt fel yn
+   </lb> 
+   <lb n="8">ddialeddwyr drygioni; ond mae ganddynt barch 
+   </lb>
+   <lb n="8-9">hynod
+   </lb>
+   <lb n="9">
+    i fwa 'r glaw, ac y mae eu brenhinoedd yn eu
+   </lb> 
+   <lb n="10">gwisgo yn eu coat of arms. Nid ydynt yma fyth
+   </lb> 
+   <lb n="11">yn offrymmu dynion ond ar ryw achosion 
+   </lb>
+   <lb n="11-12">pwysfawr
+   </lb>
+   <lb n="12">
+    a nodedig, megis clefyd, coroniad brenin, neu
+   </lb> 
+   <lb n="13">wrth fyned i ryfel, a chyhoeddus erfyniadau am 
+   </lb>
+   <lb n="13-14">lwyddiant
+   </lb>
+   <lb n="14">
+    mewn rhyw bethau neillduol; ar y cyfryw
+   </lb> 
+   <lb n="15">amser y maent yn aberthu plant o bedair i ddeng
+   </lb> 
+   <lb n="16">mlwydd oed.
+   
+   
+   </lb> 
+   <lb n="17">Yn Mexico mae 'r hen Baganiaid sy 'n cyfaneddu
+   </lb> 
+   <lb n="18">y wlad hon yn credu fod un Duw, gwneuthurwr
+   </lb> 
+   <lb n="19">a chynhaliwr y cwbl oll: etto y maent yn rhoddi
+   </lb> 
+   <lb n="20">eu holl addoliad i ddelwau, o ba rai y mae ganddynt
+   </lb> 
+   <lb n="21">beth aneirif, rhai o goed, eraill o gerrig; ond eu
+   </lb> 
+   <lb n="22">delwau pennaf ydynt wedi eu gwneuthur o aur, neu
+   </lb> 
+   <lb n="23">o ryw fettel gwerthfawr. Ymhlith y rhai'n mae
+   </lb> 
+   <lb n="24">dau ryw neillduol, sef, un o bren, wedi ei addurno
+   </lb> 
+   <lb n="25">ag aur a pherlau, i arwyddo 'r haul, am hynny yn
+   </lb> 
+   <lb n="26">eistedd mewn cadair o liw 'r wybr, yn arwyddo 'r
+   </lb> 
+   <lb n="27">ffurfafen, a phlu ar ei phen, yn arwyddo ei llewyrch
+   </lb> 
+   <lb n="28">bendigedig a gogoneddus. Y llall y maent yn ei
+   </lb> 
+   <lb n="29">alw yn dduw 'r edifeirwch; mae hon wedi ei gwneud
+   </lb> 
+   <lb n="30">o garreg dd&ucirc; ddisglair, ac yn ei law asswy mae 'n
+   </lb> 
+   <lb n="31">dala disgl aur, yn loyw fel gwydr, ymha un y maent
+   </lb> 
+   <lb n="32">yn tybied ei bod yn gweled eu holl weithredoedd
+   </lb> 
+   <lb n="33">daearol. Yn y llaw ddehau y mae gwialen, bwa, a
+   </lb> 
+   <lb n="34">phedair saeth, i ddial ar y troseddwyr; am hynny y
+   </lb> 
+   <lb n="35">maent mewn ofn mawr, rhag i 'r ddelw hon weled eu
+   </lb> 
+   <lb n="36">beiau, a gosod rhyw gosp neu aflwydd arnynt am y
+   </lb> 
+   <lb n="37">cyfryw. Pan fyddo diffyg ar yr haul, maent yn
+   </lb> 
+   <lb n="38">meddwl ei fod yn ddig wrthynt, ac yn cymmeryd
+   </lb> 
+   <lb n="39">arnynt wybod am beth, wrth edrych ar ei hwyneb;
+   
+   </lb>
+   </pb>
+   <pb n="42.">
+   
+    
+   <lb n="1">ond pan fo 'r lleuad dan ddiffyg, maent yn tybied ei
+   </lb> 
+   <lb n="2">bod yn glaf; os digwydd iddo fyned drosti, maent
+   </lb> 
+   <lb n="3">yn meddwl ei bod yn marw; ac os cwympa hi i 'r
+   </lb> 
+   <lb n="4">ddaear, y bydd diwedd ar y byd; mewn trefn i 
+   </lb>
+   <lb n="4-5">ochelyd
+   </lb>
+   <lb n="5">
+    hyn, mor gynted ag y dechreuo 'r diffyg, maent
+   </lb> 
+   <lb n="6">yn cadw 'r fath 'stwr \yst&#373;r\&nbsp;&acirc; drwmmau, udgyrn, a phob
+   </lb> 
+   <lb n="7">peth arall o 'r cyfryw nattur; ac hefyd, yn clymmu
+   </lb> 
+   <lb n="8">cwn wrth goed a 'u chwipio, hyd ne's gwnelont y
+   </lb> 
+   <lb n="9">lleisiau mwyaf echryslawn yn y byd, at ddihuno 'r
+   </lb> 
+   <lb n="10">lleuad, yr hon, meddant hwy, sydd ar y pryd hynny
+   </lb> 
+   <lb n="11">mewn llewig. Mae 'r trigolion ag sydd yn nhaleithau
+   </lb> 
+   <lb n="12">Manta, yn addoli 'r m&ocirc;r, pysgod, teigrod, a phob
+   </lb> 
+   <lb n="13">math o greaduriaid gwylltion. Maent yn lladd eu
+   </lb> 
+   <lb n="14">carcharorion rhyfelgar, yn llanw eu crwyn &acirc; phridd
+   </lb> 
+   <lb n="15">a lludw, ac yn eu hongian i fynu yn eu temlau, fel
+   </lb> 
+   <lb n="16">math o orfoledd i 'w duwiau.
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="17">Hanes y Grefydd&nbsp;Baganaidd&nbsp;yng Ngogleddol 
+   </lb>
+   <lb n="17-18">Barthau
+   </lb>
+   <lb n="18">
+   &nbsp;Ewrop.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="19">YN Lapland, a gwledydd gogleddol eraill, yr
+   </lb> 
+   <lb n="20">ydym yn cael hanes, er pan gynhyddodd y
+   </lb> 
+   <lb n="21">grefydd gristnogol, fod Atheistiaeth ac 
+   </lb>
+   <lb n="21-22">eilun-addoliaeth
+   </lb>
+   <lb n="22">
+    wedi lleihau mewn amryw fannau; ond etto,
+   </lb> 
+   <lb n="23">mae peth o honi yn sefyll yn ei llawn rym ymhlith
+   </lb> 
+   <lb n="24">rhai o 'r hen drigolion: canys mae rhai pobl yn credu
+   </lb> 
+   <lb n="25">na ddarfu iddynt erioed yn iawn dderbyn y grefydd
+   </lb> 
+   <lb n="26">gristnogol o wir ewyllys calon; o herwydd eu bod
+   </lb> 
+   <lb n="27">yn addoli Crist a 'u delwau 'n gymmysgedig, y naill
+   </lb> 
+   <lb n="28">fel y llall, ac yn yr un dull. Maent fel eraill o 'r
+   </lb> 
+   <lb n="29">Paganiaid, yn addef un Duw goruchaf, yr hwn y
+   </lb> 
+   <lb n="30">maent yn ei arfogi &acirc; tharanau, a chanddynt yr un
+   </lb> 
+   <lb n="31">meddyliau am dano ag oedd gan yr hen Baganiaid
+   </lb> 
+   <lb n="32">am eu Jupiter. Mae gan y bobl hyn dduw arall o
+   </lb> 
+   <lb n="33">&icirc;s radd, i 'r hwn y maent yn tybied eu hunain yn
+   </lb> 
+   <lb n="34">ddyledus am bob bendithion yn y bywyd hwn. A
+   </lb> 
+   <lb n="35">thrachefn, mae ganddynt barch mawr i 'r haul, yr
+   </lb> 
+   <lb n="36">hon a alwant Baifa, o herwydd yr effaith sydd 
+   
+   </lb>
+   </pb>
+   <pb n="42-43.">
+   <lb n="36-1">ganddi
+   </lb>
+   </pb>
+   <pb n="43.">
+   <lb n="1">
+    ar gyrph dynion ac anifeiliaid. Mae yma lawer
+   </lb> 
+   <lb n="2">o demlau wedi eu cyssegru i bob un o 'u duwiau a 'u
+   </lb> 
+   <lb n="3">delwau, wedi eu gwneuthur o gerrig, neu fonion
+   </lb> 
+   <lb n="4">hen goed, wedi eu cerfio 'n lled drwsgl; a phan y
+   </lb> 
+   <lb n="5">maent yn eu haddoli, maent yn eu hiro &acirc; gwaed yr
+   </lb> 
+   <lb n="6">offrwm a roddir iddynt; a chwedi gorwedd i lawr
+   </lb> 
+   <lb n="7">ar eu boliau, maent yn mwmlan rhyw fath o 
+   </lb>
+   <lb n="7-8">weddiau
+   </lb>
+   <lb n="8">
+    i 'r ddaear, dan yr hon y maent yn meddwl fod
+   </lb> 
+   <lb n="9">y diafol yn cyfanneddu.
+   
+   
+   </lb> 
+   <lb n="10">Nid oes un bobl neu genhedlaeth mor nodedig
+   </lb> 
+   <lb n="11">am swynion a swyngyfaddefwyr a 'r wlad hon. Yma
+   </lb> 
+   <lb n="12">mae 'r teidiau 'n dysgu eu plant yn y celfyddydau
+   </lb> 
+   <lb n="13">diawledig hyn, ac fel yn rhan o 'u hetifeddiaeth, yn
+   </lb> 
+   <lb n="14">gorchymmyn iddynt y cyfryw ysprydion, y rhai,
+   </lb> 
+   <lb n="15">meddant hwy, a fuasai fwyaf gwasanaethgar iddynt
+   </lb> 
+   <lb n="16">eu hunain. Mae gan bob teulu eu hysprydion,
+   </lb> 
+   <lb n="17">(demons)&nbsp;&acirc; pha rai y maent mor gyfeillgar, a 'u bod
+   </lb> 
+   <lb n="18">yn myned i gyfarfod &acirc; hwynt mewn coedydd a 
+   </lb>
+   <lb n="18-19">rhodfaoedd
+   </lb>
+   <lb n="19">
+    dirgel, i ddysgu iddynt fath o ganuau, y rhai
+   </lb> 
+   <lb n="20">pan eu cenir, a fydd yn sicr o beri iddynt 
+   </lb>
+   <lb n="20-21">ymddangos
+   </lb>
+   <lb n="21">
+    yn ol eu haddewid: y maent yn danfon y rhai'n
+   </lb> 
+   <lb n="22">ar ddull cl&ecirc;r gleision at eu gelynion, i wneuthur
+   </lb> 
+   <lb n="23">rhyw niwed i 'w hanifeiliaid neu eu plant; ac y mae
+   </lb> 
+   <lb n="24">yn fynych ymdrech rhwng dau deulu, pa un a fydd
+   </lb> 
+   <lb n="25">drechaf yn y gelfyddyd hon. Mae gan rai o honynt
+   </lb> 
+   <lb n="26">ryw art neillduol o ddeutu werthu 'r gwynt i 'r 
+   </lb>
+   <lb n="26-27">morwyr.
+   </lb>
+   <lb n="27">
+    Y Norwegiaid, ag sy 'n byw o du 'r gogledd
+   </lb> 
+   <lb n="28">i Lapland, yn enwedig y bobl sy 'n cyfaneddu o
+   </lb> 
+   <lb n="29">ddeutu gaingc o f&ocirc;r a elwir y Gulph of Bothina, yw
+   </lb> 
+   <lb n="30">y rhai mwyaf hynod yn y gelfyddyd hon; yma y
+   </lb> 
+   <lb n="31">maent yn perswadio 'r morwyr a fo 'n hwylio yn y 
+   </lb> 
+   <lb n="32">parthau hynny, y gallant, trwy dalu swm o arian,
+   </lb> 
+   <lb n="33">gael y gwynt a fyddont yn ei ddewis. I hyn hwy a
+   </lb> 
+   <lb n="34">roddant iddynt raff, ac arni dri chwlwm; yr ydys
+   </lb> 
+   <lb n="35">yn dywedyd pan agorir un cwlwm, bod gwynt
+   </lb> 
+   <lb n="36">hwylus yn codi; os agorant yr ail, mae gwynt 
+   </lb>
+   <lb n="36-37">cadarn
+   </lb>
+   <lb n="37">
+    yn codi, ac yn llanw 'r hwylau; ond os byddant
+   </lb> 
+   <lb n="38">mor fentrus ag agor y trydydd cwlwm, mae 'r fath
+   </lb> 
+   <lb n="39">ystormydd yn codi, y m&ocirc;r yn cynhyrfu, a 'r holl wybr
+   
+   </lb>
+   </pb>
+   <pb n="44.">
+   
+    
+   <lb n="1">yn duo, fel na byddant mwyach yn gallu rheoli eu
+   </lb> 
+   <lb n="2">llongau, ond mewn perygl bob munud o 
+   </lb>
+   <lb n="2-3">longddrylliad.
+   </lb>
+   <lb n="3">
+   
+   
+   
+   </lb> 
+   <lb n="4">Heblaw hyn, fe roddir hanes fod gan y 
+   </lb>
+   <lb n="4-5">Laplanders
+   </lb>
+   <lb n="5">
+    fath o offerynau swynedig, ag y maent yn ei alw
+   </lb> 
+   <lb n="6">Tyre, y rhai sydd ryw beth yn debyg i bellenau neu
+   </lb> 
+   <lb n="7">afalau lled fychain, wedi eu gwneuthur o blu rhyw
+   </lb> 
+   <lb n="8">greadur, ac mor ysgafn, fel y gellir meddwl eu bod
+   </lb> 
+   <lb n="9">yn gou; mae rhai'n o bob lliwiau, peth o honynt yn
+   </lb> 
+   <lb n="10">wyrdd, melyn, glas, &amp;c.
+   
+   
+   </lb> 
+   <lb n="11">Mae 'r Laplanders, meddant hwy, yn gosod y rhai'n
+   </lb> 
+   <lb n="12">ar werth, ac yn edrych arnynt fel rhyw beth byw,
+   </lb> 
+   <lb n="13">yn gymmaint ag y gall eu prynwyr eu danfon i 'r
+   </lb> 
+   <lb n="14">lle, ac at y sawl a fynnont; maent yn eu symmudiad
+   </lb> 
+   <lb n="15">yn debyg i droead-wynt, a 'u heffaith mor greulon,
+   </lb> 
+   <lb n="16">bid at bwy bynnag y byddir yn pwrpasu eu danfon,
+   </lb> 
+   <lb n="17">hwy a ant gyd &acirc; 'r fath nerth a chyflymdra, fel y
+   </lb> 
+   <lb n="18">cwympant y creadur cyntaf a fyddo yn eu ffordd.
+   
+   
+   </lb> 
+   <lb n="19">Ond yr offeryn pennaf y maent hwy yn ei 
+   </lb>
+   <lb n="19-20">ddefnyddio
+   </lb>
+   <lb n="20">
+    mewn ffordd o ddewinyddiaeth yw 'r drwm,
+   </lb> 
+   <lb n="21">ar yr hwn y maent yn gosod rhifedi mawr o 
+   </lb>
+   <lb n="21-22">fodrwyau
+   </lb>
+   <lb n="22">
+    pres, yr hwn y mae 'r swynwr yn ei ffysto,
+   </lb> 
+   <lb n="23">ac yn mwmlan rhyw eiriau swyniol wrtho, ne's yn
+   </lb> 
+   <lb n="24">y diwedd y byddo ef yn cwympo mewn llewig; yr
+   </lb> 
+   <lb n="25">holl amser hyn y mae pawb a fo 'n bresennol yn codi
+   </lb> 
+   <lb n="26">i fynu ac yn canu. Mae 'r swynwr yma ar ol 
+   </lb>
+   <lb n="26-27">dihuno
+   </lb>
+   <lb n="27">
+    yn cymmeryd arno, beth bynnag a ofynir iddo,
+   </lb> 
+   <lb n="28">y gall ef roddi llawn hanes am dano, pa mor belled,
+   </lb> 
+   <lb n="29">neu ymha wlad, neu ran o 'r byd y bydd hynny 'n
+   </lb> 
+   <lb n="30">bod; gan roddi tystiolaeth eglur fod ganddo ryw
+   </lb> 
+   <lb n="31">beth yn fwy n&acirc; chyffredin o wybodaeth. Yn fyr,
+   </lb> 
+   <lb n="32">mae 'r bobl yma 'n cael eu twyllo 'n fawr iawn gan y
+   </lb> 
+   <lb n="33">diafol, yr hwn yn ddieu sy 'n eu cadw yn offerynau
+   </lb> 
+   <lb n="34">truenus dan ei lywodraeth, at 'chwanegu \ychwanegu\ ei ewyllys
+   </lb> 
+   <lb n="35">yn eu dinystr eu hunain. Nid yw 'r bobl hyn yn
+   </lb> 
+   <lb n="36">credu dim am adgyfodiad y corph, a 'r hyn o 
+   </lb>
+   <lb n="36-37">wybodaeth
+   </lb>
+   <lb n="37">
+    sydd ganddynt am fyd arall sy 'n bur dywyll.
+   </lb> 
+   <lb n="38">Pan fyddo un farw, maent yn gosod yn ei goffin
+   </lb> 
+   <lb n="39">garreg d&acirc;n a hernyn, fel na byddo yn ddiffygiadol o
+   
+   </lb>
+   </pb>
+   <pb n="45.">
+   
+    
+   <lb n="1">oleu yn y byd nesaf, bwyall at dorri 'r coed a 'r drysni
+   </lb> 
+   <lb n="2">yn ei ffordd i 'r nef, trwy 'r gelltydd a 'r anialwch,
+   </lb> 
+   <lb n="3">ynghyd &acirc; bwa, a saethau, a bwyd, fel y gallont fod
+   </lb> 
+   <lb n="4">yn barod i sefyll yn erbyn pob gwrthwynebiad, ac i
+   </lb> 
+   <lb n="5">ymladd eu ffordd yn eu blaen heb lewygu.
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="6">Am y Grefydd&nbsp;Baganaidd&nbsp;yn&nbsp;Affrica.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="7">ER bod y grefydd Fahometanaidd wedi rhedeg
+   </lb> 
+   <lb n="8">dros ran fawr o 'r wlad hon; etto yn Gini, a
+   </lb> 
+   <lb n="9">lleoedd eraill, ag y mae gan ein morwyr ni beth
+   </lb> 
+   <lb n="10">masnach &acirc; hwynt, ni wyddom fod y rhan fwyaf o 'r
+   </lb> 
+   <lb n="11">trigolion yn cadw wrth eu hen feddyliau Paganaidd.
+   </lb> 
+   <lb n="12">Mae y rhai mwyaf gwybodus o honynt yn credu
+   </lb> 
+   <lb n="13">fod un Duw ag sydd goruwch y cwbl, ac yn cyfrif
+   </lb> 
+   <lb n="14">iddo waith y greadigaeth, a llywodraeth pob peth
+   </lb> 
+   <lb n="15">ag sydd ynddi; ond mae 'n ddigon tebyg fod yr 
+   </lb>
+   <lb n="15-16">opiniwn
+   </lb>
+   <lb n="16">
+    hyn yn deillio oddiwrth y cyfeillach sydd 
+   </lb>
+   <lb n="16-17">beunydd
+   </lb>
+   <lb n="17">
+    rhyngddynt hwy a 'r Ewropiaid, yn hytrach,
+   </lb> 
+   <lb n="18">nag oddiwrth ddim traddodiadau yn eu plith eu 
+   </lb>
+   <lb n="18-19">hunain;
+   </lb>
+   <lb n="19">
+    canys yn lle galw ar Dduw am help, maent
+   </lb> 
+   <lb n="20">yn wastadol yn gweddio ar y duw teuluaidd, yr hwn
+   </lb> 
+   <lb n="21">y maent yn ei alw Ffetche, sef rhyw gau dduw, am
+   </lb> 
+   <lb n="22">eu cynnorthwyo ymhob achos. Eu barn mewn
+   </lb> 
+   <lb n="23">perthynas i greadigaeth dyn sy 'n rhyw dyb neillduol;
+   </lb> 
+   <lb n="24">maent yn dywedyd i Dduw wneuthur ar y cyntaf
+   </lb> 
+   <lb n="25">ddyn gwyn, a dyn d&ucirc;, ac iddo roi cynnyg iddynt
+   </lb> 
+   <lb n="26">ar ddwy rodd, sef aur a disgeidiaeth; i 'r dyn d&ucirc;, yr
+   </lb> 
+   <lb n="27">hwn a gafodd y cynnyg cyntaf, ddewis aur, a
+   </lb> 
+   <lb n="28">gwrthod adnabyddiaeth o lythrenau a dysgeidiaeth;
+   </lb> 
+   <lb n="29">am hynny i Dduw ddigio 'n fawr wrth y dyn d&ucirc;, fel
+   </lb> 
+   <lb n="30">yr ordeiniodd ef y bobl wynion yn feistri, ar bobl 
+   </lb>
+   <lb n="30-31">dduon
+   </lb>
+   <lb n="31">
+    i fod yn slafiaid iddynt. Pa fath dybiau sydd 
+   </lb>
+   <lb n="31-32">ganddynt
+   </lb>
+   <lb n="32">
+    am eu duwiau, mae 'n anhawdd gwybod; ond
+   </lb> 
+   <lb n="33">hyn sy 'n adnabyddus, fod rhifedi mawr o honynt,
+   </lb> 
+   <lb n="34">pob dyn, neu o leiaf pob penteulu sy 'n berchen ar
+   </lb> 
+   <lb n="35">un, yr hwn, meddant hwy, sy 'n edrych yn fanol ar
+   </lb> 
+   <lb n="36">eu gweithredoedd, yn gwobrwyo rhai, trwy roi
+   
+   </lb>
+   </pb>
+   <pb n="46.">
+   
+    
+   <lb n="1">iddynt lawer o wragedd a slafiaid, ac yn cospi 'r lleill,
+   </lb> 
+   <lb n="2">trwy eu cadw mewn diffyg o honynt. Am eu barn
+   </lb> 
+   <lb n="3">mewn perthynas i wobr a phoenau yn y byd nesaf,
+   </lb> 
+   <lb n="4">nid oes ganddynt fawr iawn o idea am dano, 
+   </lb>
+   <lb n="4-5">oddieithr
+   </lb>
+   <lb n="5">
+    bod rhai o honynt yn tybied pan fyddont farw,
+   </lb> 
+   <lb n="6">eu bod yn cael eu dwyn wrth ryw afon ardderchog,
+   </lb> 
+   <lb n="7">a elwir Bosmanque, yr hon sy 'n rhedeg trwy ganol
+   </lb> 
+   <lb n="8">gwlad helaeth; yma y maent yn cael eu holi gan eu
+   </lb> 
+   <lb n="9">duw, pa fath fywyd a ddarfu iddynt arwain; a 
+   </lb>
+   <lb n="9-10">oeddent
+   </lb>
+   <lb n="10">
+    wedi cadw eu haddunedau y dyddiau gwyl, ac
+   </lb> 
+   <lb n="11">ymgadw odddiwrth bob bwydydd gwaharddedig;
+   </lb> 
+   <lb n="12">os byddant wedi gwneuthur hyn, y maent yn cael
+   </lb> 
+   <lb n="13">eu cario tros yr afon, i dir ag sy 'n llawn o bob
+   </lb> 
+   <lb n="14">ffrwythau hyfryd a diddanwch; ond os na wnaethant
+   </lb> 
+   <lb n="15">felly, mae eu duw yn eu foddi yn yr afon hon, ac
+   </lb> 
+   <lb n="16">yn eu boddi fel na byddo son am danynt yn 
+   </lb>
+   <lb n="16-17">dragywydd.
+   </lb>
+   <lb n="17">
+   
+   
+   
+   </lb> 
+   <lb n="18">Er bod gan y bobl hyn ar hyd yr amrywiol 
+   </lb>
+   <lb n="18-19">barthau
+   </lb>
+   <lb n="19">
+    o Affrica rifedi mawr o dduwiau, etto ar 
+   </lb>
+   <lb n="19-20">gyffiniau
+   </lb>
+   <lb n="20">
+    'r m&ocirc;r mae 'n hyspys eu bod yn addoli delwau;
+   </lb> 
+   <lb n="21">ac er eu bod yn credu fod diawlaid ag sy 'n fynych
+   </lb> 
+   <lb n="22">yn eu drygu 'n fawr lawer pryd, ni allwn ddeall nad
+   </lb> 
+   <lb n="23">ydynt ddim yn eu haddoli, nac yn offrymmu iddynt;
+   </lb> 
+   <lb n="24">yn y gwrthwyneb, maent yn ddangos fod yn gas
+   </lb> 
+   <lb n="25">ganddynt am dano, ac ar rai diwrnodiau a gwyliau
+   </lb> 
+   <lb n="26">blynyddol, mae ganddynt arfer i hela 'r diafol i maes
+   </lb> 
+   <lb n="27">o 'u trefydd, yr hyn sy 'n cael ei wneuthur gyd &acirc;
+   </lb> 
+   <lb n="28">llawer iawn o seremoniau.
+   
+   
+   </lb> 
+   <lb n="29">Mor belled a hyn fe ddarfu i ni ddangos 
+   </lb>
+   <lb n="29-30">dechreuad
+   </lb>
+   <lb n="30">
+    eilun-addoliaeth, ac arolygu 'r mannau mwyaf
+   </lb> 
+   <lb n="31">neillduol o 'r ddaear lle mae 'r pechod a 'r annuwioldeb
+   </lb> 
+   <lb n="32">yma yn cymmeryd lle; golwg wael a dychrynedig!
+   </lb> 
+   <lb n="33">ond i wneuthur cyfiawnder yn y matter hwn, ni a
+   </lb> 
+   <lb n="34">gawn gario ein cyfarchwyliad ychydig ymhellach,
+   </lb> 
+   <lb n="35">gan edrych beth yw barn y rhan oreu o 'r 
+   </lb>
+   <lb n="35-36">cenhedloedd
+   </lb>
+   <lb n="36">
+    yn gystal a 'r rhai gwaethaf, y philosophyddion
+   </lb> 
+   <lb n="37">megis y cyffredin bobl ymhob oes.
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="47.">
+   
+   
+   
+   <head>
+    
+   <lb n="1">Ynghylch y Rhan oreu o 'r Grefydd&nbsp;Baganaidd.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="2">Y Rhei'ny ag sydd wedi ystyried nattur y grefydd
+   </lb> 
+   <lb n="3">Baganaidd, er mwyn ei detholi oddiwrth y
+   </lb> 
+   <lb n="4">sorod, ydynt yn gyffredinol yn ei dwyn dan y 
+   </lb>
+   <lb n="4-5">rhagosodiadau
+   </lb>
+   <lb n="5">
+    canlynol.
+   
+   
+   </lb> 
+   <lb n="6">1. Nad oes ond un Duw goruchaf, yr hwn yw
+   </lb> 
+   <lb n="7">crewr a chynhaliwr pob peth. 2. Mai 'r Duw hwn
+   </lb> 
+   <lb n="8">yn unig a ddylai gael ei addoli. 3. Y dylid 
+   </lb>
+   <lb n="8-9">ymarfer
+   </lb>
+   <lb n="9">
+    rhinwedd a duwioldeb. 4. Y dylid edifarhau
+   </lb> 
+   <lb n="10">am bechod, ac ymwrthod &acirc; phob drygioni. 5. Fod
+   </lb> 
+   <lb n="11">Duw yn farnwr cyfiawn, yn gwobrwyo y daionus,
+   </lb> 
+   <lb n="12">ac yn poeni y drygionus, nid yn unig yn y byd hwn,
+   </lb> 
+   <lb n="13">ond hefyd yn y byd a ddaw.
+   
+   
+   </lb> 
+   <lb n="14">Wrth edrych yn fanol i 'r pethau hyn, ni gawn
+   </lb> 
+   <lb n="15">weled yn amlwg, nad oes, ac na fu erioed, bobl neu
+   </lb> 
+   <lb n="16">genhedlaeth o ddynion mor anfoesol ac mor 
+   </lb>
+   <lb n="16-17">farbaraidd,
+   </lb>
+   <lb n="17">
+    nad oeddent yn cyfaddef ac yn addoli un 
+   </lb>
+   <lb n="17-18">goruchaf
+   </lb>
+   <lb n="18">
+    Dduw, yr egwyddor gyntaf, a llywodraethwr
+   </lb> 
+   <lb n="19">pob peth. Ond beth bynnag fu 'r achos o 
+   </lb>
+   <lb n="19-20">gynhyddiad
+   </lb>
+   <lb n="20">
+    cymmaint o dduwiau; etto, mae 'n ddiammeu
+   </lb> 
+   <lb n="21">fod ganddynt un, yr hwn oeddent yn edrych arno
+   </lb> 
+   <lb n="22">goruwch y lleill, yn rhoi iddo addoliadau dirgel a
+   </lb> 
+   <lb n="23">chyhoeddus, yn gweddio ac yn addunedu, ac yn ei
+   </lb> 
+   <lb n="24">wneuthur yn wrthddrych o 'u holl ddyledswyddau a
+   </lb> 
+   <lb n="25">gwasanaeth crefyddol, a hynny yn y modd mwyaf
+   </lb> 
+   <lb n="26">neillduol. Ymhlith y Rhufeiniaid yr oedd eu 
+   </lb>
+   <lb n="26-27">Jupiter
+   </lb>
+   <lb n="27">
+    yn cael ei gyfrif yn dad y duwiau a dynion, neu 'r
+   </lb> 
+   <lb n="28">optimus maximus, sef y duw mwyaf a 'r cyntaf, 
+   </lb>
+   <lb n="28-29">llywodraethwr
+   </lb>
+   <lb n="29">
+    yr holl fyd, a brenin yr holl fodau rhesymol.
+   
+   
+   </lb> 
+   <lb n="30">Yn arwydd o 'r mawr barch oedd ganddynt i bob
+   </lb> 
+   <lb n="31">moesoldeb, hwy adeiladent demlau, ac a 'u cyssegrent
+   </lb> 
+   <lb n="32">i ddiniweidrwydd, ffyddlondeb, caderndid, &amp;c. Mae
+   </lb> 
+   <lb n="33">Cicero yn ei ail lyfr De Legibus, yn rhoi hanes fer
+   </lb> 
+   <lb n="34">am grefydd yr henafiaid, ac yn dangos yn eglur, nad
+   </lb> 
+   <lb n="35">oedd gan ddynion un ffordd arall i 'w dwyn i 'r nef,
+   </lb> 
+   <lb n="36">ond trwy feddyliau pur a didwyll, ffydd sanctaidd,
+   </lb> 
+   <lb n="37">gwir dduwioldeb, a phob rhyw o rinweddau eraill
+   </lb> 
+   <lb n="38">yn gynhulliadol. Seneca sydd hefyd yn haeru, fod
+   
+   </lb>
+   </pb>
+   <pb n="48.">
+   
+    
+   <lb n="1">rhinwedd yn mawrhau 'r enaid, yn ei barottoi i 
+   </lb>
+   <lb n="1-2">wybodaeth
+   </lb>
+   <lb n="2">
+    o bethau nefol, ac yn ei wneuthur yn 
+   </lb>
+   <lb n="2-3">deilwng
+   </lb>
+   <lb n="3">
+    o gyfeillach a derbyniad gyd &acirc; Duw.
+   
+   
+   </lb> 
+   <lb n="4">Yr oedd y bobl yma yn cyfrif edifeirwch, ynghyd
+   </lb> 
+   <lb n="5">&acirc; phob rhyw rinwedd, yn rai o 'r perffeithrwydd
+   </lb> 
+   <lb n="6">mwyaf mewn nattur, ag a allai wneuthur dyn yn
+   </lb> 
+   <lb n="7">ddedwydd; am hynny maent yn gosod allan 
+   </lb>
+   <lb n="7-8">annogaethau
+   </lb>
+   <lb n="8">
+    a rheolau i bob math o ddynion i ymwrthod
+   </lb> 
+   <lb n="9">&acirc; phechod, a byw 'n rhinweddol, fel ag y dylai 
+   </lb>
+   <lb n="9-10">creaduriaid
+   </lb>
+   <lb n="10">
+    rhesymol wneuthur. Yr oeddent hwy 
+   </lb>
+   <lb n="10-11">hefyd
+   </lb>
+   <lb n="11">
+    yn meddwl fod pechod, a phob rhyw ddrwg arall,
+   </lb> 
+   <lb n="12">yn deillio naill ai trwy ymgyfeillachu &acirc; dynion o
+   </lb> 
+   <lb n="13">dueddiadau drwg, anwybodus o 'r hyn ag oedd yn
+   </lb> 
+   <lb n="14">ddrwg, megis llid a thrachwantau cnawdol, neu
+   </lb> 
+   <lb n="15">ynte trwy ryw dueddiadau a phleserau ag oedd yn eu
+   </lb> 
+   <lb n="16">meddyliau eu hunain; am hynny yr oeddent yn barnu
+   </lb> 
+   <lb n="17">bod yn angenrheidiol i ymgadw rhag ymgyfeillachu
+   </lb> 
+   <lb n="18">&acirc; 'r cyfryw bobl ag oedd felly, o herwydd bod 
+   </lb>
+   <lb n="18-19">cyfeillion
+   </lb>
+   <lb n="19">
+    drwg yn llygru moesau da; ac felly y dylent
+   </lb> 
+   <lb n="20">geryddu 'r fath drachwantau a nwydau afreolaidd,
+   </lb> 
+   <lb n="21">yr hyn sy 'n dueddol i bob dyn wrth wendid nattur,
+   </lb> 
+   <lb n="22">a gweddio ar Dduw am gymmorth i wrthryfela yn
+   </lb> 
+   <lb n="23">erbyn y cyfryw dueddiadau llygredig, ac i buro eu
+   </lb> 
+   <lb n="24">cydwybodau, fel na fyddai honno yn eu cyhoeddi yn
+   </lb> 
+   <lb n="25">euog, a 'u condemnio mewn ystad ysprydol.
+   
+   
+   </lb> 
+   <lb n="26">Yr oeddent yn meddwl nad yw dyn, a 'i ystyried
+   </lb> 
+   <lb n="27">yn ei nattur ei hun, na da na drwg, ond yn dueddol
+   </lb> 
+   <lb n="28">i 'r naill neu 'r llall, yn ol cael o hono ef ei ddwyn yn
+   </lb> 
+   <lb n="29">y blaen a 'i addysgu; ac nad yw pechod yn gwreiddio
+   </lb> 
+   <lb n="30">ynddo mor belled, fel na's gellid trwy iawn drefn
+   </lb> 
+   <lb n="31">ac arferiad ei lwyr chwynnu a 'i ddiwreiddio ymaith
+   </lb> 
+   <lb n="32">o hono, os na fydd yr enaid yn llwyr wrthwyneb:
+   </lb> 
+   <lb n="33">felly nid oeddent yn gweled un rheswm, pa ham na
+   </lb> 
+   <lb n="34">allasai dyn gael ei ddwyn i gyflwr difeius (wedi
+   </lb> 
+   <lb n="35">iddo gael ei halogi gan bechod) trwy fewnol 
+   </lb>
+   <lb n="35-36">buredigaeth;
+   </lb>
+   <lb n="36">
+    yr oeddent yn gydwybodol o aflendid a
+   </lb> 
+   <lb n="37">drwg effaith pechod, ac mor groes oedd hyn gan
+   </lb> 
+   <lb n="38">Dduw; ond etto, trwy ystyried mai cariad oedd
+   </lb> 
+   <lb n="39">gwir briodoledd y dwyfol Fod, a ph'le bynnog yr
+   
+   </lb>
+   </pb>
+   <pb n="49.">
+   
+    
+   <lb n="1">oedd cariad yn aros, ni allasai digofaint a digllonedd
+   </lb> 
+   <lb n="2">hir barhau; yn hyn yr oeddent yn cyssuro eu hunain
+   </lb> 
+   <lb n="3">mewn gobaith o heddwch, ar gyfaddefiad o 'u 
+   </lb>
+   <lb n="3-4">tristwch
+   </lb>
+   <lb n="4">
+    a 'u blinder am yr hyn a wnaethant ar fai: eu
+   </lb> 
+   <lb n="5">bod hwy yn ddiragrith yn eu hedifeirwch, a 
+   </lb>
+   <lb n="5-6">ymddengys
+   </lb>
+   <lb n="6">
+    yn amlwg oddiwrth eu haddunedau a
+   </lb> 
+   <lb n="7">wnaethant; yr amrywiol ymbiliau a osodasant; y
+   </lb> 
+   <lb n="8">temlau cyssegredig a adeiladasant, ynghyd &acirc; 'r holl
+   </lb> 
+   <lb n="9">seremoniau ag oeddent yn arferyd i heddychu eu
+   </lb> 
+   <lb n="10">duwiau.
+   
+   
+   </lb> 
+   <lb n="11">Rhai o 'r philosophyddion mwyaf doeth oedd yn
+   </lb> 
+   <lb n="12">addef, mai 'r Duw goruchaf yn unig a ddylasid ei
+   </lb> 
+   <lb n="13">addoli er ei fwyn ei hun; fod y nattur ardderchoccaf
+   </lb> 
+   <lb n="14">yn haeddiannol o 'r anrhydedd mwyaf; ond heblaw
+   </lb> 
+   <lb n="15">hyn, yr oeddent yn addo iddynt eu hunain daliad
+   </lb> 
+   <lb n="16">neu wobr, os nid yn y byd hwn, fod hyn yn sicr
+   </lb> 
+   <lb n="17">iddynt yn y byd nesaf, am eu gwasanaeth a 'u 
+   </lb>
+   <lb n="17-18">dioddefiadau.
+   </lb>
+   <lb n="18">
+    Yn y byd hwn yr oeddent yn gweled
+   </lb> 
+   <lb n="19">anghyfartal gyfraniad mewn pethau naturiol, y 
+   </lb>
+   <lb n="19-20">dynion
+   </lb>
+   <lb n="20">
+    da yn fynych yn goddef llawer o flinderau a
+   </lb> 
+   <lb n="21">thrallodion, a 'r rhai drygionus yn ymlawenhau mewn
+   </lb> 
+   <lb n="22">pleserau a meddiannau bydol; ac ar hyn, oddiwrth
+   </lb> 
+   <lb n="23">gyfiawnder a daioni Duw, yr oeddent yn barnu, fod
+   </lb> 
+   <lb n="24">i 'r cyfiawn gael eu gwobrwyo, a 'r drygionus eu
+   </lb> 
+   <lb n="25">poeni yn dragywyddol; canys nid oedd yn eu 
+   </lb>
+   <lb n="25-26">meddyliau
+   </lb>
+   <lb n="26">
+    ddim llai, n&acirc; bod bywyd ar ol y byd hwn;
+   </lb> 
+   <lb n="27">bod y fath greadur ardderchog ag yw dyn, wedi
+   </lb> 
+   <lb n="28">cael ei gynnysgaeddu &acirc; galluoedd mor rhagorol i
+   </lb> 
+   <lb n="29">weled ac i ddeall holl weithredoedd nattur a 'i 
+   </lb>
+   <lb n="29-30">rhagluniaeth,
+   </lb>
+   <lb n="30">
+    i addoli ac i ryfeddu anfeidrol ddoethineb
+   </lb> 
+   <lb n="31">ei Greawdwr, i edrych yn ol ar yr amserau 
+   </lb>
+   <lb n="31-32">annechreuol,
+   </lb>
+   <lb n="32">
+    ac ymlaen ar amserau ag sydd etto heb 
+   </lb>
+   <lb n="32-33">ddyfod.
+   </lb>
+   <lb n="33">
+    Wrth hyn yr oeddent yn ystyried fod yr enaid
+   </lb> 
+   <lb n="34">yn anfarwol, ac nad oedd angeu ond i drosglwyddo
+   </lb> 
+   <lb n="35">o un cyflwr i 'r llall, a hynny er llawenydd i 'r rhai
+   </lb> 
+   <lb n="36">rhinweddol, ac o boenau annioddefol i 'r rhai 
+   </lb>
+   <lb n="36-37">drygionus.
+   </lb>
+   <lb n="37">
+    Mor belled a hyn oedd eu barn hwy, a
+   </lb> 
+   <lb n="38">hynny yn bur uniawn; ond pan y byddent yn siarad
+   </lb> 
+   <lb n="39">am y lleoedd hynny a 'u sefyllfaoedd, megis yr 
+   
+   </lb>
+   </pb>
+   <pb n="49- 50.">
+   <lb n="39-1">Elusian
+   </lb>
+   </pb>
+   <pb n=" 50.">
+   <lb n="1">
+    Fields, neu 'r caeau dedwydd; Tartarus, Erebus,
+   </lb> 
+   <lb n="2">ac Orcus, sef y llynnoedd a 'r afonydd uffernol;
+   </lb> 
+   <lb n="3">yr oeddent yn rhedeg i gamsyniadau cywilyddus
+   </lb> 
+   <lb n="4">eraill, heb un fath o angenrheidrwydd, o herwydd
+   </lb> 
+   <lb n="5">hwy a allasent yn hawdd berswadio 'r bobl i gredu,
+   </lb> 
+   <lb n="6">fod Dwyfol Gyfiawnder wedi parottoi lleoedd o
+   </lb> 
+   <lb n="7">happusrwydd ac anhappusrwydd i bob un yn ol ei
+   </lb> 
+   <lb n="8">haeddiant. Stackhouse, Corph o Ddifinyddiaeth.
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="9">Am y Grefydd&nbsp;Grist'nogol.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="10">Y Grefydd Grist'nogol yw 'r oruchwiliaeth 
+   </lb>
+   <lb n="10-11">ddiweddaf
+   </lb>
+   <lb n="11">
+    a mwyaf perffaith o bob datguddiad
+   </lb> 
+   <lb n="12">a welodd Duw fod yn dda i roddi i ddynolryw.
+   </lb> 
+   <lb n="13">Mae hon yn cael ei galw felly oddiwrth Iesu Grist,
+   </lb> 
+   <lb n="14">y gwir Fesia, unig Fab Duw, yr hwn a 
+   </lb>
+   <lb n="14-15">ymddangosodd
+   </lb>
+   <lb n="15">
+    yn Judea o ddeutu deunaw cant o flynyddau
+   </lb> 
+   <lb n="16">yn ol; a anwyd yn Bethlehem, a ddygwyd i fynu
+   </lb> 
+   <lb n="17">yn Nazareth, ac a groeshoeliwyd gan ei ddewisedig
+   </lb> 
+   <lb n="18">bobl yr Iuddewon yn Jerusalem. Ei hiliogaeth a 'i
+   </lb> 
+   <lb n="19">genhedliad, ei enedigaeth, ei fywyd, a 'i farwolaeth,
+   </lb> 
+   <lb n="20">yngyd &acirc; 'i holl ddioddefiadau a ragfynegwyd yn 
+   </lb>
+   <lb n="20-21">fanol,
+   </lb>
+   <lb n="21">
+    gan ol-yn-ol brophwydi Iuddewaidd, a 'i grefydd
+   </lb> 
+   <lb n="22">sydd yn awr wedi ymdannu dros ran fawr o 'r ddaear.
+   
+   
+   </lb> 
+   <lb n="23">Yn dystiolaeth o 'r Grefydd Grist'nogol, hi a
+   </lb> 
+   <lb n="24">grybwyllir trwy hanesion anamheuol, 
+   </lb>
+   <lb n="24-25">prophwydoliaethau,
+   </lb>
+   <lb n="25">
+    gwyrthiau, tufewnol brofiadau, 
+   </lb>
+   <lb n="25-26">awdurdodol
+   </lb>
+   <lb n="26">
+    athrawiaethau, a chyflymdra ei hymlediad 
+   </lb>
+   <lb n="26-27">ymhlith
+   </lb>
+   <lb n="27">
+    Iuddewon a chenhedloedd. Er bod dynion
+   </lb> 
+   <lb n="28">ymhob oes wedi gwahaniaethu yn eu meddyliau
+   </lb> 
+   <lb n="29">mewn perthynas i ryw ran o athrawiaethau 'r 
+   </lb>
+   <lb n="29-30">grefydd
+   </lb>
+   <lb n="30">
+    hon, etto y maent oll yn llawn gyttuno yn y
+   </lb> 
+   <lb n="31">dwyfol wreiddiad, ac yn ei haelionus dueddiad.
+   
+   
+   </lb> 
+   <lb n="32">Pan edrychom i nattur a dwyfol dueddiad y 
+   </lb>
+   <lb n="32-33">grefydd
+   </lb>
+   <lb n="33">
+    hon a ddysgir i ni gan Grist a 'i Apostolion, ni
+   </lb> 
+   <lb n="34">gawn weled ei bod yn deilwng o Dduw. Yma
+   </lb> 
+   <lb n="35">y cynhwysir holl ardderchawgrwydd yr Hen 
+   </lb>
+   <lb n="35-36">Destament;
+   </lb>
+   <lb n="36">
+    canys ni ddaeth ein Iachawdwr i dorri 'r 
+   
+   </lb>
+   </pb>
+   <pb n=" 50-51.">
+   <lb n="36-1">gyfraith
+   </lb>
+   </pb>
+   <pb n="51.">
+   <lb n="1">
+    a 'r prophwydi, ond i 'w cwplau; ac i gario 'r
+   </lb> 
+   <lb n="2">dull o grefydd sydd yn cael ei gosod yno i uwch
+   </lb> 
+   <lb n="3">radd o odidawgrwydd; yr idea a roddir yma am
+   </lb> 
+   <lb n="4">Dduw, sy 'n dangos i ni ei anghydmarol allu, ei
+   </lb> 
+   <lb n="5">ddoethineb, a 'i berffeithrwydd; fod ei lywodraeth yn
+   </lb> 
+   <lb n="6">cyd-uno &acirc; 'i ragluniaeth, fel ag mae ef yn oestadol
+   </lb> 
+   <lb n="7">ofalu am ei holl greaduriaid, ond yn fwy neilltuol
+   </lb> 
+   <lb n="8">tu ag at ddynolryw; a hynny yn y dull mwyaf 
+   </lb>
+   <lb n="8-9">ardderchog,
+   </lb>
+   <lb n="9">
+    ac yn y ffordd fwyaf cymmwys at ennill
+   </lb> 
+   <lb n="10">tueddiadau a serch ei bobl tu ag atto.
+   
+   
+   </lb> 
+   <lb n="11">Bod y fath ddyn a 'r Iesu o Nazareth, sydd mor
+   </lb> 
+   <lb n="12">anamheuol a bod y fath dywysog ag Augustus 
+   </lb>
+   <lb n="12-13">C&aelig;sar,
+   </lb>
+   <lb n="13">
+    yn amser a than lywodraeth yr hwn y cafodd ef
+   </lb> 
+   <lb n="14">ei eni. Ei fywyd a brofir trwy 'sgrifenadau \ysgrifenadau\ ei 
+   </lb>
+   <lb n="14-15">ddisgyblion,
+   </lb>
+   <lb n="15">
+    y rhai oeddent yn llygad-dystion o 'r hyn y
+   </lb> 
+   <lb n="16">maent yn ei adrodd, ac yn cyd-uno &acirc; 'r hyn a 
+   </lb>
+   <lb n="16-17">dystiolaethir
+   </lb>
+   <lb n="17">
+    gan hanesyddion Iuddewaidd a Phaganaidd;
+   </lb> 
+   <lb n="18">ac am nad yw hanes ein Iachawdwr (megis Moses)
+   </lb> 
+   <lb n="19">wedi ei 'sgrifennu \ysgrifennu\ ganddo ef ei hun, ond gan eraill
+   </lb> 
+   <lb n="20">sef gan bedwar o 'i efangylwyr; y mae gennym y
+   </lb> 
+   <lb n="21">rhesymmau mwyaf cadarn i gredu, fod y dystiolaeth
+   </lb> 
+   <lb n="22">hon a roddasant i 'r byd yn wir; a 'i bod wedi cael
+   </lb> 
+   <lb n="23">ei thraddodi i lawr i ninnau, heb fawr wahaniaeth
+   </lb> 
+   <lb n="24">na chyfnewidiad.
+   
+   
+   </lb> 
+   <lb n="25">Mewn perthynas i athrawiaethau 'r grefydd 
+   </lb>
+   <lb n="25-26">Grist'nogol,
+   </lb>
+   <lb n="26">
+    y maent yn ddiamheuol yn sanctaidd ac yn
+   </lb> 
+   <lb n="27">ardderchog. Moesoldeb sydd yma 'n cael ei osod allan
+   </lb> 
+   <lb n="28">a 'i ddysgu yn ei holl uniondeb hyd eithaf 
+   </lb>
+   <lb n="28-29">cyrhaeddiad
+   </lb>
+   <lb n="29">
+    nattur, trwy gymmeryd i mewn y cyfan o 
+   </lb>
+   <lb n="29-30">ddyledswyddau
+   </lb>
+   <lb n="30">
+    perthynol tu ag at Dduw, at ein 
+   </lb>
+   <lb n="30-31">cymmydogion,
+   </lb>
+   <lb n="31">
+    ac attom ein hunain.
+   
+   
+   </lb> 
+   <lb n="32">Am ein dyledswydd i Dduw, mae 'r idea a roir yno
+   </lb> 
+   <lb n="33">yn barchus, yn anrhydeddus, ac yn ddymunol; yma
+   </lb> 
+   <lb n="34">yr ydym yn cael ein dysgu, y dylem garu Duw, nid
+   </lb> 
+   <lb n="35">trwy ofn slafaidd a gormesol, ond trwy fabwysiadol
+   </lb> 
+   <lb n="36">barch, anrhydedd, a gostyngeiddrwydd. Yma 
+   </lb>
+   <lb n="36-37">hefyd
+   </lb>
+   <lb n="37">
+    yr ydym yn cael ein hannog, i gyflwyno ein
+   </lb> 
+   <lb n="38">gweddiau a 'n deisyfiadau atto ef, yn unig fel ein
+   </lb> 
+   <lb n="39">Tad nefol, trwy deilyngdod Iesu Grist unig Fab ei
+   
+   </lb>
+   </pb>
+   <pb n="52.">
+   
+    
+   <lb n="1">gariad, ac yn ei enw ef i offrwm ein calonnau, a
+   </lb> 
+   <lb n="2">rhoddi pob clod, mawrhygiad, a diolchgarwch, gyd
+   </lb> 
+   <lb n="3">&acirc; 'r gostyngeiddrwydd mwyaf, perthynol i 
+   </lb>
+   <lb n="3-4">greaduriaid
+   </lb>
+   <lb n="4">
+    adnabyddus o 'u anheilyngdod; ond etto, gyd &acirc;
+   </lb> 
+   <lb n="5">llawn ymddiried ffydd, gobaith, a llawenydd. Fel
+   </lb> 
+   <lb n="6">hyn y dylai 'r cristion bob amser roi ei hun i fynu
+   </lb> 
+   <lb n="7">yn ostyngedig ac yn barchus i Dduw ein Harglwydd
+   </lb> 
+   <lb n="8">a 'n llywodraethwr, ymddwyn yn weddus ac yn
+   </lb> 
+   <lb n="9">foddlongar dan ei ddoeth ragluniaeth, gan feddwl
+   </lb> 
+   <lb n="10">yn wastadol ei fod ef yn trefnu pob peth yn y ffordd
+   </lb> 
+   <lb n="11">oreu; i rodio bob amser yn ol ei ewyllys, ond 
+   </lb>
+   <lb n="11-12">uwchlaw
+   </lb>
+   <lb n="12">
+    'r cyfan, i 'w garu &acirc; 'n holl galon, &acirc; 'n holl feddwl,
+   </lb> 
+   <lb n="13">ac &acirc; 'n holl nerth; ac i ddangos hyn trwy gadw ei
+   </lb> 
+   <lb n="14">orchymynion, a chyd-ymffurfio ag ef yn ei 
+   </lb>
+   <lb n="14-15">annilynol
+   </lb>
+   <lb n="15">
+    berffeithrwydd, a thrwy wneuthur ein goreu
+   </lb> 
+   <lb n="16">mor belled ag y gallom, ei glodfori yn y byd hwn,
+   </lb> 
+   <lb n="17">dan obaith o feddiannu tymhorol happusrwydd yn y
+   </lb> 
+   <lb n="18">bywyd yma, ac anherfynol ddedwyddwch yn y byd
+   </lb> 
+   <lb n="19">a ddaw.
+   
+   
+   </lb> 
+   <lb n="20">Mae 'n debyg, mai yn Antioc y derbyniodd y 
+   </lb>
+   <lb n="20-21">disgyblion
+   </lb>
+   <lb n="21">
+    yma 'r titl o Grist'nogion gyntaf, pan oedd
+   </lb> 
+   <lb n="22">Paul a Barnabas yn pregethu: hwy fuant hefyd yn
+   </lb> 
+   <lb n="23">cael yr enw Nasareaid, Galileaid, a Jasseaniaid,
+   </lb> 
+   <lb n="24">gan yr Iuddewon, mewn dull o wawd.
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="25">Am y Grefydd&nbsp;Fahometanaidd.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="26">MAHOMET, Sylfaenwr y grefydd hon, a
+   </lb> 
+   <lb n="27">anwyd yn Mecca, yn y flwyddyn 571, yr
+   </lb> 
+   <lb n="28">hwn o ran gwaedoliaeth oedd yn un o 'r Corasiaid,
+   </lb> 
+   <lb n="29">y rhai fuant gynt yn bobl gymmeradwy: ei ewythr
+   </lb> 
+   <lb n="30">Abuteleg, marsiandwr mawr yn Mecca, a 'i 
+   </lb>
+   <lb n="30-31">cymmerodd
+   </lb>
+   <lb n="31">
+    atto, ac a 'i danfonodd yn edrychwr dros y
+   </lb> 
+   <lb n="32">carafan ag oedd yn trafaelu i Syria, Palestina, a 'r
+   </lb> 
+   <lb n="33">Aipht, i farchnatta drosto; trwy hyn fe ddaeth yn
+   </lb> 
+   <lb n="34">adnabyddus &acirc; llawer o Iuddewon a Christ'nogion,
+   </lb> 
+   <lb n="35">trwy gynnorthwy y rhai yr ydys yn dywedyd iddo
+   </lb> 
+   <lb n="36">osod allan y rhan fwyaf o 'i Alcoran. Ymhen
+   
+   </lb>
+   </pb>
+   <pb n="53.">
+   
+    
+   <lb n="1">ychydig amser ar ol hyn, ei ewythr a 'i cyflwynodd i
+   </lb> 
+   <lb n="2">wasanaeth gwidw gyfoethog, a elwid Cadiga; dros
+   </lb> 
+   <lb n="3">hon fe gariodd draffig hynod i Damascus, a rhai
+   </lb> 
+   <lb n="4">lleoedd eraill; a chan fod y widw hon yn ieuangc,
+   </lb> 
+   <lb n="5">fe a 'i priododd, ac a aeth yn ddyn cyfoethog, ie, yn
+   </lb> 
+   <lb n="6">un o 'r rhai mwyaf yn Mecca.
+   
+   
+   </lb> 
+   <lb n="7">Mahomet, wedi dala sulw manol ar yr amrywiol
+   </lb> 
+   <lb n="8">sectau, a 'r ymraniadau ag oedd rhwng yr Iuddewon
+   </lb> 
+   <lb n="9">a 'r Crist'nogion, a feddyliodd ynddo ei hun fod yn
+   </lb> 
+   <lb n="10">dra hawdd, trwy ychydig o ddeheurwydd, godi 
+   </lb>
+   <lb n="10-11">crefydd
+   </lb>
+   <lb n="11">
+    newydd, a gwneuthur ei hun yn archoffeiriad o
+   </lb> 
+   <lb n="12">honi i lywodraethu 'r bobl. I 'r diben hyn fe 
+   </lb>
+   <lb n="12-13">gymmerodd
+   </lb>
+   <lb n="13">
+    arno ddiwygio 'r hen ddull o addoliad, er
+   </lb> 
+   <lb n="14">mwyn ei gosod allan mewn gwell trefn a phurdeb.
+   
+   
+   </lb> 
+   <lb n="15">Felly, y peth cyntaf a ddarfu i Mahomet 
+   </lb>
+   <lb n="15-16">wneuthur
+   </lb>
+   <lb n="16">
+    at dynnu gwrthddrych y trigolion, oedd arwain
+   </lb> 
+   <lb n="17">bywyd dychlynaidd, ac ymddangos yn fwy sanctaidd:
+   </lb> 
+   <lb n="18">i hyn fe ymneillduai bob boreu i ogof a elwid Hira,
+   </lb> 
+   <lb n="19">gerllaw Mecca, yn yr hon y cymmerai arno dreulio
+   </lb> 
+   <lb n="20">ei amser mewn gweddiau, ymprydiau, a myfyrdodau
+   </lb> 
+   <lb n="21">eraill: y nos, pan dychwelai adref, fe adroddai wrth
+   </lb> 
+   <lb n="22">ei wraig a 'i dylwyth y gweledigaethau, a 'r lleisiau
+   </lb> 
+   <lb n="23">rhyfeddol a glywsai yn amser ei neillduad. Wedi
+   </lb> 
+   <lb n="24">iddo barhau yn yr arferiad yma dros ddwy flynedd,
+   </lb> 
+   <lb n="25">a chael cymmeriad mawr am ei sancteiddrwydd, fe
+   </lb> 
+   <lb n="26">ddechreuodd gyhoeddi ei hun yn brophwyd, gan
+   </lb> 
+   <lb n="27">gymmeryd arno ei fod wedi cael ei ddanfon gan
+   </lb> 
+   <lb n="28">Dduw i ddiwygio ei gyd-wladwyr, a 'u galw 
+   </lb>
+   <lb n="28-29">oddiwrth
+   </lb>
+   <lb n="29">
+    eu heilun-addoliaeth. Yr athrawiaeth gyntaf
+   </lb> 
+   <lb n="30">a ddysgodd, nad oedd ond un Duw; yn ail, iddo ef
+   </lb> 
+   <lb n="31">gael ei ddanfon gan Dduw; yn drydydd, i ymarfer
+   </lb> 
+   <lb n="32">ymolchiadau yn fynych, ac ymburo; yn bedwarydd,
+   </lb> 
+   <lb n="33">i weddio ar yr amser gosodedig; yn bummed, i roi
+   </lb> 
+   <lb n="34">elusennau; yn chwechfed, i ymprydio yn mis 
+   </lb>
+   <lb n="34-35">Ramazen;
+   </lb>
+   <lb n="35">
+    yn seithfed, i fyned unwaith yn y bywyd ar
+   </lb> 
+   <lb n="36">bererindod i Mecca; yn wythfed, i ymwrthod &acirc;
+   </lb> 
+   <lb n="37">phob chwaryddiaeth a diod gadarn; yn nawfed, i
+   </lb> 
+   <lb n="38">briodi dan bump ar hugain oed; ond nid i gael 
+   </lb>
+   <lb n="38-39">ychwaneg
+   </lb>
+   <lb n="39">
+    n&acirc; phedair gwraig; yn ddegfed, rhydd-did i
+   
+   </lb>
+   </pb>
+   <pb n="54.">
+   
+    
+   <lb n="1">bob caeth-was a broffesai 'r grefydd Fahometanaidd;
+   </lb> 
+   <lb n="2">am y benywod, ni waeth o ba sect y bont.
+   
+   
+   </lb> 
+   <lb n="3">Y sawl a gadwai 'r gorchymynion hyn, efe a
+   </lb> 
+   <lb n="4">addawai iddo baradwys, lle mae llawer math o 
+   </lb>
+   <lb n="4-5">wisgoedd
+   </lb>
+   <lb n="5">
+    sidanaidd, afonydd teg, coed ffrwythlon, 
+   </lb>
+   <lb n="5-6">benywod
+   </lb>
+   <lb n="6">
+    gl&acirc;n, cerddorion, a phob llawenydd; digonedd
+   </lb> 
+   <lb n="7">o win, helaethrwydd o aur, a llestri arian, meini
+   </lb> 
+   <lb n="8">gwerthfawr, ac felly yn y blaen. Ond i 'r rhei'ny
+   </lb> 
+   <lb n="9">ni chadwent ei gyfraith, yr oedd uffern wedi cael ei
+   </lb> 
+   <lb n="10">darparu, a saith o byrth, ymha un yr oeddent i 
+   </lb>
+   <lb n="10-11">fwyta
+   </lb>
+   <lb n="11">
+    ac yfed t&acirc;n, eu dodi mewn cadwynau, a 'u poeni
+   </lb> 
+   <lb n="12">&acirc; dwfr poeth. Mae ef yn profi 'r adgyfodiad trwy
+   </lb> 
+   <lb n="13">hanes am saith cysgadur a gysgasant 360 o flynyddau
+   </lb> 
+   <lb n="14">mewn ogof.
+   
+   
+   </lb> 
+   <lb n="15">Heblaw yr hyn a ddywedwyd uchod, y mae ef
+   </lb> 
+   <lb n="16">wedi rhoi gorchymynion yn erbyn bwyta cig moch,
+   </lb> 
+   <lb n="17">gwaed, a 'r fath greaduriaid a fyddai marw ei 
+   </lb>
+   <lb n="17-18">hunain.
+   </lb>
+   <lb n="18">
+    Mae ef yn annog i edifeirwch, yn gwahardd
+   </lb> 
+   <lb n="19">tyngu a rhegu, yn canmol cyfeillgarwch, ac yn 
+   </lb>
+   <lb n="19-20">erbyn
+   </lb>
+   <lb n="20">
+    perswadio dynion i un grefydd yn erbyn eu 
+   </lb>
+   <lb n="20-21">hewyllys;
+   </lb>
+   <lb n="21">
+    nid yw ef yn dewis rhoi dim trugaredd i
+   </lb> 
+   <lb n="22">elynion. Mae 'n annog ei bobl i fod yn gefnog ac
+   </lb> 
+   <lb n="23">yn wrol mewn brwydr, ac yn dangos na all neb
+   </lb> 
+   <lb n="24">farw cyn eu hamser apwyntiedig, a chwedi'n nid
+   </lb> 
+   <lb n="25">oes dim a 'u safia.
+   
+   
+   </lb> 
+   <lb n="26">Opiniwn y Mahometaniaid yw, fod lluniau mewn
+   </lb> 
+   <lb n="27">eglwysi yn eilun-addoliaeth; maent yn credu fod
+   </lb> 
+   <lb n="28">pawb ag sy 'n marw mewn brwydr yn myned yn
+   </lb> 
+   <lb n="29">uniawn i baradwys, yr hyn sy 'n peri iddynt ymladd
+   </lb> 
+   <lb n="30">mewn calondid; maent yn tebyg y bydd pawb sy 'n
+   </lb> 
+   <lb n="31">byw 'n dda yn sicr o fod yn gadwedig, o bwy grefydd
+   </lb> 
+   <lb n="32">bynnag y byddont; am hynny maent yn dywedyd,
+   </lb> 
+   <lb n="33">y bydd Moses, Crist, a Mahomet, yn yr adgyfodiad,
+   </lb> 
+   <lb n="34">a chanddynt dair baner, at y rhai y bydd eu holl
+   </lb> 
+   <lb n="35">broffeswyr yn ymgynnull. Y maent yn dala fod
+   </lb> 
+   <lb n="36">gan ddyn ddau angel gyd ag ef yn gweinyddu, un
+   </lb> 
+   <lb n="37">ar y llaw ddeheu, a 'r llall ar yr aswy. Maent yn
+   </lb> 
+   <lb n="38">dywedyd, y bydd i 'r angel Israphil, ar y dydd 
+   </lb>
+   <lb n="38-39">diweddaf
+   </lb>
+   <lb n="39">
+    swno ei udgorn, wrth lais yr hwn yr holl
+   
+   </lb>
+   </pb>
+   <pb n="55.">
+   
+    
+   <lb n="1">greaduriaid, hyd yn oed yr angylion, fyddant marw
+   </lb> 
+   <lb n="2">yn union, ac y syrth y ddaear yn dywod ac yn llwch.
+   </lb> 
+   <lb n="3">Ond pan y cano 'r angel hwn ei udgorn yr ail dro,
+   </lb> 
+   <lb n="4">eneidiau 'r holl rai meirwon a adfywiant drachefn;
+   </lb> 
+   <lb n="5">yna y bydd i 'r angel Michael bwyso 'r holl eneidiau
+   </lb> 
+   <lb n="6">mewn clorian.
+   
+   
+   </lb> 
+   <lb n="7">Mahomet a gyhoeddodd ei Alcoran, bibl y 
+   </lb>
+   <lb n="7-8">Mahometaniaid,
+   </lb>
+   <lb n="8">
+   &nbsp;yn y flwyddyn 626, yr hwn a gynnwys 124 o 
+   </lb>
+   <lb n="8-9">bennodau;
+   </lb>
+   <lb n="9">
+    y mae ganddynt gymmaint o barch iddo ag
+   </lb> 
+   <lb n="10">sydd gan y Crist'nogion i 'r Testament Newydd. Yr
+   </lb> 
+   <lb n="11">oedd ef yn perswadio 'r bobl fod y llyfr hwn yn cael ei
+   </lb> 
+   <lb n="12">gadw yn un o drysor-dai 'r nef, ac i 'r angel Gabriel
+   </lb> 
+   <lb n="13">ddyfod ag ef i Mahomet, bennod ar ol pennod, fel
+   </lb> 
+   <lb n="14">yr oedd yn cael ei ysgrifennu, yr hyn a wnaed 
+   </lb>
+   <lb n="14-15">gyntaf
+   </lb>
+   <lb n="15">
+    ar ddalenau o esgyrn camelod gan un 
+   </lb>
+   <lb n="15-16">Amanuensis,
+   </lb>
+   <lb n="16">
+    o herwydd na all'sai \allasai\ Mahomet na darllen na
+   </lb> 
+   <lb n="17">'sgrifennu \ysgrifennu\.
+   
+   
+   </lb> 
+   <lb n="18">Nid yw 'r Mahometaniaid yn Baganiaid, 
+   </lb>
+   <lb n="18-19">Iuddewon,
+   </lb>
+   <lb n="19">
+    na Christ'nogion; nid Paganiaid, am nad
+   </lb> 
+   <lb n="20">ydynt yn addoli delwau; nid Iuddewon, am nad
+   </lb> 
+   <lb n="21">ydynt yn dilyn deddfau Moses; ac nid 
+   </lb>
+   <lb n="21-22">Crist'nogion,
+   </lb>
+   <lb n="22">
+    am nad ydynt yn credu 'r efengyl. Beth gan
+   </lb> 
+   <lb n="23">hynny a ellir eu galw? Mae 'r atteb yn ddigon 
+   </lb>
+   <lb n="23-24">amlwg,
+   </lb>
+   <lb n="24">
+    dynion ag sydd yn wrthddrych o drueni, wedi
+   </lb> 
+   <lb n="25">cymmeryd eu harwain allan o 'r ffordd gan dwyllwr
+   </lb> 
+   <lb n="26">cyfrwys, a hwythau hyd heddyw yn ei gredu.
+   
+   
+   </lb> 
+   <lb n="27">Yn bresennol mae amryw sectau ymhlith y 
+   </lb>
+   <lb n="27-28">Mahometaniaid,
+   </lb>
+   <lb n="28">
+    megis y gwelir ymysg y Crist'nogion;
+   </lb> 
+   <lb n="29">ac mae rhifedi mawr o brophwydi wedi codi o bryd
+   </lb> 
+   <lb n="30">bwy gilydd yn eu plith, o gymmaint eu hawdurdod
+   </lb> 
+   <lb n="31">a Mahomet ei hun. Mae 'r grefydd yma wedi 
+   </lb>
+   <lb n="31-32">ymdannu
+   </lb>
+   <lb n="32">
+    dros ran fawr o 'r ddaear, yr hyn a ymddengys
+   </lb> 
+   <lb n="33">yn fwy amlwg wrth y cenhedlaethau a 'r tywysogion
+   </lb> 
+   <lb n="34">sy 'n ei phroffesu. Yn Ewrop, holl wlad y Twrciaid,
+   </lb> 
+   <lb n="35">a 'r Cham o 'r Crim Tartary. Yn Asia, Indiaid,
+   </lb> 
+   <lb n="36">Arabiaid, Persiaid, ymmerodraeth Mogul, Fisapwr,
+   </lb> 
+   <lb n="37">Colconda, Malabar, Cham o Tartary fawr, teyrnas
+   </lb> 
+   <lb n="38">Sumatra, Jafa, ac ynysoedd y Maldefiaid. Yn 
+   </lb>
+   <lb n="38-39">Affrica,
+   </lb>
+   <lb n="39">
+    Barbary, Tripoli, Tunis, Moroco, a 'r Aipht.
+   
+   </lb>
+   </pb>
+   <pb n="56.">
+   
+    
+   <lb n="1">Yr ydym yn cael hanes nad oes dim llai n&acirc; 73 o
+   </lb> 
+   <lb n="2">wahanol sectau yn eu plith.
+   
+   
+   
+   
+   </lb> 
+   <lb n="3">WEDI rhoddi hyn o hanes yn rhagflaenol
+   </lb> 
+   <lb n="4">mewn perthynas i feddyliau Atheistiaid,
+   </lb> 
+   <lb n="5">Deistiaid, Paganiaid, Mahometaniaid, Iuddewon, a
+   </lb> 
+   <lb n="6">Christ'nogion, ni gawn yn y lle nesaf fyned yn y
+   </lb> 
+   <lb n="7">blaen, i gymmeryd golwg ar bob cyfenwad o ddyn
+   </lb> 
+   <lb n="8">ion yn y byd crist'nogol. Yn yr oesoedd gynt o
+   </lb> 
+   <lb n="9">grist'nogrwydd, yr oedd amryw sectau, pa rai sy er
+   </lb> 
+   <lb n="10">ys hir amser wedi eu llwyr abergofi, fel nad oes yn
+   </lb> 
+   <lb n="11">awr ond eu henwau i 'w cyfarfod mewn hanesion
+   </lb> 
+   <lb n="12">eglwysig. Nid yw ein meddwl yn bresennol i ol
+   </lb> 
+   <lb n="13">rain llawer ar yr hen sectau hyn, ond yn unig gym
+   </lb> 
+   <lb n="14">meryd golwg fer arnynt mor belled ag y maent yn
+   </lb> 
+   <lb n="15">perthyn i grefydd yn yr amser presennol. Y mwyaf
+   </lb> 
+   <lb n="16">neillduol o 'r rhai'n ellir ei gynnwys yn y dosparthiad
+   </lb> 
+   <lb n="17">canlynol, sef, opiniynau mewn perthynas i berson
+   </lb> 
+   <lb n="18">Crist; meddyliau perthynol i ddynion gael derbyn
+   </lb> 
+   <lb n="19">iad o ffafr Duw a 'i ragluniaeth, &amp;c.
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="20">Amryw Opiniynau, mewn perthynas i Berson IESU</lb>
+    
+   <lb n="21">GRIST.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="22">MAE 'r Trinitariaid yn gosod allan, yn ol eu
+   </lb> 
+   <lb n="23">hathrawiaeth hwy, fod tri o wahanol ber
+   </lb> 
+   <lb n="24">sonau yn y Duwdod, sef, Tab, Mab, ac Yspryd Gl&acirc;n.
+   </lb> 
+   <lb n="25">Mae 'n dra adnabyddus i 'r dysgedigion, nad oedd y
+   </lb> 
+   <lb n="26">gair Drindod yn cael ei arferyd yn yr eglwys cyn
+   </lb> 
+   <lb n="27">amser Origen: canys mae Dup&icirc;n yn dywedyd, mai
+   </lb> 
+   <lb n="28">Theophilus, esgob Antioc, oedd y cyntaf a arferodd
+   </lb> 
+   <lb n="29">y gair Trinitas, neu Ddrindod, i arwyddo tri o ber
+   </lb> 
+   <lb n="30">sonau; ac y mae ef yn sylwi, ei fod yn galw 'r
+   </lb> 
+   <lb n="31">trydydd Doethineb, (Sagesse) yr hyn sydd yn fwyaf
+   </lb> 
+   <lb n="32">tebygol, am nad oedd yr Yspryd Gl&acirc;n yn cael ei
+   </lb> 
+   <lb n="33">gyfrif yn berson dwyfol mor gynnar a hynny, ond
+   
+   </lb>
+   </pb>
+   <pb n="57.">
+   
+    
+   <lb n="1">yn hytrach yn briodoledd; ac y mae 'n debygol na
+   </lb> 
+   <lb n="2">chafodd yr Yspryd ei addef yn berson dwyfol cyn yr
+   </lb> 
+   <lb n="3">ail Gymmanfa gyffredinol, yr hon a gynhaliwyd yn
+   </lb> 
+   <lb n="4">y flwyddyn 1381.
+   
+   
+   </lb> 
+   <lb n="5">Mae 'r athrawon mwyaf dysgedig yn amrywio yn
+   </lb> 
+   <lb n="6">eu barn mewn perthynas i 'r ddirgelwch hon, fel y
+   </lb> 
+   <lb n="7">mae 'n anhawdd gwybod i bwy y mae 'r athrawiaeth
+   </lb> 
+   <lb n="8">yma 'n fwyaf perthynol; pa un ai Waterland,
+   </lb> 
+   <lb n="9">Howe, Sherlock, Pearson, Burnet, Beveridge,
+   </lb> 
+   <lb n="10">Wallis, neu i Watts. Mae gan bob un o honynt
+   </lb> 
+   <lb n="11">wahanol farn ar y pwngc dyrus hwn; ond beth
+   </lb> 
+   <lb n="12">bynnag, mae Dr. Priestley yn meddwl y gellir dy
+   </lb> 
+   <lb n="13">fod &acirc; 'r Trinitariaid dan un o 'r ddwy blaid hyn, sef
+   </lb> 
+   <lb n="14">y rhei'ny sydd yn credu nad oes un ddwyfol nattur
+   </lb> 
+   <lb n="15">yng Nghrist heblaw honno o eiddo 'r Tad; a 'r Tri
+   </lb> 
+   <lb n="16">theistiaid, ag sydd yn amddiffyn tri gogyfuwch a
+   </lb> 
+   <lb n="17">gwahanol dduwiau. Evans.
+   
+   
+   </lb> 
+   <lb n="18">Yn agos o fod yn berthynol i 'r blaid olaf yw 'r
+   </lb> 
+   <lb n="19">Athanasiaid, enw ag sy 'n deillio oddiwrth Athana
+   </lb> 
+   <lb n="20">sius, un o deidiau 'r egwlys, yr hwn a fu 'n llew
+   </lb> 
+   <lb n="21">yrchu yn y bedwaredd oes. Mae rhai yn dywedyd,
+   </lb> 
+   <lb n="22">mai ei waith ef yw 'r gredo ag sy 'n cael ei galw
+   </lb> 
+   <lb n="23">felly yn y llyfr gweddi cyffredin, yr hon, meddant
+   </lb> 
+   <lb n="24">hwy, yw 'r uniawn ffydd, lle y dangosir fod tri gwa
+   </lb> 
+   <lb n="25">hanol sylwedd i 'r Tad, Mab, a 'r Yspryd Gl&acirc;n; yr
+   </lb> 
+   <lb n="26">hyn sy 'n gynhwysedig yn y Drindod, a bod y tri hyn
+   </lb> 
+   <lb n="27">yn cael eu huno &acirc; 'u gilydd trwy emperichoresis, neu
+   </lb> 
+   <lb n="28">fel rhaff o dair caingc, yr hyn sy 'n eu gwneuthur
+   </lb> 
+   <lb n="29">yn un; felly fod yr undeb yn y Duwdod yn gyfan
+   </lb> 
+   <lb n="30">gwbl yn yr emperichoresis, yr hyn sy 'n clymmu tair
+   </lb> 
+   <lb n="31">sylwedd ynghyd: am hynny, Ambrose, Basil, Je
+   </lb> 
+   <lb n="32">rome, &amp;c. oeddent yn meddwl iddynt gwrdd &acirc; 'r
+   </lb> 
+   <lb n="33">dirgelwch hwn yn y bedwaredd bennod a 'r ddeu
+   </lb> 
+   <lb n="34">ddegfed adnod o 'r Ecclesiastes, lle dywedir am raff
+   </lb> 
+   <lb n="35">dair caingc, mai nid hawdd ei thorri. Ben Mordecai.
+   
+   
+   </lb> 
+   <lb n="36">Mewn perthynas i 'r gair Drindod, mae 'n ddigon
+   </lb> 
+   <lb n="37">hyspys, nad yw hwn ei cael ei arferyd mewn un
+   </lb> 
+   <lb n="38">man yn y 'sgrythurau \ysgrythurau\; ac mae 'n rhaid cyfaddef ei
+   </lb> 
+   <lb n="39">fod yn cael ei wrthwynebu 'n fawr gan y diwygwyr,
+   
+   </lb>
+   </pb>
+   <pb n="58.">
+   
+    
+   <lb n="1">y rhai oeddent yn edrych arno fel yn weddill o ba
+   </lb> 
+   <lb n="2">byddiaeth. Martin Luther a ddywedai, fod y gair
+   </lb> 
+   <lb n="3">Drindod yn swno 'n chwythig, ac mai rhyw ddy
+   </lb> 
+   <lb n="4">chymmyg ddynol ydoedd. Calfin a ddywed, Nid
+   </lb> 
+   <lb n="5">wyf yn hoffi 'r weddi hon, o sanctaidd, fendigedig, a
+   </lb> 
+   <lb n="6">gogoneddus Ddrindod; mae hyn yn archwaethu 'n
+   </lb> 
+   <lb n="7">farbaraidd. Mae 'r gair Drindod yn ddiflas, yn
+   </lb> 
+   <lb n="8">gabledd, yn ddychymmyg ddynol, yn ansylfaenol
+   </lb> 
+   <lb n="9">ar dystiolaeth Duw, ac yn ddieithr i 'r apostolion a 'r
+   </lb> 
+   <lb n="10">prophwydi.
+   
+   
+   </lb> 
+   <lb n="11">Ond fe ellir rhoi atteb i hyn oll; hyd ag y mae 'r
+   </lb> 
+   <lb n="12">gair yn cael ei ddeall mewn ystyr ag sy 'n gyttunol
+   </lb> 
+   <lb n="13">ag undeb y Jehofa, ac ar sylfaenol egwyddorion y
+   </lb> 
+   <lb n="14">grefydd grist'nogol, ni all yr ymarferiad o hono
+   </lb> 
+   <lb n="15">mewn un mesur fod yn ble yn erbyn gwirionedd y
+   </lb> 
+   <lb n="16">grefydd honno.
+   
+   
+   </lb> 
+   <lb n="17">Mae 'r Sabeliaid yn haeru, nad yw tri pherson
+   </lb> 
+   <lb n="18">yn y Drindod ond tri nod neu berthynas. Mae 'r
+   </lb> 
+   <lb n="19">sect hon wedi dechreu ynghylch canol y drydedd
+   </lb> 
+   <lb n="20">oes gan Sabelius, philosophydd o wlad yr Aipht.
+   </lb> 
+   <lb n="21">Am ei ddaliadau mae amryw hanesion; rhai a ddy
+   </lb> 
+   <lb n="22">wedant iddo ef ddysgu fod y Tad, Mab, a 'r Yspryd
+   </lb> 
+   <lb n="23">Gl&acirc;n, o 'r un hanfod, ac yn un person, fel ag mae
+   </lb> 
+   <lb n="24">dyn yn cael ei gyfrif o dair sylwedd, sef, cnawd, ys
+   </lb> 
+   <lb n="25">pryd, a chorph, yn gwneuthur i fynu un dyn.
+   </lb> 
+   <lb n="26">Eraill a feddyliant mai ei farn ef oedd, fod Duw yn
+   </lb> 
+   <lb n="27">yr Hen Destament yn rhoddi 'r gyfraith fel Tad, ac
+   </lb> 
+   <lb n="28">yn y Newydd yn byw ymhlith dynion fel Mab, ac
+   </lb> 
+   <lb n="29">iddo ddisgyn ar yr apostolion fel Yspryd Gl&acirc;n.
+   </lb> 
+   <lb n="30">Mae 'r opiniwn hyn, medd rhai, yn ennill tir ymhlith
+   </lb> 
+   <lb n="31">y Cymru.</lb></pb>
+   
+</text>

@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../sketchengine.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+
+<text id="NLW2722E">
+   <text id="NLW2722E_1">1. 
+      
+      
+      
+      
+      
+      
+      
+      <pb n="clawr.">
+      
+      {en 
+       
+      <lb n="1">Henry Owens Esqr.
+      </lb> 
+      <lb n="2">Copy of a Letter from North America
+      </lb> 
+      <lb n="3">in Septr. 1816 &#8212; to Jon Wm. Zackaria
+      </lb> 
+      <lb n="4">of Gwastad-Coed, from his daughter and
+      </lb> 
+      <lb n="5">her husband &#8212;&#8212;&#8212;
+      </lb> 
+      <lb n="6">Feby. 8th 1817
+      </lb> 
+      <lb n="7">Upperoldtown
+       en}
+      
+      
+      </lb>
+      </pb>
+      <pb n="1.">
+      
+      {en 
+       
+      <lb n="1">Exact copy en}
+      
+      
+      </lb> 
+      <lb n="2">Anerch fy nhad a mam dan obeithio eich bod yn iach megis ag
+      </lb> 
+      <lb n="3">yr rum \ydym\ ninau i 'r Arglwydd y byddo .r. diolch dan obeithio y bydd
+      </lb> 
+      <lb n="4">I hyn o leinia ddod i 'ch llaw a 'ch cael chwithe yr un modd &#8212; fellu
+      </lb> 
+      <lb n="5">chwi a ddymunwch gael peth o 'n hanes ni ein hunan, yn gyntaf. I mae
+      </lb> 
+      <lb n="6">yn lled gysurus mewn perthynas i 'r rhigliniaith \rhagluniaeth\, nid iw ein ffarm
+      </lb> 
+      <lb n="7">ni ond bychan 40 Acre, ond ei bod yn gyfleus iawn. dau nant yn __?
+      </lb> 
+      <lb n="8">mynad \myned\ trwyddi un yn y gorllewin [-: West]  ar llall yn y dwyran [-: East]  a 'r ffordd
+      </lb> 
+      <lb n="9">dyrpeg yn myned drwy ei chanol hi. rydum ni yn cymerud gofal y
+      </lb> 
+      <lb n="10">gate, am 80 dolar yn y flwyddyn. ar y ffordd Sudd o veta I Canede. fe
+      </lb> 
+      <lb n="11">alle y bydd ichwi fod am wybod pa fodd y mae crefudd yma, I mae hi
+      </lb> 
+      <lb n="12">yn gymysglud iawn ymlith y saeson, llawer o ddaliadau sydd yn groes
+      </lb> 
+      <lb n="13">i 'n myddylia ni, llawer o fysoldeb \foesoldeb\ ond ychydig sydd o rum diwioldeb
+      </lb> 
+      <lb n="14">yn ymddangos, ond i mae yr hen gymru wedi Cael y fraint o lefaru
+      </lb> 
+      <lb n="15">yr athrawiath y groes yn ole ag yn ogoneddus, ond nid i 'r un
+      </lb> 
+      <lb n="16">arddeliad ag y Clywsom ni &#8212; efo chwi &#8212;, i mae ein braint yn fawr.
+      </lb> 
+      <lb n="17">I mae y bedyddiwrs [-: Babtists]  a nine yn cud gadw Cyrdde blynyddoedd sydd
+      </lb> 
+      <lb n="18">yn para ddau ddiwrnod yn Veta a dau yn Stuben a 'r gyfeilliach
+      </lb> 
+      <lb n="19"> ynghyd yn aroglu yn beredd. I mae yn Veta ddwy syseiat
+      </lb> 
+      <lb n="20">un o 'r bedyddiwrs ag un o honom ninne &#8212; dwy yn Stuben un o 'r
+      </lb> 
+      <lb n="21">bedyddiwrs ag un ohonnon ine \ninnau\. dan yr enw Independent
+      </lb> 
+      <lb n="22">ag yn dal ythrawiaeth \athrawiaeth\ Calfin &#8212; pwy su yn llefaru &#8212; atteb ein
+      </lb> 
+      <lb n="23">gwnidog ini iw W.m Prys o sir garnarvon a John Rob.ts o 'r bala a
+      </lb> 
+      <lb n="24">Robert Griffiths o 'r dinas mowddu \Mawddwy\&nbsp;&#8212; I mae rhwng y ddwy
+      </lb> 
+      <lb n="25">settlment 16 o fylldiroedd. Stuben yn y gogledd a Veta yn y De
+      </lb> 
+      <lb n="26">a nine yn byw yn y Canol ar haner y ffordd. wyth o deulu y Cymru
+      </lb> 
+      <lb n="27">yn agos i 'w gilidd, pob Cyflusdra ag sudd achos \agos\&nbsp;&#8212;&nbsp;dwy dref farchnad
+      </lb> 
+      <lb n="28">un o fewn 4 milldir a 'r llall o fewn 8. I werthu ne pa beth bynag a
+      </lb> 
+      <lb n="29">fydd eusiau&nbsp;&#8212; digon o siopa mawr a ffob peth i 'w gael am arian
+      </lb> 
+      <lb n="30">neu newid &#8212;&nbsp;Ysgol dda o fewn hanner milldir i 'n t&ucirc; ni yn Cadw
+      </lb> 
+      <lb n="31">dyn yno drwy 'r flwyddyn hon, yn talu iddo 20 dolar b&ocirc;b mis neu
+      </lb> 
+      <lb n="32">&pound;4..10s o 'ch arian chwi, a 'i fwyd a 'i ddiod a 'i olchi&nbsp;&#8212; meline da yn agos
+      </lb> 
+      <lb n="33">ffagtris gwl&acirc;n a chotton &#8212;&nbsp;bob Crefftwur a digon ond ei bod yn ddrud
+      </lb> 
+      <lb n="34">iawn a gweithiwrs hefyd&nbsp;&#8212; o 'n deutu ni y mae fel hyn, seiri coed a 'r
+      </lb> 
+      <lb n="35">Joiners o ddeutu 10s yn y dydd &#8212; a 'r saeri maen yr oeddem ni yn
+      </lb> 
+      <lb n="36">talu 12s yn y dydd a 'i fwyd &#8212; am weithio y cynauaf \cynhaeaf\, yn talu 8s yn y
+      </lb> 
+      <lb n="37">dydd. ag am waith arall 5s yn y dydd. yr haf hwn su wedi bod yn such
+      </lb> 
+      <lb n="38">ag yn oer yn y rhan gyntaf o hono, a phob peth yn ddryd o ymborth
+      </lb> 
+      <lb n="39">dynion. y gwenith y Cynhauaf oedd 10s y Busiel o 'ch arian chwi, a 'r
+      </lb> 
+      <lb n="40">Bwsiel iw 32 quarts, a phob graen arall yn yr un modd&nbsp;&#8212; gwartheg oedd
+      </lb> 
+      <lb n="41">yn ddrydion, par o ychen yn &pound;22 &#8212; Buwch o - &pound;6 i &pound;8 Ceffyle o &pound;10 i &pound;30 &#8212; defad \defaid\
+      </lb> 
+      <lb n="42">&pound;p10; mewn gair pob stoc yn ddrud iawn y flwyddyn ddiweddaf; ond i mae
+      </lb> 
+      <lb n="43">pob peth yn is yrwan, ond  Cyfloga dynion sudd yr un fath, chydig
+      </lb> 
+      <lb n="44">sydd o ddiod frag, a hono yn 6d y Cwart. Rwm 4s..6d y galwyn. Jin 6s..6d y
+      </lb> 
+      <lb n="45">galwun &#8212; Brandi yn 8s y galwyn &#8212; Whisgi 2s..6d y galwun &#8212; ymenun a 'r caws
+      </lb> 
+      <lb n="46">yn ddryd &#8212; y menun 11d o 'ch arian chwi &#8212; a 'r Caws breision 9d y pwys.
+      </lb> 
+      <lb n="47">I mae menun y Cymru yn myned I Newyork, gan amriw o
+      </lb> 
+      <lb n="48">fersiandwur, ag yn delio yn onest, ag yn dod a llawer o filoedd o
+      </lb> 
+      <lb n="49">ddolars, dwy neu dair bob blwyddyn, ag yn talu yn onest &#8212; a dyma
+      </lb> 
+      <lb n="50">un peth o lwyddiant y Cymru &#8212; a chida bod yr Arglwydd
+      
+      
+      </lb>
+      </pb>
+      <pb n="2.">
+      
+       
+      <lb n="1">Yn ei llwyddo yn fwy nag yr un genedle \genhedlau\ a ddaeth i 'r america
+      </lb> 
+      <lb n="2">Irwi \Yr wyf\ fi yn meddwl nad oes un wlad dan haul well i bob dyn
+      </lb> 
+      <lb n="3">a fyddo yn weithgar ag yn onest i 'w chael na 'r america na gwell
+      </lb> 
+      <lb n="4">Cyfreithia mor ffafrol I bobl weiniad, ni cheiff y gwan mo 'i sathru
+      </lb> 
+      <lb n="5">na darchafu \dyrchafu\ y mowrion: fe geiff barch yn ol ei heiddiant nid yn ol
+      </lb> 
+      <lb n="6">ei gyfoeth, gwerthu y tiroedd Coediog a rhoddi yr arian ar y llog ag i mae
+      </lb> 
+      <lb n="7">y llog yn llawer o filoedd o bunne bob blwyddyn i 'w ranu drwy state
+      </lb> 
+      <lb n="8">New York I gynorthwuo pob tre ddegwm I gadw ysgol feisdir \feistr\ ag i mae
+      </lb> 
+      <lb n="9">yn rhaid i hwnw fod wedi ei gwaliffeio neu yn gymwys i 'r gwaith, ag
+      </lb> 
+      <lb n="10">I mae yn beth da, mae peth arall nad iw hawdd I chwi yna ei gredu &#8212;
+      </lb> 
+      <lb n="11">hynnu iw, fod yn ein tre ni dros 160 o ddolars ar log o dreth tylodion
+      </lb> 
+      <lb n="12">heb neb yn gofyn un geiniog ag ni welsom ni un tlawd yn begio
+      </lb> 
+      <lb n="13">er pen ydum ni yma yn buw a hynnu dros 13 flynyddoedd; eto I
+      </lb> 
+      <lb n="14">mae miloedd yn gweiddi am wlad well er cystal iw y wlad. mae
+      </lb> 
+      <lb n="15">yma lawer o Elynion &#8212; byd &#8212; Cnawd &#8212; a diafol, rum ni yma mewn
+      </lb> 
+      <lb n="16">Cymmaint perig \perygl\ ag yduchwitha \ydych chwithau\ yna, a dyna 'r peth sudd yn peri
+      </lb> 
+      <lb n="17">rhai weiddi am wlad well. llawer a fuom ninne yn son am ddwad yma
+      </lb> 
+      <lb n="18">ond o 'r diwedd mi ddaethom ond ymhen y gronun bach ni fyddwn
+      </lb> 
+      <lb n="19">dros derfune amser, mewn gwlad arall; fellu hwn iw dymuniad
+      </lb> 
+      <lb n="20">fy Enaid&nbsp;.r. Arglwydd trwy ei ras ein cymhwyso mewn byr o
+      </lb> 
+      <lb n="21">amser I fyned i 'r wlad ie byd a beru byth. mi dderbynias \dderbyniais\ eich llythur
+      </lb> 
+      <lb n="22">y 29 o awst ag roedd yn dda ganddom ei dderbyn fel y gallem glywad
+      </lb> 
+      <lb n="23">riw beth o 'ch helynt&nbsp;&#8212; am griffith Williams yr hannes diwaethaf a
+      </lb> 
+      <lb n="24">glywsom ni oeddi wrthochwi ni wyddom ni pa un ai byw ai marw iw
+      </lb> 
+      <lb n="25">fe&nbsp;&#8212; I mae dau deulu o 'n seseiet ni wedi mynad \myned\ yno ars \ers\ 15 mis _
+      </lb> 
+      <lb n="26">mi ddymunes arnunt ymofyn am dano ond fe ddaeth llythur
+      </lb> 
+      <lb n="27"> ond nid oedd son am dano ef: I mae rhyngom ni ar fan
+      </lb> 
+      <lb n="28">hono 500 milldir yn y de  [-: South] &nbsp;&#8212;  mewn perthynas I Evan William
+      </lb> 
+      <lb n="29">nid allaf ddeud dim pa beth iw ei le ef, ond os iw trefn
+      </lb> 
+      <lb n="30">rhagliniaeth iddo fe ddod, hynnu i fod er lles I fagu ei blant bach
+      </lb> 
+      <lb n="31">I mae gwaith llongau o Newyork I Albany a hynnu dros 200, o felldiroedd
+      </lb> 
+      <lb n="32">ag yn bildio llawer ar hud yr afon mewn llawer o fanne, lestri
+      </lb> 
+      <lb n="33">mawrion, ond ni wn ni pa beth iw ei Cyflog &#8212; ond mi a wn ei fod
+      </lb> 
+      <lb n="34">yn gyflog mawr, nid oes efo ni ddim bildio llongau, ond I mae yma
+      </lb> 
+      <lb n="35">le da I seiri a Joiners, da fydde genuf weld miloedd ohonoch, ag
+      </lb> 
+      <lb n="36">wedi hynnu gellir dyweud eto ma \mae\ lle, &#8212; Merch fy mam ag
+      </lb> 
+      <lb n="37">yn dymunad iddi bob llwuddiant, ag yn teimlo rhuwm arnaf
+      </lb> 
+      <lb n="38">I fod yn ddiolchgar iddi am ei gofal a 'i hymgeledd I fy hen dad 
+      </lb> 
+      <lb n="39">dan obeithio y bydd i 'r Arglwydd ei gobrwyo &#8212; pan fyddoch yn
+      </lb> 
+      <lb n="40">danfon attom, danfon helunt pa fodd y mae fy ngerunt, a 'm hen
+      </lb> 
+      <lb n="41">ffrindia, fy hen fameth Cathrin Davudd a Marri Jones o 'r hen
+      </lb> 
+      <lb n="42">Efal&nbsp;&#8212; am y gwaith mwn \mwyn\ nid oes dim o hono yn y parthau
+      </lb> 
+      <lb n="43">yma am wyddom ni &#8212; pris y Tir Coed o ddeutu 8 dolar yr acr, ag
+      </lb> 
+      <lb n="44">O 25 I 30 dolars am dir Clir &#8212; a thalu mewn 5 neu 7 mlynedd
+      </lb> 
+      <lb n="45">ond talu llog bob blwyddyn&nbsp;&#8212; am y Cymru I mae yn anoedd I chwi
+      </lb> 
+      <lb n="46">feddwl fel y maent yn llwyddo &#8212; llawer o honunt nad oeddant
+      </lb> 
+      <lb n="47">werth punt yn werth llawer o ganoedd &#8212;&nbsp;amdanom ein hunan
+      </lb> 
+      <lb n="48">nid allaf ddyweud ond fel hun &#8212; pan ddaethom yma nid
+      </lb> 
+      <lb n="49">oedd genum ddim ond 195 o ddolars [-: = &pound;45 British] , ag ar ol prynu y tir mi
+      
+      
+      </lb>
+      </pb>
+      <pb n="3.">
+      
+       
+      <lb n="1">Brynson bar o ychain a buwch a thalu 40 dolar am y tir I ddechra
+      </lb> 
+      <lb n="2">fellu mi aethom trwyddynt yn fuan wrth arloesi y tir, ond mae y ffarm
+      </lb> 
+      <lb n="3">yn llawn stoc o bob peth&nbsp;&#8212; fe alle y byddwch am wybod pa beth sydd o
+      </lb> 
+      <lb n="4">Ystoc genum; y flwyddyn hon 14 o dda Corniog, a 2 o' geffyle 4 o foch,
+      </lb> 
+      <lb n="5">38 o ddefaid; I mae yn rhaid ini werthu peth o 'r da am fod y
+      </lb> 
+      <lb n="6">gwair yn bring: mi roedd ganthom y llynedd o' ddeutu 20 Tynell
+      </lb> 
+      <lb n="7">o wair, ond nid oes y leni ddim dros 17 o dynelli; mi ddaw ymenyn
+      </lb> 
+      <lb n="8">oeddiwrth 4 buwch, o ddeutu 60 dolars &#8212; yn ei werthu am 20 dolar y
+      </lb> 
+      <lb n="9">Cant &#8212; (I fund I Newyork) ond ir ydum heb orffen talu am y ffarm y
+      </lb> 
+      <lb n="10">flwyddyn  o 'r blaen: ni gowsom lawer o golledion &#8212; Colli Buwch y
+      </lb> 
+      <lb n="11">dala 30 o' ddolars &#8212; Colli Cefful, tair blwydd oed, yn werth 70 o' ddolars
+      </lb> 
+      <lb n="12">y Bleiddiad a laddoedd 12 o' ddefaid &#8212; Colli 30 o ddolars wrth drystio
+      </lb> 
+      <lb n="13">Dyn am b&acirc;r o ychen; fellu mae golud yn cymerud Edenydd \adenydd\ ag yn
+      </lb> 
+      <lb n="14">hedeg \ehedeg\ ymaith, fellu diben Duw drwy y pethau hun I ddyfni fy
+      </lb> 
+      <lb n="15">ngalon o 'r ddaer \ddaear\&nbsp;&#8212;&#8212; y rhan a ddewisoedd mary boed hono yn rhan I mi
+      </lb> 
+      <lb n="16">ag aed y ddaer heibio i 'r sawl a 'i hoffo hi &#8212;&#8212; ni waeth Imi dewi
+      </lb> 
+      <lb n="17">ni ddigonir y llygaid a gweled na 'r glust a chlywad&nbsp;&#8212;  fellu hyn
+      </lb> 
+      <lb n="18">o hannes gida llawer o amherffeithrwydd at fy holl gyfeillion
+      </lb> 
+      <lb n="19">a 'm Ceraint oeddiwrth
+      
+      
+      </lb> 
+      <lb n="20">Hugh Thomas &amp;
+      </lb> 
+      <lb n="21">Catherine Thomas
+      </lb> 
+      <lb n="22">Y plant am gofio attoch fel pe baent yn eich adnabod &#8212;
+      </lb> 
+      <lb n="23">Ebenesar sydd wedi gadel ei 13,
+      </lb> 
+      <lb n="24">Eleuasaph yn 8 oed &#8212;&#8212;
+      </lb> 
+      <lb n="25">Frances sydd 11 er mis mawrth
+      
+      
+      </lb> 
+      <lb n="26">Danfonwch attom mor fuan ag y galloch &#8212; am Hugh Roberts I
+      </lb> 
+      <lb n="27">mae wedi laddu gwen ei wraig ers dau fis &#8212; Howel Thomas wedi claddu
+      </lb> 
+      <lb n="28">ei wraig ag &ucirc;n plentun a chanddo fachgan bach yn fyw ag ynte yn weddw
+      </lb> 
+      <lb n="29">agos I ddwy flynnedd &#8212;&#8212;
+      
+      {en 
+      </lb> 
+      <lb n="30">Trenton
+      </lb> 
+      <lb n="31">Sep.r the 25th
+      </lb> 
+      <lb n="32">Nerida County  [-: (supposed to be Oneyda)] 
+      </lb> 
+      <lb n="33">state of Newyork
+      </lb> 
+      <lb n="34">North America en}
+      
+      
+      
+      </lb>
+      </pb>
+      
+   </text>
+   <text id="NLW2722E_2">2. 
+      
+      
+      
+      
+      <pb n="clawr.">
+      
+      
+      {en 
+       
+      <lb n="1">David Shone Harry's
+      </lb> 
+      <lb n="2">Letter from North America
+      </lb> 
+      <lb n="3">Dated Albany 14th Octr. 1817.
+       en}
+      
+      
+      
+      </lb>
+      </pb>
+      <pb n="1.">
+      
+      {en 
+       
+      <lb n="1">1817 October the 14th City of Albany; where David Shone Harry late
+      </lb> 
+      <lb n="2">of Llwyngwril, but now of the City of Albany ) Dates his Letter from. en}
+      
+      {en 
+      </lb> 
+      <lb n="3">His address is thus &#8212; ( Mr. David Jones, Joiner
+      </lb> 
+      <lb n="4">Cappytol Street, Albany State,
+      </lb> 
+      <lb n="5">New York, North America en}
+      
+      {en 
+      </lb> 
+      <lb n="6">He writes thus to his wife among other subjects of no importance to others
+      </lb> 
+      <lb n="7">That he was alive, and in health at the time of writing &#8212;
+      </lb> 
+      <lb n="8">That he sailed, in company with 60 passengers, on
+      </lb> 
+      <lb n="9">board a smallish Ship, bound for New York &#8212; That they
+      </lb> 
+      <lb n="10">met with very Cross Winds and tempestuous Weather, which
+      </lb> 
+      <lb n="11">forc'd them back Eastward, near to Spain, 700 Miles &#8212; That
+      </lb> 
+      <lb n="12">previous to this they were drove back by contrary Winds to
+      </lb> 
+      <lb n="13">Ireland twice &#8212; That then they set Sail again from thence
+      </lb> 
+      <lb n="14">and had fair Wind for seven Days; and that it was after this they
+      </lb> 
+      <lb n="15">met with very heavy tempests whereby they were drove back
+      </lb> 
+      <lb n="16">Eastward seven Hundred Miles to near Spain. That during
+      </lb> 
+      <lb n="17">this bad Weather It became necessary towards securing
+      </lb> 
+      <lb n="18">one of our Masts to Fish it with 5 cletrra &#8212; That he after the Storm with
+      </lb> 
+      <lb n="19">four of the Ships-hands, had a very severe and alarming
+      </lb> 
+      <lb n="20">Fever, during which he was for 3 weeks extremely ill;
+      </lb> 
+      <lb n="21">and that, by the time he recovered, all the Meat we had
+      </lb> 
+      <lb n="22">in the possession of us all, was eaten and expended; and the
+      </lb> 
+      <lb n="23">Water stunk to that degree as a dog could not bear to smell at it
+      </lb> 
+      <lb n="24">and this was caused by the Casks it was kept in being not clean
+      </lb> 
+      <lb n="25">when put in. But as it should seem there was longer life for me as in this helpless, and, as it seemed to us,
+      </lb> 
+      <lb n="26">hopeless State, with an infirm Mast fish'd, as before 
+      </lb>
+      <lb n="26-27">mentioned,
+      </lb>
+      <lb n="27">
+       with 5 Cleats fixed thereto by me, and famine
+      </lb> 
+      <lb n="28">staring us in the face, we were providencial Met with and relieved
+      </lb> 
+      <lb n="29">as far as they could, by a small French Scooner coming
+      </lb> 
+      <lb n="30">from the West Indies; from whose Captain we had as much as
+      </lb> 
+      <lb n="31">he could spare of Rice, Pork  Water, and Sugar; and
+      </lb> 
+      <lb n="32">after this we came into the right road or Way; and Met,
+      </lb> 
+      <lb n="33">in our Course, almost daily or frequently American Ships
+      </lb> 
+      <lb n="34">in their Way to England; these help'd us with Meat &amp; Water:
+      </lb> 
+      <lb n="35">So on this long and tempestuous Voyage we met with great
+      </lb> 
+      <lb n="36">troubles and hardship: But at last when we came in Sight
+      </lb> 
+      <lb n="37">of Land we forgot all our trouble &amp; danger. He goes on
+      </lb> 
+      <lb n="38">to give an account of the Country
+       en}
+      
+      
+      </lb>
+      </pb>
+      <pb n="2.">
+      
+      
+      {en 
+       
+      <lb n="1">This Country pleases the heart of every Man when he sees it;
+      </lb> 
+      <lb n="2">but it is a very great undertaking to encounter and so make the Voyage
+      </lb> 
+      <lb n="3">hither. Few if any count the cost of the trouble, anxiety and danger sufficiently before they set out &#8212; en}
+      </lb> 
+      <lb n="4">I maen cant o bethau yn cyfarfod a d&#375;nion na ddarfynt yrroud
+      </lb> 
+      <lb n="5">feddwl amdanunt cyn cywchwun. {en He here says (after expressing
+      </lb> 
+      <lb n="6">his love for his Wife &amp; children) I never thought before setting out he was
+      </lb> 
+      <lb n="7">coming so far from them: but my faith is strong that this Voyage will
+      </lb> 
+      <lb n="8">be of much good to me and them (meaning his Children). If I had come to
+      </lb> 
+      <lb n="9">this Country 4 or 6 Years sooner I should have been under no necessity
+      </lb> 
+      <lb n="10">of taking off my hat to any Man. If I have my life &amp; health for a
+      </lb> 
+      <lb n="11">little time my Children shall not be a burden upon no one else.
+      </lb> 
+      <lb n="12">No one knows of what great value Trade (Crefft) is . I got
+      </lb> 
+      <lb n="13">erned, while at Sea, two Pounds with my old Tools I got much 
+      </lb>
+      <lb n="13-14">trouble
+      </lb>
+      <lb n="14">
+       to get them safe on Ship-board unknown to the Custom-House Officer.
+      </lb> 
+      <lb n="15">With those Tools, a few in Number as they were, under Providence I saved
+      </lb> 
+      <lb n="16">the Ship from Sinking and consequently the lives of all on Board while
+      </lb> 
+      <lb n="17">others were bewailing their Wrechedness in leaving their homes. You,
+      </lb> 
+      <lb n="18">Wife, never saw such a thing as what it is to come here over the great
+      </lb> 
+      <lb n="19">&amp; almost boundless Sea with such a Number or flock of People as we
+      </lb> 
+      <lb n="20">were on Board. But who-ever has a heart and resolution to come here
+      </lb> 
+      <lb n="21">such one will never be sorry after he once sets his foot on the Land
+      </lb> 
+      <lb n="22">Here is a very good Place for all handy Craftsmen
+      </lb> 
+      <lb n="23">Weavers excepted, here is no work for such. en}
+      
+      {en 
+      </lb> 
+      <lb n="24">Here is thick good Silk for 4s per Yard; of this Women here wear
+      </lb> 
+      <lb n="25">much. Men and Women are very proud in their Cloathing here.
+      </lb> 
+      <lb n="26">I earn 12s of currrency per Day, this sum is equal in value of Your
+      </lb> 
+      <lb n="27">Money in England 6s,,9d &#8212;&nbsp;8s of American currency is a Dollar
+      </lb> 
+      <lb n="28">of the 4s,,6d Sterling Value. This Country has not as yet in many things recovered
+      </lb> 
+      <lb n="29">from the effects of last War. Old England, by burning the Towns
+      </lb> 
+      <lb n="30">in America, has cut out work enough for Handy Craftsmen, 
+      </lb> 
+      <lb n="31">for many Years. Here is a very good place for such as follows
+      </lb> 
+      <lb n="32">vizt. for Masons, Stone Cutters, Bricklayers, Plasterers,
+      </lb> 
+      <lb n="33">Painters and Joiners; and for the last named better than them
+      </lb> 
+      <lb n="34">all, because we, Joiners, can work at all times of the Year. en}
+      
+      {en 
+      </lb> 
+      <lb n="35">Here in these parts of the Country the Weather is very Cold for four Month,
+      </lb> 
+      <lb n="36">in the Winter; but in this part of the Country it is very healthy,
+      </lb> 
+      <lb n="37">But it is always warm or very very many day hot to the Southward and thereabout it is very
+      </lb> 
+      <lb n="38"> unhealthy &#8212; the Yellow Fever kills a great number thereabout
+      </lb> 
+      <lb n="39">almost without any respite &#8212; When it comes into those parts it
+      </lb> 
+      <lb n="40">proceeds on Northwards as far so as Phyladelphia: but not
+      </lb> 
+      <lb n="41">more Northward than that City, nor so high to the North as that
+      </lb> 
+      <lb n="42">but very seldom. Here it is very hot in the Summer
+      </lb> 
+      <lb n="43">but if you can get shaded from the Sun it will be bearable
+      </lb> 
+      <lb n="44">enough. This Country differs greatly from Wales: en}
+      
+      
+      </lb>
+      </pb>
+      <pb n="3.">
+      
+      {en 
+       
+      <lb n="1">every thing, that you can think of, grows here. Every thing is now
+      </lb> 
+      <lb n="2">very low in Price here this Year. Wheat at 7s of your English
+      </lb> 
+      <lb n="3">Money per Winchester Measure. Good Rye at 4s &#8212; en} 
+      {en 
+      </lb> 
+      <lb n="4"> The Horses eats up all the Oats. Here are the best Horses I ever
+      </lb> 
+      <lb n="5">saw. They come forty Miles from the Country in teams drawing Small
+      </lb> 
+      <lb n="6">Wagons, like Coaches, on Gallop, with every thing to the Towns to Sell.
+      </lb> 
+      <lb n="7">And in the Winter when the grownd is covered with Snow, Sledi with
+      </lb> 
+      <lb n="8">work about them very pretty. Snow is very acceptable with the Farmers.
+      </lb> 
+      <lb n="9">When there is Snow of considerable depth they cut down &amp;&nbsp;fall Timber
+      </lb> 
+      <lb n="10">and they leave a yard of the Stem or Stump near the roots to hasten
+      </lb> 
+      <lb n="11">them to rotten sooner and so it is they clear their ground (Arloesi 'r tir).
+      </lb> 
+      <lb n="12">The Earth is fine and the ground is free from Stones. Clay-dir tywodlad in
+      </lb> 
+      <lb n="13">the Middle of the Country &#8212; In Stuben, where all the Old Welshmen
+      </lb> 
+      <lb n="14">are collected together, the earth is of a blackish (go ddu) full of Timber
+      </lb> 
+      <lb n="15">the finest your eyes ever beheld, are burnt, on account of their being
+      </lb> 
+      <lb n="16">too far distant from a Water-Carriage. There are none here that place
+      </lb> 
+      <lb n="17">a Timber Tree on a Waggon. The Old Welsh People here make
+      </lb> 
+      <lb n="18">their Rents of the Butter they make  [-: yn buw ag yn talu am i tiroedd wrth wneud Menyn] . But Many of them en} sudd yn crafu 'r
+      </lb> 
+      <lb n="19">cwbwl fel yngymru \yng Nghymru\, {en and live very close in their houses. en}
+      
+      {en 
+      </lb> 
+      <lb n="20">I hope that none of you are in trouble on my account: I live
+      </lb> 
+      <lb n="21">better now here than I have ever done before at any other time
+      </lb> 
+      <lb n="22">in my life: but I would rather than any thing I was ever possessed
+      </lb> 
+      <lb n="23">of, had I have known before I left Llwyngwril what I do
+      </lb> 
+      <lb n="24">know now since I came here: that is, I am concerned and it
+      </lb> 
+      <lb n="25">gives me trouble to think of it that I did not come, at the expence of Old England,
+      </lb> 
+      <lb n="26">to Canada and my family with me: there are in that
+      </lb> 
+      <lb n="27">Province 100 Acres of Land for a Man &amp; his Wife; and
+      </lb> 
+      <lb n="28">one hundred of the same Acres for every Boy for nothing, &amp; all this
+      </lb> 
+      <lb n="29">for ever. en} (Cant o Gyfeuria i bob Gwr a Gwraig a Chant o
+      </lb> 
+      <lb n="30">Gyfeuria i b&ocirc;b Bachan am ddim tros buth, a bwud
+      </lb> 
+      <lb n="31">flwyddyn at drin y ddaiar a 'r Tir: i mau canudd \cannoedd\ o
+      </lb> 
+      <lb n="32">Ddetha Cwmru wedi mund ono yleni. I mae y Brittis
+      </lb> 
+      <lb n="33">Cywnslar {en (Counselor I think he means) en} yn buw yn New York, ag yn rhoi Livin
+      </lb> 
+      <lb n="34">i bawb o Loegar ag sudd yn mynd atto fo i 'w geisio &#8212; O Dir
+      </lb> 
+      <lb n="35">da nid oes dim o 'i sort o yn Cymeru \Cymru\. I mae 'r Cymru
+      </lb> 
+      <lb n="36">yn wirionach na dim Dynion &#8212; Gwuddelod (Irish)
+      </lb> 
+      <lb n="37">lawer iawn sydd gwedi dyfod yma. Rwu fi yn dymunad
+      </lb> 
+      <lb n="38">arnoch, fy anwyl Wraig am byudio \beidio\ a bod yn wan 'uch \eich\
+      </lb> 
+      <lb n="39">meddwl ohonaf o ran fy m&ocirc;d i m&ocirc;r bell oddiwrthoch.
+      </lb> 
+      <lb n="40">i mae gennuf fwu o blesar ynill \ennill\ Arian yma na bod yn segyr yn Llwyngwril.; 
+      </lb> 
+      <lb n="41">
+      
+      
+      </lb>
+      </pb>
+      <pb n="4.">
+      
+       
+      <lb n="1">mi dd&ocirc;s i 'r Wlad yma yn bwrpasol i dreio ynill \ennill\ arian,
+      </lb> 
+      <lb n="2">ag mi rydw i yn meddwl na budd fy siwrna i ddim yn ofar.
+      </lb> 
+      <lb n="3">Ni a fuom bedwar diwrnod tan Quarantin naw Milltir
+      </lb> 
+      <lb n="4">ti isa i New York cyn cael yn gollwng yn rhydd gan y
+      </lb> 
+      <lb n="5">Doctor sydd yn perthyn i 'r Hospital fawr ag sydd yn derbun
+      </lb> 
+      <lb n="6">p&ocirc;b dyn s&acirc;l a ddelo tros y M&ocirc;r ar g&ocirc;sd y State New York:
+      </lb> 
+      <lb n="7">Ni cheuff \chaiff\ n&ecirc;b s&acirc;l ddyfod i 'r Dre. &#8212; Mi &acirc;s \es\ yn gynta, ar
+      </lb> 
+      <lb n="8">&ocirc;l mynd i 'r lan, i du Nelly Merch Hugh Lewis; ag mi gafes \gefais\
+      </lb> 
+      <lb n="9">groeso mawr iawn &#8212; Yn ail mi &acirc;s \es\ i Du fy ngyfrithar \cyfnither\ Margaret
+      </lb> 
+      <lb n="10">ag nid ychydig o dendanse oedd arni: Mi f&ucirc;m yno bedwar
+      </lb> 
+      <lb n="11">diwrnod. I mae New York yn Dre hardd iawn; a 
+      </lb>
+      <lb n="11-12">chwedi
+      </lb>
+      <lb n="12">
+       hynnu mi gymeras \gymerais\ Long i dyfod i Albany; mi ddoes
+      </lb> 
+      <lb n="13">i hud i fy 'nghemdar \cefnder\ Lewis yn inion; ag mi roudd yn dda
+      </lb> 
+      <lb n="14">iawn ganddo fo fy ngwelad i &#8212; fe 'm rhodd i mewn gwaith
+      </lb> 
+      <lb n="15">da yn inion: I mae ef wedi gweneud \gwneud\ i hun i fynu: Nid
+      </lb> 
+      <lb n="16">rhaid iddo fo weuthio dim. I mae fy Ewrth Hywel yn
+      </lb> 
+      <lb n="17">edrych yn Rob gida gwr bonheddig yn ymmil y Dre yma;
+      </lb> 
+      <lb n="18">i mae fo yn cofio at fy nh&acirc;d; ag yn dyweud os daw fo yma
+      </lb> 
+      <lb n="19">y taliff fo i g&ocirc;st o trosodd, gida fflesar \pleser\. Dywedwch wrth
+      </lb> 
+      <lb n="20">Evan David y Crydd os geull o dyfod yma riw sut y budd
+      </lb> 
+      <lb n="21">o yn siwr o waith yn inion yn mh&ocirc;b cwr o 'r Wl&acirc;d. {en I have
+      </lb> 
+      <lb n="22">heard nothing of Nancy Jones since I saw her in Ireland;
+      </lb> 
+      <lb n="23">the Ship was not arrived at Baltimore when I was at
+      </lb> 
+      <lb n="24">New York: there came Six Ships to New York very near one another
+      </lb> 
+      <lb n="25">and each of them encountered with very hard Weather. Twm o
+      </lb> 
+      <lb n="26">Bryscia and Betty live not far from this Town, he has a
+      </lb> 
+      <lb n="27">Ferry carrying over the River Hutson; he made it himself; en}
+      </lb> 
+      <lb n="28">i mae yn dda 'r b&#375;d arno. Nid oes possible i mi roi mo 'r haner
+      </lb> 
+      <lb n="29">account am y Cwmry i g&icirc;d. Os byddaf i byw, ag yn iach,
+      </lb> 
+      <lb n="30">tros dippin o flynyddodd, mi rwufi yn gobeithio y cewch
+      </lb> 
+      <lb n="31">chwi (fy nheulu) fy ngweled i er ich cysur; nid iw \wyf\ fi ddim
+      </lb> 
+      <lb n="32">yn ame na bum i yn llawer o flinder i b&ocirc;b un ohonoch,
+      </lb> 
+      <lb n="33">Ond nid oedd gennif ddim help os oeddwn ni yn ddi barch
+      </lb> 
+      <lb n="34">yna; Nid wuf i  ddim fellu yma. Pe buaswn i yn
+      </lb> 
+      <lb n="35">dwad yma yn lle mynad i 'r G&ecirc;l da fysa \fuasai\ i mi. Rwy 'n
+      </lb> 
+      <lb n="36">meddwl llawar am gael y ddau Fachan hynaf ymma y
+      </lb> 
+      <lb n="37">gwainiwn \gwanwyn\ Nesaf; mi naunt \wn&acirc;nt\ lawer o blessar i mi,
+      
+      
+      </lb>
+      </pb>
+      <pb n="5.">
+      
+       
+      <lb n="1">ag i fydd yn ddaioni mawr uddynt \iddynt\ hwu: ma \maent\ nhw
+      </lb> 
+      <lb n="2">yn yr oed goreu yr rwan ag sudd i f&ocirc;d at ddwad i 'r
+      </lb> 
+      <lb n="3">wl&acirc;d ymma. Nid wuf fi yn gwelad fy 'Mhlant erill
+      </lb> 
+      <lb n="4">yn ddigon h&ecirc;n i ddwad tros y M&ocirc;r mawr, yn 
+      </lb>
+      <lb n="4-5">enwedig
+      </lb>
+      <lb n="5">
+       yr enath fach &#8212; I mae Merchad bach evanc \ifanc\ yn colli 'r
+      </lb> 
+      <lb n="6">treual agos b&ocirc;b un ohonunt. &#8212; Ond hoggia o fechin ni
+      </lb> 
+      <lb n="7">budd arnunt ddim yn y byd ond cymerud gofal rhag
+      </lb> 
+      <lb n="8">uddunt ddringo i 'r Raffa a chwmpo i 'r M&ocirc;r os gewch
+      </lb> 
+      <lb n="9">chwi, fy anwyl Wraig, i gollwng nhw {en (he means the two
+      </lb> 
+      <lb n="10">eldest boys) en} ymma &#8212; Ni budd hyn yn fawr o drwbwl i chwi;
+      </lb> 
+      <lb n="11">Mi yraf fi Arian i chwi i brynnu dillad uddunt, ag
+      </lb> 
+      <lb n="12">i ddwun i C&ocirc;st i Liverpool, ag dyn gida nhw i 'w rhoi
+      </lb> 
+      <lb n="13">yn y Llong: Mi gyttunaf fi a Chaptain yn New York
+      </lb> 
+      <lb n="14">am i bwud a 'i Passage; Ag mi r&ocirc;f i Lythur yn y Llong
+      </lb> 
+      <lb n="15">i ddwad ag arian i chwi: Ag rhudd y Captain Account 
+      </lb>
+      <lb n="15-16">ynddo
+      </lb>
+      <lb n="16">
+       pwu amser i chwi ddwad at y Llong. Os budd
+      </lb> 
+      <lb n="17">Harry Robert yn dewis dwad efo nhw Mi dala fi i g&ocirc;st
+      </lb> 
+      <lb n="18">o ag mi rh&ocirc;f o mewn gwaith da hefud; ne riw un
+      </lb> 
+      <lb n="19">arall a fo 'n medru tippin o Saisnaeg &#8212;  Sionum W.m
+      </lb> 
+      <lb n="20">Si&ocirc;n fydda buw yn glyfar yn y wl&acirc;d ymma. Nid iw \wyf\
+      </lb> 
+      <lb n="21">fi ddim am dynnu fy Mrawd rhag of&acirc;n \ofn\ nad iw i Wraig ef ddim
+      </lb> 
+      <lb n="22">y fodlon i ddwad: Ond gadewch imi gael gwubod ych Meddwl
+      </lb> 
+      <lb n="23">mewn Llythur mor fuan ag a bo bossible, a gyrwch gownt
+      </lb> 
+      <lb n="24">(account) i mi pwu sut sudd arnoch wedi i mi dyfod
+      </lb> 
+      <lb n="25">y ffwrdd. {en Dear Wife, I can send the money every month by
+      </lb> 
+      <lb n="26">going down to New York: But this would be attended with
+      </lb> 
+      <lb n="27">considerable expence, they would be to be had at the Bank in
+      </lb> 
+      <lb n="28">D&ocirc;lgelley, or some other place you may chuse; there will be
+      </lb> 
+      <lb n="29">no danger of their being lost at Sea; As all business is
+      </lb> 
+      <lb n="30">transactded between England and America, en} yn s&acirc;ff. {en Dont
+      </lb> 
+      <lb n="31">stay a day before you send off your Letter to me. Put the
+      </lb> 
+      <lb n="32">Letter, you send, into the Post Office at D&ocirc;lgelley; and
+      </lb> 
+      <lb n="33">take Dr. Owen or some other person with you And pay
+      </lb> 
+      <lb n="34">for its Postage to Liverpool, and I will be sure of receiving
+      </lb> 
+      <lb n="35">it. en} I mae fy meddwl yn drysu wrth scrifennu 'r Llythur
+      </lb> 
+      <lb n="36">ymma, gan gumaint \gymaint\ o betha sudd ar fy Meddwl &#8212; I mae
+      </lb> 
+      <lb n="37">yn rhyfedd gennif feddwl f&ocirc;d Rhaggliniath wedi dyfod
+      
+      
+      </lb>
+      </pb>
+      <pb n="6.">
+      
+       
+      <lb n="1">a 'myfi ymma. I mae Duw yn gyfalu \gofalu\ amdanon i
+      </lb> 
+      <lb n="2">yn mh&ocirc;b Man yn well na dyminiad llawar; ond
+      </lb> 
+      <lb n="3">rwu fi yn Credu fod wullys drwg rhai yn dwad yn
+      </lb> 
+      <lb n="4">daioni i mi. {en My dear Wife I think no less of you than
+      </lb> 
+      <lb n="5">if I was with You. If you will let the two eldest boys
+      </lb> 
+      <lb n="6">come over here, to me for a while it will be of great benefit to them;
+      </lb> 
+      <lb n="7">They will be taught Gratis untill they will be fourteen Years
+      </lb> 
+      <lb n="8">Old: Here are the best Schools in all the World, in every part
+      </lb> 
+      <lb n="9">&amp; Corner of the Country en} ar g&ocirc;st y Talauthau {en (States) en}.
+      </lb> 
+      <lb n="10">Mi allwn ni dyscu John yn b&ucirc;r fuan; ag mi gawn gyflog
+      </lb> 
+      <lb n="11">iddo hefyd: Ag os na byddwch yn fodlon uddunt dyfod
+      </lb> 
+      <lb n="12">Nid allaf i ddim aros ymma yn h&icirc;r heb ddwad adref.
+      </lb> 
+      <lb n="13">I mae ymma y lle goreu i ynnill \ennill\ arian ag sudd dan
+      </lb> 
+      <lb n="14">y Haul; Ond mae ymma gannoedd o ddynion yn ll&acirc;dd
+      </lb> 
+      <lb n="15">i hunan wrth yfad Liquours: Y dyn a gadwa i hun
+      </lb> 
+      <lb n="16">yn sober fe geiff Barch a galwad, a 'r Cyflog Mwuaf
+      </lb> 
+      <lb n="17">a alloch chwi feddwl amdano. Nid iwfi \wyf i\ am dynnu
+      </lb> 
+      <lb n="18">n&ecirc;b ohonoch ymma o achos hyn. i mae Cantoedd
+      </lb> 
+      <lb n="19">o b&ocirc;bl wedi dwad ymma yleni yn b&ucirc;r dylawd a llawer
+      </lb> 
+      <lb n="20">o blant ag heb yr un greft ganddunt chwaith; ag wrth
+      </lb> 
+      <lb n="21">hynnu yn mynd yn bwisi ar y State. I mae ganddunt
+      </lb> 
+      <lb n="22">le ymma i b&ocirc;b dyn gael llond i fol o fwud heb fund y
+      </lb> 
+      <lb n="23">feggio o du i du. Nid oes ymma ond lle s&acirc;l iawn
+      </lb> 
+      <lb n="24">i Labrwr; Ond dynion a fo am d&icirc;r {en (Land) en} mi g&acirc;nt
+      </lb> 
+      <lb n="25">d&icirc;r ar goel {en (on Credit) en} yn inion a thalu pan 
+      </lb> 
+      <lb n="26">allant; Ond mae gofun f&ocirc;d tippin o arian i gael dechra
+      </lb> 
+      <lb n="27">trin y Tir: mi g&acirc;dd \gafodd\ y Cumru lawar iawn o herbul \helbul\ cun
+      </lb> 
+      <lb n="28">dwad mewn fawr o drefn buw yn debig fel ag y mae nhw
+      </lb> 
+      <lb n="29">yn y wl&acirc;d ymma: Ond dynion diarth \dieithr\ sudd ymma yn
+      </lb> 
+      <lb n="30">Mron i gid o 'r dechra triniath ymma. Indiad 
+      </lb>
+      <lb n="30-31">gwilltion
+      </lb>
+      <lb n="31">
+       ydi pobl y wl&acirc;d ymma; Mae nhw yn buw yn
+      </lb> 
+      <lb n="32">mhell yn y wl&acirc;d  yn buw wrth ffowlio ag hela
+      </lb> 
+      <lb n="33">y creadiriad gwulltion, ag yn dwad a 'r Crwun i 'w
+      </lb> 
+      <lb n="34">gwerthi i Fersiandwur: Y nhw ydi etifeddion y Wl&acirc;d;
+      </lb> 
+      <lb n="35">ond i mae nhw yn gwerthu Lot i 'r gwur mowrion, ag
+      </lb> 
+      <lb n="36">yn cymerud pur chydig \ychydig\ amdano: ag mau 'r rhai 
+      
+      
+      </lb>
+      </pb>
+      <pb n="7.">
+      
+       
+      <lb n="1">hynnu trachefn yn werthu i bawb a ddelo i brynu. {en Remeber
+      </lb> 
+      <lb n="2">me to my father &amp; mother, I hope to see them on this side the Grave.
+      </lb> 
+      <lb n="3">I am not for drawing my Brother here because of his Wife &amp; his little
+      </lb> 
+      <lb n="4">Children being too young &#8212; I have seen and have had trial en} ar y
+      </lb> 
+      <lb n="5">fasiwn beth; Ond os bydd o am ddwad mi dala fi i Bassage
+      </lb> 
+      <lb n="6">o ymma yn y Bank; Ond dwad gida Llong &#8212; America sudd ore
+      </lb> 
+      <lb n="7">{en because they know how to come sooner than the English Ships, and
+      </lb> 
+      <lb n="8">also they keep better Meat (bwud) in their Ships. If any of you are for 
+      </lb>
+      <lb n="8-9">coming
+      </lb>
+      <lb n="9">
+       here en} cymerwch ofal rhag dwad efo Slates from Carnarfon
+      </lb> 
+      <lb n="10">mae dynion yn cael cam na bu 'r roed \erioed\ y fasiwn \ffasiwn\ beth.
+      </lb> 
+      <lb n="11">Cerddwch i Liverpool, hynnu fudd ratta i chwi yn y
+      </lb> 
+      <lb n="12">diwedd. Mi roeddan ni yn talu 5 Gini am i'n passage: Mi
+      </lb> 
+      <lb n="13">gostiodd am fwud o gwmpas 10 punt i b&ocirc;b un ohonom cun
+      </lb> 
+      <lb n="14">dwad i a chyradd New York; mi roedd y Captain yn gwerthu
+      </lb> 
+      <lb n="15">y peth oedd y Llonga yn roi i ni ar y ffordd yn ddrud iawn.
+      
+      
+      </lb> 
+      <lb n="16">I mae ymma Ddolar am wneid pair o Escidia i Grydd
+      </lb> 
+      <lb n="17">{en (Shoemaker) en} I mae pair o Escidia yn costio ymma {en two Dollars
+      </lb> 
+      <lb n="18">To a Taylor two Dollars for making a Coat en} dda; nid ois
+      </lb> 
+      <lb n="19">ymma ddim Closa ond Pantaloons gan bawb. I mae
+      </lb> 
+      <lb n="20">ymma b&ocirc;b peth i gael ar werth {en in the Towns, but for in the
+      </lb> 
+      <lb n="21">country en} nid iw hi ddim cystal. Mae ymma newid fawr ar lawar
+      </lb> 
+      <lb n="22">o betha i 'w bwuta; Y Tea am 2s,,6d y pwus; Sugar for 5d
+      </lb> 
+      <lb n="23">y pwus; {en Salt for 3 shilling per  Winchester Bushel;
+      </lb> 
+      <lb n="24">we  do not weigh any of it here in this Country; en} yr Cig,
+      </lb> 
+      <lb n="25">y Caws a 'r Menun yn debig fel y mae nhw yna {en (in Wales) en}
+      </lb> 
+      <lb n="26">{en Apples ni welas i yrroed \erioed\ y ffasiwn beth, y mae y Caua yn llawn
+      </lb> 
+      <lb n="27">yn mh&ocirc;b Man. Syidar (Cyder) y faint y fynnoch chwi yn
+      </lb> 
+      <lb n="28">mh&ocirc;b Ty. Pr&icirc;s y Fala \afalau\ 2s ag y 'r Potattws 2s per Buchel. I
+      </lb> 
+      <lb n="29">mae rhai petha yn b&ucirc;r anwadel fel byddo yr amser gan
+      </lb> 
+      <lb n="30">y Ffarmwur i dwad a petha 'r Dre. I mae llawar iawn o
+      </lb> 
+      <lb n="31">Byscod yn 'r Afonudd ymma yn afonudd Braf sudd ymma
+      </lb> 
+      <lb n="32">mi Nai \wnai\&nbsp;William Lewis i ffortiwn toc iawn; mi gai goud
+      </lb> 
+      <lb n="33">i wneud Cwch am Goron: {en remember to him &amp; his wife; en} mi 
+      </lb>
+      <lb n="33-34">fedylias
+      </lb>
+      <lb n="34">
+       lawer am Lewsun i f&acirc;b o yn New York wrth welad y
+      </lb> 
+      <lb n="35">bechin Llongwrs. Rwi yn cofio at Rich.d Jones o 'r Borth Wen a 'i
+      </lb> 
+      <lb n="36">frodur; a Griffith Jones o 'r Tu du; ag at Rhees William;
+      </lb> 
+      <lb n="37">Pe dau nhw hud cyrredd i mi mi cadwn nhw a digon
+      </lb> 
+      <lb n="38">o Tobacco goreu a fu 'y'n dwula \dwylo\ nhw 'r roed \erioed\. {en Remember me
+      </lb> 
+      <lb n="39">to Hugh Robert o 'r Gors, and tell him I have had en} hanes 
+      </lb>
+      <lb n="39-40">(intelligence)
+      </lb>
+      <lb n="40">
+       Harry, ond fy' m&ocirc;d i heb i welad etto;  en}
+      
+      
+      </lb>
+      </pb>
+      <pb n="8.">
+      
+      {en 
+       
+      <lb n="1">he lives in a place called Bulan further in the en} Gorllewin
+      </lb> 
+      <lb n="2">o 5 cant o Filltirodd na 'r Cymru erill. Tudir bachen Hugh
+      </lb> 
+      <lb n="3">Robert sudd fachen clyfar iawn yn y Dre ymma. I mae
+      </lb> 
+      <lb n="4">Will wedi colli 8 Cant ar Ddun o Lundan am Fr&acirc;g, ag
+      </lb> 
+      <lb n="5">gwedi munt \mynd\ at i d&acirc;d i 'r Tir. I mae ymma b&ocirc;b sort o 
+      </lb>
+      <lb n="5-6">grefudd
+      </lb>
+      <lb n="6">
+       a chappeludd grand iawn; ond i mae nhw (y bobl)
+      </lb> 
+      <lb n="7">yn b&ucirc;r lygredig boda gun o ran golwg oddiallan. Mi welas
+      </lb> 
+      <lb n="8">i drochi 28 o Baptists ar foreu Sul mewn gywna 
+      </lb>
+      <lb n="8-9">gwinnion
+      </lb>
+      <lb n="9">
+       b&ocirc;b un ohonynt. {en There is great danger of Fire
+      </lb> 
+      <lb n="10">here, On account of the greater number of the Houses being
+      </lb> 
+      <lb n="11">built with Timber. en} I mae ymma fwu o Tree Stones o lawer
+      </lb> 
+      <lb n="12">nag sudd o gerig arall; a Marbles gwinion ddigon; a digon
+      </lb> 
+      <lb n="13">o Frics (Bricks) ond mae 'r gwaith yn ddrud iawn.
+      
+      
+      </lb> 
+      <lb n="14">Rwfi yn dymunad arnoch fy mrawd Lewis am dreuo 
+      </lb>
+      <lb n="14-15">cychwin
+      </lb>
+      <lb n="15">
+       fy Mechin bach i ymma, i mae gan i fantas fawr i 'w
+      </lb> 
+      <lb n="16">rhoi mewn buwoliaith ymma ragor sudd yna yn Ngymru;
+      </lb> 
+      <lb n="17">ag nid ydi ond peth bach uddint ddwad a chael i carrio
+      </lb> 
+      <lb n="18">mewn Llong Marchiant ragor dwad fel floc o F&ocirc;ch, yn
+      </lb> 
+      <lb n="19">Llonga bach Cwmru: mi gant b&ocirc;b chware t&ecirc;g ag sudd
+      </lb> 
+      <lb n="20">bosibl, a digon of fwn da &#8212; I mae 'r Americans yn bobl
+      </lb> 
+      <lb n="21">glyfar angcreffredin iawn &#8212; Ni welsoch chwi 'r roed mor
+      </lb> 
+      <lb n="22">dda ydunt hwu wrth bobl ddiarth. Rwu i yn ynill
+      </lb> 
+      <lb n="23">arian faint a fynnwi \fynnwyf\: Nid rhaid i neb waithio yn 10
+      </lb> 
+      <lb n="24">awr ymma yn y dudd; {en Eating owr breakfast before going to
+      </lb> 
+      <lb n="25">our Work, and begin to work at 7; en} a' gollwng am 12; a' mund
+      </lb> 
+      <lb n="26">atti am un; a' gollwng am chwech. Mae ymma le da iawn am
+      </lb> 
+      <lb n="27">small jobs, ag arian parod: I mae ymma 2 Dollars am Bedoli
+      </lb> 
+      <lb n="28">Ceffyl; Ond i mae 'r Gofiad di wichio i gid, y Cwmru
+      </lb> 
+      <lb n="29">yn waeth na neb. I mae ymma ormod o newid ar Liquors,
+      </lb> 
+      <lb n="30">i mae 'r Rwm goreu am 1 y quart o arian Lloegar; a ff&ocirc;b
+      </lb> 
+      <lb n="31">Liquors erill yn debig. Gwl&acirc;d ydi hon yn difa i 
+      </lb>
+      <lb n="31-32">thrigolion,
+      </lb>
+      <lb n="32">
+       a hyn o achos i ffrwutha. {en The Women lose their teeth
+      </lb> 
+      <lb n="33">before they are twenty years old the greater number: Men
+      </lb> 
+      <lb n="34">at 45 year's old look very old: there are here no old people to be
+      </lb> 
+      <lb n="35">seen; en} i mae nhw, yn gyffredin, yn difetha i hun wrth Yfad.
+      </lb> 
+      <lb n="36">I mae 'n lle da iawn i ffowlio, p&ocirc;b sort o ffowls i 'w cael heb ddim
+      </lb> 
+      <lb n="37">drwg am y lladd: Pawb y carrio Gwn (Gun); i mae Gwn
+      </lb> 
+      <lb n="38">yn b&ucirc;r ddrud. Rwi yn meddwl llawar am fy h&ecirc;n Wl&acirc;d b&ocirc;b dydd
+      </lb> 
+      <lb n="39">ond chwedi dyfod mor bell nid ydi ddim yn dro call 
+      
+      
+      </lb>
+      </pb>
+      <pb n="9.">
+      
+       
+      <lb n="1">i mi dwad yn &ocirc;l ar h&acirc;st heb dreuo Marchnatta tippin.
+      </lb> 
+      <lb n="2">Os bydd bossibl i chwi welad cerrig Llyn Udwal h&ocirc;ns 
+      </lb>
+      <lb n="2-3">prynwch
+      </lb>
+      <lb n="3">
+       nhw i gid; mae H&ocirc;ns yn brunach na dim ymma;
+      </lb> 
+      <lb n="4">nid oes ymma sort yn y byd o H&ocirc;ns yn wl&acirc;d ymma.
+      
+      
+      </lb> 
+      <lb n="5">Gyrwch Llythur i mi mor fuan ag a bo bossibl, i mi i gael
+      </lb> 
+      <lb n="6">gwubod a fudd y plant {en (his two eldest boys) en} yn dwad; ag
+      </lb> 
+      <lb n="7">na dd&ocirc;nt mi a fi 15 Cant o filltirodd i 'r De mi g&acirc;f
+      </lb> 
+      <lb n="8">ono 16 o Syllda yn y dudd: ag mi g&acirc;f well siawns am le
+      </lb> 
+      <lb n="9">i waithio fy masads adra.
+      
+      
+      </lb> 
+      <lb n="10">A hyn ar fur oddi wrth
+      
+      
+      
+      </lb> 
+      <lb n="11">David Jones, yn gunt, o Llwyngwril &#8212;
+      
+      
+      
+      {en 
+      </lb> 
+      <lb n="12">Direct to me thus &#8212; ( Mr. David Jones, joiner, ) 
+      </lb> 
+      <lb n="13">( Cappytol Street &#8212; Albany &#8212; State )
+      </lb> 
+      <lb n="14">                    ( New York &#8212; North America )
+       en}
+      
+      
+      
+      </lb>
+      </pb>
+      
+   </text>
+   <text id="NLW2722E_3">3. 
+      
+      
+      
+      
+      <pb n="clawr.a.">
+      
+      {en 
+       
+      <lb n="1">Copy of a Letter from
+      </lb> 
+      <lb n="2">John Richards
+      </lb> 
+      <lb n="3">Johnsburg &#8212;
+      </lb> 
+      <lb n="4">Warren County
+      </lb> 
+      <lb n="5">State of New York
+      </lb> 
+      <lb n="6">Nov 3d. 1817
+      </lb> 
+      <lb n="7">North America
+      
+      </lb> 
+      <lb n="8">N.B. The said John Richard
+      </lb> 
+      <lb n="9">went from Llanuwchyllyn
+      </lb> 
+      <lb n="10">to North America about
+      </lb> 
+      <lb n="11"> Years ago; he was then
+      </lb> 
+      <lb n="12">a school master &amp; at first
+      </lb> 
+      <lb n="13">follow'd the same occupation in
+      </lb> 
+      <lb n="14">America; he understood Navign.
+      </lb> 
+      <lb n="15">and this sometime after enabled
+      </lb> 
+      <lb n="16">him to become Land Surveyor
+      </lb> 
+      <lb n="17">for Purchasers in Lots of Wild
+      </lb> 
+      <lb n="18">Land in its natural state; he
+      </lb> 
+      <lb n="19">map'd the same, each Lot of
+      </lb> 
+      <lb n="20">Half mile Square &#8212;
+       en}
+      
+      
+      </lb>
+      </pb>
+      <pb n="clawr.b.">
+      
+      {en 
+       
+      <lb n="1">He has now 1000 acres
+      </lb> 
+      <lb n="2">Cleared of his own; &amp;
+      </lb> 
+      <lb n="3">has erected thereon a Forge
+      </lb> 
+      <lb n="4">&amp; Furnace. He lives
+      
+      </lb> 
+      <lb n="5">In going from Albani
+      </lb> 
+      <lb n="6">to the North Westward
+      </lb> 
+      <lb n="7">Emigrants pass over a neck
+      </lb> 
+      <lb n="8">of Land to Shorten their way
+      </lb> 
+      <lb n="9">up to the Mohawk River.
+      </lb> 
+      <lb n="10">From Albani over the said
+      </lb> 
+      <lb n="11">neck of Land to the Mohawk
+      </lb> 
+      <lb n="12">the distance is about 15 Miles;
+      </lb> 
+      <lb n="13">from thence to Uttica 15 More;
+      </lb> 
+      <lb n="14">from thence to Stuben 15 More;
+      </lb> 
+      <lb n="15">to Stuben is about 45 miles
+      </lb> 
+      <lb n="16">from Albani.
+       en}
+      
+      
+      </lb>
+      </pb>
+      <pb n="1.">
+      
+       
+      <lb n="1">Anwyl Syr/  Mi a dderbyniais eich Llythr caredig wedi ei ddatio 
+      </lb>
+      <lb n="1-2">Tyddyn-yFelin
+      </lb>
+      <lb n="2">
+       Mai 26. 1817. Fe ddaeth i 'm llaw o fewn yr wythnos; mae yn
+      </lb> 
+      <lb n="3">ddrwg genyf fod cynifer o 'm perthynasau ac o 'm h&ecirc;n gydnabyddiaeth
+      </lb> 
+      <lb n="4">mewn amgylchiadau mor gyfyng. Yn ddiamau mewn trueni
+      </lb> 
+      <lb n="5">mawr fod cynifer o aelodau da wedi ei gwisgo allan mewn
+      </lb> 
+      <lb n="6">llafur caled mewn gwlad ac nid ydynt mewn ystyr yn cael
+      </lb> 
+      <lb n="7">dim am ei poen. Ond pwy help sydd iddynt. Myfi a dreiais fy
+      </lb> 
+      <lb n="8">ngorau i 'w helpio ers 20 mhlynedd, ond fe aeth fy holl 
+      </lb>
+      <lb n="8-9">ymdrechiadau
+      </lb>
+      <lb n="9">
+       yn ofer; mae 'n rhaid siarad a Dynion yn uwch 
+      </lb> 
+      <lb n="10">nag y gallaf fi cyn y bo iddynt deimlo a gweled ei mantais
+      </lb> 
+      <lb n="11">naturiol ei hunain a 'i breintiau mewn pethau tymhorol.
+      </lb> 
+      <lb n="12">Ond a aeth dynol ryw i 'r fath amgylchiad ac y dymunent
+      </lb> 
+      <lb n="13">yn hytrach farw o eisiau Bara nac ymsymud i 'r fan lle mae
+      </lb> 
+      <lb n="14">cyflawnder o fara a llaeth? Oddiwrth y fath benglogrwydd gwared
+      </lb> 
+      <lb n="15">ni Arglwydd daionus. Y ddaear a wnaethpwyd er mwyn plant
+      </lb> 
+      <lb n="16">dynion, ac ni allesid yn gyfleis mo 'i gosod oll yn Lloegr a
+      </lb> 
+      <lb n="17">Chymru, nac yn Llanuwchllyn. Eithr mae ar bobl y lleoedd
+      </lb> 
+      <lb n="18">hynny eisiau rhagor o ddaear nac sydd ganddynt, ond ni
+      </lb> 
+      <lb n="19">wneiff y Creawdur byth i 'm tyb i un Acre o dir yn ychwaneg
+      </lb> 
+      <lb n="20">yn Llanuwchllyn, nac mewn un rhan arall o Loegr hyd ddiwedd
+      </lb> 
+      <lb n="21">amser. Ond fe wnaeth y Duw da yn y dechreuad ddigon o dir a
+      </lb> 
+      <lb n="22">daear i holl blant Adda i 'w llafurio hyd ddiwedd y byd. Ac
+      </lb> 
+      <lb n="23">y mae yn rhaid i mi ddweud i chwi fy nghyfeillion i mi
+      </lb> 
+      <lb n="24">weled ddigon o dir i holl drigolion Cymru fyw arno yn gysurus
+      </lb> 
+      <lb n="25">heb gymaint ag un enaid yn ei gyfaneddu nac yn ei feddiannu.
+      </lb> 
+      <lb n="26">Yr Nentydd a 'r Afonydd hyfryd yn rhedeg trwyddo, yr haul yn tywynnu;
+      </lb> 
+      <lb n="27">a 'r glaswellt a 'r Coed yn tyfu, y cynnar a 'r diweddar wlaw \law\ yn disgyn
+      </lb> 
+      <lb n="28">arno, y Ceirw yn chwareu ar y tir, yr Adar yn ehedfan yn yr Awyr,
+      </lb> 
+      <lb n="29">a physgod yn y dyfroedd ddigon ar bob amserau er dechreuad y 
+      </lb>
+      <lb n="29-30">greadigaeth
+      </lb>
+      <lb n="30">
+       ac yr un modd hyd y dydd heddyw yn ymddangos yn ddiles i
+      </lb> 
+      <lb n="31">holl ddynol ryw. Ond y mae breintiau y rhain yma, a chwithau yna;
+      </lb> 
+      <lb n="32">y canlyniad yw fod yn rhaid i chwi ddyfod yma i 'w meddiannu, neu
+      </lb> 
+      <lb n="33">beidio a 'i meddiannu byth. A pha beth a allaf ddywedyd yn ychwaneg,
+      
+      
+      </lb>
+      </pb>
+      <pb n="2.">
+      
+       
+      <lb n="1">mi ddywedais i chwi y purwir; gwnewch chwithau eich dewis ei gredu
+      </lb> 
+      <lb n="2">au peidio. Mi ddywedaf unwaith etto geill Myrddiynau o bobl gael
+      </lb> 
+      <lb n="3">tir i 'w lafurio yn y wlad yma; ac nhw fyddant abl i dalu am
+      </lb> 
+      <lb n="4">dano a 'i wneuthur yn eiddo iddynt ei hunain am byth, ymhen ychydig
+      </lb> 
+      <lb n="5">o flynyddoedd o ddiwidrwydd. Mae hyn yn wirionedd; a 'r ffordd oreu
+      </lb> 
+      <lb n="6">i chwi ydyw ei dreio fel y gweloch chwi eich hunan. Mae 
+      </lb>
+      <lb n="6-7">amrywiol
+      </lb>
+      <lb n="7">
+       fath o diroedd, o ran br&acirc;sder, oerni, a gwr&ecirc;s o fewn unol
+      </lb> 
+      <lb n="8">daleithiau America. Yn y rhannau gogleddol hyn lle 'rwyf fi yn
+      </lb> 
+      <lb n="9">byw mae 'r gauafau yn hirion, yn eiriog ac yn oerion iawn, mae 'r
+      </lb> 
+      <lb n="10">wybr yn gl&icirc;r ac yn iachus, mae 'r dwfr hefyd yn bur dda, nid ydyw
+      </lb> 
+      <lb n="11">y tir ddim mor fr&acirc;s ac ydyw y rhannau gorllewinol y dalaith
+      </lb> 
+      <lb n="12">hon; ond y mae ein tir ni yn gyffredin yn y rhannau yma yn dwyn
+      </lb> 
+      <lb n="13">o 20 hyd yn 30 o fwysheli (Winchester) o R&#375;g neu Geirch ar bob Acre,
+      </lb> 
+      <lb n="14">hyny yw, pan y bo y tir wedi ei dr&icirc;n yn dda. Mi godais i 40 Bwyshel
+      </lb> 
+      <lb n="15">o R&#375;g ac Indian Corn oddi ar un Acre. Mi gefais 350 o fwysheli o Potatoes oddi ar
+      </lb> 
+      <lb n="16">Acre, ond nid cymaint a geir yn gyffredin. Yr ydym ni yn codi o
+      </lb> 
+      <lb n="17">10 hyd yn 25 o fwysheli  o wenith yn Johnsburg oddi ar Acre.
+      </lb> 
+      <lb n="18">Mae yma le da am wair, a marchnad dda hefyd yma. Pris y tir
+      </lb> 
+      <lb n="19">yma ydyw o 4 Dollar i 5 yr Acre (rhyw beth yn debyg i bunt
+      </lb> 
+      <lb n="20">gyda chwi) a deg mlynedd neu yn chwaneg i dalu am dano, fe
+      </lb> 
+      <lb n="21">gymmer y perchenogion yn gyffredin Anifeiliaid ne Yd yn daledigaeth
+      </lb> 
+      <lb n="22">gyda ni yn Johnsburg, ac hefyd mewn ychydig fannau eraill; ond 
+      </lb>
+      <lb n="22-23">taledigaeth
+      </lb>
+      <lb n="23">
+       mewn Arian sydd oreu. Mae 'r tir yn y rhannau gorllewinol
+      </lb> 
+      <lb n="24">o 'r Dalaith hon ac yn y rhannau o 'r ty cefn i dalaith Pensylvania
+      </lb> 
+      <lb n="25">(ac yn mhryniad Holland) yn dwyn dau cymaint o wenith ac a
+      </lb> 
+      <lb n="26">gawn ni yn Johnsburg, ond nid yw hi yno ddim mor iachus yn
+      </lb> 
+      <lb n="27">gyffredin ac ydyw hi gyda ni. Yn y mannau ag y mae y dwfr yn ddrwg
+      </lb> 
+      <lb n="28">y mae 'r bobl yn afiach, pris y tir yn y rhannau hynnu sydd o 5
+      </lb> 
+      <lb n="29">Dollar i 10 yr Acre, Credit byr a thaledigaeth mewn Arian; mae
+      </lb> 
+      <lb n="30">genym ni gymaint o R&#375;g, Ceirch, Pytatws, a Gwair, ac a g&acirc;nt 
+      </lb>
+      <lb n="30-31">hwythau,
+      </lb>
+      <lb n="31">
+       mae Stubend yn debig i Johnsburg, nid oes dim tir newydd i gael
+      </lb> 
+      <lb n="32">ei werthu yn Utica, ond yn unig hen dyddynnod, ond y mae hi lawer yn
+      </lb> 
+      <lb n="33">well i grefftwyr a labrwyr yno, y rhai nid ydynt byth yn meddwl
+      </lb> 
+      <lb n="34">prynu tir (ond y ffordd oreu ydyw myn'd ym mhen ychydig i fall lle
+      </lb> 
+      <lb n="35">y gellir prynu tir yn fwy rhesymmol) nhwy allant gael mwy cyflogau
+      
+      
+      </lb>
+      </pb>
+      <pb n="3.">
+      
+       
+      <lb n="1">yn Utica nag a ellir ei gael yn Johnsburgh a chymeryd yr holl flwyddyn
+      </lb> 
+      <lb n="2">drwyddi. Nid ydyw yn dda i ddieithriaid aros yn y dinasoedd (minau
+      </lb> 
+      <lb n="3">Moroedd) yn hir amser ond myn'd ymlaen i gefn y wlad cyn gynted ag
+      </lb> 
+      <lb n="4">y gallont. Mae 'r Llywodraeth yn dda, yn dyner, yn rhydd ac yn 
+      </lb> 
+      <lb n="5">uniawn, yn gadarn i Ryfel neu i heddwch. Fe ellir cael tir mewn
+      </lb> 
+      <lb n="6">rhannau o Dalaith Ohio, Michigan, ac Indiana, a thir da hefyd am o
+      </lb> 
+      <lb n="7">gylch 2 Ddollor yr Acre. Ond yn y mannau hyny nid yw 'r cynnyrch ond
+      </lb> 
+      <lb n="8">isel iawn, ni all y Ffarmwr gael ond hanner Dollar y Bwyshiel am
+      </lb> 
+      <lb n="9">ei wenith pryd y caffo fo 2 Ddollar neu 2 Ddollar a hanner yn
+      </lb> 
+      <lb n="10">Johnsburgh; ac y mae yr un gwahaniaeth mewn llafur arall
+      </lb> 
+      <lb n="11">ac anifeiliaid. Yn nhalaith Ohio mae 'r Hyson Tea yn myn'd o gylch
+      </lb> 
+      <lb n="12">4 Dollar y pwys, ond yn Johnsburgh fe a 'i ceir am Ddolar; ac y mae 'r
+      </lb> 
+      <lb n="13">un gwahaniaeth mewn pethau eraill. Fe all Labrwr gael tri 
+      </lb>
+      <lb n="13-14">chwarter
+      </lb>
+      <lb n="14">
+       Dollar yn gyffredin, ac ond hanner Dollar yn Johnsburgh. Yn
+      </lb> 
+      <lb n="15">amser cynhauaf gwair ac &#375;d fe all Labrwr gael o dri chwarter hyd yn
+      </lb> 
+      <lb n="16">Ddollar, neu fwyshiel o 'r R&#375;g neu Indian Corn. Fe all dyn ieuangc da
+      </lb> 
+      <lb n="17">o 16 hyd yn 20 oed gael o 10 i 12 Dollar y mis am y chwe' mis
+      </lb> 
+      <lb n="18">haf, ac o gylch 8 Dollar y mis yn y gauaf. Ond y mae nhw' yn
+      </lb> 
+      <lb n="19">cael 12 Dollar y mis am Arloesi yn fynych; fe all dyn Ieuangc gael
+      </lb> 
+      <lb n="20">Buwch am ddau fis o waith. Y rhai nid ydynt yn gyfarwydd a
+      </lb> 
+      <lb n="21">gwaith y wlad ni allant gael cymaint ar y cyntaf, ond fe all pob
+      </lb> 
+      <lb n="22">un ddysgu ein ffordd ni o weithio ac a  geisio ddysgu: mae digon
+      </lb> 
+      <lb n="23">o waith bob amser yn rhyw gwrr i 'r wlad; eithr ychydig o waith
+      </lb> 
+      <lb n="24">a geir yn y dinasoedd yn y gauaf; mae Canals yn cael eu gwneuthur
+      </lb> 
+      <lb n="25">yn y wlad yn bresenol, ac fe wniff \wnaiff\ pobl yr hen wlad y tro at y
+      </lb> 
+      <lb n="26">gwaith hwnw yn bur dda. Fe wneiff merched ieuaingc y tro yn
+      </lb> 
+      <lb n="27">bur dda ymhob cwrr o 'r wlad haf a gauaf. Fe all bechgyn
+      </lb> 
+      <lb n="28">ieuangc da gael gwaith a (lleoedd) a chyflogau da ymhob man. Y
+      </lb> 
+      <lb n="29">ffordd oreu i 'r rhai ac sydd ganddynt deuluoedd lliosog ydyw dyfod
+      </lb> 
+      <lb n="30">i le tebig i Johnsburgh a chymeryd tyddyn ar y cyd (os na byddant
+      </lb> 
+      <lb n="31">yn abl i 'w Stockio ei hunain) hyny ydyw i gael hanner y gwair,
+      </lb> 
+      <lb n="32">yr holl borfa,  hanner yr &#375;d, hanner y Caws, a hanner y menyn; a
+      </lb> 
+      <lb n="33">pherchenog y Tir yn rhoi Gwedd, Arad \aradr\, &Ocirc;g &amp;c a 'r Buchod. Mae genyf
+      </lb> 
+      <lb n="34">fi Farm yn Johnsburgh, ac yr wyf yn foddlon i 'w gosod ar yr 
+      </lb>
+      <lb n="34-35">Amodau
+      </lb>
+      <lb n="35">
+       hyny. Os daw fy Mrawd Hugh drosodd yn y Gwanwyn fe all ei
+      
+      
+      </lb>
+      </pb>
+      <pb n="4.">
+      
+       
+      <lb n="1">chael; ond os bydd yn dewis rhyw ran arall o 'r wlad eled yno.
+      </lb> 
+      <lb n="2">Rwyf yn meddwl danfon i New York gyfarwyddiadau iddo pa
+      </lb> 
+      <lb n="3">fodd i ddyfod ymlaen, ac hefyd oddeutu &pound;35 o 'ch Arian chwi. 
+      </lb>
+      <lb n="3-4">Bydded
+      </lb>
+      <lb n="4">
+       i 'r sawl ac a ddelo drosodd ddyfod a hyny allont o ddillad
+      </lb> 
+      <lb n="5">gwisgo, a dillad  gwelyau gyda hwynt, oblegid maent yn
+      </lb> 
+      <lb n="6">ddryd iawn yma. Na fydded i 'r M&ocirc;r na 'i donnau rwystro neb
+      </lb> 
+      <lb n="7">i ddyfod trosodd, canys yr hwn a wnaeth y tir, a wnaeth y M&ocirc;r
+      </lb> 
+      <lb n="8">hefyd. Steubend yw 'r unig le lle y pregethir cymraeg ac a wn
+      </lb> 
+      <lb n="9">i am dano yn y wlad hon. Mae yma ddigonedd o &#374;d y leni; yr
+      </lb> 
+      <lb n="10">oedd yr &#375;d yn brin iawn y llynedd o achos y sychder mawr a
+      </lb> 
+      <lb n="11">fu dros yn agos i flwyddyn o amser, ac hefyd am fod peth 
+      </lb> 
+      <lb n="12">dirifedi o yd wedi ei myned tros F&ocirc;r o bob rhan o 'r wlad hon.
+      </lb> 
+      <lb n="13">Cofiwch fi yn garedig at fy hen Fam os byw yw hi etto, ac at fy
+      </lb> 
+      <lb n="14">Mrodur am  Chwaer, a 'm h&ecirc;n gyfeillion i gyd oll yn 
+      </lb>
+      <lb n="14-15">Llanuwchllyn,
+      </lb>
+      <lb n="15">
+       pan fyddont yn agos at Dduw, cofiont am danaf finnau.
+      </lb> 
+      <lb n="16">Na feddylied y rhai a ddelont yma mae Nefoedd ar y Ddaear yw hi;
+      </lb> 
+      <lb n="17">Nag e ddim: Yma y mae croesau,  a phechod, a Satan,
+      </lb> 
+      <lb n="18">ond etto y wlad hon yn ddiau yw 'r oreu i ddyn tylawd i enill ei
+      </lb> 
+      <lb n="19">fara, a magu ei blant ar wyneb yr holl Ddaear: a molianus
+      </lb> 
+      <lb n="20">fyddo enw yr Arglwydd am ei fawr ddaioni i ni oll. Dylau y
+      </lb> 
+      <lb n="21">rhai a ddelont yma fod yn ffyddlon i 'r Llywodraeth hon. Od
+      </lb> 
+      <lb n="22">oes neb yn meddwl am ddyfod yma ac yn caru Llywodraeth
+      </lb> 
+      <lb n="23">Brenhinol, elent i Upper Canada, un o daleithiau Brenhin
+      </lb> 
+      <lb n="24">Lloegr, hwy allant fyw yn dda yno yn amser heddwch, ond
+      </lb> 
+      <lb n="25">yn amser rhyfel nhwy g&acirc;nt drwbl fe allai. Y mae yma
+      </lb> 
+      <lb n="26">Ddaear a D&#373;r, Bara, Rhyddid, a diogelwch personol; Iechyd a
+      </lb> 
+      <lb n="27">Saldra, Eirch a Beddau; a ffordd i 'r Nefoedd; Gwr&ecirc;s ac Oerni,
+      </lb> 
+      <lb n="28">Gwynt a Gwlaw, fel gwledydd eraill. Creawdur pob peth
+      </lb> 
+      <lb n="29">a 'ch diogelo ar for a thir, ac a 'n cymhwyso ni oll i 
+      </lb>
+      <lb n="29-30">ymddangos
+      </lb>
+      <lb n="30">
+       ger ei fron yn gymeradwy, Y 'w deisyfiad,
+      </lb> 
+      <lb n="31">Johnsburgh Warren County, Eich Serchiadol Ewyllysiwr da
+      </lb> 
+      <lb n="32">State of New York  John Richards.&#8212;
+      </lb> 
+      <lb n="33">Nov.r 3.rd 1817 &#8212;
+      
+      
+      
+      </lb>
+      </pb>
+      
+   </text>
+   <text id="NLW2722E_4">4. 
+      
+      
+      
+      <pb n="5.">
+      
+      
+      
+      {en  
+      <lb n="1">The following is a Copy of a Letter from William Thomas, son of
+      </lb> 
+      <lb n="2">Thomas Jones of Ty-mawr near Rhyd y Main, Parish of Llanfachreth,
+      </lb> 
+      <lb n="3">Merioneth Shire, who went to North America with   ______   of Dy Nant
+      </lb> 
+      <lb n="4">and others near Bala &amp; D&ocirc;lgelley in May 1818 &#8212; en}
+      
+      
+      
+      </lb> 
+      <lb n="5">Utica August 17.th 1818
+      </lb> 
+      <lb n="6">Fy Anwyl D&acirc;d a Mam, fy Mrodyr a 'm Chwiorydd/
+      
+      
+      
+      </lb> 
+      <lb n="7">Yr wyf fi yn danfon hyn o leiniau attoch gan
+      </lb> 
+      <lb n="8">obeithio eich bod chwi oll yn iach fel ac yr wyf finnau yn 
+      </lb>
+      <lb n="8-9">bresenol,
+      </lb>
+      <lb n="9">
+       i Dduw y byddo 'r diolch am bob Trugaredd: nid oes gennyf fi fawr
+      </lb> 
+      <lb n="10">o newyddion, ond fy mod i yn  gweithio yn y Cut (Canal) hefo
+      </lb> 
+      <lb n="11">Saeson, heb ddim cymraeg, am dair Dollar ar dd&ecirc;g y mis, ac y mae
+      </lb> 
+      <lb n="12">Dollar yn 4s .. 6d. o 'ch arian chwi; mae amriw o 'r cymru yn yr un fan
+      </lb> 
+      <lb n="13">am 22 Dollar yn y mis ar ei bwyd ei hynain, ond yr wyf fi yn
+      </lb> 
+      <lb n="14">cael bwyd a diod a golchi ganddynt hwy: nid ydyw llawer o 'r
+      </lb> 
+      <lb n="15">cymru yn leicio mo 'r wlad mor dda ac y cawsom glywed gan
+      </lb> 
+      <lb n="16">John Jones o 'r Penrhyn a John Richards, fe ddarfu rheini 
+      </lb>
+      <lb n="16-17">ddanfon
+      </lb>
+      <lb n="17">
+       llawer iawn o anwiredd: mae John Richards gwedi ymadel
+      </lb> 
+      <lb n="18">a 'i wraig er ys 2 flynedd, ac nid ydyw fo hanner mor abl ac
+      </lb> 
+      <lb n="19">y mae yn danfon am dano ei hyn: ac fe aeth John o 'r Penrhyn
+      </lb> 
+      <lb n="20">i New York i ymofyn am waith, o herwydd nad oes yn Stuben
+      </lb> 
+      <lb n="21">ddim i 'w gael, ac felly fe gafodd llawer o 'r Cymry ei siomi trwy
+      </lb> 
+      <lb n="22">lythyrau y gwyr yma: Oni bai fod y Cut (Canal) fe fuasau
+      </lb> 
+      <lb n="23">llawer iawn o 'r Cymru heb ddim gwaith. Yr wyf fi yn erfyn ar
+      </lb> 
+      <lb n="24">bawb o 'm Cymmydogion beidio a meddwl am ddyfod yma o herwydd
+      </lb> 
+      <lb n="25">hwy a wariant fwy wrth ddyfod yma nac a fedrant feddwl am
+      </lb> 
+      <lb n="26">dano; am hynny fy nghyngor i ydyw ar yddynt garu ei bro a thrigo
+      </lb> 
+      <lb n="27">ynddi, o herwydd fy m&ocirc;d yn meddwl am ddyfod yn &ocirc;l fy h&ucirc;n erbyn
+      </lb> 
+      <lb n="28">y Gwanwyn os caf gymmorth gan yr Arglwydd; a llawer o 'r
+      </lb> 
+      <lb n="29">Cymru yr un m&ocirc;dd os gallent gael modd erbyn y Gwanwyn.
+      </lb> 
+      <lb n="30">Mae 'r Tir yn anialwch gwyllt o goed heb glirio fawr o hono, ac
+      </lb> 
+      <lb n="31">am hynny nid yw o mo 'r gwerth gan y Cymru ei brynu. Mae 'r
+      </lb> 
+      <lb n="32">Haf yn boethach eleni nac y bu er ys lawer o flynyddoedd. Yn y
+      </lb> 
+      <lb n="33">fan lle 'r yr wyf fi yn gweithio, o fewn milldir i Utica, nid oes yma
+      
+      
+      </lb>
+      </pb>
+      <pb n="6.">
+      
+       
+      <lb n="1">na ffair na marchnad i bobl fynd a 'i hanifeiliaid; na n&ecirc;b yn dwad
+      </lb> 
+      <lb n="2">ar hyd y wlad i brynu fel ac y maent efo chwi: maent yn 
+      </lb>
+      <lb n="2-3">dywedyd
+      </lb>
+      <lb n="3">
+       y bydd y Gauaf yn Eira am 4 Mis; yn rhewi y bobl ar y ffyrdd
+      </lb> 
+      <lb n="4">os na bydd ganddynt ddillad lawer am danynt; maent hefyd yn
+      </lb> 
+      <lb n="5">dywedyd na bydd neb yn gallu gweithio am yr amser yma
+      </lb> 
+      <lb n="6">ac felly y mae llawer peth yn erbyn Ynnill; mae 'r tai yn bur 
+      </lb>
+      <lb n="6-7">ddrudion
+      </lb>
+      <lb n="7">
+      &nbsp;yma, o 4 i 6 Dollar yn y mis; a thai coed ydynt hefyd:
+      </lb> 
+      <lb n="8">mae 'r dillad yn  ddrudion iawn. Mae 'n well gan i weithio yn
+      </lb> 
+      <lb n="9"> yr h&ecirc;n wl&acirc;d am &pound;8 .. 8 . 0 na chael yma &pound;20 . 0 . 0; nid
+      </lb> 
+      <lb n="10">yw hi ddim gwell i 'r Crefftwyr na 'r Labrwyr. Mae 'r Carpenters
+      </lb> 
+      <lb n="11"> yn gweithio yn y Cut (Canal) heb ddim gwaith. Felly nid
+      </lb> 
+      <lb n="12">oes yma mo 'r llawer o bethau ac y clywsom fod, cyn gweled;
+      </lb> 
+      <lb n="13">o herwydd mi fu David Jones o Ben y bont-Lliw yn nhy John Richards,
+      </lb> 
+      <lb n="14">ac mi roedd o yn edrych yn h&ecirc;n ac yn s&acirc;l, mewn anialwch gwyllt
+      </lb> 
+      <lb n="15">a dillad pur s&acirc;l am dano. Mae 'r wlad yr un fath ag y darfu
+      </lb> 
+      <lb n="16">fy 'nhad ddweud i mi cyn cychwyn; a hyn yn fyr oddiwrth
+      </lb> 
+      <lb n="17">eich Mab,
+      </lb> 
+      <lb n="18">W. Thomas
+      </lb> 
+      <lb n="19">Gyrwch ar David Jones Pen y bont i ddweud fod
+      </lb> 
+      <lb n="20">Dafydd ei F&acirc;b yn gweithio mewn Tannws yn Utica, yn
+      </lb> 
+      <lb n="21">iach ac yn cofio at bawb o honynt yn Llanuwchllyn. &#8212;
+      
+      
+      {en 
+      </lb> 
+      <lb n="22">This Letter was thus directed.
+      </lb> 
+      <lb n="23">             ( Mr. Thomas Jones &#8212; Ty-mawr, Aber Iddon,
+      </lb> 
+      <lb n="24">August 17th. ( Llanfachreth near Dolgelley, Merioneth Shire
+      </lb> 
+      <lb n="25">1818 &#8212;       ( N. Wales .... British Packet for Liverpool &#8212;
+       en}
+      
+      
+      
+      </lb>
+      </pb>
+      
+   </text>
+   <text id="NLW2722E_5">5. 
+      
+      
+      
+      <pb n="7.">
+      
+      
+       
+      <lb n="1">Utica, Rhagfyr 11. 1818
+      </lb> 
+      <lb n="2">Anwyl Frawd /
+      
+      
+      
+      </lb> 
+      <lb n="3">            Cefais y fraint o anfon hyn o leiniau attet \atat\,
+      </lb> 
+      <lb n="4">dan obeithio y derbyni hwy yn dy iechid fel y 'th adewais, fel
+      </lb> 
+      <lb n="5">ag yr ydym ninau &ocirc;ll, i Dduw y byddo yr diolch am
+      </lb> 
+      <lb n="6">ei ryfedd ddaioni imi ymh&ocirc;b amgylchiad. Mae fy iechud
+      </lb> 
+      <lb n="7">yn dda er pan ddaethym i 'r wl&acirc;d hon; er bod yr h&acirc;f riw faint
+      </lb> 
+      <lb n="8">yn boethach. Maent yn dyweud bydd y Gauaf yn oer iawn;
+      </lb> 
+      <lb n="9">mae yr Eira wedi dechra ers tri diwrnod: Ond maent yn
+      </lb> 
+      <lb n="10">dweud y toddiff hwn etto, ond daw Eira o ddeutu yr Gwyliau
+      </lb> 
+      <lb n="11">ag yr erus hyd ganol Mawrth neu agos i Glamai \Galan Mai\, ac felly mae
+      </lb> 
+      <lb n="12">yr amser i lafurio yn fyr. Rydwyf yn ddiolchgar iawn i chwi
+      </lb> 
+      <lb n="13">am ddanfon Llythyr, yr hwn ddaeth i 'm llaw Rhagfyr 7.fd o
+      </lb> 
+      <lb n="14">flaen: yr un Llythyr arall o 'r h&ecirc;n Wl&acirc;d, ond cefais yn rhodd
+      </lb> 
+      <lb n="15">gan yr Arglwydd, ac a wnaeth i mi wylo a chwerthin yr un
+      </lb> 
+      <lb n="16">pryd, a 'm calon yn llammu o lawenydd, yn anisgwyliadwy,
+      </lb> 
+      <lb n="17">cael gweld fy Anwyl F&acirc;b Richard Richards, wedi bod ar ei
+      </lb> 
+      <lb n="18">Basets, (Passage) naw wythnos, ac yn s&acirc;l 5 wythnos, a chael
+      </lb> 
+      <lb n="19">ystorm fawr ne's \nes\ i 'r hwyliau fyn'd yn ddarnau lawer gwaith,
+      </lb> 
+      <lb n="20">roedd y M&ocirc;r yn aml yn taflu trosto ar y Deck; ond daeth yn
+      </lb> 
+      <lb n="21">iach i 'r lan i New York, rhosodd \arhosodd\ yno 5 diwrnod gyda ei Frawd
+      </lb> 
+      <lb n="22">Humphrey, yr hwn a gafodd yn bur garedig. Mae Humphrey
+      </lb> 
+      <lb n="23">yn enill o ddolar a hanner i ddolar a thri chwarter yn y dydd,
+      </lb> 
+      <lb n="24">ac yn ei cadw i gyd, ond ei fod yn talu tri dollar yn wythnos
+      </lb> 
+      <lb n="25">am ei fwyd (4s./6d. o arian Lloegr ydyw Dollar,) bu Richard yn
+      </lb> 
+      <lb n="26">agos i bythefnos yn dyfod o New York i Utica.
+      
+      
+      </lb> 
+      <lb n="27">Mae John fy M&acirc;b yn yr un man, mewn lle da, yr un modd
+      </lb> 
+      <lb n="28">ag y dywedais o 'r blaen, nid wyf yn gweled yn wiw anfon yr un
+      </lb> 
+      <lb n="29">peth ag a anfonais o 'r blaen. Rydym ni oll yn bur iach, a
+      </lb> 
+      <lb n="30">Mab bychan gan fy Merch Gr&acirc;s er ys Pythefnos, maent yn 
+      </lb> 
+      <lb n="31">buw yn bur gysurus; Gweithio Atsis, (Arches) tan y Canal:
+      </lb> 
+      <lb n="32">rydwyf fi a William Thomas tan yr wan; mae fo yn myned i
+      </lb> 
+      <lb n="33">ddyrnu yn ymyl y Dre, ar y ddegfed ran am ei boen, a 'i fwyd
+      </lb> 
+      <lb n="34">a 'i ddiod. Cafodd fy Mab Richard le ymhen dauddydd yn ymyl
+      </lb> 
+      <lb n="35">ei Frawd John, gyda gwr bonheddig mawr, yr un gwaith a 'i
+      </lb> 
+      <lb n="36">Frawd, edrych ar ol tri o Gyffylau a Buwch a thendio o 
+      
+      </lb>
+      </pb>
+      <pb n="7-8.">
+      <lb n="36-1">ddeutu
+      </lb>
+      </pb>
+      <pb n="8.">
+      <lb n="1">
+       yr Ty, ni raid iddo roi ei amser am ychydig gyflog, ni 
+      </lb>
+      <lb n="1-2">chafodd
+      </lb>
+      <lb n="2">
+       amser i ddod i 'r Ty; dynu am dano heb fynd yno, ond cafodd
+      </lb> 
+      <lb n="3">ddod yw tynu y nos, nid rhaid iddo wneud dim y nos, geill
+      </lb> 
+      <lb n="4">sbarin mwy o arian na myn'd i 'r Excise, gwnaeth yn gall 
+      </lb>
+      <lb n="4-5">ddyfod
+      </lb>
+      <lb n="5">
+       trosodd, geill ddyfod adre os bydd yn dewis ac yn hiraethu
+      </lb> 
+      <lb n="6">am ei hen feistr. Yrwan mi dreiaf roi ychydig attebion i 'ch
+      </lb> 
+      <lb n="7">gofynion, cewch wirionedd hyd y gallwyf fi ei amgyffred, ond
+      </lb> 
+      <lb n="8">credwch fi fel dyn ffaeledig; mae 'r tir yn wahanol yn ei bris
+      </lb> 
+      <lb n="9">yn ol ei sefyllfa. Tir Stuben heb ei glirio o gwmpas 5 Dollar
+      </lb> 
+      <lb n="10">yr Acre, ond y mae yn lle uchel pur fryniog, heb godi fawr
+      </lb> 
+      <lb n="11">o fwyd ond Pytatws, mae 'n lle da am wair a fforfa, Plwyf ydyw
+      </lb> 
+      <lb n="12">Stuben, a chanoedd o Gymru yn buw ynddo, os nad Miloedd, nis
+      </lb> 
+      <lb n="13">gallaf ddweud faint iw Tir wedi ei glirio yn Stuben, Pris
+      </lb> 
+      <lb n="14">Tir Coediog o ddeutu 'r Dre o 15 hyd 20 Dollar yr Acre. Mae 'r
+      </lb> 
+      <lb n="15">Coed yn werth mawr yn ymyl Tre. Pris Tir tan Rent o 
+      </lb>
+      <lb n="15-16">ddollar
+      </lb>
+      <lb n="16">
+       hyd 2 ddollar yr Acre, ac y mae digon i 'w gael ar b&ocirc;b 
+      </lb>
+      <lb n="16-17">amser;
+      </lb>
+      <lb n="17">
+       nid yw y Trethi ond isel, maent yn prisio 'r Stock i gyd,
+      </lb> 
+      <lb n="18">ac nid yw 'r Trethi ar y Tir, ond ychydig iawn. Maent yn hel
+      </lb> 
+      <lb n="19">y Trethi i gyd ar unwaith, ac yn eu rhanu at b&ocirc;b achos yn y
+      </lb> 
+      <lb n="20">wlad, cyflogau Bechgyn ieuanc o 8 i 10 dollar yn M&icirc;s; yn yr
+      </lb> 
+      <lb n="21">H&acirc;f o 10 i 12 dollar y Mis; cyflogau Merched o 4 dollar hyd 4 a
+      </lb> 
+      <lb n="22">chwarter y Mis. Cyflog yn y Canal iw dollar y dydd, wrth y Mis
+      </lb> 
+      <lb n="23">o 13 hyd 14 a 'i Bwyd, a 'i diod, a 'i  golchi a hanner pint
+      </lb> 
+      <lb n="24">o Whiskey bob dydd; ar eu Bwyd eu hunain o 22 i 23 dollar,
+      </lb> 
+      <lb n="25">gwlyb a Sych. Nid ydyw Esgydiau ond tebig i 'r h&ecirc;n  Wlad,
+      </lb> 
+      <lb n="26">ond bod eu gwneud yn ddrutach; eu pris wedi eu gwneud gwmpas
+      </lb> 
+      <lb n="27">2 ddolar, Brethynau sydd beth yn ddrutach. Mae 'r Anifeiliaid
+      </lb> 
+      <lb n="28">a 'r llafur yn codi, pris Bychod o 28 hyd yn 40 dollar; Cyffylau
+      </lb> 
+      <lb n="29">o 60 hyd yn 100 dollar; Defaid gwmpas dollar a hanner; Ymenyn
+      </lb> 
+      <lb n="30">18d y pwys o arian Lloegr, Caws 5d o arian Lloegr, Gwenith gwmpas
+      </lb> 
+      <lb n="31">Dollar a hanner y Bwshel, yr un mesur a Dolgellau, Pytatws
+      </lb> 
+      <lb n="32">19d a 'r Afalau yr un fath, Nid yw ddim iws i Lifiwrs ddyfod
+      </lb> 
+      <lb n="33">i 'r ardaloedd yma, melinau sydd yma yn llifio 'r cwbl, mae lle
+      </lb> 
+      <lb n="34">da yn New York i Lifiwrs, maent yno yn adeiladu 300 o dai
+      </lb> 
+      <lb n="35">y leni, gofaint sydd a chyflog mawr, ond nis gwn ydyw yn hawdd
+      </lb> 
+      <lb n="36">iddynt gael gwaith, clociau nid oes dim galw mawr am danynt
+      </lb> 
+      <lb n="37">ond mae ei pris beth yn fwy na 'r hen Wlad, a Watches yr un fath.
+      </lb> 
+      <lb n="38">Nid iw cyflogau Shopwyr fawr ond yr un fath a Hwsmun, mae bron
+      </lb> 
+      <lb n="39">pawb yn ysgolheigion da, mae cyflogau Merched yn fwy yn New
+      </lb> 
+      <lb n="40">York nag ydynt yn gyffredin o ddeutu Utica, ond ei bod yn iachach
+      </lb> 
+      <lb n="41">rwi 'n meddwl i 'r Cymru yma, &#8212; mewn perthynas i Grefydd, nid ydyw
+      
+      
+      </lb>
+      </pb>
+      <pb n="9.">
+      
+       
+      <lb n="1">ond go lesg, i 'w chydmaru a 'r h&ecirc;n Wl&acirc;d, nid ydyw y Llefarwyr ond
+      </lb> 
+      <lb n="2">anaml iawn, er bod ugeiniau o Aelodau proffesedig ymlith y
+      </lb> 
+      <lb n="3">Cymru os nad Canoedd, ac mae yma Lywodraeth rydd iawn i 'r
+      </lb> 
+      <lb n="4">Efengyl, a 'r un modd hefyd i Bechu. nid ydyw yn beth rhyfedd
+      </lb> 
+      <lb n="5">gweled dynion yn lladd gwair ar y Sabath ac ereill yn ei 
+      </lb>
+      <lb n="5-6">gyweirio
+      </lb>
+      <lb n="6">
+       ac ereill yn cario, eraill yn troi, ac eraill yn cario i 'r
+      </lb> 
+      <lb n="7">Dre a 'i Gwageni, a phob math o Buteindra o thor Priodasau,
+      </lb> 
+      <lb n="8">nid ydyw y ddau Sacrament ond yr un fath a 'r hen wlad
+      </lb> 
+      <lb n="9">gan Ddysenters a Babtists, ond nid oes dim cynylleidfa o
+      </lb> 
+      <lb n="10">Fethodist lle y gwn i am danynt, mae pob enw yn Priodi
+      </lb> 
+      <lb n="11">yn eu plith eu hunain, nis gwaeth ganthynt pa amser na
+      </lb> 
+      <lb n="12"> pha le. gartre ai oddi gartre ai nos ai dydd, ond mae lle
+      </lb> 
+      <lb n="13">i gladdu wrth rai Tai addoliad, a rhai llefydd pwrpasol hyd
+      </lb> 
+      <lb n="14">y Meusydd, ymbell un yn claddu ei Etifedd yn ymyl ei Dy i
+      </lb> 
+      <lb n="15">spario trafferth, nid oes neb yn darllen dim uwch ben y
+      </lb> 
+      <lb n="16">Corph marw, ond claddwch fy Marw allan o 'm golwg, nid oes
+      </lb> 
+      <lb n="17">fawr wahaniaeth rhyngddynt a 'r h&ecirc;n Fethodist yn gynnal eu
+      </lb> 
+      <lb n="18">gweinidogion yma, nid oes yma neb yn byw wrth Bregethu yn
+      </lb> 
+      <lb n="19">unig, ond maent bawb yn dilin rhyw alwedigaeth, buasau
+      </lb> 
+      <lb n="20">dda genyf gofio fy ffrindiau wrth eu henwau, ond mae 'r lle
+      </lb> 
+      <lb n="21">yn fychan, cofiwch fi at Catrin Robert, a Betsan, a phobl y
+      </lb> 
+      <lb n="22">Pantclyd, a 'r Graig, a Magdalen, yn neillduol fy anwyl Eneth
+      </lb> 
+      <lb n="23">sydd yn aml ar fy meddwl, Nis gallaf annog ffarmwyr fyddo
+      </lb> 
+      <lb n="24">yn byw yn dda yn eu gwlad i ddyfod trosodd, ac yn gallu talu eu
+      </lb> 
+      <lb n="25">ffordd gartre, mae 'r Efengyl yn ei Sandalau yn yr hen wlad.
+      </lb> 
+      <lb n="26">Rhaid i mi ddibenu a 'ch gadael oll i 'r hwn a greodd For a Thir,
+      </lb> 
+      <lb n="27">Bydd dda genyf gael Llythyr ganthoch, mae yn ddrwg genyf
+      </lb> 
+      <lb n="28">na allaswn roi mwy o 'm hanes fy hun ond mae 'r lle yn rhy
+      </lb> 
+      <lb n="29">fach, yr hwn wyf eich Brawd ______   David Richard
+      
+      
+      
+      
+      </lb>
+      </pb>
+      
+   </text>
+</text>

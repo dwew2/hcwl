@@ -10,6 +10,11 @@ let corpora=
 	{
 		filename:'hcwl_sketchengine_v4.txt',
 		type:'html'
+	},
+	amer_ske:
+	{
+		filename:'HCWL Sketchengine/files/amer_ske.xml',
+		type:'html'
 	}
 }
 

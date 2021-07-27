@@ -1,0 +1,167 @@
+<!-- It was not possible to give modified content models of an element in this extension file AND keep the original content model in the xteipvd.dtd file. Therefore changes to content models are made in the xteipvd.file. -->
+<!--  The following elements are deleted     -->
+<!--  The following elements are renamed     -->
+<!--  The following classes are extended     -->
+<!--  The following elements are revised   -->
+<!-- possible alternative reading: -->
+<!ATTLIST unclear
+alt CDATA #IMPLIED
+>
+<!ATTLIST hi
+rend (unspecified | antiqua | bold | italic | normal | smallcaps | superscript | underlined | twice-underlined | big4 | big5 | big6 | big7 | big8 | big13 | rubric) "unspecified"
+>
+<!-- old values successively to be replaced by Guideline's -->
+<!ATTLIST add
+place (bottom | interlinear | infralinear | inline | left | mixed | opposite | right | supralinear | top | verso | margin | left-margin | right-margin | previous-line | unspecified) #IMPLIED
+>
+<!ATTLIST fw
+type (speaker-repeat | catchword | pageNum | header | other) "other"
+>
+<!ATTLIST lb
+rend (shy | om-shy | hyphen | no-shy | superfluous-shy | isp | dsp) "no-shy"
+>
+<!ATTLIST pb
+rend (shy | om-shy | hyphen | no-shy | superfluous-shy) "no-shy"
+>
+<!-- attribute PART added to element CORR -->
+<!ATTLIST corr
+part (a | b | complete) "complete"
+resp IDREF #REQUIRED
+>
+<!-- attribute PART added to element Q -->
+<!ATTLIST q
+part (i | m | f | complete) "complete"
+>
+<!-- complete definition -->
+<!--
+<!ELEMENT corr (#PCDATA | abbr | address | date | dateRange | dateStruct | expan | geogName | measure | name | num | orgName | persName | placeName | rs | time | timeRange | timeStruct | add | app | corr | damage | del | orig | reg | restore | sic | space | supplied | unclear | distinct | emph | foreign | gloss | hi | mentioned | soCalled | term | title | ptr | ref | xptr | xref | caesura | c | cl | m | phr | s | seg | w | fw | handShift | bibl | biblFull | biblStruct | cit | q | quote | label | list | listBibl | note | witDetail | camera | caption | move | sound | tech | view | castList | stage | text | ab | l | lg | p | sp | witList | alt | altGrp | certainty | fLib | fs | fsLib | fvLib | index | interp | interpGrp | join | joinGrp | link | linkGrp | respons | span | spanGrp | timeline | cb | lb | milestone | pb | addSpan | delSpan | gap | lacunaEnd | lacunaStart | witEnd | witStart | anchor)*>
+<!ATTLIST corr
+part (a | b | complete) "complete"
+ana IDREFS #IMPLIED
+copyOf IDREF #IMPLIED
+corresp IDREFS #IMPLIED
+sameAs IDREF #IMPLIED
+select IDREFS #IMPLIED
+synch IDREFS #IMPLIED
+next IDREF #IMPLIED
+exclude IDREFS #IMPLIED
+prev IDREF #IMPLIED
+id ID #IMPLIED
+lang IDREF #IMPLIED
+rend CDATA #IMPLIED
+n CDATA #IMPLIED
+cert CDATA #IMPLIED
+sic CDATA #IMPLIED
+resp CDATA #IMPLIED
+TEIform CDATA "corr"
+>
+-->
+<!-- complete definition -->
+<!--
+<!ELEMENT q (#PCDATA | abbr | address | date | dateRange | dateStruct | expan | geogName | measure | name | num | orgName | persName | placeName | rs | time | timeRange | timeStruct | add | app | corr | damage | del | orig | reg | restore | sic | space | supplied | unclear | distinct | emph | foreign | gloss | hi | mentioned | soCalled | term | title | ptr | ref | xptr | xref | caesura | c | cl | m | phr | s | seg | w | fw | handShift | bibl | biblFull | biblStruct | cit | q | quote | label | list | listBibl | note | witDetail | camera | caption | move | sound | tech | view | castList | stage | text | ab | l | lg | p | sp | witList | alt | altGrp | certainty | fLib | fs | fsLib | fvLib | index | interp | interpGrp | join | joinGrp | link | linkGrp | respons | span | spanGrp | timeline | cb | lb | milestone | pb | addSpan | delSpan | gap | lacunaEnd | lacunaStart | witEnd | witStart | anchor)*>
+<!ATTLIST q
+part (i | m | f | complete) "complete"
+ana IDREFS #IMPLIED
+copyOf IDREF #IMPLIED
+corresp IDREFS #IMPLIED
+sameAs IDREF #IMPLIED
+select IDREFS #IMPLIED
+synch IDREFS #IMPLIED
+next IDREF #IMPLIED
+exclude IDREFS #IMPLIED
+prev IDREF #IMPLIED
+id ID #IMPLIED
+lang IDREF #IMPLIED
+rend CDATA #IMPLIED
+n CDATA #IMPLIED
+who CDATA #IMPLIED
+type CDATA #IMPLIED
+direct (y | n | unspecified) "unspecified"
+TEIform CDATA "q"
+>
+-->
+<!-- added element FW to content of element LG (three times after pb) [this has been moved back to the xteipvd.dtd file] -->
+<!--
+<!ELEMENT lg ((argument | byline | dateline | docAuthor | docDate | epigraph | head | opener | salute | signed | alt | altGrp | certainty | fLib | fs | fsLib | fvLib | index | interp | interpGrp | join | joinGrp | link | linkGrp | respons | span | spanGrp | timeline | cb | lb | milestone | pb | fw | addSpan | delSpan | gap | lacunaEnd | lacunaStart | witEnd | witStart | anchor)*, (l | lg), (l | lg | alt | altGrp | certainty | fLib | fs | fsLib | fvLib | index | interp | interpGrp | join | joinGrp | link | linkGrp | respons | span | spanGrp | timeline | cb | lb | milestone | pb | fw | addSpan | delSpan | gap | lacunaEnd | lacunaStart | witEnd | witStart | anchor)*, ((byline | closer | dateline | epigraph | salute | signed | trailer), (alt | altGrp | certainty | fLib | fs | fsLib | fvLib | index | interp | interpGrp | join | joinGrp | link | linkGrp | respons | span | spanGrp | timeline | cb | lb | milestone | pb | fw | addSpan | delSpan | gap | lacunaEnd | lacunaStart | witEnd | witStart | anchor)*)*)>
+<!ATTLIST lg
+ana IDREFS #IMPLIED
+copyOf IDREF #IMPLIED
+corresp IDREFS #IMPLIED
+sameAs IDREF #IMPLIED
+select IDREFS #IMPLIED
+synch IDREFS #IMPLIED
+next IDREF #IMPLIED
+exclude IDREFS #IMPLIED
+prev IDREF #IMPLIED
+id ID #IMPLIED
+lang IDREF #IMPLIED
+rend CDATA #IMPLIED
+n CDATA #IMPLIED
+sample (initial | medial | final | unknown | complete) "complete"
+part (Y | N | I | M | F) "N"
+type CDATA #IMPLIED
+org (composite | uniform) "uniform"
+real CDATA #IMPLIED
+met CDATA #IMPLIED
+rhyme CDATA #IMPLIED
+TEIform CDATA "lg"
+>
+-->
+<!-- added element FW to content of element SP (three times after pb) [this has been moved back to the xteipvd.dtd file] -->
+<!--
+<!ELEMENT sp ((alt | altGrp | certainty | fLib | fs | fsLib | fvLib | index | interp | interpGrp | join | joinGrp | link | linkGrp | respons | span | spanGrp | timeline | cb | lb | milestone | pb | fw | addSpan | delSpan | gap | lacunaEnd | lacunaStart | witEnd | witStart | anchor)*, (speaker, (alt | altGrp | certainty | fLib | fs | fsLib | fvLib | index | interp | interpGrp | join | joinGrp | link | linkGrp | respons | span | spanGrp | timeline | cb | lb | milestone | pb | fw | addSpan | delSpan | gap | lacunaEnd | lacunaStart | witEnd | witStart | anchor)*)?, ((p | l | lg | seg | ab | stage), (alt | altGrp | certainty | fLib | fs | fsLib | fvLib | index | interp | interpGrp | join | joinGrp | link | linkGrp | respons | span | spanGrp | timeline | cb | lb | milestone | pb | fw | addSpan | delSpan | gap | lacunaEnd | lacunaStart | witEnd | witStart | anchor)*)+)>
+<!ATTLIST sp
+ana IDREFS #IMPLIED
+copyOf IDREF #IMPLIED
+corresp IDREFS #IMPLIED
+sameAs IDREF #IMPLIED
+select IDREFS #IMPLIED
+synch IDREFS #IMPLIED
+next IDREF #IMPLIED
+exclude IDREFS #IMPLIED
+prev IDREF #IMPLIED
+id ID #IMPLIED
+lang IDREF #IMPLIED
+rend CDATA #IMPLIED
+n CDATA #IMPLIED
+who IDREFS #IMPLIED
+TEIform CDATA "sp"
+>
+-->
+<!-- The following additions are canceled for the moment (23 Nov 2001) -->
+<!-- New empty element isp (Insert SPace to achieve regularization),    -->
+<!-- roughly equivalent to <orig reg=" "></orig>.                       -->
+<!-- Goes into class EDIT.                                              -->
+<!--
+<!ELEMENT isp EMPTY>
+<!ATTLIST isp
+id ID #IMPLIED
+n CDATA #IMPLIED
+TEIform CDATA "orig"
+>
+-->
+<!-- New empty element dsp (Delete SPace to achieve regularization),    -->
+<!-- roughly equivalent to <orig reg=""> </orig>.                       -->
+<!-- Goes into class EDIT.                                              -->
+<!--
+<!ELEMENT dsp EMPTY>
+<!ATTLIST dsp
+id ID #IMPLIED
+n CDATA #IMPLIED
+TEIform CDATA "orig"
+>
+-->
+<!-- Add new element lbh; this is lb with rend value fixed to rend='hyphen';
+attribute list is modeled on the teilite.dtd attribute list of lb.
+-->
+<!--
+<!ELEMENT lbh EMPTY>
+<!ATTLIST lbh
+id ID #IMPLIED
+lang IDREF #IMPLIED
+rend CDATA #FIXED "hyphen"
+ed CDATA #IMPLIED
+n CDATA #IMPLIED
+TEIform CDATA "lb"
+>
+-->

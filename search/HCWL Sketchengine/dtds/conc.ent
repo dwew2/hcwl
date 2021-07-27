@@ -1,0 +1,158 @@
+<!ENTITY aacute "a">
+<!ENTITY Aacute "A">
+<!ENTITY acirc "a">
+<!ENTITY Acirc "A">
+<!ENTITY agr "a">
+<!ENTITY agrave "a">
+<!ENTITY Agrave "A">
+<!ENTITY auml "a">
+<!ENTITY Auml "A">
+
+<!ENTITY dagger "†">
+<!ENTITY Dagger "‡">
+
+<!ENTITY eacute "e">
+<!ENTITY Eacute "E">
+<!ENTITY ecirc "e">
+<!ENTITY Ecirc "E">
+<!ENTITY egrave "e">
+<!ENTITY Egrave "E">
+<!ENTITY euml "e">
+<!ENTITY Euml "E">
+
+<!ENTITY iacute "i">
+<!ENTITY Iacute "I">
+<!ENTITY icirc "i">
+<!ENTITY Icirc "I">
+<!ENTITY igrave "i">
+<!ENTITY Igrave "I">
+<!ENTITY iuml "i">
+<!ENTITY Iuml "I">
+
+<!ENTITY nbsp " ">
+
+<!ENTITY oacute "o">
+<!ENTITY Oacute "O">
+<!ENTITY ocirc "o">
+<!ENTITY Ocirc "O">
+<!ENTITY oelig "oe">
+<!ENTITY OElig "OE">
+<!ENTITY ohgr "o">
+<!ENTITY ograve "o">
+<!ENTITY Ograve "O">
+<!ENTITY ouml "o">
+<!ENTITY Ouml "O">
+
+<!ENTITY uacute "u">
+<!ENTITY Uacute "U">
+<!ENTITY ucirc "u">
+<!ENTITY Ucirc "U">
+<!ENTITY ugrave "u">
+<!ENTITY Ugrave "U">
+<!ENTITY uuml "u">
+<!ENTITY Uuml "U">
+
+<!ENTITY wacute "w">
+<!ENTITY Wacute "W">
+<!ENTITY wcirc "w">
+<!ENTITY Wcirc "W">
+<!ENTITY wgrave "w">
+<!ENTITY Wgrave "W">
+<!ENTITY wuml "w">
+<!ENTITY Wuml "W">
+
+<!ENTITY yacute "y">
+<!ENTITY Yacute "Y">
+<!ENTITY ycirc "y">
+<!ENTITY Ycirc "Y">
+<!ENTITY ygrave "y">
+<!ENTITY Ygrave "Y">
+<!ENTITY yuml "y">
+<!ENTITY Yuml "Y">
+
+<!ENTITY Eogon "E">
+<!ENTITY eogon "e">
+<!ENTITY aelig "ae">
+<!ENTITY egon "ae">
+<!ENTITY frac14 "1/4">
+<!ENTITY frac12 "1/2">
+<!ENTITY frac34 "3/4">
+<!ENTITY pound "£">
+<!ENTITY cd "ch">
+<!-- LATIN SMALL LETTER C WITH SUBSCRIPT DOT = <ch> -->
+<!ENTITY Cd "Ch">
+<!-- LATIN CAPITAL LETTER C WITH SUBSCRIPT DOT -->
+<!ENTITY dd "dd">
+<!-- LATIN SMALL LETTER D WITH SUBSCRIPT DOT -->
+<!ENTITY Dd "Dd">
+<!-- LATIN CAPITAL LETTER D WITH SUBSCRIPT DOT -->
+<!ENTITY dhook "dd">
+<!-- SMALL LATIN LETTER D WITH ATTACHED HOOK/APOSTROPHE = <dd> -->
+<!ENTITY Dhook "Dd">
+<!-- CAPITAL LATIN LETTER D WITH ATTACHED HOOK/APOSTROPHE = <dd> -->
+<!ENTITY ld "ll">
+<!-- LATIN SMALL LETTER L WITH SUBSCRIPT DOT -->
+<!ENTITY Ld "Ll">
+<!-- LATIN CAPITAL LETTER L WITH SUBSCRIPT DOT -->
+<!ENTITY ldquo "&quot;">
+<!ENTITY rdquo "&quot;">
+<!ENTITY lsquo "'">
+<!ENTITY rsquo "'">
+<!ENTITY ldquor "&quot;">
+<!ENTITY lhook "ll">
+<!-- SMALL LATIN LETTER L WITH ATTACHED HOOK/APOSTROPHE = <ll> -->
+<!ENTITY mdash " - ">
+<!ENTITY mh "mh">
+<!-- LATIN SMALL LIGATURE MH -->
+<!ENTITY ng "ng">
+<!-- LATIN SMALL LIGATURE NG -->
+<!ENTITY Ng "Ng">
+<!-- LATIN CAPITAL LIGATURE NG -->
+<!ENTITY ngh "ngh">
+<!-- LATIN SMALL LIGATURE NGH -->
+<!ENTITY nh "nh">
+<!-- LATIN SMALL LIGATURE NH -->
+<!ENTITY Nh "Nh">
+<!-- LATIN CAPITAL LIGATURE NH -->
+<!ENTITY pd "ph">
+<!-- LATIN SMALL LETTER P WITH SUBSCRIPT DOT = <ph> -->
+<!ENTITY Pd "Ph">
+<!-- LATIN CAPITAL LETTER P WITH SUBSCRIPT DOT = <Ph> -->
+<!ENTITY rd "rh">
+<!-- LATIN SMALL LETTER R WITH SUBSCRIPT DOT -->
+<!ENTITY Rd "Rh">
+<!-- LATIN CAPITAL LETTER R WITH SUBSCRIPT DOT -->
+<!ENTITY td "th">
+<!-- LATIN SMALL LETTER T WITH SUBSCRIPT DOT -->
+<!ENTITY Td "Th">
+<!-- LATIN CAPITAL LETTER T WITH SUBSCRIPT DOT -->
+<!ENTITY ud "w">
+<!-- LATIN SMALL LETTER U WITH SUBSCRIPT DOT -->
+<!ENTITY Ud "W">
+<!-- LATIN CAPITAL LETTER U WITH SUBSCRIPT DOT -->
+<!ENTITY vd "w">
+<!-- LATIN SMALL LETTER V WITH SUBSCRIPT DOT -->
+<!ENTITY Vd "W">
+<!-- LATIN CAPITAL LETTER V WITH SUBSCRIPT DOT -->
+<!ENTITY vv "w">
+<!-- DIGRAPH VV AS ANTIQUA-REPLACEMENT FOR W -->
+<!ENTITY ycd "'ch">
+<!-- /c/ WITH SUBSCRIPT DOT IN MSS-->
+<!ENTITY ym "'m">
+<!-- /m/ IN MSS-->
+<!ENTITY yn "'n">
+<!-- /n/ IN MSS-->
+<!ENTITY yr "'r">
+<!-- /r/ IN MSS-->
+<!ENTITY er "{er}">
+<!-- ABBREVIATION FOR ER -->
+<!-- note: in Engl. Chronicle, always after m! -->
+<!-- five corrections to iso-lat1.ent: -->
+<!ENTITY eth "dd">
+<!-- LATIN SMALL LETTER ETH -->
+<!ENTITY ETH "Dd">
+<!-- LATIN CAPITAL LETTER ETH -->
+<!ENTITY oslash "&#x00F8;">
+<!-- LATIN SMALL LETTER O WITH STROKE -->
+<!ENTITY insmark "*">
+<!-- quotation mark as insertion mark -->

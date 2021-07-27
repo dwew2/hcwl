@@ -1,0 +1,4351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../sketchengine.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+
+
+
+<text id="JAUG">
+   
+   
+   
+   <pb n="iii.">
+   
+   
+   <head>
+    
+   <lb n="1">Y Rhagymadrodd at y Darllenydd.</lb>
+   </head>
+   
+   
+   
+   
+   
+    
+   <lb n="2">Yr hanes hon o fywyd a phrofiad ysprydol James
+   </lb> 
+   <lb n="3">Albert, a gymmerwyd o 'i enau ef ei hun, ac a
+   </lb> 
+   <lb n="4">roddwyd ar bapur gan bin ysgrifennu pendefiges 
+   </lb>
+   <lb n="4-5">ieuangc
+   </lb>
+   <lb n="5">
+    o dref Llanllieni (Leominster), er ei difyrrwch
+   </lb> 
+   <lb n="6">ei hun, ac heb un diben ar y cyntaf i 'w wneud yn
+   </lb> 
+   <lb n="7">gyhoeddus. Ond fe gafwyd ganddi yn awr ei roddi
+   </lb> 
+   <lb n="8">mewn argraph-wasg, o un diben (fel yr ydys yn
+   </lb> 
+   <lb n="9">meddwl) bydd yr hanes fechan hon i gynnwys sylwedd
+   </lb> 
+   <lb n="10">deilwng o sylwiad a gwrandawiad pob darllenydd
+   </lb> 
+   <lb n="11">Crist'nogol.&#8212;&#8212;Fe allai fod gennym ni yma, mewn
+   </lb> 
+   <lb n="12">rhyw radd, agoriad o 'r cwestiwn hwnnw ag a flinodd
+   </lb> 
+   <lb n="13">feddyliau cynnifer o ddynion prysur: sef ymha \ym mha\ ddull y
+   </lb> 
+   <lb n="14">delia Duw&nbsp;&acirc; 'r rhannau tywyll hynny o 'r byd lle na's
+   </lb> 
+   <lb n="15">daeth erioed mo Efengyl Iesu Grist? Yn awr mae
+   </lb> 
+   <lb n="16">yn ymddangos oddi wrth brofiadau y dyn hynod hwn,
+   </lb> 
+   <lb n="17">nad yw Duw yn achub heb wybodaeth y gwirionedd;
+   </lb> 
+   <lb n="18">ond am y rhei'ny ragwybu efe, er iddynt gael eu geni
+   </lb> 
+   <lb n="19">tan bob anfantais allanol, ac yn yr ardaloedd o 
+   </lb>
+   <lb n="19-20">dywyllwch
+   </lb>
+   <lb n="20">
+    ac anwybodaeth mwya dudew, rhaid iddo
+   </lb> 
+   <lb n="21">weithio yn rhyfeddol ar, ac effeithio eu meddyliau, ac
+   </lb> 
+   <lb n="22">mewn gwryd o ragluniaethau doeth a mwya rhyfeddol
+   </lb> 
+   <lb n="23">wedi eu happwyntio, mae efe yn eu dwyn hwynt at
+   </lb> 
+   <lb n="24">foddion o ysprydol gyfarwyddiad, yn agor yn raddol
+   </lb> 
+   <lb n="25">i 'w golwg lewyrch y gwirionedd, ac yn rhoddi iddynt
+   </lb> 
+   <lb n="26">lawn berchennogaeth a mwynh&acirc;d o fendithion 
+   </lb>
+   <lb n="26-27">anchwiliadwy
+   </lb>
+   <lb n="27">
+    ei Efengyl.&#8212;Pwy all ammau na ddaeth yr 
+   </lb>
+   <lb n="27-28">argyhoeddiadau
+   </lb>
+   <lb n="28">
+    ag oedd yn cael eu cymmell mor nerthol
+   </lb> 
+   <lb n="29">ar feddyliau Albert, pan oedd yn fachgen, fod Bod
+   </lb> 
+   <lb n="30">yn uwch n&acirc; 'r haul, y lloer, a 'r ser (gwrthddrychau \gwrthrychau\
+   </lb> 
+   <lb n="31">addoliad pobl Affrica) oddi wrth Dad y goleuni, a 'u
+   </lb> 
+   <lb n="32">bod, mewn perthynas iddo ef, yn flaenffrwyth o 
+   </lb>
+   <lb n="32-33">lewyrchiad
+   </lb>
+   <lb n="33">
+    gogoniant yr Efengyl? A ystyriwn ni ei
+   </lb> 
+   <lb n="34">siwrnai faith beryglus ef i oror Guinea, lle y 
+   </lb>
+   <lb n="34-35">gwerthwyd
+   </lb>
+   <lb n="35">
+    ef yn gaethwas, ac felly y dygwyd ef i dir 
+   </lb>
+   <lb n="35-36">Crist'nogol,
+   </lb>
+   <lb n="36">
+     yn unig fel effaith tueddiad astud, ymofyngar?
+   </lb> 
+   <lb n="37">A gawn ni wrth roi cyfrif ohono ei roi ef i ddim sydd
+   </lb> 
+   <lb n="38">uwch nag unig ddamwain, neu amgylchiad 
+   </lb>
+   <lb n="38-39">digwyddiadol?
+   </lb>
+   <lb n="39">
+    Pa beth bynnag feddylio Deistiaid ac 
+   </lb>
+   <lb n="39-40">Athistiaid,
+   </lb>
+   <lb n="40">
+    \Atheistiaid\ yr wyf yn gobeithio y bydd i 'r darllenydd 
+   
+   </lb>
+   </pb>
+   <pb n="iii-iv.">
+   <lb n="40-1">Crist'nogol
+   </lb>
+   </pb>
+   <pb n="iv.">
+   <lb n="1">
+    yn hawdd ganfod trefniad a chyfarwyddiad
+   </lb> 
+   <lb n="2">ddoeth a hollalluog yn yr holl ysgogiadau hyn. Yr
+   </lb> 
+   <lb n="3">oedd ef yn perthyn i Waredwr pechaduriaid colledig;
+   </lb> 
+   <lb n="4">pwrcas ei groes ydoedd; am hynny yr Arglwydd 
+   </lb>
+   <lb n="4-5">gymmerodd
+   </lb>
+   <lb n="5">
+    arno ei dywys ef ffordd ni's adnabu, o 
+   </lb>
+   <lb n="5-6">dywyllwch
+   </lb>
+   <lb n="6">
+    i 'w ryfeddol oleuni, fel y gallai ei arwain
+   </lb> 
+   <lb n="7">ef i iachusol galon-adnabyddiaeth ac undeb &acirc; 'r Tri yn
+   </lb> 
+   <lb n="8">Un Duw yng Nghrist yn cymmodi 'r byd ag ef ei
+   </lb> 
+   <lb n="9">hun, heb gyfrif iddynt eu pechodau.&#8212;Fel yr oedd
+   </lb> 
+   <lb n="10">ei alwad ef yn anarferol iawn, felly mae rhai pethau
+   </lb> 
+   <lb n="11">neilltuol yn hynod iawn yn ei brofiadau ef. Duw
+   </lb> 
+   <lb n="12">ddododd anrhydedd neilltuol arno yn arferiad ei ffydd
+   </lb> 
+   <lb n="13">a 'i amynedd, yr hon yn y treialon a 'r cystuddiau mwya,
+   </lb> 
+   <lb n="14">cyfyng a thruenus a gafwyd er clod a gogoniant i 'r
+   </lb> 
+   <lb n="15">Arglwydd. Pa mor ddwfn mae 'n rhaid ei fod yn
+   </lb> 
+   <lb n="16">effeithio ar galon dyner i gael ei droi nid yn unig i 'r
+   </lb> 
+   <lb n="17">cyfyngder eithaf ei hunan, ond  bod ei wraig a 'i blant
+   </lb> 
+   <lb n="18">ar ddarfod amdanynt o flaen ei lygaid! Etto ni
+   </lb> 
+   <lb n="19">ddiffygiodd ei ffydd ef; fe obeithiodd yn yr 
+   </lb>
+   <lb n="19-20">Arglwydd,
+   </lb>
+   <lb n="20">
+    ac fe waredwyd. Ac yn y funud hon, er
+   </lb> 
+   <lb n="21">iddo gael ei eni o waedoliaeth uchel, ac yn awr tan
+   </lb> 
+   <lb n="22">bwys amrywiol ragluniaethau cystuddiol, yr wyf yn
+   </lb> 
+   <lb n="23">credu (canys yr wyf yn adnabod y dyn) y byddai yn
+   </lb> 
+   <lb n="24">well ganddo gofleidio 'r dommen &acirc;&nbsp;Christ yn ei 
+   </lb>
+   <lb n="24-25">galon,
+   </lb>
+   <lb n="25">
+    n&acirc; rhoi fynu ei feddiannau ysprydol a 'i fwynh&acirc;d
+   </lb> 
+   <lb n="26">i lanw gorseddfaingc brenhinoedd. Fe allai nad yw
+   </lb> 
+   <lb n="27">ddim maes o le i ddal sulw i James Albert ymadael
+   </lb> 
+   <lb n="28">&acirc; 'i wlad enedigol (mor belled ag allaf ddeall oddi
+   </lb> 
+   <lb n="29">wrth rai amgylchiadau) pan oedd ef ond 15 mlwydd
+   </lb> 
+   <lb n="30">oed; mae yn ymddangos yn awr ei fod wedi troi ar
+   </lb> 
+   <lb n="31">drugain \drigain\: o ddeall naturiol da iawn; yn bur 
+   </lb>
+   <lb n="31-32">gyfarwydd
+   </lb>
+   <lb n="32">
+    yn yr Ysgrythurau, a phethau Duw, ac yn
+   </lb> 
+   <lb n="33">berchen tymmer garuaidd a thyner; a 'i ymddygiad da
+   </lb> 
+   <lb n="34">ellir dystio nid yn unig yn Kidderminster, lle mae ef
+   </lb> 
+   <lb n="35">yr awr hon yn aros, ond hefyd gan amryw bersonau
+   </lb> 
+   <lb n="36">credadwy yn Llundain a lleoedd eraill. Ddarllenydd,
+   </lb> 
+   <lb n="37">gan gyflwyno yr hanes hon i 'ch darlleniad, ac yntef
+   </lb> 
+   <lb n="38">yr hwn yw y testun ohoni i 'ch parch cariadus,
+   
+   
+   
+   </lb> 
+   <lb n="39">Yr wyf eich ffyddlon a 'ch ufudd was er mwyn Crist,
+   </lb> 
+   <lb n="40">W. SHIRLEY.
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="5.">
+   
+   
+   
+   
+   <head>
+   
+    
+   <lb n="1">HANES</lb>
+    
+   <lb n="2">James Albert, &amp;c.</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="3">FE 'm ganwyd yn ninas Bournou; fy
+   </lb> 
+   <lb n="4">mam oedd ferch henaf brenhin Zaara,
+   </lb> 
+   <lb n="5">dinas bennaf pa un yw Bournou.
+   </lb> 
+   <lb n="6">Myfi oedd y ieuangaf o chwech o
+   </lb> 
+   <lb n="7">blant, ac yn cael fy ngharu yn 
+   </lb>
+   <lb n="7-8">neilltuol
+   </lb>
+   <lb n="8">
+    gan fy mam, a fy nhaid oedd
+   </lb> 
+   <lb n="9">ymron ynfydu o gariad attaf.
+   
+   
+   </lb> 
+   <lb n="10">Yr oedd gennyf o fy mebyd fath o feddwl 
+   </lb>
+   <lb n="10-11">ymofyngar;
+   </lb>
+   <lb n="11">
+    yr oeddwn o dymmer mwy prudd a distaw
+   </lb> 
+   <lb n="12">nag un o 'm brodyr na 'm chwiorydd. Mi a 'u 
+   </lb>
+   <lb n="12-13">blinwn
+   </lb>
+   <lb n="13">
+    hwynt yn fynych &acirc; holiadau na's gallent eu
+   </lb> 
+   <lb n="14">hatteb: am ba achos yr oeddent yn diflasu arnaf,
+   </lb> 
+   <lb n="15">am eu bod yn tybied fy mod naill ai yn ynfyd neu
+   </lb> 
+   <lb n="16">allan o 'm pwyll. Diau fy mod ar rai prydiau yn
+   </lb> 
+   <lb n="17">bur annedwydd ynof fy hun: yr oedd e 'n gwasgu
+   </lb> 
+   <lb n="18">yn gryf ar fy meddwl fod rhyw Ddyn mawr o allu
+   </lb> 
+   <lb n="19">yn cyfaneddu uwch yr haul, y lleuad a 'r ser, y rhai
+   </lb> 
+   <lb n="20">oedd gwrthddrychau \gwrthrychau\ ein haddoliad ni. Hi 
+   </lb>
+   <lb n="20-21">ddioddefai
+   </lb>
+   <lb n="21">
+    fy mam anwyl dirion gennyf ragor n&acirc; neb
+   </lb> 
+   <lb n="22">arall o 'm cyfeillion.&#8212;Yn fynych mi ddyrchafwn fy
+   </lb> 
+   <lb n="23">llaw tu a 'r nef, ac a ofynwn iddi pwy oedd yn byw
+   </lb> 
+   <lb n="24">yno? ac anfoddlon iawn oeddwn pan dywedai hi
+   </lb> 
+   <lb n="25">wrthyf, yr haul, y lloer a 'r ser, gan fy mod yn
+   </lb> 
+   <lb n="26">credu yn fy meddwl fy hun fod yn rhaid bod yno
+   </lb> 
+   <lb n="27">ryw Allu mwy.&#8212;Yr oeddwn yn suddo yn fynych
+   </lb> 
+   <lb n="28">mewn rhyfeddod wrth edrych ar waith y 
+   </lb>
+   <lb n="28-29">greadigaeth:
+   </lb>
+   <lb n="29">
+    ofnus ac anesmwyth oeddwn, ac ni's gallaswn
+   </lb> 
+   <lb n="30">ddywedyd am ba beth. Eisiau oedd arnaf i gael fy
+   
+   
+   </lb>
+   </pb>
+   <pb n="6.">
+   
+    
+   <lb n="1">nghyfarwyddo am bethau ag na's gallasai un dyn
+   </lb> 
+   <lb n="2">roi gwybod i mi; ac yn wastad yr oeddwn heb
+   </lb> 
+   <lb n="3">gael dim boddlondeb. Yr argraphiadau rhyfeddol
+   </lb> 
+   <lb n="4">hyn a ddechreuasant yn fy mebyd, ac a 'm 
+   </lb>
+   <lb n="4-5">dilynasant
+   </lb>
+   <lb n="5">
+    I yn wastadol nes gadewais fy rhieni; yr hyn
+   </lb> 
+   <lb n="6">sydd yn rhoddi i mi achos o ryfeddod a 
+   </lb>
+   <lb n="6-7">diolchgarwch.&#8212;
+   </lb>
+   <lb n="7">
+    Yn y modd hwn mi dyfais yn fwy fwy 
+   </lb>
+   <lb n="7-8">anesmwyth
+   </lb>
+   <lb n="8">
+    bob dydd, fel ar un dydd Sadwrn (yr hwn
+   </lb> 
+   <lb n="9">yw 'r dydd ar ba un yr y'm \&#375;m\ ni yn cadw 'n Sabbath)
+   </lb> 
+   <lb n="10">yr ymdrabaeddais mewn blinderau ac ofnau na's
+   </lb> 
+   <lb n="11">gellir eu manegu, a 'r hyn sy 'n fwy anghyffredin,
+   </lb> 
+   <lb n="12">ni's gallaswn roi rheswm amdanynt. Mi gyfodais
+   </lb> 
+   <lb n="13">ar ol ein harfer ni, o ddautu tri o 'r gloch (fel yr
+   </lb> 
+   <lb n="14">y'm \&#375;\ ni yn rhwym o fod yn ein lle addoliad awr cyn
+   </lb> 
+   <lb n="15">codi haul) nid ydym yn dweud dim yn ein 
+   </lb>
+   <lb n="15-16">haddoliad,
+   </lb>
+   <lb n="16">
+    ond yn para ar ein gliniau gan ddal ein dwylo
+   </lb> 
+   <lb n="17">i fynu, heb yngan gair nes bo 'r haul ar ryw uchder,
+   </lb> 
+   <lb n="18">yr hyn wyf yn feddwl allai fod o ddautu 10 neu 11
+   </lb> 
+   <lb n="19">o 'r gloch yn Lloegr: pan wrth ryw arwydd wnair
+   </lb> 
+   <lb n="20">gan yr offeiriad yr ydym yn codi i fynu (am fod
+   </lb> 
+   <lb n="21">ein haddoliad wedi darfod) ac yn ymadael bawb i 'w
+   </lb> 
+   <lb n="22">le neilltuol ei hun. Lle ein cyfarfod sydd tan bren
+   </lb> 
+   <lb n="23">palmwydden fawr lydan; yr ydym yn rhannu ein
+   </lb> 
+   <lb n="24">hunain i amryw gynlleidfaoedd \gynulleidfaoedd\; am fod yn amhosibl
+   </lb> 
+   <lb n="25">i 'r unrhyw bren i orchguddio trigolion yr holl 
+   </lb>
+   <lb n="25-26">ddinas,
+   </lb>
+   <lb n="26">
+    er eu bod hwy yn fawrion iawn, yn uchel a
+   </lb> 
+   <lb n="27">godidog rhagorol: defnyddioldeb a thegwch pa rai
+   </lb> 
+   <lb n="28">ni's gellir ei ddisgrifio; mae 'n gwasanaethu trigolion
+   </lb> 
+   <lb n="29">y wlad o fwyd, diod a dillad;* mae corph y 
+   </lb>
+   <lb n="29-30">balmwydden
+   </lb>
+   <lb n="30">
+    yn fawr iawn; ac ar ryw amser o 'r 
+   </lb>
+   <lb n="30-31">flwyddyn
+   </lb>
+   <lb n="31">
+    maent yn gollwng ymaith ei sudd ef, ac yn dwyn
+   </lb> 
+   <lb n="32">llestri i dderbyn ei win ef, o ba un maent yn tynnu
+   </lb> 
+   <lb n="33">allan gyflawnder mawr, nattur pa un sydd yn hyfryd
+   
+   
+   </lb> 
+   <lb n="34">* Barn gyffredin pobl Lloegr yw, bod trigolion
+   </lb> 
+   <lb n="35">Affrica yn myned yn hollol heb ddillad; ond mae 'r farn
+   </lb> 
+   <lb n="36">hon yn gyfeiliornus iawn: mae ganddynt fath o 
+   </lb>
+   <lb n="36-37">wisgad
+   </lb>
+   <lb n="37">
+    ag sydd yn eu gwneud hwy i edrych yn addas, er
+   </lb> 
+   <lb n="38">ei bod yn ysgafn ac yn denau iawn.
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="7.">
+   
+    
+   <lb n="1">felus: dail y pren hwn sydd o nattur sidan; maent
+   </lb> 
+   <lb n="2">yn fawr ac yn dyner; pan b'ont \b&ocirc;nt\ wedi sychu a 'u 
+   </lb>
+   <lb n="2-3">tynnu
+   </lb>
+   <lb n="3">
+    yn ddarnau oddi wrth eu gilydd, maent yn 
+   </lb>
+   <lb n="3-4">ymddangos
+   </lb>
+   <lb n="4">
+    fel ll&icirc;n&nbsp;Lloegr, ac y mae dinasyddion 
+   </lb>
+   <lb n="4-5">Bournou
+   </lb>
+   <lb n="5">
+    yn ei weithio ef yn ddillad, &amp;c. Y pren hwn
+   </lb> 
+   <lb n="6">sydd hefyd yn dwyn planhigyn neu sylwedd ag sydd
+   </lb> 
+   <lb n="7">yn ymddangos fel cabbage, ac yn gyffelyb iawn iddi,
+   </lb> 
+   <lb n="8">mewn blas bron yr un fath; mae yn tyfu rhwng y
+   </lb> 
+   <lb n="9">canghennau. Y mae ef hefyd yn dwyn cneuen, yn
+   </lb> 
+   <lb n="10">agos yn gyffelyb i cocoa, yr hon sy 'n cynnwys 
+   </lb>
+   <lb n="10-11">cnewyllyn
+   </lb>
+   <lb n="11">
+    ym mha un y mae llawnder mawr o laeth,
+   </lb> 
+   <lb n="12">yn hyfryd iawn ei flas: y plisgyn sydd o sylwedd
+   </lb> 
+   <lb n="13">galed, ac o ymddangosiad t&ecirc;g iawn, ac sydd yn
+   </lb> 
+   <lb n="14">gwasanaethu yn amrywiol fath o lestri, &amp;c. Ond
+   </lb> 
+   <lb n="15">i fyned ymlaen; ar ol i addoliad ein Sabbath fyned
+   </lb> 
+   <lb n="16">heibio (y diwrnod yr oeddwn yn fwy trallodedig a
+   </lb> 
+   <lb n="17">chystuddiedig nag erioed) yr oeddem bawb ar ein
+   </lb> 
+   <lb n="18">ffordd adref fel arferol, pan darfu i gwmmwl du
+   </lb> 
+   <lb n="19">anghyffredin gyfodi a gorchguddio 'r haul; yna 
+   </lb>
+   <lb n="19-20">canlynodd
+   </lb>
+   <lb n="20">
+    gwlaw trwm iawn a tharanau mwy 
+   </lb>
+   <lb n="20-21">dychrynllyd
+   </lb>
+   <lb n="21">
+    nag a glywais erioed o 'r blaen: y nefoedd a
+   </lb> 
+   <lb n="22">ruodd, a 'r ddaear a grynodd gan eu swn: hyn a
+   </lb> 
+   <lb n="23">weithiodd arnaf yn ddwfn ac a 'm taflodd i lawr;
+   </lb> 
+   <lb n="24">fel yr wylais yn druenus, ac fel na's gallaswn ddilyn
+   </lb> 
+   <lb n="25">fy nghyfneseifiaid a 'm cyfeillion i dref.&#8212;Gorfu arnaf
+   </lb> 
+   <lb n="26">aros, a theimlo yr oeddwn fel pe buasai fy nghoesau
+   </lb> 
+   <lb n="27">wedi eu rhwymo, a chrynu yr oeddent tanaf: felly
+   </lb> 
+   <lb n="28">mi safais yn llonydd, gan fy mod yn ofni yn fawr y
+   </lb> 
+   <lb n="29">Dyn o allu ag oeddwn I yn gredu ynof fy hun ei fod
+   </lb> 
+   <lb n="30">yn byw uwch ben. Un o 'm cyfeillion ieuaingc, yr
+   </lb> 
+   <lb n="31">hwn oedd &acirc; chariad neilltuol attaf fi a minnau atto
+   </lb> 
+   <lb n="32">yntef, a ddaeth yn ol i edrych amdanaf: fe 
+   </lb>
+   <lb n="32-33">ofynodd
+   </lb>
+   <lb n="33">
+    i mi paham yr oeddwn yn sefyll yn llonydd yn
+   </lb> 
+   <lb n="34">y fath wlaw creulon? ni's dywedais wrtho ond yn
+   </lb> 
+   <lb n="35">unig bod fy nghoesau I yn weinion, ac na's gallaswn
+   </lb> 
+   <lb n="36">ddyfod yn gynt: fe effeithiodd yn fawr arno wrth
+   </lb> 
+   <lb n="37">fy ngweled I yn wylo, ac fe 'm cymmerodd I erbyn
+   </lb> 
+   <lb n="38">fy llaw, ac a ddywedodd y dygai efe fi adref, yr
+   </lb> 
+   <lb n="39">hyn a wnaeth. Fy mam a gyffr&ocirc;dd yn fawr am i
+   
+   
+   </lb>
+   </pb>
+   <pb n="8.">
+   
+    
+   <lb n="1">mi aros allan yn y fath dywydd creulon; hi 
+   </lb>
+   <lb n="1-2">ofynodd
+   </lb>
+   <lb n="2">
+    i mi amryw gwestiynau paham y gwnaethum
+   </lb> 
+   <lb n="3">felly, ac a oeddwn I yn iach? "Fy anwyl fam," ebe
+   </lb> 
+   <lb n="4">fi, "attolwg pwy yw y Dyn mawr o allu ag sydd
+   </lb> 
+   <lb n="5">yn gwneuthur y taranau?" hi ddywedodd, nad oedd
+   </lb> 
+   <lb n="6">un gallu ond yr haul, y lloer a 'r ser; ac mai hwy
+   </lb> 
+   <lb n="7">wnaeth ein gwlad ni oll. Mi ofynais eilwaith o ba
+   </lb> 
+   <lb n="8">le y daeth ein holl bobl ni? Hi 'm hattebodd, un
+   </lb> 
+   <lb n="9">o 'r llall; ac felly hi 'm dygodd yn ol dros amryw
+   </lb> 
+   <lb n="10">genhedlaethau. Yna ebe fi, "Pwy wnaeth y dyn
+   </lb> 
+   <lb n="11">cyntaf? a phwy wnaeth y fuwch gyntaf, a 'r llew
+   </lb> 
+   <lb n="12">cyntaf, ac o ba le y mae 'r gilionen \gylionen\ yn dyfod, am
+   </lb> 
+   <lb n="13">na's gall un dyn ei gwneud hi?" Fy mam a 
+   </lb>
+   <lb n="13-14">ymddangosodd
+   </lb>
+   <lb n="14">
+    mewn gofid mawr; hi ofnodd naill ai
+   </lb> 
+   <lb n="15">bod fy synhwyrau i wedi adfeilio, neu fy mod yn
+   </lb> 
+   <lb n="16">ynfyd. Fy nhad ddaeth i mewn, a phan welodd
+   </lb> 
+   <lb n="17">efe hi mewn galar fe ofynnodd iddi yr achos, ond
+   </lb> 
+   <lb n="18">pan adroddodd hi iddo ef ein hymddiddanion ni,
+   </lb> 
+   <lb n="19">yr oedd ef yn anfoddlon iawn i mi, ac a ddywedodd
+   </lb> 
+   <lb n="20">wrthyf y cospai efe fi yn chwerw os byddwn fyth
+   </lb> 
+   <lb n="21">mor aflonydd ond hynny; fel y bwriadais na 
+   </lb>
+   <lb n="21-22">ddywedwn
+   </lb>
+   <lb n="22">
+    ddim rhagor wrtho byth mwyach. Ond
+   </lb> 
+   <lb n="23">mi dyfais yn annedwydd iawn ynnof fy hun; fy
+   </lb> 
+   <lb n="24">mherthynasau a 'm cydnabod a gynnygasant trwy
+   </lb> 
+   <lb n="25">bob moddion ag allent fy nifyrru, trwy fy 
+   </lb>
+   <lb n="25-26">nghymmeryd
+   </lb>
+   <lb n="26">
+    I i farchogaeth ar eifr (yr hyn sydd arfer
+   </lb> 
+   <lb n="27">gyffredin yn ein gwlad ni) ac i saethu &acirc; bwa a saeth;
+   </lb> 
+   <lb n="28">ond ni's cefais ddim boddlonrwydd yn un o 'r pethau
+   </lb> 
+   <lb n="29">hyn; ac ni's gallaswn fod yn esmwyth trwy un
+   </lb> 
+   <lb n="30">moddion pa beth bynnag: a 'm rhieni oedd yn bur
+   </lb> 
+   <lb n="31">anesmwyth fy ngweled mor brudd a melancholi.
+   
+   
+   </lb> 
+   <lb n="32">O ddautu yr amser hwn fe ddaeth marsiandwr
+   </lb> 
+   <lb n="33">oddi wrth y Gold Coast (goror aur) y drydedd dinas
+   </lb> 
+   <lb n="34">yn Guinea, fe fasnachodd &acirc; thrigolion ein gwlad ni
+   </lb> 
+   <lb n="35">mewn ifori, sef dant yr elephant, &amp;c. Fe ddaliodd
+   </lb> 
+   <lb n="36">sulw mawr ar fy nghyflwr annedwydd I, ac a 
+   </lb>
+   <lb n="36-37">ofynodd
+   </lb>
+   <lb n="37">
+    yr achos ohono; fe ddangosodd drueni mawr
+   </lb> 
+   <lb n="38">drosof, ac a ddywedodd, os byddai i fy rhieni 
+   </lb>
+   <lb n="38-39">ymadael
+   </lb>
+   <lb n="39">
+   &nbsp;&acirc; mi dros ychydig amser, ac iddo ef i 'm 
+   
+   </lb>
+   </pb>
+   <pb n="8-9.">
+   <lb n="39-1">cymmeryd
+   </lb>
+   </pb>
+   <pb n="9.">
+   <lb n="1">
+    adre' gyd ag ef ei hun, fe fyddai hynny yn
+   </lb> 
+   <lb n="2">fwy o wasanaeth i mi n&acirc; dim ag allent wneud 
+   </lb>
+   <lb n="2-3">troswyf.&#8212;
+   </lb>
+   <lb n="3">
+    Fe ddywedodd wrthyf os awn gyd ag ef, y
+   </lb> 
+   <lb n="4">cawn weled teiau ag adenydd ganddynt yn rhodio ar
+   </lb> 
+   <lb n="5">y dwfr, ac y cawn weled dynion gwynion; a bod
+   </lb> 
+   <lb n="6">ganddo ef amryw feibion o 'm hoedran I, y rhai
+   </lb> 
+   <lb n="7">fyddai yn gyfeillion i mi; ac fe ddywedodd hefyd
+   </lb> 
+   <lb n="8">wrthyf y dygai efe mi yn ol drachefn yn fuan.&#8212;&#8212;
+   </lb> 
+   <lb n="9">Fe 'm boddlonwyd I yn fawr &acirc; hanes y fath le 
+   </lb>
+   <lb n="9-10">dieithr
+   </lb>
+   <lb n="10">
+    a hwn, a dymuniad oedd ynwyf i fyned.&#8212;&#8212;
+   </lb> 
+   <lb n="11">Mi deimlais ryw gynhyrfiad dirgel ar fy meddwl, yr
+   </lb> 
+   <lb n="12">hwn nas gallaswn ei wrthwynebu, ag oedd fel pe
+   </lb> 
+   <lb n="13">dywedasai wrthyf fod yn rhaid i mi fyned. Pan
+   </lb> 
+   <lb n="14">gwelodd fy mam anwyl fy mod yn foddlon i 
+   </lb>
+   <lb n="14-15">ymadael
+   </lb>
+   <lb n="15">
+   &nbsp;&acirc; hwy, hi chwedleuodd &acirc; fy nhad, fy nhaid,
+   </lb> 
+   <lb n="16">a 'r lleill o 'm perthynasau, y rhai oll a gyttunasant i
+   </lb> 
+   <lb n="17">mi fyned gyd &acirc; 'r marsiandwr i 'r Gold Coast. Yr
+   </lb> 
+   <lb n="18">oeddwn yn fwy boddlon am fod fy mrodyr a 'm
+   </lb> 
+   <lb n="19">chwiorydd yn fy niystyru, ac yn edrych arnaf gyd &acirc;
+   </lb> 
+   <lb n="20">dirmyg ar gyfrif fy nhymmer annedwydd; ac hyd
+   </lb> 
+   <lb n="21">yn oed fy ngweision oeddent yn fy nibrisio, ac yn
+   </lb> 
+   <lb n="22">diystyru 'r cwbl a ddywedwn. Yr oedd gennyf un
+   </lb> 
+   <lb n="23">chwaer yr hon oedd bob amser yn dda iawn ganddi
+   </lb> 
+   <lb n="24">amdanaf, a minnau a 'i cerais hithau yn hollol; ei
+   </lb> 
+   <lb n="25">henw oedd Logwy, yr oedd hi yn hollol wyn, a
+   </lb> 
+   <lb n="26">th&ecirc;g, a gwallt t&ecirc;g golau, er fod fy nhad a mam yn
+   </lb> 
+   <lb n="27">dduon.&#8212;Yr oedd arnaf hiraeth mawr i ymadael a 'm
+   </lb> 
+   <lb n="28">hanwyl chwaer, a hithau oedd yn llefain yn 
+   </lb>
+   <lb n="28-29">alaethus
+   </lb>
+   <lb n="29">
+    i ymadael &acirc; mi, yn plethu ei dwylaw, ac yn 
+   </lb>
+   <lb n="29-30">dangos
+   </lb>
+   <lb n="30">
+    pob arwydd o alar ag ellid ddychymmygu. Yn
+   </lb> 
+   <lb n="31">wir pe buaswn I yn gwybod pan ymadewais &acirc; 'm 
+   </lb>
+   <lb n="31-32">cyfeillion
+   </lb>
+   <lb n="32">
+    ac &acirc; 'm gwlad na fuaswn fyth yn dychwelyd
+   </lb> 
+   <lb n="33">attynt drachefn, fy nhrueni ar yr achos hynny fuasai
+   </lb> 
+   <lb n="34">yn anrhaethadwy. Trist oedd fy holl berthynasau
+   </lb> 
+   <lb n="35">i ymadael &acirc; mi; daeth fy anwyl fam gyd &acirc; mi fwy
+   </lb> 
+   <lb n="36">n&acirc; thri chant o filltiroedd ar gamel; y rhan gyntaf
+   </lb> 
+   <lb n="37">o 'n siwrneu ni oedd yn gorwedd trwy goedydd: yr
+   </lb> 
+   <lb n="38">oeddem yn amddiffyn ein hunain yn y nos oddi wrth
+   </lb> 
+   <lb n="39">fwystfilod gwylltion trwy gynneu t&acirc;n gylch cwmpas
+   
+   
+   </lb>
+   </pb>
+   <pb n="10.">
+   
+    
+   <lb n="1">i ni; a ni a 'n camelod oeddem yn cadw o fewn
+   </lb> 
+   <lb n="2">i 'r cwmpas, neu ddioddef cael ein torri yn ddarnau
+   </lb> 
+   <lb n="3">gan y llewod a chreaduriaid rheipus eraill, y rhai
+   </lb> 
+   <lb n="4">oedd yn rhuo yn erchyll mor gynted ag y deuai y
+   </lb> 
+   <lb n="5">nos, ac a barhaent felly hyd y borau.&#8212;Nid oes le
+   </lb> 
+   <lb n="6">i ganmawl ond ychydig ar y wlad y daethom ni
+   </lb> 
+   <lb n="7">trwyddi; yn unig dyffryn o farble y daethom 
+   </lb>
+   <lb n="7-8">trwyddo,
+   </lb>
+   <lb n="8">
+    yr hwn sydd yn hardd anrhaethadwy. O bob
+   </lb> 
+   <lb n="9">tu i 'r dyffryn hwn mae mynydd uchel iawn ac agos
+   </lb> 
+   <lb n="10">yn anhygyrch. Mae rhai darnau o 'r marble hwn
+   </lb> 
+   <lb n="11">o hyd a lled anferth, ond o amryw faintioli a lliwiau,
+   </lb> 
+   <lb n="12">mewn amrywiol luniau, ac o ddull rhyfeddol. Y
+   </lb> 
+   <lb n="13">mae 'r dyffryn hwn gan mwyaf ohono &acirc;&nbsp;
+   </lb>
+   <lb n="13-14">gwythiennau
+   </lb>
+   <lb n="14">
+    aur wedi ei gymmysgu &acirc; lliwiau bywiol a th&ecirc;g;
+   </lb> 
+   <lb n="15">fel pan bo yr haul yn tywynnu arno, mae yn olwg
+   </lb> 
+   <lb n="16">mor hyfryd ag allo un ddychymmyg. Y 
+   </lb>
+   <lb n="16-17">marsiandwr
+   </lb>
+   <lb n="17">
+    a 'm dygodd I o Bournou, oedd yn bartner &acirc;
+   </lb> 
+   <lb n="18">g&#373;r bonheddig arall yr hwn oedd yn dyfod gyd &acirc;
+   </lb> 
+   <lb n="19">ni; hwn oedd yn anfoddlon iddo fy nghymmeryd
+   </lb> 
+   <lb n="20">o dre', fel y dywedodd ef, ei fod yn rhagweled 
+   </lb>
+   <lb n="20-21">llawer
+   </lb>
+   <lb n="21">
+    o beryglon ddeuai o i mi fyned gyd &acirc; hwynt.
+   </lb> 
+   <lb n="22">Fe gynnygodd berswadio y marsiandwr i 'm taflu I
+   </lb> 
+   <lb n="23">i bwll dwfn iawn ag oedd yn y dyffryn, ond ni's
+   </lb> 
+   <lb n="24">gwrandawodd arno, ac a ddywedodd ei fod yn 
+   </lb>
+   <lb n="24-25">amcanu
+   </lb>
+   <lb n="25">
+    cymmeryd gofal amdanaf: ond y llall oedd
+   </lb> 
+   <lb n="26">yn bur anfoddlon; a phan y daethom at afon, yr
+   </lb> 
+   <lb n="27">hon oeddem yn rhwym i fyned trwyddi, fe 
+   </lb>
+   <lb n="27-28">bwrpasodd
+   </lb>
+   <lb n="28">
+    i fy nhaflu i lawr a 'm boddi; ond ni's 
+   </lb>
+   <lb n="28-29">cydsyniai
+   </lb>
+   <lb n="29">
+    y marsiandwr ag ef, felly cefais fy achub.
+   
+   
+   </lb> 
+   <lb n="30">Ni a deithiasom hyd o ddautu pedwar o 'r gloch
+   </lb> 
+   <lb n="31">bob prydnhawn, ac yna dechreuem barottoi erbyn
+   </lb> 
+   <lb n="32">y nos, trwy dorri i lawr nifer fawr o goed i gynneu
+   </lb> 
+   <lb n="33">t&acirc;n i 'n cadw rhag y bwystfilod rheipus.&#8212;&#8212;Siwrneu
+   </lb> 
+   <lb n="34">anfoddlon ac annedwydd iawn a gefais, gan fy mod
+   </lb> 
+   <lb n="35">mewn ofnau gwastadol y byddai i 'r bobl ag oedd
+   </lb> 
+   <lb n="36">gyd &acirc; mi i fy lladd. Mi feddyliwn yn fynych gyd
+   </lb> 
+   <lb n="37">ag eitha gofid am y cymdeithion hawddgar ag 
+   </lb>
+   <lb n="37-38">adewais
+   </lb>
+   <lb n="38">
+    yn ol, a choffadwriaeth o 'm hanwyl fam a 
+   </lb>
+   <lb n="38-39">dynnodd
+   </lb>
+   <lb n="39">
+    ddagrau yn fynych o 'm llygaid. Ni's gallaf
+   
+   
+   </lb>
+   </pb>
+   <pb n="11.">
+   
+    
+   <lb n="1">ddim cofio pa c&#375;d \cyhyd\ y buom yn myned o Bournou i 'r
+   </lb> 
+   <lb n="2">Gold Coast; ond fel nad oes dim llongau yn agosach
+   </lb> 
+   <lb n="3">i Bournou n&acirc; 'r ddinas honno, blinedig oedd i deithio
+   </lb> 
+   <lb n="4">mor belled ar hyd y tir, gan ei bod yn fwy n&acirc; mil
+   </lb> 
+   <lb n="5">o filltiroedd. Llawen oeddwn pan ddaethum i ben
+   </lb> 
+   <lb n="6">fy siwrneu: Mi wag-ddychymmygais fod fy holl
+   </lb> 
+   <lb n="7">ofidiau a 'm haflonyddwch yspryd yn diweddu yma;
+   </lb> 
+   <lb n="8">ond pe buaswn yn edrych ar amser i ddyfod mi 
+   </lb>
+   <lb n="8-9">fuaswn
+   </lb>
+   <lb n="9">
+    yn canfod fod gennyf lawer rhagor i ddioddef
+   </lb> 
+   <lb n="10">nag a brofais I etto, ac nad oeddent ond prin ddechrau.
+   
+   
+   </lb> 
+   <lb n="11">Yr oeddwn yn awr fwy n&acirc; mil o filltiroedd o dre',
+   </lb> 
+   <lb n="12">heb gennyf gyfaill nag un moddion i bwrcasu yr un.
+   </lb> 
+   <lb n="13">Yn union ar ol i mi ddyfod i d&#375; 'r marsiandwr mi
+   </lb> 
+   <lb n="14">glywais y drymmau yn curo yn gryf eithus \aethus\, a 'r 
+   </lb>
+   <lb n="14-15">utgyrn
+   </lb>
+   <lb n="15">
+    yn seinio. Y personau sydd arferol o wneud
+   </lb> 
+   <lb n="16">hyn sydd raid iddynt dderchafu \ddyrchafu\ i ryw adeiliad uchel
+   </lb> 
+   <lb n="17">at y perwyl hynny, fel y bo y swn i gyrraedd 
+   </lb>
+   <lb n="17-18">ymhell:
+   </lb>
+   <lb n="18">
+    maent yn uwch n&acirc; 'r clochdyau yn Lloegr.
+   </lb> 
+   <lb n="19">Yr oeddwn yn pleseru yn rhyfedd mewn swn mor
+   </lb> 
+   <lb n="20">hollol ddieithr i mi, ac ymholi yr oeddwn yn fawr
+   </lb> 
+   <lb n="21">i wybod yr achos o 'r fath lawenydd, ac a ofynnais
+   </lb> 
+   <lb n="22">lawer o gwestiynau yn ei gylch: fe 'm hattebwyd
+   </lb> 
+   <lb n="23">mai annerchiad i mi ydoedd, am mai &#373;yr oeddwn
+   </lb> 
+   <lb n="24">i frenhin Bournou.
+   
+   
+   </lb> 
+   <lb n="25">Yr hanes hon a roddodd i mi bleser dirgel; ond
+   </lb> 
+   <lb n="26">ni's goddefwyd fi yn hir i fwynhau hyn o hyfrydwch,
+   </lb> 
+   <lb n="27">canys yr un prydnhawn daeth dau o feibion y 
+   </lb>
+   <lb n="27-28">marsiandwr
+   </lb>
+   <lb n="28">
+    (bechgyn oddi amgylch fy oedran fy hun)
+   </lb> 
+   <lb n="29">tan redeg attaf, a dywedyd, fod yn rhaid i mi farw
+   </lb> 
+   <lb n="30">drannoeth, am fod y brenhin yn meddwl torri fy
+   </lb> 
+   <lb n="31">mhen I. Mi ddywedais fod yn sicr gennyf mai nid
+   </lb> 
+   <lb n="32">gwirionedd ydoedd, o ran mai i hynny y daethum
+   </lb> 
+   <lb n="33">i yno i chwarae &acirc; hwy, ac i weled teiau yn rhodio
+   </lb> 
+   <lb n="34">ar y dwfr ag adenydd ganddynt, a 'r dynion 
+   </lb>
+   <lb n="34-35">gwynion;
+   </lb>
+   <lb n="35">
+    ond yn fuan cefais wybod fod y brenhin yn
+   </lb> 
+   <lb n="36">dychymmygu i mi gael fy nanfon yno gan fy nhad
+   </lb> 
+   <lb n="37">fel yspiwr, ac y gwnawn y fath ddatguddiadau ar fy
+   </lb> 
+   <lb n="38">nychweliad yn ol ag a 'u galluogai hwy i wneud rhyfel
+   </lb> 
+   <lb n="39">gyd &acirc; mwy mantais i ni ein hunain; ac am y 
+   
+   </lb>
+   </pb>
+   <pb n="11-12.">
+   <lb n="39-1">rhesymmau
+   </lb>
+   </pb>
+   <pb n="12.">
+   <lb n="1">
+    hyn ei fod ef yn resolfo na's dychwelwn I
+   </lb> 
+   <lb n="2">byth yn ol i 'm gwlad fy hun. Pan clywais hyn
+   </lb> 
+   <lb n="3">mi ddioddefais gystudd na's gall neb ei ddesgrifio \ddisgrifio\.
+   </lb> 
+   <lb n="4">Mi ddymunais fil o weithiau nad ymadawswn fyth
+   </lb> 
+   <lb n="5">&acirc; 'm ffryns ac &acirc; 'm gwlad. Ond fyth yr Hollalluog
+   </lb> 
+   <lb n="6">oedd yn gweled bod yn dda i weithio gwyrthiau
+   </lb> 
+   <lb n="7">trosof.
+   
+   
+   </lb> 
+   <lb n="8">Y borau yr oeddwn i farw, fe 'm golchwyd, a 'm
+   </lb> 
+   <lb n="9">holl addurnau aur a wnaed yn loyw ddisglair, ac yno
+   </lb> 
+   <lb n="10">y 'm dygwyd i 'r palas, lle yr oedd y brenhin i dorri
+   </lb> 
+   <lb n="11">fy mhen ei hun, ar ol arfer y lle hwnnw. Yr oedd
+   </lb> 
+   <lb n="12">ef yn eistedd ar orsedd ym mhen uchaf cyntedd mawr
+   </lb> 
+   <lb n="13">ehang iawn, yr hwn sydd raid myned trwyddo i 
+   </lb>
+   <lb n="13-14">fyned
+   </lb>
+   <lb n="14">
+    i mewn i 'r palas, y mae ef mor ehang &acirc; chae
+   </lb> 
+   <lb n="15">mawr yn Lloegr. Yr oeddwn yn myned rhwng
+   </lb> 
+   <lb n="16">dwy res o life-guard. Yr wyf yn meddwl ei bod
+   </lb> 
+   <lb n="17">o ddautu pedwar cant o latheidiau. Fe 'm 
+   </lb>
+   <lb n="17-18">harweiniwyd
+   </lb>
+   <lb n="18">
+    gan fy nghyfaill, y marsiandwr o ddautu 
+   </lb>
+   <lb n="18-19">hanner
+   </lb>
+   <lb n="19">
+    y ffordd i fynu; yno ni's gallasai efe ddyfod dim
+   </lb> 
+   <lb n="20">ymhellach: mi aethum i fynu at y brenhin fy 
+   </lb>
+   <lb n="20-21">hunan.
+   </lb>
+   <lb n="21">
+    Mi a aethum gyd ag yspryd calonnog, ac fe
+   </lb> 
+   <lb n="22">welodd Duw fod yn dda i doddi calon y brenhin,
+   </lb> 
+   <lb n="23">yr hwn oedd yn eistedd &acirc; 'i scymitar neu gleddyf cam
+   </lb> 
+   <lb n="24">yn ei law yn barod i dorri ymaith fy mhen; etto fe
+   </lb> 
+   <lb n="25">effeithiodd y peth gymmaint arno ei hun fel y 
+   </lb>
+   <lb n="25-26">gollyngodd
+   </lb>
+   <lb n="26">
+    ef i lawr o 'i law, ac a 'm cymmerodd I ar ei
+   </lb> 
+   <lb n="27">lin, ac a wylodd drosof. Minnau a osodais fy 
+   </lb>
+   <lb n="27-28">neheulaw
+   </lb>
+   <lb n="28">
+    o ddautu ei wddf ef ac a 'i gwesgais wrth fy
+   </lb> 
+   <lb n="29">mynwes. Fe 'm rhoddodd i eistedd i lawr ac a 'm
+   </lb> 
+   <lb n="30">bendithiodd; ac a ddywedodd na laddai mohonof,
+   </lb> 
+   <lb n="31">ac na's cawn fyned adref, ond cawn fy ngwerthu yn
+   </lb> 
+   <lb n="32">gaeth-was, ac yna y 'm harweiniwyd yn ol drachefn
+   </lb> 
+   <lb n="33">i d&#375; 'r marsiandwr.
+   
+   
+   </lb> 
+   <lb n="34">Y dydd nesaf fe 'm cymmerodd i long o Ffraingc;
+   </lb> 
+   <lb n="35">ond ni fynnai 'r capten ddim fy mhrynu, fe 
+   </lb>
+   <lb n="35-36">ddywedodd
+   </lb>
+   <lb n="36">
+    fy mod yn rhy fychan; ac yna cymmerodd y
+   </lb> 
+   <lb n="37">marsiandwr fi yn ol i 'w d&#375; drachefn.
+   
+   
+   </lb> 
+   <lb n="38">Y partner yr hwn a ddywedais amdano fod yn
+   </lb> 
+   <lb n="39">elyn i mi, oedd yn anfoddlon iawn i 'm gweled I yn
+   
+   
+   </lb>
+   </pb>
+   <pb n="13.">
+   
+    
+   <lb n="1">dychwelyd, ac a bwrpasodd eilwaith wneud diben
+   </lb> 
+   <lb n="2">ar fy mywyd; canys fe osododd allan i 'r llall y
+   </lb> 
+   <lb n="3">byddai i mi eu dwyn hwynt i lawer o drallod a 
+   </lb>
+   <lb n="3-4">chyfyngderau,
+   </lb>
+   <lb n="4">
+    a 'm bod i mor lleied nad oedd neb a 'm
+   </lb> 
+   <lb n="5">prynai.
+   
+   
+   </lb> 
+   <lb n="6">Bwriad y marsiandwr a ddechreuodd chwarae, ac
+   </lb> 
+   <lb n="7">ofn yn wir oedd arnaf y rhoid fi i farwolaeth: ond
+   </lb> 
+   <lb n="8">p'odd \pa fodd\ bynnag fe ddywedodd y gwnai brawf ohonof
+   </lb> 
+   <lb n="9">un waith yn rhagor.
+   
+   
+   </lb> 
+   <lb n="10">Ymhen ychydig ddyddiau daeth un o longau 'r
+   </lb> 
+   <lb n="11">Dutch i 'r abar \aber\, a hwy a 'm dygasant i 'w bwrdd tan
+   </lb> 
+   <lb n="12">obaith y pwrcasai y capten fi. Fel yr oeddent yn
+   </lb> 
+   <lb n="13">myned, mi clywais hwynt yn cyttuno, os na's 
+   </lb>
+   <lb n="13-14">gallent
+   </lb>
+   <lb n="14">
+    fy ngwerthu, yna y taflent fi i 'r m&ocirc;r. Yr
+   </lb> 
+   <lb n="15">oeddwn mewn cystudd dirfawr pan clywais hyn;
+   </lb> 
+   <lb n="16">ac mor gynted ag y gwelais gapten y Dutch, mi
+   </lb> 
+   <lb n="17">redais atto, ac a roddais fy mreichiau amdano, ac
+   </lb> 
+   <lb n="18">a ddywedais, "Dad, cadw fi:" (canys gwyddwn os na
+   </lb> 
+   <lb n="19">phrynasai efe fi, yr ymddygid attaf yn greulon iawn,
+   </lb> 
+   <lb n="20">ac o bosibl y 'm lladdasid). Ac er nad oedd ef yn
+   </lb> 
+   <lb n="21">deall fy iaith I, etto gwelodd yr Hollalluog fod yn
+   </lb> 
+   <lb n="22">dda iddo dueddu o 'm hochr, ac fe 'm prynodd I am
+   </lb> 
+   <lb n="23">ddwy lathen o check, yr hyn sy o fwy pris yno nag
+   </lb> 
+   <lb n="24">yn Lloegr.
+   
+   
+   </lb> 
+   <lb n="25">Pan gadewais fy anwyl fam yr oedd gennyf lawer
+   </lb> 
+   <lb n="26">iawn o aur o ddautu i mi, fel y mae arfer ein gwlad
+   </lb> 
+   <lb n="27">ni, yr oedd wedi ei wneud yn fodrwyau, a rhai'n
+   </lb> 
+   <lb n="28">wedi eu cysylltu un wrth y llall, a 'u gwneud yn
+   </lb> 
+   <lb n="29">fath o wryd, ac felly wedi ei dodi o ddautu fy
+   </lb> 
+   <lb n="30">ngwddf, fy mreichiau a 'm coesau, a darn fawr yn
+   </lb> 
+   <lb n="31">hongian wrth un clust ymron yr un ddull &acirc; pheren.
+   </lb> 
+   <lb n="32">Yr oeddwn yn teimlo hyn oll yn flinderus i mi ei
+   </lb> 
+   <lb n="33">ddwyn, a da oedd gennyf i fy meistr newydd ei
+   </lb> 
+   <lb n="34">gymmeryd oddi wrthyf. Yn awr fe 'm golchwyd,
+   </lb> 
+   <lb n="35">ac a 'm gwisgwyd ar ol dull y Dutch neu 'r Saeson.
+   </lb> 
+   <lb n="36">Fe dyfodd fy meistr mewn cariad mawr attaf, ac yr
+   </lb> 
+   <lb n="37">oeddwn i yn ei garu yntef yn anghyffredin. Yr
+   </lb> 
+   <lb n="38">oeddwn yn gwilied pob amnaid, a phob pryd yn
+   </lb> 
+   <lb n="39">barod pan byddai arno fy eisiau, ac yn gwneud fy
+   
+   
+   </lb>
+   </pb>
+   <pb n="14.">
+   
+    
+   <lb n="1">ngorau i wneud iddo wybod, trwy bob gweithred,
+   </lb> 
+   <lb n="2">mai fy unig bleser oedd ei wasanaethu ef yn dda.
+   </lb> 
+   <lb n="3">Mi feddyliais wedi hynny mai dyn da ydoedd ef:
+   </lb> 
+   <lb n="4">yr oedd ei weithredoedd yn cyttuno o 'r gorau &acirc; 'r
+   </lb> 
+   <lb n="5">fath garacter. Yr oedd arferol o ddarllain gweddiau
+   </lb> 
+   <lb n="6">i w&#375;r y llong bob dydd Sabbath; a phan gyntaf y
+   </lb> 
+   <lb n="7">gwelais i ef yn darllain, ni ryfeddais I gymmaint
+   </lb> 
+   <lb n="8">erioed yn fy holl fywyd a phan gwelais y llyfr yn
+   </lb> 
+   <lb n="9">chwedleua &acirc; fy meistr; canys mi feddyliais ei fod e'
+   </lb> 
+   <lb n="10">felly, fel yr oeddwn I yn dal sulw arno ef yn edrych
+   </lb> 
+   <lb n="11">ar y llyfr, ac yn chwarae ei wefusau. Mi 
+   </lb>
+   <lb n="11-12">ddymunais
+   </lb>
+   <lb n="12">
+    iddo wneud felly &acirc; mi. Mor gynted ag y
+   </lb> 
+   <lb n="13">darfu i fy meistr ddarfod darllain, mi a 'i canlynais
+   </lb> 
+   <lb n="14">ef i 'r man y dodasai y llyfr, ac wedi ymbleseru yn
+   </lb> 
+   <lb n="15">anrhaethol ynddo, a phan nad oedd neb yn fy
+   </lb> 
+   <lb n="16">nghanfod, mi a 'i hagorais ac a roddais fy nghlust i
+   </lb> 
+   <lb n="17">lawr arno, mewn mawr obaith y dywedai ryw beth
+   </lb> 
+   <lb n="18">wrthyf fi; ond gofidus oeddwn, ac nid bychan y 'm
+   </lb> 
+   <lb n="19">siommwyd pan deallais na's llafarai ddim; y meddwl
+   </lb> 
+   <lb n="20">hyn a redodd i 'm cof yn uniawn, fod pob dyn a
+   </lb> 
+   <lb n="21">phob peth yn fy niystyru I am fy mod yn ddu.
+   
+   
+   </lb> 
+   <lb n="22">Yr oeddwn yn glaf iawn ar y cyntaf o glefyd y
+   </lb> 
+   <lb n="23">m&ocirc;r; ond pan daethum i ymarfer &acirc; 'r m&ocirc;r, fe
+   </lb> 
+   <lb n="24">dreuliodd ymaith. Llong fy meistr oedd yn rhwym
+   </lb> 
+   <lb n="25">i Barbadoes. Pan daethom ni yno, fe dybiodd yn
+   </lb> 
+   <lb n="26">orau i chwedleua amdanaf wrth amryw o 
+   </lb>
+   <lb n="26-27">bendefigion
+   </lb>
+   <lb n="27">
+    o 'i gydnabyddiaeth, ac un ohonynt a 
+   </lb>
+   <lb n="27-28">ddangosodd
+   </lb>
+   <lb n="28">
+    fawr ddymuniad i gael fy ngweled. Yr oedd
+   </lb> 
+   <lb n="29">ganddo lawer o feddwl i 'm prynu; ond ni's gellsid
+   </lb> 
+   <lb n="30">perswadio y Capten yn uniongyrch i ymadael &acirc; mi;
+   </lb> 
+   <lb n="31">ond p'odd \pa fodd\ bynnag, gan fod y gwr bonheddig yn
+   </lb> 
+   <lb n="32">awyddus ohonof, o 'r diwedd fe 'm gadawodd i 
+   </lb>
+   <lb n="32-33">fyned,
+   </lb>
+   <lb n="33">
+    ac fe 'm gwerthwyd am hanner cant dollar,
+   </lb> 
+   <lb n="34">hynny yw, un bunt ar ddeg a choron o arian Lloegr.
+   </lb> 
+   <lb n="35">Enw fy meistr newydd oedd Fanhorn, g&#373;r 
+   </lb>
+   <lb n="35-36">bonheddig
+   </lb>
+   <lb n="36">
+    ieuangc, a 'i artref yn Lloegr-newydd yn ninas
+   </lb> 
+   <lb n="37">Iorc-newydd; i ba le y cymmerodd efe fi gyd ag ef.
+   </lb> 
+   <lb n="38">Fe 'm gwisgodd I yn ei lifrau, ac a fu dda iawn
+   </lb> 
+   <lb n="39">wrthyf. Fy ngwaith mwyaf oedd disgwyl ar y ford,
+   
+   
+   </lb>
+   </pb>
+   <pb n="15.">
+   
+    
+   <lb n="1">a 'r tea, a glanhau cyllill, ac yr oedd gennyf le 
+   </lb>
+   <lb n="1-2">esmwyth;
+   </lb>
+   <lb n="2">
+    ond y gwasanaethddynion oeddent arferol
+   </lb> 
+   <lb n="3">o dyngu a rhegu yn ofnadwy; yr hyn a ddysgais I
+   </lb> 
+   <lb n="4">yn gynt n&acirc; dim arall, a thyma \dyma\ 'r Saesoneg cyntaf a
+   </lb> 
+   <lb n="5">ddysgais agos. Os un ohonynt a 'm hanfoddlonai
+   </lb> 
+   <lb n="6">I, sicr yw y byddwn i alw ar Dduw i 'w damnio hwy
+   </lb> 
+   <lb n="7">yn union; ond fe 'm torrwyd oddi wrtho ar un waith,
+   </lb> 
+   <lb n="8">trwy gerydd hen was du ag oedd yn byw yn yr un
+   </lb> 
+   <lb n="9">teulu a mi. Un diwrnod yr oeddwn yn glanhau y
+   </lb> 
+   <lb n="10">cyllill erbyn ciniaw, pan darfu i un o 'r morwynion
+   </lb> 
+   <lb n="11">gymmeryd un ohonynt i dorri bara a 'menyn \ymenyn\&nbsp;&acirc; hi;
+   </lb> 
+   <lb n="12">mi ddigiais yn aruthr wrthi, ac a elwais ar Dduw
+   </lb> 
+   <lb n="13">i 'w damnio hi; pan dywedodd y dyn du yma 
+   </lb>
+   <lb n="13-14">wrthyf
+   </lb>
+   <lb n="14">
+    na ddylaswn lafaru felly. Mi ofynnais iddo p'am \paham\?
+   </lb> 
+   <lb n="15">Fe 'm hattebodd fod dyn drwg ag elwid y diafol, ag
+   </lb> 
+   <lb n="16">oedd yn byw yn uffern, yn cymmeryd pawb ag oedd
+   </lb> 
+   <lb n="17">yn dweud y geiriau hyn, ac yn eu rhoi hwy yn y
+   </lb> 
+   <lb n="18">t&acirc;n ac yn eu llosgi hwynt. Hyn a 'm dychrynodd I
+   </lb> 
+   <lb n="19">yn ofnadwy, ac fe 'm torrodd I yn hollol oddi wrth
+   </lb> 
+   <lb n="20">dyngu. Ymhen ychydig ar ol hyn, fel yr oeddwn
+   </lb> 
+   <lb n="21">yn gosod y llestri china at yfed tea, daeth fy meistres
+   </lb> 
+   <lb n="22">i 'r ystafell ar yr amser yr oedd y forwyn yn ei 
+   </lb>
+   <lb n="22-23">glanhau
+   </lb>
+   <lb n="23">
+    hi; darfu i 'r ferch trwy anhap daenellu dwfr ar
+   </lb> 
+   <lb n="24">wainstcot \wensgod\ y ffenestr; ar ba achos fy meistres a 
+   </lb>
+   <lb n="24-25">anfoddlonodd;
+   </lb>
+   <lb n="25">
+    y ferch yn ynfyd iawn a 'i hattebodd
+   </lb> 
+   <lb n="26">hi drachefn, yr hyn a 'i gwnaeth hi yn ddiccach, ac
+   </lb> 
+   <lb n="27">a alwodd ar Dduw i 'w damnio hi. Mi ofidiais yn
+   </lb> 
+   <lb n="28">fawr i glywaid \glywed\ hyn, fel ag yr oedd hi yn wraig 
+   </lb>
+   <lb n="28-29">fonheddig
+   </lb>
+   <lb n="29">
+    ieuangc l&acirc;n, ac yn dda iawn wrthyf fi, yn
+   </lb> 
+   <lb n="30">gymmaint ag na allwn lai n&acirc; dywedyd wrthi, "
+   </lb>
+   <lb n="30-31">Madam
+   </lb>
+   <lb n="31">
+   ," ebe fi, "ni ddylech ddywedyd felly,"&nbsp;"Paham," ebe
+   </lb> 
+   <lb n="32">hi? "o ran fod dyn du," ebe fi, "ag enwir diafol yn
+   </lb> 
+   <lb n="33">cyfaneddu yn uffern, ac fe 'ch dyd chwi yn y t&acirc;n,
+   </lb> 
+   <lb n="34">ac fe 'ch llysg chwi, ac fe fydd ddrwg iawn gennyf fi
+   </lb> 
+   <lb n="35">hynny."&nbsp;"Pwy a ddywedodd hyn wrthych chwi," ebe
+   </lb> 
+   <lb n="36">fy meistres? "hen Ned," ebe finnau. Ni attebodd hi
+   </lb> 
+   <lb n="37">ddim ond "o 'r gorau"; ond hi ddywedodd wrth fy
+   </lb> 
+   <lb n="38">meistr am hyn; ac efe a barodd gylymmu hen Ned
+   </lb> 
+   <lb n="39">i fynu a 'i chwippo, ac ni oddefwyd iddo byth mwy
+   
+   
+   </lb>
+   </pb>
+   <pb n="16.">
+   
+    
+   <lb n="1">ddyfod i 'r gegin gyd &acirc; 'r lleill o 'r gwasanaethddynion.
+   </lb> 
+   <lb n="2">Ni's digiodd fy meistres wrthyf fi, ond yn hytrach
+   </lb> 
+   <lb n="3">a ymddigrifodd ar fy symlrwydd, ac mewn dull o
+   </lb> 
+   <lb n="4">ddifyrru 'r amser, hi ail-adroddodd yr hyn a 
+   </lb>
+   <lb n="4-5">ddywedais
+   </lb>
+   <lb n="5">
+    i amryw o 'i chyfneseifiaid ag a ddeuai i 
+   </lb>
+   <lb n="5-6">ymweled
+   </lb>
+   <lb n="6">
+    a hi; ymhlith eraill Mr. Freelandhouse, 
+   </lb>
+   <lb n="6-7">gweinidog
+   </lb>
+   <lb n="7">
+    yr Efengyl da iawn a graslawn a glywodd, ac
+   </lb> 
+   <lb n="8">fe ddaliodd lawer o sulw arnaf, ac a ddymunodd ar
+   </lb> 
+   <lb n="9">fy meistr i ymadael &acirc; mi iddo ef. Ni's mynnai
+   </lb> 
+   <lb n="10">wrando ar hynny ar y cyntaf, ond yn ol gwasgu
+   </lb> 
+   <lb n="11">llawer arno, fe 'm gadawodd i fyned, a rhoddodd
+   </lb> 
+   <lb n="12">Mr. Freelandhouse hanner cant punt amdanaf. Fe
+   </lb> 
+   <lb n="13">'m cymmerodd i dref gyd ag ef, ac a wnaeth i mi
+   </lb> 
+   <lb n="14">benlinio lawr, a phlethu fy nwylo ynghyd, ac a
+   </lb> 
+   <lb n="15">weddiodd trosof, a gwnaeth yr un peth bob nos a
+   </lb> 
+   <lb n="16">borau. Yr oeddwn yn meddwl mai peth digrif
+   </lb> 
+   <lb n="17">oedd hyn, ond yr oeddwn yn ei leico o 'r gorau.
+   </lb> 
+   <lb n="18">Ar ol i mi aros ychydig amser gyd &acirc; fy meistr 
+   </lb>
+   <lb n="18-19">newydd,
+   </lb>
+   <lb n="19">
+    mi ddaethum yn fwy cyfeillgar, ac a ofynais
+   </lb> 
+   <lb n="20">iddo pa beth oedd ystyr gweddi: (prin y gallaswn
+   </lb> 
+   <lb n="21">chwedleua Saesoneg fel y 'm deallid) fe gymmerodd
+   </lb> 
+   <lb n="22">boen mawr gyd &acirc; mi, ac a wnaeth i mi ddeall ei
+   </lb> 
+   <lb n="23">fod ef yn gweddio ar Dduw ag sydd yn byw yn y
+   </lb> 
+   <lb n="24">nefoedd; ac mai efe oedd fy Nhad a fy Nghyfaill
+   </lb> 
+   <lb n="25">gorau. Mi ddywedais wrtho mai camsynied oedd
+   </lb> 
+   <lb n="26">hynny; fod fy nhad I yn byw yn Bournou, a chwant
+   </lb> 
+   <lb n="27">mawr oedd arnaf ei weled ef, a hefyd fy anwyl fam
+   </lb> 
+   <lb n="28">a fy chwaer, ac yr oeddwn yn dymuno arno fod
+   </lb> 
+   <lb n="29">mor dda a 'm danfon I adref attynt hwy, ac mi 
+   </lb>
+   <lb n="29-30">ddywedais
+   </lb>
+   <lb n="30">
+    y cwbl ag allwn feddwl amdano i 'w 
+   </lb>
+   <lb n="30-31">berswadio
+   </lb>
+   <lb n="31">
+    ef i 'm danfon yn ol. Yr oeddwn yn 
+   </lb>
+   <lb n="31-32">ymddangos
+   </lb>
+   <lb n="32">
+    mewn blinder mawr, a hyn a weithiodd
+   </lb> 
+   <lb n="33">mor ddwfn ar fy meistr anwyl fel yr oedd y dagrau
+   </lb> 
+   <lb n="34">yn rhedeg i lawr tros ei ruddiau. Fe ddywedodd
+   </lb> 
+   <lb n="35">wrthyf mai Yspryd mawr a da oedd Duw, mai efe
+   </lb> 
+   <lb n="36">a greodd yr holl fyd, a dyn a phob peth ag oedd
+   </lb> 
+   <lb n="37">ynddo, yn Ethiopia, Affrica ac America, a phob
+   </lb> 
+   <lb n="38">man. Da iawn oedd gennyf glywed hyn: "Wele,"
+   </lb> 
+   <lb n="39">ebe fi, "yr oeddwn yn wastadol yn meddwl felly pan
+   
+   
+   </lb>
+   </pb>
+   <pb n="17.">
+   
+    
+   <lb n="1">oeddwn yn byw gartref! yn awr pe bai gennyf 
+   </lb>
+   <lb n="1-2">adenydd
+   </lb>
+   <lb n="2">
+    megis eryr mi ehedwn i fanegu i fy anwyl
+   </lb> 
+   <lb n="3">fam fod Duw yn fwy n&acirc; 'r haul, y lloer, a 'r ser; ac
+   </lb> 
+   <lb n="4">iddynt hwy gael eu gwneuthur ganddo ef."
+   
+   
+   </lb> 
+   <lb n="5">Yr oedd yn hyfryd iawn gennyf gael y fath 
+   </lb>
+   <lb n="5-6">wybodaeth
+   </lb>
+   <lb n="6">
+    a hon gan fy meistr, o ran ei bod hi yn
+   </lb> 
+   <lb n="7">cyttuno cystal &acirc; 'm barn I: meddyliais yn awr pe
+   </lb> 
+   <lb n="8">buaswn yn dychwelyd adre, fy mod yn gallach n&acirc; 'm
+   </lb> 
+   <lb n="9">holl gydwladwyr, fy nhaid, fy nhad, a mam, neu
+   </lb> 
+   <lb n="10">pwy bynnag ohonynt: ond er fy mod wedi cael fy
+   </lb> 
+   <lb n="11">ngoleuo ronyn trwy gyfarwyddiad fy meistr, etto
+   </lb> 
+   <lb n="12">nid oedd gennyf un wybodaeth arall o Dduw, ond
+   </lb> 
+   <lb n="13">mai Yspryd da ydoedd, ac iddo greu pob dyn, a
+   </lb> 
+   <lb n="14">phob peth. Ni's teimlais I erioed ynof fy hun, ac
+   </lb> 
+   <lb n="15">ni ddywedodd neb wrthyf, y byddai iddo gospi 'r
+   </lb> 
+   <lb n="16">dynion drwg, a charu y cyfiawnion. Da oedd 
+   </lb>
+   <lb n="16-17">gennyf
+   </lb>
+   <lb n="17">
+    yn unig i glywed fod Duw, am fy mod I yn
+   </lb> 
+   <lb n="18">meddwl felly, yn wastadol.
+   
+   
+   </lb> 
+   <lb n="19">Fy meistr anwyl caruaidd a wnaeth yn fawr iawn
+   </lb> 
+   <lb n="20">ohonof, fel y gwnaeth ei Ladi ef hefyd; hi a 'm
+   </lb> 
+   <lb n="21">dododd I yn yr ysgol, ond nid oedd hynny wrth fy
+   </lb> 
+   <lb n="22">modd, ac ni fynnwn fyned; ond fy meistr a fy
+   </lb> 
+   <lb n="23">meistres a ddymunodd arnaf yn y dull mwya 
+   </lb>
+   <lb n="23-24">addfwyn
+   </lb>
+   <lb n="24">
+    i ddysgu, ac a 'm perswadiasant i ddilyn fy 
+   </lb>
+   <lb n="24-25">ysgol
+   </lb>
+   <lb n="25">
+    heb anfoddlonrwydd; fel o 'r diwedd y daethum
+   </lb> 
+   <lb n="26">i 'w charu yn well, ac a ddysgais ddarllain yn ganolig
+   </lb> 
+   <lb n="27">dda. Dyn da oedd fy ysgol-feistr, a 'i enw ef oedd
+   </lb> 
+   <lb n="28">Fanosdore, ac yr oedd yn dirion iawn i mi. Yr
+   </lb> 
+   <lb n="29">oeddwn yn y cyflwr hwn, pan ar un dydd Sabbath
+   </lb> 
+   <lb n="30">y clywais fy meistr yn pregethu ar y Dat. i. 7. Wele
+   </lb> 
+   <lb n="31">y mae efe yn dyfod gyd a 'r cymmylau; a phob llygad
+   </lb> 
+   <lb n="32">a 'i gwel ef, ie, y rhai a 'i gwanasant ef. Y geiriau
+   </lb> 
+   <lb n="33">gafodd effaith ryfeddol arnaf; yr oeddwn mewn
+   </lb> 
+   <lb n="34">mawr gyfyngder am fy mod yn meddwl bod fy
+   </lb> 
+   <lb n="35">meistr yn eu cyfarwyddo attaf fi yn unig; ac yr
+   </lb> 
+   <lb n="36">oeddwn I yn dychymmygu ei fod ef yn dal sulw
+   </lb> 
+   <lb n="37">arnaf fi gyd &acirc; difrifwch anghyffredin. Ac fe 'm 
+   </lb>
+   <lb n="37-38">cadarnhawyd
+   </lb>
+   <lb n="38">
+    ragor yn y gred hyn wrth edrych o gylch
+   </lb> 
+   <lb n="39">yr eglwys, a methu gweled un dyn heblaw fy hun
+   
+   
+   </lb>
+   </pb>
+   <pb n="18.">
+   
+    
+   <lb n="1">yn y fath gystudd a thrwbwl meddwl ag oeddwn I
+   </lb> 
+   <lb n="2">ynddo: mi ddechreuais feddwl fod fy meistr yn fy
+   </lb> 
+   <lb n="3">nghas&agrave;u, a dymuno yr oeddwn i fyned adref i fy
+   </lb> 
+   <lb n="4">ngwlad fy hun; canys mi feddyliais os Duw a
+   </lb> 
+   <lb n="5">ddeuai, fel y dywedodd ef, diau y buasai yn fwya
+   </lb> 
+   <lb n="6">digofus wrthyf fi, gan nas gwyddwn I pa beth oedd
+   </lb> 
+   <lb n="7">efe, ac na's clywswn amdano o 'r blaen.
+   
+   
+   </lb> 
+   <lb n="8">Mi aethum adref mewn mawr drallod, ond ni's
+   </lb> 
+   <lb n="9">dywedais air wrth neb: yr oedd arnaf ryw faint o
+   </lb> 
+   <lb n="10">ofn fy meistr; mi feddyliais ei fod yn fy nghas&agrave;u I.
+   </lb> 
+   <lb n="11">Y tecst nesaf y clywais ef yn pregethu oddi wrtho
+   </lb> 
+   <lb n="12">oedd Heb. xii. 14. Dilynwch heddwch &acirc; phawb, a
+   </lb> 
+   <lb n="13">sancteiddrwydd, heb yr hwn ni chaiff neb weled yr
+   </lb> 
+   <lb n="14">Arglwydd. Fe bregethodd y gyfraith mor greulon
+   </lb> 
+   <lb n="15">ag y gwnaeth i mi grynu. Fe ddywedodd y barnai
+   </lb> 
+   <lb n="16">Duw yr holl fyd, Ethiopia, Asia, Affrica, a phob
+   </lb> 
+   <lb n="17">man. Fe 'm blinwyd yn awr hyd yr eithaf, heb
+   </lb> 
+   <lb n="18">allu dirnad pa beth i wneuthur; fel yr oedd gennyf
+   </lb> 
+   <lb n="19">yn awr achos i gredu fod fy sefyllfa I cynddrwg i
+   </lb> 
+   <lb n="20">fyned ag i aros. Mi gedwais y meddyliau hyn i mi
+   </lb> 
+   <lb n="21">fy hun, ac ni's manegais hwy i un dyn pwy bynnag.
+   
+   
+   </lb> 
+   <lb n="22">Mi fuaswn yn achwyn wrth fy meistres dda am y
+   </lb> 
+   <lb n="23">trwbl meddwl mawr yma, ond hi fuasai yn go&nbsp;
+   </lb>
+   <lb n="23-24">ddieithr
+   </lb>
+   <lb n="24">
+    i mi amryw ddyddiau cyn i hyn ddigwydd, o
+   </lb> 
+   <lb n="25">ran celwydd a ddywedpwyd arnaf gan un o 'r 
+   </lb>
+   <lb n="25-26">morwynion.
+   </lb>
+   <lb n="26">
+    Yr holl wasanaeth-ddynion oedd yn
+   </lb> 
+   <lb n="27">eiddigeddu ohonof, ac a genfigenasant y parch a 'r
+   </lb> 
+   <lb n="28">cariad a ddangosid i mi gan fy meistr a meistres; a 'r
+   </lb> 
+   <lb n="29">diafol yr hwn sydd bob pryd yn barod ac yn ddyfal
+   </lb> 
+   <lb n="30">mewn drygioni, a annogodd y ferch hon i 
+   </lb>
+   <lb n="30-31">ddywedyd
+   </lb>
+   <lb n="31">
+    celwydd arnaf. Hyn a ddigwyddodd yn y
+   </lb> 
+   <lb n="32">cynhauaf \cynhaeaf\ gwair, canys ar ddiwrnod pan oeddwn yn
+   </lb> 
+   <lb n="33">dadlwytho 'r waggen \wagen\ i ddodi 'r gwair yn yr ysgubor,
+   </lb> 
+   <lb n="34">hi wiliodd am odfa yn fy absennoldeb i gymmeryd
+   </lb> 
+   <lb n="35">pig y bigfforch o 'r c&ocirc;s \coes\, a 'i chuddio hi: pan y
+   </lb> 
+   <lb n="36">daethum i drachefn at fy ngwaith, a methu ei chael
+   </lb> 
+   <lb n="37">hi, fe 'm blinwyd yn ddirfawr, ond mi benderfynais
+   </lb> 
+   <lb n="38">iddi gwympo yn rhyw le ymhlith y gwair; felly mi
+   </lb> 
+   <lb n="39">aethum ac a brynais un arall a 'm harian fy hun:
+   
+   
+   </lb>
+   </pb>
+   <pb n="19.">
+   
+    
+   <lb n="1">pan gwelodd y ferch fod gennyf un arall, hi fu mor
+   </lb> 
+   <lb n="2">faleisus a dywedyd wrth fy meistres fy mod I yn 
+   </lb>
+   <lb n="2-3">anffyddlon
+   </lb>
+   <lb n="3">
+    iawn, ac nid y fath un ag oedd hi yn fy
+   </lb> 
+   <lb n="4">nghymmeryd I; a 'i bod hi yn gwybod i mi heb
+   </lb> 
+   <lb n="5">gydseiniad fy meistr i fynnu llawer o bethau yn ei
+   </lb> 
+   <lb n="6">enw ef ag oedd raid iddo ef dalu amdanynt; ac fel
+   </lb> 
+   <lb n="7">prawf o 'm hesgeulusdra hi ddangosodd y pig ag a
+   </lb> 
+   <lb n="8">gymmerodd hi allan o 'r c&ocirc;s \coes\, ac a ddywedodd iddi
+   </lb> 
+   <lb n="9">ei chael hi tu allan i 'r drysau. Fy meistres heb 
+   </lb>
+   <lb n="9-10">wybod
+   </lb>
+   <lb n="10">
+    y gwirionedd o 'r pethau hyn oedd ronyn yn oer
+   </lb> 
+   <lb n="11">attaf fi hyd onis dywedodd wrthyf, ac yna yn union
+   </lb> 
+   <lb n="12">mi lanheais fy hun, ac a 'i perswadiais hithau fod y
+   </lb> 
+   <lb n="13">cyhuddiadau hyn yn anwireddus.
+   
+   
+   </lb> 
+   <lb n="14">Mi barheais mewn cyflwr annedwydd iawn 
+   </lb>
+   <lb n="14-15">amryw
+   </lb>
+   <lb n="15">
+    ddyddiau. Fy meistres dda a haerodd ar fynnu
+   </lb> 
+   <lb n="16">gwybod pa beth oedd yr achos. Pan rhoddais iddi
+   </lb> 
+   <lb n="17">wybod sefyllfa fy yspryd, hi roddodd i mi John Bunian
+   </lb> 
+   <lb n="18">ar y Rhyfel ysprydol i 'w ddarllen; mi ffeindiais ei
+   </lb> 
+   <lb n="19">brofiadau ef yn gyffelyb i fy rhai fy hun, yr hyn a
+   </lb> 
+   <lb n="20">wnaeth i mi feddwl mai dyn drwg ydoedd ef; fel
+   </lb> 
+   <lb n="21">yr oeddwn I wedi cael fy argyhoeddi o fy nattur
+   </lb> 
+   <lb n="22">lygredig fy hun, a thruenusrwydd fy nghalon; ac
+   </lb> 
+   <lb n="23">fel yr oedd ynte yn cyfaddef ei fod ef ei hun yn yr
+   </lb> 
+   <lb n="24">un cyflwr, ni's profais un cysur oll wrth ddarllen ei
+   </lb> 
+   <lb n="25">waith, ond yn y gwrthwyneb. Mi aethum &acirc; 'r llyfr
+   </lb> 
+   <lb n="26">at fy meistres, ac a fanegais iddi nad oeddwn yn
+   </lb> 
+   <lb n="27">leico oll mohono, ei fod yn perthyn i ddyn drwg
+   </lb> 
+   <lb n="28">fel fy hun; ac nad oeddwn yn dewis ei ddarllen ef,
+   </lb> 
+   <lb n="29">ac a ddymunais arni roddi i mi un arall, wedi ei
+   </lb> 
+   <lb n="30">'sgrifennu \ysgrifennu\ gan well dyn, sef un ag oedd yn sanctaidd
+   </lb> 
+   <lb n="31">heb bechod. Hi dystiodd i mi fod John Bunian yn
+   </lb> 
+   <lb n="32">ddyn da, ond ni's gallai hi fy mherswadio I; mi
+   </lb> 
+   <lb n="33">feddyliais ei fod ef yn rhy gyffelyb i mi fy hun i fod
+   </lb> 
+   <lb n="34">yn ddyn cyfiawn, fel yr oedd ei brofiadau ef yn
+   </lb> 
+   <lb n="35">ymddangos i atteb i fy rhai innau.
+   
+   
+   </lb> 
+   <lb n="36">Yr wyf yn hollol wybodus na's gallasai dim ond
+   </lb> 
+   <lb n="37">mawr allu ac anrhaethol drugareddau yr Arglwydd
+   </lb> 
+   <lb n="38">i gysuro fy enaid tan y fath faich trwm ag oeddwn
+   </lb> 
+   <lb n="39">y pryd hynny yn ei ddioddef. Rai diwrnodau wedi
+   
+   
+   </lb>
+   </pb>
+   <pb n="20.">
+   
+    
+   <lb n="1">hyn rhoddodd fy meistr i mi Alwad yr annychweledig.
+   </lb> 
+   <lb n="2">Nid oedd hwn un gronyn o gysur i mi drachefn;
+   </lb> 
+   <lb n="3">ond ar y llaw arall fe barodd gymmaint o derfysg ag
+   </lb> 
+   <lb n="4">a wnaeth y llall o 'r blaen, fel yr oedd yn galw pawb
+   </lb> 
+   <lb n="5">at Grist; a minnau yn cael fy hun cynddrwg ac
+   </lb> 
+   <lb n="6">mor druenus ag na's gallaswn ddyfod. Yr 
+   </lb>
+   <lb n="6-7">ystyriaethau
+   </lb>
+   <lb n="7">
+    hyn a 'm taflodd i gystudd yspryd mawr na's
+   </lb> 
+   <lb n="8">gellir ei ddisgrifio; gymmaint ag y darfu i mi 
+   </lb>
+   <lb n="8-9">gynnyg
+   </lb>
+   <lb n="9">
+    gwneud diben arnaf fy hun. Mi gymmerais
+   </lb> 
+   <lb n="10">gyllell fawr, ac a aethum i 'r stabal \ystabl\ gyd &acirc; bwriad i
+   </lb> 
+   <lb n="11">ddinystrio fy hun; ac fel yr oeddwn yn cynnyg &acirc; fy
+   </lb> 
+   <lb n="12">holl allu i wthio y gyllell i mewn i 'm hochr, hi
+   </lb> 
+   <lb n="13">blygodd yn ddau. Fe 'm tarawyd mewn mynydyn
+   </lb> 
+   <lb n="14">&acirc; dychryn wrth feddwl am fy myrbwylldra, a 'm
+   </lb> 
+   <lb n="15">cydwybod a lafarodd wrthyf pe buaswn yn llwyddo
+   </lb> 
+   <lb n="16">yn y cynnyg hwn y buaswn yn llwyr debygol o 
+   </lb>
+   <lb n="16-17">fyned
+   </lb>
+   <lb n="17">
+    i uffern.
+   
+   
+   </lb> 
+   <lb n="18">Ni's gallaswn ffeindio un esmwyth&acirc;d, na 'r cysgod
+   </lb> 
+   <lb n="19">lleiaf o gysur; cystudd dwfn fy yspryd a effeithiodd
+   </lb> 
+   <lb n="20">gymmaint ar fy iechyd fel y parheais yn bur sael \s&acirc;l\ dri
+   </lb> 
+   <lb n="21">diwrnod a thair nos, ac ni fynnwn arferyd dim
+   </lb> 
+   <lb n="22">moddion at fy iach&acirc;d, er bod fy meistres yn bur
+   </lb> 
+   <lb n="23">hawddgar, ac yn danfon amrywiol bethau i mi; ond
+   </lb> 
+   <lb n="24">yr oeddwn yn gwrthod pob peth at adferu iechyd, a
+   </lb> 
+   <lb n="25">dymuno yr oeddwn gael marw. Ni fynnwn fyned
+   </lb> 
+   <lb n="26">i 'm gwely fy hun, ond mi orweddais yn y stabal \ystabl\ ar
+   </lb> 
+   <lb n="27">wellt. Mi deimlais holl ddychrynf&agrave;u cydwybod
+   </lb> 
+   <lb n="28">derfysglyd, mor galed i 'w dioddef, ac a welais holl
+   </lb> 
+   <lb n="29">lid Duw yn barod i syrthio arnaf. Mi deimlais nad
+   </lb> 
+   <lb n="30">oedd un ffordd i mi i gael fy ngwared heb ddyfod at
+   </lb> 
+   <lb n="31">Grist, ac ni's gallwn ddyfod atto; meddyliais
+   </lb> 
+   <lb n="32">fod yn amhosibl iddo dderbyn y fath bechadur a mi.
+   
+   
+   </lb> 
+   <lb n="33">Y nos ddiweddaf yr arosais yn y lle hwn, 
+   </lb>
+   <lb n="33-34">ynghanol
+   </lb>
+   <lb n="34">
+    fy nghyfyngder y geiriau hyn a ddygwyd adre
+   </lb> 
+   <lb n="35">ar fy meddwl, Wele Oen Duw. Fe 'm cysurwyd
+   </lb> 
+   <lb n="36">ronyn ar hyn, ac a ddechreuais esmwyth&agrave;u a 
+   </lb>
+   <lb n="36-37">dymuno
+   </lb>
+   <lb n="37">
+    gweled y dydd fel y gallwn ffeindio 'r geiriau
+   </lb> 
+   <lb n="38">hyn yn fy Mibl. Mi godais yn foreu iawn y boreu
+   </lb> 
+   <lb n="39">drannoeth, ac a aethum at fy ysgolfeistr Mr. 
+   
+   </lb>
+   </pb>
+   <pb n="20-21.">
+   <lb n="39-1">Fanosdore,
+   </lb>
+   </pb>
+   <pb n="21.">
+   <lb n="1">
+    ac a gyfrennais amgylchiadau fy meddwl iddo;
+   </lb> 
+   <lb n="2">a llawen iawn oedd ganddo glywed fy mod yn gofyn
+   </lb> 
+   <lb n="3">y ffordd i Seion, ac a fendithiodd yr Arglwydd a
+   </lb> 
+   <lb n="4">wnaeth mor rhyfeddol trosof fi ddyn gwael o 'r 
+   </lb>
+   <lb n="4-5">cenhedloedd.
+   </lb>
+   <lb n="5">
+    Yr oeddwn yn fwy eon \eofn\ ar y pendefig da
+   </lb> 
+   <lb n="6">hwn n&acirc; fy meistr, nag un dyn arall, ac yn fwy
+   </lb> 
+   <lb n="7">rhydd i chwedleua ag ef: fe 'm cefnogodd yn fawr,
+   </lb> 
+   <lb n="8">ac a weddiodd gyd &acirc; mi yn fynych, ac yr oeddwn
+   </lb> 
+   <lb n="9">bob amser yn cael adeiladaeth oddi wrth ei eiriau ef.
+   
+   
+   </lb> 
+   <lb n="10">O ddautu cwarter milltir oddi wrth d&#375; fy meistr
+   </lb> 
+   <lb n="11">yr oedd derwen fawr anghyffredin hyfryd ynghanol
+   </lb> 
+   <lb n="12">coedwig; yno yn fynych yr oeddwn I yn cael fy
+   </lb> 
+   <lb n="13">ngosod i dorri lawr goed, (gwaith ag yr oeddwn yn
+   </lb> 
+   <lb n="14">ymhyfrydu yn fawr ynddo) prin y methwn fyned
+   </lb> 
+   <lb n="15">i 'r lle hwn bob dydd; rai prydiau ddwy waith yn y
+   </lb> 
+   <lb n="16">dydd os gellid fy arbed. Y pleser mwya ag a 
+   </lb>
+   <lb n="16-17">feddwn
+   </lb>
+   <lb n="17">
+    I oedd eistedd tan y dderwen hon; canys yma
+   </lb> 
+   <lb n="18">yr arferwn dywallt fy holl achwynion o flaen yr 
+   </lb>
+   <lb n="18-19">Arglwydd:
+   </lb>
+   <lb n="19">
+    ac mi arferwn pan byddai gofid neilltuol
+   </lb> 
+   <lb n="20">arnaf i fyned yno, ac i chwedleua &acirc; 'r pren, ac i
+   </lb> 
+   <lb n="21">adrodd fy noluriau, megis pe buasai yn gyfaill
+   </lb> 
+   <lb n="22">i mi.
+   
+   
+   </lb> 
+   <lb n="23">Yma yn fynych y galarwn o herwydd fy nghalon
+   </lb> 
+   <lb n="24">ddrwg, a 'm cyflwr truenus; ac a ffeindiais gysur a
+   </lb> 
+   <lb n="25">diddanwch mwy nag a gefais erioed o 'r blaen. Pa
+   </lb> 
+   <lb n="26">bryd bynnag cawn fy nirmygu a fy ngwawdio, 
+   </lb>
+   <lb n="26-27">arferwn
+   </lb>
+   <lb n="27">
+    ddyfod yma a chael heddwch. Dechreuais
+   </lb> 
+   <lb n="28">yn awr i flasu ar y llyfr a roddodd fy meistr imi, sef
+   </lb> 
+   <lb n="29">Galwad yr annychweledig, o waith Baxter, ac a 
+   </lb>
+   <lb n="29-30">gymmerais
+   </lb>
+   <lb n="30">
+    bleser mawr ynddo. Da iawn oedd gennyf
+   </lb> 
+   <lb n="31">bob amser i gael y gwaith o dorri coed, rhan fawr
+   </lb> 
+   <lb n="32">o 'm gorchwyl ydoedd, ac mi a 'i dilynais ef gyd &acirc;
+   </lb> 
+   <lb n="33">phleser, fel yr oeddwn I y pryd hynny yn hollol
+   </lb> 
+   <lb n="34">unig, a 'm calon yn dyrchafu i fynu at Dduw, ac
+   </lb> 
+   <lb n="35">fe 'm galluogwyd i weddio yn ddibaid; a bendigedig
+   </lb> 
+   <lb n="36">fyth y fo ei enw mawr ef, fe attebodd fy ngweddiau
+   </lb> 
+   <lb n="37">i yn ffyddlon. Ni's gallaf fyth fod yn ddigon 
+   </lb>
+   <lb n="37-38">diolchgar
+   </lb>
+   <lb n="38">
+    i 'r Hollalluog Dduw am yr amrywiol 
+   </lb>
+   <lb n="38-39">odfeuon
+   </lb>
+   <lb n="39">
+    cysurus a brofais I yno.
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="22.">
+   
+   
+   
+    
+   <lb n="1">F'allai \feallai\ na fydd yr amgylchiad ag wyf yr awr hon
+   </lb> 
+   <lb n="2">yn myned i 'w adrodd ddim ennill crediniaeth gyd &acirc;
+   </lb> 
+   <lb n="3">llawer: ond hyn a wn I, na's gall y llawenydd a 'r
+   </lb> 
+   <lb n="4">cysur a roddodd e' i mi ddim cael ei osod allan, ond
+   </lb> 
+   <lb n="5">yn unig ei amgyffred gan y rhei'ny ag a brofasant
+   </lb> 
+   <lb n="6">yr unrhyw.
+   
+   
+   </lb> 
+   <lb n="7">Yr oeddwn un diwrnod mewn tymmer meddwl
+   </lb> 
+   <lb n="8">mwya hyfryd; fy nghalon oedd yn dilifo \dylifo\ o gariad
+   </lb> 
+   <lb n="9">a diolchgarwch i Awdwr fy holl gysuron. Fe 'm
+   </lb> 
+   <lb n="10">tynnwyd I gymmaint allan ohonof fy hun, ac fe 'm
+   </lb> 
+   <lb n="11">llanwyd ac a 'm synnwyd felly o bresennoldeb yr 
+   </lb>
+   <lb n="11-12">Arglwydd,
+   </lb>
+   <lb n="12">
+    fel y gwelais, neu y tybiais im' weled 
+   </lb>
+   <lb n="12-13">goleuni
+   </lb>
+   <lb n="13">
+    anrhaethadwy yn tywynnu i lawr o 'r nef arnaf,
+   </lb> 
+   <lb n="14">ac yn disgleirio o ddautu i mi yspaid munud. Mi
+   </lb> 
+   <lb n="15">arosais ar fy ngliniau, a llawenydd anrhaethadwy a
+   </lb> 
+   <lb n="16">berchennogodd fy enaid. Yr heddwch a 'r tawelwch
+   </lb> 
+   <lb n="17">a lanwodd fy enaid yn ganlynol i hyn oedd ryfeddol
+   </lb> 
+   <lb n="18">ac anrhaethadwy. Ni's cyfnewidiaswn yn awr fy
+   </lb> 
+   <lb n="19">nghyflwr, neu fod yn rhyw un arall ond fy hun am
+   </lb> 
+   <lb n="20">yr holl fyd. Yr oeddwn yn bendithio Duw am
+   </lb> 
+   <lb n="21">fy nhlodi, na feddwn ddim cyfoeth daearol nac
+   </lb> 
+   <lb n="22">uchder i dynnu fy nghalon oddi wrtho ef. Mi 
+   </lb>
+   <lb n="22-23">ddymunaswn
+   </lb>
+   <lb n="23">
+    ar y pryd hynny, pe buasai posibl i mi, i
+   </lb> 
+   <lb n="24">aros ar y fangre honno fyth. Yr oeddwn yn teimlo
+   </lb> 
+   <lb n="25">anewyllysgarwch ynof fy hun i gyfathrachu dim
+   </lb> 
+   <lb n="26">mwy &acirc; 'r byd, neu ymgymmysg bellach fyth &acirc;&nbsp;
+   </lb>
+   <lb n="26-27">dynion.
+   </lb>
+   <lb n="27">
+    Mi feddyliais fy mod yn perchennogi llawn
+   </lb> 
+   <lb n="28">sicrwydd fod fy mhechodau wedi eu maddeu i mi.
+   </lb> 
+   <lb n="29">Mi aethum adref ar hyd y ffordd yn llawen; a 'r
+   </lb> 
+   <lb n="30">testun hyn o 'r  'Sgrythur \Ysgrythur\ a redodd yn gyflawn i fy
+   </lb> 
+   <lb n="31">meddwl, Ac mi a wnaf &acirc; hwynt gyfammod 
+   </lb>
+   <lb n="31-32">tragywyddol,
+   </lb>
+   <lb n="32">
+    na throaf oddi wrthynt, heb wneuthur lles
+   </lb> 
+   <lb n="33">iddynt; ac mi a osodaf fy ofn yn eu calonnau, fel na
+   </lb> 
+   <lb n="34">chiliont oddi wrthyf, Jer. xxxii. 40. Ar yr odfa
+   </lb> 
+   <lb n="35">gyntaf ag a gefais, mi aethum at fy hen ysgol-feistr,
+   </lb> 
+   <lb n="36">ac a fynegais iddo ddedwydd gyflwr fy enaid, ac
+   </lb> 
+   <lb n="37">yntau a unodd &acirc; mi mewn diolchgarwch i Dduw
+   </lb> 
+   <lb n="38">am ei drugaredd i mi y gwaelaf o bechaduriaid. Yr
+   </lb> 
+   <lb n="39">oeddwn yr awr hon yn berffaith esmwyth, a phrin
+   
+   
+   </lb>
+   </pb>
+   <pb n="23.">
+   
+    
+   <lb n="1">yr oedd gennyf ddymuniad am ddim tu hwnt i 'r hyn
+   </lb> 
+   <lb n="2">oeddwn yn ei feddu, pan dihangodd fy holl gysuron
+   </lb> 
+   <lb n="3">tymhorol oll trwy farwolaeth fy anwyl a fy nheilwng
+   </lb> 
+   <lb n="4">feistr Mr. Ffreelandhouse, yr hwn a gymmerwyd o 'r
+   </lb> 
+   <lb n="5">byd hwn yn ddisymmwth; ni's cafodd ond cystudd
+   </lb> 
+   <lb n="6">byr, ac a fu farw o dwymyn. Mi ddeliais ei law ef yn
+   </lb> 
+   <lb n="7">fy llaw pan ymadawodd &acirc; 'r byd: dywedodd 
+   </lb>
+   <lb n="7-8">wrthyf
+   </lb>
+   <lb n="8">
+    iddo roddi i mi fy rhydd-did. Yr oeddwn yn
+   </lb> 
+   <lb n="9">rhydd i fyned lle mynnwn. Fe ddywedodd wrthyf
+   </lb> 
+   <lb n="10">iddo weddio trosof, a 'i fod yn gobeithio y parhawn
+   </lb> 
+   <lb n="11">hyd y diwedd. Fe adawodd i mi yn ei ewyllys
+   </lb> 
+   <lb n="12">ddeg punt a fy rhydd-did.
+   
+   
+   </lb> 
+   <lb n="13">Mi ffeindiais pe buasai fy meistr yn byw, mai ei
+   </lb> 
+   <lb n="14">fwriad ef oedd fy nghymmeryd I gyd ag ef i Holand,
+   </lb> 
+   <lb n="15">fel yr oedd ef amryw weithiau wedi dweud 
+   </lb>
+   <lb n="15-16">amdanaf
+   </lb>
+   <lb n="16">
+    wrth rai o 'i gyfeillion yno ag oedd yn chwennych
+   </lb> 
+   <lb n="17">fy ngweled; ond gwell oedd gennyf i aros gyd &acirc; fy
+   </lb> 
+   <lb n="18">meistres, yr hon oedd mor dda i mi a phe buasai
+   </lb> 
+   <lb n="19">yn fam i mi.
+   
+   
+   </lb> 
+   <lb n="20">Y colled o Mr. Freelandhouse a 'm gwasgodd I yn
+   </lb> 
+   <lb n="21">enbaid \enbyd\, ond fe 'm gwnawd \gwnaed\ fyth yn fwy truenus gan
+   </lb> 
+   <lb n="22">sefyllfa dywyll gystuddiol fy meddwl; gan fod gelyn
+   </lb> 
+   <lb n="23">mawr fy enaid yn barod i 'm cystuddio, fe osodai fy
+   </lb> 
+   <lb n="24">nhrueni fy hun o 'm blaen gyd &acirc; 'r fath oleuni 
+   </lb>
+   <lb n="24-25">echrydus,
+   </lb>
+   <lb n="25">
+    ac a 'm gwasgai i lawr ag amheuon, ofnau,
+   </lb> 
+   <lb n="26">a chyd &acirc; 'r fath deimlad dwfn o 'm hanheilyngdod fy
+   </lb> 
+   <lb n="27">hun, fel ar ol yr holl gysur a 'r cefnogrwydd a gefais
+   </lb> 
+   <lb n="28">yn fynych y 'm temtiwyd i gredu mai gwrthodedig
+   </lb> 
+   <lb n="29">fyddwn yn y diwedd. Pa mwyaf yr oeddwn yn
+   </lb> 
+   <lb n="30">gweled tegwch a gogoniant Duw, mwyaf yr 
+   </lb>
+   <lb n="30-31">oeddwn
+   </lb>
+   <lb n="31">
+    yn cael fy narostwng tan deimlad o 'm gwaelder
+   </lb> 
+   <lb n="32">fy hun. Mynych yr awn i fy hen le gweddi, ac
+   </lb> 
+   <lb n="33">anfynych y deuwn oddi yno heb gysur. Un 
+   </lb>
+   <lb n="33-34">diwrnod
+   </lb>
+   <lb n="34">
+    yr Ysgrythur hon a gymhwyswyd yn rhyfedd at
+   </lb> 
+   <lb n="35">fy meddwl, Ac yr ydych chwi wedi eich cyflawni 
+   </lb>
+   <lb n="35-36">ynddo
+   </lb>
+   <lb n="36">
+    ef, yr hwn yw Pen pob tywysogaeth ac awdurdod.
+   </lb> 
+   <lb n="37">Yr Arglwydd welodd fod yn dda i fy nghysuro trwy
+   </lb> 
+   <lb n="38">gymhwysiad o amryw addewidion graslawn ar 
+   </lb>
+   <lb n="38-39">brydiau
+   </lb>
+   <lb n="39">
+    pan byddwn yn barod i suddo tan fy nhrallod.
+   
+   
+   </lb>
+   </pb>
+   <pb n="24.">
+   
+    
+   <lb n="1">Am hynny efe a ddichon hefyd yn gwbl iachau y rhai
+   </lb> 
+   <lb n="2">trwyddo ef sydd yn dyfod at Dduw, gan ei fod ef yn
+   </lb> 
+   <lb n="3">byw bob amser i eiriol drostynt hwy, Heb. vii. 25.
+   </lb> 
+   <lb n="4">Canys ag un offrwm y perffeithiodd efe yn dragywyddol
+   </lb> 
+   <lb n="5">y rhai sydd wedi eu sancteiddio, Heb. x. 14.
+   
+   
+   </lb> 
+   <lb n="6">Ni fu fy meistres fwyn, dirion, fyw ond dwy
+   </lb> 
+   <lb n="7">flynedd ar ol fy meistr. Ei marwolaeth hi fu golled
+   </lb> 
+   <lb n="8">mawr i mi. Hi adawodd ar ei hol bum mab, oll
+   </lb> 
+   <lb n="9">yn w&#375;r ieuaingc grasol, ac yn weinidogion yr 
+   </lb>
+   <lb n="9-10">Efengyl.
+   </lb>
+   <lb n="10">
+    Mi arosais gyd &acirc; hwynt oll un ar ol y llall,
+   </lb> 
+   <lb n="11">nes eu meirw: ni's buant byw ond pedair blynedd
+   </lb> 
+   <lb n="12">ar ol eu rhieni. Pan rhyngodd bodd i Dduw eu
+   </lb> 
+   <lb n="13">cymmeryd atto ei hun. Fe 'm gadawyd yn hollol
+   </lb> 
+   <lb n="14">ymddifad \amddifad\, heb gyfaill gennyf yn y byd. Ond am
+   </lb> 
+   <lb n="15">fy mod mor fynych wedi profi daioni Duw, mi
+   </lb> 
+   <lb n="16">obeithiais ynddo i wneud fel y mynnai &acirc; mi. Yn
+   </lb> 
+   <lb n="17">y cyflwr digymmorth hwn mi aethum i 'r coed i
+   </lb> 
+   <lb n="18">weddio fel arferol; ac er fod yr eira o uchder mawr,
+   </lb> 
+   <lb n="19">nid oeddwn deimladwy o anwyd, nac un diffyg
+   </lb> 
+   <lb n="20">arall. Ar amserau yn wir pan gwelwn y byd yn
+   </lb> 
+   <lb n="21">gwgu arnaf o gwmpas, fe 'm temtiwyd i feddwl fod
+   </lb> 
+   <lb n="22">yr Arglwydd wedi 'm gadael. Mi ffeindiais gysur
+   </lb> 
+   <lb n="23">mawr oddi wrth fyfyrdodau ar y geiriau hynny yn
+   </lb> 
+   <lb n="24">Esaia xlix. 16. Wele, ar gledr fy nwylaw y 'th 
+   </lb>
+   <lb n="24-25">argreffais;
+   </lb>
+   <lb n="25">
+    dy furiau sydd ger fy mron bob amser. Ac
+   </lb> 
+   <lb n="26">amrywiol addewidion cysurus a gymhwyswyd attaf
+   </lb> 
+   <lb n="27">yn hyfryd. Y lxxxix Salm a 'r 34 adn. Ni thorraf
+   </lb> 
+   <lb n="28">fy nghyfammod: ac ni newidiaf yr hyn a ddaeth allan
+   </lb> 
+   <lb n="29">o 'm genau. Hefyd Heb. xvi. 17, 18. Phil. i. 6.
+   </lb> 
+   <lb n="30">ac amryw eraill.
+   
+   
+   </lb> 
+   <lb n="31">Gan fy mod yn awr wedi colli fy holl gyfeillion
+   </lb> 
+   <lb n="32">anwyl a gwerthfawr, pob lle yn y byd oedd yr un
+   </lb> 
+   <lb n="33">fath i mi. Chwant fu arnaf tros amser hir i 
+   </lb>
+   <lb n="33-34">ddyfod
+   </lb>
+   <lb n="34">
+    trosodd i Loegr. Mi ddychymmygais fod holl
+   </lb> 
+   <lb n="35">drigolion yr ynys hon yn sanctaidd; am fod pob
+   </lb> 
+   <lb n="36">rhai ag oedd yn ymweled &acirc; Meistr oddi yno yn
+   </lb> 
+   <lb n="37">ddynion da, (Mr. Whiteffield oedd ei ffrynd
+   </lb> 
+   <lb n="38">neilltuol ef) ac Awdwyr y llyfrau a roddwyd i mi
+   </lb> 
+   <lb n="39">oeddent oll yn Saeson. Ond uchlaw pob lle yn y
+   
+   
+   </lb>
+   </pb>
+   <pb n="25.">
+   
+    
+   <lb n="1">byd dymuno yr oeddwn i weled Kidderminster, 
+   </lb>
+   <lb n="1-2">canys
+   </lb>
+   <lb n="2">
+    ni's gallwn lai n&acirc; meddwl nad oedd ar y spot o
+   </lb> 
+   <lb n="3">ddaear y bu Mr. Baxter byw yr holl bobl yn dduwiol.
+   
+   
+   </lb> 
+   <lb n="4">Fy amgylchiadau I oedd yn gofyn i mi aros yn
+   </lb> 
+   <lb n="5">h&#373;y yn Iorc newydd, fel ag yr oeddwn wedi rhedeg
+   </lb> 
+   <lb n="6">rhyw faint mewn dyled, ac mewn blinder pa fodd
+   </lb> 
+   <lb n="7">i 'w talu. Ynghylch yr amser hyn pendefig ieuangc
+   </lb> 
+   <lb n="8">ag oedd o gydnabyddiaeth neilltuol ag un o fy meistri
+   </lb> 
+   <lb n="9">ieuaingc, a gymmerodd arno fod yn ffrynd i mi, ac
+   </lb> 
+   <lb n="10">a addawodd dalu fy nyled, yr hyn oedd dair punt;
+   </lb> 
+   <lb n="11">ac fe 'm cadarnhaodd na's gofynnai ef byth o 'r arian
+   </lb> 
+   <lb n="12">drachefn. Ond cyn pen mis, fe gofynnodd hwynt
+   </lb> 
+   <lb n="13">gennyf; a phan manegais iddo nad oedd gennyf
+   </lb> 
+   <lb n="14">ddim i dalu, fe fwgythodd \fygythodd\ fy ngwerthu I. Ac er
+   </lb> 
+   <lb n="15">y gwyddwn nad oedd ganddo un hawl i wneud 
+   </lb>
+   <lb n="15-16">hynny,
+   </lb>
+   <lb n="16">
+    etto gan nad oedd gennyf un ffrynd yn y byd
+   </lb> 
+   <lb n="17">i fyned atto, fe 'm dychrynodd I yn greulon. O 'r
+   </lb> 
+   <lb n="18">diwedd fe bwrpasodd i mi fyned i 'r m&ocirc;r i brifatiro,
+   </lb> 
+   <lb n="19">fel y gallwn trwy y moddion hynny i 'm galluogi i
+   </lb> 
+   <lb n="20">dalu iddo, i ba beth y cyttunais. Enw ein capten
+   </lb> 
+   <lb n="21">oedd&#8212;&#8212;&#8212;&nbsp;&#8212;&#8212;&#8212; mi aethum dan enw cogydd iddo.
+   </lb> 
+   <lb n="22">Yn agos i St. Dominigo ni a ddaethom i fynu at bump
+   </lb> 
+   <lb n="23">o longau marsiandwyr Ffraingc. Fe ddarfu in' gael
+   </lb> 
+   <lb n="24">ymladdfa danbaid, yr hon a barhaodd o wyth o 'r
+   </lb> 
+   <lb n="25">gloch y borau hyd dri brydnhawn, pan darfu i 'r 
+   </lb>
+   <lb n="25-26">fuddugoliaeth
+   </lb>
+   <lb n="26">
+    gwympo o 'n hochr ni. Ymhen ychydig
+   </lb> 
+   <lb n="27">ar ol hyn ni gwrddasom &acirc; thair o longau Lloegr, y
+   </lb> 
+   <lb n="28">rhai a unasant &acirc; ni, ac a 'n cefnogodd ni i ymladd &acirc;
+   </lb> 
+   <lb n="29">ffleet o 36 o longau. Ni a ennillasom y tair blaenaf,
+   </lb> 
+   <lb n="30">ac yna ni a ganlynasom y lleill, ac a ennillasom 12
+   </lb> 
+   <lb n="31">eilwaith; ond y lleill a ddihangasant arnom. Llawen
+   </lb> 
+   <lb n="32">o waed a dywalltwyd, ac mi fues agos i angau 
+   </lb>
+   <lb n="32-33">amryw
+   </lb>
+   <lb n="33">
+    weithiau, ond yr Arglwydd a 'm cadwodd.
+   
+   
+   </lb> 
+   <lb n="34">Mi gyfarfum ag amryw elynion, a llawer o 
+   </lb>
+   <lb n="34-35">erledigaeth
+   </lb>
+   <lb n="35">
+    ymhlith y morwyr; un ohonynt yn 
+   </lb>
+   <lb n="35-36">enwedigol
+   </lb>
+   <lb n="36">
+    oedd yn anfwyn iawn wrthyf, ac yn dyfeisio
+   </lb> 
+   <lb n="37">ffyrdd i 'm blino a 'm cythryblu. Ni's gallaf lai
+   </lb> 
+   <lb n="38">nag enwi un digwyddiad a 'm niweidiodd yn fwy nag
+   </lb> 
+   <lb n="39">un o 'r lleill, yr hyn oedd iddo dynnu llyfr o 'm llaw
+   
+   
+   </lb>
+   </pb>
+   <pb n="26.">
+   
+    
+   <lb n="1">ag oedd yn hoff iawn gennyf amdano, ac yr 
+   </lb>
+   <lb n="1-2">arferwn
+   </lb>
+   <lb n="2">
+    yn fynych bleseru fy hunan ag ef, ac a 'i taflodd
+   </lb> 
+   <lb n="3">ef i 'r m&ocirc;r. Ond yr hyn oedd hynod, efe oedd y
+   </lb> 
+   <lb n="4">cyntaf a fu farw yn yr ymladdfa. Nid wyf yn 
+   </lb>
+   <lb n="4-5">anturio
+   </lb>
+   <lb n="5">
+    dywedyd i hyn ddigwydd iddo am nad oedd yn
+   </lb> 
+   <lb n="6">ffrynd i mi; ond meddwl yr wyf ei fod yn 
+   </lb>
+   <lb n="6-7">rhagluniaeth
+   </lb>
+   <lb n="7">
+    ddychrynllyd iawn i weled fel y mae 
+   </lb>
+   <lb n="7-8">gelynion
+   </lb>
+   <lb n="8">
+    yr Arglwydd yn cael eu torri ymaith.
+   
+   
+   </lb> 
+   <lb n="9">Ein capten ni oedd ddyn creulon calon-galed: ac
+   </lb> 
+   <lb n="10">yr oeddwn yn ofidus iawn am y carcharorion a 
+   </lb>
+   <lb n="10-11">gymmerasom;
+   </lb>
+   <lb n="11">
+    ond cyflwr truenus un gwr ieuangc a 'm
+   </lb> 
+   <lb n="12">blinodd I i 'm calon. Yr oedd efe yn ymddangos
+   </lb> 
+   <lb n="13">yn garuaidd iawn; ac yn l&acirc;n anghyffredin. Fe
+   </lb> 
+   <lb n="14">gymmerodd ein capten bedair mil o bynnau oddi
+   </lb> 
+   <lb n="15">wrtho; ond nid oedd hynny yn ei foddloni, fel yr
+   </lb> 
+   <lb n="16">oedd ef yn tybiaid fod ganddo ragor, a 'i fod wedi
+   </lb> 
+   <lb n="17">eu cuddio hwy mewn rhyw le, fel darfu i 'r capten
+   </lb> 
+   <lb n="18">fygwth ei ladd; ar ba achos fe ymddangosodd yn y
+   </lb> 
+   <lb n="19">cyfyngder mwyaf, ac a gymmerodd y buclau \byclau\ oddi
+   </lb> 
+   <lb n="20">wrth ei esgidiau, ac a ddatg'lymmodd \ddatglymodd\ ei wallt, yr
+   </lb> 
+   <lb n="21">hwn oedd yn hardd iawn, ac yn llaes, ymha \ym mha\ un yr
+   </lb> 
+   <lb n="22">oedd amryw fodrwyau gwerthfawr wedi eu cylymmu
+   </lb> 
+   <lb n="23">i fynu. Fe ddaeth i 'r cabin attaf fi, ac yn y dull
+   </lb> 
+   <lb n="24">mwya gostyngedig ag ellid amgyffred, fe ofynnodd i
+   </lb> 
+   <lb n="25">mi am ryw beth i fwytta ac i yfed; yr hyn pan
+   </lb> 
+   <lb n="26">roddais iddo, yr oedd ef mor ddiolchgar ac mor
+   </lb> 
+   <lb n="27">hyfryd yn ei ymddygiad fel yr oedd fy nghalon yn
+   </lb> 
+   <lb n="28">gwaedu drosto; ac mi ewyllysiais o 'm calon i allu
+   </lb> 
+   <lb n="29">llafaru mewn rhyw iaith wrtho na's gallasai pobl y
+   </lb> 
+   <lb n="30">llong fy neall; fel y gallwn ei ddodi ef i ddeall ei
+   </lb> 
+   <lb n="31">berygl; canys mi glywais y capten yn dywedyd ei
+   </lb> 
+   <lb n="32">fod yn resolfo ei ladd ef; ac fe ddygodd i ben ei
+   </lb> 
+   <lb n="33">fwriad barbaraidd, canys efe a 'i cymmerodd ef i 'r
+   </lb> 
+   <lb n="34">traeth gyd ag un o 'r morwyr, ac yno y saethasant ef.
+   
+   
+   </lb> 
+   <lb n="35">Yr amgylchiad hyn a 'm dychrynodd I yn 
+   </lb>
+   <lb n="35-36">ofnadwy,
+   </lb>
+   <lb n="36">
+    ac ni's gallaswn ei yrru ef allan o fy meddwl
+   </lb> 
+   <lb n="37">amser hir. Pan ddychwelasom i Iorc newydd, y
+   </lb> 
+   <lb n="38">capten a rannodd arian yr yspail rhyngom. Pan
+   </lb> 
+   <lb n="39">galwyd arnaf fi i dderbyn fy rhan, mi elwais y 
+   
+   </lb>
+   </pb>
+   <pb n="26-27.">
+   <lb n="39-1">pendefig
+   </lb>
+   </pb>
+   <pb n="27.">
+   <lb n="1">
+    ag a dalodd fy nyled, a 'r hwn oedd achos o i
+   </lb> 
+   <lb n="2">mi fyned i brifatiro, i wybod pa un a ewyllysiai efe
+   </lb> 
+   <lb n="3">fyned gyd &acirc; mi i dderbyn fy arian, neu myfi a ddygai
+   </lb> 
+   <lb n="4">iddo ef yr hyn oedd ddyledus arnaf. Efe a 
+   </lb>
+   <lb n="4-5">ddewisodd
+   </lb>
+   <lb n="5">
+    fyned gyd &acirc; mi; a phan osododd y capten fy
+   </lb> 
+   <lb n="6">arian I ar y bwrdd, yr oeddent yn un cant a 
+   </lb>
+   <lb n="6-7">phymtheg
+   </lb>
+   <lb n="7">
+    punt ar hugain; mi ddymunais arno 
+   </lb>
+   <lb n="7-8">gymmeryd
+   </lb>
+   <lb n="8">
+    yr hyn oedd ddyledus iddo; ac efe a ysgubodd y
+   </lb> 
+   <lb n="9">cwbl i 'w napcin, ac ni's gwnai neb iddo roi ffyrlling
+   </lb> 
+   <lb n="10">o 'r arian yn ol i mi, na dim arall yn eu lle hwynt.
+   </lb> 
+   <lb n="11">Ac fe ddygodd hefyd hogshead o sugar oddi arnaf ag
+   </lb> 
+   <lb n="12">oedd yn yr un llong. Yr oedd y capten yn 
+   </lb>
+   <lb n="12-13">anfoddlon
+   </lb>
+   <lb n="13">
+    iawn iddo am y creulondeb hyn i mi, fel ag yr
+   </lb> 
+   <lb n="14">oedd pob rhai eraill ag a 'i clywodd. Ond mae 
+   </lb>
+   <lb n="14-15">gennyf
+   </lb>
+   <lb n="15">
+    achos i gredu, fel ag yr oedd ef yn un o brif 
+   </lb>
+   <lb n="15-16">farsiandwyr
+   </lb>
+   <lb n="16">
+    y ddinas, ei fod ef yn gwneud achosion
+   </lb> 
+   <lb n="17">dros y capten, ac ar y cyfrif hynny nid oedd efe yn
+   </lb> 
+   <lb n="18">dewis ymrafaelio ag ef.
+   
+   
+   </lb> 
+   <lb n="19">Yn y cyfamser pendefig teilwng iawn, a 'i enw
+   </lb> 
+   <lb n="20">Dunscum, a 'm cymmerodd I tan ei nodded, ac a
+   </lb> 
+   <lb n="21">fuasai yn cyfodi fy arian trosof pe buaswn yn dewis;
+   </lb> 
+   <lb n="22">ond mi berais iddo ei adael heibio, mai gwell oedd
+   </lb> 
+   <lb n="23">gennyf fi fod yn llonydd. Mi gredais na's 
+   </lb>
+   <lb n="23-24">llwyddent
+   </lb>
+   <lb n="24">
+    hwy gyd ag ef, ac felly y digwyddodd; canys
+   </lb> 
+   <lb n="25">trwy amryw golledion a chroes-ragluniaethau fe aeth
+   </lb> 
+   <lb n="26">yn dlawd, ac ymhen ychydig wedi'n fe foddodd,
+   </lb> 
+   <lb n="27">fel yr oedd gyd &acirc; chyfeillion yn myned i 'r m&ocirc;r o
+   </lb> 
+   <lb n="28">ran pleser. Y llestr a yrrwyd allan i 'r m&ocirc;r, ac a
+   </lb> 
+   <lb n="29">darawodd yn erbyn craig, trwy ba foddion pob
+   </lb> 
+   <lb n="30">enaid a suddodd.
+   
+   
+   </lb> 
+   <lb n="31">Bu drist iawn gennyf pan glywais, ac fe 'm 
+   </lb>
+   <lb n="31-32">gofidiwyd
+   </lb>
+   <lb n="32">
+    yn fawr o ran ei deulu ef, y rhai oedd wedi
+   </lb> 
+   <lb n="33">cael eu dwyn i amgylchiadau cyfyng. Ni's medrais
+   </lb> 
+   <lb n="34">I erioed pa fodd i osod pris uniawn ar arian, os
+   </lb> 
+   <lb n="35">bydd gennyf ychydig o fwyd a diod i atteb 
+   </lb>
+   <lb n="35-36">angenrheidiau
+   </lb>
+   <lb n="36">
+    'r bywyd presennol, ni ddymunais ddim yn
+   </lb> 
+   <lb n="37">rhagor erioed: a phan y byddai gennyf ond 
+   </lb>
+   <lb n="37-38">ychydig
+   </lb>
+   <lb n="38">
+    yn wastad mi a 'i rhoddwn os gwelwn un 
+   </lb>
+   <lb n="38-39">gwrthddrych
+   </lb>
+   <lb n="39">
+    \gwrthrych\ o drugaredd. Ac oni bai er mwyn fy anwyl
+   
+   
+   </lb>
+   </pb>
+   <pb n="28.">
+   
+    
+   <lb n="1">wraig a 'm plant ni's rhown fwy o barch i arian yr
+   </lb> 
+   <lb n="2">awrhon n&acirc; phryd hynny. Mi arosais ryw faint o
+   </lb> 
+   <lb n="3">amser gyd &acirc; Mr. Dunscum fel ei was; ac yr oedd yn
+   </lb> 
+   <lb n="4">addfwyn iawn wrthyf. Ond yr oedd tueddiad cryf
+   </lb> 
+   <lb n="5">ynnof i ymweled a Lloegr, a dymuno yr oeddwn
+   </lb> 
+   <lb n="6">yn wastadol i ragluniaeth weled bod yn dda i wneud
+   </lb> 
+   <lb n="7">ffordd rydd i mi i ymweled &acirc; 'r ynys hon. Mi 
+   </lb>
+   <lb n="7-8">ymborthais
+   </lb>
+   <lb n="8">
+    ar feddyliau os gallwn fyned i Loegr na
+   </lb> 
+   <lb n="9">chawn fyth mwy brofi na chreulondeb nac 
+   </lb>
+   <lb n="9-10">anniolchgarwch,
+   </lb>
+   <lb n="10">
+    felly fel yr oeddwn yn ddymunol iawn i
+   </lb> 
+   <lb n="11">fyned i blith Crist'nogion. Yr oeddwn yn adnabod
+   </lb> 
+   <lb n="12">Mr. Whitefield yn dda iawn; mi a 'i clywais ef yn
+   </lb> 
+   <lb n="13">pregethu yn fynych yn Iork newydd. Yn y cyflwr
+   </lb> 
+   <lb n="14">hwn mi listais yn yr wythfed regiment ar hugain o
+   </lb> 
+   <lb n="15">w&#375;r traed, y rhai oedd wedi eu pwrpasu i Martinico
+   </lb> 
+   <lb n="16">yn y rhyfel diweddaf. Ni aethom yn ffleet admiral
+   </lb> 
+   <lb n="17">Pocock o Iorc newydd i Barbadoes; ac oddi yno i
+   </lb> 
+   <lb n="18">Martinico. Pan cymmerwyd honno ni aethom i
+   </lb> 
+   <lb n="19">Hafanna, ac a gymmerasom y lle hwnnw eilwaith.
+   </lb> 
+   <lb n="20">Ac yno cefais fy ngollyngdod.
+   
+   
+   </lb> 
+   <lb n="21">Yr oeddwn y pryd hyn yn talu deg punt ar 
+   </lb>
+   <lb n="21-22">hugain,
+   </lb>
+   <lb n="22">
+    ond nid oeddwn yn rhoi fyth barch i arian yn
+   </lb> 
+   <lb n="23">y rhan leiaf, ac ni fuaswn yn aros i dderbyn fy
+   </lb> 
+   <lb n="24">nghyflog rhag i mi golli fy siawns o fyned i Loegr.
+   </lb> 
+   <lb n="25">Mi aethum gyd &acirc; charcharorion Spain i Spain; ac
+   </lb> 
+   <lb n="26">a ddaethum i hen Loegr gyd &acirc; charcharorion Lloegr.
+   </lb> 
+   <lb n="27">Ni's gallaf fanegu fy llawenydd pan daethom i olwg
+   </lb> 
+   <lb n="28">Portsmouth. Ond synnodd arnaf pan clywais 
+   </lb>
+   <lb n="28-29">drigolion
+   </lb>
+   <lb n="29">
+    y dref honno yn tyngu ac yn rhegu. Ni
+   </lb> 
+   <lb n="30">ddisgwyliais i gael dim ond daioni, tiriondeb, ac
+   </lb> 
+   <lb n="31">addfwynder yn y tir crist'nogol hwn; yno mi 
+   </lb>
+   <lb n="31-32">oddefais
+   </lb>
+   <lb n="32">
+    lawer o feddyliau cythryblus.
+   
+   
+   </lb> 
+   <lb n="33">Mi ofynnais a oedd neb Crist'nogion prysur yn
+   </lb> 
+   <lb n="34">cyfaneddu yno, a 'r wraig y gofynnais iddi a 'm 
+   </lb>
+   <lb n="34-35">hattebodd
+   </lb>
+   <lb n="35">
+    ei fod; ac a ddywedodd ymhellach ei bod
+   </lb> 
+   <lb n="36">hi yn un. Da iawn oedd gennyf ei chlywed hi yn
+   </lb> 
+   <lb n="37">dywedyd hynny. Mi debygswn y gall'swn \gallaswn\ roddi
+   </lb> 
+   <lb n="38">iddi fy holl galon: yr oedd hi yn cadw t&#375; tafarn.
+   </lb> 
+   <lb n="39">Mi roddais iddi gadw yr holl arian ag nad oedd
+   
+   
+   </lb>
+   </pb>
+   <pb n="29.">
+   
+    
+   <lb n="1">arnaf eu heisiau yn bresennol, fel yr oeddwn I yn
+   </lb> 
+   <lb n="2">tybiaid eu bod yn fwy sicr gyd &acirc; hi. Pum gini ar
+   </lb> 
+   <lb n="3">hugain oedd gennyf, ond mi ddymunais arni roddi
+   </lb> 
+   <lb n="4">chwech ohonynt allan yn y ffordd fwya manteisiol,
+   </lb> 
+   <lb n="5">i brynu crysau, hat \het\ ac angenrheidiau eraill i mi.
+   </lb> 
+   <lb n="6">Mi wnes iddi anrheg o ddrych (looking glass) mawr
+   </lb> 
+   <lb n="7">hyfryd ag a ddygais gyd &acirc; mi o Martinico, tu ag at
+   </lb> 
+   <lb n="8">ei gwobrwyo hi am y trwbl a rois arni. Rhaid i mi
+   </lb> 
+   <lb n="9">wneud cyfiawnder &acirc; 'r fenyw hon i addef iddi osod
+   </lb> 
+   <lb n="10">allan ychydig bach at fy achos, ond y pedwar gini
+   </lb> 
+   <lb n="11">ar bymtheg a rhan o 'r chwech, ynghyd &acirc; fy watch,
+   </lb> 
+   <lb n="12">ni's rhoddai yn ol, ond a wadodd na's rhoddais I
+   </lb> 
+   <lb n="13">mohonynt iddi.
+   
+   
+   </lb> 
+   <lb n="14">Mi ddeallais yn fuan i mi ddyfod i blith pobl
+   </lb> 
+   <lb n="15">ddrwg, y rhai a 'm twyllasant I o 'm harian a 'm watch;
+   </lb> 
+   <lb n="16">a bod yr holl happusrwydd ag oeddwn yn addo i mi
+   </lb> 
+   <lb n="17">fy hun wedi gwywo; ac nad oedd gennyf un cyfaill
+   </lb> 
+   <lb n="18">ond Duw, ac arno ef yr oeddwn yn taer weddio.
+   </lb> 
+   <lb n="19">Prin y gallaswn gredu fod yn bosibl bod y lle ag y
+   </lb> 
+   <lb n="20">bu cynnifer o Grist'nogion rhagorol yn byw ac yn
+   </lb> 
+   <lb n="21">pregethu mor llawn o ddrygioni a thwyll. Mi 
+   </lb>
+   <lb n="21-22">feddyliais
+   </lb>
+   <lb n="22">
+    ei fod yn waeth n&acirc;&nbsp;Sodom, wrth ystyried y
+   </lb> 
+   <lb n="23">manteision mawrion ag oedd e' wedi ei gael; mi a
+   </lb> 
+   <lb n="24">lefais fel plentyn a hynny bron o hyd: ac o 'r diwedd
+   </lb> 
+   <lb n="25">Duw a wrandawodd fy ngweddiau, ac a gyfododd
+   </lb> 
+   <lb n="26">gyfaill i mi yn wir.
+   
+   
+   </lb> 
+   <lb n="27">Y dafarn-wraig hon oedd &acirc; brawd iddi yn 
+   </lb>
+   <lb n="27-28">Portsmouth-common,
+   </lb>
+   <lb n="28">
+    a 'i wraig ef oedd fenyw bur brysur.
+   </lb> 
+   <lb n="29">Pan clywodd hi am y driniaeth a gyfarfum I ag ef,
+   </lb> 
+   <lb n="30">hi ddaeth ac a chwiliodd i 'm sefyllfa gywir, ac a 
+   </lb>
+   <lb n="30-31">flinodd
+   </lb>
+   <lb n="31">
+    yn fawr am y driniaeth ddrwg a gefais, ac a 'm
+   </lb> 
+   <lb n="32">cymmerodd i adre i 'w th&#375; ei hun. Mi ddechreuais
+   </lb> 
+   <lb n="33">yn awr &acirc; llawenhau, a 'm gweddi a drowyd yn 
+   </lb>
+   <lb n="33-34">glodforedd.
+   </lb>
+   <lb n="34">
+    Hi wnaeth ddefnydd o bob rhesymmau yn
+   </lb> 
+   <lb n="35">ei gallu i berswadio honno ag a wnaeth gam &acirc; mi i
+   </lb> 
+   <lb n="36">roi yn ol y watch a 'r arian, ond nid oedd y cwbl
+   </lb> 
+   <lb n="37">ond ofer, gan nad oedd hi wedi rhoddi i mi un 
+   </lb>
+   <lb n="37-38">receit,
+   </lb>
+   <lb n="38">
+    ac nid oedd gennyf finnau ddim i ddangos am
+   </lb> 
+   <lb n="39">danynt, felly ni's gallwn eu gofyn. Anfoddlon
+   
+   
+   </lb>
+   </pb>
+   <pb n="30.">
+   
+    
+   <lb n="1">iawn oedd y wraig dda gymmwynasgar yma iddi,
+   </lb> 
+   <lb n="2">a hi wnaeth iddi roddi yn ol bedwar gini, y rhai
+   </lb> 
+   <lb n="3">oedd hi yn dywedyd ei bod yn eu rhoi i mi o wir
+   </lb> 
+   <lb n="4">elusen: er mai fy eiddo fy hun oedd mewn 
+   </lb>
+   <lb n="4-5">gwirionedd,
+   </lb>
+   <lb n="5">
+    a llawer rhagor. Hi fuasai yn arferyd rhyw
+   </lb> 
+   <lb n="6">foddion mwy garw i wneud iddi roi i fynu fy arian,
+   </lb> 
+   <lb n="7">ond ni's goddefwn iddi. "Gadewch iddynt fyned,"
+   </lb> 
+   <lb n="8">meddwn I, "mae fy Nuw yn y nef". Trwy 'r holl
+   </lb> 
+   <lb n="9">amser nid oeddwn yn meddwl un gronyn am fy
+   </lb> 
+   <lb n="10">ngholled; yr hyn oll oedd yn fy ngofidio oedd, i
+   </lb> 
+   <lb n="11">mi gael fy siommi wrth geisio ffeindio rhai ffryns
+   </lb> 
+   <lb n="12">Crist'nogol, gyd &acirc; pha rai yr oeddwn yn gobeithio
+   </lb> 
+   <lb n="13">mwynhau ychydig o gymdeithas gysurus a melus.
+   
+   
+   </lb> 
+   <lb n="14">Mi feddyliais mai 'r ffordd orau i mi gymmeryd
+   </lb> 
+   <lb n="15">yn awr oedd myned i Lundain, ac i ffeindio allan
+   </lb> 
+   <lb n="16">Mr. Whitefield, yr hwn oedd yr unig un ag oeddwn
+   </lb> 
+   <lb n="17">yn adnabod yn Lloegr, a dymuno arno i 'm 
+   </lb>
+   <lb n="17-18">cyfarwyddo
+   </lb>
+   <lb n="18">
+    I i ryw ffordd neu gilydd i ennill fy 
+   </lb>
+   <lb n="18-19">mywioliaeth
+   </lb>
+   <lb n="19">
+    heb bwyso ar un dyn byw. Mi genais
+   </lb> 
+   <lb n="20">ffarwel i 'm ffryns Crist'nogol yn Portsmouth, ac a
+   </lb> 
+   <lb n="21">aethum yn y stage coach i Lundain. Crefftwr 
+   </lb>
+   <lb n="21-22">anrhydeddus
+   </lb>
+   <lb n="22">
+    o 'r ddinas, yr hwn aeth gyd &acirc; mi i fynu,
+   </lb> 
+   <lb n="23">a gynnygodd ddangos y ffordd i mi i dabernacl Mr.
+   </lb> 
+   <lb n="24">Whitefield. Gan wybod fy mod yn alltud perffaith
+   </lb> 
+   <lb n="25">mi dybiais hyn yn fwyn iawn ynddo, ac mi 
+   </lb>
+   <lb n="25-26">dderbyniais
+   </lb>
+   <lb n="26">
+    ei gynnyg; ond fe wnaeth i mi roddi hanner
+   </lb> 
+   <lb n="27">coron am fyned gyd &acirc; mi, ac eilwaith wnaeth i mi
+   </lb> 
+   <lb n="28">roddi iddo bum swllt yn rhagor am fy arwain i d&#375;
+   </lb> 
+   <lb n="29">cyfarfod Dr. Gifford.
+   
+   
+   </lb> 
+   <lb n="30">Mi ddechreuais erbyn hyn i dderbyn meddyliau
+   </lb> 
+   <lb n="31">pur wahanol am drigolion Lloegr oddi wrth yr hyn
+   </lb> 
+   <lb n="32">a feddyliais amdanynt cyn dyfod i 'w plith. &#8212; Fe
+   </lb> 
+   <lb n="33">dderbyniodd Mr. Whitefield fi yn garedig, da iawn
+   </lb> 
+   <lb n="34">oedd ganddo fy ngweled, ac fe 'm cyfarwyddodd i
+   </lb> 
+   <lb n="35">le addas i lettya yn Petticoat-lane, hyd onis gallai
+   </lb> 
+   <lb n="36">feddwl am ryw ffordd i 'm settlo I ynddi, ac a dalodd
+   </lb> 
+   <lb n="37">am fy lletty a phob traul. Y borau ar ol i mi 
+   </lb>
+   <lb n="37-38">ddyfod
+   </lb>
+   <lb n="38">
+    i 'm lletty newydd, fel yr oeddwn yn brecffasta \brecwasta\
+   </lb> 
+   <lb n="39">gyd &acirc; gwraig y t&#375;, mi glywn drwst gw&#375;dd uwch fy
+   
+   
+   </lb>
+   </pb>
+   <pb n="31.">
+   
+    
+   <lb n="1">mhen: mi ofynnais pa beth ydoedd; hi 'm 
+   </lb>
+   <lb n="1-2">hattebodd
+   </lb>
+   <lb n="2">
+    mai un oedd yn gwau sidan ydoedd. Mi 
+   </lb>
+   <lb n="2-3">ddangosais
+   </lb>
+   <lb n="3">
+    chwant mawr arnaf ei gweled, ac a ofynnais
+   </lb> 
+   <lb n="4">os gallwn wneud hynny: hi ddywedodd y deuai hi
+   </lb> 
+   <lb n="5">i fynu gyd &acirc; mi, a 'i bod hi yn sicr y cawn groesaw.
+   </lb> 
+   <lb n="6">Hi fu cystal &acirc; 'i gair, ac mor gynted ag yr aethom i
+   </lb> 
+   <lb n="7">mewn i 'r gw&#375;dd-d&#375;, y ferch ag oedd yn gwau a
+   </lb> 
+   <lb n="8">edrychodd o ddautu, ac a wenodd arnom, ac mi a 'i
+   </lb> 
+   <lb n="9">cerais hi o 'r funud honno allan. Hi ofynnodd i mi
+   </lb> 
+   <lb n="10">amryw gwestiynau, a minnau yn fy nhro a 
+   </lb>
+   <lb n="10-11">chwedleuais
+   </lb>
+   <lb n="11">
+    lawer &acirc; hithau. Mi ffeindiais ei bod hi yn 
+   </lb>
+   <lb n="11-12">aelod
+   </lb>
+   <lb n="12">
+    o gynnulleidfa Mr Allen, ac mi ddechreuais fagu
+   </lb> 
+   <lb n="13">barn dda amdani, er bod arnaf bron ofn 
+   </lb>
+   <lb n="13-14">maethrin
+   </lb>
+   <lb n="14">
+    \meithrin\ y farn dda hon, rhag iddi droi allan fel y lleill o
+   </lb> 
+   <lb n="15">rhai a gyfarfum I yn Portsmouth, &amp;c. a 'r hyn a fu
+   </lb> 
+   <lb n="16">bron fy nodi i gas&agrave;u pob menyw wen. Ond ar ol
+   </lb> 
+   <lb n="17">ychydig gyfeillgarwch mi ffeindiais er fy hapusrwydd
+   </lb> 
+   <lb n="18">ei bod hi yn wahanol iawn, ac yn bur syml; ac
+   </lb> 
+   <lb n="19">nid oeddwn heb obaith ei bod hi yn llettua \lletya\ rhyw
+   </lb> 
+   <lb n="20">faint o barch i mi. Ni a aethom yn fynych gyd &acirc;
+   </lb> 
+   <lb n="21">eu gilydd i wrando Dr. Gifford; ac fel yr oedd 
+   </lb>
+   <lb n="21-22">gennyf
+   </lb>
+   <lb n="22">
+    fi yn wastadol dueddiad i gynnorthwyo pob
+   </lb> 
+   <lb n="23">gwrthddrych \gwrthrych\ o drueni, mor belled ag oedd yn fy
+   </lb> 
+   <lb n="24">ngallu, arfer yr oeddwn i roi i bob un ag fyddai yn
+   </lb> 
+   <lb n="25">achwyn wrthyf, weithiau hanner gini ar unwaith,
+   </lb> 
+   <lb n="26">fel nad oeddwn yn cwbl ddeall y gwerth ohono.
+   </lb> 
+   <lb n="27">Y ferch rasol dda hon a gymmerodd boen mawr i 'm
+   </lb> 
+   <lb n="28">diwygio a 'm cynghori yn y peth hyn, ac amryw
+   </lb> 
+   <lb n="29">bethau eraill.
+   
+   
+   </lb> 
+   <lb n="30">Ar ol i mi aros yn Llundain o ddautu chwech
+   </lb> 
+   <lb n="31">wythnos, fe 'm dygwyd i &#373;ydd rhai o 
+   </lb>
+   <lb n="31-32">gydnabyddiaeth
+   </lb>
+   <lb n="32">
+    Mr. Ffreelandhouse, y rhai a 'i clywodd ef yn
+   </lb> 
+   <lb n="33">fynych yn llafaru amdanaf fi. Hwy fynnent fy
+   </lb> 
+   <lb n="34">nghymmell i fyned i Holand. Fy meistr oedd yn
+   </lb> 
+   <lb n="35">byw yno cyn iddo fy mhwrcasu I, ac arfer ydoedd o
+   </lb> 
+   <lb n="36">chwedleua amdanaf mor barchedig rhwng ei 
+   </lb>
+   <lb n="36-37">gyfeillion
+   </lb>
+   <lb n="37">
+    yno, fel yr ennynnodd efe chwant ynddynt
+   </lb> 
+   <lb n="38">i fy ngweled; yn enwedigol gweinidogion yr 
+   </lb>
+   <lb n="38-39">efengyl,
+   </lb>
+   <lb n="39">
+    y rhai oedd yn datguddio chwant i glywed fy
+   
+   
+   </lb>
+   </pb>
+   <pb n="32.">
+   
+    
+   <lb n="1">mhrofiadau a fy holi. Mi ddeallais mai bwriad fy
+   </lb> 
+   <lb n="2">hen feistr da oedd i mi fyned gyd ag ef yno pe 
+   </lb>
+   <lb n="2-3">buasai
+   </lb>
+   <lb n="3">
+    efe yn byw; ar ba reswm mi resolfais fyned
+   </lb> 
+   <lb n="4">i Holand; a hynny a fanegais i 'm parchedig gyfaill
+   </lb> 
+   <lb n="5">Mr. Whitefield; croes iawn oedd ef i mi fyned ar y
+   </lb> 
+   <lb n="6">cyntaf, ond ar ol i mi fanegu iddo fy rhesymmau,
+   </lb> 
+   <lb n="7">fe ymddangosodd yn bur foddlon. Mi fanegais i 'm
+   </lb> 
+   <lb n="8">Betti (y ferch dda a enwais uchod) o 'm 
+   </lb>
+   <lb n="8-9">penderfyniad
+   </lb>
+   <lb n="9">
+    i fyned i Holand, ac mi ddywedais wrthi fy mod
+   </lb> 
+   <lb n="10">yn credu mai hi fyddai fy ngwraig I: ac os ewyllys
+   </lb> 
+   <lb n="11">yr Arglwydd a fyddai, mai hynny oedd fy 
+   </lb>
+   <lb n="11-12">nymuniad,
+   </lb>
+   <lb n="12">
+    ac nid heblaw hynny. Ni's gwnaeth hi nemawr
+   </lb> 
+   <lb n="13">o attebion i mi, ond hi ddywedodd wedi hynny na's
+   </lb> 
+   <lb n="14">meddyliodd hi ddim felly y pryd hynny.
+   
+   
+   </lb> 
+   <lb n="15">Mi aethum i long yn Tower-wharff am bedwar
+   </lb> 
+   <lb n="16">o 'r gloch y borau, ac a ddaethum i mewn i 
+   </lb>
+   <lb n="16-17">Amsterdam
+   </lb>
+   <lb n="17">
+    drannoeth am dri o 'r gloch brydnhawn. Yr
+   </lb> 
+   <lb n="18">oedd gennyf lawer o lythyrau canmoliaeth at 
+   </lb>
+   <lb n="18-19">gyfeillion
+   </lb>
+   <lb n="19">
+    fy hen feistr, y rhai a 'm derbyniasant I yn
+   </lb> 
+   <lb n="20">roesawus. Yn wir un o 'r gweinidogion pennaf fu
+   </lb> 
+   <lb n="21">yn neilltuol dda i mi; fe 'm cadwodd I yn ei d&#375; tros
+   </lb> 
+   <lb n="22">hir amser, ac a gymmerodd bleser mawr i ofyn
+   </lb> 
+   <lb n="23">cwestiynau i mi, y rhai a attebais innau gyd &acirc;&nbsp;
+   </lb>
+   <lb n="23-24">phleser,
+   </lb>
+   <lb n="24">
+    gan fy mod yn wastadol yn barod i ddweud,
+   </lb> 
+   <lb n="25">Deuwch attaf fi y rhai oll a ofnwch Dduw, a 
+   </lb>
+   <lb n="25-26">mynegaf yr hyn a wnaeth ef i'm henaid
+   </lb>
+   <lb n="26">
+    . Ni's gallaf lai
+   </lb> 
+   <lb n="27">n&acirc; rhyfeddu camrau rhagluniaeth, a synnu i mi gael
+   </lb> 
+   <lb n="28">fy ngwared mor rhyfeddol! Er fy mod yn &#373;yr i
+   </lb> 
+   <lb n="29">frenhin, bu arnaf eisiau bara, a buasai dda gennyf
+   </lb> 
+   <lb n="30">gael y grofen galettaf ag a welais I erioed. Myfi
+   </lb> 
+   <lb n="31">yr hwn oeddwn gartref wedi fy amgylchu &acirc;&nbsp;
+   </lb>
+   <lb n="31-32">chaethweision,
+   </lb>
+   <lb n="32">
+    fel na's gallai neb dynion o isel-radd ddyfod
+   </lb> 
+   <lb n="33">yn agos attaf, ac wedi 'm gwisgo ag aur, yn cael
+   </lb> 
+   <lb n="34">yn anrhugarog fy mygwth &acirc; marwolaeth; ac yn 
+   </lb>
+   <lb n="34-35">fynych
+   </lb>
+   <lb n="35">
+    mewn eisiau dillad i 'm amddiffyn rhag 
+   </lb>
+   <lb n="35-36">creulondeb
+   </lb>
+   <lb n="36">
+    y tywydd; etto erioed ni's tychanais \tuchanais\, ac ni
+   </lb> 
+   <lb n="37">bues anfoddlon. Boddlon wyf, a chwant sydd arnaf
+   </lb> 
+   <lb n="38">i gael fy nghyfrif fel dim, yn alltud yn y byd, ac
+   </lb> 
+   <lb n="39">yn bererin yma; Canys mi wn fod fy Mhrynwr yn
+   
+   
+   </lb>
+   </pb>
+   <pb n="33.">
+   
+    
+   <lb n="1">fyw, a diolchgar wyf am bob treial a thrallod ag a
+   </lb> 
+   <lb n="2">gyfarfum &acirc; hwynt, am nad wyf ddim heb obaith
+   </lb> 
+   <lb n="3">nad y'nt \&#375;nt\ oll wedi eu sancteiddio i mi.
+   
+   
+   </lb> 
+   <lb n="4">Y gweinidogion Calfinistiaidd a ddymunasant
+   </lb> 
+   <lb n="5">glywed fy mhrofiadau gennyf fy hun, yr hyn 
+   </lb>
+   <lb n="5-6">oeddwn
+   </lb>
+   <lb n="6">
+    i yn foddlon iawn i 'w wneuthur; felly mi safais
+   </lb> 
+   <lb n="7">ger bron deunaw ar hugain o weinidogion bob dydd
+   </lb> 
+   <lb n="8">Iau tros saith wythnos gyd &acirc; 'u gilydd, a hwy oll a
+   </lb> 
+   <lb n="9">gawsant eu boddloni yn fawr, a hwy a gredasant fy
+   </lb> 
+   <lb n="10">mod yr hyn ag oeddwn yn gymmeryd arnaf fy
+   </lb> 
+   <lb n="11">mod. Hwy a 'sgrifenasant \ysgrifenasant\ i lawr fy mhrofiadau I
+   </lb> 
+   <lb n="12">fel yr oeddwn yn eu llafaru; a Duw Hollalluog
+   </lb> 
+   <lb n="13">oedd gyd &acirc; mi y pryd hynny mewn modd hynod,
+   </lb> 
+   <lb n="14">ac a roddodd i mi eiriau i 'w hatteb hwynt; mor
+   </lb> 
+   <lb n="15">fawr oedd ei drugaredd ef i 'm cymmeryd I genedl
+   </lb> 
+   <lb n="16">ddyn tlawd a dall yn ei law.
+   
+   
+   </lb> 
+   <lb n="17">Y pryd hyn marsiandwr cyfoethog o Amsterdam
+   </lb> 
+   <lb n="18">a gynnygodd i 'm cymmeryd I i 'w deulu mewn dull
+   </lb> 
+   <lb n="19">o fwtler, a minnau yn ewyllysgar a dderbyniais y
+   </lb> 
+   <lb n="20">cynnyg. Gwr bonheddig teilwng a grasol ydoedd,
+   </lb> 
+   <lb n="21">a da iawn fu wrthyf fi. Fe 'm cymmerodd yn fwy
+   </lb> 
+   <lb n="22">fel cyfaill nag fel gwas. Mi arosais yno flwyddyn,
+   </lb> 
+   <lb n="23">ond nid oeddwn yn hollol foddlon, eisiau oedd arnaf
+   </lb> 
+   <lb n="24">gael gweled fy ngwraig (yr hon sydd felly yn awr)
+   </lb> 
+   <lb n="25">ac am y rheswm hynny mi chwennychais 
+   </lb>
+   <lb n="25-26">ddychwelyd
+   </lb>
+   <lb n="26">
+    i Loegr: mi 'sgrifenais \ysgrifennais\ atti un waith yn fy 
+   </lb>
+   <lb n="26-27">absennoldeb,
+   </lb>
+   <lb n="27">
+    ond ni's attebodd hi mo 'm llythyr, a
+   </lb> 
+   <lb n="28">rhaid i mi addef pe buasai, fe fuasai gennyf waeth
+   </lb> 
+   <lb n="29">barn amdani. Fy meistr a fy meistres a fynnent fy
+   </lb> 
+   <lb n="30">mherswadio I i beidio a 'u gadael hwy, a 'u dau fab
+   </lb> 
+   <lb n="31">hefyd, y rhai oedd &acirc; meddyliau da amdanaf fi; a
+   </lb> 
+   <lb n="32">phe buaswn yn ffeindio fod fy Metti wedi priodi ar
+   </lb> 
+   <lb n="33">fy nyfodiad i Loegr, mi fuaswn yn dychwelyd attynt
+   </lb> 
+   <lb n="34">yn fuan drachefn.
+   
+   
+   </lb> 
+   <lb n="35">Fy meistres a gynnygodd i mi briodi ei morwyn
+   </lb> 
+   <lb n="36">hi; merch ieuangc hyfryd ydoedd hi, ac wedi troi
+   </lb> 
+   <lb n="37">heibio swm fawr o arian, ond ni's gallwn I ei charu
+   </lb> 
+   <lb n="38">er ei bod hi yn foddlon i 'm cymmeryd; mi 
+   </lb>
+   <lb n="38-39">ddywedais
+   </lb>
+   <lb n="39">
+    bod fy nhueddiad wedi ymrwymo yn Lloegr,
+   
+   
+   </lb>
+   </pb>
+   <pb n="34.">
+   
+    
+   <lb n="1">ac na's gallwn feddwl am neb arall. Ar fy 
+   </lb>
+   <lb n="1-2">nychweliad
+   </lb>
+   <lb n="2">
+    adre, mi gefais fy Metti heb ymrwymo i neb.
+   </lb> 
+   <lb n="3">Hi wrthododd amryw gynnygion yn fy absennoldeb,
+   </lb> 
+   <lb n="4">ac a ddywedodd wrth ei chwaer ei bod yn meddwl
+   </lb> 
+   <lb n="5">os priodai hi fyth, mai fi fyddai ei gwr hi.
+   
+   
+   </lb> 
+   <lb n="6">Yn fuan ar ol dyfod adre, mi aethum at Dr.
+   </lb> 
+   <lb n="7">Gifford, yr hwn a 'm cymmerodd I i 'w deulu, ac a
+   </lb> 
+   <lb n="8">fu dda iawn wrthyf. Caracter y pendefig teilwng
+   </lb> 
+   <lb n="9">duwiol hwn sydd hyspys; ni fydd fy nghlod I iddo
+   </lb> 
+   <lb n="10">o ddim defnydd. Yr wyf yn gobeithio y caf byth
+   </lb> 
+   <lb n="11">gofio yn ddiolchgar am yr holl gymmwynason a
+   </lb> 
+   <lb n="12">dderbyniais ar ei law ef. Yn fuan ar ol i mi ddyfod
+   </lb> 
+   <lb n="13">at Dr. Gifford mi fanegais bod gennyf ddymuniad
+   </lb> 
+   <lb n="14">i 'm derbyn i 'w eglwys ef, ac eistedd i lawr gyd &acirc;
+   </lb> 
+   <lb n="15">hwynt; hwy ddywedasant bod yn rhaid i mi gael
+   </lb> 
+   <lb n="16">fy medyddio yn gyntaf; felly mi roddais i mewn
+   </lb> 
+   <lb n="17">fy mhrofiadau o flaen yr eglwys, &acirc; pha rai yr 
+   </lb>
+   <lb n="17-18">oeddent
+   </lb>
+   <lb n="18">
+    yn hollol foddlon; ac fe 'm bedyddiwyd gan Dr.
+   </lb> 
+   <lb n="19">Gifford gyd &acirc; rhai eraill. Mi wnes y pryd hynny
+   </lb> 
+   <lb n="20">yn gydnabyddus iddynt fy mwriad o briodi; ond
+   </lb> 
+   <lb n="21">mi ffeindiais fod amryw wrthddadleuon yn ei erbyn,
+   </lb> 
+   <lb n="22">am fod yr un y rhoddais fy serch arni yn dlawd.
+   </lb> 
+   <lb n="23">Gwraig weddw ydoedd hi, a 'i gwr a 'i gadawodd hi
+   </lb> 
+   <lb n="24">mewn dyled, ac yn feichiog, felly yr oeddent yn
+   </lb> 
+   <lb n="25">fy mherswadio I i beidio a 'i phriodi, o wir barch i
+   </lb> 
+   <lb n="26">mi. Ond yr oeddwn wedi addo, ac mi resolfais ei
+   </lb> 
+   <lb n="27">chymmeryd hi; fel yr oeddwn I yn gwybod mai
+   </lb> 
+   <lb n="28">menyw rasol ydoedd hi, nid oedd ei thlodi yn un
+   </lb> 
+   <lb n="29">gwrthddadl i mi, gan nad oedd ganddynt un peth
+   </lb> 
+   <lb n="30">arall i ddywedyd yn ei herbyn. Pan darfu i 'm 
+   </lb>
+   <lb n="30-31">cyfeillion
+   </lb>
+   <lb n="31">
+    ddeall na's gallent newid fy marn ym 
+   </lb>
+   <lb n="31-32">mherthynas
+   </lb>
+   <lb n="32">
+    iddi, hwy 'sgrifenasant \ysgrifenasant\ at Mr. Allen, y 
+   </lb>
+   <lb n="32-33">gweinidog
+   </lb>
+   <lb n="33">
+    ag yr oedd hi yn ei gynnulleidfa, i 'w 
+   </lb>
+   <lb n="33-34">pherswadio
+   </lb>
+   <lb n="34">
+    hi i 'm gadael I; ond fe attebodd na wnai ef
+   </lb> 
+   <lb n="35">ddim yn yr achos, gwnaem ni y peth a fynnem.
+   </lb> 
+   <lb n="36">Mi resolfais i ychydig ddyled fy ngwraig gael eu talu
+   </lb> 
+   <lb n="37">cyn i ni briodi; fel darfu im' werthu bron pob peth
+   </lb> 
+   <lb n="38">ag a feddwn, a chyd &acirc; 'r holl arian ellais godi a 
+   </lb>
+   <lb n="38-39">gliriais
+   </lb>
+   <lb n="39">
+    y cyfan o 'i gofynion; ac ni wnes ddim gyd &acirc;
+   
+   
+   </lb>
+   </pb>
+   <pb n="35.">
+   
+    
+   <lb n="1">mwy o foddlondeb yn fy holl fywyd, canys mi a
+   </lb> 
+   <lb n="2">gredais yn gadarn y byddem yn ddedwydd iawn gyd
+   </lb> 
+   <lb n="3">&acirc; 'n gilydd, ac felly y bu, canys hi a roddwyd i mi
+   </lb> 
+   <lb n="4">gan yr Arglwydd: ac mi a 'i ffeindiais hi yn 
+   </lb>
+   <lb n="4-5">gymmar
+   </lb>
+   <lb n="5">
+    fendigedig, ac nid edifarhausom ni byth, er ini
+   </lb> 
+   <lb n="6">fyned trwy lawer o drallodion mawrion ac 
+   </lb>
+   <lb n="6-7">anhawsderau.
+   </lb>
+   <lb n="7">
+   
+   
+   
+   </lb> 
+   <lb n="8">Fy ngwraig oedd yn ennill llawer o 'i bywioliaeth
+   </lb> 
+   <lb n="9">wrth wau, ac yn dyfod i ben yn rhagorol dda; ond
+   </lb> 
+   <lb n="10">yn yr amser hynny yr oedd terfysg mawr ymhlith y
+   </lb> 
+   <lb n="11">gwehyddion; fel yr oedd ofn arnaf i adael fy ngwraig
+   </lb> 
+   <lb n="12">i weithio, rhag ofn iddynt wasgu arnaf i 
+   </lb>
+   <lb n="12-13">gynnorthwyo
+   </lb>
+   <lb n="13">
+    y terfysgwyr, yr hyn na's gallaswn feddwl am
+   </lb> 
+   <lb n="14">dano, ac f'allai \feallai\, pe na's gwnaethaswn y buasent yn
+   </lb> 
+   <lb n="15">fy nharo I yn fy mhen. Felly fel trwy hyn ni's
+   </lb> 
+   <lb n="16">gallasai fy ngwraig gael dim gwaith, ac nid oedd
+   </lb> 
+   <lb n="17">gennyf finnau ddigon i gynnal fy nheulu. Ni 
+   </lb>
+   <lb n="17-18">buom
+   </lb>
+   <lb n="18">
+    flwyddyn etto yn briod cyn i 'r holl aflwyddiant
+   </lb> 
+   <lb n="19">hyn i 'n cyfarfod.
+   
+   
+   </lb> 
+   <lb n="20">Yn gymmwys ar yr amser hwn, gwr bonheddig
+   </lb> 
+   <lb n="21">ag oedd yn ymddangos ei fod yn gofidio drosom,
+   </lb> 
+   <lb n="22">a 'm cynghorodd I i fyned gyd ag ef i Essex, ac a
+   </lb> 
+   <lb n="23">addawodd i mi gael gwaith. Mi dderbyniais ei
+   </lb> 
+   <lb n="24">gynnyg caruaidd ef, ac fe ddywedodd wrth gyfaill
+   </lb> 
+   <lb n="25">iddo o Gwacer, gwr o feddiannau mawr, ag oedd
+   </lb> 
+   <lb n="26">yn cyfaneddu ychydig ffordd oddi wrth dref 
+   </lb>
+   <lb n="26-27">Colchester
+   </lb>
+   <lb n="27">
+   ; ei enw ef oedd Handbarar; fe barodd i 'w
+   </lb> 
+   <lb n="28">oruchwiliwr i roi gwaith i mi. Yr oedd amrywiol
+   </lb> 
+   <lb n="29">wedi cael gwasanaeth yn yr un gwaith a minnau.
+   </lb> 
+   <lb n="30">Yr oeddwn I yn ddiolchgar iawn, ac yn foddlon er
+   </lb> 
+   <lb n="31">nad oedd fy nghyflog ond bychan. Nid oeddid yn
+   </lb> 
+   <lb n="32">rhoi i mi ond wyth ceiniog y dydd ar fy mwyd fy
+   </lb> 
+   <lb n="33">hun. Ond ar ol im' fod yn y sefyllfa hon tros 
+   </lb>
+   <lb n="33-34">bythefnos,
+   </lb>
+   <lb n="34">
+    fy meistr gafodd glywed fod dyn du yn ei
+   </lb> 
+   <lb n="35">waith ef, chwant ddaeth arno fy ngweled. Fe
+   </lb> 
+   <lb n="36">welodd fod yn dda i chwedleua &acirc; mi tros ychydig,
+   </lb> 
+   <lb n="37">ac yna fe ofynnodd pa gyflog oedd i mi; pan 
+   </lb>
+   <lb n="37-38">dywedais,
+   </lb>
+   <lb n="38">
+    fe ddywedodd ei bod yn rhy fach, ac yn
+   </lb> 
+   <lb n="39">uniawn fe barodd i 'w oruchwiliwr roddi i mi 
+   
+   </lb>
+   </pb>
+   <pb n="35-36.">
+   <lb n="39-1">ddeunaw
+   </lb>
+   </pb>
+   <pb n="36.">
+   <lb n="1">
+    ceiniog y dydd, yr hyn a roddwyd i mi wedi
+   </lb> 
+   <lb n="2">hyn o hyd; ac yna mi ddes i ben yn rhagorol.
+   
+   
+   </lb> 
+   <lb n="3">Ni's daethum &acirc; 'm gwraig gyd &acirc; mi; mi 
+   </lb>
+   <lb n="3-4">ddaethum
+   </lb>
+   <lb n="4">
+    ar y cyntaf fy hunan, a 'm hamcan I oedd os
+   </lb> 
+   <lb n="5">troi pethau allan yn ol fy ewyllys i ddanfon am
+   </lb> 
+   <lb n="6">dani. Yr oeddwn yn awr yn meddwl dymuno arni
+   </lb> 
+   <lb n="7">ddyfod attaf, pan dderbyniais lythyr i 'm gwneud yn
+   </lb> 
+   <lb n="8">gydnabyddus ei bod wedi ei dwyn i 'w gwely, a 'i bod
+   </lb> 
+   <lb n="9">mewn eisiau o amryw angenrheidiau. Y newydd
+   </lb> 
+   <lb n="10">hyn oedd dreial trwm i mi ac yn gystudd newydd;
+   </lb> 
+   <lb n="11">ond fy Nuw, yr hwn sy 'n ffyddlon ac yn gyflawn
+   </lb> 
+   <lb n="12">o drugaredd, ni wrthododd mohonof yn y cystudd
+   </lb> 
+   <lb n="13">hwn. Fel na's gallaswn ddarllain Saesoneg, gorfu
+   </lb> 
+   <lb n="14">arnaf ddymuno ar ryw un i ddarllain y llythyr a
+   </lb> 
+   <lb n="15">dderbyniais am fy ngwraig. Fe 'm cyfarwyddwyd
+   </lb> 
+   <lb n="16">gan ragluniaeth dda yr Arglwydd i fyned at wr
+   </lb> 
+   <lb n="17">bonheddig teilwng o Gwacer, a ffrynd i fy meistr.
+   </lb> 
+   <lb n="18">Mi ddymunais arno gymmeryd y poen o ddarllain
+   </lb> 
+   <lb n="19">fy llythyr i mi, yr hyn a wnaeth efe yn union, yr
+   </lb> 
+   <lb n="20">hwn a 'i cynhyrfodd ef cymmaint, fel ag y dywedodd
+   </lb> 
+   <lb n="21">y gwnai gasgliad i mi, yr hyn a wnaeth, ag fu un
+   </lb> 
+   <lb n="22">o 'r rhai cyntaf a daflodd atto. Yr arian a 
+   </lb>
+   <lb n="22-23">ddanfonwyd
+   </lb>
+   <lb n="23">
+    y prydnhawn hwnnw i Lundain gyd ag un a
+   </lb> 
+   <lb n="24">ddigwyddodd fod yn myned yno. Nid hyn yn unig
+   </lb> 
+   <lb n="25">oedd y cymmwynason a brofais ar ddwylo y gwyr
+   </lb> 
+   <lb n="26">caredig hwn, canys, mor gynted ag y daeth fy
+   </lb> 
+   <lb n="27">ngwraig i godi, ac i allael trafeulu \trafaelu\, hwy a 
+   </lb>
+   <lb n="27-28">ddanfonasant
+   </lb>
+   <lb n="28">
+    amdani attaf fi, ac a fuant yn yr holl draul
+   </lb> 
+   <lb n="29">o 'r dyfodiad: mor eglur oedd cariad a thrugaredd
+   </lb> 
+   <lb n="30">Duw yn ymddangos trwy bob trallod ag a ddarfu i
+   </lb> 
+   <lb n="31">mi erioed ei brofi. Ni dreuliasom yr haf yn 
+   </lb>
+   <lb n="31-32">gysurus
+   </lb>
+   <lb n="32">
+    iawn; ni fuom byw mewn bwth bychan yn agos
+   </lb> 
+   <lb n="33">i d&#375; Mr. Handbarar; ond pan daeth y gauaf gorfu
+   </lb> 
+   <lb n="34">arnaf fyned ymaith am nad oedd ganddo waith i mi
+   </lb> 
+   <lb n="35">ymhellach. Ac yn awr hi ddechreuodd dywyllu
+   </lb> 
+   <lb n="36">arnom drachefn. Ni feddyliasom fod yn well i ni
+   </lb> 
+   <lb n="37">symmud ein hannedd ychydig yn nes i 'r dre, fel yr
+   </lb> 
+   <lb n="38">oedd y t&#375; yr oeddem byw ynddo yn oer iawn, yn
+   </lb> 
+   <lb n="39">wlyb, ac yn barod i gwympo lawr.
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="37.">
+   
+   
+    
+   <lb n="1">Anherfynol ddaioni Duw i mi fu mor fawr fel yr
+   </lb> 
+   <lb n="2">wyf yn dymuno gyd &acirc; 'r diolchgarwch mwya 
+   </lb>
+   <lb n="2-3">gostyngedig
+   </lb>
+   <lb n="3">
+    i daflu fy hun i lawr o 'i flaen ef; canys mi
+   </lb> 
+   <lb n="4">gefais fy nal i fynu yn rhyfeddol ymhob \ym mhob\ cystudd.
+   </lb> 
+   <lb n="5">Ni adawodd fy Nuw mohonof. Mi gefais weled
+   </lb> 
+   <lb n="6">goleuni o hyd trwy 'r tywyllwch mwya dudew.
+   
+   
+   </lb> 
+   <lb n="7">Fy ngwraig anwyl a minnau yn awr oeddem yn
+   </lb> 
+   <lb n="8">ddiwaith. Nid allem gael dim i wneuthur. Y
+   </lb> 
+   <lb n="9">gaiaf aeth yn llym iawn; a ninnau aethom i 'r 
+   </lb>
+   <lb n="9-10">cyfyngderau
+   </lb>
+   <lb n="10">
+    mwya ellid ddychymmyg. Ni fynnwn
+   </lb> 
+   <lb n="11">mewn un modd yn y byd geisio dim: ni's gallwn
+   </lb> 
+   <lb n="12">fegian; ac nid oeddwn yn dewis gwneuthur fy 
+   </lb>
+   <lb n="12-13">angenrheidiau
+   </lb>
+   <lb n="13">
+    yn gydnabyddus i un dyn, rhag ofn eu
+   </lb> 
+   <lb n="14">tramgwyddo, fel yr oeddem ni yn hollol ddieithr:
+   </lb> 
+   <lb n="15">ond y briwsionyn diweddaf o fara oedd wedi darfod,
+   </lb> 
+   <lb n="16">a gorfu arnaf finnau feddwl am ryw beth i 'w 
+   </lb>
+   <lb n="16-17">wneuthur
+   </lb>
+   <lb n="17">
+    at ein bywioliaeth. Nid oeddwn yn gofalu
+   </lb> 
+   <lb n="18">dim oll amdanaf fy hunan; ond gweld fy ngwraig
+   </lb> 
+   <lb n="19">anwyl a 'm plant mewn eisiau oedd yn fy nhrywanu
+   </lb> 
+   <lb n="20">at fy nghalon. Mi feiais fy hun yn awr am ei
+   </lb> 
+   <lb n="21">dwyn hi o Lundain, o ran diau pe buasem yn aros
+   </lb> 
+   <lb n="22">yno ni fuasem yn ffeindio cyfeillion i 'n cadw rhag
+   </lb> 
+   <lb n="23">newynu. Yr eira oedd y pryd hyn o ryfeddol drwch;
+   </lb> 
+   <lb n="24">fel nad oeddem yn gweled un tebygoliaeth o i ni
+   </lb> 
+   <lb n="25">gael ein cynnorthwyo. Yn y sefyllfa druenus hon,
+   </lb> 
+   <lb n="26">heb wybod pa gamrau i ganlyn, mi resolfais wneud
+   </lb> 
+   <lb n="27">fy nghyflwr yn adnabyddus i arddwr gwr bonheddig
+   </lb> 
+   <lb n="28">ag oedd yn byw yn agos attom, ac i ddymuno arno
+   </lb> 
+   <lb n="29">roddi i mi waith: ond pan daethum atto mi 
+   </lb>
+   <lb n="29-30">ddigalonnais,
+   </lb>
+   <lb n="30">
+    a chywilydd oedd arnaf i wneud yn 
+   </lb>
+   <lb n="30-31">amlwg
+   </lb>
+   <lb n="31">
+    iddo fy amgylchiad. Mi wnes orau ag allwn
+   </lb> 
+   <lb n="32">i 'w berswadio ef i roddi i mi waith, ond nid i un
+   </lb> 
+   <lb n="33">pwrpas: fe 'm sicrhaodd I nad oedd hynny yn ei allu
+   </lb> 
+   <lb n="34">ef: ond yn gymmwys fel yr oeddwn yn myned
+   </lb> 
+   <lb n="35">ymaith, fe ofynnodd i mi a gymmerwn ryw faint o
+   </lb> 
+   <lb n="36">foron cochion (carrots) ganddo? mi a 'u derbyniais
+   </lb> 
+   <lb n="37">hwy gyd &acirc; llawer o ddiolchgarwch, ac a 'u dygais
+   </lb> 
+   <lb n="38">hwy adre'; fe roddodd i mi bedair, ac yr oeddent
+   </lb> 
+   <lb n="39">yn fawrion ac yn dda. Nid oedd gyd &acirc; ni ddim i
+   
+   
+   </lb>
+   </pb>
+   <pb n="38.">
+   
+    
+   <lb n="1">wneud t&acirc;n, ac yn ganlynol ni's gallem eu berwi
+   </lb> 
+   <lb n="2">hwynt, ond da oedd gennym eu cael hwy i 'w 
+   </lb>
+   <lb n="2-3">bwytta
+   </lb>
+   <lb n="3">
+    heb eu berwi. Nid oedd ein plentyn ieuangaf
+   </lb> 
+   <lb n="4">ond baban bychan iawn, fel gorfu ar fy ngwraig eu
+   </lb> 
+   <lb n="5">cnoi hwy iddo, ac a 'i porthodd ef felly amryw
+   </lb> 
+   <lb n="6">ddyddiau. Nid oeddem yn rhoi i ni ein hunain
+   </lb> 
+   <lb n="7">ond un bob diwrnod, rhag iddynt ddarfod cyn i ni
+   </lb> 
+   <lb n="8">gael rhyw beth arall i 'n cynnal. Anfoddlon 
+   </lb>
+   <lb n="8-9">oeddwn
+   </lb>
+   <lb n="9">
+    i fwytta dim ohonynt fy hunan; ac ni's 
+   </lb>
+   <lb n="9-10">cymmerais
+   </lb>
+   <lb n="10">
+    I ddim ohonynt y dydd olaf buom yn yr
+   </lb> 
+   <lb n="11">amgylchiadau hyn, fel na's gallwn ddioddef meddwl
+   </lb> 
+   <lb n="12">fod fy ngwraig anwyl a 'm plant mewn eisiau o un
+   </lb> 
+   <lb n="13">moddion at eu cynhaliaeth. Ni fuom byw yn y
+   </lb> 
+   <lb n="14">dull hyn nes oedd y moron cochion wedi darfod:
+   </lb> 
+   <lb n="15">yna fy ngwraig a ddechreuodd alaru am y babanod
+   </lb> 
+   <lb n="16">gwirion: ond yr oeddwn I yn ei chysuro hi hyd
+   </lb> 
+   <lb n="17">eithaf ag allwn; o hyd yn gobeithio, ac yn credu
+   </lb> 
+   <lb n="18">na's gadawai Duw i ni farw: ond y gwelai efe fod
+   </lb> 
+   <lb n="19">yn dda i 'n cynnorthwyo, yr hyn a wnaeth ef bron
+   </lb> 
+   <lb n="20">trwy wyrthiau.
+   
+   
+   </lb> 
+   <lb n="21">Ni aethom i 'n gwely fel arferol, cyn ei bod hi
+   </lb> 
+   <lb n="22">yn hollol dywyll (am nad oedd gennym na th&acirc;n na
+   </lb> 
+   <lb n="23">chanhwyllau) ond ni buom yno yn hir nes i ryw
+   </lb> 
+   <lb n="24">ddyn guro wrth y drws a gofyn a oedd James Albert
+   </lb> 
+   <lb n="25">yn byw yno? mi attebais ei fod, ac mi godais yn
+   </lb> 
+   <lb n="26">union; mor gynted ag yr agorais y drws mi 
+   </lb>
+   <lb n="26-27">ffeindiais
+   </lb>
+   <lb n="27">
+    mai gwas ydoedd i gyfreithiwr mawr ag oedd yn
+   </lb> 
+   <lb n="28">byw yn Colchester. Fe ofynnodd i mi pa ddull yr
+   </lb> 
+   <lb n="29">oedd hi gyd &acirc; mi? a oeddwn I ddim ymron 
+   </lb>
+   <lb n="29-30">newynu?
+   </lb>
+   <lb n="30">
+    mi dorrais allan mewn wylofain, ac a 
+   </lb>
+   <lb n="30-31">ddywedais
+   </lb>
+   <lb n="31">
+    fy mod I yn wir. Fe ddywedodd fod ei
+   </lb> 
+   <lb n="32">feistr yn tybiaid felly, a bod arno eisiau chwedleua &acirc;
+   </lb> 
+   <lb n="33">mi, a bod yn rhaid i mi fyned gyd ag ef. Enw y
+   </lb> 
+   <lb n="34">gwr bonheddig hwn oedd Daniel, a Christion cywir
+   </lb> 
+   <lb n="35">ydoedd efe. Yr oedd efe yn arferol o sefyll a
+   </lb> 
+   <lb n="36">chwedleua &acirc; mi yn fynych pan oeddwn yn gweithio
+   </lb> 
+   <lb n="37">ar y ffordd dros Mr. Handbarar, ac fe fuasai yn
+   </lb> 
+   <lb n="38">rhoi gwaith i mi ei hunan pe buasai arnaf eisiau
+   </lb> 
+   <lb n="39">gwaith. Pan daethum i 'w d&#375; ef dywedodd wrthyf
+   
+   
+   </lb>
+   </pb>
+   <pb n="39.">
+   
+    
+   <lb n="1">iddo feddwl llawer iawn amdanaf yn ddiweddar, a 'i
+   </lb> 
+   <lb n="2">fod yn ofni fy mod mewn eisiau, ac na's gallasai fod
+   </lb> 
+   <lb n="3">yn esmwyth nes ymofyn am fy helynt. Mi wnes
+   </lb> 
+   <lb n="4">yn adnabyddus iddo fy nghyfyngder, yr hyn a 
+   </lb>
+   <lb n="4-5">effeithiodd
+   </lb>
+   <lb n="5">
+    yn rhyfeddol arno; ac yn ewyllysgar a
+   </lb> 
+   <lb n="6">roddodd i mi gini; ac a addawodd fod yn drugarog
+   </lb> 
+   <lb n="7">i mi yr amser oedd yn ol. Ni's gallwn lai n&acirc; llefain
+   </lb> 
+   <lb n="8">allan "O anherfynol drugareddau 'r Arglwydd! mi
+   </lb> 
+   <lb n="9">waeddais arno ac fe 'm gwrandawodd; mi 
+   </lb>
+   <lb n="9-10">ymddiriedais
+   </lb>
+   <lb n="10">
+    ynddo, ac efe a 'm cadwodd I: pa le y dechreuaf
+   </lb> 
+   <lb n="11">ei glodfori, neu pa fodd y caraf ef yn ddigon?"
+   
+   
+   </lb> 
+   <lb n="12">Mi aethum yn union ac a brynais beth bara a
+   </lb> 
+   <lb n="13">chaws, a glo, ac a 'u dygais hwynt adref. Llawen
+   </lb> 
+   <lb n="14">oedd gan fy ngwraig anwyl fy ngweled I yn 
+   </lb>
+   <lb n="14-15">dychwelyd
+   </lb>
+   <lb n="15">
+   &nbsp;&acirc; rhyw beth gennyf i 'w fwytta. Hi gododd
+   </lb> 
+   <lb n="16">i fynu 'n union ac a driniodd ein babanod, tra fum i
+   </lb> 
+   <lb n="17">yn gwneuthur t&acirc;n, ac ni's gwnaeth pendefigion 
+   </lb>
+   <lb n="17-18">pennaf
+   </lb>
+   <lb n="18">
+    y deyrnas erioed wledd mwy cysurus. Ni's
+   </lb> 
+   <lb n="19">darfu i ni anghofio diolch i Dduw&nbsp;am ei holl ddoniau
+   </lb> 
+   <lb n="20">i ni. Yn fuan ar ol hyn, pan daeth y gwanwyn
+   </lb> 
+   <lb n="21">ymlaen, Mr. Peter Daniel a roddodd i mi waith i 'w
+   </lb> 
+   <lb n="22">gynnorthwyo ef i dynnu t&#375; i lawr, a 'i adeiladu ef
+   </lb> 
+   <lb n="23">drachefn. Yr oedd gennyf y pryd hyn waith da
+   </lb> 
+   <lb n="24">iawn, a digon ohono: fe ddanfonodd am fy ngwraig
+   </lb> 
+   <lb n="25">&acirc; 'm plant i Colchester, ac a barottodd i ni d&#375; lle 
+   </lb>
+   <lb n="25-26">buom
+   </lb>
+   <lb n="26">
+    byw yn gysurus iawn. Yr wyf yn gobeithio y
+   </lb> 
+   <lb n="27">bydd i mi yn ddiolchgar addef ei gymmwynasgarwch
+   </lb> 
+   <lb n="28">i mi a 'm teulu. Mi weithiais wrth ei d&#375; ef fwy n&acirc;
+   </lb> 
+   <lb n="29">blwyddyn, hyd nes gorphennwyd; ac ar ol hynny
+   </lb> 
+   <lb n="30">mi gefais waith gan amryw ol yn ol, ac nid oeddwn
+   </lb> 
+   <lb n="31">fyth mor ddedwydd a phryd yr oedd gennyf ryw
+   </lb> 
+   <lb n="32">beth i 'w wneuthur; ond wrth weled y gauaf yn
+   </lb> 
+   <lb n="33">agoshau, a bod gwaith yn hytrach yn brin, mi 
+   </lb>
+   <lb n="33-34">ofnais
+   </lb>
+   <lb n="34">
+    y byddem drachefn mewn eisiau, neu fod yn
+   </lb> 
+   <lb n="35">bwys ar rai o 'n cyfeillion.
+   
+   
+   </lb> 
+   <lb n="36">Fe roddwyd cynnyg i mi yn awr o fyned i 
+   </lb>
+   <lb n="36-37">Norwich,
+   </lb>
+   <lb n="37">
+    a chael gwaith bob amser. Fy ngwraig oedd
+   </lb> 
+   <lb n="38">foddlon i 'r cynnyg, am ei bod yn meddwl y cai
+   </lb> 
+   <lb n="39">waith yno yn y wehyddiaeth, am mai dyna 'r alwad
+   
+   
+   </lb>
+   </pb>
+   <pb n="40.">
+   
+    
+   <lb n="1">y dygwyd hi i fynu iddi, ac yn fwy tebygol o 
+   </lb>
+   <lb n="1-2">lwyddo
+   </lb>
+   <lb n="2">
+    yno nag un man arall; ac ni feddyliasom fel
+   </lb> 
+   <lb n="3">yr oedd gennym gyfleustra i symmud i dref lle 
+   </lb>
+   <lb n="3-4">gallem
+   </lb>
+   <lb n="4">
+    ein dauoedd \deuoedd\ gael gwaith, mai 'r ffordd orau oedd
+   </lb> 
+   <lb n="5">gwneuthur hynny; ac f'allai \feallai\ gallem aros yno tros
+   </lb> 
+   <lb n="6">ein bywyd. Pan darfu in' resolfo ar hyn, mi 
+   </lb>
+   <lb n="6-7">aethum
+   </lb>
+   <lb n="7">
+    yn gyntaf fy hunan i weled pa fodd yr attebai;
+   </lb> 
+   <lb n="8">yr hyn a edifarheais yn fawr o 'i blegid ar ol llaw;
+   </lb> 
+   <lb n="9">canys nid oedd yn fy ngallu i ddanfon un 
+   </lb>
+   <lb n="9-10">cynnorthwy
+   </lb>
+   <lb n="10">
+    yn union at fy ngwraig, o herwydd i mi
+   </lb> 
+   <lb n="11">gwympo i ddwylaw meistr nad oedd nac yn fwyn
+   </lb> 
+   <lb n="12">nac yn ystyriol; a hi a syrthiodd i galedi mawr, fel
+   </lb> 
+   <lb n="13">gorfu arni werthu 'r ychydig feddiannau oedd 
+   </lb>
+   <lb n="13-14">gennym,
+   </lb>
+   <lb n="14">
+    a phan danfonais amdani yr oedd hi tan yr
+   </lb> 
+   <lb n="15">angenrheidrwydd anghysurus hynny o orfod gwerthu
+   </lb> 
+   <lb n="16">ein gwely.
+   
+   
+   </lb> 
+   <lb n="17">Pan y daeth fy ngwraig i Norwich, mi huriais
+   </lb> 
+   <lb n="18">'stafell \ystafell\&nbsp;&acirc; dodrefn ynddi. Mi brofais lawer iawn o
+   </lb> 
+   <lb n="19">wahaniaeth yn ymddygiad fy meistr oddi wrth yr
+   </lb> 
+   <lb n="20">hyn oeddwn arferol o gael gan fy meistri eraill. Yr
+   </lb> 
+   <lb n="21">oedd ef yn anrheolaidd iawn yn ei daliadau i mi.
+   </lb> 
+   <lb n="22">Fy ngwraig a huriodd w&#375;dd, ac a wauodd bob 
+   </lb>
+   <lb n="22-23">amser
+   </lb>
+   <lb n="23">
+    ag byddai ganddi arfod, ac ni a ddechreuasom
+   </lb> 
+   <lb n="24">wneud o 'r gorau, hyd onis darfu i ni gael ein 
+   </lb>
+   <lb n="24-25">gorddiwes
+   </lb>
+   <lb n="25">
+    gan groes-ragluniaethau newyddion. Fe
+   </lb> 
+   <lb n="26">gwympodd ein tri phlentyn yn glaf o 'r frech-wen;
+   </lb> 
+   <lb n="27">hyn oedd dreial mawr i ni; ond fyth yr oeddwn yn
+   </lb> 
+   <lb n="28">cael fy mherswadio ynnof fy hunan na's caem ein
+   </lb> 
+   <lb n="29">gwrthod. Ac mi wnaethum y cyfan yn fy ngallu i
+   </lb> 
+   <lb n="30">ddal i fynu ysprydoedd fy nghymmar anwyl rhag
+   </lb> 
+   <lb n="31">suddo. Ei holl waith hi oedd yn awr ynghylch y
+   </lb> 
+   <lb n="32">plant, fel na's gallai hi ofalu am ddim arall, ac nid
+   </lb> 
+   <lb n="33">oedd y cwbl ag allwn I ennill ond ychydig i gynnal
+   </lb> 
+   <lb n="34">teulu yn y fath amgylchiad, heblaw talu am hur yr
+   </lb> 
+   <lb n="35">ystafell, yr hyn oeddwn yn orfod peidio ei wneuthur
+   </lb> 
+   <lb n="36">tros lawer o wythnosau: ond y wraig i ba un yr
+   </lb> 
+   <lb n="37">oedd y dyled, ni fynnai ein hesgusodi, er i mi addo
+   </lb> 
+   <lb n="38">y cai yr arian cyntaf ag allem ennill ar ol i 'r plant
+   </lb> 
+   <lb n="39">wella, ond ni's digonai hyn hi, ond yr oedd mor
+   
+   
+   </lb>
+   </pb>
+   <pb n="41.">
+   
+    
+   <lb n="1">greulon a 'n bygwth onis talem hi yn union y troi
+   </lb> 
+   <lb n="2">hi ni allan i 'r heol. Y meddyliau o hyn oedd yn
+   </lb> 
+   <lb n="3">fy suddo I i lawr i 'r cyfyngder mwyaf, wrth ystyried
+   </lb> 
+   <lb n="4">sefyllfa fy mabanod truain; pe buasent yn iach ni
+   </lb> 
+   <lb n="5">buasai ddim cymmaint gofid am y fath fisfortun.
+   </lb> 
+   <lb n="6">Ond fy Nuw I, yr hwn sydd yn wastad yn ffyddlon
+   </lb> 
+   <lb n="7">i 'w addewid, a gododd i mi gyfaill. Mr Henry
+   </lb> 
+   <lb n="8">Gurdney, cwacer, gwr bonheddig grasol a glywodd
+   </lb> 
+   <lb n="9">am ein cyfyngder, fe ddanfonodd was iddo ei hun
+   </lb> 
+   <lb n="10">at y wraig y rhentasom ni yr ystafell ganddi, ac efe
+   </lb> 
+   <lb n="11">a dalodd ein rhent, a brynodd yr holl ddodrefn, gyd
+   </lb> 
+   <lb n="12">&acirc; gw&#375;dd y wraig, ac a 'u rhoddodd hwynt oll i ni.
+   </lb> 
+   <lb n="13">Rhai boneddigion eraill wedi clywed ei amcan ef a
+   </lb> 
+   <lb n="14">welsant fod yn dda i 'w gynnorthwyo ef yn y 
+   </lb>
+   <lb n="14-15">gweithredoedd
+   </lb>
+   <lb n="15">
+    hyn o drugaredd, am ba rai ni's gallwn fod
+   </lb> 
+   <lb n="16">fyth yn ddigon diolchgar: ar ol hyn fy mhlant yn
+   </lb> 
+   <lb n="17">fuan a godasant; ac yna ni wnaethom o 'r gorau 
+   </lb>
+   <lb n="17-18">drachefn:
+   </lb>
+   <lb n="18">
+    fy anwyl wraig a weithiodd yn galed, ac yn
+   </lb> 
+   <lb n="19">ddyfal pan y gallai hi gael gwaith, ond hyn oedd ar
+   </lb> 
+   <lb n="20">sylfaen anwadal, fel yr oedd y gwaith mor 
+   </lb>
+   <lb n="20-21">gyfnewidiol,
+   </lb>
+   <lb n="21">
+    rai prydiau ni's cai hi ddim i 'w wneuthur,
+   </lb> 
+   <lb n="22">a phrydiau eraill pan cai gwehyddion Norwich&nbsp;
+   </lb>
+   <lb n="22-23">orchymyn
+   </lb>
+   <lb n="23">
+    o Lundain, fe fyddai y fath frys 
+   </lb>
+   <lb n="23-24">anghymhedrol
+   </lb>
+   <lb n="24">
+    arnynt ag y byddai 'r gweithwyr yn gorfod
+   </lb> 
+   <lb n="25">gweithio ar ddydd Sabbath; ond hyn ni's gwnai fy
+   </lb> 
+   <lb n="26">ngwraig I fyth, ac yr oedd e 'n achos o ofid i ni na's
+   </lb> 
+   <lb n="27">gallem gael ein bywioliaeth mewn dull rheolaidd;
+   </lb> 
+   <lb n="28">er ein bod ein dauoedd \deuoedd\ yn ddiwyd, yn fanwl, ac
+   </lb> 
+   <lb n="29">yn foddlon gweithio. Yr oeddwn I ymhell o fod
+   </lb> 
+   <lb n="30">yn ddedwydd yn fy meistr, nid oedd efe yn delio a
+   </lb> 
+   <lb n="31">mi yn dda; prin y gallaswn fyth gael fy arian
+   </lb> 
+   <lb n="32">ganddo: ond mi barheais yn amyneddgar hyd nes
+   </lb> 
+   <lb n="33">i Dduw weled bod yn dda i gyfnewid fy sefyllfa.
+   
+   
+   </lb> 
+   <lb n="34">Fy anwyl ffrynd Mr. Gurdney a 'm cynghorodd
+   </lb> 
+   <lb n="35">i 'r alwad o dorri gwellt, ac a brynodd i mi offeryn
+   </lb> 
+   <lb n="36">at yr achos hynny. Nid oedd ond ychydig bobl yn
+   </lb> 
+   <lb n="37">y dref ag oedd yn gwneud hyn yn waith iddynt ond
+   </lb> 
+   <lb n="38">myfi; felly mi wnes yn rhagorol dda, ac ni 
+   </lb>
+   <lb n="38-39">ddaethom
+   </lb>
+   <lb n="39">
+    i fod yn esmwyth ac yn ddedwydd. Ond ni
+   
+   
+   </lb>
+   </pb>
+   <pb n="42.">
+   
+    
+   <lb n="1">buom yn hir yn y cyflwr dedwydd hwn: amrywiol
+   </lb> 
+   <lb n="2">o 'r bobl o isel radd oedd yn genfigennus ac yn 
+   </lb>
+   <lb n="2-3">annaturiol,
+   </lb>
+   <lb n="3">
+    ac a osodasant i fynu yr un gwaith, ac a
+   </lb> 
+   <lb n="4">weithiasant tan bris, o ddiben i gael fy ngwaith I
+   </lb> 
+   <lb n="5">oddi wrthyf; ac fe ddarfu iddynt lwyddo cystal fel
+   </lb> 
+   <lb n="6">mai prin y gallwn I gael dim i 'w wneuthur, ac y
+   </lb> 
+   <lb n="7">daethum drachefn yn aflwyddiannus: ac ni ddaeth
+   </lb> 
+   <lb n="8">yr aflwyddiant hyn ei hunan, canys y pryd hyn ni
+   </lb> 
+   <lb n="9">gollasom un o 'n merched bychain, yr hon fu farw
+   </lb> 
+   <lb n="10">o dwymyn; yr amgylchiad hyn a barodd in' 
+   </lb>
+   <lb n="10-11">gystuddiau
+   </lb>
+   <lb n="11">
+    newyddion, canys gweinidog y bedydd a
+   </lb> 
+   <lb n="12">ommeddodd ei chladdu o ran nad oeddem ni yn
+   </lb> 
+   <lb n="13">aelodau o 'u cynnulleidfa. Offeiriad y plwyf a 
+   </lb>
+   <lb n="13-14">ommeddodd
+   </lb>
+   <lb n="14">
+    am na fedyddiwyd mohoni erioed. Mi
+   </lb> 
+   <lb n="15">ddymunais ar y cwaceriaid, ond ni lwyddais; a
+   </lb> 
+   <lb n="16">thyma \dyma\ un o 'r treialon mwyaf a gyfarfum &acirc; hwy 
+   </lb>
+   <lb n="16-17">erioed,
+   </lb>
+   <lb n="17">
+    fel na's gwyddwn I pa beth i 'w wneuthur a 'n
+   </lb> 
+   <lb n="18">baban tlawd. O 'r diwedd mi resolfais dorri bedd
+   </lb> 
+   <lb n="19">yn yr ardd tu cefn i 'r t&#375;, a 'i chladdu yno; pan
+   </lb> 
+   <lb n="20">danfonodd offeiriad y plwyf amdanaf i ddywedyd
+   </lb> 
+   <lb n="21">wrthyf y claddai efe fy mhlentyn, ond nad oedd efe
+   </lb> 
+   <lb n="22">yn dewis darllain gwasanaeth y gladdedigaeth drosto.
+   </lb> 
+   <lb n="23">Mi ddywedais wrtho nad oedd e' ddim gennyf fi pa
+   </lb> 
+   <lb n="24">un ai gwnai ai peidio, gan nad oedd y plentyn yn
+   </lb> 
+   <lb n="25">ei glywed.
+   
+   
+   </lb> 
+   <lb n="26">Fe ddarfu i ni gyfarfod &acirc; llawer o ddrwg-driniaeth
+   </lb> 
+   <lb n="27">gwedi hyn, ac a gawsom wybod ei bod hi yn 
+   </lb>
+   <lb n="27-28">anhawdd
+   </lb>
+   <lb n="28">
+    iawn byw. Prin y caem waith i wneuthur,
+   </lb> 
+   <lb n="29">a gorfu arnom wystlo ein dillad. Yr oeddem bron
+   </lb> 
+   <lb n="30">a suddo tan ein cystuddiau. Pan gosodais I o flaen
+   </lb> 
+   <lb n="31">fy ngwraig am fyned i Kidderminster i edrych a allem
+   </lb> 
+   <lb n="32">fyw yno. Yr oedd ynof bob amser dueddiad at y
+   </lb> 
+   <lb n="33">lle hwnnw, ac yn awr fwy nag erioed, am i mi
+   </lb> 
+   <lb n="34">glywed Mr. Fawset yn cael ei enwi yn y dull mwya
+   </lb> 
+   <lb n="35">parchedig, fel gwr bonheddig duwiol a theilwng, ac
+   </lb> 
+   <lb n="36">mi welais ei enw ef mewn llyfr ag oedd anwyl 
+   </lb>
+   <lb n="36-37">gennyf,
+   </lb>
+   <lb n="37">
+    sef Gorphwysfa dragwyddol y Seintiau, o waith
+   </lb> 
+   <lb n="38">Mr. Baxter; ac fel yr oedd gweithiau yn 
+   </lb>
+   <lb n="38-39">Kidderminster
+   </lb>
+   <lb n="39">
+    yn tebygu addo i fy ngwraig ryw faint o
+   
+   
+   </lb>
+   </pb>
+   <pb n="43.">
+   
+    
+   <lb n="1">waith, hi gwympodd yn union i 'r un meddyliau
+   </lb> 
+   <lb n="2">a mi.
+   
+   
+   </lb> 
+   <lb n="3">Mi gadewais hi un waith yn rhagor, ac a osodais
+   </lb> 
+   <lb n="4">allan i Kidderminster, i edrych a oedd y lle yn 
+   </lb>
+   <lb n="4-5">gyfleus
+   </lb>
+   <lb n="5">
+    i ni. Mor gynted ag y daethum yno, mi
+   </lb> 
+   <lb n="6">aethum yn union at Mr. Fawset, yr hwn a welodd
+   </lb> 
+   <lb n="7">fod yn dda i 'm derbyn gyd &acirc; charedigrwydd, ac a 'm
+   </lb> 
+   <lb n="8">danfonodd I at Mr. Watson, yr hwn a 'm rhoddodd
+   </lb> 
+   <lb n="9">i gyhudo \gyhydo\ sidan ac wysted \wstid\ ynghyd. Mi arosais yma
+   </lb> 
+   <lb n="10">o ddautu pythefnos, a phan y tybiais yr attebai ein
+   </lb> 
+   <lb n="11">disgwyliad, mi aethum yn ol i Norwich, i ymofyn
+   </lb> 
+   <lb n="12">fy ngwraig; yr oedd hi y pryd hyn yn agos i 'w
+   </lb> 
+   <lb n="13">hamser i esgor, ac yn rhy anhwylus. Felly fe orfu
+   </lb> 
+   <lb n="14">arnom aros hyd onis dygwyd hi i 'w gwely, ac mor
+   </lb> 
+   <lb n="15">gynted ag y gallai hi drafaelu ni a ddaethom i 
+   </lb>
+   <lb n="15-16">Kidderminster,
+   </lb>
+   <lb n="16">
+    ond ni ddygasom ni ddim gyd &acirc; ni, o
+   </lb> 
+   <lb n="17">ran i ni orfod gwerthu 'r cwbl ag oedd gennym i dalu
+   </lb> 
+   <lb n="18">ein dyled, a thraul fy ngwraig tra fu yn gorwedd i
+   </lb> 
+   <lb n="19">mewn.
+   
+   
+   </lb> 
+   <lb n="20">Y fath hyn yw ein hamgylchiad yn bresennol.
+   </lb> 
+   <lb n="21">Mae fy ngwraig trwy weithio yn galed wrth y gw&#375;dd
+   </lb> 
+   <lb n="22">yn gwneuthur pob peth ag ellir ddisgwyl oddi wrthi
+   </lb> 
+   <lb n="23">tu ag at ein cynnal; ac y mae Duw yn gweled bod
+   </lb> 
+   <lb n="24">yn dda i dueddu calonnau ei bobl ar rai amserau i
+   </lb> 
+   <lb n="25">roi i ni gynnorthwy; am nad wyf fi fy hunan trwy
+   </lb> 
+   <lb n="26">oedran a gwendid yn abl gwneuthur ond ychydig at
+   </lb> 
+   <lb n="27">ein cynhaliaeth.
+   
+   
+   </lb> 
+   <lb n="28">Fel pererinion, a phererinion tlodion iawn, yr
+   </lb> 
+   <lb n="29">ydym yn trafaelu trwy lawer o anhawsderau tu a 'n
+   </lb> 
+   <lb n="30">nefol artre, ac yn disgwyl yn amyneddgar am
+   </lb> 
+   <lb n="31">ei alwad grasusol ef, pan bydd i 'r Arglwydd ein
+   </lb> 
+   <lb n="32">gwared allan o ddrygau y byd presennol hwn, a 'n
+   </lb> 
+   <lb n="33">dwyn i ogoniant tragywyddol y byd a ddaw.
+   </lb> 
+   <lb n="34">Iddo EF bo gogoniant byth bythoedd, AMEN.
+   
+   </lb> 
+   <lb n="35">DIWEDD.</lb></pb>
+   
+</text>

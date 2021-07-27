@@ -1,0 +1,7 @@
+<!ELEMENT head (#PCDATA | lb)*>
+<!ELEMENT pb (#PCDATA | head | lb)*>
+<!ATTLIST pb n CDATA #IMPLIED>
+<!ELEMENT lb (#PCDATA | head | lb)*>
+<!ATTLIST lb n CDATA #IMPLIED>
+<!ELEMENT text (#PCDATA | pb | text | head)*>
+<!ATTLIST text id CDATA #IMPLIED>

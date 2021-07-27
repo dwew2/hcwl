@@ -1,0 +1,5467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../sketchengine.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+
+<text id="DFf">
+   
+   
+   
+   <pb n="80.">
+   
+   
+   <head>
+   
+    
+   <lb n="1">Llyma lle mae darn o 'r ffestival</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="2">Vy ngharedic bobyl ysbyssv ychwi mae
+   </lb> 
+   <lb n="3">heddiw yw y sul kyntaf o 'r grawys
+   </lb> 
+   <lb n="4">ayaf yr hwnn y mae eglwys duw yn
+   </lb> 
+   <lb n="5">dwyn ar ddyall o ddyfodiad krist 
+   </lb>
+   <lb n="5-6">arglwydd
+   </lb>
+   <lb n="6">
+    y 'r byd hwnn er prynv yr hollvyd 
+   </lb> 
+   <lb n="7">o gaethiwed y kythrel ac y ddwyn pob
+   </lb> 
+   <lb n="8">gwaithredwr da y 'r llawenydd tragwddawl
+   </lb> 
+   <lb n="9">a hevyd o 'r ail ddyfodiad yr hwnn a
+   </lb> 
+   <lb n="10">elwir dydd brawd pan ddel ef i varnv
+   </lb> 
+   <lb n="11">y gam waithredwyr y 'r poenav 
+   </lb>
+   <lb n="11-12">tragwddawl
+   </lb>
+   <lb n="12">
+    Eithr oblegid y dyfodiad kyntaf
+   </lb> 
+   <lb n="13">o grist y 'r byd hwnn ddwyn ohono ef
+   </lb> 
+   <lb n="14">lawenydd nefoedd gidac ef Ac am
+   </lb> 
+   <lb n="15">hynny y mae eglwys duw yn arver o gan o 
+   </lb>
+   <lb n="15-16">ddigrifwch
+   </lb>
+   <lb n="16">
+    val y mae alalya A hevyd yr
+   </lb> 
+   <lb n="17">ail dyfodiad y grist a vydd mor 
+   </lb>
+   <lb n="17-18">groylon
+   </lb>
+   <lb n="18">
+    megis na ddychon \ddichon\ tafod y draethv ac
+   </lb> 
+   <lb n="19">o 'r plegid hwnnw y mae yr eglwys yn
+   </lb> 
+   <lb n="20">paidio a 'r kan nefol hwnnw ______
+   </lb> 
+   <lb n="21">______ ac yn paidio a 'r priodassav o
+   </lb> 
+   <lb n="22">blegid y dialedd yssydd yn dyfod rac llaw
+   </lb> 
+   <lb n="23">Ac wedy y dyfodiad kyntaf o grist y 'r
+   </lb> 
+   <lb n="24">byd val y mae saint awstin yn dywedyd
+   
+   
+   </lb>
+   </pb>
+   <pb n="81.">
+   
+    
+   <lb n="1">mae Tripheth yssydd barod y 'r byd hwnn
+   </lb> 
+   <lb n="2">bob amsser Nid amgen Ryfel a 
+   </lb>
+   <lb n="2-3">marvolaeth
+   </lb>
+   <lb n="3">
+    a drydanian Eithr val hynn y roed
+   </lb> 
+   <lb n="4">dyn a 'i genedlaeth a 'i eni mewn klefyd
+   </lb> 
+   <lb n="5">a 'i vyw mewn trafel a 'i varw mewn 
+   </lb>
+   <lb n="5-6">gofal
+   </lb>
+   <lb n="6">
+    Er hynny krist a ddoyth er help a 
+   </lb>
+   <lb n="6-7">swkwr
+   </lb>
+   <lb n="7">
+    y ninev bechadyriaid ac ef a anet ac
+   </lb> 
+   <lb n="8">ef a gymerth drafel mawr ac ef a vy
+   </lb> 
+   <lb n="9">varw mewn gobaith Eithr ef a anet er
+   </lb> 
+   <lb n="10">yn dwyn ni o 'n klefyd i 'r Iaechyd&nbsp;
+   </lb>
+   <lb n="10-11">tragwddawl
+   </lb>
+   <lb n="11">
+    ac o achos yn ynwedic yn dwyn ni
+   </lb> 
+   <lb n="12">y 'r bywyd tragwddol y by varw ef A hynny
+   </lb> 
+   <lb n="13">yw yr achos y dyfodiad kyntaf o grist i 'r
+   </lb> 
+   <lb n="14">byd achos pawb a 'r a vo amddiffynnol o 'r varn
+   </lb> 
+   <lb n="15">honno Ac o 'r eil dyfodiad y grist y mae
+   </lb> 
+   <lb n="16">yn raid y bob ryw ddyn vwrw oddiwrtho bob
+   </lb> 
+   <lb n="17">ryw enwiredd y lawr ac yn vnwedic balchder
+   </lb> 
+   <lb n="18">kalhon ac ymgyddnabod ehvn yn bechadyr
+   </lb> 
+   <lb n="19">dayarol a bod yn yfydd y gidgristion
+   </lb> 
+   <lb n="20">a thrafaelv y gorff mewn gwaithredoedd da
+   </lb> 
+   <lb n="21">ac ennill y vywyd yn gywir ac yn llafyrys
+   </lb> 
+   <lb n="22">a bwrw oddiwrtho ymaith bob ysgaelvssrwydd
+   </lb> 
+   <lb n="23">val y mae saint barnard yn dywedyd pwy
+   </lb> 
+   <lb n="24">bynnac ni roddo y gorff y lafyrio yn y byd
+   </lb> 
+   <lb n="25">hwnn ef a vydd raid iddaw lafyrio yn
+   
+   
+   </lb>
+   </pb>
+   <pb n="82.">
+   
+    
+   <lb n="1">dragwddol gida chythroylaid \chythreuliaid\ yn y poenav
+   </lb> 
+   <lb n="2">ac rac ofn angev ef a ddyly dyn vod yn
+   </lb> 
+   <lb n="3">barod bob amsser erbyn danvon o 'r arglwydd
+   </lb> 
+   <lb n="4">yn i ol ef Nid amgen no chyffessv yn lan
+   </lb> 
+   <lb n="5">ac yn gwbyl y holl bechodav ac nid trigio
+   </lb> 
+   <lb n="6">yndynt o ddydd i ddydd Eithr pan 
+   </lb>
+   <lb n="6-7">syrthio
+   </lb>
+   <lb n="7">
+    yndynt myned at y dad enait a 'i
+   </lb> 
+   <lb n="8">gyffessv ac velly y gelly dithav ddyfod i 'r varn
+   </lb> 
+   <lb n="9">ac velly y kay dithav eurddyniant ddydd brawt
+   </lb> 
+   <lb n="10">Ac val y dengys marchoc vrddol y dolyrio
+   </lb> 
+   <lb n="11">a gaffo mewn batteloedd yn yr vn ffynyd
+   </lb> 
+   <lb n="12">y kay dithav ddiolch am y pechodav a 
+   </lb>
+   <lb n="12-13">wnelych
+   </lb>
+   <lb n="13">
+    ac a gyffessych ac y dykych dy bennyd
+   </lb> 
+   <lb n="14">yr hain a vydd yn llawenydd ac yn 
+   </lb>
+   <lb n="14-15">ogoniant
+   </lb>
+   <lb n="15">
+    ytti ac yn gywilydd y 'r kythrel A hevyt
+   </lb> 
+   <lb n="16">pob peth a 'r ni chyffessych o 'th bechode a 
+   </lb>
+   <lb n="16-17">ddangossir
+   </lb>
+   <lb n="17">
+    y 'r holl vyd yn gywilydd mawr ytti
+   </lb> 
+   <lb n="18">A hynn ir ydis yn i ddywedyd oblegid y
+   </lb> 
+   <lb n="19">dyfodiad kyntaf o grist eithr pan ddel
+   </lb> 
+   <lb n="20">yr arglwydd y 'r varn
+   
+   
+   
+   </lb> 
+   <lb n="21">Ac yn wir y dyfodiad hwnnw a vydd mor
+   </lb> 
+   <lb n="22">groylon ac y gwelir yr arwyddion hynn xv
+   </lb> 
+   <lb n="23">diwarnod val y gallo pawb addnabod \adnabod\ vod
+   </lb> 
+   <lb n="24">y varn yn dyfod yn agos Val y mae
+   
+   
+   </lb>
+   </pb>
+   <pb n="83.">
+   
+    
+   <lb n="1">sain Ierom yn dywedyd y kyfyd y mor yn
+   </lb> 
+   <lb n="2">ywch no 'r mynyddoedd ychaf o ddaygain kyfyt
+   </lb> 
+   <lb n="3">Yr ail dydd ef a vydd y mor yn kynisset
+   </lb> 
+   <lb n="4">ac y gellir gweled y graenyn llaiaf yn i
+   </lb> 
+   <lb n="5">waelod || Y Trydydd dydd pob ryw byssgod ac
+   </lb> 
+   <lb n="6">anifailiaid a 'r a vo yn y mor a wnant
+   </lb> 
+   <lb n="7">ryw gri a chwynvan val na allo tafod y
+   </lb> 
+   <lb n="8">draethv onid duw ehun || Y pedwrydd dydd
+   </lb> 
+   <lb n="9">y llysc y mor a 'r holl ddyfroedd Y pvmet
+   </lb> 
+   <lb n="10">dydd y koed a 'r llyssav a chwyssant waet a
+   </lb> 
+   <lb n="11">phob amryw adar amgynhyllant ynghyd
+   </lb> 
+   <lb n="12">ac ni wnant na bwytta nac yfet rac
+   </lb> 
+   <lb n="13">ofn y varn yssydd yn dyfod || Y chwechet dydd
+   </lb> 
+   <lb n="14">pob kyfryw adailiad Nid amgen kestyll
+   </lb> 
+   <lb n="15">tyrre eglwyssi klochdyav a syrthiant y 'r 
+   </lb>
+   <lb n="15-16">llawr
+   </lb>
+   <lb n="16">
+    ac a lysc hyt pan gotto yr haul 
+   </lb>
+   <lb n="16-17">drannoeth
+   </lb>
+   <lb n="17">
+    || Y saithvet dydd y kerric a 'r kraige
+   </lb> 
+   <lb n="18">a ymffyst bob vn wrth y gilydd yny dorro pob
+   </lb> 
+   <lb n="19">vn yn ddryllav gan y gilydd ac amrafel
+   </lb> 
+   <lb n="20">laissiav hyd oni glywer hyd yn nef || Yr
+   </lb> 
+   <lb n="21">wythved tydd \dydd\ y kryn y ddayar hyt na allo
+   </lb> 
+   <lb n="22">neb sefyll erni eithr syrthiaw y 'r llawr || Y
+   </lb> 
+   <lb n="23">nawfed dydd yr a 'r bobloedd y gogofav val pei
+   </lb> 
+   <lb n="24">baynt yn amhwyllo ac heb ddywedyd o neb
+   
+   
+   </lb>
+   </pb>
+   <pb n="84.">
+   
+    
+   <lb n="1">ddim wrth y gilydd Y degved dydd y bydd
+   </lb> 
+   <lb n="2">gwastad y ddayar Yr vnved tydd \dydd\ ar ddec y
+   </lb> 
+   <lb n="3">hagorant veddav y rai mairw ac y saif y
+   </lb> 
+   <lb n="4">kyrff yn i sefyll yn y beddav || Y dayddegved I
+   </lb> 
+   <lb n="5">syrth amrafael o dan a mellt ac amyl
+   </lb> 
+   <lb n="6">wrychion val y bo gorthrwm y neb y gwelet
+   </lb> 
+   <lb n="7">|| Y xiij dydd y bydd marw pawb a 'r a vo yn
+   </lb> 
+   <lb n="8">dwyn enait yn yr amsser hwnnw xiiij dydd
+   </lb> 
+   <lb n="9">y llysc y nef a 'r ddayar || Y xv dydd y gwnair
+   </lb> 
+   <lb n="10">y nef a 'r ddayar o newydd a ffob dyn a gyfyd
+   </lb> 
+   <lb n="11">yn oedran dengmlwydd ar hygain y 'r varn
+   
+   
+   
+   </lb> 
+   <lb n="12">Ac velly y daw yn harglwydd ni Iessu grist y 'r
+   </lb> 
+   <lb n="13">varn a 'i engylion gidac ef ac y dengys ef
+   </lb> 
+   <lb n="14">y archollion yn wir waedlyd val pai bae y dydd
+   </lb> 
+   <lb n="15">hwnnw y roessid ef ar y groes ac y dengys ef
+   </lb> 
+   <lb n="16">bob araf a 'r a vy yn i verthyry ef Nid amgen
+   </lb> 
+   <lb n="17">no 'r goron ddrain a vy ar y benn ef a 'r esgyrssie
+   </lb> 
+   <lb n="18">a 'r hoelion a 'r mwrthwl a 'r pinssiwns a 'r 
+   </lb>
+   <lb n="18-19">gwayw
+   </lb>
+   <lb n="19">
+    a phob peth a 'r a vy yn i verthyr ef dros
+   </lb> 
+   <lb n="20">dyn Ac velly y dychyn \dichyn\ pawb vod yn ofnoc
+   </lb> 
+   <lb n="21">ac yn ofydys bawb a 'r a dyngoedd y 
+   </lb>
+   <lb n="21-22">ddioddifaint
+   </lb>
+   <lb n="22">
+    duw a 'i archollion a 'i weliav yr hwnn y bydd
+   </lb> 
+   <lb n="23">kyfymliw arnynt onid emendiant yn y byd
+   </lb> 
+   <lb n="24">hwnn kyn angav Ac velly y diolch yr 
+   </lb>
+   <lb n="24-25">arglwydd
+   </lb>
+   <lb n="25">
+    yn vawr y 'r neb a wnaeth trygaredd er y
+   
+   
+   </lb>
+   </pb>
+   <pb n="85.">
+   
+    
+   <lb n="1">vwyn ef yn y byd hwnn a 'i gid gristnogion
+   </lb> 
+   <lb n="2">ac y dywaid ef val hynn _____________
+   </lb> 
+   <lb n="3">__________________ Dowch y bobyl y 
+   </lb>
+   <lb n="3-4">vrenhiniaeth
+   </lb>
+   <lb n="4">
+    nef yr hwnn a ordainiwyd ywch er 
+   </lb>
+   <lb n="4-5">dechrav
+   </lb>
+   <lb n="5">
+    byd Ac yna y datgan ef yddynt saith
+   </lb> 
+   <lb n="6">waithred y drygaredd Nid amgen pan vym y
+   </lb> 
+   <lb n="7">newnoc chwi a roessoch y mi vwyd pan vym I
+   </lb> 
+   <lb n="8">sychedic chwi a roessoch ym ddiod pan vym heb
+   </lb> 
+   <lb n="9">letty chwi a 'i roessoch ym Ac velly y henwa ef
+   </lb> 
+   <lb n="10">bob vn ar llailldy o saith waithred y drygaredd
+   </lb> 
+   <lb n="11">kans pan roddych di y neb ddim yn vy enw i
+   </lb> 
+   <lb n="12">y mi yr wyd ti yn i roddi ef Ac yna yr rydd
+   </lb> 
+   <lb n="13">yr arglwydd rebywck y 'r kywoethogion am na
+   </lb> 
+   <lb n="14">wnaethant er y vwyn ve vn o 'r saith waithred
+   </lb> 
+   <lb n="15">val y klwssoch yn y blaen ac y dywaid 
+   </lb>
+   <lb n="15-16">wrthynt
+   </lb>
+   <lb n="16">
+    val hynn ________________
+   </lb> 
+   <lb n="17">___________________________________
+   </lb> 
+   <lb n="18">Ewch enifailiaid gwlldion melldigedic y 'r tan
+   </lb> 
+   <lb n="19">yffernol Ac velly y gallant hwy vod yn 
+   </lb>
+   <lb n="19-20">aflawen
+   </lb>
+   <lb n="20">
+    gael y rybywck hwnn gan yr arglwydd o
+   </lb> 
+   <lb n="21">achos ni chaiff na chyfraithwr na daddloywr \dadleuwr\ y
+   </lb> 
+   <lb n="22">atteb yno drosto nac er aur nac er aryan
+   </lb> 
+   <lb n="23">nac er mawr roddion nac er maistr nac
+   </lb> 
+   <lb n="24">er arglwydd Eithr yna y gorvydd roi pob peth
+   </lb> 
+   <lb n="25">ty ac at anwiredd haibio ac val y 
+   </lb>
+   <lb n="25-26">gwnel
+   </lb>
+   <lb n="26">
+    dyn yn y byd hwnn velly y kaiff Ac yno
+   </lb> 
+   <lb n="27">y bydd y kythroylaid \cythreuliaid\ yn i gyhyddo ef rai is y
+   
+   
+   </lb>
+   </pb>
+   <pb n="86.">
+   
+    
+   <lb n="1">draed a rai o bob ty iddaw Eithr ywch y
+   </lb> 
+   <lb n="2">ben y bydd y brynwr a 'i varnwr Ac yno y
+   </lb> 
+   <lb n="3">daw yr arglwydd heb drygaredd y 'r neb nis
+   </lb> 
+   <lb n="4">gwnaeth ac velly y hymliw ef am y meddwl
+   </lb> 
+   <lb n="5">llaiaf ac a veddylio dyn yngham Ac o 'r ty
+   </lb> 
+   <lb n="6">dehav y 'r arglwydd y bydd yr engylion yn dy
+   </lb> 
+   <lb n="7">gyhyddo am bob kamwedd a wnaethost Ac o 'r
+   </lb> 
+   <lb n="8">ty arall  y bydd anysbrydoedd yn kaissio gwall
+   </lb> 
+   <lb n="9">arnad ac yn dy gyhyddo am dy bechode a 
+   </lb>
+   <lb n="9-10">thano
+   </lb>
+   <lb n="10">
+    y mae yffern yn barod iddo or 
+   </lb>
+   <lb n="10-11">gorddiweddir
+   </lb>
+   <lb n="11">
+    ef mewn pechod y dydd diwethaf y bernir ef
+   </lb> 
+   <lb n="12">y 'r poenav tragwyddol Ac velly y dydd hwnnw
+   </lb> 
+   <lb n="13">y heistedd y tlodion gida 'r arglwydd y varny ar y
+   </lb> 
+   <lb n="14">kyfoethogion am y kamwedd a wnaethant a 'i
+   </lb> 
+   <lb n="15">kid gristnogion ac am na ellynt gael Iawn
+   </lb> 
+   <lb n="16">arnynt hyd dydd y varn ac yna y kaiff y
+   </lb> 
+   <lb n="17">tlawd i ewllys ar y kyfoethoc kans pan 
+   </lb>
+   <lb n="17-18">wnel
+   </lb>
+   <lb n="18">
+    y kyfoethoc gam a 'r tlawd kans ni allant
+   </lb> 
+   <lb n="19">hwy ond erchi gwir varn ddydd brawd kans val
+   </lb> 
+   <lb n="20">y mae yr arglwydd ehvn yn dywedyd kyhyddwch
+   </lb> 
+   <lb n="21">chwi y baiav hwynt a mi a 'i kossbaf val yr
+   </lb> 
+   <lb n="22">hayddont Ac am hynny vy ngharedic bobyl
+   </lb> 
+   <lb n="23">emendiwch tra voch yma o 'ch kamwedd a 
+   </lb>
+   <lb n="23-24">gwnewch
+   </lb>
+   <lb n="24">
+    y tlodion yn geraint ywch erbyn y varn
+   </lb> 
+   <lb n="25">ac nac ymddiredwch yr hai adawoch ar ych ol
+   </lb> 
+   <lb n="26">rac ych twyllo y 'r poenav tragwddawl
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="87.">
+   
+   
+   
+    
+   <lb n="1">Mi a gaf mewn bychedd saint vod hyssant da
+   </lb> 
+   <lb n="2">a hwnnw a hapiodd iddo glefychy a marw a
+   </lb> 
+   <lb n="3">bod yn varw o hanner y pyrnhawn hyd y bore
+   </lb> 
+   <lb n="4">dranoeth Ac velly ef a godes y vynydd o varw
+   </lb> 
+   <lb n="5">y vyw Ac ef a rannodd y dda yn dair ran ac
+   </lb> 
+   <lb n="6">ef a roddes dwy rann y wraic a 'i blant a 'r 
+   </lb>
+   <lb n="6-7">drydedd
+   </lb>
+   <lb n="7">
+   &nbsp;rann ef a 'i rannodd y dlodion a gwainaid Ac
+   </lb> 
+   <lb n="8">velly yr aeth ef y drigiaw y vanachloc a oedd yn
+   </lb> 
+   <lb n="9">sefyll ystlys afon Ac velly y 'r dwr hwnn idd ai
+   </lb> 
+   <lb n="10">y gwr hynny bob nos er oered vai y rin \yr hin\ ac
+   </lb> 
+   <lb n="11">yno y safai ef y boeni y gorff yni vai ef yn
+   </lb> 
+   <lb n="12">agos y varw A phan ofynnwyd iddaw paham
+   </lb> 
+   <lb n="13">ydd oedd ef yn dwyn kymaint a hyny o benyd
+   </lb> 
+   <lb n="14">arno Yn wir heb ef rac ofn poenav yssy vwy
+   </lb> 
+   <lb n="15">yr hai a welais i Ac yn wir ni vwytai ef vn
+   </lb> 
+   <lb n="16">dydd ond bara haidd a dwr tra vy vyw Ac yno
+   </lb> 
+   <lb n="17">y dywad ef wrth ddav o 'r mynaich o 'r gwyr hyaf
+   </lb> 
+   <lb n="18">a challaf a 'r a oedd yn y vanachloc y poenav
+   </lb> 
+   <lb n="19">a welsai ac yr oedd yn anodd ganto y 
+   </lb>
+   <lb n="19-20">manegi
+   </lb>
+   <lb n="20">
+   &nbsp;rac mor groylon ac anverthet oeddynt
+   </lb> 
+   <lb n="21">Ac yno y dywad ef y arwain o angel ef
+   </lb> 
+   <lb n="22">y le oedd kyn wressocked y llaill dy ac na allai
+   </lb> 
+   <lb n="23">neb y draythv vaint oedd y gwres ac o 'r ty
+   </lb> 
+   <lb n="24">arall kyn oered megis na ellid kyfflyby oerni
+   </lb> 
+   <lb n="25">yn y byd iddo Ac yno y gwelais i vwrw 
+   </lb>
+   <lb n="25-26">enaidiav
+   </lb>
+   <lb n="26">
+    pechadyriaid o 'r llaill boen y 'r llall a
+   </lb> 
+   <lb n="27">hynny a oedd benyd mawr yddynt Ac velly y
+   
+   
+   </lb>
+   </pb>
+   <pb n="88.">
+   
+    
+   <lb n="1">dangosses yr angel y mi y tan yffernol
+   </lb> 
+   <lb n="2">yr hwnn oedd gymaint y wres a ffai byrid y
+   </lb> 
+   <lb n="3">mor am benn vn wrychionen nadd ddiffoddai
+   </lb> 
+   <lb n="4">hi byth er hynny Ac yn y tan hwnnw y 
+   </lb>
+   <lb n="4-5">gwelais
+   </lb>
+   <lb n="5">
+    i enaidav pobyl yn krio ac yn wylo
+   </lb> 
+   <lb n="6">ac yn ochain yn dost ac y klywai ef 
+   </lb>
+   <lb n="6-7">gythrel
+   </lb>
+   <lb n="7">
+    yn krio ac yn erchi brwnstdan \brwmstan\ a fflwm
+   </lb> 
+   <lb n="8">brwd y vwyhav y poenav Ac velly yr oeddynt
+   </lb> 
+   <lb n="9">yn kael y poeni O arglwydd dduw er dy vawr
+   </lb> 
+   <lb n="10">drygaredd kadw ni rac y poenav hynny a dwc
+   </lb> 
+   <lb n="11">di ni y 'r llawenydd tragwddawl heb dranck
+   </lb> 
+   <lb n="12">a heb orffen yn oes oessoedd amen
+   
+   
+   
+   
+   </lb> 
+   <lb n="13">Vy ngharedic bobyl dwyn ar ddyall ychwi
+   </lb> 
+   <lb n="14">mae heddiw a elwir yn eglwys duw duw
+   </lb> 
+   <lb n="15">sul ___________________________
+   </lb> 
+   <lb n="16">o 'r achos y mae eglwys duw yn vam y bob
+   </lb> 
+   <lb n="17">kyfryw gristion o ddyn yr hwn y mae hi
+   </lb> 
+   <lb n="18">yn dala sylw val mam dda ar y fflant ac
+   </lb> 
+   <lb n="19">val y mai hi y 'n gweled ni mewn pechod
+   </lb> 
+   <lb n="20">ac wedy yn klwyfo o 'r diwedd ac angav Ac
+   </lb> 
+   <lb n="21">yn vnwedic y nadolic diwethaf a roed er 
+   </lb>
+   <lb n="21-22">gogoniant
+   </lb>
+   <lb n="22">
+    y bob kyfryw ddyn a weddio duw
+   </lb> 
+   <lb n="23">drwy gwbyl o ewllys y galhon o achos 
+   </lb>
+   <lb n="23-24">dangos
+   </lb>
+   <lb n="24">
+    o 'r arglwydd lawer o hyfrydwch yn yr
+   </lb> 
+   <lb n="25">amsser hwnnw y bob kristion kans ef a anet
+   </lb> 
+   <lb n="26">er mwyn kryadyr o ddyn ac mewn kic a 
+   
+   </lb>
+   </pb>
+   <pb n="88-89.">
+   <lb n="26-1">chnawd
+   </lb>
+   </pb>
+   <pb n="89.">
+   <lb n="1">
+    a gwaed val vn ohonnom ninav
+   </lb> 
+   <lb n="2">ac a vy vyw ac a vagwyd val vn ohonom
+   </lb> 
+   <lb n="3">ninev ac ef a vedyddiwyd mewn dwr yn vn
+   </lb> 
+   <lb n="4">ffynyt A hevyd ef a ordainiodd priodas y 'n
+   </lb> 
+   <lb n="5">kadw ni rac pechodav ac y 'n gwnaythyr yn
+   </lb> 
+   <lb n="6">santaidd ac yn vrodyr iddaw ef ac y ennill
+   </lb> 
+   <lb n="7">tyrnas gwlad nef O achos yr achossion hynn
+   </lb> 
+   <lb n="8">y dyly pob kristion vod yn llawen a 
+   </lb>
+   <lb n="8-9">gwnaythyr
+   </lb>
+   <lb n="9">
+    selemniti a glendid enait a chorff oddiwrth
+   </lb> 
+   <lb n="10">bob ryw bechod ac ymsantaiddio mewn glan
+   </lb> 
+   <lb n="11">vychedd y ddyw a 'i gid gristion a roi kardode
+   </lb> 
+   <lb n="12">ac elwissenne y 'r neb y bai raid yddynt wrtho
+   </lb> 
+   <lb n="13">Eithr yrywan ysywaeth yr ydis yn troi yr wyl
+   </lb> 
+   <lb n="14">honn yn ysgaelysrwydd ac mewn klwyfav yr
+   </lb> 
+   <lb n="15">enait nev valchder o ddillad nev chwant y
+   </lb> 
+   <lb n="16">bechod godineb nev lythineb nev ddiogi mewn
+   </lb> 
+   <lb n="17">gwssanaeth duw nev ddywedyd rybaldiaeth ac
+   </lb> 
+   <lb n="18">yn y lle y bo yr vn o 'r hain y bydd y 
+   </lb>
+   <lb n="18-19">kythrayl
+   </lb>
+   <lb n="19">
+    A gwynn y vyd y neb a wnel y peth
+   </lb> 
+   <lb n="20">gorav ac a vo ty ac Iechyd yr enait A
+   </lb> 
+   <lb n="21">hevyd ychel wylav a ordainiwyd er anrydedd
+   </lb> 
+   <lb n="22">i 'n harglwydd ni Iessu grist a holl saint nef
+   </lb> 
+   <lb n="23">|| A hevyd o 'r achos hwnn yr ydis yn paidio
+   </lb> 
+   <lb n="24">a 'r alelia ac amrafael ganyav eraill Ac
+   </lb> 
+   <lb n="25">y maent hwy yn kymryd trackt yr hwnn
+   </lb> 
+   <lb n="26">yssydd gan galarys A hevyd ysbyssv ychwi
+   </lb> 
+   <lb n="27">ty ac at briodas yr amsser yma ac
+   </lb> 
+   <lb n="28">yn yr addvent ydd ydis yn paidio ac hwynt
+   
+   
+   </lb>
+   </pb>
+   <pb n="90.">
+   
+    
+   <lb n="1">a phwy bynnac a 'i gwnel nid er moliant
+   </lb> 
+   <lb n="2">y dduw y mae yn i wnaythyr onid er chwant
+   </lb> 
+   <lb n="3">y knawd ac yssydd ac ychydic o ofn angev
+   </lb> 
+   <lb n="4">arnynt yr hwnn yssydd ddiogel y ddyfod y bawb
+   </lb> 
+   <lb n="5">megis y mae ysgolhaigion yn darllain ac
+   </lb> 
+   <lb n="6">yn dywedyd mae Iawnach yw y ddyn vynet
+   </lb> 
+   <lb n="7">y dy lle bo korff yn i wylyo no mynet y
+   </lb> 
+   <lb n="8">dy lle bo gwatwargerdd nev ganyav diffrwydh \diffrwyth\
+   </lb> 
+   <lb n="9">kans hynny a bair y ddynion ymwrthladd
+   </lb> 
+   <lb n="10">a duw a 'i abergofi a 'i ysgaelysso Eithyr
+   </lb> 
+   <lb n="11">ef a ddyly dyn pan welo ef gorff yn mynet
+   </lb> 
+   <lb n="12">y gladdy veddylio amdano ehvn ac yn
+   </lb> 
+   <lb n="13">vnwedic y vwrw ymaith y holl bechode 
+   </lb>
+   <lb n="13-14">erbyn
+   </lb>
+   <lb n="14">
+    angav a masswedd y byd Achos val y 
+   </lb>
+   <lb n="14-15">mae
+   </lb>
+   <lb n="15">
+    Salmon yn dywedyd __________
+   </lb> 
+   <lb n="16">______________________
+   </lb> 
+   <lb n="17">vy mab del yn dy gof y byddy di varw ac
+   </lb> 
+   <lb n="18">ni ffechv yn varwol megis y mae eglwys
+   </lb> 
+   <lb n="19">duw yn tostyrio wrth y fflant ysbrydol ac
+   </lb> 
+   <lb n="20">yn ordainio tri amryw eli er help a
+   </lb> 
+   <lb n="21">Iachav y ffland yr hai yssydd yn ofni
+   </lb> 
+   <lb n="22">angav nid amgenach no llafyrio a
+   </lb> 
+   <lb n="23">roddi y gorff mewn dyrwest Ac yn gyntaf
+   </lb> 
+   <lb n="24">y veddwl am angav ac val y mae offis
+   </lb> 
+   <lb n="25">yr yfferen heddiw yn echnaidio ac yn
+   </lb> 
+   <lb n="26">tostyrio ac yn dysgv y bob dyn da gyleted
+   </lb> 
+   <lb n="27">yw angav Kans yr ydis yn i amgylchv
+   </lb> 
+   <lb n="28">ef ac angav  o bob ty iddo
+   
+   
+   </lb>
+   </pb>
+   <pb n="91.">
+   
+    
+   <lb n="1">yn gymaint ac na allo ef ddianck || ond
+   </lb> 
+   <lb n="2">ef a ddyly pawb gymryd hynn yn y galhon
+   </lb> 
+   <lb n="3">a bwrw oddiwrtho vasswedd ac enwiredd ac
+   </lb> 
+   <lb n="4">na veddylio ef ddim am lywenydd y byd
+   </lb> 
+   <lb n="5">yn ormodd Ac er dwyn ychwi yn sampyl mi
+   </lb> 
+   <lb n="6">a gaf yn ysgrifenedic
+   
+   
+   
+   
+   </lb> 
+   <lb n="7">Mi a gaf yn essgrivenedic vod
+   </lb> 
+   <lb n="8">brenin gynt a 'r brenin hwnnw a vyddai yn
+   </lb> 
+   <lb n="9">brydd bob amsser ac ni chaid ganto chwerthin
+   </lb> 
+   <lb n="10">na bod yn llawen vn amsser Eithr bod yn
+   </lb> 
+   <lb n="11">drist ac yn aflawen bob amsser ac am 
+   </lb>
+   <lb n="11-12">hynny
+   </lb>
+   <lb n="12">
+    ydd oedd yn drist ac yn drwm gan y
+   </lb> 
+   <lb n="13">wassnaethwyr y vod ef ar y dyll hwnnw Ac
+   </lb> 
+   <lb n="14">yr oedd y 'r brenin hwnn vrawd yn wr yrddedic
+   </lb> 
+   <lb n="15">ac atto yr aeth gwassnaethwyr y brenin y
+   </lb> 
+   <lb n="16">rac y vrawd ac y ddywedyd na ellynt hwy 
+   </lb>
+   <lb n="16-17">drigiaw
+   </lb>
+   <lb n="17">
+    gydac ef rac y bryddet a drycked vyddai
+   </lb> 
+   <lb n="18">y sir ac o 'i gynghorri ef y baidio a hynny a
+   </lb> 
+   <lb n="19">gwnaythyr llawenydd Eithyr yr oedd y brenin
+   </lb> 
+   <lb n="20">hwnn yn ddoeth ac yn synnhwyrol ac ef a
+   </lb> 
+   <lb n="21">veddylioedd gael y gorav ar y vrawd drwy 
+   </lb>
+   <lb n="21-22">ystrywaeth
+   </lb>
+   <lb n="22">
+    ac yn llidioc ef a erchis y brenin y
+   </lb> 
+   <lb n="23">vrawd vyned y dref a gwnaythyr y peth a vydde
+   </lb> 
+   <lb n="24">raid iddo || Ac velly yr oedd arver y wlad honno
+   </lb> 
+   <lb n="25">pan vai wr yn myned y gymryd y varvolaeth
+   
+   
+   </lb>
+   </pb>
+   <pb n="92.">
+   
+    
+   <lb n="1">ef a ddai wyr a chlariwns ac a genyn wrth
+   </lb> 
+   <lb n="2">y drws nev yn y porth Ac yna y herchis y
+   </lb> 
+   <lb n="3">brenin yddynt vynet y ganv y klariwns hyn
+   </lb> 
+   <lb n="4">a restio y gwr hwnn a 'i ddwyn rac y vronn
+   </lb> 
+   <lb n="5">ef A phan ddoyth ef yno y gelwis y brenin 
+   </lb>
+   <lb n="5-6">atto
+   </lb>
+   <lb n="6">
+    saithwyr o 'r hai y gallai ef ymddiried 
+   </lb>
+   <lb n="6-7">yddynt
+   </lb>
+   <lb n="7">
+    Ac velly pan ddoyth y vrawd gair i vronn
+   </lb> 
+   <lb n="8">y tynassant hwy y kleddyfav ac y roessant hwy
+   </lb> 
+   <lb n="9">wrth y galhon ef Ac yno y herchis y brenin
+   </lb> 
+   <lb n="10">y bawb chware dawns a gwnaythyr ryfel
+   </lb> 
+   <lb n="11">ac ysbort gymaint ac a ellynt vwyaf Ac
+   </lb> 
+   <lb n="12">velly y gwnaethant Ac yno y gofynnodd y
+   </lb> 
+   <lb n="13">brenin y vrawd paham yr wyd ti yn brydd Kwyn
+   </lb> 
+   <lb n="14">y vynydd dy benn a bydd lawen achos o 'th blegit
+   </lb> 
+   <lb n="15">ti y mae hynn y gyd || Ac yna yr ateboedd ef
+   </lb> 
+   <lb n="16">val hynn || Pa vodd y gallaf i vod yn llawen
+   </lb> 
+   <lb n="17">ac yn gweled saith o gleddyfav a 'i blaene ti
+   </lb> 
+   <lb n="18">ac at vy nghalhon ac na wnn pwy gyntaf
+   </lb> 
+   <lb n="19">onaddynt vydd vy angav || Ac yno y herchis
+   </lb> 
+   <lb n="20">y brenin wainio y kleddyfav Ac yna y dywad
+   </lb> 
+   <lb n="21">y brenin wrth y vrawd velly y mae y saith
+   </lb> 
+   <lb n="22">bechod marwol yn v' amgylchv innav am yr enait
+   </lb> 
+   <lb n="23">yssydd yn y korff hwnn Ac o 'r achos hwnnw ni
+   </lb> 
+   <lb n="24">allaf i vod yn llawen na gwnaythyr sir dda
+   </lb> 
+   <lb n="25">Eithr bod yn ofnys am v' enait yr hwnn yssydd
+   </lb> 
+   <lb n="26">gedernid y 'r korff || Ac yna y dywad y vrawd y
+   </lb> 
+   <lb n="27">dduw ydd wyf i yn erchi trygaredd ni wyddwn
+   
+   
+   </lb>
+   </pb>
+   <pb n="93.">
+   
+    
+   <lb n="1">i hynn hyd yrowran Eithr mi a vyddaf 
+   </lb>
+   <lb n="1-2">gallach
+   </lb>
+   <lb n="2">
+    o hynn allan Eithr pwy bynnac a 
+   </lb>
+   <lb n="2-3">gymero
+   </lb>
+   <lb n="3">
+    hynn yn i galhon ef a vydd haws ganto
+   </lb> 
+   <lb n="4">wylo no chwerthin ac ychnaidio no bod yn
+   </lb> 
+   <lb n="5">llawen Ac wrth hynny y daw yn i gof ef
+   </lb> 
+   <lb n="6">am angev yr hwnn yssydd ddiwedd pob peth
+   </lb> 
+   <lb n="7">Ac yn wir erbyn hynny ni a ddlywn veddylio
+   </lb> 
+   <lb n="8">am varvolaeth vn harglwydd ni Iessu grist
+   </lb> 
+   <lb n="9">val y dioddefoedd ef drossom ni yr hwnn yssydd
+   </lb> 
+   <lb n="10">yn dwyn tystolaeth
+   </lb> 
+   <lb n="11">
+   </lb> 
+   <lb n="12">Eithr yr ail eli y 'r enait yw llafyrio yn
+   </lb> 
+   <lb n="13">ystic yn y byd hwnn val y mae saint pawl
+   </lb> 
+   <lb n="14">yn dywedyd yn yr ebostol heddiw val hynn
+   </lb> 
+   <lb n="15">
+   </lb> 
+   <lb n="16">redwch chwi val y galloch gael y chware Eithr
+   </lb> 
+   <lb n="17">gristnogion da am yr redec hwnn dwyn ar
+   </lb> 
+   <lb n="18">ddyall ychwi pwy bynnac a reto maen raid
+   </lb> 
+   <lb n="19">iddaw roddi nerth y holl gorff y gaissio klod
+   </lb> 
+   <lb n="20">Ac velly y dyly pob kristion drafaely y gorff
+   </lb> 
+   <lb n="21">yn gadarna ac y gallo pa radd bynnac a
+   </lb> 
+   <lb n="22">roddes duw iddaw A hevyd eglwys duw a
+   </lb> 
+   <lb n="23">rodded y lafyrio ac y weddio ac y ddysgv 
+   </lb>
+   <lb n="23-24">kyfraith
+   </lb>
+   <lb n="24">
+    dduw y 'r bobyl A 'r arglwyddi mawr a 'r gwyr
+   </lb> 
+   <lb n="25">o vowyd a roed y mintaino hwynte ac y kadw
+   </lb> 
+   <lb n="26">yn heddychlon A 'r kyffredin a roed y lafyrio
+   
+   
+   </lb>
+   </pb>
+   <pb n="94.">
+   
+    
+   <lb n="1">ac y gaissio y bywyd y 'r graddav hynn ac 
+   </lb>
+   <lb n="1-2">yddynt
+   </lb>
+   <lb n="2">
+    hwyntev bob anghenraid Ac rac
+   </lb> 
+   <lb n="3">na chaffo neb esgyss am y llafyrio hynn y
+   </lb> 
+   <lb n="4">mae krist yn dywedyd ehvn yn yr evengil ac
+   </lb> 
+   <lb n="5">yn roi ynnsampyl
+   </lb> 
+   <lb n="6">______________ Yr oedd gwr gynt a 'r gwr
+   </lb> 
+   <lb n="7">hwnnw a ai y berllan y bore a hanner dydd
+   </lb> 
+   <lb n="8">a ffyrnhawn ac y hvn ydd oedd ef yn llafyrio
+   </lb> 
+   <lb n="9">ac yn kosti pobyl gidac ef Eithr dwyn ar
+   </lb> 
+   <lb n="10">ddyall ychwi gwbyl o holl raddav y byd val i
+   </lb> 
+   <lb n="11">mae Iob yn dywedyd pob dyn o 'r byd a roed
+   </lb> 
+   <lb n="12">y lafyrio ac y drafaelv val ederyn y hedec
+   </lb> 
+   <lb n="13">Ac y mae sain barnard yn dywedyd y neb ni
+   </lb> 
+   <lb n="14">lafyrio yn y byd hwnn || Ef a orvydd iddaw ef
+   </lb> 
+   <lb n="15">lafyrio gida chythroyliaid \chythreuliaid\ achos hynny yw y 
+   </lb>
+   <lb n="15-16">llywodraeth
+   </lb>
+   <lb n="16">
+    adewis addaf y 'w holl genedlaeth
+   </lb> 
+   <lb n="17">nid amgenach no llafyrio Ac oblegid y
+   </lb> 
+   <lb n="18">llafyr hwnn y mae ef yn roi ensampyl ac
+   </lb> 
+   <lb n="19">yn dywedyd y modd y gwnaeth addaf ac Eva
+   </lb> 
+   <lb n="20">y lafyrio y gadw paradwys ac erchi yddynt
+   </lb> 
+   <lb n="21">gymryd pob ffrwyth a 'r a oedd yno eithyr vn
+   </lb> 
+   <lb n="22">prenn yr hwnn yr oedd ef yn i gadw iddaw
+   </lb> 
+   <lb n="23">ehvn Ac y gorchmynnodd duw yddynt hwy
+   </lb> 
+   <lb n="24">veddylio amdano ef ar bob gwaith a 'r y 
+   </lb>
+   <lb n="24-25">gwelynt
+   </lb>
+   <lb n="25">
+    y prenn hwnnw a 'i addnabod \adnabod\ ef yn lle
+   </lb> 
+   <lb n="26">y duw a meddwl am y bod yn kadw y 
+   </lb>
+   <lb n="26-27">orchymyn
+   </lb>
+   <lb n="27">
+    Ac velly y kenvigennodd y kythrel wrthynt
+   
+   
+   </lb>
+   </pb>
+   <pb n="95.">
+   
+    
+   <lb n="1">er mwyn y gweled hwynt mewn llawenydd
+   </lb> 
+   <lb n="2">yn gymaint ac yr oedd yntav mewn 
+   </lb>
+   <lb n="2-3">poenav
+   </lb>
+   <lb n="3">
+    a thristyd ac y dayth ef at Eva ac y
+   </lb> 
+   <lb n="4">gofynnodd iddi paham nad oeddynt hwy yn
+   </lb> 
+   <lb n="5">kymryd ffrwyth y prenn hwnnw ac y dywad
+   </lb> 
+   <lb n="6">hithav am erchi o 'r arglwydd y ni gadw hwnnw
+   </lb> 
+   <lb n="7">iddaw ef dan boen yn bywyd Ac yna y
+   </lb> 
+   <lb n="8">dywad y kythrel ha heb ef mi a wnn hynny
+   </lb> 
+   <lb n="9">pai chwi a vwyttae o hwnnw chwi a wyddech
+   </lb> 
+   <lb n="10">ddrwc a da ac a vyddech debic y dduw
+   </lb> 
+   <lb n="11">Ac or mynnwch chwi brofi hynny y edrych
+   </lb> 
+   <lb n="12">a ydwyf i yn dywedyd gwir ac yna y
+   </lb> 
+   <lb n="13">kymerth Eva vn o 'r yfale ac a 'i profes
+   </lb> 
+   <lb n="14">ac a roddes peth y addaf ac yntav a 'i 
+   </lb>
+   <lb n="14-15">bwytaoedd
+   </lb>
+   <lb n="15">
+    o achos maint y karai ef Eva ac
+   </lb> 
+   <lb n="16">na vynnai ef y digio hi er dim || Ac yn y
+   </lb> 
+   <lb n="17">mann gwedy yddynt vwyta yr afal y 
+   </lb>
+   <lb n="17-18">gwelsant
+   </lb>
+   <lb n="18">
+    hwy y kywilydd Ac velly y byant 
+   </lb>
+   <lb n="18-19">gywilyddys
+   </lb>
+   <lb n="19">
+    ac y kymersant ddail y ffigis ac
+   </lb> 
+   <lb n="20">y kyddiassant y kywilydd Ac yna y dayth yr
+   </lb> 
+   <lb n="21">arglwydd at addaf ac y dywad wrtho
+   </lb> 
+   <lb n="22">___________________ paham y 
+   </lb>
+   <lb n="22-23">gwnaethost
+   </lb>
+   <lb n="23">
+    di hynn || Ac y dywad yntev
+   </lb> 
+   <lb n="24">_________________________________ y wraic a
+   </lb> 
+   <lb n="25">erchis y mi Ac velly y dayth yr arglwydd
+   </lb> 
+   <lb n="26">gan ofyn paham y gwnathoedd hi hynny
+   
+   
+   </lb>
+   </pb>
+   <pb n="96.">
+   
+    
+   <lb n="1">_________________________ Am vy
+   </lb> 
+   <lb n="2">nhwyllo o 'r pryf hwnn Ac velly am na
+   </lb> 
+   <lb n="3">ellynt varw ymharadwys na dioddef penyd
+   </lb> 
+   <lb n="4">y gyroedd ef hwynt y 'r byd hwnn ynoeth ac
+   </lb> 
+   <lb n="5">yn dlawd dan gwynvan a llefain ac yn
+   </lb> 
+   <lb n="6">brydd y ennill y bywyd ac y varw yn y diwedd
+   </lb> 
+   <lb n="7">A phann welas addaf hynny y by ef drist a 
+   </lb>
+   <lb n="7-8">ffrydd
+   </lb>
+   <lb n="8">
+    ac yr adlygodd \adolygodd\ ef yr arglwydd na wnele
+   </lb> 
+   <lb n="9">ormodd ddialedd arnynt ac ystyrio wrthynt
+   </lb> 
+   <lb n="10">o achos y twyllo o 'r kythrayl wrth valis a 
+   </lb>
+   <lb n="10-11">chenvigen
+   </lb>
+   <lb n="11">
+    ac o herwydd na wyddynt beth yr oeddynt
+   </lb> 
+   <lb n="12">yn i wnaythyr Ac yna y herchis yr arglwydd
+   </lb> 
+   <lb n="13">yddynt vyned y lynn ebron ac y gwisgodd ef
+   </lb> 
+   <lb n="14">hwynt mewn krwyn pilkys y drafaelio am
+   </lb> 
+   <lb n="15">y bywyd Ac y dywad ef wrth efa mewn
+   </lb> 
+   <lb n="16">gofid a blinder y plenti di ac y roes ef y
+   </lb> 
+   <lb n="17">addaf bal yn i law y lafyrio Ac yno y 
+   </lb>
+   <lb n="17-18">gadewis
+   </lb>
+   <lb n="18">
+    ef hwynt Eithr gristnogion da 
+   </lb>
+   <lb n="18-19">oblegid
+   </lb>
+   <lb n="19">
+    y llafyr hwnn y gallwn ni gymryd 
+   </lb>
+   <lb n="19-20">ynsampyl
+   </lb>
+   <lb n="20">
+    pai kadwssai addaf ac eva y gorchymyn
+   </lb> 
+   <lb n="21">ni chawssai y kythrel y gorav arnynt Eithr ni
+   </lb> 
+   <lb n="22">chais y kythrel vethel ar ddyn onid pan vo
+   </lb> 
+   <lb n="23">ef yn segyr Ac yn wir gristnogion da hwnn
+   </lb> 
+   <lb n="24">yw yr eli gore a chyfoethoka yn erbyn pechod
+   </lb> 
+   <lb n="25">nid amgen no llafyrio
+   
+   
+   </lb>
+   </pb>
+   <pb n="97.">
+   
+    
+   <lb n="1">Kans nid oes dim kyn chwannocked a 'r knawt
+   </lb> 
+   <lb n="2">achos gwyllt yw y korff ac ewyllyssgar y 'r 
+   </lb>
+   <lb n="2-3">pechod
+   </lb>
+   <lb n="3">
+    Ac yn wir raid yw waithiav y gosbi a
+   </lb> 
+   <lb n="4">ffoen A hynny a wnaeth addaf ac Eva
+   </lb> 
+   <lb n="5">er sampyl y bawb a ddelai ar y hol wnaythyr
+   </lb> 
+   <lb n="6">y gyfryw Ac yn wir llawer blwyddyn kyn hyny
+   </lb> 
+   <lb n="7">y byant hwy yn dwyn penyd mewn dwr hyd
+   </lb> 
+   <lb n="8">y mynygle a phob vn ymhell oddiwrth y 
+   </lb>
+   <lb n="8-9">gilydd
+   </lb>
+   <lb n="9">
+    hyd pan oedd y knawd kyn wrddet a 'r
+   </lb> 
+   <lb n="10">gwydyr o oerder Ac yna y dayth y kythrayl
+   </lb> 
+   <lb n="11">at Eva kyn decked a 'r angel teckaf yn y nef
+   </lb> 
+   <lb n="12">ac a ddywad mae yr arglwydd o 'r nef a 'i 
+   </lb>
+   <lb n="12-13">danvonassai
+   </lb>
+   <lb n="13">
+    ef etti y erchi iddi vyned at addaf a
+   </lb> 
+   <lb n="14">dywedyd wrtho vod duw yn erchi iddo baidio
+   </lb> 
+   <lb n="15">a 'i benyd kans maddavedic gan dduw iddo
+   </lb> 
+   <lb n="16">y dressbas Ac velly y gwnaeth Eithr ef a
+   </lb> 
+   <lb n="17">wyby addaf mae oddiwrth y kythrayl y 
+   </lb>
+   <lb n="17-18">dathoedd
+   </lb>
+   <lb n="18">
+    ef ac nid oddiwrth dduw Ac y dywad
+   </lb> 
+   <lb n="19">ef wrth Eva pan yroedd duw ni o baradwys
+   </lb> 
+   <lb n="20">am yn pechod ac y tostyriodd wrthym 
+   </lb>
+   <lb n="20-21">achos
+   </lb>
+   <lb n="21">
+    y ni wylo yn dost wrtho ef ac erchi iddo
+   </lb> 
+   <lb n="22">ras a thrygaredd ac y roddes yntev ninav
+   </lb> 
+   <lb n="23">yma y ddwyn yn penyd hyd pan alwo ef
+   </lb> 
+   <lb n="24">arnnom ac am hynny dos di drychefen y
+   </lb> 
+   <lb n="25">wnaythyr dy benyd Pa vwyaf a wnelom
+   </lb> 
+   <lb n="26">mwyaf yw 'n diolch gan dduw amdano A 
+   </lb>
+   <lb n="26-27">thrychefyn
+   </lb>
+   <lb n="27">
+    y dayth y kythrel at Eva yr ail
+   
+   
+   </lb>
+   </pb>
+   <pb n="98.">
+   
+    
+   <lb n="1">waith ac y dywad wrthi val hynn y mae
+   </lb> 
+   <lb n="2">gras yr arglwydd yn trygarhav wrthych o 
+   </lb>
+   <lb n="2-3">achos
+   </lb>
+   <lb n="3">
+    ych penyd ir ydych yn i ddwyn ac yn 
+   </lb>
+   <lb n="3-4">maddav
+   </lb>
+   <lb n="4">
+    pob peth ywch Ac velly eva aeth at
+   </lb> 
+   <lb n="5">addaf ac a ddywad wrtho hynny || Yn wir y gwnn
+   </lb> 
+   <lb n="6">ni heb y addaf y neb a ddywad hynny wrthyd
+   </lb> 
+   <lb n="7">ti mae ef yw yn gelyn nni kans y mae
+   </lb> 
+   <lb n="8">yn ofydiach ganto ef no chennym ni yn
+   </lb> 
+   <lb n="9">bod ni yn dwyn y penyd hwnn Ac ef a
+   </lb> 
+   <lb n="10">vynnai y ni baidio a 'nn penydiav kans nid
+   </lb> 
+   <lb n="11">ydiw duw yn edrych ar ddechrav y peth onid
+   </lb> 
+   <lb n="12">ar bob peth a 'r a ddiweddo yn dda || Eithr y
+   </lb> 
+   <lb n="13">drydedd waith y dayth y kythrel at Eva
+   </lb> 
+   <lb n="14">ac y dywad ef dos di at addaf a dywaid ti
+   </lb> 
+   <lb n="15">wrtho ddechrav ohono ef yn ddrwc a diweddy
+   </lb> 
+   <lb n="16">yn waeth || yn ynwedic yn gyntaf er pechy
+   </lb> 
+   <lb n="17">ohono heb wybod y vod yn pechv drwy 
+   </lb>
+   <lb n="17-18">ddaissif
+   </lb>
+   <lb n="18">
+    y kythrel Ac yrywran trwy wybod y vod
+   </lb> 
+   <lb n="19">yn pechv ac ni wna ef val y mae duw yn
+   </lb> 
+   <lb n="20">erchi iddo yr hwnn y mae ych gwaithredoedd
+   </lb> 
+   <lb n="21">diwethaf chwi yn waeth no 'r hai kyntaf
+   </lb> 
+   <lb n="22">ac yn waeth noc anobaith Ac yna ydd 
+   </lb>
+   <lb n="22-23">echnaidodd
+   </lb>
+   <lb n="23">
+    Addaf yn dost ac y hwylodd ac y
+   </lb> 
+   <lb n="24">dywad wrth eva o wraic anghynghorys
+   </lb> 
+   <lb n="25">panid duw a 'th wnaeth di o vn o 'm assennav
+   </lb> 
+   <lb n="26">i er kynffordd y mi ac er help ac yrowran
+   </lb> 
+   <lb n="27">ydd wyd ti y 'm kwmro i drychefn wrth ddysg
+   </lb> 
+   <lb n="28">y kythrel Eithr meddwl di yna mor 
+   
+   </lb>
+   </pb>
+   <pb n="98-99.">
+   <lb n="28-1">ddrewedic
+   </lb>
+   </pb>
+   <pb n="99.">
+   <lb n="1">
+    yw y pechod kyntaf ger bronn duw
+   </lb> 
+   <lb n="2">a hynny a vydd er gogan a lliwiant yn hyd
+   </lb> 
+   <lb n="3">dydd brawd A phai gallem ni wnaythyr 
+   </lb>
+   <lb n="3-4">kymaint
+   </lb>
+   <lb n="4">
+    o benydio a dyrwesste a 'r holl vyd ||
+   </lb> 
+   <lb n="5">ry fychan oedd y ni y wnaythyr Iawn y dduw
+   </lb> 
+   <lb n="6">am yn gwaithredoedd Eithr y mae yr 
+   </lb>
+   <lb n="6-7">arglwydd
+   </lb>
+   <lb n="7">
+    o 'i vawr ras yn olywo y bob ewyllyssgar
+   </lb> 
+   <lb n="8">ty ac at dduw y gamwedde || Ac velly yr aeth
+   </lb> 
+   <lb n="9">Eva y wnaythyr y ffenyd val y herchis addaf
+   </lb> 
+   <lb n="10">Ac yna y dywad addaf ef a ddenvyn yr 
+   </lb>
+   <lb n="10-11">arglwydd
+   </lb>
+   <lb n="11">
+    y ni yr olew kyssegredic pan ddel yr 
+   </lb>
+   <lb n="11-12">amsser
+   </lb>
+   <lb n="12">
+    Ac velly y gwnaethant y vyned o 'i 
+   </lb>
+   <lb n="12-13">penyd
+   </lb>
+   <lb n="13">
+    ac y by vyw addaf naw kant o 
+   </lb>
+   <lb n="13-14">vlynyddoedd
+   </lb>
+   <lb n="14">
+    a doyddec \deuddeg\ mlynedd ar hygain vwy ac y
+   </lb> 
+   <lb n="15">by iddo xxx o vaibion a xxx o verched Ac
+   </lb> 
+   <lb n="16">wedy hynny y byant vairw ar vn waith ac yn
+   </lb> 
+   <lb n="17">yr vn lle y kladdwyd addaf ac Eva Ac yno
+   </lb> 
+   <lb n="18">y dychon \dichon\ pawb wybod y bod hwynt yn santaidd
+   </lb> 
+   <lb n="19">a meddylio ohonynt am y marvolaeth a
+   </lb> 
+   <lb n="20">llafyrio ohonynt yn vawr ar y kyrff Ac
+   </lb> 
+   <lb n="21">velly y dlywn ninav bawb a 'r yssydd yn dyfod
+   </lb> 
+   <lb n="22">ohonynt ac a 'r a vynno dyfod i 'r llawenydd
+   </lb> 
+   <lb n="23">paradwyssol Yr hwnn y mae y sul heddiw yn i
+   </lb> 
+   <lb n="24">alw o gyfrif yn drygain yr hwnn sul yssydd
+   </lb> 
+   <lb n="25">yn dechrav heddiw ac yn diweddy nos basc
+   </lb> 
+   <lb n="26">ac velly y mae yr eglwys yn echnaidio o
+   </lb> 
+   <lb n="27">heddiw hyd nos basc Ac wedy hynny y 
+   </lb>
+   <lb n="27-28">llawenycha
+   </lb>
+   <lb n="28">
+    hi drychefn ac vn alelia ac vn tract
+   
+   
+   </lb>
+   </pb>
+   <pb n="100.">
+   
+    
+   <lb n="1">y nos honno kans nid ydiw hi yn i nerth
+   </lb> 
+   <lb n="2">hyt yni ddel _________ hynny yw duw pasc
+   </lb> 
+   <lb n="3">bychan Ac yna y mae hi yn roi y lawr y
+   </lb> 
+   <lb n="4">tract ac yn kanv dwbyl alelia y ddysgv y bob
+   </lb> 
+   <lb n="5">kristion lafyrio a gwnaythyr y benyd yn
+   </lb> 
+   <lb n="6">gywir hyd y sadwrn hwnn a hynny yw kwbwl
+   </lb> 
+   <lb n="7">o 'th einioes di yn y byd hwnn hyd y dydd y
+   </lb> 
+   <lb n="8">gwahano yr enait o 'r korff Ac yn wir ni chaiff
+   </lb> 
+   <lb n="9">yr enait gwbyl orffowys oni ddel y sadwrn
+   </lb> 
+   <lb n="10">in albys a hynny ydiw dydd y varn pan ddel
+   </lb> 
+   <lb n="11">yr enait a 'r korff ynghyd ac y gwisgir hwynt
+   </lb> 
+   <lb n="12">a gwisc wenn yr honn a vydd yn saith eglyrach
+   </lb> 
+   <lb n="13">no 'r haul a 'r hai hynn a allant ganv dwbyl
+   </lb> 
+   <lb n="14">alelia Yr hwnn lawenydd nyni adlygwn \adolygwn\ yr
+   </lb> 
+   <lb n="15">arglwydd Iessu grist val y dioddefoedd ef ar y groes
+   </lb> 
+   <lb n="16">drossom ni y 'n dwyn ni y 'r drygaredd Amen
+   
+   
+   
+   
+   </lb> 
+   <lb n="17">Vy ngharedic bobyl ysbyssv ychwi mae
+   </lb> 
+   <lb n="18">heddiw y sul a elwir ______ yr hwnn a
+   </lb> 
+   <lb n="19">elwir ac yssydd mewn kyfrif o lx yr
+   </lb> 
+   <lb n="20">hwnn y mae eglwys duw yn dysgv pob kyfryw
+   </lb> 
+   <lb n="21">y veddylio vyrred yw chwedyl dynion || Eithr yn
+   </lb> 
+   <lb n="22">ryfaint gynt mewn ryw amsser ydd oedd 
+   </lb>
+   <lb n="22-23">oedran
+   </lb>
+   <lb n="23">
+    pobyl yn naw kant o vlynyddoedd ac yr
+   </lb> 
+   <lb n="24">owran pedwar vgain nev drygain yssydd oes
+   </lb> 
+   <lb n="25">hir Eithr y mae gras yr arglwydd y bawb yn
+   </lb> 
+   <lb n="26">vnwedic y wssnaythv duw ac y wnaythyr y
+   
+   
+   </lb>
+   </pb>
+   <pb n="101.">
+   
+    
+   <lb n="1">vodd ac yntav a rydd y ninnav &nbsp;
+   </lb>
+   <lb n="1-2">lawenydd
+   </lb>
+   <lb n="2">
+    yn y nef gymaint ac a roes y adda
+   </lb> 
+   <lb n="3">ac Eva a vy vyw gyd a hynny Eithr pwy
+   </lb> 
+   <lb n="4">bynnac a vynno kael y llawenydd hynn raid
+   </lb> 
+   <lb n="5">yw iddaw ef wnaythyr triffeth nid amgen
+   </lb> 
+   <lb n="6">no chassav pechod a dioddef blinder yn yfydd a
+   </lb> 
+   <lb n="7">roi kardode yn ewyllysgar Achos bod yn chwedl
+   </lb> 
+   <lb n="8">ni yn vyrrach mwyaf oll y dlywn ni ddioddef
+   </lb> 
+   <lb n="9">blinder yn ewyllyssgar a 'n kalonne yn yfydd i 'r
+   </lb> 
+   <lb n="10">arglwydd Val y mae pawl ebostol krist yn
+   </lb> 
+   <lb n="11">chwenychv y bob kvfryw ddyn gymryd ensampyl
+   </lb> 
+   <lb n="12">o hanaw ef kans ef a ddioddefodd lawer o
+   </lb> 
+   <lb n="13">drwbyl yn ewyllyssgar val y mae ef yn 
+   </lb>
+   <lb n="13-14">tystolaethv
+   </lb>
+   <lb n="14">
+    o 'r ebostol ac yn dywedyd
+   </lb> 
+   <lb n="15">___________________ mi a vym mewn llawer o
+   </lb> 
+   <lb n="16">vlinder yn vynych mewn karchar gwedy vy 
+   </lb>
+   <lb n="16-17">rwymo
+   </lb>
+   <lb n="17">
+    a chadwynav hayrn
+   </lb> 
+   <lb n="18">______________ Pymwaith yn yr awr y 'm
+   </lb> 
+   <lb n="19">yssgyrssiwyd ac a gwiail o ver helic ym
+   </lb> 
+   <lb n="20">kyrwyd ar vy ngroen noeth
+   </lb> 
+   <lb n="21">Ac vnwaith boynydd \beunydd\ y 'm kyrid a cherric
+   </lb> 
+   <lb n="22">____________________________
+   </lb> 
+   <lb n="23">Ac ef a 'm byrid i y waelod y mor vnwaith
+   </lb> 
+   <lb n="24">bob nos
+   </lb> 
+   <lb n="25">Am mynych ofni mewn ffrydiav o ddwr
+   </lb> 
+   <lb n="26">_____________________________
+   </lb> 
+   <lb n="27">mewn perigl lladron ac mewn perigl 
+   </lb>
+   <lb n="27-28">kydmaithion
+   </lb>
+   <lb n="28">
+   &nbsp;ffailstion yn kymryd arnynt vod
+   
+   
+   </lb>
+   </pb>
+   <pb n="102.">
+   
+    
+   <lb n="1">yn gywir a hwyntev yn ffalst ac yn 
+   </lb>
+   <lb n="1-2">anghywir
+   </lb>
+   <lb n="2">
+    ______________ mewn newyn a
+   </lb> 
+   <lb n="3">syched ________________ mewn ymprydie
+   </lb> 
+   <lb n="4">a dyrweste _____________ yn gwylio yn hwyr
+   </lb> 
+   <lb n="5">__________ mewn oervel ac mewn 
+   </lb>
+   <lb n="5-6">llawer
+   </lb>
+   <lb n="6">
+    o berigle eraill hyd na ddychon \ddichon\ tafodeav 
+   </lb>
+   <lb n="6-7">pobloedd
+   </lb>
+   <lb n="7">
+    y draythv I maint A hynn y gyd a 
+   </lb>
+   <lb n="7-8">gymerth
+   </lb>
+   <lb n="8">
+    ef yn yfydd ac a ddioddefoedd yn ostyngedic
+   </lb> 
+   <lb n="9">drwy ddiolch y dduw A chwbyl o hynny y gyd
+   </lb> 
+   <lb n="10">a wnaethbwyd oblegid y pechod a wnathoedd
+   </lb> 
+   <lb n="11">ef yn y blaen ac y amlhav y waithredoedd
+   </lb> 
+   <lb n="12">da y 'r llawenydd a ddelai rac llaw Eithr 
+   </lb>
+   <lb n="12-13">para
+   </lb>
+   <lb n="13">
+    drwbyl bynnac a 'r a vo ar ddyn na cholled
+   </lb> 
+   <lb n="14">am dda na cholled ar ddynion nev glefyd ar
+   </lb> 
+   <lb n="15">y gorff pa vn bynnac o hynny a ddel arnad
+   </lb> 
+   <lb n="16">dioddef yn ewyllyssgar a meddwl di mae 
+   </lb>
+   <lb n="16-17">oblegid
+   </lb>
+   <lb n="17">
+    y pechod a wnaethost yn y blaen y mae nev
+   </lb> 
+   <lb n="18">oblegid y kav orchafiaeth yn y nef Kans 
+   </lb>
+   <lb n="18-19">oddiwrth
+   </lb>
+   <lb n="19">
+   &nbsp;ras yr arglwydd y mae hynny yn
+   </lb> 
+   <lb n="20">dyfod kans ni char duw ond a gassao pechod
+   </lb> 
+   <lb n="21">A diolch y dduw hynny ac arch y vynych 
+   </lb>
+   <lb n="21-22">drygaredd
+   </lb>
+   <lb n="22">
+    Kans ef a wyr duw ewllys pob dyn
+   </lb> 
+   <lb n="23">ac yn wir y mae ef yn roi trygaredd y bob
+   </lb> 
+   <lb n="24">kriston a 'r a 'i harcho yn yfydd Ac val hynny
+   </lb> 
+   <lb n="25">mae raid y ddyn ddioddef blinder yn 
+   </lb>
+   <lb n="25-26">ostyngedic
+   </lb>
+   <lb n="26">
+    A roi kardode yn gyddiedic ac yn vnwedic
+   </lb> 
+   <lb n="27">y daygain niwarnod hynn yr hwnn yssydd 
+   </lb>
+   <lb n="27-28">gyddiedic
+   </lb>
+   <lb n="28">
+    yn yr amsser yma a hevyd y gadw y dec
+   </lb> 
+   <lb n="29">gorchymyn ac y gadarnhav saith waithred y
+   
+   
+   </lb>
+   </pb>
+   <pb n="103.">
+   
+    
+   <lb n="1">drygaredd yr hwnn a elwir roi bwyd i newnoc
+   </lb> 
+   <lb n="2">diod y sychedic dillad y 'r noeth a roi lletty y
+   </lb> 
+   <lb n="3">wann a llawenhav karcharor ac edrych klafon
+   </lb> 
+   <lb n="4">a chladdy mairw A hynn yw y saith waithred
+   </lb> 
+   <lb n="5">yr hwnn y dyly pob kyfryw gristion a vynno
+   </lb> 
+   <lb n="6">bod yn amddiffynnol a chael trygaredd dduw
+   </lb> 
+   <lb n="7">Kans heddiw y mae ________ yn dechrav
+   </lb> 
+   <lb n="8">ac yn diweddy dduw mercher y brad yr hwnn
+   </lb> 
+   <lb n="9">y mae yr eglwys yn tystolaethv ac yn 
+   </lb>
+   <lb n="9-10">dywedyd
+   </lb>
+   <lb n="10">
+    _________
+   </lb> 
+   <lb n="11">dowch chwi vy mlant \mhlant\ ysbrydol i y gymryd 
+   </lb>
+   <lb n="11-12">brenhiniaeth
+   </lb>
+   <lb n="12">
+    nef yr hwnn a ordainiwyd ywch
+   </lb> 
+   <lb n="13">yn dragwddawl Yn wir y gairav hynn a ddywait
+   </lb> 
+   <lb n="14">yr arglwydd wrthych ddydd brawd ac wrth
+   </lb> 
+   <lb n="15">bawb a 'r a roddes gardode yn gyddiedic ac
+   </lb> 
+   <lb n="16">y 'r sawl a gyflewnis saith waithred y 
+   </lb>
+   <lb n="16-17">drygaredd
+   </lb>
+   <lb n="17">
+    A ffawb a 'r a oedd dlawd yssydd raid 
+   </lb>
+   <lb n="17-18">yddynt
+   </lb>
+   <lb n="18">
+    ddangos y ewllys val y mae yr 
+   </lb>
+   <lb n="18-19">evengil
+   </lb>
+   <lb n="19">
+    heddiw yn tystolaethv ac yn dywedyd
+   </lb> 
+   <lb n="20">_________________________
+   </lb> 
+   <lb n="21">val yr oedd gwr yn mynned y hav y had ac
+   </lb> 
+   <lb n="22">val yr oedd ef yn hav ve ddamhwainiodd 
+   </lb>
+   <lb n="22-23">vyned
+   </lb>
+   <lb n="23">
+   &nbsp;rai o 'r had dros y ffordd ac y beth arall
+   </lb> 
+   <lb n="24">vyned mewn dryssi a myeri ac a 
+   </lb>
+   <lb n="24-25">gollassant
+   </lb>
+   <lb n="25">
+    a rai aeth mewn tir da arhai hyny
+   </lb> 
+   <lb n="26">a ddyc aml ffrwythav Ac val hynn y mae
+   </lb> 
+   <lb n="27">krist ehvn yn dywedyd
+   
+   
+   </lb>
+   </pb>
+   <pb n="104.">
+   
+    
+   <lb n="1">myvi yw y kyfiawnder a myvi arweddaf
+   </lb> 
+   <lb n="2">wirionedd y 'r nef Velly y mae yr had hwnn
+   </lb> 
+   <lb n="3">nid amgen no 'r hai nid ydiw
+   </lb> 
+   <lb n="4">yn roi kardode || er mwyn krist arglwydd yn
+   </lb> 
+   <lb n="5">gyddiedic ac nid o valchder nac er kael
+   </lb> 
+   <lb n="6">klod y byd A hynny mi a 'i profaf drwy 
+   </lb>
+   <lb n="6-7">ennsampyl
+   </lb>
+   <lb n="7">
+   
+   
+   
+   
+   
+   </lb> 
+   <lb n="8">Yr oedd gynt wr kyweythawc yn roi&nbsp;
+   </lb>
+   <lb n="8-9">kardodav
+   </lb>
+   <lb n="9">
+    ac elyssennav val yr oeddit yn tybiait
+   </lb> 
+   <lb n="10">y vod ef yn sant Eithr pan vy varw ef 
+   </lb>
+   <lb n="10-11">ymddangosses
+   </lb>
+   <lb n="11">
+    yn kyn ddyet a 'r dim dya yn y
+   </lb> 
+   <lb n="12">byd y vn a gare ac na allai ddim vod mor
+   </lb> 
+   <lb n="13">ddrewedic ac ef Ac y dywad ef wrth y gwr
+   </lb> 
+   <lb n="14">hwnnw ydd ywchwi yn tybiaid vy mod i yn
+   </lb> 
+   <lb n="15">sant Eithr yr wyf i val y gwely di || Mae
+   </lb> 
+   <lb n="16">y kardode a roaist di heb y gwr hwnnw ||
+   </lb> 
+   <lb n="17">ef a 'i chwthoedd \chwythodd\ y gwynt hwynt kans er
+   </lb> 
+   <lb n="18">kael klod bydol y roesswn A phwy bynnac a 'i
+   </lb> 
+   <lb n="19">gwnel ef a gyll rinwedd y gardod a 'r 
+   </lb>
+   <lb n="19-20">kythroylaid
+   </lb>
+   <lb n="20">
+    \cythreuliaid\ wybrol a 'i distrywa hwynt A hefyd
+   </lb> 
+   <lb n="21">y neb a roddo y gardod y 'r neb a wypo y vod
+   </lb> 
+   <lb n="22">mewn pechod marwol ac a 'i mintaino hwynt
+   </lb> 
+   <lb n="23">yn y pechod vn ffynyd yw a ffai hay ti dy
+   </lb> 
+   <lb n="24">had mewn tir karregoc nev mewn ryw le
+   </lb> 
+   <lb n="25">ni aller kael ond gwyddwely a dryssi ac velly
+   </lb> 
+   <lb n="26">y kyll ef y had Pwy bynnac hevyd a roddo
+   
+   
+   </lb>
+   </pb>
+   <pb n="105.">
+   
+    
+   <lb n="1">y dda y gyfoethogion yr hai nid raid yddynt
+   </lb> 
+   <lb n="2">wrtho a gollassant y gwaithredoedd Eithr
+   </lb> 
+   <lb n="3">pwy bynnac a roddo y gardod y wainion a 
+   </lb>
+   <lb n="3-4">thlodion
+   </lb>
+   <lb n="4">
+    kans hwynt y mae duw yn i karv
+   </lb> 
+   <lb n="5">ac o 'r had hwnnw y tyf rinweddav da ar y
+   </lb> 
+   <lb n="6">gannved ac a berv yn y llawenydd tragwddol
+   </lb> 
+   <lb n="7">Y bob dyn a 'r a wnel alwissenn \elusen\ yn ddirgel
+   </lb> 
+   <lb n="8">y mae yn raid iddaw gassav pechod a ffo
+   </lb> 
+   <lb n="9">ragddo yn gymaint ac y gallo A phwy
+   </lb> 
+   <lb n="10">bynnac a gasshao y pechod y mae 
+   </lb> 
+   <lb n="11">duw yn i garv ac yn y ganlyn Kans kas
+   </lb> 
+   <lb n="12">yw gan dduw y pechod yn gymaint ac y
+   </lb> 
+   <lb n="13">kymerth ef ddialedd ar yr holl vyd am
+   </lb> 
+   <lb n="14">bechod godineb ac yn enwedic yn erbyn
+   </lb> 
+   <lb n="15">natyriaeth pan welas duw y pechod hwnn
+   </lb> 
+   <lb n="16">yn amlhav trwy yr holl vyd o vy arglwydd
+   </lb> 
+   <lb n="17">y drindod o 'r nef paham y gwnaethost di
+   </lb> 
+   <lb n="18">ddyn er Ioet Ac yno y dywad ef wrth noe
+   </lb> 
+   <lb n="19">________________________
+   </lb> 
+   <lb n="20">gwna di yt long val y dysgwyf i y ti
+   </lb> 
+   <lb n="21">o hyd a lled a gwna siambre yndi a 
+   </lb>
+   <lb n="21-22">chymer
+   </lb>
+   <lb n="22">
+    gyda thi gwpwl o bob amryw anifailiait
+   </lb> 
+   <lb n="23">wrthynt ehvn a dwyn bwyd a diod gidac
+   </lb> 
+   <lb n="24">hwynt Ac velly y gwnaeth noe y llong
+   </lb> 
+   <lb n="25">honn val y herchis yr arglwydd yn ysgwar
+   </lb> 
+   <lb n="26">yn y gwaelod a thrychad kyfyd o hyd a llet
+   
+   
+   </lb>
+   </pb>
+   <pb n="106.">
+   
+    
+   <lb n="1">a xxx a oedd y hychder A chant mlynedd
+   </lb> 
+   <lb n="2">y by noe yn gwnaythyr y long er dangos
+   </lb> 
+   <lb n="3">bod yr arglwydd yn drygaroc ac y edrych
+   </lb> 
+   <lb n="4">a mendie y bobyl kyn gwnaythyr y 
+   </lb>
+   <lb n="4-5">dialedd
+   </lb>
+   <lb n="5">
+    arnynt Eithr nid oeddynt yn 
+   </lb>
+   <lb n="5-6">mendio
+   </lb>
+   <lb n="6">
+    dim Ac velly drwy help engylion
+   </lb> 
+   <lb n="7">pob kyfryw adar ac anifailiaid a 
+   </lb>
+   <lb n="7-8">ddyckbwyd
+   </lb>
+   <lb n="8">
+    at noe Eithr pan ddygwyd kwbyl
+   </lb> 
+   <lb n="9">y 'r llong y herchis y noe a 'i wraic gymryd
+   </lb> 
+   <lb n="10">y trimaib a 'i tair gwragedd a myned i 'r
+   </lb> 
+   <lb n="11">llong wrthynt ehvn ac nad ai neb
+   </lb> 
+   <lb n="12">o 'r gwyr ymlith y gwragedd ac velly
+   </lb> 
+   <lb n="13">pan gawssant hwynt y mewn ac velly
+   </lb> 
+   <lb n="14">y klossiodd duw y drws arnynt
+   </lb> 
+   <lb n="15">_________________________
+   </lb> 
+   <lb n="16">Ac velly y gwnaeth hi law hyd 
+   </lb>
+   <lb n="16-17">ymhenn
+   </lb>
+   <lb n="17">
+    xl niwarnod oni ddyc y dwr y llong
+   </lb> 
+   <lb n="18">yn ywch noc vn mynydd o xl kyfyd
+   </lb> 
+   <lb n="19">ac y safodd hi yn i hvn lle gan 
+   </lb>
+   <lb n="19-20">niwarnod
+   </lb>
+   <lb n="20">
+    Ac velly y boddes yr holl vyd dynion
+   </lb> 
+   <lb n="21">ac enifailiait ond yr hai a athoedd y 'r
+   </lb> 
+   <lb n="22">llong Eithr yr oedd gwr yn Armania
+   </lb> 
+   <lb n="23">yn dywedyd vod mynydd a elwir barws
+   </lb> 
+   <lb n="24">yn ywch noc y by y dwr hwnn ac o 'r 
+   </lb>
+   <lb n="24-25">achos
+   </lb>
+   <lb n="25">
+    hwnnw y mae llawer y bobyl yn
+   
+   
+   </lb>
+   </pb>
+   <pb n="107.">
+   
+    
+   <lb n="1">dala piniwn ac yn dywedyd ymddiffin
+   </lb> 
+   <lb n="2">llawer o  bobyl Ac velly y by noe
+   </lb> 
+   <lb n="3">vlwyddyn heb weled tir Ac yna y 
+   </lb>
+   <lb n="3-4">danvones
+   </lb>
+   <lb n="4">
+    ef y gigvran y edrych a estyngasse
+   </lb> 
+   <lb n="5">y dwr ac ni ddayth hi mwy drychefn
+   </lb> 
+   <lb n="6">Ac yno y danvones ef y glomen ac y
+   </lb> 
+   <lb n="7">dayth hi yr eilwaith a chaingen \changen\&nbsp;vlodoyoc \flodeuog\
+   </lb> 
+   <lb n="8">yn i ffic y 'r llong Ac yno y gwyby ef
+   </lb> 
+   <lb n="9">drayo y mor yn ryw le Ac val y herchis
+   </lb> 
+   <lb n="10">duw iddo noe aeth allan ac y kymerth ef
+   </lb> 
+   <lb n="11">serten o anifailiaid nid oeddynt byredic
+   </lb> 
+   <lb n="12">ac y llosgodd hwynt yn aberth y dduw A
+   </lb> 
+   <lb n="13">hynny a vy gymeradwy gan dduw hynny
+   </lb> 
+   <lb n="14">yn gymaint ac y roes ef genad yddynt
+   </lb> 
+   <lb n="15">y vwytta kic pob anifail a 'r a berthynai
+   </lb> 
+   <lb n="16">y lladd ac y yved o bob gwinn Ac o vlaen
+   </lb> 
+   <lb n="17">y morgymlawdd hynny nid oedd y bobyl yn
+   </lb> 
+   <lb n="18">yfed ond dwr ac nid oedd raid yddynt ddim
+   </lb> 
+   <lb n="19">ond a ddelai o ffrwyth y ddayar Ac yrywan
+   </lb> 
+   <lb n="20">y gellwch chwi weled vaint y dialedd a 
+   </lb>
+   <lb n="20-21">gymerth
+   </lb>
+   <lb n="21">
+    duw ar y byd am y pechodav Ac velly
+   </lb> 
+   <lb n="22">y mae yrywran lawer yn pechu mewn 
+   </lb>
+   <lb n="22-23">amrafael
+   </lb>
+   <lb n="23">
+   &nbsp;raddav yn vwy noc yr oeddynt yr
+   </lb> 
+   <lb n="24">amsser hwnnw Ac am hynny yr wyf inev
+   
+   
+   </lb>
+   </pb>
+   <pb n="108.">
+   
+    
+   <lb n="1">yn tybiaid y kymer duw ddialedd arnom
+   </lb> 
+   <lb n="2">am yn pechodav ac y gwnathoedd duw
+   </lb> 
+   <lb n="3">ddialedd er ystalym oni bai vod gweddi
+   </lb> 
+   <lb n="4">yr eglwys a 'r saint bycheddol ac yn 
+   </lb>
+   <lb n="4-5">vnwedic
+   </lb>
+   <lb n="5">
+    drwy weddi yr arglwyddes vair vorwyn
+   </lb> 
+   <lb n="6">A hynny chwchwi a gewch y glywed mewn
+   </lb> 
+   <lb n="7">ynsampyl o saint domnick val yr oedd ef
+   </lb> 
+   <lb n="8">yn i weddi y gwelai ef yr arglwydd Iessu
+   </lb> 
+   <lb n="9">grist ac yn i law dri gwayw yn barod y
+   </lb> 
+   <lb n="10">saythv yr byd hwnn yn ddialedd am y
+   </lb> 
+   <lb n="11">pechod Ac velly y dayth yr arglwyddes vair
+   </lb> 
+   <lb n="12">ac y gestyngodd ar y gliniav ger bron y
+   </lb> 
+   <lb n="13">harglwydd vab gan ddywedyd pa beth yssydd
+   </lb> 
+   <lb n="14">y 'th vryd ti y wnaythyr || O v' arglwyddes
+   </lb> 
+   <lb n="15">vam y mae y byd yn kyn lawned o valchder
+   </lb> 
+   <lb n="16">a chenvigen a ffechod godineb ac y 
+   </lb>
+   <lb n="16-17">mynwn
+   </lb>
+   <lb n="17">
+    i saethv y tri gwayw hynn trwy 
+   </lb>
+   <lb n="17-18">ddialedd
+   </lb>
+   <lb n="18">
+    ar y bobyl Ac velly y ddlygoedd
+   </lb> 
+   <lb n="19">hi y harglwydd vab aros ennyd a 
+   </lb>
+   <lb n="19-20">gwnaythyr
+   </lb>
+   <lb n="20">
+    trygaredd ac hwynt O achos y 
+   </lb>
+   <lb n="20-21">mae
+   </lb>
+   <lb n="21">
+    y mi rai yn wassnaethwyr a 
+   </lb>
+   <lb n="21-22">bregetha
+   </lb>
+   <lb n="22">
+    y 'r bobyl y troi hwynt oddiwrth y 
+   </lb>
+   <lb n="22-23">pechodav
+   </lb>
+   <lb n="23">
+    Ac velly yr esbariodd yr arglwydd
+   </lb> 
+   <lb n="24">hwynt ved ynn hynn ac y by drygaroc
+   </lb> 
+   <lb n="25">wrthynt Eithr yn wir y mae y byd yr
+   </lb> 
+   <lb n="26">ywan yn kyn lawned o drais a lledrad
+   
+   
+   </lb>
+   </pb>
+   <pb n="109.">
+   
+    
+   <lb n="1">a dychwant gan bawb ar y gilydd ac
+   </lb> 
+   <lb n="2">y mae y gwainiaid yn krio ar dduw am
+   </lb> 
+   <lb n="3">help a swckwr Kans y mae yn debic
+   </lb> 
+   <lb n="4">y 'n trewir ni ac vn o 'r tri gwayw hynn
+   </lb> 
+   <lb n="5">Nid amgen drydaniaeth nev glefyd
+   </lb> 
+   <lb n="6">nev laddvae Ac rac hynny gristnogion
+   </lb> 
+   <lb n="7">da moesswch y ni weddio ar yr arglwyddes
+   </lb> 
+   <lb n="8">vair val y gallo hithav weddio at y 
+   </lb>
+   <lb n="8-9">harglwydd
+   </lb>
+   <lb n="9">
+    vab megis yr arweddo ef ni y 'r 
+   </lb>
+   <lb n="9-10">llawenydd
+   </lb>
+   <lb n="10">
+    a berv yn dragwddawl Amen
+   
+   
+   
+   
+   </lb> 
+   <lb n="11">Vy ngharedic bobyl ysbyssv ychwi mae
+   </lb> 
+   <lb n="12">heddiw yw y sul a elwir __________ 
+   </lb> 
+   <lb n="13">A hyny yssydd mewn rifedi o ddec a 
+   </lb>
+   <lb n="13-14">daygain
+   </lb>
+   <lb n="14">
+    yr hwnn rifedi yssydd yn diweddy 
+   </lb>
+   <lb n="14-15">mewn
+   </lb>
+   <lb n="15">
+    llawenydd a gogoniant Achos yn yr
+   </lb> 
+   <lb n="16">hen ddeddyf gynt a 'r gyfraith pawb a 'r a
+   </lb> 
+   <lb n="17">vai mewn rwymedigaeth arglwydd dros
+   </lb> 
+   <lb n="18">sserten o amsser nev mewn dysgyblaeth 
+   </lb>
+   <lb n="18-19">llawen
+   </lb>
+   <lb n="19">
+    a vyddai ganto ddyfod allan oe amod
+   </lb> 
+   <lb n="20">Eithr gristnogion da am y 
+   </lb>
+   <lb n="20-21">rwymedigaeth
+   </lb>
+   <lb n="21">
+    hwnn y mae y ninav lawenydd 
+   </lb>
+   <lb n="21-22">tragywydd
+   </lb>
+   <lb n="22">
+    amdano ac yssydd heddiw yn dechre
+   </lb> 
+   <lb n="23">ac yn diweddy dduw pasc ac er dangos
+   
+   
+   </lb>
+   </pb>
+   <pb n="110.">
+   
+    
+   <lb n="1">y bob kristion a 'r yssydd mewn klwyfe a
+   </lb> 
+   <lb n="2">dolyrie nid amgenach noc mewn pechod
+   </lb> 
+   <lb n="3">marwol ac ymwrthod ohonynt ac y
+   </lb> 
+   <lb n="4">ddyfod y 'r llawenydd a 'r digrifwch mwyaf yn
+   </lb> 
+   <lb n="5">hyrnas gwlad nef A hevyd y mae y tad
+   </lb> 
+   <lb n="6">o 'r nef o 'i vawr drygaredd a 'i ras yn kenady
+   </lb> 
+   <lb n="7">y bob kyfryw gristion gwbyl o ellyngdod
+   </lb> 
+   <lb n="8">yn i ddydd diwedd o chadwant hwy driffeth
+   </lb> 
+   <lb n="9">yn y byd hwnn nid amgenach no chyffes ac
+   </lb> 
+   <lb n="10">edifairwch a gwnaythyr Iawn y bawb o 'i
+   </lb> 
+   <lb n="11">dressbasswyr Ac yn vnwedic kyffes lan o 'th
+   </lb> 
+   <lb n="12">enav a chwbyl edifairwch&nbsp;athwc \a 'th ddwg\ di y 
+   </lb>
+   <lb n="12-13">dyrnas
+   </lb>
+   <lb n="13">
+    gwlad nef A hevydd gwybydded pawb
+   </lb> 
+   <lb n="14">y vod mewn kariad pryffaith heb lettro yn
+   </lb> 
+   <lb n="15">y byd yndo ac oni byddy velly ni chai di
+   </lb> 
+   <lb n="16">ollyndod mewn lle o 'r byd Ac am hynny or
+   </lb> 
+   <lb n="17">mynnv gael gollyngdod gan y tad o 'r nef
+   </lb> 
+   <lb n="18">a 'th wnaythyr yn lan kymer edifairwch am
+   </lb> 
+   <lb n="19">dy bechode a meddylia na wnelych bechod
+   </lb> 
+   <lb n="20">mwy A ffawb a 'r a wnelo hynny ef a vaddav
+   </lb> 
+   <lb n="21">duw yddynt y pechodav kans dilev 
+   </lb>
+   <lb n="21-22">pechodav
+   </lb>
+   <lb n="22">
+    a ordainiwyd yddaw Ac o herwydd 
+   </lb>
+   <lb n="22-23">hynny
+   </lb>
+   <lb n="23">
+    y gallwn nni gymryd ennsampyl o bedr
+   </lb> 
+   <lb n="24">a wadodd y arglwydd dair gwaith drwy anydon
+   </lb> 
+   <lb n="25">Eithr ef a gymerth edifairwch mawr
+   </lb> 
+   <lb n="26">_____________ ac a wylodd yn dost ac
+   </lb> 
+   <lb n="27">y mae duw mor gyflawn o drygaredd ac
+   
+   
+   </lb>
+   </pb>
+   <pb n="111.">
+   
+    
+   <lb n="1">y bydd llawen ganto weled dyn pechadyrys
+   </lb> 
+   <lb n="2">y erchi trygaredd iddaw
+   
+   
+   
+   
+   </lb> 
+   <lb n="3">Mi a gaf mewn llyfr a elwir legenda 
+   </lb>
+   <lb n="3-4">auria
+   </lb>
+   <lb n="4">
+    vod gwr kyfoethoc gynt a bod hwnnw
+   </lb> 
+   <lb n="5">yn gynddrwc y vychedd ac yr oedd bob dyn
+   </lb> 
+   <lb n="6">yn tybiaid ac nad oedd iddaw obaith 
+   </lb>
+   <lb n="6-7">trygaredd
+   </lb>
+   <lb n="7">
+    ond myned y yffern Ac velly ef a 
+   </lb>
+   <lb n="7-8">hapiodd
+   </lb>
+   <lb n="8">
+    y 'r gwr hwnn glefychv o glefyd 
+   </lb>
+   <lb n="8-9">gorthrwm
+   </lb>
+   <lb n="9">
+    megis y tybiodd ef ehvn y byddai varw
+   </lb> 
+   <lb n="10">Ac yno y meddyliodd ef yndo ehvn mor ddrwc
+   </lb> 
+   <lb n="11">y dygassai ef y vychedd yn y byd hwnn ac y
+   </lb> 
+   <lb n="12">kymerth ef edifairwch kalhon a blinder a
+   </lb> 
+   <lb n="13">gofal am y bechode ac y hwylai ef am bob
+   </lb> 
+   <lb n="14">gwaith ac y delai yn i gof am y bechodav Ac
+   </lb> 
+   <lb n="15">velly y by ef yn gorwedd saith niwarnod
+   </lb> 
+   <lb n="16">a saith nos ac y kyffessoedd ef yn lan ac
+   </lb> 
+   <lb n="17">y kymerth ef wir edifairwch yn i galhon ac y
+   </lb> 
+   <lb n="18">galwoedd ef byth am drygaredd val yr oedd
+   </lb> 
+   <lb n="19">yn dost gan bob kristion o ddyn y wrando
+   </lb> 
+   <lb n="20">Ac yna y by ef varw || Eithr ef a hapiodd
+   </lb> 
+   <lb n="21">yn yr amsser hwnnw varw manach a oedd
+   </lb> 
+   <lb n="22">yn trigio mewn manachloc oedd ger llaw
+   </lb> 
+   <lb n="23">Ac ydd oedd y mynach hwnn mor vycheddol
+   </lb> 
+   <lb n="24">ac y mynne y abad ef y gerdded gwedy
+   </lb> 
+   <lb n="25">y bai varw a mynnv o 'r abad y gred ar
+   
+   
+   </lb>
+   </pb>
+   <pb n="112.">
+   
+    
+   <lb n="1">ar ddyfod ymddiddan ac ef Ac velly
+   </lb> 
+   <lb n="2">y dayth ac y dywad wrtho || syr yldyma 
+   </lb>
+   <lb n="2-3">vyvi
+   </lb>
+   <lb n="3">
+    yn dyfod y gadw vy addewid ac ydolwc
+   </lb> 
+   <lb n="4">ychwi roi y mi gennad y vyned ymaith kans
+   </lb> 
+   <lb n="5">mi a gaf vynet y 'r llawenydd || Ac yno
+   </lb> 
+   <lb n="6">y gofynnodd yr abad a aeth y 'r llawenydd
+   </lb> 
+   <lb n="7">neb a 'r a vy varw yn yr amsser hwnnw ond
+   </lb> 
+   <lb n="8">tydi Ac y dywad y mynach do vn arall
+   </lb> 
+   <lb n="9">heb ddim mwy a hwnnw oedd enaid y gwr
+   </lb> 
+   <lb n="10">hwnn ac a 'i henwai erbyn y henw Ac
+   </lb> 
+   <lb n="11">yna y dywad yr abad Nid tydi yw vy
+   </lb> 
+   <lb n="12">mynach i ond ryw ysbryd yn kaissio gwall
+   </lb> 
+   <lb n="13">arnaf kans mi a wnn yn hysbys od oes
+   </lb> 
+   <lb n="14">enait yn y byd yn y poenav vod y enait
+   </lb> 
+   <lb n="15">ef yn vn onaddynt || O heb y mynach
+   </lb> 
+   <lb n="16">bychan o griston o ddyn a wyr hannes
+   </lb> 
+   <lb n="17">enait tyn \dyn\ gwedy yr el o 'r korff kans ef a
+   </lb> 
+   <lb n="18">gymerth y gwr hwnnw gymaint edifairwch
+   </lb> 
+   <lb n="19">ac y hwylodd ef y dwr hallta yn i galhonn
+   </lb> 
+   <lb n="20">am y bechodav oni wlychodd y holl ddillad
+   </lb> 
+   <lb n="21">hyd y ddayar megis y gwrandawoedd duw
+   </lb> 
+   <lb n="22">ar y weddi ac yr aeth y enait ef y 'r 
+   </lb>
+   <lb n="22-23">drygaredd
+   </lb>
+   <lb n="23">
+    Ac yna y diolches yr abad y dduw
+   </lb> 
+   <lb n="24">a 'r saint o 'r dangossiad hwnnw ac y 
+   </lb>
+   <lb n="24-25">pregethoedd
+   </lb>
+   <lb n="25">
+    yr abad y enairif o bobloedd o 'r 
+   </lb>
+   <lb n="25-26">edifairwch
+   </lb>
+   <lb n="26">
+    hwnn ac o drygaredd dduw Ac velly
+   </lb> 
+   <lb n="27">gristnogion da nyni a ddlywn ystyriaid
+   </lb> 
+   <lb n="28">yr edifairwch a gymerth y gwr hwnn val
+   
+   
+   </lb>
+   </pb>
+   <pb n="113.">
+   
+    
+   <lb n="1">y gallon ni gymryd edifairwch y ddodi y 'r
+   </lb> 
+   <lb n="2">llawr yn pechodav ninev A gwybydded bawb
+   </lb> 
+   <lb n="3">vaint yw yr help yssydd y 'r enaid or diellir
+   </lb> 
+   <lb n="4">Ac yn wir ni a ddlywn vod yn yr amsser
+   </lb> 
+   <lb n="5">bendigedic hwnn yn vwy yn edifairwch
+   </lb> 
+   <lb n="6">noc amsser arall yn vnwedic y daygain
+   </lb> 
+   <lb n="7">niwarnod val y mae salm dd broffwyd
+   </lb> 
+   <lb n="8">yn dywedyd ____________________
+   </lb> 
+   <lb n="9">Arglwydd dduw trygaroc dy drygaredd a 
+   </lb>
+   <lb n="9-10">thrygarha
+   </lb>
+   <lb n="10">
+    wrthyf Ac yn wir pan vo dyn
+   </lb> 
+   <lb n="11">yn edifar ganto y bechode y mae duw yn
+   </lb> 
+   <lb n="12">gwrando arno O meddylia ef na syrthio ef
+   </lb> 
+   <lb n="13">mwy yndynt Eithr mendio a byw mewn
+   </lb> 
+   <lb n="14">kariad pryffaith heb lettro o 'r byd yndo Ef
+   </lb> 
+   <lb n="15">gaiff dyfod y 'r llawenydd tragwddawl heb 
+   </lb>
+   <lb n="15-16">dranck
+   </lb>
+   <lb n="16">
+    a heb orffen Ac yn wir onis gwna
+   </lb> 
+   <lb n="17">ef a vydd kolledic yn dragwddol
+   
+   
+   
+   
+   </lb> 
+   <lb n="18">Mi a gaf yn ysgrifenedic vod y wr
+   </lb> 
+   <lb n="19">gynt bymaib \bum maib\ o vaibion ac ef a 'i kostassai
+   </lb> 
+   <lb n="20">wynt mewn ysgol yn hir o amsser Ac
+   </lb> 
+   <lb n="21">velly ddiwarnod ef a elwis y vaibion
+   </lb> 
+   <lb n="22">ger y vronn ac a ddywad wrthynt val
+   </lb> 
+   <lb n="23">hynn Vy maibion mi a 'ch kostais chwi y
+   </lb> 
+   <lb n="24">ddysgv mewn ysgol ac a droylais \dreuliais\&nbsp;
+   </lb>
+   <lb n="24-25">wrthych
+   </lb>
+   <lb n="25">
+    lawer o dda arnoch ac ni welaf i broffit
+   
+   
+   </lb>
+   </pb>
+   <pb n="114.">
+   
+    
+   <lb n="1">o 'r byd er hynny Eithr onid atebwchwi
+   </lb> 
+   <lb n="2">yr kwestiwn hwnn yn ych plith ychvn ni 
+   </lb>
+   <lb n="2-3">chostiaf
+   </lb>
+   <lb n="3">
+    i mwy o 'm da arnoch ac ni lafyria
+   </lb> 
+   <lb n="4">wrthych Ac velly gofyn a wnaethant y tad
+   </lb> 
+   <lb n="5">beth oedd y kwestwn Ac yntav a ddywad yn
+   </lb> 
+   <lb n="6">wir myvi yssydd hen a gwann ac yn 
+   </lb>
+   <lb n="6-7">gwybod
+   </lb>
+   <lb n="7">
+    na allaf i vyw yn hir a mi a vynnwn
+   </lb> 
+   <lb n="8">wybod beth orav ar les y 'r enait y 
+   </lb>
+   <lb n="8-9">wnaethyr
+   </lb>
+   <lb n="9">
+    o waithredoedd da yn y byd hwnn Ac
+   </lb> 
+   <lb n="10">yna yr ateboedd y mab hynnaf ac y 
+   </lb>
+   <lb n="10-11">dywad
+   </lb>
+   <lb n="11">
+    yn wir vy nhad pregethv a dysgv y ffydd
+   </lb> 
+   <lb n="12">gatholic a ddwc yr enaid y 'r nef o vlaen
+   </lb> 
+   <lb n="13">dim da Heb y dad beth a ddwedy dithav heb y
+   </lb> 
+   <lb n="14">dad wrth yr ail mab || Ac yntev a ddywat
+   </lb> 
+   <lb n="15">ffydd dda a chywirdeb a ddwc yr enait y 'r nef
+   </lb> 
+   <lb n="16">ymlaen dim Beth a ddywedy dithav </lb> 
+   <lb n="17">wrth y trydydd mab Ac y dywad yntev
+   </lb> 
+   <lb n="18">gweddiav da a lewissennav a ddwc yr enait
+   </lb> 
+   <lb n="19">y orychelder nef yn gynt no dim yn y
+   </lb> 
+   <lb n="20">byd Beth a ddywedy dithav wrth y 
+   </lb>
+   <lb n="20-21">pedwrydd
+   </lb>
+   <lb n="21">
+    mab am y kwestwn hwnn Yn wir 
+   </lb>
+   <lb n="21-22">gwnaythyr
+   </lb>
+   <lb n="22">
+    perindodav a chwplav y benyd a
+   </lb> 
+   <lb n="23">hynny a ddwc yr enait y 'r nef yn gynt
+   </lb> 
+   <lb n="24">noc vn o 'r llaill || Beth a ddywedy dithav
+   </lb> 
+   <lb n="25">wrth y pvmed mab || Yn wir vy nhad heb ef
+   </lb> 
+   <lb n="26">y mae peth a ddwc yr enait y 'r nef yn
+   
+   
+   </lb>
+   </pb>
+   <pb n="115.">
+   
+    
+   <lb n="1">gynt noc vn o 'r hai eraill Beth yw 
+   </lb>
+   <lb n="1-2">hynny
+   </lb>
+   <lb n="2">
+    heb y dad Yn wir vy nhad kymryd o
+   </lb> 
+   <lb n="3">ddyn gariad pryffaith ryngto a 'i gid 
+   </lb>
+   <lb n="3-4">gristnogion
+   </lb>
+   <lb n="4">
+    Kans er gwnaythyr o ddyn bob rin
+   </lb> 
+   <lb n="5">dda oni bydd ef mewn kariad pryffaith
+   </lb> 
+   <lb n="6">ni vaelia dim iddo ty ac at vyned y 'r nef
+   </lb> 
+   <lb n="7">Er gwnaythyr o ddyn bob rinwedd dda
+   </lb> 
+   <lb n="8">roi kardode ac elwissene myned y 
+   </lb>
+   <lb n="8-9">berindode
+   </lb>
+   <lb n="9">
+    a bod yn dda y ffydd a ffregethv a
+   </lb> 
+   <lb n="10">dysgv ac wylo yn dost ni chlyw duw ddim
+   </lb> 
+   <lb n="11">ohonno oni bydd ef mewn kariad 
+   </lb>
+   <lb n="11-12">pryffaith
+   </lb>
+   <lb n="12">
+   
+   </lb> 
+   <lb n="13">Ai ffai bewn ni mor vycheddol ac y
+   </lb> 
+   <lb n="14">ssydd o engylion yn y nef
+   </lb> 
+   <lb n="15">___________________________
+   </lb> 
+   <lb n="16">ac er gwybod ohonaf i yr holl 
+   </lb>
+   <lb n="16-17">gelvyddyd
+   </lb>
+   <lb n="17">
+    a chyfrinach yr arglwydd
+   </lb> 
+   <lb n="18">___________________________
+   </lb> 
+   <lb n="19">a ffai bai vy ffydd i kyn gadarned ac y
+   </lb> 
+   <lb n="20">gallwn i wastattav y mynyddoedd
+   </lb> 
+   <lb n="21">_____________________________
+   </lb> 
+   <lb n="22">a roddi vy holl dda byd y dlodion er mwyn
+   </lb> 
+   <lb n="23">yr arglwydd
+   </lb> 
+   <lb n="24">ac ymroddi ohonof i vy hvn y 'mlosgi \ymlosgi\&nbsp;
+   </lb>
+   <lb n="24-25">mewn
+   </lb>
+   <lb n="25">
+    tan
+   </lb> 
+   <lb n="26">ac oni byddy di mewn kariad pryffaith
+   </lb> 
+   <lb n="27">ychydic a ffrwytha yt hynny Kans angenrait
+   
+   
+   </lb>
+   </pb>
+   <pb n="116.">
+   
+    
+   <lb n="1">yw y bob kryadyr o ddyn garv duw a bod
+   </lb> 
+   <lb n="2">mewn kariad pryffaith Ac yn wir o chery
+   </lb> 
+   <lb n="3">di dduw kar di dy gid griston ac oni 
+   </lb>
+   <lb n="3-4">wnav
+   </lb>
+   <lb n="4">
+    di hynny yr wyd ti yn dy dwyllo dy
+   </lb> 
+   <lb n="5">hvn
+   </lb> 
+   <lb n="6">Kans kariad pryffaith a gydd dy bechode
+   </lb> 
+   <lb n="7">di Ac yn wir y neb a vo marw mewn
+   </lb> 
+   <lb n="8">pechod marwol kolledic vydd Ac o bob rinwedd
+   </lb> 
+   <lb n="9">dda ar ddyn gore yw kariad pryffaith Ac
+   </lb> 
+   <lb n="10">yn wir gristnogion da raid y ni vod yn
+   </lb> 
+   <lb n="11">ffyddlon y 'n meddwl a 'n gwaithred heb letro
+   </lb> 
+   <lb n="12">o 'r byd val y mae yr eglwys yn i erchi nit
+   </lb> 
+   <lb n="13">amgenach no chredy y 'r tad a 'r mab a 'r
+   </lb> 
+   <lb n="14">ysbryd glan vn duw tair persson A hevyd
+   </lb> 
+   <lb n="15">kredy y eni ef o vair vorwyn trwy eire
+   </lb> 
+   <lb n="16">yr angel heb achos kyd knawd a 'i eni ef
+   </lb> 
+   <lb n="17">mewn knawd a chic a gwaed a chredy y
+   </lb> 
+   <lb n="18">varw a 'i gladdy
+   </lb> 
+   <lb n="19">_____________ a 'i godi ef y trydydd dydd
+   </lb> 
+   <lb n="20">o vairw y vyw
+   </lb> 
+   <lb n="21">ac I ymddrychafodd y 'r nefoedd dduw Iav 
+   </lb>
+   <lb n="21-22">drychafael
+   </lb>
+   <lb n="22">
+    \dyrchafael\
+   </lb> 
+   <lb n="23">ac a ddaw ddydd y varn y varnv ar vyw a
+   </lb> 
+   <lb n="24">mairw Eithr gristnogion da val y 
+   </lb>
+   <lb n="24-25">dywad
+   </lb>
+   <lb n="25">
+    yr arglwydd wrth abram y kai ef 
+   </lb>
+   <lb n="25-26">etifedd
+   </lb>
+   <lb n="26">
+    o 'i wraic sara drwy ysbrydoliaeth yr
+   </lb> 
+   <lb n="27">ysbryd glan pan oeddynt hwy yll dav
+   
+   
+   </lb>
+   </pb>
+   <pb n="117.">
+   
+    
+   <lb n="1">wedy passio y hoedran Eithr ef a
+   </lb> 
+   <lb n="2">ddywad yr arglwydd wrth abram y kai ef
+   </lb> 
+   <lb n="3">etifedd a vydde kyn amled y weled a 'r ser
+   </lb> 
+   <lb n="4">yn yr awyr Eithr pan anet y mab y 
+   </lb>
+   <lb n="4-5">gelwid
+   </lb>
+   <lb n="5">
+    ef Eissac a phan oedd ef yn bymlwydd
+   </lb> 
+   <lb n="6">ar hygain y dywod yr arglwydd wrth abram
+   </lb> 
+   <lb n="7">dos di y 'r mynydd a 'th vab gyda thi ac 
+   </lb>
+   <lb n="7-8">offrwm
+   </lb>
+   <lb n="8">
+    ef val ydd oedd yr arver yr amsser
+   </lb> 
+   <lb n="9">hwnnw Ac velly i edrychodd abram ar y
+   </lb> 
+   <lb n="10">vab ac y by othrwm ganto Eithr ef
+   </lb> 
+   <lb n="11">a beris y vab Eissac gymryd ffagode o
+   </lb> 
+   <lb n="12">wrysc ar y gefn a 'i losgi ehvn A phan 
+   </lb>
+   <lb n="12-13">ddoythant
+   </lb>
+   <lb n="13">
+    y benn y mynnydd ef a wnaeth
+   </lb> 
+   <lb n="14">abram allor megis yn goed y gyd ac a
+   </lb> 
+   <lb n="15">ddechroyodd roi tan yndi Ac ef a gymerth
+   </lb> 
+   <lb n="16">y vab Eissac ac a vynnai y ladd a 'i offrwm
+   </lb> 
+   <lb n="17">Ac yna y klywai ef lais angel yn 
+   </lb>
+   <lb n="17-18">dywedyd
+   </lb>
+   <lb n="18">
+    ac yn erchi iddaw baidio a chymryd
+   </lb> 
+   <lb n="19">y vab A myned ac ef y 'r llong oedd ger
+   </lb> 
+   <lb n="20">llaw ac offrwm dros Eissac Eithr 
+   </lb>
+   <lb n="20-21">gristnogion
+   </lb>
+   <lb n="21">
+    da ni allwn ni wnaythyr&nbsp;
+   </lb>
+   <lb n="21-22">kefflybiaet
+   </lb>
+   <lb n="22">
+    o 'r arglwydd Iessu ac Eissac yr 
+   </lb>
+   <lb n="22-23">ysbryd
+   </lb>
+   <lb n="23">
+    gan yr hwnn nid esbariodd ef ehvn
+   </lb> 
+   <lb n="24">Eithr godde yr iddewon y gably a fferi
+   </lb> 
+   <lb n="25">iddaw ef ehvn ddwyn y groes ar y gefn
+   </lb> 
+   <lb n="26">a 'i arwain hyd ymynydd kalvarei ac
+   
+   
+   </lb>
+   </pb>
+   <pb n="118.">
+   
+    
+   <lb n="1">yno y roi ef erni y ddioddef gloes angav
+   </lb> 
+   <lb n="2">dros yn Iechyd ni ar y groes A 'r groes
+   </lb> 
+   <lb n="3">honno a wnaethbwyd o bedwar rwyogaeth
+   </lb> 
+   <lb n="4">o goed nid amgenach no sydyr \sedr\&nbsp;cypyr \seipr\ pren
+   </lb> 
+   <lb n="5">oliff a phren helic Ac velly y gellir galw
+   </lb> 
+   <lb n="6">Iessu yn debic y eissac Kans llawer o 
+   </lb>
+   <lb n="6-7">enaitav
+   </lb>
+   <lb n="7">
+    a dynnoedd ef o yffern a 'r a athoedd
+   </lb> 
+   <lb n="8">yno dan wylo a gridvan yn dost ||
+   </lb> 
+   <lb n="9">Eithr gristnogion da yn yr vn ffynyd
+   </lb> 
+   <lb n="10">y gwnaeth ef val y mae ef heddiw yn
+   </lb> 
+   <lb n="11">tystolaethv yn yr evengil
+   </lb> 
+   <lb n="12">_______________________
+   </lb> 
+   <lb n="13">_______________________
+   </lb> 
+   <lb n="14">Ac yn y modd y dalwyd ef ac 
+   </lb>
+   <lb n="14-15">ysgyrssiwyd
+   </lb>
+   <lb n="15">
+    ac y poered yn i lygaid A chwedy y
+   </lb> 
+   <lb n="16">ysgyrssio y roi ar y groes ac velly i yrrv
+   </lb> 
+   <lb n="17">i loes angev Ac ef a godes y trydydd
+   </lb> 
+   <lb n="18">dydd o vairw y vyw Ac yn dystiolaeth
+   </lb> 
+   <lb n="19">ar hynn ef a hapiodd y longiws gwr
+   </lb> 
+   <lb n="20">dall ni welssai ddim er Ioed a phan ddoyth
+   </lb> 
+   <lb n="21">ef ger bronn a dywedyd y gairiav hynn
+   </lb> 
+   <lb n="22">___________________________
+   </lb> 
+   <lb n="23">Iessu mab duw trygaroc trygarha wrthyf
+   </lb> 
+   <lb n="24">Ac y dywad yr arglwydd wrtho beth a 
+   </lb>
+   <lb n="24-25">vynny
+   </lb>
+   <lb n="25">
+    di ymi wnaythyr yt
+   
+   
+   </lb>
+   </pb>
+   <pb n="119.">
+   
+    
+   <lb n="1">o arglwydd roi vy ngolwc ym Ac y 
+   </lb>
+   <lb n="1-2">dywod
+   </lb>
+   <lb n="2">
+    yr arglwydd wrtho yn wir dy ffydd di
+   </lb> 
+   <lb n="3">a 'th amddiffynnodd Ac y kafas ef y
+   </lb> 
+   <lb n="4">olwc ac y diolches ef hynny yr arglwydd
+   </lb> 
+   <lb n="5">Velly yn wir y mae y ninav bob kyfryw
+   </lb> 
+   <lb n="6">ddyn a vyno kael maddeyaint gan dduw
+   </lb> 
+   <lb n="7">raid iddaw vod mewn adifairwch \edifeirwch\ kalhon
+   </lb> 
+   <lb n="8">ac yn lan gyffessol a gwnaethyr Iawn y
+   </lb> 
+   <lb n="9">dressbasswyr a bod mewn kariad pryffaith
+   </lb> 
+   <lb n="10">heb lettro yn y byd A hevyd 
+   </lb>
+   <lb n="10-11">gristnogion
+   </lb>
+   <lb n="11">
+    da er dwyn mwy o ennsampyl ychwi
+   
+   
+   
+   
+   </lb> 
+   <lb n="12">Mi a gaf yn esgrivenedic vod esgob santaidd
+   </lb> 
+   <lb n="13">gynt yr hwnn nid oedd yn yr holl ynys
+   </lb> 
+   <lb n="14">vn gwr a allai vod yn well y vywyd a 'i
+   </lb> 
+   <lb n="15">vychedd noc ef na gwell ysgolhaic A 
+   </lb>
+   <lb n="15-16">phann
+   </lb>
+   <lb n="16">
+    oedd ef yn i glaf wely ef a ddoyth atto
+   </lb> 
+   <lb n="17">ef aneirif o anysbrydoedd er profedigaeth
+   </lb> 
+   <lb n="18">arno ac y argo ac ef yn erbyn y ffydd
+   </lb> 
+   <lb n="19">yn gymaint ac y by agos yddynt a 'i
+   </lb> 
+   <lb n="20">droi ef allan o 'r ffydd a 'i roi mewn 
+   </lb>
+   <lb n="20-21">anobaith
+   </lb>
+   <lb n="21">
+    Eithr yr oedd yr arglwyddes vair
+   </lb> 
+   <lb n="22">yn gymaint ac y byassai ef yn 
+   </lb>
+   <lb n="22-23">wassnaethwr
+   </lb>
+   <lb n="23">
+    kywir iddi hi yn barod y 'w achyb ef
+   
+   
+   </lb>
+   </pb>
+   <pb n="120.">
+   
+    
+   <lb n="1">ac a ofynnodd iddo a wyd ti yn kredy
+   </lb> 
+   <lb n="2">val y mae eglwys duw yn i erchi yt ac
+   </lb> 
+   <lb n="3">yno y gwyby ef mae profedigaeth ydd 
+   </lb>
+   <lb n="3-4">oeddid
+   </lb>
+   <lb n="4">
+    yn i gaissio arno || ac y dywad yntev
+   </lb> 
+   <lb n="5">ydwy v' arglwyddes yn gwir gredy pob peth
+   </lb> 
+   <lb n="6">a 'r a berthyn ty ac at yr eglwys ac
+   </lb> 
+   <lb n="7">val y mae hi yn dysgv y mi Ac yno
+   </lb> 
+   <lb n="8">y roes yr ysbrydion drwc aramlais garw
+   </lb> 
+   <lb n="9">gadarn ac yr aethant drwy benn y ty allan
+   </lb> 
+   <lb n="10">ac y gorchmynnodd ef yr enaid y 'r tad o 'r
+   </lb> 
+   <lb n="11">nef ac yr aeth ef y 'r llawenydd 
+   </lb>
+   <lb n="11-12">tragwddawl
+   </lb>
+   <lb n="12">
+    I 'r hwnn lawenydd yr elom ninnav
+   </lb> 
+   <lb n="13">poet gwir Amen
+   
+   
+   
+   
+   </lb> 
+   <lb n="14">Vy ngharedic bobyl ysbyssv ychwi mae
+   </lb> 
+   <lb n="15">heddiw yw y sul kyntaf o 'r grawys glan
+   </lb> 
+   <lb n="16">ac yssydd mewn kyfrif xl diwarnod o 
+   </lb>
+   <lb n="16-17">heddiw
+   </lb>
+   <lb n="17">
+    hyd dduw pasc Ac o 'r achos hwnnw
+   </lb> 
+   <lb n="18">y dyly pob kyfryw gristion bycheddol 
+   </lb>
+   <lb n="18-19">wnaythyr
+   </lb>
+   <lb n="19">
+    Iawn y dduw am y dressbas val y
+   </lb> 
+   <lb n="20">mae pob kyfryw gristion yn rwymedic
+   </lb> 
+   <lb n="21">ac yn gyfraithlon y ymprydio y 
+   </lb>
+   <lb n="21-22">daygain
+   </lb>
+   <lb n="22">
+    niwarnod hynn onid yr hai y mae y
+   </lb> 
+   <lb n="23">gyfraith yn kenettav yddynt baidio wrth
+   </lb> 
+   <lb n="24">orchymyn yr eglwys Sef ynt yr hai
+   
+   
+   </lb>
+   </pb>
+   <pb n="121.">
+   
+    
+   <lb n="1">hynny yr hai Iefainck heb vod mewn
+   </lb> 
+   <lb n="2">oedran a 'r llafyrwyr a 'r perinion a 'r 
+   </lb>
+   <lb n="2-3">gwragedd
+   </lb>
+   <lb n="3">
+    baichogion a 'r hen ddynion gwedy 
+   </lb>
+   <lb n="3-4">passio
+   </lb>
+   <lb n="4">
+    y hoedran a phobyl glaifion - yr haini y
+   </lb> 
+   <lb n="5">mae y gyfraith yn roi ar y kidwybod Ac
+   </lb> 
+   <lb n="6">yn gymaint ac nad ydiw duw sul yn
+   </lb> 
+   <lb n="7">ddydd y dychon \dichon\ bod ympryd arno Eithr y
+   </lb> 
+   <lb n="8">mae pob kristion yn Rwymedic y ymprydio
+   </lb> 
+   <lb n="9">bob mercher a gwener drwy y grawys a
+   </lb> 
+   <lb n="10">dyfod dduw mercher nessaf y eglwys
+   </lb> 
+   <lb n="11">duw y wrando gwssanaeth ac y gymryd
+   </lb> 
+   <lb n="12">llydw ac i ystyriaid y gairav a ddyweter 
+   </lb>
+   <lb n="12-13">wrthych
+   </lb>
+   <lb n="13">
+    yr amsser hwnnw
+   </lb> 
+   <lb n="14">_________________
+   </lb> 
+   <lb n="15">Meddylia ddyn mae o 'r pridd y doythost ac
+   </lb> 
+   <lb n="16">y 'r pridd ydd av Eithr y mae amrafael
+   </lb> 
+   <lb n="17">achossion pan it ymprydir y daygain 
+   </lb>
+   <lb n="17-18">niwarnod
+   </lb>
+   <lb n="18">
+    Val y mae yr evengil yn 
+   </lb>
+   <lb n="18-19">dywedyd
+   </lb>
+   <lb n="19">
+    heddiw
+   </lb> 
+   <lb n="20">__________________
+   </lb> 
+   <lb n="21">val yr aeth yr arglwydd wrth orchymyn
+   </lb> 
+   <lb n="22">yr ysbryd glan y ddinas karissalem a
+   </lb> 
+   <lb n="23">gwlad sierigo ac oe demto gan y kythrel
+   </lb> 
+   <lb n="24">Ac yno y by ef yn y diffaith vynydd yn
+   </lb> 
+   <lb n="25">ymprydio xl niwarnod a xl nos er yn
+   </lb> 
+   <lb n="26">mwyn ni er dangos y bob kyfryw gristion
+   </lb> 
+   <lb n="27">y gobrwy a 'r tal yssydd yt am y dyrwest yr
+   
+   
+   </lb>
+   </pb>
+   <pb n="122.">
+   
+    
+   <lb n="1">hwnn y mae ef yn dwyn ar ddyall yn y
+   </lb> 
+   <lb n="2">proffes o 'r yfferen o 'r dydd heddiw ac yssydd
+   </lb> 
+   <lb n="3">yn arver yn vwyaf o hynn hyd basc
+   </lb> 
+   <lb n="4">_________________________
+   </lb> 
+   <lb n="5">_________________________
+   </lb> 
+   <lb n="6">val y mae dy lan ympryd di yn gostwng
+   </lb> 
+   <lb n="7">y lawr dy anwiredd di ac yn kodi y vynydd
+   </lb> 
+   <lb n="8">dy waithredoedd da di ac yn i amlhav yr
+   </lb> 
+   <lb n="9">hynn y kai di anrydedd mawr yn y nef ac
+   </lb> 
+   <lb n="10">a berv yno yn dragywydd Ac val y mae
+   </lb> 
+   <lb n="11">gwyr o ddysc yn dywedyd rinwedd y dyrwest
+   </lb> 
+   <lb n="12">a wnelych di yma yssydd obrwy yt ger bronn
+   </lb> 
+   <lb n="13">duw Eithr gristnogion da ymogelwn ni
+   </lb> 
+   <lb n="14">rac yn twyllo a chael gwall arnom val y
+   </lb> 
+   <lb n="15">gwnaeth y kythrayl ac Eva Kans trwy
+   </lb> 
+   <lb n="16">brofedigaeth y kythrayl y twyllodd ef hi y
+   </lb> 
+   <lb n="17">dorri y gorchymyn oblegid yr vn aval ac
+   </lb> 
+   <lb n="18">o 'r achos hwnnw yr aeth pymoes byd y
+   </lb> 
+   <lb n="19">yffern Velly gristnogion da y dayth y 
+   </lb>
+   <lb n="19-20">kythrayl
+   </lb>
+   <lb n="20">
+    ar lvn dyn y gaissio yr arglwydd Iessu
+   </lb> 
+   <lb n="21">grist val y mae yr efengil yn dywedyd
+   </lb> 
+   <lb n="22">________________________
+   </lb> 
+   <lb n="23">Ac velly y byassai Iessu yn ymprydiait
+   </lb> 
+   <lb n="24">xl niwarnod Eithr wrth nattyr dayarol ef
+   </lb> 
+   <lb n="25">a godes newyn arno ac yna y doyth y
+   </lb> 
+   <lb n="26">kythrel atto ac y dangosses y kerric iddo
+   </lb> 
+   <lb n="27">ac y dywad wrtho
+   
+   
+   </lb>
+   </pb>
+   <pb n="123.">
+   
+    
+   <lb n="1">os tydi yssydd vab duw o 'r nef gwna di
+   </lb> 
+   <lb n="2">y kerric hynn yn vara Yn y modd hwnnw y
+   </lb> 
+   <lb n="3">kawssai ef wall ar Eva pan vwytawssai hi yr
+   </lb> 
+   <lb n="4">aval y tybassai yntav y kymerai Iessu y bara
+   </lb> 
+   <lb n="5">o 'r kerric ac y bwyttae kans pechod glothineb
+   </lb> 
+   <lb n="6">yssydd yn ewllys y knawd dayarol Ac y dywod
+   </lb> 
+   <lb n="7">yr arglwydd wrtho
+   </lb> 
+   <lb n="8">_______________________________
+   </lb> 
+   <lb n="9">___________________________ 
+   </lb> 
+   <lb n="10">yn wir nid yr ymborth dayarol yw yr 
+   </lb>
+   <lb n="10-11">ymborth
+   </lb>
+   <lb n="11">
+    a berv yn dragwyddol Eithr o rinwedd
+   </lb> 
+   <lb n="12">y gairav a ddel o enav yr arglwydd Ac
+   </lb> 
+   <lb n="13">yna y kymerth y kythrel ef ac a 'i roes
+   </lb> 
+   <lb n="14">ar binagl ychel ac y dywad wrtho os 
+   </lb>
+   <lb n="14-15">tydi
+   </lb>
+   <lb n="15">
+    yssydd vab dyw dyred y 'r llawr heb help
+   </lb> 
+   <lb n="16">dim o 'r byd yn ddieniwed ar dy gorff val
+   </lb> 
+   <lb n="17">y gallwyf i addnabod \adnabod\ mae tydi yssydd vab
+   </lb> 
+   <lb n="18">duw Ac yna y dywod yr arglwydd
+   </lb> 
+   <lb n="19">______________________________
+   </lb> 
+   <lb n="20">Kerdda di ymaith ni themty di ddim o 'th dduw
+   </lb> 
+   <lb n="21">etto Ef a ddayth y drydedd waith at yr 
+   </lb>
+   <lb n="21-22">arglwydd
+   </lb>
+   <lb n="22">
+   
+   </lb> 
+   <lb n="23">_______________________________
+   </lb> 
+   <lb n="24">Ac yna y kodes y mynydd dan draed y
+   </lb> 
+   <lb n="25">kythrayl ac y safoedd yntev ar y benn ac
+   </lb> 
+   <lb n="26">y dangosses iddo yr holl vyd a 'r holl 
+   </lb>
+   <lb n="26-27">gyfoethogrwydd
+   </lb>
+   <lb n="27">
+    y byd || Yn wir heb y kythrayl hynn
+   
+   
+   </lb>
+   </pb>
+   <pb n="124.">
+   
+    
+   <lb n="1">a rof i y ti er ymestwng ac addoli y 
+   </lb>
+   <lb n="1-2">myvi
+   </lb>
+   <lb n="2">
+    Ac yna y dywod yr arglwydd
+   </lb> 
+   <lb n="3">____________________
+   </lb> 
+   <lb n="4">kerdda di satan vydyr y mae yn ysgrifenedic
+   </lb> 
+   <lb n="5">yn yr esgythyr lan ac y mae hi yn 
+   </lb>
+   <lb n="5-6">dywedyd
+   </lb>
+   <lb n="6">
+    vod yn raid y ti addoli dy arglwydd dduw
+   </lb> 
+   <lb n="7">a 'i wssnaethv Ac yna yr aeth y kythrel ymaith
+   </lb> 
+   <lb n="8">________________________
+   </lb> 
+   <lb n="9">Ac yna y dayth yr engylion ac ymborth
+   </lb> 
+   <lb n="10">yr arglwydd Ac yn wir gristnogion da y mae
+   </lb> 
+   <lb n="11">y kythrel yn esgydach y daygain niwarnod hyn
+   </lb> 
+   <lb n="12">noc vn amsser y annoc ar y bobyl yn 
+   </lb>
+   <lb n="12-13">vnwedic
+   </lb>
+   <lb n="13">
+    y tri ffechod hynn nid amgen balchder a 
+   </lb>
+   <lb n="13-14">chwant
+   </lb>
+   <lb n="14">
+    y 'r byd a  glothineb Eithr
+   </lb> 
+   <lb n="15">gristnogion da y mae yn raid y ni gael
+   </lb> 
+   <lb n="16">triffeth y Iachav yr hai hynny nid amgen
+   </lb> 
+   <lb n="17">yn erbyn glothineb noc ymprydio yn yfydd ||
+   </lb> 
+   <lb n="18">yn erbyn balchder yfydddod y 'th gid gristion
+   </lb> 
+   <lb n="19">yn erbyn chwant y byd kymryd yr eiddom
+   </lb> 
+   <lb n="20">nyhvn yn ddigonol a ranv peth y 'r tlodion
+   </lb> 
+   <lb n="21">ac y 'r gwainiaid A hefyt bod heb gymryd ar
+   </lb> 
+   <lb n="22">yn bwyd a 'n diod ond yn ressymol ac 
+   </lb>
+   <lb n="22-23">ymprydio
+   </lb>
+   <lb n="23">
+    y dydd a 'r nos val y gwnaeth krist
+   </lb> 
+   <lb n="24">Eithr y mae ohonom ni lawer a ddaw y 'r 
+   </lb>
+   <lb n="24-25">dafarn
+   </lb>
+   <lb n="25">
+    ac a eistedd ar hyd y dydd a 'r nos er
+   </lb> 
+   <lb n="26">llenwi y vola ac y syrthio mewn glothineb
+   </lb> 
+   <lb n="27">A ffan eloch y vwytta roi arwydd y groc ar
+   </lb> 
+   <lb n="28">ych bwyd a 'ch diod a dywedwch ych pader a 'ch
+   
+   
+   </lb>
+   </pb>
+   <pb n="125.">
+   
+    
+   <lb n="1">aue maria a 'ch kredo y ddiolch y 'r arglwydd
+   </lb> 
+   <lb n="2">y llyniaeth a ddanvones ywch ac ar ol ych
+   </lb> 
+   <lb n="3">bwyd yn yr vn modd ac velly y mae y chwi
+   </lb> 
+   <lb n="4">diolch y dduw am ych bwyd angenraidiol
+   </lb> 
+   <lb n="5">ac velly y mae raid ywch ymweglyd rac
+   </lb> 
+   <lb n="6">glothineb Ac yn erbyn balchder </lb> 
+   <lb n="7">yr hwnn yssydd bechod anorbaid yr enait ef
+   </lb> 
+   <lb n="8">a vydd raid ychwi vwrw chwant y byd 
+   </lb>
+   <lb n="8-9">ymaith
+   </lb>
+   <lb n="9">
+    oddiwrthych ac yfyddhav yn 
+   </lb>
+   <lb n="9-10">ostyngedic
+   </lb>
+   <lb n="10">
+    y dduw a meddyrio pa vodd y ganet
+   </lb> 
+   <lb n="11">pob dyn ac mor dlawd y dayth y 'r byd
+   </lb> 
+   <lb n="12">a 'i vod yn siwrnaio boynydd \beunydd\ ty ac at y
+   </lb> 
+   <lb n="13">ddydd diwedd Ac yna angav a ddaw ac a 'i
+   </lb> 
+   <lb n="14">bwrw ef y 'r llawr yn i glaf wely dan 
+   </lb>
+   <lb n="14-15">gwynvan
+   </lb>
+   <lb n="15">
+    a gridvan yn dost Ac yn wir
+   </lb> 
+   <lb n="16">anodd vydd gan y mwyaf a 'i karai ef yn
+   </lb> 
+   <lb n="17">y blaen ddyfod yn i gyfyl Ac velly yr 
+   </lb>
+   <lb n="17-18">annsywa
+   </lb>
+   <lb n="18">
+    yr anadl ac y dya y gwefyssav ac
+   </lb> 
+   <lb n="19">kylhaa yr wyneb ac y melyna y llygait
+   </lb> 
+   <lb n="20">ac y bloesga y tafod ac y wastia dy holl
+   </lb> 
+   <lb n="21">gorff ac o 'r diwedd roi yr enait y 
+   </lb>
+   <lb n="21-22">vynydd
+   </lb>
+   <lb n="22">
+    Beth gwedy hynny a wnay di nac a elly
+   </lb> 
+   <lb n="23">y wnaythyr yn wir dy hebrwng y 'r 
+   </lb>
+   <lb n="23-24">vynwent
+   </lb>
+   <lb n="24">
+    a 'th roi yn y ddayar
+   </lb> 
+   <lb n="25">Ac yn wir byan yr av di dros gof ac
+   </lb> 
+   <lb n="26">os tydi a veddwl am hynn yr wyf i yn
+   </lb> 
+   <lb n="27">tybiait na veddyly di am valchder || Ac yn
+   </lb> 
+   <lb n="28">erbyn chwant y 'r byd ymgosba val y roddo
+   
+   
+   </lb>
+   </pb>
+   <pb n="126.">
+   
+    
+   <lb n="1">duw yt y da a diolch y ddyw pa vodd 
+   </lb>
+   <lb n="1-2">bynnac
+   </lb>
+   <lb n="2">
+    y danvono yd || Ac y mae yn raid yt
+   </lb> 
+   <lb n="3">roi kyfrif am bob gorwyl a 'r a veddyliech y
+   </lb> 
+   <lb n="4">wnaythyr ac er duw meddyliwch am dy
+   </lb> 
+   <lb n="5">y tlodion a 'r gwainiaid a weloch ac eissav 
+   </lb>
+   <lb n="5-6">arnynt
+   </lb>
+   <lb n="6">
+    a gwnewch val y mae yr evengil
+   </lb> 
+   <lb n="7">yn i erchi
+   </lb> 
+   <lb n="8">rowch chwi a duw a ranna y chwithav yn
+   </lb> 
+   <lb n="9">ddigonol Kans val y mae saint awstin
+   </lb> 
+   <lb n="10">yn dywedyd y galhon ni chlywo ar y law roddi
+   </lb> 
+   <lb n="11">kardod nev elwissenn y dlawd nid ydiw ef
+   </lb> 
+   <lb n="12">dailwng y ofyn trygaredd dduw a phwy bynac
+   </lb> 
+   <lb n="13">a 'i roddo er mwyn yr enaidiav y mae yn
+   </lb> 
+   <lb n="14">vodlon gan yr arglwydd ef ac y mae yn
+   </lb> 
+   <lb n="15">llawenychy yn vawr ar yr enait
+   </lb> 
+   <lb n="16">__________________
+   </lb> 
+   <lb n="17">Kans y gardod yssydd yn achyb yr enait val
+   </lb> 
+   <lb n="18">y mae saint grygor yn dywedyd
+   </lb> 
+   <lb n="19">___________________
+   </lb> 
+   <lb n="20">val y mae y dwr yn dyffoddi y tan velly y
+   </lb> 
+   <lb n="21">diffydd y gardod y pechod Val y mae y 
+   </lb>
+   <lb n="21-22">proffwyd
+   </lb>
+   <lb n="22">
+    yn dywedyd 
+   </lb> 
+   <lb n="23">rowch beth a duw a rydd y chwithav ddigon
+   </lb> 
+   <lb n="24">_____________________
+   </lb> 
+   <lb n="25">Maddav y 'th gid griston a wnaeth y 'th 
+   </lb>
+   <lb n="25-26">erbyn
+   </lb>
+   <lb n="26">
+    a duw a vydd trygaroc wrthyd tithav
+   </lb> 
+   <lb n="27">Eithr gweled yr wyd ti nad oes genyd ti
+   
+   
+   </lb>
+   </pb>
+   <pb n="127.">
+   
+    
+   <lb n="1">ddim y roi vn amsser Beth a wna hynny
+   </lb> 
+   <lb n="2">yn wir yr ysbryd drwc yssydd y 'th ganlyn bob
+   </lb> 
+   <lb n="3">amsser ac yn llestair yt roi
+   
+   
+   
+   
+   </lb> 
+   <lb n="4">Mi a gaf yn ysgrifenedic vod marchoc
+   </lb> 
+   <lb n="5">yrddol kadarn Eithr yr oedd ef yn 
+   </lb>
+   <lb n="5-6">anllywodraethv
+   </lb>
+   <lb n="6">
+    y gorff ehvn a bwydydd a diodydd a
+   </lb> 
+   <lb n="7">ffob peth a 'r a vai ddeinteth ef a 'i 
+   </lb>
+   <lb n="7-8">mynnai
+   </lb>
+   <lb n="8">
+    Eithr o 'r diwedd ef a vy varw ac a 
+   </lb>
+   <lb n="8-9">gladdwyd
+   </lb>
+   <lb n="9">
+    mewn kist o vaen Ac yr oedd y 'r gwr
+   </lb> 
+   <lb n="10">hwnn vab yn wr kadarn ac yr oedd ef yn
+   </lb> 
+   <lb n="11">arver bob dydd o ddywedyd y broffwnndis rac
+   </lb> 
+   <lb n="12">enait y dad Ac velly ddiwarnod ef a
+   </lb> 
+   <lb n="13">wnaeth gwledd y bob gwr o stat yn y wlad o
+   </lb> 
+   <lb n="14">bob ty iddo Ac velly pan ddoethbwyd a dwr
+   </lb> 
+   <lb n="15">yddaw y ymolchi ef a ddayth yn i gof ddywedyd
+   </lb> 
+   <lb n="16">y broffwndis a gwnaythyr y weddi dros
+   </lb> 
+   <lb n="17">enait y dad ac y daissyfoedd ar y bob 
+   </lb>
+   <lb n="17-18">aros
+   </lb>
+   <lb n="18">
+    ac y dywedassant hwynte yr aent
+   </lb> 
+   <lb n="19">gydac ef Ac yno ef a ddoyth ynddo veddwl
+   </lb> 
+   <lb n="20">ar weled bedd y dad yn agored ac oni chai
+   </lb> 
+   <lb n="21">ef hynny ef a vyddai varw yn i veddwl ehvn
+   </lb> 
+   <lb n="22">Ac y gwnaeth ef y 'r gwaission agori y bedd
+   </lb> 
+   <lb n="23">ac y kanvy ef lyffan yn y bedd kyn ddyed
+   </lb> 
+   <lb n="24">a 'r ddim dyaf ac a alle vod yn y byd a 'i
+   </lb> 
+   <lb n="25">lygaid yn ddwy olwyn o dan A hwnn oedd
+   </lb> 
+   <lb n="26">a 'i grafangav ynglyn ynghalhon y dad ef
+   
+   
+   </lb>
+   </pb>
+   <pb n="128.">
+   
+    
+   <lb n="1">ac yn bwytta y galhon y ffesta ac y galle
+   </lb> 
+   <lb n="2">Ac y dywad y vab wrtho o vy nhad llawer o
+   </lb> 
+   <lb n="3">vwyd a diod a gymeraist wrth dy chwant Ac
+   </lb> 
+   <lb n="4">yr owran y gwelaf i vythaiad y kythrel yn i
+   </lb> 
+   <lb n="5">gael ef ar dy galhon di yr hwnn yssydd 
+   </lb>
+   <lb n="5-6">annvaidrawl
+   </lb>
+   <lb n="6">
+    y weled Ac yno y kayodd ef y gist
+   </lb> 
+   <lb n="7">vaen arno A phan ddarvy iddaw wassnaethv
+   </lb> 
+   <lb n="8">ar y bobyl ef aeth yn gyddiedic ac adewis
+   </lb> 
+   <lb n="9">y anrydedd bydol a chwbyl o 'i vowyd ac aeth
+   </lb> 
+   <lb n="10">y gaerissalem Ac yno y by ef tra vy vyw yn
+   </lb> 
+   <lb n="11">y gwssnaethv tlodion a chlaifon ac mewn
+   </lb> 
+   <lb n="12">tlodi tra vy vyw A phan welas duw amsser iddo
+   </lb> 
+   <lb n="13">varw y kyrchodd yr engylion y enait ef y 'r
+   </lb> 
+   <lb n="14">llawenydd tragwddawl
+   
+   
+   
+   
+   </lb> 
+   <lb n="15">Vy ngharedic bobyl yssbyssv&nbsp;
+   </lb>
+   <lb n="15-16">ychwi
+   </lb>
+   <lb n="16">
+    mae heddiw yw yr ail ssul o 'r grawys
+   </lb> 
+   <lb n="17">glan yr hwnn gristnogion da val y byochwi
+   </lb> 
+   <lb n="18">yn ewyllyssgar y vod yn lan ac yn onest
+   </lb> 
+   <lb n="19">ymarddel a 'r byd bellach y dlywn ninev vod
+   </lb> 
+   <lb n="20">yn vwy yn pryssyrdeb y wnaythyr yn henaide
+   </lb> 
+   <lb n="21">yn lan Yr amsser hwnn a ordainiwyd y lanhav
+   </lb> 
+   <lb n="22">yn kidwybod rac pob ryw enwiredd ac rac
+   </lb> 
+   <lb n="23">pechodav brychoylyd \brycheulyd\ val y gallom ni dduw
+   </lb> 
+   <lb n="24">pasc vod yn kidwybod yn lan y gymryd yn
+   </lb> 
+   <lb n="25">harglwydd ni Iessu grist attom Val y mae
+   
+   
+   </lb>
+   </pb>
+   <pb n="129.">
+   
+    
+   <lb n="1">saint pawl yn dywedyd yn yr abostol
+   </lb> 
+   <lb n="2">_______________________
+   </lb> 
+   <lb n="3">hynn yssy ewyllys gan dduw vod ohonochwi
+   </lb> 
+   <lb n="4">mewn trallod ac yn santaidd y 'ch glanhav
+   </lb> 
+   <lb n="5">ychvn y haeddy bodd duw ac y weddiaw arno
+   </lb> 
+   <lb n="6">ar vod yn llestri ni yn lan nid amgenach
+   </lb> 
+   <lb n="7">no 'nn kalhonne erbyn dyfod yr arglwydd Iessu
+   </lb> 
+   <lb n="8">grist attom Velly y kawn ni ddwyn ar ddyall
+   </lb> 
+   <lb n="9">mae yn kidwybod ni yw ef Ac yn wir y
+   </lb> 
+   <lb n="10">neb a vo a 'i lester yn lan a verkir hyd dydd
+   </lb> 
+   <lb n="11">brawd ac yno yr agorir dy lester di val
+   </lb> 
+   <lb n="12">y kaffo yr holl vyd weled beth yssydd 
+   </lb>
+   <lb n="12-13">ynghadw
+   </lb>
+   <lb n="13">
+    gennyd ai tec ai hagr Eithr y neb 
+   </lb>
+   <lb n="13-14">yssydd
+   </lb>
+   <lb n="14">
+    yn dyfod a 'i lester yn lan ger bronn y
+   </lb> 
+   <lb n="15">brawdwr a gaiff y lywio Pa vodd y gelly 
+   </lb>
+   <lb n="15-16">dydi
+   </lb>
+   <lb n="16">
+    gadw y llestyr hwnn yn lan Yn wir
+   </lb> 
+   <lb n="17">gwnaythyr val y mae yr eglwys yn y 
+   </lb>
+   <lb n="17-18">erchi
+   </lb>
+   <lb n="18">
+    Ensampyl o wr da bycheddol a elwit
+   </lb> 
+   <lb n="19">Iacob yr honn ystori yr ydis yn i harver yr
+   </lb> 
+   <lb n="20">wythnos honn Ac i 'r gwr hwnn yr oedd dad
+   </lb> 
+   <lb n="21">a elwit Eissac a mam a elwit 
+   </lb> 
+   <lb n="22">rebecka Ac ef a aned iddi ddav vab ar
+   </lb> 
+   <lb n="23">vnwaith ac vn ohonynt a elwid esaw
+   </lb> 
+   <lb n="24">yr hwnn a anassid yn gyntaf a 'r llall a
+   </lb> 
+   <lb n="25">elwit Iacob Eithr gristnogion da yr 
+   </lb>
+   <lb n="25-26">ystori
+   </lb>
+   <lb n="26">
+    honn yssydd hir ond nyni a gymerwn
+   
+   
+   </lb>
+   </pb>
+   <pb n="130.">
+   
+    
+   <lb n="1">yr hwnn yssydd angenraidiol ty ac at
+   </lb> 
+   <lb n="2">yr enait Eithr ef a roes yr arglwydd
+   </lb> 
+   <lb n="3">ras mawr y 'r gwr hwnn Eissac megis pa
+   </lb> 
+   <lb n="4">amsser bynnac y roe ef y vendith y vaibion
+   </lb> 
+   <lb n="5">y dywgiav \diwygiai\ yddynt Ac yn achos bod Eissac
+   </lb> 
+   <lb n="6">yn hen ac yn wann ac yn ddall ac yn
+   </lb> 
+   <lb n="7">agos y ddiwedd y oes
+   </lb> 
+   <lb n="8">Essaw kerdda y hela y mi vwyd val y gallwyf
+   </lb> 
+   <lb n="9">y vwytta
+   </lb> 
+   <lb n="10">val y gallwyf i roi y ti vy mendith kynn
+   </lb> 
+   <lb n="11">vy marw Eithr pan aeth essaw ymaith
+   </lb> 
+   <lb n="12">y dayth Iacob wrth ddysc y vam ac y kymerth
+   </lb> 
+   <lb n="13">ef vendith y dad ac y dywad y dad wrtho
+   </lb> 
+   <lb n="14">___________________
+   </lb> 
+   <lb n="15">bydd di arglwydd ar dy holl vrodyr Ac y
+   </lb> 
+   <lb n="16">gwnaeth ef Iacob yn aer iddaw ac a 'i 
+   </lb>
+   <lb n="16-17">bendigodd
+   </lb>
+   <lb n="17">
+    a phawb a 'r a 'i bendigai yntev ||
+   </lb> 
+   <lb n="18">Eithr pan ddayth essaw y dre y kasshaodd
+   </lb> 
+   <lb n="19">ef y vrawd Iacob ac a veddyliodd y ladd
+   </lb> 
+   <lb n="20">Ac y gwnaeth Iacob wrth gynghor y vam
+   </lb> 
+   <lb n="21">nid amgen myned allan o 'r wlad at 
+   </lb>
+   <lb n="21-22">ewyrth
+   </lb>
+   <lb n="22">
+    oedd iddo a elwit laban Ac val yr
+   </lb> 
+   <lb n="23">oedd ef yn kerdded mewn gwlad 
+   </lb>
+   <lb n="23-24">anghyfiaith
+   </lb>
+   <lb n="24">
+    a ffobyl velldigedic ni lefaissai ef hir
+   </lb> 
+   <lb n="25">drigio gidac ef ac ni chai ef ond 
+   </lb>
+   <lb n="25-26">gorwedd
+   </lb>
+   <lb n="26">
+    ar vayssydd ac ar ffyrdd Ac velly y
+   
+   
+   </lb>
+   </pb>
+   <pb n="131.">
+   
+    
+   <lb n="1">roes ef garec dan y ben ac y kysgodd
+   </lb> 
+   <lb n="2">___________________
+   </lb> 
+   <lb n="3">A thrwy y hvn ef a welai yssgol yn 
+   </lb>
+   <lb n="3-4">kyrhayddyd
+   </lb>
+   <lb n="4">
+    o 'r ddayar hyd y nef
+   </lb> 
+   <lb n="5">_______________________
+   </lb> 
+   <lb n="6">ac engylion o 'r nef yn tramwy ar y hyd
+   </lb> 
+   <lb n="7">Ac y klywe ef dduw yn dywedyd wrtho 
+   </lb>
+   <lb n="7-8">myvi
+   </lb>
+   <lb n="8">
+    yw arglwydd abram ac eissac a myvi
+   </lb> 
+   <lb n="9">a ro y ti y wlad honn ac a vyddaf gaidwat
+   </lb> 
+   <lb n="10">arnad Ac y dyffroes Iacob ac y dywad
+   </lb> 
+   <lb n="11">________________________________
+   </lb> 
+   <lb n="12">Yn wir y mae duw yn y lle hwnn ac yn
+   </lb> 
+   <lb n="13">anwybod y mi Ac velly yr aeth ef ymaith
+   </lb> 
+   <lb n="14">at y ewyrth ac y by ef gydac ef vgain
+   </lb> 
+   <lb n="15">mlynedd mwy ac yno y dyweddiodd y ddwy 
+   </lb>
+   <lb n="15-16">verched
+   </lb>
+   <lb n="16">
+    vn a elwid ragel a 'r llall a elwir laia
+   </lb> 
+   <lb n="17">A chwedy y vod ef yno yn gyhyd a hynny ef
+   </lb> 
+   <lb n="18">a ddamynodd vyned y dref y wlad ehvn Ac
+   </lb> 
+   <lb n="19">ef a gymerth gidac ef y wraic a 'i blant a 
+   </lb>
+   <lb n="19-20">chwbyl
+   </lb>
+   <lb n="20">
+    ac yr aeth ymaith Ac yna y dayth
+   </lb> 
+   <lb n="21">eneirif o engylion y helpv ef Eithr pan
+   </lb> 
+   <lb n="22">ddayth Iacob o vewn ryd y herchis ef y 
+   </lb>
+   <lb n="22-23">bawb
+   </lb>
+   <lb n="23">
+    ac a oedd gidac ef vyned o 'r blaen ac i
+   </lb> 
+   <lb n="24">tariodd yntev yn ol yn i weddi Ac val yr oedd
+   </lb> 
+   <lb n="25">ef yn gweddio yr ymrithioedd angel gair y
+   </lb> 
+   <lb n="26">vron ar lyn gwr ac a 'maelodd ac ef ar hyd
+   
+   
+   </lb>
+   </pb>
+   <pb n="132.">
+   
+    
+   <lb n="1">y nos hyd yni oedd ddydd ac a 'i kymerth ef
+   </lb> 
+   <lb n="2">erbyn llyssewyn y vorddwyd ac a 'i gwnaeth
+   </lb> 
+   <lb n="3">ef yn gloff tra vy vyw Ac y gofynnodd yr
+   </lb> 
+   <lb n="4">angel y Iacob beth oedd y henw Ac y dywod
+   </lb> 
+   <lb n="5">yntav mae Iacob y gelwir || Nac ef heb yr
+   </lb> 
+   <lb n="6">angel ni 'th elwir di velly mwy Eithr Issrael
+   </lb> 
+   <lb n="7">vydd dy henw di Ac y kroesses ef ac y 
+   </lb>
+   <lb n="7-8">gadewis
+   </lb>
+   <lb n="8">
+    ef yno yn gloff byth o hyny allan Ac er
+   </lb> 
+   <lb n="9">hynny ef aeth y dre yn anrydeddys Eithr 
+   </lb>
+   <lb n="9-10">gristnogion
+   </lb>
+   <lb n="10">
+    da yr estori honn yr ydis yn i darllain
+   </lb> 
+   <lb n="11">yn eglwys duw er sampyl y bob kyfryw 
+   </lb>
+   <lb n="11-12">wassnaethwr
+   </lb>
+   <lb n="12">
+    a ddamvno kael  bendith y dad 
+   </lb> 
+   <lb n="13">nid amgen no 'r tad o 'r nef Y mae yn raid
+   </lb> 
+   <lb n="14">y chwi vod yn gyntaf a 'ch enw yn Iacob a
+   </lb> 
+   <lb n="15">chwedy hynny Issrael Eithr nyni a ddyallwn
+   </lb> 
+   <lb n="16">mae yr ymaelyd oedd Ac Issrael y wr yn
+   </lb> 
+   <lb n="17">kaissio gweled duw Kans pwy bynnac ac
+   </lb> 
+   <lb n="18">aissio \a geisio\ gweled duw raid yw iddaw ef 
+   </lb>
+   <lb n="18-19">ymaylyd
+   </lb>
+   <lb n="19">
+    ar y ddayar honn nid amgenach noc
+   </lb> 
+   <lb n="20">a 'r knawd ac a 'r angel drwc yssydd yn dy
+   </lb> 
+   <lb n="21">ganlyn Yn enwedic pan wnelych di 
+   </lb>
+   <lb n="21-22">bechod
+   </lb>
+   <lb n="22">
+    y gyrr y kythrayl ynod ti gywilydd
+   </lb> 
+   <lb n="23">yn dy galhon rac y ddywedyd wrth neb ac
+   </lb> 
+   <lb n="24">velle \felly\ y mae yn raid y ninav ymafael a 'r
+   </lb> 
+   <lb n="25">kythrayl ar knawd a 'i gorchvygv nid 
+   </lb>
+   <lb n="25-26">amgen
+   </lb>
+   <lb n="26">
+    no dywedyd allan yn pechodav o gwbyl
+   
+   
+   </lb>
+   </pb>
+   <pb n="133.">
+   
+    
+   <lb n="1">Ac yna y bydd kywilyddys y kythrayl ac 
+   </lb>
+   <lb n="1-2">ofnoc
+   </lb>
+   <lb n="2">
+    Ac y mae yn raid yd wnaythyr dy benyd
+   </lb> 
+   <lb n="3">a chyngor dy dad enait A chymryd sampyl o 'r
+   </lb> 
+   <lb n="4">wraic hynn val y mae yr evengil yn dywedyt
+   </lb> 
+   <lb n="5">___________________________
+   </lb> 
+   <lb n="6">Ac velly y dayth y wraic honn ac y kyfarvy a 'r
+   </lb> 
+   <lb n="7">arglwydd ac y gofynnodd iddo am help y 'w merch
+   </lb> 
+   <lb n="8">yr honn oedd y kythreyl gwedy kael gwall erni
+   </lb> 
+   <lb n="9">Ac y dywad wrtho
+   </lb> 
+   <lb n="10">____________________________
+   </lb> 
+   <lb n="11">Iessu mab duw trygaroc dy drygaredd a
+   </lb> 
+   <lb n="12">archa Ac yr attebodd yr arglwydd hi
+   </lb> 
+   <lb n="13">____________________________
+   </lb> 
+   <lb n="14">_____________________ nid ta \da\ kymryd y
+   </lb> 
+   <lb n="15">bara ymborth y 'r hai bychain a 'i vwrw y gwn
+   </lb> 
+   <lb n="16">nev i gynawan
+   </lb> 
+   <lb n="17">__________________________
+   </lb> 
+   <lb n="18">Nac ydiw arglwydd kans ef a gaiff y kwn
+   </lb> 
+   <lb n="19">a 'r kynawon y briwsson a syrthio dan vyrdde
+   </lb> 
+   <lb n="20">yr arglwyddi || Ac y dyfod yr arglwydd wrthi
+   </lb> 
+   <lb n="21">__________________________________
+   </lb> 
+   <lb n="22">o wraic da yw dy ffydd di a bid y ti val
+   </lb> 
+   <lb n="23">yr wyd yn i ofyn Ac velly yr aeth yr 
+   </lb>
+   <lb n="23-24">anysbryd
+   </lb>
+   <lb n="24">
+    ymaith o 'r verch a hi a vy Iach Eithr
+   </lb> 
+   <lb n="25">dwyn ar ddyall ychwi gristnogion da oblegit
+   </lb> 
+   <lb n="26">y gwr hwnn a 'r wraic dy vod ti yn trafaely
+   </lb> 
+   <lb n="27">rwng y pechod a 'r kythrayl nid amgenach
+   
+   
+   </lb>
+   </pb>
+   <pb n="134.">
+   
+    
+   <lb n="1">no meddylio am gyffessv wrth dy dad enait
+   </lb> 
+   <lb n="2">yn llwyr heb arbed dim er kywilydd nac er
+   </lb> 
+   <lb n="3">rybywck nac er ofn Ac velly y by ef diofal
+   </lb> 
+   <lb n="4">y mafael a 'r kythrayl A hevyd yn wir pob
+   </lb> 
+   <lb n="5">kristion a syrthioedd iddaw wnaythyr pechod
+   </lb> 
+   <lb n="6">ef a ddyly na chymero ef segyryd yn i galhon
+   </lb> 
+   <lb n="7">yni gyffesso yn lan Ac yno ni bydd trwbyl
+   </lb> 
+   <lb n="8">arno na rwng y gidwybod a 'r kythrayl Ac
+   </lb> 
+   <lb n="9">val y kny kenav Ievanck asgwrn velly y kny
+   </lb> 
+   <lb n="10">y kythrayl bob dyn dayarol a 'r a vo marw y
+   </lb> 
+   <lb n="11">mewn pechod marwol ac a allo y gyffessv a
+   </lb> 
+   <lb n="12">heb y wnaythyr val y kaf i mewn ensampyl
+   </lb> 
+   <lb n="13">o wraic
+   
+   
+   
+   
+   </lb> 
+   <lb n="14">Mi a gaf yn ysgrifenedic vod gwraic gynt
+   </lb> 
+   <lb n="15">gwedy gwnaythyr pechod arythr a hi a vynne
+   </lb> 
+   <lb n="16">gael y gyffessv pei baiddie Ac velly y dayth
+   </lb> 
+   <lb n="17">yr arglwydd etti yn i gorffolaeth ac y dywad
+   </lb> 
+   <lb n="18">wrthi vy merch paham nad ydwyd ti yn
+   </lb> 
+   <lb n="19">kyffessv dy bechod Ac y dywad hithav arglwydd
+   </lb> 
+   <lb n="20">nis gallaf rac kywilydd A 'r arglwydd a ddywad
+   </lb> 
+   <lb n="21">wrthi moes y mi dy law Ac y roddes ef
+   </lb> 
+   <lb n="22">y llaw hi yn yr archoll oedd dan ben y vron
+   </lb> 
+   <lb n="23">a 'i gwthio y mewn hyd y galhon ef gan 
+   </lb>
+   <lb n="23-24">ddywedyd 
+   </lb>
+   <lb n="24">
+    beth wraic a glywy di yna || Ac y 
+   </lb>
+   <lb n="24-25">krynoedd
+   </lb>
+   <lb n="25">
+    hi rac ofn ac y dywad o arglwydd 
+   </lb> 
+   <lb n="26">mi a glywaf dy galhon di Ac yna y dywad
+   </lb> 
+   <lb n="27">yr arglwydd wrthi na vid arnad ti vwy o
+   
+   
+   </lb>
+   </pb>
+   <pb n="135.">
+   
+    
+   <lb n="1">gywilydd o ddangos dy galhon y mi no 
+   </lb>
+   <lb n="1-2">minav
+   </lb>
+   <lb n="2">
+    y tithav Ac velly yr aeth yr arglwydd
+   </lb> 
+   <lb n="3">ymaith A 'r wraic honn a edrych ryngti a 'r
+   </lb> 
+   <lb n="4">gole a hi a welai y llaw yn waedlyd ac y
+   </lb> 
+   <lb n="5">kaissioedd hi y golchi Ac nid ae ef ddim 
+   </lb>
+   <lb n="5-6">oddyno
+   </lb>
+   <lb n="6">
+    yni aeth hi at y thad ysbrydol y gyffessv
+   </lb> 
+   <lb n="7">Ac yna yr aeth y llaw hi yn lan val yr oedd
+   </lb> 
+   <lb n="8">yn y blaen a hithe yn lan o 'i holl bechodav
+   </lb> 
+   <lb n="9">Ac velly yr aeth hi y 'r llawenydd a bery byth
+   
+   
+   
+   
+   </lb> 
+   <lb n="10">Vy ngharedic bobyl yssbyssv ychwi
+   </lb> 
+   <lb n="11">mae heddiw yw y trydydd sul o 'r grawys glan
+   </lb> 
+   <lb n="12">Val yr wyf i yn darllain yn yr evengil
+   </lb> 
+   <lb n="13">__________________________
+   </lb> 
+   <lb n="14">val y byrioedd yr arglwydd gythrayl o wr mvd
+   </lb> 
+   <lb n="15">A phan aeth y kythrayl allan
+   </lb> 
+   <lb n="16">ac ymddiddanodd y gwr hwnn Eithr 
+   </lb>
+   <lb n="16-17">gristnogion
+   </lb>
+   <lb n="17">
+    da y gwr mvd hwnn a allaf i y gefflybv
+   </lb> 
+   <lb n="18">y bob dyn nid oes ally ganto y gyffessv a 'i
+   </lb> 
+   <lb n="19">enav nac y lanhav ehvn Eithr tario yndynt
+   </lb> 
+   <lb n="20">o ddydd i ddydd yn hwyaf ac y gallont Kans 
+   </lb> 
+   <lb n="21">y mae llawer dyn o wyr a gwragedd oni
+   </lb> 
+   <lb n="22">bai rac kywilydd y byd ni chyffessynt y grawys
+   </lb> 
+   <lb n="23">nac y maes o 'r grawys Ac yn wir yr haini y
+   </lb> 
+   <lb n="24">mae y kythreyl gwedy kael gwall arnynt
+   </lb> 
+   <lb n="25">Ac er duw y sawl yssydd heb ddyfod y gyffessv
+   </lb> 
+   <lb n="26">dowch ych glanhav ac y vwrw y gwr mvd 
+   
+   </lb>
+   </pb>
+   <pb n="135-136.">
+   <lb n="26-1">ymaith
+   </lb>
+   </pb>
+   <pb n="136.">
+   <lb n="1">
+    oddiwrthych ac o 'ch meddwl Ac na
+   </lb> 
+   <lb n="2">veddylied neb na bo arno lawer o vaych yn
+   </lb> 
+   <lb n="3">enwedic trwy na bo arnad onid pechodav
+   </lb> 
+   <lb n="4">meddwl Yn wir llawer meddwl llawer 
+   </lb>
+   <lb n="4-5">atgassrwydd
+   </lb>
+   <lb n="5">
+    llawer anydon a ddoyth dros dy enav
+   </lb> 
+   <lb n="6">Yn wir myvi a wnn na ddaw yn ych kof chwi 
+   </lb>
+   <lb n="6-7">ddywedyd
+   </lb>
+   <lb n="7">
+    y kwbyl kans hir y byoch heb 
+   </lb>
+   <lb n="7-8">gyffessv
+   </lb>
+   <lb n="8">
+    Eithr vy ngharedic bobyl pob pechod 
+   </lb>
+   <lb n="8-9">anwybod
+   </lb>
+   <lb n="9">
+    a 'r a wnaethoch onis kyffesswch
+   </lb> 
+   <lb n="10">chwi ef ryw amsser ni chewch chwi esgys am
+   </lb> 
+   <lb n="11">dano ef ddydd y varn Kans yn gyntaf dim
+   </lb> 
+   <lb n="12">ac y gellych gwedy y gwnelych di yn erbyn
+   </lb> 
+   <lb n="13">duw a 'r yssydd eniwed y 'r enait yn vyan y
+   </lb> 
+   <lb n="14">dlywch chwi ddyfod ych glanhav tra vo y pechod
+   </lb> 
+   <lb n="15">mewn meddwl Ac ni ddowchwi oni el ef dros
+   </lb> 
+   <lb n="16">gof ac er hynny pan ddeloch chwi a vyddwch
+   </lb> 
+   <lb n="17">vyd y gyffessv kans yr ysbryd drwc yssydd yn
+   </lb> 
+   <lb n="18">peri hynny Ac yr ydychwi yn tybiait nad
+   </lb> 
+   <lb n="19">pechod geirav digrif y beri chwerthin a 
+   </lb>
+   <lb n="19-20">thyngv
+   </lb>
+   <lb n="20">
+    mawrllw Yn wir yr ydychwy yn tybiaid
+   </lb> 
+   <lb n="21">nad ydiw hynny mewn eniwed y 'r enait
+   </lb> 
+   <lb n="22">Val y mae sain pawl yn dywedyd
+   </lb> 
+   <lb n="23">_______________________________
+   </lb> 
+   <lb n="24">yn wir o dywedaf ychwi y bydd raid ywch
+   </lb> 
+   <lb n="25">roi kyfrif am bob gair over a 'r a ddywedyssoch
+   </lb> 
+   <lb n="26">er Ioed ac ni adewir vn haibio heb ddwyn
+   </lb> 
+   <lb n="27">dialedd amdano ddydd brawd Ac er duw
+   
+   
+   </lb>
+   </pb>
+   <pb n="137.">
+   
+    
+   <lb n="1">paidiwch a 'ch gwatwargerdd a 'ch overedd Ac
+   </lb> 
+   <lb n="2">os chwi a wna yr hwnn yssy dda gan dduw
+   </lb> 
+   <lb n="3">chwchwi a dyngwch moliant a moliant y 'r
+   </lb> 
+   <lb n="4">neb a 'i dywetto Kans y tafod a ddengys
+   </lb> 
+   <lb n="5">ewllys y galhon yn gyntaf mewn meddwl
+   </lb> 
+   <lb n="6">a 'r ail mewn gwaithred A hynny a wna
+   </lb> 
+   <lb n="7">y 'r bobyl syrthio mewn pechod
+   </lb> 
+   <lb n="8">___________________________
+   </lb> 
+   <lb n="9">Yn gyntaf ef a demtir y dyn y wnaythyr
+   </lb> 
+   <lb n="10">wrth ewllys meddwl
+   </lb> 
+   <lb n="11">A 'r ewllys a gynnyll y pechod
+   </lb> 
+   <lb n="12">___________________________
+   </lb> 
+   <lb n="13">Ac yn wir pan ddarffo gwnaythyr y pechod
+   </lb> 
+   <lb n="14">hynny a 'i pair ef i 'r poenav tragwddawl ac
+   </lb> 
+   <lb n="15">yn vnwedic yr hai a watwaro y 
+   </lb>
+   <lb n="15-16">kidgristnogion
+   </lb>
+   <lb n="16">
+    Kans mawr yw y pechod hwnnw
+   
+   
+   
+   
+   </lb> 
+   <lb n="17">Mi a gaf yn yssgrifenedic vod&nbsp;
+   </lb>
+   <lb n="17-18">my
+   nnaches
+   </lb>
+   <lb n="18">
+    santaidd ac yn lan vorwyn heb 
+   </lb>
+   <lb n="18-19">ogan
+   </lb>
+   <lb n="19">
+    iddi oddiwrth bechod godineb Eithr
+   </lb> 
+   <lb n="20">na vedrai hi ond son a dywedyd gairav 
+   </lb>
+   <lb n="20-21">amherthynas
+   </lb>
+   <lb n="21">
+    ty ac att hynny Ac velly y nos
+   </lb> 
+   <lb n="22">gwedy y marw hi y gwelai y chwiorydd hi vagad
+   </lb> 
+   <lb n="23">o anyssbrydoedd yn dyfod lle y kladdyssid y
+   </lb> 
+   <lb n="24">korff a 'i godi y vynydd a 'i esgyrio ac 
+   </lb>
+   <lb n="24-25">ysgyrssiav
+   </lb>
+   <lb n="25">
+    tanllyd o 'i harffed y vynydd yni oedd hi
+   </lb> 
+   <lb n="26">kyn ddyet a 'r glo ac o 'i gwregis y waered kyn
+   
+   
+   </lb>
+   </pb>
+   <pb n="138.">
+   
+    
+   <lb n="1">wnned a 'r eira ac anyssbrydoedd heb allel
+   </lb> 
+   <lb n="2">aniwed \eniwed\ iddi Ac ydd oedd ddwy o 'i chwiorydd hi yn
+   </lb> 
+   <lb n="3">kadw yr eglwys gwedy kodi y vynydd hanner nos
+   </lb> 
+   <lb n="4">y wssnaethv duw kyn kodi y llaill y vynydd
+   </lb> 
+   <lb n="5">A phan glwssant hwy y nad hynn ofnhav a
+   </lb> 
+   <lb n="6">wnaethant yn vawr Eithr ef a roes pob
+   </lb> 
+   <lb n="7">vn ohonynt gyssyr y gilydd a dyfod ty ac
+   </lb> 
+   <lb n="8">etti a wnaethant a gofyn iddi paham yr
+   </lb> 
+   <lb n="9">oedd hi yn yr agwedd hwnnw Ac y dywad
+   </lb> 
+   <lb n="10">yr ysbryd wrthynt yn wir chwi a wddoch vy
+   </lb> 
+   <lb n="11">mod i yn lan oddiwrth bechod yn y byd
+   </lb> 
+   <lb n="12">Eithr yr oedd yn ewyllyssgar gennyf i son
+   </lb> 
+   <lb n="13">am bechod ac o 'r achos hwnnw yr wyf i
+   </lb> 
+   <lb n="14">yn y boen honn oni wneloch chwi ych gweddi
+   </lb> 
+   <lb n="15">drossof i Kans trwy ych gweddiav chwi y 
+   </lb>
+   <lb n="15-16">mae
+   </lb>
+   <lb n="16">
+    gallel vy helpv ac ymwagelwch 
+   </lb>
+   <lb n="16-17">chwithav
+   </lb>
+   <lb n="17">
+   &nbsp;rac y kyfryw bechod hwnnw Ac yr ywan y
+   </lb> 
+   <lb n="18">gellwch chwi weled y perigl yssydd am
+   </lb> 
+   <lb n="19">dano ac am ddywedyd masswedd ac oferedd
+   </lb> 
+   <lb n="20">Val y mae yr ebostol heddiw yn dywedyd
+   </lb> 
+   <lb n="21">______________________
+   </lb> 
+   <lb n="22">kossba dy gnawd rac anwiredd a bydd yfydd
+   </lb> 
+   <lb n="23">a char dy dduw yn vwy no dim a bydd 
+   </lb>
+   <lb n="23-24">heddychlon
+   </lb>
+   <lb n="24">
+    a gwna ddayoni a darestwng \darostwng\ y 'th
+   </lb> 
+   <lb n="25">gid gristion Kans yfydd vy grist a llawer o
+   </lb> 
+   <lb n="26">ysgorn a ddioddefoedd a gwatwar Ac ef a 'i
+   </lb> 
+   <lb n="27">kymerth yn yfydd ac mewn kariad pryffaith
+   
+   
+   </lb>
+   </pb>
+   <pb n="139.">
+   
+    
+   <lb n="1">er roi enssampyl y 'r kristnogion y wnaythyr
+   </lb> 
+   <lb n="2">y gyfryw Eithr pwy bynnac a vynnai vyw
+   </lb> 
+   <lb n="3">yn ddwyfol ac yn gywir nis kayff rac pobl
+   </lb> 
+   <lb n="4">ddrwc genvigennys A phwy bynnac a ddioddefo
+   </lb> 
+   <lb n="5">yn yfydd y mae ef yn verthyr ger bronn duw
+   </lb> 
+   <lb n="6">Ac er dwyn ar ddyall ychwi
+   
+   
+   
+   
+   </lb> 
+   <lb n="7">Mi a gaf yn ysgrifenedic mewn&nbsp;bychedd
+   </lb> 
+   <lb n="8">gwr santaidd a elwir Iosseph a ddioddefodd 
+   </lb>
+   <lb n="8-9">lawer
+   </lb>
+   <lb n="9">
+    o vlinder Eithr val y delai vlinder
+   </lb> 
+   <lb n="10">arno ef a 'i dioddefai yn yfydd Ac o 'r achos
+   </lb> 
+   <lb n="11">hwnnw yr oedd ef mewn anrydedd mawr val
+   </lb> 
+   <lb n="12">y kewch y glywed Eithr y mae yr estori
+   </lb> 
+   <lb n="13">honn yn ry hir ond nyni a gymerwn yr
+   </lb> 
+   <lb n="14">hwnn yssydd anghenraid ar hynn o amsser
+   </lb> 
+   <lb n="15">Ac y 'r gwr hwnn yr oedd dad a elwit Iacob
+   </lb> 
+   <lb n="16">ac y 'r gwr hwnn yr oedd ddayddec o vaibion
+   </lb> 
+   <lb n="17">yn vrodyr I Iosseph Ond ef a 'i karai y dad
+   </lb> 
+   <lb n="18">ef yn vwy noc vn o 'r llaill ac am hynny
+   </lb> 
+   <lb n="19">nis karai y vrodyr ef yn gymaint ac
+   </lb> 
+   <lb n="20">o achos gweled ohonaw ef vraiddwyd ac y
+   </lb> 
+   <lb n="21">gwyddiav ef y gorvyddai arnyntwy wnaythyr
+   </lb> 
+   <lb n="22">iddaw ef anrydedd ac y byddai arglwydd 
+   </lb>
+   <lb n="22-23">arnyd
+   </lb>
+   <lb n="23">
+    Ac velly y kymerssant hwy y kyngor
+   </lb> 
+   <lb n="24">ac y dywedassant
+   
+   
+   </lb>
+   </pb>
+   <pb n="140.">
+   
+    
+   <lb n="1">Ni awn ac a 'i lladdwn ef ac etto ofni
+   </lb> 
+   <lb n="2">duw a wnaethan Eithr ni a 'i gwerthwn ef
+   </lb> 
+   <lb n="3">y iegipt
+   </lb> 
+   <lb n="4">Ac velly y gwerthassant hwy ef er xxx d
+   </lb> 
+   <lb n="5">o arian val y gwerthassit yr arglwydd Ac
+   </lb> 
+   <lb n="6">o 'r achos hwnny y by dduw gidac ef ac
+   </lb> 
+   <lb n="7">y prynodd pontiffer ef ystiwart brenin tir
+   </lb> 
+   <lb n="8">egipt Eithr yr oedd genvigen gan y kythrel
+   </lb> 
+   <lb n="9">wrth Iosseph megis y temtodd y kythreyl
+   </lb> 
+   <lb n="10">arglwyddes hwnnw y garv ef yn vawr
+   </lb> 
+   <lb n="11">____________________________
+   </lb> 
+   <lb n="12">Ac velly yr edrychodd yr arglwyddes ar Iosseph
+   </lb> 
+   <lb n="13">ac a gymerth afael yn i law ac yn ael
+   </lb> 
+   <lb n="14">y vantell ac a ddywad wrtho dyred ti ataf i
+   </lb> 
+   <lb n="15">y gysgv A phan wyby ef y meddwl hi ef a ffoes
+   </lb> 
+   <lb n="16">ymaith ac adewis yno y vantell Ac
+   </lb> 
+   <lb n="17">yna pryd na welas y wraic amgenach no
+   </lb> 
+   <lb n="18">hynny y kriodd hi yn ffest ac y dywad wrth
+   </lb> 
+   <lb n="19">y gwr wely di val y kaissiai Iosseph gyssgv
+   </lb> 
+   <lb n="20">gida myvi Ac y peris yr arglwydd roi Iosseph
+   </lb> 
+   <lb n="21">yngharchar yn y lle I roessai ffaraw y vwtler
+   </lb> 
+   <lb n="22">a 'i bobydd A phan syrthiassan y gyssgv y 
+   </lb>
+   <lb n="22-23">gwelynt
+   </lb>
+   <lb n="23">
+    vraiddwyd ac y dywad Iosseph y roi
+   </lb> 
+   <lb n="24">y brenin y vwtler yn y lle y byassai ef
+   </lb> 
+   <lb n="25">yn y blaen kyn pen y trydydd dydd ac y
+   </lb> 
+   <lb n="26">krogid y  pobydd kyn pen y trydydd dydd
+   
+   
+   </lb>
+   </pb>
+   <pb n="141.">
+   
+    
+   <lb n="1">Ac val y dywad ef yddynt y by Ac velly ef
+   </lb> 
+   <lb n="2">a hapiodd y 'r brenin weled braiddwyd \breuddwyd\ ac ni 
+   </lb>
+   <lb n="2-3">wyddai
+   </lb>
+   <lb n="3">
+    neb ddim o 'i dyall na 'i deongl Eithr
+   </lb> 
+   <lb n="4">wrth gyngor y bwtler y danvones ef yn ol
+   </lb> 
+   <lb n="5">Iosseph a phan ddywad y brenin y vraiddwyd 
+   </lb>
+   <lb n="5-6">iddaw
+   </lb>
+   <lb n="6">
+    y dywad Iosseph vod tyw yn darbod o
+   </lb> 
+   <lb n="7">honaw vn vawr ac y doe amlder saith
+   </lb> 
+   <lb n="8">mlynedd yn ol hynny o bob peth ac wedy
+   </lb> 
+   <lb n="9">hynny drydaniaeth saith mlynedd eraill ac
+   </lb> 
+   <lb n="10">y byddai y bobyl heb ddim gantynt Ac velly
+   </lb> 
+   <lb n="11">y dyfod y brenin ni wnn i neb a vetro roi
+   </lb> 
+   <lb n="12">kynghor wrth hynny ond tydi a mi a 'th wnaf
+   </lb> 
+   <lb n="13">di yn orychel ystiwart ar vy mrenhiniaeth I
+   </lb> 
+   <lb n="14">Ac yna y peris yntav wnaythyr ysgyboriav
+   </lb> 
+   <lb n="15">mawr kedyrn a chasgly yr yd hyd ymhen saith
+   </lb> 
+   <lb n="16">mlynedd a llenwi yr esgyboriav yn ffest A 
+   </lb>
+   <lb n="16-17">phann
+   </lb>
+   <lb n="17">
+    ddarvy y saith mlynedd kyntaf yr oedd
+   </lb> 
+   <lb n="18">yn esgant y ffrwythav yn y byd Ac y klyby
+   </lb> 
+   <lb n="19">Iacob y dad vod yt ar werth yngwlad egipt
+   </lb> 
+   <lb n="20">ac y dannvones Iacob ddec o 'i vaibion y 
+   </lb>
+   <lb n="20-21">brynv
+   </lb>
+   <lb n="21">
+    yd A phan ddoethant yno a gweled Iosseph
+   </lb> 
+   <lb n="22">y syrthiassant y lawr ar y gliniav y anrydeddy
+   </lb> 
+   <lb n="23">ef val y gwelssai ef y vraiddwyd Ac ni 
+   </lb>
+   <lb n="23-24">wyddyent
+   </lb>
+   <lb n="24">
+    twy nad arglwydd y tir oedd ef Eithr
+   </lb> 
+   <lb n="25">ef a 'i ddnaby Iosseph hwynt yn hyssbys ac y
+   
+   
+   </lb>
+   </pb>
+   <pb n="142.">
+   
+    
+   <lb n="1">dywad ef wrthynt yn lladin surgite kodwch
+   </lb> 
+   <lb n="2">y vynydd ysbiwyr ydychi a ddayth yma y 
+   </lb>
+   <lb n="2-3">vredychv
+   </lb>
+   <lb n="3">
+    y tir Ac y gwadassant hwynte yn galed
+   </lb> 
+   <lb n="4">ac y dywedassant mae plant oeddynt yr vn
+   </lb> 
+   <lb n="5">gwr a bod yddynt vrawd arall yn re \nhref\ a bod
+   </lb> 
+   <lb n="6">yddynt vn arall heb wybod ble a hwnnw oedd
+   </lb> 
+   <lb n="7">Iosseph Ac er gwybod gwirionedd ef a beris
+   </lb> 
+   <lb n="8">rwymo vn o 'i vrodyr a elwid simon ac a 
+   </lb>
+   <lb n="8-9">ddyfod
+   </lb>
+   <lb n="9">
+    y gorvyddai arno drigio gidac ef hyd
+   </lb> 
+   <lb n="10">pan ddelynt hwy a 'r brawd oedd yn re \nhref\ yno
+   </lb> 
+   <lb n="11">Ac velly y peris ef yn gyddiedic lawn y
+   </lb> 
+   <lb n="12">ffetanav hwy o 'r yd a roi y harian yn y 
+   </lb>
+   <lb n="12-13">ffetanav
+   </lb>
+   <lb n="13">
+    ymysc yr yd heb wybod yddynt Ac
+   </lb> 
+   <lb n="14">velly pan ddoythant y dre at y tad a thywallt
+   </lb> 
+   <lb n="15">yr yd o 'i ffetanav y kawssant y harian Eithr
+   </lb> 
+   <lb n="16">yr oedd yn drwm gan y dad am simon y vab
+   </lb> 
+   <lb n="17">adawssent hwy yn ol yngharchar a hevyd 
+   </lb>
+   <lb n="17-18">trymach
+   </lb>
+   <lb n="18">
+    oedd ganto orvod arno ddanvon 
+   </lb>
+   <lb n="18-19">beniamyn
+   </lb>
+   <lb n="19">
+    y gyrchv y vrawd at Iosseph Eithr pan
+   </lb> 
+   <lb n="20">ddayth beniamyn ger bron y vrawd ni alloedd
+   </lb> 
+   <lb n="21">y vrawd attal y wylo o achos nad oedd ef
+   </lb> 
+   <lb n="22">yn kymryd y llaill ond hanner brodyr iddaw
+   </lb> 
+   <lb n="23">A phann bringhaodd yr yd gida Iacob y gorvy
+   </lb> 
+   <lb n="24">arno ddanvon beniamyn y gyrchv mwy o 'r yd
+   </lb> 
+   <lb n="25">Ac yno y dilyfrodd Iosseph y vrawd oedd 
+   </lb>
+   <lb n="25-26">yngharchar
+   </lb>
+   <lb n="26">
+    allan ac y peris ef yddyn vyned y
+   
+   
+   </lb>
+   </pb>
+   <pb n="143.">
+   
+    
+   <lb n="1">vwytta ac y llenwid y ffetanav hwynt o 'r yd
+   </lb> 
+   <lb n="2">Ac yn gyddiedic ef a barodd Iosseph roi ffiol
+   </lb> 
+   <lb n="3">arian yn yn \un\ o 'r ffetane a vyssai gan y vrodyr
+   </lb> 
+   <lb n="4">yn yved diod ac y herchis ef yddynt vyned
+   </lb> 
+   <lb n="5">ymaith Ac wedy hynny y dannvones Iosseph
+   </lb> 
+   <lb n="6">y bwtler ar y hol ac y dywad wrthynt mae
+   </lb> 
+   <lb n="7">kam oedd yddynt ddwyn ffiol yn lledrad o 'r lle
+   </lb> 
+   <lb n="8">y kewssynt sir vawr a chresso Ac yno yr oeddynt
+   </lb> 
+   <lb n="9">yn brydd ac y dywedassant nad velly y bysse Ac
+   </lb> 
+   <lb n="10">yno y datodoedd ef y ffetane hwynt ac y kafas
+   </lb> 
+   <lb n="11">y ffiol yn ffettann beniamyn ac y doethant twy
+   </lb> 
+   <lb n="12">drychefn at Iosseph dan wylo A phan y gwelas ef
+   </lb> 
+   <lb n="13">hwynt yn wylo a 'i vrawd ehvn beniamyn
+   </lb> 
+   <lb n="14">yn wylo yn vwyaf e gyd o achos kael y ffiol gid
+   </lb> 
+   <lb n="15">ac ef ac yna y herchis ef yddynt gymryd
+   </lb> 
+   <lb n="16">a sir dda kans myvi yw ych brawd chwi Iosseph
+   </lb> 
+   <lb n="17">ac na vyddwch ofnoc Y byant hwy yn trigio
+   </lb> 
+   <lb n="18">gyd a 'i brawd yn hir o amsser Eithr 
+   </lb>
+   <lb n="18-19">gristnogion
+   </lb>
+   <lb n="19">
+    da yr ystorri honn yr ydis yn y darllain yn
+   </lb> 
+   <lb n="20">eglwys duw yr wythnos honn yn enssampyl
+   </lb> 
+   <lb n="21">y bawb vod yn yfydd ac yn ostyngedic y gid 
+   </lb>
+   <lb n="21-22">gristion
+   </lb>
+   <lb n="22">
+    a dioddef yn yfydd yr hwnn a ddanvon duw
+   </lb> 
+   <lb n="23">attom a bod mewn kariad pryffaith er kariad
+   </lb> 
+   <lb n="24">ar y gwr a ddioddefoedd drossom Eithr pwy bynac
+   </lb> 
+   <lb n="25">a ddigio wrth dduw er danvon arno vlinder
+   </lb> 
+   <lb n="26">y mae yn raid iddo gyffessv yn dda a 'i gymryd
+   </lb> 
+   <lb n="27">yn yvydd Kans ef a ddywaid llawer dyn paham
+   
+   
+   </lb>
+   </pb>
+   <pb n="144.">
+   
+    
+   <lb n="1">y mae duw yn gwnaythyr y chwarav hynn a mi
+   </lb> 
+   <lb n="2">Beth a wnaythym mi yn erbyn duw Yn wir y
+   </lb> 
+   <lb n="3">mae yr haini mewn perigl mawr kans y ryw
+   </lb> 
+   <lb n="4">beth a hynny a wna y ddyn golli gorchafiaeth
+   </lb> 
+   <lb n="5">nefoedd yn vnwedic a wnelych di yn erbyn duw
+   
+   
+   
+   
+   </lb> 
+   <lb n="6">Mi a gaf yssgrifenedic ymyched sain ffrait
+   </lb> 
+   <lb n="7">laian vod gwr gynt yn glaf ac y gweddioedd
+   </lb> 
+   <lb n="8">ef erni am help ac y gwnaeth y lan vorwyn
+   </lb> 
+   <lb n="9">honn ef yn holliach Ac wedy hynny y by ef yn
+   </lb> 
+   <lb n="10">kerdded y vynydd ac y waered ac y diolches ef
+   </lb> 
+   <lb n="11">y dduw ac y 'r santes vendigedic hynny Ac velly
+   </lb> 
+   <lb n="12">val yr oedd ef nosswaith yn y wely yn kysgv
+   </lb> 
+   <lb n="13">ac erbyn trannoeth yr oedd ef yn gwaiddi
+   </lb> 
+   <lb n="14">ac yn gridvan yn dost val y byddai othrwm
+   </lb> 
+   <lb n="15">y wrando Ac a ovynnodd iddo pa beth a 
+   </lb>
+   <lb n="15-16">wnathoedd
+   </lb>
+   <lb n="16">
+    pan ddoyth y klefyd arno yr eilwaith
+   </lb> 
+   <lb n="17">Ac ni ddywad ef ddim Ac yno y gofynnodd
+   </lb> 
+   <lb n="18">y mynach iddo a vyssai yn kyffessv Ac y
+   </lb> 
+   <lb n="19">dywad yntav na byssai ac nad oedd raid
+   </lb> 
+   <lb n="20">kans ni ddygym i na march nac eidion
+   </lb> 
+   <lb n="21">yn lledrad ac ni veddyliais i bechod arythr
+   </lb> 
+   <lb n="22">Ac yna y dywad y mynach er na 
+   </lb>
+   <lb n="22-23">wnaethost
+   </lb>
+   <lb n="23">
+    di vn pechod marwol ti a allyd 
+   </lb>
+   <lb n="23-24">wnaythyr
+   </lb>
+   <lb n="24">
+    llawer o van bechode val y gallai yr haini
+   </lb> 
+   <lb n="25">oll vod yn bechod marwol Kans ti a elly 
+   </lb>
+   <lb n="25-26">lennwi
+   </lb>
+   <lb n="26">
+    ffettan o 'r manyd llaia ac a vo
+   
+   
+   </lb>
+   </pb>
+   <pb n="145.">
+   
+    
+   <lb n="1">val y bo annodd y varch kryf y dwyn Ac
+   </lb> 
+   <lb n="2">velly y gelly dithav vod yn llawn o van 
+   </lb>
+   <lb n="2-3">bechode
+   </lb>
+   <lb n="3">
+    yr hai a 'th ddwc di y 'r poenav tragwddol
+   </lb> 
+   <lb n="4">Ac yna yr aeth y gwr hwnn y gyffessv ac y
+   </lb> 
+   <lb n="5">by ef lan y vychedd o hynny allan
+   
+   
+   
+   
+   
+   </lb> 
+   <lb n="6">Vy ngharedic bobyl dwyn ar dyall
+   </lb> 
+   <lb n="7">ychwi mae heddiw yw y Petwryd sul o 'r 
+   </lb>
+   <lb n="7-8">grawys
+   </lb>
+   <lb n="8">
+    glan yr hwnn y mae eglwys duw yn 
+   </lb>
+   <lb n="8-9">dwyn
+   </lb>
+   <lb n="9">
+    ar ddyall o 'r proffwyd moesses yr hwnn wr
+   </lb> 
+   <lb n="10">oedd yn proffwydo yr arglwydd Iessu grist lawer
+   </lb> 
+   <lb n="11">blwyddyn kyn y eni ac val yr ydym ni yn
+   </lb> 
+   <lb n="12">darllain o voesses val yr oedd ef ymynydd \ym mynydd\ sinai
+   </lb> 
+   <lb n="13">ac y dywad yr arglwydd wrtho __________
+   </lb> 
+   <lb n="14">_______________________________
+   </lb> 
+   <lb n="15">A phan ddayth ffaraw a dala pobyl yr Issrael
+   </lb> 
+   <lb n="16">ac val yr oedd ef yn gwnaythyr kam a hwynt
+   </lb> 
+   <lb n="17">ac yna y kriassant hwyntav ar y gorychaf
+   </lb> 
+   <lb n="18">dduw am help ac y gwrandewis yntev
+   </lb> 
+   <lb n="19">arnynt a 'r arglwydd a erchis y voesses 
+   </lb>
+   <lb n="19-20">vynet
+   </lb>
+   <lb n="20">
+    a thynnv plant yr Issrael o 'e kaethiwet a
+   </lb> 
+   <lb n="21">minav a vyddaf gida thi a dwc di hwynt
+   </lb> 
+   <lb n="22">y dir diogel ac velly wrth ddysc yr arglwydd
+   </lb> 
+   <lb n="23">yr aeth moesses yno ac y kassglodd ef broffwydi
+   </lb> 
+   <lb n="24">a chwbyl o 'r hen bobyl ac a gafas y kyfrwyddo
+   
+   
+   </lb>
+   </pb>
+   <pb n="146.">
+   
+    
+   <lb n="1">hwynt allan o 'r wlad honno ac y dywad 
+   </lb>
+   <lb n="1-2">wrthynt
+   </lb>
+   <lb n="2">
+    val y dysgassai dduw iddaw ac velly
+   </lb> 
+   <lb n="3">y byant lawen ac yr aethant gydac ef
+   </lb> 
+   <lb n="4">hen ac Iefainck hyd y mor ac yr oedd dduw
+   </lb> 
+   <lb n="5">o 'e blaen bob amsser yn i hachyb hwynt rac
+   </lb> 
+   <lb n="6">gwres yr haul a 'r dydd a 'r nos oedd yn olyni
+   </lb> 
+   <lb n="7">yddynt ac oedd yn i kadw rac gwenwyn
+   </lb> 
+   <lb n="8">ac rac pryffed gwenwynic Eithr pan glyby
+   </lb> 
+   <lb n="9">ffaraw gassgly o voesses y bobyl hynn Y 
+   </lb>
+   <lb n="9-10">kymerth
+   </lb>
+   <lb n="10">
+    yntev drychant o gartweni ac a 'i 
+   </lb>
+   <lb n="10-11">llenwis
+   </lb>
+   <lb n="11">
+    o arvav a thrychant eraill ar gost y tir
+   </lb> 
+   <lb n="12">a thrychannmil o wyr traet a saith ygainmil
+   </lb> 
+   <lb n="13">o wyr mairch a phan welas moesses yr aneirif
+   </lb> 
+   <lb n="14">bobyl hynny gweddiaw ar dduw a 
+   </lb>
+   <lb n="14-15">wnaethant
+   </lb>
+   <lb n="15">
+    am help ac ar hynny y gwelai ef
+   </lb> 
+   <lb n="16">yr arglwydd Iessu a gwialen yn i law yn
+   </lb> 
+   <lb n="17">taro 'r mor.
+   
+   
+   </lb> 
+   <lb n="18">A phan drewis ef y mor y gwelai ef ffordd
+   </lb> 
+   <lb n="19">iddaw ef a 'i ly ac ymagores y mor yn ddav
+   </lb> 
+   <lb n="20">hanner ac y safodd y dwr yn llonydd o bob
+   </lb> 
+   <lb n="21">ty iddaw yn ddav vynydd ac yn briffordd 
+   </lb>
+   <lb n="21-22">ryngtynt
+   </lb>
+   <lb n="22">
+    ac yr aeth moesses a 'i bobyl i 'r dwr
+   </lb> 
+   <lb n="23">ac yr aeth ffaraw y 'r dwr ar y hol 
+   </lb>
+   <lb n="23-24">hwynttav
+   </lb>
+   <lb n="24">
+    a chwbyl a 'r a oedd ganto a phan oedd
+   </lb> 
+   <lb n="25">gwbyl o ly ffaraw gwedy myned o vewn
+   </lb> 
+   <lb n="26">y dwr y gyd ydd ymgymysgawdd y dwr ac y
+   </lb> 
+   <lb n="27">boddassant heb ado vn gwr a phann glyby
+   
+   
+   </lb>
+   </pb>
+   <pb n="147.">
+   
+    
+   <lb n="1">moesses hynny y diolches ef yn vawr y dduw
+   </lb> 
+   <lb n="2">ac yno y by ef saith niwarnod a Saith nos
+   </lb> 
+   <lb n="3">y ffaynydd \a pheunydd\ idd aent y 'r dwr y ddiolch am y
+   </lb> 
+   <lb n="4">diangk y wnaythyr kywyddoliaeth y dduw achos
+   </lb> 
+   <lb n="5">gwnaythyr o dduw hynny ac hwynt ac er
+   </lb> 
+   <lb n="6">dwyn kof y ninev oblegid wythnos y pasc
+   </lb> 
+   <lb n="7">o bob ty y 'r mor nid amgenach nno \no\ 'r 
+   </lb>
+   <lb n="7-8">bedyddvaen
+   </lb>
+   <lb n="8">
+    ac yna yr aeth moesses y 'r 
+   </lb>
+   <lb n="8-9">mynnyddoedd
+   </lb>
+   <lb n="9">
+    ac y 'r tir gwyllt oni ddayth ef i 
+   </lb>
+   <lb n="9-10">vynydd
+   </lb>
+   <lb n="10">
+    sinai ac yno y gadewis ef y bobyl 
+   </lb>
+   <lb n="10-11">oddidano
+   </lb>
+   <lb n="11">
+    y gyd ac y safodd moesses ar y 
+   </lb>
+   <lb n="11-12">mynydd
+   </lb>
+   <lb n="12">
+    ychel gida 'r arglwydd ac yno y by ef
+   </lb> 
+   <lb n="13">yn dwyn dyrwest ar y gorff ddaygain 
+   </lb>
+   <lb n="13-14">niwarnod
+   </lb>
+   <lb n="14">
+    heb na bwyd na diod ac yno y roes
+   </lb> 
+   <lb n="15">Iessu grist iddo ddwy dabyl vn o vaen a 'r
+   </lb> 
+   <lb n="16">llall o bridd ac yn yr hai hynny y dec 
+   </lb>
+   <lb n="16-17">gorchymyn
+   </lb>
+   <lb n="17">
+    yn ysgrifenedic o law yr arglwydd
+   </lb> 
+   <lb n="18">ehvn ac a erchis iddo y ddysgv y 'r bobyl
+   </lb> 
+   <lb n="19">a phan ddayth moesses y lawr at y bobyl
+   </lb> 
+   <lb n="20">yr oedd y wyneb kynn wnnet a 'r haul a dav
+   </lb> 
+   <lb n="21">ysbir ar y ben yn debic i ddav gorn a chyn
+   </lb> 
+   <lb n="22">oleyed a chyn decked ac na allai y bobyl
+   </lb> 
+   <lb n="23">edrych arnaw rac y wnnet
+   </lb> 
+   <lb n="24">______________________
+   </lb> 
+   <lb n="25">ac y kyddioedd moesses y wyneb a 
+   </lb>
+   <lb n="25-26">chywrssi
+   </lb>
+   <lb n="26">
+    ac yn y llaill dalen yr oedd dri 
+   
+   </lb>
+   </pb>
+   <pb n="147-148.">
+   <lb n="26-1">gorchymyn
+   </lb>
+   </pb>
+   <pb n="148.">
+   <lb n="1">
+    yr hai a berthvnai ty ac at dduw
+   </lb> 
+   <lb n="2">ehvn nid amgen karv dy dduw ywchlaw dim
+   </lb> 
+   <lb n="3">a 'i anrydeddy a gorchymyn pob anghenraid
+   </lb> 
+   <lb n="4">yn i ewllys ef ac nid wrth dy ewllys ||
+   
+   
+   </lb> 
+   <lb n="5">Yr ail gorchymyn yw na chymer di enw dy
+   </lb> 
+   <lb n="6">dad yn over sef yw hynny ni ellir dy alw
+   </lb> 
+   <lb n="7">yn gristion oni byddy vab y dduw ac ynn
+   </lb> 
+   <lb n="8">wir pwy bynnac ni bo velly diffrwyth yw y
+   </lb> 
+   <lb n="9">henw a hevyd na thwng y dduw nac i vn lle
+   </lb> 
+   <lb n="10">ar y gorff nac y ddim a 'r a greoedd ef er 
+   </lb>
+   <lb n="10-11">tyngv
+   </lb>
+   <lb n="11">
+    kam lw oni 'th gymhellir yn ffest
+   
+   
+   </lb> 
+   <lb n="12">Y Trydydd gorchymyn yw y ti gadw dy suliav
+   </lb> 
+   <lb n="13">a 'th wylav a hynny a ddyaill y ni gofodi yn
+   </lb> 
+   <lb n="14">vorav ac yn hwyr y vyned y gyssgv Eithr
+   </lb> 
+   <lb n="15">gweddio duw a 'y wssnaethv yn y modd y byddi
+   </lb> 
+   <lb n="16">di y dydd gwaith yn gwnaythyr dy waith a 'th
+   </lb> 
+   <lb n="17">orwyl yn hwyr ac yn vore velly y dly 
+   </lb>
+   <lb n="17-18">dithav
+   </lb>
+   <lb n="18">
+    dduw sul a dydd gwyl yn gwssnaethv
+   </lb> 
+   <lb n="19">duw || Y Pedwrydd yw karv ohanot dy dad
+   </lb> 
+   <lb n="20">a 'th vam a 'th ddyc di y 'r byd hwnn a hevyd
+   </lb> 
+   <lb n="21">dy dad a 'th vam a 'th helpodd di y vod yn
+   </lb> 
+   <lb n="22">gristion ac yn vnwedic dy dad ysbrydol
+   </lb> 
+   <lb n="23">yssydd yn dwyn kywr dy enait ti val y
+   </lb> 
+   <lb n="24"> mae yr evengil yn dywedyd anrydedda
+   </lb> 
+   <lb n="25">dy vam a 'th dad megis y bo yn hir dy einioes
+   </lb> 
+   <lb n="26">ar y ddayar honn || Y Pvmet gair deddyf
+   </lb> 
+   <lb n="27">yw pwy bynnac a laddo dyn o 'i vodd onis
+   
+   
+   </lb>
+   </pb>
+   <pb n="149.">
+   
+    
+   <lb n="1">lladd er amddiffin y vywyd ehvn lle ni bo
+   </lb> 
+   <lb n="2">lle y ochel nac y gilio y mae yn pechv
+   </lb> 
+   <lb n="3">yn varwol yn amyl ac yn arythyr pai rann
+   </lb> 
+   <lb n="4">y vod yn iddew nev yn sarssing y neb a laddai
+   </lb> 
+   <lb n="5">kans ef a ddywaid duw ehvn ni mynnaf i
+   </lb> 
+   <lb n="6">angav vn pechadyr
+   
+   
+   </lb> 
+   <lb n="7">Y chweched gair deddyf yw na wna odineb
+   </lb> 
+   <lb n="8">yn y gair hwnnw y hayrch duw I ddyn na
+   </lb> 
+   <lb n="9">wnel odineb ac na bo kyd knawd rwng gwr
+   </lb> 
+   <lb n="10">a gwraic oddieithr priodas achos mae kyntaf
+   </lb> 
+   <lb n="11">krefydd a 'ssodes \osodes\ duw vy briodas ac ef ehvn
+   </lb> 
+   <lb n="12">a 'i gwnaeth kynn pechod
+   
+   
+   </lb> 
+   <lb n="13">Saithved gair deddyf yw na wna ledrat yn y
+   </lb> 
+   <lb n="14">gair hwnnw i hairch duw y ddyn na ddycko
+   </lb> 
+   <lb n="15">ef dda y gymodoc o 'i annvodd nac o 'i dwyll nac
+   </lb> 
+   <lb n="16">o 'i annoc a lledrad yssydd warddedic herwydd y
+   </lb> 
+   <lb n="17">gyfraith gyntaf a roddes duw y ddyn gan
+   </lb> 
+   <lb n="18">ddywedyd a 'r nas mynnyd yt dy hvn na
+   </lb> 
+   <lb n="19">wna dithav i arall
+   
+   
+   </lb> 
+   <lb n="20">Yr Wythved gair deddyf yw na ddywaid ac na
+   </lb> 
+   <lb n="21">ddwc gam dystoliaeth yn erbyn dy gymodoc
+   </lb> 
+   <lb n="22">yn y gorchymyn hwnnw y hairch duw y ddyn
+   </lb> 
+   <lb n="23">na chadarnhao gelwydd trwy dwng megis y 
+   </lb>
+   <lb n="23-24">kolletter
+   </lb>
+   <lb n="24">
+    y gymodoc  o 'i dda nev o 'i
+   </lb> 
+   <lb n="25">glod bydol
+   
+   </lb>
+   </pb>
+   <pb n="150.">
+   
+    
+   <lb n="1">Y nawfet gair deddyf yw na chwenycha na
+   </lb> 
+   <lb n="2">thv \thy\ na thir dy gymodoc Sef yw hynny drwy
+   </lb> 
+   <lb n="3">dwyll a chamwedd a phwy bynnac a 'i chwenycho
+   </lb> 
+   <lb n="4">er tristyd a gofyd iddaw yw megis y dywaid
+   </lb> 
+   <lb n="5">Esseias broffwyd gwae chwi yr hai yssydd yn
+   </lb> 
+   <lb n="6">kyssyllty y ty wrth y ty a 'r maes wrth y
+   </lb> 
+   <lb n="7">maes hyd yn hervyn y plas
+   
+   
+   </lb> 
+   <lb n="8">Y degved gair deddyf yw na chwenycha wraic
+   </lb> 
+   <lb n="9">dy gymodoc na 'i was na 'i vorwyn na 'i vch \ych\
+   </lb> 
+   <lb n="10">na 'i varch na nebryw ddim a 'r a vo ar y
+   </lb> 
+   <lb n="11">helw drwy dwyll nev gamwedd a chyn ddrwc
+   </lb> 
+   <lb n="12">hayach yw y ddyn chwenychv gwraic y 
+   </lb>
+   <lb n="12-13">gymodoc
+   </lb>
+   <lb n="13">
+    nev y verch y maes o briodas a phai bai
+   </lb> 
+   <lb n="14">gwedy gwnaythyr y gwaithred kans yn benyd
+   </lb> 
+   <lb n="15">ynt o achos or da \os &acirc;\ dyn y yffern am y pechod
+   </lb> 
+   <lb n="16">llaiaf yssydd ni ddaw ef oddyno yn dragywydd
+   </lb> 
+   <lb n="17">a hynn yw y dec gorchymyn yn rwymedic y 'w
+   </lb> 
+   <lb n="18">dysgv ac y 'w kadw ac val hynn y doeth at 
+   </lb>
+   <lb n="18-19">voesses
+   </lb>
+   <lb n="19">
+    oddiwrth yr arglwydd ac y dayth moesses o 'r
+   </lb> 
+   <lb n="20">blaen yr roi 'r gyfraith ac y dayth Iessu
+   </lb> 
+   <lb n="21">y \i 'w\ chadarnhav ac y roi gras a thrygaredd yn
+   </lb> 
+   <lb n="22">y modd ac ymddiffynnodd ef bobyl yr Issrael
+   </lb> 
+   <lb n="23">drwy yr mor y vynydd sinai a hevyd yn yr
+   </lb> 
+   <lb n="24">vn ffynyd pan ddayth yr arglwydd a 'i 
+   </lb>
+   <lb n="24-25">wrthav
+   </lb>
+   <lb n="25">
+    y dynnv y bobyl o 'r tywllwch ac o 'i 
+   </lb>
+   <lb n="25-26">kamvychedd
+   </lb>
+   <lb n="26">
+    drwy y dwr hwnn ar olchedigaeth 
+   
+   </lb>
+   </pb>
+   <pb n="150-151.">
+   <lb n="26-1">y
+   </lb>
+   </pb>
+   <pb n="151.">
+   <lb n="1">
+    bedydd y 'r mynydd rinweddol ac am
+   </lb> 
+   <lb n="2">hynny pwy bynnac a 'madawo \ymadawo\ a 'i 
+   </lb>
+   <lb n="2-3">gamvychedd
+   </lb>
+   <lb n="3">
+    ac a gattwo y dec gorchymyn a 
+   </lb>
+   <lb n="3-4">wnaethbwyd
+   </lb>
+   <lb n="4">
+    o 'i kadw ef a godir yn ywch noc vn
+   </lb> 
+   <lb n="5">mynydd Sef yw hynny y 'r nef Eithr pwy
+   </lb> 
+   <lb n="6">bynnac a wnel hynn y mae yn raid iddaw
+   </lb> 
+   <lb n="7">gymryd ymborth ar bvm torth o vara a dav
+   </lb> 
+   <lb n="8">vrithill val yr ydwyf i heddiw yn darllain yn
+   </lb> 
+   <lb n="9">yr evengil val y porthes krist y pvmmil
+   </lb> 
+   <lb n="10">pobyl a 'r pvm torth bara haidd a 'r dday 
+   </lb>
+   <lb n="10-11">byscodyn
+   </lb>
+   <lb n="11">
+    Y dorth gyntaf adifairwch \edifeirwch\ kalhon am
+   </lb> 
+   <lb n="12">y bechodav | Yr ail yw kyffes lan o 'th enav ||
+   </lb> 
+   <lb n="13">A 'r drydedd yw gwnaythyr Iawn am y 
+   </lb>
+   <lb n="13-14">tressbas
+   </lb>
+   <lb n="14">
+    Y bedwredd yw na throech yr ailwaith
+   </lb> 
+   <lb n="15">y 'th bechod kans y neb a ofno pechod
+   </lb> 
+   <lb n="16">a ddaw y gael trygaredd dduw a 'r ddav 
+   </lb>
+   <lb n="16-17">byssgodyn
+   </lb>
+   <lb n="17">
+    hynn y gweddiav ai roi kardodav a
+   </lb> 
+   <lb n="18">hynn a 'th ylch di o 'th enwiredd
+   
+   
+   
+   
+   
+   </lb> 
+   <lb n="19">Mi a gaf yn ysgrifenedic vod gwr kyfoethawc
+   </lb> 
+   <lb n="20">yr hwnn a elwid pyrs Eithr yr oedd ef mor
+   </lb> 
+   <lb n="21">galed ac na roe ef ddim y neb a ddelo atto
+   </lb> 
+   <lb n="22">y gaissio ac yna ve hapion vod llawer o bobl
+   </lb> 
+   <lb n="23">yn kerdded gwedy ymgassgly y 'r vnlle yn son
+   </lb> 
+   <lb n="24">am y gwr hwnn pa ddelw y gellynt twy gael
+   
+   
+   </lb>
+   </pb>
+   <pb n="152.">
+   
+    
+   <lb n="1">dim ganto ac y dywad vn a oedd vaistir
+   </lb> 
+   <lb n="2">arnynt pa beth a ddeliwch chwi a mi na
+   </lb> 
+   <lb n="3">chaf i beth ganto ef a dala kynglwyst a
+   </lb> 
+   <lb n="4"> wnaethant ag ef na chai ef ddim ganto
+   </lb> 
+   <lb n="5">a myned y wnaeth y gwr hwnn emyl y ty ac
+   </lb> 
+   <lb n="6">eistav \eistedd\ yn y porth hyd pan welas ef y gwr yn
+   </lb> 
+   <lb n="7">dyfod ty ac atto ac ef a griodd mor dost
+   </lb> 
+   <lb n="8">ac mor dryan ac o wir lit ef a 'i tawlodd \taflodd\&nbsp;y
+   </lb> 
+   <lb n="9"> gwr ef a thorth vara gan ddywedyd wrtho
+   </lb> 
+   <lb n="10">ystopia dy benn a honn ynghengol o ddiawl
+   </lb> 
+   <lb n="11">ac ysstopo ac velly y kymerth ef y dorth ac
+   </lb> 
+   <lb n="12">y ffoes at y gyfaillion yn gyntaf byth ac
+   </lb> 
+   <lb n="13">y galloedd ac a 'i dangosses yddynt ac a
+   </lb> 
+   <lb n="14">enilloedd y gynglwyst arnynt ac ynna ef
+   </lb> 
+   <lb n="15">a hapiodd y 'r gwr kyfoethoc hwnn glefychy y
+   </lb> 
+   <lb n="16"> nos nessaf at hynny ac ef a gymerth
+   </lb> 
+   <lb n="17">y wassanaeth ac a vy varw ac y dayth
+   </lb> 
+   <lb n="18">anysbrydoedd y gaissio yr enait ac a 'i 
+   </lb>
+   <lb n="18-19">kymerssant
+   </lb>
+   <lb n="19">
+    Eithr yr oedd yr arglwyddes vair yn
+   </lb> 
+   <lb n="20">barod y achyb yr enait ac y herchis hi
+   </lb> 
+   <lb n="21">ddwyn yr enait ger y bron hi ac velly y
+   </lb> 
+   <lb n="22">gwnaethbwyd ac nid oedd dim y helpv y 'r
+   </lb> 
+   <lb n="23">enait ond y dorth vara a dawlassai \taflasai\ ef at
+   </lb> 
+   <lb n="24">benn y gwr tlawd o 'i annvodd ac y dyfod
+   </lb> 
+   <lb n="25">yr anysbrydoedd mae yn erbyn y ewllys
+   </lb> 
+   <lb n="26">y kawssai y dyn gwann honno gan 
+   
+   </lb>
+   </pb>
+   <pb n="152-153.">
+   <lb n="26-1">gyfiawnder
+   </lb>
+   </pb>
+   <pb n="153.">
+   <lb n="1">
+    ni ddlyai honno helpv ac yna yr aeth
+   </lb> 
+   <lb n="2">mair at y harglwydd vab I weddio arno ar
+   </lb> 
+   <lb n="3">roi yr enaid yn y korff yr eilwaith y 
+   </lb>
+   <lb n="3-4">edrych
+   </lb>
+   <lb n="4">
+    a mendiai ac yna y herchis yr arglwydd
+   </lb> 
+   <lb n="5">y 'r enait vyned y mywn y 'r korff a ffan aeth
+   </lb> 
+   <lb n="6">yr enait at y korff y safodd y korff yn i 
+   </lb>
+   <lb n="6-7">sefyll
+   </lb>
+   <lb n="7">
+    ac y roes ef ychenaid trwm ac a
+   </lb> 
+   <lb n="8">elwis atto gwbyl o 'i genel \genedl\ a 'i 
+   </lb>
+   <lb n="8-9">gydmaithion
+   </lb>
+   <lb n="9">
+    ac a ddywad wrthynt mor gadarn a
+   </lb> 
+   <lb n="10">vyssai y varn arno ac ydd athoedd ef y
+   </lb> 
+   <lb n="11">yffern oni byssav y dorth vara a dawlassai \daflasai\
+   </lb> 
+   <lb n="12">ef at benn y kardottwr ac y gwerthodd ef
+   </lb> 
+   <lb n="13">y rann vwyaf o 'i dda ac a 'i rannodd rwng
+   </lb> 
+   <lb n="14">tlodion ac ymddifaid a gwaniaid er mwyn
+   </lb> 
+   <lb n="15">yr arglwydd ac y kymerth yntav grefydd
+   </lb> 
+   <lb n="16">arno ac yr aeth yn voydwy bycheddol o 
+   </lb>
+   <lb n="16-17">hynny
+   </lb>
+   <lb n="17">
+    allan ac y by ef varw yn dailwng
+   </lb> 
+   <lb n="18">Eithr gristnogion da llyma lle gellwch
+   </lb> 
+   <lb n="19">chwi weled vaint yw rinwedd yr elwissenn
+   </lb> 
+   <lb n="20">ac mor gadarn y mae hi y 'th gadw di rac
+   </lb> 
+   <lb n="21">y varn galed kans pob kyfryw ddyn a 'r a
+   </lb> 
+   <lb n="22">wnel elwissen er kariad ar y greawdr dduw
+   </lb> 
+   <lb n="23">a vydd amddiffynnol oddieithr y vod  mewn 
+   </lb>
+   <lb n="23-24">pechod
+   </lb>
+   <lb n="24">
+    marwol
+   
+   
+   
+   
+   
+   </lb> 
+   <lb n="25">Mi a gaf yn ysgrifenedic vod gwr gynt
+   
+   
+   </lb>
+   </pb>
+   <pb n="154.">
+   
+    
+   <lb n="1">yn llosgi glo mewn fforest a gwnaythyr
+   </lb> 
+   <lb n="2">tan mawr a wnai ac wrth hwnnw y byddai
+   </lb> 
+   <lb n="3">ef yn vynych ac velly nosswaith y gwelai
+   </lb> 
+   <lb n="4">wraic yn rydec \rhedeg\ y boparth y 'r tan yn ffesta
+   </lb> 
+   <lb n="5">byth ac alle a gwr ar y hol a chleddav
+   </lb> 
+   <lb n="6">noeth yn i law ar gefn march dy yn
+   </lb> 
+   <lb n="7">ffesta byth ac y gallai varchogaeth yn 
+   </lb>
+   <lb n="7-8">amgylch
+   </lb>
+   <lb n="8">
+    y tan ac o 'r diwedd yn dyfod iddi ac
+   </lb> 
+   <lb n="9">yn i lladd ac yn y dryllio ac yn y bwrw yn
+   </lb> 
+   <lb n="10">y tan ac yno myned ymaith yn 
+   </lb>
+   <lb n="10-11">gyntaf
+   </lb>
+   <lb n="11">
+    ac y gallai a wnaeth ac velly pan
+   </lb> 
+   <lb n="12">welas y gwas hynn yn vynech o waithe y
+   </lb> 
+   <lb n="13">dywad ef y chwedl wrth y vaistir a gwas
+   </lb> 
+   <lb n="14">gwych antyrys oedd hwnnw ac ef a vynnai
+   </lb> 
+   <lb n="15">bryfo y gwas a gwybod beth oedd hyny ai 
+   </lb>
+   <lb n="15-16">gwir
+   </lb>
+   <lb n="16">
+    ai kelwydd ac y gwisgodd amdano yn
+   </lb> 
+   <lb n="17">arvoc ac yr aeth y 'r fforest ac y gwelas ef
+   </lb> 
+   <lb n="18">bob peth val y dywedassai y gwas ac yno
+   </lb> 
+   <lb n="19">y gofynnodd y gwr hwnn y 'r ysbryd oblegid
+   </lb> 
+   <lb n="20">tyw \Duw\ pa beth oedd ac yr atebodd hithav ef
+   </lb> 
+   <lb n="21">gan ddywedyd myvi yw gwraic hwnn a
+   </lb> 
+   <lb n="22">a hwnn ac a wnaeth yn erbyn vy ngwr 
+   </lb>
+   <lb n="22-23">priod
+   </lb>
+   <lb n="23">
+    heb wybod iddo a 'r gwr ar y march dy
+   </lb> 
+   <lb n="24">ydiw y kythrel a hwnnw yssydd yn vy mhoeni
+   </lb> 
+   <lb n="25">yn vwy no ffai bai holl wres tan y byd yn
+   </lb> 
+   <lb n="26">vy llosgi ac yn vwy noc vn poen a 'r a ellit
+   
+   
+   </lb>
+   </pb>
+   <pb n="155.">
+   
+    
+   <lb n="1">y veddylio yn yr holl vyd a 'r boen hynn 
+   </lb>
+   <lb n="1-2">yssy
+   </lb>
+   <lb n="2">
+   &nbsp;raid y mi y ddioddef hyd pan gaffwyf
+   </lb> 
+   <lb n="3">i help drwy weddie a chardode vy 
+   </lb>
+   <lb n="3-4">ngharedigion
+   </lb>
+   <lb n="4">
+    I drossof ac velly y helpodd y gwr hwnn
+   </lb> 
+   <lb n="5">hi yn gymaint ac y galloedd ac a 'i 
+   </lb>
+   <lb n="5-6">dilifoedd
+   </lb>
+   <lb n="6">
+    hi o 'r poenav y 'r llawenydd tragwddawl
+   </lb> 
+   <lb n="7">heb drank a heb orffen
+   
+   
+   
+   
+   </lb>
+   </pb>
+   
+</text>
