@@ -15,6 +15,11 @@ let corpora=
 	{
 		filename:'HCWL Sketchengine/files/amer_ske.xml',
 		type:'html'
+	},
+	b1588_ske:
+	{
+		filename:'HCWL Sketchengine/files/b1588_ske.xml',
+		type:'html'
 	}
 }
 
@@ -140,7 +145,7 @@ function loadHtmlFile(filename)
 	.then(text => 
 	{
 		let parser=new DOMParser()
-		let hcwl_dom=parser.parseFromString(text, "text/html")
+		let hcwl_dom=parser.parseFromString(text, "text/xml")
 		let lb_tags=hcwl_dom.getElementsByTagName('lb')
 
 		for(let lb of lb_tags)
@@ -156,6 +161,11 @@ function loadHtmlFile(filename)
 				{
 					//tags=node.localName+':'+node.attributes[0].value+' '+tags
 					tags=node.attributes[0].value+' '+tags
+				}
+				//heading
+				if(node.localName=='head')
+				{
+					tags='Heading '+tags
 				}
 				node=node.parentNode
 			}
@@ -181,10 +191,16 @@ function loadHtmlFile(filename)
 					node_text+=child.textContent
 				}
 			}
-
+			
 			// let plain_text=lb.innerText
-			let plain_text=node_text
+			let plain_text=node_text.slice(0) //copy
 
+			let rx=new RegExp('\\[')
+			if(rx.test(plain_text))
+			{
+				console.log(plain_text)
+			}
+			
 			//remove line endings & tabs
 			plain_text=plain_text.replaceAll(/^[\s]+/g,'') //remove from beginning of string
 			plain_text=plain_text.replaceAll(/[\s]+$/g,'') //remove from end of string
