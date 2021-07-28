@@ -30,8 +30,8 @@ let lines_after=0
 let results_csv=''
 
 //INIT
-//select_corpus() //set to hcwl to begin
 
+//build drop down of corpora
 fetch('https://www.celticstudies.net/search/corpora/corpora.json').then(response => response.json()).then(data => 
 {
 	corpora=data
@@ -48,11 +48,8 @@ fetch('https://www.celticstudies.net/search/corpora/corpora.json').then(response
 		select.appendChild(opt)
 	}
 	
-	document.multiselect('corpus')
+	document.multiselect('#corpus')
 })
-
-
-
 
 //text box enter
 document.getElementById('search').addEventListener("keyup", ({key}) => 
@@ -294,6 +291,30 @@ function search()
 	let accents=document.getElementById('accents').checked
 	let whole_word=document.getElementById('whole_word').checked
 	let case_sensitive=document.getElementById('case_sensitive').checked
+
+	//load corpora into utts
+	utts=[]
+	var select = document.getElementById('corpus')
+	for(let opt of select.options)
+	{
+		if(opt.selected)
+		{
+			let corpus=opt.value
+			console.log(opt.value)
+			let filename=corpora[corpus].filename
+			let type=corpora[corpus].type
+
+			switch(type)
+			{
+				case 'pos':
+					loadPosFile(filename)
+				break
+				case 'xml':
+					loadHtmlFile(filename)
+				break
+			}
+		}
+	}
 
 	//construct regex
 	let re

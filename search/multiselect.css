@@ -1,9 +1,9 @@
 ﻿.multiselect-wrapper {
-	width: 180px;
+	width: 300px;
 	display: inline-block;
 	white-space: nowrap;
 	font-size: 12px;
-	font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+	font-family: "Calibri", "Trebuchet MS", Arial, sans-serif;
 }
 
 .multiselect-wrapper .multiselect-input {
@@ -14,7 +14,7 @@
 .multiselect-wrapper label {
 	display: block;
 	font-size: 12px;
-	font-weight : 600;
+	/* font-weight : 600; */
 }
 
 .multiselect-wrapper .multiselect-list {
@@ -32,9 +32,9 @@
 		display: block;
 	}
 
-	.multiselect-wrapper .multiselect-list > span {
+	/* .multiselect-wrapper .multiselect-list > span {
 		font-weight: bold;
-	}
+	} */
 
 	.multiselect-wrapper .multiselect-list .multiselect-checkbox {
 		margin-right: 2px;
@@ -66,15 +66,15 @@
 		display: block;
 	}
 
-		.multiselect-wrapper ul li.active {
-			background-color: rgb(0, 102, 255);
+		/* .multiselect-wrapper ul li.active {
+			background-color:#009e73;
 			color: white;
 		}
 
 		.multiselect-wrapper ul li:hover {
-			background-color: rgb(0, 102, 255);
+			background-color:#009e73;
 			color: white;
-		}
+		} */
 
 .multiselect-input-div {
 	height: 34px;
@@ -92,7 +92,7 @@
 	position: relative;
 	text-align: center;
 	border-radius: 2px;
-	background-color: lightblue;
+	background-color:#aed5ed;
 	display: inline-block !important;
 	padding: 2px 7px;
 	left: -45px;
