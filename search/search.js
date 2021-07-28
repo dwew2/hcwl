@@ -31,7 +31,7 @@ let results_csv=''
 //INIT
 //select_corpus() //set to hcwl to begin
 
-fetch('corpora/corpora.json')
+fetch('https://www.celticstudies.net/search/corpora/corpora.json')
 .then(response => response.json())
 .then(data => corpora=data)
 
