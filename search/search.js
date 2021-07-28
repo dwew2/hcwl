@@ -1,28 +1,29 @@
 // ADD SECTION FOR EACH CORPUS - key should match the dropdown option value in search.html, type should be one of 'pos' or 'html'
-let corpora=
-{
-	pwyllwb:
-	{
-		filename:'PwyllWB.pos.txt',
-		type:'pos'
-	},
-	hcwl:
-	{
-		filename:'hcwl_sketchengine_v4.txt',
-		type:'html'
-	},
-	amer_ske:
-	{
-		filename:'HCWL Sketchengine/files/amer_ske.xml',
-		type:'html'
-	},
-	b1588_ske:
-	{
-		filename:'HCWL Sketchengine/files/b1588_ske.xml',
-		type:'html'
-	}
-}
+// let corpora=
+// {
+// 	pwyllwb:
+// 	{
+// 		filename:'PwyllWB.pos.txt',
+// 		type:'pos'
+// 	},
+// 	hcwl:
+// 	{
+// 		filename:'hcwl_sketchengine_v4.txt',
+// 		type:'html'
+// 	},
+// 	amer_ske:
+// 	{
+// 		filename:'HCWL Sketchengine/files/amer_ske.xml',
+// 		type:'html'
+// 	},
+// 	b1588_ske:
+// 	{
+// 		filename:'HCWL Sketchengine/files/b1588_ske.xml',
+// 		type:'html'
+// 	}
+// }
 
+let corpora={}
 let utts=[]
 let lines_before=0
 let lines_after=0
@@ -31,11 +32,27 @@ let results_csv=''
 //INIT
 //select_corpus() //set to hcwl to begin
 
-fetch('https://www.celticstudies.net/search/corpora/corpora.json')
-.then(response => response.json())
-.then(data => corpora=data)
+fetch('https://www.celticstudies.net/search/corpora/corpora.json').then(response => response.json()).then(data => 
+{
+	corpora=data
+	//console.log(corpora)
 
-console.log(corpora)
+	var select = document.getElementById('corpus')
+
+	for(let key in corpora)
+	{
+		var opt = document.createElement('option')
+		opt.value = key
+		opt.innerHTML = key
+		opt.selected=true
+		select.appendChild(opt)
+	}
+	
+	document.multiselect('corpus')
+})
+
+
+
 
 //text box enter
 document.getElementById('search').addEventListener("keyup", ({key}) => 
@@ -46,24 +63,24 @@ document.getElementById('search').addEventListener("keyup", ({key}) =>
 	}
 })
 
-function select_corpus()
-{
-	let corpus=document.getElementById('corpus').value
-	let filename=corpora[corpus].filename
-	let type=corpora[corpus].type
+// function select_corpus()
+// {
+// 	let corpus=document.getElementById('corpus').value
+// 	let filename=corpora[corpus].filename
+// 	let type=corpora[corpus].type
 
-	utts=[]
+// 	utts=[]
 
-	switch(type)
-	{
-		case 'pos':
-			loadPosFile(filename)
-		break
-		case 'html':
-			loadHtmlFile(filename)
-		break
-	}
-}
+// 	switch(type)
+// 	{
+// 		case 'pos':
+// 			loadPosFile(filename)
+// 		break
+// 		case 'html':
+// 			loadHtmlFile(filename)
+// 		break
+// 	}
+// }
 
 function on_lines()
 {

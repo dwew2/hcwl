@@ -1,1 +1,130 @@
-{"amer_ske":{"filename":"search/corpora/amer_ske.xml","type":"xml"},"b1588_ske":{"filename":"search/corpora/b1588_ske.xml","type":"xml"},"ber_ske":{"filename":"search/corpora/ber_ske.xml","type":"xml"},"bhj_ske":{"filename":"search/corpora/bhj_ske.xml","type":"xml"},"bll_ske":{"filename":"search/corpora/bll_ske.xml","type":"xml"},"bmadd14986_ske":{"filename":"search/corpora/bmadd14986_ske.xml","type":"xml"},"cardiff6_ske":{"filename":"search/corpora/cardiff6_ske.xml","type":"xml"},"chsm_ske":{"filename":"search/corpora/chsm_ske.xml","type":"xml"},"cmb_ske":{"filename":"search/corpora/cmb_ske.xml","type":"xml"},"corpora":{"filename":"search/corpora/corpora.json","type":"pos"},"dff_ske":{"filename":"search/corpora/dff_ske.xml","type":"xml"},"dpo_ske":{"filename":"search/corpora/dpo_ske.xml","type":"xml"},"gbc_ske":{"filename":"search/corpora/gbc_ske.xml","type":"xml"},"hhgb_ske":{"filename":"search/corpora/hhgb_ske.xml","type":"xml"},"jaug_ske":{"filename":"search/corpora/jaug_ske.xml","type":"xml"},"llgm_ske":{"filename":"search/corpora/llgm_ske.xml","type":"xml"},"llgo_ske":{"filename":"search/corpora/llgo_ske.xml","type":"xml"},"llh_ske":{"filename":"search/corpora/llh_ske.xml","type":"xml"},"nlw13075b_ske":{"filename":"search/corpora/nlw13075b_ske.xml","type":"xml"},"nlw14873e_ske":{"filename":"search/corpora/nlw14873e_ske.xml","type":"xml"},"nlw2722e_ske":{"filename":"search/corpora/nlw2722e_ske.xml","type":"xml"},"pen218_ske":{"filename":"search/corpora/pen218_ske.xml","type":"xml"},"pma_ske":{"filename":"search/corpora/pma_ske.xml","type":"xml"},"PwyllWB.pos":{"filename":"search/corpora/PwyllWB.pos.txt","type":"pos"},"rhc_ske":{"filename":"search/corpora/rhc_ske.xml","type":"xml"},"rhy_ske":{"filename":"search/corpora/rhy_ske.xml","type":"xml"},"tch_ske":{"filename":"search/corpora/tch_ske.xml","type":"xml"},"tchb_ske":{"filename":"search/corpora/tchb_ske.xml","type":"xml"},"tirh_ske":{"filename":"search/corpora/tirh_ske.xml","type":"xml"},"tn-huet_ske":{"filename":"search/corpora/tn-huet_ske.xml","type":"xml"},"tn-sal_ske":{"filename":"search/corpora/tn-sal_ske.xml","type":"xml"},"yk_ske":{"filename":"search/corpora/yk_ske.xml","type":"xml"}}
+{
+	"amer_ske": {
+		"filename": "search/corpora/amer_ske.xml",
+		"type": "xml"
+	},
+	"b1588_ske": {
+		"filename": "search/corpora/b1588_ske.xml",
+		"type": "xml"
+	},
+	"ber_ske": {
+		"filename": "search/corpora/ber_ske.xml",
+		"type": "xml"
+	},
+	"bhj_ske": {
+		"filename": "search/corpora/bhj_ske.xml",
+		"type": "xml"
+	},
+	"bll_ske": {
+		"filename": "search/corpora/bll_ske.xml",
+		"type": "xml"
+	},
+	"bmadd14986_ske": {
+		"filename": "search/corpora/bmadd14986_ske.xml",
+		"type": "xml"
+	},
+	"cardiff6_ske": {
+		"filename": "search/corpora/cardiff6_ske.xml",
+		"type": "xml"
+	},
+	"chsm_ske": {
+		"filename": "search/corpora/chsm_ske.xml",
+		"type": "xml"
+	},
+	"cmb_ske": {
+		"filename": "search/corpora/cmb_ske.xml",
+		"type": "xml"
+	},
+	"corpora": {
+		"filename": "search/corpora/corpora.json",
+		"type": "pos"
+	},
+	"dff_ske": {
+		"filename": "search/corpora/dff_ske.xml",
+		"type": "xml"
+	},
+	"dpo_ske": {
+		"filename": "search/corpora/dpo_ske.xml",
+		"type": "xml"
+	},
+	"gbc_ske": {
+		"filename": "search/corpora/gbc_ske.xml",
+		"type": "xml"
+	},
+	"hhgb_ske": {
+		"filename": "search/corpora/hhgb_ske.xml",
+		"type": "xml"
+	},
+	"jaug_ske": {
+		"filename": "search/corpora/jaug_ske.xml",
+		"type": "xml"
+	},
+	"llgm_ske": {
+		"filename": "search/corpora/llgm_ske.xml",
+		"type": "xml"
+	},
+	"llgo_ske": {
+		"filename": "search/corpora/llgo_ske.xml",
+		"type": "xml"
+	},
+	"llh_ske": {
+		"filename": "search/corpora/llh_ske.xml",
+		"type": "xml"
+	},
+	"nlw13075b_ske": {
+		"filename": "search/corpora/nlw13075b_ske.xml",
+		"type": "xml"
+	},
+	"nlw14873e_ske": {
+		"filename": "search/corpora/nlw14873e_ske.xml",
+		"type": "xml"
+	},
+	"nlw2722e_ske": {
+		"filename": "search/corpora/nlw2722e_ske.xml",
+		"type": "xml"
+	},
+	"pen218_ske": {
+		"filename": "search/corpora/pen218_ske.xml",
+		"type": "xml"
+	},
+	"pma_ske": {
+		"filename": "search/corpora/pma_ske.xml",
+		"type": "xml"
+	},
+	"PwyllWB.pos": {
+		"filename": "search/corpora/PwyllWB.pos.txt",
+		"type": "pos"
+	},
+	"rhc_ske": {
+		"filename": "search/corpora/rhc_ske.xml",
+		"type": "xml"
+	},
+	"rhy_ske": {
+		"filename": "search/corpora/rhy_ske.xml",
+		"type": "xml"
+	},
+	"tch_ske": {
+		"filename": "search/corpora/tch_ske.xml",
+		"type": "xml"
+	},
+	"tchb_ske": {
+		"filename": "search/corpora/tchb_ske.xml",
+		"type": "xml"
+	},
+	"tirh_ske": {
+		"filename": "search/corpora/tirh_ske.xml",
+		"type": "xml"
+	},
+	"tn-huet_ske": {
+		"filename": "search/corpora/tn-huet_ske.xml",
+		"type": "xml"
+	},
+	"tn-sal_ske": {
+		"filename": "search/corpora/tn-sal_ske.xml",
+		"type": "xml"
+	},
+	"yk_ske": {
+		"filename": "search/corpora/yk_ske.xml",
+		"type": "xml"
+	}
+}
