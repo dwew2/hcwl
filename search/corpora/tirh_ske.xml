@@ -1,0 +1,7043 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../sketchengine.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+ <text id="TIRh">
+     
+
+
+
+     <text id="TIRh_1">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="1">Kreawdr y byd ar nef hefyd</lb>
+
+
+    <lb n="2">duw ywnaeth tayr iaith yn un gair</lb>
+
+
+    <lb n="3">yn gyna gryw ar ail ebryw</lb>
+
+
+    <lb n="4">llading drydy arferwys jesu</lb>
+
+
+    <lb n="5">ar bedwredd or dialedd</lb>
+
+
+    <lb n="6">duw wasgarodd yr holl jeythoedd</lb>
+
+
+    <lb n="7">am bod nin byw yn jaith ebryw</lb>
+
+
+    <lb n="8">yn doydyd gair byth mynn *kredir</lb>
+
+
+    <lb n="9">ond dewised may duw yn clowed</lb>
+
+
+    <lb n="10">a hyny y sy ddifai geny</lb>
+
+
+    <lb n="11">na drwg nada y feddylia</lb>
+
+
+    <lb n="12">dyn maer drindod duw yny wybod</lb>
+
+
+    <lb n="13">bwedd y dychyn e wybod hyn</lb>
+
+
+    <lb n="14">heb y fod ef duw yn y clonef</lb>
+
+
+    <lb n="15">yddwni yn y tad duw yn wstad</lb>
+
+
+    <lb n="16">ac may ynte ynonine</lb>
+
+
+
+
+
+    <lb n="17">velly may bod yny pechod</lb>
+
+
+    <lb n="18">ni thrig duw yn hir ond yny cowir</lb>
+
+
+    <lb n="19">may llid jni yddi ofni</lb>
+
+
+    <lb n="20">duw yny diawl yn gyndrychawl</lb>
+
+
+
+
+
+
+
+    <lb n="21">grym na gavel yn y kythrel</lb>
+
+
+    <lb n="22">nyd oes onyd duw 'n y symyd</lb>
+
+
+    <lb n="23">i mae ynte 'n vrawd i ninne</lb>
+
+
+    <lb n="24">oddiar y grog yn drigarog</lb>
+
+
+    <lb n="25">ved yn ddelo 'r dydd i draio</lb>
+
+
+    <lb n="26">rhwng kam a jawn ve vydd kyviawn</lb>
+
+
+    <lb n="27">'n y modd i bo 'r dyn pan elo</lb>
+
+
+    <lb n="28">i 'r bedd o 'r byd velly kyvyd</lb>
+
+
+    <lb n="29">ond ymolched pawb a 'i waithred</lb>
+
+
+    <lb n="30">drwg kyn el y ddy bridd wely</lb>
+
+
+    <lb n="31">pan ddel gairbronn justys kyvion</lb>
+
+
+    <lb n="32">i hvnan sy 'n kael i varny</lb>
+
+
+    <lb n="33">nef yn barod i 'r dibechod</lb>
+
+
+    <lb n="34">i eraill bydd poen dragywydd</lb>
+
+
+    <lb n="35">ny ddwg vndyn bwys tri gronyn</lb>
+
+
+    <lb n="36">o bybyr y nef heb daly</lb>
+
+
+
+    <lb n="td. NLW 13070B, 1.diwedd">Thomas ap jeuann ap Rys a 'i kant 29
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_2">
+        <pb n="">
+        
+
+
+    <lb n="1">Mab vn duw byw yw pob kriston</lb>
+
+
+    <lb n="2">ag yn byw sydd mewn ffydd ffyddlon</lb>
+
+
+    <lb n="3">gwyr a gwragedd da a morynion</lb>
+
+
+    <lb n="4">kyflawn i kred merched maibon</lb>
+
+
+    <lb n="5">drwy vedydd vry jesu o sain sion</lb>
+
+
+    <lb n="6">yn oed dauwr mewn dwr avon</lb>
+
+
+
+
+
+    <lb n="7">yr hwnn i kant hwyr plant gwirion</lb>
+
+
+    <lb n="8">i rhoi 'n y ffydd efrydd mvdion</lb>
+
+
+    <lb n="9">er i dwyn hwy drwy 'r alldrawon</lb>
+
+
+    <lb n="10">at i tad dduw yn vywolion</lb>
+
+
+    <lb n="11">tri chyfaillt sydd nos dydd taeron</lb>
+
+
+    <lb n="12">gwrthnebwyr duw yw 'r kyvaillon</lb>
+
+
+    <lb n="13">y knawd a 'r byd ysbryd kroelon</lb>
+
+
+    <lb n="14">drwg yn troi sy y meddylon</lb>
+
+
+    <lb n="15">nys gad e y gredy 'n ffyddlon</lb>
+
+
+    <lb n="16">i kaiff 'n y vyw gan dduw ddigon</lb>
+
+
+    <lb n="17">kasglad a vydd kebydd kyson</lb>
+
+
+    <lb n="18">ve gad hwy gyd i 'r byd estron</lb>
+
+
+    <lb n="19">v' a 'n hoeth lle 'dd oedd gwisgoedd gwychion</lb>
+
+
+    <lb n="20">gair bronn wrth wys justys kyvion</lb>
+
+
+    <lb n="21">drwy 'r tan a 'r ja vo gwna gwaison</lb>
+
+
+    <lb n="22">duw 'n y purdan e 'n lan ddigon</lb>
+
+
+    <lb n="23">heb vwy o dravl na 'r havl wenngronn</lb>
+
+
+    <lb n="24">lliw aira nos ne ros gwynion</lb>
+
+
+    <lb n="25">megis i bu jesu 'r kyvion</lb>
+
+
+    <lb n="26">yngolwg tri o 'r disgyblon</lb>
+
+
+    <lb n="27">jeuann ddidro jago simon</lb>
+
+
+    <lb n="28">pedr i ni yw 'r tri thustion</lb>
+
+
+    <lb n="29">ve airch duw dad nad y 'th galon</lb>
+
+
+    <lb n="30">vod llid ynghudd bydd heddychlon</lb>
+
+
+
+
+
+    <lb n="31">na rho help y 'r traiswyr *lladron</lb>
+
+
+    <lb n="32">na chyngor y 'r twyllwyr ffailston</lb>
+
+
+    <lb n="33">ro dy dda 'n hu y 'r tylodion</lb>
+
+
+    <lb n="34">a 'th dir teg rho lle bo kyvion</lb>
+
+
+    <lb n="35">kar vi na choll o 'th holl galon</lb>
+
+
+    <lb n="36">os velly gwnav ti gav ddigon</lb>
+
+
+
+    <lb n="td. NLW 13070B, 3.diwedd">Thomas ap jeuann ap Rys a 'i kant 30
+    </lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_3">
+        <pb n="">
+        
+
+
+    <lb n="1">Nyd jawn kanmol ond y dwyvol</lb>
+
+
+    <lb n="2">anwyvol nyd ody 'n kredy</lb>
+
+
+    <lb n="3">dall yw a dwl yn y veddwl</lb>
+
+
+    <lb n="4">byddar a mvd yw e hevyd</lb>
+
+
+    <lb n="5">ny ad gelyn enaid pob dyn</lb>
+
+
+    <lb n="6">yddy galon gredy 'n ffyddlon</lb>
+
+
+    <lb n="7">ny chred e vod mab y drindod</lb>
+
+
+    <lb n="8">vy ar y grog yn alleog</lb>
+
+
+    <lb n="9">ag ny chred y 'r ffairad ally</lb>
+
+
+    <lb n="10">o 'r gairav gna gnawd o 'r bara</lb>
+
+
+    <lb n="11">na thrwy 'r lladin i try e 'r gwin</lb>
+
+
+    <lb n="12">yn waed mab rhad vel i dywad</lb>
+
+
+    <lb n="13">nag i rhwym llen ddwr a halen</lb>
+
+
+    <lb n="14">i ladd ynghyd y drwg ysbryd</lb>
+
+
+    <lb n="15">yr hwnn rhagddo maent yn kilo</lb>
+
+
+    <lb n="16">vel partris rhog yr ysbarog</lb>
+
+
+
+
+
+    <lb n="17">ny chrede y bax y jesu</lb>
+
+
+    <lb n="18">dive ganto i vynd e haibo</lb>
+
+
+    <lb n="19">ny ddychon e i neb i vadde</lb>
+
+
+    <lb n="20">ag nys govyn yntav i vndyn</lb>
+
+
+    <lb n="21">yr oen gwirion ymroes dryson</lb>
+
+
+    <lb n="22">ysy 'n karu yn kusanv</lb>
+
+
+    <lb n="23">ve rhoes kusan i 'r ysbryd glan</lb>
+
+
+    <lb n="24">yn ffalst ve gas kusan sidas</lb>
+
+
+    <lb n="25">pa gyvaillt wyd hebe 'r proffwyd</lb>
+
+
+    <lb n="26">y 'm kusanv heb vy ngharu</lb>
+
+
+    <lb n="27">ny char e chwaith vara kyfraith</lb>
+
+
+    <lb n="28">sy 'n ymdiffyn eneid pob dyn</lb>
+
+
+    <lb n="29">os kaiff dwyvol o law 'r urddol</lb>
+
+
+    <lb n="30">v' a i eneid e i 'r nef gole</lb>
+
+
+    <lb n="31">a 'i gorff yn wir i gysegr dir</lb>
+
+
+    <lb n="32">bwedd bynnag vo angav yddo</lb>
+
+
+    <lb n="33">heb ymfoddi nag ymgrogi</lb>
+
+
+    <lb n="34">ne leas arall megis angall</lb>
+
+
+    <lb n="35">ny fforffeta gainog o 'i dda</lb>
+
+
+    <lb n="36">na 'v dir na 'v dy yr wythnos hynny</lb>
+
+
+    <lb n="37">chwi gewch ddangos Risiart thomas</lb>
+
+
+    <lb n="38">yr achos ydd wyf j 'n kany</lb>
+
+
+    <lb n="39"> er mwyn erchi rhodd i chwchwi</lb>
+
+
+    <lb n="40">ny bydd y rhodd hynny /n/ ormodd</lb>
+
+
+
+
+
+    <lb n="41">pax jesu lwyd i langynwyd</lb>
+
+
+    <lb n="42">lle nad oes gwell na dryll astell</lb>
+
+
+    <lb n="43">os rhowch i mi er i erchi</lb>
+
+
+    <lb n="44">minnav ddweda ywch beth a wna</lb>
+
+
+    <lb n="45">o daw haibo esgob tailo</lb>
+
+
+    <lb n="46">na swffrigan i wlad vorgan</lb>
+
+
+    <lb n="47">mi wnaf yddo i vendigo</lb>
+
+
+    <lb n="48">a rhoi ar hwnn i bawb bardwn</lb>
+
+
+    <lb n="49">vel i bo i chwi rhann o 'r weddi</lb>
+
+
+    <lb n="50">drwy blwyf y llann! vawr a bychan</lb>
+
+
+
+    <lb n="td. NLW 13070B, 5.diwedd">Thomas ap jeuann ap Rys a 'i kant 31
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_4">
+        <pb n="">
+        
+
+
+    <lb n="1">Kreawdr or nef arnoe krier</lb>
+
+
+    <lb n="2">kredig ir mab jesu kreder</lb>
+
+
+    <lb n="3">ysbrydawl vn tri nydoes bryder</lb>
+
+
+    <lb n="4">i ymswyn y groes ar bob amser</lb>
+
+
+    <lb n="5">a gaisais gan dduw pan ddangoser</lb>
+
+
+    <lb n="6">mi kevais ystor yw ym kyver</lb>
+
+
+    <lb n="7">pendevig y wlad penn nad over</lb>
+
+
+    <lb n="8">dwn rhefn nybo does yn rhyver</lb>
+
+
+    <lb n="9">a thaliad gan dduw yn lleth alwer</lb>
+
+
+    <lb n="10">yw gweled dy warr dan aur goler</lb>
+
+
+    <lb n="11">syr bevys yth gad syr o bwver</lb>
+
+
+    <lb n="12">syr Ritta gawr wyd ail syr watter</lb>
+
+
+
+
+
+    <lb n="13">syr lawnslod ir maes lleth sialainsier</lb>
+
+
+    <lb n="14">syr predyr mae hil hors ny pryder</lb>
+
+
+    <lb n="15">arevwch na newch yn rhy over</lb>
+
+
+    <lb n="16">ych keraint ach hvn vwy vwy ych karer</lb>
+
+
+    <lb n="17">llin harbert ydywch vel llwyn aurber</lb>
+
+
+    <lb n="18">a chedwch ynghyd mawr ywch hyder</lb>
+
+
+    <lb n="19">ag ymborth dy wyr yngwlad gamber</lb>
+
+
+    <lb n="20">yn llwygys ti gav vrad yn lloeger</lb>
+
+
+    <lb n="21">oi paido ar hynn ddywad peder</lb>
+
+
+    <lb n="22">offeren ai throi yn waith fforier</lb>
+
+
+    <lb n="23">yn gasbeth i ddaeth pylgain  gosber</lb>
+
+
+    <lb n="24">pwy oedi am saith weddir pader</lb>
+
+
+    <lb n="25">ai mawr chwant ar gig sadwrn mercher</lb>
+
+
+    <lb n="26">a gwenwyn rhyw ddydd oedd gig wener</lb>
+
+
+    <lb n="27">nyd rhyvedd na chair mawr waith tryver</lb>
+
+
+    <lb n="28">na ffrwyth da ar goed ond diffrwythder</lb>
+
+
+    <lb n="29">llef arythr ywr tir lle llavurier</lb>
+
+
+    <lb n="30">na chwnnir or yd ywch yr hanner</lb>
+
+
+    <lb n="31">ve gyvyd ny vysg ydig  ever</lb>
+
+
+    <lb n="32">a maedens a gwyg kyn i meder</lb>
+
+
+    <lb n="33">ar gwannyd a gan wynt pan gwnner</lb>
+
+
+    <lb n="34">ny velin ef an dalch ban valer</lb>
+
+
+    <lb n="35">anevail yw pob dyn or niver</lb>
+
+
+    <lb n="36">na ymswyn o gair duw vn amser</lb>
+
+
+
+
+
+    <lb n="37">traeturiaid i ddant ir tarw torer</lb>
+
+
+    <lb n="38">i pennav ag vyth vwy vwy poener</lb>
+
+
+    <lb n="39">ail marsia a chwi aml aurser</lb>
+
+
+    <lb n="40">ych kyty dairoes hir ych katwer</lb>
+
+
+
+    <lb n="td. NLW 13070B, 7.diwedd">Thomas ap jeuann ap Rys ai kant 32
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_5">
+        <pb n="">
+        
+
+
+    <lb n="1">Mae vn marchog aurgadwynog</lb>
+
+
+    <lb n="2">Yn rhagori ar arglwyddi</lb>
+
+
+    <lb n="3">syr siorys sydd harbert ddedwydd</lb>
+
+
+    <lb n="4">ywchlaw digon o varchogion</lb>
+
+
+    <lb n="5">o 'ch gwaed y kaid jairll a dvkiaid</lb>
+
+
+    <lb n="6">ag o wraiddon tywysogion</lb>
+
+
+    <lb n="7">'dd oedd dduw 'n karu kenedl kymry</lb>
+
+
+    <lb n="8">pan y 'ch kavad yn lle 'chendad</lb>
+
+
+    <lb n="9">o rhoes jesu y 'ch tad y ky</lb>
+
+
+    <lb n="10">glan syr mathias chwi a 'i kavas</lb>
+
+
+    <lb n="11">i vawr gariad a 'i ddwedvdiad</lb>
+
+
+    <lb n="12">a 'i ddedwyddyd i mae chwi gyd</lb>
+
+
+    <lb n="13">mawr oedd ffortyn duw y 'ch kalyn</lb>
+
+
+    <lb n="14">pan gaich gymryd yn ych jenktyd</lb>
+
+
+    <lb n="15">vod yn berchen ar ail Elen</lb>
+
+
+    <lb n="16">verch lan liviog goel godebog</lb>
+
+
+    <lb n="17">marsia dirion i dylodion</lb>
+
+
+    <lb n="18">barchys gryaidd arlwyddesaidd</lb>
+
+
+
+
+
+    <lb n="19">o 'ch dau gorff chwi bo 'n kyvodi</lb>
+
+
+    <lb n="20">gant aur dorchaid o harberdaid</lb>
+
+
+    <lb n="21">ny bu berchen dauty hafren</lb>
+
+
+    <lb n="22">ty o 'ch siwt chwi onyd harri</lb>
+
+
+    <lb n="23">ny chedwis gwyr gwedy Arthyr</lb>
+
+
+    <lb n="24">vath gwyr ych llys chwi syr siorys</lb>
+
+
+    <lb n="25">morgannwg vras tair Gwent, Aeas</lb>
+
+
+    <lb n="26">a gwyr hevyd a ddichlynyd</lb>
+
+
+    <lb n="27">kewri gwychion o varchogion</lb>
+
+
+    <lb n="28">llewod i ladd lle bo ymladd</lb>
+
+
+    <lb n="29">hwy aent ddwsen a chwi 'n gapden</lb>
+
+
+    <lb n="30">lle nad elon vil o saeson</lb>
+
+
+    <lb n="31">mae kapdenni yn kael kodi</lb>
+
+
+    <lb n="32">gwyr wrth blaked harri wythfed</lb>
+
+
+    <lb n="33">a pha gwypvn beth a wnelvn</lb>
+
+
+    <lb n="34">nyd aent o dre dros y trothe</lb>
+
+
+    <lb n="35">kwnwchwi ych bys bach syr siorys</lb>
+
+
+    <lb n="36">llyna godi pawb gyda chwi</lb>
+
+
+    <lb n="37">mae rhai o 'r byd yma 'n dwedvd</lb>
+
+
+    <lb n="38">mae 'r ffrangod sy yn kinwrychy</lb>
+
+
+    <lb n="39">ag o disgyn ych mynd atyn</lb>
+
+
+    <lb n="40">gwae nwy ych dyvod o 'r diwarnod</lb>
+
+
+    <lb n="41">kymer y 'th law ddvkiaeth llydaw</lb>
+
+
+    <lb n="42">achos di ddau ty di piav</lb>
+
+
+
+
+
+    <lb n="43">a gyrr ffrangod megis llygod</lb>
+
+
+    <lb n="44">i 'r parwydydd a 'i rhoi vynydd</lb>
+
+
+    <lb n="45">a thi gau 'r byd wrth darfeddyd</lb>
+
+
+    <lb n="46">a 'th ewyllys di syr siorys</lb>
+
+
+    <lb n="47">a choroni /r/ wythfed harri</lb>
+
+
+    <lb n="48">ymharis kynn penn y vlwyddyn</lb>
+
+
+
+    <lb n="td. NLW 13070B, 9.diwedd">Thomas ap jeuann ap Rys a 'i kant 33
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_6">
+        <pb n="">
+        
+
+
+    <lb n="1">Vn gwr i gyd yw 'r kadernyd</lb>
+
+
+    <lb n="2">a brenin ar nef a daear</lb>
+
+
+    <lb n="3">a hwnn yw 'r tad duw vo kaidwad</lb>
+
+
+    <lb n="4">ywch syr siorys harbert hapys</lb>
+
+
+    <lb n="5">sy lew rhywiog hael trigarog</lb>
+
+
+    <lb n="6">a 'r gair yw dros bell ag agos</lb>
+
+
+    <lb n="7">wrth gadarn gwych kadarn ydych</lb>
+
+
+    <lb n="8">ag oen auraid wrth y gwainaid</lb>
+
+
+    <lb n="9">bardd ywch heddwch o ddigryvwch</lb>
+
+
+    <lb n="10">a sarff kroelon ych kasogion</lb>
+
+
+    <lb n="11">mi 'ch kevais chwi ar vy ngweddi</lb>
+
+
+    <lb n="12">gan dduw i ddwyn aur yn gadwyn</lb>
+
+
+    <lb n="13">mi gaf ganto ych rhoi chwi etto</lb>
+
+
+    <lb n="14">lle 'dd oedd ych rhyw chwi 'n jarll kernyw</lb>
+
+
+    <lb n="15">llyma ddiwedd y deng mlynedd</lb>
+
+
+    <lb n="16">sydd er pan vy/m/ j yma 'n kany</lb>
+
+
+
+
+
+    <lb n="17">gwrandewch v' esgys i syr siorys</lb>
+
+
+    <lb n="18">myn duw meistir mi ddweda 'r gwir</lb>
+
+
+    <lb n="19">myvi a vy bymp o 'r hainy</lb>
+
+
+    <lb n="20">yn kael troelo na wrth sywto</lb>
+
+
+    <lb n="21">a thair ailwaith yn vy llawnwaith</lb>
+
+
+    <lb n="22">yn taly 'r da vym ny chwyna</lb>
+
+
+    <lb n="23">ar ddwy eryll gorfod sevyll</lb>
+
+
+    <lb n="24">lle rhoes ych kar chwi vi yngharchar</lb>
+
+
+    <lb n="25">yn rhe gynffig sytai yrddedig</lb>
+
+
+    <lb n="26">ag o vewn gwal kastell tvbal</lb>
+
+
+    <lb n="27">ag o 'n byse duw katwo e</lb>
+
+
+    <lb n="28">y jarll da yno i byswn eto</lb>
+
+
+    <lb n="29"> ag y leni vel dyma vi</lb>
+
+
+    <lb n="30">ailwaith ych llys chwi syr siorys</lb>
+
+
+    <lb n="31">'dd wyf j 'n ofnys dyvod y 'ch llys</lb>
+
+
+    <lb n="32">na chair ych bronn ail kaswallon</lb>
+
+
+    <lb n="33">os chwi a sy yn ddig wrthy</lb>
+
+
+    <lb n="34">am droi haibo rhag ych blino</lb>
+
+
+
+    <lb n="35">gwae vi vlined i mi yn hynged</lb>
+
+
+    <lb n="36">na bewn wedy kael vy ngladdy</lb>
+
+
+    <lb n="37">y pendevig 'dd wyf jnnav 'n ddig</lb>
+
+
+    <lb n="38">wrthychwithe pai gwelwn le</lb>
+
+
+    <lb n="39">wrth j dwesbwyd yn llan gynwyd</lb>
+
+
+    <lb n="40">ych ewyllys chwi syr siorys</lb>
+
+
+    <lb n="41">ddyvod llaidir ailwaith i 'r tir</lb>
+
+
+    <lb n="42">a dwyn dwy vy oddiwrth vy nhy</lb>
+
+
+
+
+
+    <lb n="43">bai sy o ladron ved gaer llion</lb>
+
+
+    <lb n="44">gawr ar ddyfrdwy betai 'n kanmwy</lb>
+
+
+    <lb n="45">diawl a ddygvn hwy vywch ond vn</lb>
+
+
+    <lb n="46">oddiarna gwnaen i gwaetha</lb>
+
+
+    <lb n="47">ag i mae honn yn hen gordon</lb>
+
+
+    <lb n="48">led hesb ddiog vnllygaidog</lb>
+
+
+    <lb n="49">tryan oedd hynn bucho i henddyn</lb>
+
+
+    <lb n="50">dwl byddar hen a dall haechen</lb>
+
+
+    <lb n="51">onyd dwaised chwi gewch glywed</lb>
+
+
+    <lb n="52">bwedd i ordra vi hynn yma</lb>
+
+
+    <lb n="53">maddauwchwi i mi ych oedi</lb>
+
+
+    <lb n="54">idd wyf jnne yn maddav i chwithe</lb>
+
+
+    <lb n="55">ni drown waithon yn heddychlon</lb>
+
+
+    <lb n="56">a chwi vlinwch rhag yr heddwch</lb>
+
+
+    <lb n="57">os nyd ai 'm hol o nef bydol</lb>
+
+
+    <lb n="58">i maes o 'ch ty nes vy maeddy</lb>
+
+
+
+    <lb n="td. NLW 13070B, 11.diwedd">Thomas ap jeuann ap Rys a 'i kant 34
+    </lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_7">
+        <pb n="">
+        
+
+
+    <lb n="1">Roed duw i vawr rhad a llwydd a phen llad</lb>
+
+
+    <lb n="2">ny twr goler wlad tra gloew i lenn</lb>
+
+
+    <lb n="3">ty gwyn teg wyd llew ag eryr llwyd</lb>
+
+
+    <lb n="4">kartre 'r havl wyd kwrt yr hal wenn</lb>
+
+
+    <lb n="5">kroes dai krist jor mor wynn airw mor</lb>
+
+
+    <lb n="6">hael a drych jvor hael drychevenn</lb>
+
+
+
+
+
+    <lb n="7">a gwledd y chwech gwlad yn rhydd ag yn rhad</lb>
+
+
+    <lb n="8">kael tai adailiad koel tad elen</lb>
+
+
+    <lb n="9">gwawn grest gwyn ner gra mynnfyr lliw mamoa</lb>
+
+
+    <lb n="10">gwyn grys o aira gwenn groes seren</lb>
+
+
+    <lb n="11">ffimrav pob ffenest oes i mwy yn wesmest</lb>
+
+
+    <lb n="12">yny ywchel hoewfrest ywchlaw hafren</lb>
+
+
+    <lb n="13">gwydr ar gydfod main nadd liw manod</lb>
+
+
+    <lb n="14">res myntai lewod rismwnt lawen</lb>
+
+
+    <lb n="15">parth llawn pyrth ar lled dwrbil diarbed</lb>
+
+
+    <lb n="16">tramwy a gweled tir mair o gwlen</lb>
+
+
+    <lb n="17">ynyr hal yn rhoi 'r ych yn byw 'n hir i bych</lb>
+
+
+    <lb n="18">a rauad aur wych o rhyd ar wenn</lb>
+
+
+    <lb n="19">graen a gwaed gronw goch ffylib ny ffaeloch</lb>
+
+
+    <lb n="20">ar berfil eloch ar bel aur velen</lb>
+
+
+    <lb n="21">wythran aeth ar jav brodyr ar brydiav</lb>
+
+
+    <lb n="22">rywiowgwaed orav o reged a jrien</lb>
+
+
+    <lb n="23">naw maes yny maen ar brain awna braen</lb>
+
+
+    <lb n="24">ewch i chwarav baen ar ych ywch benn</lb>
+
+
+    <lb n="25">a lladd hyd y llawr plyg kaith palfau 'r kawr</lb>
+
+
+    <lb n="26">a rhann yn vnawr o hil ronwenn</lb>
+
+
+    <lb n="27">vn mab yny maes a ladd ag adain laes</lb>
+
+
+    <lb n="28">gwir jesu byrhaes vu ar y groes brenn</lb>
+
+
+    <lb n="29">try 'r oes yt ar hyd trychant trwy jechyd</lb>
+
+
+    <lb n="30">kryston a gwawn ynghyd krist ag Ann wenn</lb>
+
+
+
+    <lb n="td. NLW 13070B, 12.diwedd">Thomas ap jeuann ap Rys a 'i kant 35
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_8">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">Duw gwyn a 'n gwnaeth pwy gyhyraeth</lb>
+
+
+    <lb n="2">i ddyn yw 'r byd am i vywyd</lb>
+
+
+    <lb n="3">heddiw yn gryf hoenys hainyf</lb>
+
+
+    <lb n="4">ag yvory yn y gladdy</lb>
+
+
+    <lb n="5">ddoe ny berthog traws kenedlog</lb>
+
+
+    <lb n="6">heddiw 'r bobol oll ny ddansiol</lb>
+
+
+    <lb n="7">ddoe pawb yddo&nbsp;/n/ kryny kapo</lb>
+
+
+    <lb n="8">heddiw 'n vnig tlawd pallennig</lb>
+
+
+    <lb n="9">afraid i bydd llawen vndydd</lb>
+
+
+    <lb n="10">nyd ody 'r byd hynn ond tristyd</lb>
+
+
+    <lb n="11">ve ddaw govyn ar bob rhyw ddyn</lb>
+
+
+    <lb n="12">am a rhoes e yn y ene</lb>
+
+
+    <lb n="13">ag a ddelo ailwaith hano</lb>
+
+
+    <lb n="14">a grav 'r galon ond yn gyvion</lb>
+
+
+    <lb n="15">ny ddwg neb dda i 'r byd yma</lb>
+
+
+    <lb n="16">nyd a ganto ddim pan elo</lb>
+
+
+    <lb n="17">o vair vorwyn gwrando di 'r kwyn</lb>
+
+
+    <lb n="18">a 'r llef sy dros bell ag agos</lb>
+
+
+    <lb n="19">dy vab di sy yn harglwydd jesu</lb>
+
+
+    <lb n="20">yn wr kroelon wrth dylodion</lb>
+
+
+    <lb n="21">yn brid i ddaeth pob prydigaeth</lb>
+
+
+    <lb n="22">ar kydwybod gwedy darfod</lb>
+
+
+    <lb n="23">kariad perffaith a aeth ymaith</lb>
+
+
+    <lb n="24">v' aeth rhyw aflwydd ar gredigrwydd</lb>
+
+
+
+
+
+    <lb n="25">a 'r gwr a vy 'n vawr yn helpy</lb>
+
+
+    <lb n="26">v' aeth duw ag e ag a 'i pie</lb>
+
+
+    <lb n="27">och ddydd och nos vynd a thomos</lb>
+
+
+    <lb n="28">ap willam na chae dair oes Adda</lb>
+
+
+    <lb n="29">ny ddaeth twrn drwg i vorgannwg</lb>
+
+
+    <lb n="30">es tair oes waeth nav varwolaeth</lb>
+
+
+    <lb n="31">mynd ag enaid y llaisonaid</lb>
+
+
+    <lb n="32">a blodaevn wiliam siankvn</lb>
+
+
+    <lb n="33">nyd oedd rhyvedd kwyno i vonedd</lb>
+
+
+    <lb n="34">mae kwyn a sy waeth na hynny</lb>
+
+
+    <lb n="35">ny chae dduw o sais na chymro</lb>
+
+
+    <lb n="36">wr o 'i siwt e i gynheddfe</lb>
+
+
+    <lb n="37">distaw gairwir kredig kywir</lb>
+
+
+    <lb n="38">doeth a chymen hael a llawen</lb>
+
+
+    <lb n="39">ny bu 'r bailchon na 'r tylodion</lb>
+
+
+    <lb n="40">neb na chavas da gan domas</lb>
+
+
+    <lb n="41">ny wnn j vod gwr o liflod</lb>
+
+
+    <lb n="42">vath berchen ty en holl gymry</lb>
+
+
+    <lb n="43">balch ag anfalch bara didalch</lb>
+
+
+    <lb n="44">kann gwenith gwyn pob rhyw enllyn</lb>
+
+
+    <lb n="45">pym rhyw ddiod kwrw a bragod</lb>
+
+
+    <lb n="46">gwin koch a gwyn a meddyglyn</lb>
+
+
+    <lb n="47">a 'i rhoi 'n ddigost ag yn ddivost</lb>
+
+
+    <lb n="48">i bob rhyw ddyn heb i wravvn</lb>
+
+
+
+
+
+    <lb n="49">mwyn a thirion wrth dylodion</lb>
+
+
+    <lb n="50">rhoi amwisgoedd y&nbsp;/r/ mairw a 'i kladdy</lb>
+
+
+    <lb n="51">roddi dillad i 'r pedair gwlad</lb>
+
+
+    <lb n="52">pob priodas a wnai domas</lb>
+
+
+    <lb n="53">ag os tlawd vai&nbsp;/r/ sawl a 'i kaffai</lb>
+
+
+    <lb n="54">rhoi dydd hir y allel taly</lb>
+
+
+    <lb n="55">a phan delid ny ddoe'n hwy gid</lb>
+
+
+    <lb n="56">yddy bwrs e ond i madde</lb>
+
+
+    <lb n="57">ble mae heddy a wna velly</lb>
+
+
+    <lb n="58">ble bu ble bydd byth dragywydd</lb>
+
+
+    <lb n="59">roed duw dernas nef i domas</lb>
+
+
+    <lb n="60">ag yddy blant ras a ffyniant</lb>
+
+
+    <lb n="61">a rhoed jechyd er i thristyd</lb>
+
+
+    <lb n="62">yddy briod rhoddi kardod</lb>
+
+
+    <lb n="63">ny chlyw vndyn y weddi hynn</lb>
+
+
+    <lb n="64">na ddweto e o 'i benn jesu amen.</lb>
+
+
+
+    <lb n="td. NLW 13070B, 15.diwedd">Thomas ap jeuann ap Rys a 'i kant 36
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_9">
+        <pb n="">
+        
+
+
+    <lb n="1">Arglwydd jesu dros dy garu</lb>
+
+
+    <lb n="2">truan a thost a ni gwnaethost</lb>
+
+
+    <lb n="3">roi ni ventig gwr yrddedig</lb>
+
+
+    <lb n="4">a 'i ddwyn rhagon yn ddi ymryson</lb>
+
+
+    <lb n="5">a thi nyd gwiw ym gyveddliw</lb>
+
+
+    <lb n="6">ve gyrch pob gwr i wsnaethwr</lb>
+
+
+
+
+
+    <lb n="7">ond v' arglwydd dad gann dy gennad</lb>
+
+
+    <lb n="8">rhy vyrr i ddaeth i venthygiaeth</lb>
+
+
+    <lb n="9">bychan ddigon vysai  syr sion</lb>
+
+
+    <lb n="10">watgin ny byd dair oes ennyd</lb>
+
+
+    <lb n="11">nyd gnwad yn ol y vath yrddol</lb>
+
+
+    <lb n="12">gwnny aberth i sant lidnerth</lb>
+
+
+    <lb n="13">ny bu rygor ywch benn allor</lb>
+
+
+    <lb n="14">bab nag Awstin well o ladin</lb>
+
+
+    <lb n="15">kywir i gwnaeth i wsanaeth</lb>
+
+
+    <lb n="16">i dduw ar hyd i bu vywyd</lb>
+
+
+    <lb n="17">ar gant ny chaid o 'r vakriaid</lb>
+
+
+    <lb n="18">well perchen ty en holl gymry</lb>
+
+
+    <lb n="19">amlach oedd win syr sion watgin</lb>
+
+
+    <lb n="20">nag esgob llan daf i hvnan</lb>
+
+
+    <lb n="21">pan ddavth jesu yddy gyrchy</lb>
+
+
+    <lb n="22">ve wnaeth dolur ar gwmpniwyr</lb>
+
+
+    <lb n="23">lai lai waeth waeth y gwmpniaeth</lb>
+
+
+    <lb n="24">vwy vwy 'r diglod a 'r kebydddod</lb>
+
+
+    <lb n="25">gwae blwyf ylltyd i bod ny byd</lb>
+
+
+    <lb n="26">a phlwyf a gwlad lidnerth abad</lb>
+
+
+    <lb n="27">gwae blwyf dewi&nbsp;/r/joed o 'i golli</lb>
+
+
+    <lb n="28">a phlwyf a llann dydwg dryan</lb>
+
+
+    <lb n="29">pei rhoe 'r drindod yddo e gyvod</lb>
+
+
+    <lb n="30">ailwaith i 'r byd yn y jenktyd</lb>
+
+
+
+
+
+    <lb n="31">ve gae drysto ond i rhivo</lb>
+
+
+    <lb n="32">ddaigain vikar myn sant jlar</lb>
+
+
+    <lb n="33">trist yw amdano person krallo</lb>
+
+
+    <lb n="34">ar hael di bring sion ystradling</lb>
+
+
+    <lb n="35">ar anhawgwr ffylib lychwr</lb>
+
+
+    <lb n="36">a lloen ap Rys sy hiraethys</lb>
+
+
+    <lb n="37">Rys ap siankin aeth at vrenin</lb>
+
+
+    <lb n="38">nef o 'r blaen y beri gyrchy</lb>
+
+
+    <lb n="39">ag yntwy sydd 'n y llawenydd</lb>
+
+
+    <lb n="40">ninnav ny byd hynn mewn tristyd</lb>
+
+
+
+    <lb n="td. NLW 13070B, 17.diwedd">Thomas ap jeuann ap Rys a 'i kant 37
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_10">
+        <pb n="">
+        
+
+
+    <lb n="1">Y grog yw 'r gras i govio gavas</lb>
+
+
+    <lb n="2">jesu rhoe lanas ar i elynion</lb>
+
+
+    <lb n="3">er poen er penyd drostyn ar dristyd</lb>
+
+
+    <lb n="4">noswaith y gablyd gyda i ddisgyblon</lb>
+
+
+    <lb n="5">y modd i maeddwyd o sgwrsiav ysgwrsiwyd</lb>
+
+
+    <lb n="6">drwy benn i gyrrwyd drain boen goron</lb>
+
+
+    <lb n="7">rygas i rhakwyd tynn jawn i tynnwyd</lb>
+
+
+    <lb n="8">gwir jesu hoelwyd ar y groes hoelion</lb>
+
+
+    <lb n="9">koded yn kaidwad yn duw a 'n jawndad</lb>
+
+
+    <lb n="10">y barnwr a ddywad brenin jddewon</lb>
+
+
+    <lb n="11">dallwr a dwyllwyd o 'r karchar kyrchwyd</lb>
+
+
+    <lb n="12">llaw a gwaew helwyd i holli galon</lb>
+
+
+
+
+
+    <lb n="13">gwir jesu grasys lawnserch i lonsys</lb>
+
+
+    <lb n="14">yn rhydd olaigys i rhoddai olygon</lb>
+
+
+    <lb n="15">da oedd duw dad rhoi vn mab yn rhad</lb>
+
+
+    <lb n="16">o ddirfawr gariad i 'r yvydd gwirion</lb>
+
+
+    <lb n="17">i 'r grog ar y groes wrth yn rhaid ni rhoes</lb>
+
+
+    <lb n="18">er byrhae dainoes i bryny dynion</lb>
+
+
+    <lb n="19">dy gorff duw yny gair gwir vab gwyry vair</lb>
+
+
+    <lb n="20">trindod ny gadair troi yn gredigion</lb>
+
+
+    <lb n="21">dy lvn delw dduw gwyddyn nad gaudduw</lb>
+
+
+    <lb n="22">rhag kyhoeddir siesuw vo kuddiavr saeson</lb>
+
+
+    <lb n="23">pa gwyn pa ganiaid pai ddyn pwy ddywaid</lb>
+
+
+    <lb n="24">ny ddon yn gywiriaid i dduw nar goron</lb>
+
+
+    <lb n="25">gwelwch vod gelyn eneidav yndyn</lb>
+
+
+    <lb n="26">y diawl a ffelstyn na dala 'n ffailston</lb>
+
+
+    <lb n="27">trachwant ny trochi kadarn ny kodi</lb>
+
+
+    <lb n="28">chwerwach nar geri chwynychy 'r goron</lb>
+
+
+    <lb n="29">diva mab duw evaeth rhylys rhiolaeth</lb>
+
+
+    <lb n="30">pilwyr llywodraeth polwyr lladron</lb>
+
+
+    <lb n="31">kar dduw 'r kywiriaid yddyvion ddevaid</lb>
+
+
+    <lb n="32">gwainaid llavuriaid ai llevau oeron</lb>
+
+
+
+
+    <lb n="td. NLW 13070B, 18.diwedd">Thomas ap jeuann ap Rys a 'i kant 38
+    </lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_11">
+        <pb n="">
+        
+
+
+    <lb n="1">O dduw nef pa vyd yw hi ar ddynion</lb>
+
+
+    <lb n="2">dialedd a rhoist vel ar dalon</lb>
+
+
+
+
+
+    <lb n="3">darostwng idd wyd bawb yn driston</lb>
+
+
+    <lb n="4">marfolaeth a wnaeth mawr ovalon</lb>
+
+
+    <lb n="5">e vagwyd yn gwlad bendefigion</lb>
+
+
+
+    <lb n="6">y dygodd duw holl gymodogon</lb>
+
+
+    <lb n="7">y ddynwyd y kael yr nen ddynion</lb>
+
+
+    <lb n="8">o 'i vebaint ve dyg duw hwy 'n vaibon</lb>
+
+
+    <lb n="9">y llysoedd lle bu egin llaison</lb>
+
+
+    <lb n="10">ny thygiawdd yn bryd aeth yn waigon</lb>
+
+
+    <lb n="11">o gwenfair y 'th blwyf gwae 'n hwyr gwainon</lb>
+
+
+    <lb n="12">tir lidnerth a 'th blwyf gwaer tylodion</lb>
+
+
+    <lb n="13">a dewi dy blwyf lef brain duon</lb>
+
+
+    <lb n="14">llwydd kewydd bu ddwyn lladd y kywion</lb>
+
+
+    <lb n="15">ry dannwrth ny wlad i rhy dynion</lb>
+
+
+    <lb n="16">arythlef ar dduw trist hiraethlon</lb>
+
+
+
+    <lb n="17">kerdd orwag oedd gynt gwaith kerddorion</lb>
+
+
+    <lb n="18">poen adfyd a wnaeth pawb yn vudion</lb>
+
+
+    <lb n="19">dwyn matho 'n y ol nyd ym waithon</lb>
+
+
+    <lb n="20">brawd Adda vras oedd ar brydyddion</lb>
+
+
+    <lb n="21">ny welwn i kair gwnawn ni wnelon</lb>
+
+
+    <lb n="22">mab wiliam  gan dduw er ambilion</lb>
+
+
+    <lb n="23">a 'i 'dwaenai e 'n dda ymysg dynion</lb>
+
+
+    <lb n="24">a 'i gwelas ve gan gwae i galon</lb>
+
+
+    <lb n="25">roi gairav am wys yn rhagorion</lb>
+
+
+    <lb n="26">digryvach na neb o 'r digryvion</lb>
+
+
+    <lb n="27">ny gwindai ai blas mawr ny gwyndon</lb>
+
+
+    <lb n="28">tra haelach nag vn o 'r tri haelion</lb>
+
+
+
+
+
+    <lb n="29">oes daunydd a bod degoes dynion</lb>
+
+
+    <lb n="30">i gwelir ny byd vab vn galon</lb>
+
+
+    <lb n="31">dwyn harri 'n y ol nyd anhirion</lb>
+
+
+    <lb n="32">brywysgerdd a wnaeth odlav braisgon</lb>
+
+
+    <lb n="33">brytaniaidd nyd dim yw bryd dynion</lb>
+
+
+    <lb n="34">nav siarad am gael oesav hirion</lb>
+
+
+    <lb n="35">sion airav mor ddoeth a sain sieron</lb>
+
+
+    <lb n="36">yn siroedd oedd vab domas wirion</lb>
+
+
+    <lb n="37">gwir jesu erjoed a garyson</lb>
+
+
+    <lb n="38">e dygawdd duw lan gymodogon</lb>
+
+
+    <lb n="39">glynn ogwr lle bu vairdd glynogion</lb>
+
+
+    <lb n="40">ar ddiwedd y byd hwy ddarfyon</lb>
+
+
+    <lb n="41">o dyrwyd ir mab dydded oeron</lb>
+
+
+    <lb n="42">o vairig e vaeth gwawd yn vyrion</lb>
+
+
+    <lb n="43">ym methiant ny byd yma waithon</lb>
+
+
+    <lb n="44">maen wbwb ny hol nef i 'r maibion</lb>
+
+
+
+    <lb n="td. NLW 13070B, 20.diwedd">Thomas ap jeuann ap Rys a 'i kant 39
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_12">
+        <pb n="">
+        
+
+
+    <lb n="1">Kreawdr yn kar&nbsp;*nef a daear</lb>
+
+
+    <lb n="2">mor ag att hynn a sydd yndyn</lb>
+
+
+    <lb n="3">gair duw oedd e yn y dechre</lb>
+
+
+    <lb n="4">a duw yw 'r gair a ddyg gwenfair</lb>
+
+
+    <lb n="5">yn dri ag vn duw yn kalyn</lb>
+
+
+    <lb n="6">tad mab hevyd a glan ysbryd</lb>
+
+
+
+
+
+    <lb n="7">yn vn a thri 'n y baichogi</lb>
+
+
+    <lb n="8">ag er i ddwyn mair sydd vorwyn</lb>
+
+
+    <lb n="9">yn dduw nevol yn ddyn knawdol</lb>
+
+
+    <lb n="10">yn vara a gwin ag yn vrenin</lb>
+
+
+    <lb n="11">ag nyd ffyddlon dim o 'r kriston</lb>
+
+
+    <lb n="12">ny bo 'n kredy vod e velly</lb>
+
+
+    <lb n="13">mawr o gariad a roes y tad</lb>
+
+
+    <lb n="14">dduw nef arnom ni 'r kristnogion</lb>
+
+
+    <lb n="15">vo wnaeth angel v' aeth yn gythrel</lb>
+
+
+    <lb n="16">dyna sampol i ni 'r bobol</lb>
+
+
+    <lb n="17">penna gairbronn yr engylion</lb>
+
+
+    <lb n="18">a theka i bryd a 'i wedd hevyd</lb>
+
+
+    <lb n="19">pan valchioedd ef a syrthioedd</lb>
+
+
+    <lb n="20">er dangos bwedd idd a 'r balchedd</lb>
+
+
+    <lb n="21">kenfigenny a thrachwanty</lb>
+
+
+    <lb n="22">ar balchedd a&nbsp;/r/ llid a syrthia</lb>
+
+
+    <lb n="23">mae 'r pedwar hynn ar vn gwraiddyn</lb>
+
+
+    <lb n="24">ag vn ny bydd heb i gilydd</lb>
+
+
+    <lb n="25">ar sawl i bo /n/ hwy 'n y galon</lb>
+
+
+    <lb n="26">mae duw yddo gwedy ordro</lb>
+
+
+    <lb n="27">poen vffernol yn dragwyddol</lb>
+
+
+    <lb n="28">a diva vo&nbsp;/n/ tyvy o hano</lb>
+
+
+    <lb n="29">ailwaith y naf duw wnaeth Addaf</lb>
+
+
+    <lb n="30">ve a 'i gymar o bridd daear</lb>
+
+
+
+
+
+    <lb n="31">ve rhoes yddyn hwy 'r holl vyd hynn</lb>
+
+
+    <lb n="32">a lle i orffwys yn y bradwys</lb>
+
+
+    <lb n="33">saith awr yn bring i bu 'r taring</lb>
+
+
+    <lb n="34">gynt na gado&nbsp;/r/ diawl yw twyllo</lb>
+
+
+    <lb n="35">am hynn gorfod arnynt ddyvod</lb>
+
+
+    <lb n="36">ylldau /n/ hoethon i lynn ebron</lb>
+
+
+    <lb n="37">heb gael trwyddyd yddy gymryd</lb>
+
+
+    <lb n="38">ond gwellt a dail vel dau anevail</lb>
+
+
+    <lb n="39">a byw 'n y byd trwy vawr ovyd</lb>
+
+
+    <lb n="40">gwedy gorfod y tri phechod</lb>
+
+
+    <lb n="41">y glothineb a 'r godineb</lb>
+
+
+    <lb n="42">a 'r diogi vel dyna 'r tri</lb>
+
+
+    <lb n="43">a 'r pechodau wnaethont hwyll dav</lb>
+
+
+    <lb n="44">hynn yma gair yn y kyvair</lb>
+
+
+    <lb n="45">newyn noethi kynen tlodi</lb>
+
+
+    <lb n="46">kwilydd klevyd poen daisyvyd</lb>
+
+
+    <lb n="47">'dd ym ni 'n dwedvd yn bod ni gyd</lb>
+
+
+    <lb n="48">yn vaibon y dduw a 'i garu</lb>
+
+
+    <lb n="49">a gwaeth na 'r kwn yn pan ddwedwn</lb>
+
+
+    <lb n="50">yn vn amser pader noster</lb>
+
+
+    <lb n="51">ony bai 'n bod o 'n hen bechod</lb>
+
+
+    <lb n="52">yn meddylio ar droi ato</lb>
+
+
+    <lb n="53">marddel a 'r tad yw 'n dwedvdiad</lb>
+
+
+    <lb n="54">an klonav /n/ vn a 'n tri gelyn</lb>
+
+
+
+
+
+    <lb n="55">y knawd a 'r da yw 'r hain yma</lb>
+
+
+    <lb n="56">a 'r kythrel sy&nbsp;/n/ peri kary</lb>
+
+
+
+    <lb n="td. NLW 13070B, 23.diwedd">Thomas ap jeuann ap Rys a 'i kant 40
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_13">
+        <pb n="">
+        
+
+
+    <lb n="1">Y ddelw auraid ddolurys</lb>
+
+
+    <lb n="2">delw dduw dy alw i ddys</lb>
+
+
+    <lb n="3">y grog wyn gwyarog wyd</lb>
+
+
+    <lb n="4">lan gwiniaith o langynwyd</lb>
+
+
+    <lb n="5">llvn y mab rhad jradboen</lb>
+
+
+    <lb n="6">ny llvn i bu 'n llawn o boen</lb>
+
+
+    <lb n="7">edrych ar hyd y drych hwnn</lb>
+
+
+    <lb n="8">velly  bu jesu 'n y basiwnn</lb>
+
+
+    <lb n="9">meddyliwn am i ddolur</lb>
+
+
+    <lb n="10">maen gred yn weled i gur</lb>
+
+
+    <lb n="11">ofni heb raid yn vab bronn</lb>
+
+
+    <lb n="12">ir oedd dduw yr jddewon</lb>
+
+
+    <lb n="13">vae wyry vam ef ar var</lb>
+
+
+    <lb n="14">i gilio rhag gwaew galar</lb>
+
+
+    <lb n="15">herwa 'n wr talh hirwyn teg</lb>
+
+
+    <lb n="16">yddoedd jesu a 'i ddauddeg</lb>
+
+
+    <lb n="17">sidas anwylwas ydoedd</lb>
+
+
+    <lb n="18">chwarav /m/danaw ddifav 'dd oedd</lb>
+
+
+    <lb n="19">er gwerthy bronn gwirionfab</lb>
+
+
+    <lb n="20">ef ai 'r vn mes ef a 'r mab</lb>
+
+
+
+
+
+    <lb n="21">gwedy dyvod travod trwg</lb>
+
+
+    <lb n="22">d' alon oedd o vewn d' olwg</lb>
+
+
+    <lb n="23">dy vradwr gwenaithwr gwann</lb>
+
+
+    <lb n="24">a gaisav gael dy gusan</lb>
+
+
+    <lb n="25">eth rhwymawdd dy nawdd duw ner</lb>
+
+
+    <lb n="26">yr wyth bilain wrth biler</lb>
+
+
+    <lb n="27">dyrny gwiw jesu grasol</lb>
+
+
+    <lb n="28">o dwy ffust gord rhwng dau ffol</lb>
+
+
+    <lb n="29">divai rannoedd duw vrenin</lb>
+
+
+    <lb n="30">i gnawd ef yn gann a gwin</lb>
+
+
+    <lb n="31">dyfr a gwin dy vri a gad</lb>
+
+
+    <lb n="32">eli vair vu lef airad</lb>
+
+
+    <lb n="33">dyvod a chawg a dyfwr</lb>
+
+
+    <lb n="34">yd yn llawn da jawn wyd wr</lb>
+
+
+    <lb n="35">ar dy ddaulin vrenhinwaed</lb>
+
+
+    <lb n="36">ogylch droi a golchi draed</lb>
+
+
+    <lb n="37">addef o wiw dduw yddynt</lb>
+
+
+    <lb n="38">a gad am waith eva gynt</lb>
+
+
+    <lb n="39">hoelo 'r dwylo ny halaeth</lb>
+
+
+    <lb n="40">a 'i draed ef ar drydy vaeth</lb>
+
+
+    <lb n="41">diod a ddauth gwedy ddwyn</lb>
+
+
+    <lb n="42">gwin egr bystl a gwenwyn</lb>
+
+
+
+
+
+    <lb n="td. NLW 13070B, 24.diwedd">Thomas ap jeuann ap Rys a 'i kant 41
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_14">
+        <pb n="">
+        
+
+
+    <lb n="1">Gwrandewch ddau air trwy gennad mair</lb>
+
+
+    <lb n="2">o lawenydd er mwyn y dydd</lb>
+
+
+    <lb n="3">dauthym i 'r byd heb gadernyd</lb>
+
+
+    <lb n="4">na mawr o dda os meddyla</lb>
+
+
+    <lb n="5">a phan elo i 'r pridd ar gro</lb>
+
+
+    <lb n="6">gennyf nyd a dim oddyma</lb>
+
+
+    <lb n="7">na da 'n y byd na mawr olyd</lb>
+
+
+    <lb n="8">ond krys a vo a dau glwm arno</lb>
+
+
+    <lb n="9">vo ddaw dydd brawd a phawb 'n y knawd</lb>
+
+
+    <lb n="10">i wrando barn gyvion gadarn</lb>
+
+
+    <lb n="11">pan ddel gwaithred korff ag ened</lb>
+
+
+    <lb n="12">ag ysgryven pawb 'n y dalken</lb>
+
+
+    <lb n="13">yno i govyn yn harglwydd yn</lb>
+
+
+    <lb n="14">a gadwyson ni 'r gorchmynion</lb>
+
+
+    <lb n="15">pwy sy ddychyn yr amser hynn</lb>
+
+
+    <lb n="16">wedyd mae do yn wir wrtho</lb>
+
+
+    <lb n="17">v' arglwydd jesi ny 'ch gwelson ni</lb>
+
+
+    <lb n="18">ny byd yno erjoed yn kaiso</lb>
+
+
+    <lb n="19">gwelsochwi 'r gwann vel vy hvnan</lb>
+
+
+    <lb n="20">ym henw j 'dd oedd e 'n erchi</lb>
+
+
+    <lb n="21">roesoch yddo yddy swkro</lb>
+
+
+    <lb n="22">chwi kewch engwledd y drigaredd</lb>
+
+
+    <lb n="23">mae tri gelyn trwm y 'n herbyn</lb>
+
+
+    <lb n="24">y knawd a 'r byd a 'r drwg ysbryd</lb>
+
+
+
+
+
+    <lb n="25">a 'r tri hynny trwy dwyll a sy</lb>
+
+
+    <lb n="26">yn troi 'r ened i 'r kaethiwed</lb>
+
+
+    <lb n="27">llesgedd gwae ni a diogi</lb>
+
+
+    <lb n="28">a glothineb trwm yw 'r ateb</lb>
+
+
+    <lb n="29">ryvig balchedd peth oedd rhyvedd</lb>
+
+
+    <lb n="30">i vod mewn dyn brwnt o briddyn</lb>
+
+
+
+    <lb n="td. NLW 13070B, 26.diwedd">Thomas ap jeuann ap Rys a 'i kant 42
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_15">
+        <pb n="">
+        
+
+
+    <lb n="1">Da oedd edrych&nbsp; yn dra mynych</lb>
+
+
+    <lb n="2">ar air duw a phyth i goffa</lb>
+
+
+    <lb n="3">i mae 'r jesu yn kyfflybu</lb>
+
+
+    <lb n="4">'n y vengil e swrn o bethe</lb>
+
+
+    <lb n="5">ag nyd oes vn gair ohanvn</lb>
+
+
+    <lb n="6">ond er synaid ar yr enaid</lb>
+
+
+    <lb n="7">v' aeth gwr medd e i hav hade</lb>
+
+
+    <lb n="8">ag aeth allan a had pywrlan</lb>
+
+
+    <lb n="9">a pheth o 'r had a ddigwyddiad</lb>
+
+
+    <lb n="10">ar phyrdd a than draed hwy sathran</lb>
+
+
+    <lb n="11">a 'r holl adar gwyllton anwar</lb>
+
+
+    <lb n="12">yn mynd ag e heb gael ffrwythe</lb>
+
+
+    <lb n="13">ar rhann arall ymlith ysgall</lb>
+
+
+    <lb n="14">drain a drysi yny vogi</lb>
+
+
+    <lb n="15">a 'r drydedd ve gwymp ar roke</lb>
+
+
+    <lb n="16">ond i saethy maen difflanny</lb>
+
+
+
+
+
+    <lb n="17">a 'r bedwrydd rhann mewn tir prydd</lb>
+
+
+    <lb n="18">yn dwyn ffrwythed ar i ganfed</lb>
+
+
+    <lb n="19">dieithr yw hynn heb i ovyn</lb>
+
+
+    <lb n="20">tywyll yw 'r gair na ddeallair</lb>
+
+
+    <lb n="21">y llavuriad ydiw 'r kywrad</lb>
+
+
+    <lb n="22">a 'r had gaire duw yn hwynte</lb>
+
+
+    <lb n="23">ar ffyrdd llymon yw 'r kristnogion</lb>
+
+
+    <lb n="24">nadel gaire duw 'n y kluste</lb>
+
+
+    <lb n="25">a 'r adar sy ny dihady</lb>
+
+
+    <lb n="26">drwg ysbrydion sy 'n troi 'r galon</lb>
+
+
+    <lb n="27">drysi a gwyd ydiw 'r golyd</lb>
+
+
+    <lb n="28">a sy 'n mogi&nbsp;/r/ holl ddaeoni</lb>
+
+
+    <lb n="29">ar rock na bo&nbsp;/r/ had yn gwraiddo</lb>
+
+
+    <lb n="30">gwedy egin mae mynd yn grin</lb>
+
+
+    <lb n="31">dyn vo 'n kymryd gair duw 'n y vryd</lb>
+
+
+    <lb n="32">ag yn y mann i droi allan</lb>
+
+
+    <lb n="33">ar brynar prudd a sy ddedwydd</lb>
+
+
+    <lb n="34">a 'r dyn a vo tebig yddo</lb>
+
+
+    <lb n="35">kael mae hwnnw&nbsp;/r/ gair a 'i gadw</lb>
+
+
+    <lb n="36">a gwnaethyr 'n y ol a 'i gredy</lb>
+
+
+    <lb n="37">nyd sawl a vo ar dduw 'n krio</lb>
+
+
+    <lb n="38">o laverydd a sy ddedwydd</lb>
+
+
+    <lb n="39">ond a drefna gwaithredoedd da</lb>
+
+
+    <lb n="40">a 'i gyfraithav a 'i orchmynnav</lb>
+
+
+
+    <lb n="td. NLW 13070B, 27.diwedd">Thomas ap jeuann ap Rys a 'i kant 43
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_16">
+        <pb n="">
+        
+
+
+    <lb n="1">Kreawdr pob dim i ti kredaf</lb>
+
+
+    <lb n="2">ti ddyly gael pawb ti addolaf</lb>
+
+
+    <lb n="3">ti a gery bob dyn ti a garaf</lb>
+
+
+    <lb n="4">ti ddewis dy wyr ti weddiaf</lb>
+
+
+    <lb n="5">ry wylais am yd vynd ar haelaf</lb>
+
+
+    <lb n="6">di daring gwae vi ddaed ar dewraf</lb>
+
+
+    <lb n="7">os gwelliant lle mae n mynd nys gallaf</lb>
+
+
+    <lb n="8">syr water gwae vi nas rhou ataf</lb>
+
+
+    <lb n="9">gwae vinnav wrth bwy y govynnaf</lb>
+
+
+    <lb n="10">byth i adel ny ol byth i hudaf</lb>
+
+
+    <lb n="11">o cherddir yr holl vyd ny chwrddaf</lb>
+
+
+    <lb n="12">ai vaner e byth nys erfynnaf</lb>
+
+
+    <lb n="13">diwarnod mi wnn nada arnaf</lb>
+
+
+    <lb n="14">nydolig ym byw byth nad wylaf</lb>
+
+
+    <lb n="15">llwyth wilim o went llai yth welaf</lb>
+
+
+    <lb n="16">kadarnwych vaeth duw ar kadarnaf</lb>
+
+
+    <lb n="17">o epil y jarll vu wr aplaf</lb>
+
+
+    <lb n="18">o Raglan i maent bawb yn rhyglaf</lb>
+
+
+    <lb n="19">ryw anap a ddauth gwae n hwyr hynaf</lb>
+
+
+    <lb n="20">gwaer ailwaith ny ol y gwrolaf</lb>
+
+
+    <lb n="21">gwaer gwychion ai pyrth gwae r rhai gwychaf</lb>
+
+
+    <lb n="22">pai leni bai r gwaith pwy ywr blaenaf</lb>
+
+
+    <lb n="23">gwae glonnav i wyr gewri glanaf</lb>
+
+
+    <lb n="24">.i briod ny ol dwyn ail briaf</lb>
+
+
+
+
+
+    <lb n="25">darostwng awnaeth duw yn dristaf</lb>
+
+
+    <lb n="26">ragorol ar bawb y wraig araf</lb>
+
+
+    <lb n="27">hiraethy ny byd ywr radd waethaf</lb>
+
+
+    <lb n="28">llawenydd i ti velly hvnaf</lb>
+
+
+    <lb n="29">aur dorchog yd vab duw i archaf</lb>
+
+
+    <lb n="30">yn daliad yn lle dy dad alwaf</lb>
+
+
+    <lb n="31">el eneid i nef water lanaf</lb>
+
+
+    <lb n="32">nadoedd vndyn oi siwt wedi Addaf</lb>
+
+
+
+    <lb n="td. NLW 13070B, 29.diwedd">Thomas ap jeuann ap Rys ai kant 44
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_17">
+        <pb n="">
+        
+
+
+    <lb n="1">Rad duw ai ras ych plas mainin</lb>
+
+
+    <lb n="2">arglwydd ai stil o hil godwin</lb>
+
+
+    <lb n="3">yth lys maester water haelwin</lb>
+
+
+    <lb n="4">harbert gann tyrth da i pyrth byddin</lb>
+
+
+    <lb n="5">ny bu ve wys yn llys brenin</lb>
+
+
+    <lb n="6">o bob rhyw rhost vwy gost kegin</lb>
+
+
+    <lb n="7">bir kwrw er bod bragod gasgwin</lb>
+
+
+    <lb n="8">bara bwrdd tal nys mal melin</lb>
+
+
+    <lb n="9">ach gwraig o vraint saint y katrin</lb>
+
+
+    <lb n="10">yn rhoi bob tlawd gardawd ddibrin</lb>
+
+
+    <lb n="11">ar orav myd hyd try gythin</lb>
+
+
+    <lb n="12">or dwyrain vry yr gorllewin</lb>
+
+
+    <lb n="13">os mawr daulu vu gystennin</lb>
+
+
+    <lb n="14">ych llys heb drai ny llai r vyddin</lb>
+
+
+
+
+
+    <lb n="15">da berchen ty a vy Ellffin</lb>
+
+
+    <lb n="16">ai vardd pan oedd oedd daliesin</lb>
+
+
+    <lb n="17">mi drof ych plas yn was hengrin</lb>
+
+
+    <lb n="18">ail gwion bach or wrach gredwin</lb>
+
+
+    <lb n="19">ve ddauth o gau a dav vyrddin</lb>
+
+
+    <lb n="20">bai gwir i gyd kawn vyd gerwin</lb>
+
+
+    <lb n="21">pan droir saesneg o deg ladin</lb>
+
+
+    <lb n="22">di vraint eglwys a chrwys katrin</lb>
+
+
+    <lb n="23">ar llug yn llen medd hen ddewin</lb>
+
+
+    <lb n="24">am grist ai ffydd bydd ym gyrin</lb>
+
+
+    <lb n="25">duw gatwo n gwlad rhag brad dolffin</lb>
+
+
+    <lb n="26">ar kiw daupen berchen byrgwin</lb>
+
+
+    <lb n="27">hwnnw or daw wnar naw byddin</lb>
+
+
+    <lb n="28">trwy nerth i vrad yngwlad Awstin</lb>
+
+
+    <lb n="29">ofni daw tro o/r/ gorllewin</lb>
+
+
+    <lb n="30">ty vewn ir kae bydd gwae gwerin</lb>
+
+
+    <lb n="31">gwr yn dwyn bath kath tri ewin</lb>
+
+
+    <lb n="32">ai vryd ai vael ar gael gwresgin</lb>
+
+
+    <lb n="33">kael i chwi r gras y gas kynin</lb>
+
+
+    <lb n="34">hiroes di drist gan grist vrenin</lb>
+
+
+
+    <lb n="td. NLW 13070B, 30.diwedd">Thomas ap jeuann ap Rys ai kant 45
+    </lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_18">
+        <pb n="">
+        
+
+
+    <lb n="1">Moeswch ddodi n bryd ar ddewi</lb>
+
+
+    <lb n="2">vab sanct orig vab karedig</lb>
+
+
+
+
+
+    <lb n="3">ar ddewi a duw sy benna</lb>
+
+
+    <lb n="4">maen llawnoed ynn alw arnyn</lb>
+
+
+    <lb n="5">maer pryd ar nod gwedy dyvod</lb>
+
+
+    <lb n="6">a sydd enbaid i vrytaniaid</lb>
+
+
+    <lb n="7">ny bu n hynys ni mor ddyrys</lb>
+
+
+    <lb n="8">er joed ag y mae hi heddy</lb>
+
+
+    <lb n="9">kwarter y rod a sy n dyvod</lb>
+
+
+    <lb n="10">a diale am bechode</lb>
+
+
+    <lb n="11">pob vn a sydd wrth i gilydd</lb>
+
+
+    <lb n="12">ny allen waeth bai gelyniaeth</lb>
+
+
+    <lb n="13">ve g&acirc;r kriston yny galon</lb>
+
+
+    <lb n="14">gladdy vrawd o chaiff e eiddio</lb>
+
+
+    <lb n="15">nydoes karu dim ar jesu</lb>
+
+
+    <lb n="16">nav vam onyd ar y golyd</lb>
+
+
+    <lb n="17">ve rhoes dewi rhybydd i ni</lb>
+
+
+    <lb n="18">gwelwn i vod gwedy dyvod</lb>
+
+
+    <lb n="19">pan vo r mab rhad ar offairad</lb>
+
+
+    <lb n="20">ny werthy yr llu pechadur</lb>
+
+
+    <lb n="21">ag yn ddifraint holl demlau r saint</lb>
+
+
+    <lb n="22">yr eglwysi ar mynwenti</lb>
+
+
+    <lb n="23">diffrwyth koedydd ag avonydd</lb>
+
+
+    <lb n="24">ysgib ednod kairw jyrchod</lb>
+
+
+    <lb n="25">pymp gwae a sy gwedy saethy</lb>
+
+
+    <lb n="26">rwng dwylo r tad medd saint bernad</lb>
+
+
+
+
+
+    <lb n="27">y pymp gwaew hynn duw ai denfyn</lb>
+
+
+    <lb n="28">ar sawl a sy yny haeddy</lb>
+
+
+    <lb n="29">pystelens pan ddel newyn ryvel</lb>
+
+
+    <lb n="30">lladd a llosgi pawb ai krogi</lb>
+
+
+    <lb n="31">ny bydd vndyn onyd tridyn</lb>
+
+
+    <lb n="32">byw y niwedd y dialedd</lb>
+
+
+    <lb n="33">y gryvangwr daer gwachelwr</lb>
+
+
+    <lb n="34">ar dyn a vo yn gweddio</lb>
+
+
+    <lb n="35">awn j /n/ gweddi bawb at ddewi</lb>
+
+
+    <lb n="36">penn rhaith wyllys yr holl ynys</lb>
+
+
+    <lb n="37">ag at jesu or nevoedd vry</lb>
+
+
+    <lb n="38">gael trigaredd ar yn diwedd</lb>
+
+
+
+    <lb n="td. NLW 13070B, 32.diwedd">Thomas ap jeuann ap Rys ai kant 46
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_19">
+        <pb n="">
+        
+
+
+    <lb n="1">Nym ddireda i dir na da</lb>
+
+
+    <lb n="2">na dyn ny byd yny mywyd</lb>
+
+
+    <lb n="3">ny wnn j ddyn ag a ddychyn</lb>
+
+
+    <lb n="4">ymddired y neb ond jesu</lb>
+
+
+    <lb n="5">a ddoto i vryd ar y golyd</lb>
+
+
+    <lb n="6">ar ddyn nav dir ef a dwyllir</lb>
+
+
+    <lb n="7">tri chariad vu&nbsp;/r/ joed ved heddy</lb>
+
+
+    <lb n="8">a thri  a vydd byth dragywydd</lb>
+
+
+    <lb n="9">kariad pryffaith ffydd a gobaith</lb>
+
+
+    <lb n="10">y sy n peri nef i ny ni</lb>
+
+
+
+
+
+    <lb n="11">ar kariad ail rhai ai kynail</lb>
+
+
+    <lb n="12">rhwng priodolion a chyd ddynion</lb>
+
+
+    <lb n="13">kariad trydy maen difflanny</lb>
+
+
+    <lb n="14">ar ddyn a thir ar dda i dodir</lb>
+
+
+    <lb n="15">ag vel dyna&nbsp;/r/ kariad mwya</lb>
+
+
+    <lb n="16">ddym ni r niver hanoe n arfer</lb>
+
+
+    <lb n="17">ag ny kariad hynny n wastad</lb>
+
+
+    <lb n="18">i mae elyn yn twyllo dyn</lb>
+
+
+    <lb n="19">llyma r achos i ddwin dangos</lb>
+
+
+    <lb n="20">a pham i gyd i ddwin dwedvd</lb>
+
+
+    <lb n="21">vynghyvaillon oedd brydyddion</lb>
+
+
+    <lb n="22">gynt a vuo j ny kytro</lb>
+
+
+    <lb n="23">mi welaf vn yn troi /m/ herbyn</lb>
+
+
+    <lb n="24">ny wnn na bo&nbsp;/r/ nall yn grwdgio</lb>
+
+
+    <lb n="25">hwy am gwelant j ar ffyniant</lb>
+
+
+    <lb n="26">a hwynte sy gwedy methy</lb>
+
+
+    <lb n="27">vannwyl vrawd ffydd j oedd ddavydd</lb>
+
+
+    <lb n="28">ny chefflybwn i neb i hwnn</lb>
+
+
+    <lb n="29">i ddoedd aise gwraig arnai n rhe</lb>
+
+
+    <lb n="30">ym gwsnaethy yn vy llety</lb>
+
+
+    <lb n="31">yddoedd wydw jevank weddw</lb>
+
+
+    <lb n="32">ddistaw brysyr ymhlwyf kainwyr</lb>
+
+
+    <lb n="33">ddoedd hi n trigo gair llaw daio</lb>
+
+
+    <lb n="34">yn wir gwaetha oedd pwy nesa</lb>
+
+
+
+
+
+    <lb n="35">i mae davpen y genfigen</lb>
+
+
+    <lb n="36">ai chenol ny volae n tyvy</lb>
+
+
+    <lb n="37">beth na ond kydfod ar vy ethrod</lb>
+
+
+    <lb n="38">a throi airiach am kyvathrach</lb>
+
+
+    <lb n="39">minne gwedy klywed hynny</lb>
+
+
+    <lb n="40">a vym daerach ar y vasnach</lb>
+
+
+    <lb n="41">mae n troi garu vy molianny</lb>
+
+
+    <lb n="42">yn rhoi m anair ar y naillgair</lb>
+
+
+    <lb n="43">kaiso mae e vynd ym hasgre</lb>
+
+
+    <lb n="44">ny modd i bvm j ny garu</lb>
+
+
+    <lb n="45">betfai r holl vyd drystoen dwedvd</lb>
+
+
+    <lb n="46">yny myw j nyd gwaeth tewi</lb>
+
+
+    <lb n="47">ny wnai tra vo byw am ddaio</lb>
+
+
+    <lb n="48">ond i ady ar y naillty</lb>
+
+
+    <lb n="49">o kyvarch da myvi ddweda</lb>
+
+
+    <lb n="50">dydd daed daio a mynd haibo</lb>
+
+
+
+    <lb n="td. NLW 13070B, 34.diwedd">Thomas ap jeuann ap Rys ai kant 47
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_20">
+        <pb n="">
+        
+
+
+
+    <lb n="1">Y gwr a vu ar y groes yn goddef gloes yn pryny</lb>
+
+
+    <lb n="2">an kymero ar i law mi wnn ve ddaw yn barny</lb>
+
+
+    <lb n="3">Duw maddaeo i ni gyd vaint ywn bryd ni gasgly</lb>
+
+
+    <lb n="4">a chy vyrred yny byd a sydd o hyd yw drefny</lb>
+
+
+    <lb n="5">.i ystyrie griston doeth mor noeth oedd kyn i vagy</lb>
+
+
+    <lb n="6">ac mor vychan oedd i rym heb allel dym ymdaery</lb>
+
+
+
+
+
+    <lb n="7">afraid yddoe vod yn valch tra vytho r gwalch yn tyfy</lb>
+
+
+    <lb n="8">a chy hawsed i ddae n wann a phawb oi rhann ny ady</lb>
+
+
+    <lb n="9">kasgly golvd pryny tir trwy gam a gwir ai mynny</lb>
+
+
+    <lb n="10">a gwsnaethyr meddwl ffol ag ar i ol i gady</lb>
+
+
+    <lb n="11">nyda gantoe ddim or byd or golvd gwedy kasgly</lb>
+
+
+    <lb n="12">ond i hvnan val i doeth a digon noeth yw hynny</lb>
+
+
+    <lb n="13">ag ve ddwede rhai or wlad vod ych tad heb daly</lb>
+
+
+    <lb n="14">llawer kainog rhaid i chwi brovi i chyviawny</lb>
+
+
+    <lb n="15">hwynte ddwedyn ny modd hynn nyd gweddys ynn ni daly</lb>
+
+
+    <lb n="16">ny ni biav r maint a sydd yn ol i ddydd ny ady</lb>
+
+
+    <lb n="17">ar pryd hynny beth awnawn ir llaw vy lawn ysgawry</lb>
+
+
+    <lb n="18">heb werth kainog o dda byw a duw yn erchi taly</lb>
+
+
+    <lb n="19">ond ymwrthod a dar diawl ar sawl a sydd ny kasgly</lb>
+
+
+    <lb n="20">an gwaithredon tra von vyw ni gawn gan dduw yn barny</lb>
+
+
+    <lb n="21">duw i harchwn ninnav n bod yn barod i ddoen kyrchy</lb>
+
+
+    <lb n="22">awr ag orig nos a dydd ar ffordd yn rhydd at jesy</lb>
+
+
+
+    <lb n="td. NLW 13070B, 35.diwedd">Thomas ap jeuann ap Rys ai kant 48
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_21">
+        <pb n="">
+        
+
+
+    <lb n="1">Pob rhyw griston glan i galon</lb>
+
+
+    <lb n="2">gwrandewch er mwyn duw vi n achwyn</lb>
+
+
+    <lb n="3">gwae bob henddyn myvi wyr hynn</lb>
+
+
+    <lb n="4">berchen gwraig kryf jevank hainyf</lb>
+
+
+    <lb n="5">gwae r anhawgwr gwraigog llwvwr</lb>
+
+
+    <lb n="6">ar gair yddo er nas haeddo</lb>
+
+
+
+
+
+    <lb n="7">gwaer gwr a vo a gwraig yddo</lb>
+
+
+    <lb n="8">a honno n wir arnoe n veistir</lb>
+
+
+    <lb n="9">or disgin bod dim anghydfod</lb>
+
+
+    <lb n="10">rhyddyn hi a ar llaw n ywcha</lb>
+
+
+    <lb n="11">i mae klwtyn o wyndon gwyn</lb>
+
+
+    <lb n="12">wrth ddrws y ty wi ny rhenty</lb>
+
+
+    <lb n="13">llai nag erw beth hwnnw</lb>
+
+
+    <lb n="14">lle mae porfa gwaedde r wraigdda</lb>
+
+
+    <lb n="15">mae gwyr perchen parav ychen</lb>
+
+
+    <lb n="16">yddi n addo i lavurio</lb>
+
+
+    <lb n="17">a minnav sy yn prydery</lb>
+
+
+    <lb n="18">na chai hadyd yddoe ym bywyd</lb>
+
+
+    <lb n="19">nychai lonydd na nos na dydd</lb>
+
+
+    <lb n="20">genti ond a ir vro i ytta</lb>
+
+
+    <lb n="21">bwrais j honn bob esguson</lb>
+
+
+    <lb n="22">o ddiogi mynd i erchi</lb>
+
+
+    <lb n="23">hawraig maen vlin Act y brenin</lb>
+
+
+    <lb n="24">ag yn rhwystro pawb i gaiso</lb>
+
+
+    <lb n="25">taw di waithon ath esguson</lb>
+
+
+    <lb n="26">ti gau hadyd nyr vn hwndryd</lb>
+
+
+
+    <lb n="27">mi aetho n js jslawr palis</lb>
+
+
+    <lb n="28">...ni vyo valch o ddyno</lb>
+
+
+
+
+
+    <lb n="29">beth a ddwedaf o chranfyddaf</lb>
+
+
+    <lb n="30">ar hen aran du wylmorgan</lb>
+
+
+    <lb n="31">kerdda vydredd wytin addef</lb>
+
+
+    <lb n="32">ofni tavod y gogysgod</lb>
+
+
+    <lb n="33">siars  sy arnaf j na chanaf</lb>
+
+
+    <lb n="34">ddychan ny byd yn vy mywyd</lb>
+
+
+    <lb n="35">os dechre wna ymddivarcha</lb>
+
+
+    <lb n="36">na garbed kan ir hen aran</lb>
+
+
+    <lb n="37">gwna dy neges yn rhe lales</lb>
+
+
+    <lb n="38">a llangewydd ynyr vndydd</lb>
+
+
+    <lb n="39">does drwa ir dwr i dir ogwr</lb>
+
+
+    <lb n="40">ti gesgly had dau lavuriad</lb>
+
+
+    <lb n="41">a nad vndyn heb vynd atyn</lb>
+
+
+    <lb n="42">o sant dynod hed ymhytgod</lb>
+
+
+    <lb n="43">ny phall vndyn o dre golwyn</lb>
+
+
+    <lb n="44">hed ynharen y dwnrheven</lb>
+
+
+    <lb n="45">na pherchen yd o lann ylltyd</lb>
+
+
+    <lb n="46">ir priordy veder pally</lb>
+
+
+    <lb n="47">maen hwyn saesnig ynghylch y wig</lb>
+
+
+    <lb n="48">ny wis beth vo j ny gaiso</lb>
+
+
+    <lb n="49">mith ddysga di ffol i erchi</lb>
+
+
+    <lb n="50">ond kadw yth go vel yth ddysgo</lb>
+
+
+
+    <lb n="51">j prav jow syr ffor lov maestyr</lb>
+
+
+    <lb n="52">god wil giv mi and owr ladi</lb>
+
+
+
+
+
+    <lb n="53">pan ddwetoe kom hom syre</lb>
+
+
+    <lb n="54">jl kwm to yow god redward yow</lb>
+
+
+    <lb n="55">er peck o od ny ddawr tavod</lb>
+
+
+    <lb n="56">ny modd i bu r wraig ym dysgi</lb>
+
+
+    <lb n="57">mawr ywr taeredd vn or gwragedd</lb>
+
+
+    <lb n="58">bwedd i mae ddyn bally yddyn</lb>
+
+
+    <lb n="59">kael y trybedd ny chyndaredd</lb>
+
+
+    <lb n="60">rhoi ergid ar blygiav nwyar</lb>
+
+
+    <lb n="61">braidd i gellais j gael vymhais</lb>
+
+
+    <lb n="62">am pig a gw&acirc;n vymhenn allan</lb>
+
+
+    <lb n="63">llyma orfod arnai ddyvod</lb>
+
+
+    <lb n="64">vnwaith ych plith gwyr y gwenith</lb>
+
+
+    <lb n="65">er mwyn jesu provwch vy helpu</lb>
+
+
+    <lb n="66">myvi golla dre onys ka</lb>
+
+
+
+    <lb n="td. NLW 13070B, 38.diwedd">Thomas ap jeuann ap Rys ai kant 49
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_22">
+        <pb n="">
+        
+
+
+    <lb n="1">Duw nad ti gam byth ar vargam</lb>
+
+
+    <lb n="2">plas dan rhodiad havl a llauad</lb>
+
+
+    <lb n="3">vel dyma r lle i bu nechre</lb>
+
+
+    <lb n="4">ag yma i bo niwedd etto</lb>
+
+
+    <lb n="5">mae arnai chwant kanv moliant</lb>
+
+
+    <lb n="6">lle llvno j medd ar vy niwedd</lb>
+
+
+
+
+
+    <lb n="7">lle sainwyd plas gwych o urddas</lb>
+
+
+    <lb n="8">mam jesu wyn wyr Siohasyn</lb>
+
+
+    <lb n="9">kraig o wydyr kor krevyddwyr</lb>
+
+
+    <lb n="10">kroestai krist jaith paradwyswaith</lb>
+
+
+    <lb n="11">kor i vaibon krist ai waison</lb>
+
+
+    <lb n="12">kaer gywrain vydd korfrig koedydd</lb>
+
+
+    <lb n="13">pais ywchel bris plastar paris</lb>
+
+
+    <lb n="14">plwm plygiav llenn am i cheven</lb>
+
+
+    <lb n="15">twr arfys main krisial myrain</lb>
+
+
+    <lb n="16">krysav kalchwydd maran mynydd</lb>
+
+
+    <lb n="17">kaer loew val ar main barbal</lb>
+
+
+    <lb n="18">kewch weled honn ar waith avion</lb>
+
+
+
+    <lb n="19">jn principio erat sermo </lb>
+
+
+    <lb n="20">ar ysbryd glan ywr ymddiddan</lb>
+
+
+    <lb n="21">dav beth a sy ych tebygy</lb>
+
+
+    <lb n="22">ail nef a llys abad lewys</lb>
+
+
+    <lb n="23">tri pheth a sy ych kyvanheddy</lb>
+
+
+    <lb n="24">organ a chlych a chan menych</lb>
+
+
+    <lb n="25">ny bu bais wenn am dan berchen</lb>
+
+
+    <lb n="26">lanach dan gred wedy bened</lb>
+
+
+    <lb n="27">nag mor yddyf yny grevydd</lb>
+
+
+    <lb n="28">wedy kybi abad a chwi</lb>
+
+
+    <lb n="29">gwenfair ach gwnaeth ych abadaeth</lb>
+
+
+    <lb n="30">gwneled duw chwi&nbsp;/n/ esgob dewi</lb>
+
+
+
+    <lb n="td. NLW 13070B, 39.diwedd">Thomas ap jeuann ap Rys ai kant 50
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_23">
+        <pb n="">
+        
+
+
+    <lb n="1">Kriston wyf j n kredy grist ag yn drist veddyle</lb>
+
+
+    <lb n="2">ag yn gweddio r drindod i ddyvod oi bechode</lb>
+
+
+    <lb n="3">gweled i ddwyf j nadoes pan ddelo gloes yn ange</lb>
+
+
+    <lb n="4">i ddyn ddim mor dailynged a bod ny gwaithred gore</lb>
+
+
+    <lb n="5">achos pan ddel yr enaid ar kythraulaid ar pwyse</lb>
+
+
+    <lb n="6">maen bryderys ony chair gan vair ddodi phadere</lb>
+
+
+    <lb n="7">i gydbwyso an gelyn yn erbyn yn pechode</lb>
+
+
+    <lb n="8">am ddelyed kymodog trwm ywr gainog nas tale</lb>
+
+
+    <lb n="9">chwaethach goludion lawer ag a gasgler drwy okre</lb>
+
+
+    <lb n="10">a chael i kynvll gan bwyll trwy dwyll ag anvdone</lb>
+
+
+    <lb n="11">maen hwyn elyn ir enaid ony chaid ai gwasgare</lb>
+
+
+    <lb n="12">i ventvno eglwysi ag i beri fferenne</lb>
+
+
+    <lb n="13">ag i waith pynt avonydd a rhoi baunydd gardode</lb>
+
+
+    <lb n="14">lle bo mwya r kynired ag i wared kawsie</lb>
+
+
+    <lb n="15">ag i helpy ysgolhaigion tylodion ar i llyfre</lb>
+
+
+    <lb n="16">ag i ventvno merched amddived yw lletye</lb>
+
+
+    <lb n="17">gwedy darffo i dad rhoi ai rhoi gymen vn ddime</lb>
+
+
+    <lb n="18">laia gobrwy oddiwrthyn a vyddai r dyn ai kasgle</lb>
+
+
+    <lb n="19">i dduw i ddwyf j n erchi er ym dorri r gorchmynne</lb>
+
+
+    <lb n="20">vod vy enaid jn gorffwys yny baradwys ole</lb>
+
+
+
+    <lb n="td. NLW 13070B, 40.diwedd">Thomas ap jeuann ap Rys ai kant 51
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_24">
+        <pb n="">
+        
+
+
+
+    <lb n="1">Gwir duw ai vab yw a vynn bod yn llywydd</lb>
+
+
+    <lb n="2">daear vndydd yny drindod</lb>
+
+
+
+
+
+    <lb n="3">ar gair a ddyg mair yn amerod gyvion</lb>
+
+
+    <lb n="4">i beri gweryddon nef yn barod</lb>
+
+
+    <lb n="5">ysbryd glan hevyd  hyvod yn dolef</lb>
+
+
+    <lb n="6">duw byw yny nef dyn i myn bod</lb>
+
+
+    <lb n="7">kreawdr mor mawr myriaw pysgod rhwyd</lb>
+
+
+    <lb n="8">yn karu ni r ydwyd kreawdr yr ednod</lb>
+
+
+    <lb n="9">kreav yr holl ymddaith kreod yr engylion</lb>
+
+
+    <lb n="10">ag or llu'r aigion i grav r llygod</lb>
+
+
+    <lb n="11">krav Addaf rhydd naf dan rhod ffyrfaven</lb>
+
+
+    <lb n="12">ag or asen bruddwen ve grav i briod</lb>
+
+
+    <lb n="13">nawkant i dwedant vod adam yny bod</lb>
+
+
+    <lb n="14">a thri deg hevyd tra vu r kyvod</lb>
+
+
+    <lb n="15">pedair mil ai hil i waelod kystydd</lb>
+
+
+    <lb n="16">jesu wiw ddovydd nes i ddyvod</lb>
+
+
+    <lb n="17">pan ddel jesu i varny yn vod yny deav</lb>
+
+
+    <lb n="18">ar y llaw asav ir llu jsod</lb>
+
+
+    <lb n="19">trwy rhanswm trwm torr amod awnaeth</lb>
+
+
+    <lb n="20">ny deg kaiff jawn jaith hed y dydd kyfnod</lb>
+
+
+    <lb n="21">o dwyll trwy amwyll torr amod i doded</lb>
+
+
+    <lb n="22">yn gloewdeg jechyd hyd yn gwlad ywchod</lb>
+
+
+    <lb n="23">o varglwydd rho i mi vawrglod lawenydd</lb>
+
+
+    <lb n="24">na ame wiw ddovydd i nef i mi ddyvod</lb>
+
+
+
+    <lb n="td. NLW 13070B, 41.diwedd">Thomas ap jeuann ap Rys ai kant 52
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_25">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">Y ddwi n gosod kanu barnod</lb>
+
+
+    <lb n="2">ag vallai bod genni n barod</lb>
+
+
+    <lb n="3">mi roesym lw raid ym gadw</lb>
+
+
+    <lb n="4">ar na chanwy ym bywyd mwy</lb>
+
+
+    <lb n="5">i mae r achos yddy ddangos</lb>
+
+
+    <lb n="6">genni gwedy ysgryvenny</lb>
+
+
+    <lb n="7">mor drwm i ddaeth i varolaeth</lb>
+
+
+    <lb n="8">y meistr sion yn vynghalon</lb>
+
+
+    <lb n="9">gwae vy naurydd aros i ddydd</lb>
+
+
+    <lb n="10">a gwae ddailed byth i glywed</lb>
+
+
+    <lb n="11">gwr a bia yr amser da</lb>
+
+
+    <lb n="12">a wyr kalon Marged Sainsion</lb>
+
+
+    <lb n="13">ai dad hevyd mae mewn tristyd</lb>
+
+
+    <lb n="14">Mair wenn a ro kynffwrd yddo</lb>
+
+
+
+
+
+    <lb n="15">bei kelsai er da drigo yma</lb>
+
+
+    <lb n="16">hwy rysoeddyd dros i vywyd</lb>
+
+
+    <lb n="17">y ddoedd waison i meistr Sion</lb>
+
+
+    <lb n="18">a rysoedde vil o vorke</lb>
+
+
+    <lb n="19">hwy dalysyd dros i vywyd</lb>
+
+
+    <lb n="20">a thraen pwver brenin lloegr</lb>
+
+
+    <lb n="21">llyna ganred vawr ar blaned</lb>
+
+
+    <lb n="22">gwympo  mrigyn y blodauyn</lb>
+
+
+    <lb n="23">ny bu ddwy awr dre ruvain vawr</lb>
+
+
+    <lb n="24">ar ol i ddydd heb roi vynydd</lb>
+
+
+    <lb n="25">mae ty jago y mronn kwympo</lb>
+
+
+    <lb n="26">bedd krist hevyd mae mronn symyd</lb>
+
+
+    <lb n="27">vaeth y nywl du dros y koetu</lb>
+
+
+    <lb n="28">nes symvd jaith a byd ailwaith</lb>
+
+
+    <lb n="29">ny chair klydwr ynghoed mwstwr</lb>
+
+
+    <lb n="30">na phrenn ar dan gan waith haearn</lb>
+
+
+    <lb n="31">mae yno ffynnonn wrthfawr ddigon</lb>
+
+
+    <lb n="32">mewn llwyn o gyll dan le r pebyll</lb>
+
+
+    <lb n="33">ny chair gwelliant y mae n y sant</lb>
+
+
+    <lb n="34">gwedy delo&nbsp;/r/ saeson yno</lb>
+
+
+    <lb n="35">yn jach was glan o hynn allan</lb>
+
+
+    <lb n="36">yn jach kampav a gwybodav</lb>
+
+
+    <lb n="37">yn jach glendid ag velly bid</lb>
+
+
+    <lb n="38">yn jach bonedd ef aeth ir bedd</lb>
+
+
+    <lb n="39">ef a gladdwyd yn llvndain lwyd</lb>
+
+
+    <lb n="40">mae gorff mewn bedd gwyn yn gorwedd</lb>
+
+
+
+
+
+    <lb n="41">mae eneide n rodio r graddie</lb>
+
+
+    <lb n="42">ag yny byd i mae 'r tristyd</lb>
+
+
+    <lb n="43">o daw govyn pwy ganoedd hynn</lb>
+
+
+    <lb n="44">mab mewn hiraeth am i vrawdfaeth</lb>
+
+
+
+    <lb n="td. NLW 13070B, 168.diwedd">Thomas ap jeuann ap Rys ai kant 118
+    </lb>
+
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_26">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="1">Mae duw yn dangos ir byd</lb>
+
+
+    <lb n="2">vod yn llawnbryd gweddio</lb>
+
+
+    <lb n="3">a dangos pam na veddwl</lb>
+
+
+    <lb n="4">lawer exampl yddo</lb>
+
+
+    <lb n="5">i gaiso yn garu r eglwys</lb>
+
+
+    <lb n="6">a bwrwn gorbwys arno</lb>
+
+
+    <lb n="7">ar golud ym ny garu</lb>
+
+
+    <lb n="8">a gady r jesu haibo</lb>
+
+
+    <lb n="9">mae dwedvd a rryvedd yw</lb>
+
+
+    <lb n="10">vod yn tad dduw yn digio</lb>
+
+
+    <lb n="11">vaeth y llid gydar kythrel</lb>
+
+
+    <lb n="12">oedd yn angel kyn syrthio</lb>
+
+
+    <lb n="13">kyviawnder ywr kyviawn hedd</lb>
+
+
+    <lb n="14">kaiswn drigaredd ganto</lb>
+
+
+    <lb n="15">rrag yn trachwant an balchedd</lb>
+
+
+    <lb n="16">glwth god llesgedd yn damno</lb>
+
+
+
+
+
+    <lb n="17">an gelynion yw r haini</lb>
+
+
+    <lb n="18">nydym ni n gally ymado</lb>
+
+
+    <lb n="19">mae n bryderys ny diwedd</lb>
+
+
+    <lb n="20">yn troi ddialedd pharo</lb>
+
+
+    <lb n="21">hwnnw  gavas kyviawnder</lb>
+
+
+    <lb n="22">ar holl bwver oedd ganto</lb>
+
+
+    <lb n="23">om gyhydy ai arglwydd</lb>
+
+
+    <lb n="24">ef aeth yn aflwydd rragddo</lb>
+
+
+    <lb n="25">kyviawnder oedd i sodma</lb>
+
+
+    <lb n="26">a gomorra sinko</lb>
+
+
+    <lb n="27">y pvmp dinnas diaereb</lb>
+
+
+    <lb n="28">vy r godineb oedd yno</lb>
+
+
+    <lb n="29">ny bv grenydd na chwddiaeth</lb>
+
+
+    <lb n="30">na gasybiaeth heb gydio</lb>
+
+
+    <lb n="31">nag vn krefyddwr yn bod</lb>
+
+
+    <lb n="32">na bai wraig briod yddo</lb>
+
+
+    <lb n="33">velly ddaeth ynys brydain</lb>
+
+
+    <lb n="34">pan drosbwyd rryvain haibo</lb>
+
+
+    <lb n="35">heb na gweddi nag ympryd</lb>
+
+
+    <lb n="36">na phenyd nag ynsoelio</lb>
+
+
+    <lb n="37">na chyffes nag angeny</lb>
+
+
+    <lb n="38">na chladdy a na bedyddio</lb>
+
+
+    <lb n="39">na sens na chwyr bendigaid</lb>
+
+
+    <lb n="40">na phax nidoedd raid wrtho</lb>
+
+
+
+
+
+    <lb n="41">na chroes igovio r prynwr</lb>
+
+
+    <lb n="42">na dwr wedy vendigo</lb>
+
+
+    <lb n="43">na chael kymvn o gorff krist</lb>
+
+
+    <lb n="44">i ddoedd yn drist yn hebddo</lb>
+
+
+    <lb n="45">ny ddoi r ffairad ir pylpyd</lb>
+
+
+    <lb n="46">heb gymeryd igino</lb>
+
+
+    <lb n="47">o vrwd a rrost i mynnai</lb>
+
+
+    <lb n="48">a mawnsai wedi dwymo</lb>
+
+
+    <lb n="49">ef a ddangoeses adda</lb>
+
+
+    <lb n="50">ag eva i ni ymprydio</lb>
+
+
+    <lb n="51">a pherchir sul ar gwener</lb>
+
+
+    <lb n="52">ag arfer o weddio</lb>
+
+
+    <lb n="53">ir glothineb mae tivedd</lb>
+
+
+    <lb n="54">ag nidoes diwedd arno</lb>
+
+
+    <lb n="55">i maen anwyl ny bresen</lb>
+
+
+    <lb n="56">ag i mae saithbenn yddo</lb>
+
+
+    <lb n="57">a saith kythrel ywr rrai hynn</lb>
+
+
+    <lb n="58">a saith gelyn syn twyllo</lb>
+
+
+    <lb n="59">ar vwyd a llynnoedd kedyrn</lb>
+
+
+    <lb n="60"> tevyrn i maent nym ddyrno</lb>
+
+
+    <lb n="61">gweddi  kardod ag ympryd</lb>
+
+
+    <lb n="62">a bair ymweglyd rragddo</lb>
+
+
+    <lb n="63">rrag yddo  ladd yr enaid</lb>
+
+
+    <lb n="64">mae n angenraid ymswyno</lb>
+
+
+
+
+
+    <lb n="65">pan ddel yr arglwydd jesu</lb>
+
+
+    <lb n="66">i varny ai dilyno</lb>
+
+
+    <lb n="67">i bwll vffern i tewlir</lb>
+
+
+    <lb n="68">ag yno i kaujr arno</lb>
+
+
+
+    <lb n="td. Cardiff 2.619, 24.diwedd">Thomas ap jeuann ap rrys ai kant
+    </lb>
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_27">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">gwae vilioedd a sydd mewn gofalon</lb>
+
+
+    <lb n="2">tal ydiw gwlad nef ir tylodion</lb>
+
+
+    <lb n="3">newynog yn bawb ag wainon</lb>
+
+
+    <lb n="4">a delwau ymhob plas i delon</lb>
+
+
+
+
+
+    <lb n="5">nid kerrig nid koed yn myn karon</lb>
+
+
+    <lb n="6">ond delwau wnaeth duw yn gnawdolion</lb>
+
+
+    <lb n="7">ymaros i ddym ymron mairwon</lb>
+
+
+    <lb n="8">on karchar lle ddym duw an kyrchom</lb>
+
+
+    <lb n="9">ny gwledydd lle mae r mawr goludion</lb>
+
+
+    <lb n="10">ny chaffant onyd haeyru a chyffon</lb>
+
+
+    <lb n="11">o ddial am ddwyn tai r gweddion</lb>
+
+
+    <lb n="12">ai dinistr mae duw n poeni dynion</lb>
+
+
+    <lb n="13">ond aryth o waith penadurion</lb>
+
+
+    <lb n="14">y garu rrai kasb ar y gwirion</lb>
+
+
+    <lb n="15">y dialedd a gait gan dy alon</lb>
+
+
+    <lb n="16">a thorri dy gnawd a thi n wirion</lb>
+
+
+    <lb n="17">ynghyvair yn drwg anghyvion</lb>
+
+
+    <lb n="18">i dygyd ti r boen vwyn na digion</lb>
+
+
+    <lb n="19">pan roddyn i ti vwya rrodion</lb>
+
+
+    <lb n="20">sy ddegwm vae vael ir swyddogon</lb>
+
+
+    <lb n="21">a sieswn a ffydd vront y saeson</lb>
+
+
+    <lb n="22">ai llywodraeth awnaeth pawb yn lladron</lb>
+
+
+    <lb n="23">o gariad ar ddwyn dar gywirion</lb>
+
+
+    <lb n="24">anweddvs au rroi r sgryvenyddion</lb>
+
+
+    <lb n="25">ny thykia y pryd kyvoethogion</lb>
+
+
+    <lb n="26">gwybydded y sawl sydd gebyddion</lb>
+
+
+    <lb n="27">gynvll da yngham medd y ganon</lb>
+
+
+    <lb n="28">ar waered i dda r plant ar wyron</lb>
+
+
+    <lb n="29">a dilyn e ffordd gyda i alon</lb>
+
+
+    <lb n="30">hwy krylian e mewn poenau kroelon</lb>
+
+
+
+
+
+    <lb n="31">val aries ny rroe vael i wirion</lb>
+
+
+    <lb n="32">i lasar y tlawd krie laeson</lb>
+
+
+    <lb n="33">a lasar ef ae oi boen loeson</lb>
+
+
+    <lb n="34">i vynwes y tad wrth ovynion</lb>
+
+
+    <lb n="35">ag arias ef ae gan rrai gairwon</lb>
+
+
+    <lb n="36">ffai nigart ir tan ffyrnigion</lb>
+
+
+    <lb n="37">gwirionedd yw hynn a gwir vnion</lb>
+
+
+    <lb n="38">gwageled vo n dwyn diawl yny galon</lb>
+
+
+
+    <lb n="td. Cardiff 2.619, 32.diwedd">thomas ap jeuann ap rrys ai kant
+    </lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_28">
+        <pb n="">
+        
+
+
+    <lb n="1">Mawr jawn i kerais jr byd</lb>
+
+
+    <lb n="2">yr hyd i bvm yn tyvy</lb>
+
+
+    <lb n="3">ve rroes ym wendid a haint</lb>
+
+
+    <lb n="4">er maint i bvm n gary</lb>
+
+
+    <lb n="5">nym dwg vy aulodau mainon</lb>
+
+
+    <lb n="6">sy wainon ag yn kryny</lb>
+
+
+    <lb n="7">ny chlywai neb yn amlwg</lb>
+
+
+    <lb n="8">am golwg sy n tywylly</lb>
+
+
+    <lb n="9">ar bedestr gwedy darfod</lb>
+
+
+    <lb n="10">bai rann gorfod tryvaely</lb>
+
+
+    <lb n="11">wedy kwympo mewn methiant</lb>
+
+
+    <lb n="12">a mogiant a phesychy</lb>
+
+
+    <lb n="13">ag heb allel yn vynych</lb>
+
+
+    <lb n="14">or grwn i rrych gychwnny</lb>
+
+
+
+
+
+    <lb n="15">ond bod am kefn yn grwm</lb>
+
+
+    <lb n="16">yn gwrwm ar y llydy</lb>
+
+
+    <lb n="17">mi vyo valch rryvygys</lb>
+
+
+    <lb n="18">trachwantys ag yn kasgly</lb>
+
+
+    <lb n="19">be kawn nir wlad vy hvnan</lb>
+
+
+    <lb n="20">rry vychan oedd ym hynny</lb>
+
+
+    <lb n="21">mi vyo lwth a diog</lb>
+
+
+    <lb n="22">a chwannog i odineby</lb>
+
+
+    <lb n="23">yn tyngy over lwon</lb>
+
+
+    <lb n="24">ag anydon yr hainy</lb>
+
+
+    <lb n="25">mi vym laitrach nar kadno</lb>
+
+
+    <lb n="26">yn traiso n kynfigenny</lb>
+
+
+    <lb n="27">heb rrai llety nachardawd</lb>
+
+
+    <lb n="28">ir tlawd ond i watwary</lb>
+
+
+    <lb n="29">o greawdr nef a llawr</lb>
+
+
+    <lb n="30">min klywai n awr yn ffaely</lb>
+
+
+    <lb n="31">danfon atai vihangel</lb>
+
+
+    <lb n="32">ym harddel ag ym kyrchy</lb>
+
+
+    <lb n="33">ti am prynaist j ar y groes</lb>
+
+
+    <lb n="34">ti rroesost oes ym bechy</lb>
+
+
+    <lb n="35">tro di varglwydd vynghalon</lb>
+
+
+    <lb n="36">j waithon i tivary</lb>
+
+
+    <lb n="37">ag i vedry gwnaethur jawn</lb>
+
+
+    <lb n="38">ag i gyviawn gyffesy</lb>
+
+
+    <lb n="39">megis i bwyf j parod</lb>
+
+
+    <lb n="40">i ddyvod or lle dauthy</lb>
+
+
+
+
+
+    <lb n="41">a honno yw gwenwlad ef</lb>
+
+
+    <lb n="42">lle mae ef yn ternasy</lb>
+
+
+    <lb n="43">merthyri a gweryddon</lb>
+
+
+    <lb n="44">angylion ny volianny</lb>
+
+
+    <lb n="45">pan rroir yr en ar y ffrwyn</lb>
+
+
+    <lb n="46">ag at y trwyn i gwasgy</lb>
+
+
+    <lb n="47">a gwerchyrio vy llygaid</lb>
+
+
+    <lb n="48">ar enaid gwedy yngady</lb>
+
+
+    <lb n="49">a dwyn vy nwylo j waered</lb>
+
+
+    <lb n="50">ag ar varffed i klymy</lb>
+
+
+    <lb n="51">a dodi nwy traed ynghud</lb>
+
+
+    <lb n="52">ag ar vy hyd yngady</lb>
+
+
+    <lb n="53">ar sawl i bvm j yno</lb>
+
+
+    <lb n="54">ny kytro ag ny kary</lb>
+
+
+    <lb n="55">wrth vynd ymaith ny ddaw vn</lb>
+
+
+    <lb n="56">o hanvn ym kysany</lb>
+
+
+    <lb n="57">am dodi ar vy niwedd</lb>
+
+
+    <lb n="58">ym bedd am torr i vyny</lb>
+
+
+    <lb n="59">heb weled na haul na lloer</lb>
+
+
+    <lb n="60">yn ddigon oer vyngwely</lb>
+
+
+    <lb n="61">a mi ddwedaf i chwi wir</lb>
+
+
+    <lb n="62">yr hwnn ellir i gredy</lb>
+
+
+    <lb n="63">nid ody r korff pridd ond myd</lb>
+
+
+    <lb n="64">yr ysbryd a syn traethy</lb>
+
+
+
+
+
+    <lb n="65">mi ga gorff er nas gwelwch</lb>
+
+
+    <lb n="66">o ddirgelwch y jesy</lb>
+
+
+    <lb n="67">o bob aulod yn gywraint</lb>
+
+
+    <lb n="68">yn gymaint ag wyf heddy</lb>
+
+
+    <lb n="69">mi debygwn yny byd</lb>
+
+
+    <lb n="70">vyngolud jr pryd hyny</lb>
+
+
+    <lb n="71">i geffyl gwedy vlyngo</lb>
+
+
+    <lb n="72">a vaid yny ado i bydry</lb>
+
+
+    <lb n="73">ar piaued ar kigfrain</lb>
+
+
+    <lb n="74">ar byrgytain ny dyny</lb>
+
+
+    <lb n="75">ar kwn yn briwa i gaudod</lb>
+
+
+    <lb n="76">nes darfod i hwldary</lb>
+
+
+    <lb n="77">velly r golud vym jn byw</lb>
+
+
+    <lb n="78">yn vwy na duw ny kary</lb>
+
+
+    <lb n="79">vynghenedl a ddaw yno</lb>
+
+
+    <lb n="80">iym gigo wrth i rranny</lb>
+
+
+    <lb n="81">a minav yn  hoeth yn kerdded</lb>
+
+
+    <lb n="82">am delyed heb daly</lb>
+
+
+    <lb n="83">a phawb a ddaw ym govyn</lb>
+
+
+    <lb n="84">i bvm arnyn ny kasgly</lb>
+
+
+    <lb n="85">ny chair ar gywir yno</lb>
+
+
+    <lb n="86">gadycho nau oframy</lb>
+
+
+
+
+
+    <lb n="87">na bwgwth i vonklusto</lb>
+
+
+    <lb n="88">nau sardo nau watwary</lb>
+
+
+    <lb n="89">rraid yw sevyll ar y gwir</lb>
+
+
+    <lb n="90">yr hynn ny ellir i wady</lb>
+
+
+    <lb n="91">onyd addef i bob dyn</lb>
+
+
+    <lb n="92">ar gelyn yn disgyrny</lb>
+
+
+    <lb n="93">ef a ir karchar ganto ef</lb>
+
+
+    <lb n="94">lle gweloe nef ar jesy</lb>
+
+
+    <lb n="95">ag ve sgryvennwys matho</lb>
+
+
+    <lb n="96">nadae o ddyno nes taly</lb>
+
+
+    <lb n="97">gwae e vy valch rryvygys</lb>
+
+
+    <lb n="98">trachwantys yn kolledy</lb>
+
+
+    <lb n="99">y llavuriad kywir a vo</lb>
+
+
+    <lb n="100">yn kaibo ag yn dyrny</lb>
+
+
+
+    <lb n="td. Cardiff 2.619, 36.diwedd">thomas ap jeuann ap rrys ai kant
+    </lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_29">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">Pwy bynag fo gwedy dotio</lb>
+
+
+    <lb n="2">dwl jawn y trig a dotiedig</lb>
+
+
+    <lb n="3">y ddynir kymry gwedy yn gyry</lb>
+
+
+    <lb n="4">kyn enfyted a ffoled rhisga</lb>
+
+
+    <lb n="5">ac ar yn kread gwedy myned</lb>
+
+
+    <lb n="6">duw yn kyfrwyddo ymhell ar ddidro</lb>
+
+
+    <lb n="7">ny ni droyson gan ffydd sayson</lb>
+
+
+    <lb n="8">ni ddaw yn kalone ni byth yn y lle</lb>
+
+
+    <lb n="9">ond trigo yn ddwl mewn tri meddwl</lb>
+
+
+    <lb n="10">heb wybod pun gore hanyn</lb>
+
+
+    <lb n="11">rhai syn doydyd vod duw 'ny byd</lb>
+
+
+    <lb n="12">yn gorfforol yny bobol</lb>
+
+
+    <lb n="13">eraill ysy yn gwan gredy</lb>
+
+
+    <lb n="14">nadoes yn y byd ond yr ysbryd</lb>
+
+
+    <lb n="15">medder doethon dysk mefyrion</lb>
+
+
+    <lb n="16">vn achyfan yw duw ymhob man</lb>
+
+
+    <lb n="17">ychlawr ywch-der dan y dyfn-der</lb>
+
+
+    <lb n="18">yn y nef yny byd yma hefyd</lb>
+
+
+    <lb n="19">am nad oydden yn kredy hyn</lb>
+
+
+    <lb n="20">feddyg rhagom dalam o roddion</lb>
+
+
+    <lb n="21">feddyg ffrwythydd koed ameysydd</lb>
+
+
+
+
+
+    <lb n="22">veddyg pysgod dwr edynod</lb>
+
+
+    <lb n="23">ac yskryblodd ar fenyddoedd</lb>
+
+
+    <lb n="24">keyrw jerchod ac ewigod</lb>
+
+
+    <lb n="25">ve ddyg ymaith gariad perffaith</lb>
+
+
+    <lb n="26">mynodd ddiffod y gvdwybod</lb>
+
+
+    <lb n="27">rhows y kythrel y lawn afel</lb>
+
+
+    <lb n="28">ar yreglwys ynte ay espeiliws</lb>
+
+
+    <lb n="29">venny fryntyn blasoedd meinin</lb>
+
+
+    <lb n="30">ve yrws ty dduw yn wak ty</lb>
+
+
+    <lb n="31">nyd gwell y len fod yn siaplen</lb>
+
+
+    <lb n="32">heb gael meistir o bechadyr</lb>
+
+
+    <lb n="33">nyd oes yddo le y weddio</lb>
+
+
+    <lb n="34">Duw yn y dy heb y bryny</lb>
+
+
+    <lb n="35">ac saith bechod gan y drindod</lb>
+
+
+    <lb n="36">saith bechod vn yn saith gelyn</lb>
+
+
+    <lb n="37">ar saith hyny y sydd heddy</lb>
+
+
+    <lb n="38">bena ynhemprol ac yn ysbrydol</lb>
+
+
+    <lb n="39">lle yddoedd yni beth rymedi</lb>
+
+
+    <lb n="40">nyd ynt ychwaith ar dwy gyfraith</lb>
+
+
+    <lb n="41">ac er dylysed y for dlyed</lb>
+
+
+    <lb n="42">ffalst ywystla rhaith ac a ymaith</lb>
+
+
+
+
+
+    <lb n="43">y tlawd gwirion ny bo gar bron</lb>
+
+
+    <lb n="44">ve ar ffalst ar lw fo yni helw</lb>
+
+
+    <lb n="45">bay ran dy fod or saith pechod</lb>
+
+
+    <lb n="46">ffimar kwyntri / arhydd wyti</lb>
+
+
+    <lb n="47">llymar flwyddyn ytres duw gwyn</lb>
+
+
+    <lb n="48">wyn y gallon ar y sayson</lb>
+
+
+    <lb n="49">hwn yrason dduw yr gwndwn</lb>
+
+
+    <lb n="50">ve gyr hwynte dan yffyrnne</lb>
+
+
+    <lb n="51">mayr fam jesu kwd llysay fy</lb>
+
+
+    <lb n="52">pechadyres / mai yn frenhines</lb>
+
+
+    <lb n="53">peder ynte pob attwrne</lb>
+
+
+    <lb n="54">by weddio llawer rhagddo</lb>
+
+
+    <lb n="55">heddy may was yn y dernas</lb>
+
+
+    <lb n="56">yn peri amey y tafoday</lb>
+
+
+    <lb n="57">ac aeth y dy kefnder jesu</lb>
+
+
+    <lb n="58">jago bostol nyd oedd ffol</lb>
+
+
+    <lb n="59">efo orfy arnyn gyrchy</lb>
+
+
+    <lb n="60">ywlad jago sawl ay kroko</lb>
+
+
+    <lb n="61">nyd oedd bryder / yn vn amser</lb>
+
+
+    <lb n="62">ar vn kriston fod duw yn ffyddlon</lb>
+
+
+
+
+
+    <lb n="63">maer pen tryma am drais athra</lb>
+
+
+    <lb n="64">ar diale heb yddechre</lb>
+
+
+
+    <lb n="td. NLW 13081B, 158r.diwedd">Thomas ap jeuan ap rhys ay kant
+    </lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_30">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="1">Ymay dogon ar y gar</lb>
+
+
+    <lb n="2">gwrando ar addweda</lb>
+
+
+    <lb n="3">vaeth y byd ar veth y gid</lb>
+
+
+    <lb n="4">wrth y byd y wela</lb>
+
+
+    <lb n="5">y syn bwrw yn fawr y fryd</lb>
+
+
+    <lb n="6">ar y byd hwn yma</lb>
+
+
+    <lb n="7">bid e ddiogel yny ffydd</lb>
+
+
+    <lb n="8">ymay yddo rybydd kwta</lb>
+
+
+    <lb n="9">kanys efo ydiw vn</lb>
+
+
+    <lb n="10">or tri gelyn gwaytha</lb>
+
+
+    <lb n="11">sydd ar les yrenayd gwyn</lb>
+
+
+    <lb n="12">a ffob dyn y dwylla</lb>
+
+
+    <lb n="13">dyn a gayf gan y byd</lb>
+
+
+    <lb n="14">vynd yr golyd pena</lb>
+
+
+    <lb n="15">ac vo gedyr byd e'nhoeth</lb>
+
+
+    <lb n="16">vel y doeth e yna</lb>
+
+
+    <lb n="17">wedy darffo ymhob dyll</lb>
+
+
+    <lb n="18">yddo gynyll kronfa</lb>
+
+
+    <lb n="19">nyd a gantho bil nachroes</lb>
+
+
+    <lb n="20">ond aroes yn y fola</lb>
+
+
+    <lb n="21">vel y karo dyn y byd</lb>
+
+
+    <lb n="22">vo ddaw yr ysbryd gwaytha</lb>
+
+
+
+
+
+    <lb n="23">ac ay rhwstra ywneyth chwaith</lb>
+
+
+    <lb n="24">or saith weithred pena</lb>
+
+
+    <lb n="25">pen delo christ atto y hyn</lb>
+
+
+    <lb n="26">yn y llyn tolota</lb>
+
+
+    <lb n="27">yddwy fi yn dlawd edrych ddyn</lb>
+
+
+    <lb n="28">rho ymir pilin gwaytha</lb>
+
+
+    <lb n="29">gwna di les y ki krach</lb>
+
+
+    <lb n="30">yddwyti yn jach debyga</lb>
+
+
+    <lb n="31">ameddylied yddwyti</lb>
+
+
+    <lb n="32">may myfi yth ddillata</lb>
+
+
+    <lb n="33">rho ymi fwyd er duw gwyn</lb>
+
+
+    <lb n="34">ymay newyn arnaf</lb>
+
+
+    <lb n="35">nyd oedd raid ytt fod yn dlawd</lb>
+
+
+    <lb n="36">ddiawl dy flawd nath fara</lb>
+
+
+    <lb n="37">rho ymi ddiod myn fynghred</lb>
+
+
+    <lb n="38">ymay syched arna</lb>
+
+
+    <lb n="39">ti ay toryt ymhob nant</lb>
+
+
+    <lb n="40">ond dy chwant di y gyrfa</lb>
+
+
+    <lb n="41">rho ymi letty haner nos</lb>
+
+
+    <lb n="42">yny diddoes yna</lb>
+
+
+    <lb n="43">does di wers yna fry</lb>
+
+
+
+
+
+    <lb n="44">ti kay e ynty nesa</lb>
+
+
+    <lb n="45">ve'roes duw vi vynghar</lb>
+
+
+    <lb n="46">yn y karchar blina</lb>
+
+
+    <lb n="47">mawr dda yt gael hyny yn swrth</lb>
+
+
+    <lb n="48">wrth dy byteina</lb>
+
+
+    <lb n="49">yddwy fi yn glaf ynty yna draw</lb>
+
+
+    <lb n="50">gar dy law dir gwrda</lb>
+
+
+    <lb n="51">or kywaythog llawen gwych</lb>
+
+
+    <lb n="52">dare y edrych arna</lb>
+
+
+    <lb n="53">ti fyddy jach yn yman</lb>
+
+
+    <lb n="54">nyd wyti wan dybyga</lb>
+
+
+    <lb n="55">ac nicharaf hanad chwaith</lb>
+
+
+    <lb n="56">mi wnaf vyngwaith yn gyntaf</lb>
+
+
+    <lb n="57">a ddoydi gladdy y tlawd yna hwnt</lb>
+
+
+    <lb n="58">aeth y brwnt o dyna</lb>
+
+
+    <lb n="59">ny naeth e swydd trafy yny byd</lb>
+
+
+    <lb n="60">onyd kip rytha</lb>
+
+
+    <lb n="61">nydoes amdo ym duw amair</lb>
+
+
+    <lb n="62">oni chayr kinhoka</lb>
+
+
+    <lb n="63">chwiliar kwd sy dan y ben</lb>
+
+
+    <lb n="64">ymay yno goden dwba</lb>
+
+
+    <lb n="65">y may yn ddigon llaes y lyp</lb>
+
+
+
+
+
+    <lb n="66">kyfod chwyp affrysta</lb>
+
+
+    <lb n="67">tyred attai ar dy swyp</lb>
+
+
+    <lb n="68">ti welyr gip sydd arna</lb>
+
+
+    <lb n="69">ffrwynar kefful ffroenwyn dy</lb>
+
+
+    <lb n="70">tyn yr ty kyfrwya</lb>
+
+
+    <lb n="71">middelya bynt ne'ddwy</lb>
+
+
+    <lb n="72">mi myna hwy yn gynta</lb>
+
+
+    <lb n="73">vo vydd yddo ddogon vael</lb>
+
+
+    <lb n="74">gwedy kael y gosgol va</lb>
+
+
+    <lb n="75">vo ddaw vn ni rodda nag</lb>
+
+
+    <lb n="76">ac ay gwasgara</lb>
+
+
+    <lb n="77">jo yn siompol yni sy</lb>
+
+
+    <lb n="78">y vy gyfoethoka</lb>
+
+
+    <lb n="79">gwedy kyfrif pawb y gid</lb>
+
+
+    <lb n="80">y vy yn y byd yma</lb>
+
+
+    <lb n="81">efo gollay blasoedd rhydd</lb>
+
+
+    <lb n="82">yn vn dydd ay holl dda</lb>
+
+
+    <lb n="83">gwedi kolli hyny y gid</lb>
+
+
+    <lb n="84">vo ay yny klefyd blina</lb>
+
+
+    <lb n="85">vo gaer krach yn ayr pur</lb>
+
+
+    <lb n="86">yw roddi yr kerddwyr pena</lb>
+
+
+    <lb n="87">er y fod e megis hwch</lb>
+
+
+    <lb n="88">yn y llwch ar llaka</lb>
+
+
+
+
+
+    <lb n="89">am y fod e velly yn byw</lb>
+
+
+    <lb n="90">yn kary dyw yn bena</lb>
+
+
+    <lb n="91">efo ay jach yddy dai</lb>
+
+
+    <lb n="92">ac y gay y holl dda</lb>
+
+
+    <lb n="93">ac o gwnawninay gud</lb>
+
+
+    <lb n="94">yn y byd yma</lb>
+
+
+    <lb n="95">vel y gwnaeth ymae yniwlad</lb>
+
+
+    <lb n="96">gydar tad gorycha</lb>
+
+
+
+    <lb n="td. NLW 13081B, 162v.diwedd">Thomas ap Ieuan ap Rhys Ay kant
+    </lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_31">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="1">Pwy ywr syr goray oll</lb>
+
+
+    <lb n="2">yn yr holl vrenhiniaeth</lb>
+
+
+    <lb n="3">syr siorys mathay sy</lb>
+
+
+    <lb n="4">yn berchen tyaeth</lb>
+
+
+    <lb n="5">yn yradyr mawr ywr graes</lb>
+
+
+    <lb n="6">ymaer  vras gynhaliaeth</lb>
+
+
+    <lb n="7">pawb syn medry kyrchy lle</lb>
+
+
+    <lb n="8">ymay goray llyniaeth</lb>
+
+
+    <lb n="9">maen hwy yn dyfod mal wrth wys</lb>
+
+
+
+
+
+    <lb n="10">ato yr llys yn llawn faeth</lb>
+
+
+    <lb n="11">ynte gresewi pawb ar goedd</lb>
+
+
+    <lb n="12">velly ddoedd yn....eth</lb>
+
+
+    <lb n="13">ymayr gayr yddo ef</lb>
+
+
+    <lb n="14">gore y ganhaliaeth</lb>
+
+
+
+    <lb n="15">na doedd yni gael</lb>
+
+
+    <lb n="16">hael oy rywogaeth</lb>
+
+
+    <lb n="17">hael yn fab llawen hy</lb>
+
+
+    <lb n="18">arhyd y by fabolaeth</lb>
+
+
+    <lb n="19">ar ymroddi y vod yn hael</lb>
+
+
+    <lb n="20">gwedi kael gwroliaeth</lb>
+
+
+    <lb n="21">dilis jawn y farbara hael</lb>
+
+
+
+    <lb n="22">gael taladigaeth</lb>
+
+
+    <lb n="23">ysyn enill tref ythad</lb>
+
+
+    <lb n="24">gwlad nef ynhelaeth</lb>
+
+
+    <lb n="25">pawb yddaw yradyr l&acirc;n</lb>
+
+
+    <lb n="26">yno y kan y kyd faeth</lb>
+
+
+    <lb n="27">at y teyly goray braint</lb>
+
+
+    <lb n="28">ymaint lly 'merhodraeth</lb>
+
+
+    <lb n="29">nyd oes gwrthod klaf nag jach</lb>
+
+
+    <lb n="30">mawr na bach na mamaeth</lb>
+
+
+
+
+
+    <lb n="31">hen ac jevaink don yr llys</lb>
+
+
+    <lb n="32">dilys o brydigaeth</lb>
+
+
+    <lb n="33">kan gwyn brwd arhost</lb>
+
+
+    <lb n="34">difan gost gwin faeth</lb>
+
+
+    <lb n="35">medd meddyglyn bragod pur</lb>
+
+
+    <lb n="36">kwrw byr rhagoriaeth</lb>
+
+
+    <lb n="37">dan dy gadwyn ayr yddwyd</lb>
+
+
+    <lb n="38">yllew llwyd llawen faeth</lb>
+
+
+    <lb n="39">velly yroedd y keylog fry</lb>
+
+
+    <lb n="40">dy o waedoliaeth</lb>
+
+
+    <lb n="41">y proffwydi yddowad hyn</lb>
+
+
+    <lb n="42">kyn y genedigaeth</lb>
+
+
+    <lb n="43">mab duw y ddelayr byd</lb>
+
+
+    <lb n="44">hyd yddoedd ganihadiaeth</lb>
+
+
+    <lb n="45">ymay term gar yn llaw</lb>
+
+
+    <lb n="46">y daw ynaw *brenhiniaeth</lb>
+
+
+    <lb n="47">ac ni chanhaliant ddim or hedd</lb>
+
+
+    <lb n="48">medd y broffwydoliaeth</lb>
+
+
+    <lb n="49">pen for gath yn ka.. klawr</lb>
+
+
+    <lb n="50">y dawr fawr farolaeth</lb>
+
+
+    <lb n="51">llwynog ffwlbert lleyad krank</lb>
+
+
+
+
+
+    <lb n="52">jefank ywr anogiaeth</lb>
+
+
+    <lb n="53">Sarff a blaidd a baedd glas</lb>
+
+
+    <lb n="54">dyrngas ymarchogaeth</lb>
+
+
+    <lb n="55">ki llew gwyn a gwadd</lb>
+
+
+    <lb n="56">lladd yw y llywodraeth</lb>
+
+
+    <lb n="57">tarw eryr gwenol bran</lb>
+
+
+    <lb n="58">galwan y genhedlaeth</lb>
+
+
+    <lb n="59">llew koch keilog mynydd</lb>
+
+
+    <lb n="60">hydd o gudd herwriaeth</lb>
+
+
+    <lb n="61">pymp kwarter blwyddyn hir</lb>
+
+
+    <lb n="62">hir heb *arddeliaeth</lb>
+
+
+    <lb n="63">kyn y trotho dyw y law</lb>
+
+
+    <lb n="64">at y ganllaw digaeth</lb>
+
+
+    <lb n="65">llawer gwraig heb y serch</lb>
+
+
+    <lb n="66">allawer merch mewn hiraeth</lb>
+
+
+    <lb n="67">llawer mab heb y dad</lb>
+
+
+    <lb n="68">*mewn ymddifadaeth</lb>
+
+
+    <lb n="69">jesu grist anprynay y gid</lb>
+
+
+    <lb n="70">prid y fyr prynedigaeth</lb>
+
+
+    <lb n="71">gway ni aros yn y byd</lb>
+
+
+    <lb n="72">symyd y wasanaeth</lb>
+
+
+
+    <lb n="td. NLW 13081B, 164r.diwedd">Thomas ap Iefan ap rhys Ay kant
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_32">
+        <pb n="">
+        
+
+
+
+
+
+
+    <lb n="1">Wedy proffer pob man</lb>
+
+
+    <lb n="2">hyd yn nwyran hafren</lb>
+
+
+
+    <lb n="3">gorey man ac y sy</lb>
+
+
+    <lb n="4">y try yrheylwen</lb>
+
+
+    <lb n="5">llemaer ty mwy y glod</lb>
+
+
+    <lb n="6">dan rhod ffyrfafen</lb>
+
+
+    <lb n="7">lle gosodes duw y ras</lb>
+
+
+    <lb n="8">ar y plas dwn refen</lb>
+
+
+    <lb n="9">llemay ywraig barchys hael</lb>
+
+
+    <lb n="10">wedi kael y fforten</lb>
+
+
+    <lb n="11">ar vn veddwl yny byw</lb>
+
+
+    <lb n="12">aroddes duw y ddwyn wen</lb>
+
+
+    <lb n="13">kary pob karcharor krist</lb>
+
+
+    <lb n="14">lliwior trist yn llawen</lb>
+
+
+    <lb n="15">kodir jencktid ar ymaeth</lb>
+
+
+    <lb n="16">vel y gwnaeth elen</lb>
+
+
+    <lb n="17">yr pellenig rhoddi ty</lb>
+
+
+    <lb n="18">rhoddi gwely yn llawen</lb>
+
+
+    <lb n="19">peri yr tlawd fod yn ddoeth</lb>
+
+
+    <lb n="20">trwsio noeth diarchen</lb>
+
+
+    <lb n="21">galwr jesu ar bob gayr</lb>
+
+
+    <lb n="22">ay vam fair forwyn wen</lb>
+
+
+    <lb n="23">am ddar byd bod yn hael</lb>
+
+
+    <lb n="24">mynych gael y fferen</lb>
+
+
+
+
+
+    <lb n="25">enill nefoedd gwyn y byd</lb>
+
+
+    <lb n="26">ar hyd y bor dowarchen</lb>
+
+
+    <lb n="27">a dwyn enay glan y dduw</lb>
+
+
+    <lb n="28">a buw yn ail tonwen</lb>
+
+
+    <lb n="29">am yn garyr anffydd</lb>
+
+
+    <lb n="30">gnawd yn gael y gynen</lb>
+
+
+    <lb n="31">ac os kowir ydiwr ....</lb>
+
+
+    <lb n="32">hi afydd byd aniben</lb>
+
+
+    <lb n="33">ymay yn ddierth yddynthwy</lb>
+
+
+    <lb n="34">gwrs yddwy seren</lb>
+
+
+    <lb n="35">vn or dwr ar nall or tan</lb>
+
+
+    <lb n="36">ynhwy ygan y gorffen</lb>
+
+
+    <lb n="37">gorch mynay krist y drig</lb>
+
+
+    <lb n="38">ar ganheadig gynen</lb>
+
+
+    <lb n="39">rhydrig eilwaith bychan wyr</lb>
+
+
+    <lb n="40">holl synwyr gridwen</lb>
+
+
+    <lb n="41">ddys yny henwi yn ddwy ddraig</lb>
+
+
+    <lb n="42">vn ay ffaig yn glaerwen</lb>
+
+
+    <lb n="43">ar llall goch ywhi yny mysg</lb>
+
+
+    <lb n="44">efo lysk yddayren</lb>
+
+
+    <lb n="45">ac y gyfod kynwr gwrdd</lb>
+
+
+    <lb n="46">vn dwrdd ar gwenyn</lb>
+
+
+
+    <lb n="47">ac o ddrwg ini yrhead</lb>
+
+
+    <lb n="48">amrhead felen</lb>
+
+
+
+
+
+    <lb n="49">ymaynhwy yn ofnir day barth</lb>
+
+
+    <lb n="50">wedyr arth aflawen</lb>
+
+
+    <lb n="51">ac heb feddwl yddynt bwedd</lb>
+
+
+    <lb n="52">y daw or gogledd gay wen</lb>
+
+
+    <lb n="53">ond yddeyly ymhob mars</lb>
+
+
+    <lb n="54">mal ystars yddrydwen</lb>
+
+
+    <lb n="55">y sydd heb ally nos na dydd</lb>
+
+
+    <lb n="56">varny yn rhydd y rhod bren</lb>
+
+
+    <lb n="57">jesu a esyd pawb yny fan</lb>
+
+
+    <lb n="58">hyd yn oed rhan rhonwen</lb>
+
+
+    <lb n="59">ny thernhasant fawr ynhwy</lb>
+
+
+    <lb n="60">y syrthiant hwy y germania</lb>
+
+
+
+    <lb n="td. NLW 13081B, 165v.diwedd">Thomas ap Ieuan ap Rhys Ay kant
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_33">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">Gwrandewch arnai bob ryw ddyn</lb>
+
+
+    <lb n="2">ymodd ar llyn y byon</lb>
+
+
+    <lb n="3">yn dwyn bowyd drwy fawr gyr</lb>
+
+
+    <lb n="4">yn wragedd gwyr ameybion</lb>
+
+
+    <lb n="5">ac felly yr oedd gwllys duw</lb>
+
+
+    <lb n="6">yn ordro rhyw grystnogion</lb>
+
+
+    <lb n="7">arhai eraill pawb ay gwyr</lb>
+
+
+    <lb n="8">disynwyr yn jddewon</lb>
+
+
+    <lb n="9">kynta dial y syr joed</lb>
+
+
+    <lb n="10">ac yn yroed y klowsom</lb>
+
+
+    <lb n="11">y fy gwymp ar lywsiffer</lb>
+
+
+    <lb n="12">a llawer o angylion</lb>
+
+
+
+
+
+    <lb n="13">yr ail dial *efa ay gwnaeth</lb>
+
+
+    <lb n="14">ac adda aeth y ebron</lb>
+
+
+    <lb n="15">am yr afal fynd ynghyd</lb>
+
+
+    <lb n="16">y drafaylyr byd yn dlodion</lb>
+
+
+    <lb n="17">ni by ddial erioed fwy</lb>
+
+
+    <lb n="18">oddino ynhwy eython</lb>
+
+
+    <lb n="19">medd y beibyl yn nyni</lb>
+
+
+    <lb n="20">am dori y gorchymynion</lb>
+
+
+    <lb n="21">y drydyddial oedd llif noe</lb>
+
+
+    <lb n="22">affwy nathore y galon</lb>
+
+
+    <lb n="23">onyd wyth dyn yr holl fyd</lb>
+
+
+    <lb n="24">y gid ynhwy foddyson</lb>
+
+
+    <lb n="25">y may yn rhyfedd y bob gwr</lb>
+
+
+    <lb n="26">am syrthiad twr pabilon</lb>
+
+
+    <lb n="27">pedwar dial yw ef or brig</lb>
+
+
+    <lb n="28">oryfig gwerin ffeilstion</lb>
+
+
+    <lb n="29">y bedwrydd dial troya fawr</lb>
+
+
+    <lb n="30">y lle y by mawr ddialon</lb>
+
+
+    <lb n="31">a lladd rhwng y jawn ar kam</lb>
+
+
+
+
+
+    <lb n="32">yn amser abram ffyddlon</lb>
+
+
+    <lb n="33">sodam a gomora meddant hwy</lb>
+
+
+    <lb n="34">ac yno nhwy soddyson</lb>
+
+
+    <lb n="35">onid lott ay wraig ai blant</lb>
+
+
+    <lb n="36">may gwarant gowir ddigon</lb>
+
+
+    <lb n="37">ar chweched dial tan gwylld oedd</lb>
+
+
+    <lb n="38">fo ofn nodd pawb pan glowson</lb>
+
+
+    <lb n="39">lle y byddial mawr diospen</lb>
+
+
+    <lb n="40">am nad oydden gyfion</lb>
+
+
+    <lb n="41">ar seith fed dial siosiwa gynt</lb>
+
+
+    <lb n="42">vel dyna hynt gofalon</lb>
+
+
+    <lb n="43">vo ddystrowiodd medd ysain</lb>
+
+
+    <lb n="44">y bychain jawn ar mowrion</lb>
+
+
+    <lb n="45">vn ar bymtheg ddwy waith oedd</lb>
+
+
+    <lb n="46">o frenhinoedd coron</lb>
+
+
+    <lb n="47">o arch duw y ladd ef</lb>
+
+
+    <lb n="48">o waith pechoda trymon</lb>
+
+
+    <lb n="49">ac vellymar seith fed yw</lb>
+
+
+    <lb n="50">ac vo wyr dywr bwriadon</lb>
+
+
+    <lb n="51">ar wythfed sydd dydd yfarn</lb>
+
+
+    <lb n="52">yn gadarn ac yn greylon</lb>
+
+
+    <lb n="53">yroedd dialedd ymhob gradd </lb>
+
+
+
+
+
+    <lb n="54">er peri lladd y dewrion</lb>
+
+
+    <lb n="55">ar hai diddrwg nyd oedd gas</lb>
+
+
+    <lb n="56">o gwmpas yn hwy ddarfyon</lb>
+
+
+    <lb n="57">ac am hyny troed pob rhai</lb>
+
+
+    <lb n="58">oddiwrth y bai pen allon</lb>
+
+
+    <lb n="59">fel y trodd pawl gynt yr ffydd</lb>
+
+
+    <lb n="60">y gael llawenydd jnion</lb>
+
+
+    <lb n="61">a meddylian hwy yni hoes</lb>
+
+
+    <lb n="62">am dduw ar groes ar hoelion</lb>
+
+
+    <lb n="63">a gweddian arno yn syth</lb>
+
+
+    <lb n="64">nyd anhwy byth y ofalon</lb>
+
+
+    <lb n="65">o daw gofyn ar ay gwnaeth</lb>
+
+
+    <lb n="66">o estori fraeth y doython</lb>
+
+
+    <lb n="67">Dyna warant digon prydd</lb>
+
+
+    <lb n="68">yn hwy sydd ddinydon</lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_34">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">Rhyfedd ddigon y bob kriston</lb>
+
+
+    <lb n="2">nad ofna vn o dri gelyn</lb>
+
+
+    <lb n="3">y knawd ar byd ar drwg ysbryd</lb>
+
+
+    <lb n="4">y sy wreyddie yr holl bechode</lb>
+
+
+
+
+
+    <lb n="5">pechod y knawd y beyr anffawd</lb>
+
+
+    <lb n="6">pawb yn y cryfder amod ofer</lb>
+
+
+    <lb n="7">ar hen ar gwan ar di oydran</lb>
+
+
+    <lb n="8">godineby nis gwnair heini</lb>
+
+
+    <lb n="9">pe kyfarche y dduw fadde</lb>
+
+
+    <lb n="10">yr angel y toro oddywrtho</lb>
+
+
+    <lb n="11">syny yry e ywan gredy</lb>
+
+
+    <lb n="12">na chayff e dda byth ywala</lb>
+
+
+    <lb n="13">pe kaeef dda 'r byd yn olyd</lb>
+
+
+    <lb n="14">vo beir y fod ef mewn kebydddod</lb>
+
+
+    <lb n="15">vel llif kornant yddar trachwant</lb>
+
+
+    <lb n="16">'ny gadernid yno y diffid</lb>
+
+
+    <lb n="17">er maint y vo gasgal gantho</lb>
+
+
+    <lb n="18">yno y gedy y holl gasgly</lb>
+
+
+    <lb n="19">wedy ddelo duw oddiwrtho</lb>
+
+
+    <lb n="20">ny char vn dyn y wyneblyn</lb>
+
+
+    <lb n="21">ar mwya fy yny gary</lb>
+
+
+
+
+
+    <lb n="22">rhowyr gatto gael y gyddio</lb>
+
+
+    <lb n="23">ar da ar tir y gymeryr</lb>
+
+
+    <lb n="24">yddiddany von hiraythy</lb>
+
+
+    <lb n="25">tal gan dduw gair am bob gwirair</lb>
+
+
+    <lb n="26">gair gwarth yn wir vo ddielir</lb>
+
+
+    <lb n="27">pwy bynag vo 'n syned arno</lb>
+
+
+    <lb n="28">y sy feilchion y sy dlodion</lb>
+
+
+    <lb n="29">a sy ddifri ymay yn kodi</lb>
+
+
+    <lb n="30">pawb gadawed y ddrwg weithred</lb>
+
+
+    <lb n="31">ni ffery 'r byd hyn ond enyd</lb>
+
+
+    <lb n="32">maen flin gosod benthig tafod</lb>
+
+
+    <lb n="33">dangos bod chwant kael maddeyant</lb>
+
+
+    <lb n="34">rhowyr yddo heb gwelyddio</lb>
+
+
+    <lb n="35">y kythrel y sydd ffalst achebydd</lb>
+
+
+    <lb n="36">may trigaredd duw yn y diwedd</lb>
+
+
+    <lb n="37">y bawb taled y ddylyed</lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_35">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">Arglwydd jesu grist ermwyn</lb>
+
+
+    <lb n="2">dy fam forwyn dirion</lb>
+
+
+    <lb n="3">dyred vn waith yn dy fraint</lb>
+
+
+    <lb n="4">di ath saint gwirion</lb>
+
+
+    <lb n="5">ti addoythost vn duw tri</lb>
+
+
+    <lb n="6">yn rhoddi ni yn rhyddion</lb>
+
+
+    <lb n="7">ac y golli dy holl waed</lb>
+
+
+    <lb n="8">yr wyt draed y sayson</lb>
+
+
+    <lb n="9">vo aeth dy demle yma athraw</lb>
+
+
+    <lb n="10">oll yn llaw y llygion</lb>
+
+
+    <lb n="11">ath eglwysi ymhob lle</lb>
+
+
+    <lb n="12">yn gornele gweigion</lb>
+
+
+    <lb n="13">trwy segyryd pawb ysy</lb>
+
+
+    <lb n="14">yn kael y golydon</lb>
+
+
+    <lb n="15">heb prydery dim o dduw</lb>
+
+
+    <lb n="16">onyd byw yn anghyfion</lb>
+
+
+    <lb n="17">ti ddioddefaist di ath farn</lb>
+
+
+    <lb n="18">gay acham  ddermygion</lb>
+
+
+    <lb n="19">christogion awnay yt waeth</lb>
+
+
+
+
+
+    <lb n="20">nag ywnaeth jddewon</lb>
+
+
+    <lb n="21">ynhwy yddawson gadwr ffydd</lb>
+
+
+    <lb n="22">ar bedydd y gymerson</lb>
+
+
+    <lb n="23">vel y gallent gael dy ras</lb>
+
+
+    <lb n="24">er nas cauas dalon</lb>
+
+
+    <lb n="25">ac o drachwant ar y da</lb>
+
+
+    <lb n="26">trais athra awneython</lb>
+
+
+    <lb n="27">athyrmygy di ath fam</lb>
+
+
+    <lb n="28">a gwneythyr kam kreylon</lb>
+
+
+    <lb n="29">dwyn yth trysor briwo ych tai</lb>
+
+
+    <lb n="30">bod ar fai ddigon</lb>
+
+
+    <lb n="31">dwyn ych trwsiad gweddaydd glan</lb>
+
+
+    <lb n="32">o ddidan ych gweision</lb>
+
+
+    <lb n="33">bene domine ffransis llwyd</lb>
+
+
+    <lb n="34">duw o dwyd mor gyfion</lb>
+
+
+    <lb n="35">may dy gorff di ar sal</lb>
+
+
+    <lb n="36">dial dy wyryddon</lb>
+
+
+    <lb n="37">yroedd yngrefydd mair o ffred</lb>
+
+
+
+
+
+    <lb n="38">ferched amorynion</lb>
+
+
+    <lb n="39">yth weddio lawer pryd</lb>
+
+
+    <lb n="40">ar hyd y byd yraython</lb>
+
+
+    <lb n="41">fo aeth dy ffydd di ar goll</lb>
+
+
+    <lb n="42">y ddyni oll yn ddeillion</lb>
+
+
+    <lb n="43">ac heb gready dim yn jawn</lb>
+
+
+    <lb n="44">cosb y gawni weithon</lb>
+
+
+    <lb n="45">y may term gar yn llaw</lb>
+
+
+    <lb n="46">y daw ynaw coron</lb>
+
+
+    <lb n="47">ac arweddan y naw kad</lb>
+
+
+    <lb n="48">ar glawr gwlad albon</lb>
+
+
+    <lb n="49">ay bwriady yn fawr ar ladd</lb>
+
+
+    <lb n="50">pob gradd yn greylon</lb>
+
+
+    <lb n="51">ac heb arbed jfank hen</lb>
+
+
+    <lb n="52">y fo llen a llygion</lb>
+
+
+    <lb n="53">coron ddegfed duw ne fry</lb>
+
+
+    <lb n="54">yddaw ally o angylion</lb>
+
+
+    <lb n="55">y bob maes rhag lladdfa flin</lb>
+
+
+    <lb n="56">y amddiffin gwirion</lb>
+
+
+
+
+
+    <lb n="57">ac yn ymparth efo dry</lb>
+
+
+    <lb n="58">kymry ac yskotlond</lb>
+
+
+    <lb n="59">ac yr eylwaith gida hyn</lb>
+
+
+    <lb n="60">llychlyn ac ywerddon</lb>
+
+
+    <lb n="61">ac y kyffry rhyfain fawr</lb>
+
+
+    <lb n="62">ac yno y dawr kantorion</lb>
+
+
+    <lb n="63">syn gweddio duw a mair</lb>
+
+
+    <lb n="64">ac yno y kair y ganon</lb>
+
+
+    <lb n="65">ag yn erbyn hyn y bod</lb>
+
+
+    <lb n="66">holl ffrankod sayson</lb>
+
+
+    <lb n="67">y fydd yn lladd ymhob lle</lb>
+
+
+    <lb n="68">megis bleidde creylon</lb>
+
+
+    <lb n="69">ac arweddant ar bob gwlad</lb>
+
+
+    <lb n="70">gad o angristnogion</lb>
+
+
+    <lb n="71">herwydd y ffydd hwy kans</lb>
+
+
+    <lb n="72">begans ac jddewon</lb>
+
+
+    <lb n="73">ar amser hyn ni wys</lb>
+
+
+
+
+
+    <lb n="74">ynghyd pymtheng mis hirion</lb>
+
+
+    <lb n="75">yn piaffod mor athir</lb>
+
+
+    <lb n="76">pwy fydd sickir ddigon</lb>
+
+
+    <lb n="77">ond gobeithio duw yr ys</lb>
+
+
+    <lb n="78">may hil vrytys gyfion</lb>
+
+
+    <lb n="79">an ar ynys yn ddiran</lb>
+
+
+    <lb n="80">ac yno y can hwy y coron</lb>
+
+
+    <lb n="81">oes y mab efo ar tad</lb>
+
+
+    <lb n="82">ysyn hwylad ddynion</lb>
+
+
+    <lb n="83">oes *yr ysbryd yni ysydd</lb>
+
+
+    <lb n="84">hono fydd yn weithon</lb>
+
+
+    <lb n="85">ac yr arwedd ymhob gwlad</lb>
+
+
+    <lb n="86">ffydd wastad ddigon</lb>
+
+
+    <lb n="87">a bedyddio pawb mewn dwr</lb>
+
+
+    <lb n="88">hyd ynhwr pabilon</lb>
+
+
+    <lb n="89">yno saved pawb ar wir</lb>
+
+
+    <lb n="90">ac yn gowir  jnion</lb>
+
+
+
+
+
+    <lb n="91">vel y toro y ayr ne y lw</lb>
+
+
+    <lb n="92">vo fydd marw ddigon</lb>
+
+
+    <lb n="93">ac yr ddayar yn ddi barch</lb>
+
+
+    <lb n="94">yr ar towarch meyrwon</lb>
+
+
+    <lb n="95">ar eneide jesu aed</lb>
+
+
+    <lb n="96">a gwrthfawr waed gwirion</lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_36">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">Y plwyf ar wlad lle may ynghariad</lb>
+
+
+    <lb n="2">an orchymyn duw at bob dyn</lb>
+
+
+    <lb n="3">niferoedd da gwrandewch arna</lb>
+
+
+    <lb n="4">rhag na bwyfi ond y leni</lb>
+
+
+    <lb n="5">be bai ragor geni o gyngor</lb>
+
+
+    <lb n="6">ychwi nag wn hawdd yr hoddwn</lb>
+
+
+    <lb n="7">nydwy gwedy rhybell ddysgy</lb>
+
+
+    <lb n="8">ond fy rhodd gan dduw y hynan</lb>
+
+
+    <lb n="9">ond erhyny chwi gewch dreythy</lb>
+
+
+    <lb n="10">vel y may vn duw yn gorchymyn</lb>
+
+
+    <lb n="11">jesu mab mair ywnaeth dengair</lb>
+
+
+
+
+
+    <lb n="12">deddef yni gadwrheini</lb>
+
+
+    <lb n="13">car dduwn yn bena ac ynesa</lb>
+
+
+    <lb n="14">achar dy gyd griston hefyd</lb>
+
+
+    <lb n="15">a gator dday hyn yn ddifay</lb>
+
+
+    <lb n="16">y mayr dengayr ar y ddey air</lb>
+
+
+    <lb n="17">y may tri dyn yn diri chasddyn</lb>
+
+
+    <lb n="18">Duw na bwy fi yn vn orheini</lb>
+
+
+    <lb n="19">Dyn y gaffo dysgy yddo</lb>
+
+
+    <lb n="20">Dysk fawr na fyn dysgy vn dyn</lb>
+
+
+    <lb n="21">yr ail ywr dyn yfon dilin</lb>
+
+
+    <lb n="22">hir ddrwg ar hyd y bo y fowyd</lb>
+
+
+    <lb n="23">ar dyn drydedd am drigaredd</lb>
+
+
+    <lb n="24">duw nef na bo gobaith gantho</lb>
+
+
+    <lb n="25">saith nef y sydd llawn llawenydd</lb>
+
+
+    <lb n="26">chwech yngwen wlad nef yrhaeldad</lb>
+
+
+    <lb n="27">ar nef seithfed ddyni yn gweled</lb>
+
+
+
+
+
+    <lb n="28">yr eglwys ysyni wasnaythy</lb>
+
+
+    <lb n="29">a saith hefyd y sydd yn y byd</lb>
+
+
+    <lb n="30">maer saith hyny yn cael y cary</lb>
+
+
+    <lb n="31">nef ywr jechyd nef ywr golyd</lb>
+
+
+    <lb n="32">nef ywr mowredd nef ywr bonedd</lb>
+
+
+    <lb n="33">nef ywr swydde nef ywr gradde</lb>
+
+
+    <lb n="34">nef ywr parch a 'r greso mwya</lb>
+
+
+    <lb n="35">o chaiff vn dyn un or saith hyn</lb>
+
+
+    <lb n="36">ny chayff ynef fry heb y bryny</lb>
+
+
+    <lb n="37">Duw prynodd hi drwy fyrthyri</lb>
+
+
+    <lb n="38">oy waed ay gig bendigedig</lb>
+
+
+    <lb n="39">wedyr pryniad ar dref y dad</lb>
+
+
+    <lb n="40">efo roes hon yr tylodion</lb>
+
+
+    <lb n="41">may duw yn doydyd perchen golyd</lb>
+
+
+    <lb n="42">gan dlawd pryn nef oth elyn</lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_37">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">*Yny pechod ddyni yn byw</lb>
+
+
+    <lb n="2">duw pawb yny galon</lb>
+
+
+    <lb n="3">ny ni gawsom bryder mawr</lb>
+
+
+    <lb n="4">y ddyni y nawr yn eon</lb>
+
+
+
+
+
+    <lb n="5">holl gyfredin jesu grist</lb>
+
+
+    <lb n="6">by on drist ddigon</lb>
+
+
+    <lb n="7">nyd er balchedd nyd er bost</lb>
+
+
+    <lb n="8">teg y troest atton</lb>
+
+
+    <lb n="9">rhoddi dy vam wyry vry</lb>
+
+
+    <lb n="10">yn ben lly gweryddon</lb>
+
+
+    <lb n="11">mari yn hynys niney sy</lb>
+
+
+    <lb n="12">heddy yn dwyn y goron</lb>
+
+
+    <lb n="13">y may yn y dwyn o dad amam</lb>
+
+
+    <lb n="14">nyd oedd gam on kyfion</lb>
+
+
+    <lb n="15">vo roes yddi wrth y bodd</lb>
+
+
+    <lb n="16">ac o anfodd sayson</lb>
+
+
+    <lb n="17">gwraig oedd fam yn harglwydd ni</lb>
+
+
+    <lb n="18">meddey yr jddewon</lb>
+
+
+    <lb n="19">hithe osododd merch oy gradd</lb>
+
+
+    <lb n="20">jladd y pene ffeilstion</lb>
+
+
+    <lb n="21">ac yroedd yma athraw</lb>
+
+
+    <lb n="22">ar y llaw hi yr awr hon</lb>
+
+
+    <lb n="23">ally dial llid a bar ar y digasogion</lb>
+
+
+    <lb n="24">gore dim ac ywnaid</lb>
+
+
+    <lb n="25">roir peganiad meddwon</lb>
+
+
+    <lb n="26">wrth gadwini bob yn dri</lb>
+
+
+    <lb n="27">fel y kenddi cochion</lb>
+
+
+    <lb n="28">y vab duw ni allen waeth</lb>
+
+
+    <lb n="29">nog ywnaeth y elynion</lb>
+
+
+
+
+
+    <lb n="30">ond ysbeilo ay ado yn hoeth</lb>
+
+
+    <lb n="31">bod yn boeth yddelon</lb>
+
+
+    <lb n="32">briwor allore mawr y braint</lb>
+
+
+    <lb n="33">ay troi yn ddifraint ddigon</lb>
+
+
+    <lb n="34">gosod trestel yn ddiglod</lb>
+
+
+    <lb n="35">vel gwarchiod gweddwon</lb>
+
+
+    <lb n="36">gwedy esbeilio duw ay dy</lb>
+
+
+    <lb n="37">pery yddy weision</lb>
+
+
+    <lb n="38">gyddio y gorff e agalwr byd</lb>
+
+
+    <lb n="39">y gymeryd briwsion</lb>
+
+
+    <lb n="40">arhoi yr ffeirieyd gwych y gwedd</lb>
+
+
+    <lb n="41">wragedd priodolion</lb>
+
+
+    <lb n="42">ym gystaly ar wyry fair</lb>
+
+
+    <lb n="43">heb vn gair gwedion</lb>
+
+
+    <lb n="44">gwisgo dager ar din</lb>
+
+
+    <lb n="45">gwneythyr min cyson</lb>
+
+
+    <lb n="46">gady barfe myny bod</lb>
+
+
+    <lb n="47">megis bychod beylchon</lb>
+
+
+    <lb n="48">yr oedd yr ffeyriayd wraig bwys</lb>
+
+
+    <lb n="49">hon ywr eglwys gyfion</lb>
+
+
+    <lb n="50">yddo enill drwy dduw tri</lb>
+
+
+    <lb n="51">o honi hi tifeddion</lb>
+
+
+    <lb n="52">ny fedyddid dim or plant</lb>
+
+
+    <lb n="53">y gad o chwant cnawdolion</lb>
+
+
+    <lb n="54">ond priodi pawb o chwith</lb>
+
+
+    <lb n="55">vel ymlhith yddewon</lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_38">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">Faeth yn ychel pris yr yd</lb>
+
+
+    <lb n="2">llymar byd drogan</lb>
+
+
+    <lb n="3">vaeth swyddogon drwg a drain</lb>
+
+
+    <lb n="4">a brain ar holl wlad forgan</lb>
+
+
+    <lb n="5">vaeth y ddayar oll yn brid</lb>
+
+
+    <lb n="6">ymaynhwy gid yn tychan</lb>
+
+
+    <lb n="7">ac vn feddwl am ystars</lb>
+
+
+    <lb n="8">ac ysgars ymgaran</lb>
+
+
+    <lb n="9">ve aeth yr ynys yma athraw</lb>
+
+
+    <lb n="10">oll yn llaw satan</lb>
+
+
+    <lb n="11">vaeth gras duw ou mysg</lb>
+
+
+    <lb n="12">vo aeth y ddysg yn fychan</lb>
+
+
+    <lb n="13">ve aeth yn ddifraint eglwys grist</lb>
+
+
+    <lb n="14">penyd trist athryan</lb>
+
+
+
+
+
+    <lb n="15">gan y balchedd wedd yn wir</lb>
+
+
+    <lb n="16">vel y geyfir fyddan</lb>
+
+
+    <lb n="17">a allo herkyd tir ne dda</lb>
+
+
+    <lb n="18">gidar pena y byddan</lb>
+
+
+    <lb n="19">ar aberthog drwg yrhyw</lb>
+
+
+    <lb n="20">vaeth ydduw yny arian</lb>
+
+
+    <lb n="21">rhaid yr eiddil egwan yw</lb>
+
+
+    <lb n="22">fyw wrth y gilran</lb>
+
+
+    <lb n="23">ar kamweddys mawr y dra</lb>
+
+
+    <lb n="24">efa yn dda ar ddwyran</lb>
+
+
+    <lb n="25">y godwybod salw sydd</lb>
+
+
+    <lb n="26">at yr vfydd tlawd wan</lb>
+
+
+    <lb n="27">ar drigaredd aeth y gid</lb>
+
+
+    <lb n="28">ymaer llid yn llydan</lb>
+
+
+    <lb n="29">a bod heb nag yd na blawd</lb>
+
+
+    <lb n="30">ddeg ar dlawd y hynan</lb>
+
+
+    <lb n="31">madder ddime fach nichayd</lb>
+
+
+    <lb n="32">ar yrhobaid fechan</lb>
+
+
+    <lb n="33">vaeth y kaws blayne a bro</lb>
+
+
+    <lb n="34">keisio fytels ymay yn faith</lb>
+
+
+    <lb n="35">y gael vnwaith grochan</lb>
+
+
+
+
+
+    <lb n="36">kyrched duw nhwy atto ymrhyd</lb>
+
+
+    <lb n="37">llymar pryd y llefan</lb>
+
+
+    <lb n="38">y tylodion grym y gread</lb>
+
+
+    <lb n="39">o cathiwed allan</lb>
+
+
+    <lb n="40">kyn yddelor dial tost</lb>
+
+
+    <lb n="41">ymaen fost fechan</lb>
+
+
+    <lb n="42">ac addewid ym gynt</lb>
+
+
+    <lb n="43">ac ar hynt y gwelan</lb>
+
+
+    <lb n="44">ny ni gowson naw mis glaw</lb>
+
+
+    <lb n="45">ac voddaw yn weithan</lb>
+
+
+    <lb n="46">naw mis eraill yn des</lb>
+
+
+    <lb n="47">gan y gwres y greidan</lb>
+
+
+    <lb n="48">efo ddychon duw osmyn</lb>
+
+
+    <lb n="49">ddanfon enyn boeth fan</lb>
+
+
+    <lb n="50">er mwyn difa fo yny far</lb>
+
+
+    <lb n="51">gydar adar hedan</lb>
+
+
+    <lb n="52">niffryderwn ddim odduw</lb>
+
+
+    <lb n="53">yny byw ni throan</lb>
+
+
+    <lb n="54">a ffen doddon vel y kwyr</lb>
+
+
+    <lb n="55">ymay yn rhy hwyr yn dychan</lb>
+
+
+
+
+
+    <lb n="56">moeswch yni yn getyn</lb>
+
+
+    <lb n="57">weddio yn vn achyfan</lb>
+
+
+    <lb n="58">ar yr eneide fynd yr nef</lb>
+
+
+    <lb n="59">atto ef y hunan</lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_39">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">Gofyn kwndid ymi y gaf</lb>
+
+
+    <lb n="2">beth ywnafi yleni</lb>
+
+
+    <lb n="3">orhoes duw ymine rodd</lb>
+
+
+    <lb n="4">nyd oes fodd ym dewi</lb>
+
+
+    <lb n="5">my fi ddoyda ychwi wir</lb>
+
+
+    <lb n="6">nid rhayd yw hir holi</lb>
+
+
+    <lb n="7">jach arhydd pam y cwyn</lb>
+
+
+    <lb n="8">y fod ef yn dwyn tylodi</lb>
+
+
+    <lb n="9">deillion krypled yn y byw</lb>
+
+
+    <lb n="10">o dy duw yny tlodi dodi</lb>
+
+
+
+
+
+    <lb n="11">carchororion krist y gid</lb>
+
+
+    <lb n="12">gwyn y fyd y rheini</lb>
+
+
+    <lb n="13">y golydog casgly nan</lb>
+
+
+    <lb n="14">ac ni fynan roddi</lb>
+
+
+    <lb n="15">efo ay cayff ni wyddon pwy</lb>
+
+
+    <lb n="16">a gway yn hwy o geny</lb>
+
+
+    <lb n="17">yno y daw yni ddiran</lb>
+
+
+    <lb n="18">y dyn yn wan dan weidi</lb>
+
+
+    <lb n="19">yma y trig y tir ar da</lb>
+
+
+    <lb n="20">ar dyn y a dan ochi</lb>
+
+
+    <lb n="21">llawer calon y fydde drist</lb>
+
+
+    <lb n="22">am farn Christ geli</lb>
+
+
+    <lb n="23">awype cyfiwch yw y braint</lb>
+
+
+    <lb n="24">glowed maint y hanfri</lb>
+
+
+    <lb n="25">nid oes gwraig ac y ssy</lb>
+
+
+    <lb n="26">nam gyfflybay yddi</lb>
+
+
+    <lb n="27">ffordd y try yr hayl o dde</lb>
+
+
+    <lb n="28">na ddelye y  llossgi</lb>
+
+
+    <lb n="29">yddyni bawb ar y cam</lb>
+
+
+    <lb n="30">a mam y missereri</lb>
+
+
+    <lb n="31">morwyn wyryn wyry lawen lwys</lb>
+
+
+
+
+
+    <lb n="32">naby yn gorbwys erni</lb>
+
+
+
+    <lb n="33">ni ddelen feddwl hyn</lb>
+
+
+    <lb n="34">nad oedd kyn y geni</lb>
+
+
+    <lb n="35">ffordd y enaid da na drwg</lb>
+
+
+    <lb n="36">nadelay y lymvow patri</lb>
+
+
+    <lb n="37">trafyn asgrer tad or nef</lb>
+
+
+    <lb n="38">clywch fyllef am gweddi</lb>
+
+
+    <lb n="39">hi ar mab yddyg yny bry</lb>
+
+
+    <lb n="40">jesu y chyfodi</lb>
+
+
+    <lb n="41">ana y mam pen y cae</lb>
+
+
+    <lb n="42">fel ymae yn ystori</lb>
+
+
+    <lb n="43">angel duw one fry</lb>
+
+
+    <lb n="44">y fy 'r genad dwri</lb>
+
+
+    <lb n="45">yny demel yddodd fayr</lb>
+
+
+    <lb n="46">yn dayr blwydd yn y addoli</lb>
+
+
+    <lb n="47">duw ay angylion nef ar goedd</lb>
+
+
+    <lb n="48">a hwynte oedd yn yfforthi</lb>
+
+
+    <lb n="49">morwyn wiri am y vod</lb>
+
+
+    <lb n="50">heb ddim pechod erni</lb>
+
+
+    <lb n="51">gan orychel ar chwe gayr</lb>
+
+
+    <lb n="52">y cae mayr feychogi</lb>
+
+
+    <lb n="53">yn yffedayr blwydd ar ddeg</lb>
+
+
+
+
+
+    <lb n="54">y dawe anrheg iddi</lb>
+
+
+    <lb n="55">hi amddiffynodd yr holl fyd</lb>
+
+
+    <lb n="56">rag y gyd y colli</lb>
+
+
+    <lb n="57">y creawdwr mawr anmedd</lb>
+
+
+    <lb n="58">y syn etifedd jddi</lb>
+
+
+    <lb n="59">am y fagy ole ynlle</lb>
+
+
+    <lb n="60">hi a ddylyey y addoli</lb>
+
+
+    <lb n="61">nyd oedd gnawd ond ychnawd</lb>
+
+
+    <lb n="62">trwy briawd eni</lb>
+
+
+    <lb n="63">y am ddiffin ar y groes</lb>
+
+
+    <lb n="64">y pymoes y syn poyni</lb>
+
+
+    <lb n="65">y gwir dduw oran y tad</lb>
+
+
+    <lb n="66">y mab rhad geni</lb>
+
+
+    <lb n="67">achos cnawd mayr y chwaer</lb>
+
+
+    <lb n="68">y caer ddaer y croeni</lb>
+
+
+    <lb n="69">mi addolar wiri ferch</lb>
+
+
+    <lb n="70">y may fy serch i erni</lb>
+
+
+    <lb n="71">ar y mab y byrai ymhwys</lb>
+
+
+    <lb n="72">jessus ffilli daui</lb>
+
+
+    <lb n="73">ac y galwai ar fab mair</lb>
+
+
+    <lb n="74">ar bob gair om gweddi</lb>
+
+
+    <lb n="75">hithe y gayff gantho ef</lb>
+
+
+    <lb n="76">yn y nef fynodi</lb>
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="TIRh_40">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">Hael blwyfogion hardd wych ffyddlon</lb>
+
+
+    <lb n="2">clych sydd geni yddy stofi</lb>
+
+
+    <lb n="3">cwndid nid ar sen newatwar</lb>
+
+
+    <lb n="4">naflinwch hyd boi yniddwedyd</lb>
+
+
+    <lb n="5">nid wyf ond ffol anystyriol</lb>
+
+
+    <lb n="6">ym gynghorir neb nym gwrendy</lb>
+
+
+    <lb n="7">ond ddwin gweled blin gamsyned</lb>
+
+
+    <lb n="8">mawr ar lawer faint y balchder</lb>
+
+
+    <lb n="9">am nad ystyr pob pechadyr</lb>
+
+
+    <lb n="10">may rhayd symyd o hyn ofyd</lb>
+
+
+    <lb n="11">ceffelyb ywr byd ac vnffynyd</lb>
+
+
+
+    <lb n="12">affeyntiwr fay yn peintio delway</lb>
+
+
+    <lb n="13">y arfer e gwneythyr pethe</lb>
+
+
+    <lb n="14">twyllodrys ar wyneb dayar</lb>
+
+
+    <lb n="15">hir ni ffery y gwaith hyny</lb>
+
+
+    <lb n="16">ond desefor nef ay costo</lb>
+
+
+    <lb n="17">fellyr byd caeth velhydoliaeth</lb>
+
+
+    <lb n="18">y kyfflybwn ym dyfosiwn</lb>
+
+
+    <lb n="19">mawr ddihayreb fyr doethineb</lb>
+
+
+
+
+
+    <lb n="20">Dewder y abri cyn yn geni</lb>
+
+
+    <lb n="21">o bridd cynta gwr fy adda</lb>
+
+
+    <lb n="22">Blemay dwedwch ymi os meedrwch</lb>
+
+
+    <lb n="23">gwr dewr dibrin bleraeth rhawling</lb>
+
+
+    <lb n="24">Brenin grasol konstinopol</lb>
+
+
+    <lb n="25">plemay gorsil oedd wr ar fil</lb>
+
+
+    <lb n="26">a sylys yfy ddoeth cynhyny</lb>
+
+
+    <lb n="27">plemay gwyr da beyrdd eropia</lb>
+
+
+    <lb n="28">ner fil ar gwr elexawndwr</lb>
+
+
+    <lb n="29">ple may ector ddoeth y gyngor</lb>
+
+
+    <lb n="30">dewr mewn fentyr ple may arthyr</lb>
+
+
+    <lb n="31">may wenhwyfar hoyw fwyn hawddgar</lb>
+
+
+    <lb n="32">merch y gog fran gawr y hynan</lb>
+
+
+    <lb n="33">Ble mae anareg hoyw fwyn deg</lb>
+
+
+    <lb n="34">o bryd pen oedd ar y bobloedd</lb>
+
+
+    <lb n="35">plemay eron gynt oedd greylon</lb>
+
+
+    <lb n="36">a siarlamaen gryf y adaen</lb>
+
+
+    <lb n="37">plemay farsel pab rhyfain ffel</lb>
+
+
+    <lb n="38">pen cyfrayth hen ble raeth moysen</lb>
+
+
+    <lb n="39">plemay fryttys fab hen sylys</lb>
+
+
+
+
+
+    <lb n="40">ac owain fy ddewra ynghymry</lb>
+
+
+    <lb n="41">ple may rhigart brenin dewrbart</lb>
+
+
+    <lb n="42">ar duwk y fydro yn jork yn trigo</lb>
+
+
+    <lb n="43">plemay ddafydd broffwyd ryw ddydd</lb>
+
+
+    <lb n="44">a self ddoeth mawr fyr cyfoeth</lb>
+
+
+    <lb n="45">may saith doethon rhyfain dirion</lb>
+
+
+    <lb n="46">Gwiliaw eraill yn saith fferaill</lb>
+
+
+    <lb n="47">plemaer gwr hwn elwyd catwn</lb>
+
+
+    <lb n="48">mawr y ddoyth der ymhob mater</lb>
+
+
+    <lb n="49">ble ddaeth y gid saith gelfyddyd</lb>
+
+
+    <lb n="50">oedd gan lawer yn yr hen amser</lb>
+
+
+    <lb n="51">er celuyddyd yrhain j gyd</lb>
+
+
+    <lb n="52">ay holl ddoeth-der mawr ay cryfder</lb>
+
+
+    <lb n="53">pawb yn ddilyn ac yn briddin</lb>
+
+
+    <lb n="54">yr ddaer ddeython hwy wyr dewron</lb>
+
+
+    <lb n="55">diwedd dyn glan y sydd egwan</lb>
+
+
+    <lb n="56">yfo dihayreb mewn gwrol deb</lb>
+
+
+    <lb n="57">arhon mewn bedd o saith droedfedd</lb>
+
+
+    <lb n="58">athan y ben las dowarchen</lb>
+
+
+    <lb n="59">ac ynte fydd beynoeth beynydd</lb>
+
+
+    <lb n="60">yn rhoi dalken wrth y nen bren</lb>
+
+
+
+
+
+    <lb n="61">heb gedymaeth yni gwmpniaeth</lb>
+
+
+    <lb n="62">on ffroga dy yny gytty</lb>
+
+
+    <lb n="63">pryfed dayar geyrwon hagar</lb>
+
+
+    <lb n="64">fydd cyd meithion yr kyrff meyrwon</lb>
+
+
+    <lb n="65">ar enaid sydd yny gystydd</lb>
+
+
+    <lb n="66">am ywnaethe o gamwedde</lb>
+
+
+    <lb n="67">pen el jesy ynghylch holi</lb>
+
+
+    <lb n="68">ni ad er tro lleia yn ango</lb>
+
+
+    <lb n="69">rhaid rhoi cyfri y pryd hyny</lb>
+
+
+    <lb n="70">or da mawron bwedd y deython</lb>
+
+
+    <lb n="71">ac yn berffeth pob ceinhogwerth</lb>
+
+
+    <lb n="72">wrth ben proffwydd babedd  y *doytpwyd</lb>
+
+
+    <lb n="73">fel y gwneython y gweythredon</lb>
+
+
+    <lb n="74">ar pryd hyny cawnin taly</lb>
+
+
+    <lb n="75">pawb ywnaeth da medd y doetha</lb>
+
+
+    <lb n="76">yr porth ar llead y gayff myned</lb>
+
+
+    <lb n="77">ywnaeth trawsedd ac enwiredd</lb>
+
+
+    <lb n="78">yr lle dlyon att wyr geyrwon</lb>
+
+
+    <lb n="79">ermwyn hyny rhownin gweddi</lb>
+
+
+    <lb n="80">ar grist fadde yn nin pechode</lb>
+
+
+    <lb n="81">niwn griston berchen calon</lb>
+
+
+    <lb n="82">a syn gally bod heb pechy</lb>
+
+
+    <lb n="83">gedwch ym lwyr tifary</lb>
+
+
+    <lb n="84">hayddwn wir fodd duw fon prynodd</lb>
+
+
+
+
+
+
+     </pb>
+     </text>
+
+
+    </text>

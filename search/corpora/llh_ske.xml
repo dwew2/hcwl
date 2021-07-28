@@ -1,0 +1,6542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../sketchengine.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+
+<text id="LlH">
+   <text id="LlH_i">
+      
+        
+      
+      
+      <pb n="153.">
+      
+      
+      <head>
+      
+       
+      <lb n="1">&para;&nbsp;Pregeth yn erbyn putteindra</lb>
+       
+      <lb n="2">ac aflendid.</lb>
+      </head>
+      
+      
+      
+      
+      
+       
+      <lb n="3">ER bod aml heidiau o bob drygioni
+      </lb> 
+      <lb n="4">a ddlyent eu ceryddu (bobl&nbsp;
+      </lb>
+      <lb n="4-5">Gristianogol
+      </lb>
+      <lb n="5">
+       ddaionus) mae gwir 
+      </lb>
+      <lb n="5-6">dduwioldeb,
+      </lb>
+      <lb n="6">
+       a rhinweddol fywyd
+      </lb> 
+      <lb n="7">gwedi myned mor * ambell, etto
+      </lb> 
+      <lb n="8">vwch law pob drygioni arall,
+      </lb> 
+      <lb n="9">mae anllywodraethus foroedd
+      
+      </lb>
+      </pb>
+      <pb n="154.">
+      
+       
+      <lb n="1">godineb neu dor-priodas, putteindra, 
+      </lb>
+      <lb n="1-2">anlladrwydd,
+      </lb>
+      <lb n="2">
+       ac aflendid, nid yn vnig gwedi torri i mewn,
+      </lb> 
+      <lb n="3">ond hefyd gwedy llifeirio gan mwyaf dros yr holl
+      </lb> 
+      <lb n="4">fyd, er mawr ddianrhydedd Duw, ac anfeidrol
+      </lb> 
+      <lb n="5">gabledd enw Christ, er cyhoeddus ddistryw gwir
+      </lb> 
+      <lb n="6">grefydd, a llwyr ddinistr daionus 
+      </lb>
+      <lb n="6-7">gyffredinolrwydd,
+      </lb>
+      <lb n="7">
+       a hynny mor halaeth, megis trwy fynych 
+      </lb>
+      <lb n="7-8">arfer
+      </lb>
+      <lb n="8">
+       ohono, y mae y drygioni hwn gwedy tyfu i 'r
+      </lb> 
+      <lb n="9">fath vwchder, megis haychen \haeachen\ ym-mhlith llawer
+      </lb> 
+      <lb n="10">o bobl ni chyfrifir ef yn bechod: onid yn hytrach
+      </lb> 
+      <lb n="11">yn ddigrifwch, yn gellwair a nwyfiant ieuengtid,
+      </lb> 
+      <lb n="12">yr hwn ni cheryddir, ond a ddifrawir, yr hwn ni
+      </lb> 
+      <lb n="13">chospir, ond a chwerddir o 'i blegid.
+      
+      
+      </lb> 
+      <lb n="14">Am hyn anghenrhaid ydyw ar hyn o bryd 
+      </lb>
+      <lb n="14-15">draethu
+      </lb>
+      <lb n="15">
+       wrthych am bechod putteindra a godineb, a
+      </lb> 
+      <lb n="16">dangos i chwi faint y pechod ym-ma \yma\, ac mor g&acirc;s,
+      </lb> 
+      <lb n="17">mor ddigasog, ac mor ffiaidd ydyw ac y cyfrifwyd
+      </lb> 
+      <lb n="18">ef bob amser ger bron Duw a phob d&#375;n daionus,
+      </lb> 
+      <lb n="19">ac mor ddwys y cospwyd ef gynt, trwy gyfraith
+      </lb> 
+      <lb n="20">Dduw a chyfraithiau llawer o dywysogion: ac
+      </lb> 
+      <lb n="21">hefyd i ddangos i'wch \iwch\ ryw gyfarwyddyd, fel y
+      </lb> 
+      <lb n="22">galloch (trwy r&acirc;s Duw) wachelyd erchyll bechod
+      </lb> 
+      <lb n="23">putteindra a goddineb, a byw mewn glendid ac
+      </lb> 
+      <lb n="24">honestrwydd. Ac er mwyn bod i chwi ystyried fod
+      </lb> 
+      <lb n="25">putteindra a godineb yn bechodau ffiaidd 
+      </lb>
+      <lb n="25-26">yngolwg
+      </lb>
+      <lb n="26">
+       \yng ngolwg\ Duw, chwi a gofiwch orchymmyn Duw,
+      </lb> 
+      <lb n="27">Na wna odineb. Yr hwn air, Godineb, er bod yn
+      </lb> 
+      <lb n="28">ei ddeall ef yn briodol am ymgymmysc ac 
+      </lb>
+      <lb n="28-29">anghyfraithlon
+      </lb>
+      <lb n="29">
+       gysylltiad g&#373;r priodol &acirc; rhyw wraig arall
+      </lb> 
+      <lb n="30">heb law ei wraig ei hun: neu wraig gyd&acirc; g&#373;r
+      </lb> 
+      <lb n="31">heb law ei g&#373;r ei hun: etto trwy 'r gair hwn 
+      </lb>
+      <lb n="31-32">hefyd
+      </lb>
+      <lb n="32">
+       yr arwyddocceir pob arfer anghyfraithlon o 'r
+      </lb> 
+      <lb n="33">aelodau a osodwyd i genhedlu. Ac mae 'r vn 
+      </lb>
+      <lb n="33-34">gorchymmyn
+      </lb>
+      <lb n="34">
+       hwn, yr hwn sydd yn gwahardd 
+      
+      </lb>
+      </pb>
+      <pb n="154-155.">
+      <lb n="34-1">godineb,
+      </lb>
+      </pb>
+      <pb n="155.">
+      <lb n="1">
+       yn paentio yn gyflawn, ac yn gosod ger bron
+      </lb> 
+      <lb n="2">ein llygaid ni faint pechod putteindra: ac yn 
+      </lb>
+      <lb n="2-3">dangos
+      </lb>
+      <lb n="3">
+       yn oleu mor ffiaidd y dylyai fod y pechod 
+      </lb>
+      <lb n="3-4">ymma
+      </lb>
+      <lb n="4">
+       gan bob d&#375;n honest ffyddlon.
+      
+      
+      </lb> 
+      <lb n="5">A rhac i neb ohonom feddwl fod gwedy ei 
+      </lb>
+      <lb n="5-6">ddieithro
+      </lb>
+      <lb n="6">
+       ef a 'i ddosparth oddiwrth y gorchymmyn
+      </lb> 
+      <lb n="7">hwn: pa vn bynnag fythom ai h&ecirc;n ai ieuangc, ai
+      </lb> 
+      <lb n="8">priodol ai am-mhriodol, ai g&#373;r ai gwraig, 
+      </lb>
+      <lb n="8-9">gwrandawn
+      </lb>
+      <lb n="9">
+       pa beth a ddywaid Duw D&acirc;d trwy ei 
+      </lb>
+      <lb n="9-10">odidawg
+      </lb>
+      <lb n="10">
+       brophwyd Moses, Na fydded puttain 
+      </lb>
+      <lb n="10-11">ymmhlith
+      </lb>
+      <lb n="11">
+       merched Israel, na phutteinwr 
+      </lb>
+      <lb n="11-12">ymmhlith
+      </lb>
+      <lb n="12">
+       meibion Israel. Ymma y gwaherddir
+      </lb> 
+      <lb n="13">pob putteindra, godineb ac aflendid, bob rhyw o
+      </lb> 
+      <lb n="14">bobl, i bob gr&acirc;dd, i bob oedran yn ddiddieithrad.
+      
+      
+      </lb> 
+      <lb n="15">A rhac i ni frith-dybied na pherthyn yr arch neu
+      </lb> 
+      <lb n="16">y gorchymmyn hwn attom ni yn wir, 
+      </lb>
+      <lb n="16-17">gwrandawn
+      </lb>
+      <lb n="17">
+       beth a ddywaid Christ (perffaith 
+      </lb>
+      <lb n="17-18">ddyscawdwr
+      </lb>
+      <lb n="18">
+       pob gwirionedd) yn y Testament newydd:
+      </lb> 
+      <lb n="19">Chwi a glywsoch (medd Christ) ddywedyd wrth
+      </lb> 
+      <lb n="20">y rhai gynt, Na wna odineb: ond yr ydwyfi yn
+      </lb> 
+      <lb n="21">dywedyd i chwi, pwy bynnag a edrycho ar wraig
+      </lb> 
+      <lb n="22">gan ei chwennychu, a wnaeth odineb &acirc; hi eisioes
+      </lb> 
+      <lb n="23">yn ei galon. Ymma y mae ein Iachawdwr Christ,
+      </lb> 
+      <lb n="24">nid yn vnig yn cryfhau ac yn cadarnhau y gyfraith
+      </lb> 
+      <lb n="25">yr hon a roddase Dduw d&acirc;d yn yr h&ecirc;n destament,
+      </lb> 
+      <lb n="26">trwy ei wasanaethwr Moses yn erbyn godineb, ac
+      </lb> 
+      <lb n="27">yn ei gwneuthur hi o gyflawn rym i barhau dros
+      </lb> 
+      <lb n="28">fyth ym-mhlith proffeswyr ei enw ef yn y 
+      </lb>
+      <lb n="28-29">Testament
+      </lb>
+      <lb n="29">
+       newydd: ond mae fe hefyd (gan ddamnio
+      </lb> 
+      <lb n="30">anghyfaddas ddeongliadau y Pharis&#281;aid a 'r 
+      </lb>
+      <lb n="30-31">scrifennyddion,
+      </lb>
+      <lb n="31">
+       y rhai a ddyscent fod y gorchymmyn
+      </lb> 
+      <lb n="32">hwn yn peri i ni yn vnig ymgadw rhag godineb
+      </lb> 
+      <lb n="33">oddi allan, ac nid rhag chwantau aflan a 
+      </lb>
+      <lb n="33-34">gwyniau
+      </lb>
+      <lb n="34">
+       ammhur) yn dyscu i ni gyfan a chyflawn
+      
+      </lb>
+      </pb>
+      <pb n="156.">
+      
+       
+      <lb n="1">berffeithrwydd, purder a glendid buchedd, i gadw
+      </lb> 
+      <lb n="2">ein cyrph yn ddihalog a 'n calonnau yn bur, ac yn
+      </lb> 
+      <lb n="3">rhydd oddiwrth bob chwantau dr&#373;g, cnawdol
+      </lb> 
+      <lb n="4">ddeisyfiadau a chyfundebau.
+      
+      
+      </lb> 
+      <lb n="5">Pa fodd gan hynny y gallwn fod yn rhyddion
+      </lb> 
+      <lb n="6">oddiwrth y gorchymmyn hwn: lle mae cymmaint
+      </lb> 
+      <lb n="7">siars wedi ei osod arnom? a ddichon gw&acirc;s 
+      </lb>
+      <lb n="7-8">wneuthur
+      </lb>
+      <lb n="8">
+       y peth a fynno, a 'i feistr yn gorchymmyn y
+      </lb> 
+      <lb n="9">gwrthwyneb iddo? Onid Christ yw ein meistr,
+      </lb> 
+      <lb n="10">a ninnau iddo ef yn weision? Pa fodd gan hynny
+      </lb> 
+      <lb n="11">yr esceuluswn ni fodd ac ewyllys ein meistr, a 
+      </lb>
+      <lb n="11-12">chanlyn
+      </lb>
+      <lb n="12">
+       ein ewyllys a 'n ffansi ein hunain? Fy 
+      </lb>
+      <lb n="12-13">nghyfeillon
+      </lb>
+      <lb n="13">
+       i ydych chwi, medd Christ, os gwnewch y
+      </lb> 
+      <lb n="14">pethau yr wyfi yn eu gorchymmyn i chwi. Yn
+      </lb> 
+      <lb n="15">awr fe a orchymmynnodd ein meistr Christ i ni
+      </lb> 
+      <lb n="16">ymwrthod &acirc; phob aflendid yngorph \yng nghorff\ ac Yspryd.
+      </lb> 
+      <lb n="17">Hyn, wrth hynny, sy raid i ni ei wneuthur, os 
+      </lb>
+      <lb n="17-18">ceisiwn
+      </lb>
+      <lb n="18">
+       fodloni Duw.
+      
+      
+      </lb> 
+      <lb n="19">Yr ydym ni yn darllein yn Efangel S. 
+      </lb>
+      <lb n="19-20">Matthew,
+      </lb>
+      <lb n="20">
+       i 'r Pharis&aelig;aid a 'r Scrifennyddion ddigio
+      </lb> 
+      <lb n="21">wrth Christ yn anial, am nad oedd ei ddiscyblon ef
+      </lb> 
+      <lb n="22">yn cadw traddodiadau yr henafiaid; canys ni 
+      </lb>
+      <lb n="22-23">olchent
+      </lb>
+      <lb n="23">
+       eu dwylo cyn cyniawa neu swpperu. 
+      </lb>
+      <lb n="23-24">Ymmhlith
+      </lb>
+      <lb n="24">
+       pethau eraill fe a attebodd Christ ac a
+      </lb> 
+      <lb n="25">ddywedodd, Gwrandewch a deellwch, nid yr hyn
+      </lb> 
+      <lb n="26">sydd yn myned i mewn i 'r genau sydd yn halogi
+      </lb> 
+      <lb n="27">d&#375;n, ond y pethau a ddauant allan o 'r genau sydd
+      </lb> 
+      <lb n="28">yn dyfod o 'r galon, a hwynt hwy a halogant
+      </lb> 
+      <lb n="29">dd&#375;n. Canys o 'r galon y mae meddyliau dr&#373;g
+      </lb> 
+      <lb n="30">yn dyfod, llofruddiaeth, tor-priodas, godinebau,
+      </lb> 
+      <lb n="31">lledrad, camdystiolaeth, cabledd. Dymma y 
+      </lb>
+      <lb n="31-32">pethau
+      </lb>
+      <lb n="32">
+       sy yn halogi d&#375;n. Ymma y gallwn weled
+      </lb> 
+      <lb n="33">nad llofruddiaeth, lledrad, cam-dystiolaeth a
+      </lb> 
+      <lb n="34">chabledd yn vnig sydd yn halogi d&#375;n, ond hefyd
+      
+      </lb>
+      </pb>
+      <pb n="157.">
+      
+       
+      <lb n="1">meddyliau dr&#373;g, tor-priodas, godineb a 
+      </lb>
+      <lb n="1-2">phutteindra.
+      </lb>
+      <lb n="2">
+      
+      
+      
+      </lb> 
+      <lb n="3">Pwy sydd yn awr mor wan ei synwyr ac y 
+      </lb>
+      <lb n="3-4">tybia
+      </lb>
+      <lb n="4">
+       fod putteindra a goddineb yn bethau bychain
+      </lb> 
+      <lb n="5">yscafn ger bron Duw. Mae Christ yr hwn yw 'r
+      </lb> 
+      <lb n="6">gwirionedd ac ni ddichon ddywedyd celwydd, yn
+      </lb> 
+      <lb n="7">dywedyd fod meddyliau dr&#373;g, tor-priodas, 
+      </lb>
+      <lb n="7-8">putteindra
+      </lb>
+      <lb n="8">
+       a godineb yn halogi d&#375;n; hynny yw, yn
+      </lb> 
+      <lb n="9">llygru corph ac enaid d&#375;n, ac yn ei wneuthur ef
+      </lb> 
+      <lb n="10">o deml yr Yspryd gl&acirc;n, yn dommen front ac yn
+      </lb> 
+      <lb n="11">dderbynfa holl ysprydion afl&acirc;n: o d&#375; Dduw yn
+      </lb> 
+      <lb n="12">drigle sathan.
+      
+      
+      </lb> 
+      <lb n="13">Trachefn yn Efangel Ioan pan ddygpwyd y
+      </lb> 
+      <lb n="14">wraig a ddaliasid mewn godineb, ger bron Christ,
+      </lb> 
+      <lb n="15">fe a ddywad wrthi hi d&ocirc;s, ac na phecha mwyach.
+      </lb> 
+      <lb n="16">Onid ydyw ef ymma yn galw putteindra yn 
+      </lb>
+      <lb n="16-17">bechod?
+      </lb>
+      <lb n="17">
+       a pha beth yw gwobr pechod, ond 
+      </lb>
+      <lb n="17-18">tragwyddol
+      </lb>
+      <lb n="18">
+       angau? Os yw putteindra yn bechod, nid
+      </lb> 
+      <lb n="19">yw gyfreithlon i ni ei wneuthur, o herwydd fel
+      </lb> 
+      <lb n="20">y dywaid Ioan, Yr hwn a wna bechod o ddiafol
+      </lb> 
+      <lb n="21">y mae. Ac fe a ddywed ein Iachawdwr fod pob
+      </lb> 
+      <lb n="22">vn a wnel bechod yn gaethwas i bechod. Oni
+      </lb> 
+      <lb n="23">bai fod putteindra yn bechod, diau na buasai 
+      </lb>
+      <lb n="23-24">Ioan
+      </lb>
+      <lb n="24">
+       fedyddiwr yn ceryddu Herod am gymmeryd
+      </lb> 
+      <lb n="25">gwraig ei frawd: ond fe a ddywedodd wrtho yn
+      </lb> 
+      <lb n="26">oleu, Nid cyfraithlon yw i ti gymmeryd gwraig
+      </lb> 
+      <lb n="27">dy frawd. Nid arbedodd ef butteindra Herod, er
+      </lb> 
+      <lb n="28">ei fod ef yn frenhin cadarn, ond fe a 'i ceryddodd
+      </lb> 
+      <lb n="29">ef yn * eofn [-: * Hyf.]  am ei fywyd melldigedig, drwg, er
+      </lb> 
+      <lb n="30">iddo ef golli ei ben am hynny. Ond gwell oedd
+      </lb> 
+      <lb n="31">gantho oddef angau n&acirc; gweled dianrhydeddu
+      </lb> 
+      <lb n="32">Duw, drwy dorri ei sanctaidd airch a 'i 
+      </lb>
+      <lb n="32-33">orchymmynion
+      </lb>
+      <lb n="33">
+       ef, ie n&acirc; goddef mewn brenhin 
+      </lb>
+      <lb n="33-34">butteindra
+      </lb>
+      <lb n="34">
+       heb geryddu.
+      
+      
+      </lb>
+      </pb>
+      <pb n="158.">
+      
+      
+       
+      <lb n="1">Pe na buasai putteindra ddim ond digrifwch
+      </lb> 
+      <lb n="2">a chellwair heb achos ei wneuthur cyfrif ohono
+      </lb> 
+      <lb n="3">(megis y tybia llawer amdano yn y dyddiau 
+      </lb>
+      <lb n="3-4">ymma)
+      </lb>
+      <lb n="4">
+       yn wir fe fuasai Ioan yn fwy n&acirc; dwbl allan
+      </lb> 
+      <lb n="5">o 'i bwyll, os ai ef tan anfodd brenhin, os 
+      </lb>
+      <lb n="5-6">goddefai
+      </lb>
+      <lb n="6">
+       ei daflu i garchar, a cholli ei ben am beth
+      </lb> 
+      <lb n="7">gwael dibris. Ond fe a wyddai Ioan yn dda 
+      </lb>
+      <lb n="7-8">ddigon
+      </lb>
+      <lb n="8">
+       mor frwnt, mor ddrewllyd, mor ffiaidd yw 
+      </lb>
+      <lb n="8-9">pechod
+      </lb>
+      <lb n="9">
+       putteindra yngolwg \yng ngolwg\ Duw, ac am hynny ni
+      </lb> 
+      <lb n="10">oddefai ef mohono heb geryddu; na wnai, mewn
+      </lb> 
+      <lb n="11">brenhin.
+      
+      
+      </lb> 
+      <lb n="12">Onid ydyw putteindra gyfreithlon mewn
+      </lb> 
+      <lb n="13">brenhin, nid yw gyfreithlon mewn deiliad. Onid
+      </lb> 
+      <lb n="14">yw putteindra gyfraithlon mewn d&#375;n cyhoedd, a
+      </lb> 
+      <lb n="15">fyddo a swydd gyhoedd gantho, yn wir nid yw
+      </lb> 
+      <lb n="16">gyfraithlon mewn vn diswyddau. Onid yw 
+      </lb>
+      <lb n="16-17">gyfraithlon
+      </lb>
+      <lb n="17">
+       nac mewn brenhin nac mewn deiliad,
+      </lb> 
+      <lb n="18">nac mewn cyhoedd swyddog, nac mewn vn 
+      </lb>
+      <lb n="18-19">diswyddau:
+      </lb>
+      <lb n="19">
+       yn wir nid yw gyfraithlon nac mewn g&#373;r
+      </lb> 
+      <lb n="20">nac mewn gwraig, o ba r&acirc;dd neu oedran bynnac
+      </lb> 
+      <lb n="21">y b&ocirc;nt.
+      
+      
+      </lb> 
+      <lb n="22">Hefyd yr ydym ni yn darllein 
+      </lb>
+      <lb n="22-23">yngweithredoedd
+      </lb>
+      <lb n="23">
+       \yng ngweithredoedd\ yr Apostolion, pan gasclodd yr Apostolion yr
+      </lb> 
+      <lb n="24">henuriaid a 'r holl gynnulleidfa ynghyd, i lonyddu
+      </lb> 
+      <lb n="25">calonnau y ffyddloniaid y rhai oedd yn arhos yn
+      </lb> 
+      <lb n="26">Antiochia (y rhai a aflonyddasid trwy 
+      </lb>
+      <lb n="26-27">gauathrawiaeth
+      </lb>
+      <lb n="27">
+       rhyw Iuddewaidd bregethwyr) hwy a
+      </lb> 
+      <lb n="28">ddanfonasant air i 'r brodyr, weled yn dda gan yr
+      </lb> 
+      <lb n="29">Yspryd gl&acirc;n a hwyntau, na ddodent arnynt faich
+      </lb> 
+      <lb n="30">amgenach n&acirc; 'r pethau anghenrheidiol hyn: 
+      </lb>
+      <lb n="30-31">ymmhlith
+      </lb>
+      <lb n="31">
+       pethau eraill hwy a orchymmynnasant
+      </lb> 
+      <lb n="32">iddynt ymgadw rhag delw-addoliad a godineb,
+      </lb> 
+      <lb n="33">oddiwrth y rhai (eb y hwynt) os chwi a 
+      </lb>
+      <lb n="33-34">ymgedwch,
+      </lb>
+      <lb n="34">
+       da y gwnewch.
+      
+      
+      </lb>
+      </pb>
+      <pb n="159.">
+      
+      
+       
+      <lb n="1">Edrychwch ymma fal nad ydyw y tadau 
+      </lb>
+      <lb n="1-2">sanctaidd
+      </lb>
+      <lb n="2">
+       bendigaid ymma o Eglwys Ghrist, yn 
+      </lb>
+      <lb n="2-3">gosod
+      </lb>
+      <lb n="3">
+       ar y gynnulleidfa ddim ond pethau 
+      </lb>
+      <lb n="3-4">anghenrheidiol.
+      </lb>
+      <lb n="4">
+       Ystyriwch hefyd fod yn cyfrif 
+      </lb>
+      <lb n="4-5">putteindra
+      </lb>
+      <lb n="5">
+       a godineb ym-mhlith y pethau a 
+      </lb>
+      <lb n="5-6">orchymmynnir
+      </lb>
+      <lb n="6">
+       i 'r brodyr o Antiochia ymgadw oddiwrthynt.
+      </lb> 
+      <lb n="7">Anghenrhaid am hynny yw, wrth gyfundeb a
+      </lb> 
+      <lb n="8">therfyniad yr Yspryd gl&acirc;n a 'r Apostolion a 'r 
+      </lb>
+      <lb n="8-9">henuriaid
+      </lb>
+      <lb n="9">
+       a 'r holl gynnulleidfa, fod ini felly ymgadw
+      </lb> 
+      <lb n="10">oddiwrth odineb a phutteindra, megis oddiwrth
+      </lb> 
+      <lb n="11">ddelw-addoliad ac ofergoel. Mae yn anghenrhaid
+      </lb> 
+      <lb n="12">er Iachawdwriaeth, ymgadw rhag 
+      </lb>
+      <lb n="12-13">delw-addoliad,
+      </lb>
+      <lb n="13">
+       felly y mae ymgadw rhag putteindra. Oes
+      </lb> 
+      <lb n="14">ffordd sydd nes a dywys i ddamnedigaeth, n&acirc;&nbsp;
+      </lb>
+      <lb n="14-15">delw-addoliad?
+      </lb>
+      <lb n="15">
+       nag oes. Felly hefyd nid oes ffordd
+      </lb> 
+      <lb n="16">nes a dywys i ddistryw corph ac enaid, n&acirc; godineb
+      </lb> 
+      <lb n="17">a phutteindra.
+      
+      
+      </lb> 
+      <lb n="18">Pa le weithian y mae y bobl a wn&acirc;nt mor 
+      </lb>
+      <lb n="18-19">fychan
+      </lb>
+      <lb n="19">
+       o dor-priodas, putteindra godineb ac 
+      </lb>
+      <lb n="19-20">aflendid?
+      </lb>
+      <lb n="20">
+       Mae yn anghenrhaid, medd yr Yspryd gl&acirc;n,
+      </lb> 
+      <lb n="21">medd y bendigedig Apostolion, medd yr 
+      </lb>
+      <lb n="21-22">henuriaid
+      </lb>
+      <lb n="22">
+       a holl gynnulleidfa Ghrist; mae yn 
+      </lb>
+      <lb n="22-23">anghenrhaid,
+      </lb>
+      <lb n="23">
+       meddant, er Iachawdwriaeth ymgadw
+      </lb> 
+      <lb n="24">oddiwrth butteindra. Os yw anghenrhaid i 
+      </lb>
+      <lb n="24-25">Iechydwriaeth,
+      </lb>
+      <lb n="25">
+       gwae y rhai gan esceuluso eu 
+      </lb>
+      <lb n="25-26">hiechydwriaeth,
+      </lb>
+      <lb n="26">
+       a roddant eu meddyliau i bechod mor
+      </lb> 
+      <lb n="27">frwnt, ac mor ddrewllyd, i fai cynddr&#373;g, ac i
+      </lb> 
+      <lb n="28">ffieidd-dra mor erchyll.
+      
+      
+      
+      </lb>
+      </pb>
+      <pb n="160.">
+      
+      
+      
+      <head>
+      
+       
+      <lb n="1">&para;&nbsp;Yr ail rhan o 'r bregeth yn</lb>
+       
+      <lb n="2">erbyn goddineb.</lb>
+      </head>
+      
+      
+      
+      
+       
+      <lb n="3">FE a ddangoswyd i chwi yn y rhan
+      </lb> 
+      <lb n="4">gyntaf o 'r bregeth yn erbyn 
+      </lb>
+      <lb n="4-5">goddineb,
+      </lb>
+      <lb n="5">
+       fel y mae y bai hwnnw ar
+      </lb> 
+      <lb n="6">hyn o amser, yn teyrnasu vwch
+      </lb> 
+      <lb n="7">law pob bai arall: a pha beth yw
+      </lb> 
+      <lb n="8">ystyr y gair, Godineb: a pha fodd
+      </lb> 
+      <lb n="9">y mae 'r Scrythur l&acirc;n yn ein
+      </lb> 
+      <lb n="10">hannog ac yn ein cynghori ni i wachelyd y bai
+      </lb> 
+      <lb n="11">brwnt ymma: ac yn ddiwethaf, pa lygredigaeth
+      </lb> 
+      <lb n="12">sydd yn dyfod ar enaid d&#375;n, oddiwrth y pechod 
+      </lb>
+      <lb n="12-13">ymma,
+      </lb>
+      <lb n="13">
+       godineb.
+      
+      
+      </lb> 
+      <lb n="14">Awn rhagom ym-mhellach a gwrandawn pa
+      </lb> 
+      <lb n="15">beth a ddywaid y sanctaidd Apostol S. Paul am
+      </lb> 
+      <lb n="16">y peth ymma: yr hwn yn scrifennu at y 
+      </lb>
+      <lb n="16-17">Rhufeiniaid,
+      </lb>
+      <lb n="17">
+       sydd gantho y geiriau hyn, Bwriwn ymmaith
+      </lb> 
+      <lb n="18">weithredoedd y tywyllwch, a gwiscwn arfau y
+      </lb> 
+      <lb n="19">goleuni. Rhodiwn yn weddus megis wrth liw
+      </lb> 
+      <lb n="20">dydd, nid mewn cyfeddach a meddwdod, nid mewn
+      </lb> 
+      <lb n="21">cydorwedd ac anlladrwydd, nid mewn cynnen a
+      </lb> 
+      <lb n="22">chenfigen, eithr gwiscwch amdanoch yr 
+      </lb>
+      <lb n="22-23">Arglwydd
+      </lb>
+      <lb n="23">
+       Iesu Ghrist: ac na fydded eich gofal dros y
+      </lb> 
+      <lb n="24">cnawd er mwyn porthi ei chwantau.
+      
+      
+      </lb> 
+      <lb n="25">Ymma y mae 'r Apostol yn ein hannog i daflu</lb> 
+      <lb n="26">ymmaith weithredoedd y tywyllwch, y rhai, 
+      </lb>
+      <lb n="26-27">ymmhlith
+      </lb>
+      <lb n="27">
+       eraill, y mae fe yn galw cyfeddach, 
+      </lb>
+      <lb n="27-28">meddwdod,
+      </lb>
+      <lb n="28">
+       cydorwedd ac anlladrwydd, y rhai ydynt oll
+      </lb> 
+      <lb n="29">wasanaeth-wyr i 'r bai ymma, a darpariaethau i
+      </lb> 
+      <lb n="30">dywys ac i arwain i 'r brwnt bechod cnawdol
+      </lb> 
+      <lb n="31">ymma.
+      
+      
+      </lb> 
+      <lb n="32">Mae fe yn eu galw hwy yn weithredoedd y 
+      </lb>
+      <lb n="32-33">tywyllwch,
+      </lb>
+      <lb n="33">
+       nid yn vnig am fod yn arfer o 'u 
+      
+      </lb>
+      </pb>
+      <pb n="160-161.">
+      <lb n="33-1">gwneuthur
+      </lb>
+      </pb>
+      <pb n="161.">
+      <lb n="1">
+       mewn tywyllwch, yn amser n&ocirc;s, (o herwydd
+      </lb> 
+      <lb n="2">pob vn ar y sydd yn gwneuthur drwg, sydd yn 
+      </lb>
+      <lb n="2-3">cashau
+      </lb>
+      <lb n="3">
+       y goleuni, ac ni ddaw i 'r goleuni, rhag 
+      </lb>
+      <lb n="3-4">argyoeddi
+      </lb>
+      <lb n="4">
+       ei weithredoedd) ond am eu bod yn ein 
+      </lb>
+      <lb n="4-5">tywys
+      </lb>
+      <lb n="5">
+       ac yn ein harwain ar hyd yr vniawn ffordd
+      </lb> 
+      <lb n="6">i 'r tywyllwch eithaf, lle bydd wylofain a 
+      </lb>
+      <lb n="6-7">rhincian
+      </lb>
+      <lb n="7">
+       dannedd.
+      
+      
+      </lb> 
+      <lb n="8">Ac mae fe yn dywedyd mewn man arall yn yr
+      </lb> 
+      <lb n="9">vn Epistol, na all y rhai ydynt yn y cnawd 
+      </lb>
+      <lb n="9-10">foddloni
+      </lb>
+      <lb n="10">
+       Duw: am hynny yr ydym, medd ef, yn 
+      </lb>
+      <lb n="10-11">ddyledwyr,
+      </lb>
+      <lb n="11">
+       nid i 'r cnawd, i fyw yn &ocirc;l y cnawd; canys
+      </lb> 
+      <lb n="12">os byw a fyddwn yn &ocirc;l y cnawd, meirw fyddwn.
+      </lb> 
+      <lb n="13">A thrachefn y dywaid, Gwachelwch odineb. Pob
+      </lb> 
+      <lb n="14">pechod a wnelo d&#375;n, oddi allan ei gorph y mae; ond
+      </lb> 
+      <lb n="15">yr hwn a wnel odineb sydd yn pechu yn erbyn ei
+      </lb> 
+      <lb n="16">gorph ei hunan. Oni wyddoch fod eich corph yn
+      </lb> 
+      <lb n="17">deml i 'r Yspryd gl&acirc;n sydd ynoch, yr hwn yr ydych
+      </lb> 
+      <lb n="18">yn ei gael gan Dduw, ac nad ydych eiddoch chwi
+      </lb> 
+      <lb n="19">eich hunain? canys er gwerth y 'ch prynwyd chwi,
+      </lb> 
+      <lb n="20">am hynny gogoneddwch Dduw yn eich corph &amp;c.
+      </lb> 
+      <lb n="21">Ac ychydig o 'r blaen y dywaid, Oni wyddoch fod
+      </lb> 
+      <lb n="22">eich cyrph yn aelodau i Grist. Am hynny a 
+      </lb>
+      <lb n="22-23">gymmerafi
+      </lb>
+      <lb n="23">
+       aelodau Christ, a 'u gwneuthur yn aelodau
+      </lb> 
+      <lb n="24">puttein? Na atto Duw. Oni wyddoch fod yr
+      </lb> 
+      <lb n="25">hwn sydd yn cydio &acirc; phuttain yn vn corph &acirc; hi?
+      </lb> 
+      <lb n="26">Canys y ddau, eb efe, a fyddant vn cnawd: ond yr
+      </lb> 
+      <lb n="27">hwn a gyssylltir &acirc; 'r Arglwydd, vn yspryd yw.
+      
+      
+      </lb> 
+      <lb n="28">Pa eiriau duwiol y mae S. Paul yn ei hadrodd
+      </lb> 
+      <lb n="29">ymma, er mwyn ein hannog a 'n cynghori 
+      </lb>
+      <lb n="29-30">oddiwrth
+      </lb>
+      <lb n="30">
+       butteindra a phob aflendid? Teml, medd ef,
+      </lb> 
+      <lb n="31">yr Yspryd gl&acirc;n ydyw eich aelodau chwi, yr hon
+      </lb> 
+      <lb n="32">pwy bynnag a 'i halogo, fe a 'i dinistria Duw ef,
+      </lb> 
+      <lb n="33">medd S. Pawl. Os teml yr Yspryd gl&acirc;n ydym,
+      </lb> 
+      <lb n="34">onid anghymmhesur yw i ni yrru y sanctaidd 
+      
+      </lb>
+      </pb>
+      <pb n="161-162.">
+      <lb n="34-1">Yspryd
+      </lb>
+      </pb>
+      <pb n="162.">
+      <lb n="1">
+       hwn oddiwrthym trwy butteindra, a gosod
+      </lb> 
+      <lb n="2">yn ei le ef ddr&#373;g ysprydion godineb ac aflendid, ac
+      </lb> 
+      <lb n="3">ymgyssylltu &acirc; hwynt a 'u gwasanaethu. Fe a 'ch
+      </lb> 
+      <lb n="4">prynwyd chwi, medd ef, yn brid: am hynny 
+      </lb>
+      <lb n="4-5">gogoneddwch
+      </lb>
+      <lb n="5">
+       Dduw yn eich cyrph.
+      
+      
+      </lb> 
+      <lb n="6">Fe brynodd Christ yr oen dieniwed hwnnw ni,
+      </lb> 
+      <lb n="7">o gaethiwed diafol, nid &acirc; phethau llygredig, megis
+      </lb> 
+      <lb n="8">arian neu aur, ond &acirc; gwerthfawr waed ei galon. I
+      </lb> 
+      <lb n="9">ba ddefnydd y gwnaeth efe hynny? ai er mwyn bod
+      </lb> 
+      <lb n="10">i ni gwympo eilwaith i 'n h&ecirc;n aflendid a 'n ffiaidd
+      </lb> 
+      <lb n="11">fywyd? Nag&ecirc; yn wir, ond er mwyn bod i ni ei 
+      </lb>
+      <lb n="11-12">wasanaethu
+      </lb>
+      <lb n="12">
+       ef mewn sancteiddrwydd a chyfiawnder
+      </lb> 
+      <lb n="13">holl ddyddiau ein heinioes: er mwyn bod i ni ei
+      </lb> 
+      <lb n="14">ogoneddu ef yn ein cyrph, trwy burder a glendid
+      </lb> 
+      <lb n="15">buchedd. Mae fe yn dangos hefyd fod ein cyrph
+      </lb> 
+      <lb n="16">ni yn aelodau i Grist. Mor anweddaidd, wrth
+      </lb> 
+      <lb n="17">hynny, yw i ni beidio a bod yn gydcorph a 'n
+      </lb> 
+      <lb n="18">gwneuthur yn vn &acirc; Christ, a thrwy butteindra
+      </lb> 
+      <lb n="19">ymgyssylltu a 'n gwneuthur yn vn &acirc; phuttain? Pa
+      </lb> 
+      <lb n="20">ammarch, neu pa gam goleuach a allwn ni ei
+      </lb> 
+      <lb n="21">wneuthur i Ghrist, n&acirc; chymmeryd aelodau ei
+      </lb> 
+      <lb n="22">gorph ef oddiwrtho, a 'u cyssylltu hwynt &acirc;&nbsp;
+      </lb>
+      <lb n="22-23">phuttainiaid,
+      </lb>
+      <lb n="23">
+      &nbsp;&acirc; diawliaid ac ag ysprydion dr&#373;g? A pha
+      </lb> 
+      <lb n="24">ddianrhydedd fwy a allwn ni ei wneuthur &acirc; ni ein
+      </lb> 
+      <lb n="25">hunain, n&acirc; thrwy aflendid colli y fath odidog fraint
+      </lb> 
+      <lb n="26">a rhydd-did, gan ein gwneuthur ein hunain yn
+      </lb> 
+      <lb n="27">gaethweision ac yn druain garcharorion i 
+      </lb>
+      <lb n="27-28">ysprydion
+      </lb>
+      <lb n="28">
+       y tywyllwch?
+      
+      
+      </lb> 
+      <lb n="29">Ystyriwn gan hynny yn gyntaf ogoniant Christ:
+      </lb> 
+      <lb n="30">yn ail ein st&acirc;t, ein braint a 'n rhydd-did ein hunain,
+      </lb> 
+      <lb n="31">yn yr hwn y gosododd Duw ni, gan roddi i ni ei
+      </lb> 
+      <lb n="32">sanctaidd Yspryd: ac ymddiffynnwn hwnnw yn
+      </lb> 
+      <lb n="33">gefnog yn erbyn sathan a 'i holl fachellion 
+      </lb>
+      <lb n="33-34">twyllodrus:
+      </lb>
+      <lb n="34">
+       fel yr anrhydedder Christ, ac na chollom
+      </lb>
+      </pb>
+      <pb n="163.">
+       
+      <lb n="1">ninnau ein rhydd-did, ond arhos yn wastadol yn
+      </lb> 
+      <lb n="2">vn yspryd ag ef.
+      
+      
+      </lb> 
+      <lb n="3">Hefyd yn ei epistol at yr Ephesiaid, mae 'r 
+      </lb>
+      <lb n="3-4">Apostol
+      </lb>
+      <lb n="4">
+       sanctaidd yn gorchymmyn i ni fod mor b&ucirc;r ac
+      </lb> 
+      <lb n="5">mor rhydd oddiwrth odineb, anlladrwydd a phob
+      </lb> 
+      <lb n="6">aflendid, fal na enwer hwy yn ein plith, megis y
+      </lb> 
+      <lb n="7">gwedde i sainct, na serthedd, na geiriau ff&ocirc;l, na
+      </lb> 
+      <lb n="8">choeg-ddigrifwch, y rhai nid ydynt weddus, eithr
+      </lb> 
+      <lb n="9">yn hytrach diolchgarwch: canys yr ydych yn 
+      </lb>
+      <lb n="9-10">gwybod
+      </lb>
+      <lb n="10">
+       hyn, am bob putteinwr, neu aflan, neu gybydd
+      </lb> 
+      <lb n="11">yr hwn sydd ddelw-addolwr, nad oes iddynt 
+      </lb>
+      <lb n="11-12">etifeddiaeth
+      </lb>
+      <lb n="12">
+      &nbsp;yn-nheyrnas \yn nheyrnas\ Christ a Duw. Ac er mwyn
+      </lb> 
+      <lb n="13">cofio ohonom fod yn sanctaidd, yn bur ac yn rhydd
+      </lb> 
+      <lb n="14">oddiwrth bob aflendid, mae 'r Apostol sanctaidd
+      </lb> 
+      <lb n="15">yn ein galw ni yn sainct, am ein bod gwedy ein
+      </lb> 
+      <lb n="16">sancteiddio a 'n gwneuthur yn sanctaidd trwy
+      </lb> 
+      <lb n="17">waed Christ, a thrwy 'r Yspryd glan.
+      
+      
+      </lb> 
+      <lb n="18">Gan hynny os ydym sainct, pa beth sydd i ni a
+      </lb> 
+      <lb n="19">wnelom ag arferion y cenhedloedd. Megis (medd
+      </lb> 
+      <lb n="20">S. Petr) y mae 'r hwn a 'ch galwodd chwi yn 
+      </lb>
+      <lb n="20-21">sanctaidd,
+      </lb>
+      <lb n="21">
+       byddwch chwithau hefyd sanctaidd 
+      </lb>
+      <lb n="21-22">ymmhob
+      </lb>
+      <lb n="22">
+       \ym mhob\ ymarweddiad: o herwydd scrifennedig yw,
+      </lb> 
+      <lb n="23">Am hynny byddwch sanctaidd, canys sanctaidd
+      </lb> 
+      <lb n="24">ydwyfi. Hyd hyn y clywsoch orthrymmed pechod
+      </lb> 
+      <lb n="25">yw godineb a phutteindra, ac mor ffiaidd gan
+      </lb> 
+      <lb n="26">Dduw ef trwy 'r Scrythur. A pha fodd nad y 
+      </lb>
+      <lb n="26-27">pechod
+      </lb>
+      <lb n="27">
+       ffiaiddiaf ac a ddichon bod, yw yr hwn ni ellir
+      </lb> 
+      <lb n="28">vnwaith ei enwi ym-mhlith Christianogion? llai
+      </lb> 
+      <lb n="29">o lawer y dlyid mewn modd yn y byd ef 
+      </lb>
+      <lb n="29-30">wneuthur
+      </lb>
+      <lb n="30">
+       ef.
+      
+      
+      </lb> 
+      <lb n="31">Ac yn siccr os ni a bwyswn faint y pechod 
+      </lb>
+      <lb n="31-32">ymma,
+      </lb>
+      <lb n="32">
+       ac a 'i hystyriwn ef yn ei iawn rywogaeth, ni
+      </lb> 
+      <lb n="33">a gawn weled mai pechod putteindra yw 'r * llynn [-: Ylling] 
+      </lb> 
+      <lb n="34">diffaithiaf, a 'r pwll bryntaf, a 'r soddfa ddrewllyd,
+      
+      </lb>
+      </pb>
+      <pb n="164.">
+      
+       
+      <lb n="1">i 'r hwn y llifeiria ac y rh&ecirc;d pob pechod, a phob 
+      </lb>
+      <lb n="1-2">drygioni
+      </lb>
+      <lb n="2">
+       arall, lle hefyd y mae iddynt drigfa a 
+      </lb>
+      <lb n="2-3">phreswylfod.
+      </lb>
+      <lb n="3">
+      
+      
+      
+      </lb> 
+      <lb n="4">O blegid onid yw y godinebwr yn falch o 'i 
+      </lb>
+      <lb n="4-5">butteindra?
+      </lb>
+      <lb n="5">
+       fel y dywaid y g&#373;r call, Maent hwy yn
+      </lb> 
+      <lb n="6">llawen darffo iddynt wneuthur yr hyn sydd
+      </lb> 
+      <lb n="7">ddr&#373;g, ac yn llawenychu mewn pethau dr&#373;g 
+      </lb>
+      <lb n="7-8">anianol.
+      </lb>
+      <lb n="8">
+       Onid ydyw y godinebwr yn ddiog, ac heb
+      </lb> 
+      <lb n="9">ymhoffi mewn vn ymarfer dduwiol, ond yn vnig
+      </lb> 
+      <lb n="10">yn ei hoffddigrifwch brwnt anifeiliaidd hynny?
+      </lb> 
+      <lb n="11">Onid ydyw ei feddwl ef wedy ei lusco a 'i dynnu
+      </lb> 
+      <lb n="12">ymmaith oddiwrth bob amcanion rhinweddol,
+      </lb> 
+      <lb n="13">ac oddiwrth bob trafael ffrwythlon, a chwedy 
+      </lb>
+      <lb n="13-14">ymroi
+      </lb>
+      <lb n="14">
+       yn vnig i ddychymmygion cnawdol? Onid
+      </lb> 
+      <lb n="15">yw y putteinwr yn rhoddi ei feddwl ar lothineb, er
+      </lb> 
+      <lb n="16">mwyn bod yn barottach i wasanaethu ei wyniau
+      </lb> 
+      <lb n="17">a 'i hoffderau cnawdol? Onid ydyw y godinebwr
+      </lb> 
+      <lb n="18">yn rhoddi ei feddwl a'r gybydd-dod, ac i grafu ac
+      </lb> 
+      <lb n="19">i gasclu oddiar eraill, er mwyn bod yn aplach i
+      </lb> 
+      <lb n="20">faentaenio ei butteiniaid, a 'i ordderchadon, ac i
+      </lb> 
+      <lb n="21">barhau yn ei serch brwnt anghyfraithlon? 
+      </lb>
+      <lb n="21-22">Onid
+      </lb>
+      <lb n="22">
+       ydyw ef yn chwyddo mewn cenfigen yn 
+      </lb>
+      <lb n="22-23">erbyn
+      </lb>
+      <lb n="23">
+       eraill, gan ofni hudo ei ysclyfaeth ef, a 'i 
+      </lb>
+      <lb n="23-24">thynnu
+      </lb>
+      <lb n="24">
+       hi ymmaith oddiwrtho? Hefyd onid ydyw efe
+      </lb> 
+      <lb n="25">yn llidiog ac yn llawn o ddigofaint ac 
+      </lb>
+      <lb n="25-26">anfodlonrwydd,
+      </lb>
+      <lb n="26">
+       ie yn erbyn y rhai anwylaf gantho, os
+      </lb> 
+      <lb n="27">rhwystrir vn amser ei ddamuniad cnawdol 
+      </lb>
+      <lb n="27-28">diawledig
+      </lb>
+      <lb n="28">
+       ef? Pa bechod, neu pa ryw o bechod ni 
+      </lb>
+      <lb n="28-29">chyssylltir
+      </lb>
+      <lb n="29">
+      &nbsp;&acirc; godineb a phutteindra?
+      
+      
+      </lb> 
+      <lb n="30">Rhyw anghenfil yw efe a llawer o bennau iddo:
+      </lb> 
+      <lb n="31">mae fe yn derbyn pob rhyw feiau, ac yn gwrthod
+      </lb> 
+      <lb n="32">pob rhyw rinweddau. Os ydyw vn pechod yn
+      </lb> 
+      <lb n="33">dwyn damnedigaeth, pa beth a dybygir am y 
+      </lb>
+      <lb n="33-34">pechod
+      </lb>
+      <lb n="34">
+       a gyssylltir ac a gyfeillechir a phob drygioni:
+      
+      </lb>
+      </pb>
+      <pb n="165.">
+      
+       
+      <lb n="1">yr hwn y mae pob peth sydd g&acirc;s gan Dduw, 
+      </lb>
+      <lb n="1-2">damnedig
+      </lb>
+      <lb n="2">
+       i dd&#375;n, a h&ocirc;ff gan sathan yn ei ganlyn. Mawr
+      </lb> 
+      <lb n="3">yw 'r ddamnedigaeth sydd ynghrog \yng nghrog\ vwch-ben
+      </lb> 
+      <lb n="4">godinebwyr a phutteinwyr.
+      
+      
+      </lb> 
+      <lb n="5">I ba beth y sonniaf am aflesau eraill a dyfant
+      </lb> 
+      <lb n="6">ac a lifant o * lacca [-: Dom.]  drewllyd putteindra? Oni
+      </lb> 
+      <lb n="7">chollir trwy odineb a phutteindra enw da g&#373;r
+      </lb> 
+      <lb n="8">neu wraig, yr hwn yw 'r trysor y mae pob d&#375;n 
+      </lb>
+      <lb n="8-9">honest
+      </lb>
+      <lb n="9">
+       yn gwneuthur mwyaf cyfrif ohono? Pa 
+      </lb>
+      <lb n="9-10">dreftadaeth
+      </lb>
+      <lb n="10">
+       neu fywyd? pa olud? pa dda? pa gyfoeth
+      </lb> 
+      <lb n="11">nas difa putteindra, ac nas d&#373;g yn ddiddim
+      </lb> 
+      <lb n="12">mewn ychydig amser? Pa ddewrder a pha gryfder
+      </lb> 
+      <lb n="13">ni wanheir yn fynych ac ni ddistrywir trwy 
+      </lb>
+      <lb n="13-14">butteindra?
+      </lb>
+      <lb n="14">
+       Pa synwyr cyn barotted na ddotier ac
+      </lb> 
+      <lb n="15">na ddeleir trwy butteindra? Pa degwch (er mor
+      </lb> 
+      <lb n="16">odidog fo) nad anffurfir trwy butteindra?
+      
+      
+      </lb> 
+      <lb n="17">Onid ydyw putteindra yn elyn i brydferth 
+      </lb>
+      <lb n="17-18">flodeuyn
+      </lb>
+      <lb n="18">
+       ieuengctid? Ac onid yw yn dwyn 
+      </lb>
+      <lb n="18-19">penllwydni
+      </lb>
+      <lb n="19">
+       a henaint cyn yr amser? Pa ddawn 
+      </lb>
+      <lb n="19-20">naturiol
+      </lb>
+      <lb n="20">
+       (er mor werthfawr fo) na lygrir trwy 
+      </lb>
+      <lb n="20-21">butteindra?
+      </lb>
+      <lb n="21">
+       Onid yw y fr&ecirc;ch fawr a llawer o glefydon
+      </lb> 
+      <lb n="22">eraill yn dyfod o butteindra? O ba le y daw 
+      </lb>
+      <lb n="22-23">cymmaint
+      </lb>
+      <lb n="23">
+       o fastardiaid a phlant ordderch, i fawr 
+      </lb>
+      <lb n="23-24">anfodlonrwydd
+      </lb>
+      <lb n="24">
+       Duw, a thorriad priodas sanctaidd,
+      </lb> 
+      <lb n="25">onid o butteindra? Pa faint sydd yn difa eu da
+      </lb> 
+      <lb n="26">a 'u golud, ac yn cwympo yn y diwedd i ddygyn
+      </lb> 
+      <lb n="27">dlodi, ac yn &ocirc;l hynny yn lledratta ac yn cael eu
+      </lb> 
+      <lb n="28">crogi, trwy butteindra? Pa ymryson a lladdf&acirc;u
+      </lb> 
+      <lb n="29">a ddaw o butteindra? Pa sawl merch a &nbsp;
+      </lb>
+      <lb n="29-30">* anwyryfir?
+      </lb>
+      <lb n="30">
+       [-: Dreisir,]  Pa sawl gwraig a lygrir? Pa sawl 
+      </lb>
+      <lb n="30-31">gweddw
+      </lb>
+      <lb n="31">
+       a wradwyddir trwy butteindra? Pa faint
+      </lb> 
+      <lb n="32">y tlodir ac y trallodir y cyfoeth-cyffredin trwy
+      </lb> 
+      <lb n="33">butteindra? Pa faint y dirmygir ac y ceblir gair
+      </lb> 
+      <lb n="34">Duw trwy butteindra a phutteinwyr?
+      
+      
+      </lb>
+      </pb>
+      <pb n="166.">
+      
+      
+       
+      <lb n="1">O 'r pechod hwn y daw llawer o 'r yscaroedd,
+      </lb> 
+      <lb n="2">y rhai a arferir yn y dyddiau hyn mor arferedig,
+      </lb> 
+      <lb n="3">trwy awdurdod gw&#375;r diswyddau, er mawr 
+      </lb>
+      <lb n="3-4">ddigofaint
+      </lb>
+      <lb n="4">
+       Duw, a thorriad sancteiddiaf gwlwm a
+      </lb> 
+      <lb n="5">rhwym priodas: o herwydd pan ddarffo i 'r 
+      </lb>
+      <lb n="5-6">pechod
+      </lb>
+      <lb n="6">
+       ffiaidd ymma ymlusco vnwaith i * ascre [-: Fonwes.]  y
+      </lb> 
+      <lb n="7">godinebwr, fel y rhwydir ef mewn cariad aflan
+      </lb> 
+      <lb n="8">anghyfraithlon, fe a ddiystyra yn y man ei wir a 'i
+      </lb> 
+      <lb n="9">gyfraithlon wraig, fe a gash&acirc; ei phresennoldeb
+      </lb> 
+      <lb n="10">hi, mae ei chwmpeini hi yn drewi ac yn 
+      </lb>
+      <lb n="10-11">wrthwynebus
+      </lb>
+      <lb n="11">
+       gantho: pa beth bynnag a wn&ecirc;l hi, a 
+      </lb>
+      <lb n="11-12">ogenir:
+      </lb>
+      <lb n="12">
+       nid oes llonyddwch yn y t&#375; yr hyd y bytho hi
+      </lb> 
+      <lb n="13">mewn golwg: am hynny, i wneuthur chwedl
+      </lb> 
+      <lb n="14">byrr, rhaid iddi fyned ymmaith, o blegid ni 
+      </lb>
+      <lb n="14-15">ddichon
+      </lb>
+      <lb n="15">
+       ei g&#373;r ei haros hi ym-mhellach. Fel hyn
+      </lb> 
+      <lb n="16">trwy butteindra y troir ymmaith y wraig honest
+      </lb> 
+      <lb n="17">ddieniwed, ac y derbynir puttain yn ei lle hi.
+      
+      
+      </lb> 
+      <lb n="18">Yn yr vn modd y digwydda yn fynych o ran y
+      </lb> 
+      <lb n="19">wraig tuag at ei g&#373;r. Dymma ffiaidd-dra anferth.
+      </lb> 
+      <lb n="20">Pan ddaeth ein Iachawdwr Christ Duw a d&#375;n i
+      </lb> 
+      <lb n="21">adferu cyfraith ei nefol d&acirc;d i iawn ystyr, meddwl
+      </lb> 
+      <lb n="22">a deall y gyfraith honno, ym-mhlith pethau eraill
+      </lb> 
+      <lb n="23">fe a * ddiwygiodd [-: Iniawnodd.]  gam-arfer y gyfraith hon. O
+      </lb> 
+      <lb n="24">herwydd lle daroedd i 'r Iuddewon arfer hir 
+      </lb>
+      <lb n="24-25">oddefiaeth
+      </lb>
+      <lb n="25">
+       trwy ddefod ddodi o 'r gw&#375;r eu gwragedd
+      </lb> 
+      <lb n="26">ymmaith wrth eu hewyllys am bob achos: fe a
+      </lb> 
+      <lb n="27">geryddodd Christ y dr&#373;g arfer hynny, ac a 
+      </lb>
+      <lb n="27-28">ddyscodd,
+      </lb>
+      <lb n="28">
+       pwy bynnag a wrthotto ei wraig, onid am
+      </lb> 
+      <lb n="29">odineb (yr hwn yr amser hynny wrth gyfraith
+      </lb> 
+      <lb n="30">oedd yn haeddu angau) ei fod yn torri priodas, ac
+      </lb> 
+      <lb n="31">yn gwneuthur i 'w wraig hefyd yr yscarid ef &acirc; hi,
+      </lb> 
+      <lb n="32">odinebu, os hi a gyssylltid &acirc; g&#373;r arall, ac i 'r g&#373;r
+      </lb> 
+      <lb n="33">hefyd a gyssylltid &acirc; hi, odinebu.
+      
+      
+      </lb> 
+      <lb n="34">Ym-mha \Ym mha\ gyflwr gan hynny y mae y 
+      
+      </lb>
+      </pb>
+      <pb n="166-167.">
+      <lb n="34-1">godinebwyr
+      </lb>
+      </pb>
+      <pb n="167.">
+      <lb n="1">
+       ymma, y rhai o gariad ar buttain a 
+      </lb>
+      <lb n="1-2">wrthodant
+      </lb>
+      <lb n="2">
+       eu gwir a 'u cyfraithlon wragedd, yn erbyn
+      </lb> 
+      <lb n="3">cyfraith, vniondeb, rheswn \rheswm\ a chydwybod? Oh
+      </lb> 
+      <lb n="4">mor ddamnedig yw 'r st&acirc;t y maent yn aros ynddi.
+      </lb> 
+      <lb n="5">Distryw ebrwydd a gwymp arnynt os hwy ni
+      </lb> 
+      <lb n="6">edifarh&acirc;nt ac ni wellh&acirc;nt. O herwydd ni oddef
+      </lb> 
+      <lb n="7">Duw byth ddianrhydeddy, a chash&acirc;u, a diystyru
+      </lb> 
+      <lb n="8">sanctaidd briodas. Fe a gospa ryw br&#375;d y bywyd
+      </lb> 
+      <lb n="9">cnawdol anllywodraethus ymma, ac a wn&acirc; bod
+      </lb> 
+      <lb n="10">y sanctaidd ordinh&acirc;d \ordeinhad\ ymma mewn parch ac 
+      </lb>
+      <lb n="10-11">anrhydedd.
+      </lb>
+      <lb n="11">
+       O herwydd, medd yr Apostol, 
+      </lb>
+      <lb n="11-12">Anrhydeddus
+      </lb>
+      <lb n="12">
+       yw priodas ym-mhawb \ym mhawb\, a 'r gwely 
+      </lb>
+      <lb n="12-13">dihalogedig:
+      </lb>
+      <lb n="13">
+       eithr putteinwyr a 'r godinebus a 
+      </lb>
+      <lb n="13-14">farna
+      </lb>
+      <lb n="14">
+       Duw: hynny yw, fe a 'u cospa ac a 'u damna
+      </lb> 
+      <lb n="15">hwynt.
+      
+      
+      </lb> 
+      <lb n="16">Ond i ba beth y cymmerir y boen ymma yn
+      </lb> 
+      <lb n="17">datcan ac yn gosod allan faint pechod yw 
+      </lb>
+      <lb n="17-18">putteindra,
+      </lb>
+      <lb n="18">
+       a 'r afles a d&#375;f ac a lifeiria ohono: lle y pallai
+      </lb> 
+      <lb n="19">anadl a thafod d&#375;n yn gynt nag y gallai gwbl 
+      </lb>
+      <lb n="19-20">gyhoeddi
+      </lb>
+      <lb n="20">
+       y pechod hwn yn &ocirc;l ei ddiffeithwch a 'i
+      </lb> 
+      <lb n="21">anferthrwydd? Er hynny hyn a ddywedwyd er
+      </lb> 
+      <lb n="22">mwyn bod i bawb wachelyd putteindra a byw
+      </lb> 
+      <lb n="23">mewn ofn Duw. Duw a wn&ecirc;l nas dywedpwyd
+      </lb> 
+      <lb n="24">yn ofer.
+      
+      
+      
+      </lb>
+      <head>
+      
+       
+      <lb n="25">&para;&nbsp;Y drydedd ran o 'r bregeth yn</lb>
+       
+      <lb n="26">erbyn godineb.</lb>
+      </head>
+      
+      
+      
+      
+       
+      <lb n="27">CHwi a ddyscasoch yn yr ail rhan
+      </lb> 
+      <lb n="28">o 'r bregeth am odineb, a 
+      </lb>
+      <lb n="28-29">ddarllennwyd
+      </lb>
+      <lb n="29">
+       i chwi ddiwethaf, mor 
+      </lb>
+      <lb n="29-30">ddifrif
+      </lb>
+      <lb n="30">
+       y mae 'r Scrythur l&acirc;n yn ein
+      </lb> 
+      <lb n="31">rhybyddio ni i wachelyd pechod
+      </lb> 
+      <lb n="32">godineb, ac i gofleidio glendid 
+      
+      </lb>
+      </pb>
+      <pb n="167-168.">
+      <lb n="32-1">buchedd:
+      </lb>
+      </pb>
+      <pb n="168.">
+      <lb n="1">
+       a 'n bod ni yn cwympo trwy odineb i bob
+      </lb> 
+      <lb n="2">rhyw bechod, ac yn myned yn gaeth-weision i 
+      </lb>
+      <lb n="2-3">ddiafol:
+      </lb>
+      <lb n="3">
+       ac o 'r ystlys arall y 'n gwneir trwy lendid
+      </lb> 
+      <lb n="4">buchedd yn aelodau i Grist: ac yn ddiwethaf mor
+      </lb> 
+      <lb n="5">bell y d&#373;g godineb dd&#375;n oddiwrth bob 
+      </lb>
+      <lb n="5-6">duwioldeb,
+      </lb>
+      <lb n="6">
+       ac y denfyn ef yngwysc \yng ngwysg\ ei ben i bob beiau,
+      </lb> 
+      <lb n="7">drygioni ac aflwydd.
+      
+      
+      </lb> 
+      <lb n="8">Mi a fynegaf i'wch \iwch\ yn awr mewn trefn &acirc; pha
+      </lb> 
+      <lb n="9">gospedigaethau trymion y plagodd Duw odineb
+      </lb> 
+      <lb n="10">yn yr amseroedd gynt, a pha fodd y cospodd llawer
+      </lb> 
+      <lb n="11">o dywsogion bydol y pechod ymma, fel y galloch
+      </lb> 
+      <lb n="12">weled fod putteindra a godineb yn bechodau mor
+      </lb> 
+      <lb n="13">echryslon yngolwg \yng ngolwg\ Duw a phob d&#375;n daionus,
+      </lb> 
+      <lb n="14">ac y dangosais eisoes.
+      
+      
+      </lb> 
+      <lb n="15">Yn llyfr cyntaf Moses yr ydym yn darllen, pan
+      </lb> 
+      <lb n="16">ddechreuodd dynion amlhau ar y ddayar, i w&#375;r a
+      </lb> 
+      <lb n="17">gwragedd osod eu meddyliau mor gwbl ar
+      </lb> 
+      <lb n="18">chwantau cnawdol a choeg-ddigrifwch, hyd oni
+      </lb> 
+      <lb n="19">fuont fyw yn ddiofn Duw. Pan welodd Duw
+      </lb> 
+      <lb n="20">eu bywyd ffiaidd anifeiliaidd hwynt, a deall nad
+      </lb> 
+      <lb n="21">oeddynt yn gwellh&acirc;u, ond yn hytrach eu bod yn
+      </lb> 
+      <lb n="22">cynnyddu fwyfwy beunydd yn eu pechodau a 'u
+      </lb> 
+      <lb n="23">harferon aflan; fe a edifarhaodd Duw iddo 
+      </lb>
+      <lb n="23-24">wneuthur
+      </lb>
+      <lb n="24">
+       d&#375;n: ac er dangos mor ffiaidd oedd 
+      </lb>
+      <lb n="24-25">gantho
+      </lb>
+      <lb n="25">
+       odineb, putteindra, anlladrwydd a phob 
+      </lb>
+      <lb n="25-26">aflendid,
+      </lb>
+      <lb n="26">
+       fe a wnaeth i holl ffynhonnau y 
+      </lb>
+      <lb n="26-27">dyfnderoedd
+      </lb>
+      <lb n="27">
+       dorri allan, ac a egorodd \agorodd\ ffenestri 'r nefoedd,
+      </lb> 
+      <lb n="28">fel y glawiodd hi ar y ddayar dros ddeugain 
+      </lb>
+      <lb n="28-29">diwrnod
+      </lb>
+      <lb n="29">
+       a deugain n&ocirc;s: ac felly y distrywiodd ef yr holl
+      </lb> 
+      <lb n="30">fyd a holl ddynawl ryw, oddieithr wythn&#375;n o bobl
+      </lb> 
+      <lb n="31">yn vnig: y rhai hynny oedd Noah pregethwr 
+      </lb>
+      <lb n="31-32">cyfiawnder
+      </lb>
+      <lb n="32">
+       (fel y geilw Petr ef) a 'i wraig, a 'i 
+      </lb>
+      <lb n="32-33">drimab
+      </lb>
+      <lb n="33">
+       a 'u gwragedd.
+      
+      
+      </lb> 
+      <lb n="34">Oh pa anial bl&acirc; a daflodd Duw ymma ar holl
+      
+      </lb>
+      </pb>
+      <pb n="169.">
+      
+       
+      <lb n="1">greaduriaid bywiol y b&#375;d, am bechod 
+      </lb>
+      <lb n="1-2">putteindra?
+      </lb>
+      <lb n="2">
+       Am yr hwn y dialodd Duw nid ar dd&#375;n yn
+      </lb> 
+      <lb n="3">vnig, onid hefyd ar yr holl anifeiliaid, ehediaid,
+      </lb> 
+      <lb n="4">a 'r holl greaduriaid byw. Fe a laddesid dynion ar
+      </lb> 
+      <lb n="5">y ddayar o 'r blaen, etto ni ddystrywiwyd y b&#375;d
+      </lb> 
+      <lb n="6">am hynny: ond am butteindra fe a orchguddiwyd
+      </lb> 
+      <lb n="7">yr holl f&#375;d &acirc; dwfr, ac a ddifethwyd oddieithr 
+      </lb>
+      <lb n="7-8">ychydig.
+      </lb>
+      <lb n="8">
+       Siampl wiw ei chofio er ein dyscu ni i ofni
+      </lb> 
+      <lb n="9">Duw.
+      
+      
+      </lb> 
+      <lb n="10">Yr ydym yn ddarllein eilwaith ddinystr 
+      </lb>
+      <lb n="10-11">Sodoma
+      </lb>
+      <lb n="11">
+       a Gomorhah a dinasoedd eraill cyfagos
+      </lb> 
+      <lb n="12">iddynt, trwy d&acirc;n a brwmstan o 'r nef, am frwnt
+      </lb> 
+      <lb n="13">bechod aflendid, fel na adawyd na g&#373;r na 
+      </lb>
+      <lb n="13-14">gwraig,
+      </lb>
+      <lb n="14">
+       na phlentyn nac anifail, na dim ar a dyfodd
+      </lb> 
+      <lb n="15">ar y ddayar heb ddinistr. Calon pwy nid 
+      </lb>
+      <lb n="15-16">* echrydia
+      </lb>
+      <lb n="16">
+       [-: Chryna.]  wrth glywed yr histori ymma? Pwy sy weddi
+      </lb> 
+      <lb n="17">soddi mor ddwfn mewn putteindra ac aflendid,
+      </lb> 
+      <lb n="18">na adawo weithian dros fyth heibio y fath g&acirc;s a
+      </lb> 
+      <lb n="19">ffiaidd fywyd, gan fod Duw yn cospi aflendid mor
+      </lb> 
+      <lb n="20">d&ocirc;st a glawio t&acirc;n a brwmstan o 'r nef, i ddistrywio
+      </lb> 
+      <lb n="21">dinasoedd cyfain, i ladd gw&#375;r a gwragedd a
+      </lb> 
+      <lb n="22">phlant, a 'r holl greaduriaid byw oedd yn aros
+      </lb> 
+      <lb n="23">yno, ac i ddifa &acirc; th&acirc;n bob peth a dyfai yno. Pa
+      </lb> 
+      <lb n="24">arwyddion a ddichon bod eglurach, o ddigofaint
+      </lb> 
+      <lb n="25">Duw a 'i lid, yn erbyn aflendid ac am-mhurder
+      </lb> 
+      <lb n="26">bywyd? Ystyriwch yr histori hon (ddaionus bobl)
+      </lb> 
+      <lb n="27">ac ofnwch ddialedd Duw.
+      
+      
+      </lb> 
+      <lb n="28">Ond ydych yn darllein hefyd i Dduw daro
+      </lb> 
+      <lb n="29">Pharao a 'i holl d&#375;&nbsp;&acirc; phlagau mawrion, am iddo
+      </lb> 
+      <lb n="30">yn annuwiol chwennychu Sarah gwraig 
+      </lb>
+      <lb n="30-31">Abraham?
+      </lb>
+      <lb n="31">
+       Felly yr ydym yn darllein am Abimelech
+      </lb> 
+      <lb n="32">brenhin Gerar, er na chyhyrddasai &acirc; hi trwy 
+      </lb>
+      <lb n="32-33">gydnabyddiaeth
+      </lb>
+      <lb n="33">
+       cnawdol. Dymma 'r plagau a 'r
+      </lb> 
+      <lb n="34">cospedigaethau a daflodd Duw ar ddynion 
+      
+      </lb>
+      </pb>
+      <pb n="169-170.">
+      <lb n="34-1">bryntion
+      </lb>
+      </pb>
+      <pb n="170.">
+      <lb n="1">
+       aflan, cyn rhoddi y gyfraith (pan oedd 
+      </lb>
+      <lb n="1-2">cyfraith
+      </lb>
+      <lb n="2">
+       naturiaeth yn vnig yn teyrnasu 
+      </lb>
+      <lb n="2-3">ynghalonnau
+      </lb>
+      <lb n="3">
+       \yng nghalonnau\ dynion) er dangos faint y cariad oedd 
+      </lb>
+      <lb n="3-4">gantho
+      </lb>
+      <lb n="4">
+       ef at briodas: ac eilwaith faint y cashae efe
+      </lb> 
+      <lb n="5">odineb, putteindra a phob aflendid.
+      
+      
+      </lb> 
+      <lb n="6">Ac wedy rhoddi y gyfraith, sydd yn gwahardd
+      </lb> 
+      <lb n="7">putteindra, trwy Foses, i 'r Iuddewon, oni 
+      </lb>
+      <lb n="7-8">orchymmynnodd
+      </lb>
+      <lb n="8">
+       Duw ddodi i farwolaeth y sawl
+      </lb> 
+      <lb n="9">a 'i torrai hi? Dymma eiriau y gyfraith, Y g&#373;r
+      </lb> 
+      <lb n="10">yr hwn a odinebo gyd&acirc; gwraig ei gymmydog, 
+      </lb>
+      <lb n="10-11">lladder
+      </lb>
+      <lb n="11">
+       yn farw y godinebwr a 'r odinebwraig, am
+      </lb> 
+      <lb n="12">iddo dorri priodas gyd&acirc; gwraig ei gymmydog.
+      </lb> 
+      <lb n="13">Fe a orchymmynnir yn y gyfraith hefyd, Os 
+      </lb>
+      <lb n="13-14">delir
+      </lb>
+      <lb n="14">
+       llangces a g&#373;r yngh&#375;d mewn putteindra, eu
+      </lb> 
+      <lb n="15">llabyddio hwy ill dau hyd angau. Yr ydym ni yn
+      </lb> 
+      <lb n="16">darllein mewn man arall i Dduw orchymmyn
+      </lb> 
+      <lb n="17">i Moses gymmeryd y pennaethiaid, y rheolwyr
+      </lb> 
+      <lb n="18">a thywysogion y bobl, a 'u crogi ar grogbrennau
+      </lb> 
+      <lb n="19">yn amlwg, am iddynt naill ai gwneuthur 
+      </lb>
+      <lb n="19-20">godineb
+      </lb>
+      <lb n="20">
+       eu hunain, ai am nas cospasent ef mewn
+      </lb> 
+      <lb n="21">eraill. Trachefn, oni ddanfonodd Duw y f&acirc;th
+      </lb> 
+      <lb n="22">bl&acirc; ym-mhlith y bobl am odineb ac aflendid, hyd
+      </lb> 
+      <lb n="23">oni laddodd o honynt mewn vn diwrnod bedair
+      </lb> 
+      <lb n="24">mil ar hugain.
+      
+      
+      </lb> 
+      <lb n="25">Eisiau amser mi a adawaf heibio lawer o 
+      </lb>
+      <lb n="25-26">historiau
+      </lb>
+      <lb n="26">
+       eraill o 'r Beibl sanctaidd, y rhai a 
+      </lb>
+      <lb n="26-27">ddangosant
+      </lb>
+      <lb n="27">
+       i ni fawr ddialedd a thrwm lid Duw yn
+      </lb> 
+      <lb n="28">erbyn putteinwyr a godinebwyr. Siccr yw fod
+      </lb> 
+      <lb n="29">y greulon gosp a osododd Duw, yn dangos yn
+      </lb> 
+      <lb n="30">eglur ddigon mor g&acirc;s gan Dduw butteindra.
+      </lb> 
+      <lb n="31">Ac nac amheuwn fod Duw yn yr amser hwn yn
+      </lb> 
+      <lb n="32">cash&acirc;u aflendid, cymmaint ac yr ydoedd ef yn yr
+      </lb> 
+      <lb n="33">h&ecirc;n gyfraith: ac nas cospa ef y pechod ymma yn
+      </lb> 
+      <lb n="34">ddiammau yn y b&#375;d hwn, ac yn y b&#375;d a ddaw:
+      
+      </lb>
+      </pb>
+      <pb n="171.">
+      
+       
+      <lb n="1">o herwydd Duw yw efe na ddichon arhos 
+      </lb>
+      <lb n="1-2">drygioni.
+      </lb>
+      <lb n="2">
+      
+      
+      
+      </lb> 
+      <lb n="3">Am hynny y dlye bawb wachelyd y drygioni
+      </lb> 
+      <lb n="4">hwn, ac sy yn gofalu am ogoniant Duw ac 
+      </lb>
+      <lb n="4-5">Iechydwriaeth
+      </lb>
+      <lb n="5">
+       eu heneidiau eu hunain.
+      
+      
+      </lb> 
+      <lb n="6">Mae S. Paul yn dywedyd ddarfod scrifennu
+      </lb> 
+      <lb n="7">pob peth ar a scrifennwyd er siampl i ni, i ddyscu
+      </lb> 
+      <lb n="8">ini ofni Duw, ac vfyddhau i 'w sanctaidd gyfraith
+      </lb> 
+      <lb n="9">ef. O herwydd os Duw nid arbedodd y 
+      </lb>
+      <lb n="9-10">canghennau
+      </lb>
+      <lb n="10">
+       naturiol, nid arbed ef nyni y rhai nid
+      </lb> 
+      <lb n="11">ydym ond impiau, os gwnawn y cyfryw 
+      </lb>
+      <lb n="11-12">droseddau.
+      </lb>
+      <lb n="12">
+       Os distrywiodd Duw lawer mil o bobl,
+      </lb> 
+      <lb n="13">lawer o ddinasoedd, ie a 'r holl f&#375;d, am 
+      </lb>
+      <lb n="13-14">butteindra,
+      </lb>
+      <lb n="14">
+       na wenhieithiwn mohonom ein hunain, ac
+      </lb> 
+      <lb n="15">na thybygwn y diangwn ni yn rhyddion, ac yn
+      </lb> 
+      <lb n="16">ddigosp. O herwydd fe a addawodd yn ei 
+      </lb>
+      <lb n="16-17">gyfraith
+      </lb>
+      <lb n="17">
+       sanctaidd ddanfon plau tostion ar y 
+      </lb>
+      <lb n="17-18">troseddwyr,
+      </lb>
+      <lb n="18">
+       neu y rhai a dorrant ei sanctaidd 
+      </lb>
+      <lb n="18-19">orchymmynion
+      </lb>
+      <lb n="19">
+       ef.
+      
+      
+      </lb> 
+      <lb n="20">Fel hyn y clywsoch pa fodd y mae Duw yn 
+      </lb>
+      <lb n="20-21">cospi
+      </lb>
+      <lb n="21">
+       pechod godineb, gwrandawn weithian ryw 
+      </lb>
+      <lb n="21-22">gyfreithiau
+      </lb>
+      <lb n="22">
+       a osododd llywodraethwyr bydol, mewn
+      </lb> 
+      <lb n="23">amryw wledydd er ei gospi: fel y caffom wybod fod
+      </lb> 
+      <lb n="24">aflendid yn ffiaidd ym-mhob \ym mhob\ dinas a 
+      </lb>
+      <lb n="24-25">gwladwriaeth
+      </lb>
+      <lb n="25">
+       hydrefn, ac ymmhlith dynion honest.
+      
+      
+      </lb> 
+      <lb n="26">Hyn oedd y gyfraith ym-mhlith y lepreaid, Hwy
+      </lb> 
+      <lb n="27">a rwyment yr hwn a ddelid mewn godineb, ac a 'i
+      </lb> 
+      <lb n="28">dygent ef dros dri diwrnod trwy 'r ddinas: yn &ocirc;l
+      </lb> 
+      <lb n="29">hynny yr h&#375;d y byddai byw, fe a ddibrisid, a thrwy
+      </lb> 
+      <lb n="30">gywilydd a gwradwydd, a gyfrifid yn dd&#375;n heb
+      </lb> 
+      <lb n="31">ddim honestrwydd ynddo.
+      
+      
+      </lb> 
+      <lb n="32">Ym-mhlith y Locriaid yr ydys yn tynnu dau 
+      </lb>
+      <lb n="32-33">lygad
+      </lb>
+      <lb n="33">
+       y godinebwr.
+      
+      
+      </lb> 
+      <lb n="34">Y Rhufeiniaid gynt a gospent odineb, weithiau
+      
+      </lb>
+      </pb>
+      <pb n="172.">
+      
+       
+      <lb n="1">&acirc; th&acirc;n, weithiau &acirc; 'r cleddyf. Os delid neb mewn
+      </lb> 
+      <lb n="2">godineb ym-mhlith yr Aiphtiaid, y gyfraith oedd
+      </lb> 
+      <lb n="3">iddo gael ei chwippio yngwydd \yng ng&#373;ydd\ y bobl, hyd f&icirc;l o
+      </lb> 
+      <lb n="4">wialennodiau: a 'r wraig a ddelid mewn godineb
+      </lb> 
+      <lb n="5">gydag ef, a dorrid ei thrwyn, fel y gellid gwybod
+      </lb> 
+      <lb n="6">byth o hynny allan ei bod hi yn buttain, ac y 
+      </lb>
+      <lb n="6-7">ffieiddid
+      </lb>
+      <lb n="7">
+       hi gan bawb.
+      
+      
+      </lb> 
+      <lb n="8">Ym-mhlith yr Arabiaid y torrid pennau y rhai a
+      </lb> 
+      <lb n="9">ddelid mewn godineb, oddiar eu cyrph.
+      
+      
+      </lb> 
+      <lb n="10">Yr Atheniaid a gospent butteindra ag angau,
+      </lb> 
+      <lb n="11">yn yr vn modd. Felly y gwnai y Tartariaid 
+      </lb>
+      <lb n="11-12">diddysc,
+      </lb>
+      <lb n="12">
+       difedr.
+      
+      
+      </lb> 
+      <lb n="13">Ac hyd heddyw ym-mhlith y Twrciaid y 
+      </lb>
+      <lb n="13-14">llabyddir
+      </lb>
+      <lb n="14">
+       i angau yn ddidrugaredd, y gwr a 'r wraig a
+      </lb> 
+      <lb n="15">ddalier mewn godineb. Fel hyn y gwelwn pa 
+      </lb>
+      <lb n="15-16">gyfreithiau
+      </lb>
+      <lb n="16">
+       duwiol a wnaethpwyd gynt gan 
+      </lb>
+      <lb n="16-17">awdurdodau
+      </lb>
+      <lb n="17">
+       goruchel, er tynnu ymmaith 
+      </lb>
+      <lb n="17-18">butteindra,
+      </lb>
+      <lb n="18">
+       ac er maentaenio priodas sanctaidd, a ph&ucirc;r
+      </lb> 
+      <lb n="19">ymddygiad.
+      
+      
+      </lb> 
+      <lb n="20">Ac etto nid oedd gwneuthurwyr y cyfreithiau
+      </lb> 
+      <lb n="21">ymma yn Gristianogion, onid cenhedloedd; etto
+      </lb> 
+      <lb n="22">hwy a garent honestrwydd a phurdeb buchedd
+      </lb> 
+      <lb n="23">cymmaint, fel y gwnaent gyfreithiau daionus,
+      </lb> 
+      <lb n="24">duwiol, er maentaenio y pethau hynny, heb oddef
+      </lb> 
+      <lb n="25">o fewn eu teyrnasoedd, odineb a phutteindra i
+      </lb> 
+      <lb n="26">deyrnasu yn ddigosp.
+      
+      
+      </lb> 
+      <lb n="27">Fe a ddywedodd Christ wrth yr Iuddewon 
+      </lb>
+      <lb n="27-28">anffyddlon,
+      </lb>
+      <lb n="28">
+       y cyfode y Ninifiaid ddydd y farn yn erbyn
+      </lb> 
+      <lb n="29">y genhedlaeth honno, i 'w chondemno, am iddynt
+      </lb> 
+      <lb n="30">hwy etifarhau ar bregethiad Ionas, ac wele
+      </lb> 
+      <lb n="31">(medd efe) vn mwy n&acirc; Ionas ymma, (gan feddwl
+      </lb> 
+      <lb n="32">amdano ei h&ucirc;n) ac etto nid edifarhasant.
+      
+      
+      </lb> 
+      <lb n="33">Oni chyfyd (dybyg&#373;ch chwi) yn gyffelyb y 
+      </lb>
+      <lb n="33-34">Locriaid,
+      </lb>
+      <lb n="34">
+       Arabiaid, Atheniaid ac eraill o 'r f&acirc;th 
+      
+      </lb>
+      </pb>
+      <pb n="172-173.">
+      <lb n="34-1">hynny,
+      </lb>
+      </pb>
+      <pb n="173.">
+      <lb n="1">
+       i 'r farn yn ein herbyn ni i 'n condemno; yn
+      </lb> 
+      <lb n="2">gymmaint ac iddynt hwy ymgadw rhag 
+      </lb>
+      <lb n="2-3">putteindra
+      </lb>
+      <lb n="3">
+       ar orchymmyn d&#375;n, ac mae gennym ni 
+      </lb>
+      <lb n="3-4">gyfraith
+      </lb>
+      <lb n="4">
+       ac eglur orchymmyn Duw, ac er hynny nid
+      </lb> 
+      <lb n="5">ydym yn ymadel &acirc; 'n haflan ymddygiad. Yn wir,
+      </lb> 
+      <lb n="6">yn wir fe fydd esmwythach yn-nydd \yn nydd\ y farn i 'r 
+      </lb>
+      <lb n="6-7">cenhedloedd
+      </lb>
+      <lb n="7">
+       hynny nag i ni, onid edifarhawn ni a
+      </lb> 
+      <lb n="8">gwellhau. O herwydd, er bod angau corphorol, yn
+      </lb> 
+      <lb n="9">ein golwg ni, yn gosp drom, dost, yn y b&#375;d hwn am
+      </lb> 
+      <lb n="10">butteindra: etto nid yw y gosp honno ddim wrth
+      </lb> 
+      <lb n="11">y blinedig boenau a orfydd ar odinebwyr, 
+      </lb>
+      <lb n="11-12">putteinwyr
+      </lb>
+      <lb n="12">
+       a dynion aflan, eu goddef yn &ocirc;l y bywyd hwn.
+      
+      
+      </lb> 
+      <lb n="13">O herwydd fe a geuir yr holl rai hynny o 
+      </lb>
+      <lb n="13-14">deyrnas
+      </lb>
+      <lb n="14">
+       nefoedd, fel y dyweid S. Paul; Na thwyller
+      </lb> 
+      <lb n="15">chwi, ni chaiff na godinebwyr, nac addolwyr 
+      </lb>
+      <lb n="15-16">delwau,
+      </lb>
+      <lb n="16">
+       na thorwyr priodas, na drythyllwyr, na 'r
+      </lb> 
+      <lb n="17">rhai Sodomiaidd, na chybyddion, na meddwon,
+      </lb> 
+      <lb n="18">na difenwyr, na chribddeilwyr etifeddu teyrnas
+      </lb> 
+      <lb n="19">Dduw. Ac y mae Ioan yn dywedyd yn ei 
+      </lb>
+      <lb n="19-20">weledigaeth,
+      </lb>
+      <lb n="20">
+       y caiff y putteinwyr eu rh&acirc;n gyd &acirc;&nbsp;
+      </lb>
+      <lb n="20-21">lladdwyr,
+      </lb>
+      <lb n="21">
+       cyfareddwyr, a 'r delw-addolwyr, a 'r rhai 
+      </lb>
+      <lb n="21-22">celwyddog,
+      </lb>
+      <lb n="22">
+       yn y pwll sydd yn llosci &acirc; th&acirc;n a 
+      </lb>
+      <lb n="22-23">brwmstan,
+      </lb>
+      <lb n="23">
+       yr hwn yw 'r ail angau.
+      
+      
+      </lb> 
+      <lb n="24">Er bod cosp y corph yn angau, etto mae iddo 
+      </lb>
+      <lb n="24-25">ddiwedd,
+      </lb>
+      <lb n="25">
+       ond mae cosp yr enaid, yr hwn y mae Ioan
+      </lb> 
+      <lb n="26">yn s&ocirc;n amdano, yn dragywydd. Yno y bydd t&acirc;n a
+      </lb> 
+      <lb n="27">brwmstan, yno y bydd wylofain ac scyrnygu \ysgyrnygu\&nbsp;
+      </lb>
+      <lb n="27-28">dannedd,
+      </lb>
+      <lb n="28">
+       yno y pr&#375;f a gno gydwybod y rhai a 
+      </lb>
+      <lb n="28-29">ddamnier,
+      </lb>
+      <lb n="29">
+       ni bydd marw byth. Oh, calon pwy ni 
+      </lb>
+      <lb n="29-30">ddifera
+      </lb>
+      <lb n="30">
+       ddafnau gwaed wrth wrando ac ystyried y 
+      </lb>
+      <lb n="30-31">pethau
+      </lb>
+      <lb n="31">
+       hyn.
+      
+      
+      </lb> 
+      <lb n="32">Os yscrydiwn ac os * crynwn [-: Echrydiwn.]  wrth glywed enwi
+      </lb> 
+      <lb n="33">y pethau hyn, pa beth a wnawn wrth eu clywed
+      </lb> 
+      <lb n="34">hwy a 'u goddef, ie a 'u goddef byth ac yn 
+      
+      </lb>
+      </pb>
+      <pb n="173-174.">
+      <lb n="34-1">dragywydd.
+      </lb>
+      </pb>
+      <pb n="174.">
+      <lb n="1">
+       Duw a drugarhao wrthym.
+      
+      </lb> 
+      <lb n="2">Pwy sydd bellach wedi * soddi [-: Suddo.]  mewn pechod cyn
+      </lb> 
+      <lb n="3">ddyfned, a chwedy ymadel &acirc; ph&ocirc;b duwioldeb cyn
+      </lb> 
+      <lb n="4">llwyred; ac y gwnel yn fwy o 'i hoffder a 'i 
+      </lb>
+      <lb n="4-5">ddigrifwch
+      </lb>
+      <lb n="5">
+       drewllyd brwnt (yr hwn a aiff yn ebrwydd
+      </lb> 
+      <lb n="6">heibio) nag o golli gogoniant tragwyddol? Pwy
+      </lb> 
+      <lb n="7">ailwaith a 'i rhydd ei hunan i chwantau cnawdol
+      </lb> 
+      <lb n="8">cyn belled, ac nad ofno ef * am boenau [-: Rhag poenau.]  t&acirc;n vffernol?
+      </lb> 
+      <lb n="9">Ond gwrandawn bellach pa fodd y gwachelwn
+      </lb> 
+      <lb n="10">butteindra a godineb, fel y rhodiom mewn ofn
+      </lb> 
+      <lb n="11">Duw, ac y byddom ryddion oddiwrth yr holl 
+      </lb>
+      <lb n="11-12">artaithiau
+      </lb>
+      <lb n="12">
+       a 'r poenau anescorol trymmion y rhai sydd
+      </lb> 
+      <lb n="13">ar fedr pob d&#375;n aflan.
+      
+      
+      </lb> 
+      <lb n="14">Er gwachelyd godineb, putteindra, a phob 
+      </lb>
+      <lb n="14-15">aflendid,
+      </lb>
+      <lb n="15">
+       cadwn ein calonnau yn bur ac yn l&acirc;n 
+      </lb>
+      <lb n="15-16">oddiwrth
+      </lb>
+      <lb n="16">
+       bob meddwl drwg a chwantau 
+      </lb>
+      <lb n="16-17">cnawdol:
+      </lb>
+      <lb n="17">
+       o herwydd os y galon a lygrir ni a 
+      </lb>
+      <lb n="17-18">gwympwn
+      </lb>
+      <lb n="18">
+       lwyr ein pennau i bob rhyw annuwioldeb.
+      </lb> 
+      <lb n="19">Hyn a wnawn ni yn esmwyth, os ni pan 
+      </lb>
+      <lb n="19-20">glywon
+      </lb>
+      <lb n="20">
+       ein h&ecirc;n elyn Sathan yn ein temptio, ni 
+      </lb>
+      <lb n="20-21">chytunwn
+      </lb>
+      <lb n="21">
+       mewn ffordd yn y byd &acirc; 'i dwyllodrus
+      </lb> 
+      <lb n="22">ddichellion ef, gan ei wrthwynebu ef yn 
+      </lb>
+      <lb n="22-23">ddewrion,
+      </lb>
+      <lb n="23">
+       trwy ffydd gadarn yngair \yng ngair\ Duw, a chan osod
+      </lb> 
+      <lb n="24">yn ei erbyn ef yn wastadol yn ein calonnau, y
+      </lb> 
+      <lb n="25">gorchymmyn hwn, a roddodd Duw i ni, Na
+      </lb> 
+      <lb n="26">wna odineb, scrifennedig yw, Na wn&acirc; butteindra.
+      
+      
+      </lb> 
+      <lb n="27">Da fydd i ni hefyd fyw yn wastadol mewn ofn
+      </lb> 
+      <lb n="28">Duw, a gosod gar \ger\ bron ein llygaid d&ocirc;st fygythiau
+      </lb> 
+      <lb n="29">Duw, yn erbyn annuwiol bechaduriaid: ac 
+      </lb>
+      <lb n="29-30">ystyried
+      </lb>
+      <lb n="30">
+       yn ein calonnau mor frwnt, mor anifeiliaidd
+      </lb> 
+      <lb n="31">ac mor fyrr yw 'r digrifwch a 'r hoffder, i 'r hwn y
+      </lb> 
+      <lb n="32">mae Sathan yn ein h&ucirc;do ac yn ein llithio ni yn
+      </lb> 
+      <lb n="33">wastad: ac eilwaith fod y gosp a osodwyd am y
+      </lb> 
+      <lb n="34">pechod hwnnw yn anescorol ac yn dragwyddol.
+      
+      
+      </lb>
+      </pb>
+      <pb n="175.">
+      
+      
+       
+      <lb n="1">Hefyd arferwn sobredd, a chymmedrolder a
+      </lb> 
+      <lb n="2">thymmer dda wrth fwytta ac yfed, a gwachelwn
+      </lb> 
+      <lb n="3">bob chwedleu aflan, ac ymgadwn oddiwrth bob
+      </lb> 
+      <lb n="4">cwmpniaeth dr&#373;g, Gwachelwn seguryd, 
+      </lb>
+      <lb n="4-5">ymhoffwn
+      </lb>
+      <lb n="5">
+       o ddarllen yr Scrythur l&acirc;n; gwiliwn
+      </lb> 
+      <lb n="6">mewn gweddiau duwiol, a myfyriadau 
+      </lb>
+      <lb n="6-7">rhinweddol;
+      </lb>
+      <lb n="7">
+       a phob amser ymarferwn o ryw boen a
+      </lb> 
+      <lb n="8">thrafel duwiol; a 'r pethau hyn a 'n 
+      </lb>
+      <lb n="8-9">cynnorthwyant
+      </lb>
+      <lb n="9">
+       ni yn fawr i ymgadw rhag putteindra.
+      
+      
+      </lb> 
+      <lb n="10">Ac ymma y rhybyddir pob gr&acirc;dd o ddynion,
+      </lb> 
+      <lb n="11">priodol ac am-mhriodol, i garu purdeb a glendid
+      </lb> 
+      <lb n="12">buchedd. O herwydd mae 'r priodol yn rhwym
+      </lb> 
+      <lb n="13">wrth gyfraith Dduw, i garu ei gilydd yn bur ac
+      </lb> 
+      <lb n="14">yn glau, heb i vn o honynt geisio cariad dieithr.
+      
+      
+      </lb> 
+      <lb n="15">Mae yn rhaid i 'r g&#373;r lynu wrth ei wraig yn
+      </lb> 
+      <lb n="16">vnig, ag i 'r wraig lynu wrth ei g&#373;r yn vnig.
+      </lb> 
+      <lb n="17">Mae yn rhaid iddynt ill dau ymhoffi 
+      </lb>
+      <lb n="17-18">ynghymdeithas
+      </lb>
+      <lb n="18">
+       \yng nghymdeithas\ ei gilydd: na chwennycho yr vn o 
+      </lb>
+      <lb n="18-19">honynt
+      </lb>
+      <lb n="19">
+       neb arall. Ac fel y maent hwy yn 
+      </lb>
+      <lb n="19-20">rhwymedig
+      </lb>
+      <lb n="20">
+       i fyw ingh&#375;d \ynghyd\ mewn duwioldeb a phob 
+      </lb>
+      <lb n="20-21">honestrwydd,
+      </lb>
+      <lb n="21">
+       felly eu swydd hwy hefyd a 'u dl&ecirc;d yw
+      </lb> 
+      <lb n="22">dwyn eu plant i fynu yn rhinweddol, a darbod na
+      </lb> 
+      <lb n="23">bo iddynt gwympo i * lindagau [-: Faglau.]  Sathan, nac i vn
+      </lb> 
+      <lb n="24">aflendid, ond bod o honynt yn bur ac yn honest
+      </lb> 
+      <lb n="25">mewn priodas sanctaidd, pan ddelo 'r amser.
+      
+      
+      </lb> 
+      <lb n="26">Felly hefyd y dylyai feistred a rheolwyr ddarbod
+      </lb> 
+      <lb n="27">nad arferer na phutteindra nac aflendid 
+      </lb>
+      <lb n="27-28">ymmhlith
+      </lb>
+      <lb n="28">
+       eu gwasanaeth ddynion.
+      
+      
+      </lb> 
+      <lb n="29">A thrachefn os y rhai sydd heb priodi a 
+      </lb>
+      <lb n="29-30">ymglywant
+      </lb>
+      <lb n="30">
+       ynddynt eu hunain, na allant fyw heb
+      </lb> 
+      <lb n="31">gwmpeini gwraig, priodant, a byddant fyw yngh&#375;d
+      </lb> 
+      <lb n="32">yn dduwiol, o herwydd gwell yw priodi n&acirc;&nbsp;
+      </lb>
+      <lb n="32-33">llosci.
+      </lb>
+      <lb n="33">
+       I ochel godineb (medd yr Apostol) cymered pob
+      </lb> 
+      <lb n="34">g&#373;r ei wraig ei h&ucirc;n, a phob gwraig ei g&#373;r ei hun.
+      
+      
+      </lb>
+      </pb>
+      <pb n="176.">
+      
+      
+       
+      <lb n="1">Yn ddiwethaf, y rhai sydd yn clywed ynddynt
+      </lb> 
+      <lb n="2">eu hunain, y gallant (trwy weithrediad Yspryd
+      </lb> 
+      <lb n="3">Duw) fyw yn vnig, ac yn * ymattalus [-: Ddiweir.] , 
+      </lb>
+      <lb n="3-4">clodforant
+      </lb>
+      <lb n="4">
+       Dduw am eu rhoddiad, a cheisiant bob ffordd
+      </lb> 
+      <lb n="5">ac a allont i gadw ac i gynnal y cyfryw roddiad:
+      </lb> 
+      <lb n="6">megis trwy ddarllein yr Scrythur l&acirc;n, trwy
+      </lb> 
+      <lb n="7">fyfyriadau duwiol, a gweddiau dyfal, a 'r f&acirc;th
+      </lb> 
+      <lb n="8">rinweddol arferon eraill.
+      
+      
+      </lb> 
+      <lb n="9">Os ceisiwn oll yn y modd ymma ymgadw rhag
+      </lb> 
+      <lb n="10">godineb, putteindra a phob aflendid, a dwyn ein
+      </lb> 
+      <lb n="11">bywyd mewn duwioldeb ac honestrwydd, gan
+      </lb> 
+      <lb n="12">wasanaethu Duw &acirc; chalonnau gl&acirc;n p&ucirc;r, a 'i 
+      </lb>
+      <lb n="12-13">ogoneddu
+      </lb>
+      <lb n="13">
+       ef yn ein cyrph, drwy ddwyn ein bywyd
+      </lb> 
+      <lb n="14">yn ddiddrwg ac yn ddieniwed, siccr y gallwn fod
+      </lb> 
+      <lb n="15">o rifedi y rhai y mae ein Iachawdwr Christ yn
+      </lb> 
+      <lb n="16">yr Efengyl yn dywedyd fel hyn amdanynt, Gwyn
+      </lb> 
+      <lb n="17">eu b&#375;d y rhai gl&acirc;n o galon, canys hwy a welant
+      </lb> 
+      <lb n="18">Dduw: I 'r hwn yn vnig y b&ocirc; pob gogoniant
+      </lb> 
+      <lb n="19">anrhydedd, rheolaeth a gallu yn oes oesoedd.
+      </lb> 
+      <lb n="20">Amen.
+      
+      
+      
+      
+      </lb>
+      </pb>
+      
+   </text>
+   <text id="LlH_ii">
+      
+       
+      
+      
+      
+      <pb n="265.">
+      
+      
+      <head>
+      
+       
+      <lb n="1">&para;&nbsp;Pregeth yn yr hon y manegir y 
+      </lb>
+      <lb n="1-2">dylyid
+      </lb>
+      <lb n="2">
+       ministro gweddi gyhoeddus a 'r 
+      </lb>
+      <lb n="2-3">Sacramentau
+      </lb>
+      <lb n="3">
+       mewn iaith a ddealler gan</lb>
+       
+      <lb n="4">y gwrandawyr.
+      </lb>
+      </head>
+      
+      
+      
+      
+       
+      <lb n="5">YMhlith aml arferon pobl Dduw
+      </lb> 
+      <lb n="6">Gristionogion anwyl, nid oes vn
+      </lb> 
+      <lb n="7">anghenrheitiach i bob stat ac i
+      </lb> 
+      <lb n="8">bob amser n&acirc; gweddi gyhoeddus,
+      </lb> 
+      <lb n="9">a dyledus arfer y Sacramentau:
+      </lb> 
+      <lb n="10">o herwydd yn y cyntaf yr ydym
+      </lb> 
+      <lb n="11">yn ceisio oddiar law Duw yr
+      </lb> 
+      <lb n="12">holl bethau y rhai heb hyn, ni allem gael mo 
+      
+      </lb>
+      </pb>
+      <pb n="265-266.">
+      <lb n="12-1">honynt.
+      </lb>
+      </pb>
+      <pb n="266.">
+      <lb n="1">
+       Ac yn ail y mae fe yn ein breicheidio ni, ac
+      </lb> 
+      <lb n="2">yn ei gynnig ei hun i ninnau i 'w fraicheidio.
+      
+      
+      </lb> 
+      <lb n="3">Am hynny a ni yn gwybod fod y ddwy arfer
+      </lb> 
+      <lb n="4">hynny mor anghenrhaid ini, na thybygwn fod yn
+      </lb> 
+      <lb n="5">anweddus ini ystyried, yn gyntaf pa beth yw
+      </lb> 
+      <lb n="6">gweddi a pha beth yw sacrament: ac yno pa sawl
+      </lb> 
+      <lb n="7">rhyw a'r weddi sydd, a pha sawl Sacrament, ac
+      </lb> 
+      <lb n="8">felly y deallwn ni yn well pa fodd y iawn 
+      </lb>
+      <lb n="8-9">arferwn
+      </lb>
+      <lb n="9">
+       ni hwynt. Er gwybod pa beth ydynt mae
+      </lb> 
+      <lb n="10">S. Awstin yn y llyfr am yr Yspryd a 'r enaid yn
+      </lb> 
+      <lb n="11">dywedyd fal hyn am weddi. Gweddi, medd ef, yw
+      </lb> 
+      <lb n="12">dwyfoldeb y meddwl: hynny yw ymchwel at
+      </lb> 
+      <lb n="13">Dduw trwy ddymunad duwiol gostyngedig: yr
+      </lb> 
+      <lb n="14">hon ddymuniad yw diogel ac ewyllysgar a melus
+      </lb> 
+      <lb n="15">ogwyddiad y meddwl ei hun at Dduw. Ac yn ei
+      </lb> 
+      <lb n="16">ail lyfr yn erbyn gwrthwynebwyr y gyfraith a 'r
+      </lb> 
+      <lb n="17">Prophwydi y mae fe 'n galw y Sacramentau yn
+      </lb> 
+      <lb n="18">arwyddion sanctaidd. Ac wrth scrifennu at 
+      </lb>
+      <lb n="18-19">Bonifacius
+      </lb>
+      <lb n="19">
+       am fedydd plant bychain y dywaid: oni
+      </lb> 
+      <lb n="20">bai fod yn y Sacramentau Rhyw gyffelybaeth i 'r
+      </lb> 
+      <lb n="21">pethau y maent yn Sacramentau honynt ni 
+      </lb>
+      <lb n="21-22">byddent
+      </lb>
+      <lb n="22">
+       Sacramentau mwy. Ac o 'r gyffelybaeth
+      </lb> 
+      <lb n="23">honno maent o 'r rhan fwyaf yn derbyn enwau y
+      </lb> 
+      <lb n="24">pethau eu hunain y maent yn eu harwyddoccau.
+      </lb> 
+      <lb n="25">Wrth y gairiau hyn o S. Awstyn mae 'n eglur ei
+      </lb> 
+      <lb n="26">fod ef yn fodlon i ddeffiniad neu ddescribiad \ddisgrifiad\&nbsp;
+      </lb>
+      <lb n="26-27">arferol
+      </lb>
+      <lb n="27">
+       Sacrament, hynny yw, ei fod ef yn arwydd
+      </lb> 
+      <lb n="28">weledig o rad anweledig, hynny yw yr hon sydd
+      </lb> 
+      <lb n="29">yn gosod allan i 'r llygaid a 'r synwyrau eraill
+      </lb> 
+      <lb n="30">oddi allan orchwyl trugaredd rad Duw, ac sydd
+      </lb> 
+      <lb n="31">megis yn selio yn ein calonnau ni addewidion
+      </lb> 
+      <lb n="32">Duw.
+      
+      
+      </lb> 
+      <lb n="33">Ac felly yr ydoedd yr enwaediad yn Sacrament,
+      </lb> 
+      <lb n="34">yr hwn a bregethodd i 'r synhwyrau oddi allan
+      
+      </lb>
+      </pb>
+      <pb n="267.">
+      
+       
+      <lb n="1">enwaediad y galon oddifewn, ac a seloedd ac a 
+      </lb>
+      <lb n="1-2">ddiogelhaodd
+      </lb>
+      <lb n="2">
+      &nbsp;ynghalonnau \yng nghalonnau\ 'r enwaededig, 
+      </lb>
+      <lb n="2-3">addewidion
+      </lb>
+      <lb n="3">
+       Duw ynghylch yr h&acirc;d a addawsed ac a 
+      </lb>
+      <lb n="3-4">edryched
+      </lb>
+      <lb n="4">
+       amdano.
+      
+      
+      </lb> 
+      <lb n="5">Yn awr edrychwn pa sawl rhyw a'r weddi a
+      </lb> 
+      <lb n="6">pha sawl Sacrament y sydd. Yr ydym yn darllen
+      </lb> 
+      <lb n="7">yn yr Scruthur am dair rhyw o weddi, o 'r rhai y
+      </lb> 
+      <lb n="8">mae dwy 'n neulltuol \neilltuol\ ac vn yn gyhoeddus.
+      
+      
+      </lb> 
+      <lb n="9">Y gyntaf yw 'r hon y mae Pawl yn son amdeni
+      </lb> 
+      <lb n="10">yn ei Epistl at Timothi gan ddywedyd: Mi a 
+      </lb>
+      <lb n="10-11">fynnwn
+      </lb>
+      <lb n="11">
+       i wyr weddio ymhob man gan dderchafu
+      </lb> 
+      <lb n="12">dwylo purion heb ddigter nag ymryson. A hon
+      </lb> 
+      <lb n="13">yw gwir a dyfal gyfodiad y meddwl at Dduw heb
+      </lb> 
+      <lb n="14">draethu blinder a dymunad y calonnau trwy 
+      </lb>
+      <lb n="14-15">laferudd
+      </lb>
+      <lb n="15">
+       yn gyhoeddus. O 'r weddi hon y mae 'r 
+      </lb>
+      <lb n="15-16">siampl
+      </lb>
+      <lb n="16">
+       yn llyfr Samuel am Haanah mam 
+      </lb>
+      <lb n="16-17">Samuel,
+      </lb>
+      <lb n="17">
+       pan weddioedd \weddiodd\ hi yn y deml yn hrymder \nhrymder\ ei
+      </lb> 
+      <lb n="18">chalon, gan ddymuno cael ei gwneuthur yn 
+      </lb>
+      <lb n="18-19">ffrwythlon.
+      </lb>
+      <lb n="19">
+       Medd y text yr ydodd \ydoedd\ hi yn gweddio yndi \ynddi\
+      </lb> 
+      <lb n="20">ei hun a 'i llaferudd ni chlywyd. Yn y dull hyn y
+      </lb> 
+      <lb n="21">dylye 'r holl Gristionogion weddio, nid vnwaith
+      </lb> 
+      <lb n="22">yn yr wythnos, neu vnwaith yn y dydd, ond fal y
+      </lb> 
+      <lb n="23">dywaid Pawl wrth scrifennu at y Thessaloniaid
+      </lb> 
+      <lb n="24">heb orphwys. Ac fal y mae S. Iaco 'n scrifennu,
+      </lb> 
+      <lb n="25">Llawer y ddychon gweddi 'r cyfion os ffrwythlon
+      </lb> 
+      <lb n="26">y fydd hi.
+      
+      
+      </lb> 
+      <lb n="27">Yr ail rhyw o weddi y sonnir amdeni yn S.
+      </lb> 
+      <lb n="28">Mathew, lle y dywedir fal hyn, Pan weddiech
+      </lb> 
+      <lb n="29">dos i 'th stafell a chwedy cau dy ddrws gweddia ar
+      </lb> 
+      <lb n="30">dy Dad yr hwn sydd yn y dirgel, a 'th Dad yr hwn
+      </lb> 
+      <lb n="31">a wel yn y dirgel a 'th obrwya di yn yr amlwg: O 'r
+      </lb> 
+      <lb n="32">rhyw hon o weddi mae llawer siampl yn yr 
+      </lb>
+      <lb n="32-33">Scrythyrau
+      </lb>
+      <lb n="33">
+       sanctaidd: ond digon i ni adrodd vn yr hon
+      </lb> 
+      <lb n="34">sydd scrifennedig yn Actau 'r Apostolion. Mae
+      
+      </lb>
+      </pb>
+      <pb n="268.">
+      
+       
+      <lb n="1">Cornelius gwr sanctaidd canwriad o 'r Italaidd
+      </lb> 
+      <lb n="2">fyddin, yn dywedyd wrth yr Apostol Peter, ag
+      </lb> 
+      <lb n="3">yntef yn ei d&#375; yn gweddio ynghylch y nawfed awr
+      </lb> 
+      <lb n="4">ymddangos iddo fe vn mewn dilliad \dillad\ gwynnion,
+      </lb> 
+      <lb n="5">&amp;c. Fe weddiodd y gwr hwnnw a'r Dduw yn y 
+      </lb>
+      <lb n="5-6">dirgel,
+      </lb>
+      <lb n="6">
+       ac a obrwywyd yn yr amlwg. Dymma 'r
+      </lb> 
+      <lb n="7">ddwy rhyw weddiau dirgel. Y naill yn y meddwl,
+      </lb> 
+      <lb n="8">hynny yw dwyfol dderchafiad y meddwl at
+      </lb> 
+      <lb n="9">Dduw, a 'r llall yn y llaferydd, hynny yw dirgel
+      </lb> 
+      <lb n="10">adrodd blinderau a dymyniadau 'r galon mewn
+      </lb> 
+      <lb n="11">geiriau, ond etto mewn stafell ddirgel, neu rhyw
+      </lb> 
+      <lb n="12">le neulltuol \neilltuol\.
+      
+      
+      </lb> 
+      <lb n="13">Yr ail rhyw o weddi sydd gyffredinol neu 
+      </lb>
+      <lb n="13-14">gyhoeddus.
+      </lb>
+      <lb n="14">
+       Am y weddi hon y son ein Iachawdwr
+      </lb> 
+      <lb n="15">Christ, pan mae fe 'n dywedyd. Os cytuna dau o
+      </lb> 
+      <lb n="16">hanoch \ohonoch\ ar y ddayar am ddim oll beth bynnac a
+      </lb> 
+      <lb n="17">ddeisyfant rhoddir iddynt gan fy nhad yr hwn sydd
+      </lb> 
+      <lb n="18">yn y nefoedd. Canis \Canys\&nbsp;ymhale \ym mha le\ bynnac yr 
+      </lb>
+      <lb n="18-19">ymgynullo
+      </lb>
+      <lb n="19">
+       dau neu dri yn fy enw i, yno yr ydwyf yn eu
+      </lb> 
+      <lb n="20">mysc hwynt. Er i Dduw addo 'n gwrando ni pan
+      </lb> 
+      <lb n="21">weddion yn y dirgel trwy wneuthur hynny yn
+      </lb> 
+      <lb n="22">ffyddlon ac yn dduwiol: O herwydd mae fe 'n 
+      </lb>
+      <lb n="22-23">dywedyd
+      </lb>
+      <lb n="23">
+       galw arnafi yn-nydd \yn nydd\ trallod yno mi a 'th
+      </lb> 
+      <lb n="24">wrandawaf.
+      
+      
+      </lb> 
+      <lb n="25">Ac medd S. Iaco ac Elias yn wr marwol fe
+      </lb> 
+      <lb n="26">weddiodd ac ni bu law dros dair blynedd a 
+      </lb>
+      <lb n="26-27">chwemis,
+      </lb>
+      <lb n="27">
+       ac fe a weddiodd drachefn ac fe rhoddes y nef
+      </lb> 
+      <lb n="28">ei glaw. Etto mae 'n eglur wrth historiau y beibl
+      </lb> 
+      <lb n="29">fod gweddi gyffredinol yn rymmusach ger bron
+      </lb> 
+      <lb n="30">Duw, ac am hynny y dylyed galaru yn fawr na
+      </lb> 
+      <lb n="31">wnair rhagor gyfrif honi \ohoni\ hi, yn ein mysc ni y rhai
+      </lb> 
+      <lb n="32">ydym yn addef ein bod yn vn corph ynghrist \yng Nghrist\.
+      
+      
+      </lb> 
+      <lb n="33">Pan fygythwyd dinistr dinas Ninifi o fewn
+      </lb> 
+      <lb n="34">deigain \deugain\ diwarnod. Fe gydsylltodd y brenin a 'i
+      
+      </lb>
+      </pb>
+      <pb n="269.">
+      
+       
+      <lb n="1">bobl eu hunain mewn gweddi ac ympryd, ac hwy
+      </lb> 
+      <lb n="2">a waredwyd. Fe orchymmynnodd Duw yn y
+      </lb> 
+      <lb n="3">Prophwyd Ioel gyhoeddi ympryd, ac i 'r bobl hen
+      </lb> 
+      <lb n="4">a iauainc, gwyr a gwragedd, ymgynull ynghyd,
+      </lb> 
+      <lb n="5">a dywedyd ac vn llaferydd: arbed d&#375; bobl 
+      </lb>
+      <lb n="5-6">Arglwydd
+      </lb>
+      <lb n="6">
+       ac na ddyro dy etifeddiaeth i warth: a phan 
+      </lb>
+      <lb n="6-7">oeddid
+      </lb>
+      <lb n="7">
+       er fedr difa 'r Iddewon oll mewn vn 
+      </lb>
+      <lb n="7-8">diwarnod
+      </lb>
+      <lb n="8">
+       trwy genfigen Haanan, wrth orchymmyn
+      </lb> 
+      <lb n="9">Hester hwy a ymprydiasant ac a weddiasant, ac
+      </lb> 
+      <lb n="10">hwy a waredwyd: pan warchaodd Holophernes
+      </lb> 
+      <lb n="11">Bethulia, wrth gyngor Iudith hwy 
+      </lb>
+      <lb n="11-12">ymprydiasant
+      </lb>
+      <lb n="12">
+       ac a weddiasant ac hwy a rhyddhawd \rhyddhawyd\. Pan
+      </lb> 
+      <lb n="13">ydodd \ydoedd\ yr Apostol Peter yngharchar \yng ngharchar\ fe 
+      </lb>
+      <lb n="13-14">ymgysylltodd
+      </lb>
+      <lb n="14">
+       y gynulleidfa ynghyd mewn gweddi ac fe 
+      </lb>
+      <lb n="14-15">waredwyd
+      </lb>
+      <lb n="15">
+       Peter mewn modd rhyfedd.
+      
+      
+      </lb> 
+      <lb n="16">Wrth yr historiau hynny mae 'n eglur fod 
+      </lb>
+      <lb n="16-17">gweddi
+      </lb>
+      <lb n="17">
+       gyffredinol gyhoeddus yn rymmus iawn i
+      </lb> 
+      <lb n="18">fwynhau trugaredd, ac ymwared oddiar law ein
+      </lb> 
+      <lb n="19">Tad nefol. Am hynny fy mrodyr yr atolgyaf i
+      </lb> 
+      <lb n="20">chwi er mwyn tirion drugaredd Duw, na 
+      </lb>
+      <lb n="20-21">fyddwn
+      </lb>
+      <lb n="21">
+       mwy yn escaelus yn hyn o beth: ond megis
+      </lb> 
+      <lb n="22">pobl a fyddant ewyllysgar i dderbyn ar law Duw
+      </lb> 
+      <lb n="23">y fath bethau, y rhai y mae gweddi gyffredinol yr
+      </lb> 
+      <lb n="24">Eglwys yn eu ceisio, ymgyssylltwn ynghyd yn y
+      </lb> 
+      <lb n="25">lle a osodwyd i weddi gyhoeddus, ac ag vn galon
+      </lb> 
+      <lb n="26">ceisiwn gan ein Tad nefol yr holl bethau a wyr ef
+      </lb> 
+      <lb n="27">eu bod yn anghenrhaid ini.
+      
+      
+      </lb> 
+      <lb n="28">Nid ydywyf yn gwahardd gweddiau dirgel i
+      </lb> 
+      <lb n="29">chwi, ond yr ydwyf yn eich annog i wneuthur
+      </lb> 
+      <lb n="30">cymmaint gyfrif a gweddi gyhoeddus ac y mae
+      </lb> 
+      <lb n="31">hi 'n haeddu. Ac ymlaen pob peth byddwch siccr
+      </lb> 
+      <lb n="32">yn y tair rhyw hon o weddi fod eich meddyliau
+      </lb> 
+      <lb n="33">gwedy eu cyfodi yn ddwyfol at Dduw, ac onid ef
+      </lb> 
+      <lb n="34">ni bydd eich gweddiau onid diffrwyth, ac fe 
+      
+      </lb>
+      </pb>
+      <pb n="269-270.">
+      <lb n="34-1">wirhair
+      </lb>
+      </pb>
+      <pb n="270.">
+      <lb n="1">
+       ynoch chwi yr ymmadrodd hwn: mae 'r bobl
+      </lb> 
+      <lb n="2">hyn yn nesau attaf a 'u geneuau a 'u calonnau 
+      </lb>
+      <lb n="2-3">ymhell
+      </lb>
+      <lb n="3">
+       oddi wrthyf. Hed \Hyd\ hyn am y tair rhyw gweddi
+      </lb> 
+      <lb n="4">am y rhai y darllenwn yn yr Scruthur l&acirc;n.
+      
+      
+      </lb> 
+      <lb n="5">Yn awr a 'r vn fath neu lai o airiau y cewch
+      </lb> 
+      <lb n="6">glywed pa sawl Sacrament sydd gwedy i ein 
+      </lb>
+      <lb n="6-7">Iachawdwr
+      </lb>
+      <lb n="7">
+       Christ eu gosod, ac a ddylent barhau a 'u
+      </lb> 
+      <lb n="8">derbyn gan bob Christion mewn amser a threfn
+      </lb> 
+      <lb n="9">dyledus, ac am yr achos y mynnai ein Iachawdwr
+      </lb> 
+      <lb n="10">Christ ini eu derbyn hwy. Ac am eu rhifedi hwy
+      </lb> 
+      <lb n="11">ped ystyrid hwy yn ol gwir arwyddocad 
+      </lb>
+      <lb n="11-12">Sacrament:
+      </lb>
+      <lb n="12">
+       sef am yr arywddion gweledig y rhai a 
+      </lb>
+      <lb n="12-13">orchymmynnir
+      </lb>
+      <lb n="13">
+       yn oleu yn y Testament newydd a 'r
+      </lb> 
+      <lb n="14">rhai y cydsylltir addewid maddauant o 'n 
+      </lb>
+      <lb n="14-15">pechodau
+      </lb>
+      <lb n="15">
+       yn rhad a 'n sancteiddrwydd a 'n cyssylltiad ni
+      </lb> 
+      <lb n="16">ynghrist \yng Nghrist\: nid oes onid dau, bedydd a swpper yr 
+      </lb>
+      <lb n="16-17">Arglwydd.
+      </lb>
+      <lb n="17">
+       O herwydd er bod i ollyngdod addewid
+      </lb> 
+      <lb n="18">maddeuant pechodau etto nid oes wrth airiau
+      </lb> 
+      <lb n="19">eglur y Testament newydd, vn addewid gwedy ei
+      </lb> 
+      <lb n="20">chlymmu a 'i rhwymo a'r arwydd weledig yr hon
+      </lb> 
+      <lb n="21">yw gosodiad dwylaw.
+      
+      
+      </lb> 
+      <lb n="22">O herwydd nid ydys yn y Testament newydd
+      </lb> 
+      <lb n="23">yn gorchymmyn yn oleu arfer gosod dwylo mewn
+      </lb> 
+      <lb n="24">gollyngdod fal yr ydys yn gorchymmyn yr 
+      </lb>
+      <lb n="24-25">arwyddion
+      </lb>
+      <lb n="25">
+       gweledig mewn bedydd a swpper yr 
+      </lb>
+      <lb n="25-26">Arglwydd:
+      </lb>
+      <lb n="26">
+       ac am hynny nid yw gollyngdod y fath 
+      </lb>
+      <lb n="26-27">sacrament
+      </lb>
+      <lb n="27">
+       ac yw bedydd a 'r cymmyn. Ac er bod i
+      </lb> 
+      <lb n="28">wneuthurdeb offeiriad ei harwydd weledig a 'i
+      </lb> 
+      <lb n="29">haddewid, etto mae erni diffig addewid 
+      </lb>
+      <lb n="29-30">maddauant
+      </lb>
+      <lb n="30">
+       o bechodau: fal a'r yr holl Sacramentau 
+      </lb>
+      <lb n="30-31">eraill
+      </lb>
+      <lb n="31">
+       heblaw y rhai hyn, am hynny nid ydyw na
+      </lb> 
+      <lb n="32">hon nag vn Sacrament arall y fath Sacrament
+      </lb> 
+      <lb n="33">ac ydyw y bedydd a 'r cymmyn. Ond mewn 
+      </lb>
+      <lb n="33-34">cymmeriad
+      </lb>
+      <lb n="34">
+       cyffredinol fe ellir rhoi enw Sacrament i
+      
+      </lb>
+      </pb>
+      <pb n="271.">
+      
+       
+      <lb n="1">bob peth trwy 'r hwn yr arwyddoccair vn peth
+      </lb> 
+      <lb n="2">sanctaidd. Yn yr hwn ystyr y rhoes yr h&ecirc;n dadau
+      </lb> 
+      <lb n="3">yr enw hwn nid yn vnic i 'r pump eraill, y rhai yn
+      </lb> 
+      <lb n="4">hwyr o amser a gymmerid yn lle Sacramentau i
+      </lb> 
+      <lb n="5">wneuthur saith, ond hefyd i lawer o Ceremoniau \seremon&iuml;au\
+      </lb> 
+      <lb n="6">eraill megis i olew, golchiad traed, a 'r fath 
+      </lb>
+      <lb n="6-7">bethau,
+      </lb>
+      <lb n="7">
+       heb feddwl trwy hynny eu cyfrif hwy yn
+      </lb> 
+      <lb n="8">Sacramentau, yn yr ystyr ac y mae y ddau 
+      </lb>
+      <lb n="8-9">Sacrament
+      </lb>
+      <lb n="9">
+       a ddywedasom ni o 'r blaen.
+      
+      
+      </lb> 
+      <lb n="10">Ac am hynny mae S. Awstin gan ystyried gwir
+      </lb> 
+      <lb n="11">ystyr ac iniawn ddeall y gair Sacrament, wrth
+      </lb> 
+      <lb n="12">scrifennu at Ianuarius, ac yn ei drydydd llyfr 
+      </lb>
+      <lb n="12-13">hefyd
+      </lb>
+      <lb n="13">
+       am yr athrawiaeth Gristionogawl, yn 
+      </lb>
+      <lb n="13-14">dywedyd
+      </lb>
+      <lb n="14">
+       fod Sacramentau y Christianogion yn 
+      </lb>
+      <lb n="14-15">ambell
+      </lb>
+      <lb n="15">
+       mewn rhifedi, ac yn odidawg mewn ystyr, ac
+      </lb> 
+      <lb n="16">yn y ddau le hynny mae fe 'n eglur yn s&ocirc;n am ddau,
+      </lb> 
+      <lb n="17">Bedydd, a Swpper yr Arglwydd.
+      
+      
+      </lb> 
+      <lb n="18">Ac er bod yn cynnal trwy drefn eglwys Loegr,
+      </lb> 
+      <lb n="19">heblaw y ddau hyn, ryw arferon a Ceremoniau \seremon&iuml;au\
+      </lb> 
+      <lb n="20">ynghylch gwneuthur offeiriaid, priodas, a bedydd
+      </lb> 
+      <lb n="21">escob, gan holi plant am eu gwybodaeth mewn
+      </lb> 
+      <lb n="22">pyngciau ffydd, a chan gyssylltu &acirc; hynny 
+      </lb>
+      <lb n="22-23">weddiau
+      </lb>
+      <lb n="23">
+       'r Eglwys drostynt, ac hefyd am ymweliad y
+      </lb> 
+      <lb n="24">cl&acirc;f: etto ni ddylyai neb gymmeryd y rhai hyn yn
+      </lb> 
+      <lb n="25">lle Sacramentau, yn yr ystyr a 'r deall y 
+      </lb>
+      <lb n="25-26">cymmerir
+      </lb>
+      <lb n="26">
+       Bedydd a Swpper yr Arglwydd, ond naill a'i
+      </lb> 
+      <lb n="27">yn alwedigaethau duwiol o fywyd, anghenrhaid
+      </lb> 
+      <lb n="28">yn Eglwys Grist, ac am hynny yn deilwng i 'w
+      </lb> 
+      <lb n="29">gosod allan trwy weithred gyhoeddus gyffredinol
+      </lb> 
+      <lb n="30">gan wenidawg yr Eglwys: ynteu a fernir eu bod
+      </lb> 
+      <lb n="31">yn gyfryw ordeiniaethau, ac a allant 
+      </lb>
+      <lb n="31-32">gynnorthwyo
+      </lb>
+      <lb n="32">
+       i athrawiaethu, diddanu, ac adailad Eglwys
+      </lb> 
+      <lb n="33">Ghrist.
+      
+      
+      </lb> 
+      <lb n="34">Yn awr a ni gwedy deall pa beth yw gweddi, a
+      
+      </lb>
+      </pb>
+      <pb n="272.">
+      
+       
+      <lb n="1">pha beth yw Sacrament, a pha sawl rhyw o 
+      </lb>
+      <lb n="1-2">weddi
+      </lb>
+      <lb n="2">
+       y sydd, a pha sawl Sacrament hefyd a 
+      </lb>
+      <lb n="2-3">osododd
+      </lb>
+      <lb n="3">
+       ein Iachawdwr Christ: edrychwn bellach
+      </lb> 
+      <lb n="4">a oddef yr Scruthyrau a siampl y brif-Eglwys
+      </lb> 
+      <lb n="5">gynt, weddi llaferydd (hynny yw, pan yw 'r 
+      </lb>
+      <lb n="5-6">genau
+      </lb>
+      <lb n="6">
+       yn traethu rhyw ddeisyfiadau &acirc; 'r llaferydd)
+      </lb> 
+      <lb n="7">neu finistro rhyw Sacramentau neu vn rhyw
+      </lb> 
+      <lb n="8">weithred, neu C&aelig;remoni \seremoni\ gyffredinol gyhoeddus
+      </lb> 
+      <lb n="9">arall, yn perthyn at fudd ac adailadaeth y 
+      </lb>
+      <lb n="9-10">gynulleidfa
+      </lb>
+      <lb n="10">
+       dlawd, mewn tafod anghydnabyddus, yr
+      </lb> 
+      <lb n="11">hwn ni ddeall na 'r gwenhidawg na 'r bobl: neu a
+      </lb> 
+      <lb n="12">ddylai vn d&#375;n arfer yn neilltuol weddi laferydd
+      </lb> 
+      <lb n="13">mewn iaith nis deall.
+      
+      
+      </lb> 
+      <lb n="14">I 'r cwestiwn hwn rhaid ini atteb, nas dylyai.
+      </lb> 
+      <lb n="15">Ac yn gyntaf am weddi gyffredinol a ministrad y
+      </lb> 
+      <lb n="16">sacramentau, er y perswadai rheswn \rheswm\ ni yn hawdd
+      </lb> 
+      <lb n="17">(pe cai ein rheoli ni) y dlyem ni weddio 'n 
+      </lb>
+      <lb n="17-18">gyhoeddus,
+      </lb>
+      <lb n="18">
+       a ministro y Sacramentau mewn iaith a
+      </lb> 
+      <lb n="19">ddealler, o herwydd mai gweddio 'n gyffredinawl,
+      </lb> 
+      <lb n="20">yw bod i gynulleidfa bobl ofyn vn peth, ag vn 
+      </lb>
+      <lb n="20-21">llaferydd
+      </lb>
+      <lb n="21">
+       a chyfundeb meddwl, a ministro 
+      </lb>
+      <lb n="21-22">Sacramentau
+      </lb>
+      <lb n="22">
+       yw trwy 'r gair a 'r arwydd oddi allan,
+      </lb> 
+      <lb n="23">pregethu i 'r derbynwyr anweledig r&acirc;s Duw
+      </lb> 
+      <lb n="24">oddifewn: ac hefyd am osod yr arferon hyn, a 'u
+      </lb> 
+      <lb n="25">bod fyth yn parhau, er mwyn dwyn ar gof i 'r
+      </lb> 
+      <lb n="26">gynulleidfa o amser i amser, eu hundeb ynghrist \yng Nghrist\,
+      </lb> 
+      <lb n="27">ac y dlyent fal aelodau o vn corph mewn gweddi
+      </lb> 
+      <lb n="28">a phob modd arall geisio a chwenychu bob vn
+      </lb> 
+      <lb n="29">fudd ei gilydd, ac nid eu budd eu hunain heb 
+      </lb>
+      <lb n="29-30">ennill
+      </lb>
+      <lb n="30">
+       eraill. Etto nid rhaid ini redeg at reswn \reswm\ i
+      </lb> 
+      <lb n="31">brwfo y peth hyn, o herwydd bod gennym airiau
+      </lb> 
+      <lb n="32">eglur goleu 'r Scruthur, ac hefyd gyfundeb
+      </lb> 
+      <lb n="33">yr scrifennyddion hynaf a dyscediccaf, yn canmol
+      </lb> 
+      <lb n="34">gweddiau y gynulleidfa yn yr iaith a dealler. Yn
+      
+      </lb>
+      </pb>
+      <pb n="273.">
+      
+       
+      <lb n="1">gyntaf mae S. Pawl at y Corinthiaid yn erchi
+      </lb> 
+      <lb n="2">gwneuthur pob peth er adailadaeth: yr hyn ni
+      </lb> 
+      <lb n="3">ddichon bod oni bydd y gweddiau a ministrad y
+      </lb> 
+      <lb n="4">Sacramentau mewn tafod cydnabyddus i 'r
+      </lb> 
+      <lb n="5">bobl. O herwydd pan draetho 'r offeiriad weddi,
+      </lb> 
+      <lb n="6">neu finistro y Sacramentau mewn gairiau na
+      </lb> 
+      <lb n="7">ddealler gan y rhai sydd bresennol, ni ellir eu 
+      </lb>
+      <lb n="7-8">hadailadu
+      </lb>
+      <lb n="8">
+       hwy.
+      
+      
+      </lb> 
+      <lb n="9">O herwydd megis os yr vtcorn yn y maes, a
+      </lb> 
+      <lb n="10">rydd lais anhynod, ni all neb trwy hynny 
+      </lb>
+      <lb n="10-11">ymbaratoi
+      </lb>
+      <lb n="11">
+       i ryfel. Ac megis pan fytho offeryn cerdd
+      </lb> 
+      <lb n="12">yn gwneuthur sain ddiwahanol, ni wyr neb pa
+      </lb> 
+      <lb n="13">beth a genir. Felly pan fytho gweddi neu 
+      </lb>
+      <lb n="13-14">finistrad
+      </lb>
+      <lb n="14">
+       y Sacramentau mewn iaith 
+      </lb>
+      <lb n="14-15">anghydnabyddus
+      </lb>
+      <lb n="15">
+       i 'r gwrandawyr, pwy ohanynt \ohonynt\ a gyffroir i
+      </lb> 
+      <lb n="16">gyfodi ei feddwl at Dduw i geisio gyd&acirc; 'r 
+      </lb>
+      <lb n="16-17">gwenidawg
+      </lb>
+      <lb n="17">
+       gan Dduw y pethau y mae 'r gwenidawg yn
+      </lb> 
+      <lb n="18">ei airiau a 'i weddi yn eu gofyn? Neu pwy wrth
+      </lb> 
+      <lb n="19">finistro 'r Sacramentau a ddeall pa rad 
+      </lb>
+      <lb n="19-20">anweledig
+      </lb>
+      <lb n="20">
+       a ddylyai y gwrandawyr ddymuno cael ei 
+      </lb>
+      <lb n="20-21">weithio
+      </lb>
+      <lb n="21">
+       yn y dyn oddufewn \oddi fewn\? yn wir neb. O 
+      </lb>
+      <lb n="21-22">herwydd
+      </lb>
+      <lb n="22">
+       fal y dywaid S. Pawl mae 'r hwn a 
+      </lb>
+      <lb n="22-23">ddywedo
+      </lb>
+      <lb n="23">
+       mewn tafod anghydnabyddus yn estron i 'r
+      </lb> 
+      <lb n="24">gwrandawyr, yr hyn sydd anweddus iawn mewn
+      </lb> 
+      <lb n="25">cynulleidfa Gristionogaidd.
+      
+      
+      </lb> 
+      <lb n="26">O herwydd nid ydym estroniaid i 'w gilydd, ond
+      </lb> 
+      <lb n="27">cyd-ddinaswyr &acirc; 'r saint, ac o dylwydd Duw, ac
+      </lb> 
+      <lb n="28">aelodau yr vn corph. Ac am hynny yr hyd y 
+      </lb>
+      <lb n="28-29">bytho
+      </lb>
+      <lb n="29">
+       'r gwenidog yn adrodd y weddi a wnair yn
+      </lb> 
+      <lb n="30">ein henwau ni i gyd, rhaid yw ini roddi clust i 'r
+      </lb> 
+      <lb n="31">geiriau y mae fe 'n eu hadrodd, ac yn ein calonnau
+      </lb> 
+      <lb n="32">ofyn ar law Dduw, y pethau y mae fe mewn 
+      </lb>
+      <lb n="32-33">geiriau
+      </lb>
+      <lb n="33">
+       yn eu gofyn: ac i arwyddoccau ein bod, yn
+      </lb> 
+      <lb n="34">gwneuthur felly, yr ydym yn dywedyd Amen, ar
+      
+      </lb>
+      </pb>
+      <pb n="274.">
+      
+       
+      <lb n="1">ddiwedd y weddi, yr hon y mae fe 'n ei gwneuthur
+      </lb> 
+      <lb n="2">yn ein henwau ni oll. A hyn ni allwn ni ei 
+      </lb>
+      <lb n="2-3">wneuthur
+      </lb>
+      <lb n="3">
+       er adailadaeth, oni ddeallir yr hyn a 
+      </lb>
+      <lb n="3-4">ddywedir.
+      </lb>
+      <lb n="4">
+      
+      
+      
+      </lb> 
+      <lb n="5">Am hynny anghenrhaid yw gweddio yn 
+      </lb>
+      <lb n="5-6">gyhoedd
+      </lb>
+      <lb n="6">
+       yn yr iaith a ddeallo gwrandawyr. A phe
+      </lb> 
+      <lb n="7">buasai gweddus goddef erioed iaith ddieithr yn y
+      </lb> 
+      <lb n="8">gynulleidfa, fe allasai hynny fod yn amser Pawl
+      </lb> 
+      <lb n="9">a 'r Apostolion eraill, pan gynyscaeddid hwy &acirc;
+      </lb> 
+      <lb n="10">mawr wyrthiau ac aml iaithoedd: o herwydd fe
+      </lb> 
+      <lb n="11">allasai hynny annog rhai i dderbyn yr efengil, pan
+      </lb> 
+      <lb n="12">glywsent Hebrewyr o anedigaeth, er eu bod yn
+      </lb> 
+      <lb n="13">annyscedig, yn dywedyd Groeg, a lladin, ac 
+      </lb>
+      <lb n="13-14">iaithoedd
+      </lb>
+      <lb n="14">
+       eraill: ond ni thybygodd Pawl y dylaid
+      </lb> 
+      <lb n="15">goddef hyn yr amser hynny: ac a arferwn ni 
+      </lb>
+      <lb n="15-16">hynny
+      </lb>
+      <lb n="16">
+       yn awr, pan nad oes neb yn dyfod i iaithoedd,
+      </lb> 
+      <lb n="17">heb astudrwydd dyfal? Na atto Duw. O 
+      </lb>
+      <lb n="17-18">herwydd
+      </lb>
+      <lb n="18">
+       trwy hynny y dygem holl arferon ein 
+      </lb>
+      <lb n="18-19">heglwys,
+      </lb>
+      <lb n="19">
+       i w&acirc;g ofergoel, ac y gwnaem hwy oll yn
+      </lb> 
+      <lb n="20">ddiffrwyth.
+      
+      
+      </lb> 
+      <lb n="21">Mae Luc yn scrifennu i Petr ac Ioan gwedy
+      </lb> 
+      <lb n="22">eu rhyddhau oddiwrth dywysogion ac 
+      </lb>
+      <lb n="22-23">archoffeiriaid
+      </lb>
+      <lb n="23">
+       Ierusalem, ddyfod at eu cymydeithion,
+      </lb> 
+      <lb n="24">a dywedyd wrthynt yr holl bethau a ddywedase yr
+      </lb> 
+      <lb n="25">offeiriaid a 'r henuriaid wrthynt: yr hyn pan
+      </lb> 
+      <lb n="26">glywsont, hwy a godasant eu llaferydd mewn 
+      </lb>
+      <lb n="26-27">cytundeb
+      </lb>
+      <lb n="27">
+       at Dduw gan ddywedyd, O Arglwydd,
+      </lb> 
+      <lb n="28">tydi yw y Duw yr hwn a wnaethost nef a dayar,
+      </lb> 
+      <lb n="29">mor, ac oll sydd yndynt \ynddynt\, &amp;c.
+      
+      
+      </lb> 
+      <lb n="30">Ni allasent wneuthur hyn pe gweddiasent
+      </lb> 
+      <lb n="31">mewn iaith ddieithr, yr hon ni ddeallasent: ac yn
+      </lb> 
+      <lb n="32">ddiddau, ni ddywedasant hwy oll &acirc; llafarau 
+      </lb>
+      <lb n="32-33">gwahanedig:
+      </lb>
+      <lb n="33">
+       ond rhyw vn o honynt a ddywedodd yn
+      </lb> 
+      <lb n="34">eu henwau hwynt oll, a 'r llaill gan wrando 'n
+      
+      </lb>
+      </pb>
+      <pb n="275.">
+      
+       
+      <lb n="1">ddiescaelus a gyfunasant ag ef: ac am hynny y 
+      </lb>
+      <lb n="1-2">dywedir
+      </lb>
+      <lb n="2">
+       gyfodi o honynt eu llafar ynghyd.
+      
+      
+      </lb> 
+      <lb n="3">Nid ydyw S. Luc yn dywedyd, Eu llafarau,
+      </lb> 
+      <lb n="4">megis am lawer, ond Eu llafar megis am vn. Yr
+      </lb> 
+      <lb n="5">ydoedd yr vn llafar hwnnw am hynny yn y fath
+      </lb> 
+      <lb n="6">iaith ac yr oeddent hwy oll yn ei deall, oni 
+      </lb>
+      <lb n="6-7">buasai
+      </lb>
+      <lb n="7">
+       hynny ni allasent gyfodi mohoni i fynu &acirc;&nbsp;
+      </lb>
+      <lb n="7-8">chyfundeb
+      </lb>
+      <lb n="8">
+       eu calonnau: o herwydd ni ddichon neb
+      </lb> 
+      <lb n="9">gyfuno &acirc; 'r hyn nis g&#373;yr.
+      
+      
+      </lb> 
+      <lb n="10">Am yr amser ymlaen dyfodiad Christ ni bu dd&#375;n
+      </lb> 
+      <lb n="11">erioed a ddywedai, fod gan bobl Dduw, na chan
+      </lb> 
+      <lb n="12">neb arall, eu gweddiau, neu finistrad eu 
+      </lb>
+      <lb n="12-13">Sacramentau,
+      </lb>
+      <lb n="13">
+       neu eu haberthau, mewn iaith nas 
+      </lb>
+      <lb n="13-14">deallent
+      </lb>
+      <lb n="14">
+       hwy eu hunain. Ac am yr amser er Christ,
+      </lb> 
+      <lb n="15">nes i * ortrechus [-: Draws.]  allu Rufain ddechrau gorescyn,
+      </lb> 
+      <lb n="16">a rhwymo holl genhedlaethau Europ i fawrhau
+      </lb> 
+      <lb n="17">iaith Rufain, mae 'n eglur wrth gyfundeb yr h&ecirc;n
+      </lb> 
+      <lb n="18">scrifenyddion dyscedig, nad oedd arfer iaith 
+      </lb>
+      <lb n="18-19">ddiethr,
+      </lb>
+      <lb n="19">
+       anghydnabyddus, ynghynulleidfaon \yng nghynulleidfaon\ y 
+      </lb>
+      <lb n="19-20">Christionogion.
+      </lb>
+      <lb n="20">
+      
+      
+      
+      </lb> 
+      <lb n="21">Mae Iustin ferthur, yr hwn oedd yn fyw yn 160.
+      </lb> 
+      <lb n="22">mlynedd o oedran Christ, yn dywedyd fal hyn am
+      </lb> 
+      <lb n="23">finistrad Swpper yr Arglwydd yn ei amser ef; A'r
+      </lb> 
+      <lb n="24">ddie sul, mae cynnulleidfaon o 'r rhai a arhosant
+      </lb> 
+      <lb n="25">yn y trefydd, a 'r rhai a drigant yn y gwledydd 
+      </lb>
+      <lb n="25-26">hefyd:
+      </lb>
+      <lb n="26">
+       ymhlith y rhai yr ydys yn darllen cymmaint
+      </lb> 
+      <lb n="27">ac a ellir, o scrifennadau 'r Apostolion a 'r 
+      </lb>
+      <lb n="27-28">Prophwydi.
+      </lb>
+      <lb n="28">
+       Yn ol i 'r darlleudd beidio, mae 'r 
+      </lb>
+      <lb n="28-29">gwenidawg
+      </lb>
+      <lb n="29">
+       pennaf yn gwneuthur annogaeth, gan eu
+      </lb> 
+      <lb n="30">hannog i ganlyn pethau honest: yn ol hynny, yr
+      </lb> 
+      <lb n="31">ydym yn cyfodi oll ynghyd ac yn offrwm 
+      </lb>
+      <lb n="31-32">gweddiau,
+      </lb>
+      <lb n="32">
+       yn &ocirc;l diweddu y rhai (fal y dywedasom) y
+      </lb> 
+      <lb n="33">dygir i mewn fara a gwin a dwfr. Yno mae 'r
+      </lb> 
+      <lb n="34">gwenidawg pennaf yn offrwm gweddi a diolch &acirc; 'i
+      
+      </lb>
+      </pb>
+      <pb n="276.">
+      
+       
+      <lb n="1">holl allu, a 'r bobl yn atteb, Amen.
+      
+      
+      </lb> 
+      <lb n="2">Mae 'r geiriau hyn a 'u hamgylchau, os ystyrir
+      </lb> 
+      <lb n="3">hwy yn dda, yn manegi yn oleu, fod nid yn vnic
+      </lb> 
+      <lb n="4">yn darllen yr Scruthyrau mewn iaith a ddealled,
+      </lb> 
+      <lb n="5">ond bod yn gweddio felly hefyd yn y 
+      </lb>
+      <lb n="5-6">cynnulleidfaon
+      </lb>
+      <lb n="6">
+       yn amser Iustin.
+      
+      
+      </lb> 
+      <lb n="7">Fe osododd Basilius Magnus, ac felly y gwnaeth
+      </lb> 
+      <lb n="8">Ioan&nbsp;* enau aur [-: Chrysostom.] , hefyd yn eu hamseroedd, drefnau
+      </lb> 
+      <lb n="9">cyhoeddus ar wenidogaeth gyhoeddus, y rhai a
+      </lb> 
+      <lb n="10">alwent Leiturgi&aelig;, ac yn y rhai hynny hwy a 
+      </lb>
+      <lb n="10-11">osodasant
+      </lb>
+      <lb n="11">
+       ar y bobl atteb i weddiau 'r gwenidogion
+      </lb> 
+      <lb n="12">weithiau Amen, weithiau Arglwydd trugarha
+      </lb> 
+      <lb n="13">wrthym, weithiau a chyd a 'th yspryd dithau, ac
+      </lb> 
+      <lb n="14">Mae 'n calonnau ni gwedi eu cyfodi at yr 
+      </lb>
+      <lb n="14-15">Arglwydd,
+      </lb>
+      <lb n="15">
+      &nbsp;&amp;c. Yr hwn atteb ni fedrase 'r bobl ei 
+      </lb>
+      <lb n="15-16">wneuthur
+      </lb>
+      <lb n="16">
+       mewn amser dyledus, oni buasai fod y weddi
+      </lb> 
+      <lb n="17">mewn iaith ac a ddeallent hwy. Mae 'r vn Basil
+      </lb> 
+      <lb n="18">wrth scrifennu ac eglwyswyr Neoc&aelig;saria, yn 
+      </lb>
+      <lb n="18-19">dywedyd
+      </lb>
+      <lb n="19">
+       fal hyn am arfer gweddi gyffredinol, gan
+      </lb> 
+      <lb n="20">appwynto rhai i ddechreu 'r caniad, ac eraill i 
+      </lb>
+      <lb n="20-21">ganlyn,
+      </lb>
+      <lb n="21">
+       ac felly gan dreulio 'r nos mewn llawer o 
+      </lb>
+      <lb n="21-22">ganiadau
+      </lb>
+      <lb n="22">
+       a gweddiau, maent ar y wawr ddydd oll
+      </lb> 
+      <lb n="23">ynghyd (megis ag vn genau ac vn galon) yn canu
+      </lb> 
+      <lb n="24">i 'r Arglwydd ganiad o gyffes, pob vn yn gosod iddo
+      </lb> 
+      <lb n="25">ei hun airiau cymhesur o etifeirwch.
+      
+      
+      </lb> 
+      <lb n="26">Mewn man arall mae fe 'n dywedyd: os bydd
+      </lb> 
+      <lb n="27">y mor yn deg, pa faint mwy y mae ymgynulliad y
+      </lb> 
+      <lb n="28">gynulleidfa 'n deccach, yn yr hon y danfonir allan
+      </lb> 
+      <lb n="29">sain cyssylltedig gwyr, gwragedd, a phlant (megis
+      </lb> 
+      <lb n="30">tonnau 'n ffusto ar lan y mor) o 'n gweddiau ni at
+      </lb> 
+      <lb n="31">Dduw? Ystyriwch ar ei airiau ef, sain (medd ef)
+      </lb> 
+      <lb n="32">gyssylltedig gwyr, gwragedd, a phlant: yr hyn ni
+      </lb> 
+      <lb n="33">ddichon bod oni byddai eu bod hwy oll yn deall
+      </lb> 
+      <lb n="34">yr iaith yn yr hon yr adroddid y weddi.
+      
+      
+      </lb>
+      </pb>
+      <pb n="277.">
+      
+      
+       
+      <lb n="1">Ac fe a ddywaid Chrysostom ar airiau S. Pawl.
+      </lb> 
+      <lb n="2">Cyn gynted ag y clywo y bobl y gairiau hyn, yn
+      </lb> 
+      <lb n="3">oes oesoedd, maent hwy oll yn y man yn atteb,
+      </lb> 
+      <lb n="4">Amen. Yr hyn ni allent hwy ei wneuthur, oni
+      </lb> 
+      <lb n="5">bai eu bod hwy 'n deall yr hyn a ddywedai 'r
+      </lb> 
+      <lb n="6">offeiriad.
+      
+      
+      </lb> 
+      <lb n="7">Mae Dionysius yn dywedyd fod yr holl dyrfa
+      </lb> 
+      <lb n="8">bobl yn canu caniadau, wrth finistro y cymmun.
+      </lb> 
+      <lb n="9">Mae S. Cyprian yn dywedyd fod yr offeiriad yn
+      </lb> 
+      <lb n="10">darparu meddyliau y brodyr &acirc; rhag-ddywediad
+      </lb> 
+      <lb n="11">au ymlaen y weddi, gan ddywedyd derchefwch
+      </lb> 
+      <lb n="12">eich calonnau: ac yno 'r atteb y bobl yr ydym yn
+      </lb> 
+      <lb n="13">eu dyrchafu hwy at yr Arglwydd. Ac mae S.
+      </lb> 
+      <lb n="14">Ambros wrth scrifennu ar airiau S. Pawl yn
+      </lb> 
+      <lb n="15">dywedyd, Hyn yw 'r peth y mae fe 'n ei ddywedyd,
+      </lb> 
+      <lb n="16">fod yr hwn a ddywaid mewn tafod ddiethr, yn
+      </lb> 
+      <lb n="17">dywedyd wrth Dduw, yr hwn sydd yn gwybod
+      </lb> 
+      <lb n="18">pob peth, ond nid ydyw dynion yn gwybod, ac am
+      </lb> 
+      <lb n="19">hynny nid oes ffrwyth o 'r peth hynny.
+      
+      
+      </lb> 
+      <lb n="20">A thrachefn ar y geiriau hyn, os bendigi di neu
+      </lb> 
+      <lb n="21">roddi diolch &acirc; 'r yspryd, pa fodd y dywaid yr hwn
+      </lb> 
+      <lb n="22">sydd yn lle 'r annyscedig, Amen, ar dy ddiolchiad
+      </lb> 
+      <lb n="23">di, gan na &#373;yr ef pa beth yr ydwyd yn ei 
+      </lb>
+      <lb n="23-24">ddywedyd?
+      </lb>
+      <lb n="24">
+       Hynny yw, medd S. Ambros, os ti a fanegi
+      </lb> 
+      <lb n="25">foliant Duw mewn iaith nis gwypo y 
+      </lb>
+      <lb n="25-26">gwrandawyr.
+      </lb>
+      <lb n="26">
+       O herwyd pan glywo 'r annyscedig yr
+      </lb> 
+      <lb n="27">hyn nis deallo, nid edwyn ddiwedd y weddi, ac ni
+      </lb> 
+      <lb n="28">fedr ddywedyd Amen. Yr hwn air yw cymmaint
+      </lb> 
+      <lb n="29">ac yn wir, neu bydded wir, fal y cadarnhair y 
+      </lb>
+      <lb n="29-30">fendith,
+      </lb>
+      <lb n="30">
+       neu y rhoddiad diolch. O herwydd gan y
+      </lb> 
+      <lb n="31">rhai a attebant, Amen, y cyflawnir cadarnh&acirc;d y
+      </lb> 
+      <lb n="32">weddi, fal y cadarnhair pob peth a ddywedir 
+      </lb>
+      <lb n="32-33">ymmeddyliau
+      </lb>
+      <lb n="33">
+       y gwrandawyr, trwy dystiolaeth y
+      </lb> 
+      <lb n="34">gwirionedd.
+      
+      
+      </lb>
+      </pb>
+      <pb n="278.">
+      
+      
+       
+      <lb n="1">Ac yn ol llawer o airiau pwysig i 'r vn defnydd,
+      </lb> 
+      <lb n="2">mae fe 'n dywedyd, y cwbl yw hyn: na wneler
+      </lb> 
+      <lb n="3">dim yn yr Eglwys yn ofer, ac mai 'r peth hyn yn
+      </lb> 
+      <lb n="4">enwedig a ddylid llafuro amdano, sef ar fod i 'r
+      </lb> 
+      <lb n="5">anyscedig allel cael llesh&acirc;d, rhag bod vn rhan o 'r
+      </lb> 
+      <lb n="6">corph yn dywyll trwy anwybodaeth. Ac rhag 
+      </lb>
+      <lb n="6-7">tybied
+      </lb>
+      <lb n="7">
+       o neb ei fod ef yn meddwl hyn oll am 
+      </lb>
+      <lb n="7-8">bregethu,
+      </lb>
+      <lb n="8">
+       ac nid am weddi: mae fe 'n cymmeryd 
+      </lb>
+      <lb n="8-9">achos
+      </lb>
+      <lb n="9">
+       ar y gairiau hyn ei S. Pawl, (oni bydd 
+      </lb>
+      <lb n="9-10">cyfiaithydd,
+      </lb>
+      <lb n="10">
+       tawed yr hwn sydd ac iaith ddieithr yn
+      </lb> 
+      <lb n="11">yr Eglwys) i ddywedyd, fal y canlyn: Gweddied
+      </lb> 
+      <lb n="12">yn ddirgel, neu ddyweded wrth Dduw, yr hwn
+      </lb> 
+      <lb n="13">sydd yn clywed yr holl bethau mudion. O 
+      </lb>
+      <lb n="13-14">herwydd
+      </lb>
+      <lb n="14">
+       yn yr Eglwys rhaid i hwnnw ddywedyd,
+      </lb> 
+      <lb n="15">yr hwn a wna lles i bawb oll.
+      
+      
+      </lb> 
+      <lb n="16">Mae S. Ierom wrth scrifennu ar y geiriau
+      </lb> 
+      <lb n="17">hyn ei S. Pawl, pa fodd y dywaid yr hwn sydd yn
+      </lb> 
+      <lb n="18">lle 'r anyscedig Amen, &amp;c. yn dywedyd, y gwr llyg
+      </lb> 
+      <lb n="19">yw 'r hwn y mae S. Pawl yn dywedyd ymma
+      </lb> 
+      <lb n="20">ei fod yn lle yr &acirc;nnyscedig, yr hwn nid oes 
+      </lb>
+      <lb n="20-21">gantho
+      </lb>
+      <lb n="21">
+       vn swydd Eglwysig, pa fodd yr atteb ef Amen,
+      </lb> 
+      <lb n="22">ar weddi yr hon nid ydyw yn ei deall? Ac yn y
+      </lb> 
+      <lb n="23">man ar ol hynny sef ar airiau Pawl pe llafarwn
+      </lb> 
+      <lb n="24">a thafodau, &amp;c. Mae fe 'n dywedyd fal hyn. Hyn
+      </lb> 
+      <lb n="25">yw meddwl Pawl: Os llafara neb mewn 
+      </lb>
+      <lb n="25-26">tafodau
+      </lb>
+      <lb n="26">
+       dieithr, anghydnabyddus, fe wnair ei feddwl
+      </lb> 
+      <lb n="27">ef yn ddiffrwyth, nid iddo ei hun, ond i 'r 
+      </lb>
+      <lb n="27-28">gwrandawyr:
+      </lb>
+      <lb n="28">
+       o herwydd beth bynnac a ddywedir, nid
+      </lb> 
+      <lb n="29">yw ef yn ei wybod. Ac mae S. Awstin wrth 
+      </lb>
+      <lb n="29-30">scrifennu
+      </lb>
+      <lb n="30">
+       a'r y ddaunawfed Psalm, yn dywedyd: ni
+      </lb> 
+      <lb n="31">a ddlyem ddeall pa beth yw hyn, fal y gallom 
+      </lb>
+      <lb n="31-32">ganu
+      </lb>
+      <lb n="32">
+       a rheswn \rheswm\ d&#375;n, ac nid a thrydar adar. O 
+      </lb>
+      <lb n="32-33">herwydd
+      </lb>
+      <lb n="33">
+       mae dylluanod, cawciod, cigfrain, piod, a 'r
+      </lb> 
+      <lb n="34">fath adar eraill, gwedy eu dyscu gan dynnion i
+      
+      </lb>
+      </pb>
+      <pb n="279.">
+      
+       
+      <lb n="1">* glegru [-: Drydar.] , ni wyddont pa beth. Ond canu trwy
+      </lb> 
+      <lb n="2">ddeall a rhoddwyd trwy ewyllys sanctaidd Duw
+      </lb> 
+      <lb n="3">i natur d&#375;n. Ac ailwaith, mae S. Awstin yn 
+      </lb>
+      <lb n="3-4">dywedyd,
+      </lb>
+      <lb n="4">
+       Nid rhaid wrth vn llaferudd pan fythom
+      </lb> 
+      <lb n="5">ni 'n gweddio, ond fal y mae 'r offeiriaid yn 
+      </lb>
+      <lb n="5-6">gwneuthur,
+      </lb>
+      <lb n="6">
+       i ddangos eu meddwl, nid fal y gallo
+      </lb> 
+      <lb n="7">Duw, ond fal y gallo dynnion eu clywed hwy. Ac
+      </lb> 
+      <lb n="8">felly gan ei cofio wrth gyfuno a 'r offeiriaid y 
+      </lb>
+      <lb n="8-9">gallont
+      </lb>
+      <lb n="9">
+       orbwyso a'r Dduw.
+      
+      
+      </lb> 
+      <lb n="10">Fal hyn ein dangosir trwy 'r Scrythyrau a 'r
+      </lb> 
+      <lb n="11">h&ecirc;n ddoctoriaid, na ddylyid wrth weddio neu 
+      </lb>
+      <lb n="11-12">finistro
+      </lb>
+      <lb n="12">
+       Sacramentau, arfer vn iaith nas deallo 'r
+      </lb> 
+      <lb n="13">gwrandawyr. Megis i fodloni cydwybod 
+      </lb>
+      <lb n="13-14">Christion,
+      </lb>
+      <lb n="14">
+       nad rhaid ini dreulio chwaneg amser yn hyn
+      </lb> 
+      <lb n="15">o beth. Ond etto e'r \er\ attal safneu 
+      </lb>
+      <lb n="15-16">gwrthwynebwyr,
+      </lb>
+      <lb n="16">
+       y rhai sydd yn sefyll ormod ar 
+      </lb>
+      <lb n="16-17">ordeiniaethau
+      </lb>
+      <lb n="17">
+       cyffredinol, da yw cydsylltu at y 
+      </lb>
+      <lb n="17-18">testiolaethau
+      </lb>
+      <lb n="18">
+       hyn o 'r Scruthyrau a 'r h&ecirc;n Ddoctoriaid,
+      </lb> 
+      <lb n="19">vn ordeiniaeth y wnaeth yr Ymherodr Iustinian,
+      </lb> 
+      <lb n="20">yr hwn oedd Ymherodr Rufain ynghylch 
+      </lb>
+      <lb n="20-21">pympcant
+      </lb>
+      <lb n="21">
+       mlynedd a saith mlynedd a'r igain \ar hugain\ yn ol
+      </lb> 
+      <lb n="22">Christ, yr ordeiniaeth yw hon: Yr ydym yn 
+      </lb>
+      <lb n="22-23">gorchymmyn
+      </lb>
+      <lb n="23">
+       i 'r holl Escobion ac offeiriaid finistro 'r
+      </lb> 
+      <lb n="24">offrwm sanctaidd, ac arfer gweddiau yn y bedydd
+      </lb> 
+      <lb n="25">sanctaidd, nid gan ddywedyd yn yssel \isel\, ond a 
+      </lb>
+      <lb n="25-26">llaferudd
+      </lb>
+      <lb n="26">
+       eglur, vchel, yr hon a all y bobl oll ei 
+      </lb>
+      <lb n="26-27">chlywed,
+      </lb>
+      <lb n="27">
+       fal trwy hynny y cyffroir meddyliau y 
+      </lb>
+      <lb n="27-28">gwrandawyr
+      </lb>
+      <lb n="28">
+       a mawr ddwyfoldeb, wrth adrodd 
+      </lb>
+      <lb n="28-29">gweddiau'r
+      </lb>
+      <lb n="29">
+        Arglwydd Dduw. O herwydd felly y
+      </lb> 
+      <lb n="30">mae 'r Apostol sanctaidd, yn yr Epistol cyntaf at y
+      </lb> 
+      <lb n="31">Corinthiaid yn dangos, gan ddywedyd, Os 
+      </lb>
+      <lb n="31-32">bendigi
+      </lb>
+      <lb n="32">
+       di neu os rhoddi di ddiolch yn yr Yspryd yn
+      </lb> 
+      <lb n="33">dda, pa fodd y gall yr hwn sydd yn lle 'r 
+      </lb>
+      <lb n="33-34">annyscedig
+      </lb>
+      <lb n="34">
+       ddywedyd, Amen, ar dy ddiolchad di? O 
+      
+      </lb>
+      </pb>
+      <pb n="279-280.">
+      <lb n="34-1">herwydd
+      </lb>
+      </pb>
+      <pb n="280.">
+      <lb n="1">
+       ni wyr efe pa beth yr ydwyd yn ei ddywedyd?
+      </lb> 
+      <lb n="2">Yn wir yr ydwyti yn rhoddi diolch yn dda, ond nid
+      </lb> 
+      <lb n="3">ydys yn ei adailadu efe.
+      
+      
+      </lb> 
+      <lb n="4">Ac ailwaith, fe a ddywaid, yn ei Epistol at y 
+      </lb>
+      <lb n="4-5">Rufeiniaid:
+      </lb>
+      <lb n="5">
+       A 'r galon y credir i gyfiawnder, a 'r geneu
+      </lb> 
+      <lb n="6">y cyffesir i Iechadwriaeth. Am hynny o blegid yr
+      </lb> 
+      <lb n="7">achosion hyn, ymmysc gweddiau eraill, mae 'n
+      </lb> 
+      <lb n="8">gymhesir \gymesur\ i 'r Escobion a 'r offeiriaid crefyddgar,
+      </lb> 
+      <lb n="9">draethu a dywedyd hefyd y rhai a ddywedir yn yr
+      </lb> 
+      <lb n="10">offrwm sanctaidd, I 'n Harglwydd Iesu Grist ein
+      </lb> 
+      <lb n="11">Duw ni, gyd&acirc; 'r Tad, a 'r Yspryd glan, a llaferudd
+      </lb> 
+      <lb n="12">vchel. A gwybydded y crefyddgar offeiriaid hyn,
+      </lb> 
+      <lb n="13">os hwy a escaelusant y pethau hyn, y gorfudd 
+      </lb>
+      <lb n="13-14">arnynt
+      </lb>
+      <lb n="14">
+       rhoddi cyfrif amdanynt, yn echrydus farn y
+      </lb> 
+      <lb n="15">Duw mawr, a 'n Iachawdwr Iesu Grist: a phan
+      </lb> 
+      <lb n="16">wypom ninnau hynny, ni orphwyswn ni, ac ni
+      </lb> 
+      <lb n="17">oddefwn hynny heb ei ddial. Yr ydoedd yr 
+      </lb>
+      <lb n="17-18">Ymherodr
+      </lb>
+      <lb n="18">
+       hwn (fal y dywaid Sabelicus) yn ffafro
+      </lb> 
+      <lb n="19">Escob Rufain, ac etto ni a welwn pa fath 
+      </lb>
+      <lb n="19-20">ordeiniaeth
+      </lb>
+      <lb n="20">
+       oleu y wnaeth ef, am weddio a ministro 
+      </lb>
+      <lb n="20-21">Sacramentau
+      </lb>
+      <lb n="21">
+       mewn iaith gydnabyddus, er mwyn
+      </lb> 
+      <lb n="22">cyffro defosiwn da y gwrandawyr trwy 
+      </lb>
+      <lb n="22-23">wybodaeth,
+      </lb>
+      <lb n="23">
+       yn erbyn barn y rhai a fynnant mai 
+      </lb>
+      <lb n="23-24">anwybodaeth
+      </lb>
+      <lb n="24">
+       sydd yn gwneuthur defosiwn da, mae fe 
+      </lb>
+      <lb n="24-25">hefyd
+      </lb>
+      <lb n="25">
+       yn ei wneuthur ef yn beth damnedig 
+      </lb>
+      <lb n="25-26">wneuthur
+      </lb>
+      <lb n="26">
+       y pethau hyn mewn iaith nis deallo 'r 
+      </lb>
+      <lb n="26-27">gwrandawyr.
+      </lb>
+      <lb n="27">
+       Cauwn hyn am hynny trwy gyfundeb
+      </lb> 
+      <lb n="28">Duw a dynnion da na ddylaid gweddio yn 
+      </lb>
+      <lb n="28-29">gyhoeth
+      </lb>
+      <lb n="29">
+       na ministro Sacramentau mewn iaith
+      </lb> 
+      <lb n="30">nis deallo y gwrandawyr. Yn awr gair neu ddau
+      </lb> 
+      <lb n="31">am weddi neilltuol mewn iaith ni ddeallir.
+      
+      
+      </lb> 
+      <lb n="32">Ni a gymmerasom arnom pan dechrauasom son
+      </lb> 
+      <lb n="33">am y peth hwn, brwfo, nid yn vnic, na ddylaid 
+      </lb>
+      <lb n="33-34">ministro
+      </lb>
+      <lb n="34">
+       gweddi gyffredinol neu Sacrament, mewn
+      
+      </lb>
+      </pb>
+      <pb n="281.">
+      
+       
+      <lb n="1">iaith nis deall y gwrandawyr, ond hefyd na 
+      </lb>
+      <lb n="1-2">ddylai
+      </lb>
+      <lb n="2">
+       neb weddio 'n ddirgel, mewn iaith ni byddai
+      </lb> 
+      <lb n="3">fe ei hun yn ei deall. Yr hyn ni bydd anhawdd ini
+      </lb> 
+      <lb n="4">ei wneuthur, oni ollyngwn yn angof pa beth yw
+      </lb> 
+      <lb n="5">gweddi. O herwydd os defosiwn y galon yw 
+      </lb>
+      <lb n="5-6">gweddi,
+      </lb>
+      <lb n="6">
+       yr hwn sydd yn gyrru 'r galon i ymgyfodi at
+      </lb> 
+      <lb n="7">Dduw, pa fodd y gellir dywedyd fod hwnnw yn
+      </lb> 
+      <lb n="8">gweddio, yr hwn nid yw yn deall y geiriau y mae
+      </lb> 
+      <lb n="9">ei dafod yn eu traethu mewn gweddi? Ie pa fodd
+      </lb> 
+      <lb n="10">y gellir dywedyd ei fod ef yn dywedyd? o herwydd
+      </lb> 
+      <lb n="11">dywedyd yw traethu meddwl y galon trwy 
+      </lb>
+      <lb n="11-12">laferudd
+      </lb>
+      <lb n="12">
+       y genau.
+      
+      
+      </lb> 
+      <lb n="13">Ac nid ydyw llaferudd y draetho d&#375;n wrth 
+      </lb>
+      <lb n="13-14">ddywedyd,
+      </lb>
+      <lb n="14">
+       ddim ond cennadwr y meddwl, i ddwyn
+      </lb> 
+      <lb n="15">allan wybodaeth, am y peth oni bai hynny, a 
+      </lb>
+      <lb n="15-16">orwedde
+      </lb>
+      <lb n="16">
+       'n ddirgel yn y galon, ac ni ellir ei wybod:
+      </lb> 
+      <lb n="17">yn ol yr hyn a scrifenna S. Pawl, Pwy a &#373;yr
+      </lb> 
+      <lb n="18">medd ef y pethau sydd mewn dyn, ond yspryd dyn
+      </lb> 
+      <lb n="19">yn vnic, yr hwn sydd ynddo? Ni ellir am hynny yn
+      </lb> 
+      <lb n="20">iniawn ddywedyd ei fod ef yn dywedyd, yr hwn
+      </lb> 
+      <lb n="21">nid yw yn deall y laferudd y mae ei dafod yn ei
+      </lb> 
+      <lb n="22">draethu, ond yn dynwared dywedyd, fal y gwna
+      </lb> 
+      <lb n="23">'r perot, neu 'r fath adar, sydd yn dynwared 
+      </lb>
+      <lb n="23-24">llaferudd
+      </lb>
+      <lb n="24">
+       dynnion. Ni faidd neb am hynny ac a 
+      </lb>
+      <lb n="24-25">fytho
+      </lb>
+      <lb n="25">
+       yn ofni digofaint Duw yn ei erbyn ei hun, son
+      </lb> 
+      <lb n="26">am Dduw yn rhy ehud, heb feddwl am ddeall 
+      </lb>
+      <lb n="26-27">parchus
+      </lb>
+      <lb n="27">
+       yn ei wydd ef, ond fe ddarpara ei galon cyn
+      </lb> 
+      <lb n="28">rhyfygu dywedyd wrth Dduw. Ac am hynny yn
+      </lb> 
+      <lb n="29">ein gweddi gyffredinol, mae 'r gwenhidawg yn
+      </lb> 
+      <lb n="30">dywedyd yn fynych gweddiwn: gan feddwl wrth
+      </lb> 
+      <lb n="31">hynny rhebyddio \rhybuddio\ 'r bobl i ddarparu eu clustiau i
+      </lb> 
+      <lb n="32">wrando, ar y peth y mae er fedr ei erchi ar law
+      </lb> 
+      <lb n="33">Dduw, a 'u calonnau i gyfuno a hynny, a 'u 
+      </lb>
+      <lb n="33-34">tafodau
+      </lb>
+      <lb n="34">
+       ar y diwedd i ddywedyd, Amen.
+      
+      
+      </lb>
+      </pb>
+      <pb n="282.">
+      
+      
+       
+      <lb n="1">Fal hyn y darparodd y Prophwyd Dafydd ei
+      </lb> 
+      <lb n="2">galon; pan ddywedodd ef, parod yw fy nghalon o
+      </lb> 
+      <lb n="3">Dduw, parod yw fy nghalon, canaf a chanmolaf.
+      </lb> 
+      <lb n="4">Fe ddarodd \ddaroedd\ i 'r Iddewon hefyd, yn amser Iudith,
+      </lb> 
+      <lb n="5">cyn iddynt ddechreu gweddio, ddarparu eu 
+      </lb>
+      <lb n="5-6">calonnau
+      </lb>
+      <lb n="6">
+       felly, pan weddiasant hwy a 'u holl galonnau,
+      </lb> 
+      <lb n="7">ar i Dduw ymweled a 'i bobl Israel. Fal hyn yn
+      </lb> 
+      <lb n="8">darparasai Menasses ei galon, cyn iddo weddio, a
+      </lb> 
+      <lb n="9">dywedyd: yr ydwyf yn gostwng gliniau fy 
+      </lb>
+      <lb n="9-10">nghalon,
+      </lb>
+      <lb n="10">
+       gan ofyn iti ran o 'th drigarog fwynder. Pan
+      </lb> 
+      <lb n="11">fytho 'r galon gwedy ei darparu fal hyn, mae 'r
+      </lb> 
+      <lb n="12">llaferudd a draethir o 'r galon, yn beraidd 
+      </lb>
+      <lb n="12-13">ynghlustiau
+      </lb>
+      <lb n="13">
+       \yng nghlustiau\ Duw, ac heb hyn ni ystyria ef hi i 'w derbyn.
+      </lb> 
+      <lb n="14">Ond o herwydd fod y dyn sydd yn * dadwrdd [-: Twrddan.] &nbsp;
+      </lb>
+      <lb n="14-15">geiriau
+      </lb>
+      <lb n="15">
+       diddeall yngwydd \yng ng&#373;ydd\ Duw, yn dangos nad 
+      </lb>
+      <lb n="15-16">ydyw
+      </lb>
+      <lb n="16">
+       ef yn ystyriaid mawrhydi Duw, wrth yr hwn
+      </lb> 
+      <lb n="17">y mae fe 'n dywedyd: mae Duw yn cymmeryd
+      </lb> 
+      <lb n="18">hwnnw megis vn yn diystyru ei fawrhydi ef, ac
+      </lb> 
+      <lb n="19">yn rhoddi iddo ei wobr ymlhith ragrhithwyr, y
+      </lb> 
+      <lb n="20">rhai sydd yn ymddangos yn sanctaidd oddifaes,
+      </lb> 
+      <lb n="21">a 'u calonnau yn llawn meddyliau ffiaidd, ie yn
+      </lb> 
+      <lb n="22">amser eu gweddiau.
+      
+      
+      </lb> 
+      <lb n="23">O herwydd y galon y mae 'r Arlgwydd yn 
+      </lb>
+      <lb n="23-24">edrych
+      </lb>
+      <lb n="24">
+       erni, fal y scrifennir yn histori y brenhinioedd.
+      </lb> 
+      <lb n="25">Os mynnwn ninnau am hyn na byddo ein 
+      </lb>
+      <lb n="25-26">gweddiau
+      </lb>
+      <lb n="26">
+       yn ffiaidd bethau, ger bron yr Arglwydd
+      </lb> 
+      <lb n="27">Dduw, darparwn ein calonnau cyn gweddio, ac
+      </lb> 
+      <lb n="28">felly deallwn y pethau yr ydym yn gweddio am
+      </lb> 
+      <lb n="29">danynt, fal y gallo ein calonnau a 'n llaferudd, 
+      </lb>
+      <lb n="29-30">gydseinio
+      </lb>
+      <lb n="30">
+      &nbsp;ynghlust \yng nghlust\ mawrhydi Duw: ac yno ni 
+      </lb>
+      <lb n="30-31">ffaelwn
+      </lb>
+      <lb n="31">
+       dderbyn ar ei ddwylaw ef, y pethau yr ydym
+      </lb> 
+      <lb n="32">yn eu gofyn, fal y gwnaeth gwyr da o 'n blaen ni,
+      </lb> 
+      <lb n="33">y rhai a dderbyniasant o amser yn amser y pethau
+      </lb> 
+      <lb n="34">a ddamunent er iechyd i 'w heneidiau.
+      
+      
+      </lb>
+      </pb>
+      <pb n="283.">
+      
+      
+       
+      <lb n="1">Fe dybygid fod S. Awstin yn cyd-ddwyn yn y 
+      </lb>
+      <lb n="1-2">pethau
+      </lb>
+      <lb n="2">
+       hyn, o herwydd fal hyn y dywaid ef am y rhai
+      </lb> 
+      <lb n="3">a ddygir i fynu mewn gramadeg, neu rhethorei,
+      </lb> 
+      <lb n="4">ac a droir at Grist, ac am hynny sydd rhaid eu 
+      </lb>
+      <lb n="4-5">dyscu
+      </lb>
+      <lb n="5">
+      &nbsp;ynghrefydd \yng nghrefydd\ Grist: Gwybyddant hefyd medd
+      </lb> 
+      <lb n="6">S. Awstin nad y llaferudd ond meddylfryd y 
+      </lb>
+      <lb n="6-7">galon
+      </lb>
+      <lb n="7">
+       sydd yn dyfod i glustiau Duw. Ac yno y bydd,
+      </lb> 
+      <lb n="8">os digwydda iddynt ystyried, fod yr Escob neu 'r
+      </lb> 
+      <lb n="9">gwenhidawg yn yr Eglwys, yn galw ar Dduw a
+      </lb> 
+      <lb n="10">geiriau anghysson ac anhrefnus, neu y rhai na
+      </lb> 
+      <lb n="11">b&ocirc;nt hwy yn eu deall, neu eu bod hwy yn 
+      </lb>
+      <lb n="11-12">cyfrannu
+      </lb>
+      <lb n="12">
+       yn anhrefnus y geiriau y maent yn eu traethu,
+      </lb> 
+      <lb n="13">na watwarant ddim o honynt. Hyd yn hyn fe a
+      </lb> 
+      <lb n="14">dybygid ei fod ef yn cyd-ddwyn gyda gweddi
+      </lb> 
+      <lb n="15">mewn iaith ni ddeallir.
+      
+      
+      </lb> 
+      <lb n="16">Ond yn yr ymadrodd nesaf mae fe 'n agoryd ei
+      </lb> 
+      <lb n="17">feddwl fal hin \hyn\. Nid am na ddylid gwella y pethau
+      </lb> 
+      <lb n="18">hyn fal y gallo y bobl ddywedyd Amen i 'r hyn y
+      </lb> 
+      <lb n="19">maent yn ei ddeall yn dda: ond etto rhaid yw 
+      </lb>
+      <lb n="19-20">dwyn
+      </lb>
+      <lb n="20">
+       gyda 'r holl bethau duwiol hyn, ar ddwylo y 
+      </lb>
+      <lb n="20-21">catecheiswyr
+      </lb>
+      <lb n="21">
+       ymma ac athrawon y ffydd: fal y 
+      </lb>
+      <lb n="21-22">gallont
+      </lb>
+      <lb n="22">
+       ddeall megis mewn dadleud&#375;, y mae daioni
+      </lb> 
+      <lb n="23">y ddadl yn sefyll yn y sain, felly ei fod yn yr Eglwys
+      </lb> 
+      <lb n="24">yn sefyll mewn defosiwn. Fal nad ydyw ef yn
+      </lb> 
+      <lb n="25">fodlon i neb weddio mewn iaith nis deallo: ond
+      </lb> 
+      <lb n="26">mae fe 'n dyscu y dadleuwr neu araithiwr 
+      </lb>
+      <lb n="26-27">cyfarwydd
+      </lb>
+      <lb n="27">
+      , i ddwyn gyda thafod annyscedig, 
+      </lb>
+      <lb n="27-28">anghyfarwydd
+      </lb>
+      <lb n="28">
+       y gwenhidawg crefyddgar, diddrwg: I
+      </lb> 
+      <lb n="29">grynhoi y cwbl os gwna diffyg deall y geiriau a
+      </lb> 
+      <lb n="30">ddywedir yn y gynulleidfa fod y geiriau yn 
+      </lb>
+      <lb n="30-31">anffrwythlon
+      </lb>
+      <lb n="31">
+       i 'r gwrandawyr: paham na wna yr
+      </lb> 
+      <lb n="32">vn peth y geiriau a ddarllenir yn anffrwyddlon i 'r
+      </lb> 
+      <lb n="33">darllenudd?
+      
+      
+      </lb> 
+      <lb n="34">Trugarog ddaioni Duw, a ganniatao ini rad
+      
+      </lb>
+      </pb>
+      <pb n="284.">
+      
+       
+      <lb n="1">i alw arno megis y dlyem, i 'w ogoniant ef, a 'n
+      </lb> 
+      <lb n="2">didrangc ddedwyddwch ninnau. Yr hyn y wnawn
+      </lb> 
+      <lb n="3">ni os ymostyngwn ein hunain yn ei olwg ef: ac
+      </lb> 
+      <lb n="4">os bydd ein meddwl ni, yn ein holl weddiau 
+      </lb>
+      <lb n="4-5">cyffredinol
+      </lb>
+      <lb n="5">
+       a neilltuol, gwedy eu gosod yn hollol arno
+      </lb> 
+      <lb n="6">ef. O herwydd gweddi y gostyngedig a aiff trwy
+      </lb> 
+      <lb n="7">y cymylau, ac nis diddenir hi nes dyfod yn agos at
+      </lb> 
+      <lb n="8">Dduw, nid ymmedy hi nes i 'r goruchaf edrych 
+      </lb>
+      <lb n="8-9">arni
+      </lb>
+      <lb n="9">
+       hi, a gwared y cyfion a gwneuthur barn. Iddo
+      </lb> 
+      <lb n="10">ef am hynny y byddo anrhydedd a gogoniant, yn
+      </lb> 
+      <lb n="11">oes oesoedd. Amen.
+      
+      
+      
+      </lb>
+      </pb>
+      
+   </text>
+   <text id="LlH_iii">
+      
+      
+        
+      
+      <pb n="165.">
+      
+      
+      <head>
+      
+       
+      <lb n="1">&para;&nbsp;Pregeth am st&acirc;t Priodas.</lb>
+      </head>
+      
+      
+      
+      
+       
+      <lb n="2">MAe gair yr holl-alluog Dduw yn 
+      </lb>
+      <lb n="2-3">testiolaethu
+      </lb>
+      <lb n="3">
+       ac yn mynegi o ba le y
+      </lb> 
+      <lb n="4">daeth dechreuad priodas, a phaham
+      </lb> 
+      <lb n="5">yr ordeiniwyd hi. Hi a ordeiniwyd
+      </lb> 
+      <lb n="6">gan Dduw o fwriad ar fod i &#373;r a</lb> 
+      <lb n="7">gwraig fyw yn gyfraithlon mewn
+      </lb> 
+      <lb n="8">cymdeithias gyfaillachgar dragwyddol, i ddwyn
+      </lb> 
+      <lb n="9">ffrwyth ac i wachelyd goddineb, fel y gallid cadw
+      </lb> 
+      <lb n="10">cydwybod dda o 'r ddwy blaid, a ffrwyno 
+      </lb>
+      <lb n="10-11">llygredig
+      </lb>
+      <lb n="11">
+       hyblygedd y cnawd o fewn terfynau 
+      </lb>
+      <lb n="11-12">honestrwydd.
+      </lb>
+      <lb n="12">
+      
+      
+      
+      </lb> 
+      <lb n="13">O blegid fe waharddodd Duw bob aflendid a
+      </lb> 
+      <lb n="14">phuteindra, ac o amser i amser fe a gospodd yn d&ocirc;st
+      </lb> 
+      <lb n="15">y gwyniau anllywodraethus ymma, fal y 
+      </lb>
+      <lb n="15-16">manegodd
+      </lb>
+      <lb n="16">
+       pob histori ac oes.
+      
+      
+      </lb> 
+      <lb n="17">Hefyd fe a ordeiniwyd cynnal a halaethu 
+      </lb>
+      <lb n="17-18">eglwys
+      </lb>
+      <lb n="18">
+       Duw a 'i deyrnas trwy 'r fath fywyd, nid yn
+      </lb> 
+      <lb n="19">vnig am fod Duw trwy ei fendith yn rhoddi
+      </lb> 
+      <lb n="20">plant, onid hefyd am fod yn eu dwyn hwy i fynu
+      </lb> 
+      <lb n="21">gan eu tadau a 'u mammau duwiol yngwybodaeth \yng ngwybodaeth\
+      </lb> 
+      <lb n="22">gair Duw, fal y gallid yn y modd hyn trwy 
+      </lb>
+      <lb n="22-23">eppiliaeth
+      </lb>
+      <lb n="23">
+       draddodi oddiwrth y naill at y llall 
+      
+      </lb>
+      </pb>
+      <pb n="165-166.">
+      <lb n="23-1">wybodaeth
+      </lb>
+      </pb>
+      <pb n="166.">
+      <lb n="1">
+       am Dduw a 'i wir grefydd, fal yn y diwedd
+      </lb> 
+      <lb n="2">y gallai lawer fwynhau anfarwolaeth 
+      </lb>
+      <lb n="2-3">dragywyddol.
+      </lb>
+      <lb n="3">
+      
+      
+      
+      </lb> 
+      <lb n="4">Am hynny, o herwydd bod priodas yn 
+      </lb>
+      <lb n="4-5">gwasanaethu
+      </lb>
+      <lb n="5">
+       cystadl i wachelyd pechod a bai, ac i halaethu
+      </lb> 
+      <lb n="6">teyrnas Dduw: rhaid i chwi a phawb eraill a
+      </lb> 
+      <lb n="7">ddawant i 'r st&acirc;t honno gydnabod dawn Duw &acirc;
+      </lb> 
+      <lb n="8">meddyliau pur diolchus, am iddo felly reoli eich
+      </lb> 
+      <lb n="9">calonnau chwi fal nad ydych yn canlyn siampl y
+      </lb> 
+      <lb n="10">byd drygionus, y rhai a osodant eu meddyliau
+      </lb> 
+      <lb n="11">ar frynti pechod, er eich bod chwi eich dau yn ofni
+      </lb> 
+      <lb n="12">Duw ac yn cashau pob brynti.
+      
+      
+      </lb> 
+      <lb n="13">O herwydd yn siccr, godidawg rodd Duw yw
+      </lb> 
+      <lb n="14">hyn. Lle mae siampl gyffredin dynnion bydol yn
+      </lb> 
+      <lb n="15">dangos fod y diawl gwedy rhwymo eu calonnau
+      </lb> 
+      <lb n="16">hwy, a 'u llindagu hwy mewn llawer o rwydau
+      </lb> 
+      <lb n="17">fal yn eu stat o weddwdod y maent yn rhedeg i
+      </lb> 
+      <lb n="18">lawer o ffiaidd bethau cyhoeddus, a 'u cydwybod
+      </lb> 
+      <lb n="19">heb wrthwynebu hynny. Y fath ddynnion hyn
+      </lb> 
+      <lb n="20">ac ydynt yn byw mor ddiobeith ac mor frwnt, mae
+      </lb> 
+      <lb n="21">S. Pawl yn dangos pa farn sydd yn aros ar eu
+      </lb> 
+      <lb n="22">medr; Ni chaiff na goddinebwyr na phuteinwyr
+      </lb> 
+      <lb n="23">etifeddu teyrnas Dduw. Yr ydych chwi wedi
+      </lb> 
+      <lb n="24">diangc rhac yr * erchyll [-: * Echrydus.]  farn Duw hon, os chwi
+      </lb> 
+      <lb n="25">a fyddwch fyw yngh&#375;d yn ol ordeinhad Duw heb
+      </lb> 
+      <lb n="26">ymado y naill a 'r llall.
+      
+      
+      </lb> 
+      <lb n="27">Ond ni fynnwn i chwi fod yn ddiofal heb
+      </lb> 
+      <lb n="28">wilied, o herwydd fe a brawf diawl bob peth i 
+      </lb>
+      <lb n="28-29">geisio
+      </lb>
+      <lb n="29">
+       rhwystro a lluddio eich calonnau a 'ch 
+      </lb>
+      <lb n="29-30">bwriadau
+      </lb>
+      <lb n="30">
+       duwiol chwi, os rhowch iddo dypp&#375;n \dipyn\ bach
+      </lb> 
+      <lb n="31">o le: o herwydd naill ai fe a drafaela i dorri y
+      </lb> 
+      <lb n="32">cwlwm a ddechreuwyd rhyngoch, neu ar y lleiaf
+      </lb> 
+      <lb n="33">fe a gais ei rwystro ef ag amrafael flinder ac 
+      </lb>
+      <lb n="33-34">anfodlonrwydd.
+      </lb>
+      <lb n="34">
+      
+      
+      
+      </lb>
+      </pb>
+      <pb n="167.">
+      
+      
+       
+      <lb n="1">A hyn yw ei ddichel pennaf ef i wneuthur 
+      </lb>
+      <lb n="1-2">anghytundeb
+      </lb>
+      <lb n="2">
+       yn eich calonnau chwi, fal lle mae yn
+      </lb> 
+      <lb n="3">awr gariad mawr melus rhyngoch, fe a ddwg yn
+      </lb> 
+      <lb n="4">lle hynny anghytundeb chwerw diflas. Ac yn siccr
+      </lb> 
+      <lb n="5">mae ein gelyn hwn megis oddiuchod yn ceisio 
+      </lb>
+      <lb n="5-6">treisio
+      </lb>
+      <lb n="6">
+       nattur a chyflwr d&#375;n: o herwydd mae 'r ffolineb
+      </lb> 
+      <lb n="7">hyn gwedy tyfu gyda ni o 'n Ieuengctyd, sef 
+      </lb>
+      <lb n="7-8">dymuno
+      </lb>
+      <lb n="8">
+       rheoli, tybied yn dda amdanom ein 
+      </lb>
+      <lb n="8-9">hunain,
+      </lb>
+      <lb n="9">
+       megis nad oes neb yn tybied fod yn addas
+      </lb> 
+      <lb n="10">iddo berchi arall o 'i flaen ei hun. Mae 'r bai 
+      </lb>
+      <lb n="10-11">melltigedig
+      </lb>
+      <lb n="11">
+       hwn o ystyfnigrwydd ewyllys a 'n 
+      </lb>
+      <lb n="11-12">rhygaru
+      </lb>
+      <lb n="12">
+       ein hunain, yn addasach i dorri ac i wahanu
+      </lb> 
+      <lb n="13">cariad y galon, nag i gynnal cytundeb.
+      
+      
+      </lb> 
+      <lb n="14">Rhaid am hyn i bobl briodol roddi eu 
+      </lb>
+      <lb n="14-15">meddyliau
+      </lb>
+      <lb n="15">
+       yn ddifrif i gytundeb, a rhaid iddynt geisio
+      </lb> 
+      <lb n="16">yn wastad gan Dduw nerth ei Yspryd sanctaidd
+      </lb> 
+      <lb n="17">ef, i reoly eu calonnau, ac i rwymo eu meddyliau
+      </lb> 
+      <lb n="18">ynghytundeb \yng nghytundeb\.
+      
+      
+      </lb> 
+      <lb n="19">Mae 'n anghenrhaid i 'r rhai priodol arfer
+      </lb> 
+      <lb n="20">y weddi hon yn fynych, gan weddio y naill
+      </lb> 
+      <lb n="21">dros y llall yn fynych, rhag i gasineb ac 
+      </lb>
+      <lb n="21-22">anghytundeb
+      </lb>
+      <lb n="22">
+       gyfodi rhyngthynt. Ac am nad oes ond
+      </lb> 
+      <lb n="23">rhai yn ystyried hyn, a llai etto yn ei gyflawni
+      </lb> 
+      <lb n="24">(gweddio dros i gilydd yr ydwyf yn ei feddwl) ni
+      </lb> 
+      <lb n="25">a welwn pa fodd y mae diawl yn sennu ac yn
+      </lb> 
+      <lb n="26">gwatwar yr stat hon, mor ambell y mae y rhai
+      </lb> 
+      <lb n="27">priod heb ymdaeru, ymryson, ymsennu, etifaru,
+      </lb> 
+      <lb n="28">rhegu chwerw, ac ymladd. Ac Pwy bynnac sydd
+      </lb> 
+      <lb n="29">yn gneuthur \gwneuthur\ y pethau hyn nid ydynt yn 
+      </lb>
+      <lb n="29-30">ystyried
+      </lb>
+      <lb n="30">
+       mai llithiad y gelyn ysprydol ydyw hyn, yr
+      </lb> 
+      <lb n="31">hwn sydd hoff iawn gantho hynny: o herwydd
+      </lb> 
+      <lb n="32">oni bai hynny hwy a ymegnient &acirc; phob hydr yn
+      </lb> 
+      <lb n="33">erbyn y drygioni hyn, nid yn vnic trwy weddi
+      </lb> 
+      <lb n="34">ond trwy bob diwydrwydd ac a allent.
+      
+      
+      </lb>
+      </pb>
+      <pb n="168.">
+      
+      
+       
+      <lb n="1">Ie ni roent le i annogaeth llid, yr hwn a 'u 
+      </lb>
+      <lb n="1-2">cyffro
+      </lb>
+      <lb n="2">
+       hwy i 'r fath airiau neu ddyrnodau gairwon
+      </lb> 
+      <lb n="3">llymmion, yr hyn yn ddiddau yw hudad diawl,
+      </lb> 
+      <lb n="4">profedigaeth yr hwn os ni a 'i canlynwn, fe a 
+      </lb>
+      <lb n="4-5">ddechrau
+      </lb>
+      <lb n="5">
+       ac a weua ynom ni yn siccr bob trueni a
+      </lb> 
+      <lb n="6">thristwch. O herwydd mae hyn yn wir siccr
+      </lb> 
+      <lb n="7">iawn, y canlyn o 'r fath ddechreuad y torrir gwir
+      </lb> 
+      <lb n="8">gytundeb yn y galon, trwy 'r hyn ar fyrr ennyd
+      </lb> 
+      <lb n="9">y dyrrir bob cariad o 'r galon allan.
+      
+      
+      </lb> 
+      <lb n="10">Yno ni ellir na bytho 'n druan gweled fod yn
+      </lb> 
+      <lb n="11">rhaid iddynt hwy fyw yngh&#375;d a hwy heb allel bod
+      </lb> 
+      <lb n="12">yngh&#375;d yn gyttun. Ac mae hyn i 'w weled 
+      </lb>
+      <lb n="12-13">ymmhob
+      </lb>
+      <lb n="13">
+       \ym mhob\ lle haechen \haeachen\ yn arferol. Ond pa beth yw 'r
+      </lb> 
+      <lb n="14">achos? Yn wir am nad ydynt yn ystyriaid 
+      </lb>
+      <lb n="14-15">dichellion
+      </lb>
+      <lb n="15">
+       twyllodrus diawl, a 'u bod am hynny
+      </lb> 
+      <lb n="16">heb ymroi i weddio ar Dduw ar fod yn wiw
+      </lb> 
+      <lb n="17">gantho attal ei allu ef.
+      
+      
+      </lb> 
+      <lb n="18">Hefyd nid ydynt yn ystyriaid pa fod y maent
+      </lb> 
+      <lb n="19">yn cynnorthwyo bwriad diawl, gan ganlyn llid
+      </lb> 
+      <lb n="20">eu calonnau, trwy fygwth y naill y llall, trwy
+      </lb> 
+      <lb n="21">droi pob peth yn eu ynfydrwydd dibyn dobyn,
+      </lb> 
+      <lb n="22">trwy beidio a rhoddi i fynu eu cyfiawnder (fal y
+      </lb> 
+      <lb n="23">tybygant hwy) ie a thrwy beidio 'n fynych a 
+      </lb>
+      <lb n="23-24">rhoddi
+      </lb>
+      <lb n="24">
+       i fynu y rhan gamweddus. Os chwenychi
+      </lb> 
+      <lb n="25">di am hynny fod heb y trueni hwn, os 
+      </lb>
+      <lb n="25-26">chwenychi
+      </lb>
+      <lb n="26">
+       fyw yn heddychlon ac yn ddiddanus mewn
+      </lb> 
+      <lb n="27">priodas, dysc weddio 'n ddifrif ar Dduw ar iddo
+      </lb> 
+      <lb n="28">lywodraethu eich calonnau chwi eich dau &acirc; 'i 
+      </lb>
+      <lb n="28-29">Yspryd
+      </lb>
+      <lb n="29">
+       gl&acirc;n, ac attal gallu diawl, trwy 'r hyn y
+      </lb> 
+      <lb n="30">parha eich cytundeb chwi yn dragywydd.
+      
+      
+      </lb> 
+      <lb n="31">Ond mae 'n rhaid cydsylltu &acirc; 'r weddi hon 
+      </lb>
+      <lb n="31-32">ddiescaelusrwydd
+      </lb>
+      <lb n="32">
+       godidawg: am yr hwn y mae S.
+      </lb> 
+      <lb n="33">Petr yn rhoddi y gorchymmyn hwn, gan 
+      </lb>
+      <lb n="33-34">ddywedyd
+      </lb>
+      <lb n="34">
+      , Chwi y gwyr cydgyfanneddwch &acirc; 'ch
+      
+      </lb>
+      </pb>
+      <pb n="169.">
+      
+       
+      <lb n="1">gwragedd, fel y gwedde i rai gwybodol, gan 
+      </lb>
+      <lb n="1-2">roddi
+      </lb>
+      <lb n="2">
+       anrhydedd i 'r wraig megis i 'r llestr gwannaf,
+      </lb> 
+      <lb n="3">fel rhai sydd gydetifeddion gr&acirc;s y bywyd, rhag
+      </lb> 
+      <lb n="4">rhwystro eich gweddiau chwi.
+      
+      
+      </lb> 
+      <lb n="5">Mae 'r gorchymmyn hwn yn perthyn yn 
+      </lb>
+      <lb n="5-6">neilltuol
+      </lb>
+      <lb n="6">
+       at y gwr, o herwydd efe a ddylai fod yn 
+      </lb>
+      <lb n="6-7">arweinydd
+      </lb>
+      <lb n="7">
+       ac yn awdur cariad, yr hyn sydd yn
+      </lb> 
+      <lb n="8">cael lle pan fytho efe rhesymmol ac nid yn rhy
+      </lb> 
+      <lb n="9">greulon, ac os goddef ef y wraig i gael rhan o 'i
+      </lb> 
+      <lb n="10">meddwl. O herwydd y wraig yw 'r creadur
+      </lb> 
+      <lb n="11">gwannaf, ac ni chynyscaeddir hi &acirc; 'r fath rym a
+      </lb> 
+      <lb n="12">chadernid meddwl, am hynny yr aflonyddir hwy
+      </lb> 
+      <lb n="13">yn gynt, ac maent yn barottach i bob gwyniau
+      </lb> 
+      <lb n="14">gweinion, ac i bob hyblygedd meddwl nag yw
+      </lb> 
+      <lb n="15">gwyr, ac maent hwy yn yscafnach ac yn oferach
+      </lb> 
+      <lb n="16">yn eu ffansiau a 'u hopinioneu.
+      
+      
+      </lb> 
+      <lb n="17">Rhaid i 'r g&#373;r ystyriaid y pethau hyn fal na
+      </lb> 
+      <lb n="18">byddo efe yn rhy afrywog, am hyn rhaid iddo am
+      </lb> 
+      <lb n="19">ryw bethau na chymero ef arno weled mo 
+      </lb>
+      <lb n="19-20">honynt,
+      </lb>
+      <lb n="20">
+       rhaid iddo ddeongl pob peth yn fwyn.
+      
+      
+      </lb> 
+      <lb n="21">Ond mae 'r cyffredin bobl yn barnu nad addas
+      </lb> 
+      <lb n="22">i &#373;r fod mor llaryaidd. O herwydd hwy a 
+      </lb>
+      <lb n="22-23">ddywedant
+      </lb>
+      <lb n="23">
+       mai arwydd yw hyn o lyfrdra 
+      </lb>
+      <lb n="23-24">gwraigaidd:
+      </lb>
+      <lb n="24">
+       ac am hynny y tybygant mai rhan g&#373;r
+      </lb> 
+      <lb n="25">yw cyffroi ac ymladd &acirc; 'i ddwrn a 'i ffon.
+      
+      
+      </lb> 
+      <lb n="26">Ond beth bynnac a dybygant hwy, mae S.
+      </lb> 
+      <lb n="27">Petr yn ddiammau yn barnu yn well beth sydd
+      </lb> 
+      <lb n="28">addas i wr, a pheth sydd resymmolaf iddo ei
+      </lb> 
+      <lb n="29">wneuthur. O herwydd medd ef, rheswm a 
+      </lb>
+      <lb n="29-30">ddylaid
+      </lb>
+      <lb n="30">
+       ei arfer, ac nid ymladd. Ie mae fe 'n 
+      </lb>
+      <lb n="30-31">dywedyd
+      </lb>
+      <lb n="31">
+       ymhellach y dylai y wraig gael rhyw barch
+      </lb> 
+      <lb n="32">ac anrhydedd, hynny yw gan ei harbed hi, a
+      </lb> 
+      <lb n="33">dwyn gyd&acirc; hi, yn hytrarch \hytrach\ am ei bod hi yn llestr
+      </lb> 
+      <lb n="34">gwannaf, yn galon frau, ac yn annwadal, ac hi
+      
+      </lb>
+      </pb>
+      <pb n="170.">
+      
+       
+      <lb n="1">a gyffroir &acirc; gair yn * ebrwydd [-: Fuan.]  i ddigofaint. Ac
+      </lb> 
+      <lb n="2">am hynny gan ystyriaid ei gwendid hwn hi, hi a</lb> 
+      <lb n="3">ddylai yn hytrarch \hytrach\ gael ei harbed.
+      
+      
+      </lb> 
+      <lb n="4">Felly ni fegi di gytundeb yn inig, ond ti a gai
+      </lb> 
+      <lb n="5">ei chalon hi i 'w rheoli yn ol dy ewyllys. O 
+      </lb>
+      <lb n="5-6">herwydd
+      </lb>
+      <lb n="6">
+       fe gedwir naturiaeth honest i wneuthur
+      </lb> 
+      <lb n="7">ei dlyed yn hytrach wrth airiau mwynion nag
+      </lb> 
+      <lb n="8">wrth ddyrnodau.
+      
+      
+      </lb> 
+      <lb n="9">Ond am yr hwn a wnel bob peth trwy 
+      </lb>
+      <lb n="9-10">greulondeb
+      </lb>
+      <lb n="10">
+       a bod yn d&ocirc;st, ac a arfero 'n wastad o fod
+      </lb> 
+      <lb n="11">yn llym yn ei airiau a 'i weithredoedd, pa beth
+      </lb> 
+      <lb n="12">a ennill ef yn y diwedd? yn wir dim, ond ei fod
+      </lb> 
+      <lb n="13">ef yn hyfforddi gweithred diawl, mae fe 'n gyrru
+      </lb> 
+      <lb n="14">ar encil gytundeb, cariad, addfwynder peraidd,
+      </lb> 
+      <lb n="15">ac yn dwyn i mewn anghytundeb, casineb a 
+      </lb>
+      <lb n="15-16">blinderau
+      </lb>
+      <lb n="16">
+       mwyaf ac a allant fod mewn cariad rhwng
+      </lb> 
+      <lb n="17">y naill a 'r llall a chyfeillach bywyd dyn.
+      
+      
+      </lb> 
+      <lb n="18">Heb law hyn hefyd, mae hynny yn dwyn 
+      </lb>
+      <lb n="18-19">drygioni
+      </lb>
+      <lb n="19">
+       arall gydag ef, mae 'n dinistr ac yn 
+      </lb>
+      <lb n="19-20">rhwystro
+      </lb>
+      <lb n="20">
+       gweddi: o herwydd yr ennyd y byddir yn 
+      </lb>
+      <lb n="20-21">cynnal
+      </lb>
+      <lb n="21">
+       y meddwl mewn ymryson ac anghytundeb,
+      </lb> 
+      <lb n="22">ni ellir arfer gwir weddi, O herwydd mae 
+      </lb>
+      <lb n="22-23">gweddi
+      </lb>
+      <lb n="23">
+       'r Arglwydd yn edrych cystadl ar y cwbl yn 
+      </lb>
+      <lb n="23-24">gyffredinol
+      </lb>
+      <lb n="24">
+       ac ar bob dyn o 'r neilltu; yn yr hon yr 
+      </lb>
+      <lb n="24-25">ydym
+      </lb>
+      <lb n="25">
+       yn traethu 'n gyhoedd ein bod ni yn maddau
+      </lb> 
+      <lb n="26">i 'r sawl a wnaeth yn ein herbyn, fal yr ydym yn
+      </lb> 
+      <lb n="27">ceisio gan Dduw faddauant o 'n pechodau. Yr
+      </lb> 
+      <lb n="28">hyn beth pa fodd y gellir ei wneuthur yn inion
+      </lb> 
+      <lb n="29">pan fyddo eu calonnau hwy mewn 
+      </lb>
+      <lb n="29-30">anghytundeb?
+      </lb>
+      <lb n="30">
+       Pa fodd y gallant weddio y naill dros y llall
+      </lb> 
+      <lb n="31">pan fo 'r naill yn cashau 'r llall.
+      
+      
+      </lb> 
+      <lb n="32">Os tynnir immaith \ymaith\ nerth gweddi, pa fodd yr
+      </lb> 
+      <lb n="33">ymgynhaliant mewn diddanwch? O herwydd
+      </lb> 
+      <lb n="34">ni allant mewn vn modd arall wrthwynebu 
+      
+      </lb>
+      </pb>
+      <pb n="170-171.">
+      <lb n="34-1">diawl
+      </lb>
+      </pb>
+      <pb n="171.">
+      <lb n="1">
+       nac etto fod eu calonnau yn sefyll mewn 
+      </lb>
+      <lb n="1-2">diddanwch
+      </lb>
+      <lb n="2">
+       diogel ym-mhob \ym mhob\&nbsp;enbeidrwydd \enbydrwydd\ ac 
+      </lb>
+      <lb n="2-3">anghenrhaidiau
+      </lb>
+      <lb n="3">
+       ond trwy weddi.
+      
+      
+      </lb> 
+      <lb n="4">Fal hyn y mae pob afles cystadl ysprydol a
+      </lb> 
+      <lb n="5">chorphorol yn canlyn yr arferon afrywog, chwerw,
+      </lb> 
+      <lb n="6">llym, creulon hyn, y rhai ydynt addasach i 
+      </lb>
+      <lb n="6-7">anifeiliaid
+      </lb>
+      <lb n="7">
+       gwylltion, nag i greaduriaid rhesymmol.
+      
+      
+      </lb> 
+      <lb n="8">Nid ydyw S. Petr fodlon i 'r pethau hyn, ond
+      </lb> 
+      <lb n="9">mae diawl yn eu chwennychu hwy yn llawen:
+      </lb> 
+      <lb n="10">gochelwch chwithau yn fwy am hynny. Ac etto
+      </lb> 
+      <lb n="11">fe ddichon gwr fod yn wr er nad arfero ef y fath
+      </lb> 
+      <lb n="12">greulondeb, ie pe byddai weithiau heb 
+      </lb>
+      <lb n="12-13">gymmeryd
+      </lb>
+      <lb n="13">
+       arno weled arferon ei wraig. A rhan gwir
+      </lb> 
+      <lb n="14">Gristion yw hyn, yr hyn sydd hoff gan Dduw: ac
+      </lb> 
+      <lb n="15">mae hyn hefyd yn gwasanaethu 'n dda i 
+      </lb>
+      <lb n="15-16">ddiddanu
+      </lb>
+      <lb n="16">
+       st&acirc;t priodas.
+      
+      
+      </lb> 
+      <lb n="17">Yn awr o blegid dlyed y wraig pa beth sy 
+      </lb>
+      <lb n="17-18">weddus
+      </lb>
+      <lb n="18">
+       iddi hitheu: a gamarfer hi fwynder a 
+      </lb>
+      <lb n="18-19">thirionedd
+      </lb>
+      <lb n="19">
+       ei gwr, ac a dry hi yn ol ei hewyllys bob
+      </lb> 
+      <lb n="20">peth dibyn dobyn? Na wnaed ddim o hynny. O
+      </lb> 
+      <lb n="21">herwydd mae hynny mor gwbl hefyd yn erbyn
+      </lb> 
+      <lb n="22">gorchymmyn Duw.
+      
+      
+      </lb> 
+      <lb n="23">O herwydd fal hyn y mae S. Petr yn pregethu
+      </lb> 
+      <lb n="24">iddynt hwy, Chwi wragedd byddwch 
+      </lb>
+      <lb n="24-25">ostyngedig
+      </lb>
+      <lb n="25">
+       i 'ch gw&#375;r priod. Nid gorchymmyn a rheoli
+      </lb> 
+      <lb n="26">yw bod yn ostyngedig, ac etto hwy allant 
+      </lb>
+      <lb n="26-27">wneuthur
+      </lb>
+      <lb n="27">
+       y pethau hyn i 'w plant a 'u * tylwyth [-: Teuleu \teulu\.] : Ond
+      </lb> 
+      <lb n="28">am eu gw&#375;r rhaid iddynt fod yn ostyngedig
+      </lb> 
+      <lb n="29">iddynt hwy, a pheidio a gorchymmyn, a 
+      </lb>
+      <lb n="29-30">chyflawni
+      </lb>
+      <lb n="30">
+       gostyngeiddrwydd ac vfydd-dod. O 
+      </lb>
+      <lb n="30-31">herwydd
+      </lb>
+      <lb n="31">
+       yn siccr mae hyn yn magu cytundeb yn</lb> 
+      <lb n="32">dra rhagorol, pan yw 'r wraig yn barod ar 
+      </lb>
+      <lb n="32-33">orchymmyn
+      </lb>
+      <lb n="33">
+       ei gwr, pan yw hi yn ymroi i 'w 
+      </lb>
+      <lb n="33-34">ewyllys
+      </lb>
+      <lb n="34">
+       ef, pan fytho hi yn ym-egnio i geisio ei 
+      
+      </lb>
+      </pb>
+      <pb n="171-172.">
+      <lb n="34-1">fodloni
+      </lb>
+      </pb>
+      <pb n="172.">
+      <lb n="1">
+       ef a 'i lawenhau, pan wachelo hi bob peth ac a
+      </lb> 
+      <lb n="2">allai ei ddigio ef, O herwydd fal hyn y gwirhair
+      </lb> 
+      <lb n="3">geiriau 'r bardd yn gywir, y caiff gwraig dda wrth
+      </lb> 
+      <lb n="4">fod yn ostyngedig i 'w gwr, reoli fal y byddo hoff
+      </lb> 
+      <lb n="5">a llawen gantho ddyfod yn gynt adref etti \ati\. Ond
+      </lb> 
+      <lb n="6">o 'r ystlys arall, pan fytho eu gwragedd hwy yn 
+      </lb>
+      <lb n="6-7">afrywog
+      </lb>
+      <lb n="7">
+       ac yn llymion ac yn chwerwon, fe yrrir
+      </lb> 
+      <lb n="8">eu gwyr hwy trwy hynny i gashau ac i gilio allan
+      </lb> 
+      <lb n="9">o 'u tai, fal pe bai rhyngthynt ryfel a 'u 
+      </lb>
+      <lb n="9-10">gelynnion.
+      </lb>
+      <lb n="10">
+       Ac etto mae yn odid na chwympo weithiau
+      </lb> 
+      <lb n="11">ryw wrthwyneb rhyngthynt, o herwydd nad oes
+      </lb> 
+      <lb n="12">neb yn byw heb fai: ond yn enwedig am fod y
+      </lb> 
+      <lb n="13">wraig yn llestr gwannaf, gochelant hwy rhag
+      </lb> 
+      <lb n="14">sefyll yn eu baiau a 'u hatcasrwydd, ond 
+      </lb>
+      <lb n="14-15">cydnabyddant
+      </lb>
+      <lb n="15">
+       hwy yn gynt eu ffolineb a dywedant, 
+      </lb>
+      <lb n="15-16">fyngwr,
+      </lb>
+      <lb n="16">
+       fal hyn y gyrrodd fy-nigofaint \fy nigofaint\ fi i 
+      </lb>
+      <lb n="16-17">wneuthur
+      </lb>
+      <lb n="17">
+       hyn ymma neu hyn accw, maddauwch imi,
+      </lb> 
+      <lb n="18">ac ar ol hyn mi a wachela. A pha parottaf y 
+      </lb>
+      <lb n="18-19">byddo
+      </lb>
+      <lb n="19">
+       gwraig i wneuthur yn erbyn ei gwr, 
+      </lb>
+      <lb n="19-20">parottaf
+      </lb>
+      <lb n="20">
+       y dylai hi fod i wneuthur fal hyn: ac nid er
+      </lb> 
+      <lb n="21">mwyn ymgadw oddiwrth ymryson a 
+      </lb>
+      <lb n="21-22">anghytundeb
+      </lb>
+      <lb n="22">
+       yn vnic y dylai wneuthur hyn, ond yn
+      </lb> 
+      <lb n="23">hytrach er mwyn gorchymmyn Duw, fal y mae
+      </lb> 
+      <lb n="24">S. Pawl yn ei adrodd ef yn y geiriau hyn, y
+      </lb> 
+      <lb n="25">gwragedd ymostyngwch i 'ch gwyr priod megis
+      </lb> 
+      <lb n="26">i 'r Arglwydd, oblegid y gwr yw pen y wraig 
+      </lb>
+      <lb n="26-27">megis
+      </lb>
+      <lb n="27">
+       y mae Christ yn ben i 'r Eglwys.
+      
+      
+      </lb> 
+      <lb n="28">Ymma y gwelwch fod Duw yn gorchymmyn
+      </lb> 
+      <lb n="29">i chwi gydnabod awdurdod y gwyr a rhoddi iddo
+      </lb> 
+      <lb n="30">barch vfydd-dod.
+      
+      
+      </lb> 
+      <lb n="31">Ac mae S. Petr yn dywedyd yn y lle a 
+      </lb>
+      <lb n="31-32">adroddwydd
+      </lb>
+      <lb n="32">
+       o 'r blaen, i fodrabedd sanctaidd gynt 
+      </lb>
+      <lb n="32-33">ymdrwsio
+      </lb>
+      <lb n="33">
+       nid oddi allan o blethiadau gwallt, ac 
+      </lb>
+      <lb n="33-34">amgylch
+      </lb>
+      <lb n="34">
+       osodiad aur, neu wiscad dillad 
+      
+      </lb>
+      </pb>
+      <pb n="172-173.">
+      <lb n="34-1">gwychion,
+      </lb>
+      </pb>
+      <pb n="173.">
+      <lb n="1">
+       onid gan obeithio ar Dduw a bod yn 
+      </lb>
+      <lb n="1-2">ddarostyngedig
+      </lb>
+      <lb n="2">
+       i 'w gwr priod, megis yr vfyddhaodd
+      </lb> 
+      <lb n="3">Sara i Abraham gan ei alw ef yn Arglwydd,
+      </lb> 
+      <lb n="4">merched yr hon fyddwch chwi, medd ef, o 
+      </lb>
+      <lb n="4-5">wneuthur
+      </lb>
+      <lb n="5">
+       yn dda.
+      
+      
+      </lb> 
+      <lb n="6">Addas a fyddai i wragedd argraphu yr 
+      </lb>
+      <lb n="6-7">ymadrodd
+      </lb>
+      <lb n="7">
+       hwn yn eu meddyliau.
+      
+      
+      </lb> 
+      <lb n="8">Gwir yw fod yn rhaid iddynt hwy yn 
+      </lb>
+      <lb n="8-9">enwedig
+      </lb>
+      <lb n="9">
+       oddef poenau a doluriau eu priodas, am fod
+      </lb> 
+      <lb n="10">yn gorfod arnynt roi heibio rydd-did eu 
+      </lb>
+      <lb n="10-11">llywodraeth
+      </lb>
+      <lb n="11">
+       a bod mewn doluriau escor, ac yn dwyn
+      </lb> 
+      <lb n="12">eu plant i fynu.
+      
+      
+      </lb> 
+      <lb n="13">Yn y swyddau hyn maent hwy mewn periglau
+      </lb> 
+      <lb n="14">mawrion: heb y rhai y gallent fod, pe byddent
+      </lb> 
+      <lb n="15">heb briodi.
+      
+      
+      </lb> 
+      <lb n="16">Ond mae S. Petr yn dywedyd mai hwn yw
+      </lb> 
+      <lb n="17">'r trwsiad pennaf i wragedd santaidd, gobeithio
+      </lb> 
+      <lb n="18">ac ymddiried&nbsp;yn-nuw \yn Nuw\, hynny yw, nad 
+      </lb>
+      <lb n="18-19">ymgadwasant
+      </lb>
+      <lb n="19">
+       rhag priodas oblegid ei gofalon a 'i 
+      </lb>
+      <lb n="19-20">doluriau,
+      </lb>
+      <lb n="20">
+       a 'i henbeidrwydd \henbydrwydd\, ond gorchymmyn i
+      </lb> 
+      <lb n="21">Dduw bob peth a allai ddigwyddo ynddi, gan
+      </lb> 
+      <lb n="22">obeithio cael ei nerth ef yn siccr yn ol iddynt alw
+      </lb> 
+      <lb n="23">arno am ei gynnorthwy.
+      
+      
+      </lb> 
+      <lb n="24">O wraig gwna dithau felly ac yno y trwsir di
+      </lb> 
+      <lb n="25">'n odidawg ger bron Duw a 'i holl Angylion a 'i
+      </lb> 
+      <lb n="26">Saint, ac nid rhaid iti geisio ym-mhellach \ym mhellach\ am
+      </lb> 
+      <lb n="27">wneuthur gwaith a fyddo gwell: O herwydd
+      </lb> 
+      <lb n="28">bydd ostyngedig i 'th wr, synna ar ei 
+      </lb>
+      <lb n="28-29">ddymuniadau
+      </lb>
+      <lb n="29">
+       ef, ac ystyria beth y mae ef yn ei ofyn ar dy
+      </lb> 
+      <lb n="30">law di, felly y gelli di anrhydeddu Duw, a byw
+      </lb> 
+      <lb n="31">yn heddychlon yn dy d&#375;.
+      
+      
+      </lb> 
+      <lb n="32">Ac heblaw hyn fe ganlyn Duw di &acirc; 'i 
+      </lb>
+      <lb n="32-33">fendithion,
+      </lb>
+      <lb n="33">
+       fal y llwyddo pob peth gyd&acirc; thi, cystadl
+      </lb> 
+      <lb n="34">iti ac i 'th wr, ac fal y dywaid y Psalm, Gwyn
+      
+      </lb>
+      </pb>
+      <pb n="174.">
+      
+       
+      <lb n="1">ei fudd pob vn sydd yn ofni 'r Arglwydd, sef yr
+      </lb> 
+      <lb n="2">hwn sydd yn rhodio yn ei ffyrdd ef canys 
+      </lb>
+      <lb n="2-3">mwynhei
+      </lb>
+      <lb n="3">
+       lafur dy ddwylo, gwyn dy fyd a da fydd it.
+      </lb> 
+      <lb n="4">Dy wraig sydd fel gwinwydden ffrwythlon ar
+      </lb> 
+      <lb n="5">hyd ystlysau dy d&#375;: a 'th blant fal planhigion 
+      </lb>
+      <lb n="5-6">oliwydd
+      </lb>
+      <lb n="6">
+       o amgylch dy ford. Wele fel hyn yn ddiau y
+      </lb> 
+      <lb n="7">bendithir y gwr a ofno 'r arglwydd medd Dafydd.
+      
+      
+      </lb> 
+      <lb n="8">Bydded hyn ym-meddwl \ym meddwl\ y wraig yn wastad
+      </lb> 
+      <lb n="9">yn hytrarch \hytrach\ am fod gwisc ei phen hi yn ei 
+      </lb>
+      <lb n="9-10">rhybyddio
+      </lb>
+      <lb n="10">
+       am y peth hyn, trwy 'r hyn yr 
+      </lb>
+      <lb n="10-11">arwyddoccair
+      </lb>
+      <lb n="11">
+       ei bod hi dan lywodraeth ac mewn 
+      </lb>
+      <lb n="11-12">vfydddod
+      </lb>
+      <lb n="12">
+       i 'w gwr: Ac fel y gosododd natur y wisc 
+      </lb>
+      <lb n="12-13">honno
+      </lb>
+      <lb n="13">
+       i fanegi ei hufydd-dod hi, felly y mae S. Pawl
+      </lb> 
+      <lb n="14">yn gorchymmyn fod i bob rhan arall o 'i dillad
+      </lb> 
+      <lb n="15">hi ddangos g&#373;yledd a sobredd. O herwydd onid
+      </lb> 
+      <lb n="16">yw gyfraithlon i wraig fod yn bennoeth, ond
+      </lb> 
+      <lb n="17">dwyn ar ei phen arwydd o 'r gallu sydd erni, pa le
+      </lb> 
+      <lb n="18">bynnac yr elo hi: mwy y gofynnir ar ei llaw hi
+      </lb> 
+      <lb n="19">ddangos yr hyn a arwyddocair wrth hynny; Ac
+      </lb> 
+      <lb n="20">am hynny y galwodd yr h&ecirc;n wragedd o 'r hen
+      </lb> 
+      <lb n="21">fyd eu gwyr yn Arglwyddi ac a ddangosasant eu
+      </lb> 
+      <lb n="22">parch yn yfyddhau iddynt.
+      
+      
+      </lb> 
+      <lb n="23">Ond onid odid hi a ddywaid fod y gwyr 
+      </lb>
+      <lb n="23-24">hynny
+      </lb>
+      <lb n="24">
+       yn gwir garu eu gwragedd. Mi a wn hynny
+      </lb> 
+      <lb n="25">yn dda, ac yr ydwyf yn ei gyfio yn ddifai. Ond
+      </lb> 
+      <lb n="26">pan ydwyf yn eich rhybyddio chwi i 'ch dlyed, na
+      </lb> 
+      <lb n="27">chofiwch chwi eu dlyed hwy tuag attoch. O
+      </lb> 
+      <lb n="28">herwydd pan fythom ni ein hunain yn dyscu ein
+      </lb> 
+      <lb n="29">plant i vfyddhau ini, megis i 'w tadau a 'u 
+      </lb>
+      <lb n="29-30">mammau,
+      </lb>
+      <lb n="30">
+       neu pan fythom yn addyscu 'n gweision ac
+      </lb> 
+      <lb n="31">yn dywedyd wrthynt y dlyent vfyddhau i 'w 
+      </lb>
+      <lb n="31-32">meistri
+      </lb>
+      <lb n="32">
+       nid &acirc; llygad wasanaeth, ond fel 
+      </lb>
+      <lb n="32-33">gweinidogion
+      </lb>
+      <lb n="33">
+       Christ: pe dywedent hwy wrthym ninnau
+      
+      </lb>
+      </pb>
+      <pb n="175.">
+      
+       
+      <lb n="1">ailwaith am ein dlyed ninnau ni thybygem ni
+      </lb> 
+      <lb n="2">eu bod hwy yn gwneuthur hynny yn dda.
+      
+      
+      </lb> 
+      <lb n="3">O herwydd er bod gan &#373;r gyfaill yn ei fai? ni
+      </lb> 
+      <lb n="4">wnae hynny ei fod ef yn ddifai. Ond hyn sydd
+      </lb> 
+      <lb n="5">raid iti edrych arno, am fod dy hun yn ddifai. O
+      </lb> 
+      <lb n="6">herwydd Adda a fwriodd y bai ar y wraig, a 
+      </lb>
+      <lb n="6-7">hithau
+      </lb>
+      <lb n="7">
+       a 'i bwrodd ar y sarph: etto nid escuswyd
+      </lb> 
+      <lb n="8">yr vn o honynt. Ac am hynny na ddwg attafi
+      </lb> 
+      <lb n="9">yn awr y fath escuson, ond gosod dy holl 
+      </lb>
+      <lb n="9-10">ddiwydrwydd
+      </lb>
+      <lb n="10">
+       i wrando y dylait ti vfyddhau i 'th &#373;r.
+      
+      
+      </lb> 
+      <lb n="11">O herwydd pan wyf yn rhybyddio dy &#373;r i 'th
+      </lb> 
+      <lb n="12">garu di ac i 'th gysuro, etto ni phaidiaf a gosod 
+      </lb>
+      <lb n="12-13">allan
+      </lb>
+      <lb n="13">
+       y gyfraith a osodwyd i 'r wraig, cystadl ac y
+      </lb> 
+      <lb n="14">mynnwn i 'r g&#373;r wneuthur yr hyn a scrifennir yn
+      </lb> 
+      <lb n="15">y gyfraith iddo yntef.
+      
+      
+      </lb> 
+      <lb n="16">Dos di am hynny ynghylch y pethau a 
+      </lb>
+      <lb n="16-17">berthynant
+      </lb>
+      <lb n="17">
+       iti yn vnig, a dangos dy hun yn hynaws
+      </lb> 
+      <lb n="18">i 'th &#373;r. Neu yn hytrach os vfyddhau di i 'th &#373;r
+      </lb> 
+      <lb n="19">er mwyn gorchymmyn Duw, yno adrodd pa beth
+      </lb> 
+      <lb n="20">a ddylai ef ei wneuthur, ond cyflawna di yn 
+      </lb>
+      <lb n="20-21">ddiescaelus
+      </lb>
+      <lb n="21">
+       y pethau y mae gwneuthurwr y gyfraith
+      </lb> 
+      <lb n="22">yn gorchymmyn iti eu gwneuthur: O blegid fal
+      </lb> 
+      <lb n="23">hyn yr vfyddhai di i Dduw yn oreu os peidi di a
+      </lb> 
+      <lb n="24">thorri ei gyfraith ef.
+      
+      
+      </lb> 
+      <lb n="25">Nid yw 'r hwn sydd yn caru ei gyfaill yn 
+      </lb>
+      <lb n="25-26">gwneuthur
+      </lb>
+      <lb n="26">
+       gorchest yn y b&#375;d: ond mae 'r hwn a 
+      </lb>
+      <lb n="26-27">anrhydeddo
+      </lb>
+      <lb n="27">
+       y neb sydd yn ei gashau ef ac yn ei ddrygu, yn
+      </lb> 
+      <lb n="28">haeddu mawrglod. Felly meddwl dithai \dithau\ os 
+      </lb>
+      <lb n="28-29">goddefi
+      </lb>
+      <lb n="29">
+       di &#373;r anhwaith \anhywaith\ y caidi am hynny wobr mawr.
+      
+      
+      </lb> 
+      <lb n="30">Ond os ceri di ef yn inig am ei fod ef yn dirion
+      </lb> 
+      <lb n="31">ac yn fwyn: pa wobr y rhydd Duw iti am hynny?
+      </lb> 
+      <lb n="32">Etto nid ydwyf yn dywedyd hyn fal pe ewyllysiwn
+      </lb> 
+      <lb n="33">i 'r gwyr fod yn anhowaith tuag at eu gwragedd,
+      </lb> 
+      <lb n="34">ond annog yr ydwyfi y gwragedd i ddwyn yn 
+      
+      </lb>
+      </pb>
+      <pb n="175-176.">
+      <lb n="34-1">ddioddefus
+      </lb>
+      </pb>
+      <pb n="176.">
+      <lb n="1">
+       gydag anhywaithder eu gwyr. O herwydd
+      </lb> 
+      <lb n="2">pan wnelo pob vn o 'r ddwy ran ei gorau i 
+      </lb>
+      <lb n="2-3">gyflawni
+      </lb>
+      <lb n="3">
+       eu dlyed vn i 'w gilydd, yno yn y man y canlyn
+      </lb> 
+      <lb n="4">budd mawr i 'w cymydogion, wrth eu siampl hwy.
+      </lb> 
+      <lb n="5">O herwydd pan fyddo 'r wraig yn barod i oddef
+      </lb> 
+      <lb n="6">gwr anhywaith, a phan na byddo 'r gwr rhy dost
+      </lb> 
+      <lb n="7">wrth wraig atgas anhywaith, yno y bydd pob
+      </lb> 
+      <lb n="8">peth yn esmwyth mewn porthladd ddiogel. Fal
+      </lb> 
+      <lb n="9">hyn yn yr hen amser y gwnai bob vn ei ddylyed a 'i
+      </lb> 
+      <lb n="10">swydd ei hun, ac nid oeddynt ofalus i edrych am
+      </lb> 
+      <lb n="11">ddlyed eu cymydogion. Ystyria adolwg i 
+      </lb>
+      <lb n="11-12">Abraham
+      </lb>
+      <lb n="12">
+       gymmeryd atto fab ei frawd, ac ni faiodd ei
+      </lb> 
+      <lb n="13">wraig arno ef am hynny. Ef a orchymmynnodd
+      </lb> 
+      <lb n="14">iddo fyned i daith bell gydag ef, ac ni ddywad hi
+      </lb> 
+      <lb n="15">ddim yn ei erbyn ef, ond hi a vfyddhaodd i 'w 
+      </lb>
+      <lb n="15-16">orchymmyn
+      </lb>
+      <lb n="16">
+       ef.
+      
+      
+      </lb> 
+      <lb n="17">A thrachefn yn ol holl flinderau a gofidiau a
+      </lb> 
+      <lb n="18">phoenau mawrion y daith honno, yn ol 
+      </lb>
+      <lb n="18-19">gwneuthur
+      </lb>
+      <lb n="19">
+       Abraham megis yn Arglwydd o 'r cwbl oll,
+      </lb> 
+      <lb n="20">etto fe ganniataodd i Lot yr oruchafiaeth: ac fe 
+      </lb> 
+      <lb n="21">a oddefodd Sara hynny mor ddiddig ac yr 
+      </lb>
+      <lb n="21-22">attaliodd
+      </lb>
+      <lb n="22">
+       hi ei thafod rhag yngan vn waith y fath 
+      </lb>
+      <lb n="22-23">airiau
+      </lb>
+      <lb n="23">
+       ac a arfer gwragedd eu dywedyd fynychaf yn
+      </lb> 
+      <lb n="24">y dyddiau hyn, pan welant eu gwyr yn y lleoedd
+      </lb> 
+      <lb n="25">isaf, ac yn ostyngedig i rai iauangach n&acirc; hwynt
+      </lb> 
+      <lb n="26">hwy, yn y man hwy a 'i * dannodant [-: * Edliwiant.]  iddynt &acirc;&nbsp;
+      </lb>
+      <lb n="26-27">gairiau
+      </lb>
+      <lb n="27">
+       ymrysongar, ac a 'u galwant hwy yn 
+      </lb>
+      <lb n="27-28">ffyliaid,
+      </lb>
+      <lb n="28">
+       yn llyfron ac yn ddihyder, am wneuthur felly.
+      
+      
+      </lb> 
+      <lb n="29">Ond yr oedd Sara mor bell oddiwrth 
+      </lb>
+      <lb n="29-30">ddywedyd
+      </lb>
+      <lb n="30">
+       y fath airiau, ac na feddyliodd hi vnwaith
+      </lb> 
+      <lb n="31">ddywedyd felly, ond bod yn fodlon i ddoethineb ac
+      </lb> 
+      <lb n="32">ewyllys ei g&#373;r.
+      
+      
+      </lb> 
+      <lb n="33">Ie, heb law hyn, gwedy darfod i Lot gael fal
+      </lb> 
+      <lb n="34">hyn ei ewyllys, a gadel i 'w ewythr y rhan leiaf
+      
+      </lb>
+      </pb>
+      <pb n="177_T175.">
+      
+       
+      <lb n="1">o 'r tir, fe a gwympodd i ddygyn berigl: yr hyn
+      </lb> 
+      <lb n="2">beth pan wybu y Patriarch hwn, yn y man fe a
+      </lb> 
+      <lb n="3">osododd ei holl w&#375;r mewn arfau, ac a ddarparodd
+      </lb> 
+      <lb n="4">fyned ei hun a 'i holl dylwyth a 'i gymdeithion yn
+      </lb> 
+      <lb n="5">erbyn llu 'r Persiaid: yn yr hwn gyflwr nis 
+      </lb>
+      <lb n="5-6">cynghorodd
+      </lb>
+      <lb n="6">
+       Sara ef i 'r gwrthwyneb, ac ni ddywad
+      </lb> 
+      <lb n="7">hi wrtho fal y gallasid dywedyd: fy ng&#373;r i ba le
+      </lb> 
+      <lb n="8">yr a'i di mor fyr-bwyll? paham y rhedi fal hyn
+      </lb> 
+      <lb n="9">lwyr dy ben? paham yr ymgynnygi i 'r fath 
+      </lb>
+      <lb n="9-10">beriglon
+      </lb>
+      <lb n="10">
+       mawrion? Paham yr wyd mor barod i 
+      </lb>
+      <lb n="10-11">anturio
+      </lb>
+      <lb n="11">
+       dy fywyd dy hun, ac i osod mewn enbeidrwydd \enbydrwydd\
+      </lb> 
+      <lb n="12">fywyd dy holl dylwyth dros &#373;r a wnaeth a thi 'r
+      </lb> 
+      <lb n="13">fath gam? Ar y lleiaf onid oes gennit ofal 
+      </lb>
+      <lb n="13-14">amdanat
+      </lb>
+      <lb n="14">
+       dy hun, cymmer drueni arnafi, a minnau er dy
+      </lb> 
+      <lb n="15">fwyn di gwedy gadel fy-ngwl&acirc;d \fy ngwlad\ a 'm cenedl, ac
+      </lb> 
+      <lb n="16">heb imi na chynnorthwywyr na chenedl, a mi
+      </lb> 
+      <lb n="17">gwedy dyfod cy \cyn\ belled o 'm gwl&acirc;d gyd&acirc; thi: 
+      </lb>
+      <lb n="17-18">tosturia
+      </lb>
+      <lb n="18">
+       wrthyf, ac na wn&acirc; fi ymma 'n weddw, i ddwyn
+      </lb> 
+      <lb n="19">arnaf y fath ofalon a blinderau.
+      
+      
+      </lb> 
+      <lb n="20">Hyn a allasai hi ei ddywedyd. Ond ni ddywad
+      </lb> 
+      <lb n="21">Sara, ac ni feddyliodd y fath airiau: ond hi a 'i
+      </lb> 
+      <lb n="22">cadwodd ei hun yn ddistaw ym-mhob \ym mhob\ peth.
+      
+      
+      </lb> 
+      <lb n="23">Hefyd yn yr holl amser ac y bu hi hesp heb ei
+      </lb> 
+      <lb n="24">phoeni fel gwragedd eraill wrth ddwyn ffrwyth
+      </lb> 
+      <lb n="25">yn ei d&#375; ef, beth a wnaeth ef? fe a achwynodd nid
+      </lb> 
+      <lb n="26">wrth y wraig ond wrth yr holl-alluog Dduw.
+      
+      
+      </lb> 
+      <lb n="27">Ac ystyriwch fel y gwnaeth pob vn honynt ei
+      </lb> 
+      <lb n="28">ddlyed fal yr oedd yn addas iddynt. O herwydd
+      </lb> 
+      <lb n="29">ni ddiystyrodd ef Sara am ei bod yn hesp, ac ni
+      </lb> 
+      <lb n="30">* ddannododd [-: * Edliwodd.]  iddi hynny. Ystyriwch hefyd y
+      </lb> 
+      <lb n="31">modd y gyrrodd Abraham y llaw forwyn allan o 'i
+      </lb> 
+      <lb n="32">d&#375; pan ddeisyfodd hi arno wneuthur felly. Fal
+      </lb> 
+      <lb n="33">wrth hyn y gallaf brofi 'n gywir fod pob vn 
+      </lb>
+      <lb n="33-34">honynt
+      </lb>
+      <lb n="34">
+       yn fodlon i 'w gilydd ym-mhob \ym mhob\ peth.
+      
+      
+      </lb>
+      </pb>
+      <pb n="178_T176.">
+      
+      
+       
+      <lb n="1">Ond etto na osodwch eich llygaid ar hyn o beth,
+      </lb> 
+      <lb n="2">ond edrychwch ymhellach pa beth a 
+      </lb>
+      <lb n="2-3">wnaethpwyd
+      </lb>
+      <lb n="3">
+       cyn hyn, fod Agar yn diystyru ei meistres,
+      </lb> 
+      <lb n="4">a bod Abraham ei hun gwedy ei gyffro ychydig
+      </lb> 
+      <lb n="5">yn ei herbyn hi, yr hyn ni allai na bai 
+      </lb>
+      <lb n="5-6">annioddefus
+      </lb>
+      <lb n="6">
+       a dolurus iawn i wraig ddiwair rwydd ei
+      </lb> 
+      <lb n="7">chalon.
+      
+      
+      </lb> 
+      <lb n="8">Na fydded gwraig ry bryssur i ofyn yr hyn sy
+      </lb> 
+      <lb n="9">ddledus ar y g&#373;r iddi hi, lle dlai hi fod yn barod i
+      </lb> 
+      <lb n="10">gyflawni ei dlyed ei hun, o herwydd nid yw hyn,
+      </lb> 
+      <lb n="11">yn haeddu fawr gl&ocirc;d. Ac felly o 'r ystlys arall nag
+      </lb> 
+      <lb n="12">ystyried y gwr yn inig beth a ddlyai 'r wraig ei
+      </lb> 
+      <lb n="13">wneuthur, ac na safed yn rhy ddifrif i edrych ar
+      </lb> 
+      <lb n="14">hynny, o herwydd nid ei ran ef a 'i ddlyed yw hyn.
+      </lb> 
+      <lb n="15">Ond fal y dywedais, bydded pob vn o 'r dwyblaid
+      </lb> 
+      <lb n="16">barod ac ewyllysgar i wneuthur yn enwedig yr
+      </lb> 
+      <lb n="17">hyn sydd yn perthyn atto ei hun. O herwydd os
+      </lb> 
+      <lb n="18">ydym rhwymedig i droi y rudd aswy at 
+      </lb>
+      <lb n="18-19">ddieithriaid
+      </lb>
+      <lb n="19">
+       pan darawant ni ar y rudd ddeheu, pa faint
+      </lb> 
+      <lb n="20">mwy y dylem oddef g&#373;r tost afrywog? Ond etto
+      </lb> 
+      <lb n="21">nid wyfi 'n meddwl y dyle wr guro ei wraig, ni 
+      </lb>
+      <lb n="21-22">atto
+      </lb>
+      <lb n="22">
+       Duw hynny. O herwydd y cywilydd mwyaf
+      </lb> 
+      <lb n="23">yw hynny ac a ddichon bod, nid yn gymmaint i 'r
+      </lb> 
+      <lb n="24">wraig a gurir, ac i 'r gwr sydd yn gwneuthur y fath
+      </lb> 
+      <lb n="25">orchwyl.
+      
+      
+      </lb> 
+      <lb n="26">Ond os digwydd fod iti y fath wr, na fydd ry
+      </lb> 
+      <lb n="27">drist, meddwl di fod gwobr mawr gwedi ei osod
+      </lb> 
+      <lb n="28">i fynu ar dy fedr ar ol hyn, a bod clod fawr iti yn y
+      </lb> 
+      <lb n="29">byd hwn os byddi di goddefgar.
+      
+      
+      </lb> 
+      <lb n="30">Ond etto wrthych chwi y gwyr y dywedaf, na
+      </lb> 
+      <lb n="31">fydded vn bai mor fawr ac y gyrro chwi i ffusto
+      </lb> 
+      <lb n="32">eich gwragedd. Ond beth a ddywedaf am eich
+      </lb> 
+      <lb n="33">gwragedd, peth anreith ei oddef yw i wr honest 
+      </lb>
+      <lb n="33-34">osod
+      </lb>
+      <lb n="34">
+       i law ar ei forwyn i 'w fusto \ffusto\ hi. Am hynny os
+      
+      </lb>
+      </pb>
+      <pb n="179_T177.">
+      
+       
+      <lb n="1">yw yn gywilydd mawr i &#373;r fusto \ffusto\ ei forwyn, oni
+      </lb> 
+      <lb n="2">ddlyai ef ei geryddu 'n fwy am guro ei wraig
+      </lb> 
+      <lb n="3">rydd? A hyn a allwn ei ddeall wrth gyfraithiau
+      </lb> 
+      <lb n="4">a wnaeth Paganiaid, y rhai a roddant rydd-did i 'r
+      </lb> 
+      <lb n="5">wraig i ymado oddiwrth y gwr a 'i tarawo hi, 
+      </lb>
+      <lb n="5-6">megis
+      </lb>
+      <lb n="6">
+       gwr an-nheilwng o 'i chymdeithas hi 
+      </lb>
+      <lb n="6-7">ymmhellach.
+      </lb>
+      <lb n="7">
+       O herwydd y peth tostaf a ddichon
+      </lb> 
+      <lb n="8">bod yw iti drin mor wael ie megis vn caeth, 
+      </lb>
+      <lb n="8-9">gymmar
+      </lb>
+      <lb n="9">
+       dy fywyd, yr hon a gydsylltwyd &acirc; thi o 'r
+      </lb> 
+      <lb n="10">blaen, i fod yn gyfaill i ti yn y pethau rheitaf o 'th
+      </lb> 
+      <lb n="11">fywyd di. Ac am hynny fe a ellir cyffelybu y fath
+      </lb> 
+      <lb n="12">wr (os gellir ei alw ef yn wr ac nid yn anifeil
+      </lb> 
+      <lb n="13">gw&#375;llt) i vn a laddo ei d&acirc;d neu fam.
+      
+      
+      </lb> 
+      <lb n="14">A lle gorchymmynnir ini ymwrthod &acirc; thadau
+      </lb> 
+      <lb n="15">a mammau er mwyn ein gwragedd, ac etto nid
+      </lb> 
+      <lb n="16">ydym yn gwneuthur vn cam &acirc; hwy yn hynny, ond
+      </lb> 
+      <lb n="17">yr ydym yn cyflawni cyfraith Dduw: pa fodd am
+      </lb> 
+      <lb n="18">hynny na welidi mai ynfydrwydd annial yw iti
+      </lb> 
+      <lb n="19">wneuthur yn drahaus &acirc; 'r hon y gorchymmynnodd
+      </lb> 
+      <lb n="20">Duw iti ymadel a 'th dad a 'th fam er ei mwyn?
+      </lb> 
+      <lb n="21">Ie pwy a all goddef y fath ddirmyg? pwy a 
+      </lb>
+      <lb n="21-22">ddichon
+      </lb>
+      <lb n="22">
+       yn ddigonol ossod allan faint drygioni yw
+      </lb> 
+      <lb n="23">gweled yn yr heolydd cyhoedd gymydogion yn
+      </lb> 
+      <lb n="24">rhedeg yngh&#375;d ynghylch t&#375; y fath &#373;r afreolus,
+      </lb> 
+      <lb n="25">megis at fedlem ynfyd a fai yn ceisio dymchwelyd
+      </lb> 
+      <lb n="26">y cwbl oll sydd gantho? Pwy ni thybygai mai
+      </lb> 
+      <lb n="27">gwell oedd i 'r fath wr ddymuno i 'r ddaiar agored
+      </lb> 
+      <lb n="28">a 'i lyncu ef, na 'i weled byth mwy yn y farchnad?
+      
+      
+      </lb> 
+      <lb n="29">Ond fe allai y gosodi drosot dy hun, i 'r wraig
+      </lb> 
+      <lb n="30">dy annog di i wneuthur hyn. Ond ystyria dithau
+      </lb> 
+      <lb n="31">ailwaith mai llestr gwan yw 'r wraig, a 'th 
+      </lb>
+      <lb n="31-32">wneuthur
+      </lb>
+      <lb n="32">
+       di yn rheolwr ac yn ben erni, i gyd-ddwyn &acirc; 'i
+      </lb> 
+      <lb n="33">gwendid hi yn ei gostyngeiddrwydd. Ac am 
+      </lb>
+      <lb n="33-34">hynny
+      </lb>
+      <lb n="34">
+       myfyria di ddangos clod dy awdurdod honest,
+      
+      </lb>
+      </pb>
+      <pb n="180_T178.">
+      
+       
+      <lb n="1">yr hyn ni elli di ei wneuthur yn well nag wrth
+      </lb> 
+      <lb n="2">beidio a chyhoeddi ei gwendid hi yn ei 
+      </lb>
+      <lb n="2-3">gostyngeiddrwydd.
+      </lb>
+      <lb n="3">
+       O herwydd fel y gwelir y brenin yn 
+      </lb>
+      <lb n="3-4">bendefigeiddiach,
+      </lb>
+      <lb n="4">
+       po godidawgaf a phendefigeiddiaf
+      </lb> 
+      <lb n="5">y fo ei swyddogion ai raglawiaid ef, y rhai pe 
+      </lb>
+      <lb n="5-6">dianrhydeddai
+      </lb>
+      <lb n="6">
+       ef, a phe diystyrai ei hawdurdod hwy
+      </lb> 
+      <lb n="7">a 'u braint, fe a 'i dinoethai ei hun o rhan fawr o 'i
+      </lb> 
+      <lb n="8">anrhydedd ei hun: felly os diystyri dithau yr hon
+      </lb> 
+      <lb n="9">sydd gwedy ei gosod yn y lle nesaf iti dy hun, yr
+      </lb> 
+      <lb n="10">ydwyd yn llaihau ac yn peri i odidawgrwydd dy
+      </lb> 
+      <lb n="11">awdurdod dy hun adfeilo. Cyfrif yr holl bethau
+      </lb> 
+      <lb n="12">hyn yn dy feddwl a bydd fwyn a thirion: deall
+      </lb> 
+      <lb n="13">ddarfod i Dduw roddi plant rhyngot ti a hithau
+      </lb> 
+      <lb n="14">a 'th wneuthur di yn d&acirc;d, ac wrth hynny 
+      </lb>
+      <lb n="14-15">llonydda
+      </lb>
+      <lb n="15">
+       di dy hun.
+      
+      
+      </lb> 
+      <lb n="16">Oni weli di yr llafurwyr, mor ddyfal y maent
+      </lb> 
+      <lb n="17">yn trin eu tir a ddarfu iddynt eu rhentu vnwaith,
+      </lb> 
+      <lb n="18">er maint fyddo beiau 'r tir megis yn lle siampl, er
+      </lb> 
+      <lb n="19">ei fod ef yn rhy sych, er ei fod ef yn dwyn chwyn
+      </lb> 
+      <lb n="20">lawer, er na allo ef ddioddef gormod gwlybni,
+      </lb> 
+      <lb n="21">etto mae fe 'n ei aredig ef, ac felly yn ennill ei
+      </lb> 
+      <lb n="22">ffrwythau ef: felly pe arferiti yr vn dyfalwch i
+      </lb> 
+      <lb n="23">addyscu ac i drefnu meddwl dy wraig briod, pe 
+      </lb>
+      <lb n="23-24">ymroiti
+      </lb>
+      <lb n="24">
+       i chwynnu bob ychydig y chwyn drygionus
+      </lb> 
+      <lb n="25">o arferon anaddas allan o 'i meddwl hi trwy 
+      </lb>
+      <lb n="25-26">addysc
+      </lb>
+      <lb n="26">
+       iachus, ni allid na chait ti dderbyn ar fyrr
+      </lb> 
+      <lb n="27">o hynny ffrwythau melus eich diddanwch chwi
+      </lb> 
+      <lb n="28">eich dau.
+      
+      
+      </lb> 
+      <lb n="29">Am hynny, fel na ddigwyddo rhwngoch \rhyngoch\ chwi
+      </lb> 
+      <lb n="30">ymryson, gwn&acirc; 'r cyngor hwn a roddaf iti ymma:
+      </lb> 
+      <lb n="31">pa beth bynnac anfelus a ddigwyddo gartref: os
+      </lb> 
+      <lb n="32">gwnaeth dy wraig ddim ar fai diddana hi, ac na
+      </lb> 
+      <lb n="33">chynydda ei thrymder hi. O herwydd er maint o
+      </lb> 
+      <lb n="34">ofidiau a fo yn dy flino di, etto ni chaidi ddim a 'th
+      
+      </lb>
+      </pb>
+      <pb n="181.">
+      
+       
+      <lb n="1">flino 'n fwy nag eisiau ewyllys da dy wraig 
+      </lb>
+      <lb n="1-2">gartref.
+      </lb>
+      <lb n="2">
+       Pa wrthwyneb bynnac a elli di ei enwi, etto
+      </lb> 
+      <lb n="3">ni chaid di vn mor anrhaith ei oddef a bod yn
+      </lb> 
+      <lb n="4">ymryson a 'th wraig. Ac am hyn yn fwyaf dim y
+      </lb> 
+      <lb n="5">dylait ti berchi y cariad hwn.
+      
+      
+      </lb> 
+      <lb n="6">Ac os yw rheswm yn peri i ti oddef rhyw gam
+      </lb> 
+      <lb n="7">ar ddwylo dynnion eraill, mwy o lawer y dylaid
+      </lb> 
+      <lb n="8">oddef cam ar law dy wraig. Os bydd hi tylawd
+      </lb> 
+      <lb n="9">na * ddannod [-: * Edliw.]  iddi. Os bydd hi gwirion na 
+      </lb>
+      <lb n="9-10">watwar
+      </lb>
+      <lb n="10">
+       hi, ond bydd di dirionach wrthi. O 
+      </lb>
+      <lb n="10-11">herwydd
+      </lb>
+      <lb n="11">
+       dy gorph di yw hi gwedy ei gwneuthur yn
+      </lb> 
+      <lb n="12">vn cnawd &acirc; thi.
+      
+      
+      </lb> 
+      <lb n="13">Ond ti a ddywedi onid odid ei bod hi yn wraig
+      </lb> 
+      <lb n="14">lidiog, yn feddwen, yn anefeilaidd \anifeilaidd\, heb synwyr
+      </lb> 
+      <lb n="15">a rheswm ynddi: am yr achos hyn tosturia 
+      </lb>
+      <lb n="15-16">wrthi
+      </lb>
+      <lb n="16">
+       yn hytrach. Nag ynfyda yn dy lid ond 
+      </lb>
+      <lb n="16-17">gweddia
+      </lb>
+      <lb n="17">
+       ar yr Holl-alluog Dduw, rhybyddia a 
+      </lb>
+      <lb n="17-18">chynnorthwya
+      </lb>
+      <lb n="18">
+       hi &acirc; chyngor da, ymegnia di ar ei
+      </lb> 
+      <lb n="19">rhyddhau hi o 'r holl wyniau hyn: ond os curi di
+      </lb> 
+      <lb n="20">hi, ti a chwanegi ei gwyniau dr&#373;g hi, o herwydd
+      </lb> 
+      <lb n="21">ni wellhauir cyndynrwydd ac atcasrwydd trwy
+      </lb> 
+      <lb n="22">gyndynrwydd, onid trwy amynedd ac 
+      </lb>
+      <lb n="22-23">addfwynder.
+      </lb>
+      <lb n="23">
+      
+      
+      
+      </lb> 
+      <lb n="24">Ystyria pa wobr a gaidi ar law Dduw? O 
+      </lb>
+      <lb n="24-25">herwydd
+      </lb>
+      <lb n="25">
+       lle y galliti ei churo hi, etto os rhag ofn
+      </lb> 
+      <lb n="26">Duw yr ym-atteli di a dwyn yn oddefgar gyda
+      </lb> 
+      <lb n="27">ei baiau mawrion hi, yn hytrarch \hytrach\ o ran y 
+      </lb>
+      <lb n="27-28">gyfraith
+      </lb>
+      <lb n="28">
+       sydd yn gwahardd i wr droi ymmaith ei
+      </lb> 
+      <lb n="29">wraig pa fai bynnac a fo erni, ti a gai wobr mawr.
+      </lb> 
+      <lb n="30">A chyn y derbynnech y gwobr hynny, ti a gai
+      </lb> 
+      <lb n="31">lawer budd arall. O herwydd trwy hyn y gwnair
+      </lb> 
+      <lb n="32">hi yn vfyddach, a thithau a wnair er ei mwyn hi
+      </lb> 
+      <lb n="33">yn fwynach.
+      
+      
+      </lb> 
+      <lb n="34">Mae 'n scrifennedig mewn histori fod i ryw
+      
+      </lb>
+      </pb>
+      <pb n="182.">
+      
+       
+      <lb n="1">philosophydd diethr \dieithr\ wraig felldigedig atgas 
+      </lb>
+      <lb n="1-2">feddw.
+      </lb>
+      <lb n="2">
+       Pan ofynnwyd iddo paham yr ydoedd ef yn
+      </lb> 
+      <lb n="3">dwyn gyd&acirc; ei harferon drwg hi; fe attebodd, Trwy
+      </lb> 
+      <lb n="4">hyn, eb efe, mae imi gartref athro a siampl i 
+      </lb>
+      <lb n="4-5">ymddwyn
+      </lb>
+      <lb n="5">
+       pan fyddwyf allan. O herwydd, medd ef,
+      </lb> 
+      <lb n="6">mi a fyddaf gwell fy amynedd ymlhith eraill
+      </lb> 
+      <lb n="7">gwedy fy nyscu ac ymarfer beunydd i ddwyn gyd
+      </lb> 
+      <lb n="8">&acirc; hi. Yn wir cywilydd yw bod Paganiaid yn
+      </lb> 
+      <lb n="9">ddoethach n&acirc; nyni, nyni meddaf i 'r rhai y 
+      </lb>
+      <lb n="9-10">gorchymmynnir
+      </lb>
+      <lb n="10">
+       bod yn gyfelyb \gyffelyb\ i Angylion, ie i
+      </lb> 
+      <lb n="11">Dduw ei hun mewn amynedd. O gariad ar
+      </lb> 
+      <lb n="12">rinwedd ni yrrai y philosophydd hwn Socrates ei
+      </lb> 
+      <lb n="13">wraig oddiwrtho. Ie rhai a ddywaid mai am
+      </lb> 
+      <lb n="14">hyn y priododd ef ei wraig, i ddyscu y rhinwedd
+      </lb> 
+      <lb n="15">hon genthi.
+      
+      
+      </lb> 
+      <lb n="16">O blegyd hyn, am fod llawer heb fod mor
+      </lb> 
+      <lb n="17">gall a 'r gwr hwn: fy nghyngor yw, yn gyntaf ac
+      </lb> 
+      <lb n="18">ym-mlaen \ymlaen\ pob peth i &#373;r wneuthur ei orau i geisio
+      </lb> 
+      <lb n="19">gwraig dda rinweddol honest. Ond os 
+      </lb>
+      <lb n="19-20">digwydda
+      </lb>
+      <lb n="20">
+       ei dwyllo ef, ac iddo ddewis gwraig yr hon
+      </lb> 
+      <lb n="21">nid yw na da nac iawndda, yno canlyned y gwr
+      </lb> 
+      <lb n="22">y philosophydd hwn, ac addysced ei wraig 
+      </lb>
+      <lb n="22-23">ymmhob
+      </lb>
+      <lb n="23">
+       \ym mhob\ cynneddfeu da, ac na chyhoedded y pethau
+      </lb> 
+      <lb n="24">hyn byth yngolwg \yng ngolwg\ y byd.
+      
+      
+      </lb> 
+      <lb n="25">O herwydd oni bydd y marsiandwr gwedy
+      </lb> 
+      <lb n="26">cytuno yn gyntaf &acirc; 'i oruchwiliwr fal y gallai
+      </lb> 
+      <lb n="27">arfer ei farchnad-negesau 'n llonydd, ni osod ef
+      </lb> 
+      <lb n="28">ei long dan hwyl, na 'i law ar ei farsiandiaeth:
+      </lb> 
+      <lb n="29">felly gwnawn ninnau fal y caffom gyfeillach ein
+      </lb> 
+      <lb n="30">gwragedd, y rhai yw goruchwiliaid ein 
+      </lb>
+      <lb n="30-31">gorchwylion
+      </lb>
+      <lb n="31">
+       ni gartref yn esmwyth ac yn llonydd ddigon:
+      </lb> 
+      <lb n="32">a thrwy hyn yr aiff pob peth yn llwyddianus, ac
+      </lb> 
+      <lb n="33">felly yr awn ni trwy beriglau blin-f&ocirc;r y byd
+      </lb> 
+      <lb n="34">hwn.
+      
+      
+      </lb>
+      </pb>
+      <pb n="183.">
+      
+      
+       
+      <lb n="1">O herwydd fe fydd st&acirc;t ein bywyd ni yn fwy
+      </lb> 
+      <lb n="2">anrhydedd a diddanwch ini n&acirc; 'n tai, ein 
+      </lb>
+      <lb n="2-3">gweision,
+      </lb>
+      <lb n="3">
+       ein harian, ein t&icirc;r, ein meddiannau, ar cwbl
+      </lb> 
+      <lb n="4">oll ar a ellir eu cyfrif, fal na all yr holl 
+      </lb>
+      <lb n="4-5">bethau
+      </lb>
+      <lb n="5">
+       hynny os bydd ymryson ac anghytundeb,
+      </lb> 
+      <lb n="6">weithio ini vn diddanwch, felly y troir pob peth
+      </lb> 
+      <lb n="7">i 'n budd ni, a 'n bodd, os tynnwn y iau hon mewn
+      </lb> 
+      <lb n="8">vn cytundeb calon a meddwl.
+      
+      
+      </lb> 
+      <lb n="9">Am hynny ymegniwch i arfer eich priodas fal
+      </lb> 
+      <lb n="10">hyn, ac felly y 'ch arfogir chwi o 'r ddau ystlys.
+      </lb> 
+      <lb n="11">Chwi a ddiangasoch rhag maglau diawl a 
+      </lb>
+      <lb n="11-12">chwantau
+      </lb>
+      <lb n="12">
+       anghyfraithlon y cnawd, ac a gawsoch 
+      </lb>
+      <lb n="12-13">lonyddwch
+      </lb>
+      <lb n="13">
+       cydwybod trwy ordeinh&acirc;d priodas a 
+      </lb>
+      <lb n="13-14">ordeiniodd
+      </lb>
+      <lb n="14">
+       Duw, am hynny arferwch weddio 'n
+      </lb> 
+      <lb n="15">fynych arno, ar ei fod ef yn bresennol gyd&acirc; chwi,
+      </lb> 
+      <lb n="16">ac ar iddo efe gynnal cariad a charedigrwydd
+      </lb> 
+      <lb n="17">rhyngoch chwi. Gwnewch eich gorau o 'ch rhan
+      </lb> 
+      <lb n="18">chwi i 'ch ymarfer eich hunain a lledneisrwydd
+      </lb> 
+      <lb n="19">ac ammynedd, a dygwch yn llonydd gyd&acirc; 'r 
+      </lb>
+      <lb n="19-20">camsynnaid
+      </lb>
+      <lb n="20">
+       a ddigwyddo; fal hyn y bydd eich 
+      </lb>
+      <lb n="20-21">ymddygiad
+      </lb>
+      <lb n="21">
+       chwi yn hyfryd ac yn ddiddanus iawn.
+      
+      
+      </lb> 
+      <lb n="22">Ac er ei ryw wrthwyneb ganlyn (yr hyn ni
+      </lb> 
+      <lb n="23">ddichon bod yn amgen) ac er i aflwydd 
+      </lb>
+      <lb n="23-24">digwyddo,
+      </lb>
+      <lb n="24">
+       weithiau mewn vn ffordd, ac weithiau
+      </lb> 
+      <lb n="25">mewn ffordd arall: etto yn y trallod a 'r 
+      </lb>
+      <lb n="25-26">gwrthwyneb
+      </lb>
+      <lb n="26">
+       cyffredinol hwn, cyffodwch eich dwylaw
+      </lb> 
+      <lb n="27">eich dau tu&acirc; 'r nefoedd, gelwch am gynorthwy
+      </lb> 
+      <lb n="28">a nerth gan Dduw awdur eich priodas chwi,
+      </lb> 
+      <lb n="29">ac yn siccr fe fydd addewyd eich ymwared chwi
+      </lb> 
+      <lb n="30">yn agos: O blegid mae Christ yn dywedyd yn
+      </lb> 
+      <lb n="31">yr efengyl, Os cyduna dau neu dri ohonoch ar y
+      </lb> 
+      <lb n="32">ddaiar am ddim oll, beth bynnac a ddeisyfant a
+      </lb> 
+      <lb n="33">roddir iddynt gan fy-nhad \fy nhad\ yr hwn sydd yn y 
+      </lb>
+      <lb n="33-34">nefoedd.
+      </lb>
+      <lb n="34">
+      
+      
+      
+      </lb>
+      </pb>
+      <pb n="184.">
+      
+      
+       
+      <lb n="1">Paham am hynny yr ydwyd yn ofni perigl,
+      </lb> 
+      <lb n="2">lle y mae iti addewid mor barod, a chymmorth
+      </lb> 
+      <lb n="3">mor agos?
+      
+      
+      </lb> 
+      <lb n="4">Rhaid i chwi ddeall hefyd mor anghenrhaid
+      </lb> 
+      <lb n="5">yw i Gristion ddwyn croes Christ, o herwydd
+      </lb> 
+      <lb n="6">heb hon byth ni wybyddwn mor ddiddanus yw
+      </lb> 
+      <lb n="7">cymmorth Duw ini. Am hynny rhoddwch 
+      </lb>
+      <lb n="7-8">ddiolch
+      </lb>
+      <lb n="8">
+       i Dduw am ei fawr ddawn, gan ddarfod
+      </lb> 
+      <lb n="9">i chwi gymmeryd arnoch st&acirc;t priodas, a 
+      </lb>
+      <lb n="9-10">gweddiwch
+      </lb>
+      <lb n="10">
+       yn wastadol ar i 'r holl-alluog Dduw eich
+      </lb> 
+      <lb n="11">ymddiffyn a 'ch maenteinio ynddi yn 
+      </lb>
+      <lb n="11-12">llwyddiannus,
+      </lb>
+      <lb n="12">
+       fal na ormeiler chwi gan vn profedigaeth,
+      </lb> 
+      <lb n="13">na gwrthwyneb: Ond vwchlaw pob peth, 
+      </lb>
+      <lb n="13-14">gochelwch
+      </lb>
+      <lb n="14">
+       na roddoch achosion i ddiawl i rwystro
+      </lb> 
+      <lb n="15">ac i luddio eich gweddiau chwi, trwy ymryson
+      </lb> 
+      <lb n="16">ac angytundeb. O herwydd nid oes ymddiffynfa
+      </lb> 
+      <lb n="17">nac atteg gadarnach yn ein holl einioes ni n&acirc;
+      </lb> 
+      <lb n="18">gweddi, trwy 'r hon y gallwn alw am nerth
+      </lb> 
+      <lb n="19">Duw a 'i fwynhau, trwy 'r hon y gallwn gael
+      </lb> 
+      <lb n="20">ei fendith ef, ei rad, ei ymddiffyn, a 'i nawdd, felly
+      </lb> 
+      <lb n="21">i barhau hyd onis caffom y bywyd sydd well yn
+      </lb> 
+      <lb n="22">y byd a ddaw. Yr hwn fywyd a ganniatao ef ini
+      </lb> 
+      <lb n="23">yr hwn a fu farw drosom ni oll, i 'r hwn y 
+      </lb>
+      <lb n="23-24">byddo
+      </lb>
+      <lb n="24">
+       pob anrhydedd a chlod yn dragywydd, Amen.
+      
+      
+      
+      </lb>
+      </pb>
+      
+   </text>
+</text>

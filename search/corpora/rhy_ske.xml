@@ -1,0 +1,4349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../sketchengine.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+
+
+<text id="RhY">
+   
+   
+   
+   <head>
+   Peniarth 168, 1r-2r
+   </head>
+   
+   
+   
+   
+   <pb n="1r.">
+   
+   
+    
+   <lb n="1">Kyntaf henw a vu ar yr ynys honn oedd
+   </lb> 
+   <lb n="2">Albion sef oedd hynny y wenn ynys achos
+   </lb> 
+   <lb n="3">y creigiau gwynnion a welid o bell gann
+   </lb> 
+   <lb n="4">lann y moroedd nev ynteu o henw Albion
+   </lb> 
+   <lb n="5">verch Danaws val y dywaid Ovydd&nbsp;
+   </lb>
+   <lb n="5-6">Canys
+   </lb>
+   <lb n="6">
+    dau vrodyr a vuant nid amgen 
+   </lb>
+   <lb n="6-7">Danaws
+   </lb>
+   <lb n="7">
+    ac Egistws. Ac i 'r Danaws hwnnw
+   </lb> 
+   <lb n="8">i bu ddeg merched a deugein ac i Egistws
+   </lb> 
+   <lb n="9">i vrawd i bu deg a deugein o veibion. A 'r
+   </lb> 
+   <lb n="10">Danaws hwnnw drwy dwyll a brad a roes
+   </lb> 
+   <lb n="11">i verched oll ynn wreikae i 'r meibion 
+   </lb>
+   <lb n="11-12">hynny
+   </lb>
+   <lb n="12">
+    o hynaf i hynaf ac a orchmynnodd
+   </lb> 
+   <lb n="13">vddunt ladd o bob vn i gwr y nos gyntaf./
+   </lb> 
+   <lb n="14">Canys ofni ydd oedd i bwrid ef i lawr o 'i
+   </lb> 
+   <lb n="15">kadernid hwy rhac llaw./ A 'r merched a
+   </lb> 
+   <lb n="16">gyflawnassant i ewyllys ef oddieithyr
+   </lb> 
+   <lb n="17">Hippermestra y verch ieuangaf a 
+   </lb>
+   <lb n="17-18">drugarhaodd
+   </lb>
+   <lb n="18">
+   &nbsp;wrth Leinws i gwr ac a gedwis i
+   </lb> 
+   <lb n="19">vywyd iddo./ Ac am hynny i daliawdd i thad
+   </lb> 
+   <lb n="20">hi ac a 'i carcharodd mewn heirn trymion
+   </lb> 
+   <lb n="21">arnei/ A 'r neb a vynno gwybod i 
+   </lb>
+   <lb n="21-22">chwynvann
+   </lb>
+   <lb n="22">
+    a 'i geiriau hi ynn i charchar 
+   </lb>
+   <lb n="22-23">edryched
+   </lb>
+   <lb n="23">
+    lyfr Epistolarum a wnaeth Ovydd.
+   </lb> 
+   <lb n="24">Ac wedi diank o Linws ar y modd hwnnw
+   </lb> 
+   <lb n="25">rhac i ladd ef a ddaliodd y naw merched
+   </lb> 
+   <lb n="26">a deugein vchod ac a 'i rhoes mewn llong
+   </lb> 
+   <lb n="27">voel heb hwyl na llywydd arnei ac wedi
+   
+   </lb>
+   </pb>
+   <pb n="1v.">
+   
+    
+   <lb n="1">hir hwylio moroedd onaddunt, hwynt a ddoethant
+   </lb> 
+   <lb n="2">drwy dynghedvenn i 'r ynys honn. Ac 
+   </lb>
+   <lb n="2-3">oblegid
+   </lb>
+   <lb n="3">
+    bod henw y verch hynaf ynn Albion y
+   </lb> 
+   <lb n="4">gelwid yr Ynys o 'i henw hi Albion./
+   
+   
+   </lb> 
+   <lb n="5">Orosiws sydd ynn kytuno ac Ovydd ac yn 
+   </lb>
+   <lb n="5-6">dywedud
+   </lb>
+   <lb n="6">
+    mae brodur oedd Danaws ac Egistus
+   </lb> 
+   <lb n="7">a lladd o 'r merched i gwyr val i 
+   </lb>
+   <lb n="7-8">dywetpwyd
+   </lb>
+   <lb n="8">
+    vchod./ Ac wedi trigaw o 'r merched
+   </lb> 
+   <lb n="9">hynn ennyd ynn yr ynys phrwythlawn
+   </lb> 
+   <lb n="10">honn heb wyr, hwynt a varchogassant 
+   </lb>
+   <lb n="10-11">pawb
+   </lb>
+   <lb n="11">
+    i gilydd/ A phann weles yr ysbrydoedd
+   </lb> 
+   <lb n="12">a elwid Incubos hynny hwynt a 
+   </lb>
+   <lb n="12-13">ymrithiassant
+   </lb>
+   <lb n="13">
+    ynn rhith dynion ac a 
+   </lb>
+   <lb n="13-14">gydiassant
+   </lb>
+   <lb n="14">
+    ac hwynt./ Ac val hynny y caad
+   </lb> 
+   <lb n="15">y kowri a 'r gwiddonod mawrion 
+   </lb>
+   <lb n="15-16">trysglion
+   </lb>
+   <lb n="16">
+    kreuliaid a lledynvydion. Yr rhai a 
+   </lb>
+   <lb n="16-17">gynhaliassant
+   </lb>
+   <lb n="17">
+    yr ynys o gylch yr amser y
+   </lb> 
+   <lb n="18">doeth Plant yr Israel o gaethiwed yr Aipht
+   </lb> 
+   <lb n="19">hyd pann ddoeth y Brutaniaid y 'w&nbsp;
+   </lb>
+   <lb n="19-20">chyvanneddu./
+   </lb>
+   <lb n="20">
+   
+   
+   
+   </lb> 
+   <lb n="21">Socrates a ddywaid bod yr ysbrydoedd ynn
+   </lb> 
+   <lb n="22">trigo rhwng y ddayar a 'r lleuad a chyfran
+   </lb> 
+   <lb n="23">vddunt o nattur y dynion a chyfrann arall
+   </lb> 
+   <lb n="24">o natur angylion A 'r rhai hynny a
+   </lb> 
+   <lb n="25">gynnullant annian dynion a goller A
+   </lb> 
+   <lb n="26">phann vynnant hwynt a gymerant vddunt
+   
+   </lb>
+   </pb>
+   <pb n="2r.">
+   
+    
+   <lb n="1">gyrph o wybyr wedi i dewychu ac ynn rhith
+   </lb> 
+   <lb n="2">dynion a gydiant a gwragedd Ac velly y
+   </lb> 
+   <lb n="3">caad y kowri val i dywetpwyd vchod./
+   
+   
+   </lb> 
+   <lb n="4">Gwedi hynny y goresgynnodd&nbsp;Brutws yr
+   </lb> 
+   <lb n="5">ynys ac a beris i galw o 'i henw ef e hun
+   </lb> 
+   <lb n="6">Brutaen a dileu yr henw a vuassei arni
+   </lb> 
+   <lb n="7">o 'r blaen. O dechreu byd hyd pann ddoeth i bu
+   </lb> 
+   <lb n="8">3151. o vlynyddoedd nev val hynn y 
+   </lb>
+   <lb n="8-9">ddarlleodronn
+   </lb>
+   <lb n="9">
+    annysgedic tair mil a chant ac 
+   </lb>
+   <lb n="9-10">vnarddec
+   </lb>
+   <lb n="10">
+    a deugeint. Canys o ddechreu byd hyd
+   </lb> 
+   <lb n="11">pann gymerth Crist gnawd y bu V,M C.
+   </lb> 
+   <lb n="12">a lxxxxix o vlynyddoedd./
+   
+   
+   
+   
+   </lb>
+   <head>
+   Peniarth 163 ii, 1-16, 21-55
+   </head>
+   
+   
+   
+   
+
+   </pb>
+   <pb n="1.">
+   
+   
+   <head>
+    
+   <lb n="1">Gossodiad yr ynys</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="2">Gossodiad yr ynys honn ssydd Rwng y gorllewin a 'r
+   </lb> 
+   <lb n="3">gogledd yn yr eigiawn megis peth a ossodid allan o 'r byd
+   </lb> 
+   <lb n="4">ac o hyd yn estyn o 'r deav i 'r gogledd ac o 'r tv dwyrain iddi
+   </lb> 
+   <lb n="5">y mae Ffraink / o 'r tu deav y mae ysbaen / o 'r tu gogledd 
+   </lb>
+   <lb n="5-6">llychlyn,
+   </lb>
+   <lb n="6">
+    ac o tu gorllewin iddi y mae Ywerddon / Ac am vod
+   </lb> 
+   <lb n="7">I gossodiad hi mor agos att y gogledd, ef a vydd y nos kyn oleved weithie
+   </lb> 
+   <lb n="8">megis na wyppo dyn: pa un yw ai bod y wawrddydd yn
+   </lb> 
+   <lb n="9">ymddangos, ai na ddoeth y tywyllwg y nos o gwbl ac o 'r
+   </lb> 
+   <lb n="10">achos hwnn y bydd hirddydd haf a hirnos y gayaf o
+   </lb> 
+   <lb n="11">XVIII awr &#8212;&nbsp;
+   
+   
+   Hwy yw yr ynys hon, noc yw i lled
+   </lb> 
+   <lb n="12">a meithach yn i ffenau noc yn i chanol / VIII C 
+   </lb>
+   <lb n="12-13">milldir
+   </lb>
+   <lb n="13">
+    yw I hyd pwy bynac a 'i messuro o le a elwir 
+   </lb> 
+   <lb n="14">penwhitster&nbsp;ynghernyw \yng Nghernyw\: hyd ymor \ym mor\ kadnes yr hwnn
+   </lb> 
+   <lb n="15">a elwir werydd yn iaith vryttanec a mwy no dev C
+   </lb> 
+   <lb n="16">milltir yn i lled nid amgen o / Fynyw hyd Iermowth
+   </lb> 
+   <lb n="17">yn Northfolk &#8212;
+   
+   </lb>
+   <head>
+   Ragorav yr ynys
+   </head>
+   
+   
+   
+
+   <lb n="18">Ragorol yw yr ynys honn Rac gwledydd eraill kans
+   </lb> 
+   <lb n="19">hi a all ymwasnevthu ynthi I hun heb gynhorthwy
+   </lb> 
+   <lb n="20">gwledydd eraill / o aniffygedigaeth ffrwythlonder
+   </lb> 
+   <lb n="21">o bob peth a 'r a vo Raid,
+   
+   
+   Ffrwythlawn yw o bob
+   </lb> 
+   <lb n="22">Rryw anifeiliaid ac adar gwyllt a dof. Meyssydd
+   </lb> 
+   <lb n="23">llydain ehang sydd ynddi a bryniav eglvr gorvchel addas I bob
+   </lb> 
+   <lb n="24">Rryw ddiwyll / yn y rhai i devant amrafaelion ffrwythav
+   </lb> 
+   <lb n="25">o ffrwythlonder y dywarchen yn eu amsseroedd /
+   
+   
+   </lb>
+   </pb>
+   <pb n="2.">
+   
+   
+    
+   <lb n="1">Ynddi mae koedydd a fforestydd kyflawn o 
+   </lb>
+   <lb n="1-2">amrafelion
+   </lb>
+   <lb n="2">
+    wistviloedd ac yn eithafoedd y Rrai hyny lleoedd
+   </lb> 
+   <lb n="3">addas I borveydd aniveiliaid gwyllt a dof A
+   </lb> 
+   <lb n="4">chyvlawn o amrafaelion vlodevoedd amrywliwiawc
+   </lb> 
+   <lb n="5">addas I wenwyn gynvllaw I ffrwythau a thann y
+   </lb> 
+   <lb n="6">mynyddoedd hynny y mae ffynhonnav eglur ac
+   </lb> 
+   <lb n="7">yn i kylch hwyntav: gweirgloddiav gwastad kyflawn
+   </lb> 
+   <lb n="8">o flodau drwy yr rrai hynny dwfr o ffynhoniau
+   </lb> 
+   <lb n="9">yn kerdded yn ffrydiav dann lithraw o araf odwrdd
+   </lb> 
+   <lb n="10">Gann ddiddanu a orweddai ar i glanau ac ardymherynt
+   </lb> 
+   <lb n="11">eu kylchyn kyflawn yw hefyd o afonudd  a ffysgodlyne
+   </lb> 
+   <lb n="12">o bob rryw bysgod  perthynol i ddwfr kroyw a 'r
+   </lb> 
+   <lb n="13">mor Sydd yn i chylch o gylch yn yr hwnn y kair pysgod
+   </lb> 
+   <lb n="14">a elwir Dolffiniaid Moelrroniaid lloe y mor a
+   </lb> 
+   <lb n="15">ffob rrywigaeth \rhywiogaeth\ bysgod a 'r a berthynont i 'r dwfr hallt
+   
+   
+   </lb> 
+   <lb n="16">Yno y kair hevyd ymrafaelion rywiogaethav ar
+   </lb> 
+   <lb n="17">greigiav yn yr rrain I kair main perls o bob
+   </lb> 
+   <lb n="18">lliw hayach kochion a rrvddion ac yn vynychaf
+   </lb> 
+   <lb n="19">Rrai gwynnion 
+   
+   
+   Mae yno hevyd vath ar gregin
+   </lb> 
+   <lb n="20">o 'r Rrai y gwnair lliw Sangwyn tekaf o 'r byd
+   </lb> 
+   <lb n="21">yr hwnn nid ystaenia er gwres havl na 
+   </lb>
+   <lb n="21-22">gwlybwr
+   </lb>
+   <lb n="22">
+    glaw 
+   
+   
+   Mae yno hevyd ffynhonnav hallt
+   </lb> 
+   <lb n="23">a Rrai gwressawc ac aberoedd twymun yn
+   </lb> 
+   <lb n="24">Rredec ohonunt yn Enaint i bawb a 'r
+   
+   
+   </lb>
+   </pb>
+   <pb n="3.">
+   
+    
+   <lb n="1">a 'r a 'i dissyvo ac yn gymhessur I bob oedran o ddyfnder mewn
+   </lb> 
+   <lb n="2">amrafaelion leoedd 
+   
+   
+   Yr ynys honn hevyd Sydd gyflawn o wythi
+   </lb> 
+   <lb n="3">metteloedd arian / plwm / ysten / pres / a hayarn / 
+   
+   
+   Yno I
+   </lb> 
+   <lb n="4">kair dann donnav y ddayar Rowiogaeth bridd a elwir marl
+   </lb> 
+   <lb n="5">a phann vo braster y ddayar wedi 'r \ry\ Sychv ac yn myned yn
+   </lb> 
+   <lb n="6">ddiffrwyth o bwrir y pridd hwnw arnei Ef a 'i gwna yn well
+   </lb> 
+   <lb n="7">I ardymyr noc i bu o 'r blaen hyd ymhen \ym mhen\ y pedair blynedd
+   </lb> 
+   <lb n="8">ar hugaint 
+   
+   
+   Mae yno Rrywiogaeth arall ar bridd a Elwir marl
+   </lb> 
+   <lb n="9">Gwynn yr hwnn a rywioka y tir LXXX mlynedd 
+   
+   
+   Yno hevyd y mae
+   </lb> 
+   <lb n="10">main a Elwir Muchudd ac o govynir am I tegwch: po dduaf
+   </lb> 
+   <lb n="11">Tekkaf ynt O gofynir am I nattur Y dwr a bair iddaw losgi
+   </lb> 
+   <lb n="12">ar oel a 'i diffydd / Os I veddiant pann dwymner drwy I hogi
+   </lb> 
+   <lb n="13">neb I rwbio ar vrethyn: Sugno a wna atto bethav ysgavyn
+   </lb> 
+   <lb n="14">Os o 'i ddaioni Ef a wna les Rrac bolwstr i 'r neb a 'i 
+   </lb>
+   <lb n="14-15">harweddo
+   </lb>
+   <lb n="15">
+    hefyd I vwc ef pan losger a yrr Seirff ar ffo 
+   
+   
+   Amlder
+   </lb> 
+   <lb n="16">o ddefaid a hyddod Sydd yn yr ynys honn eb ddim bleiddiau
+   </lb> 
+   <lb n="17">ac am hynny y gellir gadu yn hyfach y nos yny korddlanau
+   
+   
+   </lb> 
+   <lb n="18">Yno hevyd y kair main mynor o amrafaelion liwiau a 
+   </lb>
+   <lb n="18-19">cheric
+   </lb>
+   <lb n="19">
+    kalch / a chlai gwynn a choch I wneuthur llestri pridd / a
+   </lb> 
+   <lb n="20">brik / a theils i doi tai 
+   
+   
+   Gwinwydd hevyd Sydd ynddi mewn
+   </lb> 
+   <lb n="21">llawer o leoedd yn tyvu val I gellir kael digon o win I
+   </lb> 
+   <lb n="22">wassneuthu yfferenav \offerennau\ trwy gwbl o 'r ynys 
+   
+   
+   Saffrwm ac
+   </lb> 
+   <lb n="23">amravaelion llyssevoedd garddau eb rif arnunt a ffob
+   </lb> 
+   <lb n="24">peth a 'r a vo rreidiol a damunedic I vywyd dynion
+   </lb> 
+   <lb n="25">y Sydd ynthi yn ddigonol eb orvod gwest ar
+   </lb> 
+   <lb n="26">le arall o 'r byd
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="4.">
+   
+   
+   
+   <head>
+    
+   <lb n="1">Ryfeddode yr ynys</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="2">LLawer o anrryveddode y Sydd yn ynys brydain Eissios
+   </lb> 
+   <lb n="3">mae pedwar onaddunt yn Rragorawl Rrac eraill 
+   
+   
+   Y
+   </lb> 
+   <lb n="4">kyntaf yw Twll yn y ddayar lle gelwir y pec a 'r Saesson a 'i
+   </lb> 
+   <lb n="5">geilw ef tin diawl o 'r pek, ac o hwnw y daw gwynt allan
+   </lb> 
+   <lb n="6">kyn gadarned ac i chwytte allan gapiav trymion o 
+   </lb>
+   <lb n="6-7">bwrid
+   </lb>
+   <lb n="7">
+    I mewn 
+   
+   
+   Ail yw kor y kowri ar vynydd ambri ger
+   </lb> 
+   <lb n="8">llaw kaer garadawc yr honn a elwir heddiw Salsbri
+   </lb> 
+   <lb n="9">yn y lle i kladdwyd twyssogion y bryttaniaid, a laddyssid
+   </lb> 
+   <lb n="10">drwy dwyll a brad hengest ysgymun twyssoc y Saesson lle
+   </lb> 
+   <lb n="11">mae anveidrol vain o vaint gwedi 'r \ry\ ossod ar lun pyrth
+   </lb> 
+   <lb n="12">pob un ar ucha I gilydd: ac ni wyr neb yn ysbys 
+   </lb> 
+   <lb n="13">pa vodd I gossoded hwynt yno 
+   
+   
+   Trydydd yw gogof a elwir
+   </lb> 
+   <lb n="14">sherd hol a gogofav eraill lle 'r aethant ddynion yn vynych
+   </lb> 
+   <lb n="15">I mewn ac a welsant adeiladav ac avonydd ynthunt
+   </lb> 
+   <lb n="16">ac Er hyny nid oes neb yn gallv myned y 'w diben hwynt
+   
+   
+   </lb> 
+   <lb n="17">Pedwerydd yw gweled y glaw yn ymddyrchafel o 'r 
+   </lb>
+   <lb n="17-18">mynyddoed,
+   </lb>
+   <lb n="18">
+    Rryngtho a 'r awyr ac eboludd yn disgyn
+   </lb> 
+   <lb n="19">ar hyd y meyssydd 
+   
+   
+   Mae hevyd yn y gogledd yn ynys
+   </lb> 
+   <lb n="20">brydain lle gorvu arthvr ar y ffichdiaid a 'r ysgottiaid
+   </lb> 
+   <lb n="21">llynn a elwir llynn llymonwy ac yntho yr oedd LX ynys
+   </lb> 
+   <lb n="22">a thrugain avon o avonydd prydyn yn dyvod i 'r llynn
+   </lb> 
+   <lb n="23">ac nid oes ond un yn rredec i 'r mor a llefyn yw i henw
+   </lb> 
+   <lb n="24">ac ymhob ynys onaddunt y mae karec uchel vawr
+   </lb> 
+   <lb n="25">ac ymhob karec nyth Eryr A phann ddelont hynny
+   </lb> 
+   <lb n="26">o Eryrod I weiddi i gyd ar ben yr un garec diau
+   </lb> 
+   <lb n="27">oedd gann wyr y wlad vod gormes yn dyvod am i phenn
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="5.">
+   
+   
+   Ryveddode yr ynys 
+    
+   <lb n="1">Mae yno hevyd lynn ac XX troedvedd yn i hyd ar kymaint
+   </lb> 
+   <lb n="2">yn i led a phump yn i ddyfnder a chevlenydd uchel yn i gylch
+   </lb> 
+   <lb n="3">a IIII Rryw bysgod Sydd yntho ymhob kongl o 'r llynn y mae un
+   </lb> 
+   <lb n="4">ac nid ymwasg yr un a 'i gylydd ac ni chae yr un 
+   </lb>
+   <lb n="4-5">onaddunt
+   </lb>
+   <lb n="5">
+    yn Rrann y llall erioed 
+   
+   
+   Mae llynn arall yn ymyl
+   </lb> 
+   <lb n="6">kymru ar lann Havren a llynn lliwon I gelwir / a phann
+   </lb> 
+   <lb n="7">lanwo y mor: y llwnk yntau y mor megis mor gerwyn
+   </lb> 
+   <lb n="8">ac ni chudd y glanau er a el yntho o ddwfr / a ffan dreio
+   </lb> 
+   <lb n="9">y mor y lleinw yntau / ac I chwydda megis mynydd 
+   </lb>
+   <lb n="9-10">mawr
+   </lb>
+   <lb n="10">
+    dan daflu tonnau a phwy bynac a vai yn Sefyll
+   </lb> 
+   <lb n="11">ar lann y llynn a 'i wyneb attaw: Ef a Sugnai I mewn
+   </lb> 
+   <lb n="12">o 'i anvodd ac er nessed i 'r llynn ir ai ddyn / a 'i wyneb
+   </lb> 
+   <lb n="13">o iwrtho, nid ar gyweddai arno ddim / 
+   
+   
+   Llynn arall Sydd
+   </lb> 
+   <lb n="14">a mur maen yn i gylch, lle bydd pobl yn ymdrochi yn 
+   </lb>
+   <lb n="14-15">vynych
+   </lb>
+   <lb n="15">
+    a hwynt a geffynt y dwfr yn yr ardymyr I damunynt ai 'n oer ai yn dwymyn
+   
+   
+   </lb> 
+   <lb n="16">Mae ynthi hevyd ffynhoniau o ddwfr hallt ymhell o iwrth y 
+   </lb>
+   <lb n="16-17">mor
+   </lb>
+   <lb n="17">
+   &nbsp;ar dwfr a vydd yn heli drwy yr wythnos, hyd bryd 
+   </lb>
+   <lb n="17-18">gosber
+   </lb>
+   <lb n="18">
+    dduw Sadwrn: ac o hynny hyd gyfryw amser dranoeth
+   </lb> 
+   <lb n="19">y bydd yn groyw ac o 'r heli hwnw y kair halen gwynn
+   </lb> 
+   <lb n="20">man. ac Ef a gyrchir ymhell y 'w roi mewn Salterau
+   </lb> 
+   <lb n="21">ar vyrddav arglwyddi a gwyr o stad 
+   
+   
+   Ac mae hevyd
+   </lb> 
+   <lb n="22">yn ynys brydain, glawdd yr hwnn y daw gwynt kyn
+   </lb> 
+   <lb n="23">gadarned val nall neb Sefyll ger bronn y klawdd
+   
+   
+   </lb> 
+   <lb n="24">Mae hevyd yno lynn a wna prenn yn garec or bydd
+   </lb> 
+   <lb n="25">yntho vlwyddyn ac am hynny y bydd dynion yn naddu
+   </lb> 
+   <lb n="26">prenniau, ar lun main hogi ac yn i bwrw I mewn
+   
+   
+   </lb> 
+   <lb n="27">Gerald a ddowaid bod koed yn ymyl manachloc wynbwrn
+   </lb> 
+   <lb n="28">ger llaw y badd ac o Syrth kaink yn y dwfr neu yn y
+   </lb> 
+   <lb n="29">ddayar y Sydd dann y koed: Ef ai yn garec erbynn
+   
+   </lb>
+   </pb>
+   <pb n="6.">
+   
+    
+   <lb n="1">pen y vlwyddyn a 'r un Gerald a ddywaid bod dann gaer
+   </lb> 
+   <lb n="2">lleon, avon yn rredec a Elwir Dyfrdwy yr honn Sydd yn
+   </lb> 
+   <lb n="3">Tervynu Kymru a lloegr heddiw mewn rryw loeodd ac
+   </lb> 
+   <lb n="4">arver oedd genthi newidio I chwrs a 'i rrydav bob 
+   </lb>
+   <lb n="4-5">blwyddyn
+   </lb>
+   <lb n="5">
+    ac I ba du bynac ai tu a lloegr ai tu a chymru
+   </lb> 
+   <lb n="6">y torai ac I pwyssai hi vwyaf: diav oedd gan bawb
+   </lb> 
+   <lb n="7">o 'r wlad honno, pannyw y tu hwnw a gai y gwaethaf
+   </lb> 
+   <lb n="8">ar llall y gorav y flwyddyn honno A 'r avon honno
+   </lb> 
+   <lb n="9">Sydd yn dyvod o lynn tegid ac Er bod amlder o
+   </lb> 
+   <lb n="10">leissiaid yn yr avon ni chad yr un yn y llynn a
+   </lb> 
+   <lb n="11">hwy a las yn vynych yn y rryd nessaf i 'r llynn ac
+   </lb> 
+   <lb n="12">Er bod amlder o bysgod yn y llynn a elwir gwniaid
+   </lb> 
+   <lb n="13">ni chad yr un yn yr avon A phann vo gwynt 
+   </lb>
+   <lb n="13-14">mawr
+   </lb>
+   <lb n="14">
+    ar hyd y llynn a ddywetpwyd uchod: llivo a wna yr
+   </lb> 
+   <lb n="15">avon, gan ffrydiav a thonnav o 'r llynn megis pe bai
+   </lb> 
+   <lb n="16">dymestl vawr o law a hi a leinw hyd pann el dros
+   </lb> 
+   <lb n="17">y doludd a 'r meissydd ac amser kynhayaf hi a wna
+   </lb> 
+   <lb n="18">ddrwc mawr ar wair ac yd o 'r llynn hyd lle mae hi
+   </lb> 
+   <lb n="19">yn mynd i 'r mor Er na bo un dafn glaw o 'r wybyr
+   </lb> 
+   <lb n="20">o bydd y gwynt oddi ar hyd y llynn 
+   
+   
+   Mae bedd ar benn
+   </lb> 
+   <lb n="21">brynn yn yr ynys honn, yr hwnn Sy gymhessur i bob
+   </lb> 
+   <lb n="22">dyn a 'r a 'i provo o hyd ac o gostwng dyn blin ar i linie
+   </lb> 
+   <lb n="23">Ef a vydd diflin yr awr honno mal pe kaffai hir
+   </lb> 
+   <lb n="24">orffowys
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="7.">
+   
+   
+   
+   <head>
+    
+   <lb n="1">Rannav yr ynys</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="2">Gwedi marw brutus y brenhin kyntaf a oresgynodd yr ynys honn
+   </lb> 
+   <lb n="3">y Rranwyd yr ynys yn Dair Rrann Rrwng I drimaib nid 
+   </lb>
+   <lb n="3-4">amgen
+   </lb>
+   <lb n="4">
+    lokrenvs, Kamber / ac Albanaktus / 
+   
+   
+   Lokrinus
+   </lb> 
+   <lb n="5">yr hynaf a gavas yn i rann / O Vor Ffraink o 'r 
+   </lb>
+   <lb n="5-6">nailldu
+   </lb>
+   <lb n="6">
+    / a havren o 'r tu arall, hyd avon hwmbr ac a 'i
+   </lb> 
+   <lb n="7">gelwis o 'i henw I hun Loegr / Eissioes mae lloegr
+   </lb> 
+   <lb n="8">heddyw o hwmbr / hyd avon Duedd / 
+   
+   
+   Albanaktus a
+   </lb> 
+   <lb n="9">gavas yn i rann yntav: o hwmyr hwnt hyd ymor \ym mor\
+   </lb> 
+   <lb n="10">llychlyn ac a 'i gelwis o 'i henw I hun yr Albann &#8212;
+   
+   
+   </lb> 
+   <lb n="11">Kamber y trydydd mab a gavas yn i ran yntau o hafren I vynu
+   </lb> 
+   <lb n="12">ac a 'i gelwis o 'i henw I hun Kymru eissioes mae
+   </lb> 
+   <lb n="13">hi yn llai no hyny heddiw / kanys y Saesson a 
+   </lb>
+   <lb n="13-14">oresgynassant
+   </lb>
+   <lb n="14">
+    lawer o 'r tir 
+   
+   
+   Ac offa vrenhin mers
+   </lb> 
+   <lb n="15">a wnaeth klawdd anveidrol I vaint a 'i hyd / yn
+   </lb> 
+   <lb n="16">dervyn Rwng kymru a lloegr ac a Elwir heddiw
+   </lb> 
+   <lb n="17">Klawdd Offa a 'r klawdd hwnw Sydd yn estyn 
+   </lb> 
+   <lb n="18">o Emyl brusto hyd lle tery dyfrdwy yn y mor 
+   </lb>
+   <lb n="18-19">gerllaw
+   </lb>
+   <lb n="19">
+    mynachloc ddinas bassing Yn arwydd ar hyny
+   </lb> 
+   <lb n="20">mae henw Seissnic, ar y trefi is law y klawdd o 'r
+   </lb> 
+   <lb n="21">penn bwy gilydd iddaw nid amgen Mortun /
+   </lb> 
+   <lb n="22">Westun / Silattun / ac eraill mwy er yn bod
+   </lb> 
+   <lb n="23">ni o Eissie gwybod yr iaith yn dywedud tunn
+   </lb> 
+   <lb n="24">ar y penn ol I henwav y trefi hynn lle dylem
+   </lb> 
+   <lb n="25">ddywedud town Sef yw hyny tref ac o 'r
+   </lb> 
+   <lb n="26">tu vchaf i 'r klawdd y mae kristionydd / kyssylle /
+   </lb> 
+   <lb n="27">hendregeginan / krogen Iddon / krogen wladus y
+   </lb> 
+   <lb n="28">bydd y Saesson yn i hanod i 'r kymru gan i galw
+   </lb> 
+   <lb n="29">Walis grogen / a mwy yw 'r anod a 'r kywilydd 
+   </lb>
+   <lb n="29-30">iddynt
+   </lb>
+   <lb n="30">
+    hwy: kans yno y llas llawer onaddunt / ac
+   </lb> 
+   <lb n="31">I kladdwyd hwynt mewn adwy ar y klawdd offa a
+   </lb> 
+   <lb n="32">Elwir adwyr beddav/ ymhenn \ym mhen\ park kasstell y waun
+   
+   </lb>
+   </pb>
+   <pb n="8.">
+   
+    
+   <lb n="1">Ac or bydd henw kymreic ar dref is law y klawdd ef a vydd
+   </lb> 
+   <lb n="2">arnei henw Seissnic hevyd / Megis y waun a 
+   </lb>
+   <lb n="2-3">elwir
+   </lb>
+   <lb n="3">
+    Sirk / tref y klawdd ymeilienydd \ym Maelienydd\ a elwir Knychton /
+   </lb> 
+   <lb n="4">llan andras a elwir presten / ac uwchlaw y klawdd
+   </lb> 
+   <lb n="5">anaml y kair y kyfryw &#8212;&nbsp;
+   
+   
+   Tir kymry Sydd ffrwythlawn
+   </lb> 
+   <lb n="6">yn y gwastatir a 'r kymoedd  i ddwyn pob 
+   </lb>
+   <lb n="6-7">rrywiogaeth
+   </lb>
+   <lb n="7">
+    yd / ac aml yw koedydd ynthi a ffynhonau oerion
+   </lb> 
+   <lb n="8">ac afonydd kyflawn o bysgod / Mynyddoedd mawr 
+   </lb> 
+   <lb n="9">Sydd ynthi, kyflawn o borfa I vagu pob rrywigaeth \rhywiogaeth\ anifeil
+   </lb> 
+   <lb n="10">iaid Gwyllt a gwar / ynddi y kair mwyn pob metel / a
+   </lb> 
+   <lb n="11">morlo / a main nadd / a main llifo / a main melinau
+   </lb> 
+   <lb n="12">a gair yn aml o leoedd / Hevyd kic a ffysgod mor
+   </lb> 
+   <lb n="13">a dwfr kroyw / a gwin / a meddyglyn / a chwrw / a ffob
+   </lb> 
+   <lb n="14">peth a 'r a vai reidiol i vywyd tynion \dynion\ ac anifeiliaid
+   </lb> 
+   <lb n="15">mae 'r ddayaren yn i rroi vddynt drwy radau dvw
+   </lb> 
+   <lb n="16">mor gyflawn / ac i ddywedvd ar eiriau byrion ddaioni
+   </lb> 
+   <lb n="17">a Rragorau yr ynys honn Mae hi gwedi gossod 
+   </lb>
+   <lb n="17-18">ynghanol
+   </lb>
+   <lb n="18">
+    \yng nghanol\ y mor val pe bai dduw gwedi ordeinio yno gell a
+   </lb> 
+   <lb n="19">bwtri i 'r holl ddayar 
+   
+   
+   Tair llys frenhinawl oedd ynthi
+   </lb> 
+   <lb n="20">gynt nid amgen  un yn aberffro ymon \ym M&ocirc;n\ / arall
+   </lb> 
+   <lb n="21">Ynghaer vyrddin / a 'r drydedd ymhowys \ym Mhowys\ lle gelwir
+   </lb> 
+   <lb n="22">dinas Pengwern / yr honn a Elwir heddiw Ymwythic
+   </lb> 
+   <lb n="23">a honno a smudwyd \symudwyd\ i Vathrafal ynghaer Einion ar
+   </lb> 
+   <lb n="24">honn o gaer vyrddin a smvdwyd \symudwyd\ I ddinevwr
+   
+   
+   </lb> 
+   <lb n="25">LLawer o ryveddodau Sydd yn y wlad honn / y mae
+   </lb> 
+   <lb n="26">ynys ymorganwc \ym Morgannwg\ yn ymyl mor hafren ac
+   </lb> 
+   <lb n="27">ynthi dwll bychan yn y ddayar ac o rrydd dyn i glvst
+   </lb> 
+   <lb n="28">wrth y twll hwnw Ef a glyw sain rryvedd yntho / weithie
+   </lb> 
+   <lb n="29">megis gwynt mawr mewn koed / weithiiau
+   
+   
+   </lb>
+   </pb>
+   <pb n="9.">
+   
+    
+   <lb n="1">Eraill meigis llivo arvau neu hogi / gweithiau eraill val
+   </lb> 
+   <lb n="2">trwst tan mawr mewn ffwrnais 
+   
+   
+   Hefyd mae gwlad yn
+   </lb> 
+   <lb n="3">Swydd benfro y bydd ysbrydoedd yn vynych yn blino
+   </lb> 
+   <lb n="4">y bobl ac yn I kuro a thom ac a thywairch dann
+   </lb> 
+   <lb n="5">ymsserthu a hwynt / a phann welwynt hyny hysbys
+   </lb> 
+   <lb n="6">yw gann wyr y tir vod blinder mawr yn dyvod
+   </lb> 
+   <lb n="7">uddynt / ac ni Ellir gyru yr ysbrydoedd hyny ymaith
+   </lb> 
+   <lb n="8">drwy na chrefft na gweddiau 
+   
+   
+   Hevyd yn y deau lle gelwir
+   </lb> 
+   <lb n="9">y kruc mawr y mae bedd kymhessur o hyd a lled
+   </lb> 
+   <lb n="10">I bawb / ac o gedy dyn yno I arvau kyfan dros nos ef
+   </lb> 
+   <lb n="11">a 'i kaiff hwynt yn ddryllie dranoeth 
+   
+   
+   Hevyd yngwynedd \yng Ngwynedd\
+   </lb> 
+   <lb n="12">y mae ynys vechan a elwir Enlli / a chynhonwyr \chanonwyr\ krefyddol oedd
+   </lb> 
+   <lb n="13">yn i chyvanheddv a 'r hynaf onaddunt a vyddai varw yn
+   </lb> 
+   <lb n="14">gynta ac velly o hynaf i hynaf / ac yn yr ynys honn
+   </lb> 
+   <lb n="15">I kladdwyd Merddin vab morfrynn herwydd a ddywedir
+   
+   
+   </lb> 
+   <lb n="16">Gerllaw Rrvddlan y mae ffynon vechan a Rrvw amser yn y
+   </lb> 
+   <lb n="17">dydd y bydd digon o ddwfr ynthi / a rruw amser arall ni bydd un
+   </lb> 
+   <lb n="18">dafn 
+   
+   
+   Hevyd yn ynys von y mae kareg gymaint a
+   </lb> 
+   <lb n="19">morddwyd gwr ac Er pelled y dyker hi o 'i lle hi a vydd
+   </lb> 
+   <lb n="20">erbyn tranoeth yn yr un mann ac i dyked ohonaw
+   
+   
+   </lb> 
+   <lb n="21">Hvw iarll ymwythic yn amser hari y kyntaf frenhin a beris 
+   </lb>
+   <lb n="21-22">rrwymo
+   </lb>
+   <lb n="22">
+    y garec honn a chadwyn hayarn wrth garec arall
+   </lb> 
+   <lb n="23">a 'i bwrw yn y mor ac erbyn tranoeth yr oedd hi yn i lle
+   </lb> 
+   <lb n="24">I hun / Gwr o 'r wlad hono a rwymodd y garec wrth i esgair
+   </lb> 
+   <lb n="25">a heb ohir ef a ddrewodd y goes wrth y korff a 'r garec aeth
+   </lb> 
+   <lb n="26">i 'w lle / o gwnair pechod godineb yn agos att y gareg honn
+   </lb> 
+   <lb n="27">hi a chwssa \chwyssa\ ac ni chair ytifedd \etifedd\&nbsp;o 'r weithred hono
+   
+   
+   </lb> 
+   <lb n="28">Hevyd mae yno garec lle gelwir y brynn byddar am ymyl bod ychen er maint vai drwst a wnelid a chyrn nev
+   </lb> 
+   <lb n="29">a genevav o 'r naill dv iddi ni chlywid tim \dim\ yn y tu arall &#8212;
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="10.">
+   
+   
+   
+    
+   <lb n="1">Ac i mae ynys ynys y llygod ar gyfair llan elien yn gyvagos att hynny lle 'dd \ydd\ oedd  vevdwyaid
+   </lb> 
+   <lb n="2">gynt ac o Syrthie ymrysson neu gynddrygedd Rrwng neb
+   </lb> 
+   <lb n="3">onaddunt a 'i gilydd, ef a ddoe aneirif o lygod i ddiffrwytho
+   </lb> 
+   <lb n="4">I lluniaeth: ac ni ffeidynt mewn modd o 'r byd hyd pann
+   </lb> 
+   <lb n="5">vai gymod a chytundec \chytundeb\ rryngthunt 
+   
+   
+   Pobl y wlad honno
+   </lb> 
+   <lb n="6">y Sydd anioddefys a dryganianys a hawdd ganthunt wnevthvr
+   </lb> 
+   <lb n="7">dialedd am a wneler yn i herbyn / kanys nattur y 
+   </lb>
+   <lb n="7-8">malankolia
+   </lb>
+   <lb n="8">
+    Sydd yn meistroli ynthynt Ac ar yr un modd 
+   </lb> 
+   <lb n="9">y mae Saint o 'r genedlaeth honn, haws ganthun wnevthyr
+   </lb> 
+   <lb n="10">dialedd no Saint Eraill &#8212;&nbsp;
+   
+   
+   Gerllaw manachloc ddinas
+   </lb> 
+   <lb n="11">bassing y mae ffynon wenfrewy: a 'i dwfr kyn ffested yn berwi
+   </lb> 
+   <lb n="12">o 'r ddayar a chyn gadarned ac y teifl allan bethau
+   </lb> 
+   <lb n="13">trymion / a 'i ffrwd y Sydd gymaint val I gwssnaethai holl gymru
+   </lb> 
+   <lb n="14">pettynt yn agos atti / a gwyrthvawr yw rrac llawer o
+   </lb> 
+   <lb n="15">glefydeu / ac ynthi y kair keric a mannau kochion val gwaed
+   </lb> 
+   <lb n="16">I arwyddokav y gwaed a golles gwenfrewy Santes pann
+   </lb> 
+   <lb n="17">dored i ffen  / ac yn ddialedd ar y gwr a dores i ffen / Ef
+   </lb> 
+   <lb n="18">a vydd plant o 'i lin Ef yn kyvarch val kwn hyd pann
+   </lb> 
+   <lb n="19">ddelwynt yno i offrwn neu i mwythic  lle mae I 
+   </lb>
+   <lb n="19-20">hesgyrn
+   </lb>
+   <lb n="20">
+    hi yn gorffowys &#8212;&nbsp;
+   
+   
+   Klych a baglau Sydd gymaint I
+   </lb> 
+   <lb n="21">hanrrydedd yn y wlad hon ymysc yr ysgolheigion a llygion
+   </lb> 
+   <lb n="22">val i Mae haws ganthvnt dyngu anvdon i bedwar llyfr 
+   </lb>
+   <lb n="22-23">yfengil,
+   </lb>
+   <lb n="23">
+    noc ar un o 'r rrai hynn &#8212;&nbsp;
+   
+   
+   Ac ymrecheinioc \ym Mrycheiniog\ y mae
+   </lb> 
+   <lb n="24">pysgodlyn kyflawn o amrafaelion Rywigaethau \rhywiogaethau\ pysgod
+   </lb> 
+   <lb n="25">ag amravel liw arnaddunt ac ar y dwfr weithiau
+   </lb> 
+   <lb n="26">a phan vo oer yr hin Ef a glywir Seiniau rryvedd dann y llynn
+   </lb> 
+   <lb n="27">ac o daw twysoc i 'r tir yno ac erchi i adar ganu hwynt
+   </lb> 
+   <lb n="28">a ganant yn ddiohir ac nid yngenant er arch dyn arall &#8212;
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="29">o rac ynyssav ystlysawl yr ynys bellach</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="30">Tair rrac ynys ystlysawl y sydd i 'r ynys honn y rrain Sydd
+   </lb> 
+   <lb n="31">yn perthynu i 'r tair rrann a ddywetbwyd vchod nid amgen
+   </lb> 
+   <lb n="32">o 'r tu deav i loegr y mae ynys wicht O 'r tu gogledd i gymru mae
+   
+   
+   </lb>
+   </pb>
+   <pb n="11.">
+   
+    
+   <lb n="1">Ynys von Ac o 'r tu gorllewin i 'r alban y mae manaw / ar
+   </lb> 
+   <lb n="2">tair ynys hynn y sydd un vaint haiachen / Deng milltir ar hugain
+   </lb> 
+   <lb n="3">yw hyd ynys wicht o 'r gorllewin i 'r dwyrain a devddec yw i lled / chwe
+   </lb> 
+   <lb n="4">milltir ysydd rryngthi a 'r tir yn y penn tu a 'r dwyrain / a thair yn y
+   </lb> 
+   <lb n="5">penn tva 'r gorllewin / Braich byrr o 'r mor ssydd yn tervynu rrwng
+   </lb> 
+   <lb n="6">Kymry a mon a Elwir menai / ac yno y mae mor gerwyn a lwnk
+   </lb> 
+   <lb n="7">ac a Svgyn longau atti megis CARYLDIS&nbsp;A SYLLA Sevyll a wna 
+   </lb>
+   <lb n="7-8">llongau
+   </lb>
+   <lb n="8">
+    oni hwylir ffordd yno ar lanw XXX milltir o vessvr
+   </lb> 
+   <lb n="9">y sydd o hyd yn yr ynys honno a XII o led / Manaw ssydd yn Sevyll
+   </lb> 
+   <lb n="10">yn y mor Rrwng prydyn ac y werddon megis hanner y ffordd
+   </lb> 
+   <lb n="11">Rryngthvnt / ac yn ddwyran y mae val dwy ynys / ar honn
+   </lb> 
+   <lb n="12">Sydd tu a 'r deau yw 'r vwyaf a 'r ffrwythlownaf /  am yr
+   </lb> 
+   <lb n="13">ynys honn I bu gynt ymrysson i ba un y gweddai iddi berthynv
+   </lb> 
+   <lb n="14">ai i ynys brydain yntav i ywerthon \Iwerddon\ / ac am oddef o honi
+   </lb> 
+   <lb n="15">ynthi bryfed gwenwynic y rhai a ddukbwyd yno yn 
+   </lb>
+   <lb n="15-16">brofedigaeth
+   </lb>
+   <lb n="16">
+    arni: I barnwyd hi yn byrthynas \berthynas\ i ynys brydain &#8212;
+   
+   
+   </lb> 
+   <lb n="17">Mawr oedd arfer o Swynion a chyvareddion gynt yn yr ynys
+   </lb> 
+   <lb n="18">honn / kanys gwragedd a vyddynt yno yn gwnevthur
+   </lb> 
+   <lb n="19">gwynt i  longwyr gwedir gav mewn tri chwlm \chwlwm\ o edav
+   </lb> 
+   <lb n="20">A phan vai eissie gwynt arnynt dattod kwlm o 'r edav a naynt \wneynt\
+   </lb> 
+   <lb n="21">Yn yr ynys honn y kair gweled lliw dydd bobyl a vuessynt
+   </lb> 
+   <lb n="22">veirw / Rrai gwedi tori pennav / eraill gwedi torri i haelode /
+   </lb> 
+   <lb n="23">Ac os dieithred a ddissyfynt i gweled hwynt, Sengi
+   </lb> 
+   <lb n="24">ar draed gwyr o 'r tir ac velly hwynt a gaent weled
+   </lb> 
+   <lb n="25">yr hyn a welssynt hwyntau / Ysgottiaid gyntaf a 
+   </lb>
+   <lb n="25-26">wladychassant
+   </lb>
+   <lb n="26">
+    yr ynys honno &#8212;&nbsp;
+   
+   
+   Mae ynys vechan gerllaw
+   </lb> 
+   <lb n="27">Kent a elwir tanet a ffrwythlawn yw a rrinweddol
+   
+   </lb>
+   </pb>
+   <pb n="12.">
+   
+    
+   <lb n="1">y ddayaren honno yn gymaint ac na bydd byw pryf gwenwynic
+   </lb> 
+   <lb n="2">ynthi / ac os pridd oddyno a ddygir i le arall Ef a ladd pob
+   </lb> 
+   <lb n="3">pryf gwenwynic yno / ac yddys yn kredv i bot hi yn
+   </lb> 
+   <lb n="4">ffrwythlonach ac yn vwy i rrinwedd oblegid beindith awstin
+   </lb> 
+   <lb n="5">Sant / kanys yno y tiriodd ef gyntaf pann ddoeth i droi
+   </lb> 
+   <lb n="6">y Saesson i 'r ffydd y rrai oeddynt yr amser hwnw 
+   </lb>
+   <lb n="6-7">byganiaid
+   </lb>
+   <lb n="7">
+    \baganiaid\ ysgymvnedic anffyddlonion heb gredv i dduw &#8212;
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="8">O briffyrdd Brenhinol yr ynys</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="9">Dyfnwal moel mvd y brenhin kyntaf a wisgodd 
+   </lb>
+   <lb n="9-10">koron
+   </lb>
+   <lb n="10">
+    avr o 'r brytaniaid / ac a ordeiniodd kyfraith
+   </lb> 
+   <lb n="11">ynys brydain ymysc y brytaniaid / Ac a 
+   </lb>
+   <lb n="11-12">ganhiadodd
+   </lb>
+   <lb n="12">
+    vddvnt ragorfraint i temlau / ar erydr / ar
+   </lb> 
+   <lb n="13">priffyrdd i 'r dinessydd a bod noddva yno i bawb er
+   </lb> 
+   <lb n="14">maint a wnelai o ddrwc &#8212;&nbsp;
+   
+   
+   Ac wedi hynny gan
+   </lb> 
+   <lb n="15">nad oedd y ffyrdd hynn gwedir dervynv yn gydnabyddys
+   </lb> 
+   <lb n="16">y tyvodd ymrysson pa rai oeddynt / ac am hynny
+   </lb> 
+   <lb n="17">I dori pob kyfryw bettrvster ac ymrysson / Ef a
+   </lb> 
+   <lb n="18">wnaeth beli vab dyfnwal bedair priffordd 
+   </lb>
+   <lb n="18-19">frenhinol
+   </lb>
+   <lb n="19">
+    drwy holl ynys brydain ac a gadarnhaodd
+   </lb> 
+   <lb n="20">y braint ar noddvae a roessai i dad uddunt &#8212;
+   
+   
+   </lb> 
+   <lb n="21">Kyntaf a mwyaf onaddvnt a elwir ffossa a hono
+   </lb> 
+   <lb n="22">Sydd yn estyn o 'r deav i 'r gogledd / a 'i dechrav Sydd
+   </lb> 
+   <lb n="23">ynghongl \yng nghongl\ kernyw gerllaw totnes / ac yn diweddv
+   </lb> 
+   <lb n="24">ymor \ym mor\ kadnes yr hwnn a Elwir werydd o gymraec
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="13.">
+   
+   
+   
+    
+   <lb n="1">Eraill a ddywaid i bod hi yn dechrav ynghernyw \yng Nghernyw\
+   </lb> 
+   <lb n="2">ac yn dyvod drwy ddyfnaint / a thrwy wlad yr haf /
+   </lb> 
+   <lb n="3">a heblaw tewkysbvri / ac vwchlaw mynydd 
+   </lb> 
+   <lb n="4">kotysswold a heblaw kwyntri hyd yn laessedr ac 
+   </lb>
+   <lb n="4-5">oddyno
+   </lb>
+   <lb n="5">
+    Rrwng y gogledd a 'r dwyrain Eithr mwyaf
+   </lb> 
+   <lb n="6">yn pwysso i 'r dwyrain hyd yn linkol &#8212;
+   
+   
+   </lb> 
+   <lb n="7">A 'r ail ffordd a elwir watling ystryd yr honn Sydd
+   </lb> 
+   <lb n="8">yn myned ar draws y llall: ac yn dechrav lle gelwir
+   </lb> 
+   <lb n="9">dofr / ac oddyno yn dyvod drwy ganol kent / A thrwy
+   </lb> 
+   <lb n="10">demys o 'r tu gorllewin i ddinas llvndain / ac 
+   </lb>
+   <lb n="10-11">oddyno
+   </lb>
+   <lb n="11">
+    gerllaw y verolam / yr honn a elwir heddiw ssaint
+   </lb> 
+   <lb n="12">albons / a thrwy ddwnstabyl / ac ystonistredffordd /
+   </lb> 
+   <lb n="13">A thowssedr / a widyn / Ac o 'r tv deav i lilbwrn / a thrwy
+   </lb> 
+   <lb n="14">adroston / a man drefi Eraill hyd ymynydd \ym mynydd\&nbsp;
+   </lb>
+   <lb n="14-15">gilbert
+   </lb>
+   <lb n="15">
+    / Yr hwnn a elwir heddiw Moel y wrek /
+   </lb> 
+   <lb n="16">ac oddyno drwy avon hafren ger llaw hendref
+   </lb> 
+   <lb n="17">wroksedr dwy villtir o amwythic hyd yn ystrad
+   </lb> 
+   <lb n="18">tuniaid / ac oddyno drwy ganol kymru hyd 
+   </lb>
+   <lb n="18-19">yngrredigion
+   </lb>
+   <lb n="19">
+    \yng Ngheredigion\ ac ymor \ym mor\ ywerddon i tervyna &#8212;
+   
+   
+   </lb> 
+   <lb n="20">A 'r drydedd ffordd a elwir Erming a honno
+   </lb> 
+   <lb n="21">Sydd yn dechrav ymynyw \ym Mynyw\ ac yn tervynv
+   </lb> 
+   <lb n="22">ymhorth hamon \ym Mhorth Hamon\ y dref a elwir heddiw 
+   </lb>
+   <lb n="22-23">ssowthhamton
+   </lb>
+   <lb n="23">
+   &nbsp;
+   
+   
+   A 'r bedwaredd ffordd a elwir Rriknell
+   </lb> 
+   <lb n="24">a honno Sydd hevyd yn dechrav ymynyw \ym Mynyw\ ac
+   </lb> 
+   <lb n="25">oddyno drwy gymru hyd gaer wrangon / a thrwy
+   </lb> 
+   <lb n="26">Wikwm / a brimssiam / a lidsffild / a derbi / a 
+   </lb>
+   <lb n="26-27">ssiestrffild
+   </lb>
+   <lb n="27">
+    / a Iork / hyd yn Aber tain ac yno i tervyna
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="14.">
+   
+   
+   
+   <head>
+    
+   <lb n="1">Y prif avonydd penaf</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="2">Tair prif avon y ssydd yn yr ynys honn yn estynv
+   </lb> 
+   <lb n="3">ar I hyd megis tri braich o 'r mor / Ac ar i hyd
+   </lb> 
+   <lb n="4">hwyntav y devant y kyfnewidiav i 'r ynys drwy 
+   </lb>
+   <lb n="4-5">vordwy
+   </lb>
+   <lb n="5">
+    gan bob rryw genedl o wledydd ac ynyssoedd eraill
+   </lb> 
+   <lb n="6">nid amgen temys / a havren / a hwmyr / &#8212;
+   
+   
+   </lb> 
+   <lb n="7">Temys ssydd yn dyvod o 'r ddayar gerllaw tewksbri
+   </lb> 
+   <lb n="8">ac oddyno yn rredec yn wyrdraws weithie tua 'r
+   </lb> 
+   <lb n="9">dwyrain  weithiav tua 'r gorllewin weithiav
+   </lb> 
+   <lb n="10">tua 'r gogledd / a 'r avon honn Sydd yn dyvod drwy 
+   </lb>
+   <lb n="10-11">rydychen
+   </lb>
+   <lb n="11">
+    / ac oddyno tva 'r deav hyd yn abyntwn / ac
+   </lb> 
+   <lb n="12">I reding / Ac i hennley / ac Winssor / ac i gingstwn /
+   </lb> 
+   <lb n="13">ac i lundain / ac yn Sandwits y tery yn y mor /
+   </lb> 
+   <lb n="14">yr afon honn oedd gynt yn tervynv rrwng 
+   </lb>
+   <lb n="14-15">brenhinaethav
+   </lb>
+   <lb n="15">
+    kent / Estssex / Westssex / a Mers / &#8212;
+   
+   
+   </lb> 
+   <lb n="16">Hafren a gavas I henw ar ol hafren verch lokrinys
+   </lb> 
+   <lb n="17">vab brvtus o essyllt i ordderch yr honn a beris
+   </lb> 
+   <lb n="18">gwenddolav gwraic lokrinvs i boddi yn yr afon honn
+   </lb> 
+   <lb n="19">Ac a orchmynodd drwy 'r ynys alw yr avon ar ol
+   </lb> 
+   <lb n="20">henw y verch yn hafren kanys hi a vynai ddwyn ar
+   </lb> 
+   <lb n="21">gof i henw hi yn dra gwyddol achos i bod yn verch
+   </lb> 
+   <lb n="22">I 'w gwr priod o ordderch / a 'r afon honn Sydd yn kodi
+   </lb> 
+   <lb n="23">o vynydd pumlvmon / Ac oddyno yn rredec drwy
+   </lb> 
+   <lb n="24">arwystli / a chydewen / a ffywys / hyd yn ymwythic
+   </lb> 
+   <lb n="25">ac yn amgylchynv y dref hayachen o bob tu / ac oddyno
+   </lb> 
+   <lb n="26">yn troi tva 'r deav / ac ymynd \yn mynd\ drwy  brids ynorth
+   </lb> 
+   <lb n="27">a thrwy gaer frangon / a chaer loyw / ac yn ymyl brysto
+   </lb> 
+   <lb n="28">yn taro yn y mor / yr afon honn oedd gynt yn tervynv rrwng
+   </lb> 
+   <lb n="29">kymru a lloegr &#8212;
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="15.">
+   
+   
+   
+    
+   <lb n="1">HWmyr brenhin hunawc a ddoeth gynt i 'r alban
+   </lb> 
+   <lb n="2">i dir a llu mawr gantaw ac a laddodd albanactws ap brtus / a phan
+   </lb> 
+   <lb n="3">giglev / locrinvs / a chamber hynny: Hwynt a ddoethant
+   </lb> 
+   <lb n="4">I ymladd ac Ef ac a 'i gyrassant i 'r afon i 'w voddi
+   </lb> 
+   <lb n="5">Ac velly y kavas i henw / ac o hynny allan y galwed hi
+   </lb> 
+   <lb n="6">Humur / yr avon honn gynt oedd derfyn rrwng lloegr
+   </lb> 
+   <lb n="7">a 'r alban / ac afon vawr yw a mwy o lawer achos bod afon
+   </lb> 
+   <lb n="8">a elwir / trent / ac afon arall / aws yr honn y sydd yn
+   </lb> 
+   <lb n="9">myned drwy dref / iork ac yn rredec iddi &#8212;
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="10">O brif ddinessydd yr ynys</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="11">Gynt yr oedd wyth ar hugaint o brif ddinessydd yn teghav \tec&aacute;u\
+   </lb> 
+   <lb n="12">yr ynys honn / a rrai onaddunt a ddiwreiddiwyd ac a
+   </lb> 
+   <lb n="13">ddifawyd / Eraill ynt gyfan a chyfanedd a chestyll kedyrn
+   </lb> 
+   <lb n="14">a muroedd yn i hamgylchynv / ac arnvnt byrth kloedic
+   </lb> 
+   <lb n="15">Rrac twyll a Rrvthr gelynion / ac o vewn&nbsp;y dinessydd hynn y mae temlav
+   </lb> 
+   <lb n="16">Saint ac yr oedd manachlogvdd ac yn y rrai hynny
+   </lb> 
+   <lb n="17">kwfenoedd krefyddvs o wyr a gwragedd yn talu 
+   </lb>
+   <lb n="17-18">gwassanaeth
+   </lb>
+   <lb n="18">
+    i ddvw herwydd kristynogawl ddeddf a ffydd ac arfer
+   </lb> 
+   <lb n="19">A hwynt a Elwid val hynn yn iaith frytanec / Kaer lvdd
+   </lb> 
+   <lb n="20">Kaer Efrawc Kaer gaint Kaer frangon Kaer loyw Kaer
+   </lb> 
+   <lb n="21">Vuddai Kaer golyn Kaer lyr Kaer rentei / Kaer wynt
+   </lb> 
+   <lb n="22">Kaer lleon Kaer lil Kaer beris Kaer dorm Kaer grant
+   </lb> 
+   <lb n="23">Kaer lwydgoed Kaer ssegent Kaer vaddon Kaer baladr Kaer
+   </lb> 
+   <lb n="24">Septron Kaer gynan Kaer alklvd Kaer exon Kaer Rraw
+   </lb> 
+   <lb n="25">Kaer garadawc Kaer llion ar wysc Kaer vyrddin Kaer
+   </lb> 
+   <lb n="26">wair 
+   
+   
+   Ac am vod yr henwav hynn yn anysbys i lawer
+   </lb> 
+   <lb n="27">gweddvs yw ysbyssu ac egluraw yr henwau sydd
+   </lb> 
+   <lb n="28">arnunt yn yr oes honn Kaer lvdd a elwir llundain
+   
+   </lb>
+   </pb>
+   <pb n="16.">
+   
+    
+   <lb n="1">Ac brvtvs y brenhin kyntaf o 'r brytaniaid
+   </lb> 
+   <lb n="2"> a 'i hadeilodd hi ar lann avon demys o 'r
+   </lb> 
+   <lb n="3">tu gogledd iddi ac a 'i gelwis Troya newydd i ddwyn ar
+   </lb> 
+   <lb n="4">gof Troya vawr yr honn a ddistrywessid y drydedd oes o 'r byd
+   </lb> 
+   <lb n="5">yr amsser yr oedd heli Effeiriad yn frowdwr yn yr ysrael
+   </lb> 
+   <lb n="6">ac ydd oedd arch ystifn ynghaethiwed \yng nghaethiwed\ y ffilyste weisson
+   </lb> 
+   <lb n="7">ynghylch trvgain mlynedd gwedi distrywedigaeth (kaer droya / dwyvil
+   </lb> 
+   <lb n="8">o flynyddodd a mwy kyn dyvod krist ynghnawd \yng nghnawd\ / ac ychwanec i IIII C
+   </lb> 
+   <lb n="9">mlynedd kyn adeilad Kaer Rufain / ar henw vchod 
+   </lb> 
+   <lb n="10">a drigodd arnei hyd pan wnaeth lludd vab beli mawr 
+   </lb>
+   <lb n="10-11">gaerav
+   </lb>
+   <lb n="11">
+    a ffyrth arnei / ac yna y peris Ef i galw Kaer ludd / ac
+   </lb> 
+   <lb n="12">o 'r achos honn y bu gynddrygedd mawr y rryngtho a nyniaw
+   </lb> 
+   <lb n="13">I frawd
+   am newidio henw y dref o vewn i gyvoeth a gwedi goresgyn o 'r saeson yr ynys y galwed hi llvndain&nbsp;
+   
+   
+   Membyr ap Madoc ap locrinus a vu frenhin kadarn
+   </lb> 
+   <lb n="14">ac a wnaeth dinas anrrydeddvs ar lann tain yn y lle kad
+   </lb> 
+   <lb n="15">kanol yr ynys ac a 'i gelwis o 'i henw i hvn (kaer Vymbyr /
+   </lb> 
+   <lb n="16">ac a Elwir heddiw rrydychen 
+   
+   
+   Efroc kadarn y pvmed brenin o 'r brytanied a vu frenin
+   </lb> 
+   <lb n="17">anrrydeddys ac a wnaeth dinas kadarn ar lan avon ows
+   </lb> 
+   <lb n="18">yn y gogledd ac a 'i gelwis o 'i henw i hvn Kaer Efroc / ac
+   </lb> 
+   <lb n="19">a Elwir heddiw Iork / a hwnw a elwid efroc kadarn vab
+   </lb> 
+   <lb n="20">mymbyr ac iddo i bu XXX o verched / ac XX o veibion
+   </lb> 
+   <lb n="21">a 'r rrai hynny aethant oll I Siermania Eithr un mab a vu
+   </lb> 
+   <lb n="22">yn kadw y dyrnas a hwnw a elwid bruttvs darian las
+   </lb> 
+   <lb n="23">a hwnw vu frenhin kadarn ar holl ynys brydain ac a
+   </lb> 
+   <lb n="24">a wnaeth / kaer a chastell yn y gogledd ar lan avon alklvd
+   </lb> 
+   <lb n="25">ac a 'i gelwis / kaer alklud / ac a Elwid wedi hyny kasstell
+   </lb> 
+   <lb n="26">y morynion &#8212;&nbsp;
+   
+   
+   Ac yn ol brvttus darian las y kymerth
+   </lb> 
+   <lb n="27">lleon I vab lywodraeth y dyrnas ac a 'i gwladychodd
+   </lb> 
+   <lb n="28">yn hir o amser yn heddwch dangnafeddvs \dangnefeddus\ / ac Ef a wnaeth
+   </lb> 
+   <lb n="29">dinas yn y gogledd i 'r ynys / ar lan afon dyfrdwy ac a 'i gelwis o 'i henw i hvn
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="21.">
+   
+    
+   <lb n="1">Kaer lleon / a 'r henw hwnw a drigodd ar y dinas Er hyny
+   </lb> 
+   <lb n="2">hyd heddiw / Eraill a ddywaid na wyddis pwy a 'i gwnaeth
+   </lb> 
+   <lb n="3">megis y dywedir yn eglvrach rrac llaw yn ol ystoriawyr
+   
+   
+   </lb> 
+   <lb n="4">Kaer alklvd vchod medd rrai a Elwir heddiw bwrtham
+   </lb> 
+   <lb n="5">yn eithafoedd gogledd westmyrlond gerllaw hwmyrlond ar
+   </lb> 
+   <lb n="6">avon Edyn / a Rrac maint y golwc ar yr hen vuroedd a 'r
+   </lb> 
+   <lb n="7">kloddiav ac ol yr hen adailadav a vuant yno gynt / ac
+   </lb> 
+   <lb n="8">am hyny barned darlleodrion beth a ddyweter am gaer alklvd
+   
+   
+   </lb> 
+   <lb n="9">Kaer gaint a wnaeth Rrun baladr bras yr wythfed brenin
+   </lb> 
+   <lb n="10">o 'r brytaniaid a hi a Elwir yn Saessnec kantyrbri / a 'r un
+   </lb> 
+   <lb n="11">brenhin a wnaeth dav ddinas Eraill nid amgen kaer
+   </lb> 
+   <lb n="12">wynt yr honn a Elwir heddiw Windssiestr / a chaer
+   </lb> 
+   <lb n="13">baladr / neu Gaer sseptron / yr honn a Elwir heddiw S.iaftysbvri
+   </lb> 
+   <lb n="14">lle dywedir bod yr Eryr yn proffwydo pann oeddid yn adeilad
+   </lb> 
+   <lb n="15">y gaer 
+   
+   
+   Bleiddvdd nigyrmansswr ap Rrvn a wnaeth dinas ar lan afon vaddon ac&nbsp;
+   </lb>
+   <lb n="15-16">gaer
+   </lb>
+   <lb n="16">
+    vaddon / yr honn a Elwir heddiw y Badd / ac 
+   </lb> 
+   <lb n="17">wnaeth ynthi yr Enaint twymyn a wna lles I
+   </lb> 
+   <lb n="18">ddynion Rrac llawer o bethav heinys / ac am darddu
+   </lb> 
+   <lb n="19">yn anwedic tros y ddolen att lyr mab bleiddydd&nbsp;
+   
+   
+   Kaer loyw a wnaeth gloyw kassar 
+   </lb>
+   <lb n="19-20">amherodr
+   </lb>
+   <lb n="20">
+    rrvfain pann briodes Gweirydd brenin y 
+   </lb>
+   <lb n="20-21">brytaniaid
+   </lb>
+   <lb n="21">
+    / gwenissa I verch Ef / ar afon hafren ynherfyn \yn nherfyn\ kymry
+   </lb> 
+   <lb n="22">a lloegr / ac ar yr un dref y rroed henw Seissnic nid
+   </lb> 
+   <lb n="23">amgen / glossedr / ac ar yr un afon mae tref a 
+   </lb>
+   <lb n="23-24">Elwir
+   </lb>
+   <lb n="24">
+    Pengwern / ac a Elwir heddiw Amwythic &#8212;
+   
+   
+   </lb> 
+   <lb n="25">Linkol Elwid gynt / kaer lwydkoed / ac nid ysbys
+   </lb> 
+   <lb n="26">pwy a 'i gwnaeth na llawer o ddinessydd Eraill / Er
+   </lb> 
+   <lb n="27">bod kwrache \cyrachau\ kymreic yn ddiwarant o lyfrav ystoriawyr
+   </lb> 
+   <lb n="28">yn dywedvd pannyw brenhinedd y brytaniaid a 'i 
+   </lb>
+   <lb n="28-29">gwnaeth
+   </lb>
+   <lb n="29">
+    ni chair dim o hynny yn y brud nac mewn
+   </lb> 
+   <lb n="30">ystoriae Eraill gwarantedic o 'r byd &#8212;
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="22.">
+   
+   
+   
+    
+   <lb n="1">Kaer Lyr adeilodd llyr ap bleiddvdd y degved brenhin
+   </lb> 
+   <lb n="2">o 'r brytaniaid / ac a 'i gelwis o 'i henw I hun kaer lyr yr honn
+   </lb> 
+   <lb n="3">a Elwir heddiw / laessedr Kaer lleon adeilwyd ar
+   </lb> 
+   <lb n="4">afon ddyfdwy ynhervyn \yn nherfyn\ kymru a lloegr ac a oedd gynt yn
+   </lb> 
+   <lb n="5">benaf tref Gwynedd / a lleon ap brvtus darian las a 'i hadeilodd
+   </lb> 
+   <lb n="6">herwydd a ddywaid y brud kymreic mal i dywetpwyd vchod
+   </lb> 
+   <lb n="7">Eissioes ystoriawyr Eraill a ddywaid na wys pwy a 'i gwnaeth
+   </lb> 
+   <lb n="8">hi / ac mae leil I gelwid mab brvtus darian las ac nid
+   </lb> 
+   <lb n="9">lleon / ac adeilad o hono Ef ddinas mawr yn y gogledd i 'r ynys
+   </lb> 
+   <lb n="10">a 'i galw o 'i henw i hun kaer leil / ac velly y gelwir Ettwa
+   
+   
+   </lb> 
+   <lb n="11">Beli vab dyfnwal adeilodd dref ar avon Wysc / ac a elwid Kaer
+   </lb> 
+   <lb n="12">llion ar wysc ac un o 'r dinessydd Enwokaf yn yr ynys oedd
+   </lb> 
+   <lb n="13">ac yno ydd oedd arch Esgopty holl gymru 
+   
+   
+   Myrdd o wyr
+   </lb> 
+   <lb n="14">adeilassant dref yneav \yn neau\ kymry / ac am hyny y gelwir hi Kaer
+   </lb> 
+   <lb n="15">Vyrddin Kaer Frangon a Elwir yn Saessnec wssedr kaer
+   </lb> 
+   <lb n="16">wair a Elwir / warwic Kaer vuddai yw Syssiestr Kaer
+   </lb> 
+   <lb n="17">golun / y kolssiestr Kaer rentei a Elwir / Sidssistr
+   </lb> 
+   <lb n="18">Kaer lyr a elwir laysetr Kaer lleon a Elwir / ssiestr Kaer beris yw / porssiestr
+   </lb> 
+   <lb n="19">Kaer dorm yw / dorssiestr Kaer grant yw / kambrids
+   </lb> 
+   <lb n="20">Kaer Segent yw / Silssetr / a 'r dref hon oedd ar afon
+   </lb> 
+   <lb n="21">demys ger llaw redin Kaer gynan a Elwir / koynysbwrw
+   </lb> 
+   <lb n="22">Kaer Exon a Elwir / Exedr Kaer raw yw / Rodssiestr
+   </lb> 
+   <lb n="23">Kaer garadawc / ne gaer Sallawc yw / Salsbri &#8212;
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="24">Gwledydd a Siroedd yr ynys</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="25">Gwedi goressgyn o 'r ssaesson holl loegr a gyru y brytaniaid
+   </lb> 
+   <lb n="26">drwy hafren I gymrv / hwynt a 'i rranassant hi yn ssiroedd neu
+   
+   
+   </lb>
+   </pb>
+   <pb n="23.">
+   
+    
+   <lb n="1">Swyddav / ac ordeinio Siryfiaid a Swyddogion ymhob
+   </lb> 
+   <lb n="2">Sir I lywodraethv y bobyl dan gyfraith / ac i atteb i 'r
+   </lb> 
+   <lb n="3">brenhinedd o 'i dled a 'i kyllidav / ac val hynn I gelwir hwynt
+   </lb> 
+   <lb n="4">Kent / Sowth rey Sowthsex / hamssir / Dyfnaint / barkssir /
+   </lb> 
+   <lb n="5">Wildsir / Swmyrsedsir / dorsedssir Estssex mydylsex
+   </lb> 
+   <lb n="6">Sowthffolk Northffolk / Swydd herffort / Swydd betffort /
+   </lb> 
+   <lb n="7">Swydd hwntington / Swydd north hamtwn /S/ notingham / a /S/ bwkingam /S/ laessedr / 
+   </lb> 
+   <lb n="8">/S/ dderbi /S/ lingkol /S/ gambrids /S/ Iork /S/ longkastr
+   </lb> 
+   <lb n="9">northwmbyrlond / wesbyrlond / Swydd rydychen /
+   </lb> 
+   <lb n="10">Swydd warwic /S/ gaer loyw / Swydd henffordd / 
+   </lb> 
+   <lb n="11">/S/ gaer frangon /S/ y mwythic /S/ Ystaffort /S/
+   </lb> 
+   <lb n="12">gaer lleon 
+   
+   
+   A 'r rrai hyny I gyd a beris wiliam 
+   </lb>
+   <lb n="12-13">bastart
+   </lb>
+   <lb n="13">
+    pan oresgynodd loegr: I messvraw yn llogav Erydr
+   </lb> 
+   <lb n="14">ac Ef a gad o Siroedd yn y dyrnas / bymthec ar hvgaint
+   </lb> 
+   <lb n="15">ac o drefi devddengmil a deugaint a phedwar vgaintref /
+   </lb> 
+   <lb n="16">ac o eglwyssi plwyf / bvm mil a devgeinmil a dwy / ac
+   </lb> 
+   <lb n="17">o ffye marchogion / trvgeinmil a phymthec / ac o hyny
+   </lb> 
+   <lb n="18">mae gwedi rroi wrth Eglwyssi a manachlogydd kynn
+   </lb> 
+   <lb n="19">gwahardd drwy barlment roi tri i law varw / wythmil
+   </lb> 
+   <lb n="20">ar hvgaint a ffymthec / ac o hyny y gwnaeth yr un
+   </lb> 
+   <lb n="21">Wiliam lyfr Mawr a Elwir dwmeysday &#8212;
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="22">Kyfreithiav yr ynys bellach</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="23">Dyfnwal a roes gyfraith i 'r brytaniaid / a breinie
+   </lb> 
+   <lb n="24">i 'r temlav a 'r Erydr / a 'r dinessydd / a 'r priffyrdd&nbsp;
+   </lb>
+   <lb n="24-25">brenhinawl
+   </lb>
+   <lb n="25">
+    a ddywedpwyd vchod / a 'r gyfraith honn a vu Enwoc
+   </lb> 
+   <lb n="26">a hynod gann bawb hyd yn amsser william bastart gwedi
+   </lb> 
+   <lb n="27">dyfnwal marssia frenhines gwraic  kyhelyn frenhin
+   
+   </lb>
+   </pb>
+   <pb n="24.">
+   
+    
+   <lb n="1">a wnaeth gyfraith gyflawn o ddoethineb a chyfiownder 
+   </lb> 
+   <lb n="2">yr honn  a Elwir kyfraith marssia a 'r ddwy gyfraith
+   </lb> 
+   <lb n="3">hynn a droes (gildas ap kaw o fryttanec yn lladin ac
+   </lb> 
+   <lb n="4">wyth o Siroedd lloegr a vuant yn i chadw yn hir o 
+   </lb> 
+   <lb n="5">amsseroedd nid amgen / Swydd rydychen Swydd
+   </lb> 
+   <lb n="6">warwic Swydd gaerfrangon /S/ gaer loyw /S/ henffordd
+   </lb> 
+   <lb n="7">S/wydd ymwythic S/ ystafford a Swydd gaer lleon
+   
+   
+   </lb> 
+   <lb n="8">Gwedi hyny alfryd frenhin lloegr a droes y kyfreithiav
+   </lb> 
+   <lb n="9">hyn o ladin yn Saessnec ac a 'i gelwis mardssin law / ac
+   </lb> 
+   <lb n="10">Ef a chwanegodd y gyfraith honn gwedi hynny / ac Ef
+   </lb> 
+   <lb n="11">a 'i gelwis West saxonlex / a naw o Siroedd vuant yn
+   </lb> 
+   <lb n="12">i chynal nid amgen kent / Sowth rei / Sowthssex / Hamsir /
+   </lb> 
+   <lb n="13">dyfnaint / barkssir / wildssir / Swmyrsedsir / yr honn
+   </lb> 
+   <lb n="14">a Elwir  gwlad yr haf / a dorsedsir / 
+   
+   
+   A phann
+   </lb> 
+   <lb n="15">gavas gwyr denmark veddiant ar loegr hwynt a 
+   </lb>
+   <lb n="15-16">wnaethant
+   </lb>
+   <lb n="16">
+    gyfraith arall yr honn a elwir danlex / a XVIII
+   </lb> 
+   <lb n="17">o Siroedd a vuant yn i chynal nid amgen Estssex / 
+   </lb>
+   <lb n="17-18">mydylsex
+   </lb>
+   <lb n="18">
+    / Northffolk / Sowthffolk / Swydd hertffort / Swydd
+   </lb> 
+   <lb n="19">betffort / Swydd gambrids / Swydd hwntington / Swydd
+   </lb> 
+   <lb n="20">North hamton  / Swydd bwkingam / Swydd laessedr / Swydd
+   </lb> 
+   <lb n="21">notingam /S/ dderbi /S/ linkol /S/ Iork /S/ longkastr
+   </lb> 
+   <lb n="22">S/ North hwmbyrlont / a wesbyrlond / A phwy bynac
+   </lb> 
+   <lb n="23">a vyno deall y geirie dieithr Estronawl o 'r gyfraith honn
+   </lb> 
+   <lb n="24">nid amgen
+   
+    Sok sag In ffangthe / off hamssok /
+   </lb> 
+   <lb n="25">leirwyth / Sei ffebyrdssie / fflem / ffrith / fforstal ar
+   
+   </lb> 
+   <lb n="26">vath hyny a gair yn amyl mewn hen Siartryssav 
+   </lb>
+   <lb n="26-27">arglwyddiaethav
+   </lb>
+   <lb n="27">
+    manachlogydd a dinessydd a threfi 
+   </lb>
+   <lb n="27-28">Seissnic
+   </lb>
+   <lb n="28">
+    breiniol Edryched yr unved kabidwl ar bymthec
+   
+   
+   </lb>
+   </pb>
+   <pb n="25.">
+   
+    
+   <lb n="1">ar hugaint o 'r llyfr kyntaf yn y polikronika ac yno I gwyl
+   
+   
+   </lb> 
+   <lb n="2">Gwedi hynny y gwnaeth Saint Edwart y brenhin
+   </lb> 
+   <lb n="3">diwaethaf onid vn o 'r Saesson: un gyfraith gyffredin
+   </lb> 
+   <lb n="4">o 'r tair kyfraith vchod a hono a Elwir kyfraith saint Edwart
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="5">O 'r kenedlaeth a wladychassant ynys brydain</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="6">Bryttaniaid a gynhaliassant yn gyfan goron
+   </lb> 
+   <lb n="7">ynys brydain o amser bruttus y brenhin kyntaf
+   </lb> 
+   <lb n="8">onaddvnt hyd pann ddoeth wlkassar y gwr a vu
+   </lb> 
+   <lb n="9">gwedi hyny gyntaf amherodr yn rrufain: y 'w darostwng
+   </lb> 
+   <lb n="10">hwynt yn amser kasswallawn ap beli mawr / ac y 'w
+   </lb> 
+   <lb n="11">kymell I dalv tyrnged \teyrnged\ I Senedd rufain / O hynny
+   </lb> 
+   <lb n="12">hyd att Seuerws&nbsp;Rrufeinwyr / Eissioes brenhinedd
+   </lb> 
+   <lb n="13">a vu onaddvnt I hunain / ac o Seuerws hyd yn amsser
+   </lb> 
+   <lb n="14">grassian pann ddiffygiodd llin frenhinol y brytaniaid
+   </lb> 
+   <lb n="15">y tyrnassodd rrufeinwyr ynthi yn vynychaf / o 'r diwedd
+   </lb> 
+   <lb n="16">pann beidiassant y rrufeinwyr a gwladychv / ac 
+   </lb>
+   <lb n="16-17">ymwrthod
+   </lb>
+   <lb n="17">
+    ar deyrnged / achos pelled y ffordd / neu 
+   </lb>
+   <lb n="17-18">oblegid
+   </lb>
+   <lb n="18">
+    pryssurdeb mewn lleoedd eraill / a chlybod o 'r
+   </lb> 
+   <lb n="19">ysgottiaid a 'r ffichtiaid hynny, a bod yr ynys gwedi
+   </lb> 
+   <lb n="20">gwagkav \gwac&agrave;u\ o / vaxen grevlon / a chynan meiriadawc
+   </lb> 
+   <lb n="21">o 'i holl varchogion a 'i rryvelwyr / a myned a hwynt
+   </lb> 
+   <lb n="22">I oresgyn llydaw / a rrufain / hwynt a ddoethant
+   </lb> 
+   <lb n="23">i ryvelv ar weddillion y genedl y rrai ni bu wiw 
+   </lb>
+   <lb n="23-24">myned
+   </lb>
+   <lb n="24">
+    a hwynt allan o 'r tir oblegid i hoedran neu 
+   </lb>
+   <lb n="24-25">lescedd,
+   </lb>
+   <lb n="25">
+    namyn i gado gartref I bresswylio ac i lafurio 'r 
+   </lb>
+   <lb n="25-26">ddayar
+   </lb>
+   <lb n="26">
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="26.">
+   
+   
+   
+    
+   <lb n="1">Ac velly y buant yn Rryvelv bob un ar i gilydd
+   </lb> 
+   <lb n="2">hyd pan ddoeth y Saesson i 'r tir yn amser Gwrthefyrn&nbsp;
+   </lb>
+   <lb n="2-3">gwrthenav
+   </lb>
+   <lb n="3">
+    brenhin y brytaniaid: drwy eu gwahawdd o 'r
+   </lb> 
+   <lb n="4">brenhin i 'r ynys hwynt / val y dywaid ystoria y
+   </lb> 
+   <lb n="5">Saesson yn nerth iddaw i ryfelv ar y ffichtiaid ar i
+   </lb> 
+   <lb n="6">kost hwynt / ac wedi bod llawer o gyfrangav kaled
+   </lb> 
+   <lb n="7">Rrynthunt a gyru y ffichtiaid a 'r sgotiaid drwy nerth y ssaesson
+   </lb> 
+   <lb n="8">allan o 'r tir / hwynt a ddanvonassant drwy 
+   </lb>
+   <lb n="8-9">genhiad
+   </lb>
+   <lb n="9">
+    y brenhin I Siermania i nol ychwanec o
+   </lb> 
+   <lb n="10">Saesson / ac velly bob ychydic hwynt a 
+   </lb>
+   <lb n="10-11">gynhwyswyd
+   </lb>
+   <lb n="11">
+    i 'r tir hyd pann oeddynt ry amyl / Ac o 'r
+   </lb> 
+   <lb n="12">diwedd yn amsser karedic frenhin hwynt a 
+   </lb>
+   <lb n="12-13">gymodassant
+   </lb>
+   <lb n="13">
+    yn ddirgel a 'r ffichtiaid ac a 'r ysgotiaid / ac
+   </lb> 
+   <lb n="14">a ddanfonassant yn ddissyvyd i nol gormwnt 
+   </lb>
+   <lb n="14-15">brenhin
+   </lb>
+   <lb n="15">
+    yr affric: hyd yn y werddon / ac a vuant yn
+   </lb> 
+   <lb n="16">rryvelv ar y brytaniaid yn hir o amser hyd pann
+   </lb> 
+   <lb n="17">yrwyd hwynt o 'r diwedd i greigiav a diffeithwch
+   </lb> 
+   <lb n="18">kymru / a hyny drwy frad a thwyll ac anffyddlonder:
+   </lb> 
+   <lb n="19">yn vwy no thrwy vilwriaeth a chadernid arfau a
+   </lb> 
+   <lb n="20">gwedi goresgyn o 'r Saesson holl loegr yn y modd hwnw
+   </lb> 
+   <lb n="21">hwynt a 'i rranassant hi yn Saith brenhiniaeth
+   </lb> 
+   <lb n="22">ac weithiav yn wyth / a hwynt a ddoethant o 'r
+   </lb> 
+   <lb n="23">diwedd olynol yn un frenhiniaeth dann Elystan
+   </lb> 
+   <lb n="24">frenhin westssex / Gwyr denmark Eissioes a vuant
+   </lb> 
+   <lb n="25">ynghylch deng mlynedd a naw vgaint / o amsser athulphus
+   </lb> 
+   <lb n="26">frenin
+   
+   </lb>
+   </pb>
+   <pb n="27.">
+   
+    
+   <lb n="1">hyd amser Sant edwart yn rryfelv ar y Saesson
+   </lb> 
+   <lb n="2">a XXX o flynyddoedd y bu dri brenhin onaddvnt yn gwladychv 
+   </lb>
+   <lb n="2-3">olynol
+   </lb>
+   <lb n="3">
+    / ac gwedi hwyntav y gwladychodd Sant Edwart
+   </lb> 
+   <lb n="4">XXXIII o flynyddoedd ac ychydic mwy / ac wedi hwnw
+   </lb> 
+   <lb n="5">herald ap godwin Iarll kent IX mis / a wiliam
+   </lb> 
+   <lb n="6">bastart dvc normandi a 'i lladdodd Ef / ac a 
+   </lb>
+   <lb n="6-7">dyrnnassodd
+   </lb>
+   <lb n="7">
+    yn i le / ac o 'i lin Ef y mae brenhinedd lloegr
+   </lb> 
+   <lb n="8">o 'r amser hwnw hyd att hari Seithved brenin lloegr
+   </lb> 
+   <lb n="9">a 'r hari hwnw a hari wythved i vab yntav brenhin
+   </lb> 
+   <lb n="10">lloegr a hanoeddynt o dwyssogion a brenhinedd y 
+   </lb>
+   <lb n="10-11">bryttaniaid
+   </lb>
+   <lb n="11">
+    o baladr Oed krist pan ddoeth wiliam bastart
+   </lb> 
+   <lb n="12">i oresgyn lloegr 1066 neu val hynn M LXVI o flynyddoedd
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="13">Or ssaith brenhiniaeth vchod a 'i tervynav</lb>
+    
+   <lb n="14">ac o 'i dechrevad a phar hyd y parhassant</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="15">Er bod y bryttaniaid, o ddyfodiad y Saesson gyntaf
+   </lb> 
+   <lb n="16">i 'r  tir yn amser gwrthyfyrn hyd y brenhin diwaethaf
+   </lb> 
+   <lb n="17">o 'r brytaniaid yn arwain y goron / ac yn oruwchaf
+   </lb> 
+   <lb n="18">frenhinedd ar yr ynys oll / Eissioes yr oedd y Saesson
+   </lb> 
+   <lb n="19">yn trigo yn y tir / ac yn i goresgyn bob ychydic / ac
+   </lb> 
+   <lb n="20">weithiav yn rryvelv ar y brytaniaid / ac weithav dann
+   </lb> 
+   <lb n="21">gyngrair yn talv treth a theyrnged vddynt hyd pann
+   </lb> 
+   <lb n="22">aethant kyn amled a chyn gadarned yn y tir na
+   </lb> 
+   <lb n="23">Ellid i gwrthladd o 'r tir namyn gorfod i 'r bryttaniaid
+   </lb> 
+   <lb n="24">gilio i dir kymru  ac i wledydd eraill val i 
+   </lb>
+   <lb n="24-25">dywedpwyd
+   </lb>
+   <lb n="25">
+    vchod o 'r  blaen &#8212;
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="28.">
+   
+   
+   
+    
+   <lb n="1">A chyntaf brenhiniaeth / vu gent kanys hono
+   </lb> 
+   <lb n="2">a roes gwrtheyrn I hengest twysoc y Saesson
+   </lb> 
+   <lb n="3">yr hon y Sydd yn Estyn o 'r mor deav hyd afon
+   </lb> 
+   <lb n="4">demys ac ynthi y dechreuodd Ef bresswylio pann
+   </lb> 
+   <lb n="5">oedd oed krist 457 o flynyddoedd nev val hynn
+   </lb> 
+   <lb n="6">CCCC LVII / yr wythfed flwyddyn wedi ddyfodiad
+   </lb> 
+   <lb n="7">Ef i 'r  tir / ar vlwyddyn y doeth Ef i 'r tir oedd
+   </lb> 
+   <lb n="8">yr ail flwyddyn o dyrnassiad gwrtheyrn / ac
+   </lb> 
+   <lb n="9">oed yr arglwydd Iessv grist 449 o flynyddoedd
+   </lb> 
+   <lb n="10">a 'r frenhinaeth honn a barhaodd 368 o 
+   </lb>
+   <lb n="10-11">flynyddoedd
+   </lb>
+   <lb n="11">
+   &nbsp;dann / 18 brenhin / hyd pan yrodd Egbert frenhin west Sex
+   </lb> 
+   <lb n="12">bwrdredus vrenhin allan o 'i frenhiniaeth a 'i
+   </lb> 
+   <lb n="13">rrwymo hi wrth i frenhiniaeth ef I hun
+   </lb> 
+   <lb n="14">pan oedd oed krist 825 o flynyddoedd
+   
+   
+   </lb> 
+   <lb n="15">Sowthsex oedd yr ail frenhiniaeth / ac o 'r tu
+   </lb> 
+   <lb n="16">dwyrain iddi y mae kent / ac o 'r tu deav y mae y
+   </lb> 
+   <lb n="17">mor ac ynys wicht / o 'r tv gorllewin y mae
+   </lb> 
+   <lb n="18">hamsir / ac o 'r tv gogledd y mae Sowth rae
+   </lb> 
+   <lb n="19">yno y gwladychodd Elle a 'i veibion gyntaf
+   </lb> 
+   <lb n="20">yr unved flwyddyn ar ddec ar hvgaint gwedi
+   </lb> 
+   <lb n="21">dyvod y saesson i 'r tir / a gwedi parhav o 'r frenhinieth
+   </lb> 
+   <lb n="22">honn 231 o flynyddoedd dann bump nev chwech
+   </lb> 
+   <lb n="23">o frenhinoedd yr aeth hi i frenhin West Sex oed krist
+   </lb> 
+   <lb n="24">yna 731 nev val hynn D CC XXXI o flynyddoedd
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="29.">
+   
+   
+   
+    
+   <lb n="1">Est Ssex oedd y drydedd frenhiniaeth / ac or tu
+   </lb> 
+   <lb n="2">dwyrain I hon y mae Ffraink / o 'r tv gorllewin y mae
+   </lb> 
+   <lb n="3">Gwlad lundain / o 'r tv deav afonn demys / ac o 'r tv
+   </lb> 
+   <lb n="4">gogledd y mae Sowthffolk a 'r brenhinedd o 'r wlad
+   </lb> 
+   <lb n="5">honn o Sebertws hyd amsser gwyr denmark yn oes
+   </lb> 
+   <lb n="6">dec onaddvnt a vuant yn talu teyhyrnged \teyrnged\ I 
+   </lb>
+   <lb n="6-7">frenhinedd
+   </lb>
+   <lb n="7">
+    Eraill mynychaf Eissioes y buant I
+   </lb> 
+   <lb n="8">frenhinedd Mers / hyd pann rwymodd egbert frenin
+   </lb> 
+   <lb n="9">Westsex hi wrth i frenhiniaeth Ef i hun ac
+   </lb> 
+   <lb n="10">Erkenwinws gyntaf a wladychodd yno pann oedd oed
+   </lb> 
+   <lb n="11">krist 492 nev val hynn CCCC LXXXXII o flynyddoedd
+   </lb> 
+   <lb n="12">a 'r frenhiniaeth honn a barhaodd 261 o flynyddoedd
+   
+   
+   </lb> 
+   <lb n="13">Estenglond y gelwid y bedwaredd frenhiniaeth
+   </lb> 
+   <lb n="14">a hono yw Northffolk a Sowthffolk ac o 'r tu dwyrain a gogledd
+   </lb> 
+   <lb n="15">iddi y mae y mor / ac o 'r tv rrwng gogledd a gorllewin
+   </lb> 
+   <lb n="16">y mae Swydd gambrids / ac o 'r tv gorllewin iddi y
+   </lb> 
+   <lb n="17">mae klawdd Sant Edmwnd / a Swydd hertffort /
+   </lb> 
+   <lb n="18">ac o 'r tu deav y mae Est Sex / yn hon y dechrevodd
+   </lb> 
+   <lb n="19">Offa frenhin wladychv / yr un flwyddyn ac i 
+   </lb>
+   <lb n="19-20">dechrevodd
+   </lb>
+   <lb n="20">
+    brenhiniaeth Est Sex / a hi a barhaodd dann XII 
+   </lb> 
+   <lb n="21">o frenhinoedd hyd pan las Edmwnd frenhin a 
+   </lb>
+   <lb n="21-22">meddianv
+   </lb>
+   <lb n="22">
+    o wyr denmark y frenhinieth honn a brenhiniaeth
+   </lb> 
+   <lb n="23">Est Sex hevyd / gwedi hynny y gyrodd Edwart frenhin
+   </lb> 
+   <lb n="24">Westsex
+   
+   </lb>
+   </pb>
+   <pb n="30.">
+   
+    
+   <lb n="1">y kyntaf o 'r henw hwnnw kynn kwngkwest wyr
+   </lb> 
+   <lb n="2">denmark oddyno allan / ac rwymodd y ddwy
+   </lb> 
+   <lb n="3">frenhiniaeth hynn wrth i frenhiniaeth Ef i hvn
+   </lb> 
+   <lb n="4">oed krist yna 921 nev val hynn DCCCCXXI o flynyddoedd
+   
+   
+   </lb> 
+   <lb n="5">Pumed brenhiniaeth oedd westsex / a pharhevssaf
+   </lb> 
+   <lb n="6">vu o 'r holl vrenhiniaethav / kanys iddi o 'r
+   </lb> 
+   <lb n="7">diwedd y doethant yr holl frenhiniaethav Eraill / ac o 'r
+   </lb> 
+   <lb n="8">tv dwyrain iddi y mae Sowth Sex / o 'r tu gogledd y mae afon
+   </lb> 
+   <lb n="9">demys / ac o 'r tv deav y mae y mor / ac o 'r tv gorllewin hevyd /
+   </lb> 
+   <lb n="10">yn honn y dechrevodd Karedic nev Sildrik o henw arall
+   </lb> 
+   <lb n="11">a chynwric I vab wladychv yn gyntaf 60 mlynedd gwedi
+   </lb> 
+   <lb n="12">dyvodiad y Saesson i 'r tir / ac oed krist 507 mlynedd
+   </lb> 
+   <lb n="13">Kronigl dukliensis a ddywaid bod llawer o 
+   </lb>
+   <lb n="13-14">ymlladdav
+   </lb>
+   <lb n="14">
+    rrwng arthvr a Sildric / ac o 'r diwedd kymrud o
+   </lb> 
+   <lb n="15">arthur i wrogaeth Ef a 'i law a rroi iddo hamssir a
+   </lb> 
+   <lb n="16">gwlad yr haf i 'w kynal dano Ef / A gwedi hyny pann
+   </lb> 
+   <lb n="17">gyvodes medrod yn Erbyn arthvr a chymrvd koron y
+   </lb> 
+   <lb n="18">deyrnas, Ef a roes I Sildric Er bod yn nerth iddo
+   </lb> 
+   <lb n="19">Saith o wledydd nid amgen Sowthssex / Sowthray bark
+   </lb> 
+   <lb n="20">Sir / Wild Sir / dorsedssir / kernyw / a dyfnaint / a hynn
+   </lb> 
+   <lb n="21">oll a Elwis Ef westssex / ac a vynodd i goroni mewn
+   </lb> 
+   <lb n="22">modd peganawl \paganol\ ynghaer wynt arryssaeth o 'r tvedd
+   </lb> 
+   <lb n="23">hwnnw a medrod a goroned yn llvndain o dwyll yn frenhin
+   
+   
+   </lb>
+   </pb>
+   <pb n="31.">
+   
+    
+   <lb n="1">ar y bryttaniaid / a llyna ddav gydymaith gymhessvr kanys
+   </lb> 
+   <lb n="2">ni wyddid pwy ffalssaf ohonynt a gwir yw 'r ddihareb
+   </lb> 
+   <lb n="3">pob kyffelib a ymgais &#8212;
+   
+   
+   </lb> 
+   <lb n="4">Northwmbyrlond oedd y chweched frenhiniaeth
+   </lb> 
+   <lb n="5">a 'i therfynav oeddynt / O 'r tu dwyrain a 
+   </lb>
+   <lb n="5-6">gorllewin
+   </lb>
+   <lb n="6">
+    y mor / o 'r tv deav y mae avon hwmwr yn Estyn
+   </lb> 
+   <lb n="7">tv a 'r gorllewin drwy dervynav nottingam a 'i Swydd a
+   </lb> 
+   <lb n="8">Swydd dderbi tv ac att afon mers yn Estyn / ac o 'r tv gogledd y
+   </lb> 
+   <lb n="9">mae mor prydyn a 'r frenhiniaeth honn a ranwyd
+   </lb> 
+   <lb n="10">gynt yn ddwy rann / tervyn y naill oedd o afon 
+   </lb>
+   <lb n="10-11">hwmyr
+   </lb>
+   <lb n="11">
+    hyd yn afon drin a 'r Rrann honno a Elwid
+   </lb> 
+   <lb n="12">Deifr / a 'r Rrann arall oedd o afon drin hyd 
+   </lb>
+   <lb n="12-13">ymor
+   </lb>
+   <lb n="13">
+    \ym mor\ a Elwir werydd / a 'r Rrann honno a Elwir
+   </lb> 
+   <lb n="14">Brynaich / ac weithiav y byddai frenhin ar bob rrann
+   </lb> 
+   <lb n="15">weithiav Eraill un ar y ddwy a ffann oedd oed krist
+   </lb> 
+   <lb n="16">47 / a / 500 /  / mlynedd / ac ynghylch 100 mlynedd wedi
+   </lb> 
+   <lb n="17">dyfodiad y Saesson i 'r tir y dechrevodd Ida ap
+   </lb> 
+   <lb n="18">Eoppa wladychv brynaich / ac ar ddiefr y 
+   </lb>
+   <lb n="18-19">gwladychodd
+   </lb>
+   <lb n="19">
+    Alla / pan oedd oed krist 559 neu
+   </lb> 
+   <lb n="20">val hynn /DLIX/ ac ynghylch ugain o vrenhinoedd o Saesson
+   </lb> 
+   <lb n="21">a wladychassant yno /321/ neu val hynn
+   </lb> 
+   <lb n="22">CCCXXI / o flynyddoedd 
+   </lb> 
+   <lb n="23">yn ddiwedd / dim
+   
+   </lb>
+   </pb>
+   <pb n="32.">
+   
+    
+   <lb n="1">hyd pann laddodd gwyr denmark Osbert / ac Elle / y IX
+   </lb> 
+   <lb n="2">vlwyddyn o 'i dyrnasiad ac y bu y tir heb freinhin VIII mlynedd / Eissioes
+   </lb> 
+   <lb n="3">37 / o flynyddoedd wedi hyny y bu wyr denmark yno yn
+   </lb> 
+   <lb n="4">tyrnassu / hyd pann ddoeth Ethylstan ap Edwart 
+   </lb>
+   <lb n="4-5">frenhin
+   </lb>
+   <lb n="5">
+    y 'w darostwng hwynt a lloegr i gyd dan i 
+   </lb>
+   <lb n="5-6">veddiant
+   </lb>
+   <lb n="6">
+    evhvn / ac Ef gyntaf o frenhinedd y Saesson
+   </lb> 
+   <lb n="7">a wisgodd koron pann oedd oed krist /827/ o 
+   </lb>
+   <lb n="7-8">flynyddoedd
+   </lb>
+   <lb n="8">
+    a gwedi dyfodiad y Saesson /378/ o vlynyddoedd
+   
+   
+   </lb> 
+   <lb n="9">Mers oedd y Seithved frenhiniaeth a mwyaf
+   </lb> 
+   <lb n="10">oedd onaddvnt a 'i thervynav oedd / O 'r tv 
+   </lb>
+   <lb n="10-11">gorllewin
+   </lb>
+   <lb n="11">
+    afon ddyfrdwy ynghaer lleon / a hafren yn
+   </lb> 
+   <lb n="12">ymwythic / ac velly hyd ymrysto \ym Mryste\ / O 'r tv dwyrain
+   </lb> 
+   <lb n="13">y mor / o 'r tv deav mae temys hyd yn llvndain /
+   </lb> 
+   <lb n="14">ac o 'r tv gogledd y mae afon hwmyr yn Estyn
+   </lb> 
+   <lb n="15">tv a 'r gorllewin / ac oddyno hyd yn afon mers / ac
+   </lb> 
+   <lb n="16">velly ar hyd hono hyd pann drawo yn y mor ger
+   </lb> 
+   <lb n="17">llaw kilgwri yr honn a Elwir Wiral yn Saessnec
+   </lb> 
+   <lb n="18">Krida ap Kenwoldws a wladychodd yno gyntaf 7
+   </lb> 
+   <lb n="19">ugain mlynedd gwedi dyvodiad y saesson i 'r tir / a 'r
+   </lb> 
+   <lb n="20">frenhiniaeth honn a Sefis /200/ mlynedd dann
+   </lb> 
+   <lb n="21">bedwar brenin ar ddec / hyd pann yrodd gwyr denmark
+   </lb> 
+   <lb n="22">mark kolwolphws frenhin allan o 'i frenhinieth
+   </lb> 
+   <lb n="23">a 'i Rroi I Burdred i 'w chadw hyd pann i gofynynt
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="33.">
+   
+   
+   
+    
+   <lb n="1">Eissioes gwedi hyny y gyrodd Edwart gyntaf kyn
+   </lb> 
+   <lb n="2">kwngkwest brenhin west Sex, wyr denmark allan
+   </lb> 
+   <lb n="3">o 'r tir ac a 'i rhwymodd hi wrth i frenhiniaeth Ef i hvn
+   </lb> 
+   <lb n="4">pann oedd oed krist /901/ nev hynn IXC I o flynyddoedd
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="5">Ysteddvae \Eisteddf&acirc;u\ Penaf yr ynys i archesgyb</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="6">Tair o Eisteddvae arch Esgobion oedd gynt yn ynys 
+   </lb>
+   <lb n="6-7">brydain
+   </lb>
+   <lb n="7">
+    yn amsser lles ap koel y kristion kyntaf o
+   </lb> 
+   <lb n="8">vrenhinedd y bryttaniaid nid amgen / un yn llvndain
+   </lb> 
+   <lb n="9">yr ail yn Iork / y drydedd ynghaer llion ar wysc / 
+   </lb> 
+   <lb n="10">athanvnt yr oedd /28/ o esgyb y rrai a Elwid yna
+   </lb> 
+   <lb n="11">fflamines / dan arch Esgob llvndain yr oedd gernyw
+   </lb> 
+   <lb n="12">a lloegr dann i hen dervynav / dann arch Esgob
+   </lb> 
+   <lb n="13">Iork yr oedd yr alban dann i thervynav / a thann
+   </lb> 
+   <lb n="14">arch Esgob kaerllion yr oedd gymrv dann hen
+   </lb> 
+   <lb n="15">dervynav / a Saith Esgob a oedd ynthi / ac Er 
+   </lb>
+   <lb n="15-16">kanhiadv
+   </lb>
+   <lb n="16">
+    ac ordinio  o Grigor __ o rvfain Eisteddva arch
+   </lb> 
+   <lb n="17">Esgob lloegr yn llvndain ar ddyvodiad y Saesson
+   </lb> 
+   <lb n="18">i 'r Ffydd val y bvassai yn amser y brytaniaid / 
+   </lb>
+   <lb n="18-19">Eissioes
+   </lb>
+   <lb n="19">
+    wedi marw grigor Ef a smvdodd \symudodd\ Saint
+   </lb> 
+   <lb n="20">awstin y gwr a ddanvones i 'w troi hwynt i 'r ffydd
+   </lb> 
+   <lb n="21">Eisteddva yr arch Esgob oddyno i gaer gaint Er
+   </lb> 
+   <lb n="22">mwyn Ethylbert brenhin kent ac o gariad
+   </lb> 
+   <lb n="23">ar wyr y dinas honno yr rhai a 'i derbyniassai ef
+   </lb> 
+   <lb n="24">i 'r tir
+   
+   </lb>
+   </pb>
+   <pb n="34.">
+   
+    
+   <lb n="1">Ac yno y trigodd yr Eisteddva honno hyd heddiw / Eithr
+   </lb> 
+   <lb n="2">o vewn hynn o amser Offa vrenhin mers drwy i &nbsp;
+   </lb>
+   <lb n="2-3">gedernid
+   </lb>
+   <lb n="3">
+    \gadernid\ a dioddefaint adrian __ o rvfain pann oedd
+   </lb> 
+   <lb n="4">gynddrygedd rryngtho a gwyr kent, a Symvdodd yr
+   </lb> 
+   <lb n="5">Eisteddva hyd yn lidssffild o gaer gaint / ac yno i bv
+   </lb> 
+   <lb n="6">hyd yn amsser Kenuolphus y trydydd brenhin wedi Ef
+   </lb> 
+   <lb n="7">y smvdwyd \symudwyd\ hi drachefn i gaer gaint. &#8212;
+   
+   
+   </lb> 
+   <lb n="8">Eisteddva arch Esgob Iork a Sevis yn i lle yn wastad val
+   </lb> 
+   <lb n="9">yr ordeiniwyd gynta ond bod prydyn wedi tynnv I 
+   </lb>
+   <lb n="9-10">hvvudddod
+   </lb>
+   <lb n="10">
+   &nbsp;oi wrthi \oddi wrthi\&nbsp;&#8212;&nbsp;
+   
+   
+   Eisteddva arch Esgob kaer llion
+   </lb> 
+   <lb n="11">a Symvdwyd oddyno hyd ymyniw \ym Mynyw\ yn amser arthvr
+   </lb> 
+   <lb n="12">frenhin a dewi Sant / Ac o 'r amser hwnw hyd att
+   </lb> 
+   <lb n="13">Samsson arch Esgob y bv yno /23/ o arch Esgyb
+   </lb> 
+   <lb n="14">a ffan vu varwolaeth vawr drwy gymry o 'r haint
+   </lb> 
+   <lb n="15">melyn: y ffoes ssamsson a 'r palliwm gantho
+   </lb> 
+   <lb n="16">hyd yn llydaw / ac mewn lle a  Elwid dilens y
+   </lb> 
+   <lb n="17">bv Esgob A 'r palliwm ssydd gyfran o arch 
+   </lb>
+   <lb n="17-18">Esgobwisc
+   </lb>
+   <lb n="18">
+    heb yr honn ni all neb rryw arch Esgob 
+   </lb>
+   <lb n="18-19">wnevthvr
+   </lb>
+   <lb n="19">
+    amrafael wassanaeth perthynol yw Swydd
+   </lb> 
+   <lb n="20">a thebic yw i modd hayach I stola a llafn tenav o
+   </lb> 
+   <lb n="21">blwm a vydd ymhob penn iddi ___ ac Esgob rrvfain a 'i
+   </lb> 
+   <lb n="22">kysegra i hvn: val nad rryddach i lyc nac i arall
+   </lb> 
+   <lb n="23">I theimlo hi no 'r karegl nev gorporas, ond a vo
+   </lb> 
+   <lb n="24">mewn vrdde / ac o amsser Samson hyd amser
+   
+   
+   </lb>
+   </pb>
+   <pb n="35.">
+   
+    
+   <lb n="1">henrri vrenhin ap wiliam bastart, Ef a vu ymynyw \ym Mynyw\ 21/
+   </lb> 
+   <lb n="2">o arch Esgyb o lesgedd nev dlodi, heb palliwm / ac Er
+   </lb> 
+   <lb n="3">hynny Esgyb mynyw a gysegrynt holl Esgyb kymrv: a
+   </lb> 
+   <lb n="4">hwyntav a 'i kysegrynt yntav: megis Swffraganiaid
+   </lb> 
+   <lb n="5">iddo heb wnevthur ufudddod na darostwnedigaeth \darostyngedigaeth\ i
+   </lb> 
+   <lb n="6">Eglwys arall o 'r ynys / ac o 'r amsser hwnw allan
+   </lb> 
+   <lb n="7">drwy gymhelliad a gorchymun yr un henrri frenhin
+   </lb> 
+   <lb n="8">y gorvu i Esgyb mynyw a holl Esgyb kymru 
+   </lb>
+   <lb n="8-9">vfvddhav
+   </lb>
+   <lb n="9">
+    a darostwng a chymryd i hordeiniad a 'i 
+   </lb>
+   <lb n="9-10">kyssegriad
+   </lb>
+   <lb n="10">
+    gann arch Esgob kaer gaint Ac velly nid
+   </lb> 
+   <lb n="11">oes heddiw yn lloegr ond dav arch Esgob nev 
+   </lb>
+   <lb n="11-12">primat
+   </lb>
+   <lb n="12">
+    nid amgen / un ynghaer gaint / ac un yn Iork
+   </lb> 
+   <lb n="13">a 'r kyntaf onaddvnt a Elwir primas holl loegr
+   </lb> 
+   <lb n="14">a 'r llall a Elwir primat lloegr / Kanys pan dyfodd
+   </lb> 
+   <lb n="15">ymrysson rryngthvnt yn amser wiliam bastart
+   </lb> 
+   <lb n="16">pwy onaddvnt a ufuddhae i 'w gilydd: Ef a 
+   </lb>
+   <lb n="16-17">varnwyd
+   </lb>
+   <lb n="17">
+    drwy gytssynedigaeth yr un brenhin wiliam
+   </lb> 
+   <lb n="18">bastart a holl esgolheigion y deyrnas wedi 
+   </lb>
+   <lb n="18-19">klybod
+   </lb>
+   <lb n="19">
+    y ddadlwriaeth a 'r rresymav o bob peth y rrai
+   </lb> 
+   <lb n="20">y Sydd yn ysgrifenedic yn llyfr kronig a wnaeth
+   </lb> 
+   <lb n="21">Rraniwlff pritton mynach o gaer lleon / uvuddhav
+   </lb> 
+   <lb n="22">o arch Esgob iork a 'i Swffryganiaid I arch Esgob 
+   </lb>
+   <lb n="22-23">kaer
+   </lb>
+   <lb n="23">
+    gaint mewn pob peth perthynol i gadw y ffydd
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="36.">
+   
+   
+   
+    
+   <lb n="1">A braint a dled eglwys  dvw / a pha le bynac
+   </lb> 
+   <lb n="2">yr ordeinio arch Esgob kaer gaint gyngor nev gymanva gyffredin dyvod o arch
+   </lb> 
+   <lb n="3">Esgob iork a 'i swffryganied hyd yno / Ac ufvddhav
+   </lb> 
+   <lb n="4">i 'r hynn a ordeinier o 'i kyd gyngor / A phann vo marw
+   </lb> 
+   <lb n="5">arch Esgob kaer gaint:/ dyvod o arch Esgob iork
+   </lb> 
+   <lb n="6">hyd yno / a chyssegrv gidac Eraill y neb a 
+   </lb>
+   <lb n="6-7">ddewisser
+   </lb>
+   <lb n="7">
+    yn arch / Esgob a phann vo marw arch
+   </lb> 
+   <lb n="8">Esgob Iork y neb a ddewisser yn i ol Ef: a ddaw att arch
+   </lb> 
+   <lb n="9">Esgob kaer gaint, ac a gymer i ordeiniad gantho /
+   </lb> 
+   <lb n="10">ac a rydd lw o 'i broffessiwn ufudddod hyd y perthyn
+   
+   
+   </lb> 
+   <lb n="11">A bid ysbys i bawb pannyw amlach oeddynt Esgyb
+   </lb> 
+   <lb n="12">ar ddechrav y ffydd noc ynt heddiw / a llawer o 'i 
+   </lb>
+   <lb n="12-13">Esteddvaev
+   </lb>
+   <lb n="13">
+    a ordainissid mewn pentrefi bychain megis
+   </lb> 
+   <lb n="14">I geissio lleoedd addas i ddvwiolder ac i vyfyrio Eissioes
+   </lb> 
+   <lb n="15">wedi hynny yn amsser william bastart kwngkwerwr lloegr
+   </lb> 
+   <lb n="16">o varn a chytvndec \chytundeb\ yr arch Esgob a 'r Esgyb hwynt a
+   </lb> 
+   <lb n="17">ysmudwyd \symudwyd\ o 'r pentrefi i 'r dinessydd Enwoc / ac velly
+   </lb> 
+   <lb n="18">Esgobod dorssiestr Saith milltir o rydychen a Symudwyd
+   </lb> 
+   <lb n="19">i lingkol / Esgobod lidsffyld I gaer lleon / Esgbod 
+   </lb>
+   <lb n="19-20">tetfford
+   </lb>
+   <lb n="20">
+    i norwids Esgobod Sirbwrn I Salyssbri / 
+   </lb>
+   <lb n="20-21">Esgobod
+   </lb>
+   <lb n="21">
+    wellys i 'r badd / Esgobod gernyw i Exedr / a 
+   </lb>
+   <lb n="21-22">Esggobod
+   </lb>
+   <lb n="22">
+    Salessey i Sidsiestr / 
+   
+   
+   Dan arch Esgob kaer
+   </lb> 
+   <lb n="23">gaint mae /13/ o Esgyb yn lloegr a /4/ ynghymru \yng Nghymru\&nbsp;
+   
+   
+   </lb>
+   </pb>
+   <pb n="37.">
+   
+    
+   <lb n="1">megis Swffraganiaid iddo nid amgen 
+   
+   
+   Esgob
+   </lb> 
+   <lb n="2">Rochestr a 'i blwyf Ef yw kent esgob llvndain a 'i blwyf yw Est Sex / mydyl Sex / a hanner
+   </lb> 
+   <lb n="3">Swydd hertffort / 
+   
+   
+   Esgob Sidssiesstr a 'i blwyf yw
+   </lb> 
+   <lb n="4">Sowthssex / ac ynys wicht 
+   
+   
+   Esgob winchestr a 'i
+   </lb> 
+   <lb n="5">blwyf yw / Sothrey / a hamsir / 
+   
+   
+   Esgob Salsbri a 'i
+   </lb> 
+   <lb n="6">blwyf yw / dorssedssir / barksir / wildssir 
+   
+   
+   Esgob
+   </lb> 
+   <lb n="7">Exedr / a 'i blwyf yw kernyw / a dyfnaint 
+   
+   
+   Esgob
+   </lb> 
+   <lb n="8">y badd / a 'i blwyf yw / gwlad yr haf 
+   
+   
+   Esgob kaer 
+   </lb>
+   <lb n="8-9">frangon
+   </lb>
+   <lb n="9">
+    / a 'i blwyf yw / Swydd gaer frangon / Swydd gaer
+   </lb> 
+   <lb n="10">loyw / a hanner Swydd warwic 
+   
+   
+   Esgob henffordd /
+   </lb> 
+   <lb n="11">a 'i blwyf yw / Swydd henffordd / a llawer o Swydd y
+   </lb> 
+   <lb n="12">mwythic 
+   
+   
+   Esgob kaer lleon / a 'i blwyf yw Swydd
+   </lb> 
+   <lb n="13">gaer lleon / Swydd ystaffort / Swydd dderbi / a haner
+   </lb> 
+   <lb n="14">Swydd warwic / a chyfran o Swydd ymwythic / a rrann
+   </lb> 
+   <lb n="15">o Swydd longkastr / nid amgen o afon mers
+   </lb> 
+   <lb n="16">hyd avon Rupyl 
+   
+   
+   Esgob lincol / a 'i blwyf yw 'r 
+   </lb>
+   <lb n="16-17">gwledydd
+   </lb>
+   <lb n="17">
+   &nbsp;rrvng temys a hwmyr / nid amgen / Swydd
+   </lb> 
+   <lb n="18">lincol / Swydd laeSedr / Swydd notingam / Swydd 
+   </lb>
+   <lb n="18-19">northhamtwn
+   </lb>
+   <lb n="19">
+    / Swydd hwntingtwn / Swydd betffort / Swydd
+   </lb> 
+   <lb n="20">bwkingam / Swydd rydychen / a haner Swydd hertffort
+   
+   
+   </lb> 
+   <lb n="21">Esgob Eli a 'i blwyf yw Swydd gambrids Eithr
+   </lb> 
+   <lb n="22">merlont a hari ap wiliam bastart a 'i hordeiniodd
+   </lb> 
+   <lb n="23">hi gynta / ac roes y Swydd honn yn blwyf iddi
+   
+   </lb>
+   </pb>
+   <pb n="38.">
+   
+    
+   <lb n="1">yr honn oedd gynt o vewn plwyf Esgob lincol / ac
+   </lb> 
+   <lb n="2">ynghyvair \yng nghyfair\ hynny y rhoes yr un brenhin i 'r Esgob 
+   </lb>
+   <lb n="2-3">hwnnw
+   </lb>
+   <lb n="3">
+    dref yspalding 
+   
+   
+   Esgob Norwids / a 'i blwyf
+   </lb> 
+   <lb n="4">yw / Northffolk / a Sowthffolk / a merlond /
+   
+   
+   
+   </lb> 
+   <lb n="5">Hevyd pedwar Esgob yssydd dan arch Esgob kaer gaint 
+   </lb>
+   <lb n="5-6">ynghymrv
+   </lb>
+   <lb n="6">
+    \yng Nghymru\ nid amgen Esgob mynyw / Esgob llann daf / yn
+   </lb> 
+   <lb n="7">y deav / Esgob llan Elwy / ac Esgob bangor ymhywys \ym Mhowys\
+   </lb> 
+   <lb n="8">a gwynedd
+   
+   
+   
+   </lb> 
+   <lb n="9">Dan arch Esgob ac arch Esgobod Iork nid oes ond dav Esgob
+   </lb> 
+   <lb n="10">nid amgen Esgob duram / ac Escob kaerlil / a hari 
+   </lb>
+   <lb n="10-11">gyntaf
+   </lb>
+   <lb n="11">
+    ap wiliam bastart a 'i hordeiniodd hi gyntaf
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="39.">
+   
+   
+   
+   <head>
+    
+   <lb n="1">O 'r kenedlaethav a wladychassant yr ynys</lb>
+    
+   <lb n="2">honn a ph' \pha\ amsser y doethant pob un i 'r ynys</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="3">Brytaniaid gyntaf ar ol y kewri a wladychassant
+   </lb> 
+   <lb n="4">yr ynys honn yn y drydedd oes o 'r byd XVIII
+   </lb> 
+   <lb n="5">mlynedd gwedi dechrav o heli Effeiriad a 
+   </lb>
+   <lb n="5-6">browdwr
+   </lb>
+   <lb n="6">
+    plant yr yssyrael: dyrnassv / ac yn amser Siluius
+   </lb> 
+   <lb n="7">postvmus brenhin yr Eidal Tair blynedd a ddevgaint
+   </lb> 
+   <lb n="8">wedi distrywedigaeth kaer droya vawr / kynn adeilad
+   </lb> 
+   <lb n="9">rrvfain /432/ o flynyddoedd A chynn dyvod krist 
+   </lb>
+   <lb n="9-10">ynghnawd
+   </lb>
+   <lb n="10">
+    \yng nghnawd\ /2051/ nev val hynn dwyvil ac un ar ddec
+   </lb> 
+   <lb n="11">a devgaint o flynyddoedd 
+   
+   
+   Gwedi hyny y damweiniodd
+   </lb> 
+   <lb n="12">yn amsser Vasbassian twyssoc rrvfain: i 'r ffichtiaid
+   </lb> 
+   <lb n="13">o Seithia ddyvod ar hyd y mor, a thrwy ev kymell
+   </lb> 
+   <lb n="14">o wynt hwynt  a diriassant yn y werddonn
+   </lb> 
+   <lb n="15">lle yr oedd y gwyddeliaid yn trigo ac a 
+   </lb>
+   <lb n="15-16">ddamunassant,
+   </lb>
+   <lb n="16">
+    gael lle I bresswylio gida hwynt:/ a 'i 
+   </lb>
+   <lb n="16-17">nackav
+   </lb>
+   <lb n="17">
+    a wnaethbwyd / herwydd na allai y tir 
+   </lb>
+   <lb n="17-18">dderbyn
+   </lb>
+   <lb n="18">
+    na fforthi y ddwy genedl / a 'i kyvarwyddo
+   </lb> 
+   <lb n="19">a wnaethant I ogledd ynys brydain ac addo
+   </lb> 
+   <lb n="20">I kynhyrthwyo yn Erbyn y brytaniaid o cheissynt
+   </lb> 
+   <lb n="21">i gwrthladd o 'r tir ac velly y doethant i 'r alban a rrodric ev twyssoc o 'r blaen
+   </lb> 
+   <lb n="22">ac a wnaethant ryvel mawr drwy dan a 
+   </lb>
+   <lb n="22-23">hayarn
+   </lb>
+   <lb n="23">
+    ar y bryttaniaid A phann glybv mevric
+   </lb> 
+   <lb n="24">brenhin y brytaniaid hyny: Ef a ddoeth a llv
+   </lb> 
+   <lb n="25">mawr gantho ac a 'mladdodd \ymladdodd\ a hwynt lle gelwir
+   </lb> 
+   <lb n="26">westmerlond
+   
+   </lb>
+   </pb>
+   <pb n="40.">
+   
+    
+   <lb n="1">ac yn y vrwydr honno y llas rrodric tywyssoc y 
+   </lb>
+   <lb n="1-2">ffichtiaid
+   </lb>
+   <lb n="2">
+    a rrann vwyaf o 'i lu / a rrann arall a 
+   </lb>
+   <lb n="2-3">ymroddassant
+   </lb>
+   <lb n="3">
+    yn gaethion i 'r brenhin ) ac yntev a roddes
+   </lb> 
+   <lb n="4">uddvnt le yn yr alban I drigo a Elwir Gattnes
+   </lb> 
+   <lb n="5">a phan nackawyd hwynt o gael merched y brytaniaid
+   </lb> 
+   <lb n="6">yn wreikae uddunt: hwynt a gymerssant verched y
+   </lb> 
+   <lb n="7">gwyddyl, dann amod o Syrthiai ymrysson am 
+   </lb>
+   <lb n="7-8">frenhiniaeth:
+   </lb>
+   <lb n="8">
+    ddewis onaddunt I brenhin neu i twysoc
+   </lb> 
+   <lb n="9">o vamwys yn gynt, noc o dadwys / ac am hynny
+   </lb> 
+   <lb n="10">y gelwir hwynt gwyddyl ffichtiaid ac yn hir o 
+   </lb>
+   <lb n="10-11">amsser
+   </lb>
+   <lb n="11">
+    wedi hynny y doeth Rrenda Twyssoc yr ysgotiaid
+   </lb> 
+   <lb n="12">i 'r albann a llawer kanto \ganddo\ o 'i gwlad y werddon I ysgotlond&nbsp;a Rrwng bodd ac anvodd Ef a vynodd le i drigo
+   </lb> 
+   <lb n="13">yn ymyl y phichtiaid / honno oedd y drydedd genedl
+   </lb> 
+   <lb n="14">a wladychassant ynys brydain 
+   
+   
+   A phann oedd
+   </lb> 
+   <lb n="15">oed krist /449/ neu val hynn CCCC XLIX o 
+   </lb>
+   <lb n="15-16">flynyddoedd
+   </lb>
+   <lb n="16">
+    / yr ail vlwyddyn o frenhinaeth gwrthefyrn&nbsp;
+   </lb>
+   <lb n="16-17">gwrthenav
+   </lb>
+   <lb n="17">
+    / y doeth hors a henssiest tywyssogion y Saesson
+   </lb> 
+   <lb n="18">i 'r tir drwy i gwahodd o 'r brenhin hwynt y 
+   </lb>
+   <lb n="18-19">gynhorthwy
+   </lb>
+   <lb n="19">
+    iddo yn Erbyn y ffichtiaid a 'r ysgottiaid
+   </lb> 
+   <lb n="20">herwydd a ddywaid ystoria y Saesson / a thrwy
+   </lb> 
+   <lb n="21">nerth a 'i kynhorthwy hwynt: y kavas y brenhin
+   </lb> 
+   <lb n="22">y vuddygolaeth arnunt mewn llawer o 
+   </lb>
+   <lb n="22-23">gyfrangav
+   </lb>
+   <lb n="23">
+    a brwydrav kaled / kanys tywyssogion y
+   
+   
+   </lb>
+   </pb>
+   <pb n="41.">
+   
+    
+   <lb n="1">y brytaniaid a oeddynt Soredic wrth y brenhin achos
+   </lb> 
+   <lb n="2">lladdedigaeth konstans vab kystenin 
+   
+   
+   Gwedi hynny
+   </lb> 
+   <lb n="3">hwynt a wnaethant heddwch a chytvndeb yn 
+   </lb>
+   <lb n="3-4">gyfrinachol
+   </lb>
+   <lb n="4">
+   &nbsp;Rryngthvnt a 'r ffichtiaid ac a 'r ysgottiaid
+   </lb> 
+   <lb n="5">Ac yn ddiSyvyd o undeb hwynt a ryfelassant ar
+   </lb> 
+   <lb n="6">y brytaniaid hyd pann Enillassant bob ychydic holl
+   </lb> 
+   <lb n="7">dir lloegr ac a wnaethant y bedwaredd genedl yn
+   </lb> 
+   <lb n="8">yr ynys &#8212;&nbsp;
+   
+   
+   Gwyr denmark a vuant agos i ddev kant
+   </lb> 
+   <lb n="9">mlynedd nid amgen o amsser Egbert frenhin hyd
+   </lb> 
+   <lb n="10">yn amser Saint Edwart konffessor yn rryvelv
+   </lb> 
+   <lb n="11">ac yn gwladychv y deyrnas a hwyntav fu 'r 
+   </lb>
+   <lb n="11-12">bvmed
+   </lb>
+   <lb n="12">
+    genedlaeth a wladychassant ynys brydain &#8212;
+   
+   
+   </lb> 
+   <lb n="13">Ac wedi hynny pann oedd oed krist /1066/ o 
+   </lb>
+   <lb n="13-14">flynyddoedd
+   </lb>
+   <lb n="14">
+    y goresgynodd wiliam bastart dvc normandi
+   </lb> 
+   <lb n="15">holl loegr ac a wnaeth y chweched genedlaeth ynthi
+   
+   
+   </lb> 
+   <lb n="16">Ac yn amser hari gyntaf vab william bastart
+   </lb> 
+   <lb n="17">y doeth Rrivedi mawr o fflemissiaid i 'r tir achos&nbsp;
+   </lb>
+   <lb n="17-18">goresgyn
+   </lb>
+   <lb n="18">
+    o 'r mor lawer o dir Fflandrys ac a gawssant
+   </lb> 
+   <lb n="19">le i drigo dros yr amsser yn wyrain yr ynys ger llaw
+   </lb> 
+   <lb n="20">mail rros ac a wnaethant y Seithved genedlaeth
+   </lb> 
+   <lb n="21">yn yr ynys / Eithr drwy orchymun yr un brenin
+   </lb> 
+   <lb n="22">hwynt a ssmudwyd \symudwyd\ hyd yn Rros  a ffenfro 
+   </lb>
+   <lb n="22-23">oddyno
+   </lb>
+   <lb n="23">
+    yn y lle y maent Etto yn trigo Er hynny
+   </lb> 
+   <lb n="24">o amsser
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="42.">
+   
+   
+   
+    
+   <lb n="1">Ac velly pump kenedlaeth y ssydd yn gwladychv
+   </lb> 
+   <lb n="2">heddyw / gwedi diffygio llin y ffichtiaid / a gwyr
+   </lb> 
+   <lb n="3">denmark / nid amgen Ysgottiaid yn yr albann 
+   </lb>
+   <lb n="3-4">Bryttaniaid
+   </lb>
+   <lb n="4">
+   &nbsp;ynghymry \yng Nghymru\ a chernyw Fflemissiaid yn Rros
+   </lb> 
+   <lb n="5">a phenfro Normaniaid a Saeson wedi 'r \ry\ gymysgv
+   </lb> 
+   <lb n="6">yn holl loegr &#8212;&nbsp;
+   
+   
+   Hysbys yw ymysc ystoriawyr y
+   </lb> 
+   <lb n="7">modd y diffygiodd meddiant gwyr denmark yn yr ynys
+   </lb> 
+   <lb n="8">val nad rraid  I ysgrivenv yma 
+   </lb>
+   <lb n="8-9">Namyn
+   </lb>
+   <lb n="9">
+    y modd y dyffygioedd llin y ffichtiaid nid amgen
+   </lb> 
+   <lb n="10">pann oedd y Saesson yn meddianu lloegr i gyd a heddwch
+   </lb> 
+   <lb n="11">gwastad wedi 'r \ry\ gadarnhav rryngthunt a 'r yscottiaid
+   </lb> 
+   <lb n="12">a oeddynt yn trigo yn un wlad / a hwynt a 
+   </lb>
+   <lb n="12-13">ymarverassant
+   </lb>
+   <lb n="13">
+    o 'i hen vrad a 'i twyll yr hynn nid oedd afryw
+   </lb> 
+   <lb n="14">uddunt / ac a arwyliassant wledd vawr / ac a 
+   </lb>
+   <lb n="14-15">wahoddassant
+   </lb>
+   <lb n="15">
+    holl arglwyddi a boneddigion y ffichtiaid
+   </lb> 
+   <lb n="16">A hwynt a ossodoed i Eiste ar veinkiav kevon o
+   </lb> 
+   <lb n="17">vewn y byrddav wedi 'r \ry\ wnevthur o ystyllod ar vodd
+   </lb> 
+   <lb n="18">koffrav a 'r ysgottiaid a Eisteddassant o 'r tv allan
+   </lb> 
+   <lb n="19">i 'r byrddav a phann oeddynt lawenaf wedi kyfeddach
+   </lb> 
+   <lb n="20">yn dda a dechrav brwysgo: y Tynwyd yr hoelion
+   </lb> 
+   <lb n="21">a roessid i ddal yr ystyllod uwchaf o 'r meinkiav / ac
+   </lb> 
+   <lb n="22">I gollyngwyd y ffichtiaid hyd ynghamedd \yng nghamedd\ i garav
+   </lb> 
+   <lb n="23">ynghevedd \yng ngheuedd\ y meinkiav / ac yno y llas hwynt oll
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="43.">
+   
+   
+   
+    
+   <lb n="1">A 'r dryll arall o 'r genedlaeth honn a yrwyd o 'r tir allan
+   </lb> 
+   <lb n="2">ac a gymhellwyd drwy yr ynys yn alltvdion ac yn 
+   </lb>
+   <lb n="2-3">gaethion
+   </lb>
+   <lb n="3">
+    I arglwyddi a boneddigion / ac velly y genedlaeth
+   </lb> 
+   <lb n="4">ddewraf a gwrolaf o 'r ddwy hynn a ddilewyd yn 
+   </lb>
+   <lb n="4-5">gwbwl
+   </lb>
+   <lb n="5">
+    val nad oes un byw onaddunt yn yr ynys
+   </lb> 
+   <lb n="6">honn na dyn a vedro gair o 'r iaith / ar honn oedd
+   </lb> 
+   <lb n="7">wanaf a lleiaf, a gavas lles a buddygoliaeth drwy
+   </lb> 
+   <lb n="8">I twyll a 'i brad / ac oresgynassant y tir i gyd
+   </lb> 
+   <lb n="9">ac a 'i galwassant ysgottlond ar ol henw y genedyl
+   
+   
+   
+   </lb>
+   <head>
+    
+   <lb n="10">O 'r Ieithoedd a 'r kenedlaethav natvriav</lb>
+   </head>
+   
+   
+   
+   
+    
+   <lb n="11">Pob kenedlaeth o 'r Rrai a vuant yn gwladychv
+   </lb> 
+   <lb n="12">yr ynys honn, gynt yr oedd iaith neilltvol
+   </lb> 
+   <lb n="13">I bob un Y kymrv a 'r ysgotiaid y Sydd yn kynal
+   </lb> 
+   <lb n="14">hayachen I ieithiav hen / y normaniaid a 'r 
+   </lb>
+   <lb n="14-15">fflemissiaid
+   </lb>
+   <lb n="15">
+    a gollassant i hieithiav e hunain / ac
+   </lb> 
+   <lb n="16">y Sydd yn  dywedvd Saessnec a chymraec
+   </lb> 
+   <lb n="17">Y Saesson a gollassant yr hen iaith / achos ev
+   </lb> 
+   <lb n="18"> kymysgv yn gyntaf a gwyr denmark / a gwedi
+   </lb> 
+   <lb n="19">hyny a normaniaid / ac yn gwest a 'r Ffrangec
+   </lb> 
+   <lb n="20">ac ieithiav Eraill / mewn llawer o Eiriav
+   </lb> 
+   <lb n="21">ac yn anwedic mewn trwssiad / a dodrefn tai /
+   </lb> 
+   <lb n="22">megis / kwfrlid / blanked / kyfrssi / Ewer / Siawmler /
+   </lb> 
+   <lb n="23">ac Eraill mwy / a 'r llygriad hyn ar yr iaith a
+   </lb> 
+   <lb n="24">ddamweiniodd vwyaf mewn dav vodd / kanys
+   
+   </lb>
+   </pb>
+   <pb n="44.">
+   
+    
+   <lb n="1">pan ddoeth Wiliam bastart gyntaf i 'r tir y kymhellwyd
+   </lb> 
+   <lb n="2">meibion bychain yn ysgolheigion I ado Ieithiav i 
+   </lb>
+   <lb n="2-3">mamav
+   </lb>
+   <lb n="3">
+    ac i gonstrawenv yn ffrangec / A hevyd meibion
+   </lb> 
+   <lb n="4">boneddigion a ddysgid yn i hyvienktid i ddywedvd 
+   </lb>
+   <lb n="4-5">ffrangec
+   </lb>
+   <lb n="5">
+    A 'r bobl gyffredin a geissiassant dybygu
+   </lb> 
+   <lb n="6">uddunt hwyntav Val y byddynt mwy kymeradwy
+   </lb> 
+   <lb n="7">a ddyssgassant yr un iaith kanys bryd a bwriad yr
+   </lb> 
+   <lb n="8">un Wiliam, oedd ddwyn ffrangec i 'r tir a dileu
+   </lb> 
+   <lb n="9">a diffodi y Saessnec o gwbwl / ac velly ni thrigodd
+   </lb> 
+   <lb n="10">yr hen iaith namyn mewn ychydic o leoedd ymysc y bobl
+   </lb> 
+   <lb n="11">gyffredin Ac y mae kymaint o amrafael&nbsp;
+   </lb>
+   <lb n="11-12">heddiw
+   </lb>
+   <lb n="12">
+    yn y Saessnec: val y mae anodd I wyr y deav
+   </lb> 
+   <lb n="13">a 'r gogledd, ddeall I gilydd Eissioes gwyr 
+   </lb>
+   <lb n="13-14">mers
+   </lb>
+   <lb n="14">
+    o ganol lloegr megis peth kanolic a vai
+   </lb> 
+   <lb n="15">yn kyfrannv o nattvriaethav, yr Eithafoedd a
+   </lb> 
+   <lb n="16">ddehallant yn well Ieithiav y deav a 'r gogledd
+   </lb> 
+   <lb n="17">noc y deall y naill onaddvnt hwy y llall &#8212;
+   
+   
+   </lb> 
+   <lb n="18">Amrafaelion arverav a natvriaethau oedd
+   </lb> 
+   <lb n="19">i bob un onaddunt nid amgen no 'r kenedlaeth
+   </lb> 
+   <lb n="20">a ddywetpwyd uchod 
+   
+   
+   yr ysgotiaid yssydd bobl
+   </lb> 
+   <lb n="21">anghywir twyllodrvs a ffob un onaddvnt a 
+   </lb>
+   <lb n="21-22">fradycha
+   </lb>
+   <lb n="22">
+    I gilydd korff a da wrth nattvr Pobl ywerddon
+   
+   
+   </lb>
+   </pb>
+   <pb n="45.">
+   
+    
+   <lb n="1">y wlad y doethant o honni &#8212;&nbsp;
+   
+   
+   FFlemissiaid rros a ffenfro
+   </lb> 
+   <lb n="2">y Sydd bobl chwanoc I wnevthur merssiandi a bargenie
+   </lb> 
+   <lb n="3">ac I antvrio hwynt I hunain mewn perigl mor a
+   </lb> 
+   <lb n="4">thir Er kael Elw ac ynill / ac yn tynnv heddiw mewn
+   </lb> 
+   <lb n="5">popeth yn ol arfer Seissnic &#8212;&nbsp;
+   
+   
+   Brytaniaid a oedd 
+   </lb>
+   <lb n="5-6">ddewrion
+   </lb>
+   <lb n="6">
+    a chryfion a chedyrn / A thra vu unoliaeth a 
+   </lb>
+   <lb n="6-7">chyttundeb
+   </lb>
+   <lb n="7">
+    Ryngthunt, ni bu hawdd gan un Estron genedl
+   </lb> 
+   <lb n="8">wrthwynebu uddynt / namyn i bod hwynt yn vynych
+   </lb> 
+   <lb n="9">yn goresgyn ac yn kymell Eraill i dalv tyhyrnged \teyrnged\
+   </lb> 
+   <lb n="10">uddunt val y kair yn ysgrivenedic yn ev ystoria /
+   
+   
+   </lb> 
+   <lb n="11">Gwedi hynny y kodes kymaint o ryfic a balchder
+   </lb> 
+   <lb n="12">ynthunt val na vyne neb o 'r gwaed brenhinol
+   </lb> 
+   <lb n="13">ufuddhav i 'w gilydd na darostwng namyn pawb
+   </lb> 
+   <lb n="14">a chwenychai y bendefigaeth / Ac o 'r achos hwnn
+   </lb> 
+   <lb n="15">y kyvodes kiwdowdawl dervysc yn ev plith hyd 
+   </lb>
+   <lb n="15-16">pann
+   </lb>
+   <lb n="16">
+    wanhawyd yr ynys yn vawr wrth Eiriau yr /
+   </lb> 
+   <lb n="17">yvengil \efengyl\&nbsp;
+   
+   
+   Pob tyrnas wahanedic ynthi ehun a 
+   </lb>
+   <lb n="17-18">ddiffeithir
+   </lb>
+   <lb n="18">
+    / a phan weles duw na ffeidynt a 'r pechod 
+   </lb>
+   <lb n="18-19">hwnn,
+   </lb>
+   <lb n="19">
+    ac a 'r pechodau Eraill y rrai val i dywaid eu
+   </lb> 
+   <lb n="20">hystoria a beris uddunt golli eu tir nid amgen
+   </lb> 
+   <lb n="21">Ysgeuluster y preladiaid / trais a gorddwy  y kedyrn /
+   </lb> 
+   <lb n="22">chwant browdwyr / llae anudon / gormodd 
+   </lb>
+   <lb n="22-23">amrafaelionn
+   </lb>
+   <lb n="23">
+   
+   
+   </lb>
+   </pb>
+   <pb n="46.">
+   
+    
+   <lb n="1">ar ddillad / a godineb y kyffredin / ac yn anwedic gwyr yr
+   </lb> 
+   <lb n="2">Eglwys Ef a ddanvones newyn girad yn ddialaeth
+   </lb> 
+   <lb n="3">arnun yr hwnn a barhaodd XI o flynyddoedd, val nad oedd
+   </lb> 
+   <lb n="4">ddim yn porthi y bobl I gynal i bwyd ond a geffynt o gic
+   </lb> 
+   <lb n="5">hely mewn diffaith goedydd a fforestav / a chida hynny
+   </lb> 
+   <lb n="6">kymaint oedd y varvolaeth, val nallai y rrai byw
+   </lb> 
+   <lb n="7">gladdv y rrai meirw A Gweddill y genedlaeth drvan
+   </lb> 
+   <lb n="8">honn: a hwyliassant dros y moroedd I amrafaelion
+   </lb> 
+   <lb n="9">wledydd, dann udaw ac wylofain / a dywedud wrth
+   </lb> 
+   <lb n="10">dduw val hynn 
+   
+   
+   Ti a 'n rroist ni yma val defaid
+   </lb> 
+   <lb n="11">ymysc bleiddiav / ac a 'n gwasgeraist ymhlith 
+   </lb>
+   <lb n="11-12">estronion
+   </lb>
+   <lb n="12">
+    genedlaethav / &#8212;&nbsp;
+   
+   
+   Ac yntav gydwaladr 
+   </lb>
+   <lb n="12-13">brenhin
+   </lb>
+   <lb n="13">
+    y bryttnaid a hwyliodd dros y mor i lydaw dann
+   </lb> 
+   <lb n="14">chwanegu y kwynvan uchod val hynn Gwae ni
+   </lb> 
+   <lb n="15">bechaduriaid Rac amled yn pechodav y rrai y 
+   </lb>
+   <lb n="15-16">koddassam
+   </lb>
+   <lb n="16">
+    ni ddvw onaddunt: tra ytoeddymi yn kael 
+   </lb>
+   <lb n="16-17">ysbaid
+   </lb>
+   <lb n="17">
+    y 'w penydiaw ac I ymwneuthur a duw 
+   </lb>
+   <lb n="17-18">amdanaddunt
+   </lb>
+   <lb n="18">
+    / ac am hyny y mae dvw i 'n deol ni, o 'n ganedic
+   </lb> 
+   <lb n="19">le a 'nn gwir ddled, yr hynn ni allassant Rrufeinwyr
+   </lb> 
+   <lb n="20">na ffichtiaid nac ysgottiaid na 'r twyllwyr y
+   </lb> 
+   <lb n="21">Saesson I wneuthur Namyn goresgyn ohonam
+   </lb> 
+   <lb n="22">yn ofer arnunt yn tir Gann nad oedd Ewyllys
+   
+   
+   </lb>
+   </pb>
+   <pb n="47.">
+   
+    
+   <lb n="1">duw dernassu ohonam yntho yn dragywydd / A 'r 
+   </lb>
+   <lb n="1-2">goruwchaf
+   </lb>
+   <lb n="2">
+    frowdwr kyfion pann welas ni heb vynnu ymado
+   </lb> 
+   <lb n="3">a 'n henwiredd / ac na allai neb ddeol yn kenedlaeth
+   </lb> 
+   <lb n="4">ni drwy gydernyd \gadernid\ o 'r ynys allan: Ef a vynodd yn kosbi
+   </lb> 
+   <lb n="5">A Rroi arnom ddialedd / drwy 'r honn y gorvu yn ado
+   </lb> 
+   <lb n="6">yn gwlad yn wac / Am hyny ymchwelwch ffichtiaid /
+   </lb> 
+   <lb n="7">ac ysgottiaid / a 'r bradwyr Saesson / I ynys brydain kannys
+   </lb> 
+   <lb n="8">diffaith a gwac yw o 'i ffobl ddyledoc / yr honn ni
+   </lb> 
+   <lb n="9">allassoch chwi I diffeithio Nid ych kydernid \cadernid\ chwi a 'n deholes
+   </lb> 
+   <lb n="10">ni / namyn gallu a chydernyd \chadernid\ yr holl gyvoethoc ddvw
+   </lb> 
+   <lb n="11">yr hwnn ni ffeidiassam a 'i ddigio mewn llawer
+   </lb> 
+   <lb n="12">o voddav Ac velly y Gwagkawyd \gwacawyd\ ynys brydain
+   </lb> 
+   <lb n="13">o 'i holl ddeledogion \ddyledogion\ oddieithr ychydic o weddillion y
+   </lb> 
+   <lb n="14">genedlaeth yr Rrai a ddianghessynt Rrac y vall a 'r
+   </lb> 
+   <lb n="15">newyn girad a ddywetpwyd vchod ac ffoessynt I
+   </lb> 
+   <lb n="16">goedydd a chreigiav kymry &#8212;&nbsp;
+   
+   
+   Ac o 'r amsser 
+   </lb>
+   <lb n="16-17">hwnnw
+   </lb>
+   <lb n="17">
+    y diffygiodd meddiant a gallu y brytaniaid
+   </lb> 
+   <lb n="18">yn yr ynys / ac I gwladychodd y Saesson holl loegr
+   </lb> 
+   <lb n="19">o 'r mor pwy gilydd / ac a ddechrevassant 
+   </lb>
+   <lb n="19-20">attgyweiriaw
+   </lb>
+   <lb n="20">
+    y temlav a 'r dinessydd / ac adeilad 
+   </lb>
+   <lb n="20-21">Eraill
+   </lb>
+   <lb n="21">
+    o newydd a chynal heddwch a thangnefedd
+   </lb> 
+   <lb n="22">Rryngthunt yn hir o amsser, drwy eu doethineb
+   </lb> 
+   <lb n="23">a 'i kydernyd \cadernid\ val yr oedd I nattur yn i roi uddunt
+   </lb> 
+   <lb n="24">Eissioes o 'i hanwastadrwydd e hunain a thrwy 
+   </lb>
+   <lb n="24-25">Eiriol
+   </lb>
+   <lb n="25">
+    Eraill
+   
+   </lb>
+   </pb>
+   <pb n="48.">
+   
+    
+   <lb n="1">hawdd yw I troi yn erbyn I hamkanion / anioddefus 
+   </lb>
+   <lb n="1-2">ganthunt
+   </lb>
+   <lb n="2">
+    Seguryd ac Essmwythdra kanys pann 
+   </lb>
+   <lb n="2-3">orfyddynt
+   </lb>
+   <lb n="3">
+    ar Estronion a ffeidio a Rryvelv, hwynt a 
+   </lb>
+   <lb n="3-'4">mryssonynt
+   </lb>
+   <lb n="4">
+    \ymrysonynt\ ynthunt I hunain ac a ymgnoant val
+   </lb> 
+   <lb n="5">kyllae gweigion Gwylltach ac anwastattach yw
+   </lb> 
+   <lb n="6">gwyr y gogledd no gwyr y deav Trevlgar a glythion
+   </lb> 
+   <lb n="7">yw y Saesson ar ddillad a bwydav da / a 'r beiau
+   </lb> 
+   <lb n="8"> hynn a haerwyd arnynt
+   </lb> 
+   <lb n="9">I kael yn amsser brenhin o ddenmark a vu yn
+   </lb> 
+   <lb n="10">tyrnassu arnynt a Elwid Hartknott yr hwnn a
+   </lb> 
+   <lb n="11">vynai ossod byrddav bedeirgwaith yn y dydd / ac
+   </lb> 
+   <lb n="12">amylder o vwydav da arnunt a hynn a wnai Ef
+   </lb> 
+   <lb n="13">I geissio bodd ac Ewyllys y Saesson ag Ef a 
+   </lb>
+   <lb n="13-14">wyddiad
+   </lb>
+   <lb n="14">
+    panyw glythion oeddynt / gwell oedd ganto
+   </lb> 
+   <lb n="15">weddillo o 'i wahoddwr Seigiav no gorvod arnynt
+   </lb> 
+   <lb n="16">I gofyn Eilwaith kywraint a dichellgar a 
+   </lb>
+   <lb n="16-17">chwanoc
+   </lb>
+   <lb n="17">
+    yw 'r genedlaeth honn / a phen anerfid \phen yn erfid\
+   </lb> 
+   <lb n="18">kynn dechrav gwaith / a gwedi hynny kallach
+   </lb> 
+   <lb n="19">yw / a gado yr hynn a ddechrevo yn hawdd a
+   </lb> 
+   <lb n="20">wna / Mewn llyfr a Elwir policraticon y
+   </lb> 
+   <lb n="21">kair yn ysgrifenedic ddywedud o Eugenius
+   </lb> 
+   <lb n="22">o rvfain vod y Saesson yn abyl i wnevthur pob
+   </lb> 
+   <lb n="23">peth  yn rragorol rrac Eraill onis 
+   </lb>
+   <lb n="23-24">llesteiriai
+   </lb>
+   <lb n="24">
+   &nbsp;
+   
+   </lb>
+   </pb>
+   <pb n="49.">
+   
+    
+   <lb n="1">anwadalwch eu kalonnav uddunt / ac velly dwyaid
+   </lb> 
+   <lb n="2">Hanibal vrenhin kartrago: na Ellid gorvod ar
+   </lb> 
+   <lb n="3">wyr Rruvain ond yn I gwlad eu hun: Velly y 
+   </lb>
+   <lb n="3-4">Saesson
+   </lb>
+   <lb n="4">
+    pann vont yn rryvelv mewn gwledydd Eraill
+   </lb> 
+   <lb n="5">anawdd yw i gorvod / ac yn I gwlad e hunain haws
+   </lb> 
+   <lb n="6">yw / a hyny oblegid I hanwadalwch a 'i brad a 'i twyll
+   </lb> 
+   <lb n="7">kynhenid, yr hwnn yddys yn i anod uddunt mewn
+   </lb> 
+   <lb n="8">llawer o lyfrav ystoriawyr / ac am hynny y kowssant
+   </lb> 
+   <lb n="9">yn vynych y gwaethaf / Gan vryttaniaid / 
+   </lb>
+   <lb n="9-10">normaniaid
+   </lb>
+   <lb n="10">
+    / ysgottiaid / a gwyr denmark &#8212;&nbsp;
+   
+   
+   O 'r 
+   </lb>
+   <lb n="10-11">genedlaeth
+   </lb>
+   <lb n="11">
+    honn y proffwydodd ankyr Santaidd gynt
+   </lb> 
+   <lb n="12">yn amser Egelred frenhin lloegr val hynn / 
+   </lb>
+   <lb n="12-13">achos
+   </lb>
+   <lb n="13">
+    bod tai dduw wedi ymroddi I dwyll a 
+   </lb>
+   <lb n="13-14">medddod
+   </lb>
+   <lb n="14">
+    ac ysgevlvstra y distrywir y Saesson / yn
+   </lb> 
+   <lb n="15">gyntaf drwy wyr denmark / yr ail drwy normaniaid /
+   </lb> 
+   <lb n="16">a 'r trydydd drwy ysgottiaid / y bobl Esgevlvssaf
+   </lb> 
+   <lb n="17">a diystyraf ganthvnt / ac yna y bydd y byd mor 
+   </lb>
+   <lb n="17-18">amrafaelvs:
+   </lb>
+   <lb n="18">
+    val ydd adweinir anwadalwch y 
+   </lb>
+   <lb n="18-19">kalonnav
+   </lb>
+   <lb n="19">
+    wrth amrafael lun a lliw ar drwssiadau
+   
+   
+   </lb> 
+   <lb n="20">Arnulphus yn y llyvyr kyntaf o 'r policronica
+   </lb> 
+   <lb n="21">a ddywaid am y ssaesson val hynn / y genedlaeth honn a 
+   </lb>
+   <lb n="21-22">ffieiddia
+   </lb>
+   <lb n="22">
+    ac a ogana yr Eiddo ehun / Ac a genmyl yr</lb> 
+   <lb n="23">eiddi
+   
+   </lb>
+   </pb>
+   <pb n="50.">
+   
+    
+   <lb n="1">arall / braidd y bydd bodlawn i 'w gradd e hun /
+   </lb> 
+   <lb n="2">kanys yr hynn a berthyno i arall a ddamuna ac
+   </lb> 
+   <lb n="3">a drefna iddo ehun / Megis gwreang yn keissio
+   </lb> 
+   <lb n="4">yr hynn a weddai i ysgwier / ac ysgwier yr hynn
+   </lb> 
+   <lb n="5">a weddai i varchoc neu I Iarll / ac Iarll yr hynn
+   </lb> 
+   <lb n="6">a berthynai I dduck / a duck yr hynn a berthynai
+   </lb> 
+   <lb n="7">I vrenhin 
+   
+   
+   Ac wrth hynny y kair yn 
+   </lb>
+   <lb n="7-8">ysgrifenedic
+   </lb>
+   <lb n="8">
+    a amgylchyno pob kenedlaeth, nid yw o un
+   </lb> 
+   <lb n="9">genedlaeth o 'r byd / ac a gymero pob krefydd
+   </lb> 
+   <lb n="10">nid yw mewn un krefydd Ac velly y 
+   </lb>
+   <lb n="10-11">Saesson
+   </lb>
+   <lb n="11">
+    kanys mewn ymddygiad klerwyr y maent /
+   </lb> 
+   <lb n="12">mewn ymborth glythion ynt / i geissio mantais tafarnwyr ynt yn eu trwssiad
+   </lb> 
+   <lb n="13">marchogion ynt / ymhob ynill val argws / mewn
+   </lb> 
+   <lb n="14">llafur val tantalvs o gowreindeb val dedal&uuml;s / mewn gwelae val 
+   </lb>
+   <lb n="14-15">Sardanapalws
+   </lb>
+   <lb n="15">
+    / mewn temlau val delwav / Ac mewn
+   </lb> 
+   <lb n="16">llyssoedd val taranav / A chyda hynny y kodes
+   </lb> 
+   <lb n="17">kymaint o amrafaelion luniav a lliwiav ar
+   </lb> 
+   <lb n="18">ddillad / val nad ydweinid \adweinid\ neb rrac i gilydd
+   
+   
+   </lb> 
+   <lb n="19">Ac am y beiav hynn ac Eraill a ddywetpwyd
+   </lb> 
+   <lb n="20">uchod y Sores duw wrthynt mal y ssorassai
+   
+   
+   </lb>
+   </pb>
+   <pb n="51.">
+   
+    
+   <lb n="1">gynt wrth y brytaniaid / ac I goddefodd i 'r normaniaid
+   </lb> 
+   <lb n="2">gael gorvchafiaeth arnynt a 'i kymell i ddarostwng
+   </lb> 
+   <lb n="3">uddunt hyd heddiw / A 'r genedlaeth honn oedd dewr
+   </lb> 
+   <lb n="4">a gwrol a mawr eu bwriad a 'i hystryw ymhob peth /
+   </lb> 
+   <lb n="5">ac yn anwedic i geissio da / Ac ar ddyvodiad y 
+   </lb>
+   <lb n="5-6">normaniaid
+   </lb>
+   <lb n="6">
+    i 'r tir hwynt a wnaethant gyfreithiau
+   </lb> 
+   <lb n="7">drwy y dyrnas ac a 'i kynaliassant yn heddychol
+   </lb> 
+   <lb n="8">dangnefeddus yn hir / val na bu vawr dervysc
+   </lb> 
+   <lb n="9">Rryngthynt hyd pann godes Rryvel a 
+   </lb>
+   <lb n="9-10">chynddrygedd
+   </lb>
+   <lb n="10">
+    Rrwng yr ail Hari vab yr ymerodres a 'i
+   </lb> 
+   <lb n="11">veibion / ac o 'r amsser hwnw allan / mynych y
+   </lb> 
+   <lb n="12">bu Rryvel a thervysc ymhlith y genedl nessaf o 'r
+   </lb> 
+   <lb n="13">Gwaed brenhinol / Ac nid mawr rryveddod hynny
+   </lb> 
+   <lb n="14">herwydd y kair yn llyfrav ac ystoriaeu / 
+   
+   
+   Kanys
+   </lb> 
+   <lb n="15">Iarll oedd gynt yn angiw, a hwnw a gymerth
+   </lb> 
+   <lb n="16">wraic Ievank I blanta ohoni oblegid i ffryd
+   </lb> 
+   <lb n="17">a 'i gosgedd ac anvynych y deuai hi i 'r eglwys /
+   </lb> 
+   <lb n="18">A phan ddelai ni thrigai hi yno hwy noc ymronn
+   </lb> 
+   <lb n="19">aberthu ac wedi i bod hi yn hir o amsser yn y
+   </lb> 
+   <lb n="20">modd hwnn / hi a gyhuddwyd wrth yr Iarll am hynny
+   </lb> 
+   <lb n="21">/ ac yntav a beris I bedwar marchoc I dal hi yn
+   </lb> 
+   <lb n="22">yr Eglwys a phedwar o 'i phlant gyda hi / A phann
+   
+   </lb>
+   </pb>
+   <pb n="52.">
+   
+    
+   <lb n="1">Gyvodes yr aberth hi aeth drwy y ffenestr allan
+   </lb> 
+   <lb n="2">a dau o 'i fflant yr Rai oeddynt dann yr ael assw
+   </lb> 
+   <lb n="3">i 'w mantell gida hi ac ni weled hi na hwyntav
+   </lb> 
+   <lb n="4">byth mwy / a 'r ddav Eraill a dewis hi yno / ac un
+   </lb> 
+   <lb n="5">onaddunt oedd hynaif Geffrey plant aginet
+   </lb> 
+   <lb n="6">Tad yr hari a ddywetpwyd uchod &#8212;&nbsp;
+   
+   
+   A Richiart
+   </lb> 
+   <lb n="7">vrenhin vab yr hari uchod a ddatkanai yn
+   </lb> 
+   <lb n="8"> vynych y chwedl hwnn / ac a ddywedai nad
+   </lb> 
+   <lb n="9">oedd ryvedd bod pawb o 'r genedlaeth hon yn lladd
+   </lb> 
+   <lb n="10">i gilydd, val pethav a ddelynt i wrth ddiawl
+   </lb> 
+   <lb n="11">ac a Elynt att ddiawl 
+   
+   
+   Sieffre I vrawd 
+   </lb>
+   <lb n="11-12">yntau
+   </lb>
+   <lb n="12">
+    yn dyst ar yr un chwedyl: a ddyvod wrth
+   </lb> 
+   <lb n="13">ysgolhaic a ddoethoedd I loegr o fryttaen lle
+   </lb> 
+   <lb n="14">'dd \ydd\ oedd vo yn dduc I geissio trettio a heddychu
+   </lb> 
+   <lb n="15">Rryngtho a hari i dad val hynn paham i 
+   </lb>
+   <lb n="15-16">doethost
+   </lb>
+   <lb n="16">
+    di yma I geissio vy nietiveddio I o 'm 
+   </lb>
+   <lb n="16-17">Rrywiogaeth
+   </lb>
+   <lb n="17">
+    Oni wyddyd ti nad oedd ryw i neb
+   </lb> 
+   <lb n="18">ohonam ni garu I gilydd / ac am hynny
+   </lb> 
+   <lb n="19">na lavuria yn ofer I geissio yn dinaturio
+   </lb> 
+   <lb n="20">ni &#8212;&nbsp;
+   
+   
+   Hevyd Saint bernet a broffwydodd o 'r hari
+   
+   
+   </lb>
+   </pb>
+   <pb n="53.">
+   
+    
+   <lb n="1">hwnn pann I gwelas yn vab Ievank atgas yn llys
+   </lb> 
+   <lb n="2">brenhin ffraink val hynn  o ddiawl i doeth ac
+   </lb> 
+   <lb n="3">I ddiawl yr a &#8212;&nbsp;
+   
+   
+   Pann ddoeth Heraklius&nbsp;
+   </lb>
+   <lb n="3-4">padriarch
+   </lb>
+   <lb n="4">
+    kaer Selem I geissio nerth gann
+   </lb> 
+   <lb n="5">yr hari hwn yn Erbyn y Sarssiniaid I 
+   </lb>
+   <lb n="5-6">ymddiffin
+   </lb>
+   <lb n="6">
+    y dinas ar  tir a gyssegrodd yn arglwydd
+   </lb> 
+   <lb n="7">ni Iessu grist a 'i briod waed / ac i gynic ygoriadav \agoriadau\
+   </lb> 
+   <lb n="8">y dinas a bedd krist iddo / Ef a ymEsgussodes
+   </lb> 
+   <lb n="9">ac a ddywad na allai vyned Rac kyvodi o 'i
+   </lb> 
+   <lb n="10">veibion yn i absen a 'i yrru allan o 'r frenhinieth
+   </lb> 
+   <lb n="11">A 'r padriarch a ddywad nad rryvedd bod yn
+   </lb> 
+   <lb n="12">ddrwc rryngthunt / kanys Eb Ef o ddiawl I
+   </lb> 
+   <lb n="13">doethoch ac i ddiawl i ddewch &#8212;&nbsp;
+   
+   
+   Mam yr
+   </lb> 
+   <lb n="14">hari uchod oedd vahallt verch hari gyntaf
+   </lb> 
+   <lb n="15">ap wiliam bastart / a hi a briodes yn gyntaf
+   </lb> 
+   <lb n="16">Hari bedwerydd ymerodr yr almaen yr hwnn a 
+   </lb>
+   <lb n="16-17">gymerth
+   </lb>
+   <lb n="17">
+   &nbsp;ydifeirwch \edifeirwch\ mawr am y kreulonder a 
+   </lb>
+   <lb n="17-18">wnaethoedd
+   </lb>
+   <lb n="18">
+    yn Erbyn I vab a 'i dad ysbrydol / a 'i
+   </lb> 
+   <lb n="19">dad knowdol hevyd / ac a ymadewis a 'i 
+   </lb>
+   <lb n="19-20">merodraeth
+   </lb>
+   <lb n="20">
+    \ymerodraeth\ a 'i wlad / ac a ddoeth mewn abid meudwy I
+   
+   </lb>
+   </pb>
+   <pb n="54.">
+   
+    
+   <lb n="1">Gaer lleon / ac yno y trigodd yn penydio i gorff drwy
+   </lb> 
+   <lb n="2">grefydd ac Edifeirwch mawr heb I adnabod o neb hyd
+   </lb> 
+   <lb n="3">I ddiwedd gyffes / ac o vewn hynn o amsser y doeth yr 
+   </lb>
+   <lb n="3-4">ymerodres
+   </lb>
+   <lb n="4">
+    att i thad I normandi / ac a 'i gwr kyntaf yn
+   </lb> 
+   <lb n="5">vyw, hi a briodes Sieffre plantagined Tad yr hari vchod /
+   </lb> 
+   <lb n="6">A 'r un hari a briodes Elenor verch Iarll pictayn
+   </lb> 
+   <lb n="7">yr honn a vuassai o 'r blaen wraic I lewys brenhin
+   </lb> 
+   <lb n="8">ffraink / yn Erbyn Ewyllys a gorchymun / Sieffrey I
+   </lb> 
+   <lb n="9">dad / kanys pann vuassai ef yn ystiwart i 'r brenhin
+   </lb> 
+   <lb n="10">I buassai iddo achos knowdol a hi 
+   
+   
+   Tad yr Elinor
+   </lb> 
+   <lb n="11">honn a dduc gwraic I Siryf ehun I drais / ac a 'i 
+   </lb>
+   <lb n="11-12">priodes
+   </lb>
+   <lb n="12">
+    hi a 'i gwr yn vyw / a hono oedd vam Elinor / a 'r
+   </lb> 
+   <lb n="13">anheilyngdod hynn herwydd tyb llawer o ddarlleodron
+   </lb> 
+   <lb n="14">ac ystoriawyr: a beris Rryvel yn vynych a thervysc
+   </lb> 
+   <lb n="15">mawr yn lloegr rrwng y bobl o 'r llin 
+   </lb>
+   <lb n="15-16">amherffaith
+   </lb>
+   <lb n="16">
+    honn / O amsser yr ail  Hari a ddywetpwyd
+   </lb> 
+   <lb n="17">uchod: hyd att Hari Seithved yr hwnn oedd gymro
+   </lb> 
+   <lb n="18">o dad i dad / Ac yn berigyl ganthunt Rac na bai 
+   </lb>
+   <lb n="18-19">Ewyllys
+   </lb>
+   <lb n="19">
+    dvw hir dyrnassu no neb o 'r llin aneddvol
+   </lb> 
+   <lb n="20">honn namyn gorvod uddunt ddarostwng a 
+   </lb>
+   <lb n="20-21">gwasnaethu
+   </lb>
+   <lb n="21">
+    rryw genedlaeth arall, val i gorfu gynt
+   </lb> 
+   <lb n="22">I 'r bryttaniaid ar Saesson oblegid i henwiredd
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="55.">
+   
+   
+   
+    
+   <lb n="1">Oni bydd kanhiadu o dduw i 'r pedwerydd Edwart
+   </lb> 
+   <lb n="2">vrenhin lloegr dyrnassu drwy I glaim a 'i gyfiownder i 'r
+   </lb> 
+   <lb n="3">goron o du y bryttaniaid herwydd i vod Ef yn wir
+   </lb> 
+   <lb n="4">Ettivedd I lywelyn ap Iorwerth drwyndwnn twyssoc gwynedd
+   </lb> 
+   <lb n="5">ar un llywelyn yn Ettivedd nessaf i gadwaladr 
+   </lb>
+   <lb n="5-6">vendigaid
+   </lb>
+   <lb n="6">
+    / y brenhin diwaethaf o 'r bryttaniaid a 
+   </lb>
+   <lb n="6-7">veddianodd
+   </lb>
+   <lb n="7">
+    koron ynys brydain, kynn i myned 
+   </lb>
+   <lb n="7-8">ymeddiant
+   </lb>
+   <lb n="8">
+    \ym meddiant\ y Saesson val y kair yn Eglur mewn llyfrau
+   </lb> 
+   <lb n="9">o 'r hen achau: Neu yntau I dduw vynnu i un o
+   </lb> 
+   <lb n="10">lin hari Seithved deyrnassu yr hwnn  oedd wir
+   </lb> 
+   <lb n="11">Etivedd i 'r un llywelyn ap Jorwerth / val y kowssom I ddiolch
+   </lb> 
+   <lb n="12">I dduw  ar hari wythved I vab yr Iessu a gato i ras
+   
+   
+   </lb> 
+   <lb n="13">A hevyd gobeithio vod y goruchaf dduw yn troi
+   </lb> 
+   <lb n="14">y tu issaf i 'r Rrod yn uchaf / kanys duw a
+   </lb> 
+   <lb n="15">ostyngodd y bryttaniaid am i pechodau a 'i 
+   </lb>
+   <lb n="15-16">henwiredd,
+   </lb>
+   <lb n="16">
+    A duw a ddichin i drychaf hwynt 
+   </lb>
+   <lb n="16-17">darchefn
+   </lb>
+   <lb n="17">
+    Megis I dywad yr angel wrth gadwaladr
+   </lb> 
+   <lb n="18">vendigaid brenhin y bryttaniaid 
+   
+   
+   Ac velly y terfyna
+   </lb> 
+   <lb n="19">y pymthec kabidwl a ddoded yn y llyvyr bach hwnn
+   </lb> 
+   <lb n="20">wedi troi o 'r llaidin ynghymraec \yng Nghymraeg\ Er diddanwch
+   </lb> 
+   <lb n="21">ac ysbysrwydd i genedl y brytaniaid &#8212;
+   
+   
+   
+   
+   </lb> 
+   <lb n="22">Myvi a 'm llaw vy hunan gruffyd hiraethoc
+   </lb> 
+   <lb n="23">a ysgrivenais hwnn pann oedd oed krist 1543
+   </lb> 
+   <lb n="24">o koronedigaeth hari wythved XXIIII yr 20ved dydd
+   </lb> 
+   <lb n="25">o vis gorffena gogoniant i 'r tad a 'r mab a 'r
+   </lb> 
+   <lb n="26">ysbryd glan
+   
+   
+   
+   
+   </lb>
+   <head>
+   Peniarth 163 ii, 17-20
+   </head>
+   
+   
+   
+   
+   
+   
+ 
+   </pb>
+   <pb n="17.">
+   
+   
+   
+    
+   <lb n="1">Evroc kadarn hevyd a wnaeth dwy
+   </lb> 
+   <lb n="2">ddinas eraill nid amgen un yn
+   </lb> 
+   <lb n="3">yr alban neu brydyn yr honn a
+   </lb> 
+   <lb n="4">elwid gynt kastell mynydd agnet
+   </lb> 
+   <lb n="5">a gwedi hynny kastell y morynion
+   </lb> 
+   <lb n="6">ac a elwir heddiw ednbrwch ar ol
+   </lb> 
+   <lb n="7">henw  Edan vrenhin y ffichtiaid yr hwnn a vu
+   </lb> 
+   <lb n="8">yn i gwladychv a 'r llall a elwid alclud ac a oedd
+   </lb> 
+   <lb n="9">gynt yn amser y brytaniaid a 'r
+   </lb> 
+   <lb n="10">ffichtiaid a 'r Saesson urddassol ac
+   </lb> 
+   <lb n="11">enwoc, a heddiw nid ysbys gan
+   </lb> 
+   <lb n="12">neb pa le i bu kans  pan oedd
+   </lb> 
+   <lb n="13">wyr denmark yn rryvelv ar loegr
+   </lb> 
+   <lb n="14">y diffeithiwyd hi a llawer o ddinessydd a
+   </lb> 
+   <lb n="15">threfi eraill A pha le yngogledd \yng ngogledd\ ynys
+   </lb> 
+   <lb n="16">brydain y bu y dinas honn mae
+   </lb> 
+   <lb n="17">ymravael mawr ymhlith ystoriawyr
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="18.">
+   
+   
+   
+    
+   <lb n="1">Beda a ddywad i bod hi yn y gilvach
+   </lb> 
+   <lb n="2">orllewinawl i 'r braich o 'r mor yr hwnn
+   </lb> 
+   <lb n="3">oedd gynt yn tervynnv Rwng y 
+   </lb>
+   <lb n="3-4">brytaniaid
+   </lb>
+   <lb n="4">
+    a 'r phichdiaid yn y penn tu a 'r
+   </lb> 
+   <lb n="5">gorllewin i 'r mur a wnaeth Sever&uuml;s
+   </lb> 
+   <lb n="6">ruveinwr yr hwnn a elwir gwawl
+   </lb> 
+   <lb n="7">yn Iaith vrytanec ac sydd ohyd yn
+   </lb> 
+   <lb n="8">estyn o 'r mor dwyreiniol hyd ymor \ym mor\
+   </lb> 
+   <lb n="9">gorllewinol dwyvil a chweugeinmil o
+   </lb> 
+   <lb n="10">o game Sef yw hyny CXXII o villtyr
+   </lb> 
+   <lb n="11">oedd messvr a 'r dref honn a elwir
+   </lb> 
+   <lb n="12">Kaer leil heddiw kans hono Sydd
+   </lb> 
+   <lb n="13">yn y penn eithaf i 'r mur a 
+   </lb>
+   <lb n="13-14">ddywetbwyd
+   </lb>
+   <lb n="14">
+    vchod Eraill a dywedant panyw
+   </lb> 
+   <lb n="15">alclut a elwir heddiw aldbwrch Sef
+   </lb> 
+   <lb n="16">yw hyny yr hen dref yr honn sydd
+   </lb> 
+   <lb n="17">ar avon Ows gerllaw bwrch brids
+   </lb> 
+   <lb n="18">XV milltir o Iork a 'i gwarant yw
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="19.">
+   
+   
+   
+    
+   <lb n="1">Gruff. mynwy yn Ystoria brenhinedd
+   </lb> 
+   <lb n="2">y brytaniaid lle mae yn dywedud pann
+   </lb> 
+   <lb n="3">aeth Elidir war brenin y brytaniaid I
+   </lb> 
+   <lb n="4">hely I lwyn caladr gael o hono arthal
+   </lb> 
+   <lb n="5">I vrawd yr hwnn a vuassai vrenhin
+   </lb> 
+   <lb n="6">o 'r blaen ac a dynessid o 'i 
+   </lb>
+   <lb n="6-7">vrenhiniaeth
+   </lb>
+   <lb n="7">
+    achos I anllywodraeth, yn
+   </lb> 
+   <lb n="8">krwydraw yn y koed a 'i ddwyn o hono
+   </lb> 
+   <lb n="9">gid ac ef I ddinas a oed gerllaw
+   </lb> 
+   <lb n="10">hynny a elwid alclut ac ysbys
+   </lb> 
+   <lb n="11">yw bod yllwyn kaladr yr hwnn a
+   </lb> 
+   <lb n="12">Elwir yn Saesnec  Salbris
+   </lb> 
+   <lb n="13">yn estyn o ymyl iork heb law 
+   </lb>
+   <lb n="13-14">aldbwrch
+   </lb>
+   <lb n="14">
+    XX milltir eithr bod llawer o
+   </lb> 
+   <lb n="15">hono heddiw wedi ddiosg yn 
+   </lb>
+   <lb n="15-16">llavurdir
+   </lb>
+   <lb n="16">
+    / Eraill a ddywedant mae alclut
+   </lb> 
+   <lb n="17">yw 'r dref a elwir heddiw bham yn
+   </lb> 
+   <lb n="18">eithafoedd gogledd westmyrlont gerllaw
+   </lb> 
+   <lb n="19">Kwmbyrlont ar avon eden
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="20.">
+   
+   
+   
+    
+   <lb n="1">ymrafel rrwng llyfr lewis ap Ed. a hwnn
+   </lb> 
+   <lb n="2">Rrydychen. Kaer vymbyr. Kaer vosso
+   </lb> 
+   <lb n="3">Kaer efroc ar lan afon dvedd yn y gogled
+   </lb> 
+   <lb n="4">Kaer lil. Kastell y morynion
+   </lb> 
+   <lb n="5">Exedr. Kaer vynydd
+   
+   
+   
+   </lb> 
+   <lb n="6">Fferyllt oedd benaf a 'r a fv erioed ar
+   </lb> 
+   <lb n="7">gelvyddyd  astronime
+   </lb> 
+   <lb n="8">akal /  llyfr lewys 
+   
+   
+   
+   
+   
+   
+   
+   </lb>
+   </pb>
+   
+</text>

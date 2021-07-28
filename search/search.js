@@ -29,7 +29,13 @@ let lines_after=0
 let results_csv=''
 
 //INIT
-select_corpus() //set to hcwl to begin
+//select_corpus() //set to hcwl to begin
+
+fetch('corpora/corpora.json')
+.then(response => response.json())
+.then(data => corpora=data)
+
+console.log(corpora)
 
 //text box enter
 document.getElementById('search').addEventListener("keyup", ({key}) => 
@@ -145,37 +151,73 @@ function loadHtmlFile(filename)
 	.then(text => 
 	{
 		let parser=new DOMParser()
-		let hcwl_dom=parser.parseFromString(text, "text/xml")
-		let lb_tags=hcwl_dom.getElementsByTagName('lb')
+		let dom=parser.parseFromString(text, "text/xml")
+		let tags=dom.getElementsByTagName('*')
 
-		for(let lb of lb_tags)
+		// let head_tags=dom.getElementsByTagName('head')
+		// let lb_tags=dom.getElementsByTagName('lb')
+		// let tags=Array.from(head_tags).concat(Array.from(lb_tags))
+
+		for(let tag of tags)
 		{
-			//get all ancestor tags
-			let tags=''
-			let hyphenated=false
-			let node=lb.parentNode
+			if(tag.localName!='lb' && tag.localName!='head')
+			{
+				continue
+			}
+			
+			let tags_string=''
+			let node
+
+			//get all text tags
+			node=tag.parentNode
 			while(node)
 			{
-				//get text and pb attr values
-				if(node.localName=='text' || node.localName=='pb' && node.attributes.length>0)
+				if(node.localName=='text')
 				{
-					//tags=node.localName+':'+node.attributes[0].value+' '+tags
-					tags=node.attributes[0].value+' '+tags
+					tags_string=node.attributes[0].value+' '+tags_string
 				}
-				//heading
-				if(node.localName=='head')
+				node=node.parentNode
+			}
+
+			//is heading tag?
+			if(tag.localName=='head')
+			{
+				tags_string+=' heading'
+			}
+			else
+			{
+				//nested in head?
+				node=tag.parentNode
+				while(node)
 				{
-					tags='Heading '+tags
+					if(node.localName=='head')
+					{
+						tags_string+=' heading'
+						break
+					}
+					node=node.parentNode
+				}				
+			}
+
+			//get pb tag
+			node=tag.parentNode
+			while(node)
+			{
+				if(node.localName=='pb' && node.attributes.length>0)
+				{
+					tags_string+=' '+node.attributes[0].value
+					break
 				}
 				node=node.parentNode
 			}
 
 			//lb n attr value, ie line number
-			if(lb.attributes.length>0)
+			let hyphenated=false
+			if(tag.attributes.length>0)
 			{
 				//tags=tags+' lb:'+lb.attributes[0].value
-				let lb_value=lb.attributes[0].value
-				tags=tags+' '+lb_value
+				let lb_value=tag.attributes[0].value
+				tags_string=tags_string+' '+lb_value
 				if(lb_value.includes('-'))
 				{
 					hyphenated=true
@@ -184,7 +226,7 @@ function loadHtmlFile(filename)
 
 			//replacement for innerText that does not include descendents
 			let node_text=''
-			for(let child of lb.childNodes)
+			for(let child of tag.childNodes)
 			{
 				if(child.nodeType==Node.TEXT_NODE)
 				{
@@ -195,11 +237,11 @@ function loadHtmlFile(filename)
 			// let plain_text=lb.innerText
 			let plain_text=node_text.slice(0) //copy
 
-			let rx=new RegExp('\\[')
-			if(rx.test(plain_text))
-			{
-				console.log(plain_text)
-			}
+			// let rx=new RegExp('\\[')
+			// if(rx.test(plain_text))
+			// {
+			// 	console.log(plain_text)
+			// }
 			
 			//remove line endings & tabs
 			plain_text=plain_text.replaceAll(/^[\s]+/g,'') //remove from beginning of string
@@ -218,9 +260,8 @@ function loadHtmlFile(filename)
 				// text:lb.innerText,
 				text:node_text,
 				plain_text:plain_text,
-				code:tags,
+				code:tags_string,
 				hyphenated:hyphenated, //hyphenated lb tag
-				lb_node:lb
 			}
 			utts.push(utt)
 		}

@@ -1,0 +1,3318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../sketchengine.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+
+
+<text id="TN-Huet">
+ 
+
+
+        <head>
+        
+ * Gweledigeth
+ [-: * Atcuddiat]  Ioan y ‡ Divinydd.
+ [-: ‡ 'sef yr ymadroddwr am Dduw.] 
+
+        </head>
+            
+<pb n="1">    
+    <lb n="argument">
+
+
+ 
+EGlaer yw, y mynnei'r Yspryt glan megis
+ casclu ir llyfer rhagorol hwn * grynodep
+ [-: * sum, swm, swmp
+] 
+ y prophetolaethe hyny, yr ei a racscrivenesit, eithyr a gyflawnit gwedy dyvodiat
+ Christ, can angwanegu hefyt cyfryw betheu ac vyddei raidiol, yn gystal in rhac
+ rybuddiaw am berycleu a ddelent, ac in
+ rhybuddiaw y 'ochelyd rei, ac in cysirio yn erbyn eraill. Yma
+ gan hyny yr eglurir ‡ Diuiniti
+ [-: ‡ dywdab
+]  Christ, a' thestiolaetheu ein
+ prynedigeth: pa betheu 'sy cymradwy gan Yspryt Dew yn
+ y * ministreit
+ [-: * gwenidogion ecclesic
+] , a' pha bethe 'sy ancymradwy ganto: rhac
+ weledigeth Dew yw ddetholedigion, ac am y gogoniant a'r
+ diddanwch yn y dydd dial: p'iredd y destruwer yr ‡ hypocriteit
+ [-: ‡ gausainct
+] 
+ yr ei a * vrathant
+ [-: * gnoant
+]  mal scorpionae aelodae Christ, eithyr yr Oen
+ Christ y amddeffen yr ei a dducant testoliaeth y gyd a'r gwirionedd, yr hwn er anvodd y bestvil a' Satan a deyrnasa ar
+
+ oll. Bywiol ‡ yscythrat
+ [-: ‡ eb ddiolch
+]  Antichrist wedy arddangos, yr hwn
+ er hyny a dervynir ei amser a'i veddiant, a' chyd dyoddefir' y
+ gynddaredd ef yn erbyn yd etholedigion
+, er hyny ny chyredd y
+ veddiant ef ym-pellach na drugu y cyrph hwy: ac or dywedd
+ y dinistrir ef can * lit
+ [-: 
+‡ 
+ddigofain, soriant
+]  Dyw, pan vydd ir etholedigion roi moliant y Ddyw am y ‡ vuddygoliaeth
+ [-: ‡ 'orchafieth, gorvot
+] , ac er hyny tros amser ef
+ a ddyoddef Dyw yr Antichrist hwn, a'r putain y dan liw ymadrodd tec a' dysceidaeth vodd 'onus y hudo'r byt: am hynny y
+ mae ef yn cygori'r ei dywiol (yr ei nyd ynt anyd rhan vach)
+ ymochelyd rhac gweniaith y vudroc hon, ai molach, a' hwy a
+ gant welet ei * hadvail
+ [-: * chwymp
+]  yn ddidrugaredd, a'r compeini nefawl yn canu molianneu yn ‡ ddidaw
+ [-: ‡ eb dor
+] : can ys yr Oen 'sy wedy ei briodi: a' gair Dew * aeth
+ [-: * a 'orvu
+]  a'r oruchafieth: Satan yr
+ hwn yn hir o amser oedd wedy ellyng yn rhydd, ys y yr owrhon wedy ei davly ef a'i weinidogion ir pytew tan yw poeni yn tragyvythawl, ‡ lle
+ [-: ‡ ac
+]  yn-gwrthwynep i hyny y ffyddlonion (yr ei ynt sanctaidd ddinas Caerusalem, a' * gwraic
+ [-: * priawd
+]  yr
+ Oen) y bydd yddwynt veddiannu gogoniant tragyvythawl.
+ Darllenwch yn ddiyscaelus, barnwch yn bwylloc, a' galwch
+ yn ddivrifol am wir ddyall y petheu hyn.
+
+</lb>
+    </pb>
+
+
+<pb n="1">
+
+
+        <head>
+        Pen. j.
+        </head>
+            
+    
+    <lb n="argument">
+
+
+1 Achos y * weledigeth hon
+ [-: * datguddiat hyn
+] . 3 Am yr ei a'i darllenant. 4 Ioan yn scrivennu at y saith Eccles. 5 Mawredigrwydd a' swydd Map Dew. Gweledigeth y canwyll ‡ breni
+ [-: ‡ heirn]  a'r ser.
+
+</lb>
+    
+
+<lb n="1">
+1 
+GWeledigaeth [-: * Datcuddiat yw air yn ei gylydd]  Iessu Christ, yr hon y rroedd Dyw yddo ef, yw ddangos yddy wasnaethwyr ‡ yrrein
+ [-: ‡ y petheu]  y orvydd yn vyan ddyfod y ben: ac ef y ddanvonoedd, ac y ddangosoedd gan y angel yddy wasanaethwyr Ioan,
+
+</lb>
+<lb n="2">
+2 
+Yr hwn y dystolaethoedd *o
+ [-: * am]  eir Dyw, ac o dystolaeth Iesu Christ, ac o pob peth ar y weloedd ef.
+
+
+ 
+ </lb>
+<lb n="3">
+3 
+Happys
+ [-: ‡ Dedwydd, Gwynvydedic]  ywr * neb
+ [-: hwn, vn]  y ddarlleyo, ar rrei y wrandawant geyriey y bryffodolaeth hon, ac y cadwant y pethey y sydd yn escrivenedic yndi: cans y maer amser gayr llaw.
+
+</lb>
+<lb n="4">
+4 
+Ioan, ‡ yr
+ [-: ‡ at y. &amp;c.]  seith Eglwys ar ydynt yn Asia, Rrad vo gyd a chwi, a' heddwch o ddiwrth yr Hwn ys ydd, yr Hwn vu, a'r Hwn * vydd
+ [-: * 'sy ar ddyvot]  rrac llaw, ac o ddiwrth y seith Ysbryd y rrei ydynt gair bron y ‡ dron
+ [-: ‡ eisteddfa
+]  ef,
+
+</lb>
+<lb n="5">
+5 
+Ac o ddiwrth Iesu Christ, yr hwn ys ydd tust ffyddlawn, * yr
+ [-: * a'r]  ‡ enedigaeth
+ [-: ‡ cenedledigeth]  cynta or meyrw, a Thywysog ddywch vrenhinoedd y ddayar, yddo ef yn caroedd ni, ac yn golchoedd ni oddiwrth yn pechodey yny waed, yhun,
+
+</lb>
+<lb n="6">
+6 
+Ac yn gwnaeth yn Vrenhinoedd ac yn ‡ Effeirieid
+ [-: ‡ O-]  y Ddyw y dad ef, * yddo
+ [-: [no gloss]]  ef y bo gogoniant ac ymherodraeth yn oes oesoedd. Amen.
+
+</lb>
+<lb n="7">
+7 
+‡ Dyna
+ [-: ‡ Wely] , y may ef yn dyvod gydar * nywl
+ [-: * wybreneu] , a' phob llugad ae gwyl ef, ar rrei hefyd y brathasant
+ [-: ‡ gwanasant]  ef trywodd: ac wylovain y wnant * arno ef
+ [-: * ger y vron ef]  holl ‡ ceneloedd
+
+ [-: ‡ llwytheu]  y dayar, Velly y mae, Amen.
+
+</lb>
+<lb n="8">
+8 
+Mi wyf a Alpha o Omega, y dechre a'r diwedd, medd yr Arglwydd, yr Hwn y sydd, a'r Hwn vu, ac yr Hwn ddaw rrac llaw, 'sef yr hollalluawc.
+
+</lb>
+<lb n="9">
+9 
+Mi Ioan, ych brawd chwi, a * chydymaith
+
+ [-: * chyfranwr]  mewn ‡ cospedigaeth
+ [-: ‡ trwbleth] , ac yn y deyrnas ac mewn goddefaint Iesu Christ, oeddwn mewn ynys a elwir Patmos am 'eir Dyw, ac am dystolaeth yr Iesu Christ.
+
+</lb>
+<lb n="10">
+10 
+Yr oyddwn yn yr yspryd yn dydd yr * Arglwydd
+ [-: * Sul] , ac y glyweis ‡ rrac vynghefen
+ [-: ‡ y tu cefn, yn vy ol] , lleis mawr, mal
+
+ 
+ lleis trwmpet,
+
+</lb>
+<lb n="11">
+11 
+Yn dywedyd, mi wyf a Alpha ac o Omega, y cyntaf ar diwethaf: a'r peth yr wyt ti yny weled, escrivena mewn llyfr, a danvon * yr
+ [-: * ir]  seith Eglwys ar ydynt yn Asia, y Ephesus, ac y Smyrna, ac y Bergamus, ac y Thyateira, ac y Sardei, ac y Philadelphia, ac y Laodiceia.
+</lb>
+<lb n="12">
+12 
+A mi ymchoyles yn vu ol y weled y lleis, a ‡ ddwad
+ [-: ‡ lafarei, ymadroddei]  wrthy vi: a phan ymchoyles, mi a welwn seith canwyllbren aur.
+</lb>
+<lb n="13">
+13 
+Ac ynghanol y seith canwyllbren, vn yn debic y Vab y duyn, gwedy y ymwysgo a gwisc hed y draed a' chwedi * gwisco
+ [-: * ymwregysu]  gwregis aur ynghylch y vrone.
+
+</lb>
+<lb n="14">
+14 
+Ey ben, ay wallt oeddent wnion mal gwlan gwyn, ac mal eira, ay lygeit oeddent mal fflam dan.
+
+</lb>
+<lb n="15">
+15 
+Ay draed oeddent mal ‡ pres
+ [-: ‡ elydn, alcam manol]  coeth, yn llosgi megis mewn ffwrneis: ay leis mal swn [-: *ney leis]  llawer o ddyfroedd.
+
+</lb>
+<lb n="16">
+16 
+Ac yr oedd yn y law ddehe saith seren: ac o eney allan yrydoed yn myned cleddey llym doy vinioc: a discleiro a wnaeth y wyneb ef mal yr * hoyl
+ [-: * haul]  yn y ‡ 'rym
+ [-: ‡ nerth]  ef.
+
+</lb>
+<lb n="17">
+17 
+A phan y gweles i ef, my a syrthies wrth y draed mal marw, ac ef a ddodoedd y law dehe arnaf, dan ddwedyd wrthyf, nac ofna: mi wyf y cyntaf a'r diwethaf,
+</lb>
+<lb n="18">
+18 
+Ac yr wyf yn vyw, ac y vym varw, * a syna
+ [-: * ac wele] , yr wyf yn vyw yn oes oesoedd, Amen: ac y mae genyf yr ‡ allwyddey
+ [-: ‡ agoriadeu]  yffern * a myrvolaeth
+ [-: * ac angeu] .
+
+</lb>
+<lb n="19">
+19 
+Escryvenna y pethey y weleist, ar pethey ysydd, ar pethey a ‡ 'orfydd bod
+ [-: ‡ vyddant, ddawant]  rrac llaw.
+
+
+ 
+ </lb>
+<lb n="20">
+20 
+Dirgelwch y seith seren y weleist yn vy llaw ddechre, * a'r
+ [-: [no gloss]]  seith canwyllbren aur, yw hyn, Y seith seren * Angylion
+ [-: * Cenadey]  y seith Eglwys ydynt: ar seith canwyllbren y weleist, y seith ‡ Eglwys
+ [-: ‡ Cynnulleidfa]  ydynt.
+
+
+</lb>
+        </pb>
+    
+<pb n="2">
+
+
+        <head>
+        Pen. ij.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Y mae ef y cygori pedeir Eccles, 5 I 'diweirwch, 10 I barhau, dyoddefgarwch ac amendaat, 5.14.20.23 yn gystal trwy vygwth, 7.10,17,26 Ac addeweidion gobrwy.
+</lb>
+    
+
+<lb n="1">
+1 
+EScryvena at Angel Eglwys Ephesus, Hyn y mae ef yn dywedyd y sydd yn dala y seith seren yn * u
+ [-: * y]  law ddehe, ac y sydd yn ‡ treiglo
+ [-: * rrodio]  yn chanol y seith canwyllbren aur.
+
+</lb>
+<lb n="2">
+2 
+Mi adwen du weithredoedd, ath travael, ath goddef, ac na elly * cyd ddwyn
+ [-: * goddef]  ar rrei drwc, ac y holeist hwynt ysydd yn dywedyd y bod yn Ebostolion, ac nyd ydynt, ac y gefeist hwynt yn ‡ gellwddoc
+ [-: [no gloss]] .
+</lb>
+<lb n="3">
+3 
+A thi oddefeist, ac ‡ yr wyd yn oddefgar
+ [-: ‡ y may genyd goddefiad] , ac y dravaeleist yr mwyn vu enw i, ac ny * ddyffigieist
+ [-: * vlineist] .
+
+</lb>
+<lb n="4">
+4 
+‡ Ac er hynny
+ [-: ‡ Eythyr] , y may genyf peth yth erbyn, am yt ymadel ath cariad cyntaf.
+
+</lb>
+<lb n="5">
+5 
+Meddylia, am hyn, o pa le y cwympeist, ac etiverha, a gwnar gweithredoedd cynta: ac * onys gwnei
+
+ [-: * anyd ef]  mi ddof ar vrys yth erbyn, ac y symydo dy ganwyllbren allan oy le, any wellhey.
+
+</lb>
+<lb n="6">
+6 
+Ond hyn y sydd genyt, achos yt cashay gweythredoedd y Nicolaitait, y rrein yr wyf vi * hevyd
+ [-: * esioes]  yny cashay.
+
+</lb>
+<lb n="7">
+7 
+Y sydd a chlyst gantho, gwrandawed, pa beth y ddwed yr ysbryd wrth yr Eglwysi, Ir ‡ gorchtrechwr
+ [-: ‡ gorchvygwr] , y rrof vwytta or pren y bywyd, yr hwn y sydd yn chanol paradyvys Ddyw.
+
+</lb>
+<lb n="8">
+8 
+¶Ac escrifena at Angel Eglwys y Smyrniaid, Hyn y ddywed ef y sydd gyntaf a' ddiwethaf, Yr hwn y vy varw ac y sydd vyw.
+
+</lb>
+<lb n="9">
+9 
+Mi adwen dy weythredoedd, ath travael, ath tlodi (eithr yr wyd yn gyvoethoc) ac mi adwen 
+* enllib
+ [-: * gabl]  melleigedic yr rein ydynt yn dywedyd y bod yn Iddewon ac nyd ydynt, ‡ ond
+ [-: [no gloss]]  y maent yn ‡ Synagog
+ [-: ‡ cynulleidfa]  Satan.
+
+</lb>
+<lb n="10">
+10 
+Nac ofna ddim or pethey y orvydd yd y oddef: synna, e ddervydd y bwrw y cythrel rrei o hanoch chwi y garchar, mal y gellyr ych profi, a' chwi a gewch travayl deng niwrnod: bydd ffyddlawn hed * myrvolaeth
+ [-: * angeu] , a mi y rrof ytti coron y bowyd.
+
+</lb>
+<lb n="11">
+11 
+Ysydd a chlyst gantho, gwrandawed pa beth y ddwed yr ysbryd wrth yr eglwysi, Ny chlwyfir y gortrechwr gan yr eil ‡ marvolaeth
+ [-: ‡ angeu] .
+
+</lb>
+<lb n="12">
+12 
+Ac Escrifena at Angel Eglwys Pergamus, Hyn ymay ef yny Ddwedyd y sydd ar cleddey llym day vinioc.
+
+</lb>
+<lb n="13">
+13 
+Mi adwen dy weithredoedd ath trigadle 'sef lle may * eisteddle
+ [-: * thron]  y Satan, a thi y gedweist vy Enw i, ac vy ffudd i nys gwedeist, ‡ ac
+ [-: ‡ ys] 
+ yn y dyddiey pan las vu ffuddlon merthyr Antipas yn ych plith chwi, lle may Satan yn * drigadwy
+ [-: * trigio] .
+
+</lb>
+<lb n="14">
+14 
+Eithr y may genyf ychydicion yth erbyn, cans
+
+ 
+ y may ‡ yno genyd
+ [-: ‡ genyt yna]  rrei yn dala dysc Balaam, yn yr hwn y ddyscoedd Balac, y vwrw * plocyn tramcwyddys
+ [-: * tramcwydd rrwystr]  gar bron ‡ meibion
+ [-: ‡ plant]  
+yr Israel, er yddynt vwytta or pethey y aberthwyd * u ddelwey
+ [-: * i eiddolon] , a ‡ godineby
+ [-: ‡ ffurnigo] .
+
+</lb>
+<lb n="15">
+15 
+Velly hefyd y may genyd rrei yn dala dusc y * Nicolaitait
+ [-: * Gr. Nicolaitoon
+] , yr hyn yr wyfi yn y gasay.
+
+</lb>
+<lb n="16">
+16 
+Etifarha, ac onys gwnei, mi ddof attad ar vrys, ac a ymladdaf yn y erbyn hwynt a chleddey vy vy-geney
+.
+
+</lb>
+<lb n="17">
+17 
+Y sydd a chlyst gantho, gwrandawed pa beth y ddwed yr ysbrud wrth yr Eglwysi, ‡ Yr gortrechwr
+ [-: ‡ I hwn a orchfygo] , mi rrof y vwytta or Manna ysydd gyddiedic, ac mi rrof yddo ef garec wen, ac yn * u
+ [-: * y]  garec enw newydd yn escrivenedic, yr hwn ny ‡ adnebydd
+ [-: ‡ edwyn]  neb, ond ae * herbyno
+ [-: * derb-] .
+
+</lb>
+<lb n="18">
+18 
+¶Ac escrivena at Angel Eglwys Thyateira, Hyn y may Mab Duw yny ddwedyd, ysydd ae lygeid mal fflam dan, ae draed mal ‡ pres-pur
+ [-: ‡ chalcolibano
+] .
+</lb>
+<lb n="19">
+19 
+Mi adwen dy weythredoedd ath cariad, ath wasanaeth, ath ffydd, ath goddeviad, ath weithredoedd, a' bot y diwethaf yn rragori ar y cyntaf.
+
+</lb>
+<lb n="20">
+20 
+Eithr ymae genyf ychydic bethe yth erbyn, am * yd
+ [-: * yt]  goddef y wreic hono Iezabel, yr hon ysydd yn galw y ‡ hyn
+ [-: ‡ hun]  yn broffwydes, y ddusgy ac y dwyllo vyngwasnaethwyr i y beri yddynt godyneby, ac y vwytta bwydydd gwedy y aberthy ‡ y ddelwey
+ [-: ‡ i eiddolon] .
+
+
+</lb>
+<lb n="21">
+21 
+Ac mi a rroyssym amser yddy y etiferhay am y godinep, ac ny chymerth hi etifeyrwch.
+
+</lb>
+<lb n="22">
+22 
+* Syna
+ [-: * Nachaf, Wele] , mi a bwraf hi y wely, ar sawl a wnant odineb gyd a hi, y ‡ gospedigaeth
+ [-: ‡ gystudd, gyni, 'ovid]  mawr, onyd etiferhant am gweithredoedd.
+
+</lb>
+<lb n="23">
+23 
+Ac mi ladda y phlant a * myrfolaeth
+ [-: * ac angeu] : ar holl Eglwysi
+‡ y gydnabyddant
+ [-: ‡ aodna-]  mae mi wyf yr hwn y chwhilia y 'rennae ar caloney: ac mi a rrof y bob vn o hanoch yn ol ych gweithredoedd.
+
+</lb>
+<lb n="24">
+24 
+Ac y chwi y dwedaf, y gweddillion Thyateira, * Ysawl bynac
+
+ [-: * Cyniuer]  na does ganthynt y ddusc hon, ac ny adnabyont dyfnder Satan (mal y dwedant) ny ddodaf arnywch beych ‡ arall
+ [-: ‡ yn chwanec] .
+
+</lb>
+<lb n="25">
+25 
+Ond y peth yssydd genywch eisus, delwch yn dda hed yn 'ddelwyf.
+
+</lb>
+<lb n="26">
+26 
+
+* Can ys
+ [-: [no gloss]]  yr vn y orfyddo ac y gatwo vyngweithredoedd hed y diwedd, mi a rroddaf yddo ef gallu ar ‡ genetloedd
+ [-: ‡ nassioney] , ac ef a rriola hwynt a gwialen hayarn, ac hwynt a ddryllir mal llestri pridd.
+
+</lb>
+<lb n="27">
+27 
+Ac yny modd y dderbynes i gan vyn had, velly y rroddaf i yddo ef y seren vorey.
+
+</lb>
+<lb n="28">
+28 
+Sydd a chlyst gantho, gwrandawed pa beth y ddwed yr ysbryd wrth yr Eglwysi.
+
+
+</lb>
+        </pb>
+    
+<pb n="3">
+
+
+        <head>
+        Pen. iij.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Y mae ef yn annoc yr Ecclesidd ai gwenidogion i wir * proffessiat
+ [-: [no gloss]]  ffydd ac y wiliaw, 12 Gyd ac addeweidion ir ei a paraant.
+</lb>
+    
+
+<lb n="1">
+1 
+AC escrivena at Angel Eglwys ys y yn Sardi, Hyn y ddwed * ef
+ [-: * yr hwn]  ysydd a seith ysbrud Dyw gantho, ar seith seren, Mi adwen dy weithredoedd can ys y may enw ‡ genyd
+ [-: ‡ yti]  dy vod yn vyw, ond
+
+ 
+ yr wyd yn varw.
+
+</lb>
+<lb n="2">
+2 
+* Duhyn
+ [-: * Dyffro]  a' chadarnha y gweddillion, ar ydynt yn barod y veirw: can ys ny cheveis i dy weithredoedd yn ‡ byrffeith
+ [-: ‡ gyflawn]  gair bron Dyw.
+
+</lb>
+<lb n="3">
+3 
+Am hyny cofia, pa beth y dderbyneist, ac y glyweist, a dala yn * sicker
+ [-: * ffest] , ac eteferha. Am hyny, ony byddy yn ‡ dduhynol
+ [-: ‡ gwyliad] , mi ddof attad mal lleydyr, ac ny chey wybod pa'r awr y dof attad.
+
+</lb>
+<lb n="4">
+4 
+
+Eithr y mae genyd ychydyc o enwey eto yn Sardi, yrrein ny halogesont y dillad: a rrei hyny a rrodiant gyda mi mewn dillad gwnion: can ys teylwng ydynt.
+
+</lb>
+<lb n="5">
+5 
+Yr vn y * orfyddo
+ [-: * orchfyco] , y ddillatteir mewn dillad gwnion, ac ny ‡ ddodaf
+ [-: ‡ ddileaf]  y enw ef allan o Lyfr y bowyd, ond mi * coffessaf
+ [-: * addefaf]  y enw ef gair bron vyn had, a' chair bron y Angelion.
+
+</lb>
+<lb n="6">
+6 
+Y sydd a chlyst gantho, gwrandawed, pa beth y ddwed yr ysbrud wrth yr Eglwysi.
+
+</lb>
+<lb n="7">
+7 
+¶Ac Escrifena at Angel yr Eglwys ys y yn Philadelphia, Hyn y ddwed ef y sydd santeidd a chowir, yr hwn y mae gantho ‡ agoriad
+ [-: ‡ allwydd
+]  Dauid, yr hwn agora ac ny chaya neb, ac y gaya ac nyd agora neb,
+
+</lb>
+<lb n="8">
+8 
+Mi adwen dy weithredoedd: * syna
+ [-: * wele] , mi a ddodeis gair dy vron drws agored, ac ny dduchyn neb y chayed 
+‡ hi
+ [-: ‡ ef] : can ys y mae genyd ychydic * rym
+ [-: * nerth]  a thi y gedweist vyngeir, ac ny wedeist vy Enw.
+
+</lb>
+<lb n="9">
+9 
+‡ Syna
+ [-: ‡ Wele] , mi wnaf yddynt hwy o * Synagog
+ [-: * gynulleidfa]  satan y rrein y galwant y hun yn Iddewon ac nyd ydynt, ond y maent yn gelwyddogion, syna, meddaf, mi wnaf yddynt ddyfod ac ‡ anrrydeddy
+ [-: ‡ addoli]  gair bron dy draed, a' chydnabod vy mod yn du garu di.
+
+
+ 
+ </lb>
+<lb n="10">
+10 
+O achos ‡ yd
+ [-: * yt]  gadw geir vyng oddef i, am hyny mi ath cadwa di oddiwrth awr y profedigaeth, yr hon a ddaw ar yr holl vyd, y brofi hwynt ar ydynt yn trigo ar y ddayar.
+
+</lb>
+<lb n="11">
+11 
+
+* Syna
+ [-: * Nachaf, wely
+] , yr wyf yn dyfod ar vrys, dala'r peth y sydd genyd, rrac y neb gymeryd dy goron.
+
+</lb>
+<lb n="12">
+12 
+Mi wnaf yr vn y 'orfyddo yn * biler
+ [-: 
+‡ golofn]  yn hemel vy nyw i, ac nyd eiff ef allan ‡ rac llaw
+ [-: 
+* mwy] : ac mi escrifenaf arno ef Enw vy nyw i, ac enw * dinas
+ [-: 
+‡ caer]  vy nyw i, yr hon ydiw Caersalem newydd, y sydd yn discyn or nef oddiwrth vy nyw i, ac mi scrivennaf arno ef vy Enw newydd i.
+
+</lb>
+<lb n="13">
+13 
+Y sydd a chlyst gantho, gwrandawed pa beth y ddwed yr ysbryd wrth yr Eglwysi.
+
+</lb>
+<lb n="14">
+14 
+Ac escrifena at Angel Eglwys y Laodiceit, Hyn y ddwad Amen, y tust ffyddlawn a' chowir, dechreyad creadyrieid Dyw.
+
+</lb>
+<lb n="15">
+15 
+
+Mi adwen dy weithredoedd, nyd ydwyd na ‡ thwym nac oer
+ [-: ‡ oer na gwresoc] : mi vynwn pyt veid * yneill ae twym ae oer
+ [-: * ai oer ai gwresoc] .
+
+</lb>
+<lb n="16">
+16 
+Ac am hyny can dy vod yn ‡ lled-twym
+ [-: ‡ vwygl] , ac heb vod nac yn oer nac yn dwym, e ddervydd i mi dy chwdy di allan om geney.
+
+</lb>
+<lb n="17">
+17 
+Can ys yr wyd yn dwedyd, Yr wyf i yn gyvoethoc, a chenyf amlder o dda, ac ny does arnaf eisie dim, ac ny wddost dy vod yn druan ac yn resynol, ac yn dlawd, ac yn ddall, ac yn noeth.
+
+</lb>
+<lb n="18">
+18 
+Mi gynghoraf ytti i bryny genyfi aur * puredic trwy
+ [-: 
+‡ provedic can]  dan, mal y * gellir
+ [-: [no gloss]]  dy ‡ gyvoethogi
+ [-: [no gloss]] , a gwisco amdanad a dillad gwnion, mal ith ymwiscer, ac mal nad ymddangoso * cywilydd
+ [-: * gwrthuni]  dy noethter di: ac
+
+ 
+ ira
+
+‡ dy olygon
+ [-: ‡ lygait]  ac * eli llygeid
+ [-: * collyrio
+] , mal y gwelych:
+
+
+</lb>
+<lb n="19">
+19 
+Yrwyf yn ‡ beio
+ [-: ‡ argyoeddi, ceryddu, siardo]  ac yn cospi y sawl yr wyf yny garu: am hyny ‡ pryssyrgara
+ [-: * Lla. emulare]  a gwella.
+</lb>
+<lb n="20">
+20 
+Syna, yrwyf yn sefyll wrth y drws, ac * yn
+ [-: [no gloss]]  
+‡ taro
+ [-: ‡ curo, ffusto]  
+'r drws. O chlyw vn duyn vu lleis ac agoror drws, mi ddaf y mewn atto ef, ac y swppera gydac ef, ac yntey gyda miney.
+
+</lb>
+<lb n="21">
+21 
+
+* Yr vn
+ [-: * Ir hwn]  y orfyddo, mi rro yddo ef eiste gyda mi yn vy 
+* eisteddle
+ [-: ‡ throno
+] , mal y gorvym i, ac eisteddes gyda vynhad yn y eisteddle ef.
+
+</lb>
+<lb n="22">
+22 
+Y sydd a chlyst gantho, gwrandawed pa beth y ddwed yr ysbryd wrth yr eglwysi.
+
+
+</lb>
+        </pb>
+    
+<pb n="4">
+
+
+        <head>
+        Pen. iiij.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Gweledigeth mawredigrwydd Dew. 2 Y may ef yn gweled y tron, ac vn yn eistedd arnaw, 8 A' 24. eisteddva oi amgylch a'. 24. henafgwyr yn eistedd arnwynt, a' phedwar aniual yn moli Dew ddydd a' nos.
+</lb>
+    
+
+<lb n="1">
+1 
+GWedy hyn mi edrycheis, * a' syna
+ [-: * ac wele, lly'ma] , y rydoedd drws yn agored yn y nef, ar lleis cynta y glyweis, oedd mal lleis ‡ trwmpet
+ [-: ‡ vtcorn]  yn cwhedlea a mi, dan ddywedyd, * Dabre
+ [-: * Escen, Dring]  y vynydd yma, a mi ddangosaf ytti y pethey y orfydd yw gwneithr rrac llaw.
+
+</lb>
+<lb n="2">
+2 
+Ac yn y man y royddwn yn yr ysbrud, a syna, ve ddodwyd ‡ eisteddle
+ [-: ‡ Gr. thronos, tron, trwn]  yn y nef, ac ve eisteddoydd vn ar yr eisteddle.
+
+</lb>
+<lb n="3">
+3 
+Ar vn y eisteddoedd, oedd yw edrych arno, yn debic * y garec
+ [-: * vaen]  iaspis, a' charec sardin, ac envys oedd gylch ogylch yr eisteddle yn debic yr olwc arno y garec 
+smaragdus
+ [-: * Sas, emeraud] 
+.
+
+</lb>
+<lb n="4">
+4 
+Ac ynghylch yr eisteddle yr oedd pedwar eisteddle a rrigein, ac mi a weleis ar yr eisteddleoedd yn eiste pedwar a rrigein o henafieid, a dillad gwnion amdanynt, a choraney aur ar y penney.
+
+</lb>
+<lb n="5">
+5 
+A' ‡ mellt
+ [-: ‡ lluchedene]  a thraney, a lleisiey, y ddoethant allan or eisteddle, a saith lamp o dan oeddent yn llosgi gair bron yr eisteddle: yrrein ydynt seith ysbrud Dyw.
+
+</lb>
+<lb n="6">
+6 
+Ac yn golwc yr eisteddle yr ydoedd mor o wydr yn debic y vaen cristal: ac ynchanol yr eisteddle, ac yng hylch yr eisteddle y royddent pedwar enifel yn llawn o lygeid ym'laen ac yn ol.
+
+</lb>
+<lb n="7">
+7 
+Ar enifel cyntaf cynhebic * yllew
+ [-: * i lew]  ydoedd, ar eil enifel yn debic y lo, ar trydedd oedd ac weyneb
+
+gantho mal wynep duyn, ar pedwaredd enifel oedd yn debic y eryr ‡ yn hedfan
+ [-: 
+* yn ehedec ar ei adain] .
+
+</lb>
+<lb n="8">
+8 
+Ac yroedd y bob vn or pedwar enifel chwech o adeinedd gylch ogylch yddynt, * a'
+ [-: * ac oyddent]  rreini yn llawn llygeid otyfewn ac nyd oeddent yn gorffowys dydd na nos, yn dwedyd, Sancteidd, sancteidd
+ Sancteidd Arglwydd Ddyw, hollalluawc, yr hwn y Vu, ac y Sydd, ac ‡ Ys ydd ar ddyvot
+ [-: [no gloss]] .
+
+</lb>
+<lb n="9">
+9 
+A' phan rroyssont y nefeylied hynny gogoniant ac anrrydedd, a' diolch * ir
+ [-: [no gloss]]  yr hwn oedd yn eistedd ar yr eisteddle, yr hwn y sydd yn byw yn ‡ dragywydd
+ [-: ‡ yn oes oesoedd] .
+
+</lb>
+<lb n="10">
+10 
+Y pedwar ar rigein o henafied y syrthiasant gair bron yr vn oedd yn eistedd ar yr eisteddle, ac a
+
+ 
+ * anrrydeddasont
+ [-: * grymasont iddaw, addolasont. &amp;c.]  ef, y sydd yn byw yn dragywydd, ac y vwrasont y coronae gair bron yr eisteddle, dan ddywedyd,
+
+</lb>
+<lb n="11">
+11 
+Teylwng wyd, Arglwydd, y dderbyn gongoniant ac anrrydedd, a' gally: cans ti y ‡ creest
+ [-: ‡ wneythost]  pop peth, ac er mwyn dy ewyllys di y maent, ac y * crewyd
+ [-: * gwneythpwyt] .
+
+
+</lb>
+        </pb>
+    
+<pb n="5">
+
+
+        <head>
+        Pen. v.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Gweled y mae ef yr Oen y agori 'r llyver. 8.14. Ac am hyny y mae y petwar aniuail, y 24. henafwyr, a'r Angelon yn moli yr Oen, ac yn ei addoli 9 Am eu prynedigeth a'u cedion eraill.
+</lb>
+    
+
+<lb n="1">
+1 
+AC mi a weleis mewn llaw ddehe yr vn oedd yn eiste ar yr eisteddle, Llyfr escrivenedic or ty vewn, ac or tu allan, gwedy sely a seith sel.
+
+</lb>
+<lb n="2">
+2 
+Ac mi a weleis Angel cadarn yn pregethy a lleis ychel, Pwy sy deilwng y agoryd y Llyfr, ac y ddatdod y seley ef?
+
+</lb>
+<lb n="3">
+3 
+Ac ny doedd neb * yn y
+ [-: 
+‡ mewn]  nef, nac yn y ddayar, na than y ddayar, yn abyl y agoryd y Llyfr, nag y edrych arno.
+
+</lb>
+<lb n="4">
+4 
+Ac yno mi wyles llawer, o achos na chad neb yn deilwng y agoryd, ac y ddarllen y Llyfr, nac y edrych arno.
+
+</lb>
+<lb n="5">
+5 
+Ac vn or henafied y ddwad wrthyf i, Nac wyla: ‡ syna
+ [-: 
+* wele] , llew yr hwn ysydd o lwyth Iuda, gwreiddyn Davydd, y * enilloedd
+ [-: 
+‡ gafas]  y agoryd y Llyfr, ac
+
+  y ddatdod y seith sel ef.
+
+</lb>
+<lb n="6">
+6 
+Yno mi edrycheis, a synna, yn chanol yr eisteddle, ar pedwar enifel, ac yn chanol yr henafied, yr ydoedd Oen yn sefyll mal by biasey gwedy ladd, yr hwn oedd a seith corn, ac a seith llygad yddo, y rrein ydynt seith ysbryd Dyw, y ddanvonwyd ‡ yr
+ [-: ‡ ir]  
+holl * vud
+ [-: * vyd] .
+
+</lb>
+<lb n="7">
+7 
+Ac ef yddaeth, ac y gymerth y Llyfr o law ddehe yr vn oedd yn eistedd ar yr eisteddle.
+
+</lb>
+<lb n="8">
+8 
+A phan cymerth ef y Llyfr, y pedwar enifel, ar pedwar ar igein henafied, y syrthiasont gair bron yr Oen, ac yr ydoedd gan bob vn o hanynt telyney a phiolae aur yn llawn o erogley, y rrein ydynt gweddie'r Sainct,
+
+</lb>
+<lb n="9">
+9 
+Ac y ganysont caniad newydd, dan ddwedyd, Teilwng yd gymryd y Llyfr, ac y ddattod y sele ef, can ys ‡ vethlas
+ [-: ‡ ithladdwyt] , ac yn pryneist ni y Ddyw * trwy
+ [-: * can]  dy waed allan o bob cenedlaeth, ac ‡ ieith
+ [-: ‡ thavod] , a' phobl, a' nasion,
+
+</lb>
+<lb n="10">
+10 
+Ac yn gwneythost yn Vrenhinoedd ac yn Effeiried yn Dyw ni, a ni, a' * thyrnaswn
+ [-: * deyrn-]  ar y ddayar.
+
+</lb>
+<lb n="11">
+11 
+Yno mi edrycheis, ac y glyweis lleis llawer o Angylion ynghylch yr eisteddle ac ynghylch yr enefeilied ar henafied, ac yr oeddent mil o filioedd,
+
+</lb>
+<lb n="12">
+12 
+Yn dwdyd a llais ywchel, Teilwng yw yr Oen y las y dderbyn gallu a chyfoeth, a' doethyneb, a' chedernid, ac anrrydedd, a' gogoniant, a' moliant.
+
+</lb>
+<lb n="13">
+13 
+Ac mi a glywes yr holl creadyried y rrein ydynt yn y nef, ac ar y ddayar, a than y ddayar, ac yn y mor, a' phob peth y sydd yndynt hwy, yn dwedyd, Moliant, ac anrrydedd, a' gogoniant, a gallu y
+
+ 
+ vo yddo ef, y sydd yn eiste ar yr eisteddle, ac yr Oen yn dragywydd.
+
+</lb>
+<lb n="14">
+14 
+Ar pedwar enifel a ddywedasont, Amen, ar pedwar ar igein o henafied a sirthiasont y lawr, ac ‡ anrrydeddasont
+ [-: ‡ addolasont]  ef, y sydd yn byw yn dragywydd.
+
+
+</lb>
+        </pb>
+    
+<pb n="6">
+
+
+        <head>
+        Pen. vj.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Yr Oen yn agori y chwech insel, a' llawer o betheu yn dyvot ar ol y hagori, val y mae hyn yn amgyffred prophetoliaeth gyffredin yd dywedd y byt.
+</lb>
+    
+
+<lb n="1">
+1 
+YN ol hyn, mi edrycheis pan agoryssey'r oen vn or seley, ac mi y glyweis vn or pedwar enifel yn dwedyd, mal by bei trwst traney * Dabre
+ [-: * Dyred]  ac edrych.
+
+</lb>
+<lb n="2">
+2 
+Ac mi edrycheis, a' syna, yr yd oedd march gwyn, ac yr ydoedd bwa gan yr vn oedd yn eistedd arnaw, a choron y royspwyd yddo ef, ac ef aeth allan dan concwerio ac y ‡ concwery
+ [-: ‡ 'orvot] .
+
+</lb>
+<lb n="3">
+3 
+A phan agoryssey yr eil sel, mi glyweis yr eil enifel yn dwedyd, * Dabre ‡ ac edrych
+ [-: * Dyred a' gwyl] .
+
+</lb>
+<lb n="4">
+4 
+March arall aeth allan, a e liw yn goch, a * gallu
+
+ [-: 
+‡ phower
+]  y rroed yr vn oedd yn eistedd arno, y gymryd heddwch o ‡ ddiwrth
+ [-: 
+* ddiar, can]  y ddayar, ac y beri yddynt lladd y gilydd, a' chleddey mawr y rroed yddo ef.
+
+</lb>
+<lb n="5">
+5 
+A' phan agorysei ef y trydydd sel, mi glyweis y trydydd enifel yn dwedyd, Dabre ac edrych. A' mi edrycheis, a ‡ syna, yr oedd yno march
+ [-: ‡ ll'yma varch]  du, a phwyse
+
+ 
+ yn llaw yr vn oedd yn eistedd arno ef.
+
+</lb>
+<lb n="6">
+6 
+A' mi glyweis * leis
+ [-: * lef, leferydd]  yn chanol y pedwar enifel yn dwedyd, messyr o wenith er ceinioc, a' thri mesyr o ‡ heith
+ [-: ‡ haidd, barlis]  er ceinioc, a'r olew, gwin, na * waytha
+ [-: * dryga, wna eniwed ir &amp;c.]  
+di.
+
+</lb>
+<lb n="7">
+7 
+A' phan agorasey ef y bedwaredd sel, my glyweis lleis y bedwrydd enifel yn dwedyd, Dabre ac edrych.
+
+</lb>
+<lb n="8">
+8 
+Ac my edrycheis, a syna, march 
+a lliw ‡ priddlyd
+ [-: ‡ Gr. chlooros .i. melyn lluchwin, gwelw
+]  a * Marfolaeth
+ [-: * Angeu]  oedd enw yr vn oedd yn eiste arno, ac Yffern y dilynoedd ef, a gallu y roed yddynt hwy dros y bedwaredd rran ‡ or
+ [-: ‡ ir]  ddayar, y ladd a chleddey, ac a newyn, ac a marfolaeth, ac a * 'nefeilied
+ [-: * bestviledd]  y ddayar.
+
+</lb>
+<lb n="9">
+9 
+A' phan agorasey ‡ ef
+ [-: ‡ 'sef yr oen]  y bymed sel, mi weleis dan yr allor eneidiey yr rein y las am 'eir Dyw, ac am y tustolaeth yr hwn * oedd ganthynt
+ [-: * oeddent yn ei gynnal] .
+
+</lb>
+<lb n="10">
+10 
+Ac hwy a lefasont a llef ywchel, dan ddwedyd, Pa hyd, Arglwydd, santeidd a chowir? nad ydwyd yn barny a' dial yn gwaed ni, ar y rrein ar ydynt yn trigo ar y ddayar.
+
+</lb>
+<lb n="11">
+11 
+A' gowney gwnion ‡ hirion
+ [-: ‡ Llat. stolae gwiscoedd-llaesiom
+
+]  y rroed y bob vn o naddynt, ac y ddwetpwyd wrthynt, am yddynt o'r ffwys * dros ychydic o amser
+ [-: ‡ enhyd bach]  hyd yn gyflewnid [-: *nes cyflewni]  rif 
+* y
+ [-: ‡ ei]  cydwasnaethwyr, ac brodyr, y leddesid, mal y llas ynthwy.
+
+</lb>
+<lb n="12">
+12 
+Ac mi edrycheis pan agorasei ‡ ef
+ [-: ‡ yr Oen]  y chweched sel, a syna, crynfa mawr y ddayar y doedd, ar haul aeth cyn ddued a sach lien blewoc, ar lleyad oedd, yn debic y waed.
+
+</lb>
+<lb n="13">
+13 
+A' ser o'r nef y syrthiasont yr ddayar, mal pren
+
+ 
+ ffeigys yn bwrw ffeigys-gleison pan scydwyr hi a gwynt mawr.
+
+</lb>
+<lb n="14">
+14 
+Ar nef aeth heybio, mal * rol-o-bapir
+ [-: * Gr. biblion
+ 'sef llyfr, yr hwn vyddei yn y cynvyd yn rrolyn] , gwedy ‡ troi
+ [-: ‡ ei rolio]  ynghyd, a phob mynydd ac vnys y * drowyd
+ [-: * ysmutwyt]  allan oy lleoedd,
+
+</lb>
+<lb n="15">
+15 
+A' brenhinoedd y ddayar, ar gwyr mawr, ar cyfoethogion, ar pen captenied, ar gwyr cedyrn, a phob gwr caeth, a phob gwr-rrydd, y ymgyddiasont mewn gogofey, ac ym plith ‡ creigie
+ [-: ‡ clegyr
+]  y mynyddey,
+
+</lb>
+<lb n="16">
+16 
+Ac hwy y ddwedasont wrth y mynyddedd ar creigeu, Cwympwch arnom ni, a' chyddiwch ni rrac wyneb yr vn y sydd yn eistedd ar yr eisteddle, ac o ddiwrth * digovent
+ [-: ‡ lid, edicter]  yr Oen.
+
+</lb>
+<lb n="17">
+17 
+Can ys y may dydd mawr y ddigovent ef gwedy dyfod, a' phwy y ddychyn sefyll?
+
+
+</lb>
+        </pb>
+    
+<pb n="7">
+
+
+        <head>
+        Pen. vij.
+        </head>
+            
+    
+    <lb n="argument">
+
+4.9 Gweled y mae ef wasanaethwyr Dyw wedi eu selio yn ei taleu o bop nasion a phoploedd, 15 Yr ei cyd bont yn dyoddef trwbl, er hyny y mae yr Oen yn y bwydo hwy, yn eu harwain i ffynnoneu dwfr byw, 17 A' Duw a sych ymaes yr oll ddaigreu y ar y llygait.
+</lb>
+    
+
+<lb n="1">
+1 
+AC yn ol hyn, mi weleis pedwar Angel yn sefyll ar bedwar * cornel
+ [-: * congl]  y ddayar, yn dala pedwar gwynt y ddayar, rrac yr gwynt chwthy ar y ddayar, nac ar y mor, nac ar vn pren.
+
+
+ 
+ </lb>
+<lb n="2">
+2 
+Ac mi weleis Angel arall yn * dyfod
+ [-: * escen]  y vynydd o ddiwrth y Dwyrein, ac yr rydoedd sel Dyw byw gantho, ac ef y lefoedd a ‡ lleis
+ [-: ‡ llef]  ywchel ar y pedwar Angel y rrein y rroyspwyd gallu * y ddrygu'r
+ [-: * waythir]  ddayar, a'r mor,
+
+</lb>
+<lb n="3">
+3 
+Dan ddwedyd, Na ddrygwch y ddayar, na'r mor, nar * coed [-: * preneu] , yni sely ‡ 
+ [-: ‡ nodi]  gwasnaethwyr yn Dyw ni yn y talceni.
+
+</lb>
+<lb n="4">
+4 
+Ac mi glyweis rrif y rrei y selwyd, ac yroydent gwedy * sely
+ [-: * selio]  pedeir a seith vgeinmil o holl ‡ cenedlaythey meybyon
+ [-: ‡ llwytheu plant]  
+yr Israel.
+
+</lb>
+<lb n="5">
+5 
+O * genedyl
+ [-: * lwyth]  Iuda ef y selwyd doyddeng mil. O ‡ genedyl
+ [-: ‡ lwyth]  Ruben ef y selwyd doyddengmil. O genedyl Gad ef yselwyd doyddengmil.
+
+</lb>
+<lb n="6">
+6 
+O genedyl Aser ef y selwyd doyddengmil. O genedyl Nephtalei ef y selwyd doyddengmil. O genedyl Manasses ef y selwyd doyddengmil.
+
+</lb>
+<lb n="7">
+7 
+O genedyl Simeon ef y selwyd doyddengmil. O genedyl Leui ef y selwyd doyddengmil. O genedyl Issachar, ef y selwyd doyddengmil. O genedyl Zabulon ef y selwyd doyddengmil.
+
+</lb>
+<lb n="8">
+8 
+O genedyl Ioseph, ef y selwyd doyddengmil. O genedyl Ben-iamin ef y selwyd doyddengmil.
+
+</lb>
+<lb n="9">
+9 
+Yn ol hyn mi edrycheis, a' syna * rrif
+ [-: * torf, tyrfa, lliaws]  mawr, yr hwn ny alley neb y rrifo, or holl nasioney a' chenedlaythey, a' phobloedd, ‡ ac ieythoedd
+ [-: ‡ a' thauodeu] , yn sefyll gair bron yr eisteddle, a' chair bron yr Oen, a * gowney
+ [-: * gwiscoedd]  gwnion hirion amdanynt, a' ‡ phalmwydd
+ [-: ‡ phalmidwydd]  yny dwylaw.
+
+</lb>
+<lb n="10">
+10 
+Ac hwy y lefasont a lleis * ywchel
+
+ [-: * mawr, uchel] , dan ddwedyd, ‡ Cadwedigaeth
+ [-: ‡ Iechyd]  
+sydd yn dyfod oddiwrth yn
+
+ 
+ Dyw ni, ysydd yn eistedd ar yr eisteddle, ac oddiwrth yr Oen.
+
+</lb>
+<lb n="11">
+11 
+Ar holl Angelion y safasant ogylch yr eisteddle, ac ogylch yr henafied, ar pedwar enifel, ac hwy syrthiasant gair bron yr eisteddle ar y hwynebey, ac * anrrydeddasant
+ [-: * addolasant]  Ddyw.
+
+</lb>
+<lb n="12">
+12 
+Dan ddwedyd, Amen. Moliant a' gogoniant, a' doethinep, a diolch, ac anrrydedd, a' gallu, a' nerth, y vo yn Dyw ni yn dragywydd, Amen.
+
+</lb>
+<lb n="13">
+13 
+Ac vn or henafied a ‡ chwedleyawdd
+ [-: ‡ Gr. apecrithe, atepodd, sef ymddiddanodd
+] , dan ddwedyd wrthyf, Pwy ydynt y rrei hyn, ysydd a gowney gwnion hirion amdanynt? ac o pa le y ddaythont?
+
+</lb>
+<lb n="14">
+14 
+Ac mi ddwedeis wrtho ef, Arglwydd, ti wddost. Ac yntey y ddwad wrthyf i, Yrrein yddynt y rrei y ddaythont allan o * drafael
+ [-: * drwbleth, drallot, gyni, ing]  mawr, ac y olchasont y gowne-hyrion, ac y wneythont y gowney-hyrion yn wnion yn gwaed yr Oen.
+
+</lb>
+<lb n="15">
+15 
+Am hyny y maent gair bron eisteddle Dyw, ac yny wasnaethy ef yn demel dydd a nos, ar vn ysydd yn eiste ar yr eisteddle, y dric yn y plith hwynt.
+
+</lb>
+<lb n="16">
+16 
+Ny vydd arnynt newyn ‡ mwy
+ [-: ‡ rac llaw] , na syched mwy, ac ny * ddeyl
+ [-: * chwymp]  yr haul arnynt, na dim gwres.
+
+</lb>
+<lb n="17">
+17 
+Cans yr oen, yr hwn ysydd yn chanol yr eisteddle, y rreola hwynt, ac y ‡ towys
+ [-: ‡ harwein]  hwynt at y ffynhoney byw o ddyfroedd, a' Dyw sych yr holl ddeigrey o ddiwrth y llygeid.
+
+
+</lb>
+        </pb>
+    
+<pb n="8">
+
+
+        <head>
+        Pen. viij.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Bot agori y seithfet sel: bot goystec yn y nef. 6 Y petwar Angel yn canu ei trumpie, a' phlae dirvawr ar ol hynny yn dyvot ar y ddaiar.
+</lb>
+    
+
+ 
+ 
+<lb n="1">
+1 
+A Phan y agorassey ef y seythfed sel, y rydoedd gostec yny nef * amgylch
+ [-: * ynghylch]  haner awr.
+
+</lb>
+<lb n="2">
+2 
+Ac mi weleis y seith Angel, yr rein oyddent yn sefyll gair bron Dyw, a' seith trwmpet yrroedd yddynt.
+
+</lb>
+<lb n="3">
+3 
+Yno Angel arall y ddoyth ac y safoedd gair bron yr allor, a senser aur gantho, a' llawer o arogley y rroed yddo ef, y offrymy a gweddie yr holl Seint, ar yr allor aur, yr ‡ hwn ydyw
+ [-: ‡ hon 'sydd]  gair bron yr eisteddle.
+
+</lb>
+<lb n="4">
+4 
+A mwg yr erogley ynghyd a gweddie yr Saint, y * ddrychafysant
+ [-: * escenesont, aethon y vyny
+]  gair bron Dyw, o law yr Angel.
+
+</lb>
+<lb n="5">
+5 
+Ar angel y gymerth y senser, ac y llanwoedd hi a' than or allor, ac y bwroedd yr ddayar, ac yroydd lleise, a thraney, a' ‡ mellt
+ [-: ‡ llucheid] , a' chrynfa'r ddayar.
+
+</lb>
+<lb n="6">
+6 
+Yno y seith Angel, y rrein oeddent ar seith trwmpet ganthynt, y * wneythont y hun yn barod
+ [-: * ymparatoesont]  y gany'r trwmpedey.
+
+</lb>
+<lb n="7">
+7 
+Ar Angel cynta y ganoedd y trwmpet, ac yr ydoedd * ceseir
+ [-: * cenllysc]  a' than, gwedy cymysgu, a gwaed ac hwy y vwrwyd yr ddayar, a' thrayan y ‡ coed
+ [-: ‡ arborum, preneu]  y losgwyd, ar holl gwellt glas y losgwyd.
+
+</lb>
+<lb n="8">
+8 
+Ar eil Angel y ganoedd y trwmpet, a' bwrw y wneithpwyd yr mor, mal be bei * mynydd mawr
+ [-: * glan vawr]  yn llosgi a than, a thrayan y mor aeth yn waed.
+
+</lb>
+<lb n="9">
+9 
+A' thrayan y creadiried, a'r oyddynt yn vyw yny mor, y vyont veyrw a thrayan y llonge y ddinystrwyd.
+
+</lb>
+<lb n="10">
+10 
+Ar trydedd Angel y ganoedd y trwmpet, a seren vawr y syrthioedd or nef, yn llosgi mal 
+* toris
+ [-: ‡ Gr. lampas, ffagyl] , ac
+
+ 
+ ef y syrthioedd y drayan yr afonydd, ac y ffynhoney y dyfroedd.
+
+</lb>
+<lb n="11">
+11 
+Ac enw'r seren a elwir wermwd: am hyny trydedd ran y dyfredd aethant yn wermod, a llawer o ‡ wyr
+ [-: ‡ homines .i. dynion]  y vyont veirw, o weith y dyfredd hynny, can ys y gwneythur hwynt yn chwerwon.
+
+</lb>
+<lb n="12">
+12 
+Ar pedwerydd Angel y ganoedd y trwmpet, a tharo y wneythpwyd trayan yr hayl, a' thrayan y lleyad, a' thrayan y ser, nes towylly y trayan hwynt: a' tharo y wneythpwyd y dydd, mal na alley y * thrayan hi goleyo
+ [-: * drayan lewychu, dowynny] . ac yn yr vn modd y nos.
+
+</lb>
+<lb n="13">
+13 
+Ac mi edrycheis, ac y glyweis Angel yn ‡ hedfan
+ [-: ‡ ehedec]  trwy ganol y nef, dan ddwedyd a lleis ywchel, Gwae, gwae, gwae y ddeilied y ddayar, * rrac
+ [-: * gan]  lleisiey ys yn ol y trwmpedey y tri Angel, y rrein oyddent etto y gany-trwmpede.
+
+
+</lb>
+        </pb>
+    
+<pb n="9">
+
+
+        <head>
+        Pen. ix.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Y pempet ar chwechet Angel yn canu ei trwmpie: y seren yn cwympo or nef. 3 Y locustae yn dyvot allan or mwg. 12 Bot y gwae cyntaf gwedy mynet heibo. 14 Darvot gellwng yn rhydd y petwar Angel y oeddent yn rwym, 18 A' lladd y drydedd ran y dynion.
+</lb>
+    
+
+<lb n="1">
+1 
+AR pymed Angel y ganoedd ar trwmped, ac mi weleis seren yn cwympo or nef yr ddayar, ac yddo ef y rrowd * agoriad
+ [-: * allwydd]  y pwll ‡  heb waylod
+ [-: ‡ pytew diwaelod, anoddyn] .
+
+</lb>
+<lb n="2">
+2 
+Ac ef agorodd y pwll heb waylod, a' mwg y gyfodoedd or pwll, mal
+
+ 
+ mwg ffwrneis vawr, ar haul, a'r * wybr
+ [-: * awyr]  y dywyllwyd gan mwg y pwll.
+
+</lb>
+<lb n="3">
+3 
+A' ‡ locustae
+ [-: ‡ ryw pryfet]  y ddeythont ar y ddayar or mwg allan, a gallu y rroet yddynt hwy, mal y may gallu gan * scorpionae
+ [-: [no gloss]]  y ddayar.
+
+</lb>
+<lb n="4">
+4 
+A' gorchymyn y rroed yddynt, na waethent gwellt y ddayar, na dim ‡ glas
+ [-: ‡ Gr. chlooron
+ .i. gwyrdd] , nac vn pren: ond yn * inyc
+ [-: * vnic]  y dynion oyddent heb sel Ddyw yny talceni.
+
+</lb>
+<lb n="5">
+5 
+A' gorchymyn y rroed yddynt na ladden y rreini, ond yddynt ‡ anesmwytho
+ [-: ‡ cystuddio, poeni]  arnynt pym mis, a' bod poen y hwynt mal poen y vei o waith scorpion, pan darfyddei yddo * brathy
+ [-: * gnoei]  duyn.
+
+</lb>
+<lb n="6">
+6 
+‡ Ac
+ [-: ‡ Am hyny]  yn dyddiey hyny y dynion y geisiant marfolaeth, ac ny * chywrddant a hi
+ [-: * chaffant ef] , ac y chwenychant veirw ‡ a marfolaeth * y gila
+ [-: ‡ ac angeu a ffy]  rracddynt.
+
+</lb>
+<lb n="7">
+7 
+A' ‡ llyn
+ [-: 
+* chyffelipiaethe]  y lacustae oedd debic y veirch gwedy paratei y rryvel, ac yr oedd ar y peney mal coronae yn debic y aur, ae hwynebey hwynebe yn debic y dynion.
+
+</lb>
+<lb n="8">
+8 
+A' gwallt oedd ganthynt, mal gwall gwragedd, ae danedd oeddent mal danedd llewod.
+
+</lb>
+<lb n="9">
+9 
+Ac yr oedd ganthynt * lurigae
+ [-: * loricae
+] , mal llurigae haiarn, a ‡ lleis
+ [-: ‡ twrw, sain]  y hadeynedd oedd debic y leis siaredey yn rredec gan lawer o veirch y rryfel.
+
+</lb>
+<lb n="10">
+10 
+A' * chynfonney
+ [-: * chlorene]  oedd yddynt, mal y scorpionae, ac yny cynffoney y rroeddent ‡ conynney
+ [-: ‡ colyne] , ae meddiant hwynt oedd y ddrygu dynion pym mis.
+
+</lb>
+<lb n="11">
+11 
+Ac y mae ganthynt vrenin arnynt, yr hwn ydiw Angel y pwll heb waylod, ae enw ef yn Ebryw ydyw Abaddon, ac yn-* gryw
+ [-: * Groec]  ef y enwyr, ‡ Apollyoon
+ [-: ‡ cyfergollwr] .
+
+
+ 
+ </lb>
+<lb n="12">
+12 
+Vn gwae aeth heybio, a' syna, y may doy wae * yw
+ [-: * yn]  ddyfod ‡ rrac llaw
+ [-: ‡ gwedy hyn] .
+
+</lb>
+<lb n="13">
+13 
+
+¶Ar chweched Angel y ganoedd y trwmpet, ac mi glyweis lleis oddiwrth pedwar corn yr allor aur, y sydd gayr bron Dyw,
+
+</lb>
+<lb n="14">
+14 
+Yn dywedyd ‡ yr
+ [-: ‡ ir, wrth]  chweched Angel, oedd ar trwmpet gantho, Gillwng y pedwar Angel, y rrein ydynt yn rrwym yn yr afon vawr Euphrates.
+
+</lb>
+<lb n="15">
+15 
+Ar pedwar Angel y ellyngwyd, y rrein y ymbarattowdd yn erbyn awr, yn erbyn diwrnod, yn erbyn mis, ac yn erbyn blwyddyn y ladd trayan y dynion.
+
+</lb>
+<lb n="16">
+16 
+A' rrif gwyr meyrch y ‡ llu
+ [-: ‡ rryfel] , oedd igeyn mil o weithiey deng mil: can ys mi glyweis y rrif hwynt.
+
+</lb>
+<lb n="17">
+17 
+Ac mal hyn y gweleis i y mairch mewn gweledigaeth, ac yr rydoedd gan rrei oeddent yn eiste arnynt, lurigae tanllyd, ac o liw'r hyacinct a brwmstan, a' pheneyr mairch oeddent megis penney llewod: ac yn mynd allan oe geneye, tan a' mwg a' brwmstan,
+
+</lb>
+<lb n="18">
+18 
+A' thrayan y dynion y las gan y tri * yma
+ [-: * hynn] , 'sef gan y tan ar mwg, a'r brwmstan, y rrein y ddoyth allan oe geneue hwynt.
+
+
+</lb>
+<lb n="19">
+19 
+Can ys y gallu hwynt 'sydd yn y geneyey, ae yny cynffoney: can ys y cynffoney hwynt oeddent debic y ‡ seirph
+ [-: ‡ nadroedd] , a' pheney ganthynt, ar rrei hyn yrroeddent yn drygu.
+
+</lb>
+<lb n="20">
+20 
+A' * relyw
+ [-: * gweddillion, gwarged
+]  or dynion ny las gan y plae hyn, ny chymersont etyfeyrwch am weithredoedd y dwylaw y beydiaw ac addoli cythreylied, a * delwey
+ [-: * Gr. eidola
+]  aur ac arian, a' phres, a' mein, a' phrene, yrren
+
+ 
+ ac ny allant gweled, na chlywed na cherdded.
+
+
+</lb>
+<lb n="21">
+21 
+Ac ny chymersont hevyd ‡ 
+ [-: ‡ ychweyth]  etifeyrwch, am y mwrddwr, nae y * cyfareddion
+ [-: * rrinieu] , nae y godineb, nae y lledradeu.
+
+
+</lb>
+        </pb>
+    
+<pb n="10">
+
+
+        <head>
+        Pen. x.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Bot y llyver yn agoret gan yr Angel. 6 Tyngu y mae ef na bydd mwy amser. 9 Rhoi y mae ef y llyfr i Ioan, yr hwn ys ydd yn ei vwyta.
+</lb>
+    
+
+<lb n="1">
+1 
+AC mi weleis Angel cadarn arall yn discyn or nef, gwedy ‡ ddillaty
+ [-: ‡ gwisco]  or wybren, * ac envys
+ [-: * bwa'r glaw]  ar y ben, ac y wyneb ef ydoedd mal yr haul, ae draed ef oeddent mal * pilerey
+ [-: * colofnae]  tan.
+
+</lb>
+<lb n="2">
+2 
+A Llyfr bychan oedd yn agored yny law ef, ac ef y rroedd y droed ddehe ar y mor, ae droed ‡ assey
+ [-: ‡ asw]  ar y ddayar,
+
+</lb>
+<lb n="3">
+3 
+Ac ef y lefoedd a lleis ywchel, mal by bei llew yn rryo: a' gwedy darfod yddo lefein, y seith * twrwf
+ [-: * taran]  y ‡ wneythont y lleisey
+ [-: ‡ lafareson, lleissasont] .
+
+</lb>
+<lb n="4">
+4 
+A' gwedy darfod yr seith twrwf * gwneythyr y lleysiey
+ [-: * adrodd, leisio
+] , yroyddwn ar veder scryvenny: ac my glyweis lleis or nef yn dwedyd wrthyf', Sela'r pethey y * leisoedd
+ [-: 
+* ddyvod]  y seith ‡ twrwf
+ [-: ‡ taran] , ac na scryvenna hwynt.
+
+</lb>
+<lb n="5">
+5 
+A'r Angel yr hwn y weleis i yn sefyll ar y mor ac ar y tir, y * dderchafodd
+ [-: * gododd]  ey law yr nef,
+
+</lb>
+<lb n="6">
+6 
+Ac y dyngoedd ‡ mewn
+ [-: ‡ yn, myn, ir]  yr vn ysydd yn byw yn
+
+ 
+ dragowydd, yr hwn y creoedd y nef, ar pethey ydynt ynddo ef, ar ddayar ar pethey ydynt ynddy hi, ar mor ar pethey ydynt ynddo ef, na vyddey Amser ‡ rrac llaw
+ [-: ‡ mwyach, ymhellach.] .
+
+</lb>
+<lb n="7">
+7 
+Ond yn nyddiey lleis y seithfed Angel, pan ddechreyo ef gany ar trwmpet, dyweddy y wneir dirgelwch Ddyw, mal y ddatcanoedd ef * yddy
+ [-: * yw]  wasnaethwyr y proffwydi.
+
+</lb>
+<lb n="8">
+8 
+Ar lleis y glyweis or nef, y ‡ chwedleyoedd
+ [-: ‡ ymddiddanodd]  eilweith a mi, ac y ddwad, Cerdda, cymer, y llyfyr-bechan ysydd yn llaw'r Angel, yr hwn ysydd yn sefyll ar y mor ac ar y tir.
+
+</lb>
+<lb n="9">
+9 
+Ac mi eythym at yr Angel, dan ddwedyd wrtho, Dyrro y mi y Llyfr-bychan. Ac ynte y ddwad wrthyfi, Cymer, * a llynca ef
+ [-: * ysa yn llwyr, bwyta ef y gyd]  ac ef, y cwherwa dy vola di, ond ef y vydd melys yn dy eney di mal mel.
+
+</lb>
+<lb n="10">
+10 
+Ac mi y gymereis y ‡ llyfr-bychan
+ [-: ‡ 
+libellum,
+ llyfran]  o law yr Angel, ac y llynceis ef, ac yrydoedd ef yn velys yn vyn geney megis mel: a' chwedy y mi lynky ef, vy mola y cwherwoedd.
+
+</lb>
+<lb n="11">
+11 
+Ac ef y ddwad wrthyf, Reid yd proffwydo ‡ eilweith
+ [-: ‡ drachefn]  ymysc y bobloedd ar nassioney, a'r * ieithioedd
+ [-: * tafodeu] , ac y lawer o Vrenhinoedd.
+
+
+</lb>
+        </pb>
+    
+<pb n="11">
+
+
+        <head>
+        Pen. xj.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Mesuro 'r templ. 3 Cyuodi dau test y gan yr Arglwydd, a'i lladd y gan y bestvil, 11 Eithyr gwedy hyny
+ ei derbyn y 'ogoniant. 15 Derchafel Christ, 16 A' moli Dew ygan .24. henaif.
+</lb>
+    
+
+ 
+ 
+<lb n="1">
+1 
+YNo yroed corsen y mi, yn debic y wialen, ar Angel y safoedd * gair vy llaw
+ [-: * gyd a mi, wrthyf] , ac y ddwad, Cyfod, a' mesyr temel Ddyw a'r allawr, ar rei ydynt yn addoli yndi hi.
+
+</lb>
+<lb n="2">
+2 
+Ar cyntedd yssydd or ty allan yr demel, bwrw allan, ac na vesyr ef: cans ef y rroed yr ‡ 
+ [-: ‡ ir] 
+ Cenetloedd, ac hwy y sathrant dan draed y dinas
+ [-: * caer]  santeidd doy vis a deigen.
+
+</lb>
+<lb n="3">
+3 
+Ac mi rrof-allu
+ ym doy dyst, ac hwy y prophwydant mil o ddiwarnodey a thrigen a doycant, gwedy ey ymwisco a llien-sache.
+
+</lb>
+<lb n="4">
+4 
+Yrrein ydynt y ddwy * bren-olif
+ [-: * olew wydden] : ar doy canwylbren, yn sefyll gair bron Dyw'r ddayar.
+
+</lb>
+<lb n="5">
+5 
+Ac os ewyllysa vn y ‡ clwyfo
+ [-: ‡ Gr. 'adicesai .i. wnethur cam, ae drygu]  hwynt, y mae tan yn mynd allan oe geneye ynthwy, ac y ddinystr y * digasogion
+ [-: * gelynion
+] : ac os ewyllysa vn duyn y clwyfo hwynt, mal hyn ‡  y lleddir ef
+ [-: [no gloss]] .
+
+</lb>
+<lb n="6">
+6 
+Gallu y sydd gan yrrein y * gayed
+ [-: 
+‡ gau]  y nef, rrac' yddi 'lawio yn nyddiey y pryffodolaeth hwynt, a' gallu y sydd ganthynt ar y dyfroedd y troi hwynt yn waed, ac y daro'r ddayar a phob pla, cyn vynyched ac y mynnont.
+
+</lb>
+<lb n="7">
+7 
+A' phan ddarffo yddynt ‡ cwplay
+ [-: ‡ ddiwedy, 'orphen]  y tustolaeth, yr * enifel
+ [-: * bestia .i. bestvil]  y ddaw allan or pwll heb waylod, y rryfela yny herbyn hwy, ac y ‡ gortrecha
+ [-: [no gloss]]  hwynt, ac y lladd hwynt.
+
+</lb>
+<lb n="8">
+8 
+Ae ‡ cyrff
+ [-: ‡ celanedd]  hwynt y orwedd ar heolydd y dinas vawr, yr hon y elwir yn ysbrydawl Sodoma ‡ ac
+ [-: ‡ a'r]  Eifft, lle ac y * croeshoylwyd
+ [-: ‡ crogwyt]  yn harglwydd ni.
+
+
+ 
+ </lb>
+<lb n="9">
+9 
+Ac hwy or bobloedd, ar * genedlaythey
+ [-: * lwythae
+] , ar ‡ ieithoedd
+ [-: ‡ tavodeu] , ar * Cenetloedd
+ [-: [no gloss]]  y welant y cyrff hwynt tridiey a' haner, ac ny ddioddefant rroi y * cyrff
+ [-: * cadauera .i. celanedd]  hwynt mewn ‡ beddey
+ [-: ‡ monumentis] .
+
+</lb>
+<lb n="10">
+10 
+Ar rrei ydynt yn trigo ar y ddayar, y lawenhant arnynt hwy, ac y vyddant ‡ siriys
+ [-: ‡ cyssurus] , ac y ddanfonant rroddion pawb at y gilydd: cans y ddoy broffwyd * yma
+ [-: * hyn] , y anesmwythoedd ar y rrei oyddent yn trigio ar y ddayar.
+
+</lb>
+<lb n="11">
+11 
+Ac yn ol tridiey a haner, ysbryd y bowyd o ddiwrth Ddyw, aa ymewn yndynt hwy, ac hwy ‡ safant
+ [-: [no gloss]]  ar y traed: ac ofn mawr y syrth ar y rrei y gwelas hwynt.
+
+</lb>
+<lb n="12">
+12 
+Ac hwy glywont lleis mawr or nef, yn dwedyd wrthynt. ‡ Drychefwch
+ [-: ‡ Escenwch, Dewch i vyny]  yma. Ac hwy * ddrychafont
+ [-: [no gloss]]  yr nef mewn wybren, ae * digassogion
+ [-: * gelynion]  hwynt y gwelsant hwy.
+
+</lb>
+<lb n="13">
+13 
+Ac yn yr awr hono ‡ yrydoedd
+ [-: ‡ bydd]  crynfa vawr ar y ddayar, ar ddecfed rran or dinas y syrthioedd y lawr, a' seith mil o * wyr
+ [-: * ddynion]  y ‡ las
+ [-: ‡ leddir]  yn chrynfar ddayar: a'r gweddilion a ofnasant, ac y rroysont 'ogoniant y Ddyw 
+‡ nef
+ [-: * celi] .
+
+</lb>
+<lb n="14">
+14 
+Yr eil gwae aeth hebio, a' syna, y trydedd gwae y ddaw ar vrys.
+
+</lb>
+<lb n="15">
+15 
+A'r seithfed Angel y ganoedd ar trwmpet, a lleisey mawr y *  wneythpwyd
+ [-: ‡ oedd]  yn y nef, dan dwedyd, Yn harglwydd ni ae grist ef y pieffant tyrnasoedd y 
+‡ bud
+ [-: * byt]  hwn, ac ef y dyrnassa yn oes oesoedd. Amen.
+
+</lb>
+<lb n="16">
+16 
+A'r pedwar ar ygen o henafied, yr rein y eisteddent ar y cadeyre gair bron Dyw, y syrthiasant ar y whynebey [~ hwynebau ], ac addolasant Ddyw,
+
+
+ 
+ </lb>
+<lb n="17">
+17 
+Dan ddwedyd, Yrydym yn diolch ytti, Arglwydd Ddyw hollallyawc, yr Hwn wyd, yr Hwn oyddyd, ac yr Hwn * y ddaw
+ [-: * 'sy ar ddyvot] : cans ti dderbyneist dy ally mawr, ac y ‡ deyrnaseist
+ [-: 'orescenaist, y ddaethost y gael teyrnas] .
+
+</lb>
+<lb n="18">
+18 
+Ar Cenetloedd y lidiasant, ath lid ti y ddeyth, ac amser y varny'r merw, ac y yrroi ‡ gobrwy
+ [-: ‡ taledigaeth]  yth wasnaethwyr, y prophwydi, a'r Seinct, ac yr rrei y ofnoedd dy Enw, bychein, a' mawr, ac bot yty golli y rrein, ar ydynt yn dinystr y ddayar.
+
+</lb>
+<lb n="19">
+19 
+A themel Dyw oedd yn agored yn y nef, ac arch y * Testament
+ [-: * ystafn, yr ammot]  ef y welspwyd yny demel, ac yroyddent mellt, a' lleisiey, a' tharaney, a chrynfa'r ddayar, a ‡ chenllysc
+ [-: ‡ chesair]  mawr.
+
+
+</lb>
+        </pb>
+    
+<pb n="12">
+
+
+        <head>
+        Pen. xij.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Ymddangos a wnaeth yn y nef gwreic gwedy ymwisco a'r haul. 7 Mihacael yn ymladd ar ddraic, yr hwn 'sy yn ymlid y wreic. 11 Cahel y vuddygoliaeth trwy conffort y ffyddlonieit.
+</lb>
+    
+
+<lb n="1">
+1 
+AR ryfeddod mawr y ymddangosoedd yn y nef: Gwreic gwedy ymwisco ar haul, ar lleyad oedd dan y thraed, ac ar y phen coron o ddeyddec seren,
+
+</lb>
+<lb n="2">
+2 
+Ac yrodoedd hi yn veichioc ac hi lefoedd dan dravaylu ar y thymp, a hi ddolyrioedd yn barod y gael yscar llaw.
+
+</lb>
+<lb n="3">
+3 
+A' rryveddod arall ymddangosoedd yny nef, a' synna, dreic coch mawr a seith pen yddo, a dec
+
+ 
+ corn, a' seith coron ar y ‡ penney
+ [-: ‡ talaith] :
+
+</lb>
+<lb n="4">
+4 
+Ae gynffon ef y dynoedd trayan ser y nef, ac y bwroedd hwynt yr ddayar. Ar ddreic y safoedd gair bron y wreic, yr hon ydoedd yn barod y gael yscar llaw, y vwytta y phlentyn hi, ‡ yn hwy nac y genyd
+ [-: ‡ pan y genit]  ef,
+
+</lb>
+<lb n="5">
+5 
+A' mab-
+‡ wr
+ [-: * gwryw]  y aned yddi, yr hwn y rreoley yr holl nasioney a gwialen hayarn: ay mab y gymerspwyd y vynydd at Ddyw ac at y eisteddle ef.
+
+</lb>
+<lb n="6">
+6 
+Ar wreic y * giloedd
+ [-: * ffoodd]  yr diffeyth lle may ‡ gyfle
+ [-: ‡ ban]  gwedy Ddyw y barottoi yddi, mal y gallent y phorthi hi yno mil o ddiwarnodey a thrigen a doy cant.
+
+</lb>
+<lb n="7">
+7 
+A' * rryfel
+ [-: ‡ cad, brwydr]  oedd yny nef, Mihangel ae Angylion ef ymladdasant yn erbyn y dreic, ar dreic ymladdoedd ef ae Angylion ef.
+
+</lb>
+<lb n="8">
+8 
+Ac ny ‡ chawsont
+ [-: ‡ orthresant]  y llaw yn ycha, ac ny chafad y lle hwynt o hyny allan yn y nef.
+
+</lb>
+<lb n="9">
+9 
+A' bwrw allan y wneythpwyd y dreic mawr, yr hen sarph, yr hwn y elwir y * cythrel
+ [-: * diavol] , a' Satan, yr hwn ysydd yn twyllo [-: ‡ siomi]  yr holl vyd: ys y vwrw y wneythpwyd ef yr ddayar, ae Angylion y vwrwyd allan gydac ef.
+
+</lb>
+<lb n="10">
+10 
+Yno mi glyweis lleis ywchel, yn dwedyd, Yrowron y mae iechid yn y nef, a' ‡ grym
+ [-: ‡ nerth] , a thyrnas yn Dyw ni, a gallu y Grist ef: can ys cyhyddwr yn brodyr ni y vwrwyd yr llawr, yr hwn ydoedd yn y cyhyddo hwynt gair bron yn Dyw dydd a' nos.
+
+</lb>
+<lb n="11">
+11 
+Ac hwy * gortrechasant
+ [-: ‡ gorchvygesont]  ef trwy waed yr Oen, a' thrwy geir y testolaeth hwynt, ac ny charasant y bowyd hed ‡ at marw
+ [-: ‡ angeu] .
+
+</lb>
+<lb n="12">
+12 
+Am hyny, llawenhewch, y nefoedd, a'r sawl
+
+ 
+ * ydynt
+ [-: * 'sy, ydych]  trigadwy yndynt hwy. Gwae yr rrei ydynt trigadwy yn y ddayar, a'r mor: cans y ‡ cythrel
+ [-: ‡ diavol
+]  y ddiscynoedd attoch chwi, yr hwn y sydd a llid mawr gantho, herwydd gwybod nad ydiw y amser ef ond byrr.
+
+</lb>
+<lb n="13">
+13 
+A' phan gwelas y ddreic y vwrwyr ddayar, ymlid y wnaeth ef y wreic y * ddygoedd y mab yr byd
+ [-: * escorodd ar y gwr-ryw] .
+
+</lb>
+<lb n="14">
+14 
+A dwy adein eryr mawr y rroed yr wreic, yddi ‡ hedfan
+ [-: ‡ y hedec
+]  yr diffeth, * yddy
+ [-: * yw]  lle 'ddys [~ ydd ys ] yny magi hi dros amser, ac amseroedd, ac hanner amser, rrac wyneb y sarph.
+
+</lb>
+<lb n="15">
+15 
+Ar sarph y vwroedd oe safn allan ar ol y wreic ddwr mal * llifddwr
+
+ [-: * llifeiriant] , ar veder cael y dwyn hi ffwrdd gan y llifddwr.
+
+</lb>
+<lb n="16">
+16 
+A'r ddayar y ‡ cynorthwyoedd
+ [-: ‡ helpioedd]  y wreic, ar * tir
+ [-: * ddaiar]  agoroedd ei geneu, ac y lyngcoedd y llifddwr, yr hwn y vwroedd y ddreic allan oe safn.
+
+</lb>
+<lb n="17">
+17 
+A' llidio a oruc y ddreic ‡ yn erbyn
+ [-: ‡ wrth]  y wreic, a' myned y wnaeth ef y rryfely yn erbyn gweddillion y hilogaeth hi, yrrein ydynt yn cadw gorchmyney Dyw, ac ysydd a thystolaeth Iesu Christ ganthynt.
+
+</lb>
+<lb n="18">
+18 
+
+Ac mi sefeis ar * draethey mor
+ [-: * dyvot, y veisdon] .
+
+
+</lb>
+        </pb>
+    
+<pb n="13">
+
+
+        <head>
+        Pen. xiij.
+        </head>
+            
+    
+    <lb n="argument">
+
+1. 8. Y bestvil yn twyllo yr ei argyoeddus, 2. 4. 12. Ac y gadarnheir gan vestvil arall. 17. Braint not y bestvil.
+</lb>
+    
+
+ 
+ 
+<lb n="1">
+1 
+Ac mi weleis * enifel
+ [-: * vestvil]  yn ‡ cwny
+ [-: ‡ codi]  or mor, a' seith pen gantho, a dec corn, ac ar y gyrn ef dec coron, ac ar y beney ef enw * dirmigedic
+ [-: * cabl, sen, divenw] .
+
+</lb>
+<lb n="2">
+2 
+Ar ‡ enifel
+ [-: ‡ bestvil] 
+ rhwn y weleis i, oedd debic y lewpard, ae draed yn debic y draed arth, ae safn yn debic y safn llew: ar dreic y rroedd yddo ef y 'allu ae eisteddle, ac awdyrdod mawr.
+
+</lb>
+<lb n="3">
+3 
+Ac mi weleis vn oe beney ef mal gwedy * las
+ [-: * ladd, archolli]  yn varw, ae ‡ glwyf
+ [-: ‡ archoll, weli]  marfol ef y iachawd, ar'holl vyd y rryfeddoedd, * ac aeth yn ol yr enifel
+ [-: * y ddilynoedd yr bestvil] .
+
+</lb>
+<lb n="4">
+4 
+Ac hwy addolasant y ddreic yr hwn y ‡ rroedd
+ [-: ‡ roes]  gallu yr enifel, ac addolasant yr enifel, dan dwedyd, Pwy ysydd debic yr enifel, pwy ddychyn rryfely ac ef?
+
+</lb>
+<lb n="5">
+5 
+A' geney y rroed yddo ef, y ddwedyd mawr eyriey, a ‡ dirmygon
+ [-: * chableu] , a' gallu yrroed yddo ef, y * weithio
+ [-: ‡ farere .i. wneuthur]  doy vis a' deigen.
+
+</lb>
+<lb n="6">
+6 
+Ac ef agoroedd y eney mewn dirmic yn erbyn Dyw, y * ddirmygy
+ [-: * gablu]  y Enw ef, ae ‡ dabernacl
+ [-: ‡ dyle] , ar rey trigadwy yny nef.
+
+</lb>
+<lb n="7">
+7 
+A' rroi y wneythpwyd yddo ef rryfely ar Sainct ac y * gortrechy
+ [-: * gorchfygy]  y hwynt, a' gallu y rroed yddo ef ar bob cenedl ac ieith, a' nasion.
+
+</lb>
+<lb n="8">
+8 
+A' holl ‡ breswylwyr
+ [-: ‡ drigiolion]  y ddayar, y addolasont ef, yrrein nad yw y henwey yn escrifenedic mewn Llyfr y bowyd yr Oen, yr hwn y las er dechreyad y 
+* bud
+ [-: * byd] .
+
+</lb>
+<lb n="9">
+9 
+Y sydd a chlyst gantho, gwrandawed.
+
+</lb>
+<lb n="10">
+10 
+A's ‡ tywys
+ [-: ‡ dwc, arwein]  neb y gaethiwed, efo eiff y gathi
+
+
+wed: as lladd neb a chleddey, * a chleddey y lleddir
+ [-: * dir yw iddo gael ei ladd] 
+: ‡ llyma'r
+ [-: ‡ hyn] 
+ goddefeint, a' ffydd y Sainct.
+
+</lb>
+<lb n="11">
+11 
+Ac mi edrycheis ar enifel arall yn * cwny
+ [-: * escen, codi]  or ddayar, a doy corn oedd ‡ gantho
+ [-: ‡ iddo]  yn debic yr Oen, ond yn dwedyd yn debic yr dreic.
+
+</lb>
+<lb n="12">
+12 
+Ac ef y wnaeth cwbl ar allei yr enifel cynta wneythyr * oe vlaen
+ [-: * ger ei vron
+] , ac ef y wnaeth yr ddayar, ar rrey oyddent yn drygadwy yndi, y addoli yr enifel cynta, ‡ clwyf marolaythys
+ [-: ‡ archoll, angeuol]  yr hwn, y iachawd.
+
+</lb>
+<lb n="13">
+13 
+Ac ef y wnaeth rryfeddodey mawr, ac y baroedd can y ddiscyn or nef yr ddayar, yn golwc y dynion.
+
+</lb>
+<lb n="14">
+14 
+Ac ef a dwyllawdd ‡ ddeiled
+ [-: ‡ breswylwyr, gyfaneddwyr, drigiolion]  y ddaiar gan yr arwyddion, yrrei y oddefwyd yddo ef y gwneythyr gair bron yr enifel, dan ddwedyd wrthynt hwy y sawl oeyddent yn drigadwy ar y ddayar, * am
+ [-: * bot] 
+ yddynt wneythyr delw yr enifel, yr hwn y ‡ glwyfwd a chleddey
+ [-: ‡ gavodd archoll gan y cleddyf] , ac y vy vyw.
+
+</lb>
+<lb n="15">
+15 
+A' goddef y wneythpwyd yddo ef rroi * anadl
+ [-: * yspryt]  y ddelw'r enifel, mal y galley ddelw'r enifel ddwedyd, a' pheri lladd cynifer vn nad addoley ddelwr enifel.
+
+</lb>
+<lb n="16">
+16 
+Ac ef y wnaeth y bawb, bychein a'mawr, cyfoethocion a thlawdion rryddion a chaethion, y dderbyn nod yny dywlaw dehey ney yny talceni,
+
+</lb>
+<lb n="17">
+17 
+Ac na allei neb na phryny na gwerthy, ond * y gymerth
+ [-: * hwn, sawl oedd arno]  yr nod, ney enw'r enifel, ney rrif y enw ef.
+
+</lb>
+<lb n="18">
+18 
+Ll'yma ddoethinep. * Y sawl
+ [-: * yr hwn]  ysydd synhwyrys, cyfrifed rrif yr enifel: can ys rrif duyn ydiw, ae rif ydiw chwechant, a' chwech a' thrigen.
+
+
+
+</lb>
+        </pb>
+    
+<pb n="14">
+
+
+        <head>
+        Pen. xiiij.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Rhagorawl compeini yr Oen. 6 Vn Angel yn menegi yr Euangel, 8 Vn arall yn menegi am gwymp Babylon, 9 A'r trydydd yn rhybuddio * ffo
+ [-: * cilo
+]  rhac y bestvil. 13 Am ddedwyddit y sawl 'sy yn meirw yn yr Arglwydd. 18 Am gynayaf yr Arglwydd.
+</lb>
+    
+
+<lb n="1">
+1 
+AC mi edrycheis, a' syna, Oen yn sefyll ar vynydd Sion, a gyd ac ef pedeir mil a seith vgen mil, gan vod enw y dad ef yn escrifenedic yny talceni hwynt.
+
+</lb>
+<lb n="2">
+2 
+Ac mi glyweis lleis or nef, mal lleis llawer o ddyfroedd, ac mal lleis twrwf
+ [-: * taran]  mawr: ac mi glyweis lleis telynorion yn cany ar y telyney.
+
+</lb>
+<lb n="3">
+3 
+Ac hwy ganyssont mal caniat newydd gair bron y trwn, a chair bron y pedwar enifel, ar henafied, ac ny allei ‡ vn-duyn
+ [-: ‡ neb]  dyscu y caniat hwnw, ond y pedeir mil a'r seith vgein mil, y rrein y * brynwyd
+ [-: * brynesit]  or ddayar.
+
+</lb>
+<lb n="4">
+4 
+Yrrein ydynt y ‡ gwyr
+ [-: ‡ sawl]  ar nyd halogwyt * a
+ [-: * can, wrth]  gwragedd: can ys ‡ gweryfon
+ [-: ‡ morynion, diweir]  ynt: * yrrein
+ [-: * yr ol
+]  y ddilynant yr Oen pa le bynac yr eiff: yrrein y brynwyd o ddiwrth y dynion, yn ‡ ffrwyth cynta
+ [-: ‡ vlaenffrwth
+]  y Ddyw, ac ir Oen:
+
+</lb>
+<lb n="5">
+5 
+Ac ny chafad twyll yn y geneye hwynt: canys y maent heb * gyffeith
+ [-: 
+‡ Gr. amoomoi .i. yn ddi vrych, yn ddi van, yn ddinam, ddivei]  gair bron trwn Dyw.
+
+</lb>
+<lb n="6">
+6 
+¶Ac mi weleis Angel arall yn hedfan * trwy
+ [-: [no gloss]] 
+
+ 
+ 
+ganol y nef, ac Euengel tragywydd gantho, y bregethy yr rrei oeddent trigadwy ar y ddayar, ac y bob nasion, a' chenedlaeth, ‡ ac ieith
+ [-: ‡ thavod] , a' phobl,
+
+</lb>
+<lb n="7">
+7 
+Dan dwedyd a lleis ywchel, Ofnywch Ddyw, a' rrowch * anrrydedd
+ [-: * 'ogoniant]  yddo ef: can ys, awr y varn ef y ddoyth: ac addolwch yr hwn y wnaeth nef a ‡ llawr
+ [-: 
+* dayar] , a'r mor, a' ffynhoney y dyfroed.
+
+</lb>
+<lb n="8">
+8 
+Ac Angel arall y ddilynoedd, dan ddwedyd, E syrthioedd, e syrthioedd, Babylon y * gaer
+ [-: * dinas]  vawr honno: can ys hi y wnaeth yr holl nasioney yfed o win ‡ digofeint
+ [-: ‡ llid]  y * godineb
+ [-: * ffornigrwydd]  hi.
+
+</lb>
+<lb n="9">
+9 
+¶A'r trydedd Angel y dilynoedd hwynt, dan ddwedyd a lleis * mawr
+ [-: * uwchel] , Od addola ‡ vn duyn
+ [-: ‡ nep]  yr * enifel
+ [-: * bestvil]  ae ddelw ef, ac erbyno y nod ef yny dalcen, ney yn y law,
+
+</lb>
+<lb n="10">
+10 
+Hwnw y yf o win digoveint Dyw, yr hwn y ‡ gymysgwd
+ [-: ‡ dwallwd] , o win pur * mewn phiol
+ [-: * ynghwpa, ynghwpan]  y ddigoveint ef, ac ef y boenyr mewn tan a brymstan yn golwc yr Angylion santaidd, ac yngolwc yr Oen.
+
+</lb>
+<lb n="11">
+11 
+A' mwg y poynedigeth hwynt y ‡ ddrycha
+ [-: ‡ escen, ddring]  yn dragywydd: ac ny chant orffwysfa na dydd na nos, yrrein y addolant yr enifel, ae ddelw ef, a phwy bynac y dderbyno * print
+ [-: * Gr. charagma, lluniedigeth]  y enw ef.
+
+</lb>
+<lb n="12">
+12 
+Llyma ‡ goddefeint
+ [-: 
+* anmyned, ymaros]  y Seint: ll'yma 'r rrei y gadwant gorchmyney Dyw, a' ffydd Iesu.
+
+</lb>
+<lb n="13">
+13 
+Ac mi glyweis lleis or nef, yn dwedyd wrthyfi, Escrifena, Bendigedic ydynt y meyrw, yrrein ydynt rrac llaw yn meyrw * yn
+ [-: ‡ er mwyn, ym-plait]  yr Arglwydd. Velly y ddwed yr ysbryd: can ys hwy y orffwyssant oddiwrth y ‡ llafyr
+ [-: ‡ trafayl] , ae gweithredoedd y dilyn hwynt.
+
+</lb>
+<lb n="14">
+14 
+¶Ac mi edricheis, a' syna, wybren wen, ac ar yr
+
+ 
+ wybren vn yn eiste yn debic y Mab y duyn, ac ar y ben coron aur, ac yn y law cryman llym.
+
+</lb>
+<lb n="15">
+15 
+Ac Angel arall y ddoyth allan or deml, dan lefen a lleis ywchel wrth yr vn oedd yn eistedd ar yr wybren * Bwrw
+ [-: * Dod]  y mewn dy gryman a meda: can ys amser medi y ddeyth: am vod cynhayaf y ddayar yn ayddfed.
+
+</lb>
+<lb n="16">
+16 
+A'r vn oedd o eistedd ar yr wybren, y vwroedd y gryman ar y ddayar, a'r ddayar y vedwyd.
+
+</lb>
+<lb n="17">
+17 
+Ac Angel arall y ddeyth allan or dem'l, yr hwn ysydd yny nef, a' chanto hefyd cryman llym.
+
+</lb>
+<lb n="18">
+18 
+Ac Angel arall y ddeith allan oddiwrth yr allor, yr hwn oedd a gallu gantho ar y tan, ac y lefoedd a lleis ywchel ar yr vn oedd ar cryman llym gantho, gan ddywedyd, Bwrw y mewn dy gryman llym, a' chascla vagadey gwinllan y ddayar: cans y maent y grawn hi yn ayddfed.
+
+</lb>
+<lb n="19">
+19 
+Ar Angel y vwroedd y gryman llym ar y ddayar, ac y doroedd y lawr gwinwydd gwinllan y ddayar, ac y bwroedd hwynt y ‡ gerwyn
+ [-: ‡ bwll]  gwin vawr digofent Dyw,
+
+</lb>
+<lb n="20">
+20 
+a * phres
+ [-: * phwll, gwascfa]  gwin y ‡ gwascwyd
+ [-: ‡ sathrwyt]  allan or * gaer
+ [-: dinas] , a gwaed y ddeith allan or pres-y gwin ‡ cyfiwch a
+ [-: ‡ hyd]  ffrwyney y meirch * cyd ac vncant ar bymthec o gef nei o dir.
+ [-: * rhyd mil a' chwechant stad.] 
+
+
+</lb>
+        </pb>
+    
+<pb n="15">
+
+
+        <head>
+        Pen. xv.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Saith Angel a' chanthynt saith y pla dywethaf. 3 Caniat yr ei a orchvygasont y bestvil. 7 Y saith phiolae yn llawn o ddigofein Dyw.
+</lb>
+    
+
+ 
+ 
+<lb n="1">
+1 
+AC mi weleis arwydd arall mawr yn y nef a' rryfedd, seith Angel a chantynt y seyth pla diwetha: cans trwyddynt hwy llid Dyw y gyflawnwyd.
+
+</lb>
+<lb n="2">
+2 
+Ac mi weleis mal by bei mor gwydrol, gwedy y gymysgy a than ar sawl y gawsant y llaw 'n ycha ar yr * enifel
+ [-: * bestvil] , ae ddelw, ac ar y nod, ac ar rrif y enw ef, yn sefyll ‡ ar
+ [-: ‡ wrth]  'lan y mor gwydrol, a thelyney Dyw ganthynt.
+
+</lb>
+<lb n="3">
+3 
+Ac hwy ganasant ganiat Moysen gwasnaethwr Dyw, a chaniat yr Oen, dan ddwedyd, Mawr, a' rryfedd ydynt dy weithredoedd, Arglwydd Ddyw hollallyawc: cyfiawn a' chywir ynt dy ffyrdd, Brenin y Seint.
+
+</lb>
+<lb n="4">
+4 
+Pwy nath ofna di Arglwydd, a' gogoniantu dy Enw? cans ti yn vnic wyd santeidd, ar holl nasioney y ddont ac addolant gair dy vron di: cans dy * varney
+ [-: * vrodieu]  
+di ydynt cohoyddys.
+
+</lb>
+<lb n="5">
+5 
+Ac yn ol hynn my edrycheis, a' syna, yrydoedd tem'l ‡ Tabernacl
+ [-: ‡ lluest, tent, tyley]  y tustolaeth yn agored yny nef.
+
+</lb>
+<lb n="6">
+6 
+A'r seith Angel y ddeythont allan or dem'l, yrrein oeddent ar seith pla ganthynt, ae dillad oedd llien pur * gloyw
+ [-: * claer, dysclaer] , ac wedy ymwregysu ynghylch y broney a gwregysey aur.
+
+</lb>
+<lb n="7">
+7 
+Ac vn or pedwar enifel y roedd yr seith Angel seith phiol aur yn llawn o ddigovent
+ [-: ‡ ddicter, llid, soriant]  Dyw, yr hwn y sydd yn byw yn * dragywydd
+ [-: * oes oesoedd] .
+
+</lb>
+<lb n="8">
+8 
+Ac yrydoedd y demel yn llawn o vwg gogoniant Dyw ae allu, ac ny doedd neb yn abyl y vyned y mewn yr demel, hed yn ddarfod gyflewni seith pla y seith Angel.
+
+
+</lb>
+        </pb>
+    
+<pb n="16">
+
+
+        <head>
+        Pen. xvj.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Yr Angelon yn tywallt ei phiolae yn llawn digofeint. 6 A' pha plae 'sy yn dyvot o hyny. 15 Rybudd y ymochelyd a' gwilied.
+</lb>
+    
+
+<lb n="1">
+1 
+AC mi glyweis lleis mawr allan or deml, yn dwedyd wrth yr seith Angel, Ewch * ffwrdd
+ [-: * y fford] , a' thywellwch allan seith phiol digovent Dyw ar y ddayar.
+
+</lb>
+<lb n="2">
+2 
+Ar cynta aeth, ac y dywalloedd y phiol ar y ddaiar: a' chornwyd drwc a' dolyrys y gywmpoedd ar y ‡ gwyr
+ [-: ‡ homines dynion]  'oedd a nod yr enifel arnynt, ac ar y rrei y addolsant y ddelw ef.
+
+</lb>
+<lb n="3">
+3 
+Ar eil Angel y dowalloedd y phiol ar y mor, ac ef aeth mal gwaed * duyn-wedy-marw
+ [-: * ceilan] , a phob peth byw yny mor y vy varw.
+
+</lb>
+<lb n="4">
+4 
+A'r trydedd Angel y dwalloedd y phiol allan ar yr avonydd a' ffynoneyr dyfroedd, ac hwy aethont yn waed.
+
+</lb>
+<lb n="5">
+5 
+Ac mi glyweis angel y dyfroedd yn dwedyd, Arglwydd, Yr wyd yn gyfiawn, yr Hwn wyd, ac yr Hwn y vyost, a' sancteidd, achos * yd
+ [-: * yt]  varny y pethey ‡ yma
+ [-: ‡ hynn] .
+
+</lb>
+<lb n="6">
+6 
+Cans hwy gollasant gwaed y Seint, a' phroffwydi, ac am hyny ti y rroddeist yddynt gwaed y
+
+ 
+ yfed
+: cans teilwng yddynt y hynny.
+
+</lb>
+<lb n="7">
+7 
+Ac mi glyweis arall or * Cysegr
+ [-: * allawr]  yn dwedyd, Iey, Arglwydd Ddyw hollallyawc, cywir a' chyfiawn ydynt dy varney di.
+
+</lb>
+<lb n="8">
+8 
+A'r pedwerydd Angel y dwalloedd allan ei phiol ar yr haul a gallu y rroed yddo y 
+* poeni
+ [-: ‡ Gr. caymatisai .i. poethi]  dynion trwy wres tan,
+
+</lb>
+<lb n="9">
+9 
+A'r dynion y aent yn boeth can ‡ wres
+ [-: * cauma .i. poethder]  mawr, ac y * ddwedasant ddrwc am
+ [-: ‡ gablent, ddi venwasant]  enw Dyw, * oedd
+ [-: * ys ydd]  a meddiant gantho ar y plae hyn, ac ny ‡ chymersont eteyfeirwch
+ [-: ‡ ddaethant ir iawn]  y rroi gogoniant * yddaw
+ [-: * 'sef y Dduw] .
+
+</lb>
+<lb n="10">
+10 
+A'r pymed Angel y dwalloedd y phiol allan ar eisteddle yr ‡ enifel
+ [-: ‡ bestvil] , ae deirnas ef aeth yn dywyll, a' chnoi y wneythont y tafodey gan * ddolyr
+ [-: * 'ovid] ,
+
+</lb>
+<lb n="11">
+11 
+A' ‡ difrio
+ [-: ‡ chablu]  y wneythont Dyw or nef gan y * poenae
+ [-: * dolyriey] , a chan y cornwydon, ac ny chymersant eteifeyrwch am y gweithredoedd.
+
+</lb>
+<lb n="12">
+12 
+A'r chweched Angel y dywalloedd allan y phiol ar yr afon vawr Euphrates, ‡ a'r dwr o honi
+ [-: ‡ ai dwr hi]  y sychoedd y vynydd, mal y gellid parottoi ffordd Breninoedd y Dwyren.
+
+</lb>
+<lb n="13">
+13 
+Ac mi weleis tri ysbryd aflan yn debic y * ffrogaed
+ [-: * lyffaint] , yn dyfod allan o eney'r dreic, ac allan o eneyr ‡ enifel
+ [-: ‡ bestvil] , ac allan o eney'r proffwydi ffeilsion.
+
+</lb>
+<lb n="14">
+14 
+Canys ysbrydion cythreyled ydynt, yn gwneythyr gwrthiey, y vynd at Vrenhinoedd y ddayar, a'r holl vyd, y cascly hwynt y ryfel y dydd mawr hwnw * y bie
+
+ [-: * yddo
+]  Dyw holl alluawc.
+
+</lb>
+<lb n="15">
+15 
+Syna, yr wyf yn dyfod mal lleidyr, Bendigedic ywr vn y wilio ac y gatwo y ddillad, rrac yddo rrodio yn ‡ hoeth
+ [-: ‡ noeth] , a rrac gweled y * vrynti
+ [-: * gwilydd] ,
+
+
+ 
+ </lb>
+<lb n="16">
+16 
+Ac hwy ymgynyllasant ynghyd y le y elwir yny'r Ebryw, Arma-gedon.
+
+</lb>
+<lb n="17">
+17 
+¶A'r seithfed Angel y dwalloedd allan y phiol ir * awyr
+ [-: * wybr] : a' lleis ywchel y ddeyth allan o deml y nef oddiwrth yr eisteddle, yn dwedyd, Ef y ‡ dderfy
+ [-: ‡ dderyw, ddarvu] .
+
+</lb>
+<lb n="18">
+18 
+Ac yr oedd lleisiey, a thraney, a' mellt, ac yroedd crynfa vawr y ddayar, cyfryw na by er pen * mae
+ [-: * vu]  dynion ar y ddayar, crynfa'r ddayar cyment.
+
+</lb>
+<lb n="19">
+19 
+A' rrany y wneithpwyd y gaer
+ [-: ‡ dinas]  vawr yn deir ran, a' syrthio wneithont ceyrydd y nasioney: a' Babylon vawr y ddeyth mewn cof gair bron Dyw, y rroi yddi cwppan gwin ‡ digofeint
+ [-: ‡ baar]  y lid ef.
+
+</lb>
+<lb n="20">
+20 
+A' phob ynys y ffoedd ymaith, ac ny chad cwrdd ar ‡ mynydde
+ [-: * glennydd] .
+
+</lb>
+<lb n="21">
+21 
+A chwympo y wnaith cenllys
+ [-: ‡ cessair]  mawr, mal * pwyse
+ [-: * talentae] , or nef ar y dynion, a'r dynion y ‡ rregasant
+ [-: ‡ gablasont]  Ddyw, am plaae yr cenllys: can ys mawr * anianol
+ [-: * dros ben]  oedd y phla hi.
+
+
+</lb>
+        </pb>
+    
+<pb n="17">
+
+
+        <head>
+        Pen. xvij.
+        </head>
+            
+    
+    <lb n="argument">
+
+3 Yscythrad y putain vawr. 8 Hei phechotae a'i phoenedigeth 14 Goruchafieth yr Oen.
+</lb>
+    
+
+<lb n="1">
+1 
+
+AC vn or seith Angel oedd ar seith phiol gantho y ddoeth, ac ymchwedleyoedd a mi, dan ddwedyd wrthyf, Dyred
+
+ [-: ‡ Debre, Degle] : mi ddangosaf ytti ddamnedigeth y bytten * vawr
+ [-: [no gloss]]  ysydd yn eistedd ar lawer o ddyfroedd,
+
+</lb>
+<lb n="2">
+2 
+Gyda'r hon y mae brenhinoedd y ddayar gwedy
+
+ 
+ godineby a deiled [-: ‡ thrigianwyr]  y ddayar gwedy meddwi ‡ a gwin
+ [-: ‡ ar win]  y godineb hi.
+
+</lb>
+<lb n="3">
+3 
+Ac ef ym dygoedd yn yr ysbryd yr diffeith, ac mi weleis gwreic yn eistedd ar * enifel
+ [-: * vestvil]  vn lliw ‡ ar scarlla
+ [-: ‡ ac yscarlat] , yn llawn o enwey * enllibiys
+ [-: * cablae] , a seith pen gantho a dec corn.
+
+</lb>
+<lb n="4">
+4 
+A gwisc y wreic oedd ‡ pwrpwl
+ [-: ‡ purpur] , a' scarlla, a goreyred ac aur, a mein gwerthfor, a' pherle, a chwppan aur oedd ganthi yny llaw, yn llawn o ‡ wrthweyneb
+ [-: ‡ ffieid betheu]  a * brynti
+ [-: * aflendit]  y godineb hi.
+
+</lb>
+<lb n="5">
+5 
+Ac yny thalcen yrydoedd enw yn escrifenedic, Dirgelwch, Babylon vawr, mam pytteindra, a gwrthweynebe yr ddayar.
+
+</lb>
+<lb n="6">
+6 
+Ac mi weleis y wreic yn veddw gan waed y Seint, a' chan waed Merthyron Iesu: a' phan y gweleis hi, mi rryveddeis * a rryvedd mawr
+ [-: ‡ yn aruthrol, yn ddirvawr] :
+
+</lb>
+<lb n="7">
+7 
+Ar Angel y ddwad wrthyf, Pa ham yrwydd yn rryfeddu? mi dangosaf yt ddirgelwch y wreic, a'r ‡ enifel
+ [-: * bestfil]  ysydd yny dwyn hi, yr hwn ysydd a seith pen gantho, a dec corn.
+
+</lb>
+<lb n="8">
+8 
+* Yr enifel
+ [-: ‡ y bestfil]  y weleist, y vu, ac nyd ydiw, ac ef y ‡ ddaw
+ [-: [no gloss]]  y vynydd or pwll heb waylod, ac ef eiff y * ddinystraeth
+ [-: * gyfergoll, golledigeth
+] , a' deiled y ddayar, y rryfeddant (enwey y rrein nyd ynt yn escrivennedic mewn Llyfr y bowyd er dechrey'r bud) pan edrychant ar yr enifel yr hwn ydoedd, ac nyd ydiw, ac eto y mae.
+
+</lb>
+<lb n="9">
+9 
+Ll'yma'r meddwl ys ydd a doethinep gantho. Y seith pen seith mynydd ydynt, ac yrrein ymaer wreic yn eiste, ymaent hevyd yn seith Brenin.
+
+</lb>
+<lb n="10">
+10 
+Pymp y syrthioedd, ac vn ysydd, ac arall ysydd heb ddyfod etto: a' phan y ddel ef, rreid yddo parhay ychydic o amser.
+
+</lb>
+<lb n="11">
+11 
+Ar * enifel
+ [-: * bestfil]  yr hwn y ‡ vu
+ [-: ‡ erat .i. oedd] , ac nyd ydiw, ys efe ywr wythfed, ac y mae yn vn or seith, ac ef eiff y ddinystraeth.
+
+</lb>
+<lb n="12">
+12 
+A'r dec corn y weleist, dec Brenin ydynt, yrrein ny chawsont etto vrenhiniaeth, ond hwy gant gallu mal Brenhinoedd mewn vn awr gydar enifel.
+
+</lb>
+<lb n="13">
+13 
+Yrrein ysydd ar vn meddwl ganthynt, ac hwy rroddant ey gallu, ae awdyrdod ‡ yr enifel
+ [-: * ir bestvil] .
+
+</lb>
+<lb n="14">
+14 
+Yrrein y ymladdant ar Oen, a'r Oen y gorchfyga hwynt: cans ef ydiw Arglwydd arglwyddi, a Brenin brenhinoedd, a'r rrey ysydd ar y * rran
+ [-: ‡ du, blaid]  ef, ‡ hwy a elwid ac y ddetholwyd, a' ffyddlawn
+ [-: ‡ galwedigion ac etholedigion a' ffyddlonion]  ynt.
+
+</lb>
+<lb n="15">
+15 
+Ac ef y ddwad wrthyf', Y dyfroedd y weleist, lle mae'r bytten yn eiste, pobl ydynt, a' thyrfae, a nasioney, ac * ieithioedd
+ [-: * tavodeu] .
+
+</lb>
+<lb n="16">
+16 
+A'r dec corn y weleist ti ar yr enifel, yrrei ydynt y gasha y buttein, ac y gwna hi yn vnic ac yn ‡ hoeth
+ [-: ‡ noeth] , ac hwy y vwyttant y chig, ac y llosgant hi a than.
+
+</lb>
+<lb n="17">
+17 
+Cans Dyw * rroedd
+ [-: * a roes, a ddodoedd]  yny caloney y gyflawni y ewyllys ef, ac y wneithur trwy gyfvndeb, ac y roi y teirnas yr enifel, hed yn gyflewnir 'eiriey Dyw.
+
+</lb>
+<lb n="18">
+18 
+A'r wreic y weleist, y ‡ gaer
+ [-: ‡ dinas]  vawr idiw, yr hon y sydd yn teirnasu ar Brenhinoedd y ddayar.
+
+
+</lb>
+        </pb>
+    
+<pb n="18">
+
+
+        <head>
+        Pen. xviij.
+        </head>
+            
+    
+    <lb n="argument">
+
+3. 9 Bot * cariadae y byt
+ [-: * yr ei sy yn caru'r byt
+]  yn dristion am gwymp y putein o Babylon 4 Rhybudd y bopul Ddew y gilio allan oi
+
+ 
+ ‡ chyvoeth
+ [-: ‡ arglwyddieth
+]  hi, 20 Eithyr yr ei 'sydd o Ddew, ysydd ac achos yddynt y lawenechu am y dinistr hi.
+</lb>
+    
+
+<lb n="1">
+1 
+AC yn ol hyn, mi weleis Angel arall yn * dyfod
+ [-: * descen]  y lawr or nef, a' gallu mawr ganto, a ‡ goleyo
+ [-: ‡ llewychu]  wnaeth y ddayar gan y 'ogoniant ef.
+
+</lb>
+<lb n="2">
+2 
+A llefen y wnaeth ef yn * rrymys
+ [-: * gadarn, gryf, groch]  a lleis ywchel, dan ddwedyd, ‡ E
+ [-: ‡ Neur]  syrthioedd, ef syrthioedd, Babylon y gaer vawr hono, ac * y mae hi
+ [-: * hi aeth]  yn ‡ drigadle
+ [-: ‡ drigfan]  yr cythreiled, a' chadwraeth pob ysbryd aflan, a * nyth
+ [-: * custodia cadwrieth]  pob ederyn aflan ‡ cas
+ [-: ‡ a dygasoc] .
+
+</lb>
+<lb n="3">
+3 
+Cans yr holl nasioney y yfasont o win digofent y godineb hi, a Brenhinoedd y ddayar y wneythont odineb ynghyd a hi, a marsiantwyr y ddayar eithont yn gyfothogion gan amylder y moythe hi.
+
+</lb>
+<lb n="4">
+4 
+Ac mi glyweis lleis arall or nef yn dwedyd, Ewch allan o * hi
+ [-: * hanei]  vympobl, rrac ywch vod yn gygyfranawl oe phechodey, ac rrac ywch dderbyn gyfran oe phlae hi.
+
+</lb>
+<lb n="5">
+5 
+Can ys y phechodey hi y ddeythont y vynydd hed y nef, a' Dyw y gofioedd y enwiredd hi.
+
+</lb>
+<lb n="6">
+6 
+* Telwch yddi mal y taloedd hi y chwi,
+ [-: * Gobrwywch hi mal y gobrwyoedd hi chwi.]  a' rrowch yddi yn ddoy ddyblic yn ol y gweithredoedd hi: ac yny cwppan y lanwoedd hi y chwi, llenwch yddi hi ‡ y ddoy ddybllic
+ [-: ‡ ddau cymeint] .
+
+</lb>
+<lb n="7">
+7 
+Yn gymeint ac y gogonianoedd hi y hun, ac byw mewn moythe, yn yr vn * modd
+ [-: * veint]  rrowch yddi poen a ‡ thrymder
+ [-: ‡ thristwch, girad] : cans y mae hi yn dwedyd yn y
+
+  chalon, yr wyf yn eiste yn vrenhines, ac y nyd wyf yn weddw, ac ny welaf dim * wylofent
+ [-: * 'alar, cwynvan, cwynofain] :
+
+</lb>
+<lb n="8">
+8 
+Am hyny yn yr vn dydd y ddaw y phlae hi, 'sef myrfolaeth, a thristwch, a' newyn, a' hi losgir a than: cans cadarn ydywr Arglwydd Ddyw, yr hwn y ‡ barna
+ [-: ‡ damna]  hi.
+
+</lb>
+<lb n="9">
+9 
+A' brenhinoedd y ddayar y * ochant
+ [-: * wylan]  amdeni, ac y cwynant hi, y rrein y wneithont godineb, ac y vuont byw yn voythys ynghyd a hi, pan gwelant mwg ‡ y
+ [-: [no gloss]]  
+* thanllwyth
+ [-: ‡ chenneu, llosciat, phothiat]  hi,
+
+</lb>
+<lb n="10">
+10 
+Ac hwy safant ymhell oddiwrthi gan ofn y phoen hi, dan ddwedyd, Gwae ni, gwae ni
+ [-: * Och och] , y gaer vawr hono Babylon, y gaer gadarn: can ys mewn vn awr y ddoeth dy varn di.
+
+</lb>
+<lb n="11">
+11 
+A' marsiantwyr y ddayar y wylant ac y cwynant * ddywch
+ [-: * uch]  y phen: can ys ny does neb yn pryny y gwar hwy ‡ mwy
+ [-: rrac llaw] 
+nawr,
+
+</lb>
+<lb n="12">
+12 
+Marsiandiaeth o aur ac arian, a' maen gwerthfawr, a pherle, a' ‡ lliein-mein
+ [-: ‡ byssi] , a' phwrpul, a' sidan, ac 
+scarlla
+
+ [-: * scarlet] , a phop rryw o goed * thyin
+ [-: [no gloss]] , ac o bob llestr o ‡ ascwrn morfil
+ [-: ‡ Gr. elephantinon .i. ddaint yr elephant] , a' phop llestr o * goed
+ [-: * bren]  gwerthvawrocaf, ac o ‡ bres
+ [-: ‡ elydn] , ac o hayarn, ac o vaen * mynor
+ [-: * marmore] 
+
+</lb>
+<lb n="13">
+13 
+Ac o * sinamon
+ [-: ‡ canel] , ac erogley, ac * ireyd
+ [-: * wylment] , a' ‡ ffrankynsens
+ [-: ‡ thus] , a' gwin, ac * olew
+ [-: * oyl, yyl] , a ‡ chan man
+ [-: ‡ pheillied, fflwr] , a' gwenith, ac * enifeilied
+ [-: * yscrublieit] , a' defeid, a' ‡ chyphyle
+ [-: ‡ meirch] , a' siaredey, a gwasnaethwyr, ac eneidiey dynion.
+
+</lb>
+<lb n="14">
+14 
+(A'r avaley y drachwenychoedd dy eneid ti, ymadawsant a thi, ar holl pethey * breision
+ [-: * tewion] , a gwychion
+ [-: ‡ Gr. lampra .i. claer, dysclaer, rhagorawl]  aethant ffwrdd oddiwrthit, ac ny chey gyhwrdd ac hwynt mwyach)
+
+
+ 
+ </lb>
+<lb n="15">
+15 
+Marsiantwyr y pethey hyn yrrein ymgofoythogasant, y safant ymhell oddiwrthi hi, rrac ofn y phoyn hi, yn wylo ac yn ochein,
+
+</lb>
+<lb n="16">
+16 
+Ac yn dwedyd, * Gwae ni
+
+ [-: * Och, Wban] , gwae ni, y gaer vawr hono, y ddillattawyd mewn llien mein, a' phwrpul, ac ‡ scarlla
+ [-: ‡ scarlat] , a' chwedy goreyro ac aur, a maen gwerthfawr, a pherleu:
+
+</lb>
+<lb n="17">
+17 
+Cans mewn vn awr y cyfoeth * mawr
+ [-: * cymeint]  y ddiffeith‡oedd
+ [-: ‡ -iwyt, aeth yn ddiffaith] . A phob * llonglywydd
+ [-: * perchen-long] , ar holl pobl ysydd yn ‡ occopio
+ [-: ‡ trino]  llongey, ar llongwyr, ar sawl bynac ydynt yn trafaylu ar y mor, y safant ymhell,
+
+</lb>
+<lb n="18">
+18 
+Ac y lefant, pan gwelant mwg y * thanllwyth
+ [-: * chenneu, phoethfa]  hi, dan ddwedyd, Pa'ry gaer oedd debic yr gaer vawr hon?
+
+</lb>
+<lb n="19">
+19 
+Ac hwy vwrant ‡ ddwst
+ [-: ‡ lwch]  ar y penney, ac y lefant dan wylo, ac ochein, a dwedyd, Gwae, gwae, y gaer vawr, yn yr hon y cyvothogwyt oedd a llongey gantynt ar y mor, trwy y chost
+ [-: * Gr. timiotes .i. gwerth, gwerthvawredd]  hi: cans mewn vn awr hi ddiffeithwyd.
+
+</lb>
+<lb n="20">
+20 
+Y nef, llawenha arnei, ar ebostolion santeidd, a'r prophwydi: cans Dyw ‡ y roedd ych barn chwi
+ [-: ‡ a roes, 'sef ych dialodd]  erni.
+
+</lb>
+<lb n="21">
+21 
+Ac yno vn Angel cadarn y * gwnoedd maen
+ [-: * gymerth, gododd vaen
+]  megis maen melin, ac y bwroedd yr mor, dan ddwedyd, Ar vath ‡ rrym
+ [-: ‡ wth, yrr]  
+hyn y bwrir y gaer vawr Babylon, ac ny cheir hi mwyach.
+
+</lb>
+<lb n="22">
+22 
+Ac ny chlywir yno ti mwy lleis telynorion, a' * chantoried
+ [-: * cherdorion
+] , a' phibyddion, a' thrwmpedyddion, ac ny ‡ chyhwrddir ac
+ [-: ‡ cheffir]  vn creftwr, pa grefft bynac vo ynoti mwy, ac ny chlywir ‡ lleis
+ [-: * twrwf, sain]  maen melin ynoti mwy.
+
+</lb>
+<lb n="23">
+23 
+Ac ny welir * 'oleyni
+ [-: ‡ llever, llewych, 'oleuad]  canwyll ynoti mwy: ac
+
+ 
+ ny chlywir lleis priodasvab a phriodasverch ynot i mwy: can ys dy varsiandwyr di oeddent * bendevigion
+ [-: * wyr mawr]  y ddayar: ac ath ‡ cyfareddion
+ [-: ‡ rinie, swynion, sybeldenweith, wiscrefft]  y twyllwyd yr holl nasioney.
+</lb>
+<lb n="24">
+24 
+Ac yndy hi y ‡ gafad
+ [-: ‡ caffat]  
+cywrdd a gwaed y proffwydi, a'r Seint, a phawb ar y las * yn
+ [-: * ar]  y ddayar.
+
+
+</lb>
+        </pb>
+    
+<pb n="19">
+
+
+        <head>
+        Pen. xix.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Roi moliant y Ddew am varnu 'r putein, ac am ddial gwaed ei weision. 10 Ny vynn yr Angel ei addoli. 17 * Galw
+ [-: [no gloss]]  'r ehediait a'r adar ir lladdfa.
+</lb>
+    
+
+<lb n="1">
+1 
+AC yn ol hyn, mi glyweis lleis * ywchel
+ [-: * mawr]  gan dyrfa vawr yny nef, yn dwedyd, Hallelu-iah, iechyd a' gogoniant, ac anrrydedd, a' gallu y vo yr Arglwydd yn Dyw ni.
+
+</lb>
+<lb n="2">
+2 
+Cans cywir a' chyfiawn ydynt y varney ef: cans ef y varnoedd y byttein vawr, yr hon y lygroedd y ddayar ae godineb, ac y ddialoedd gwaed y weison y gollwyd gan y llaw hi.
+
+</lb>
+<lb n="3">
+3 
+Ac eilwaith hwy ddwedasant, Hallelu-iah: ac y mwg hi y ‡ drychafoedd
+ [-: ‡ escennnodd, gododd]  yn dragywydd.
+
+</lb>
+<lb n="4">
+4 
+Ar pedwar ar ygen o henafied, ar pedwar enifel y syrthiasant y lawr, ac addolasant Ddyw, oedd yn eistedd ar yr eisteddle, dan ddwedyd, Amen, Hallelu-iah:
+
+</lb>
+<lb n="5">
+5 
+A' lleis y ddoeth allan o'r eisteddle, yn dwedyd, Molianwch yn Dyw ni, y holl weision, ar rrei ydych yny ofni ef bychein a' mawrion.
+
+</lb>
+<lb n="6">
+6 
+Ac mi glyweis lleis mal tyrfa vawr, a' mal lleis llawer o ddyfroedd, ac mal lleis taraney cedyrn, yn dwedyd, Hallelu-iah: can ys yn Arglwydd Ddyw hollalluawc a deyrnasoedd.
+
+</lb>
+<lb n="7">
+7 
+Gwnawn yn llawen a llawenychwn, a' rroddwn gogoniant yddo ef: achos dyfod priodas yr Oen, ae wreic ef y ymbarattoedd.
+
+</lb>
+<lb n="8">
+8 
+A' chanattay y wneithpwyd yddi, ymwisco a * llien-mein
+ [-: * bysso
+]  
+‡ pur
+ [-: ‡ 'lan] , a' dysclaer: can ys y llien-mein ydiw cyfiawnder y Saint.
+
+</lb>
+<lb n="9">
+9 
+Ac ef y ddwad wrthyf, Escrivenna, Bendigedic ynt y rrei y elwyr y * wledd
+ [-: * swper]  priodas yr Oen. Ac ef y ddwad wrthyf, Y geiriey hyn y Ddyw ydynt gywir.
+
+</lb>
+<lb n="10">
+10 
+Ac mi syrthieis gair bron y draed ef, y addoli ef: ac ef y ddwad wrthyf, * Gwyl
+ [-: ‡ Ymogel, ymochel, gogel]  rrac gwneythur hyny: yr wyfi yn gydwasnaethwr a thi, ac vn oth vrodyr, ysydd gantynt testolaeth y Iesu, addola Ddyw: can ys tustolaeth y Iesu ydiw ysbryd y bryffodolaeth.
+
+</lb>
+<lb n="11">
+11 
+Ac mi weleis y nef yn agored, a' syna march gwyn, ar vn y eisteddoedd arno, y elwid, Fyddlawn a' chowir, ac y mae ef yn barny ac yn ymladd yn gyfiawnder.
+</lb>
+<lb n="12">
+12 
+Ae lygeid ef oeddent mal flam dan, ac ‡ ar
+ [-: ‡ am]  y ben ef oeddent llawer o * goraney
+ [-: * daleithieu] : ac yr ydoedd gantho enw yn escrifenedic, yr hwn ny ‡ adnaby
+ [-: * wyddiat]  neb ond ef y hun.
+
+</lb>
+<lb n="13">
+13 
+Ac ef y ddillattawd a gwisc gwedy * taro
+ [-: ‡ throchi]  mewn gwaed, ae enw ef y elwir GAIR DYW.
+
+
+ 
+ </lb>
+<lb n="14">
+14 
+A'r llyeddwyr oeddent yny nef, y ddilinasont ef ar veirch gwnion, gwedy ymwisco a llien-mein gwyn ‡ glan.
+ [-: ‡ a' phur.] 
+
+</lb>
+<lb n="15">
+15 
+Ac oy eney ef yr aeth allan cleddey llym, y * daro
+ [-: * y ladd]  ac ef, yr ‡ cenedloedd
+ [-: [no gloss]] : can ys ef y rriola hwynt a gwialen hayarn, * ac
+ [-: * cans, o bleit]  ef yw yr hwn y sydd yn sathry y winwasc
+ [-: ‡ pwll gwin y winfa]  
+* ddigofent
+ [-: * cynddaredd] , a' llid Dyw hollalluawc.
+
+</lb>
+<lb n="16">
+16 
+Ac y mae gantho ‡ yn
+ [-: ‡ ar]  y wisc, ac ar y vorddwyd enw escrivenedic, BRENHIN Y BRENHINOEDD, AC ARGLWYDD YR ARGLWYDDI.
+
+</lb>
+<lb n="17">
+17 
+Ac mi weleis Angel yn sefyll yny'r haul, ac yn llefen a lleis ywchel, dan ddwedyd wrth yr holl adar oeddent yn * hedec
+ [-: * hedfan]  trwy ganol y nef, Dowch, ac ymgynyllwch ynghyd at ‡ swper
+ [-: [no gloss]]  y Dyw mawr,
+
+</lb>
+<lb n="18">
+18 
+Mal y galloch vwytta cig Brenhinoedd, a' chig pen captenied, a chig gwyr cedyrn a' chig meirch, ar rrei ydynt yn eiste arnynt, a chig gwyr ryddion a'r ceithon, a' bychein a' mawrion.
+
+
+</lb>
+<lb n="19">
+19 
+Ac mi weleis yr * enifel
+ [-: * bwystvil] , a brenhinoedd y ddayar, ae rryfelwyr gwedy ymgynyll ynghyd y ryfely yny erbyn ef, oedd yn eiste ar y march ac yn erbyn y vilwyr.
+
+</lb>
+<lb n="20">
+20 
+Ond yr ‡ enifel
+ [-: ‡ bestvil]  y ddalwyd, ar proffwyd falst ynghyd ac ef yr hwn y wnaeth gwrthiey gair y vron ef, trwyr rrein y siomoedd ef hwynt y dderbynasant nod ‡ yr enifel
+ [-: ‡ y bestvil] , ar rrei addolasant y ddelw ef, Y ddoy * yma
+ [-: * hyn]  y vwriwd yn vyw yr pwll tan yn llosgi a brymstan.
+
+</lb>
+<lb n="21">
+21 
+A' * relyw
+ [-: * lleill]  y las a chleddey'r vn ys ydd yn eistedd
+
+ 
+ ar y march, yr hwn gleddey 'sy yn dyuot allan oe eney, ar holl adar y lenwid yn llawn oe cic hwy.
+
+
+</lb>
+        </pb>
+    
+<pb n="20">
+
+
+        <head>
+        Pen. xx.
+        </head>
+            
+    
+    <lb n="argument">
+
+2 Bot Satan yn rhwym dros dalm o amser, 7 Ac wedy ei ellwng yn rhydd, yn poeni yr Eccles yn athrwm 10. 14 Ac yn ol hyny barnu'r byd, y vwrw ef a'r ei yddaw ir pwll tan.
+</lb>
+    
+
+<lb n="1">
+1 
+AC mi weleis Angel yn discin or nef, a' chanto * agoriad
+ [-: * allwydd]  y pwll heb waylod, a' chadwyn vawr yny law.
+
+</lb>
+<lb n="2">
+2 
+Ac ef y ddalioedd y ddreic yr hen sarff hono, yr hwn ydiw'r ‡ cythrel
+ [-: ‡ diavol] , a Satan, ac y rrwymoedd ef dros vil o vlynyddoedd,
+
+</lb>
+<lb n="3">
+3 
+Ac y bwrioedd ef yr pwll heb waylod, ac y goarchaeodd ef, ac y seloedd y drws arno, megis na alley siomi'r bobl mwyach, nes cyflewni'r mil o vlynyddey: can ys yn ol hyny rreid yw y ollwng ef dros ychydic o ‡ amser
+ [-: ‡ enbyd] .
+
+</lb>
+<lb n="4">
+4 
+Ac mi weleis eisteddleoedd: ac hwy eisteddasant arnynt, a' barn y rroed yddynt hwy, ac mi welais eneidiey y rrei, y * dorrwyd
+ [-: * las]  y peney am dystolaeth Iesu, ac am eir Dyw, a'r rrei nyd addolasant yr ‡ enifel
+ [-: ‡ bestfil] , nae y ddelw, ac ny chymersont y ‡ nod
+ [-: [no gloss]]  ef ar y talceney, ney ar y dwylaw: ac hwy vyont vyw, ac y deirnasasant gyd a Christ mil o vlunyddey.
+
+</lb>
+<lb n="5">
+5 
+Ond y gweddil or gwyr meirw ny ‡ vyont
+ [-: ‡ 'sef vyddant]  vyw eilweith, nes diweddy y mil vlynyddey: hwn ydiw 'r
+
+ 
+ cyfodiadigeth cyntaf o'r meirw.
+
+</lb>
+<lb n="6">
+6 
+Bendigedic a santeidd ywr vn, ysydd a rran yddo yny cyfodiadigeth cyntaf: can ys nyd oes gan yr eil * myrfolaeth
+ [-: * marwoleth, angeu]  veddiant ar ‡ y cyfryw rei
+ [-: ‡ yr ei hyn] : ond hwy vyddant yn offeirieyd Dyw a' Christ, ac y deirnasant gyd ac ef mil o vlynyddey.
+
+</lb>
+<lb n="7">
+7 
+A' gwedy darfod y mil blynyddey, Satan y ellingyr allan oe garchar,
+
+</lb>
+<lb n="8">
+8 
+Ac ef eiff allan y dwyllaw'r bobl, yrrein ydynt ym hedwar ban y ddayar: nid amgen Gog a' Magog, y gascly hwynt ynghyd y rryfel, rrif y rrein 'sydd mal * tyuod
+ [-: * twad, swnd]  y mor,
+
+</lb>
+<lb n="9">
+9 
+Ac hwy ‡ ddrychafasant
+ [-: ‡ escenasont, aethant y vyny] 
+ y wastad y ddayar, yr rein ymgylchynesont * pebyll
+ [-: * 
+castra .i. cestyll, lluestai]  y Saint, a'r dinas caredic: eithyr tan y ddiscynoedd oddiwrth Ddyw or nef, ac y ‡ llyncoedd
+ [-: ‡ ysodd, bwytaodd, divaodd]  hwynt.
+
+</lb>
+<lb n="10">
+10 
+
+* A'r cythrel
+ [-: * A' diavol]  yr vn y twylloedd hwynt, y vwrwd y bwyll o dan a' brymstan lle poenir ‡ yr enifel
+ [-: ‡ y bestfil] , a'r proffwyd * ffalst
+ [-: * geuoc]  dydd a' nos yn dragowydd.
+
+</lb>
+<lb n="11">
+11 
+Ac mi weleis eisteddle mawr gwyn, ac vn yn eistedd arno, oddiwrth ‡ olwc
+ [-: ‡ wynep, wydd]  yr hwn y * ffoedd
+ [-: * ciloedd]  y ddayar a'r nef, ac ny chafad oe lle hwy mwyach.
+
+</lb>
+<lb n="12">
+12 
+Ac mi weleis y meirw, mawrion a' bychein yn sefyll gair bron Dyw: a'r llyfre agorwyd, a' llyfr arall agorwyd, yr hwn ydiw llyfr y bowyd, a'r meirw y varnwyd wrth y pethey oeddent yn escrivenedic yny llyfre, yn ol y gweithredoed hwynt.
+
+</lb>
+<lb n="13">
+13 
+A'r mor y ‡ vwroedd
+ [-: ‡ roes]  y vynydd y meirw oeddent * yndi
+ [-: * yntho] , ‡ a' myrfolaeth
+ [-: ‡ ac angeu]  ac yffern y rroisont y vynydd y meirw oeddent yndynt hwy: a' barny wneythpwyd ar bawb yn ol y gweithredoedd.
+
+
+ 
+ </lb>
+<lb n="14">
+14 
+
+‡ A' myrfolaeth
+ [-: ‡ Ac angeu]  ac yffern y vwriwd y bwll tan: hwn ydiwr eil * myrfolaeth
+ [-: * angeu] .
+
+</lb>
+<lb n="15">
+15 
+A' phwy bynac ny chafad yn escryvenedic mewn Llyfr y bowyd y vwriwd y bwll y tan.
+
+
+</lb>
+        </pb>
+    
+<pb n="21">
+
+
+        <head>
+        Pen. xxj.
+        </head>
+            
+    
+    <lb n="argument">
+
+3. 24. Gwynvydedic cyflwr yr ei dywiol, 8. 27. A thruan helhynt yr ei andywiol. 11 Agwedd y Gaersalem nefawl, ac am wreic yr Oen.
+</lb>
+    
+
+<lb n="1">
+1 
+AC mi weleis nef newydd, a' dayar newydd: cans y nef cyntaf, ar ddayar cyntaf eithont heybio, ac ni doedd dim moor mwy.
+
+</lb>
+<lb n="2">
+2 
+A' myvi Ioan y weleis y dinas santaidd Caersalem newydd yn discin or nef oddiwrth Ddyw, gwedy y thrwsio mal priodasverch ar vedr y ‡ 
+ [-: ‡ eu, ei, i, hi]  gwr.
+
+</lb>
+<lb n="3">
+3 
+Ac mi glyweis lleis mawr allan or nef, yn dwedyd, Syna, * Tabernacl
+ [-: * lluestyy
+] 
+ Dyw gyda'r dynion, ac ef y dric gydac hwynt, ac hwy y vyddant bobyl yddo ef, a' Dyw y hun, y vydd y Dyw hwy ynghyd ac ynthwy.
+
+</lb>
+<lb n="4">
+4 
+A' Dyw y sych ymaith yr oll ddeigre oddiwrth y llygeid: ac ny bydd dim myrfolaeth mwy, na thristwch, na llefein, ac ny vydd dim poen mwy: cans y pethey cyntaf eithont heybiaw.
+
+</lb>
+<lb n="5">
+5 
+Ar vn y eisteddoedd ar yr eisteddle, y ddwad, Syna, yrwyf yn gwneythur pob peth oe newydd: ac ef y ddwad wrthyfi, Escrifena: can ys y maent y geiriey yma yn ffyddlawn ac yn gywir.
+
+
+ 
+ </lb>
+<lb n="6">
+6 
+Ac ef y ddwad wrthyfi, E ddervy, mi wyf ‡ a ac o
+ [-: ‡ Alpha ac Omega
+] , y dechreyad ar diwedd. Mi rrof yr vn y sydd sychedic, o ffynon dwr y bowyd yn * rrydd
+ [-: * rat] .
+
+</lb>
+<lb n="7">
+7 
+Yr vn y orchfyga, y geiff etifeddy yr holl pethey, ac mi vydda Ddyw yddo ef, ac ynte vydd mab y miney,
+
+</lb>
+<lb n="8">
+8 
+Ond yr ofnoc, ar * anghredadwy
+ [-: * digred, yr ei eb gredu] , ar ‡ casddynion
+ [-: ‡ yr ei sceler] , a'r llyaswyr, ar pyteinwyr, ar ‡ cyfareddwyr
+ [-: ‡ swynwyr, sibyldenwyr] , ar delw-addolwyr, a phob celwddoc y rran hwynt y vydd yny pwll, ysydd yn llosgi o dan a' brymstan, yr hwn ydiwr eil myrfolaeth.
+
+</lb>
+<lb n="9">
+9 
+Ac vn or seith Angel, yrrein oeddent ar seith phiol ganthynt yn llawn or seith pla diwethaf y ddoyth attaf, ac ymddiddanoedd a mi, dan ddwedyd, * Dabre
+ [-: * Dyred, Degle] : mi ddangosaf ytti y priodasverch, gwreic yr Oen.
+
+</lb>
+<lb n="10">
+10 
+Ac ef ym dugoedd i ymaith ynyr ysbryd y ‡ 'lan
+ [-: ‡ vynydd]  ywchel vawr, ac y ddangosoedd y mi y dinas vawr, Caersalem santeidd, yn discin allan or nef oddiwrth Ddyw,
+
+</lb>
+<lb n="11">
+11 
+A' gogoniant Dyw genthi, ae discleyrad hi oedd debic y vaen gwerthvawrysaf, megis maen Iaspar * eglaer mal crystal
+ [-: * crystallizanti
+] ,
+
+</lb>
+<lb n="12">
+12 
+Ac yrydoedd yddi ‡ vagwyr
+ [-: ‡ gaer, vur]  vawr ywchel, a' doyddec porth iddi ac wrth y pyrth doyddec Angel, ac enwey yn escrivenedic, yrrein ydynt doyddec llwyth ‡ meybion
+ [-: ‡ plant]  
+yr Israel.
+
+</lb>
+<lb n="13">
+13 
+Ar barth y Dwyrein yr oedd tri phorth, ac ar du y Gogledd tri phorth, ac ar tu y Dehey tri phorth, ac ar y tu Gorllewyn tri phorth.
+
+</lb>
+<lb n="14">
+14 
+A' * magwyr
+ [-: * Llat. murus .i. mur, gwal]  y dinas oedd a doyddec ‡ gryndwal
+ [-: ‡ sail]  yddi, ac yndynt hwy enwey y doyddec ebostolion yr Oen.
+
+</lb>
+<lb n="15">
+15 
+Ac yrydoedd gan yr vn y ymddiddanoedd a mi, corsen aur y vessyr y dinas, ae phyrth hi, ae magwyr hi.
+
+</lb>
+<lb n="16">
+16 
+A'r dinas y osodwyd yn bedwar ‡ ochrog
+ [-: [no gloss]] , ae * hud
+ [-: * hyd]  oedd cymeint ae lled, ac ef y vessyroedd y dinas ar corsen, doyddec mil ‡ ystod
+ [-: [no gloss]] : ae hud, ae lled, ae hywchter 'sy yn ‡ 'ogymeint
+ [-: ‡ gogymetrol] .
+
+</lb>
+<lb n="17">
+17 
+Ac ef y vesyroedd y magwyr hi, * pedwar cubyt a seith igein
+ [-: * cant a' .44. cuvydd] , wrth vessyr dun, * yr hwn yw
+ [-: * ys ef] , mesur yr Angel.
+
+</lb>
+<lb n="18">
+18 
+Ac adeil y magwyr hi oedd o vaen Iaspar, a'r dinas oedd aur pur, yn debic y wydyr gloyw.
+
+</lb>
+<lb n="19">
+19 
+A' gryndwal magwyr y dinas oedd gwedy y thrwsio a' phob rryw vaen gwerthfawr: y gryndwal cynta oedd maen Iaspar: yr eil o Saphir, y trydydd oedd o vaen Chalcedon: y pedwerydd Smaragdus,
+
+</lb>
+<lb n="20">
+20 
+Y pymed Sardonix: y chweched Sardius: y seithfet Chrysolithus: yr wythfed Beryl: y nawfed Topazius: y decfed Chrysoprasus: yr vnfed ar ddec Hiacinthus: y doyddecfed, Amethystus.
+
+</lb>
+<lb n="21">
+21 
+Ar doyddec porth doyddec perl oeddent, a' phob porth 'sydd o vn perl, a' heol y dinas 'sy aur pur, mal gwydyr disgleyredd.
+
+</lb>
+<lb n="22">
+22 
+Ac ny weleis i vn demel yndi: cans yr Arglwydd Ddyw hollallvawc a'r Oen, * yw
+ [-: * est
+]  y themel hi.
+
+</lb>
+<lb n="23">
+23 
+Ac nyd rreid yr dinas wrth yr hayl, na'r lleyad y ‡ 'oleyo
+ [-: ‡ lewychy, dywynu]  yndi: cans gogoniant Dyw y goleyoedd hi, a'r Oen yw y goleyni hi.
+
+</lb>
+<lb n="24">
+24 
+A'r bobyl cadwedic, y rrodiant yny goleyni hi:
+
+ 
+ a' Brenhinoedd y ddayar y ddugant y gogoniant, ae anrrydedd yddi hi,
+
+</lb>
+<lb n="25">
+25 
+Ac ny chayer y phyrth hi can * trwyr
+ [-: * ar hyd]  dydd: ny vydd ddim nos yno.
+
+</lb>
+<lb n="26">
+26 
+A' gogoniant, ac anrrydedd, y Cenedloedd a dducir yddi.
+
+</lb>
+<lb n="27">
+27 
+Ac nyd a y mewn yddi dim aflan, neu beth bynac y weythio * casineb
+ [-: * ffieiddbeth] , ney gelwddey, ond y rei y escrifenwyt ‡ mewn
+ [-: ‡ yn]  Llyfr bowyd yr Oen.
+
+
+</lb>
+        </pb>
+    
+<pb n="22">
+
+
+        <head>
+        Pen. xxij.
+        </head>
+            
+    
+    <lb n="argument">
+
+1 Auon dwfr y bywyt. 2 Frwythlawndep a goleuni dinas Dew. 6 Yr Arglwydd byth yn rhybyddio ei weision am betheu y ddyvot. 9 Yr Angel eb vynu ei addoli. 18 Gair Dew nyd iawn angwanegu dim arno na lleihau dim o hanaw.
+</lb>
+    
+
+<lb n="1">
+1 
+AC ef y ddangosoedd y mi afon pur o dwr y bowyd yn dysclaero mal y crystal, yn dyfod allan o eisteddle Dyw, a'r Oen.
+
+</lb>
+<lb n="2">
+2 
+Ynghanol y heol hi ac o ‡ ddwy ochor
+ [-: ‡ bop-parth]  yr afon, yrydoedd pren y bowyd, yr hwn oedd yn dwyn doyddec rriw ffrwythey, ac y rroedd ffrwyth pob mis, a' deil y pren a wasanethei y iachay y nasioney.
+
+</lb>
+<lb n="3">
+3 
+Ac ny vydd dim * rrec
+ [-: * melltith]  mwy, ond eisteddle Dyw a'r Oen y vydd yndi, ae wasnaethdynion y wasnaethant arno ef.
+
+
+ 
+ </lb>
+<lb n="4">
+4 
+Ac hwy y welant y weyneb ef, ae Enw ef y vydd yny talceni hwynt.
+
+</lb>
+<lb n="5">
+5 
+Ac ny vydd yno dim nos mwy, ac nyd rreid yddynt dim canwyll, na goleyad yr haul: can ys yr Arglwydd Ddyw ysydd yn rroi yddynt goleyni, ac hwy y deirnasant yn dragywydd.
+
+</lb>
+<lb n="6">
+6 
+Ac ef y ddwad wrthyfi, Y geiriey hyn ydynt ffyddlawn a' chywir, ‡ ar
+ [-: * a'r]  Arglwydd Ddyw y proffwydi sanctaidd y ddanfonoedd y Angel y ddangos yddy wasnaethwyr y pethey ysydd reid y gyflewni ar * vrys
+ [-: ‡ vyr, yn vyan] .
+
+</lb>
+<lb n="7">
+7 
+Syna, yr wyf yn dyfod ar vrys, * Bendigedic
+ [-: * Gwynvydedic, dedwydd]  yw'r vn y gatwo geiriey proffedolaeth y Llyfr ‡ yma
+ [-: ‡ hwn] .
+
+</lb>
+<lb n="8">
+8 
+Ac mi wyf Ioan, yr hwn y weleis, ac y glyweis y pethey hyn: a' phan ddarfoedd ymi y clywed ae gweled, mi syrthies y lawr y addoli gair bron traed yr Angel, yr hwn y ddangosoedd ymi y pethey hyn.
+
+</lb>
+<lb n="9">
+9 
+Ac ef y ddwad wrthyfi, Gwyl na wnelych: cans cydwasnaethwr yrwyfi a thi, ath vrodyr y Proffwydi, ar rrei ydynt yn cadw geiriey y Llyfr hwn: addola Ddyw.
+</lb>
+<lb n="10">
+10 
+Ac ef y ddwad wrthyfi, Na sela geiriey pryffodolaeth y Llyfr hwn: can ys y mae'r amser yn agos.
+
+</lb>
+<lb n="11">
+11 
+Yr vn ysydd anghyfiawn, bid anghyfiawn ‡ eto
+ [-: * yn oystat] : ar vn y sydd * vudr
+ [-: [no gloss]] , bid ‡ vudr
+ [-: [no gloss]]  etto: ar vn ysydd cyfiawn, bid cyfiawn etto: ar vn ysydd santeidd, bid sainteidd etto.
+
+</lb>
+<lb n="12">
+12 
+A' syna, yrwyf yn dyfod ar vrys, am gobrwy y
+
+ 
+ sydd
+ gyd a mi, y rroddi y bob * duyn
+ [-: * vn]  yn ol y ‡ vutho
+ [-: ‡ bo]  y weithredoedd.
+
+</lb>
+<lb n="13">
+13 
+Mi wyf a ac o, y dechreyad ar diwedd, y cyntaf ac dywethaf.
+
+</lb>
+<lb n="14">
+14 
+Bendigedic yw y rrei, y wnelo y 'orchmyney ef, mal y gallo y cyfiawnder hwy vod ymhren y bowyd, ac y gallont ddyfod y mewn trwyr pyrth * yr
+ [-: * ir]  dinas.
+
+</lb>
+<lb n="15">
+15 
+Can ys or ty allan y bydd cwn, ar ‡ cyfareddwyr
+ [-: ‡ swynwyr, swynogiwyr, rhinwyr]  a' phytteinwyr, a llyaswyr, a' delw-addolwyr, a phob vn y garo ney y wnelo celwydd.
+
+</lb>
+<lb n="16">
+16 
+Myvi Iesu y ddanvones vu Angel, y dystolaethu y chwi y pethey hyn yn yr eglwysi: mi wyf gwreiddyn a' chenedlaeth Ddavydd, ar seren vore eglur.
+
+</lb>
+<lb n="17">
+17 
+Ar ysbrud ar priodasverch ydynt yn dwedyd, Dabre, A'r vn y wrandawo, dweded, Dabre: A'r vn ysydd sychedic, doed: a'r vn y vyno, cymered dwr y bowyd, yn * rrydd
+ [-: * rrat] .
+
+</lb>
+<lb n="18">
+18 
+Can ys yrwyf yn ‡ dangos
+ [-: ‡ cytystio]  y bob vn y wrandawo geiriey pryffodolaeth y Llyfr hwn, o * dyd
+ [-: * angwanega]  
+* vn duyn
+
+ [-: ‡ neb]  ddim at y pethey hyn, Dyw y ddyd atto ef y plae, escrifenedic yny Llyfr hwn.
+
+</lb>
+<lb n="19">
+19 
+Ac o thyn vn duyn ymaith ddim o 'eiriey'r Llyfr y proffedolaeth hon, Dyw y gymer ymaith y rran allan o lyfr y bowyd, ac allan or dinas santeidd, ac oddiwrth y pethey y escrifenir yn y Llyfr hwn,
+
+</lb>
+<lb n="20">
+20 
+Yr vn y sydd yn tystolaethu y pethey hyn, ysydd yn dwedyd, Yn siccir, yrwyf yn dyfod ar vrys. Amen. Velly dabre, Arglwydd Iesu.
+
+</lb>
+<lb n="21">
+21 
+Rrad eyn hArglwydd Iesu Grist y vo gyd a chwi oll, Amen.
+
+
+
+
+    
+    </lb>
+    </pb>
+</text>

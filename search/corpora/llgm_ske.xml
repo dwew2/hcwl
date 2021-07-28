@@ -1,0 +1,5061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../sketchengine.dtd" [
+<!ENTITY % Conc SYSTEM "../dtds/conc.ent">
+<!-- %Conc; -->
+<!ENTITY % TEI.extensions.ent SYSTEM "../dtds/hcwl.ent">
+%TEI.extensions.ent;
+<!ENTITY % TEI.extensions.dtd SYSTEM "../dtds/hcwl.dtd">
+%TEI.extensions.dtd;
+<!ENTITY % TEI.prose 'INCLUDE'>
+<!ENTITY % TEI.linking 'INCLUDE'>
+<!ENTITY % TEI.figures 'INCLUDE'>
+<!ENTITY % TEI.analysis 'INCLUDE'>
+<!ENTITY % TEI.XML 'INCLUDE'>
+<!ENTITY % ISOlat1 SYSTEM "../dtds/iso-lat1.ent">
+%ISOlat1;
+<!ENTITY % ISOlat2 SYSTEM "../dtds/iso-lat2.ent">
+%ISOlat2;
+<!ENTITY % ISOnum SYSTEM "../dtds/iso-num.ent">
+%ISOnum;
+<!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
+%ISOpub;
+]>
+
+
+ <text id="Cardiff6">
+     
+
+    
+
+     <text id="Cardiff6_GK">
+        <pb n="">
+        
+        
+
+
+
+    <lb n="td. 77.pen">y prolog ne flaenddwydiad
+    </lb>
+
+
+
+
+    <lb n="1">Vy ngwir anwyl gredigion [~ garedigion]</lb>
+
+
+    <lb n="2">o chychwi sy bobol ffyddlon</lb>
+
+
+    <lb n="3">ydolwg byddwch fodlon</lb>
+
+
+    <lb n="4">i 'r geirie a 'r madroddion [~ ymadroddion]</lb>
+
+
+    <lb n="5">na fyddwch i mor atgas</lb>
+
+
+    <lb n="6">a 'i kymrvd nhw yn ddiflas</lb>
+
+
+    <lb n="7">o eisie wllvs a thvedd</lb>
+
+
+    <lb n="8">i wrando ar wirionedd</lb>
+
+
+    <lb n="9">kewchi glowed travthv tro</lb>
+
+
+    <lb n="10">dowch yn vfvdd i wrando</lb>
+
+
+    <lb n="11">na fyddwch i ry wamal</lb>
+
+
+    <lb n="12">gwrandewch yn ddistaw ddyfal</lb>
+
+
+    <lb n="13">yscowch [~ osgowch] oddiwrth bob aflwydd</lb>
+
+
+    <lb n="14">nid ta [~ da] gormod gwamalrwydd</lb>
+
+
+    <lb n="15">na farned neb ar y llall</lb>
+
+
+    <lb n="16">o bydd o 'i ben ddysc a deall</lb>
+
+
+    <lb n="17">doyded o 'i frawd i feie</lb>
+
+
+    <lb n="18">a chynghored yr hyn gore</lb>
+
+
+    <lb n="19">ni fynwn amlesio neb</lb>
+
+
+    <lb n="20">na doydvd dim gwrthwyneb</lb>
+
+
+    <lb n="21">ond i 'ch lles a 'ch daioni</lb>
+
+
+    <lb n="22">ni chynhalia gwrteisi</lb>
+
+
+    <lb n="23">byddwch bvr yn ych klone [~ calonnau]</lb>
+
+
+    <lb n="24">a llednais heb fawr eirie</lb>
+
+
+    <lb n="25">yn gwrtais ych arfere</lb>
+
+
+    <lb n="26">a distaw ych tafode</lb>
+
+
+    <lb n="27">doetho a ddwyto leia</lb>
+
+
+    <lb n="28">ag a gelo 'r hyn gwaetha</lb>
+
+
+    <lb n="29">o hyny ynill fwy klod</lb>
+
+
+    <lb n="30">a mwy kariad  trwy orfod</lb>
+
+
+    <lb n="31">nid ydiw gair svr ond gwynt</lb>
+
+
+    <lb n="32">mae fo allan o helynt</lb>
+
+
+    <lb n="33">yn kythrvddo y gwirion</lb>
+
+
+    <lb n="34">nid ta [~ da] mo 'r tafod krevlon</lb>
+
+
+    <lb n="35">gwyn i fyd a fetro diodde</lb>
+
+
+    <lb n="36">yfo ynill y chware</lb>
+
+
+    <lb n="37">fal dioddefodd krist iesv</lb>
+
+
+    <lb n="38">ymhob peth yfo orfv</lb>
+
+
+    <lb n="39">rrowch i ffordd bob gwlldineb</lb>
+
+
+    <lb n="40">ymgroeswch rrag gwrthwyneb</lb>
+
+
+    <lb n="41">na ddeliwch i grevlondeb</lb>
+
+
+    <lb n="42">duw a roddo ini rwydddeb</lb>
+
+
+    <lb n="43">dangosa o 'm meddwl beth</lb>
+
+
+    <lb n="44">hyd rrydd duw vm ysbrydolieth</lb>
+
+
+    <lb n="45">drwy dwytsio y kwthogion [~ cyfoethogion]</lb>
+
+
+    <lb n="46">y kedyrn a 'r gwyr gwchion</lb>
+
+
+    <lb n="47">sy 'n rroi i goglvd tra ffol</lb>
+
+
+    <lb n="48">ar goweth a da bydol</lb>
+
+
+    <lb n="49">yn ysclyso [~ esgeuluso] y nefol</lb>
+
+
+    <lb n="50">a 'r llywenydd tragwddol</lb>
+
+
+    <lb n="51">rraga beth ar y ffeiriaid</lb>
+
+
+    <lb n="52">am na helpen y gweiniaid</lb>
+
+
+
+    <lb n="53">haera i bod yn fydol</lb>
+
+
+    <lb n="54">gwyn i fyd a fo duwiol</lb>
+
+
+    <lb n="55">nid oes yma ond enyd</lb>
+
+
+    <lb n="56">pei kaem gwbwl o 'n gwnfyd</lb>
+
+
+    <lb n="57">mae 'r gwych yn bragio i goweth</lb>
+
+
+    <lb n="58">yn ol rryw i natvrieth</lb>
+
+
+    <lb n="59">yn kanmol i feistr y byd</lb>
+
+
+    <lb n="60">yr hwn ydiw i wnfyd</lb>
+
+
+    <lb n="61">yr yffeiriad yn pregethv</lb>
+
+
+    <lb n="62">ag arno fyth yn ragv</lb>
+
+
+    <lb n="63">ymhob pwynt o 'i wrthnebv</lb>
+
+
+    <lb n="64">a hyn nid ydiw garv</lb>
+
+
+    <lb n="65">yn keisio i droi i 'r ffydd</lb>
+
+
+    <lb n="66">i difeirwch [~ edifeirwch] tragowydd</lb>
+
+
+    <lb n="67">ynte heb wrando arno</lb>
+
+
+    <lb n="68">ar i bregeth yn blino</lb>
+
+
+    <lb n="69">oni ddoeth ange yn hy</lb>
+
+
+    <lb n="70">ato i draed i wely</lb>
+
+
+    <lb n="71">kydnabod yno yn drwch</lb>
+
+
+    <lb n="72">a chrio ydifeirwch [~ edifeirwch]</lb>
+
+
+    <lb n="73">galw ar dduw am faddevant</lb>
+
+
+    <lb n="74">am gybydddra a thrachwant</lb>
+
+
+    <lb n="75">gweled fod pawb o 'i sclvso [~ esgeuluso]</lb>
+
+
+    <lb n="76">a 'r byd yn i roi heibio</lb>
+
+
+    <lb n="77">yn oed i wraig a 'i holl blant</lb>
+
+
+    <lb n="78">i genedl a 'i ddigoniant</lb>
+
+
+    <lb n="79">fy nghariadvs gymdeithion</lb>
+
+
+    <lb n="80">er mwyn duw byddwch gyson</lb>
+
+
+    <lb n="81">n' edwch i 'ch klonav [~ calonnau] gangkrio</lb>
+
+
+    <lb n="82">ond yn eglyr ddiscleirio</lb>
+
+
+    <lb n="83">sefwch meawn kariad perffaith</lb>
+
+
+    <lb n="84">kryfhewch meawn ffydd a gobaith</lb>
+
+
+    <lb n="85">gellwch yma ddyscv marw</lb>
+
+
+    <lb n="86">erbyn deler i 'ch galw</lb>
+
+
+    <lb n="87">trwy bvr ffydd yngrist iesv</lb>
+
+
+    <lb n="88">daw ange i 'ch dychrynv</lb>
+
+
+
+
+
+    <lb n="89">Ymdyrasom yma i 'r vnlle</lb>
+
+
+    <lb n="90">ar feder datgan chware</lb>
+
+
+    <lb n="91">ydolwg i chwi hawyr</lb>
+
+
+    <lb n="92">ysy yma wrandawyr</lb>
+
+
+    <lb n="93">gael ych ffafr a 'ch wllvs da</lb>
+
+
+    <lb n="94">dyma 'r enterlvwt gynta</lb>
+
+
+    <lb n="95">am bob peth a 'r a ddoytwy</lb>
+
+
+    <lb n="96">i gymrvd yn ddyfadwy</lb>
+
+
+    <lb n="97">na fwriwch arna far</lb>
+
+
+    <lb n="98">ond gwrandewch yn wllyscar</lb>
+
+
+    <lb n="99">i mae 'n esmwyth gwaith gwrando</lb>
+
+
+    <lb n="100">nid rraid i neb mo 'r digio</lb>
+
+
+    <lb n="101">er fy mod yn twytsio peth</lb>
+
+
+    <lb n="102">ar y byd a 'i natvrieth</lb>
+
+
+
+
+
+
+
+
+    <lb n="td. 59">
+Y datganwyr
+yr yffeiriad / ne 'r pregethwr
+i was / y gwr kadarn g....
+mwndws /. i wraig ef . gwsnaythwr
+y gwr kadarn
+
+    </lb>
+
+
+
+    <lb n="td. 59.siaradwr">yr ffeiriad
+        </lb>
+
+
+
+    <lb n="103">Pwy ydiw 'r gwr draw gwych</lb>
+
+
+    <lb n="104">mae 'r merched arno 'n edrych</lb>
+
+
+    <lb n="105">sy yn gwisco ffwr bevnvdd</lb>
+
+
+    <lb n="106">brethyn ffein melfed newydd</lb>
+
+
+    <lb n="107">kadwen [~ cadwyn] avr a modrwye</lb>
+
+
+    <lb n="108">nid arno ond chware</lb>
+
+
+    <lb n="109">a 'i wyr ffrolig ar i ol</lb>
+
+
+    <lb n="110">y llyna rrwygo heol</lb>
+
+
+
+
+
+
+    <lb n="td. 59.siaradwr">y gwas
+        </lb>
+
+
+    <lb n="111">Gwr yw a ddoeth o loeger</lb>
+
+
+    <lb n="112">fo wyr i bedwar chwarter</lb>
+
+
+    <lb n="113">a 'r kort i bv 'n ymarfer</lb>
+
+
+    <lb n="114">fo wyddis ar i faner</lb>
+
+
+
+
+
+
+    <lb n="td. 59.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="115">Awn oddima hyd ato</lb>
+
+
+    <lb n="116">pei medrwm [~ medrwn] gyfarch iddo</lb>
+
+
+    <lb n="117">o 'i groesafv i 'r wlad</lb>
+
+
+    <lb n="118">ag i wrando ar i siarad</lb>
+
+
+
+
+
+
+    <lb n="td. 59.siaradwr">y gwas
+        </lb>
+
+
+    <lb n="119">ni wddosti [~ wyddost ti] mo 'i arfer</lb>
+
+
+    <lb n="120">mae 'n ffiwmvs llawn o falchder</lb>
+
+
+    <lb n="121">kymer gyngor gwyl dy barch</lb>
+
+
+    <lb n="122">na ddos ato i gyfarch</lb>
+
+
+    <lb n="123">mae 'n ddigon diystyr gantho</lb>
+
+
+    <lb n="124">dydi n wir a 'th holl groeso</lb>
+
+
+
+
+
+
+    <lb n="td. 59.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="125">ni na [~ wnaf] ar hyn mo 'th gyngor</lb>
+
+
+    <lb n="126">mae geny synwyr ragor</lb>
+
+
+    <lb n="127">nid ydiw 'r gwr mor gry wych</lb>
+
+
+    <lb n="128">ag i mae ef yn edrych</lb>
+
+
+
+    <lb n="129">dy  ar ddalld ichwi wyr</lb>
+
+
+    <lb n="130">nad ydiw 'r byd ond antvr</lb>
+
+
+
+
+
+
+    <lb n="td. 60.siaradwr">y gwas
+        </lb>
+
+
+    <lb n="131">wel kymer a ddel atat</lb>
+
+
+    <lb n="132">nid rraid mo 'r brys i ddrwg farchnad</lb>
+
+
+    <lb n="133">nid ta [~ da] ar saint mo 'r kellwer</lb>
+
+
+    <lb n="134">ni chymran ddim yn ofer</lb>
+
+
+
+
+
+
+    <lb n="td. 60.siaradwr">yr yffeiriad
+        </lb>
+
+
+    <lb n="135">Drwy 'ch kenad y meistr gwych</lb>
+
+
+    <lb n="136">mae 'n groeso yma wrthych</lb>
+
+
+    <lb n="137">a llawen gan fy nghalon</lb>
+
+
+    <lb n="138">gael klowed ych madroddion [~ ymadroddion]</lb>
+
+
+    <lb n="139">i gael vm ddysc o newydd</lb>
+
+
+    <lb n="140">ymhob pen i mae menydd [~ ymennydd]</lb>
+
+
+    <lb n="141">ag ar hyny rro ichi 'r gwinn</lb>
+
+
+    <lb n="142">er anhowsed ych meithrin</lb>
+
+
+
+
+
+
+    <lb n="td. 60.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="143">gyrmarsi vt y kydymaith</lb>
+
+
+    <lb n="144">dros dy lendid yr vnwaith</lb>
+
+
+    <lb n="145">am dy win mi a 'i kymra</lb>
+
+
+    <lb n="146">nid ydwyd ti ond iown dda</lb>
+
+
+
+
+
+
+    <lb n="td. 60.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="147">ni byddem waeth rwy 'n tybio</lb>
+
+
+    <lb n="148">nyni ylldav er y mendio</lb>
+
+
+    <lb n="149">maneg vmv nid ofer</lb>
+
+
+    <lb n="150">thelw [~ pa ddelw] gelwyr dy feister</lb>
+
+
+    <lb n="151">para liw siar i lifre</lb>
+
+
+    <lb n="152">mae 'n rraid i gynen ddechre</lb>
+
+
+
+
+
+
+    <lb n="td. 60.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="153">mastr mwndws pawb a 'i alw</lb>
+
+
+    <lb n="154">mae 'n ddigon teg i henw</lb>
+
+
+    <lb n="155">a 'i wsnaythv mawr yw 'r elw</lb>
+
+
+    <lb n="156">ag o 'i fodd ni bydd o marw</lb>
+
+
+    <lb n="157">i lifrei o symvd liw</lb>
+
+
+    <lb n="158">gwcha seked sy heddiw</lb>
+
+
+
+
+
+
+
+
+    <lb n="td. 61.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="159">gweddvs iddo liw 'r lifre</lb>
+
+
+    <lb n="160">ansafadwy fal ynte</lb>
+
+
+    <lb n="161">nid abal neb er arfer</lb>
+
+
+    <lb n="162">a dichell ddal y lopster</lb>
+
+
+    <lb n="163">twyllodrvs yw dy feister</lb>
+
+
+    <lb n="164">ag anwadal bob amser</lb>
+
+
+    <lb n="165">gwae a roe arno i bwys</lb>
+
+
+    <lb n="166">ag a wrthode baradwys</lb>
+
+
+
+
+
+
+    <lb n="td. 61.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="167">nid ydwyd ond athrodwr</lb>
+
+
+    <lb n="168">fy mestr yw fy swkwr</lb>
+
+
+    <lb n="169">fy mwkled i a 'm kyscod</lb>
+
+
+    <lb n="170">i wnevthvr kam a 'i wrthod</lb>
+
+
+    <lb n="171">doethvm ato yn dra noeth</lb>
+
+
+    <lb n="172">yn fab pychan [~ bychan] trvan llednoeth</lb>
+
+
+    <lb n="173">heb vn ede amdana</lb>
+
+
+    <lb n="174">wrthvti i kyffesa</lb>
+
+
+    <lb n="175">ag yr owran rwyf y llyn</lb>
+
+
+    <lb n="176">iddo i diolcha fy ffortvn</lb>
+
+
+    <lb n="177">yn gwisco melfed sidan</lb>
+
+
+    <lb n="178">gwnaed pawb imi i hamkan</lb>
+
+
+    <lb n="179">ar fy holl genedl yma 'n ben</lb>
+
+
+    <lb n="180">ag ni chymrir fi amgen</lb>
+
+
+    <lb n="181">i rwy yn ddigon drythyll</lb>
+
+
+    <lb n="182">gwilied pawb ar i gewill [~ gewyll]</lb>
+
+
+    <lb n="183">ni wn i beth yw eisie</lb>
+
+
+    <lb n="184">am hyny rwy yn *chware</lb>
+
+
+    <lb n="185">kefais gantho orchafieth</lb>
+
+
+    <lb n="186">digon o avr a choweth</lb>
+
+
+    <lb n="187">mae 'm bryd ine i ddilid</lb>
+
+
+    <lb n="188">heb geisio mo 'i gyfnewid</lb>
+
+
+
+
+
+
+    <lb n="td. 61.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="189">er maint dy goel di arno</lb>
+
+
+    <lb n="190">fo fydd tebig a 'th dwyllo</lb>
+
+
+    <lb n="191">a rroir koweth i arall</lb>
+
+
+    <lb n="192">rwyd yn hir heb i ddeall</lb>
+
+
+    <lb n="193">a 'th ollwng di oddiwrtho</lb>
+
+
+    <lb n="194">megis i doethosti ato</lb>
+
+
+
+
+
+
+
+
+    <lb n="td. 62.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="195">na bych di hapvs dafod</lb>
+
+
+    <lb n="196">am ddyrogan [~ ddarogan] drwg i ddowod</lb>
+
+
+    <lb n="197">yty hvn del dy frevddwyd</lb>
+
+
+    <lb n="198">nid ydwyd ond ffals broffwyd</lb>
+
+
+    <lb n="199">nid klayar vm dy siarad</lb>
+
+
+    <lb n="200">dy menydd [~ ymennydd] nid yw astad [~ wastad]</lb>
+
+
+    <lb n="201">kasa dyn yn y farchnad</lb>
+
+
+    <lb n="202">ydiw geny yffeiriad [~ offeiriad]</lb>
+
+
+    <lb n="203">ni alla mwy mo 'th aros</lb>
+
+
+    <lb n="204">fo las kant yn llai achos</lb>
+
+
+
+
+
+
+    <lb n="td. 62.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="205">y ddihareb ysy eirwir</lb>
+
+
+    <lb n="206">pen rros pawb lle ni cherir</lb>
+
+
+    <lb n="207">kas gen ffol ddysc a chyngor</lb>
+
+
+    <lb n="208">rraid i ynfvd gael i ragor</lb>
+
+
+    <lb n="209">a ddoeto gwir yn rrowiog</lb>
+
+
+    <lb n="210">knawd [~ gnawd] iddo gael pen drylliog</lb>
+
+
+    <lb n="211">fal i mae 'n eglvras [~ egluraf] son</lb>
+
+
+    <lb n="212">siampal vnn o 'r bostolion [~ apostolion]</lb>
+
+
+    <lb n="213">mae 'n rraid iti gonsidrio</lb>
+
+
+    <lb n="214">a hyn mi a safa wrtho</lb>
+
+
+    <lb n="215">na elli di mo 'r hyder</lb>
+
+
+    <lb n="216">chwith tra mawr ar dy feister</lb>
+
+
+    <lb n="217">sef nid ydiw ond ffalswr</lb>
+
+
+    <lb n="218">a thebid [~ thebyg] iawn i baentiwr</lb>
+
+
+    <lb n="219">ag nid wyt tithe ond ffol</lb>
+
+
+    <lb n="220">am wsnevthv yr hvdol</lb>
+
+
+    <lb n="221">yniwedd [~ yn niwedd] pob peth barnv</lb>
+
+
+    <lb n="222">kyffelib fydd a 'th wadv</lb>
+
+
+    <lb n="223">mwya gobrwy vt a thal</lb>
+
+
+    <lb n="224">ni chysci nos ddiofal</lb>
+
+
+    <lb n="225">ond ty [~ dy] svddo meawn bydding [~ byddin]</lb>
+
+
+    <lb n="226">o drafferth fawr a heldring [~ heldrin]</lb>
+
+
+    <lb n="227">pob ydeilad [~ adeilad] sy serfvll</lb>
+
+
+    <lb n="228">a wnelir yn y towyll</lb>
+
+
+    <lb n="229">o dduw dduw nid wyti ddyn</lb>
+
+
+    <lb n="230">am wsnavthv dy elyn</lb>
+
+
+
+
+
+
+
+
+    <lb n="td. 63.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="231">fel gelyn i kymra i di</lb>
+
+
+    <lb n="232">os wrthi felly i doydi</lb>
+
+
+    <lb n="233">ni havdda arna amgen</lb>
+
+
+    <lb n="234">ond kael tori dy dalken</lb>
+
+
+    <lb n="235">a 'th nevthvr [~ wneuthur] di yn siampel</lb>
+
+
+    <lb n="236">pyt fae [~ pedfai]&nbsp;heb fwy 'r gost na 'r drafel</lb>
+
+
+    <lb n="237">mi a nefais [~ anefais] i rwy 'n ffywmio [~ ffiwmio]</lb>
+
+
+    <lb n="238">lawer dyn yn llai o gyffro</lb>
+
+
+
+
+
+
+    <lb n="td. 63.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="239">ymgroes di ag na lafvr</lb>
+
+
+    <lb n="240">a chosba dy ddrwg natvr</lb>
+
+
+    <lb n="241">nag arfer a chrevloni</lb>
+
+
+    <lb n="242">mae iti beth o 'i golli</lb>
+
+
+    <lb n="243">na ddod dy ddawn dros ddireidi</lb>
+
+
+    <lb n="244">gwen [~ gwyn] i fyd a ffetron gosbi</lb>
+
+
+    <lb n="245">os dy dda gymri 'n dduw</lb>
+
+
+    <lb n="246">bydd y difa kai ymliw</lb>
+
+
+
+
+
+
+    <lb n="td. 63.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="247">tra feddwy avr a thrysor</lb>
+
+
+    <lb n="248">nid rraid vm wrth dy gyngor</lb>
+
+
+    <lb n="249">medda ddeg o hafodvdd</lb>
+
+
+    <lb n="250">i rydwy a 'r dda 'n ddedwydd</lb>
+
+
+    <lb n="251">ag ynddvn fil o wartheg</lb>
+
+
+    <lb n="252">ie pe dwydwn achwaneg</lb>
+
+
+    <lb n="253">ni wn pwy miawn [~ mewn] pwy allan</lb>
+
+
+    <lb n="254">mae geny avr ag arian</lb>
+
+
+    <lb n="255">ag o ddefaid aneiri</lb>
+
+
+    <lb n="256">ni wyr neb mo 'i rrifedi</lb>
+
+
+    <lb n="257">a hobiod gwnion mawr</lb>
+
+
+    <lb n="258">llestri arian a thrysawr</lb>
+
+
+    <lb n="259">a da 'r byd mwy na digon</lb>
+
+
+    <lb n="260">wrth fodd wllvs fy nghalon</lb>
+
+
+
+
+
+
+    <lb n="td. 63.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="261">taw a 'th wagffrost rrwysc rryddid</lb>
+
+
+    <lb n="262">nid yw koweth ond benthig</lb>
+
+
+    <lb n="263">mae fo 'n eiddoti heddiw</lb>
+
+
+    <lb n="264">nid hwyrach i kai ymliw</lb>
+
+
+
+    <lb n="265">yforv 'n eiddo arall</lb>
+
+
+    <lb n="266">nid ydwyti ond angall</lb>
+
+
+    <lb n="267">krist a 'i galwodd ef yn ddrain</lb>
+
+
+    <lb n="268">nid rraid vt ormod koelfain</lb>
+
+
+    <lb n="269">nid oes llonyddwch meddwl</lb>
+
+
+    <lb n="270">lle mae koweth ond trwbwl</lb>
+
+
+    <lb n="271">gida gofal a thristwch</lb>
+
+
+    <lb n="272">o 'r tv miawn [~ mewn] heb gael heddwch</lb>
+
+
+    <lb n="273">gan gvr a thrafferth y byd</lb>
+
+
+    <lb n="274">ni chwsc kwaethog [~ cyfoethog] hvn hyfryd</lb>
+
+
+    <lb n="275">mae krist yn hayrv hefvd</lb>
+
+
+    <lb n="276">llyma ddoydiad sy enbvd</lb>
+
+
+    <lb n="277">fod yn haws i fawr gamel</lb>
+
+
+    <lb n="278">fynd trwy 'r grav 'r nydwydd [~ nodwydd] chwarel</lb>
+
+
+    <lb n="279">nag i gwaethog [~ gyfoethog] fynd i nef</lb>
+
+
+    <lb n="280">mae 'n orthrwm iawn y geirie</lb>
+
+
+    <lb n="281">gwell kyflwr y tylawd diolchgar</lb>
+
+
+    <lb n="282">o bydd bodlon vfvddgar</lb>
+
+
+    <lb n="283">o 'i brinder ag sy kantho [~ gantho]</lb>
+
+
+    <lb n="284">a diolch i dduw am tano [~ amdano]</lb>
+
+
+    <lb n="285">doydiad krist drachefn heb dro</lb>
+
+
+    <lb n="286">dylem bawb i gofleidio</lb>
+
+
+    <lb n="287">keisiwch i wlad ternas nef</lb>
+
+
+    <lb n="288">o flaen dim dyma i eirie</lb>
+
+
+    <lb n="289">a chwi a gewch yma wrth raid</lb>
+
+
+    <lb n="290">bob peth a fo anghenrraid</lb>
+
+
+    <lb n="291">bwriwn ar grist bob gofal</lb>
+
+
+    <lb n="292">da 'r byd y sydd anwadal</lb>
+
+
+    <lb n="293">ni thal dim mo 'i anwylo</lb>
+
+
+    <lb n="294">na rroi koel na thrvst arno</lb>
+
+
+    <lb n="295">byddwn fodlon o 'r hyn fo</lb>
+
+
+    <lb n="296">diolchwn i dduw amdano</lb>
+
+
+    <lb n="297"></lb>
+
+
+    <lb n="298"></lb>
+
+
+    <lb n="299">ag yn ddiddig bob amser</lb>
+
+
+    <lb n="300">os bychan fydd os llawer</lb>
+
+
+
+
+
+
+
+
+    <lb n="td. 65.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="301">myfi pie yr holl gwesti</lb>
+
+
+    <lb n="302">nid rraid i neb ond tewi</lb>
+
+
+    <lb n="303">mae 'n pyrthynv [~ perthynu] vm ddigon</lb>
+
+
+    <lb n="304">o wyr a dyng ynvdon [~ anudon]</lb>
+
+
+    <lb n="305">o koda myfi ar amnaid</lb>
+
+
+    <lb n="306">fo ffrymiff [~ offrymiff] pawb i enaid</lb>
+
+
+    <lb n="307">mawr yw y gras a 'r ffortvn</lb>
+
+
+    <lb n="308">fo roed vm hyn o dokvn</lb>
+
+
+
+
+
+
+    <lb n="td. 65.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="309">nid yw hyn beth o 'i ffrostio</lb>
+
+
+    <lb n="310">ond peth trwm o 'i mofidio [~ ymofidio]</lb>
+
+
+    <lb n="311">am anog gwyr i nvdon [~ anudon]</lb>
+
+
+    <lb n="312">sy drvain fal alldvdion</lb>
+
+
+    <lb n="313">wrth d' archiad a 'th orchymyn</lb>
+
+
+    <lb n="314">gwae dydi rrag anffortvn</lb>
+
+
+    <lb n="315">gelyn wyt o 'i eneidie</lb>
+
+
+    <lb n="316">kymer di yn lle chware</lb>
+
+
+    <lb n="317">i 'th enai dy hvn hefvd</lb>
+
+
+    <lb n="318">i kweiriaist wely enbvd</lb>
+
+
+    <lb n="319">yscylerach [~ ysgelerach] yw 'r anogwr</lb>
+
+
+    <lb n="320">a daywaeth na 'r nvdonwr [~ anudonwr]</lb>
+
+
+    <lb n="321">wyti 'n tybiaid i diengi</lb>
+
+
+    <lb n="322">rrag kael am hyn dy gosbi</lb>
+
+
+    <lb n="323">mae dialedd duw ywch dy ben</lb>
+
+
+    <lb n="324">di a ddyg i ddrwg ddilen</lb>
+
+
+    <lb n="325">krist a fydd barnwr krevlon</lb>
+
+
+    <lb n="326">ddydd farn ar bob anvdon</lb>
+
+
+    <lb n="327">ni ddowaid y gwir mo 'r kelwydd</lb>
+
+
+    <lb n="328">tv ag vffern mae d' ogwydd</lb>
+
+
+    <lb n="329">o teimla dy gydwybod</lb>
+
+
+    <lb n="330">n 'ad i *chwant y byd dy orfod</lb>
+
+
+    <lb n="331">ag anog neb i nvdon [~ anudon]</lb>
+
+
+    <lb n="332">o hyn allan bydd inion</lb>
+
+
+    <lb n="333">sa [~ saf] di gida 'r kyfiownder</lb>
+
+
+    <lb n="334">o nevthvr [~ wneuthur] kam nag arfer</lb>
+
+
+
+    <lb n="335">Ond syrthia i difeirwch [~ edifeirwch]</lb>
+
+
+    <lb n="336">O myni gael dy heddwch</lb>
+
+
+
+
+
+
+    <lb n="td. 66.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="337">fo 'm tvedda pob merch wych</lb>
+
+
+    <lb n="338">o daw arna i chwenych</lb>
+
+
+    <lb n="339">o drachwant im avr llydan</lb>
+
+
+    <lb n="340">ka [~ caf] fy wllvs a 'm amkan</lb>
+
+
+
+
+
+
+    <lb n="td. 66.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="341">gwych ir wyti yn gweithio</lb>
+
+
+    <lb n="342">tros d' anlladrwydd yn ffinio</lb>
+
+
+    <lb n="343">vffern dowyll a 'th avr kv</lb>
+
+
+    <lb n="344">ir ydwyd o 'i ffwrkasv</lb>
+
+
+    <lb n="345">am dwyllo merched gwragedd</lb>
+
+
+    <lb n="346">a 'th avr mawr i anwiredd</lb>
+
+
+    <lb n="347">llwybvr kyfing sy mynd i nef</lb>
+
+
+    <lb n="348">llydan ffordd i vffernlle</lb>
+
+
+    <lb n="349">haws yw mollwng [~ ymollwng] i wered [~ waered]</lb>
+
+
+    <lb n="350">na dringo 'r alld a 'i hvched</lb>
+
+
+    <lb n="351">ar vffern saith borth mowrion</lb>
+
+
+    <lb n="352">heb wikiede [~ wicedau] rry rwyddion</lb>
+
+
+    <lb n="353">sef balchder llid kynfigen</lb>
+
+
+    <lb n="354">chwant kybydddra wrth angen</lb>
+
+
+    <lb n="355">glothineb godineb dwys</lb>
+
+
+    <lb n="356">a bair kolli paradwys</lb>
+
+
+    <lb n="357">trwy bob vn o rhain ar led</lb>
+
+
+    <lb n="358">i vffern gellir myned</lb>
+
+
+    <lb n="359">nid oes ond vn porth ar ne</lb>
+
+
+    <lb n="360">hwnw yw krist yn ddie</lb>
+
+
+
+    <lb n="361">yn wir ni all neb yno</lb>
+
+
+    <lb n="362">ond trwyddo fo mo 'r pasio</lb>
+
+
+    <lb n="363">nid oes dehallwn ine</lb>
+
+
+    <lb n="364">yma neb mo 'r kartre</lb>
+
+
+    <lb n="365">kawn fynd naill ai i lywenydd</lb>
+
+
+    <lb n="366">ne i  vffern dragowydd</lb>
+
+
+    <lb n="367">yn harglwydd grist i 'n helpv</lb>
+
+
+    <lb n="368">fo ddychon yn gwaredv</lb>
+
+
+    <lb n="369">kredwn gobeithwn ynddo</lb>
+
+
+    <lb n="370">rrown yn koel a 'n pwys arno</lb>
+
+
+    <lb n="371">klodforwn ni i enw</lb>
+
+
+    <lb n="372">a diolchwn am yr elw</lb>
+
+
+    <lb n="373">ynyllodd tynodd ni allan</lb>
+
+
+    <lb n="374">o gaeth kythiwed [~ caethiwed] satan</lb>
+
+
+    <lb n="375">anrrydeddwn grist iesv</lb>
+
+
+    <lb n="376">ni a ddylem i garv</lb>
+
+
+    <lb n="377">kanwn iddo wiw salme</lb>
+
+
+    <lb n="378">a moliant drwy ganeve</lb>
+
+
+    <lb n="379">ni ddyl neb ond yfo fawl</lb>
+
+
+    <lb n="380">na gogoniant gwastadawl</lb>
+
+
+    <lb n="381">iddo perthyn ternas ne [~ nef]</lb>
+
+
+    <lb n="382">dyged ni i 'r pradwysle [~ paradwysle]</lb>
+
+
+    <lb n="383">doyded pawb yma amen</lb>
+
+
+    <lb n="384">n' ato duw choedel amgen</lb>
+
+
+
+
+
+
+    <lb n="td. 67.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="385">doydaist yrwan yn dda</lb>
+
+
+    <lb n="386">yn ddyscedig *mi a 'th glowa</lb>
+
+
+    <lb n="387">pe gwnaet yn ol dy ddwydiad</lb>
+
+
+    <lb n="388">gwnawn fwy o goel i ffeiriad [~ offeiriad]</lb>
+
+
+    <lb n="389">o rroi genad ni ddigi</lb>
+
+
+    <lb n="390">kai ddwydvd peth o 'm ffansi</lb>
+
+
+    <lb n="391">pwy sy yrwan mor fydol</lb>
+
+
+    <lb n="392">a chwchwi 'r gwyr ysbrydol</lb>
+
+
+    <lb n="393">yn llawn chwant a chybydddra</lb>
+
+
+    <lb n="394">llawn o falchder a thraha</lb>
+
+
+    <lb n="395">o drachwant modd pryd a gwedd</lb>
+
+
+    <lb n="396">yn priodi rrianedd</lb>
+
+
+
+    <lb n="397">ni ellwch hyb gymysceth</lb>
+
+
+    <lb n="398">briodi neb ysoweth</lb>
+
+
+    <lb n="399">chwchwi pie 'r merched gwchion</lb>
+
+
+    <lb n="400">oddiarnom i y llygion</lb>
+
+
+    <lb n="401">o chwant perchill ag wydde</lb>
+
+
+    <lb n="402">ych kymdeithas chwi sy ore</lb>
+
+
+    <lb n="403">yr ydech [~ ydych] i yn rrydrwm</lb>
+
+
+    <lb n="404">yn drvdwerthv ych degwm</lb>
+
+
+    <lb n="405">trwy goffri da a 'i  gelkio</lb>
+
+
+    <lb n="406">ni chaiff dim fyned heibio</lb>
+
+
+    <lb n="407">heb roddir trvan tylawd</lb>
+
+
+    <lb n="408">nag ylvsen [~ elusen] na cherdawd [~ chardod]</lb>
+
+
+    <lb n="409">dylech i y personied</lb>
+
+
+    <lb n="410">helpv peth ar y gweinied</lb>
+
+
+    <lb n="411">chwi a ddoedwch yn dda dros ben</lb>
+
+
+    <lb n="412">achi a newch [~ wnewch] ymhell amken</lb>
+
+
+    <lb n="413">ych merweddiad [~ ymarweddiad] a 'ch arfer</lb>
+
+
+    <lb n="414">a ddyle fod yn lanter</lb>
+
+
+    <lb n="415">i ni yma y llygion</lb>
+
+
+    <lb n="416">i ddangos y ffordd inion</lb>
+
+
+    <lb n="417">ych gweithredoedd yn discleirrio</lb>
+
+
+    <lb n="418">i bawb wrth fyned heibio</lb>
+
+
+    <lb n="419">ag yn ateb ymhob lle</lb>
+
+
+    <lb n="420">yn kydgordio a 'ch geirie</lb>
+
+
+    <lb n="421">nid rrwymo 'r beichie trymion</lb>
+
+
+    <lb n="422">ai rrai ar gefne 'r gweinion</lb>
+
+
+    <lb n="423">a chwi chvnain [~ eich hunain] yn gryfion</lb>
+
+
+    <lb n="424">yn dwyn y beichie yscafnion</lb>
+
+
+    <lb n="425">ydrychwch [~ edrychwch] i ar ych siars</lb>
+
+
+    <lb n="426">ni thal dim gwnevthvr migmars [~ nigromans]</lb>
+
+
+    <lb n="427">ni fyn duw byw mo 'i fokio</lb>
+
+
+    <lb n="428">gwiliwch i fod yn digio</lb>
+
+
+    <lb n="429">ef y yscrywtatotor mennsiwn</lb>
+
+
+
+    <lb n="430">fo wyr ddial yn rrydrwm</lb>
+
+
+    <lb n="431">fo feder hir ddiodde</lb>
+
+
+    <lb n="432">ag a feder dalv adre</lb>
+
+
+
+
+
+
+    <lb n="td. 69.siaradwr">yr yffeiriad
+        </lb>
+
+
+    <lb n="433">diryfedd i 'r byd fethv</lb>
+
+
+    <lb n="434">ai 'r llwynog sy 'n pregethv</lb>
+
+
+    <lb n="435">gwiliwch bawb ar ych gwydde</lb>
+
+
+    <lb n="436">a chychwch ynhw adre</lb>
+
+
+
+
+
+
+    <lb n="td. 69.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="437">ymhob gwlad i megir glew</lb>
+
+
+    <lb n="438">gwnevthvm vt siart rrylew</lb>
+
+
+    <lb n="439">kyrfvm [~ cyfarfum] yn rry dost a 'r briw</lb>
+
+
+    <lb n="440">ag am hyny mae 'r ymliw</lb>
+
+
+    <lb n="441">nid ydwy fi 'n rryfygv</lb>
+
+
+    <lb n="442">yn d' erbyn di bregethv</lb>
+
+
+    <lb n="443">i geisio gochlvd dy gas</lb>
+
+
+    <lb n="444">a drachefn vt ymhwrpas</lb>
+
+
+    <lb n="445">ka [~ caf] ffafr yr holl swyddogion</lb>
+
+
+    <lb n="446">medra 'r kymal yn inion</lb>
+
+
+    <lb n="447">nid oes arna mo 'r gofal</lb>
+
+
+    <lb n="448">ka [~ caf]&nbsp;nevthvr [~ wneuthur] kam heb ddial</lb>
+
+
+
+
+
+
+    <lb n="td. 69.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="449">Gwir tebig ydiw 'r gyfraith</lb>
+
+
+    <lb n="450">mae 'n drvan hyn ysoweth</lb>
+
+
+    <lb n="451">i rwyd gwe y pry kopvn</lb>
+
+
+    <lb n="452">ni chotyma a 'i dylyn</lb>
+
+
+    <lb n="453">gwybed man a ddeil ynddi</lb>
+
+
+    <lb n="454">a 'r ednog a dyr drwyddi</lb>
+
+
+    <lb n="455">kymorthet duw 'r tylawd gwan</lb>
+
+
+    <lb n="456">y kwthogion [~ cyfoethogion] a 'mdrawan</lb>
+
+
+
+
+
+
+    <lb n="td. 69.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="457">Ka rwy 'n llawn tarth a gwres</lb>
+
+
+    <lb n="458">ddigon o win o 'i wtres</lb>
+
+
+    <lb n="459">pvr ddaenterthfwyd [~ ddanteithfwyd] llysevlvd</lb>
+
+
+    <lb n="460">a ffopeth wrth fy ngwnfyd</lb>
+
+
+    <lb n="461">mae geny ddeg o weision</lb>
+
+
+    <lb n="462">yn gwisco lifreie gleision</lb>
+
+
+
+
+
+
+
+
+    <lb n="td. 70.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="463">hawdd yw geni dy gredv</lb>
+
+
+    <lb n="464">i bod yn dechre glasv</lb>
+
+
+    <lb n="465">o eisie bwyd a diod</lb>
+
+
+    <lb n="466">ni rydd kybyd chwaith gormod</lb>
+
+
+    <lb n="467">kefaist ne [~ nef] ar y ddayar</lb>
+
+
+    <lb n="468">kyfion yw duw a somgar</lb>
+
+
+    <lb n="469">gwilia golli 'r vchelfyd</lb>
+
+
+    <lb n="470">wrth gael yma dy wnfvd</lb>
+
+
+    <lb n="471">o deall hyn dy hvn</lb>
+
+
+    <lb n="472">ni chaiff neb vn ne [~ nef] ond vn</lb>
+
+
+    <lb n="473">nid oes vt o 'th holl goweth</lb>
+
+
+    <lb n="474">ond ty [~ dy] ddillad a 'th linieth [~ luniaeth]</lb>
+
+
+    <lb n="475">a hyny mae i bob tylawd</lb>
+
+
+    <lb n="476">a 'r ysydd wrth i gardawd</lb>
+
+
+
+
+
+
+    <lb n="td. 70.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="477">ai nghyfflybv [~ fy nghyffelybu] i feger</lb>
+
+
+    <lb n="478">rraid vt ddyscv gwell arfer</lb>
+
+
+    <lb n="479">sy 'n swyddog mawr yn yngwlad [~ fy ngwlad]</lb>
+
+
+    <lb n="480">na fid mwy mo 'r fath siarad</lb>
+
+
+    <lb n="481">on'd e markia fy ngeirie</lb>
+
+
+    <lb n="482">mi a 'th ro erbyn dy sodle</lb>
+
+
+
+
+
+
+    <lb n="td. 70.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="483">nid oes arna fi rwan</lb>
+
+
+    <lb n="484">fawr o 'th ofn gwna di d' amkan</lb>
+
+
+    <lb n="485">rraid vt a 'r byd ymadel</lb>
+
+
+
+    <lb n="486">mae ar derfyn dy hoedel</lb>
+
+
+    <lb n="487">dy goweth di waeth ar ben</lb>
+
+
+    <lb n="488">fo geir rran o 'th flonhegen [~ flonegen]</lb>
+
+
+    <lb n="489">gwela ange yn dowod</lb>
+
+
+    <lb n="490">nid oes yma ond diwrnod</lb>
+
+
+
+
+
+
+    <lb n="td. 71.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="491">och fine mi a ddychrynis [~ ddychrynais]</lb>
+
+
+    <lb n="492">amdano son pen glowis [~ glywais]</lb>
+
+
+    <lb n="493">anrrigarog [~ annhrugarog] was krevlon</lb>
+
+
+    <lb n="494">gelyn oedd bradwr kalon</lb>
+
+
+    <lb n="495">ysbia ydiw 'n agos</lb>
+
+
+    <lb n="496">nid rraid prvddhav heb achos</lb>
+
+
+
+
+
+
+    <lb n="td. 71.siaradwr">y wraig
+        </lb>
+
+
+    <lb n="497">o f' enaid kymrwch gysvr</lb>
+
+
+    <lb n="498">chwi arfyddwch ych dolvr</lb>
+
+
+    <lb n="499">gwae fi f' anwyl gydymaith</lb>
+
+
+    <lb n="500">na chawn farw ar vnwaith</lb>
+
+
+    <lb n="501">i gael rran o 'th bridd wely</lb>
+
+
+    <lb n="502">a maint ir wy 'n dy garv</lb>
+
+
+    <lb n="503">ni fydda fyw fawr yn d' ol</lb>
+
+
+    <lb n="504">ni rodia 'n iach mo 'r heol</lb>
+
+
+    <lb n="505">ni chair gwen ar fy ngenav</lb>
+
+
+    <lb n="506">fy newis wr yw angav</lb>
+
+
+    <lb n="507">ni ffeirioda [~ phriodaf] neb ond tayar [~ daear]</lb>
+
+
+    <lb n="508">a ffridd a fydd fy nghymar</lb>
+
+
+
+
+
+
+    <lb n="td. 71.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="509">O tynwch hi oddiwrthy</lb>
+
+
+    <lb n="510">lleisteiriwch at yngwely [~ fy ngwely]</lb>
+
+
+    <lb n="511">rrag ofn iddi lesmeirio</lb>
+
+
+    <lb n="512">trymed genthi ymado</lb>
+
+
+    <lb n="513">gydawa [~ gadawa] hi 'n sykvtor [~ secutor]</lb>
+
+
+    <lb n="514">o 'm holl goweth a 'm trysor</lb>
+
+
+    <lb n="515">rryglyddodd arnai hoffi</lb>
+
+
+    <lb n="516">ni naeth [~ wnaeth] erioed mo 'r koegni</lb>
+
+
+
+
+
+
+
+
+    <lb n="td. 72.siaradwr">i gwsnaethwr a 'i chariad
+        </lb>
+
+
+    <lb n="517">Ow f' enaid tewch i a son</lb>
+
+
+    <lb n="518">ag na thorwch i mo 'ch kalon</lb>
+
+
+    <lb n="519">Pa les i chwi er krio</lb>
+
+
+    <lb n="520">siriwch peidiwch a 'ch wylo</lb>
+
+
+    <lb n="521">chwi a gewch i 'ch gwsnavthv</lb>
+
+
+    <lb n="522">sawl a fvoch o 'i garv</lb>
+
+
+    <lb n="523">a 'ch rryscvr [~ rhysgyr] ar wyr gwchion</lb>
+
+
+    <lb n="524">a 'r byd wrth fodd ych kalon</lb>
+
+
+
+
+
+
+    <lb n="td. 72.siaradwr">y wraig
+        </lb>
+
+
+    <lb n="525">Taw a son ag nag yngan</lb>
+
+
+    <lb n="526">i fordd [~ ffordd] a th'di [~ thydi] yrwan</lb>
+
+
+    <lb n="527">kyn glymed darffo i gladdv</lb>
+
+
+    <lb n="528">tyrd ata i rysymv [~ resymu]</lb>
+
+
+
+
+
+
+    <lb n="td. 72.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="529">mae 'n dowod yma garllaw</lb>
+
+
+    <lb n="530">ni fyn freiber mynd heibiaw</lb>
+
+
+    <lb n="531">nid a adre yn seithig [~ seithug]</lb>
+
+
+    <lb n="532">rraid iddo gael dy fenthig</lb>
+
+
+
+
+
+
+    <lb n="td. 72.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="533">rro avr mawr i bysygwr [~ physygwr]</lb>
+
+
+    <lb n="534">imi er bod yn helpwr</lb>
+
+
+    <lb n="535">i gel [~ gael] enyd fy hoedel</lb>
+
+
+    <lb n="536">*gorfod arna madel [~ ymadael]</lb>
+
+
+
+
+
+
+    <lb n="td. 72.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="537">na lafvr nistynir d' oes</lb>
+
+
+    <lb n="538">duw a ran hyd yr einioes</lb>
+
+
+    <lb n="539">am dy bechod fo 'th gymrwyd</lb>
+
+
+    <lb n="540">rraid myned tv a 'r lochwyd</lb>
+
+
+
+
+
+
+    <lb n="td. 72.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="541">a ga fine fy nghoweth</lb>
+
+
+    <lb n="542">i fynd gida m'fi [~ myfi] ymeth</lb>
+
+
+    <lb n="543">mi a ddvgvm boen a gofal</lb>
+
+
+    <lb n="544">*wrth i gasclv yn ddyfal</lb>
+
+
+
+
+
+
+    <lb n="td. 72.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="545">na chai ddim ond a gymraist</lb>
+
+
+    <lb n="546">rraid i adel lle kefaist</lb>
+
+
+    <lb n="547">a 'i roi i fynv i 'th feister</lb>
+
+
+    <lb n="548">ar hwn i roedd dy hyder</lb>
+
+
+
+
+
+
+    <lb n="td. 72.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="549">o gwae ar draws ag ar hyd</lb>
+
+
+    <lb n="550">a gascle ormod golvd</lb>
+
+
+    <lb n="551">pen ddel ato y kledi [~ caledi]</lb>
+
+
+    <lb n="552">fo fydd anodd rroi kyfri</lb>
+
+
+
+    <lb n="553">och fi dduw mae 'n ydifar [~ edifar]</lb>
+
+
+    <lb n="554">wrth fy nigwydd i 'r ddayar</lb>
+
+
+    <lb n="555">na baswn i well i 'r tylawd</lb>
+
+
+    <lb n="556">o drigaredd a chardawd</lb>
+
+
+    <lb n="557">na helpaswn bob dyn gwan</lb>
+
+
+    <lb n="558">wrth fyned o 'r byd allan</lb>
+
+
+    <lb n="559">na naethwn [~ gwnaethwn] i lai o ddrwg</lb>
+
+
+    <lb n="560">fy ngelyn fv fy ngolwg</lb>
+
+
+
+
+
+
+    <lb n="td. 73.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="561">rrowyr vt ydifarv [~ edifaru]</lb>
+
+
+    <lb n="562">ers talm dylasvt hyny</lb>
+
+
+    <lb n="563">pen oeddvti yn grevlon</lb>
+
+
+    <lb n="564">yn kosbi y tylodion</lb>
+
+
+    <lb n="565">dwyn da 'r trvan a 'i chwenych</lb>
+
+
+    <lb n="566">a gwnevthvr drwg yn fynych</lb>
+
+
+    <lb n="567">kam arfer dy fawr goweth</lb>
+
+
+    <lb n="568">trwy wnevthvr trwm ansirieth</lb>
+
+
+    <lb n="569">rraid vt heb rymedi [~ remedi]</lb>
+
+
+    <lb n="570">fynd yn inion i boeni</lb>
+
+
+
+
+
+
+    <lb n="td. 73.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="571">Krist iesv o 'th ddaioni</lb>
+
+
+    <lb n="572">tostyria wrth fy ngledi [~ nghaledi]</lb>
+
+
+    <lb n="573">ystyn [~ estyn] dy law moes dy nerth</lb>
+
+
+    <lb n="574">ag na choll di mo 'th bridwerth</lb>
+
+
+    <lb n="575">o llawn wyt o drigaredd</lb>
+
+
+    <lb n="576">pob kadarn gwan i ddiwedd</lb>
+
+
+
+
+
+
+    <lb n="td. 73.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="577">bvost gybydd kwaethog [~ cyfoethog]</lb>
+
+
+    <lb n="578">ag erioed yn anrrigarog [~ annhrugarog]</lb>
+
+
+    <lb n="579">ti a gai rwan wrth d' angen</lb>
+
+
+    <lb n="580">ryn [~ yr un] mesvr a 'r vn llathenn</lb>
+
+
+
+
+
+
+    <lb n="td. 73.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="581">archa i dduw fy helpv</lb>
+
+
+    <lb n="582">y gwir nid neges gwadv</lb>
+
+
+    <lb n="583">mi a fvm yn ddigon drwg</lb>
+
+
+    <lb n="584">ag i 'r tlawd yn dal kilwg</lb>
+
+
+    <lb n="585">trech yw duw a 'i drigaredd</lb>
+
+
+    <lb n="586">a 'i ddioddefaint no 'm kamwedd</lb>
+
+
+    <lb n="587">er dowod arna bechv</lb>
+
+
+    <lb n="588">duw na ddoro [~ ddyro] fi fynv</lb>
+
+
+    <lb n="589">wrth fy nghyflwr tostiria [~ tosturia]</lb>
+
+
+    <lb n="590">na ddal fi ar y gwaetha</lb>
+
+
+    <lb n="591">gollwng trosto fy mhechod</lb>
+
+
+    <lb n="592">yr hwn a brynaist na wrthod</lb>
+
+
+
+    <lb n="593">a 'th wrthfawr waed trwy ddiodde</lb>
+
+
+    <lb n="594">archollion nid trwy chware</lb>
+
+
+    <lb n="595">gedaist hoelio traed twylo</lb>
+
+
+    <lb n="596">dy brikbrenv a 'th yscyrsio</lb>
+
+
+    <lb n="597">gyrv 'r pige drain i 'th ben</lb>
+
+
+    <lb n="598">er helpv dyn wrth angen</lb>
+
+
+    <lb n="599">a 'i dynv o gaethiwed</lb>
+
+
+    <lb n="600">ond krist nid oes ymwared</lb>
+
+
+    <lb n="601">o dduw kymer fy mharti</lb>
+
+
+    <lb n="602">llvdd fi rrag mynd i boeni</lb>
+
+
+
+
+
+
+    <lb n="td. 74.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="603">yn d' angen ing a 'th gledi [~ galedi]</lb>
+
+
+    <lb n="604">ar dduw tra fedrvt weddi</lb>
+
+
+    <lb n="605">a griddfan wrtho 'n drwm</lb>
+
+
+    <lb n="606">tros dy bechod trwch orthrwm</lb>
+
+
+    <lb n="607">yn dy rwydddeb a 'th iechid</lb>
+
+
+    <lb n="608">amdano ni fyddylyt [~ feddylit]</lb>
+
+
+    <lb n="609">mae 'r meistr anwyl heno</lb>
+
+
+    <lb n="610">a 'r hwn roedd dy goel *ynddo</lb>
+
+
+    <lb n="611">pan na elwi ar hwnw</lb>
+
+
+    <lb n="612">yma i lester yt farw</lb>
+
+
+    <lb n="613">ti a wddost i henw</lb>
+
+
+    <lb n="614">meistr mwndws llawn o elw</lb>
+
+
+    <lb n="615">yfo ydoedd dy swkwr</lb>
+
+
+    <lb n="616">dy arglwydd di a 'th helpwr</lb>
+
+
+    <lb n="617">dy anwylvd a 'th feistr</lb>
+
+
+    <lb n="618">dy oham a 'th holl hyder</lb>
+
+
+
+
+
+
+    <lb n="td. 74.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="619">O rwan rwy 'n kydnabod</lb>
+
+
+    <lb n="620">och y drvan wy a 'm pechod</lb>
+
+
+    <lb n="621">ag na ddychon mo 'm helpv</lb>
+
+
+    <lb n="622">estalm [~ ers talm] fo 'm rroes i fynv</lb>
+
+
+    <lb n="623">pob arglwydd gwan gwe i was fydd</lb>
+
+
+    <lb n="624">fo las ni chymerth rybydd</lb>
+
+
+    <lb n="625">a gwae fi rrag anffortvn</lb>
+
+
+    <lb n="626">fo *aeth y byd yn f' erbyn</lb>
+
+
+    <lb n="627">pen oedd wrtho vm reitia</lb>
+
+
+    <lb n="628">ifo [~ efo] droes i gefn ata</lb>
+
+
+    <lb n="629">mae fy mlant [~ mhlant] i 'm ysclyso [~ esgeuluso]</lb>
+
+
+    <lb n="630">gwddon fy mod ar basio</lb>
+
+
+    <lb n="631">fy ngwraig yn esmwyth gyscv</lb>
+
+
+    <lb n="632">ni ddaw ynghyfyl fy ngwely</lb>
+
+
+    <lb n="633">a 'm holl ffrinds ymynd [~ yn mynd] heibio</lb>
+
+
+    <lb n="634">heb ymarddel ohono</lb>
+
+
+
+    <lb n="635">fy ngredigion [~ ngharedigion] sy i 'm gwadv</lb>
+
+
+    <lb n="636">pwy trosa sy 'n gofalv</lb>
+
+
+    <lb n="637">ni ddwg neb ran o 'm penyd</lb>
+
+
+    <lb n="638">na 'm pechod mae 'n ddeinkryd</lb>
+
+
+    <lb n="639">discwyl mae pawb o 'm da ran</lb>
+
+
+    <lb n="640">bychan gan bawb a gaffan</lb>
+
+
+    <lb n="641">rrowyr ganthyn fy ngladdv</lb>
+
+
+    <lb n="642">i gael fy na o 'i ranv</lb>
+
+
+    <lb n="643">nid oes neb yn rroi vm gysvr</lb>
+
+
+    <lb n="644">na chyngor yn fy nolvr</lb>
+
+
+    <lb n="645">ond mae pawb yn f' ysclvso [~ esgeuluso]</lb>
+
+
+    <lb n="646">ni alla i mwy ond wylo</lb>
+
+
+    <lb n="647">o krist sa [~ saf] di 'n fy mlaid [~ mhlaid]</lb>
+
+
+    <lb n="648">ag ymddiffin fy enaid</lb>
+
+
+    <lb n="649">archa ran o 'th drigaredd</lb>
+
+
+    <lb n="650">gollwng tros go [~ gof] fy nghamwedd</lb>
+
+
+    <lb n="651">dod ti rryngo fi a 'r tan</lb>
+
+
+    <lb n="652">dy farfolaeth ddigon glan</lb>
+
+
+    <lb n="653">athioddefaint [~ a 'th ddioddefaint] a bwysa</lb>
+
+
+    <lb n="654">fy mhechod i gobeitha</lb>
+
+
+    <lb n="655">trwch yw mhechod [~ fy mhechod] a 'm kamwedd</lb>
+
+
+    <lb n="656">trech ydiw dy drigaredd</lb>
+
+
+
+
+
+
+    <lb n="td. 75.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="657">rwyti rwan o ffydd *dda</lb>
+
+
+    <lb n="658">a gobaith mi a 'th glowa</lb>
+
+
+    <lb n="659">wedi syrthio i difeirwch [~ edifeirwch]</lb>
+
+
+    <lb n="660">ar feder kael dy heddwch</lb>
+
+
+    <lb n="661">ni wn pathelw [~ pa ddelw]&nbsp;i tykia</lb>
+
+
+    <lb n="662">gras yr arglwydd sy bena</lb>
+
+
+    <lb n="663">sef yn d' iechid a 'th bechod</lb>
+
+
+    <lb n="664">ni fedrvti ymwrthod</lb>
+
+
+    <lb n="665">pob peth sy dda 'n i amser</lb>
+
+
+    <lb n="666">ar y byd ni ellir hyder</lb>
+
+
+
+
+
+
+    <lb n="td. 75.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="667">O rrenwch hyn i 'r tylodion</lb>
+
+
+    <lb n="668">ydolwg byddwch gyfion</lb>
+
+
+    <lb n="669">fal i gorffo i chwi ateb</lb>
+
+
+    <lb n="670">i bawb i daw gwrthwyneb</lb>
+
+
+
+
+
+
+    <lb n="td. 75.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="671">Pan na ranyt hwy yn gyfion</lb>
+
+
+    <lb n="672">dy dda a yn amryson</lb>
+
+
+    <lb n="673">yn dy fowyd a 'th iechid</lb>
+
+
+    <lb n="674">nid yrwan yn d' ofid</lb>
+
+
+    <lb n="675">rwyti yma fal gwr marw</lb>
+
+
+    <lb n="676">ag nid oes dim ar dy helw</lb>
+
+
+    <lb n="677">fo 'th roed allan o feddiant</lb>
+
+
+    <lb n="678">o bydd rran  yn gwarant</lb>
+
+
+    <lb n="679">ond a rroddaisti o 'th law</lb>
+
+
+    <lb n="680">nid oes vt ddim yn ffrwythaw</lb>
+
+
+
+
+
+
+
+
+    <lb n="td. 76.siaradwr">y gwr kadarn
+        </lb>
+
+
+    <lb n="681">O duw / duw fo gida mi</lb>
+
+
+    <lb n="682">mae arna ormod kyfri</lb>
+
+
+    <lb n="683">o blegid f' ystiwardeth</lb>
+
+
+    <lb n="684">diwin [~ diwyn] i bawb i goweth</lb>
+
+
+    <lb n="685">kymred pawb ohono i siampel</lb>
+
+
+    <lb n="686">bydded fyw yn ddimrafel [~ ddiymrafael]</lb>
+
+
+    <lb n="687">a rroed i 'r tlawd ychydig</lb>
+
+
+    <lb n="688">wrth i raid o 'r da benthig</lb>
+
+
+    <lb n="689">nid meddv ymyrodreth [~ ymerodraeth]</lb>
+
+
+    <lb n="690">y sy fwya *gorchafieth</lb>
+
+
+    <lb n="691">gwaetha gormod o goweth</lb>
+
+
+    <lb n="692">oni fedrir i lyfodreth</lb>
+
+
+    <lb n="693">na cheisied neb mo 'i ryddig</lb>
+
+
+    <lb n="694">da 'r byd nid yw ond benthig</lb>
+
+
+    <lb n="695">wrth bob kledi [~ caledi] a diffig</lb>
+
+
+    <lb n="696">gwir dduw sydd ore meddig</lb>
+
+
+    <lb n="697">archa iddo fod i 'm plaid</lb>
+
+
+    <lb n="698">krist fo meddig i 'm henaid</lb>
+
+
+
+
+
+
+    <lb n="td. 76.siaradwr">yr ffeiriad
+        </lb>
+
+
+    <lb n="699">Kymraist drwm ydifeirwch [~ edifeirwch]</lb>
+
+
+    <lb n="700">duw a roddo vt heddwch</lb>
+
+
+
+    <lb n="701">ag a 'th gatwo rrag blinfyd</lb>
+
+
+    <lb n="702">rrag kael o 'th gas di wnfvd</lb>
+
+
+    <lb n="703">kedwid duw di rrag myned</lb>
+
+
+    <lb n="704">i vffern bwll i wered [~ waered]</lb>
+
+
+    <lb n="705">wy yn gorchymyn dy ened</lb>
+
+
+    <lb n="706">i 'r ne [~ nef] fry i gael nodded</lb>
+
+
+    <lb n="707">at i geidwad a 'i brynwr</lb>
+
+
+    <lb n="708">onid krist nid oes helpwr</lb>
+
+
+
+
+
+    <lb n="709">duw a fo yn i blaid</lb>
+
+
+    <lb n="710">ag yn llawen wrth i enaid</lb>
+
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="Cardiff6_GwrIf">
+        <pb n="">
+        
+
+
+
+
+
+    <lb n="td. 83.pen">Llyma yr ymddiddan a fv rrwng yr henwr a 'r gwr ifaingk
+    </lb>
+
+
+
+
+    <lb n="1">Ar nawdd duw fy ewyrth heini</lb>
+
+
+    <lb n="2">mi a mofyna [~ ymofynnaf] chwedle a thi</lb>
+
+
+    <lb n="3">dowaid vm ple mae dy wlad</lb>
+
+
+    <lb n="4">gen i mi yn anllad dy holi</lb>
+
+
+
+
+
+    <lb n="5">Da delych fab pvr enav</lb>
+
+
+    <lb n="6">kadarn am hawl gwan a dav</lb>
+
+
+    <lb n="7">afraid iti holi neb</lb>
+
+
+    <lb n="8">ond am ateb *kynghorav</lb>
+
+
+
+
+
+    <lb n="9">Hyny sy arna fi eisiav</lb>
+
+
+    <lb n="10">kyngor kall rag peryglav</lb>
+
+
+    <lb n="11">mi a fvm ymhob [~ ym mhob] gwlad kyn hyn</lb>
+
+
+    <lb n="12">yn ymofvn er ystyddiav [~ er ys dyddiau]</lb>
+
+
+
+
+
+    <lb n="13">Pe rrown vt gyngor tyner</lb>
+
+
+    <lb n="14">pe gwnavti les i lawer</lb>
+
+
+    <lb n="15"> allvt fod yn gras</lb>
+
+
+    <lb n="16">kas yw 'r gwir ni charer</lb>
+
+
+
+
+
+    <lb n="17">Dod vm gyngor synhwyrol</lb>
+
+
+    <lb n="18">er nad wyfi on [~ ond] dyn ffol</lb>
+
+
+    <lb n="19">fo gerir y gwir ymhob [~ ym mhob] man</lb>
+
+
+    <lb n="20">heb na gogan na chanmol</lb>
+
+
+
+
+
+    <lb n="21">na chanmol anllyfodraeth [~ anllywodraeth]</lb>
+
+
+    <lb n="22">na farn yn erbyn kyfraith</lb>
+
+
+    <lb n="23">kar dy dduw yn fwy na neb</lb>
+
+
+    <lb n="24">paid a 'th ateb mabolaeth</lb>
+
+
+
+
+
+    <lb n="25">beth am garv dyn bydawl</lb>
+
+
+    <lb n="26">a gadv duw 'n ystronawl [~ estronol]</lb>
+
+
+    <lb n="27">a rroi arian keimion swrn</lb>
+
+
+    <lb n="28">wrth bob arddwrn fal hvdawl</lb>
+
+
+
+
+
+    <lb n="29">beth ond tori gorchmynav</lb>
+
+
+    <lb n="30">duw a dilid pechodav</lb>
+
+
+    <lb n="31">mwy lles vt pen favt gwan</lb>
+
+
+    <lb n="32">i rroi yn arian y fferenav [~ offerennau]</lb>
+
+
+
+
+
+    <lb n="33">beth on [~ ond] tori llytyfon [~ lletyon]</lb>
+
+
+    <lb n="34">gwyr a gwragedd priodolion</lb>
+
+
+    <lb n="35">a 'i gyrynt wy rryd [~ ar hyd] y byd</lb>
+
+
+    <lb n="36">heb fynd ynghyd tra kerddon</lb>
+
+
+
+
+
+    <lb n="37">peth i dylvt ymgroisi</lb>
+
+
+    <lb n="38">rrag na 'i nevthvr [~ wneuthur] na 'i beri</lb>
+
+
+
+    <lb n="39">rryfedd os gwnavt yn ddirgel</lb>
+
+
+    <lb n="40">nad ae gythrel a thydi</lb>
+
+
+
+
+
+    <lb n="41">beth ond kodi gwaed gwirion</lb>
+
+
+    <lb n="42">digio iesv a 'i greawd [~ gread] a 'i 'rchollion [~ archollion]</lb>
+
+
+    <lb n="43">a chael melldith yr holl saint</lb>
+
+
+    <lb n="44">meawn [~ mewn] oer ddigofaint grevlon</lb>
+
+
+
+
+
+    <lb n="45">na thyng i waed yr arglwydd</lb>
+
+
+    <lb n="46">vn gair na gwir na chelwydd</lb>
+
+
+    <lb n="47">na ddwg dyst yn erbyn gwir</lb>
+
+
+    <lb n="48">rrag kael hir gyfeiliornrwydd</lb>
+
+
+
+
+
+    <lb n="49">bydd di hygar gariadol</lb>
+
+
+    <lb n="50">a ffar i bawb dy ganmol</lb>
+
+
+    <lb n="51">ag na feddwl ddrwg vn dydd</lb>
+
+
+    <lb n="52">di a gai lywenydd [~ lawenydd] nefol</lb>
+
+
+
+
+
+    <lb n="53">pathelw [~ pa ddelw] i gwna yn fodlon</lb>
+
+
+    <lb n="54">yr iesv a roeswyd yn grevlon</lb>
+
+
+    <lb n="55">fo fv yr vn hoel drwy i draed</lb>
+
+
+    <lb n="56">heb ddafn gwaed y 'w galon</lb>
+
+
+
+
+
+    <lb n="57">wyl o difeirwch [~ edifeirwch] ag anian</lb>
+
+
+    <lb n="58">dy bechod rrybvcha dda i 'r trvan</lb>
+
+
+    <lb n="59">na fid gasach gynyt [~ gennyt] neb</lb>
+
+
+    <lb n="60">na 'th wyneb di dy hvnan</lb>
+
+
+
+
+
+    <lb n="61">hyny oedd dda i henaint</lb>
+
+
+    <lb n="62">edrych i oedran ar dremaint</lb>
+
+
+    <lb n="63">a gwnevthvd iawn am bob drwg</lb>
+
+
+    <lb n="64">ag ydolwg [~ adolwg] maddevaint</lb>
+
+
+
+
+
+    <lb n="65">nid mawr hwyrach i 'r llwynog</lb>
+
+
+    <lb n="66">pen fai yn rrodio 'n nwynog [~ newynog]</lb>
+
+
+    <lb n="67">o doe at iar ar fol bron</lb>
+
+
+    <lb n="68">ladd y kowion na 'r keiliog</lb>
+
+
+
+
+
+    <lb n="69">disymla bydd dda dy bwyll</lb>
+
+
+    <lb n="70">a dibechod na rybvcha i neb dwyll</lb>
+
+
+    <lb n="71">er mwyn na wn na ffa ddydd</lb>
+
+
+    <lb n="72">na ffle i derfydd dy ganwyll</lb>
+
+
+
+
+
+    <lb n="73">mae saith gelyn kyn kwynion</lb>
+
+
+    <lb n="74">yn arbed yn erben [~ erbyn] fy nghalon</lb>
+
+
+    <lb n="75">nid amgen na 'r saith bechod</lb>
+
+
+    <lb n="76">sy yn gorfod y dynion</lb>
+
+
+
+
+
+    <lb n="77">Er hyn fy ewyrth gwalld lwyd</lb>
+
+
+    <lb n="78">ti a roist *gyngor well na bwyd</lb>
+
+
+    <lb n="79">er hyd i bon i yn dav ynghyd</lb>
+
+
+    <lb n="80">ni wn yn y byd pwy ydwyd</lb>
+
+
+
+
+
+    <lb n="81">O chefaist gyngor kariddol</lb>
+
+
+    <lb n="82">heb ymliw a neb yn ol</lb>
+
+
+    <lb n="83">a gwna les vt hyny o swydd</lb>
+
+
+    <lb n="84">diolch i 'th arglwydd nefol</lb>
+
+
+
+
+    <lb n="td. 84.diwedd">ag velly i tyrfyna [~ terfyna] hyny
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="Cardiff6_Ysbryd">
+        <pb n="">
+        
+
+
+
+
+    <lb n="td. 85.pen">llyma ymddiddan a fv rrwng yr ysbrvd a 'i gydymaith
+    </lb>
+
+
+
+
+    <lb n="1">Er bod yn anodd iawn fy nrrin [~ nhrin]</lb>
+
+
+    <lb n="2">a 'm wyneb heb fa.. chwerthin</lb>
+
+
+    <lb n="3">nid oes adwyth i 'm dilin</lb>
+
+
+
+
+
+    <lb n="4">dy broffwyd wy o 'r vn iaith</lb>
+
+
+    <lb n="5">a 'th frawd ffydd a 'th gydymaith</lb>
+
+
+    <lb n="6">er duw na fydd ddrwg d' obaith</lb>
+
+
+
+
+
+    <lb n="7">Gobeitha yn dda nos a dydd</lb>
+
+
+    <lb n="8">ar fam y pvm llywenydd [~ llawenydd]</lb>
+
+
+    <lb n="9">a bair vt nef yn dragowydd</lb>
+
+
+
+
+
+    <lb n="10">Er bod yn rryfedd gen y byd</lb>
+
+
+    <lb n="11">a ddoeda yn iaith ddybryd</lb>
+
+
+    <lb n="12">i mae i bawb ran o 'r penyd</lb>
+
+
+
+
+
+    <lb n="13">myn y gwr a ddioddefwys</lb>
+
+
+    <lb n="14">y sy 'n vchel ymradwys [~ ym mharadwys]</lb>
+
+
+    <lb n="15">mae fy iaith i yn gymwys</lb>
+
+
+
+
+
+    <lb n="16">y gwr a fv yn y gadair gvr</lb>
+
+
+    <lb n="17">yn godde gloes a dolvr</lb>
+
+
+    <lb n="18">a wnel i bawb gymrvd synwyr</lb>
+
+
+
+
+
+    <lb n="19">pen fo 'r ddwygoes yn ogyd</lb>
+
+
+    <lb n="20">ag yn vn hosan hefvd</lb>
+
+
+    <lb n="21">odid mab gwraig gwyn i fyd</lb>
+
+
+
+
+
+    <lb n="22">a fyno gwnevthvr i les</lb>
+
+
+    <lb n="23">a gweled mair f' arglwyddes</lb>
+
+
+    <lb n="24">gwnaed yn fanwl i gyffes</lb>
+
+
+
+
+
+    <lb n="25">kyffesv 'n llwyr wrth wr llen</lb>
+
+
+    <lb n="26">a mynych geisio y fferen [~ offeren]</lb>
+
+
+    <lb n="27">a wna 'r enaid yn llawen</lb>
+
+
+
+
+
+    <lb n="28">y byb bach fy melldith vt</lb>
+
+
+    <lb n="29">ti a 'm gedaist i 'm gofid</lb>
+
+
+    <lb n="30">am fy nrrachwant [~ nhrachwant] yn y byd</lb>
+
+
+
+
+
+    <lb n="31">ni wyr pen nag ymenydd</lb>
+
+
+    <lb n="32">na llen na llyfr brith dofvdd</lb>
+
+
+    <lb n="33">pwy gynta i 'r llywenydd [~ llawenydd]</lb>
+
+
+
+
+
+    <lb n="34">ai 'r gwr traws anghyfarchvs</lb>
+
+
+    <lb n="35">ai 'r forwyn falch ryfygvs</lb>
+
+
+    <lb n="36">ai 'r tylawd gwan *angyfnerthvs</lb>
+
+
+
+
+
+    <lb n="37">ar fy ngair gwir a 'm llwyr gred</lb>
+
+
+    <lb n="38">o 'r lan&nbsp;bigilidd [~ bwygilydd] a red</lb>
+
+
+    <lb n="39">ni wyr neb ple mae i dynged</lb>
+
+
+
+
+
+
+
+    <lb n="40">...ddio merch Joseio</lb>
+
+
+    <lb n="41">ddydd a nos lle bo 'n trigo</lb>
+
+
+    <lb n="42">a ddengys y lle iddo</lb>
+
+
+
+
+
+    <lb n="43">Gwae 'r wraig orwag i dillad</lb>
+
+
+    <lb n="44">er golwg serch a chariad</lb>
+
+
+    <lb n="45">a ddyko tifedd [~ etifedd] i gam dad</lb>
+
+
+
+
+
+    <lb n="46">Gwae 'r gwr gorwag wrth rodio</lb>
+
+
+    <lb n="47">o gwyr mae&nbsp;ef y piefo</lb>
+
+
+    <lb n="48">er i gost a 'i gwrthoto</lb>
+
+
+
+
+
+    <lb n="49">llety 'r nos a bwyd wrth raid</lb>
+
+
+    <lb n="50">helpa dylodion ag&nbsp;ymddifaid [~ amddifaid]</lb>
+
+
+    <lb n="51">a llyna ystor i 'r enaid</lb>
+
+
+
+
+
+    <lb n="52">Gore gwascod ar fynydd</lb>
+
+
+    <lb n="53">rrag glaw a gwynt a *thowydd</lb>
+
+
+    <lb n="54">i ddyn yw dillad newydd</lb>
+
+
+
+
+
+    <lb n="55">Gore gwascod i 'r enaid</lb>
+
+
+    <lb n="56">bwyd a diod i weiniaid</lb>
+
+
+    <lb n="57">a hwnw a gaiff wrth i raid</lb>
+
+
+
+
+
+    <lb n="58">fo bery dillad y nos</lb>
+
+
+    <lb n="59">a roes y barwn hirnos</lb>
+
+
+    <lb n="60">o hyd ddydd brawd ddydd a nos</lb>
+
+
+
+
+
+    <lb n="61">trafel traed perindode [~ pererindodau]</lb>
+
+
+    <lb n="62">a mynych ganv pedere [~ paderau]</lb>
+
+
+    <lb n="63">y nef a ddwg  i 'r eneidie</lb>
+
+
+
+
+
+    <lb n="64">mawr yw 'r llvdded mwy yw 'r haint</lb>
+
+
+    <lb n="65">gwnaed o hen hyd ifaingk</lb>
+
+
+    <lb n="66">er duw wsaneth i 'r saint</lb>
+
+
+
+
+
+    <lb n="67">Gwell keiniog ar dal allor</lb>
+
+
+    <lb n="68">i wr er kanv yn y gor</lb>
+
+
+    <lb n="69">na deg i gybydd angor</lb>
+
+
+
+
+
+    <lb n="70">Odid kyfrwyddvd ar i les</lb>
+
+
+    <lb n="71">hylithr pawb ar i afles</lb>
+
+
+    <lb n="72">fo dwenir [~ adwaenir] drwg yn i fonwes [~ fynwes]</lb>
+
+
+
+
+
+    <lb n="73">Er nad wyf wr safedig</lb>
+
+
+    <lb n="74">mwy na throwynt blaen seithig [~ seithug]</lb>
+
+
+    <lb n="75">onid tuw [~ Duw] nid oes feddig</lb>
+
+
+
+
+
+    <lb n="76">mi a fvm meawn diffeithle</lb>
+
+
+    <lb n="77">mwy na naw kant o nosie</lb>
+
+
+    <lb n="78">yn aros vn pedere [~ paderau]</lb>
+
+
+
+
+
+
+
+    <lb n="79">am wator [~ watwar]&nbsp;yngydgristion [~ fy nghydgristion]</lb>
+
+
+    <lb n="80">a 'i warthav ef yn wirion</lb>
+
+
+    <lb n="81">a naeth [~ wnaeth] vm ddwyn penyd ....</lb>
+
+
+
+
+
+    <lb n="82">nid amgen fy mhynydle [~ mhenydle]</lb>
+
+
+    <lb n="83">na dwr aylyd ach</lb>
+
+
+    <lb n="84">rrwng y goldfor a 'r indie</lb>
+
+
+
+
+
+    <lb n="85">am ddwyn kam dystiolaeth</lb>
+
+
+    <lb n="86">yr owan [~ awrhon] gwn fod yn gaeth</lb>
+
+
+    <lb n="87">gwae fy nghalon rrag hiraeth</lb>
+
+
+
+
+
+    <lb n="88">er bod yn meddwl llawer dyn</lb>
+
+
+    <lb n="89">na henwaf iesv fy hvn</lb>
+
+
+    <lb n="90">ag na beiddiaf i ofvn</lb>
+
+
+
+
+
+    <lb n="91">er nas henwaf wrthvti</lb>
+
+
+    <lb n="92">pena trigaredd yw imi</lb>
+
+
+    <lb n="93">iesv grist rrag hir boini</lb>
+
+
+
+
+
+    <lb n="94">ar fy ngair gwir a 'm llwyr gred</lb>
+
+
+    <lb n="95">nid a kyngor ynghorff [~ yng nghorff] neb</lb>
+
+
+    <lb n="96">mwy na 'r glaw yn y gareg</lb>
+
+
+
+
+    <lb n="td. 87.diwedd">ag felly
+    </lb>
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="Cardiff6_Mair">
+        <pb n="">
+        
+
+
+
+
+    <lb n="1">Mair fadlen mawr yw d' wrthie [~ wyrthiau]</lb>
+
+
+    <lb n="2">moes dy gyngor i mine</lb>
+
+
+    <lb n="3">beth a na [~ wna] tylawd am yscidie [~ esgidiau]</lb>
+
+
+    <lb n="4">ag am ddillad a 'i kvddie</lb>
+
+
+
+
+
+    <lb n="5">Y kreiriwr mae vt gydnabod</lb>
+
+
+    <lb n="6">drvd yleni bwyd a diod</lb>
+
+
+    <lb n="7">ag anodd kael y geiniog</lb>
+
+
+    <lb n="8">mae 'n dda kyfarch i 'r drindod</lb>
+
+
+
+
+
+    <lb n="9">Mair fadlen priod ifan</lb>
+
+
+    <lb n="10">myddyges [~ meddyges] duw i hvnan</lb>
+
+
+    <lb n="11">ti a wddost f 'ymddiddan</lb>
+
+
+    <lb n="12">oes dim kyngor am arian</lb>
+
+
+
+
+
+    <lb n="13">Y kreiriwr barabl digri</lb>
+
+
+    <lb n="14">a wnel drwg arhoed o 'i gosbi</lb>
+
+
+    <lb n="15">o bydd kyfion dy weddi</lb>
+
+
+    <lb n="16">nid tylodach duw er rroddi</lb>
+
+
+
+
+
+    <lb n="17">Mair fadlen drigarog</lb>
+
+
+    <lb n="18">mae arna ofn fy mhechod</lb>
+
+
+    <lb n="19">ti a 'mddiddenaist [~ ymddiddenaist] a 'r drindod</lb>
+
+
+    <lb n="20">beth yw rrinwedd y gerdod</lb>
+
+
+
+
+
+    <lb n="21">Y kreiriwr taer i 'mddiddan [~ ymddiddan]</lb>
+
+
+    <lb n="22">oes vt gyngor onti [~ ond ti] dy hvnan</lb>
+
+
+    <lb n="23">pen ddel y ddevdroed i 'r vn hosan</lb>
+
+
+    <lb n="24">gwell yw 'r gerdod no 'r arian</lb>
+
+
+
+
+
+    <lb n="25">Mair fadlen deg i ffen</lb>
+
+
+    <lb n="26">ti a gerddaist dy bresen</lb>
+
+
+    <lb n="27">ag a welaist beth yw lvsen [~ elusen]</lb>
+
+
+    <lb n="28">onta [~ ond da] keiniog y fferen [~ offeren]</lb>
+
+
+
+
+
+
+
+    <lb n="29">Y kreiriwr taer i eirie</lb>
+
+
+    <lb n="30">duw a gar dy weddie</lb>
+
+
+    <lb n="31">oni bai gerdod ag yfferene [~ offerennau]</lb>
+
+
+    <lb n="32">nid ae 'r enaid byth o boene</lb>
+
+
+
+
+
+    <lb n="33">Mair fadlen o 'r betni</lb>
+
+
+    <lb n="34">wy i 'th wsaneth yleni</lb>
+
+
+    <lb n="35">dowaid vm para weddi</lb>
+
+
+    <lb n="36">sy dda marfer [~ ymarfer] ohoni</lb>
+
+
+
+
+
+    <lb n="37">Y kreiriwr da yw d' arfer</lb>
+
+
+    <lb n="38">dowaid bevnvdd XV pader</lb>
+
+
+    <lb n="39">yn ynwedig [~ enwedig] ar dduw gwener</lb>
+
+
+    <lb n="40">o 'r pvm harcholl a 'r pvm prvdder</lb>
+
+
+
+
+
+    <lb n="41">Mair fadlen o frynbvga</lb>
+
+
+    <lb n="42">iti ferch i kyfarcha</lb>
+
+
+    <lb n="43">duw a 'th garodd di 'n fwy</lb>
+
+
+    <lb n="44">oes dim dialedd am draha</lb>
+
+
+
+
+
+    <lb n="45">Y kreiriwr na fydd grevlon</lb>
+
+
+    <lb n="46">gwyn i fyd a fo gwirion</lb>
+
+
+    <lb n="47">ni char duw *ddin o 'r dynion</lb>
+
+
+    <lb n="48">a fo tyrhavs [~ trahaus] ag anghyfion</lb>
+
+
+
+
+
+    <lb n="49">Mair fadlen da yw dy ffydd</lb>
+
+
+    <lb n="50">duw a 'th gar di yn dragowydd</lb>
+
+
+    <lb n="51">beth a dderfydd i 'r kybydd</lb>
+
+
+    <lb n="52">ni roes gerdod ag nis rrydd</lb>
+
+
+
+
+
+    <lb n="53">Y kreiriwr kowod [~ cyfod] d' wyneb</lb>
+
+
+    <lb n="54">gwyn i fyd y gore i weithred</lb>
+
+
+    <lb n="55">a fo hael a diniwed</lb>
+
+
+    <lb n="56">y nef a gaiff yn ygored [~ agored]</lb>
+
+
+
+
+
+    <lb n="57">Mair fadlen forwyn dirion</lb>
+
+
+    <lb n="58">gwae ni nel [~ wnel] dy orchmynion</lb>
+
+
+    <lb n="59">gweddi pawb yn i galon</lb>
+
+
+    <lb n="60">beth a dderfydd i 'r swyddogion</lb>
+
+
+
+
+
+    <lb n="61">Y kreiriwr gat t' [~ dy] ymofyn</lb>
+
+
+    <lb n="62">mawr fydd trachchwant [~ trachwant] afradddyn</lb>
+
+
+    <lb n="63">gwae ni ochelo i dri gelyn</lb>
+
+
+    <lb n="64">ni ffery swydd ond blwyddyn</lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="Cardiff6_Enaid">
+        <pb n="">
+        
+
+
+
+
+    <lb n="td. 101.pen">llyma ymddiddan yr enaid a 'r korff
+    </lb>
+
+
+
+
+    <lb n="td. 101.siaradwr">y korff yn dwydvd
+        </lb>
+
+
+
+    <lb n="1">*Henffych well foneddigion</lb>
+
+
+    <lb n="2">gwyr a gwragedd a meibion</lb>
+
+
+    <lb n="3">a hefvd pob rryw ddynion</lb>
+
+
+
+
+
+    <lb n="4">i chwchwi i doyda</lb>
+
+
+    <lb n="5">mi a ddoythvm hyd yma</lb>
+
+
+    <lb n="6">o herwydd fy mod yn ddoetha</lb>
+
+
+
+
+
+
+
+    <lb n="7">dyfod i rwy i 'ch rrybiddio [~ rhybuddio]</lb>
+
+
+    <lb n="8">pawb a 'r sydd yma 'n gwrando</lb>
+
+
+    <lb n="9">er mwyn duw i neb na ddigio</lb>
+
+
+
+
+
+    <lb n="10">bid pawb onochi [~ ohonoch chwi]&nbsp;'n ysbys</lb>
+
+
+    <lb n="11">ar ymddiddan gwr kamweddvs</lb>
+
+
+    <lb n="12">a fv gynt yn rryfygvs</lb>
+
+
+
+
+
+    <lb n="13">Mowredd rryfig ar dda</lb>
+
+
+    <lb n="14">balch iawn ag ysmala</lb>
+
+
+    <lb n="15">tra fvm yn y byd yma</lb>
+
+
+
+
+
+    <lb n="16">Mae fy ysbrvd i 'n kerdded</lb>
+
+
+    <lb n="17">a 'm korff meawn *bedd kayed</lb>
+
+
+    <lb n="18">ar hynt fo gaiff pawb fy ngweled</lb>
+
+
+
+
+
+    <lb n="19">Melldigedig fo 'r fam a 'm dygodd</lb>
+
+
+    <lb n="20">a 'r tad a 'm ynillodd [~ enillodd]</lb>
+
+
+    <lb n="21">heddiw ni wyfi hyfryd</lb>
+
+
+
+
+
+
+    <lb n="td. 102.siaradwr">yr enaid yn twydvd [~ dywedyd]
+        </lb>
+
+
+
+    <lb n="22">Pwy a glowa fi mor grevlon</lb>
+
+
+    <lb n="23">yn dwydvd ymadroddion</lb>
+
+
+    <lb n="24">duw a wyr kysvr fy nghalon</lb>
+
+
+
+
+
+    <lb n="25">rwyti yn esmwyth yn gorfedd</lb>
+
+
+    <lb n="26">meawn bedd o saith droedfedd</lb>
+
+
+    <lb n="27">er a naethosti [~ wnaethost ti] o gamwedd</lb>
+
+
+
+
+
+    <lb n="28">nid wyfi 'n kael nos na dydd</lb>
+
+
+    <lb n="29">am vt dori dy gred a 'th fedydd</lb>
+
+
+    <lb n="30">haner awr drigo 'n llonvdd</lb>
+
+
+
+
+
+
+    <lb n="td. 102.siaradwr">y korff
+        </lb>
+
+
+
+    <lb n="31">Tydi oedd i 'm kell nos a dydd</lb>
+
+
+    <lb n="32">er pen gefais gred a bedydd</lb>
+
+
+    <lb n="33">gynyt [~ gennyt] ni chawn vn awr lonvdd</lb>
+
+
+
+
+
+
+    <lb n="td. 102.siaradwr">yr enaid
+        </lb>
+
+
+
+    <lb n="34">O gnawd brwnt melldigedig</lb>
+
+
+    <lb n="35">arnad ni chawn vnawr ddiddig</lb>
+
+
+    <lb n="36">na ffasc na gwyl arbenig</lb>
+
+
+
+
+
+
+
+    <lb n="37">ni roddvti pen ddele 'r tylawd</lb>
+
+
+    <lb n="38">er krist i geisio kardawd</lb>
+
+
+    <lb n="39">ni chaid na bwyd na diod</lb>
+
+
+
+
+
+
+    <lb n="td. 103.siaradwr">y korff
+        </lb>
+
+
+
+    <lb n="40">Tydi oedd arna fi 'n feistres</lb>
+
+
+    <lb n="41">fal llawforwyn arglwyddes</lb>
+
+
+    <lb n="42">i 'm harwain i nevthvr [~ wneuthur] afles</lb>
+
+
+
+
+
+
+    <lb n="td. 103.siaradwr">yr enaid
+        </lb>
+
+
+
+    <lb n="43">Pob rrvw ddyn a fo krevlon</lb>
+
+
+    <lb n="44">fo ddowaid *ymadroddion</lb>
+
+
+    <lb n="45">wrth ywllvs [~ ewyllys] i galon</lb>
+
+
+
+
+
+
+    <lb n="td. 103.siaradwr">y korff
+        </lb>
+
+
+
+    <lb n="46">oddima [~ oddi yma] nad elwy fi o 'm gorfedd</lb>
+
+
+    <lb n="47">er a nevthvm [~ wneuthum] i o gamwedd</lb>
+
+
+    <lb n="48">ti a wnaeth bob kynddrygedd</lb>
+
+
+
+
+<lb n="td. 103.llwyfan">
+ag ar hynt waeth [~ fe aeth] yr enaid oddiwrth y korff
+Mihangel a maelodd [~ ymaelodd] yn yr enaid / a 'r kythrel a
+maelodd [~ ymaelodd] yn yr enaid
+
+</lb>
+
+
+
+    <lb n="td. 103.siaradwr">Mihangel a ddowod
+        </lb>
+
+
+
+    <lb n="49">Kilia gythrel heibio</lb>
+
+
+    <lb n="50">a dos ymhell oddiwrtho</lb>
+
+
+    <lb n="51">beth i rwyt yn i holi iddo</lb>
+
+
+
+
+
+
+    <lb n="td. 103.siaradwr">y kythrel
+        </lb>
+
+
+
+    <lb n="52">Ni naethe [~ wnaethai] wedi eni</lb>
+
+
+    <lb n="53">erioed ond yn gorchmynion ni</lb>
+
+
+    <lb n="54">am hyny rraid imi ddeisyf</lb>
+
+
+
+
+
+
+    <lb n="td. 103.siaradwr">mihangel
+        </lb>
+
+
+
+    <lb n="55">O 'm golwg gythrel melldigedig</lb>
+
+
+    <lb n="56">yn enw 'r tad kysegredig</lb>
+
+
+    <lb n="57">mae arnad olwg ffyrnig</lb>
+
+
+    <lb n="58">arnad ni bydd neb kyredig [~ caredig]</lb>
+
+
+
+
+
+
+    <lb n="td. 103.siaradwr">y kythrel
+        </lb>
+
+
+
+    <lb n="59">dowch yn es [~ nes]&nbsp; y kythreiliaid</lb>
+
+
+    <lb n="60">mae akw angel diriaid</lb>
+
+
+    <lb n="61">rragom yn kadw 'r enaid</lb>
+
+
+
+
+
+
+    <lb n="td. 103.siaradwr">y kythrel
+        </lb>
+
+
+
+    <lb n="62">Pwy yw 'r vn a fai kyn howned [~ ehofned]</lb>
+
+
+
+    <lb n="63">arnom in [~ ein] tri a mynd a 'r ened</lb>
+
+
+    <lb n="64">yn awr pe kaem i weled</lb>
+
+
+
+
+
+    <lb n="65">bellach byddwn i smala [~ ysmala]</lb>
+
+
+    <lb n="66">ar gael enaid y gwrda</lb>
+
+
+    <lb n="67">er duw ni naeth [~ wnaeth] vn twrn da</lb>
+
+
+
+
+
+    <lb n="68">byddwch lawen y kyfeillion</lb>
+
+
+    <lb n="69">saeth a yscar fy nghalon</lb>
+
+
+    <lb n="70">llyma fantais dda ddigon</lb>
+
+
+
+
+
+    <lb n="71">yn 'y [~ fy] nghalon i bo 'r ffon</lb>
+
+
+    <lb n="72">oni newch [~ wnewch] garn&nbsp;gystowkon [~ gostowcwn]</lb>
+
+
+    <lb n="73">er hyn *bawb yn fodlon</lb>
+
+
+
+
+
+
+    <lb n="td. 104.siaradwr">mihangel
+        </lb>
+
+
+
+    <lb n="74">I rwyfi yn gorchymyn yn ddiddig</lb>
+
+
+    <lb n="75">yn enw 'r tad kysegredig</lb>
+
+
+
+
+
+    <lb n="76">na neloch [~ wneloch] gam a 'r enaid gwirion</lb>
+
+
+    <lb n="77">nes dowod ag ef garbron [~ gerbron]</lb>
+
+
+    <lb n="78">mab duw yr ail person</lb>
+
+
+    <lb n="79">a ddioddefodd dros enaid pob kristion</lb>
+
+
+
+
+
+
+    <lb n="td. 104.siaradwr">y kythrel
+        </lb>
+
+
+
+    <lb n="80">Nad el hvn ar fy llygaid</lb>
+
+
+    <lb n="81">er a nelochi [~ wneloch chwi] o blaid</lb>
+
+
+    <lb n="82">nes kael onofi [~ ohonof i] yr enaid</lb>
+
+
+
+
+
+
+    <lb n="td. 104.siaradwr">mihangel
+        </lb>
+
+
+
+    <lb n="83">fo gaiff pawb o wyr tre</lb>
+
+
+    <lb n="84">ar hynt weled mawr wrthie [~ wyrthiau]</lb>
+
+
+
+
+<lb n="td. 104.llwyfan">a chida hyny iesv a mair a ddoeth yno
+</lb>
+
+
+
+    <lb n="td. 104.siaradwr">Mair yn doydvd
+        </lb>
+
+
+
+    <lb n="85">er llafvr fy nwyfron</lb>
+
+
+    <lb n="86">a 'r *prvder a 'r dolvr krevlon</lb>
+
+
+    <lb n="87">a ddioddefaisti ag a gefaisti yn dy galon</lb>
+
+
+    <lb n="88">na fydd wrtho fo grevlon</lb>
+
+
+
+
+
+
+    <lb n="td. 104.siaradwr">Iesv
+        </lb>
+
+
+
+    <lb n="89">Chwi ellwch wybod yn ysbvs</lb>
+
+
+    <lb n="90">oni bai fod yn gamweddvs</lb>
+
+
+    <lb n="91">na byddwni 'n erbyn ych wllvs</lb>
+
+
+
+
+
+
+    <lb n="td. 104.siaradwr">Mair
+        </lb>
+
+
+
+    <lb n="92">dysyf [~ deisyf] i rwy wrth fy rraid</lb>
+
+
+    <lb n="93">yn erbyn y kythreiliaid</lb>
+
+
+    <lb n="94">yn y faentol bwyso 'r enaid</lb>
+
+
+
+
+
+    <lb n="95">yfo [~ efo] ddowod weddie</lb>
+
+
+    <lb n="96">ag a gymrodd ydifeirwch [~ edifeirwch] yn awr ange</lb>
+
+
+    <lb n="97">ag a gafas dy gorff kysegredig dithe</lb>
+
+
+    <lb n="98">drwy lan gyffes o 'r gene</lb>
+
+
+    <lb n="99">dysyfv [~ deisyfu] i rwy fine</lb>
+
+
+    <lb n="100">yn y faentol roi ymhydere [~ fy mhaderau]</lb>
+
+
+
+
+
+
+
+
+
+    <lb n="td. 105.siaradwr">iesv
+        </lb>
+
+
+    <lb n="101">er a wnaeth erioed yn f' erbyn</lb>
+
+
+    <lb n="102">tori 'r gyfraith a 'r deg gorchymyn</lb>
+
+
+    <lb n="103">gan ych bod yn dost drosto&nbsp;'n kalvn</lb>
+
+
+    <lb n="104">kymerwchi o yn ddiwrafvn [~ ddiwarafun]</lb>
+
+
+
+
+
+
+    <lb n="td. 105.siaradwr">mair
+        </lb>
+
+
+
+    <lb n="105">Mihangel archangel o 'r nef</lb>
+
+
+    <lb n="106">moes y faentol a 'r pydere [~ paderau]</lb>
+
+
+    <lb n="107">a fv 'n pwyso 'r eneidie</lb>
+
+
+
+
+
+    <lb n="108">bellach i rvm [~ yr &#375;m] yn gobeitho</lb>
+
+
+    <lb n="109">ple bynag i bo 'n treiglo</lb>
+
+
+    <lb n="110">i rvmi [~ yr &#375;m ni]&nbsp;'n sikir ohono</lb>
+
+
+
+
+
+    <lb n="111">llyma ddangos yn amlwg</lb>
+
+
+    <lb n="112">i bawb y sy meawn golwg</lb>
+
+
+    <lb n="113">trech gweithred dda na gweithred ddrwg</lb>
+
+
+
+
+
+
+
+    <lb n="114">Pawb a ddwyto gweddie</lb>
+
+
+    <lb n="115">ag a gymro difeirwch [~ edifeirwch] yn awr ange</lb>
+
+
+    <lb n="116">ag a gaffo gorff iesv grist drwy lan gyffes o 'r gene</lb>
+
+
+    <lb n="117">nid a i enaid byth i 'r poene</lb>
+
+
+
+
+
+    <lb n="118">a hefvd y sawl a roddo kardod</lb>
+
+
+    <lb n="119">i 'r tylawd yn fwyd ne ddiod</lb>
+
+
+    <lb n="120">fo a 'i kaiff i hvn dan amod</lb>
+
+
+
+
+
+
+    <lb n="td. 106.siaradwr">y korff
+        </lb>
+
+
+
+    <lb n="121">er i 'm henaid gael trigaredd</lb>
+
+
+    <lb n="122">yma i bydda fi 'n gorfedd</lb>
+
+
+    <lb n="123">ymhlith llyffaint a nadredd</lb>
+
+
+
+
+
+    <lb n="124">mi a fvm gynt yn rryfygvs</lb>
+
+
+    <lb n="125">a balch iawn a chamweddvs</lb>
+
+
+    <lb n="126">heddiw mi a 'i gwn yn ysbys</lb>
+
+
+
+
+
+    <lb n="127">llyma rybydd i bob kadarn</lb>
+
+
+    <lb n="128">i ddechre fydd teg a gorwag yn hen llesc a gwan</lb>
+
+
+    <lb n="129">myddylied [~ meddylied] pawb am grist a 'r farn</lb>
+
+
+
+
+
+
+    <lb n="td. 106.siaradwr">yr ange
+        </lb>
+
+
+
+    <lb n="130">pam i dwydi di hyny</lb>
+
+
+    <lb n="131">kenhiadwr iesv wyfi</lb>
+
+
+    <lb n="132">mae 'n rraid i bawb bryderv</lb>
+
+
+
+
+
+
+    <lb n="td. 106.siaradwr">y gwr kadarn
+        </lb>
+
+
+
+    <lb n="133">myn gwaed ryw nis predera</lb>
+
+
+    <lb n="134">y neb a 'r *nis gwelaf fi i weled</lb>
+
+
+    <lb n="135">ble bynag i bwy 'n kerdded</lb>
+
+
+
+
+
+
+    <lb n="td. 106.siaradwr">ange
+        </lb>
+
+
+
+    <lb n="136">ange a ddaw 'n ddie rvw ddydd</lb>
+
+
+    <lb n="137">i bawb a gaffas kred a bedydd</lb>
+
+
+    <lb n="138">llyma ddigon o rybydd</lb>
+
+
+
+
+
+    <lb n="139">llyma 'r amser i mado [~ ymado]</lb>
+
+
+    <lb n="140">pob kadarn doed i wrando</lb>
+
+
+    <lb n="141">rrag ofn i dduw ddigio</lb>
+
+
+
+
+
+    <lb n="142">avr ag arian a thlyse</lb>
+
+
+    <lb n="143">a ffob amriw [~ amryw] bethe</lb>
+
+
+    <lb n="144">a ddwg yr enaid i 'r poene</lb>
+
+
+    <lb n="145">onis gesyd i 'r ffordd ore</lb>
+
+
+    <lb n="146">i 'r tlawd mwya i angenrreidie</lb>
+
+
+
+
+
+
+    <lb n="td. 106.siaradwr">y korff
+        </lb>
+
+
+
+    <lb n="147">llyma ddiwedd y chware</lb>
+
+
+    <lb n="148">a duw a ro llywenydd [~ llawenydd] i chwithe</lb>
+
+
+    <lb n="149">a ne [~ nef]&nbsp;tragwddol [~ tragwyddol] i 'r eneidie</lb>
+
+
+
+
+
+    <lb n="td. 106.diwedd">amen
+    </lb>
+
+
+
+
+
+
+
+        </pb>
+        </text>
+        
+
+     <text id="Cardiff6_Dryw">
+        <pb n="">
+        
+
+
+
+    <lb n="td. 106.pen">ymddiddan y gwas ifangk a 'r dryw
+    </lb>
+
+
+
+
+
+
+
+    <lb n="1">Val ir oeddwn i yn rrodio</lb>
+
+
+    <lb n="2">ag yn ystyd [~ astud] fyfyrio</lb>
+
+
+    <lb n="3">mi a glown fab o 'm gwlad</lb>
+
+
+    <lb n="4">a 'i gariad wedi rwystro</lb>
+
+
+
+
+
+    <lb n="5">o dyfelais i i fwriad</lb>
+
+
+    <lb n="6">roedd gantho feddwl anllad</lb>
+
+
+    <lb n="7">ag yn gofvn i 'r dryw bach</lb>
+
+
+    <lb n="8">gyfrinach am i gariad</lb>
+
+
+
+
+
+
+    <lb n="td. 124.siaradwr">y mab
+        </lb>
+
+
+    <lb n="9">Y dryw bach o 'r berth fieri</lb>
+
+
+    <lb n="10">dowaid wir vm os medri</lb>
+
+
+    <lb n="11">a welaisti meawn vn wlad</lb>
+
+
+    <lb n="12">fath gariad ag sy imi</lb>
+
+
+
+
+
+
+    <lb n="td. 124.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="13">Mi a ddoeda vt yn ddirgel</lb>
+
+
+    <lb n="14">i mae hi 'n ferch lan benvchel</lb>
+
+
+    <lb n="15">er i bod hi 'n lan ag yn ffraeth</lb>
+
+
+    <lb n="16">ni byddi waeth er i gochel</lb>
+
+
+
+
+
+
+    <lb n="td. 124.siaradwr">y mab
+        </lb>
+
+
+    <lb n="17">I gochel ni na [~ wnaf] finav</lb>
+
+
+    <lb n="18">mae hi 'n gowir i geiriav</lb>
+
+
+    <lb n="19">mae iddi galon gowir *syth</lb>
+
+
+    <lb n="20">nid rraid vm fyth i hamav</lb>
+
+
+
+
+
+
+    <lb n="td. 124.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="21">er *teked a fai 'r kleddav</lb>
+
+
+    <lb n="22">a 'i lafn a 'i ddwrn a 'i groesav</lb>
+
+
+    <lb n="23">galle dori yn y karn</lb>
+
+
+    <lb n="24">yn ddwyddarn pen fo gorav</lb>
+
+
+
+
+
+
+    <lb n="td. 124.siaradwr">y mab
+        </lb>
+
+
+    <lb n="25">Taw a 'th siarad y dryw bach</lb>
+
+
+    <lb n="26">erioed ni bv dy ffolach</lb>
+
+
+    <lb n="27">gallwn dyngv ar draet tuw [~ Duw]</lb>
+
+
+    <lb n="28">nad oes yn fyw i chwirach [~ chywirach]</lb>
+
+
+
+
+
+
+    <lb n="td. 124.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="29">Chwi ellwch dyngv trosti</lb>
+
+
+    <lb n="30">tra foch a 'ch golwg arni</lb>
+
+
+    <lb n="31">keisiwch lw a fotho gwell</lb>
+
+
+    <lb n="32">pen foch ymhell oddiwrthi</lb>
+
+
+
+
+
+
+    <lb n="td. 124.siaradwr">y mab
+        </lb>
+
+
+    <lb n="33">Y dryw bach taw a 'th chwedle</lb>
+
+
+    <lb n="34">mae hi 'n gowir i geirie</lb>
+
+
+    <lb n="35">a rrag teked geirie hon</lb>
+
+
+    <lb n="36">hi a geiff 'y [~ fy] nghalon ine</lb>
+
+
+
+
+
+
+    <lb n="td. 124.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="37">er teked yw i chwedle</lb>
+
+
+    <lb n="38">mae i chalon yn llawn twylle</lb>
+
+
+    <lb n="39">ef a ddoydai 'r henwyr gynt</lb>
+
+
+    <lb n="40">nad oedd ond gwynt o 'i geiriav</lb>
+
+
+
+
+
+
+    <lb n="td. 124.siaradwr">y mab
+        </lb>
+
+
+    <lb n="41">mae peth arall ysy *fwy</lb>
+
+
+    <lb n="42">pale bynag ir elw [~ elwyf]</lb>
+
+
+    <lb n="43">pen ymneidiwy ar liw 'r kan</lb>
+
+
+    <lb n="44">hi a ddaw i 'r man i mynwy</lb>
+
+
+
+
+
+
+    <lb n="td. 124.siaradwr">y dryw
+        </lb>
+
+
+
+    <lb n="45">pen fo 'r gwalch ar i hediad [~ ehediad]</lb>
+
+
+    <lb n="46">yfo [~ efo] ddiscin yn wastad</lb>
+
+
+    <lb n="47">ag a ddaw ar law y dyn</lb>
+
+
+    <lb n="48">mwy rrag newyn na chariad</lb>
+
+
+
+
+
+
+
+    <lb n="td. 125.siaradwr">y mab
+        </lb>
+
+
+    <lb n="49">y dryw bach *er a ddoydi</lb>
+
+
+    <lb n="50">nid gwaeth i tidde [~ tithau] dewi</lb>
+
+
+    <lb n="51">er a nel [~ wnel] na mab na merch</lb>
+
+
+    <lb n="52">ni ddaw fy serch oddarni [~ oddi arni]</lb>
+
+
+
+
+
+
+
+    <lb n="td. 125.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="53">pe gwypvt tithe 'n amlwg</lb>
+
+
+    <lb n="54">faint i ffalsedd a 'i mowrddrwg</lb>
+
+
+    <lb n="55">pe ni gwelvt pe bae i ti hap</lb>
+
+
+    <lb n="56">tynvt dy gap dros d' olwg</lb>
+
+
+
+
+
+
+    <lb n="td. 125.siaradwr">y mab
+        </lb>
+
+
+    <lb n="57">y dryw bach taw a 'th boetri</lb>
+
+
+    <lb n="58">mi a roddais 'y [~ fy] nghoel arni</lb>
+
+
+    <lb n="59">pe kaffai dda yr holl sieb</lb>
+
+
+    <lb n="60">ni charai neb ond myfi</lb>
+
+
+
+
+
+
+    <lb n="td. 125.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="61">mae 'n dy garv yn fwya dyn</lb>
+
+
+    <lb n="62">ar i gair a 'i mynydvn</lb>
+
+
+    <lb n="63">a ffei gwypvt dwyll y ferch</lb>
+
+
+    <lb n="64">ni thal i serch mo 'r gwelldyn</lb>
+
+
+
+
+
+
+    <lb n="td. 125.siaradwr">y mab
+        </lb>
+
+
+    <lb n="65">hi a 'mefyl [~ ymefyl] pen fyno</lb>
+
+
+    <lb n="66">yn fy mwnwgl a 'i dwylo</lb>
+
+
+    <lb n="67">a rroi kvsan ar fy min</lb>
+
+
+    <lb n="68">a chwerthin pen i 'm gwelo</lb>
+
+
+
+
+
+
+    <lb n="td. 125.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="69">mi a ddalia gynglwyst newydd</lb>
+
+
+    <lb n="70">vn ne ddwy o 'm ydenydd [~ adenydd]</lb>
+
+
+    <lb n="71">yn erbyn vn ddime bach</lb>
+
+
+    <lb n="72">bydd kasach gynyt [~ gennyt] wenddydd</lb>
+
+
+
+
+
+
+    <lb n="td. 125.siaradwr">y mab
+        </lb>
+
+
+    <lb n="73">nos a dydd awr ag enyd</lb>
+
+
+    <lb n="74">pen i gwelwy gwyn fy myd</lb>
+
+
+    <lb n="75">a ffan ddelwy fi lle bo</lb>
+
+
+    <lb n="76">ni ddaw i 'm ko [~ cof] mo 'r hollfyd</lb>
+
+
+
+
+
+
+    <lb n="td. 125.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="77">i rwy fi yn tybiaid hefvd</lb>
+
+
+    <lb n="78">pen ddelai wen lle byddvd</lb>
+
+
+    <lb n="79">walle [~ efallai] myne ddeiliwr od</lb>
+
+
+    <lb n="80">i bod ymhell oddiwrthvd</lb>
+
+
+
+
+
+
+    <lb n="td. 125.siaradwr">y mab
+        </lb>
+
+
+    <lb n="81">na ddowaiti mo hyny</lb>
+
+
+    <lb n="82">nad ydiw yn fy ngharv</lb>
+
+
+    <lb n="83">dyma fodrwy avr a roes</lb>
+
+
+    <lb n="84">i 'm hoes nid a oddiwrthy</lb>
+
+
+
+
+
+
+    <lb n="td. 125.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="85">pe rroddai vt y kwbwl</lb>
+
+
+    <lb n="86">anodd yw deall meddwl</lb>
+
+
+    <lb n="87">o chaiff le kyn pen y mis</lb>
+
+
+    <lb n="88">hi a fyn y pris yn ddwbwl</lb>
+
+
+
+
+
+
+    <lb n="td. 125.siaradwr">y mab
+        </lb>
+
+
+    <lb n="89">y dryw bach taw a 'th faswedd</lb>
+
+
+    <lb n="90">ni allai odde mo 'th ffoledd</lb>
+
+
+    <lb n="91">rwyti 'n siarad wrth dy chwant</lb>
+
+
+    <lb n="92">fo ddigie sant o 'r diwedd</lb>
+
+
+
+
+
+
+
+
+    <lb n="td. 126.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="93">Tewch a son ag na ddigiwch</lb>
+
+
+    <lb n="94">mae hi 'n llawn o ddiffeithwch</lb>
+
+
+    <lb n="95">o doydaf vt gelwydd byth</lb>
+
+
+    <lb n="96">kymrwch fy nyth a lloscwch</lb>
+
+
+
+
+
+
+    <lb n="td. 126.siaradwr">y mab
+        </lb>
+
+
+    <lb n="97">echnos brevddwyd a welwn</lb>
+
+
+    <lb n="98">ag yn llvnden i byddwn</lb>
+
+
+    <lb n="99">hithe 'n wylo 'r dagre 'n dost</lb>
+
+
+    <lb n="100">nid er bost ir adroddwn</lb>
+
+
+
+
+
+
+    <lb n="td. 126.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="101">yngwrthwyneb [~ yng ngwrthwyneb] i ddynion</lb>
+
+
+    <lb n="102">i daw yr holl fryddwydion [~ freuddwydion]</lb>
+
+
+    <lb n="103">roedd hi 'n chwerthin yn deg i gwen</lb>
+
+
+    <lb n="104">ag yn llawen ddigon</lb>
+
+
+
+
+
+
+    <lb n="td. 126.siaradwr">y mab
+        </lb>
+
+
+    <lb n="105">Y dryw bach taw a 'th drallod</lb>
+
+
+    <lb n="106">mae 'n fy ngharv yn ormod</lb>
+
+
+    <lb n="107">hi addawodd vmv hyn</lb>
+
+
+    <lb n="108">na chae vn dyn mo 'n hathrod</lb>
+
+
+
+
+
+
+    <lb n="td. 126.siaradwr">y dryw
+        </lb>
+
+
+    <lb n="109">addawed hyn a fyno</lb>
+
+
+    <lb n="110">ni na [~ wna] hi lai na 'th dwyllo</lb>
+
+
+    <lb n="111">mi a orfedda [~ orweddaf] yn y tan poeth</lb>
+
+
+    <lb n="112">pen gwiro [~ gywiro] gwen ddoeth i gaddo</lb>
+
+
+
+
+
+
+    <lb n="td. 126.siaradwr">y mab
+        </lb>
+
+
+    <lb n="113">mi a ro faglav ar y ddayar</lb>
+
+
+    <lb n="114">ithal [~ i 'th ddal] ag i 'th roi yngharchar [~ yng ngharchar]</lb>
+
+
+    <lb n="115">er a gerddais o goed a dail</lb>
+
+
+    <lb n="116">ni welais d' ail na 'th gymar</lb>
+
+
+
+
+
+    <lb n="117">rwyti 'n dechre fy nigio</lb>
+
+
+    <lb n="118">am dy gelwydd ar weno</lb>
+
+
+    <lb n="119">ffarwel iti y dryw bach</lb>
+
+
+    <lb n="120">a dos yn iach dros heno</lb>
+
+
+
+
+
+    <lb n="td. 126.diwedd">terfyn
+    </lb>
+
+
+
+
+
+
+
+     </pb>
+     </text>
+
+
+    </text>
