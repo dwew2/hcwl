@@ -42,15 +42,15 @@ fetch('https://www.celticstudies.net/search/corpora/corpora.json').then(response
 	for(let key in corpora)
 	{
 		var opt = document.createElement('option')
-		if(corpora[key].display)
+		opt.value = key
+		if("display" in corpora[key])
 		{
-			opt.value=corpora[key].display
+			opt.innerHTML=corpora[key].display
 		}
 		else
 		{
-			opt.value = key
+			opt.innerHTML = key
 		}
-		opt.innerHTML = key
 		opt.selected=true
 		select.appendChild(opt)
 	}
