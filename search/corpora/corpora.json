@@ -89,7 +89,8 @@
 	},
 	"PwyllWB.pos": {
 		"filename": "corpora/PwyllWB.pos.txt",
-		"type": "pos"
+		"type": "pos",
+		"display":"PARSHCWL"
 	},
 	"rhc_ske": {
 		"filename": "corpora/rhc_ske.xml",

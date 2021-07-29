@@ -1,6 +1,13 @@
-To add a corpus:
+To add a corpus, add the file to search/corpora folder and a section to the corpora.json with a unique key, a filename
+and type, either "pos" or "xml", and a display name for the dropdown.
 
-- include the data file in the search folder
-- add an option to the corpus selection dropdown in search.html
-- add a section to the corpora object in search.js with a key matching the option value
+
+e.g.
+
+"name":
+{
+	"filename":"corpora/name.xml",
+	"type":"xml",
+	"display":"Display Name on Dropdown"
+}
 

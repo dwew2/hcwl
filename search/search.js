@@ -42,7 +42,14 @@ fetch('https://www.celticstudies.net/search/corpora/corpora.json').then(response
 	for(let key in corpora)
 	{
 		var opt = document.createElement('option')
-		opt.value = key
+		if(corpora[key].display)
+		{
+			opt.value=corpora[key].display
+		}
+		else
+		{
+			opt.value = key
+		}
 		opt.innerHTML = key
 		opt.selected=true
 		select.appendChild(opt)
@@ -62,20 +69,14 @@ document.getElementById('search').addEventListener("keyup", ({key}) =>
 
 // function select_corpus()
 // {
-// 	let corpus=document.getElementById('corpus').value
-// 	let filename=corpora[corpus].filename
-// 	let type=corpora[corpus].type
-
-// 	utts=[]
-
-// 	switch(type)
+// 	var select = document.getElementById('corpus')
+// 	for(let opt of select.options)
 // 	{
-// 		case 'pos':
-// 			loadPosFile(filename)
-// 		break
-// 		case 'html':
-// 			loadHtmlFile(filename)
-// 		break
+// 		if(opt.selected)
+// 		{
+// 			let corpus=opt.value
+// 			console.log(opt.value)
+// 		}
 // 	}
 // }
 
@@ -87,211 +88,209 @@ function on_lines()
 
 function loadPosFile(filename)
 {
-	// var myHeaders = new Headers()
-	// myHeaders.append('Content-Type','text/plain; charset=UTF-8')
-	fetch(`https://www.celticstudies.net/search/${filename}`)
-	.then(response => 
-	{
-		response.arrayBuffer()
-        .then(buffer => 
+	return new Promise(resolve=>{
+		fetch(`https://www.celticstudies.net/search/${filename}`)
+		.then(response => 
 		{
-            const decoder = new TextDecoder('utf-16le')
-            const text = decoder.decode(buffer)
-            //console.log(text);
-			return text
-        })
-
-		.then(text =>
-		// response.text().then(text => 
-		{
-			//text=unescape(text)
-
-			//remove line endings
-			//text=text.replaceAll(/[\r\n]/g,'//')
-
-			let utts_array=text.split('<utt>')
-
-			for(let utt_string of utts_array)
+			response.arrayBuffer()
+			.then(buffer => 
 			{
-				let utt=
+				const decoder = new TextDecoder('utf-16le')
+				const text = decoder.decode(buffer)
+				//console.log(text);
+				return text
+			})
+
+			.then(text =>
+			// response.text().then(text => 
+			{
+				//text=unescape(text)
+
+				//remove line endings
+				//text=text.replaceAll(/[\r\n]/g,'//')
+
+				let utts_array=text.split('<utt>')
+
+				for(let utt_string of utts_array)
 				{
-					text:utt_string,
-					plain_text:'',
-					words:[],
-					code:null
+					let utt=
+					{
+						text:utt_string,
+						plain_text:'',
+						words:[],
+						code:null
+					}
+
+					let words=utt_string.split(' ')
+					for(let word of words)
+					{
+						if(word.length==0)
+						{
+							continue
+						}
+						if(word.includes('_CODE'))
+						{
+							utt.code=word
+						}
+						else
+						{
+							let [text,markup]=word.split('/')
+							utt.words.push([text,markup]) //[text,markup]
+							utt.plain_text+=(text+' ')
+						}
+					}
+					//remove line endings & tabs
+					utt.plain_text=utt.plain_text.replaceAll(/^[\s]+/g,'') //remove from beginning of string
+					utt.plain_text=utt.plain_text.replaceAll(/[\s]+$/g,'') //remove from end of string
+					utt.plain_text=utt.plain_text.replaceAll(/[\r\n]+/g,'//') //replace with // within string
+					utt.plain_text=utt.plain_text.replaceAll(/[\t]/g,' ')
+					//remove special symbols
+					utt.plain_text=utt.plain_text.replaceAll('#','')
+					utt.plain_text=utt.plain_text.replaceAll('*','')
+					utt.plain_text=utt.plain_text.replaceAll('!','')
+					utt.plain_text=utt.plain_text.replaceAll('+','')
+
+					utts.push(utt)
 				}
 
-				let words=utt_string.split(' ')
-				for(let word of words)
-				{
-					if(word.length==0)
-					{
-						continue
-					}
-					if(word.includes('_CODE'))
-					{
-						utt.code=word
-					}
-					else
-					{
-						let [text,markup]=word.split('/')
-						utt.words.push([text,markup]) //[text,markup]
-						utt.plain_text+=(text+' ')
-					}
-				}
-				//remove line endings & tabs
-				utt.plain_text=utt.plain_text.replaceAll(/^[\s]+/g,'') //remove from beginning of string
-				utt.plain_text=utt.plain_text.replaceAll(/[\s]+$/g,'') //remove from end of string
-				utt.plain_text=utt.plain_text.replaceAll(/[\r\n]+/g,'//') //replace with // within string
-				utt.plain_text=utt.plain_text.replaceAll(/[\t]/g,' ')
-				//remove special symbols
-				utt.plain_text=utt.plain_text.replaceAll('#','')
-				utt.plain_text=utt.plain_text.replaceAll('*','')
-				utt.plain_text=utt.plain_text.replaceAll('!','')
-				utt.plain_text=utt.plain_text.replaceAll('+','')
-
-				utts.push(utt)
-			}
-
-			//console.log(utts)
+				//console.log(utts)
+				resolve()
+			})
 		})
 	})
 }
 
 function loadHtmlFile(filename)
 {	
-	fetch(`https://www.celticstudies.net/search/${filename}`)
-	.then(response => response.text())
-	.then(text => 
-	{
-		let parser=new DOMParser()
-		let dom=parser.parseFromString(text, "text/xml")
-		let tags=dom.getElementsByTagName('*')
+	return new Promise(resolve=>{
 
-		// let head_tags=dom.getElementsByTagName('head')
-		// let lb_tags=dom.getElementsByTagName('lb')
-		// let tags=Array.from(head_tags).concat(Array.from(lb_tags))
-
-		for(let tag of tags)
+		fetch(`https://www.celticstudies.net/search/${filename}`)
+		.then(response => response.text())
+		.then(text => 
 		{
-			if(tag.localName!='lb' && tag.localName!='head')
-			{
-				continue
-			}
-			
-			let tags_string=''
-			let node
+			let parser=new DOMParser()
+			let dom=parser.parseFromString(text, "text/xml")
+			let tags=dom.getElementsByTagName('*')
 
-			//get all text tags
-			node=tag.parentNode
-			while(node)
+			// let head_tags=dom.getElementsByTagName('head')
+			// let lb_tags=dom.getElementsByTagName('lb')
+			// let tags=Array.from(head_tags).concat(Array.from(lb_tags))
+
+			for(let tag of tags)
 			{
-				if(node.localName=='text')
+				if(tag.localName!='lb' && tag.localName!='head')
 				{
-					tags_string=node.attributes[0].value+' '+tags_string
+					continue
 				}
-				node=node.parentNode
-			}
+				
+				let tags_string=''
+				let node
 
-			//is heading tag?
-			if(tag.localName=='head')
-			{
-				tags_string+=' heading'
-			}
-			else
-			{
-				//nested in head?
+				//get all text tags
 				node=tag.parentNode
 				while(node)
 				{
-					if(node.localName=='head')
+					if(node.localName=='text')
 					{
-						tags_string+=' heading'
+						tags_string=node.attributes[0].value+' '+tags_string
+					}
+					node=node.parentNode
+				}
+
+				//is heading tag?
+				if(tag.localName=='head')
+				{
+					tags_string+=' heading'
+				}
+				else
+				{
+					//nested in head?
+					node=tag.parentNode
+					while(node)
+					{
+						if(node.localName=='head')
+						{
+							tags_string+=' heading'
+							break
+						}
+						node=node.parentNode
+					}				
+				}
+
+				//get pb tag
+				node=tag.parentNode
+				while(node)
+				{
+					if(node.localName=='pb' && node.attributes.length>0)
+					{
+						tags_string+=' '+node.attributes[0].value
 						break
 					}
 					node=node.parentNode
-				}				
-			}
-
-			//get pb tag
-			node=tag.parentNode
-			while(node)
-			{
-				if(node.localName=='pb' && node.attributes.length>0)
-				{
-					tags_string+=' '+node.attributes[0].value
-					break
 				}
-				node=node.parentNode
-			}
 
-			//lb n attr value, ie line number
-			let hyphenated=false
-			if(tag.attributes.length>0)
-			{
-				//tags=tags+' lb:'+lb.attributes[0].value
-				let lb_value=tag.attributes[0].value
-				tags_string=tags_string+' '+lb_value
-				if(lb_value.includes('-'))
+				//lb n attr value, ie line number
+				let hyphenated=false
+				if(tag.attributes.length>0)
 				{
-					hyphenated=true
+					//tags=tags+' lb:'+lb.attributes[0].value
+					let lb_value=tag.attributes[0].value
+					tags_string=tags_string+' '+lb_value
+					if(lb_value.includes('-'))
+					{
+						hyphenated=true
+					}
 				}
-			}
 
-			//replacement for innerText that does not include descendents
-			let node_text=''
-			for(let child of tag.childNodes)
-			{
-				if(child.nodeType==Node.TEXT_NODE)
+				//replacement for innerText that does not include descendents
+				let node_text=''
+				for(let child of tag.childNodes)
 				{
-					node_text+=child.textContent
+					if(child.nodeType==Node.TEXT_NODE)
+					{
+						node_text+=child.textContent
+					}
 				}
+				
+				// let plain_text=lb.innerText
+				let plain_text=node_text.slice(0) //copy
+
+				// let rx=new RegExp('\\[')
+				// if(rx.test(plain_text))
+				// {
+				// 	console.log(plain_text)
+				// }
+				
+				//remove line endings & tabs
+				plain_text=plain_text.replaceAll(/^[\s]+/g,'') //remove from beginning of string
+				plain_text=plain_text.replaceAll(/[\s]+$/g,'') //remove from end of string
+				plain_text=plain_text.replaceAll(/[\r\n]+/g,'//') //replace with // within string
+				plain_text=plain_text.replaceAll(/[\t]/g,' ')
+
+				//remove markup
+				plain_text=plain_text.replaceAll(/\{[^]*?(\}|$)/g,'') // {...} or {...
+				plain_text=plain_text.replaceAll(/[^]*?\}/g,'') // ...}
+				plain_text=plain_text.replaceAll(/\[[^]*?(\]|$)/g,'') // [...] or [...
+				plain_text=plain_text.replaceAll(/[^]*?\]/g,'') // ...]
+
+				let utt=
+				{
+					// text:lb.innerText,
+					text:node_text,
+					plain_text:plain_text,
+					code:tags_string,
+					hyphenated:hyphenated, //hyphenated lb tag
+				}
+				utts.push(utt)
+				
+				resolve()
 			}
-			
-			// let plain_text=lb.innerText
-			let plain_text=node_text.slice(0) //copy
-
-			// let rx=new RegExp('\\[')
-			// if(rx.test(plain_text))
-			// {
-			// 	console.log(plain_text)
-			// }
-			
-			//remove line endings & tabs
-			plain_text=plain_text.replaceAll(/^[\s]+/g,'') //remove from beginning of string
-			plain_text=plain_text.replaceAll(/[\s]+$/g,'') //remove from end of string
-			plain_text=plain_text.replaceAll(/[\r\n]+/g,'//') //replace with // within string
-			plain_text=plain_text.replaceAll(/[\t]/g,' ')
-
-			//remove markup
-			plain_text=plain_text.replaceAll(/\{[^]*?(\}|$)/g,'') // {...} or {...
-			plain_text=plain_text.replaceAll(/[^]*?\}/g,'') // ...}
-			plain_text=plain_text.replaceAll(/\[[^]*?(\]|$)/g,'') // [...] or [...
-			plain_text=plain_text.replaceAll(/[^]*?\]/g,'') // ...]
-
-			let utt=
-			{
-				// text:lb.innerText,
-				text:node_text,
-				plain_text:plain_text,
-				code:tags_string,
-				hyphenated:hyphenated, //hyphenated lb tag
-			}
-			utts.push(utt)
-		}
+		})
 	})
 }
 
-function search()
+async function loadCorpora()
 {
-	let search=document.getElementById('search').value //search string
-	let regex=document.getElementById('regex').checked
-	let markup=document.getElementById('markup').checked
-	let welsh_v=document.getElementById('welsh_v').checked
-	let accents=document.getElementById('accents').checked
-	let whole_word=document.getElementById('whole_word').checked
-	let case_sensitive=document.getElementById('case_sensitive').checked
-
 	//load corpora into utts
 	utts=[]
 	var select = document.getElementById('corpus')
@@ -307,14 +306,29 @@ function search()
 			switch(type)
 			{
 				case 'pos':
-					loadPosFile(filename)
+					await loadPosFile(filename)
 				break
 				case 'xml':
-					loadHtmlFile(filename)
+					await loadHtmlFile(filename)
 				break
 			}
 		}
-	}
+	}	
+}
+
+function search()
+{
+	let search=document.getElementById('search').value //search string
+	let regex=document.getElementById('regex').checked
+	let markup=document.getElementById('markup').checked
+	let welsh_v=document.getElementById('welsh_v').checked
+	let accents=document.getElementById('accents').checked
+	let whole_word=document.getElementById('whole_word').checked
+	let case_sensitive=document.getElementById('case_sensitive').checked
+
+	document.getElementById("results").innerHTML = "Searching..."
+
+	loadCorpora().then(()=>{
 
 	//construct regex
 	let re
@@ -441,6 +455,7 @@ function search()
 	res=`<div><u>${num_results} <span class="cymraeg">o Ganlyniadau</span> <span class="english">Results</span></u></div><br>`+res
 	document.getElementById("results").innerHTML = res
 
+	})
 	//console.log(results_csv)
 }
 
