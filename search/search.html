@@ -6,6 +6,7 @@
 	<body>
 		<h3><span class="cymraeg">Chwilio</span> <span class="english">Search</span></h3>
 		<div>
+			<p id="loading">Loading...</p>
 			<select name="corpus" id="corpus" multiple>
 			<!-- <select name="corpus" id="corpus" multiple size="5"> -->
 			<!-- <select name="corpus" id="corpus" multiple size="5" onchange="select_corpus()"> -->
@@ -29,7 +30,7 @@
 			<!-- <button onclick="add_char('&#7823')">&#7823</button> -->
 			<!-- ỽ -->
 			<button onclick="add_char('&#7933')">&#7933</button>
-			<button onclick="search()">Chwilio / Search</button>
+			<button id="search_button" onclick="search()">Chwilio / Search</button>
 		</div>
 		<br>
 		<div>

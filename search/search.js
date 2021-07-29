@@ -1,46 +1,26 @@
-// ADD SECTION FOR EACH CORPUS - key should match the dropdown option value in search.html, type should be one of 'pos' or 'html'
-// let corpora=
-// {
-// 	pwyllwb:
-// 	{
-// 		filename:'PwyllWB.pos.txt',
-// 		type:'pos'
-// 	},
-// 	hcwl:
-// 	{
-// 		filename:'hcwl_sketchengine_v4.txt',
-// 		type:'html'
-// 	},
-// 	amer_ske:
-// 	{
-// 		filename:'HCWL Sketchengine/files/amer_ske.xml',
-// 		type:'html'
-// 	},
-// 	b1588_ske:
-// 	{
-// 		filename:'HCWL Sketchengine/files/b1588_ske.xml',
-// 		type:'html'
-// 	}
-// }
-
 let corpora={}
-let utts=[]
 let lines_before=0
 let lines_after=0
 let results_csv=''
 
 //INIT
 
-//build drop down of corpora
-fetch('https://www.celticstudies.net/search/corpora/corpora.json').then(response => response.json()).then(data => 
+//build drop down of corpora & load file 
+fetch('https://www.celticstudies.net/search/corpora/corpora.json').then(response => response.json()).then(async data => 
 {
 	corpora=data
 	//console.log(corpora)
 
+	var loading=document.getElementById('loading')
+	loading.hidden=false
+	var search=document.getElementById('search_button')
+	search.disabled=true
 	var select = document.getElementById('corpus')
+	select.hidden=true
 
 	for(let key in corpora)
 	{
+		//dropdown
 		var opt = document.createElement('option')
 		opt.value = key
 		if("display" in corpora[key])
@@ -53,9 +33,30 @@ fetch('https://www.celticstudies.net/search/corpora/corpora.json').then(response
 		}
 		opt.selected=true
 		select.appendChild(opt)
+
+		//load file
+		console.log('loading',key)
+		let filename=corpora[key].filename
+		let type=corpora[key].type
+
+		let utts
+		switch(type)
+		{
+			case 'pos':
+				utts= await loadPosFile(filename)
+			break
+			case 'xml':
+				utts= await loadHtmlFile(filename)
+			break
+		} 
+
+		corpora[key].utts=utts
 	}
 	
 	document.multiselect('#corpus')
+	select.hidden=false
+	loading.hidden=true
+	search.disabled=false
 })
 
 //text box enter
@@ -66,19 +67,6 @@ document.getElementById('search').addEventListener("keyup", ({key}) =>
 		search()
 	}
 })
-
-// function select_corpus()
-// {
-// 	var select = document.getElementById('corpus')
-// 	for(let opt of select.options)
-// 	{
-// 		if(opt.selected)
-// 		{
-// 			let corpus=opt.value
-// 			console.log(opt.value)
-// 		}
-// 	}
-// }
 
 function on_lines()
 {
@@ -108,7 +96,7 @@ function loadPosFile(filename)
 
 				//remove line endings
 				//text=text.replaceAll(/[\r\n]/g,'//')
-
+				let utts=[]
 				let utts_array=text.split('<utt>')
 
 				for(let utt_string of utts_array)
@@ -153,8 +141,7 @@ function loadPosFile(filename)
 					utts.push(utt)
 				}
 
-				//console.log(utts)
-				resolve()
+				resolve(utts)
 			})
 		})
 	})
@@ -171,6 +158,7 @@ function loadHtmlFile(filename)
 			let parser=new DOMParser()
 			let dom=parser.parseFromString(text, "text/xml")
 			let tags=dom.getElementsByTagName('*')
+			let utts=[]
 
 			// let head_tags=dom.getElementsByTagName('head')
 			// let lb_tags=dom.getElementsByTagName('lb')
@@ -200,7 +188,7 @@ function loadHtmlFile(filename)
 				//is heading tag?
 				if(tag.localName=='head')
 				{
-					tags_string+=' heading'
+					tags_string+=' pennawd/heading'
 				}
 				else
 				{
@@ -210,7 +198,7 @@ function loadHtmlFile(filename)
 					{
 						if(node.localName=='head')
 						{
-							tags_string+=' heading'
+							tags_string+=' pennawd/heading'
 							break
 						}
 						node=node.parentNode
@@ -283,7 +271,7 @@ function loadHtmlFile(filename)
 				}
 				utts.push(utt)
 				
-				resolve()
+				resolve(utts)
 			}
 		})
 	})
@@ -326,9 +314,23 @@ function search()
 	let whole_word=document.getElementById('whole_word').checked
 	let case_sensitive=document.getElementById('case_sensitive').checked
 
-	document.getElementById("results").innerHTML = "Searching..."
+	let searching=document.getElementById("results")
+	searching.innerHTML = "Wrthi'n Chwilio / Searching..."
 
-	loadCorpora().then(()=>{
+	//use timeout so DOM can refresh first
+	setTimeout(()=>{
+
+	var utts=[]
+	var select = document.getElementById('corpus')
+	for(let opt of select.options)
+	{
+		if(opt.selected)
+		{
+			let corpus=opt.value
+			//console.log(opt.value)
+			utts=utts.concat(corpora[corpus].utts)
+		}
+	}
 
 	//construct regex
 	let re
@@ -455,7 +457,8 @@ function search()
 	res=`<div><u>${num_results} <span class="cymraeg">o Ganlyniadau</span> <span class="english">Results</span></u></div><br>`+res
 	document.getElementById("results").innerHTML = res
 
-	})
+	},0.1)
+	//})
 	//console.log(results_csv)
 }
 
