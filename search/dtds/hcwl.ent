@@ -1,0 +1,84 @@
+<!ENTITY cd "ch">
+<!-- LATIN SMALL LETTER C WITH SUBSCRIPT DOT = <ch> -->
+<!ENTITY Cd "Ch">
+<!-- LATIN CAPITAL LETTER C WITH SUBSCRIPT DOT -->
+<!ENTITY dd "dd">
+<!-- LATIN SMALL LETTER D WITH SUBSCRIPT DOT -->
+<!ENTITY Dd "Dd">
+<!-- LATIN CAPITAL LETTER D WITH SUBSCRIPT DOT -->
+<!ENTITY dhook "d'">
+<!-- SMALL LATIN LETTER D WITH ATTACHED HOOK/APOSTROPHE = <dd> -->
+<!ENTITY Dhook "D'">
+<!-- CAPITAL LATIN LETTER D WITH ATTACHED HOOK/APOSTROPHE = <dd> -->
+<!ENTITY delta "dd">
+<!-- DELTA = <dd> -->
+<!ENTITY ld "ll">
+<!-- LATIN SMALL LETTER L WITH SUBSCRIPT DOT -->
+<!ENTITY Ld "Ll">
+<!-- LATIN CAPITAL LETTER L WITH SUBSCRIPT DOT -->
+<!ENTITY lhook "l'">
+<!-- SMALL LATIN LETTER L WITH ATTACHED HOOK/APOSTROPHE = <ll> -->
+<!ENTITY mh "mh">
+<!-- LATIN SMALL LIGATURE MH -->
+<!ENTITY ng "ng">
+<!-- LATIN SMALL LIGATURE NG -->
+<!ENTITY Ng "Ng">
+<!-- LATIN CAPITAL LIGATURE NG -->
+<!ENTITY ngh "ngh">
+<!-- LATIN SMALL LIGATURE NGH -->
+<!ENTITY nh "nh">
+<!-- LATIN SMALL LIGATURE NH -->
+<!ENTITY Nh "Nh">
+<!-- LATIN CAPITAL LIGATURE NH -->
+<!ENTITY pd "ph">
+<!-- LATIN SMALL LETTER P WITH SUBSCRIPT DOT = <ph> -->
+<!ENTITY Pd "Ph">
+<!-- LATIN CAPITAL LETTER P WITH SUBSCRIPT DOT = <Ph> -->
+<!ENTITY rd "rh">
+<!-- LATIN SMALL LETTER R WITH SUBSCRIPT DOT -->
+<!ENTITY Rd "Rh">
+<!-- LATIN CAPITAL LETTER R WITH SUBSCRIPT DOT -->
+<!ENTITY td "th">
+<!-- LATIN SMALL LETTER T WITH SUBSCRIPT DOT -->
+<!ENTITY Td "Th">
+<!-- LATIN CAPITAL LETTER T WITH SUBSCRIPT DOT -->
+<!ENTITY ud "w">
+<!-- LATIN SMALL LETTER U WITH SUBSCRIPT DOT -->
+<!ENTITY Ud "W">
+<!-- LATIN CAPITAL LETTER U WITH SUBSCRIPT DOT -->
+<!ENTITY vd "w">
+<!-- LATIN SMALL LETTER V WITH SUBSCRIPT DOT -->
+<!ENTITY Vd "W">
+<!-- LATIN CAPITAL LETTER V WITH SUBSCRIPT DOT -->
+<!ENTITY vv "vv">
+<!-- DIGRAPH VV AS ANTIQUA-REPLACEMENT FOR W -->
+<!ENTITY yr "/r/"><!-- MS /r/ = 'r -->
+<!ENTITY ym "/m/"><!-- MS /m/ = 'm -->
+<!ENTITY yn "/n/"><!-- MS /n/ = 'n -->
+<!ENTITY ycd "/ch/"><!-- MS /ch/ = 'ch -->
+<!ENTITY er "{er}">
+<!-- ABBREVIATION FOR ER -->
+<!-- note: in Engl. Chronicle, always after m! -->
+<!-- five corrections to iso-lat1.ent: -->
+<!ENTITY eth "&#x00F0;">
+<!-- LATIN SMALL LETTER ETH -->
+<!ENTITY ETH "&#x00D0;">
+<!-- LATIN CAPITAL LETTER ETH -->
+<!ENTITY oslash "&#x00F8;">
+<!-- LATIN SMALL LETTER O WITH STROKE -->
+<!ENTITY ucirc "&#x00FB;">
+<!-- LATIN SMALL LETTER U WITH CIRCUMFLEX -->
+<!ENTITY Ucirc "&#x00DB;">
+<!-- LATIN CAPITAL LETTER U WITH CIRCUMFLEX -->
+<!-- Cf. teiclas2.ent -->
+<!--
+<!ENTITY % x.refsys 'lbh |'>
+<!ENTITY % x.edit 'dsp | isp|'>
+-->
+<!ENTITY dsp "&#x005F;">
+<!-- dsp="delete space", i.e., the manuscript has a space which, in regularisation, should be deleted; the standard replacement string is understroke; leave empty for the regularised version -->
+<!ENTITY isp "&#x007C;">
+<!-- isp = "insert space", i.e., the manuscript has no space where, in regularisation, a space should be inserted; here represented by vertical bar; give "&#x00A0" = nbsp for the regularised version-->
+<!ENTITY insmark "&#x0022;">
+<!-- quotation mark as insertion mark -->
+<!ENTITY shy "-">
