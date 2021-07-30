@@ -19,6 +19,8 @@
 %ISOnum;
 <!ENTITY % ISOpub SYSTEM "../dtds/iso-pub.ent">
 %ISOpub;
+<!ENTITY % xteipvdmod SYSTEM "../dtds/xteipvdmod.dtd">
+%xteipvdmod;
 ]>
 <text id="Amer">
    
