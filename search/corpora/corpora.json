@@ -1,69 +1,69 @@
 {
-	"Amer": {
+	"Yr American (Amer.)": {
 		"filename": "corpora/amer_ske.xml",
 		"type": "xml"
 	},
-	"b1588_ske": {
+	"Beibl 1588": {
 		"filename": "corpora/b1588_ske.xml",
 		"type": "xml"
 	},
-	"ber_ske": {
+	"Baledi Elis Roberts (BER)": {
 		"filename": "corpora/ber_ske.xml",
 		"type": "xml"
 	},
-	"bhj_ske": {
+	"Baledi Hugh Jones (BHJ)": {
 		"filename": "corpora/bhj_ske.xml",
 		"type": "xml"
 	},
-	"bll_ske": {
+	"Y Brenin Llur (BLl)": {
 		"filename": "corpora/bll_ske.xml",
 		"type": "xml"
 	},
-	"bmadd14986_ske": {
+	"Dramâu crefyddol (BL. Add. 14986)": {
 		"filename": "corpora/bmadd14986_ske.xml",
 		"type": "xml"
 	},
-	"cardiff6_ske": {
+	"Barddoniaeth rydd (Caerdydd 6)": {
 		"filename": "corpora/cardiff6_ske.xml",
 		"type": "xml"
 	},
-	"chsm_ske": {
+	"Cronicl Hywel ap Syr Mathew (CHSM)": {
 		"filename": "corpora/chsm_ske.xml",
 		"type": "xml"
 	},
-	"cmb_ske": {
+	"Crefydd mewn Bwthyn (CMB)": {
 		"filename": "corpora/cmb_ske.xml",
 		"type": "xml"
 	},
-	"dff_ske": {
+	"Darn o'r Ffestifal (DFf)": {
 		"filename": "corpora/dff_ske.xml",
 		"type": "xml"
 	},
-	"dpo_ske": {
+	"Drych y Prif Oesoedd (DPO)": {
 		"filename": "corpora/dpo_ske.xml",
 		"type": "xml"
 	},
-	"gbc_ske": {
+	"Gweledigaetheu y Bardd Cwsc (GBC)": {
 		"filename": "corpora/gbc_ske.xml",
 		"type": "xml"
 	},
-	"hhgb_ske": {
+	"Hanes holl grefyddau'r byd (HHGB)": {
 		"filename": "corpora/hhgb_ske.xml",
 		"type": "xml"
 	},
-	"jaug_ske": {
+	"Berr hanes o'r pethau mwyaf hynod ym mywyd James Albert Ukawsaw Groniosaw (JAUG)": {
 		"filename": "corpora/jaug_ske.xml",
 		"type": "xml"
 	},
-	"llgm_ske": {
+	"Barddoniaeth rydd Llyfr Gwyn Mechell (LlGM)": {
 		"filename": "corpora/llgm_ske.xml",
 		"type": "xml"
 	},
-	"llgo_ske": {
+	"Llythyrau Goronwy Owen at William Morris (LlGO)": {
 		"filename": "corpora/llgo_ske.xml",
 		"type": "xml"
 	},
-	"llh_ske": {
+	"Llyfr yr Homilïau (LlH)": {
 		"filename": "corpora/llh_ske.xml",
 		"type": "xml"
 	},
