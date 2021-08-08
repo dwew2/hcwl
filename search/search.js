@@ -371,7 +371,7 @@ function search()
 	}
 	catch
 	{
-		document.getElementById("results").innerHTML = 'Regex Error'
+		document.getElementById("results").innerHTML = 'Regex Error!'
 		return		
 	}	
 	
