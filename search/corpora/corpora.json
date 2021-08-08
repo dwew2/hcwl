@@ -1,127 +1,157 @@
 {
-	"Yr American (Amer.)": {
+	"amer_ske": {
 		"filename": "corpora/amer_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Yr American (Amer.)"
 	},
-	"Beibl / Bible (Beibl 1588)": {
+	"b1588_ske": {
 		"filename": "corpora/b1588_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Beibl / Bible (Beibl 1588)"
 	},
-	"Baledi / ballads (Elis Roberts) (BER)": {
+	"ber_ske": {
 		"filename": "corpora/ber_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Baledi / ballads (Elis Roberts) (BER)"
 	},
-	"Baledi / Ballads (Hugh Jones) (BHJ)": {
+	"bhj_ske": {
 		"filename": "corpora/bhj_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Baledi / Ballads (Hugh Jones) (BHJ)"
 	},
-	"Y Brenin Llur (BLl)": {
+	"bll_ske": {
 		"filename": "corpora/bll_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Y Brenin Llur (BLl)"
 	},
-	"Dramâu crefyddol / Religious drama (BL. Add. 14986)": {
+	"bmadd14986_ske": {
 		"filename": "corpora/bmadd14986_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Dramâu crefyddol / Religious drama (BL. Add. 14986)"
 	},
-	"Barddoniaeth rydd (Caerydd 6) / Free-metre poetry (Cardiff 6)": {
+	"cardiff6_ske": {
 		"filename": "corpora/cardiff6_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Barddoniaeth rydd (Caerydd 6) / Free-metre poetry (Cardiff 6)"
 	},
-	"Cronicl Hywel ap Syr Mathew (CHSM)": {
+	"chsm_ske": {
 		"filename": "corpora/chsm_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Cronicl Hywel ap Syr Mathew (CHSM)"
 	},
-	"Crefydd mewn Bwthyn (CMB)": {
+	"cmb_ske": {
 		"filename": "corpora/cmb_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Crefydd mewn Bwthyn (CMB)"
 	},
-	"Darn o'r Ffestifal (DFf)": {
+	"dff_ske": {
 		"filename": "corpora/dff_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Darn o'r Ffestifal (DFf)"
 	},
-	"Drych y Prif Oesoedd (DPO)": {
+	"dpo_ske": {
 		"filename": "corpora/dpo_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Drych y Prif Oesoedd (DPO)"
 	},
-	"Gweledigaetheu y Bardd Cwsc (GBC)": {
+	"gbc_ske": {
 		"filename": "corpora/gbc_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Gweledigaetheu y Bardd Cwsc (GBC)"
 	},
-	"Hanes holl grefyddau'r byd (HHGB)": {
+	"hhgb_ske": {
 		"filename": "corpora/hhgb_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Hanes holl grefyddau'r byd (HHGB)"
 	},
-	"Berr hanes o'r pethau mwyaf hynod ym mywyd James Albert Ukawsaw Groniosaw (JAUG)": {
+	"jaug_ske": {
 		"filename": "corpora/jaug_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Berr hanes o'r pethau mwyaf hynod ym mywyd James Albert Ukawsaw Groniosaw (JAUG)"
 	},
-	"Barddoniaeth rydd / Free poetry (Llyfr Gwyn Mechell) (LlGM)": {
+	"llgm_ske": {
 		"filename": "corpora/llgm_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Barddoniaeth rydd / Free poetry (Llyfr Gwyn Mechell) (LlGM)"
 	},
-	"Llythyrau Goronwy Owen at William Morris (LlGO)": {
+	"llgo_ske": {
 		"filename": "corpora/llgo_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Llythyrau Goronwy Owen at William Morris (LlGO)"
 	},
-	"Llyfr yr Homilïau (LlH)": {
+	"llh_ske": {
 		"filename": "corpora/llh_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Llyfr yr Homilïau (LlH)"
 	},
-	"Ystorïau (NLW 13075B)": {
+	"nlw13075b_ske": {
 		"filename": "corpora/nlw13075b_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Ystorïau (NLW 13075B)"
 	},
-	"Llythyrau at ymfudwyr Cymraeg / Letters to Welsh settlers (NLW 14873E)": {
+	"nlw14873e_ske": {
 		"filename": "corpora/nlw14873e_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Llythyrau at ymfudwyr Cymraeg / Letters to Welsh settlers (NLW 14873E)"
 	},
-	"Llythyrau gan ymfudwyr Cymraeg / Letters by Welsh settlers (NLW 2722E)": {
+	"nlw2722e_ske": {
 		"filename": "corpora/nlw2722e_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Llythyrau gan ymfudwyr Cymraeg / Letters by Welsh settlers (NLW 2722E)"
 	},
-	"Barddoniaeth rydd / Free-metre poetry (Pen. 218)": {
+	"pen218_ske": {
 		"filename": "corpora/pen218_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Barddoniaeth rydd / Free-metre poetry (Pen. 218)"
 	},
-	"Perl mewn Adfyd (PMA)": {
+	"pma_ske": {
 		"filename": "corpora/pma_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display":"Perl mewn Adfyd (PMA)"
 	},
-	"White Book Pwyll (PARSHCWL)": {
+	"PwyllWB.pos": {
 		"filename": "corpora/PwyllWB.pos.txt",
 		"type": "pos",
-		"display":"PARSHCWL"
+		"display": "White Book Pwyll (PARSHCWL)"
 	},
-	"Y Rhyfel Cartrefol (RhC)": {
+	"rhc_ske": {
 		"filename": "corpora/rhc_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Y Rhyfel Cartrefol (RhC)"
 	},
-	"Rhyfeddode'r Ynys (RhY)": {
+	"rhy_ske": {
 		"filename": "corpora/rhy_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Rhyfeddode'r Ynys (RhY)"
 	},
-	"Troelus a Chressyd (TCh)": {
+	"tch_ske": {
 		"filename": "corpora/tch_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Troelus a Chressyd (TCh)"
 	},
-	"Tri Chryfion Byd (TChB)": {
+	"tchb_ske": {
 		"filename": "corpora/tchb_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Tri Chryfion Byd (TChB)"
 	},
-	"Barddoniaeth rydd / Free-metre poetry (Tomas ab Ieuan ap Rhys) (TIRh)": {
+	"tirh_ske": {
 		"filename": "corpora/tirh_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Barddoniaeth rydd / Free-metre poetry (Tomas ab Ieuan ap Rhys) (TIRh)"
 	},
-	"Testament Newydd / New Testament 1567 (Thomas Huet) (TN Huet)": {
+	"tn-huet_ske": {
 		"filename": "corpora/tn-huet_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Testament Newydd / New Testament 1567 (Thomas Huet) (TN Huet)"
 	},
-	"Testament Newydd / New Testament 1567 (William Salesbury) (TN Sal.)": {
+	"tn-sal_ske": {
 		"filename": "corpora/tn-sal_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Testament Newydd / New Testament 1567 (William Salesbury) (TN Sal.)"
 	},
-	"Ystorie Kymru (YK)": {
+	"yk_ske": {
 		"filename": "corpora/yk_ske.xml",
-		"type": "xml"
+		"type": "xml",
+		"display": "Ystorie Kymru (YK)"
 	}
 }
