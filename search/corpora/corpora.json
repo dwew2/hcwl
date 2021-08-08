@@ -3,15 +3,15 @@
 		"filename": "corpora/amer_ske.xml",
 		"type": "xml"
 	},
-	"Beibl 1588": {
+	"Beibl / Bible (Beibl 1588)": {
 		"filename": "corpora/b1588_ske.xml",
 		"type": "xml"
 	},
-	"Baledi Elis Roberts (BER)": {
+	"Baledi / ballads (Elis Roberts) (BER)": {
 		"filename": "corpora/ber_ske.xml",
 		"type": "xml"
 	},
-	"Baledi Hugh Jones (BHJ)": {
+	"Baledi / Ballads (Hugh Jones) (BHJ)": {
 		"filename": "corpora/bhj_ske.xml",
 		"type": "xml"
 	},
@@ -19,11 +19,11 @@
 		"filename": "corpora/bll_ske.xml",
 		"type": "xml"
 	},
-	"Dramâu crefyddol (BL. Add. 14986)": {
+	"Dramâu crefyddol / Religious drama (BL. Add. 14986)": {
 		"filename": "corpora/bmadd14986_ske.xml",
 		"type": "xml"
 	},
-	"Barddoniaeth rydd (Caerdydd 6)": {
+	"Barddoniaeth rydd (Caerydd 6) / Free-metre poetry (Cardiff 6)": {
 		"filename": "corpora/cardiff6_ske.xml",
 		"type": "xml"
 	},
@@ -55,7 +55,7 @@
 		"filename": "corpora/jaug_ske.xml",
 		"type": "xml"
 	},
-	"Barddoniaeth rydd Llyfr Gwyn Mechell (LlGM)": {
+	"Barddoniaeth rydd / Free poetry (Llyfr Gwyn Mechell) (LlGM)": {
 		"filename": "corpora/llgm_ske.xml",
 		"type": "xml"
 	},
@@ -67,60 +67,60 @@
 		"filename": "corpora/llh_ske.xml",
 		"type": "xml"
 	},
-	"nlw13075b_ske": {
+	"Ystorïau (NLW 13075B)": {
 		"filename": "corpora/nlw13075b_ske.xml",
 		"type": "xml"
 	},
-	"nlw14873e_ske": {
+	"Llythyrau at ymfudwyr Cymraeg / Letters to Welsh settlers (NLW 14873E)": {
 		"filename": "corpora/nlw14873e_ske.xml",
 		"type": "xml"
 	},
-	"nlw2722e_ske": {
+	"Llythyrau gan ymfudwyr Cymraeg / Letters by Welsh settlers (NLW 2722E)": {
 		"filename": "corpora/nlw2722e_ske.xml",
 		"type": "xml"
 	},
-	"pen218_ske": {
+	"Barddoniaeth rydd / Free-metre poetry (Pen. 218)": {
 		"filename": "corpora/pen218_ske.xml",
 		"type": "xml"
 	},
-	"pma_ske": {
+	"Perl mewn Adfyd (PMA)": {
 		"filename": "corpora/pma_ske.xml",
 		"type": "xml"
 	},
-	"PwyllWB.pos": {
+	"White Book Pwyll (PARSHCWL)": {
 		"filename": "corpora/PwyllWB.pos.txt",
 		"type": "pos",
 		"display":"PARSHCWL"
 	},
-	"rhc_ske": {
+	"Y Rhyfel Cartrefol (RhC)": {
 		"filename": "corpora/rhc_ske.xml",
 		"type": "xml"
 	},
-	"rhy_ske": {
+	"Rhyfeddode'r Ynys (RhY)": {
 		"filename": "corpora/rhy_ske.xml",
 		"type": "xml"
 	},
-	"tch_ske": {
+	"Troelus a Chressyd (TCh)": {
 		"filename": "corpora/tch_ske.xml",
 		"type": "xml"
 	},
-	"tchb_ske": {
+	"Tri Chryfion Byd (TChB)": {
 		"filename": "corpora/tchb_ske.xml",
 		"type": "xml"
 	},
-	"tirh_ske": {
+	"Barddoniaeth rydd / Free-metre poetry (Tomas ab Ieuan ap Rhys) (TIRh)": {
 		"filename": "corpora/tirh_ske.xml",
 		"type": "xml"
 	},
-	"tn-huet_ske": {
+	"Testament Newydd / New Testament 1567 (Thomas Huet) (TN Huet)": {
 		"filename": "corpora/tn-huet_ske.xml",
 		"type": "xml"
 	},
-	"tn-sal_ske": {
+	"Testament Newydd / New Testament 1567 (William Salesbury) (TN Sal.)": {
 		"filename": "corpora/tn-sal_ske.xml",
 		"type": "xml"
 	},
-	"yk_ske": {
+	"Ystorie Kymru (YK)": {
 		"filename": "corpora/yk_ske.xml",
 		"type": "xml"
 	}
