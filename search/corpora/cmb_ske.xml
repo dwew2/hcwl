@@ -486,6 +486,7 @@
 <!ENTITY tdot  "&#x20DB;" >
 <!ENTITY tprime  "&#x2034;" >
 <!ENTITY wedgeq  "&#x2259;" >
+<!ENTITY extensions SYSTEM "../dtds/hcwl.ent">
 ]>
 
 <text id="CMB">
