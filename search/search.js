@@ -371,7 +371,7 @@ function search()
 	}
 	catch
 	{
-		document.getElementById("results").innerHTML = 'Gwall Regex / Regex Error!'
+		document.getElementById("results").innerHTML = 'Gwall Regex / Regex Error'
 		return		
 	}	
 	
@@ -398,7 +398,7 @@ function search()
 		}
 		catch
 		{
-			document.getElementById("results").innerHTML = 'Regex Error'
+			document.getElementById("results").innerHTML = 'Gwall Regex / Regex Error'
 			return		
 		}	
 
