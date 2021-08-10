@@ -34,6 +34,11 @@
 		"type": "xml",
 		"display": "Barddoniaeth rydd (Caerydd 6) / Free-metre poetry (Cardiff 6)"
 	},
+		"cc_ske": {
+		"filename": "corpora/cc_ske.xml",
+		"type": "xml",
+		"display": "Cwyn y Cystuddiedig"
+	},
 	"chsm_ske": {
 		"filename": "corpora/chsm_ske.xml",
 		"type": "xml",
