@@ -361,7 +361,7 @@ function search()
 			//re_expr='\\s'+re_expr+'\\s'
 			// \b doesn't work for non-ascii text
 			// match space or beginning/end with non-capturing groups
-			re_expr='(\\\\|—|-|^|\\s)'+re_expr+'(\\\\|—|-|;|\\:|,|\\.|$|\\s)'
+			re_expr='(\\\\|—|-|^|\\s)'+re_expr+'(\\\\|—|-|\\\;|\\\:|,|\\.|$|\\s)'
 		}
 	}
 	let flags= 'g'+ (case_sensitive ? '':'i')
