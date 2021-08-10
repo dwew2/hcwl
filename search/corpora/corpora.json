@@ -37,7 +37,7 @@
 		"cc_ske": {
 		"filename": "corpora/cc_ske.xml",
 		"type": "xml",
-		"display": "Cwyn y Cystuddiedig"
+		"display": "Cwyn y Cystuddiedig (CC)"
 	},
 	"chsm_ske": {
 		"filename": "corpora/chsm_ske.xml",
