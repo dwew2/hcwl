@@ -1,0 +1,3678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "../dtds/sketchengine.dtd" [
+<!ENTITY aacute  "&#x00E1;" >
+<!ENTITY Aacute  "&#x00C1;" >
+<!ENTITY acirc  "&#x00E2;" >
+<!ENTITY Acirc  "&#x00C2;" >
+<!ENTITY agrave  "&#x00E0;" >
+<!ENTITY Agrave  "&#x00C0;" >
+<!ENTITY aring  "&#x00E5;" >
+<!ENTITY Aring  "&#x00C5;" >
+<!ENTITY atilde  "&#x00E3;" >
+<!ENTITY Atilde  "&#x00C3;" >
+<!ENTITY auml  "&#x00E4;" >
+<!ENTITY Auml  "&#x00C4;" >
+<!ENTITY aelig  "&#x00E6;" >
+<!ENTITY AElig  "&#x00C6;" >
+<!ENTITY ccedil  "&#x00E7;" >
+<!ENTITY Ccedil  "&#x00C7;" >
+<!ENTITY eth  "&#x00F0;" >
+<!ENTITY ETH  "&#x00D0;" >
+<!ENTITY eacute  "&#x00E9;" >
+<!ENTITY Eacute  "&#x00C9;" >
+<!ENTITY ecirc  "&#x00EA;" >
+<!ENTITY Ecirc  "&#x00CA;" >
+<!ENTITY egrave  "&#x00E8;" >
+<!ENTITY Egrave  "&#x00C8;" >
+<!ENTITY euml  "&#x00EB;" >
+<!ENTITY Euml  "&#x00CB;" >
+<!ENTITY iacute  "&#x00ED;" >
+<!ENTITY Iacute  "&#x00CD;" >
+<!ENTITY icirc  "&#x00EE;" >
+<!ENTITY Icirc  "&#x00CE;" >
+<!ENTITY igrave  "&#x00EC;" >
+<!ENTITY Igrave  "&#x00CC;" >
+<!ENTITY iuml  "&#x00EF;" >
+<!ENTITY Iuml  "&#x00CF;" >
+<!ENTITY ntilde  "&#x00F1;" >
+<!ENTITY Ntilde  "&#x00D1;" >
+<!ENTITY oacute  "&#x00F3;" >
+<!ENTITY Oacute  "&#x00D3;" >
+<!ENTITY ocirc  "&#x00F4;" >
+<!ENTITY Ocirc  "&#x00D4;" >
+<!ENTITY ograve  "&#x00F2;" >
+<!ENTITY Ograve  "&#x00D2;" >
+<!ENTITY oslash  "&#x00F8;" >
+<!ENTITY Oslash  "&#x00D8;" >
+<!ENTITY otilde  "&#x00F5;" >
+<!ENTITY Otilde  "&#x00D5;" >
+<!ENTITY ouml  "&#x00F6;" >
+<!ENTITY Ouml  "&#x00D6;" >
+<!ENTITY szlig  "&#x00DF;" >
+<!ENTITY thorn  "&#x00FE;" >
+<!ENTITY THORN  "&#x00DE;" >
+<!ENTITY uacute  "&#x00FA;" >
+<!ENTITY Uacute  "&#x00DA;" >
+<!ENTITY ucirc  "&#x00FB;" >
+<!ENTITY Ucirc  "&#x00DB;" >
+<!ENTITY ugrave  "&#x00F9;" >
+<!ENTITY Ugrave  "&#x00D9;" >
+<!ENTITY uuml  "&#x00FC;" >
+<!ENTITY Uuml  "&#x00DC;" >
+<!ENTITY yacute  "&#x00FD;" >
+<!ENTITY Yacute  "&#x00DD;" >
+<!ENTITY yuml  "&#x00FF;" >
+<!ENTITY abreve  "&#x0103;" >
+<!ENTITY Abreve  "&#x0102;" >
+<!ENTITY amacr  "&#x0101;" >
+<!ENTITY Amacr  "&#x0100;" >
+<!ENTITY aogon  "&#x0105;" >
+<!ENTITY Aogon  "&#x0104;" >
+<!ENTITY cacute  "&#x0107;" >
+<!ENTITY Cacute  "&#x0106;" >
+<!ENTITY ccaron  "&#x010D;" >
+<!ENTITY Ccaron  "&#x010C;" >
+<!ENTITY ccirc  "&#x0109;" >
+<!ENTITY Ccirc  "&#x0108;" >
+<!ENTITY cdot  "&#x010B;" >
+<!ENTITY Cdot  "&#x010A;" >
+<!ENTITY dcaron  "&#x010F;" >
+<!ENTITY Dcaron  "&#x010E;" >
+<!ENTITY dstrok  "&#x0111;" >
+<!ENTITY Dstrok  "&#x0110;" >
+<!ENTITY ecaron  "&#x011B;" >
+<!ENTITY Ecaron  "&#x011A;" >
+<!ENTITY edot  "&#x0117;" >
+<!ENTITY Edot  "&#x0116;" >
+<!ENTITY emacr  "&#x0113;" >
+<!ENTITY Emacr  "&#x0112;" >
+<!ENTITY eogon  "&#x0119;" >
+<!ENTITY Eogon  "&#x0118;" >
+<!ENTITY gacute  "&#x01F5;" >
+<!ENTITY gbreve  "&#x011F;" >
+<!ENTITY Gbreve  "&#x011E;" >
+<!ENTITY Gcedil  "&#x0122;" >
+<!ENTITY gcirc  "&#x011D;" >
+<!ENTITY Gcirc  "&#x011C;" >
+<!ENTITY gdot  "&#x0121;" >
+<!ENTITY Gdot  "&#x0120;" >
+<!ENTITY hcirc  "&#x0125;" >
+<!ENTITY Hcirc  "&#x0124;" >
+<!ENTITY hstrok  "&#x0127;" >
+<!ENTITY Hstrok  "&#x0126;" >
+<!ENTITY Idot  "&#x0130;" >
+<!ENTITY Imacr  "&#x012A;" >
+<!ENTITY imacr  "&#x012B;" >
+<!ENTITY ijlig  "&#x0133;" >
+<!ENTITY IJlig  "&#x0132;" >
+<!ENTITY inodot  "&#x0131;" >
+<!ENTITY iogon  "&#x012F;" >
+<!ENTITY Iogon  "&#x012E;" >
+<!ENTITY itilde  "&#x0129;" >
+<!ENTITY Itilde  "&#x0128;" >
+<!ENTITY jcirc  "&#x0135;" >
+<!ENTITY Jcirc  "&#x0134;" >
+<!ENTITY kcedil  "&#x0137;" >
+<!ENTITY Kcedil  "&#x0136;" >
+<!ENTITY kgreen  "&#x0138;" >
+<!ENTITY lacute  "&#x013A;" >
+<!ENTITY Lacute  "&#x0139;" >
+<!ENTITY lcaron  "&#x013E;" >
+<!ENTITY Lcaron  "&#x013D;" >
+<!ENTITY lcedil  "&#x013C;" >
+<!ENTITY Lcedil  "&#x013B;" >
+<!ENTITY lmidot  "&#x0140;" >
+<!ENTITY Lmidot  "&#x013F;" >
+<!ENTITY lstrok  "&#x0142;" >
+<!ENTITY Lstrok  "&#x0141;" >
+<!ENTITY nacute  "&#x0144;" >
+<!ENTITY Nacute  "&#x0143;" >
+<!ENTITY eng  "&#x014B;" >
+<!ENTITY ENG  "&#x014A;" >
+<!ENTITY napos  "&#x0149;" >
+<!ENTITY ncaron  "&#x0148;" >
+<!ENTITY Ncaron  "&#x0147;" >
+<!ENTITY ncedil  "&#x0146;" >
+<!ENTITY Ncedil  "&#x0145;" >
+<!ENTITY odblac  "&#x0151;" >
+<!ENTITY Odblac  "&#x0150;" >
+<!ENTITY Omacr  "&#x014C;" >
+<!ENTITY omacr  "&#x014D;" >
+<!ENTITY oelig  "&#x0153;" >
+<!ENTITY OElig  "&#x0152;" >
+<!ENTITY racute  "&#x0155;" >
+<!ENTITY Racute  "&#x0154;" >
+<!ENTITY rcaron  "&#x0159;" >
+<!ENTITY Rcaron  "&#x0158;" >
+<!ENTITY rcedil  "&#x0157;" >
+<!ENTITY Rcedil  "&#x0156;" >
+<!ENTITY sacute  "&#x015B;" >
+<!ENTITY Sacute  "&#x015A;" >
+<!ENTITY scaron  "&#x0161;" >
+<!ENTITY Scaron  "&#x0160;" >
+<!ENTITY scedil  "&#x015F;" >
+<!ENTITY Scedil  "&#x015E;" >
+<!ENTITY scirc  "&#x015D;" >
+<!ENTITY Scirc  "&#x015C;" >
+<!ENTITY tcaron  "&#x0165;" >
+<!ENTITY Tcaron  "&#x0164;" >
+<!ENTITY tcedil  "&#x0163;" >
+<!ENTITY Tcedil  "&#x0162;" >
+<!ENTITY tstrok  "&#x0167;" >
+<!ENTITY Tstrok  "&#x0166;" >
+<!ENTITY ubreve  "&#x016D;" >
+<!ENTITY Ubreve  "&#x016C;" >
+<!ENTITY udblac  "&#x0171;" >
+<!ENTITY Udblac  "&#x0170;" >
+<!ENTITY umacr  "&#x016B;" >
+<!ENTITY Umacr  "&#x016A;" >
+<!ENTITY uogon  "&#x0173;" >
+<!ENTITY Uogon  "&#x0172;" >
+<!ENTITY uring  "&#x016F;" >
+<!ENTITY Uring  "&#x016E;" >
+<!ENTITY utilde  "&#x0169;" >
+<!ENTITY Utilde  "&#x0168;" >
+<!ENTITY wcirc  "&#x0175;" >
+<!ENTITY Wcirc  "&#x0174;" >
+<!ENTITY ycirc  "&#x0177;" >
+<!ENTITY Ycirc  "&#x0176;" >
+<!ENTITY Yuml  "&#x0178;" >
+<!ENTITY zacute  "&#x017A;" >
+<!ENTITY Zacute  "&#x0179;" >
+<!ENTITY zcaron  "&#x017E;" >
+<!ENTITY Zcaron  "&#x017D;" >
+<!ENTITY zdot  "&#x017C;" >
+<!ENTITY Zdot  "&#x017B;" >
+<!ENTITY agr  "&#x03B1;" >
+<!ENTITY Agr  "&#x0391;" >
+<!ENTITY bgr  "&#x03B2;" >
+<!ENTITY Bgr  "&#x0392;" >
+<!ENTITY ggr  "&#x03B3;" >
+<!ENTITY Ggr  "&#x0393;" >
+<!ENTITY dgr  "&#x03B4;" >
+<!ENTITY Dgr  "&#x0394;" >
+<!ENTITY egr  "&#x03B5;" >
+<!ENTITY Egr  "&#x0395;" >
+<!ENTITY zgr  "&#x03B6;" >
+<!ENTITY Zgr  "&#x0396;" >
+<!ENTITY eegr  "&#x03B7;" >
+<!ENTITY EEgr  "&#x0397;" >
+<!ENTITY thgr  "&#x03B8;" >
+<!ENTITY THgr  "&#x0398;" >
+<!ENTITY igr  "&#x03B9;" >
+<!ENTITY Igr  "&#x0399;" >
+<!ENTITY kgr  "&#x03BA;" >
+<!ENTITY Kgr  "&#x039A;" >
+<!ENTITY lgr  "&#x03BB;" >
+<!ENTITY Lgr  "&#x039B;" >
+<!ENTITY mgr  "&#x03BC;" >
+<!ENTITY Mgr  "&#x039C;" >
+<!ENTITY ngr  "&#x03BD;" >
+<!ENTITY Ngr  "&#x039D;" >
+<!ENTITY xgr  "&#x03BE;" >
+<!ENTITY Xgr  "&#x039E;" >
+<!ENTITY ogr  "&#x03BF;" >
+<!ENTITY Ogr  "&#x039F;" >
+<!ENTITY pgr  "&#x03C0;" >
+<!ENTITY Pgr  "&#x03A0;" >
+<!ENTITY rgr  "&#x03C1;" >
+<!ENTITY Rgr  "&#x03A1;" >
+<!ENTITY sgr  "&#x03C3;" >
+<!ENTITY Sgr  "&#x03A3;" >
+<!ENTITY sfgr  "&#x03C2;" >
+<!ENTITY tgr  "&#x03C4;" >
+<!ENTITY Tgr  "&#x03A4;" >
+<!ENTITY ugr  "&#x03C5;" >
+<!ENTITY Ugr  "&#x03A5;" >
+<!ENTITY phgr  "&#x03C6;" >
+<!ENTITY PHgr  "&#x03A6;" >
+<!ENTITY khgr  "&#x03C7;" >
+<!ENTITY KHgr  "&#x03A7;" >
+<!ENTITY psgr  "&#x03C8;" >
+<!ENTITY PSgr  "&#x03A8;" >
+<!ENTITY ohgr  "&#x03C9;" >
+<!ENTITY OHgr  "&#x03A9;" >
+<!ENTITY aacgr  "&#x03AC;" >
+<!ENTITY Aacgr  "&#x0386;" >
+<!ENTITY eacgr  "&#x03AD;" >
+<!ENTITY Eacgr  "&#x0388;" >
+<!ENTITY eeacgr  "&#x03AE;" >
+<!ENTITY EEacgr  "&#x0389;" >
+<!ENTITY idigr  "&#x03CA;" >
+<!ENTITY Idigr  "&#x03AA;" >
+<!ENTITY iacgr  "&#x03AF;" >
+<!ENTITY Iacgr  "&#x038A;" >
+<!ENTITY idiagr  "&#x0390;" >
+<!ENTITY oacgr  "&#x03CC;" >
+<!ENTITY Oacgr  "&#x038C;" >
+<!ENTITY udigr  "&#x03CB;" >
+<!ENTITY Udigr  "&#x03AB;" >
+<!ENTITY uacgr  "&#x03CD;" >
+<!ENTITY Uacgr  "&#x038E;" >
+<!ENTITY udiagr  "&#x03B0;" >
+<!ENTITY ohacgr  "&#x03CE;" >
+<!ENTITY OHacgr  "&#x038F;" >
+<!ENTITY half  "&#x00BD;" >
+<!ENTITY frac12  "&#x00BD;" >
+<!ENTITY frac14  "&#x00BC;" >
+<!ENTITY frac34  "&#x00BE;" >
+<!ENTITY frac18  "&#x215B;" >
+<!ENTITY frac38  "&#x215C;" >
+<!ENTITY frac58  "&#x215D;" >
+<!ENTITY frac78  "&#x215E;" >
+<!ENTITY sup1  "&#x00B9;" >
+<!ENTITY sup2  "&#x00B2;" >
+<!ENTITY sup3  "&#x00B3;" >
+<!ENTITY plus  "&#x002B;" >
+<!ENTITY plusmn  "&#x00B1;" >
+<!ENTITY equals  "&#x003D;" >
+<!ENTITY gt  "&#x003E;" >
+<!ENTITY divide  "&#x00F7;" >
+<!ENTITY times  "&#x00D7;" >
+<!ENTITY curren  "&#x00A4;" >
+<!ENTITY pound  "&#x00A3;" >
+<!ENTITY dollar  "&#x0024;" >
+<!ENTITY cent  "&#x00A2;" >
+<!ENTITY yen  "&#x00A5;" >
+<!ENTITY num  "&#x0023;" >
+<!ENTITY percnt  "&#x0025;" >
+<!ENTITY ast  "&#x2217;" >
+<!ENTITY commat  "&#x0040;" >
+<!ENTITY lsqb  "&#x005B;" >
+<!ENTITY bsol  "&#x005C;" >
+<!ENTITY rsqb  "&#x005D;" >
+<!ENTITY lcub  "&#x007B;" >
+<!ENTITY horbar  "&#x2015;" >
+<!ENTITY verbar  "&#x007C;" >
+<!ENTITY rcub  "&#x007D;" >
+<!ENTITY micro  "&#x00B5;" >
+<!ENTITY ohm  "&#x2126;" >
+<!ENTITY deg  "&#x00B0;" >
+<!ENTITY ordm  "&#x00BA;" >
+<!ENTITY ordf  "&#x00AA;" >
+<!ENTITY sect  "&#x00A7;" >
+<!ENTITY para  "&#x00B6;" >
+<!ENTITY middot  "&#x00B7;" >
+<!ENTITY larr  "&#x2190;" >
+<!ENTITY rarr  "&#x2192;" >
+<!ENTITY uarr  "&#x2191;" >
+<!ENTITY darr  "&#x2193;" >
+<!ENTITY copy  "&#x00A9;" >
+<!ENTITY reg  "&#x00AF;" >
+<!ENTITY trade  "&#x2122;" >
+<!ENTITY brvbar  "&#x00A6;" >
+<!ENTITY not  "&#x00AC;" >
+<!ENTITY sung  "&#x2669;" >
+<!ENTITY excl  "&#x0021;" >
+<!ENTITY iexcl  "&#x00A1;" >
+<!ENTITY quot  "&#x0022;" >
+<!ENTITY apos  "&#x0027;" >
+<!ENTITY lpar  "&#x0028;" >
+<!ENTITY rpar  "&#x0029;" >
+<!ENTITY comma  "&#x002C;" >
+<!ENTITY lowbar  "&#x005F;" >
+<!ENTITY hyphen  "&#xE4F8;" >
+<!ENTITY period  "&#x002E;" >
+<!ENTITY sol  "&#x002F;" >
+<!ENTITY colon  "&#x003A;" >
+<!ENTITY semi  "&#x003B;" >
+<!ENTITY quest  "&#x003F;" >
+<!ENTITY iquest  "&#x00BF;" >
+<!ENTITY laquo  "&#x00AB;" >
+<!ENTITY raquo  "&#x00BB;" >
+<!ENTITY lsquo  "&#x2018;" >
+<!ENTITY rsquo  "&#x2019;" >
+<!ENTITY ldquo  "&#x201C;" >
+<!ENTITY rdquo  "&#x201D;" >
+<!ENTITY nbsp  "&#x00A0;" >
+<!ENTITY shy  "&#x00AD;" >
+<!ENTITY acute  "&#x00B4;" >
+<!ENTITY breve  "&#x02D8;" >
+<!ENTITY caron  "&#x02C7;" >
+<!ENTITY cedil  "&#x00B8;" >
+<!ENTITY circ  "&#x2218;" >
+<!ENTITY dblac  "&#x02DD;" >
+<!ENTITY die  "&#x00A8;" >
+<!ENTITY dot  "&#x02D9;" >
+<!ENTITY grave  "&#x0060;" >
+<!ENTITY macr  "&#x00AF;" >
+<!ENTITY ogon  "&#x02DB;" >
+<!ENTITY ring  "&#x02DA;" >
+<!ENTITY tilde  "&#x007E;" >
+<!ENTITY uml  "&#x00A8;" >
+<!ENTITY emsp  "&#x2003;" >
+<!ENTITY ensp  "&#x2002;" >
+<!ENTITY emsp13  "&#x2004;" >
+<!ENTITY emsp14  "&#x2005;" >
+<!ENTITY numsp  "&#x2007;" >
+<!ENTITY puncsp  "&#x2008;" >
+<!ENTITY thinsp  "&#x2009;" >
+<!ENTITY hairsp  "&#x200A;" >
+<!ENTITY mdash  "&#x2014;" >
+<!ENTITY ndash  "&#x2013;" >
+<!ENTITY dash  "&#x2010;" >
+<!ENTITY blank  "&#x2423;" >
+<!ENTITY hellip  "&#x2026;" >
+<!ENTITY nldr  "&#x2025;" >
+<!ENTITY frac13  "&#x2153;" >
+<!ENTITY frac23  "&#x2154;" >
+<!ENTITY frac15  "&#x2155;" >
+<!ENTITY frac25  "&#x2156;" >
+<!ENTITY frac35  "&#x2157;" >
+<!ENTITY frac45  "&#x2158;" >
+<!ENTITY frac16  "&#x2159;" >
+<!ENTITY frac56  "&#x215A;" >
+<!ENTITY incare  "&#x2105;" >
+<!ENTITY block  "&#x2588;" >
+<!ENTITY uhblk  "&#x2580;" >
+<!ENTITY lhblk  "&#x2584;" >
+<!ENTITY blk14  "&#x2591;" >
+<!ENTITY blk12  "&#x2592;" >
+<!ENTITY blk34  "&#x2593;" >
+<!ENTITY marker  "&#x25AE;" >
+<!ENTITY cir  "&#x25CB;" >
+<!ENTITY squ  "&#x25A1;" >
+<!ENTITY rect  "&#x25AD;" >
+<!ENTITY utri  "&#x25B5;" >
+<!ENTITY dtri  "&#x25BF;" >
+<!ENTITY star  "&#x22C6;" >
+<!ENTITY bull  "&#x2022;" >
+<!ENTITY squf  "&#x25AA;" >
+<!ENTITY utrif  "&#x25B4;" >
+<!ENTITY dtrif  "&#x25BE;" >
+<!ENTITY ltrif  "&#x25C2;" >
+<!ENTITY rtrif  "&#x25B8;" >
+<!ENTITY clubs  "&#x2663;" >
+<!ENTITY diams  "&#x2666;" >
+<!ENTITY hearts  "&#x2665;" >
+<!ENTITY spades  "&#x2660;" >
+<!ENTITY malt  "&#x2720;" >
+<!ENTITY dagger  "&#x2020;" >
+<!ENTITY Dagger  "&#x2021;" >
+<!ENTITY check  "&#x2713;" >
+<!ENTITY cross  "&#x2717;" >
+<!ENTITY sharp  "&#x266F;" >
+<!ENTITY flat  "&#x266D;" >
+<!ENTITY male  "&#x2642;" >
+<!ENTITY female  "&#x2640;" >
+<!ENTITY phone  "&#x260E;" >
+<!ENTITY telrec  "&#x2315;" >
+<!ENTITY copysr  "&#x2117;" >
+<!ENTITY caret  "&#x2041;" >
+<!ENTITY lsquor  "&#x201A;" >
+<!ENTITY ldquor  "&#x201E;" >
+<!ENTITY fflig  "&#xFB00;" >
+<!ENTITY filig  "&#xFB01;" >
+<!ENTITY ffilig  "&#xFB03;" >
+<!ENTITY ffllig  "&#xFB04;" >
+<!ENTITY fllig  "&#xFB02;" >
+<!ENTITY mldr  "&#x2026;" >
+<!ENTITY rdquor  "&#x201C;" >
+<!ENTITY rsquor  "&#x2018;" >
+<!ENTITY vellip  "&#x22EE;" >
+<!ENTITY hybull  "&#x2043;" >
+<!ENTITY loz  "&#x25CA;" >
+<!ENTITY lozf  "&#x2726;" >
+<!ENTITY ltri  "&#x25C3;" >
+<!ENTITY rtri  "&#x25B9;" >
+<!ENTITY starf  "&#x2605;" >
+<!ENTITY natur  "&#x266E;" >
+<!ENTITY rx  "&#x211E;" >
+<!ENTITY sext  "&#x2736;" >
+<!ENTITY target  "&#x2316;" >
+<!ENTITY dlcrop  "&#x230D;" >
+<!ENTITY drcrop  "&#x230C;" >
+<!ENTITY ulcrop  "&#x230F;" >
+<!ENTITY urcrop  "&#x230E;" >
+<!ENTITY aleph  "&#x2135;" >
+<!ENTITY and  "&#x2227;" >
+<!ENTITY ang90  "&#x221F;" >
+<!ENTITY angsph  "&#x2222;" >
+<!ENTITY ap  "&#x2248;" >
+<!ENTITY becaus  "&#x2235;" >
+<!ENTITY bottom  "&#x22A5;" >
+<!ENTITY cap  "&#x2229;" >
+<!ENTITY cong  "&#x2245;" >
+<!ENTITY conint  "&#x222E;" >
+<!ENTITY cup  "&#x222A;" >
+<!ENTITY equiv  "&#x2261;" >
+<!ENTITY exist  "&#x2203;" >
+<!ENTITY forall  "&#x2200;" >
+<!ENTITY fnof  "&#x0192;" >
+<!ENTITY ge  "&#x2265;" >
+<!ENTITY iff  "&#xE365;" >
+<!ENTITY infin  "&#x221E;" >
+<!ENTITY int  "&#x222B;" >
+<!ENTITY isin  "&#x220A;" >
+<!ENTITY lang  "&#x3008;" >
+<!ENTITY lArr  "&#x21D0;" >
+<!ENTITY le  "&#x2264;" >
+<!ENTITY minus  "&#x2212;" >
+<!ENTITY mnplus  "&#x2213;" >
+<!ENTITY nabla  "&#x2207;" >
+<!ENTITY ne  "&#x2260;" >
+<!ENTITY ni  "&#x220D;" >
+<!ENTITY or  "&#x2228;" >
+<!ENTITY par  "&#x2225;" >
+<!ENTITY part  "&#x2202;" >
+<!ENTITY permil  "&#x2030;" >
+<!ENTITY perp  "&#x22A5;" >
+<!ENTITY prime  "&#x2032;" >
+<!ENTITY Prime  "&#x2033;" >
+<!ENTITY prop  "&#x221D;" >
+<!ENTITY radic  "&#x221A;" >
+<!ENTITY rang  "&#x3009;" >
+<!ENTITY rArr  "&#x21D2;" >
+<!ENTITY sim  "&#x223C;" >
+<!ENTITY sime  "&#x2243;" >
+<!ENTITY square  "&#x25A1;" >
+<!ENTITY sub  "&#x2282;" >
+<!ENTITY sube  "&#x2286;" >
+<!ENTITY sup  "&#x2283;" >
+<!ENTITY supe  "&#x2287;" >
+<!ENTITY there4  "&#x2234;" >
+<!ENTITY Verbar  "&#x2016;" >
+<!ENTITY angst  "&#x212B;" >
+<!ENTITY bernou  "&#x212C;" >
+<!ENTITY compfn  "&#x2218;" >
+<!ENTITY Dot  "&#x0308;" >
+<!ENTITY DotDot  "&#x20DC;" >
+<!ENTITY hamilt  "&#x210B;" >
+<!ENTITY lagran  "&#x2112;" >
+<!ENTITY lowast  "&#x2217;" >
+<!ENTITY notin  "&#x2209;" >
+<!ENTITY order  "&#x2134;" >
+<!ENTITY phmmat  "&#x2133;" >
+<!ENTITY tdot  "&#x20DB;" >
+<!ENTITY tprime  "&#x2034;" >
+<!ENTITY wedgeq  "&#x2259;" >
+]>
+
+<text id="CC">
+   
+   
+   
+   
+   <pb n="3.">
+   
+   
+   <head>
+   
+    
+   <lb n="1">Gair blaenredol, neu Gynaraeth fer am 
+   </lb>
+   <lb n="1-2">Ddyoddefiadau
+   </lb>
+   <lb n="2">
+    y ddau Wr rhag-grybwylledig.</lb>
+   </head>    
+   
+   
+    
+   <lb n="3">CAwsant eu gosod, druain, ar ddibyn distryw,
+   </lb> 
+   <lb n="4">gyd &acirc;g amcan eglur a diamheuol i 'w bwrw 
+   </lb>
+   <lb n="4-5">drosodd
+   </lb>
+   <lb n="5">
+    bendramwnwgl Colledwyd a niweidwyd
+   </lb> 
+   <lb n="6">hwynt yn ddirfawr &#8212;  dugwyd hwy a 'u 
+   </lb>
+   <lb n="6-7">gwragedd
+   </lb>
+   <lb n="7">
+    a 'u plant i dlodi a dygndrallod &#8212; 
+   </lb>
+   <lb n="7-8">gwaradwyddwyd
+   </lb>
+   <lb n="8">
+    hwy, a dywedwyd pob drygair yn eu her</lb> 
+   <lb n="9">byn ar a fedrai plant y fall a 'r felldith ei lyfelu &#8212;
+   </lb> 
+   <lb n="10">Ac er na's gallai eu gelynion brofi cymmaint ag un
+   </lb> 
+   <lb n="11">o 'r aml gyhuddiadau a ddugasent yn eu herbyn, a
+   </lb> 
+   <lb n="12">gorfod iddynt, ar gyhoedd, o flaen y frawdlw, addef
+   </lb> 
+   <lb n="13">nad oedd un prawf yn eu meddiant, a rhoddi i fynu
+   </lb> 
+   <lb n="14">y cynghaws neu 'r treial ar y cyfrif hyny, etto 
+   </lb>
+   <lb n="14-15">cymmaint
+   </lb>
+   <lb n="15">
+    oedd helaethrwydd eu malais, ac angerdd eu
+   </lb> 
+   <lb n="16">cynddaredd ag na's gallent lai n&acirc; cheisio ac ymdrechu,
+   </lb> 
+   <lb n="17">hyd eithaf eu gallu i beri i 'r llys ac i 'r wlad i 
+   </lb>
+   <lb n="17-18">feddwl
+   </lb>
+   <lb n="18">
+    nad oedd y cyhuddiad ddim yn ddiachos, na 'r
+   </lb> 
+   <lb n="19">cyhuddedig yn ddieuog. Darfu iddynt eu gosod 
+   </lb>
+   <lb n="19-20">allan
+   </lb>
+   <lb n="20">
+    yn y lliw mwyaf du ac atgas, er y gwyddent nad
+   </lb> 
+   <lb n="21">o'ent \oeddynt\ yn abl i brofi dim drwg yn eu herbyn; heb
+   </lb> 
+   <lb n="22">adael iddynt hwythau o 'r tu arall, un cyfle i wneud
+   </lb> 
+   <lb n="23">amddiffyniad, neu i atteb drostynt eu hunain, na
+   </lb> 
+   <lb n="24">galw un tyst o 'u tu, er fod ganddynt ddigon yn ba</lb> 
+   <lb n="25">rod i wrthbrofi a dadymchwelyd y cwbl a gawsai ei
+   </lb> 
+   <lb n="26">osod yn eu herbyn. Aeth y gwrthwynebwyr &acirc; 'r
+   </lb> 
+   <lb n="27">cynghawsedd yn y blaen mor belled ag y beidd</lb> 
+   <lb n="28">ient anturio &#8212; gwnaethant bob peth hyd at roi 'r
+   </lb> 
+   <lb n="29">achos yn nwylaw y rhwithwyr neu y cwest, a gadael
+   </lb> 
+   <lb n="30">i 'r cyhuddedig gael cyfle i atteb drostynt eu hun</lb> 
+   <lb n="31">ain. Dylasent, dybygid, wneud pob un o 'r ddau,
+   </lb> 
+   <lb n="32">gwedi iddynt fyned mor belled a dwyn yr achos i 'r
+   </lb> 
+   <lb n="33">frawdle, a chyhoeddi a cheisio amddiffyn yno 'r ach</lb> 
+   <lb n="34">wyniadau yn erbyn y cyhuddedig. Ond y mae 'n
+   
+   
+   </lb>
+   </pb>
+   <pb n="4.">
+   
+    
+   <lb n="1">hawdd gweled, o 'r neilldu, na feiddient hwy ddim
+   </lb> 
+   <lb n="2">i anturio eu hachos i ddwylaw neu i ofal y rheith</lb> 
+   <lb n="3">wyr neu y cwest, am eu bod yn gwybod y buasai y
+   </lb> 
+   <lb n="4">ddedfryd, neu y ferdit yn eu herbyn; ac y mae yn
+   </lb> 
+   <lb n="5">hawdd, hefyd, i weled o 'r tu arall, na feiddient hwy
+   </lb> 
+   <lb n="6">ddim, chwaith, i adael i 'r cyhuddedig i gael cyfle i
+   </lb> 
+   <lb n="7">atteb drostynt eu hunain, am eu bod yn gwybod o 'r
+   </lb> 
+   <lb n="8">goreu y buasai Stori y bum anghenfil, a 'r triugain
+   </lb> 
+   <lb n="9">Gini, a 'r ysgrifen gyfarwyddid, ac amryw o bethau
+   </lb> 
+   <lb n="10">hynod eraill o 'u tu hwy, yn rhwym, gwedi'n, o gael
+   </lb> 
+   <lb n="11">eu cyhoeddi yn y frawdle, a 'u dinoethi ger bron y
+   </lb> 
+   <lb n="12">byd; yn gymmaint ag y buasai yr holl waradwydd
+   </lb> 
+   <lb n="13">yn y diwedd, yn rhwym o ymchwelyd, yn grwn
+   </lb> 
+   <lb n="14">ac yn gyfan, ar benau euog yr erlidwyr. Mawr oedd
+   </lb> 
+   <lb n="15">y siomedigaeth a gaed yn Siarl Prudhome, y tyst
+   </lb> 
+   <lb n="16">i 'r hwn yr oeddid fwyaf yn ymddiried. Ychydig a
+   </lb> 
+   <lb n="17">feddyliwyd y buasai ei yspryd caled, annheimladwy
+   </lb> 
+   <lb n="18">ef byth yn gwrthgilio, neu yn tyneru ac yn ofni
+   </lb> 
+   <lb n="19">myned yn ei flaen. Pwy all ddweud nad oedd llaw
+   </lb> 
+   <lb n="20">Duw yma i 'w gweled, yn eglur, o blaid y gwirion?
+   </lb> 
+   <lb n="21">Peth hynod dros ben oedd gweled un o 'r dynion
+   </lb> 
+   <lb n="22">mwyaf calon galed a dideimlad yn y byd, yn sefyll
+   </lb> 
+   <lb n="23">yn ddisymmwyth yn nghanol ei orchwyl ysgeler, gan
+   </lb> 
+   <lb n="24">ddweud, yn frawychus, Mi bechais, trwy fradychu
+   </lb> 
+   <lb n="25">gwaed gwirion! mi ddygais gamdystiolaeth! mi a
+   </lb> 
+   <lb n="26">dyngais anudon! ni alla 'i ddim, ar un cyfrif, i fyned
+   </lb> 
+   <lb n="27">yn mlaen &acirc; 'r gwaith! &#8212; Ond beth y mae yr erlid</lb> 
+   <lb n="28">wyr yn ei ddweud am hyn? Oh! meddant hwy, yn
+   </lb> 
+   <lb n="29">dra sych-syber, &#8220;Cael ei wobrwyo a wnaeth ef am
+   </lb> 
+   <lb n="30">dewi s&ocirc;n!&#8221; &#8212; Cystal y gall'sent \gallsent\ ddweud mai cael ei
+   </lb> 
+   <lb n="31">wobrwyo a wnaethai Suddas fradwr, pan wnaeth ef
+   </lb> 
+   <lb n="32">cyffelyb dystiolaeth, a dwyn yn ol yr arian, a myned
+   </lb> 
+   <lb n="33">ac ymgrogi, Mat. xxvii. 4. &#8212; Yn meddiant yr er</lb> 
+   <lb n="34">lidwyr, yn awr fel gynt, yr oedd yr arian a 'r m&ocirc;dd
+   </lb> 
+   <lb n="35">i wobrwyo, ac nid yn meddiant y cyhuddedig a 'r
+   </lb> 
+   <lb n="36">erlidiedig. Peth ofer iawn fuasai i 'r ddau wr dan
+   </lb> 
+   <lb n="37">ein hystyriaeth geisio diangc trwy wobrwyo y 
+   </lb>
+   <lb n="37-38">tystion,
+   </lb>
+   <lb n="38">
+    pan nad oedd dim llai n&acirc; thriugain Gini, heb</lb> 
+   <lb n="39">law gwobrau o fath arall, gwedi cael eu haddaw o 'r
+   
+   
+   </lb>
+   </pb>
+   <pb n="5.">
+   
+    
+   <lb n="1">blaen, gan bump o 'u gelynion anghenfilaidd i Siarl
+   </lb> 
+   <lb n="2">Prudhome ei hun am dyngu yn eu herbyn. Felly,
+   </lb> 
+   <lb n="3">o leiaf, y dywedodd Siarl Prudhome yn ngwydd
+   </lb> 
+   <lb n="4">amryw dystion; yr hyn a gadarnhaodd ef, gwedi
+   </lb> 
+   <lb n="5">hyny, dan ei law ei hun, a than ddwylaw rhai o 'r
+   </lb> 
+   <lb n="6">tystion mewn ysgrifen a anfonodd efe i 'r carcharor</lb> 
+   <lb n="7">ion. Dylid sylwi yma, mai nid yn ei galedwch, neu
+   </lb> 
+   <lb n="8">ei ysgafnder a 'i ddibrisdod y dywedodd Siarl
+   </lb> 
+   <lb n="9">Prudhome hyn, ond yn ei flinder, a than ddwysbigad
+   </lb> 
+   <lb n="10">euogrwydd; y pryd y mae dynion fwyaf tebyg yn
+   </lb> 
+   <lb n="11">wastad i ddweud y gwir. &#8212; Ond nid yw ddim oll yn
+   </lb> 
+   <lb n="12">rhyfedd i fod y gelynion yn rhoi y gair i maes, ddar</lb> 
+   <lb n="13">fod i 'r carcharorion berswadio a gwobrwyo Siarl
+   </lb> 
+   <lb n="14">Prudhome am dewi &#8212; Yr oedd yn rhaid iddynt hwy,
+   </lb> 
+   <lb n="15">gwedi i 'r peth droi i maes fel y gwnaeth, geisio lly</lb> 
+   <lb n="16">felu rhyw beth o 'r fath hyn tu ag at eu cadw eu
+   </lb> 
+   <lb n="17">hunain. Nid oedd un ffordd arall, dybygid, i guddio
+   </lb> 
+   <lb n="18">o olwg y byd warth eu hysgelerder. Yr oedd yn
+   </lb> 
+   <lb n="19">tarddu o 'r un ffynon a 'r hen ddyfais hono, "Dy</lb> 
+   <lb n="20">wedwch, ei ddyscyblion a ddaethant o hyd nos, ac
+   </lb> 
+   <lb n="21">a 'i lladratasant ef, a nyni yn cyscu," Mat. xxviii.
+   </lb> 
+   <lb n="22">13. Ac fel nad oes dim achos i ryfeddu, ar y naill
+   </lb> 
+   <lb n="23">du, iddynt hwy fyned ynghyd a llyfelu y fath beth
+   </lb> 
+   <lb n="24">ag a nodwyd, a 'u bod yn parhau, o hyd, i 'w roddi
+   </lb> 
+   <lb n="25">allan, a 'i daenu ar lled hyd y gallant, trwy y papur</lb> 
+   <lb n="26">au newyddion, a phob ffordd arall a wyddant amdano,
+   </lb> 
+   <lb n="27">felly hefyd nid yw yn un math o ryfeddod, o 'r tu
+   </lb> 
+   <lb n="28">arall, eu bod hwy mor ddistaw a 'r bedd am y triug</lb> 
+   <lb n="29">ain Gini rhag grybwylledig, yn gystal ag am y papur,
+   </lb> 
+   <lb n="30">neu 'r ysgrifen gyfarwyddid a addawodd rhyw un o 'r
+   </lb> 
+   <lb n="31">pump anghenfil ei thynu a 'i pharotoi, cyn y Sessiwn,
+   </lb> 
+   <lb n="32">i 'r tystion yn erbyn y cyhuddedig, fel y byddent
+   </lb> 
+   <lb n="33">oll yn un-air yn y frawdle, neu yn abl dweud eu
+   </lb> 
+   <lb n="34">chwedl echryslawn yn gysson ac yn fedrus!!!
+   </lb> 
+   <lb n="35">O ran y ddau wr, druain, y mae 'n ddigon am</lb> 
+   <lb n="36">lwg iddynt hwy ddyoddef dros yr ymneillduwyr,
+   </lb> 
+   <lb n="37">y rhai ni ddylent yn awr eu hanghofio na 'u diyst</lb> 
+   <lb n="38">yru &#8212; Dyoddefodd Thomas Jones am ei fod yn
+   </lb> 
+   <lb n="39">un o 'r Bedyddwyr, ac yn bregethwr; ac yr oedd
+   
+   
+   </lb>
+   </pb>
+   <pb n="6.">
+   
+    
+   <lb n="1">chwennychiad nid bychan, mae 'n debyg mewn
+   </lb> 
+   <lb n="2">rhai dynion i 'w gael ef yn euog, at y cyfrif hyny.
+   </lb> 
+   <lb n="3">Dymunol iawn gan y cyfryw, fuasai ei grogi ef, er
+   </lb> 
+   <lb n="4">dychryn i 'r sect y perthynai iddi, ac i 'r pregethwyr,
+   </lb> 
+   <lb n="5">y rhai a gyfrifid, er ys \ers\ hir amser, eu bod wedi 
+   </lb>
+   <lb n="5-6">myned
+   </lb>
+   <lb n="6">
+    yn llawer rhy aml yn y wlad &#8212; Dyoddefodd
+   </lb> 
+   <lb n="7">Samuel Griffiths, yntef \yntau\, am ei fod yn ffrynd i 'r
+   </lb> 
+   <lb n="8">Presbyteriaid, a 'i dylwyth, yn gyffredin, yn 
+   </lb>
+   <lb n="8-9">perthyn
+   </lb>
+   <lb n="9">
+    i 'r enw hwnnw. &#8212; Oni buasai yr amgylchiadau
+   </lb> 
+   <lb n="10">hyn, nid oes nemmawr o le i feddwl y daethai y ddau
+   </lb> 
+   <lb n="11">wr yma i ddim blinder, neu dan unrhyw gyfrifiad
+   </lb> 
+   <lb n="12">a anffyddlondeb dinasaidd, neu deyrnfradwriaeth,
+   </lb> 
+   <lb n="13">mwy n&acirc; 'u cymmydogion \cymdogion\ Thomas William, o 
+   </lb>
+   <lb n="13-14">Gaerlem,
+   </lb>
+   <lb n="14">
+    a Wiliam Thomas, o Fathry; y rhai a rydd</lb> 
+   <lb n="15">hawyd, fel dynion onest a ffyddlon, a chywir, mor
+   </lb> 
+   <lb n="16">gynted ag y dyallwyd \deallwyd\, yn sicr, nad oeddent ddim
+   </lb> 
+   <lb n="17">yn perthyn i 'r ymneillduwyr \ymneilltuwyr\!!! &#8212; Y mae hyn yn
+       </lb> 
+   <lb n="18">llafaru \llefaru\ yn dra chroyw, ar yr achos; ac yn dynoethi \dinoethi\
+   </lb> 
+   <lb n="19">gwreiddyn a gwaelod yr erledigaeth, dybygid \debygid\ &#8212;
+   </lb> 
+   <lb n="20">yn enwedig pan ei \y 'i\ golygir mewn cyferbyniad i 'r
+   </lb> 
+   <lb n="21">amgylchiad canlynol  \.\ &#8212; Mor gynted ag yr addefodd
+   </lb> 
+   <lb n="22">Thomas John ei fod yn ymneillduwr \ymneilltuwr\, yn 
+   </lb>
+   <lb n="22-23">fedyddiwr,
+   </lb>
+   <lb n="23">
+    ac yn bregethwr, &#8220;{en D-n him! we must look
+   </lb> 
+   <lb n="24">sharp, and take care of him, en}&#8221; oedd yr atteb.
+   </lb> 
+   <lb n="25">&#8220;{en Thomas John must be hanged en},&#8221; ebai un o 'r 
+   </lb>
+   <lb n="25-26">gyfrinach,
+   </lb>
+   <lb n="26">
+    &#8220;{en because he is a preacher; for there is no
+   </lb> 
+   <lb n="27">good in any of them. en}&#8221; &#8212; &#8220;{en By G-d, he is a dead
+   </lb> 
+   <lb n="28">man! en} medd y llall. &#8220;{en I hope that the preachers
+   </lb> 
+   <lb n="29">shall be sent soon, all, out of the Country en},&#8221; medd</lb> 
+   <lb n="30">ai rhyw un arall o 'r gymdeithias &#8212; {en I hope so too;
+   </lb> 
+   <lb n="31">for that would, indeed, be a most desirable event;&#8221; en}
+   </lb> 
+   <lb n="32">ebai frawd teilwng iddo dan wenu. &#8220;{en If I should
+   </lb> 
+   <lb n="33">be on the Jury, I would starve myself but Thomas
+   </lb> 
+   <lb n="34">John should be brought in guilty, be he guilty or
+   </lb> 
+   <lb n="35">not!&#8221; en} &#8212; oedd geiriau un arall o 'r gwyr cyfiawn a
+   </lb> 
+   <lb n="36">thosturiol hyn. Nid wyfi ddim yn dweud mai W-
+   </lb> 
+   <lb n="37">oedd ei enw. Yr oedd eraill y nos o flaen y treial,
+   </lb> 
+   <lb n="38">yn siarad, y mae 'n debyg, i 'r un pwrpas; ond 
+   </lb>
+   <lb n="38-39">cawsant,
+   </lb>
+   <lb n="39">
+    gan mwyaf, eu datguddio. Diolch i Dduw
+   </lb> 
+   <lb n="40">am hyny.
+   
+   
+   </lb>
+   </pb>
+   <pb n="7.">
+   
+    
+   <lb n="1">Beth a ddywedi di, yn awr, ddarllenydd? Oni
+   </lb> 
+   <lb n="2">allir \ellir\ meddwl yn dra hyderus, mai nid am ddim bai
+   </lb> 
+   <lb n="3">neu gamwedd i 'r eiddynt hwy eu hunain; nac,
+   </lb> 
+   <lb n="4">ychwaith, oblegid unrhyw falais dirgel tu ag attynt
+   </lb> 
+   <lb n="5">hwy fel Personau neillduol \neilltuol\; eithr yn unig, o 
+   </lb>
+   <lb n="5-6">herwydd
+   </lb>
+   <lb n="6">
+    y berthynas oedd rhyngddynt &acirc; 'r 
+   </lb>
+   <lb n="6-7">ymneillduwyr=,
+   </lb>
+   <lb n="7">
+    \ymneilltuwyr\ y ca'dd \cafodd\ y ddau &#373;r eu dwyn i gymmaint o ing,
+   </lb> 
+   <lb n="8">a blinder, a pherygl bywyd? Oni ddylai yr 
+   </lb>
+   <lb n="8-9">ymneillduwyr,
+   </lb>
+   <lb n="9">
+    \ymneilltuwyr\ ynte \ynteu\, brysur ystyried eu hachos, a 'u 
+   </lb>
+   <lb n="9-10">digolledu,
+   </lb>
+   <lb n="10">
+    hyd y mae hyny yn bosibl? Onid yw 
+   </lb>
+   <lb n="10-11">cyfiawnder,
+   </lb>
+   <lb n="11">
+    yn gystal a thosturi, yn eglur ofyn hyn ar
+   </lb> 
+   <lb n="12">eu dwylaw? &#8212; Yr wyd \wyt\ yn deall fod y 
+   </lb>
+   <lb n="12-13">Presbyteriaid,
+   </lb>
+   <lb n="13">
+    yn gyffredinol, ac yn dra christ'nogaidd, wedi
+   </lb> 
+   <lb n="14">cymmeryd i fynu achos eu ffrynd Samuel Griffiths;
+   </lb> 
+   <lb n="15">ac yr wyf yn gobeithio na fydd dim eisiau cymmell
+   </lb> 
+   <lb n="16">y Bedyddwyr i fyned a gwneuthur yr un modd i 'r
+   </lb> 
+   <lb n="17">llall.
+   
+   </lb> 
+   <lb n="18">Wrth ystyried yr amgylchiadau uchod yn bwyllog
+   </lb> 
+   <lb n="19">ac yn ddwys, pwy a ddichon lai n&acirc; meddwl, mai 
+   </lb>
+   <lb n="19-20">ergyd
+   </lb>
+   <lb n="20">
+    ar yr ymneillduwyr \ymneilltuwyr\ oedd cymmeryd i fynu
+   </lb> 
+   <lb n="21">Thomas John a Samuel Griffiths; ac mai yr amcan
+   </lb> 
+   <lb n="22">oedd, archolli yr holl gorph trwyddynt hwy; ac,
+   </lb> 
+   <lb n="23">felly, agor drws i erlidigaeth gyffredinol? Dyna,
+   </lb> 
+   <lb n="24">ysgatfydd, yw barn, sefydlog, pob dyn pwyllog a
+   </lb> 
+   <lb n="25">diragfarn ar a glywodd araeth hynod y barnwr ar
+   </lb> 
+   <lb n="26">ddiwedd treial Thomas John. *
+   </lb> 
+   <lb n="27">Yna nis gallir \gellir\ llai n&acirc; sylwi, fod achos neillduol \neilltuol\
+   </lb> 
+   <lb n="28">gan yr ymneillduwyr \ymneilltuwyr\ i lawenhau, a bod yn 
+   </lb>
+   <lb n="28-29">ddiolchgar,
+   </lb>
+   <lb n="29">
+    am nas gallodd eu gelynion ffyrnig gael dim bai
+   </lb> 
+   <lb n="30">arnynt, neu brofi dim drwg yn eu herbyn, yn y
+   </lb> 
+   <lb n="31">cynnyg \cynnig\ erchyll diweddar; er iddynt ei geisio gyd &acirc;
+   </lb> 
+   <lb n="32">phob egni, ac ymdrech, a dichell anghyfiawnder;
+   </lb> 
+   <lb n="33">heb adael cymmaint ag un maen neu gareg heb ei
+   </lb> 
+   <lb n="34">throi tu ag at gyflawni ei hymgais. Hefyd, gan
+   
+   </lb> 
+   <lb n="35">Nid oes unrhyw achos i ryfeddu am yr araeth
+   </lb> 
+   <lb n="36">hono, os gwir yw y gair, i fod yr areithydd 
+   </lb>
+   <lb n="36-37">anrhydeddus,
+   </lb>
+   <lb n="37">
+    yn un o hiliogaeth yr enwog a 'r hygof SIOR
+   </lb> 
+   <lb n="38">SIEFFRAIS.
+   
+   
+   </lb>
+   </pb>
+   <pb n="8.">
+   
+    
+   <lb n="1">ddarfod i 'w gelynion ffaelu yn hollol, y tro hwn a
+   </lb> 
+   <lb n="2">chael eu dymuniad maleisus ar yr ymneillduwyr \ymneilltuwyr\, er
+   </lb> 
+   <lb n="3">caffael ohonynt gyfle digonol i wneud yr eithaf o
+   </lb> 
+   <lb n="4">bob amgylchiad a allai mewn un mesur atteb eu 
+   </lb>
+   <lb n="4-5">pwrpas
+   </lb>
+   <lb n="5">
+    barbaraidd, a bod eu hewyllys a 'u hymdrech 
+   </lb>
+   <lb n="5-6">hefyd
+   </lb>
+   <lb n="6">
+    yn gyfattebol i hyny; \hynny,\ y mae yn sicr a dilys,
+   </lb> 
+   <lb n="7">fod gan y wlad, yn awr bob achos i edrych arnynt
+   </lb> 
+   <lb n="8">hwy, sef yr ymneillduwyr \ymneilltuwyr\, fel corph o ddynion 
+   </lb>
+   <lb n="8-9">camgyhuddedig,
+   </lb>
+   <lb n="9">
+    diniwaid, a rhinweddol; ac, felly, yn
+   </lb> 
+   <lb n="10">rhai cwbl deilwng o ymgeledd, a diogelwch, a 
+   </lb>
+   <lb n="10-11">diffuant
+   </lb>
+   <lb n="11">
+    ewyllys da oddiwrth y llywodraeth.
+   </lb> 
+   <lb n="12">Wedi 'r cwbl, tra hynod yw hanes a thynged y
+   </lb> 
+   <lb n="13">bobl hyn. &#8212; Pan ddaeth y brenin Wiliam i 'r orsedd,
+   </lb> 
+   <lb n="14">a theulu ardderchog Hanover, gwedi hyny, y mae 'n
+   </lb> 
+   <lb n="15">gwbl hyspys na feddent hwy, trwy yr holl deyrnas
+   </lb> 
+   <lb n="16">ffyddlonach, na gwresocach cyfeillion, a deiliaid, n&acirc; 'r
+   </lb> 
+   <lb n="17">ymneillduwyr \ymneilltuwyr\; ac y mae yn sicr, eu bod wedi 
+   </lb>
+   <lb n="17-18">parhau,
+   </lb>
+   <lb n="18">
+    hyd heddyw \heddiw\, yn ddidrai a diysgog yn eu 
+   </lb>
+   <lb n="18-19">ffyddlondeb
+   </lb>
+   <lb n="19">
+    a 'u s&ecirc;l dros yr achos a ddaeth a Wiliam a 'r
+   </lb> 
+   <lb n="20">Siorsaid i 'r deyrngadair: y mae, gan hyny, yn beth
+   </lb> 
+   <lb n="21">hynod iawn, i fod y bobl yma, yn awr, gwedi cael
+   </lb> 
+   <lb n="22">mwy n&acirc; chan mlynedd o brofiad t&ecirc;g a chyflawn o 'u
+   </lb> 
+   <lb n="23">ffyddlondeb diffuant a disigl, yn cael eu dirmygu, eu
+   </lb> 
+   <lb n="24">goganu, a 'u herlid, fel rhai cwbl annheilwng o 'r
+   </lb> 
+   <lb n="25">ymgeledd gwladwriaethol, a 'r caredigrwydd 
+   </lb>
+   <lb n="25-26">cymdeithasol
+   </lb>
+   <lb n="26">
+    a dynol; pan y mae y Toriaid a 'r 
+   </lb>
+   <lb n="26-27">Pabyddion,
+   </lb>
+   <lb n="27">
+    gelynion gwreiddiol a pharhaus yr achos 
+   </lb>
+   <lb n="27-28">rhagddywedig,
+   </lb>
+   <lb n="28">
+    yn cael eu canmol a 'u coleddu, eu 
+   </lb>
+   <lb n="28-29">hanrhydeddu
+   </lb>
+   <lb n="29">
+    a 'u dyrchafu, fel y dynion mwyaf 
+   </lb>
+   <lb n="29-30">hawddgar,
+   </lb>
+   <lb n="30">
+    rhinweddol a theilwng yn y byd!
+   
+   RHAGFYR, 24, 1797.
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="9.">
+   
+   
+   <head>
+   
+    
+   <lb n="1">CWYN</lb>
+    
+   <lb n="2">Y</lb>
+    
+   <lb n="3">CYSTUDDIEDIG, &amp;c.</lb>
+   </head>    
+   
+   
+    
+   <lb n="4">O 'R holl ddygwyddiadau \ddigwyddiadau\ a ddaeth ar draws 
+   </lb>
+   <lb n="4-5">Cymru
+   </lb>
+   <lb n="5">
+    yn yr oes bresennol, nid oes un, ysgatfydd,
+   </lb> 
+   <lb n="6">yn fwy teilwng o goff&auml;ad \goffh&acirc;d\ n&acirc; 'r rhuthr a wnaeth mintai
+   </lb> 
+   <lb n="7">o Ffrancod i Sir Benfro, yn nechreu y gwanwyn 
+   </lb>
+   <lb n="7-8">diweddaf.
+   </lb>
+   <lb n="8">
+    Yr oedd hwn yn dro mor hynod ynddo ei
+   </lb> 
+   <lb n="9">hun, ac hefyd yn ei amgylchiadau a 'i effeithiau, ag
+   </lb> 
+   <lb n="10">y bydd yn debygol iawn i gael ei goffau \goffhau\ cyhyd ag un
+   </lb> 
+   <lb n="11">peth a berthyn \VBPI-3SG\ i hanes Cymru o fewn yr oes hon.
+   
+   </lb> 
+   <lb n="12">Darfu i rai dynion, y mae 'n debyg o 'r glenydd
+   </lb> 
+   <lb n="13">uchel o dautu \oddeutu\ Castell y garn, ganfod y llongau 
+   </lb>
+   <lb n="13-14">gelynol
+   </lb>
+   <lb n="14">
+    yn gynnar ddydd mercher y 22 o Chwefror
+   </lb> 
+   <lb n="15">diweddaf, yn hwylio yn mlaen \ymlaen\ tu a \tua\ Phen Dewi.
+   </lb> 
+   <lb n="16">Pedair llong oeddent; dwy led fawr, a dwy o rai
+   </lb> 
+   <lb n="17">bychain. &#8212; O f&ocirc;r Hafren, * y mae 'n debyg yr 
+   </lb>
+   <lb n="17-18">oeddent,
+   </lb>
+   <lb n="18">
+    bryd hyny, yn dyfod; lle y buasent yn hwylio,
+   </lb> 
+   <lb n="19">rhyw gymaint, gyd &acirc;g amcan i fyned i fynu mor
+   </lb> 
+   <lb n="20">belled ag y gallent, mewn trefn i dirio, os byddai
+   </lb> 
+   <lb n="21">bosibl, gerllaw Caerodor neu Frysto \Fryste\. Ond gan fod
+   </lb> 
+   <lb n="22">M&ocirc;r Hafren yn un tra pheryglus i longau a morwyr
+   </lb> 
+   <lb n="23">dieithr, a darfod iddynt hwythau fethu cael neb 
+   </lb>
+   <lb n="23-24">llywyddion
+   </lb>
+   <lb n="24">
+    i 'w cyfarwyddo i fynu, hwy a droisant \droesant\
+   </lb> 
+   <lb n="25">yn eu h&ocirc;l, ac a fordwyasant, fel y soniwyd, yn mlaen \ymlaen\,
+   </lb> 
+   <lb n="26">heibio Pen Dewi, tua M&ocirc;r Werydd. * Tynasant tua 'r
+   </lb> 
+   <lb n="27">tir cyn dyfod ohonynt=ohonynt yn gwbl i gyfer Abergwaun
+   </lb> 
+   <lb n="28">a Phencaer. Arosasant ychydig, ar y cyntaf, 
+   </lb>
+   <lb n="28-29">gyferbyn
+   </lb>
+   <lb n="29">
+    a Llanwnwr; ond aethant yn ebrwydd oddi yno,
+   </lb> 
+   <lb n="30">ac angorasant, a thiriasant, o 'r diwedd mewn cilfach,
+   </lb> 
+   <lb n="31">fechan islaw a cherllaw Llanwnda. Gwedi i 'r 
+   
+   </lb>
+   </pb>
+   <pb n="9-10.">
+   <lb n="31-1">llongwyr
+   </lb>
+   </pb>
+   <pb n="10.">
+   <lb n="1">
+    osod yr holl fintai a ddygasent, ynghyd &acirc; 'u 
+   </lb>
+   <lb n="1-2">harlwy
+   </lb>
+   <lb n="2">
+    a 'u harfau rhyfel, ar y tir, hwy a 'u gadawsant
+   </lb> 
+   <lb n="3">yno; a chwedi codi eu hangorion, hwy a hwyliasant
+   </lb> 
+   <lb n="4">ymaith, gan ddychwelyd yn eu hol tuag adref. Nifer
+   </lb> 
+   <lb n="5">y rhai a diriasant oedd o ddautu \oddeutu\ bedwar-cant-ar-ddeg:
+   </lb> 
+   <lb n="6">y rhai, gwedi dringo i 'r lan o 'r traeth, a wersyllasant
+   </lb> 
+   <lb n="7">mewn man dewisol a chyfleus gerllaw yno; lle yr
+   </lb> 
+   <lb n="8">arosasant hyd oni chymmerwyd hwynt oll yn 
+   </lb>
+   <lb n="8-9">garcharorion
+   </lb>
+   <lb n="9">
+    gan ein milwyr ni, dan dywysiad yr ar</lb> 
+   <lb n="10">lwydd Cawdor, y boreu \bore\ dydd gwener canlynol, sef
+   </lb> 
+   <lb n="11">ail trannoeth y dydd y tiriasent. Pum cant a 
+   </lb>
+   <lb n="11-12">thriugain
+   </lb>
+   <lb n="12">
+    \thrigain\, y mae 'n debyg, oedd nifer yr holl fyddin a 
+   </lb>
+   <lb n="12-13">allodd
+   </lb>
+   <lb n="13">
+    yr arlwydd Cawdor ei dwyn yn erbyn y 
+   </lb>
+   <lb n="13-14">gelynion
+   </lb>
+   <lb n="14">
+    hyn. &#8212; Rhy fychan, yn ddiau, i wynebu 
+   </lb>
+   <lb n="14-15">pedwarcant-ar-ddeg,
+   </lb>
+   <lb n="15">
+    pe gorfuasai i 'r matter gael ei 
+   </lb>
+   <lb n="15-16">benderfynu
+   </lb>
+   <lb n="16">
+    trwy 'r cleddyf, neu mewn brwydr ar y maes.
+   </lb> 
+   <lb n="17">Ond gwelodd Duw yn dda, o 'i ryfedd drugaredd, i
+   </lb> 
+   <lb n="18">luddias hyny, ac attal y canlyniadau echrydus a
+   </lb> 
+   <lb n="19">fuasai yn rhwym, gwedi'n \gwedyn\, i gymmeryd lle. 
+   </lb>
+   <lb n="19-20">Daethpwyd
+   </lb>
+   <lb n="20">
+    &acirc; 'r ddadl ofandwy i ddibendod buan a 
+   </lb>
+   <lb n="20-21">dedwydd;
+   </lb>
+   <lb n="21">
+    trwy gylafaredd \gyflafaredd\, neu gytundeb tawel ac
+   </lb> 
+   <lb n="22">esmwyth rhwng y penswyddogion o bob tu; heb
+   </lb> 
+   <lb n="23">orfod tynu y cleddyf dinystriol \dinistriol\, na myned ynghyd
+   </lb> 
+   <lb n="24">&acirc; 'r gwaith echryslon a llofruddiog o dywallt gwaed.
+   </lb> 
+   <lb n="25">Diolch i Dduw am hyn. &#8212; Oddiwrth y Ffrancod,
+   </lb> 
+   <lb n="26">y mae 'n debyg, y daeth y cynnygiad i derfynu yr
+   </lb> 
+   <lb n="27">anghydfod trwy gylafaredd \gyflafaredd\, \.\ Cynnygasant \Cynigiasant\ i 
+   </lb>
+   <lb n="27-28">ymostwng
+   </lb>
+   <lb n="28">
+    dan ryw ammodau: ond yspyswyd \hysbysiwyd\ iddynt yn
+   </lb> 
+   <lb n="29">fuan, o 'n tu ni, na wnaed &acirc; hwy un cytundeb ond
+   </lb> 
+   <lb n="30">ar gyfrif iddynt hwy roddi eu hunain i fynu yn 
+   </lb>
+   <lb n="30-31">garcharorion
+   </lb>
+   <lb n="31">
+    rhyfel. Dechreuwyd cylafareddu \cyflafareddu\ o ddautu \oddeutu\
+   </lb> 
+   <lb n="32">ddeg o 'r gloch n&ocirc;s Iau, a chydsyniodd y gelynion yn
+   </lb> 
+   <lb n="33">ebrwydd gwedi'n \gwedyn\, i roddi eu hunain a 'u holl arfau
+   </lb> 
+   <lb n="34">a 'u rhyfelarlwy i fynu am hanner dydd drannoeth,
+   </lb> 
+   <lb n="35">ar y telerau a ddarfu i ni eu cynnyg \cynnig\.
+   
+   </lb> 
+   <lb n="36">Bristol Channel.
+   </lb> 
+   <lb n="37">Irish Channel.
+   
+   
+   
+   </lb> 
+   <lb n="38">Afreolaeth y gwyr, oeddid yn ddweud fod yr
+   </lb> 
+   <lb n="39">achos i benneithiaid \benaethiaid\ y Ffrancod mor rhwydd i 
+   </lb>
+   <lb n="39-40">gydsynio
+   </lb>
+   <lb n="40">
+    &acirc; 'r telerau uchod, a rhoi eu hunain i fynu yn
+   </lb> 
+   <lb n="41">garcharorion rhyfel. Ond, beth a all'sent hwy ei
+   
+   
+   </lb>
+   </pb>
+   <pb n="11.">
+   
+    
+   <lb n="1">ddysgwl, attolwg, oddiwrth y fath greaduriaid, ond
+   </lb> 
+   <lb n="2">afreolaeth? &#8212; Dywedwyd, hefyd fod y 
+   </lb>
+   <lb n="2-3">gymmydogaeth
+   </lb>
+   <lb n="3">
+    \gymdogaeth\ lle y tiriasant, yn llawn iawn bryd hyny, o
+   </lb> 
+   <lb n="4">w&icirc;n, a gafwyd yn ddiweddar gerllaw yno, o ryw
+   </lb> 
+   <lb n="5">longau drylliedig a gwinlwythog; ac i 'r gwyr, wrth
+   </lb> 
+   <lb n="6">yspeilio \ysbeilio\ ar hyd y gymmydogaeth \gymdogaeth\, nes myned yn gwbl 
+   </lb>
+   <lb n="6-7">anllywodraethus;
+   </lb>
+   <lb n="7">
+    yr hyn, fel y dywedwyd, a barodd
+   </lb> 
+   <lb n="8">i 'w blaenoriaid anfon cynnygiad \cynigiad\ i 'n pen capten ni
+   </lb> 
+   <lb n="9">i ymostwng, gyd &acirc; llwyr fwriad i gydsynio a 'r 
+   </lb>
+   <lb n="9-10">cyfryw
+   </lb>
+   <lb n="10">
+    amodau neu delerau a welem ni yn addas eu
+   </lb> 
+   <lb n="11">caniatau iddynt.
+   
+   </lb> 
+   <lb n="12">Ar draeth Gwdic y bwriasant hwy i lawr eu 
+   </lb>
+   <lb n="12-13">harfau,
+   </lb>
+   <lb n="13">
+    ac y rhoddasant eu hunain i fynu i ddwylaw ein
+   </lb> 
+   <lb n="14">pobl ni. Awd \Aed\ &acirc; hwy oddi yno, y prydnawn hwnw
+   </lb> 
+   <lb n="15">i Hwlffordd; lle y carcharwyd hwy, rhai yn y 
+   </lb>
+   <lb n="15-16">Llanoedd,
+   </lb>
+   <lb n="16">
+    a rhai mewn ystordai ar hyd y dref. 
+   </lb>
+   <lb n="16-17">Symudwyd
+   </lb>
+   <lb n="17">
+    y rhan fwyaf ohonynt oddi yno mewn byr
+   </lb> 
+   <lb n="18">amser, i garchar-longau a ddarparesid iddynt yn 
+   </lb>
+   <lb n="18-19">Aberdaugleddau,
+   </lb>
+   <lb n="19">
+    neu Milford. Dywedir farw 
+   </lb>
+   <lb n="19-20">llaweroedd
+   </lb>
+   <lb n="20">
+    ohonynt yno, a bod eu nifer gwedi lleihau
+   </lb> 
+   <lb n="21">yn fawr iawn, pan eu \y 'u\ symudwyd yn ddiweddar oddi
+   </lb> 
+   <lb n="22">yno i Ynys Gwith, neu ryw le neu leoedd ar lan
+   </lb> 
+   <lb n="23">Mor Udd, * tua gorllewin Lloegr. Y cyfryw o
+   </lb>
+   <lb n="23-24">honynt
+   </lb>
+   <lb n="24">
+    a gyfrifwyd yn deilwng i 'w cymmeryd i 'n
+   </lb> 
+   <lb n="25">gwasanaeth ni, a 'u rhoi ar waith i gyhuddo, a 
+   </lb>
+   <lb n="25-26">gadwyd
+   </lb>
+   <lb n="26">
+    yn ofalus, ac yn barchus yn Hwlffordd, fel y
+   </lb> 
+   <lb n="27">byddent ar glawr ac wrth law eu meistriaid, pan y
+   </lb> 
+   <lb n="28">byddai taro; a chyd &acirc; golwg a gobaith, ond odid, y
+   </lb> 
+   <lb n="29">byddent o wasanaeth nid bychan, ac o ddefnydd
+   </lb> 
+   <lb n="30">sylweddol a hanfodol yn y gwaith o brofi euogrwydd
+   </lb> 
+   <lb n="31">teyrnfradol y carcharorion diofrydedig.
+   
+   </lb> 
+   <lb n="32">Mawr dros ben oedd y syndod a 'r llawenydd i
+   </lb> 
+   <lb n="33">weled y fath fintai luosog yn ymostwng i 'n byddin
+   </lb> 
+   <lb n="34">fechan ac egwan ni. Nid oedd neb yn fwy llawen a
+   </lb> 
+   <lb n="35">diolchgar ar yr achos n&acirc;'r ymneillduwyr \ymneilltuwyr\ 
+   </lb>
+   <lb n="35-36">dirmygedig
+   </lb>
+   <lb n="36">
+    a chamgyhuddedig. Yr oeddent hwy o 'u bron yn
+   
+   </lb> 
+   <lb n="37">English Channel.
+   
+   
+   </lb>
+   </pb>
+   <pb n="12.">
+   
+    
+   <lb n="1">cydnabod llaw yr Arglwydd, ac yn diolch iddo, ac
+   </lb> 
+   <lb n="2">yn ei fawrhygu am ei ryfeddol ymwared. &#8212; Ond
+   </lb> 
+   <lb n="3">nid felly yr oedd pawb o aelodau urddasol yr 
+   </lb>
+   <lb n="3-4">lwys
+   </lb>
+   <lb n="4">
+    sefydledig. Odid, yn wir, nad oeddent 
+   </lb>
+   <lb n="4-5">hwythau
+   </lb>
+   <lb n="5">
+    yn dra llawen, yn y cyfamser; ond y peth 
+   </lb>
+   <lb n="5-6">anghredadwy
+   </lb>
+   <lb n="6">
+    a dirmygus yn ngolwg llawer ohonynt
+   </lb> 
+   <lb n="7">hwy oedd, "fod unrhyw law wedi bod gan Dduw,
+   </lb> 
+   <lb n="8">neu un rhan gan ragluniaeth yn y waredigaeth
+   </lb> 
+   <lb n="9">hon!!!" &#8212; Yr oedd Cymdeithas o Grist'nogion, o 'r
+   </lb> 
+   <lb n="10">fath hyn, yn ymgynghori mewn man, ychydig ar
+   </lb> 
+   <lb n="11">ol hyny, ynghylch anfon annerchiad i 'r arlwydd
+   </lb> 
+   <lb n="12">Cawdor, i gydnabod eu hystyriaeth barchus a 
+   </lb>
+   <lb n="12-13">diolchgar
+   </lb>
+   <lb n="13">
+    o 'r gwasanaeth arbenig a ddarfuasai iddo
+   </lb> 
+   <lb n="14">ef ei wneuthur i 'w wlad, trwy y gwrol a doeth 
+   </lb>
+   <lb n="14-15">fesurau
+   </lb>
+   <lb n="15">
+    a gymmerasai ef yn erbyn y Ffrancod yn eu
+   </lb> 
+   <lb n="16">rhuthur \rhuthr\ diweddar. Mynai un ei enwi yn wasanaeth
+   </lb> 
+   <lb n="17">dan rhagluniaeth; yr hyn a wrthodwyd gan y lleill,
+   </lb> 
+   <lb n="18">bob yr un, gan ddweud fod y cyfryw ymadrodd yn
+   </lb> 
+   <lb n="19">anghymmwys, ac nad oedd dim eisiau s&ocirc;n am 
+   </lb>
+   <lb n="19-20">ragluniaeth
+   </lb>
+   <lb n="20">
+    ar y fath achos. Dyma 'r fath grefyddwyr
+   </lb> 
+   <lb n="21">yw rhan fawr iawn o elynion yr ymneillduwyr \ymneilltuwyr\, y
+   </lb> 
+   <lb n="22">dydd heddyw \heddiw\, yn Nghymru. Digrif ddigon, yn wir
+   </lb> 
+   <lb n="23">yw clywed creaduriaid o 'u bath hwy, yn rhuo 
+   </lb>
+   <lb n="23-24">allan,
+   </lb>
+   <lb n="24">
+    fel y gwnaent yn fynych, yn erbyn atheistiaeth
+   </lb> 
+   <lb n="25">eu cymmydogion \cymdogion\, ac yn erbyn anffyddlondeb yr 
+   </lb>
+   <lb n="25-26">ymneillduwyr!
+   </lb>
+   <lb n="26">
+    \ymneilltuwyr\ Gallid \Gellid\ gofyn, ysgatfydd, heb ddim 
+   </lb>
+   <lb n="26-27">anghymhwysder
+   </lb>
+   <lb n="27">
+    neu gamwedd, pa le, erioed, y 
+   </lb>
+   <lb n="27-28">gwelwyd
+   </lb>
+   <lb n="28">
+    neb, o 'u crefydd hwy, yn rhai ffyddlon i 'w
+   </lb> 
+   <lb n="29">gwlad, neu o un gwir ddefnydd a bendith i 'r byd?
+   
+   </lb> 
+   <lb n="30">O ran y Ffrancod a gymmerwyd yn gaethion yn 
+   </lb> 
+   <lb n="31">sir Benfro, y mae 'n debyg mai ysgubion carcharau
+   </lb> 
+   <lb n="32">Ffrainc oeddent, gan mwyaf: ac iddynt gael eu
+   </lb> 
+   <lb n="33">rhyddhau, a 'u byddino, yn bwrpasol, a than yr 
+   </lb>
+   <lb n="33-34">ammod
+   </lb>
+   <lb n="34">
+    neillduol \neilltuol\, i fyned allan ar y neges gwaedlyd
+   </lb> 
+   <lb n="35">ac echryslon i 'r wlad hon. Y mae yn amheuol,
+   </lb> 
+   <lb n="36">pa un a bod cymmaint a chant, allan o 'r pedwar</lb> 
+   <lb n="37">cant-ar-ddeg, nad oeddent yn dyfod dan y 
+   </lb>
+   <lb n="37-38">descrifiad
+   </lb>
+   <lb n="38">
+    \disgrifiad\ yma. &#8212; Yr oedd yn eu mysg droseddwyr o bob
+   </lb> 
+   <lb n="39">math; rhai dan farn marwolaeth, rhai dan farn 
+   
+   </lb>
+   </pb>
+   <pb n="12-13.">
+   <lb n="39-1">alltudiaeth,
+   </lb>
+   </pb>
+   <pb n="13.">
+   <lb n="1">
+    a rhai garcharedigaeth, a 'r lleill o 'r 
+   </lb>
+   <lb n="1-2">cospedigaethau
+   </lb>
+   <lb n="2">
+    \cosbedigaethau\ arferol i 'w roddi ar yr &icirc;s raddau o 
+   </lb>
+   <lb n="2-3">ddrwgweithredwyr.
+   </lb>
+   <lb n="3">
+    Addefodd rhai ohonynt, mai hyn
+   </lb> 
+   <lb n="4">oedd y gwir: ac fe wyddis \wyddys\, yn dda ddigon, mai
+   </lb> 
+   <lb n="5">dyna 'r fath rai oedd y tystion a gymmerasant arnynt
+   </lb> 
+   <lb n="6">i gyhuddo y ddau garcharor, ac hyd yn oed 
+   </lb>
+   <lb n="6-7">Lhanharde
+   </lb>
+   <lb n="7">
+    ei hun, yr Aid du Camp.
+   
+   </lb> 
+   <lb n="8">Echrydus annhraethol oedd ein cyflwr pan 
+   </lb>
+   <lb n="8-9">tiriodd
+   </lb>
+   <lb n="9">
+    yn ein gwlad y fath fintai arfog o ddihirwyr
+   </lb> 
+   <lb n="10">ysgeler! &#8212; Dynion mor ddiffaith ac esgymmun \ysgymun\ eu
+   </lb> 
+   <lb n="11">cynneddfau, ag yr oedd eu cenedl a 'u gwladwyr eu
+   </lb> 
+   <lb n="12">hunain yn gorfod eu golygu a 'u trin fel y penaf a 'r
+   </lb> 
+   <lb n="13">gwaethaf, o ddrwgweithredwyr! Peth creulon, a
+   </lb> 
+   <lb n="14">barbaraidd, a ffiaidd, yn sicr, yn llywodraethwyr
+   </lb> 
+   <lb n="15">Ffrainc, oedd danfon dynion o 'r fath yma i 
+   </lb>
+   <lb n="15-16">unrhyw
+   </lb>
+   <lb n="16">
+    wlad gyfanedd neu drigfanol, &acirc;g arfau yn eu
+   </lb> 
+   <lb n="17">dwylaw. Ni all y fath weithred ddim llai n&acirc; bod
+   </lb> 
+   <lb n="18">yn waradwydd trag'wyddol iddynt. &#8212; Ond dywed \VBI-2SG\
+   </lb> 
+   <lb n="19">imi, attolwg, ddarllenydd rhesymmol ac onest, Pa
+   </lb> 
+   <lb n="20">un o 'r ddau beth oedd waethaf &#8212; Eu hanfon hwy i 'r
+   </lb> 
+   <lb n="21">fath wlad a hon &acirc;g arfau yn eu dwylaw: Ai, ynte \ynteu\,
+   </lb> 
+   <lb n="22">eu hannog a 'u hemployo hwy, neu eu rhoi ar waith,
+   </lb> 
+   <lb n="23">gwedi'n \gwedyn\, i gyhuddo ac i dyngu yn erbyn rhai o 'n
+   </lb> 
+   <lb n="24">pobl ni ein hunain; a rhai, hefyd, ag yr oedd eu
+   </lb> 
+   <lb n="25">hymarweddiad, o hyd, yn ymddangos mor 
+   </lb>
+   <lb n="25-26">ddiargyhoedd
+   </lb>
+   <lb n="26">
+    a 'r cyffredinolrwydd o 'u cymmydogion \cymdogion\?
+   </lb> 
+   <lb n="27">Gwedi ini eu rhoi hwy ar waith i gyhuddo, ac i
+   </lb> 
+   <lb n="28">dyngu, tybygid \tebygid\, mai nid gyd &acirc; 'r gweddeidd-dra
+   </lb> 
+   <lb n="29">mwyaf yn y byd y gallwn ni feio ar y Directory
+   </lb> 
+   <lb n="30">am anfon y fath gythreuliaid drosodd. Pa faint
+   </lb> 
+   <lb n="31">gwaeth oedd eu gwaith hwy yn trosglwyddo y 
+   </lb>
+   <lb n="31-32">gethern
+   </lb>
+   <lb n="32">
+    hon i 'n mysg, n&acirc; 'n gwaith ninau yn eu rhoi
+   </lb> 
+   <lb n="33">ar waith i gyhuddo a thyngu yn erbyn ein brodyr
+   </lb> 
+   <lb n="34">ein hunain?!!! &#8212; Yr oedd tri pheth yn y dynion
+   </lb> 
+   <lb n="35">hyn ag oedd yn eu llwyr anghymwyso i 'r gwaith
+   </lb> 
+   <lb n="36">y gosodasom ni hwy arno, ac yn ei wneuthur yn beth
+   </lb> 
+   <lb n="37">creulon a gwaradwyddus, dros ben, ynom ni i 'w
+   </lb> 
+   <lb n="38">gosod hwy oll ar y fath waith. &#8212; Yn gyntaf, 
+   </lb>
+   <lb n="38-39">Gelynion
+   </lb>
+   <lb n="39">
+    oeddent: yn ail, Drwgweithredwyr 
+   
+   </lb>
+   </pb>
+   <pb n="13-14.">
+   <lb n="39-1">condemniedig
+   </lb>
+   </pb>
+   <pb n="14.">
+   <lb n="1">
+    oeddent: ac yn drydydd, Yr oeddent yn
+   </lb> 
+   <lb n="2">rhai ag oedd yn cwbl a diymgel anghredu cyflwr i
+   </lb> 
+   <lb n="3">ddyfod, neu, fod unrhyw gyfrif neu gosp \gosb\ i 'w 
+   </lb>
+   <lb n="3-4">ddysgwyl
+   </lb>
+   <lb n="4">
+    \ddisgwyl\ mewn byd arall.
+   
+   </lb> 
+   <lb n="5">Gad imi, ddarllenydd anwyl, ofyn itti, yn 
+   </lb>
+   <lb n="5-6">brysur
+   </lb>
+   <lb n="6">
+    ac yn onest, un cwestiwn yn ychwaneg. Atteb
+   </lb> 
+   <lb n="7">di ef yn d&ecirc;g ac yn sobr i 'th gydwybod dy hun. &#8212;
+   </lb> 
+   <lb n="8">Gan ei fod yn beth cwbl yspys \hysbys\ a dilys, mai dynion
+   </lb> 
+   <lb n="9">o 'r fath uchod oedd y rhai hyny a gadwyd yn 
+   </lb>
+   <lb n="9-10">Hwlffordd
+   </lb>
+   <lb n="10">
+    i dyngu yn erbyn bywydau Thomas John a
+   </lb> 
+   <lb n="11">Samuel Griffiths, onid oes gan y ddau wr hyny, a
+   </lb> 
+   <lb n="12">chan yr ymneillduwyr \ymneilltuwyr\ yn gyffredinol, dros ba rai y
+   </lb> 
+   <lb n="13">dyoddefasant \ddioddefasant\, achos cyfiawn a dirfawr i achwyn,
+   </lb> 
+   <lb n="14">iddynt hwy gael eu trin yn greulonach n&acirc; 'r 
+   </lb>
+   <lb n="14-15">gwaethaf
+   </lb>
+   <lb n="15">
+    o ddrwgweithredwyr o fewn eu gwlad: canys,
+   </lb> 
+   <lb n="16">yn erbyn pwy ddrwgweithredwyr, neu ddynion 
+   </lb>
+   <lb n="16-17">cyhuddedig,
+   </lb>
+   <lb n="17">
+    y goddefwyd, erioed o 'r blaen, mewn un
+   </lb> 
+   <lb n="18">llys yn Nghymru neu yn Mrydain \Mhrydain\, i 'r fath wyr i 
+   </lb>
+   <lb n="18-19">ymddangos
+   </lb>
+   <lb n="19">
+    a dwyn eu tystiolaeth: &#8212; neu, Pwy yn ein
+   </lb> 
+   <lb n="20">gwlad, erioed o 'r blaen, o ymarweddiad diargyhoedd
+   </lb> 
+   <lb n="21">a gweddaidd, ga'dd \gafodd\ eu dwyn, fel hyn, i garchar ac
+   </lb> 
+   <lb n="22">i farn, ac i ddibyn distryw, hen neb yn beiddio eu
+   </lb> 
+   <lb n="23">cyhuddo, ond dynion o 'r fath a grybwyllwyd?
+   
+   </lb> 
+   <lb n="24">Yr oedd llawer yn ein mysg yn gobeithio y buasai
+   </lb> 
+   <lb n="25">rhyw effeithiau hyfryd a dymunol iawn yn canlyn
+   </lb> 
+   <lb n="26">y waredigaeth fawr a gawsom. Ac, yn wir, yr oedd
+   </lb> 
+   <lb n="27">llawer o le, dybygsid \debygsid\, i obeithio a dysgwyl \disgwyl\ hyny.
+   </lb> 
+   <lb n="28">Braidd, erioed, y cafodd neb dynion waredigaeth
+   </lb> 
+   <lb n="29">mor berffaith, gwedi bod mewn cymmaint o berygl.
+   </lb> 
+   <lb n="30">Cyfle godidog a gogoneddus a gafodd ein peneithiaid \penaethiaid\,
+   </lb> 
+   <lb n="31">bryd hyny, i alw ac annog ac arwain y wlad i 
+   </lb>
+   <lb n="31-32">gariad
+   </lb>
+   <lb n="32">
+    ac undeb; ac i feithrin yn helaeth yn ein plith
+   </lb> 
+   <lb n="33">yr holl rinweddau cymdeithasol. Ond aeth y cwbl
+   </lb> 
+   <lb n="34">yn ofer trwy eu hynfydrwydd erchyll hwy; a bu
+   </lb> 
+   <lb n="35">y waredigaeth, a 'r cyfle, a 'r cyfan iddynt hwy, ac
+   </lb> 
+   <lb n="36">i 'w gwlad, megis gwerth yn nwylaw ffyliaid. 
+   </lb>
+   <lb n="36-37">Dechreuasant
+   </lb>
+   <lb n="37">
+    maes o law, sisial drwg-dybiau am eu 
+   </lb>
+   <lb n="37-38">cymmydogion
+   </lb>
+   <lb n="38">
+    \cymdogion\; a gwelwyd yn lled fuan mai at yr 
+   </lb>
+   <lb n="38-39">ymneillduwyr
+   </lb>
+   <lb n="39">
+    \ymneilltuwyr\ yr oedd eu cyfeiriaid. Cymmerwyd i
+   
+   
+   </lb>
+   </pb>
+   <pb n="15.">
+   
+    
+   <lb n="1">fynu John Thomas, masnachwr cyfrifol o Hwlffordd,
+   </lb> 
+   <lb n="2">a chadwyd ef dros rai wythnosau yn ngharchar, ar
+   </lb> 
+   <lb n="3">y fath esgus ag y buasai cywilydd gan bawb ond hwy
+   </lb> 
+   <lb n="4">eu hunain i wneud unrhyw ddefnydd, neu 
+   </lb>
+   <lb n="4-5">gymmeryd
+   </lb>
+   <lb n="5">
+    un math o sylw ohono. Gan nad ysgrifenasid
+   </lb> 
+   <lb n="6">ei warant garchariad ef, cafodd o 'r diwedd ei 
+   </lb>
+   <lb n="6-7">ollwng
+   </lb>
+   <lb n="7">
+    allan yn ddistaw, gan un ohonynt, yr hwn a
+   </lb> 
+   <lb n="8">ddaeth atto mewn rhith o addfwynder i geisio 
+   </lb>
+   <lb n="8-9">ganddynt
+   </lb>
+   <lb n="9">
+    ddyfod i maes. Yr oeddent oll yn escusodi \esgusodi\
+   </lb> 
+   <lb n="10">eu hunain, megis ped fuasai arnynt ryw beth fel 
+   </lb>
+   <lb n="10-11">cywilydd
+   </lb>
+   <lb n="11">
+    am eu hymddygiad. Ond nid oedd hyny
+   </lb> 
+   <lb n="12">ond iawn neu d&acirc;l tra bychan a distadl i 'r gwr am
+   </lb> 
+   <lb n="13">gymmaint o gamwedd erchyll a cholled.
+   
+   </lb> 
+   <lb n="14">Aethant yn nesaf i chwilio t&#375; John Reynold,
+   </lb> 
+   <lb n="15">Gweinidog parchus yn mysg \ymysg\ y Bedyddwyr, dan
+   </lb> 
+   <lb n="16">escus \esgus\, fod ganndynt ryw achos drwg-dybiaeth yn ei
+   </lb> 
+   <lb n="17">erbyn yntef \yntau\, yn \ym\ mherthynas i fatter John Thomas.
+   </lb> 
+   <lb n="18">Ond wedi ei holi, a chymmeryd ac edrych ei 
+   </lb>
+   <lb n="18-19">bapurau,
+   </lb>
+   <lb n="19">
+    hwy a 'i gadwasant ef, heb allu cael unrhyw rith
+   </lb> 
+   <lb n="20">o ddim ag y gallent ei gyhuddo ef o 'i herwydd.
+   
+   </lb> 
+   <lb n="21">Gwedi hyn, yn mhell \ymhell\ oddiwrth flino ar eu gwaith,
+   </lb> 
+   <lb n="22">hwy a gymmerasant i fynu amryw eraill. Wrth eu
+   </lb> 
+   <lb n="23">holi, cafwyd fod rhai ohonynt o 'r Eglwys 
+   </lb>
+   <lb n="23-24">sefydledig,
+   </lb>
+   <lb n="24">
+    yr hyn oedd yn anhyspys iddynt o 'r blaen.
+   </lb> 
+   <lb n="25">Gollyngwyd y rhai hyn ymaith yn ebrwydd ac yn
+   </lb> 
+   <lb n="26">barchus, fel dynion onest a da, a rhai nad oedd dim
+   </lb> 
+   <lb n="27">lle nac achos i 'w drwgdybio. Cafodd y lleill hefyd
+   </lb> 
+   <lb n="28">eu gollwng yn rhydd yn mhen=ymhen \\ amser, eu=i \\ gyd ond
+   </lb> 
+   <lb n="29">dau, y rhai a gyfrifid yn ddigon, y mae 'n debyg i 
+   </lb>
+   <lb n="29-30">atteb
+   </lb>
+   <lb n="30">
+    eu pwrpas, ac yn aberthu cymmwys i 'w 
+   </lb>
+   <lb n="30-31">hoffrymu
+   </lb>
+   <lb n="31">
+    ar allor fawr eu cynddaredd erledigaethus, i 'r
+   </lb> 
+   <lb n="32">Duw Moloc, gwrthddrych mawr a phenaf eu 
+   </lb>
+   <lb n="32-33">defosiwn,
+   </lb>
+   <lb n="33">
+    eu haddoliad a 'u hyfrydwch.
+   
+   </lb> 
+   <lb n="34">Bu John Reed, llafurwr gweddaidd a chyfrifol o
+   </lb> 
+   <lb n="35">Bencaer, mewn dalfa dro hir ar ol y lleill a 
+   </lb>
+   <lb n="35-36">ryddhausid;
+   </lb>
+   <lb n="36">
+    ond gollyngwyd yntef \yntau\ hefyd ymaith, dan 
+   </lb>
+   <lb n="36-37">feichiau,
+   </lb>
+   <lb n="37">
+    ar ddiwedd Sessiwn y gwanwyn. &#8212; Yn y 
+   </lb>
+   <lb n="37-38">Sessiwn
+   </lb>
+   <lb n="38">
+    hwnw darfu i 'r Uchelreithwyr gael, neu ddwyn
+   </lb> 
+   <lb n="39">i mewn ysgrifen-gyhuddiad (Bill of Indictment,) yn
+   
+   
+   </lb>
+   </pb>
+   <pb n="16.">
+   
+        
+   <lb n="1">erbyn Thomas John a Samuel Griffiths; ar dystiolaeth
+   </lb> 
+   <lb n="2">y Ffrancod yn unig, heb neb o 'n pobl ni ein hunain
+   </lb> 
+   <lb n="3">yn abl gosod neu brofi dim yn eu herbyn! &#8212; Cadw 'n
+   </lb> 
+   <lb n="4">dy g&ocirc;f, Ddarllenydd, pa fath ddynion oedd y rhai
+   </lb> 
+   <lb n="5">hyny y darfu i 'r Uchel-reithwyr (Grand Jury,) 
+   </lb>
+   <lb n="5-6">ddewis
+   </lb>
+   <lb n="6">
+    rhoi coel iddynt, a chymmeryd eu gair yn erbyn
+   </lb> 
+   <lb n="7">bywydau eu dau gymmydog diniwaid; ac ar 
+   </lb>
+   <lb n="7-8">dystiolaeth
+   </lb>
+   <lb n="8">
+    pa rai yr anturiasant i seilio yr ysgrifen 
+   </lb>
+   <lb n="8-9">gyhuddiad.
+   </lb>
+   <lb n="9">
+    &#8212; 1. Gelynion tyngedig ini oeddent. &#8212; 2. 
+   </lb>
+   <lb n="9-10">Drwgweithredwyr
+   </lb>
+   <lb n="10">
+    condemnedig yn eu gwlad eu hunain
+   </lb> 
+   <lb n="11">oeddent &#8212; 3. Dynion oeddent ag oedd yn cwbl 
+   </lb>
+   <lb n="11-12">anghredu
+   </lb>
+   <lb n="12">
+    cyflwr i ddyfod, neu, fod unrhyw gosp \gosb\ am
+   </lb> 
+   <lb n="13">ddrwg i 'w ddysgwyl \ddisgwyl\ mewn byd arall; o 'r hyn y 
+   </lb>
+   <lb n="13-14">byddent
+   </lb>
+   <lb n="14">
+    barod i wneud eu bost, ar brydiau! &#8212; Do, 
+   </lb>
+   <lb n="14-15">ddarllenydd
+   </lb>
+   <lb n="15">
+    hynaws, er rhyfeddol ydyw, fe ddarfu i 'r
+   </lb> 
+   <lb n="16">Uchelreithwyr ddewis gwrando a derbyn tystiolaeth
+   </lb> 
+   <lb n="17">y fath ddynion a 'r rhai'n, yn erbyn bywydau eu dau
+   </lb> 
+   <lb n="18">gymmydog &#8212; heb gymmaint ag un o 'n pobl ni ein
+   </lb> 
+   <lb n="19">hunain yn beiddio sefyll i fynu, neu roi un math o
+   </lb> 
+   <lb n="20">gadarnh&acirc;d i 'r dystiolaeth a 'r cyhuddiad ysgeler!
+   
+   </lb> 
+   <lb n="21">Gwedi i 'r Uchel-reithwyr ddwyn i mewn yr 
+   </lb>
+   <lb n="21-22">ysgrifen
+   </lb>
+   <lb n="22">
+    gyhuddiad, nid oedd dim mwyach i wneuthur
+   </lb> 
+   <lb n="23">gan y ddau garcharor, ond ymgymmodi &acirc; 'u sefyllfa,
+   </lb> 
+   <lb n="24">a pharotoi \pharatoi\ erbyn y cynghaws, neu 'r treial, yn 
+   </lb>
+   <lb n="24-25">Sessiwn
+   </lb>
+   <lb n="25">
+    yr Hydref. Cawsant eu cadw yn ngharchar yn
+   </lb> 
+   <lb n="26">fanol ac yn gaeth iawn: Thomas Jones yn enwedig.
+   </lb> 
+   <lb n="27">Triniwyd ef gyd &acirc; llymder a thoster neillduol \neilltuol\; heb
+   </lb> 
+   <lb n="28">oddef iddo adael ei g&ecirc;ll, neu fyned dan yr awyr, yr
+   </lb> 
+   <lb n="29">holl amser. Yr hyn oedd un achos, ond odid, o 'r hir
+   </lb> 
+   <lb n="30">a blin gystudd a ddyoddefodd \ddioddefodd\ ef wedi ei ddyfod 
+   </lb>
+   <lb n="30-31">allan;
+   </lb>
+   <lb n="31">
+    ac o 'r hwn y bu ef dros ryw amser yn annhebyg
+   </lb> 
+   <lb n="32">iawn i wella. Dangoswyd rhyw beth fel tosturi, ar
+   </lb> 
+   <lb n="33">ei iechyd yn lled wael, rai troion \troeon\; a gollyngid ef
+   </lb> 
+   <lb n="34">weithiau, i rodio ychydig yn y cyntedd.
+   
+   </lb> 
+   <lb n="35">O ran y cwestiwn mawr, Euog neu ddieuog? Nid
+   </lb> 
+   <lb n="36">oedd dim i wneud yn awr, dybyg'sid \debygsid\, ond ei adael
+   </lb> 
+   <lb n="37">i orphwys yn llonydd hyd y Sessiwn nesaf, rhwng
+   
+   
+   </lb>
+   </pb>
+   <pb n="17.">
+   
+    
+   <lb n="1">IE y Ffrancod, a NAGE y ddau garcharor, ynghyd
+   </lb> 
+   <lb n="2">a llawer eraill o 'u cymmydogion \cymdogion\, y rhai oeddent yn
+   </lb> 
+   <lb n="3">barod i dyngu, ac i brofi allfan (alibi,) yn erbyn
+   </lb> 
+   <lb n="4">tystiolaeth y gelynion. Ond nid oedd dim o bawb
+   </lb> 
+   <lb n="5">yn foddlon i adael y peth felly i orphwys yn 
+   </lb>
+   <lb n="5-6">llonydd.
+   </lb>
+   <lb n="6">
+    Yr oedd llaweroedd, o 'r tu arall, yn weithgar
+   </lb> 
+   <lb n="7">ac egniol iawn, yn y cyfamser, i ragfarnu y ddau
+   </lb> 
+   <lb n="8">wr, ac i ledu trwy y wlad y rhagfarn yn eu herbyn,
+   </lb> 
+   <lb n="9">hyd y byddai bosibl.
+   
+   </lb> 
+   <lb n="10">Y blaenaf o 'r rhai hyn oedd y pum anghenfil a 'u
+   </lb> 
+   <lb n="11">carennydd; math o fonedd; fel eu \y 'u\ gelwir; 
+   </lb>
+   <lb n="11-12">dynion
+   </lb>
+   <lb n="12">
+    digydwybod, a didduw. Gwyddys am rai o 'r
+   </lb> 
+   <lb n="13">cyfryw, eu bod yn myned ar hyd y wlad, dan sisial,
+   </lb> 
+   <lb n="14">yn nhai eu cydradd i fod llawer o bobl y wlad,
+   </lb> 
+   <lb n="15">cymmydogion \cymdogion\ y ddau garcharor, yn barod i ddyfod
+   </lb> 
+   <lb n="16">yn mlaen \ymlaen\ ar eu llwon i gadarnhau tystiolaeth y
+   </lb> 
+   <lb n="17">Ffrancod: yr hyn y gwyddent hwy, yr un pryd,
+   </lb> 
+   <lb n="18">mai celwydd hollol ydoedd. &#8212; Gelynion eu gwlad, a
+   </lb> 
+   <lb n="19">gelynion pob daioni yw y fath ddynion. Duw a 
+   </lb>
+   <lb n="19-20">faddeuo
+   </lb>
+   <lb n="20">
+    iddynt. Da fuasai gallu dweud, fod holl gorph
+   </lb> 
+   <lb n="21">yr offeiriadon parchedig yn gwbl lan a rhydd oddi
+   </lb> 
+   <lb n="22">wrth y cyfrifiad uchod; ac yn enwedig, fod y rhai
+   </lb> 
+   <lb n="23">hyny yn eu mysg a gyfrifir neu a gyfenwir yn 
+   </lb>
+   <lb n="23-24">offeiriadon
+   </lb>
+   <lb n="24">
+    efangylaidd \efengylaidd\, wedi bod yn dra diesceulus \diesgeulus\, 
+   </lb>
+   <lb n="24-25">gofalus,
+   </lb>
+   <lb n="25">
+    ymrous, ac ymdrechol, yn y cyfamser, i gadw
+   </lb> 
+   <lb n="26">eu hunain a 'u pobl yn yr iawn lwybr; gan ddwyn
+   </lb> 
+   <lb n="27">eu tystiolaeth yn wrol ac yn ffyddlon, trwy 
+   </lb>
+   <lb n="27-28">rybuddio
+   </lb>
+   <lb n="28">
+    pob dyn, i ochelyd ffordd Cain, ac ymgadw, &acirc; 'u
+   </lb> 
+   <lb n="29">holl egni, ac ar eu perygl, oddi wrth yr yspryd
+   </lb> 
+   <lb n="30">rhagfarnol ac annuwiol, ag oedd wedi myned allan
+   </lb> 
+   <lb n="31">ar draws y wlad.
+   
+   </lb> 
+   <lb n="32">Am y pum anghenfil a 'u cene'l \cenedl\, nid oes, ar y 
+   </lb>
+   <lb n="32-33">cyfan,
+   </lb>
+   <lb n="33">
+    ddim cymmaint o ryfeddod. Gwyddid o 'r
+   </lb> 
+   <lb n="34">blaen, yn lled dda, beth oedd eu helfen hwy. 
+   </lb>
+   <lb n="34-35">Gwyddid
+   </lb>
+   <lb n="35">
+    hefyd, yn weddol, beth oedd anadl a thuedd
+   </lb> 
+   <lb n="36">yr offeiriadon; ac hyd yn oed y frawdoliaeth hono
+   </lb> 
+   <lb n="37">yn eu mysg, a gyfenwir, neu a lysenwir yn 
+   </lb>
+   <lb n="37-38">Efangylwyr.
+   </lb>
+   <lb n="38">
+    \Efengylwyr\ &#8212; Ond, pwy yn yr holl fyd a dybyg'sai \debygasai\, neu
+   
+   
+   </lb>
+   </pb>
+   <pb n="18.">
+   
+    
+   <lb n="1">a ddysgwyl'sai \ddisgwylasai\, y gwel'sid y Methodistiaid 
+   </lb>
+   <lb n="1-2">uniongr&ecirc;d
+   </lb>
+   <lb n="2">
+    yn cyd-drafaelu &acirc; 'r lleill, yn yr unrhyw lwybr
+   </lb> 
+   <lb n="3">cainaidd? Onid yw hyn, o brysur, yn beth i 'w
+   </lb> 
+   <lb n="4">ryfeddu, ac i alaru amdano? Y mae geiriau Caisar,
+   </lb> 
+   <lb n="5">wrth wel'd ei h&ecirc;n gyfaill Brutus yn mysg \ymysg\ y 
+   </lb>
+   <lb n="5-6">cydfwriadwyr,
+   </lb>
+   <lb n="6">
+    yn rhuthro yma i 'm cof. * Beth a 
+   </lb>
+   <lb n="6-7">ddywedwch
+   </lb>
+   <lb n="7">
+    chwi ymneillduwyr \ymneilltuwyr\ Cymru, ar yr achos;
+   </lb> 
+   <lb n="8">y rhai oeddech yn arfer i gyfrif, ac i alw y 
+   </lb>
+   <lb n="8-9">Methodistiaid
+   </lb>
+   <lb n="9">
+    yn frodyr anwyl a pharchedig? Ai brawdol y
+   </lb> 
+   <lb n="10">galwch chwi, yn awr y rhan a wnaethant hwy,
+   </lb> 
+   <lb n="11">neu y ffordd a gymmerasant hwy y leni \eleni\ tu ag attoch?
+   </lb> 
+   <lb n="12">Ond, nid hwyrach, na bydd rhai yn eich plith yn
+   </lb> 
+   <lb n="13">chwannog i adrodd ac i gymhwyso, ar yr achos hwn,
+   </lb> 
+   <lb n="14">y ddeuddegfed adnod, o 'r drydedd bennod ar hugain
+   </lb> 
+   <lb n="15">o efengyl Luc. &#8212; "A 'r dwthwn hwnw yr aeth Pilat
+   </lb> 
+   <lb n="16">a Herod yn gyfeillion: canys yr oeddent o 'r blaen
+   </lb> 
+   <lb n="17">mewn gelyniaeth &acirc; 'u gilydd." &#8212; Y mae rhai gwedi
+   </lb> 
+   <lb n="18">meddwl, er ys \ers\ dyddiau, i fod brawdoliaeth 
+   </lb>
+   <lb n="18-19">Methodistiaid
+   </lb>
+   <lb n="19">
+    Cymru tu ag at yr ymneillduwyr \ymneilltuwyr\, yn 
+   </lb>
+   <lb n="19-20">enwedig,
+   </lb>
+   <lb n="20">
+    yn yr amgylchiad blin diweddar, yn rhy debyg i
+   </lb> 
+   <lb n="21">frawdoliaeth Esau gynt tu ag at Jacob; yr hwn y
+   </lb> 
+   <lb n="22">mae y prophwyd Obadiah yn ei grybwyll ac yn
+   </lb> 
+   <lb n="23">ei ddarlunio fel hyn &#8212; "Am dy draha yn erbyn
+   </lb> 
+   <lb n="24">dy frawd Jacob, gwarth a 'th orchuddia \VBPI-3SG\ &#8212; Y dydd y
+   </lb> 
+   <lb n="25">sefaist o 'r tu arall; y dydd y caethgludodd 
+   </lb>
+   <lb n="25-26">estroniaid
+   </lb>
+   <lb n="26">
+    ei olud ef, a myned o ddieithriaid i 'w byrth ef,
+   </lb> 
+   <lb n="27">a bwrw coelbrennan ar Jerusalem, TITHEU HEFYD
+   </lb> 
+   <lb n="28">OEDDIT MEGIS UN OHONYNT. Ond ni ddylesit
+   </lb> 
+   <lb n="29">ti edrych ar ddydd dy frawd, y dydd y dieithrwyd
+   </lb> 
+   <lb n="30">ef, ac ni ddylesit lawenychu &#8212; ac ni ddylesit ledu dy
+   </lb> 
+   <lb n="31">safn ar ddydd y cystudd. &#8212; Canys agos yw dydd yr 
+   </lb>
+   <lb n="31-32">Arglwydd
+   </lb>
+   <lb n="32">
+    ar yr holl genhedloedd; fel y gwnaethost
+   </lb> 
+   <lb n="33">y gwneir i titheu; dy wobr a ddychwel \VBPI-3SG\ ar by ben
+   </lb> 
+   <lb n="34">dy hun, Ob. i. 10, 11, 12, 15. &#8212; Na atto Duw i
+   </lb> 
+   <lb n="35">ni chwennychu i farn a chosp \chosb\ Edom ddyfod 
+   </lb>
+   <lb n="35-36">arnynt
+   </lb>
+   <lb n="36">
+    hwy. Pell iawn oddi wrthym ni y byddo 
+   
+   </lb>
+   </pb>
+   <pb n="18-19.">
+   <lb n="36-1">dymuno
+   </lb>
+   </pb>
+   <pb n="19.">
+   <lb n="1">
+    iddynt ddim a f'o gwaeth n&acirc;g edifeirwch
+   </lb> 
+   <lb n="2">buan, a chyflawnder o 'r gwir yspryd \ysbryd\ efangylaidd \efengylaidd\.
+   </lb> 
+   <lb n="3">Yspryd \Ysbryd\ ag sy 'n awr, dybygid \debygid\, yn amlwg ac yn 
+   </lb>
+   <lb n="3-4">ddirfawr
+   </lb>
+   <lb n="4">
+    ar ei drai, ac yn prinhau beunydd yn ein
+   </lb> 
+   <lb n="5">plith. Ond nid oes dim gwell i 'w ddysgwyl \ddisgwyl\ tra y
+   </lb> 
+   <lb n="6">byddo proffeswyr selog yn parhau yn y gwaith
+   </lb> 
+   <lb n="7">gwaradwyddus ac erchyll o gnoi a thraflyngcu eu
+   </lb> 
+   <lb n="8">cymmydogion \cymdogion\ a 'u cyd-broffeswyr heddychol a 
+   </lb>
+   <lb n="8-9">diniwaid,
+   </lb>
+   <lb n="9">
+    a chyffroi ac annog yspryd \ysbryd\ erledigaeth yn
+   </lb> 
+   <lb n="10">eu herbyn hyd ag y gallent.
+   
+   </lb> 
+   <lb n="11">A thitheu Brutus!
+   
+   
+   
+   </lb> 
+   <lb n="12">Peth ciaidd a barbaraidd, dros ben, yw ceisio duo
+   </lb> 
+   <lb n="13">a rhagfarnu carcharorion cyn y caffo eu hachos ei
+   </lb> 
+   <lb n="14">brofi mewn brawdle, a cheisio rhagfeddiannu y wlad
+   </lb> 
+   <lb n="15">yn eu herbyn; gan na oddef \VBPI-3SG\ y gyfraith iddynt hwy,
+   </lb> 
+   <lb n="16">druain, gynnyg \gynnig\ cyfiawnhau neu amddiffyn eu 
+   </lb>
+   <lb n="16-17">hunain,
+   </lb>
+   <lb n="17">
+    cyn eu treial. Ond fe 'i gwnaed \gwnaethpwyd\ yn waith neu
+   </lb> 
+   <lb n="18">orchwyl cyffredinol trwy y wlad i dduo a rhagfarnu
+   </lb> 
+   <lb n="19">y ddau wr yma, a rhagfeddiannu y bobl yn eu 
+   </lb>
+   <lb n="19-20">herbyn,
+   </lb>
+   <lb n="20">
+    gan holl dorf y Toriaid a 'r Didduwiaid; ac
+   </lb> 
+   <lb n="21">fel y mae gwaetha 'r modd, gan lawer o 'r 
+   </lb>
+   <lb n="21-22">Methodistiaid
+   </lb>
+   <lb n="22">
+    hefyd. Darfu i 'r rhai olaf hyn eu henllibio
+   </lb> 
+   <lb n="23">hwy a 'r enwau y perthynent iddynt, yn enwedig y
+   </lb> 
+   <lb n="24">Bedyddwyr, y ffordd y cerddent. Taenasant yr 
+   </lb>
+   <lb n="24-25">anair
+   </lb>
+   <lb n="25">
+    a 'r enllib trwy Aberteifi ac Aberystwyth, ac yn
+   </lb> 
+   <lb n="26">mlaen \ymlaen\ trwy bob congl o 'r gogledd, yn gystal a 'r
+   </lb> 
+   <lb n="27">dwyrain a 'r d&euml;au; er mawr drallod, a gogan, a 
+   </lb>
+   <lb n="27-28">gwaradwydd
+   </lb>
+   <lb n="28">
+    i 'r Enw hwnw mewn llawer o fanau. Ac
+   </lb> 
+   <lb n="29">yn mron \ymron\ yn \ym\ mhob cymmydogaeth \cymdogaeth\ lle y byddai y
+   </lb> 
+   <lb n="30">Methodistiaid yn lliosog \lluosog\, yr oeddent hwy yn achos
+   </lb> 
+   <lb n="31">mwy o flinder, dirmyg, ac erlid, i 'r rhai o 'r Enw
+   </lb> 
+   <lb n="32">hwnw n&acirc; 'r bydolion diddifrifwch a dibroffes. &#8212;
+   </lb> 
+   <lb n="33">Y mae c&ocirc;f gan ysgrufenydd y papuryn hwn, ei fod,
+       </lb> 
+   <lb n="34">gyd &acirc; mawr syndod, yn gweled ac yn sylwi hyn ei
+   </lb> 
+   <lb n="35">hun, mewn amryw fanau ac ardaloedd trwy gydol
+   </lb> 
+   <lb n="36">y gwanwyn a 'r haf diweddaf. Un lle neillduol \neilltuol\ y
+   </lb> 
+   <lb n="37">mae yn awr yn ei gofio yw Arberth. Yr oedd un
+   </lb> 
+   <lb n="38">gwr tangnefeddus, gwaeddaidd a duwiol yno, yn
+   </lb> 
+   <lb n="39">cwyno yn dost wrtho ac yn achwyn yn arw ar ei
+   
+   
+   </lb>
+   </pb>
+   <pb n="20.">
+   
+    
+   <lb n="1">flin anesmwyth gyflwr &#8212; "Ond," eb efe, gwedi'n \gwedyn\
+   </lb> 
+   <lb n="2">"Mi a allwn, trwy 'r cwbl, ac yn wyneb y storom
+   </lb> 
+   <lb n="3">erchyll hon, ymdaro, ac ymdopi yn lled weddol
+   </lb> 
+   <lb n="4">etto, oni bae \onibai\ y Methodistiaid! Y mae eu surni 
+   </lb>
+   <lb n="4-5">enllibus,
+   </lb>
+   <lb n="5">
+    a 'u chwerwedd athrodus a goganllyd hwy
+   </lb> 
+   <lb n="6">yn mron \ymron\ yn annyoddefol \annioddefol\!
+   
+   </lb> 
+   <lb n="7">Emlyn, neu y Castell newydd yn Emlyn, fel er \y\
+   </lb> 
+   <lb n="8">gelwir yn fwy cyffredin, oedd un lle hynod arall
+   </lb> 
+   <lb n="9">o 'r un fath. Aethus oedd yr yspryd \ysbryd\ chwerw, 
+   </lb>
+   <lb n="9-10">rhagfarnllyd,
+   </lb>
+   <lb n="10">
+    cainaidd, a ddangosodd Methodistiaid 
+   </lb>
+   <lb n="10-11">pendwymion
+   </lb>
+   <lb n="11">
+    y fangre hono, yn y cyfamser. Gwnaeth
+   </lb> 
+   <lb n="12">un o 'u pregethwyr prydyddol hwy, Phylib Dafydd,
+   </lb> 
+   <lb n="13">wrth ei enw, g&acirc;n, neu balat \balad\, am y waredigaeth fawr
+   </lb> 
+   <lb n="14">a gawsom o ddwylaw y Ffrancod. Yr oedd hon ar
+   </lb> 
+   <lb n="15">y cyfan, (oddieithr mewn un peth,) gystal a 'r rhan
+   </lb> 
+   <lb n="16">fwyaf o 'r baletau \baledau\ a ymddangosodd ar yr achos hwnw;
+   </lb> 
+   <lb n="17">yr hyn nid wyf yn ei ddweud mewn ffordd o 
+   </lb>
+   <lb n="17-18">ganmoliaeth
+   </lb>
+   <lb n="18">
+    iddi; canys, o brysur, nid oeddent, gan
+   </lb> 
+   <lb n="19">mwyaf, (a rhyfedd oedd eu hamledd!) ond y 
+   </lb>
+   <lb n="19-20">pethau
+   </lb>
+   <lb n="20">
+    mwyaf cethin a gw&acirc;g a welodd y byd erioed,
+   </lb> 
+   <lb n="21">dan enw prydyddiaeth!! Ped fuasai y cythraul gwedi
+   </lb> 
+   <lb n="22">cyffroi ac ysprydoli dynion i wneud baletau \baledau\ yn 
+   </lb>
+   <lb n="22-23">bwrpasol
+   </lb>
+   <lb n="23">
+    tu ag at ddwyn y waredigaeth fawr hono i
+   </lb> 
+   <lb n="24">ddiystyrwch, a gwneud y coffadwriaeth ohoni yn
+   </lb> 
+   <lb n="25">ddirmygus, ac yn watwargerdd yn y byd, nid wyf
+   </lb> 
+   <lb n="26">yn meddwl y gallasent fod yn waeth. &#8212; Yr oedd
+   </lb> 
+   <lb n="27">rhai a wnaethid gan ymneillduwyr \ymneilltuwyr\, cynddrwg yn
+   </lb> 
+   <lb n="28">yr olwg hyny, ar a wn i, a 'r gwaethaf. &#8212; Ond y
+   </lb> 
+   <lb n="29">peth ag oedd yn gwneud c&acirc;n Phylib yn waeth, yn
+   </lb> 
+   <lb n="30">gasach, ac yn fwy erchyll, o lawer n&acirc; neb o 'r lleill
+   </lb> 
+   <lb n="31">a welais i oedd yr yspryd \ysbryd\ Cainaidd, camgyhuddol,
+   </lb> 
+   <lb n="32">a rhagfarnol yr oedd yn ei anadlu. Un gair, tra
+   </lb> 
+   <lb n="33">hynod, o 'r g&acirc;n honno, oedd yn rhedeg fel hyn &#8212;
+   
+   
+   <!-- Barddoniaeth / Poetry -->
+   </lb> 
+   <lb n="34">"Mi ryfeddais, fil o weithiau,
+   </lb> 
+   <lb n="35">I fod dynion hardd eu doniau,
+   </lb> 
+   <lb n="36">Gwedi eu dallu mor dywylled,
+   </lb> 
+   <lb n="37">Yn margena &acirc; 'r fath fegeried."
+   
+   <!--Diwedd pennill / End stanza-->
+   
+   
+   </lb>
+   </pb>
+   <pb n="21.">
+   
+    
+   <lb n="1">Yr oeddid yn gyffredin yn meddwl, mai at y
+   </lb> 
+   <lb n="2">ddau garcharor yr oedd Phylib, yn y geiriau uchod,
+   </lb> 
+   <lb n="3">yn cyfeirio: ac fe ddywedodd ei frawd, a 'i gyfaill
+   </lb> 
+   <lb n="4">mynwesol Abel Thomas, mai dyna, yn sicr, oedd y
+   </lb> 
+   <lb n="5">gwir. Ond, pwy bynnag oedd yn ei olwg ef, yr
+   </lb> 
+   <lb n="6">oedd yr yspryd \ysbryd\ a 'r ymadrodd, yn ddiau, yn gwbl
+   </lb> 
+   <lb n="7">anghrist'nogaidd ac anesgusodol: gan nad oes un
+   </lb> 
+   <lb n="8">sail yn y byd i feddwl, nac un rhith o brawf, neu
+   </lb> 
+   <lb n="9">debygolrwydd, i 'w gael, i fod un dyn o fewn ein
+   </lb> 
+   <lb n="10">gwlad wedi bod yn margena &acirc; 'r Ffrancod, neu y
+   </lb> 
+   <lb n="11">begeriaid hyny, fel y galwai ef hwynt. &#8212; Y mae yn
+   </lb> 
+   <lb n="12">anhawdd \anodd\ gweled o ba le y gallai y fath air, a 'r fath
+   </lb> 
+   <lb n="13">g&acirc;n darddu, os nid o yspryd \ysbryd\ a chrefydd yr hen Gain.
+   </lb> 
+   <lb n="14">Peth rhy gyffredin oedd clywed rhyw rai o 'r 
+   </lb>
+   <lb n="14-15">frawdoliaeth
+   </lb>
+   <lb n="15">
+    yn arfer geiriau ag oedd yn amlwg yn tueddu
+   </lb> 
+   <lb n="16">i beri i ddynion ragfarnu y ddau wr, neu i 'w 
+   </lb>
+   <lb n="16-17">rhagfeddiannu
+   </lb>
+   <lb n="17">
+    hwynt, a gosod yn eu herbyn. Yr hyn
+   </lb> 
+   <lb n="18">yn sicr, oedd greulondeb aethlyd, a chamwedd o 'r
+   </lb> 
+   <lb n="19">mwyaf. Braidd y gallir \gellir\ meddwl am ddim i 'w 
+   </lb>
+   <lb n="19-20">gydmaru
+   </lb>
+   <lb n="20">
+    i 'r creulondeb hwn tu ag at garcharorion yn
+   </lb> 
+   <lb n="21">y fath sefyllfa, oddieithr y cieidd-dra erchyll a 
+   </lb>
+   <lb n="21-22">ddangosir
+   </lb>
+   <lb n="22">
+    yn rhy fynych i drueiniaid llongddrylliedig,
+   </lb> 
+   <lb n="23">o 'r hyn hefyd y mae y Cymry, wrth bob hanes, yn
+   </lb> 
+   <lb n="24">fwy euog n&acirc; 'r rhan fwyaf o Genhedloedd eraill. &#8212;
+   </lb> 
+   <lb n="25">Parhaodd yr yspryd \ysbryd\ hwn, mae 'n debyg, ar ol y 
+   </lb>
+   <lb n="25-26">Sessiwn,
+   </lb>
+   <lb n="26">
+    os nad yw yn parhau etto yn rhai dynion. &#8212;
+   </lb> 
+   <lb n="27">O 'r holl bobl oedd yn gwrando pregeth ar ryddh&acirc;d
+   </lb> 
+   <lb n="28">y carcharorion, y sul ar ol y treial, yr oedd pawb
+   </lb> 
+   <lb n="29">yn amlygu boddlonrwydd a llawenydd, ond y rhai
+   </lb> 
+   <lb n="30">o 'r frawdoliaeth hon. Ymddygodd un ohonynt
+   </lb> 
+   <lb n="31">gyd &acirc; 'r fath anweddiedd-dra haerllug, ag y buasai
+   </lb> 
+   <lb n="32">chwith gan y rhan fwyaf o 'r meddwon a 'r digred i
+   </lb> 
+   <lb n="33">fod yn euog ohono. Llyfelodd a thaenodd 
+   </lb>
+   <lb n="33-34">gelwydd,
+   </lb>
+   <lb n="34">
+    hefyd, gwedi'n \gwedyn\ yn mhell \ymhell\ ac yn agos am y
+   </lb> 
+   <lb n="35">bregeth, gan haeru ddarfod i 'r pregethwr ddweud
+   </lb> 
+   <lb n="36">mai y Methodistiaid, oedd gwedi cynnyg \cynnig\ triugain \trigain\
+   </lb> 
+   <lb n="37">gini; a 'u bod hwy gwedi casglu swm o arian tu ag
+   </lb> 
+   <lb n="38">ar ddwyn yr achos yn mlaen \ymlaen\ yn erbyn y 
+   
+   </lb>
+   </pb>
+   <pb n="21-22.">
+   <lb n="38-1">carcharorion,
+   </lb>
+   </pb>
+   <pb n="22.">
+   <lb n="1">
+    &amp;c. &#8212; Da fyddai ped fai y Siopwyr, ac yn 
+   </lb>
+   <lb n="1-2">enwedig
+   </lb>
+   <lb n="2">
+    y Pregethwyr, eu \i\ gyd, yn ddynion geirwyr *.
+   
+   </lb> 
+   <lb n="3">Tra yr oedd y wlad fel y soniwyd, yn rhy 
+   </lb>
+   <lb n="3-4">gyffredin
+   </lb>
+   <lb n="4">
+    yn annog ac yn coleddu rhagfarn yn erbyn
+   </lb> 
+   <lb n="5">y carcharorion, dygwyddodd \digwyddodd\ tro yn Hwlffordd ag
+   </lb> 
+   <lb n="6">a barodd i ddynion onest, diduedd, agor eu llygaid.
+   </lb> 
+   <lb n="7">Dygwyd o d&#375; yno dair o lwyau arian mawrion,
+   </lb> 
+   <lb n="8">gwerth punt, o leiaf, bob un, fel y dywedwyd; ac
+   </lb> 
+   <lb n="9">yr oedd yn amlwg a dilys rhwng y ddau brif
+   </lb> 
+   <lb n="10">dyst, pen-cyhuddwyr y carcharorion, yr oedd y
+   </lb> 
+   <lb n="11">lladrad a 'r cyflafan yma yn gorwedd. Yr oeddent
+   </lb> 
+   <lb n="12">hwy yn cyhuddo eu gilydd, ac yn ceisio glanhau eu
+   </lb> 
+   <lb n="13">hunain, fel y mae lladron yn arferol i wneuthur;
+   </lb> 
+   <lb n="14">ond y mae yn debyg mai cydwaith ydoedd 
+   </lb>
+   <lb n="14-15">rhyngddynt,
+   </lb>
+   <lb n="15">
+    a bod y naill mor ddyfned yn y llaca ag yr
+   </lb> 
+   <lb n="16">oedd y llall yn y dom. Gwelodd llawer yn awr mor
+   </lb> 
+   <lb n="17">galed oedd tynged y ddau garcharor, ac mor greulon
+   </lb> 
+   <lb n="18">oedd eu triniaeth hwynt, i orfod goddef hir a thost
+   </lb> 
+   <lb n="19">garchariad, ac atteb a chael eu treio am eu bywyd,
+   </lb> 
+   <lb n="20">ac am ddim llai trosedd n&acirc; theyrn fradwriaeth, ar
+   </lb> 
+   <lb n="21">gyhuddiad neu dystiolaeth dau garn lleidr!!
+   
+   </lb> 
+   <lb n="22">Ni wnaed \wnaethpwyd\ un cynnyg \cynnig\, ar a wyddys, i gospi \gosbi\ y
+   </lb> 
+   <lb n="23">lladron hyn am eu herchyll gyflafan, na chymmaint
+   </lb> 
+   <lb n="24">a dangos unrhyw anfoddlonrwydd iddynt am eu
+   </lb> 
+   <lb n="25">direidi. Mor dra gwahanol oedd triniaeth y 
+   </lb>
+   <lb n="25-26">dihirwyr
+   </lb>
+   <lb n="26">
+    hyn oddiwrth yr eiddo ein dau gydwladwyr
+   </lb> 
+   <lb n="27">camgyhuddedig!! Ond y mae yn bosibl ei fod yn
+   </lb> 
+   <lb n="28">anghenrheidiol i 'w trin hwy felly, a bod yn dirion
+   </lb> 
+   <lb n="29">a hynaws iawn wrthynt, a mynych roddi arian 
+   </lb>
+   <lb n="29-30">iddynt,
+   </lb>
+   <lb n="30">
+    tu ag at eu cadw yn eu hwyl, ac yn eu chwedl,
+   </lb> 
+   <lb n="31">os gallid, dros y Sessiwn.
+   
+   </lb> 
+   <lb n="32">Ond ni dderbyniodd achos yr erlidwyr un 
+   </lb>
+   <lb n="32-33">ergyd
+   </lb>
+   <lb n="33">
+    cwbl farwol nes ei bod gwedi myned yn agos
+   
+   </lb> 
+   <lb n="34">Gobeithio, wedi'r cwbl, i fod llaweroedd o 
+   </lb>
+   <lb n="34-35">Fethodistiaid
+   </lb>
+   <lb n="35">
+    Cymru yn rhydd oddiwrth yr yspryd \ysbryd\ a 'r 
+   </lb>
+   <lb n="35-36">ymddygiad
+   </lb>
+   <lb n="36">
+    anaddas uchod; er eu bod yn anweledig fel y
+   </lb> 
+   <lb n="37">saith mil, y rhai ni phlygasant eu glyniau i Baal, yn
+   </lb> 
+   <lb n="38">nyddiau blinion Elias.
+   
+   
+   </lb>
+   </pb>
+   <pb n="23.">
+   
+    
+   <lb n="1">i ddiwedd yr h&acirc;f. Ryw bryd tua chanol 
+   </lb>
+   <lb n="1-2">Gorphenhaf,
+   </lb>
+   <lb n="2">
+    cyfaddefodd Siarl Prudhome wrth John Rees,
+   </lb> 
+   <lb n="3">un o 'r dyledwyr yn y castell, (ond yr hwn oedd
+   </lb> 
+   <lb n="4">wedi bod yn ddiweddar yn siopwr lled fawr yn y
+   </lb> 
+   <lb n="5">dref,) na welsai ef erioed ddim o Samuel Griffiths yn
+   </lb> 
+   <lb n="6">y gwersyll, nac yn un lle arall ychwaith, nes iddo
+   </lb> 
+   <lb n="7">ei weled yn ei d&#375; ei hun yr amser yr awd \aethpwyd\ i 'w 
+   </lb>
+   <lb n="7-8">gymmeryd
+   </lb>
+   <lb n="8">
+    ef yn garcharor. Gwnaeth hyn i John Rees
+   </lb> 
+   <lb n="9">synnu peth; ond nid llawer iawn yn chwaneg \ychwaneg\ o
+   </lb> 
+   <lb n="10">ymddiddan fu rhyngddynt y tro hwnw. Yn mhen \Ymhen\
+   </lb> 
+   <lb n="11">diwrnod neu ddau gwedi hyny, daeth Siarl 
+   </lb>
+   <lb n="11-12">drachefn
+   </lb>
+   <lb n="12">
+    at John Rees i geisio gantho \ganddo\ ysgrifenu llythyr
+   </lb> 
+   <lb n="13">drosto at ryw wr mawr o 'r dref. Bu hyn yn achlysur
+   </lb> 
+   <lb n="14">o dwsged fawr o siarad rhyngddynt ynghylch y 
+   </lb>
+   <lb n="14-15">carcharorion
+   </lb>
+   <lb n="15">
+    a phethau eraill. Yn ngwrs \nghwrs\ yr ymddiddan
+   </lb> 
+   <lb n="16">hwn darfu i Siarl yn rhwydd iawn gyfaddef, na
+   </lb> 
+   <lb n="17">welsai ef ddim o Thomas John oll yn y gwersyll, a 'i
+   </lb> 
+   <lb n="18">fod ef yn sicr nad oedd ef ddim gwedi bod yno.
+   </lb> 
+   <lb n="19">Rhyfeddodd John Rees i glywed hyn, a gofynodd
+   </lb> 
+   <lb n="20">iddo, gyd &acirc; mawr syndod, os felly yr oedd, Pa fodd
+   </lb> 
+   <lb n="21">y gallsai ef fod o 'r galon, ac o 'r wyneb, i dyngu fel
+   </lb> 
+   <lb n="22">y gwnaethai yn erbyn Thomas John, yn gystal ag
+   </lb> 
+   <lb n="23">yn erbyn Samuel Griffiths? Attebodd yntef \yntau\, mai
+   </lb> 
+   <lb n="24">cael ei yru a 'i hudo i hyny a wnaethai ef, trwy 
+   </lb>
+   <lb n="24-25">addewidion
+   </lb>
+   <lb n="25">
+    mawrion o wobrwyau, esmwythder, &amp;c.
+   </lb> 
+   <lb n="26">Ac a chwanegodd \ychwanegodd\, fod yr addewidion a wnaethid
+   </lb> 
+   <lb n="27">iddo mor d&ecirc;g, ac mor hudoliaethus, nad oedd ddim
+   </lb> 
+   <lb n="28">yn bosibl i gig a gwaed eu gwrthsefyll.
+   
+   </lb> 
+   <lb n="29">Y mae 'n debyg i feddyliau Siarl Prudhome fyned
+   </lb> 
+   <lb n="30">yn dra aflonydd a chythryblus o dautu \oddeutu\ yr amser yma,
+   </lb> 
+   <lb n="31">fel nas gallsai ef lai n&acirc; s&ocirc;n wrth amryw am y 
+   </lb>
+   <lb n="31-32">camwedd
+   </lb>
+   <lb n="32">
+    echrydus y buasai efe yn euog ohono tu ag at
+   y</lb> 
+   <lb n="33"> Carcharorion. &#8212; Gwnaeth gyfaddefiad hynod yn \ym\
+   </lb> 
+   <lb n="34">mherthynas i Thomas John, wrth ddau o 'r bobl yn
+   </lb> 
+   <lb n="35">y Castell, ar y 27, o Orphenhaf, yr hwn a 
+   </lb>
+   <lb n="35-36">ysgrifenwyd
+   </lb>
+   <lb n="36">
+    gan un ohonynt o 'i enau ef, ac a arwyddwyd
+   </lb> 
+   <lb n="37">ganddo ef, a chan y ddau wr, fel tystion, ac a 
+   </lb>
+   <lb n="37-38">anfonwyd
+   </lb>
+   <lb n="38">
+    gwedi'n \gwedyn\ ar ei ddymuniad ef i 'r Carcharor.
+   </lb> 
+   <lb n="39">Papuryn lled hir ydyw. Y mae yr hyn a ganlyn \VBPI-3SG\ yn
+   
+   
+   </lb>
+   </pb>
+   <pb n="24.">
+   
+    
+   <lb n="1">gyfieithiad ffyddlon o 'i ddechreu, ac o 'r rhan gyntaf
+   </lb> 
+   <lb n="2">ohono.
+   
+   
+   
+   
+   </lb>
+   </pb>
+   <pb n="27.">
+   
+    
+   <lb n="13">Derbyniodd Samuel Griffiths hefyd, o dautu \oddeutu\ yr
+   </lb> 
+   <lb n="14">un amser, oddi wrth Siarl, lythyrau tra chyffelyb i 'r
+   </lb> 
+   <lb n="15">rhai uchod; yn ei gyfiawnhau yntef \yntau\ oddi wrth y
+   </lb> 
+   <lb n="16">cyhuddiadau yr oedd yn gorwedd danynt, ac yn
+   </lb> 
+   <lb n="17">cyfaddef mai anudon a dyngasid yn ei erbyn.
+   
+   </lb> 
+   <lb n="18">Dechreuodd s&#373;n am hyn fyned allan yn lled 
+   </lb>
+   <lb n="18-19">ebrwydd,
+   </lb>
+   <lb n="19">
+    er syndod a llawenydd i lawer, ond er braw
+   </lb> 
+   <lb n="20">a blinder nid bychain i 'r pum anghenfil, a 'u 
+   </lb>
+   <lb n="20-21">tylwyth
+   </lb>
+   <lb n="21">
+     \.\ &#8212; Daethant yn fuan i 'r castell, yn dra blin a
+   </lb> 
+   <lb n="22">brawychus eu gwedd, i edrych a oedd y peth yn
+   </lb> 
+   <lb n="23">wir, ac i ymofyn pwy a enwasai Siarl, fel y rhai a 'i
+   </lb> 
+   <lb n="24">gosodasent ef ar waith, ac a addawsent wobrau iddo.
+   </lb> 
+   <lb n="25">&#8212; "A enwodd ef fi?" meddai un &#8212; "A enwodd ef
+   </lb> 
+   <lb n="26">finnau?" meddai 'r llall. "A soniodd ef ddim am
+   </lb> 
+   <lb n="27">danaf \amdanaf\ finneu? meddai 'r trydydd, &amp;c. &amp;c. &#8212; Wedi
+   </lb> 
+   <lb n="28">casglu yr hyn a allent am y matter, oddi wrth y
+   </lb> 
+   <lb n="29">dyledwyr, a 'r carcharorion eraill, a 'r lleill o 'r bobl
+   </lb> 
+   <lb n="30">yn y castell, hwy a alwasant Siarl attynt i 
+   </lb>
+   <lb n="30-31">ystafell
+   </lb>
+   <lb n="31">
+    neillduol \neilltuol\ yno, a chwedi ymddiddan &acirc;g ef dros
+   </lb> 
+   <lb n="32">ryw ennyd o amser, hwy a aethant ymaith, gyd &acirc;
+   </lb> 
+   <lb n="33">phob ymddangosiad o anesmwythder a chythrwfl
+   </lb> 
+   <lb n="34">meddwl. &#8212; Ar droion \droeon\, o 'r blaen, pan y byddent yn
+   </lb> 
+   <lb n="35">dyfod i ymweled &acirc; 'r Ffrancod, yr hyn a wnai rhyw
+   
+   
+   </lb>
+   </pb>
+   <pb n="28.">
+   
+    
+   <lb n="1">rai ohonynt yn dra mynych, byddai y dyledwyr
+   </lb> 
+   <lb n="2">ac eraill yn eu clywed yn serchiadol gefnogi Siarl,
+   </lb> 
+   <lb n="3">gan ddweud wrtho, y gallai ef fod yn gwbl hyderus
+   </lb> 
+   <lb n="4">y caffai ef y cyfan oll ar \o 'r\ a addawsid iddo. Byddid
+   </lb> 
+   <lb n="5">hefyd yn arferol o lafaru \lefaru\ yn yr un llais, yn 
+   </lb>
+   <lb n="5-6">ffrangeg,
+   </lb>
+   <lb n="6">
+    wrth y lleill, ond gan nad oedd y 
+   </lb>
+   <lb n="6-7">gwrandawyr
+   </lb>
+   <lb n="7">
+    yn dyall \deall\ yr iaith hono, ni allent hwy ddim 
+   </lb>
+   <lb n="7-8">dywedyd
+   </lb>
+   <lb n="8">
+    yn neillduol \neilltuol\ beth fyddai yn cael ei ddweud.
+   </lb> 
+   <lb n="9">&#8212; Darfu i 'r Serjeant Major, Binet, yr un 
+   </lb>
+   <lb n="9-10">mwyaf
+   </lb>
+   <lb n="10">
+    tebyg o neb ohonynt i ddyn onest ac 
+   </lb>
+   <lb n="10-11">anrhydeddus,
+   </lb>
+   <lb n="11">
+    addef fod addewidion mawrion wedi cael eu
+   </lb> 
+   <lb n="12">gwneuthur, a bod papur neu ysgrifen o sicrh&acirc;d o 'r
+   </lb> 
+   <lb n="13">cyfryw addewidion wedi cael ei haddo, a 'u bod hwy
+   </lb> 
+   <lb n="14">yn dysgwyl \disgwyl\ ei chael cyn y Sessiwn.
+   
+   </lb> 
+   <lb n="15">Ryw bryd ar ol amseriad y llythyrau uchod, 
+   </lb>
+   <lb n="15-16">dygwyddodd
+   </lb>
+   <lb n="16">
+    \digwyddodd\ i 'r Ffrancod fyned ryw beth yn fwy 
+   </lb>
+   <lb n="16-17">afreolus
+   </lb>
+   <lb n="17">
+    n&acirc;g arferol, fel y gorfu ar geidwad y 
+   </lb>
+   <lb n="17-18">carchar
+   </lb>
+   <lb n="18">
+    eu cau hwy i mewn, a gosod milwyr yn 
+   </lb>
+   <lb n="18-19">warcheidwaid
+   </lb>
+   <lb n="19">
+    arnynt; yr hyn a 'u cynhyrfodd 
+   </lb>
+   <lb n="19-20">hwythau
+   </lb>
+   <lb n="20">
+    i fod yn fwy anllywodraethus n&acirc;g o 'r blaen,
+   </lb> 
+   <lb n="21">a sicrhau y drysau lle y cauasid hwynt oddi fewn, a
+   </lb> 
+   <lb n="22">phallu atteb ac agorid \agoryd\ eu drysau pan y galwyd ac
+   </lb> 
+   <lb n="23">yr archwyd iddynt: yn gymmaint ag y gorfu ar
+   </lb> 
+   <lb n="24">y milwyr, o 'r diwedd, i dano i mewn attynt, tu ag
+   </lb> 
+   <lb n="25">at beri iddynt ufuddhau ac ymostwng; yr hyn a
+   </lb> 
+   <lb n="26">wnaethant gwedi'n \gwedyn\ yn lled ebrwydd. A darfu i 'r
+   </lb> 
+   <lb n="27">milwyr, ar hyny, eu sicrhau hwynt yn dra diogel,
+   </lb> 
+   <lb n="28">fel na bae \bai\ iddynt droseddu a therfysgu yn yr 
+   </lb>
+   <lb n="28-29">unrhyw,
+   </lb>
+   <lb n="29">
+    neu gyffelyb fodd drachefn. Ond pan y 
+   </lb>
+   <lb n="29-30">dyallodd
+   </lb>
+   <lb n="30">
+    \deallodd\ rhai o 'r peneithiaid \penaethiaid\ am y pethau hyn, hwy a
+   </lb> 
+   <lb n="31">ddaethant yn ddiattreg i 'r castell, a chwedi ceryddu
+   </lb> 
+   <lb n="32">y milwyr, hwy a ryddhauasant y Ffrancod, gan 
+   </lb>
+   <lb n="32-33">ddweud
+   </lb>
+   <lb n="33">
+    yn d&ecirc;g wrthynt, a rhoddi iddynt arian, ac erchi
+   </lb> 
+   <lb n="34">i 'r milwyr yn dra llym na chydgament i arfer un
+   </lb> 
+   <lb n="35">math o erwindeb tu ag attynt mwyach. &#8212; Ond aeth
+   </lb> 
+   <lb n="36">yr holl diriondeb a 'r addfwynder ffugiol yma ei \i\ gyd
+   </lb> 
+   <lb n="37">yn ofer ar Siarl Prudhome, yn gymmaint ag y 
+   </lb>
+   <lb n="37-38">parhaodd
+   </lb>
+   <lb n="38">
+    ef, yn dra diysgog, mae 'n debyg, yn ei 
+   
+   </lb>
+   </pb>
+   <pb n="28-29.">
+   <lb n="38-1">amcan
+   </lb>
+   </pb>
+   <pb n="29.">
+   <lb n="1">
+    i beidio tyngu dim anudon mwyach yn erbyn
+   </lb> 
+   <lb n="2">y ddau garcharor.
+   
+   </lb> 
+   <lb n="3">Yr oedd y Sessiwn erbyn hyn yn agoshau, ac
+   </lb> 
+   <lb n="4">wrth y drws, a golwg yr holl wlad ar achos y ddau
+   </lb> 
+   <lb n="5">garcharor, i edrych beth a fyddai ei ddibendod. Ni
+   </lb> 
+   <lb n="6">fu erioed yn Nghymru ddysgwyliad \ddisgwyliad\ mwy prysur a
+   </lb> 
+   <lb n="7">chyffredinol am derfyniad unrhyw gynghaws neu
+   </lb> 
+   <lb n="8">achos mewn brawdle. &#8212; Prydnhawn dydd Llun y
+   </lb> 
+   <lb n="9">pedwarydd o Fedi, 1797, dygwyd y ddau wr i 'r
+   </lb> 
+   <lb n="10">frawdle, a chyflawnwyd arnynt y ddefod arferol a
+   </lb> 
+   <lb n="11">rhagflaenol o gyhoedd gyhuddiad. (Arraignment.)
+   </lb> 
+   <lb n="12">Amlygwyd hefyd, yr un pryd, y byddai i 'w
+   </lb> 
+   <lb n="13">cynghaws, neu eu treial, gymmeryd lle y dydd
+   </lb> 
+   <lb n="14">Iau canlynol. &#8212; Y dadleuwyr dros y goron oedd
+   </lb> 
+   <lb n="15">pen dirprwywr yr ardal, Philipps; Dauncey;
+   </lb> 
+   <lb n="16">Touchet; a 'r Sergeant Williams: A 'r rhai dros y
+   </lb> 
+   <lb n="17">carcharorion, Mills, a Blackstone. Y dirprwywyr,
+   </lb> 
+   <lb n="18">(Attorneys) Richard Foley, a John Lort Philipps;
+   </lb> 
+   <lb n="19">y cyntaf dros y goron, a 'r llall dros y carcharorion.
+   </lb> 
+   <lb n="20">Ymddygodd yr olaf yn ei orchwyliaeth mor hynod
+   </lb> 
+   <lb n="21">a chanmoladwy, fel nas gallai y dadleuwr Mills lai
+   </lb> 
+   <lb n="22">n&acirc; thystio ar gyhoedd yn y frawdle, nas gwelsai ef
+   </lb> 
+   <lb n="23">trwy holl ysdod \ystod\ ei fywyd achos gwedi ei barotoi \baratoi\ a 'i
+   </lb> 
+   <lb n="24">drefnu gyd &acirc; mwy o degwch, prydferthwch, gofal
+   </lb> 
+   <lb n="25">a doethineb.
+   
+   </lb> 
+   <lb n="26">Agorwyd y llys yn foreu \fore\ iawn dydd Iau, a 
+   </lb>
+   <lb n="26-27">gosodwyd
+   </lb>
+   <lb n="27">
+    Thomas John ger bron tu ag at gymmeryd
+   </lb> 
+   <lb n="28">ei dreial yn gyntaf. Wrth ddewis y rheithwyr neu
+   </lb> 
+   <lb n="29">y cwest, cafodd llawer iawn ohonynt eu gwrthod,
+   </lb> 
+   <lb n="30">rhai gan y goron, ond y rhan fwyaf gan y carcharor.
+   </lb> 
+   <lb n="31">Yr hyn a barodd i 'r carcharor wrthod cynnifer
+   </lb> 
+   <lb n="32">oedd, ei fod wedi dyall \deall\ eu bod eiswys \eisoes\ gwedi rhag</lb> 
+   <lb n="33">farnu ei achos, a rhai wedi llwyr fwriadu, os 
+   </lb>
+   <lb n="33-34">byddent
+   </lb>
+   <lb n="34">
+    ar y cwest, i 'w draddodi ef i ddistryw, trwy ei
+   </lb> 
+   <lb n="35">ddwyn ef i mewn yn euog, bydded euog neu 
+   </lb>
+   <lb n="35-36">beidio.
+   </lb>
+   <lb n="36">
+    &#8212; Dyma, ddarllenydd hynaws, effaith echryslon
+   </lb> 
+   <lb n="37">y gwaith melldigedig \melltigedig\ o ragfarnu ein cymmydogion \cymdogion\
+   </lb> 
+   <lb n="38">cyhuddedig, neu eu barnu hwy cyn yr amser &#8212;
+   </lb> 
+   <lb n="39">Gwaith a fu mor gyffredin yn Nghymru y 
+   
+   </lb>
+   </pb>
+   <pb n="29-30.">
+   <lb n="39-1">tymmor
+   </lb>
+   </pb>
+   <pb n="30.">
+   <lb n="1">
+    diweddaf, yn mysg \ymysg\ lluoedd o broffeswyr yn
+   </lb> 
+   <lb n="2">gystal a rhai dibroffes.
+   
+   </lb> 
+   <lb n="3">Wedi gwneud i fynu y Cwest, Hugh Barlow,
+   </lb> 
+   <lb n="4">Esq. &amp;c. &amp;c. Darllenwyd y Cyhuddg&#373;yn, 
+   </lb>
+   <lb n="4-5">(Indictment,)
+   </lb>
+   <lb n="5">
+    gan Richard Foley. Yr oedd y papur hwn
+   </lb> 
+   <lb n="6">yn galw Thomas John yn ddyn o Lanwnda, er ei
+   </lb> 
+   <lb n="7">fod ef yn byw lawer o filldiroedd \filltiroedd\ oddi yno. Yr oedd
+   </lb> 
+   <lb n="8">wedi ei eirio trwyddo yn hytrach yn fwy tywyll ac
+   </lb> 
+   <lb n="9">anniben n&acirc; chyffredin &#8212; yr oedd yn cynnwys 
+   </lb>
+   <lb n="9-10">amryw
+   </lb>
+   <lb n="10">
+    o ganghenau cyhuddol (Counts,) megis, 1. 
+   </lb>
+   <lb n="10-11">Ddarfod
+   </lb>
+   <lb n="11">
+    i 'r Carcharor fyned at y gelynion dydd Iau y
+   </lb> 
+   <lb n="12">23 o Chwefror, drannoeth y dydd y tiriasent, a rhoi
+   </lb> 
+   <lb n="13">copinod a hyspysrwydd \hysbysrwydd\ iddynt ynghylch nifer, ac
+   </lb> 
+   <lb n="14">arfau, a nerth, a dyscyblaeth \disgyblaeth\ ein milwyr ni, ac 
+   </lb>
+   <lb n="14-15">ynghylch
+   </lb>
+   <lb n="15">
+    y trefydd a 'r lleoedd oddi amgylch yn y
+   </lb> 
+   <lb n="16">wlad, ynghyd &acirc; thueddiadau a thymherau y 
+   </lb>
+   <lb n="16-17">trigolion.
+   </lb>
+   <lb n="17">
+    &#8212; Hefyd, ei fod ef gyd &acirc; hwy amryw weithiau
+   </lb> 
+   <lb n="18">y dydd hwnw, (a 'r dydd o 'r blaen hefyd,) yn eu
+   </lb> 
+   <lb n="19">cysuro, eu cefnogi, a 'u cynnorthwyo hwynt &#8212; ac
+   </lb> 
+   <lb n="20">iddo fyned yno, hefyd, dydd Gwener, i gynghori y
+   </lb> 
+   <lb n="21">Ffrancod i beidio a rhoi eu harfau i lawr, eithr i
+   </lb> 
+   <lb n="22">fyned yn mlaen \ymlaen\ &acirc; 'u hamcan, ac ymladd &acirc; 'n pobl ni
+   </lb> 
+   <lb n="23">&#8212; ac iddo fyned yno eilwaith, yr un dydd, gwedi
+   </lb> 
+   <lb n="24">clywed eu bod ar fedr rhoi eu harfau i lawr, i 'w 
+   </lb>
+   <lb n="24-25">perswadio
+   </lb>
+   <lb n="25">
+    hwy yn erbyn hyny, &amp;c. &#8212; Wedi darllen
+   </lb> 
+   <lb n="26">y Cyhuddg&#373;yn, dechreuodd y dadleuwr 
+   </lb>
+   <lb n="26-27">Dauncey,
+   </lb>
+   <lb n="27">
+    trwy ei ail-adrodd a gwneud sylwiadau arno. &#8212;
+   </lb> 
+   <lb n="28">Ar ei ol ef gwnaeth Philipps, y pen-dirprwywr, 
+   </lb>
+   <lb n="28-29">araeth
+   </lb>
+   <lb n="29">
+    \araith\ led hir, yn yr hon y dangosodd efe pa fodd y
+   </lb> 
+   <lb n="30">daethai y Ffrancod i ddatguddio bradwriaeth y 
+   </lb>
+   <lb n="30-31">Carcharor,
+   </lb>
+   <lb n="31">
+    a pha ryw bethau oedd y rhai hyny y darfuasai
+   </lb> 
+   <lb n="32">iddynt hwy ei gyhuddo ef amdanynt. Sef rhyw 
+   </lb>
+   <lb n="32-33">bethau
+   </lb>
+   <lb n="33">
+    lled debyg i 'r hyn a gawsai ef grybwyll yn y 
+   </lb>
+   <lb n="33-34">cyhuddg&#373;yn.
+   </lb>
+   <lb n="34">
+    &#8212; Sonodd \Soniodd\ ef hefyd am y mawr fanteision
+   </lb> 
+   <lb n="35">oedd y Carcharor wedi eu cael, megis, cael ei dreio neu
+   </lb> 
+   <lb n="36">ei farnu yno gerllaw gartref, lle y gallai ddwyn ei
+   </lb> 
+   <lb n="37">dystion wrth ychydig gost; cael dadleuwyr 
+   </lb>
+   <lb n="37-38">dysgedig
+   </lb>
+   <lb n="38">
+    i 'w gynorthwyo; cael cenad i wrthod 
+   </lb>
+   <lb n="38-39">cynnifer
+   </lb>
+   <lb n="39">
+    o enwau, yn newisiad y rheithwyr; a chael
+   
+   
+   </lb>
+   </pb>
+   <pb n="31.">
+   
+    
+   <lb n="1">copi o 'r Cyhuddg&#373;yn, &amp;c. &#8212; Yna, eb efe, "Mi
+   </lb> 
+   <lb n="2">chwennychwn ofyn i 'r gwyr hyny, sydd yn beio ar
+   </lb> 
+   <lb n="3">ein deddfau, y rhai nis gall un brenin eu 
+   </lb>
+   <lb n="3-4">llywodraethu,
+   </lb>
+   <lb n="4">
+    nac un Duw eu boddio, pa le yn yr holl fyd
+   </lb> 
+   <lb n="5">y gallsent gael y fath dreial?" Darfu iddo ef gwedi'n \gwedyn\
+   </lb> 
+   <lb n="6">roi siars i 'r rheithwyr i 'w rhyddhau, yn enw Duw,
+   </lb> 
+   <lb n="7">os gallent edrych arno yn ddieuog; ond, os amgen,
+   </lb> 
+   <lb n="8">y dylent, yn ddilai, ei fwrw yn euog, rhag bod yn
+   </lb> 
+   <lb n="9">achos i eraill i ddilyn ei siampl \esiampl\; a thrwy hyny
+   </lb> 
+   <lb n="10">ddwyn ar eu penau eu hunain yr holl waed 
+   </lb>
+   <lb n="10-11">gwirion
+   </lb>
+   <lb n="11">
+    a gaffai yn ganlynol ei dywallt, ac er eu 
+   </lb>
+   <lb n="11-12">coffadwriaeth
+   </lb>
+   <lb n="12">
+    felldith \felltith\ eu gwlad dros byth.
+   
+   </lb> 
+   <lb n="13">Gwedi hyn holwyd yr arlwydd Cawdor, gan y
+   </lb> 
+   <lb n="14">sergeant Williams, pan y rhoes \rhoddodd\ ef hanes y cyfan a
+   </lb> 
+   <lb n="15">wyddai am y Ffrancod oddiar eu tiriad hyd yr amser
+   </lb> 
+   <lb n="16">y rhoisant \rhoddasant\ i lawr eu harfau. Ond dywedodd na
+   </lb> 
+   <lb n="17">anfon'sai \anfonasai\ ef ddim o 'r Carcharor ar unrhyw neges at
+   </lb> 
+   <lb n="18">y Ffrancod y dydd y bwriasant i lawr eu harfau.
+   </lb> 
+   <lb n="19">Darfu iddo ddweud hyn, am fod y carcharor wedi
+   </lb> 
+   <lb n="20">meddwl unwaith mai efe a 'i danfon'sai ef y boreu
+   </lb> 
+   <lb n="21">hwnw; ond dyallasai \deallasai\ gwedi hyny, mai nid efe eithr
+   </lb> 
+   <lb n="22">y major Auckland ydoedd.
+   
+   </lb> 
+   <lb n="23">Ar ei ol ef galwyd a thyngwyd Siarl Prudhome.
+   </lb> 
+   <lb n="24">Holwyd ef gan y Dadleuwr Touchet. Dywedodd
+   </lb> 
+   <lb n="25">ei eni yn America &#8212; mai morwr ydoedd &#8212; ac iddo
+   </lb> 
+   <lb n="26">dirio gyd &acirc; llu y Ffrancod. Gofynwyd, A welsai ef
+   </lb> 
+   <lb n="27">neb Saison \Saeson\ yn y gwersyll, Ddydd Iau? &#8212; Attebodd,
+   </lb> 
+   <lb n="28">Nad oedd ef ddim yn cofio yn awr; ac nad oedd
+   </lb> 
+   <lb n="29">ganddo ddim i ddweud. Gofynwyd iddo yn 
+   </lb>
+   <lb n="29-30">mhellach
+   </lb>
+   <lb n="30">
+    \ymhellach\, A welsai ef ddim o 'r Carcharor y dydd hwnw?
+   </lb> 
+   <lb n="31">Attebodd, Nad oedd ganddo ddim i ddweud,
+   </lb> 
+   <lb n="32">bryd hyny, ac na ddwedai \ddywedai\ ef ddim cyn y caffai y
+   </lb> 
+   <lb n="33">Ffrancod eu holi. Gwnaed \Gwnaethpwyd\ cynnyg \cynnig\, gwedi'n \gwedyn\, 
+   </lb>
+   <lb n="33-34">amryw
+   </lb>
+   <lb n="34">
+    weithiau i beri iddo atteb rhyw gwestiynau 
+   </lb>
+   <lb n="34-35">eraill;
+   </lb>
+   <lb n="35">
+    ond darfu iddo ef, o hyd, ballu atteb, gan erchi,
+   </lb> 
+   <lb n="36">fel o 'r blaen, i holi y Ffrancod, ac na ddwedai \ddywedai\ ef
+   </lb> 
+   <lb n="37">ddim cyn clywed beth a fyddai iddynt hwy ei
+   </lb> 
+   <lb n="38">dystio. Gan ei fod yn parhau felly i ballu atteb a
+   
+   
+   </lb>
+   </pb>
+   <pb n="32.">
+   
+    
+   <lb n="1">dwyn ei dystiolaeth, gorchymynodd \gorchmynodd\ y barnwr ei
+   </lb> 
+   <lb n="2">anfon ef yn union i garchor.
+   
+   </lb> 
+   <lb n="3">Ar ei ol ef rhoed \rhoddwyd\ R. \R\ Foley ar ei lw, yr hwn a
+   </lb> 
+   <lb n="4">adroddodd pa fodd yr aethai i farchnad Abergwaun
+   </lb> 
+   <lb n="5">y nawfed dydd o Fawrth diweddaf, ac y cymmerasai
+   </lb> 
+   <lb n="6">i fynu y Carcharor yno. Ac hefyd ddarfod i 'r 
+   </lb>
+   <lb n="6-7">Carcharor,
+   </lb>
+   <lb n="7">
+    pan oedd dan holiad, ddweud y gallai ef
+   </lb> 
+   <lb n="8">ddwyn digon o dystion i wrth brofi y cwbl a gawsai
+   </lb> 
+   <lb n="9">ei osod yn ei erbyn, ac i brofi allfan (Alibi,) yn 
+   </lb>
+   <lb n="9-10">erbyn
+   </lb>
+   <lb n="10">
+    tystiolaeth y Ffrancod; ond iddo yntef \yntau\ (Foley)
+   </lb> 
+   <lb n="11">ddweud wrtho ei fod yn meddwl na fyddai hyny
+   </lb> 
+   <lb n="12">ddim bryd hyny yn iawn, a 'i anog i ymgynhori &acirc; 'i
+   </lb> 
+   <lb n="13">gyfreithwr ar yr achos.
+    
+   </lb> 
+   <lb n="14">Lhanhard yr aid du camp, ac un o wyr y llwyau
+   </lb> 
+   <lb n="15">arian, oedd y nesaf a roed \roddwyd\ ar ei lw, ac a holwyd. Yr
+   </lb> 
+   <lb n="16">oedd ei dystiolaeth ef yn dra anghysson, a chelwydd
+   </lb> 
+   <lb n="17">wedi ei argraphu ar ei thalcen; ond yr oedd ef yn
+   </lb> 
+   <lb n="18">myned yn ei flaen yn dra dibryder, hyderus, a
+   </lb> 
+   <lb n="19">haerllug, nes y darfu i Mills, wrth ei groes holi,
+   </lb> 
+   <lb n="20">ddangos ac estyn iddo un o 'r llwyau arian. Cadd \Cafodd\
+   </lb> 
+   <lb n="21">hyn effaith amlwg arno, a thorodd getyn mawr o
+   </lb> 
+   <lb n="22">gr&icirc;b ei haerllygrwydd ef. Addefodd ei fod gwedi
+   </lb> 
+   <lb n="23">gweled y llwy hono o 'r blaen, a 'i fod yn ei chofio
+   </lb> 
+   <lb n="24">wrth yr arfau oedd yn gerfiedig arni, a bod Siarl
+   </lb> 
+   <lb n="25">wedi dweud mai efe a 'i dygasai, neu a 'i lladratasai
+   </lb> 
+   <lb n="26">hi. Ond haerodd mai nid dyn geirwir oedd Siarl,
+   </lb> 
+   <lb n="27">ac na ddylid dim coelio gair a ddwedai \ddywedai\ ef, hyd yn
+   </lb> 
+   <lb n="28">oed ar ei lw.
+   
+   </lb> 
+   <lb n="29">Y tyst nesaf a ddaeth dan holiad oedd Binet, y
+   </lb> 
+   <lb n="30">Sergeant Major. Dywedodd iddo weled 
+   </lb>
+   <lb n="30-31">llaweroedd
+   </lb>
+   <lb n="31">
+    o bobl y wlad o ddautu \oddeutu\ 'r gwersyll boreu \bore\ y dydd
+   </lb> 
+   <lb n="32">y bwriasant hwy eu harfau i lawr &#8212; a 'i fod yn cofio
+   </lb> 
+   <lb n="33">iddo weled y carcharor y boreu \bore\ hwnw ar y ffordd
+   </lb> 
+   <lb n="34">fel yr oeddent yn myned o 'r gwersyll i draeth 
+   </lb>
+   <lb n="34-35">Gwdic,
+   </lb>
+   <lb n="35">
+    ac iddo hefyd ei weled ef a Prudhome yn siarad
+   </lb> 
+   <lb n="36">&acirc; 'u gilydd. &#8212; Wrth ei groes holi gan Blackstone, efe
+   </lb> 
+   <lb n="37">a ddywedodd, fod torfeydd o bobl y wlad yn 
+   </lb>
+   <lb n="37-38">amgylchu
+   </lb>
+   <lb n="38">
+    eu colofnau, neu eu byddin hwy, tra yr
+   </lb> 
+   <lb n="39">oeddent yn myned o 'r gwersyll i 'r traeth; ac mai ar
+   </lb> 
+   <lb n="40">eu mynediad hwy, bryd hyny, y bu 'r ymddiddan
+   
+   
+   </lb>
+   </pb>
+   <pb n="33.">
+   
+    
+   <lb n="1">rhwng Siarl a 'r Carcharor; a 'u bod yn \yng\ ngolwg
+   </lb> 
+   <lb n="2">Abergwaun a thraeth Gwdic, yn y cyfamser.
+   
+   </lb> 
+   <lb n="3">Claude Meillie, tal-filwr, oedd y nesaf a 
+   </lb>
+   <lb n="3-4">dyngwyd;
+   </lb>
+   <lb n="4">
+    ond pallodd ef gymmeryd ei holi, gan ddweud
+   </lb> 
+   <lb n="5">ei fod yn golygu y byddai hyny yn drosedd ar 
+   </lb>
+   <lb n="5-6">gyfreithiau
+   </lb>
+   <lb n="6">
+    ei wlad.
+   
+   </lb> 
+   <lb n="7">Francois Ashet, un arall o 'r tal-filwyr, a ddaeth
+   </lb> 
+   <lb n="8">gwedi'n \gwedyn\ dan holiad. Dywedodd iddo wel'd rhyw
+   </lb> 
+   <lb n="9">un ar geffyl melyn crop yn dyfod i 'r gwersyll, ond
+   </lb> 
+   <lb n="10">na wyddai ef pwy yn y byd oedd hwnw, ac na 
+   </lb>
+   <lb n="10-11">all'sai
+   </lb>
+   <lb n="11">
+    ef ddim dweud yr adnabydd'sai efe ef pe 
+   </lb>
+   <lb n="11-12">gwel'sai
+   </lb>
+   <lb n="12">
+    efe ef drachefn.
+   
+   </lb> 
+   <lb n="13">Ar ol hwn galwyd Gaspard Degouij, Corporal;
+   </lb> 
+   <lb n="14">ond pallodd ef gymmeryd ei lw, gan ddweud, mai
+   </lb> 
+   <lb n="15">i ymladd, ac nid i dyngu y daethai ef i 'r wlad hon,
+   </lb> 
+   <lb n="16">ac na attebai ef neb o 'u cwestiwnau \cwestiynau\.
+   
+   </lb> 
+   <lb n="17">Ar hyn, cododd y pen-dirprwywr, Philipps, ac
+   </lb> 
+   <lb n="18">a ddywedodd, ei fod wedi ymgynghori &acirc; 'r 
+   </lb>
+   <lb n="18-19">dadleuwyr
+   </lb>
+   <lb n="19">
+    eraill o 'r un ochr ag ef, ac oddieithr i Siarl
+   </lb> 
+   <lb n="20">Prudhome gael ei ddwyn i mewn drachefn, ei fod
+   </lb> 
+   <lb n="21">ef yn teimlo mai ei ddyledswydd \ddyletswydd\ ef oedd rhoi i fynu 'r
+   </lb> 
+   <lb n="22">achos, a gadael y carcharor i gael ei ryddhau &#8212;
+   </lb> 
+   <lb n="23">Ond fod yn rhaid fod rhyw ymhel wedi bod &acirc; 'r 
+   </lb>
+   <lb n="23-24">tystion.
+   </lb>
+   <lb n="24">
+   
+   
+   </lb> 
+   <lb n="25">Areithiodd y barnwr gwedi'n \gwedyn\ i 'r llys, i 'r cwest
+   </lb> 
+   <lb n="26">neu y rheithwyr, ac i 'r gwrandawyr: a chwedi
+   </lb> 
+   <lb n="27">dweud fod yr achos yn awr wedi cael ei roddi fynu
+   </lb> 
+   <lb n="28">o du y goron, neu gan y canlynwyr, a siarad rhyw
+   </lb> 
+   <lb n="29">beth yn lled anhynaws, os nid yn iaith amlwg 
+   </lb>
+   <lb n="29-30">rhagfarn
+   </lb>
+   <lb n="30">
+    a siomedigaeth, ynghylch y carcharor, efe a 'i
+   </lb> 
+   <lb n="31">cynghorodd i fod yn fwy gofalus rhagllaw. 
+   </lb>
+   <lb n="31-32">Attebodd
+   </lb>
+   <lb n="32">
+    yntef \yntau\, na allai ef ddim addo hyny, gan ei fod yn
+   </lb> 
+   <lb n="33">meddwl iddo fod, hyd yn hyn, mor ofalus ag y 
+   </lb>
+   <lb n="33-34">gallasai,
+   </lb>
+   <lb n="34">
+    ac na wyddai ef yn mha beth yr oedd wedi 
+   </lb>
+   <lb n="34-35">troseddu.
+   </lb>
+   <lb n="35">
+    I 'r hyn yr attebodd y barnwr, nad oedd ef
+   </lb> 
+   <lb n="36">ddim yn dweud ei fod ef oll yn euog &#8212; nad oedd ef
+   </lb> 
+   <lb n="37">nac yn eu farnu nac yn ei gyfiawnhau &#8212; a 'i fod yn
+   </lb> 
+   <lb n="38">meddwl na allai y fath gynghor wneud iddo ef ddim
+   </lb> 
+   <lb n="39">niwaid, neu ryw beth i 'r perwyl hyny &#8212; a 'i fod
+   
+   
+   </lb>
+   </pb>
+   <pb n="34.">
+   
+    
+   <lb n="1">y sicr na chwanegai \ychwanegai\ y treial hwnw ddim at ei 
+   </lb>
+   <lb n="1-2">gymmeriad
+   </lb>
+   <lb n="2">
+    ef &#8212; Ei fod yn meddwl fod llawer o ddynion
+   </lb> 
+   <lb n="3">anffyddlon yn y wlad; ond nad oedd ef ddim yn
+   </lb> 
+   <lb n="4">dweud fod Thomas Jones yn un ohonynt &#8212; y dylai
+   </lb> 
+   <lb n="5">boneddigion y wlad ystyried, y dichon gelynion 
+   </lb>
+   <lb n="5-6">ddyfod
+   </lb>
+   <lb n="6">
+    i mewn iddi etto; a bod eu diogelwch hwy yn
+   </lb> 
+   <lb n="7">gofyn iddynt gael gwared o bawb o 'r dynion hyny
+   </lb> 
+   <lb n="8">nad ydynt serchogaidd. &#8212; Yr wyf o 'r un farn, eb efe,
+   </lb> 
+   <lb n="9">a 'r pen-dirprwywr, nad oes un wlad yn y byd lle y
+   </lb> 
+   <lb n="10">gallasai y carcharor gael y fath driniaeth dirion ag a
+   </lb> 
+   <lb n="11">gafodd ef yma. &#8212; Yn enw Duw, cerdded y dynion
+   </lb> 
+   <lb n="12">hyny sydd heb fod wrth eu bodd, eu \i\ gyd, yn union i
+   </lb> 
+   <lb n="13">maes o 'r wlad. &#8212; Dyma y fath rai yw yr holl 
+   </lb>
+   <lb n="13-14">bleidiau
+   </lb>
+   <lb n="14">
+    crefyddol, gwyr y cwrddau \cyrddau\ (Sectaries,) o 'u bron.
+   </lb> 
+   <lb n="15">&#8212; Y maent yn euog o 'r drygau mwyaf, yn myned
+   </lb> 
+   <lb n="16">oddiamgylch, ac ymdreiglo o fan i fan, ac yn anafu
+   </lb> 
+   <lb n="17">y bobl ar hyd y wlad, dan dynu ymaith, a dieithro
+   </lb> 
+   <lb n="18">eu serchiadau oddiwrth y gwyrboneddigion, y rhai
+   </lb> 
+   <lb n="19">yw eu cyfeillion a 'u hymgeleddwyr goreu hwynt. &#8212;
+   </lb> 
+   <lb n="20">Yn ddiau, Foneddigion, eb efe, chwi a ddylech 
+   </lb>
+   <lb n="20-21">ynmhob
+   </lb>
+   <lb n="21">
+    \ym mhob\ modd yn y byd i lethu, * neu lwyr 
+   </lb>
+   <lb n="21-22">ddarostwng
+   </lb>
+   <lb n="22">
+    y dynion hyn, onitte \onide\ chwi a gewch brofi yn
+   </lb> 
+   <lb n="23">fuan eich bod wedi coleddu gwiberod yn eich 
+   </lb>
+   <lb n="23-24">mynwesau,
+   </lb>
+   <lb n="24">
+    i 'ch dinystr \dinistr\ eich hunain. Pa drugaredd a 
+   </lb>
+   <lb n="24-25">ddysgwyliwch
+   </lb>
+   <lb n="25">
+    \ddisgwyliwch\ chwi  \ei\ gael, neu yn mha ryw gyflwr y bydd
+   </lb> 
+   <lb n="26">pethau, pan y delo y dynion yma i gael y llaw
+   </lb> 
+   <lb n="27">drechaf? Ebrwydd y bydd raid i hyn i fod os na
+   </lb> 
+   <lb n="28">chydunwch chwi i ymroi i lethu * y dynion hyn
+   </lb> 
+   <lb n="29">cyn yr elont yn rhy alluog.
+   </lb> 
+   <lb n="30">Yn y gorchwyl hwn, eb yr ef yn mhellach \ymhellach\, bu,
+   </lb> 
+   <lb n="31">yn ddiau, ryw ymhel &acirc; 'r tystion &#8212; ymddygodd
+   </lb> 
+   <lb n="32">ceidwad y carchar, yn wir, yn dra anghymhwys &#8212;
+   </lb> 
+   <lb n="33">Os t&acirc;l \VBPI-3SG\ ei wneud, mi a fynwn i chwi dynu 
+   </lb>
+   <lb n="33-34">cyhuddg&#373;yn
+   </lb>
+   <lb n="34">
+    yn ei erbyn ef &#8212; os amgen, mi a gynghorwn
+   </lb> 
+   <lb n="35">i 'r Sirydd ei droi ef allan o 'i swydd.
+   
+   </lb> 
+   <lb n="36">Y fath, ddarllenydd, oedd sylwedd y rhan fwyaf
+   
+   
+   </lb> 
+   <lb n="37">Crush, oedd y gair a arferodd ef, yr hwn sydd yn
+   hytrach yn gryfach gair n&acirc; llethu.
+   
+   
+   </lb>
+   </pb>
+   <pb n="35.">
+   
+    
+   <lb n="1">o 'r araeth \araith\ hono. Ni chlywyd yn Nghymru ddim
+   </lb> 
+   <lb n="2">o 'i bath, nac yn Lloegr ychwaith, ond odid, er ys \ers\
+   </lb> 
+   <lb n="3">llawer dydd, a llawer blwyddyn faith. * &#8212; Duw
+   </lb> 
+   <lb n="4">a helpo holl wyr y cwrddau \cyrddau\, neu y Sectaries, fel y
+   </lb> 
+   <lb n="5">galwai ef hwynt, trwy Gymru, i fyw yn sobr, ac
+   </lb> 
+   <lb n="6">yn gyfiawn, ac yn dduwiol, yn y byd sydd yr awr
+   </lb> 
+   <lb n="7">hon; ac yna ni fydd dim achos i ddychrynu llawer
+   </lb> 
+   <lb n="8">rhag yr araeth \araith\ na 'r areithydd. &#8212; Ond y mae yn
+   </lb> 
+   <lb n="9">anhawdd \anodd\ gwybod, pa eiriau, neu ymadroddion a
+   </lb> 
+   <lb n="10">allasai fod yn fwy tebygol i ennyn llid y peneithiaid \penaethiaid\
+   </lb> 
+   <lb n="11">tu ag at y Sectaries, neu bobl y cwrddau \cyrddau\, ac i 'w
+   </lb> 
+   <lb n="12">cyffroi i godi erlidigaeth yn eu herbyn.
+   
+   </lb> 
+   <lb n="13">Parhaodd y Treial uchod tu a \tua\ chwech awr. &#8212;
+   </lb> 
+   <lb n="14">Daeth Treial Samuel Griffiths yn union ar ei ol;
+   </lb> 
+   <lb n="15">ond yr oeddid yn gweled yn amlwg, erbyn hyn,
+   </lb> 
+   <lb n="16">mai ofer fyddai bod yn hir wrth hwn, gan nad oedd
+   </lb> 
+   <lb n="17">un rheswm yn y byd i ddysgwyl \ddisgwyl\ y gwnelai y tystion
+   </lb> 
+   <lb n="18">un tipyn gwell gwaith yn awr n&acirc; 'r tro o 'r blaen.
+   </lb> 
+   <lb n="19">Felly, gwnaed \gwnaethpwyd\ dibendod lled fyr o 'r gorchwyl, a
+   </lb> 
+   <lb n="20">chafodd y carcharor ei ryddhau, fel y cawsai ei 
+   </lb>
+   <lb n="20-21">gydddyoddefwr,
+   </lb>
+   <lb n="21">
+    \gyd-ddioddefwr\ heb i 'r matter gael myned i ddwylaw
+   </lb> 
+   <lb n="22">y rheithwyr, neu y Cwest. Mor wan, mor w&acirc;g,
+   </lb> 
+   <lb n="23">mor ddyddim \ddiddim\, oedd y prawf o euogrwydd a allodd
+   </lb> 
+   <lb n="24">eu gelynion ei gael a 'i ddwyn yn eu herbyn, gwedi
+   </lb> 
+   <lb n="25">chwech neu saith mis o lafurus ymofyniad, a dibaid
+   </lb> 
+   <lb n="26">ymdrech! Ac mor berffaith oedd buddugoliaeth
+   </lb> 
+   <lb n="27">diniweidrwydd! Clod i Dduw am hyn. &#8212; Cadwed
+   </lb> 
+   <lb n="28">ef bawb ohonom byth, rhag i 'r fath greaduriaid a
+   </lb> 
+   <lb n="29">gelynion y ddau wr yma gael eu gw&#375;n arnom. 
+   </lb>
+   <lb n="29-30">Amser
+   </lb>
+   <lb n="30">
+    o berygl yw yr amser hwn: ac ni bu erioed fwy
+   </lb> 
+   <lb n="31">o achos i gadw yn ein cof y Cwestiwn apostolaidd,
+   </lb> 
+   <lb n="32">"Pwy a 'ch dryga \VBPI-3SG\ chwi, os byddwch yn dilyn yr
+   </lb> 
+   <lb n="33">hyn sydd dda?" 1 Pedr iii. 13.
+   
+   </lb> 
+   <lb n="34">Y mae yn awr fwy n&acirc; chan mlynedd oddiar amser
+   </lb> 
+   <lb n="35">yr arlwydd Ganghellwr Jeffreys. Gwr o Wynedd,
+   </lb> 
+   <lb n="36">nid pell iawn o Ddyffryn Clwyd, oedd ef.</lb></pb>
+   
+</text>
